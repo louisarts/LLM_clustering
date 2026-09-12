@@ -54,7 +54,7 @@ def barplot(summary, metric, title, outfile, show=True):
 
     beaten = int((d['delta'] > 0).sum())
     total = int(d['sota'].notna().sum())
-    full_title = f'{title} — {metric}: beats best published on {beaten}/{total}'
+    full_title = f'{title} | {metric}: beats best published on {beaten}/{total}'
 
     x = np.arange(len(d))
     width = 0.38
@@ -124,7 +124,7 @@ def baseline_comparison(algo, setting, metric, outfile, show=True):
     d = d.sort_values('display').reset_index(drop=True)
 
     up = int((d['delta'] > 0).sum())
-    full_title = (f'CritClust_{algo} vs same-encoder k-means — {metric}: '
+    full_title = (f'CritClust_{algo} vs same-encoder k-means | {metric}: '
                   f'improves on {up}/{len(d)} (mean {d["delta"].mean():+.2f})')
 
     x = np.arange(len(d))
@@ -208,7 +208,7 @@ def candidate_table(candidates, runs, title):
     share = (runs.winner.value_counts(normalize=True) * 100).round(1)
     share.index = [config.CAND_DISPLAY.get(c, c) for c in share.index]
 
-    print(f'\n{title} — candidate chosen, count over seeds')
+    print(f'\n{title}: candidate chosen, count over seeds')
     print(f'mean repair rounds kept: {runs.rounds_kept.mean():.2f}')
     return table, share.to_frame('share %')
 

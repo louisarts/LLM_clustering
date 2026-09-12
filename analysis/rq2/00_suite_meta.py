@@ -2,7 +2,7 @@
 """RQ2-clean stage 0: suite metadata for the 19 RQ1-clean benchmarks. Free, local.
 
 One row per benchmark: gold k (never shown to any method), corpus size, and the
-criterion sentence (verbatim from research_question_3_clean/criteria.json — the
+criterion sentence (verbatim from research_question_3_clean/criteria.json; the
 single criteria source shared with RQ1-clean and RQ3-clean).
 
 Writes results/suite_meta.csv.

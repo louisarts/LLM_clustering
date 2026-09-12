@@ -16,7 +16,7 @@ load_dotenv()
 # 'google'      TEMPORARY direct-Google mode: a Vertex/Gemini API key (AQ....)
 #               in OPENAI_API_KEY, hitting the Gemini API's OpenAI-compatible
 #               endpoint. NOTE: this key cannot access the 2.5 generation
-#               (gated for new accounts), so it runs gemini-3-flash-preview —
+#               (gated for new accounts), so it runs gemini-3-flash-preview,
 #               results produced in this mode come from a NEWER model
 #               generation than the cached 2.5-flash artifacts; documented in
 #               the project notes.
@@ -58,7 +58,7 @@ def ask_llm(prompt, max_tokens=2000, retries=4):
     """Send a prompt to the LLM and return its text response.
 
     Retries transient failures (rate limits, timeouts, gateway hiccups) with
-    exponential backoff — essential for long unattended runs, where a single
+    exponential backoff, essential for long unattended runs, where a single
     unhandled blip would otherwise crash a whole benchmark stage or silently
     poison a cache entry. Raises only after all attempts fail.
     """

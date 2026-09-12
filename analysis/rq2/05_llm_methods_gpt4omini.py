@@ -2,7 +2,7 @@
 """RQ2 gpt-4o-mini bed, stage 2: the six paid k-inference methods rerun with
 gpt-4o-mini as the LLM (~$20-30 projected; the RQ2 robustness replication).
 
-Method code is imported verbatim from 02_llm_methods.py — only the ask layer is
+Method code is imported verbatim from 02_llm_methods.py; only the ask layer is
 rebound to gpt-4o-mini (no reasoning mode: thinking calls become plain calls with
 the 16,384-token completion cap, mirroring the RQ1 gpt-4o-mini judge bed). Same
 grid, seeds, criteria, prompts, and embeddings as the Flash bed.
@@ -65,7 +65,7 @@ def retry_ask_4omini(prompt, thinking=False, tries=4):
     reply raises so the retry/sweep machinery treats it like the Flash bed did.
 
     Near the key's budget cap the gateway intermittently 429s concurrent bursts
-    ("Budget has been exceeded") while single calls still pass — those retries
+    ("Budget has been exceeded") while single calls still pass, and those retries
     wait long and get extra attempts instead of burning the normal backoff."""
     max_tokens = 16384 if thinking else 2000
     budget_429 = 0

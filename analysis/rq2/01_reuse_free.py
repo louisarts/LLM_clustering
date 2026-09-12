@@ -4,7 +4,7 @@
   codebook     k = category count of the judge's discovery-stage codebook. The ten
                "seeds" ARE the ten independent RQ1-clean judge runs (run 1 original +
                runs 2-10 replicates), each a fresh 300-doc sample through
-               build_codebook verbatim — so this method is RQ1's codebook
+               build_codebook verbatim, so this method is RQ1's codebook
                methodology by construction, not a reimplementation.
   judge_sweep  hybrid: MiniBatchKMeans at the shared candidate-k grid on the
                INSTRUCTOR (generic instruction) embeddings, each partition scored

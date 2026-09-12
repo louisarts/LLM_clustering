@@ -1,4 +1,4 @@
-# Meaning Over Geometry — CLEAR & the Codebook Judge
+# Meaning Over Geometry: CLEAR and the Codebook Judge
 
 **Criterion-driven text clustering and label-free evaluation with Large Language Models.**
 
@@ -15,10 +15,10 @@ Industry Exchange Network). It contains the two algorithms the thesis introduces
 dataset, result file and figure behind the thesis, and ready-to-use command-line tools so
 anyone can run both algorithms on their own corpus:
 
-- **The codebook judge** — scores any clustering of any corpus *without ground-truth labels*,
+- **The codebook judge** scores any clustering of any corpus *without ground-truth labels*,
   given only a one-sentence criterion ("cluster by customer intent"). Validated against
   human benchmark labels across 19 corpora and five judge LLMs (median Spearman ρ up to +0.93).
-- **CLEAR** (*Clustering with LLM Evaluation And Repair*) — clusters a corpus by a stated
+- **CLEAR** (*Clustering with LLM Evaluation And Repair*) clusters a corpus by a stated
   criterion: it builds eight candidate clusterings, lets the judge select the best, and
   repairs the boundary documents. Matches or beats published state-of-the-art
   LLM-in-the-loop methods on a fair share of the benchmark suite, at roughly one cent per
@@ -32,12 +32,12 @@ anyone can run both algorithms on their own corpus:
 
 ```
 ├── CLEAR_algo/          the CLEAR algorithm
-│   ├── run_clear.py     ► cluster your own corpus (CLI)
+│   ├── run_clear.py     CLI: cluster your own corpus
 │   ├── critclust/       the pipeline package (candidates, judge, repair, config)
 │   ├── scripts/         thesis study runners (all 19 benchmarks × 5 seeds)
 │   └── artifacts/       cached LLM artifacts (codebooks, references, repair) per run
 ├── codebook_judge/      the codebook judge, standalone
-│   ├── run_judge.py     ► score your own clustering (CLI)
+│   ├── run_judge.py     CLI: score your own clustering
 │   ├── judge.py         codebook discovery + document assignment (thesis §3.1)
 │   └── criteria.json    the 19 benchmark criterion sentences
 ├── analysis/            analysis code, one folder per research question
@@ -61,14 +61,14 @@ anyone can run both algorithms on their own corpus:
 
 ## What each part does
 
-### `CLEAR_algo/` — the CLEAR algorithm
+### `CLEAR_algo/`: the CLEAR algorithm
 | File / folder | Role |
 |---|---|
 | `run_clear.py` | **The user-facing CLI.** Clusters any CSV of documents by a stated criterion at a chosen `k`, writes cluster ids and LLM-chosen cluster names, prints the judge score. |
 | `critclust/config.py` | Every constant in one place: paths, the 19-benchmark roster, criterion loading, matched configurations per record holder, seeds, tie-break order, the budget guard ceiling. |
 | `critclust/data.py` | Benchmark loading, NMI/ACC scoring (Hungarian matching), and the gateway budget guard. |
 | `critclust/embeddings.py` | Embeds documents through the gateway or a local sentence-transformer, L2-normalises, memoises every matrix to `.npy` caches. |
-| `critclust/generation.py` | The paid LLM artifacts: criterion rewrites (batched), category exemplars, and the judge's reference labelling — all cached per corpus. |
+| `critclust/generation.py` | The paid LLM artifacts: criterion rewrites (batched), category exemplars, and the judge's reference labelling, all cached per corpus. |
 | `critclust/codebooks.py` | Codebook discovery prompts and parsing (the single-shot discovery the thesis uses, plus chunked fallbacks for small-context models). |
 | `critclust/llm.py` | Gateway plumbing: model binding, context-aware batch planning, the batched classification prompt with per-document fallback. |
 | `critclust/pools.py` | Builds the eight candidate clusterings (k-means / GMM / Ward / exemplar-initialised, over raw / rewritten / averaged spaces). |
@@ -78,39 +78,39 @@ anyone can run both algorithms on their own corpus:
 | `critclust/plots.py` | Shared plotting helpers and exact published-SOTA lookups used by the RQ4 notebook. |
 | `scripts/run_study.py`, `run_baseline.py` | Reproduce the thesis runs: CLEAR on all 19 benchmarks × 5 seeds, and the seed-paired k-means baseline. |
 | `scripts/selector_comparison.py`, `check_ready.py` | The selector-strategy analysis behind the judge-vs-oracle figure, and a preflight check that all inputs are in place. |
-| `artifacts/` | Every cached LLM artifact from the thesis runs — codebooks and reference labellings (`codebooks/`), cluster names and classify caches (`repair/`), generated rewrites/exemplars (`generation/`), plus empty embedding-cache dirs that refill on demand. |
+| `artifacts/` | Every cached LLM artifact from the thesis runs: codebooks and reference labellings (`codebooks/`), cluster names and classify caches (`repair/`), generated rewrites/exemplars (`generation/`), plus empty embedding-cache dirs that refill on demand. |
 | `criteria.json`, `sota_config.json` | The 19 criterion sentences; the exact encoder/LLM stack of each published record holder for the matched comparison. |
 
-### `codebook_judge/` — the judge, standalone
+### `codebook_judge/`: the judge, standalone
 | File | Role |
 |---|---|
 | `run_judge.py` | **The user-facing CLI.** Scores any clustering CSV against a criterion: samples documents, discovers a codebook, labels a reference set, prints the AMI judge score with degeneracy warnings. |
 | `judge.py` | The judge's core (thesis §3.1): the codebook-discovery prompt (reasoning on), the per-document assignment prompt (reasoning off), parsing and scoring helpers. |
-| `LLM_call.py` | Minimal gateway client — reads `.env`, retries, exposes `ask_llm()`. |
+| `LLM_call.py` | Minimal gateway client. Reads `.env`, retries, exposes `ask_llm()`. |
 | `criteria.json` | The 19 benchmark criterion sentences, for reference. |
 
-### `analysis/` — one folder per research question
-**`rq1/` — is the judge valid?** Scripts numbered in execution order:
-`00*` embed the corpora (generic-instruction INSTRUCTOR bed) · `02` generates the 1,222-candidate test bed of clusterings (k-means, GMM, spectral, Ward, Leiden at five granularities × three seeds; `kmeans/gmm/spectral/embedder.py` are its clustering helpers) · `03` computes geometric metrics per candidate · `05`–`07` run one judge pass (codebook → assignment → scoring) · `08` builds the per-candidate analysis table · `09` and `11`–`14` run the ten-replicate campaigns for the five judge LLMs · `10` and `15` draw the thesis hbars and summary figures.
+### `analysis/`: one folder per research question
+**`rq1/`, is the judge valid?** Scripts numbered in execution order:
+`00*` embed the corpora on the generic-instruction INSTRUCTOR bed. `02` generates the 1,222-candidate test bed of clusterings (k-means, GMM, spectral, Ward and Leiden at five granularities and three seeds; `kmeans/gmm/spectral/embedder.py` are its clustering helpers), and `03` computes each candidate's geometric metrics. `05`-`07` run one judge pass (codebook, assignment, scoring), `08` builds the per-candidate analysis table, `09` and `11`-`14` run the ten-replicate campaigns for the five judge LLMs, and `10` and `15` draw the thesis figures.
 
-**`rq2/` — can LLMs infer granularity?** `00` writes the suite metadata · `01`–`02` run the eight estimators on the primary LLM · `03` the silhouette-argmax baseline over ten seeds · `04`–`08` replicate everything on `gpt-4o-mini` and `gpt-3.5-turbo` · `rq2_analysis.ipynb` builds the scoreboard table and the calibration figure.
+**`rq2/`, can LLMs infer granularity?** `00` writes the suite metadata, `01`-`02` run the eight estimators on the primary LLM, and `03` runs the silhouette-argmax baseline over ten seeds. `04`-`08` replicate everything on `gpt-4o-mini` and `gpt-3.5-turbo`, and `rq2_analysis.ipynb` builds the scoreboard table and the calibration figure.
 
-**`rq3/rq3_results.ipynb`** — CLEAR's headline quality, the k-means uplift, the judge-vs-oracle selector comparison and the repair ablation, from `results/clear/`.
+**`rq3/rq3_results.ipynb`** draws CLEAR's headline quality, the k-means uplift, the judge-vs-oracle selector comparison and the repair ablation, from `results/clear/`.
 
-**`rq4/rq4_results.ipynb`** — CLEAR against every published record, unmatched and matched, plus the encoder/LLM factorial, from `results/clear/` and `data/published_results.csv`.
+**`rq4/rq4_results.ipynb`** compares CLEAR against every published record, unmatched and matched, plus the encoder/LLM factorial, from `results/clear/` and `data/published_results.csv`.
 
-### `data/` — all inputs
+### `data/`: all inputs
 | Folder / file | Contents |
 |---|---|
-| `benchmarks/` | The 19 evaluation corpora as `<name>_texts.csv` (columns `text`, `gold`) — the exact document sets every experiment runs on. |
+| `benchmarks/` | The 19 evaluation corpora as `<name>_texts.csv` (columns `text`, `gold`). These are the exact document sets every experiment runs on. |
 | `rq1/texts/`, `rq1/partitions_instructor_gen/` | Per-benchmark document texts and the full candidate test bed (one column per candidate clustering, plus `true_label`). |
-| `rq1/codebooks/`, `rq1/replicates*/` | The judge's discovered codebooks and reference labellings — run 1 plus replicate runs 2–10, for all five judge LLMs. |
+| `rq1/codebooks/`, `rq1/replicates*/` | The judge's discovered codebooks and reference labellings, from run 1 plus replicate runs 2–10, for all five judge LLMs. |
 | `rq1/reference_labels/`, `rq1/master_table_instructor_gen.csv`, `rq1/doc_lengths.csv` | Benchmark labels for scoring, the per-candidate master table behind the RQ1 analysis, corpus length statistics. |
 | `rq2/` | Every estimator's inferred `k` per run (`llm_k_runs*.csv` for the three LLMs), the pairwise same-category votes, and the silhouette baseline seeds. |
 | `glm5_gen/`, `matched_gen/` | The cached LLM generations behind the CLEAR runs (rewrites, exemplars, reference samples) for the default and matched configurations. |
-| `published_results.csv` | Every published NMI/ACC value in the surveyed literature, with method, variant, encoder and LLM — the SOTA source of truth. |
+| `published_results.csv` | Every published NMI/ACC value in the surveyed literature, with method, variant, encoder and LLM. The source of truth for the SOTA comparison.. |
 
-### `results/` — all outputs
+### `results/`: all outputs
 | Folder | Contents |
 |---|---|
 | `rq1/` | The judge-validity analysis table, the ten-replicate correlation files per judge LLM, replicate bookkeeping and reference-quality diagnostics. |
@@ -118,20 +118,20 @@ anyone can run both algorithms on their own corpus:
 | `clear/` | CLEAR runs/summaries/candidate-counts for all four settings (unmatched, matched, encoder-matched, LLM-matched), the k-means baselines, the selector comparison and the judge's winner counts. |
 
 ### `figures/`, `examples/` and the root
-`figures/` holds every figure in the thesis as vector PDF plus the CLEAR pipeline diagram; `figures/source/` contains the notebook and data that generate the literature-survey figures. `examples/` is a 150-document sample corpus with real outputs from both CLIs, so you can see the expected input and output formats before spending a token. `thesis/` is the compilable thesis source: `thesis/figs/` already carries every figure and the title-page logo under the exact names the LaTeX expects, with `main.tex` and `references.bib` alongside — compile with `pdflatex main.tex` + `bibtex main` from inside `thesis/`. The root carries `requirements.txt` (pinned to the versions used) and expects a `.env` for live runs.
+`figures/` holds every figure in the thesis as vector PDF plus the CLEAR pipeline diagram; `figures/source/` contains the notebook and data that generate the literature-survey figures. `examples/` is a 150-document sample corpus with real outputs from both CLIs, so you can see the expected input and output formats before spending a token. `thesis/` is the compilable thesis source: `thesis/figs/` already carries every figure and the title-page logo under the exact names the LaTeX expects, with `main.tex` and `references.bib` alongside. Compile with `pdflatex main.tex` + `bibtex main` from inside `thesis/`. The root carries `requirements.txt` (pinned to the versions used) and expects a `.env` for live runs.
 
 ## Where to find what the thesis reports
 
 | Thesis content | Figures / tables | Code | Data |
 |---|---|---|---|
-| RQ1 — judge validity (5 judge LLMs) | `figures/rq1_*.pdf`, judge validity table | `analysis/rq1/` scripts | `results/rq1/`, `data/rq1/` |
-| RQ2 — granularity estimation | `figures/rq2c_ex2_calibration.pdf`, scoreboards incl. appendix | `analysis/rq2/` | `data/rq2/`, `results/rq2/` |
-| RQ3 — CLEAR quality, uplift, selector, repair | `figures/rq3c_*.pdf`, `figures/rq4c_C_repair_delta.pdf` | `analysis/rq3/rq3_results.ipynb` | `results/clear/` |
-| RQ4 — vs. published SOTA, matched configs | `figures/rq4c_*.pdf` | `analysis/rq4/rq4_results.ipynb` | `results/clear/`, `data/published_results.csv` |
+| RQ1, judge validity (5 judge LLMs) | `figures/rq1_*.pdf`, judge validity table | `analysis/rq1/` scripts | `results/rq1/`, `data/rq1/` |
+| RQ2, granularity estimation | `figures/rq2c_ex2_calibration.pdf`, scoreboards incl. appendix | `analysis/rq2/` | `data/rq2/`, `results/rq2/` |
+| RQ3, CLEAR quality, uplift, selector, repair | `figures/rq3c_*.pdf`, `figures/rq4c_C_repair_delta.pdf` | `analysis/rq3/rq3_results.ipynb` | `results/clear/` |
+| RQ4, against published SOTA, matched configs | `figures/rq4c_*.pdf` | `analysis/rq4/rq4_results.ipynb` | `results/clear/`, `data/published_results.csv` |
 | Literature survey figures | `figures/fig_*.pdf` | `figures/source/litreview_plots.ipynb` | `data/published_results.csv` |
 | The CLEAR pipeline itself | `figures/CLEAR_VISUALISATION.png` | `CLEAR_algo/critclust/` | `CLEAR_algo/artifacts/` |
 
-All result CSVs are committed, so **every thesis figure and table regenerates offline — no
+All result CSVs are committed, so **every thesis figure and table regenerates offline, with no
 LLM calls and no API key needed** (see [Testing](#testing--reproducing-the-thesis-analyses)).
 An API key is only needed to run the algorithms on new corpora.
 
@@ -194,7 +194,7 @@ judge score (AMI vs reference, 60 documents): 0.9078
 ```
 
 The score is chance-corrected agreement (AMI) between your clustering and the judge's
-criterion-conditioned reference labelling — higher is better, and the thesis validates that
+criterion-conditioned reference labelling. Higher is better, and the thesis validates that
 it tracks human benchmark labels. The discovered codebook and reference are saved next to
 the input for inspection, and degeneracy warnings fire when the criterion does not fit the
 corpus (thesis §3.1).
@@ -229,7 +229,7 @@ clusters written to ../examples/example_corpus_clusters.csv
 
 The output CSV carries every input column plus `cluster` and an LLM-chosen `cluster_name`.
 All LLM artifacts cache under `CLEAR_algo/artifacts/` by corpus name, so re-runs are free.
-Cost scales as the thesis's Token Cost section describes — roughly one cent per 100
+Cost scales as the thesis's Token Cost section describes, roughly one cent per 100
 documents at the default configuration.
 
 ### Re-run the thesis studies
@@ -275,13 +275,13 @@ under [Usage](#usage) run in a few minutes for a few cents.
 
 ## Features
 
-- **Label-free clustering evaluation** from a one-sentence criterion — no ground truth needed.
+- **Label-free clustering evaluation** from a one-sentence criterion, no ground truth needed.
 - **Criterion-driven clustering** with automatic candidate selection and boundary repair.
 - **LLM-named clusters** in the output, ready for human consumption.
-- **Model-agnostic** — any OpenAI-compatible gateway; encoder and LLM are flags.
-- **Aggressive caching** — every paid LLM artifact is reused across runs and seeds.
-- **Budget guard** — runs abort at a configurable spend ceiling.
-- **Full reproducibility** — all 19 thesis figures and every table regenerate offline from
+- **Model-agnostic**: any OpenAI-compatible gateway; encoder and LLM are flags.
+- **Caching throughout**: every paid LLM artifact is reused across runs and seeds.
+- **Budget guard**: runs abort at a configurable spend ceiling.
+- **Full reproducibility**: all 19 thesis figures and every table regenerate offline from
   committed data.
 
 ## Contributing
@@ -298,7 +298,7 @@ original licenses and citations are listed in the thesis appendix.
 
 ## Contact
 
-**Louis Arts** — UCL MSc Data Science and Machine Learning · in collaboration with
-Chattermill (UCL IXN) · academic supervisor Dr. Carlo Ciliberto · industry supervisors
-Dr. Aji Ghose and Patrycja Śliwiak. For questions about this repository, open a GitHub
-issue.
+**Louis Arts**, UCL MSc Data Science and Machine Learning, in collaboration with
+Chattermill through the UCL Industry Exchange Network. Supervised by Dr. Carlo Ciliberto
+(UCL) and, at Chattermill, Dr. Aji Ghose and Patrycja Śliwiak. For questions about this
+repository, open a GitHub issue.
