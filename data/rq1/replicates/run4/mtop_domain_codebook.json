@@ -1,0 +1,47 @@
+{
+  "bench": "mtop_domain",
+  "run": 4,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms and Timers",
+      "definition": "Managing alarms and timers, including setting, modifying, querying, and deleting."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Managing reminders, including setting, modifying, querying, and deleting."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "Initiating, managing, or querying calls and messages (text, video, audio)."
+    },
+    {
+      "id": 4,
+      "name": "Weather Information",
+      "definition": "Requesting current or future weather conditions, forecasts, or related meteorological data."
+    },
+    {
+      "id": 5,
+      "name": "General Information Retrieval",
+      "definition": "Asking for facts, definitions, instructions, recipes, event information, or details about people, places, or things, including social network queries."
+    },
+    {
+      "id": 6,
+      "name": "News and Current Events",
+      "definition": "Requesting headlines, news updates, or information about recent or ongoing public events."
+    },
+    {
+      "id": 7,
+      "name": "Media Playback and Control",
+      "definition": "Playing music, videos, or other media, and controlling playback (e.g., skip, repeat, change genre)."
+    },
+    {
+      "id": 8,
+      "name": "Assistant Interaction Control",
+      "definition": "Utterances related to controlling the assistant's state or interaction, rather than a specific domain task."
+    }
+  ]
+}

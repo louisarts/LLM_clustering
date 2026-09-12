@@ -1,0 +1,104 @@
+{
+  "bench": "banking77",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Ordering and Delivery",
+      "definition": "Inquiries regarding ordering a new card, delivery status, card types available, or eligibility to receive a card."
+    },
+    {
+      "id": 2,
+      "name": "Card Expiration and Replacement",
+      "definition": "Inquiries about cards nearing expiration, requesting replacement cards, or reactivating found cards."
+    },
+    {
+      "id": 3,
+      "name": "Card Usage and Acceptance",
+      "definition": "Questions about where the card is accepted, usage limits, or general functionality of card types like disposable or virtual cards."
+    },
+    {
+      "id": 4,
+      "name": "Card Not Working or Declined",
+      "definition": "Reports of a card being declined, failing to work at terminals or ATMs, or issues with contactless payments."
+    },
+    {
+      "id": 5,
+      "name": "Card Security and Stolen Card",
+      "definition": "Reports of lost or stolen cards, requests to freeze or block a card immediately, or concerns about unauthorized card possession."
+    },
+    {
+      "id": 6,
+      "name": "PIN Management",
+      "definition": "Requests to change, reset, or unblock a PIN, or issues regarding forgotten PINs or PIN entry errors."
+    },
+    {
+      "id": 7,
+      "name": "Top Up Issues",
+      "definition": "Problems with adding money to the account, including failed, pending, or reverted top-up transactions."
+    },
+    {
+      "id": 8,
+      "name": "Top Up General Inquiry",
+      "definition": "Questions about available top-up methods, limits, fees, or how to use specific top-up features like Apple Pay or cheques."
+    },
+    {
+      "id": 9,
+      "name": "Transfer Issues",
+      "definition": "Problems with sending or receiving transfers, including failed, pending, or missing transactions."
+    },
+    {
+      "id": 10,
+      "name": "Transfer General Inquiry",
+      "definition": "Questions about how to make a transfer, transfer limits, processing times, or fees associated with transfers."
+    },
+    {
+      "id": 11,
+      "name": "Exchange Rates and Currency",
+      "definition": "Questions about current exchange rates, supported currencies, or how currency exchange works."
+    },
+    {
+      "id": 12,
+      "name": "Exchange and ATM Transaction Disputes",
+      "definition": "Disputes regarding incorrect exchange rates applied to transactions or incorrect cash amounts received from ATMs."
+    },
+    {
+      "id": 13,
+      "name": "ATM Withdrawal Issues",
+      "definition": "Reports of being unable to withdraw cash from an ATM or the ATM capturing the card."
+    },
+    {
+      "id": 14,
+      "name": "Fee Inquiry",
+      "definition": "Questions asking why a specific fee was charged or requesting information about general service fees and costs."
+    },
+    {
+      "id": 15,
+      "name": "Transaction Disputes and Fraud",
+      "definition": "Reports of unrecognized, duplicate, or unauthorized transactions, or requests to dispute a merchant charge."
+    },
+    {
+      "id": 16,
+      "name": "Payment Cancellation and Refunds",
+      "definition": "Requests to cancel a pending payment or transfer, or inquiries about the status of a refund."
+    },
+    {
+      "id": 17,
+      "name": "Identity Verification",
+      "definition": "Questions about the identity verification process, required documents, or issues with verification failure."
+    },
+    {
+      "id": 18,
+      "name": "Account Management",
+      "definition": "Requests to update personal details, change account settings, or close an account."
+    },
+    {
+      "id": 19,
+      "name": "App Access and Security",
+      "definition": "Issues related to logging in, lost phones, forgotten passwords, or general app security concerns."
+    }
+  ]
+}

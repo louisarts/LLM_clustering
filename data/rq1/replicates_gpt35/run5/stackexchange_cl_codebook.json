@@ -1,0 +1,60 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Philosophy",
+      "definition": "Questions related to philosophy and philosophical concepts"
+    },
+    {
+      "id": 2,
+      "name": "Gaming",
+      "definition": "Questions related to video games and gaming platforms"
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "definition": "Questions related to technology, hardware, and software"
+    },
+    {
+      "id": 4,
+      "name": "Programming",
+      "definition": "Questions related to programming languages and coding"
+    },
+    {
+      "id": 5,
+      "name": "Language",
+      "definition": "Questions related to languages, translations, and linguistics"
+    },
+    {
+      "id": 6,
+      "name": "Science",
+      "definition": "Questions related to scientific concepts and research"
+    },
+    {
+      "id": 7,
+      "name": "Mathematics",
+      "definition": "Questions related to mathematical concepts and problem-solving"
+    },
+    {
+      "id": 8,
+      "name": "Culture",
+      "definition": "Questions related to cultural practices, traditions, and norms"
+    },
+    {
+      "id": 9,
+      "name": "Health",
+      "definition": "Questions related to health, fitness, and medical advice"
+    },
+    {
+      "id": 10,
+      "name": "Business",
+      "definition": "Questions related to business strategies, management, and entrepreneurship"
+    }
+  ]
+}

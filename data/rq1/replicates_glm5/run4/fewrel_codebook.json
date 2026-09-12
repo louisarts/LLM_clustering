@@ -1,0 +1,139 @@
+{
+  "bench": "fewrel",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Location",
+      "definition": "Entity Y is a geographical location, facility, or region associated with entity X, such as a place of birth, residence, venue, or administrative area."
+    },
+    {
+      "id": 2,
+      "name": "Employer-Organization",
+      "definition": "Entity X is a person who holds a position, office, or role within entity Y, which is an organization, government, or group."
+    },
+    {
+      "id": 3,
+      "name": "Creator-Creative Work",
+      "definition": "Entity X is the author, artist, developer, director, or composer of entity Y, which is a creative work such as a book, film, game, or song."
+    },
+    {
+      "id": 4,
+      "name": "Parent-Subsidiary",
+      "definition": "Entity X is the parent company, owner, or acquiring entity of entity Y, or Y is a subsidiary, division, or brand of X."
+    },
+    {
+      "id": 5,
+      "name": "Event-Participant",
+      "definition": "Entity X is a participant, competitor, or team involved in entity Y, which is a specific event, competition, or tournament."
+    },
+    {
+      "id": 6,
+      "name": "Family",
+      "definition": "Entity X and entity Y are related by blood, marriage, or lineage, such as parent-child, sibling, or spousal relationships."
+    },
+    {
+      "id": 7,
+      "name": "Part-Whole",
+      "definition": "Entity X is a component, part, or subset of entity Y, or Y is a larger entity containing X, including geographical or organizational hierarchies."
+    },
+    {
+      "id": 8,
+      "name": "Origin-Nationality",
+      "definition": "Entity X is a person, group, or product originating from or associated with entity Y, which is a country, nationality, or ethnic group."
+    },
+    {
+      "id": 9,
+      "name": "Architect-Structure",
+      "definition": "Entity X is the architect, designer, or firm responsible for designing entity Y, which is a building, structure, or landmark."
+    },
+    {
+      "id": 10,
+      "name": "Award-Nominee",
+      "definition": "Entity X is an award or nomination received by or associated with entity Y, which is a person, work, or group."
+    },
+    {
+      "id": 11,
+      "name": "Publisher-Work",
+      "definition": "Entity X is the publisher, record label, or distributor of entity Y, which is a published work such as a book, album, or game."
+    },
+    {
+      "id": 12,
+      "name": "Geographical-Feature",
+      "definition": "Entity X is a natural feature, such as a river or mountain, located within or part of entity Y, which is a larger geographical feature or region."
+    },
+    {
+      "id": 13,
+      "name": "Adaptation-Source",
+      "definition": "Entity X is a work adapted from, based on, or a sequel to entity Y, or Y is the original source material for X."
+    },
+    {
+      "id": 14,
+      "name": "Agent-Representation",
+      "definition": "Entity X is a person or entity represented by or associated with entity Y in a professional capacity, such as a player-coach or artist-label relationship."
+    },
+    {
+      "id": 15,
+      "name": "Product-Platform",
+      "definition": "Entity X is a product, software, or game designed for or compatible with entity Y, which is a platform, operating system, or hardware."
+    },
+    {
+      "id": 16,
+      "name": "Synonym-Identity",
+      "definition": "Entity X and entity Y are synonyms, aliases, or different names referring to the same entity or concept."
+    },
+    {
+      "id": 17,
+      "name": "Genre-Style",
+      "definition": "Entity X is a work, person, or group belonging to or characterized by entity Y, which is a genre, style, or artistic movement."
+    },
+    {
+      "id": 18,
+      "name": "Administrative-Division",
+      "definition": "Entity X is a political or administrative division, such as a district or constituency, located within entity Y, which is a larger region or country."
+    },
+    {
+      "id": 19,
+      "name": "Instrument-Musician",
+      "definition": "Entity X is a musical instrument played by entity Y, who is a musician."
+    },
+    {
+      "id": 20,
+      "name": "Succession",
+      "definition": "Entity X succeeds or holds an office previously held by entity Y, or X is the successor to Y in a specific role."
+    },
+    {
+      "id": 21,
+      "name": "Transportation-Route",
+      "definition": "Entity X is a transportation facility, such as an airport or station, serving entity Y, which is a city or location."
+    },
+    {
+      "id": 22,
+      "name": "Military-Unit",
+      "definition": "Entity X is a military unit, vessel, or branch to which entity Y belongs or is affiliated."
+    },
+    {
+      "id": 23,
+      "name": "Religious-Affiliation",
+      "definition": "Entity X is a person, order, or text associated with entity Y, which is a religion, religious group, or deity."
+    },
+    {
+      "id": 24,
+      "name": "Sports-League",
+      "definition": "Entity X is a sports team or club that competes in entity Y, which is a sports league or division."
+    },
+    {
+      "id": 25,
+      "name": "Educational-Institution",
+      "definition": "Entity X is a person who attended or is affiliated with entity Y, which is an educational institution."
+    },
+    {
+      "id": 26,
+      "name": "Government-Agency",
+      "definition": "Entity X is a government agency, department, or public body operating under or affiliated with entity Y, which is a government or larger entity."
+    }
+  ]
+}

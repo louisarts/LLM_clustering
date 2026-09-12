@@ -1,0 +1,99 @@
+{
+  "bench": "fewrel",
+  "run": 1,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "rq3_cached",
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Location",
+      "definition": "Entity A is located in, at, or on Entity B."
+    },
+    {
+      "id": 2,
+      "name": "Part-Whole",
+      "definition": "Entity A is a component, division, or subsidiary of Entity B."
+    },
+    {
+      "id": 3,
+      "name": "Membership/Affiliation",
+      "definition": "Entity A is a member of, employed by, or affiliated with Entity B."
+    },
+    {
+      "id": 4,
+      "name": "Creator/Author",
+      "definition": "Entity A created, designed, composed, or directed Entity B."
+    },
+    {
+      "id": 5,
+      "name": "Publisher/Distributor",
+      "definition": "Entity A published, released, or distributed Entity B."
+    },
+    {
+      "id": 6,
+      "name": "Family Relationship",
+      "definition": "Entity A is related to Entity B by blood, marriage, or partnership."
+    },
+    {
+      "id": 7,
+      "name": "Award/Nomination",
+      "definition": "Entity A won, received, or was nominated for Entity B."
+    },
+    {
+      "id": 8,
+      "name": "Event Participation",
+      "definition": "Entity A participated in, competed at, or won Entity B."
+    },
+    {
+      "id": 9,
+      "name": "Identity/Attribute",
+      "definition": "Entity A is an instance, type, nationality, profession, or code of Entity B."
+    },
+    {
+      "id": 10,
+      "name": "Leadership/Representation",
+      "definition": "Entity A is the political leader, head, or representative of Entity B."
+    },
+    {
+      "id": 11,
+      "name": "Geographical Feature",
+      "definition": "Entity A is a body of water flowing into, a tributary of, or geographically adjacent to Entity B."
+    },
+    {
+      "id": 12,
+      "name": "Media Platform",
+      "definition": "Entity A is broadcast on, runs on, or is compatible with Entity B."
+    },
+    {
+      "id": 13,
+      "name": "Content/Subject",
+      "definition": "Entity A features, depicts, or is about Entity B."
+    },
+    {
+      "id": 14,
+      "name": "Venue",
+      "definition": "Entity A is the home ground, stadium, or venue for Entity B."
+    },
+    {
+      "id": 15,
+      "name": "Ownership/Acquisition",
+      "definition": "Entity A owns, acquired, or purchased Entity B."
+    },
+    {
+      "id": 16,
+      "name": "Predecessor/Successor",
+      "definition": "Entity A preceded, succeeded, or was replaced by Entity B."
+    },
+    {
+      "id": 17,
+      "name": "Related Entity",
+      "definition": "Entity A is a version, translation, or conceptually related to Entity B."
+    },
+    {
+      "id": 18,
+      "name": "Temporal Relation",
+      "definition": "Entity A is a time point or period associated with Entity B."
+    }
+  ]
+}

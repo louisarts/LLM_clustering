@@ -1,0 +1,104 @@
+{
+  "bench": "banking77",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Management",
+      "definition": "Requests regarding ordering, activating, or reporting lost, stolen, or damaged physical or virtual cards."
+    },
+    {
+      "id": 2,
+      "name": "Card Payments & Declines",
+      "definition": "Issues where card transactions are declined, failing, or not working at terminals or online."
+    },
+    {
+      "id": 3,
+      "name": "Card Security & PIN",
+      "definition": "Requests to manage, reset, or unblock a PIN, or issues regarding blocked cards."
+    },
+    {
+      "id": 4,
+      "name": "Card Delivery Status",
+      "definition": "Inquiries about the shipping status, tracking, or non-arrival of a physical card."
+    },
+    {
+      "id": 5,
+      "name": "Transfers Out",
+      "definition": "Issues with sending money to others, including failed, pending, or missing outgoing transfers."
+    },
+    {
+      "id": 6,
+      "name": "Transfer Cancellation",
+      "definition": "Requests to stop or cancel an outgoing transfer that has already been initiated."
+    },
+    {
+      "id": 7,
+      "name": "Transfer Fees & Limits",
+      "definition": "Questions about the costs, limits, or operational rules for sending money."
+    },
+    {
+      "id": 8,
+      "name": "Top-Up Issues",
+      "definition": "Problems with adding money to the account, including failed, pending, or reverted top-ups."
+    },
+    {
+      "id": 9,
+      "name": "Top-Up Methods & Limits",
+      "definition": "Inquiries about how to add money, supported methods, and associated limits or fees."
+    },
+    {
+      "id": 10,
+      "name": "Cash Withdrawal Issues",
+      "definition": "Problems specifically related to using the card at ATMs, including capture or dispensing errors."
+    },
+    {
+      "id": 11,
+      "name": "Cash Withdrawal Fees",
+      "definition": "Questions or disputes regarding fees charged for using ATMs."
+    },
+    {
+      "id": 12,
+      "name": "Transaction Disputes & Fraud",
+      "definition": "Reports of unauthorized transactions, fraud, or unknown charges on the account statement."
+    },
+    {
+      "id": 13,
+      "name": "Refunds & Reversals",
+      "definition": "Issues regarding the status of expected refunds or transactions that were reversed by the merchant."
+    },
+    {
+      "id": 14,
+      "name": "Transaction Fees",
+      "definition": "Questions or disputes about fees applied to specific card transactions or currency exchanges."
+    },
+    {
+      "id": 15,
+      "name": "Exchange Rates & Currency",
+      "definition": "Inquiries about exchange rates, supported currencies, or currency conversion issues."
+    },
+    {
+      "id": 16,
+      "name": "Identity Verification",
+      "definition": "Issues or questions regarding the process of verifying identity to use the account."
+    },
+    {
+      "id": 17,
+      "name": "Account Access & Security",
+      "definition": "Problems logging in, resetting passcodes, or managing account security settings."
+    },
+    {
+      "id": 18,
+      "name": "Account Management",
+      "definition": "Requests to change personal details, open sub-accounts, or close the account."
+    },
+    {
+      "id": 19,
+      "name": "Source of Funds",
+      "definition": "Requests to verify or explain the origin of funds appearing in the account balance."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "bench": "fewnerd",
+  "run": 5,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "A human being, identified by name, title, or role."
+    },
+    {
+      "id": 2,
+      "name": "Organization (Company)",
+      "definition": "A business entity, corporation, or commercial enterprise."
+    },
+    {
+      "id": 3,
+      "name": "Organization (Educational Institution)",
+      "definition": "A school, college, university, or other academic body."
+    },
+    {
+      "id": 4,
+      "name": "Organization (Government Body)",
+      "definition": "A department, agency, parliament, court, or other official governmental entity."
+    },
+    {
+      "id": 5,
+      "name": "Organization (Non-profit/Other)",
+      "definition": "A non-commercial group, club, society, religious body, or advocacy group."
+    },
+    {
+      "id": 6,
+      "name": "Organization (Sports)",
+      "definition": "A sports club, team, league, or association."
+    },
+    {
+      "id": 7,
+      "name": "Organization (Media)",
+      "definition": "A media outlet, publisher, record label, or broadcasting network."
+    },
+    {
+      "id": 8,
+      "name": "Organization (Political Party)",
+      "definition": "A political party or movement."
+    },
+    {
+      "id": 9,
+      "name": "Geographic Location (Country)",
+      "definition": "A sovereign state or nation."
+    },
+    {
+      "id": 10,
+      "name": "Geographic Location (City/Town/Village)",
+      "definition": "An urban or rural settlement."
+    },
+    {
+      "id": 11,
+      "name": "Geographic Location (Region/Area)",
+      "definition": "A distinct part of a country, continent, or the world, or a specific natural area."
+    },
+    {
+      "id": 12,
+      "name": "Geographic Location (Body of Water)",
+      "definition": "A river, lake, ocean, bay, or other natural water formation."
+    },
+    {
+      "id": 13,
+      "name": "Political/Administrative Division",
+      "definition": "A state, province, county, kingdom, or other administrative subdivision."
+    },
+    {
+      "id": 14,
+      "name": "Building/Structure",
+      "definition": "A physical construction such as a hotel, airport, stadium, library, or hospital."
+    },
+    {
+      "id": 15,
+      "name": "Infrastructure",
+      "definition": "A road, railway line, bridge, or other public works system."
+    },
+    {
+      "id": 16,
+      "name": "Product (Manufactured Item)",
+      "definition": "A specific manufactured item, model, or type of equipment."
+    },
+    {
+      "id": 17,
+      "name": "Product (Brand/Series)",
+      "definition": "A commercial brand, product line, or series of items."
+    },
+    {
+      "id": 18,
+      "name": "Product (Food/Beverage)",
+      "definition": "A specific food item, dish, or beverage."
+    },
+    {
+      "id": 19,
+      "name": "Medical Condition/Disease",
+      "definition": "A health disorder, illness, or virus."
+    },
+    {
+      "id": 20,
+      "name": "Chemical/Biological Entity",
+      "definition": "A chemical compound, biological molecule, gene, or receptor."
+    },
+    {
+      "id": 21,
+      "name": "Event",
+      "definition": "A specific occurrence, competition, historical period, or natural disaster."
+    },
+    {
+      "id": 22,
+      "name": "Award",
+      "definition": "A prize, trophy, or honor."
+    },
+    {
+      "id": 23,
+      "name": "Media (Work)",
+      "definition": "A film, TV show, video game, or musical composition."
+    },
+    {
+      "id": 24,
+      "name": "Religious Text",
+      "definition": "A sacred book or scripture."
+    },
+    {
+      "id": 25,
+      "name": "Biological Classification",
+      "definition": "A taxonomic rank or group in biology."
+    },
+    {
+      "id": 26,
+      "name": "Deity/Mythological Figure",
+      "definition": "A god, goddess, or figure from mythology."
+    },
+    {
+      "id": 27,
+      "name": "Celestial Body",
+      "definition": "A natural object in space, such as a planet or star."
+    },
+    {
+      "id": 28,
+      "name": "Academic Degree",
+      "definition": "A qualification awarded by an educational institution."
+    },
+    {
+      "id": 29,
+      "name": "Job Title/Role",
+      "definition": "A specific position or function."
+    },
+    {
+      "id": 30,
+      "name": "Classification/Rating",
+      "definition": "A system for categorizing or grading something."
+    },
+    {
+      "id": 31,
+      "name": "Language/Dialect",
+      "definition": "A specific form of communication."
+    },
+    {
+      "id": 32,
+      "name": "Nationality/Demonym",
+      "definition": "An adjective or noun referring to origin or inhabitant of a country or region."
+    },
+    {
+      "id": 33,
+      "name": "Nickname/Alias",
+      "definition": "An informal name for a person."
+    },
+    {
+      "id": 34,
+      "name": "Software/Technology",
+      "definition": "A software application, operating system, or technological concept."
+    },
+    {
+      "id": 35,
+      "name": "Religious/Spiritual Tradition",
+      "definition": "A system of beliefs, practices, or a school of thought within a religion."
+    },
+    {
+      "id": 36,
+      "name": "Name in Specific Language/Script",
+      "definition": "A name presented with its language or script identifier."
+    }
+  ]
+}

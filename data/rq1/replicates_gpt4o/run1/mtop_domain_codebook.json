@@ -1,0 +1,65 @@
+{
+  "bench": "mtop_domain",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm Management",
+      "definition": "Requests to set, modify, or cancel alarms."
+    },
+    {
+      "id": 2,
+      "name": "Reminder Management",
+      "definition": "Requests to set, modify, or cancel reminders."
+    },
+    {
+      "id": 3,
+      "name": "Timer Management",
+      "definition": "Requests to set, modify, or cancel timers."
+    },
+    {
+      "id": 4,
+      "name": "Weather Information",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 5,
+      "name": "News and Headlines",
+      "definition": "Requests for news updates or headlines."
+    },
+    {
+      "id": 6,
+      "name": "Music Playback",
+      "definition": "Requests to play, pause, or stop music."
+    },
+    {
+      "id": 7,
+      "name": "Recipe and Cooking Information",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 8,
+      "name": "Communication Management",
+      "definition": "Requests to make calls, send messages, or manage communication status."
+    },
+    {
+      "id": 9,
+      "name": "Social and Contact Information",
+      "definition": "Requests for information about contacts or social connections."
+    },
+    {
+      "id": 10,
+      "name": "Event and Activity Information",
+      "definition": "Requests for information about events or activities."
+    },
+    {
+      "id": 11,
+      "name": "General Knowledge",
+      "definition": "Requests for factual information or general knowledge."
+    }
+  ]
+}

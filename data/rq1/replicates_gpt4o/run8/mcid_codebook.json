@@ -1,0 +1,60 @@
+{
+  "bench": "mcid",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information",
+      "definition": "Requests for general information or explanations about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Health Concerns",
+      "definition": "Inquiries about symptoms, health concerns, or personal health situations related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Transmission and Safety",
+      "definition": "Questions about how COVID-19 spreads and how to stay safe."
+    },
+    {
+      "id": 4,
+      "name": "Travel and High-Risk Areas",
+      "definition": "Concerns or questions about travel safety, restrictions, or high-risk areas."
+    },
+    {
+      "id": 5,
+      "name": "Treatment and Vaccination",
+      "definition": "Inquiries about treatments, cures, or vaccines for COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Myths and Misinformation",
+      "definition": "Questions or statements about myths or misinformation related to COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Statistics and News",
+      "definition": "Requests for statistics, news updates, or data about COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Donations and Support",
+      "definition": "Inquiries about how to donate or support COVID-19-related causes."
+    },
+    {
+      "id": 9,
+      "name": "Sharing Information",
+      "definition": "Requests to share information or services related to COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "Greetings and Gratitude",
+      "definition": "Expressions of greetings, gratitude, or appreciation."
+    }
+  ]
+}

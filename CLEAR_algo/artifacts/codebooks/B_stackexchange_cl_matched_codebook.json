@@ -1,0 +1,607 @@
+[
+ {
+  "id": 1,
+  "name": "R Programming",
+  "definition": "Questions related to programming in the R language"
+ },
+ {
+  "id": 2,
+  "name": "Digital Certificates",
+  "definition": "Questions related to best practices for storing digital certificates"
+ },
+ {
+  "id": 3,
+  "name": "Open Data",
+  "definition": "Questions related to the status of OKFN's Open Product Data project"
+ },
+ {
+  "id": 4,
+  "name": "Recruitment Consultants",
+  "definition": "Questions related to payments to recruitment consultants for referrals"
+ },
+ {
+  "id": 5,
+  "name": "Sample Size Determination",
+  "definition": "Questions related to deciding sample sizes for polling large populations"
+ },
+ {
+  "id": 6,
+  "name": "Array Indexing",
+  "definition": "Questions related to taking array cell numbers and assigning them to variables"
+ },
+ {
+  "id": 7,
+  "name": "Video Players",
+  "definition": "Questions related to video players that display multiple subtitle tracks"
+ },
+ {
+  "id": 8,
+  "name": "Boolean Algebra",
+  "definition": "Questions related to the Boolean algebra fragment of RA"
+ },
+ {
+  "id": 9,
+  "name": "Monero Cryptocurrency",
+  "definition": "Questions related to the Monero burning bug details"
+ },
+ {
+  "id": 10,
+  "name": "Oil Change Frequency",
+  "definition": "Questions related to the frequency of oil changes in VW TDI vehicles"
+ },
+ {
+  "id": 11,
+  "name": "Forensic OS Selection",
+  "definition": "Questions related to selecting an operating system for forensic research"
+ },
+ {
+  "id": 12,
+  "name": "MySQL Zend App Connection",
+  "definition": "Questions related to connecting MySQL with Zend applications"
+ },
+ {
+  "id": 13,
+  "name": "Portal 2",
+  "definition": "Questions related to the video game Portal 2."
+ },
+ {
+  "id": 14,
+  "name": "Google Analytics",
+  "definition": "Questions related to using Google Analytics for tracking website visits and performance."
+ },
+ {
+  "id": 15,
+  "name": "SEO Techniques",
+  "definition": "Questions related to search engine optimization techniques for improving website visibility."
+ },
+ {
+  "id": 16,
+  "name": "Neverwinter Nights",
+  "definition": "Questions related to the video game Neverwinter Nights."
+ },
+ {
+  "id": 17,
+  "name": "Quantum Mechanics",
+  "definition": "Questions related to the principles and theories of quantum mechanics."
+ },
+ {
+  "id": 18,
+  "name": "Escape Room Puzzles",
+  "definition": "Questions related to puzzles and challenges commonly found in escape room games."
+ },
+ {
+  "id": 19,
+  "name": "Tor Bridge Configuration",
+  "definition": "Questions related to configuring and managing private obfs4 Tor bridges."
+ },
+ {
+  "id": 20,
+  "name": "Italian Language",
+  "definition": "Questions related to the Italian language and idiomatic expressions."
+ },
+ {
+  "id": 21,
+  "name": "Social Media Management",
+  "definition": "Questions related to tools and strategies for managing social media accounts."
+ },
+ {
+  "id": 22,
+  "name": "Game Development Tips",
+  "definition": "Questions related to tips and best practices for developing cross-platform games."
+ },
+ {
+  "id": 23,
+  "name": "Agile Methodologies",
+  "definition": "Questions related to applying agile methodologies like SCRUM in software development."
+ },
+ {
+  "id": 24,
+  "name": "Network Security Configurations",
+  "definition": "Questions related to setting up NAT and ACL configurations for network security."
+ },
+ {
+  "id": 25,
+  "name": "Military Strategy",
+  "definition": "Questions related to strategic decision-making in military operations."
+ },
+ {
+  "id": 26,
+  "name": "Timeline Management",
+  "definition": "Questions related to managing and working with project timelines."
+ },
+ {
+  "id": 27,
+  "name": "MySQL Blob Data",
+  "definition": "Questions related to downloading and handling Blob data in MySQL databases."
+ },
+ {
+  "id": 28,
+  "name": "Breastfeeding Older Babies",
+  "definition": "Questions related to the practice and implications of breastfeeding older infants."
+ },
+ {
+  "id": 29,
+  "name": "Poker Strategies",
+  "definition": "Questions related to pot odds and strategies in poker games."
+ },
+ {
+  "id": 30,
+  "name": "E-commerce Checkout",
+  "definition": "Questions related to adding optional products in an e-commerce checkout process."
+ },
+ {
+  "id": 31,
+  "name": "Solidity Programming",
+  "definition": "Questions related to programming in Solidity, a language used for writing smart contracts on the Ethereum blockchain."
+ },
+ {
+  "id": 32,
+  "name": "Measure Theory",
+  "definition": "Questions related to Lebesgue measure, a way of measuring sets in mathematics."
+ },
+ {
+  "id": 33,
+  "name": "Scrum Framework",
+  "definition": "Questions related to the Scrum framework, an agile methodology for project management."
+ },
+ {
+  "id": 34,
+  "name": "Yeast Culturing",
+  "definition": "Questions related to estimating yeast concentration and using calculators for yeast culturing in brewing."
+ },
+ {
+  "id": 35,
+  "name": "Waste Management",
+  "definition": "Questions related to encouraging proper waste sorting and disposal practices."
+ },
+ {
+  "id": 36,
+  "name": "Conversational Datasets",
+  "definition": "Questions related to datasets used for training chat bots with deep learning techniques."
+ },
+ {
+  "id": 37,
+  "name": "Fading Suns RPG",
+  "definition": "Questions related to the Fading Suns role-playing game editions and recommendations for beginners."
+ },
+ {
+  "id": 38,
+  "name": "Geometric Regions",
+  "definition": "Questions related to finding geometric shapes and intersections in mathematical regions."
+ },
+ {
+  "id": 39,
+  "name": "Ukrainian Language",
+  "definition": "Questions related to the Ukrainian language and its grammar and semantics."
+ },
+ {
+  "id": 40,
+  "name": "Windows Security",
+  "definition": "Questions related to the security of private keys stored in the Windows Digital Certificate store."
+ },
+ {
+  "id": 41,
+  "name": "Combat Tactics",
+  "definition": "Questions related to gaining combat advantages and tactics in various scenarios."
+ },
+ {
+  "id": 42,
+  "name": "Hindu Mythology",
+  "definition": "Questions related to Veda Vyasa, Lord Krishna, and other figures in Hindu mythology."
+ },
+ {
+  "id": 43,
+  "name": "Islamic Practices",
+  "definition": "Questions related to Islamic rituals and practices, such as wudu (ablution) before prayer."
+ },
+ {
+  "id": 44,
+  "name": "Travel Recommendations",
+  "definition": "Questions related to choosing cafes and coffee shops while traveling."
+ },
+ {
+  "id": 45,
+  "name": "Network Security",
+  "definition": "Questions related to Sonicwall interfaces, DHCP servers, and network security configurations."
+ },
+ {
+  "id": 46,
+  "name": "Mystery Novels",
+  "definition": "Questions related to identifying and discussing mystery novels and their plots."
+ },
+ {
+  "id": 47,
+  "name": "Political Language",
+  "definition": "Questions related to political language and expressions, such as in news headlines."
+ },
+ {
+  "id": 48,
+  "name": "Norse Mythology",
+  "definition": "Questions related to female agency and characters in Norse mythology."
+ },
+ {
+  "id": 49,
+  "name": "Webmaster Tools",
+  "definition": "Questions related to using webmaster tools and handling 404 errors for website pages."
+ },
+ {
+  "id": 50,
+  "name": "Monte Carlo Methods",
+  "definition": "Questions related to the use and precision of Monte Carlo simulation estimates."
+ },
+ {
+  "id": 51,
+  "name": "Science Fiction & Fantasy",
+  "definition": "Questions related to the necessity of vertical forest cities in a Galaxy wide Civilization."
+ },
+ {
+  "id": 52,
+  "name": "Outdoor Activities",
+  "definition": "Questions related to walking techniques in deep snow without additional equipment."
+ },
+ {
+  "id": 53,
+  "name": "Botany",
+  "definition": "Questions related to plant identification, specifically a tree growing on a verge that resembles an eggplant."
+ },
+ {
+  "id": 54,
+  "name": "Biblical Hermeneutics",
+  "definition": "Questions related to finding responses to biblical criticism."
+ },
+ {
+  "id": 55,
+  "name": "User Management",
+  "definition": "Questions related to errors such as 'The user does not exist or is not unique'."
+ },
+ {
+  "id": 56,
+  "name": "Vim",
+  "definition": "Questions related to selectively enabling vim plugins for specific workflows."
+ },
+ {
+  "id": 57,
+  "name": "Fitness & Exercise",
+  "definition": "Questions related to continuing exercise when experiencing mild pain in joints."
+ },
+ {
+  "id": 58,
+  "name": "Microsoft Visio",
+  "definition": "Questions related to opening Visio diagrams without a local copy of Visio."
+ },
+ {
+  "id": 59,
+  "name": "Web Development",
+  "definition": "Questions related to writing layouts for automatic display of blocks in controllers."
+ },
+ {
+  "id": 60,
+  "name": "Linguistics",
+  "definition": "Questions related to the use of words as greetings or partings with no other context."
+ },
+ {
+  "id": 61,
+  "name": "Database Management",
+  "definition": "Questions related to retrieving data from a database and putting it into a component."
+ },
+ {
+  "id": 62,
+  "name": "Video Games",
+  "definition": "Questions related to difficulties playing specific video games, such as Ratchet & Clank: All 4 One."
+ },
+ {
+  "id": 63,
+  "name": "User Interface Design",
+  "definition": "Questions related to color contrast and information placement in user interfaces."
+ },
+ {
+  "id": 64,
+  "name": "German Language",
+  "definition": "Questions related to the difference between 'Angewohnheit' and 'Gewohnheit'."
+ },
+ {
+  "id": 65,
+  "name": "Board & Card Games",
+  "definition": "Questions related to tactical movement and engagement in gameplay."
+ },
+ {
+  "id": 66,
+  "name": "Physics",
+  "definition": "Questions related to fourth rank tensors for stress energy."
+ },
+ {
+  "id": 67,
+  "name": "Education",
+  "definition": "Questions related to educational styles for writing proofs."
+ },
+ {
+  "id": 68,
+  "name": "Aid Climbing",
+  "definition": "Questions related to the use of fifis in aid climbing."
+ },
+ {
+  "id": 69,
+  "name": "Time Lapse Videos",
+  "definition": "Questions related to creating time lapse videos from images."
+ },
+ {
+  "id": 70,
+  "name": "Japanese Language",
+  "definition": "Questions related to the differences between \u307b\u3068\u3093\u3069\uff5e\u306a\u3044, \u3081\u3063\u305f\u306b\uff5e\u306a\u3044, and \u307e\u308c."
+ },
+ {
+  "id": 71,
+  "name": "Polynomial Discriminants",
+  "definition": "Questions related to the discriminants of monic irreducible integer polynomials and their splitting fields."
+ },
+ {
+  "id": 72,
+  "name": "ExpressionEngine",
+  "definition": "Questions related to using Safecracker to display category groups."
+ },
+ {
+  "id": 73,
+  "name": "EOS Wallets",
+  "definition": "Questions related to mobile EOS wallets that allow account creation with a public key."
+ },
+ {
+  "id": 74,
+  "name": "Raspberry Pi GPIO",
+  "definition": "Questions related to GPIO pins on a Raspberry Pi getting stuck high after using an L239D chip."
+ },
+ {
+  "id": 75,
+  "name": "Linear Algebra Books",
+  "definition": "Questions related to choosing between linear algebra books by Gil Strang and Peter Lax."
+ },
+ {
+  "id": 76,
+  "name": "Lock Picking",
+  "definition": "Questions related to picking locks, such as on a shop 'closed for inventory'."
+ },
+ {
+  "id": 77,
+  "name": "UX/UI Design with JavaScript",
+  "definition": "Questions related to designing precise UX/UI using JavaScript/jQuery web components."
+ },
+ {
+  "id": 78,
+  "name": "Quantum Entanglement",
+  "definition": "Questions related to checking if qubits are entangled."
+ },
+ {
+  "id": 79,
+  "name": "Child Development",
+  "definition": "Questions related to a 3-year-old not speaking but pointing."
+ },
+ {
+  "id": 80,
+  "name": "Tor Relay Security",
+  "definition": "Questions related to the safety of using a Raspberry Pi running a Tor Relay as a proxy for LAN machines."
+ },
+ {
+  "id": 81,
+  "name": "Experience Optimization",
+  "definition": "Questions related to implementing experience optimization on a website built in SDL Web8.1.1 and DXA 1.6."
+ },
+ {
+  "id": 82,
+  "name": "List Manipulation",
+  "definition": "Questions related to combining elements of a list."
+ },
+ {
+  "id": 83,
+  "name": "Vectors in Mathematics",
+  "definition": "Questions related to using row or column vectors in points and translations."
+ },
+ {
+  "id": 84,
+  "name": "Portfolio Risk Calculation",
+  "definition": "Questions related to calculating the risk of a portfolio."
+ },
+ {
+  "id": 85,
+  "name": "Patent Inquiries",
+  "definition": "Questions related to reaching the patent holder."
+ },
+ {
+  "id": 86,
+  "name": "Dairy Consumption Effects",
+  "definition": "Questions related to the effects of consuming dairy on mucus thickness."
+ },
+ {
+  "id": 87,
+  "name": "ATF Regulations",
+  "definition": "Questions related to the legality of ATF regulations and policies."
+ },
+ {
+  "id": 88,
+  "name": "PySpark",
+  "definition": "Questions related to using PySpark for Spark SQL."
+ },
+ {
+  "id": 89,
+  "name": "Sitemap Issues",
+  "definition": "Questions related to errors or issues with sitemaps in Google's webmaster tools."
+ },
+ {
+  "id": 90,
+  "name": "Hermeticism",
+  "definition": "Questions about the relationship between the term 'hermit' and traditions around Hermes and Hermeticism."
+ },
+ {
+  "id": 91,
+  "name": "Belay Devices",
+  "definition": "Questions about the interaction between autoblocks and belay devices."
+ },
+ {
+  "id": 92,
+  "name": "Cylinder Power",
+  "definition": "Questions about the relationship between cylinder volume and power."
+ },
+ {
+  "id": 93,
+  "name": "BCAA and Whey Protein",
+  "definition": "Questions about using BCAA and whey protein together."
+ },
+ {
+  "id": 94,
+  "name": "Backlog Items",
+  "definition": "Questions about how to word backlog items in project management."
+ },
+ {
+  "id": 95,
+  "name": "Google Search Features",
+  "definition": "Questions about Google's reporting on search features."
+ },
+ {
+  "id": 96,
+  "name": "Dog Health",
+  "definition": "Questions about a dog's health, specifically regarding a wet and cold nose."
+ },
+ {
+  "id": 97,
+  "name": "Responsive HTML in Salesforce",
+  "definition": "Questions about generating responsive HTML in Salesforce."
+ },
+ {
+  "id": 98,
+  "name": "Stellar Horizon Errors",
+  "definition": "Questions about frequent 504 errors on horizon.stellar.org."
+ },
+ {
+  "id": 99,
+  "name": "Cultural Awareness",
+  "definition": "Questions about cultural considerations when hosting Jewish friends."
+ },
+ {
+  "id": 100,
+  "name": "MC88100 and MC88110 Computers",
+  "definition": "Questions about commercial computers based on the MC88100 and MC88110 processors."
+ },
+ {
+  "id": 101,
+  "name": "Knights, Knaves, and Normals",
+  "definition": "Questions related to logic puzzles involving Knights, Knaves, and Normals."
+ },
+ {
+  "id": 102,
+  "name": "Commutator Operator",
+  "definition": "Questions about defining a commutator operator."
+ },
+ {
+  "id": 103,
+  "name": "Sitecore WFFM Forms",
+  "definition": "Questions about custom CSS files for Sitecore 9 WFFM forms."
+ },
+ {
+  "id": 104,
+  "name": "Quadcopter Lift",
+  "definition": "Questions about calculating the lift capabilities of a quadcopter."
+ },
+ {
+  "id": 105,
+  "name": "Onsager's Regression Hypothesis",
+  "definition": "Questions about Onsager's Regression Hypothesis."
+ },
+ {
+  "id": 106,
+  "name": "Open Source Licensing",
+  "definition": "Questions about using different licenses for libraries and main code."
+ },
+ {
+  "id": 107,
+  "name": "ACL Configuration",
+  "definition": "Questions related to using ACL to control access and deny sending packages to specific destinations."
+ },
+ {
+  "id": 108,
+  "name": "WordPress Custom Menus",
+  "definition": "Questions related to custom menus in WordPress and retrieving the title of the active menu's parent item."
+ },
+ {
+  "id": 109,
+  "name": "Consumer Debt and Country Defaults",
+  "definition": "Questions about the impact on consumer debt when a country defaults on its debt."
+ },
+ {
+  "id": 110,
+  "name": "French Language Usage",
+  "definition": "Questions about the usage and existence of specific expressions in the French language."
+ },
+ {
+  "id": 111,
+  "name": "Long Range Wireless Connections",
+  "definition": "Questions about establishing wireless connections over long distances, such as between Raspberry Pi devices."
+ },
+ {
+  "id": 112,
+  "name": "Music Chart Versions",
+  "definition": "Questions about songs with the most versions that have made it to the singles charts."
+ },
+ {
+  "id": 113,
+  "name": "Turbo Concepts for Alfa GTV",
+  "definition": "Questions about turbo concepts and implementation specific to an Alfa GTV 2.0 V6 TB."
+ },
+ {
+  "id": 114,
+  "name": "SpaceX Satellite Tracking",
+  "definition": "Questions about identifying whether a sighting is the SpaceX 2nd stage or a tumbling satellite, particularly in a specific geographic direction."
+ },
+ {
+  "id": 115,
+  "name": "OpenDNS Security",
+  "definition": "Questions about the safety and security of using OpenDNS as a DNS resolver."
+ },
+ {
+  "id": 116,
+  "name": "Phonetic Ambiguity",
+  "definition": "Questions about phonetic ambiguity in language, particularly the ambiguity between [f] and [s] sounds."
+ },
+ {
+  "id": 117,
+  "name": "Azure Search Date Field",
+  "definition": "Questions about troubleshooting and resolving issues with date fields not displaying in Azure Search results."
+ },
+ {
+  "id": 118,
+  "name": "League of Legends Map Buffs",
+  "definition": "Questions about specific buffs and mechanics in the Dominion center map of League of Legends."
+ },
+ {
+  "id": 119,
+  "name": "Logical Implication Examples",
+  "definition": "Questions requesting examples of sentences that imply each other in different ways."
+ },
+ {
+  "id": 120,
+  "name": "Pagerank Calculation in C",
+  "definition": "Questions about implementing a pagerank calculation algorithm in C programming language."
+ },
+ {
+  "id": 121,
+  "name": "SharePoint File Extension Issue",
+  "definition": "Questions about file extension changes to .aspx when opening Excel or Word files in a SharePoint document library."
+ }
+]

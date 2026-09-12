@@ -1,0 +1,60 @@
+{
+  "bench": "mtop_intent",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm/Reminder",
+      "definition": "User wants to set a new alarm or reminder for a specific time or event."
+    },
+    {
+      "id": 2,
+      "name": "Call/Message Contact",
+      "definition": "User wants to call or message a specific contact."
+    },
+    {
+      "id": 3,
+      "name": "Weather Inquiry",
+      "definition": "User wants to know the weather forecast for a specific location or time."
+    },
+    {
+      "id": 4,
+      "name": "Music Playback",
+      "definition": "User wants to play music or a specific song/artist."
+    },
+    {
+      "id": 5,
+      "name": "Recipe Inquiry",
+      "definition": "User wants to find a recipe or cooking instructions for a specific dish."
+    },
+    {
+      "id": 6,
+      "name": "News Inquiry",
+      "definition": "User wants to know the latest news or updates on a specific topic."
+    },
+    {
+      "id": 7,
+      "name": "Timer/Stopwatch Control",
+      "definition": "User wants to start, stop, or modify a timer or stopwatch."
+    },
+    {
+      "id": 8,
+      "name": "Cancel/Delete Reminder",
+      "definition": "User wants to cancel or delete a previously set reminder or alarm."
+    },
+    {
+      "id": 9,
+      "name": "Event/Show Inquiry",
+      "definition": "User wants to know about upcoming events, shows, or activities."
+    },
+    {
+      "id": 10,
+      "name": "Contact Information Inquiry",
+      "definition": "User wants to know contact information for a specific person or organization."
+    }
+  ]
+}

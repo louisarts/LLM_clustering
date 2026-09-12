@@ -1,0 +1,99 @@
+{
+  "bench": "fewevent",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Marriage",
+      "definition": "Events involving the act of getting married, being married, or the state of being a spouse."
+    },
+    {
+      "id": 2,
+      "name": "Education",
+      "definition": "Events involving the act of studying, being a student, graduating, or the administration of schools and universities."
+    },
+    {
+      "id": 3,
+      "name": "Military Command",
+      "definition": "Events involving the holding of, transfer of, or acting in a military command position."
+    },
+    {
+      "id": 4,
+      "name": "Competition Result",
+      "definition": "Events describing the outcome of a competition, such as winning a medal or achieving a specific rank."
+    },
+    {
+      "id": 5,
+      "name": "Employment",
+      "definition": "Events involving holding a job, position, or role, including hiring, firing, and retirement."
+    },
+    {
+      "id": 6,
+      "name": "Musician",
+      "definition": "Events identifying an individual as a singer, player, or member of a musical group."
+    },
+    {
+      "id": 7,
+      "name": "Military Personnel",
+      "definition": "Events identifying an individual as a soldier, sailor, or other military service member."
+    },
+    {
+      "id": 8,
+      "name": "Leadership",
+      "definition": "Events identifying an individual as the head, leader, or president of an organization, political entity, or group."
+    },
+    {
+      "id": 9,
+      "name": "Academic Position",
+      "definition": "Events identifying an individual as a professor, lecturer, or academic administrator."
+    },
+    {
+      "id": 10,
+      "name": "Sports Role",
+      "definition": "Events identifying an individual as a player, coach, or athlete in a sporting context."
+    },
+    {
+      "id": 11,
+      "name": "Creative Work",
+      "definition": "Events involving the creation, production, or performance of an artistic work such as a film, book, or music."
+    },
+    {
+      "id": 12,
+      "name": "Transaction",
+      "definition": "Events involving the exchange, purchase, trade, or giving of goods, services, or money."
+    },
+    {
+      "id": 13,
+      "name": "Residence",
+      "definition": "Events involving living in, moving to, or being a resident of a specific place."
+    },
+    {
+      "id": 14,
+      "name": "Conflict Action",
+      "definition": "Events involving specific actions occurring during conflict or protests, such as attacks, sieges, or rallies."
+    },
+    {
+      "id": 15,
+      "name": "Communication",
+      "definition": "Events involving the act of speaking, stating, calling, or explaining something."
+    },
+    {
+      "id": 16,
+      "name": "Movement",
+      "definition": "Events involving physical movement, travel, or transportation from one place to another."
+    },
+    {
+      "id": 17,
+      "name": "Social Relationship",
+      "definition": "Events describing personal relationships such as being a partner, rival, or family member."
+    },
+    {
+      "id": 18,
+      "name": "Administrative Action",
+      "definition": "Events involving official or bureaucratic actions such as ordering, banning, or authorizing."
+    }
+  ]
+}

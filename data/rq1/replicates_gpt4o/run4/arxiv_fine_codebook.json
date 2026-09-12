@@ -1,0 +1,510 @@
+{
+  "bench": "arxiv_fine",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 2,
+      "name": "astro-ph.EP",
+      "definition": "Earth and Planetary Astrophysics"
+    },
+    {
+      "id": 3,
+      "name": "cond-mat.supr-con",
+      "definition": "Superconductivity"
+    },
+    {
+      "id": 4,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 5,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 6,
+      "name": "math.AG",
+      "definition": "Algebraic Geometry"
+    },
+    {
+      "id": 7,
+      "name": "stat.ME",
+      "definition": "Methodology"
+    },
+    {
+      "id": 8,
+      "name": "math.AC",
+      "definition": "Commutative Algebra"
+    },
+    {
+      "id": 9,
+      "name": "cs.FL",
+      "definition": "Formal Languages and Automata Theory"
+    },
+    {
+      "id": 10,
+      "name": "cs.NA",
+      "definition": "Numerical Analysis"
+    },
+    {
+      "id": 11,
+      "name": "physics.chem-ph",
+      "definition": "Chemical Physics"
+    },
+    {
+      "id": 12,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 13,
+      "name": "q-bio.GN",
+      "definition": "Genomics"
+    },
+    {
+      "id": 14,
+      "name": "q-fin.RM",
+      "definition": "Risk Management"
+    },
+    {
+      "id": 15,
+      "name": "q-fin.PR",
+      "definition": "Pricing of Securities"
+    },
+    {
+      "id": 16,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence"
+    },
+    {
+      "id": 17,
+      "name": "cond-mat.str-el",
+      "definition": "Strongly Correlated Electrons"
+    },
+    {
+      "id": 18,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 19,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 20,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 21,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 22,
+      "name": "cs.CR",
+      "definition": "Cryptography and Security"
+    },
+    {
+      "id": 23,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 24,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 25,
+      "name": "cond-mat.mtrl-sci",
+      "definition": "Materials Science"
+    },
+    {
+      "id": 26,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 27,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 28,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 29,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 30,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 31,
+      "name": "cs.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 32,
+      "name": "cs.CL",
+      "definition": "Computation and Language"
+    },
+    {
+      "id": 33,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 34,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 35,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 36,
+      "name": "cs.LO",
+      "definition": "Logic in Computer Science"
+    },
+    {
+      "id": 37,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 38,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 39,
+      "name": "cs.DB",
+      "definition": "Databases"
+    },
+    {
+      "id": 40,
+      "name": "cs.AR",
+      "definition": "Hardware Architecture"
+    },
+    {
+      "id": 41,
+      "name": "cs.GL",
+      "definition": "General Literature"
+    },
+    {
+      "id": 42,
+      "name": "cs.CY",
+      "definition": "Computers and Society"
+    },
+    {
+      "id": 43,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 44,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 45,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 46,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 47,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 48,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 49,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence"
+    },
+    {
+      "id": 50,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 51,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 52,
+      "name": "cs.MS",
+      "definition": "Mathematical Software"
+    },
+    {
+      "id": 53,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 54,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 55,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 56,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 57,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 58,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 59,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 60,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 61,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 62,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 63,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 64,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 65,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 66,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 67,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 68,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 69,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 70,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 71,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 72,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 73,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 74,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 75,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 76,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 77,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 78,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 79,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 80,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 81,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 82,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 83,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 84,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 85,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 86,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 87,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 88,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 89,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 90,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 91,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 92,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 93,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 94,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 95,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 96,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 97,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 98,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 99,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 100,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    }
+  ]
+}

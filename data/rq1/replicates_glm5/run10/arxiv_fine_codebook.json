@@ -1,0 +1,409 @@
+{
+  "bench": "arxiv_fine",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "math.AG",
+      "definition": "Algebraic geometry, including moduli spaces, curves, and algebraic varieties."
+    },
+    {
+      "id": 2,
+      "name": "q-fin.EC",
+      "definition": "Economics, including market equilibrium, systemic risk, and macroeconomic policy."
+    },
+    {
+      "id": 3,
+      "name": "q-bio.QM",
+      "definition": "Quantitative methods in biology, including epidemiology and biomedical applications."
+    },
+    {
+      "id": 4,
+      "name": "astro-ph.IM",
+      "definition": "Instrumentation and methods for astrophysics, including data analysis and statistics."
+    },
+    {
+      "id": 5,
+      "name": "physics.ao-ph",
+      "definition": "Atmospheric and oceanic physics, including meteorology and climate modeling."
+    },
+    {
+      "id": 6,
+      "name": "stat.ME",
+      "definition": "Statistical methodology, including estimation, inference, and experimental design."
+    },
+    {
+      "id": 7,
+      "name": "cs.LG",
+      "definition": "Machine learning, including deep learning, neural networks, and representation learning."
+    },
+    {
+      "id": 8,
+      "name": "math.GT",
+      "definition": "Geometric topology, including manifolds, low-dimensional topology, and knot theory."
+    },
+    {
+      "id": 9,
+      "name": "math.RT",
+      "definition": "Representation theory, including Lie algebras, algebraic groups, and quantum groups."
+    },
+    {
+      "id": 10,
+      "name": "q-fin.RM",
+      "definition": "Risk management, including portfolio theory, option pricing, and financial econometrics."
+    },
+    {
+      "id": 11,
+      "name": "astro-ph.SR",
+      "definition": "Solar and stellar physics, including stellar evolution, flares, and star formation."
+    },
+    {
+      "id": 12,
+      "name": "cs.CR",
+      "definition": "Cryptography and security, including privacy, intrusion detection, and network security."
+    },
+    {
+      "id": 13,
+      "name": "cs.LO",
+      "definition": "Logic in computer science, including modal logic, proof theory, and formal languages."
+    },
+    {
+      "id": 14,
+      "name": "math.CO",
+      "definition": "Combinatorics, including graph theory, discrete structures, and enumerative problems."
+    },
+    {
+      "id": 15,
+      "name": "cs.RO",
+      "definition": "Robotics, including control systems, path planning, and human-robot interaction."
+    },
+    {
+      "id": 16,
+      "name": "astro-ph.HE",
+      "definition": "High-energy astrophysics, including black holes, neutron stars, and cosmic rays."
+    },
+    {
+      "id": 17,
+      "name": "cs.CL",
+      "definition": "Computation and language, including natural language processing, speech, and text mining."
+    },
+    {
+      "id": 18,
+      "name": "math.NT",
+      "definition": "Number theory, including algebraic, analytic, and arithmetic aspects of numbers."
+    },
+    {
+      "id": 19,
+      "name": "cond-mat.mtrl-sci",
+      "definition": "Materials science, including synthesis, structure, and properties of materials."
+    },
+    {
+      "id": 20,
+      "name": "physics.comp-ph",
+      "definition": "Computational physics, including numerical methods, simulations, and algorithms."
+    },
+    {
+      "id": 21,
+      "name": "cond-mat.stat-mech",
+      "definition": "Statistical mechanics, including phase transitions, thermodynamics, and many-body systems."
+    },
+    {
+      "id": 22,
+      "name": "cs.SY",
+      "definition": "Systems and control, including feedback control, dynamical systems, and optimization."
+    },
+    {
+      "id": 23,
+      "name": "math.PR",
+      "definition": "Probability theory, including stochastic processes, random walks, and limit theorems."
+    },
+    {
+      "id": 24,
+      "name": "physics.med-ph",
+      "definition": "Medical physics, including imaging, radiation therapy, and biomedical optics."
+    },
+    {
+      "id": 25,
+      "name": "math.GR",
+      "definition": "Group theory, including finite groups, Lie groups, and algebraic structures."
+    },
+    {
+      "id": 26,
+      "name": "cs.AI",
+      "definition": "Artificial intelligence, including knowledge representation, planning, and agents."
+    },
+    {
+      "id": 27,
+      "name": "math.DG",
+      "definition": "Differential geometry, including Riemannian geometry, curvature, and geometric analysis."
+    },
+    {
+      "id": 28,
+      "name": "physics.atom-ph",
+      "definition": "Atomic physics, including atomic structure, interactions, and cooling."
+    },
+    {
+      "id": 29,
+      "name": "cs.HC",
+      "definition": "Human-computer interaction, including user interfaces, usability, and accessibility."
+    },
+    {
+      "id": 30,
+      "name": "math.AP",
+      "definition": "Analysis of PDEs, including existence, uniqueness, and regularity of solutions."
+    },
+    {
+      "id": 31,
+      "name": "physics.optics",
+      "definition": "Optics, including wave propagation, lasers, and photonic devices."
+    },
+    {
+      "id": 32,
+      "name": "cs.DS",
+      "definition": "Data structures and algorithms, including complexity, graph algorithms, and optimization."
+    },
+    {
+      "id": 33,
+      "name": "math.AC",
+      "definition": "Commutative algebra, including rings, ideals, modules, and homological algebra."
+    },
+    {
+      "id": 34,
+      "name": "physics.plasm-ph",
+      "definition": "Plasma physics, including fusion, plasma dynamics, and astrophysical plasmas."
+    },
+    {
+      "id": 35,
+      "name": "cs.CV",
+      "definition": "Computer vision and pattern recognition, including image and video analysis."
+    },
+    {
+      "id": 36,
+      "name": "q-bio.TO",
+      "definition": "Tissues and organs, including developmental biology and morphogenesis."
+    },
+    {
+      "id": 37,
+      "name": "math.OA",
+      "definition": "Operator algebras, including C*-algebras, von Neumann algebras, and functional analysis."
+    },
+    {
+      "id": 38,
+      "name": "cs.NE",
+      "definition": "Neural and evolutionary computing, including neural architectures and evolutionary algorithms."
+    },
+    {
+      "id": 39,
+      "name": "physics.ins-det",
+      "definition": "Instrumentation and detectors for physics experiments."
+    },
+    {
+      "id": 40,
+      "name": "math.LO",
+      "definition": "Logic, including set theory, model theory, and computability theory."
+    },
+    {
+      "id": 41,
+      "name": "cond-mat.supr-con",
+      "definition": "Superconductivity, including superconducting materials and phenomena."
+    },
+    {
+      "id": 42,
+      "name": "cs.NI",
+      "definition": "Networking and internet architecture, including protocols and wireless networks."
+    },
+    {
+      "id": 43,
+      "name": "math.SP",
+      "definition": "Spectral theory, including operators, eigenvalues, and inverse problems."
+    },
+    {
+      "id": 44,
+      "name": "physics.flu-dyn",
+      "definition": "Fluid dynamics, including turbulence, aerodynamics, and hydrodynamics."
+    },
+    {
+      "id": 45,
+      "name": "math.FA",
+      "definition": "Functional analysis, including Banach spaces, operator theory, and measure theory."
+    },
+    {
+      "id": 46,
+      "name": "cs.CY",
+      "definition": "Computers and society, including social impact, ethics, and digital divide."
+    },
+    {
+      "id": 47,
+      "name": "q-bio.SC",
+      "definition": "Subcellular processes, including gene regulation, signaling networks, and molecular biology."
+    },
+    {
+      "id": 48,
+      "name": "physics.class-ph",
+      "definition": "Classical physics, including mechanics, electromagnetism, and thermodynamics."
+    },
+    {
+      "id": 49,
+      "name": "math.SG",
+      "definition": "Symplectic geometry, including symplectic manifolds and contact geometry."
+    },
+    {
+      "id": 50,
+      "name": "cs.MM",
+      "definition": "Multimedia, including audio, video, and multimedia systems."
+    },
+    {
+      "id": 51,
+      "name": "math.CV",
+      "definition": "Complex variables, including complex analysis and several complex variables."
+    },
+    {
+      "id": 52,
+      "name": "physics.bio-ph",
+      "definition": "Biological physics, including biomaterials, biophysics of molecules and cells."
+    },
+    {
+      "id": 53,
+      "name": "cs.DC",
+      "definition": "Distributed, parallel, and cluster computing, including cloud and grid computing."
+    },
+    {
+      "id": 54,
+      "name": "cond-mat.mes-hall",
+      "definition": "Mesoscale and nanoscale physics, including quantum Hall effect and nanostructures."
+    },
+    {
+      "id": 55,
+      "name": "cs.IR",
+      "definition": "Information retrieval, including search engines, ranking, and recommender systems."
+    },
+    {
+      "id": 56,
+      "name": "math.RA",
+      "definition": "Rings and algebras, including non-commutative rings and algebraic structures."
+    },
+    {
+      "id": 57,
+      "name": "hep-th",
+      "definition": "High energy physics - theory, including quantum field theory and string theory."
+    },
+    {
+      "id": 58,
+      "name": "stat.ML",
+      "definition": "Machine learning from a statistical perspective, including theory and methods."
+    },
+    {
+      "id": 59,
+      "name": "cs.SE",
+      "definition": "Software engineering, including development, testing, and maintenance."
+    },
+    {
+      "id": 60,
+      "name": "physics.space-ph",
+      "definition": "Space physics, including solar wind, magnetospheres, and ionospheres."
+    },
+    {
+      "id": 61,
+      "name": "cs.DB",
+      "definition": "Databases, including data management, query processing, and data mining."
+    },
+    {
+      "id": 62,
+      "name": "physics.chem-ph",
+      "definition": "Chemical physics, including reaction dynamics and spectroscopy."
+    },
+    {
+      "id": 63,
+      "name": "math.NA",
+      "definition": "Numerical analysis, including numerical algorithms and approximation theory."
+    },
+    {
+      "id": 64,
+      "name": "astro-ph.GA",
+      "definition": "Astrophysics of galaxies, including galactic structure and evolution."
+    },
+    {
+      "id": 65,
+      "name": "cs.ET",
+      "definition": "Emerging technologies, including hardware, nanotechnology, and quantum computing."
+    },
+    {
+      "id": 66,
+      "name": "cond-mat.quant-gas",
+      "definition": "Quantum gases, including Bose-Einstein condensates and ultracold atoms."
+    },
+    {
+      "id": 67,
+      "name": "cs.MA",
+      "definition": "Multiagent systems, including game theory, coordination, and mechanism design."
+    },
+    {
+      "id": 68,
+      "name": "stat.TH",
+      "definition": "Statistics theory, including mathematical foundations and asymptotic analysis."
+    },
+    {
+      "id": 69,
+      "name": "physics.pop-ph",
+      "definition": "Popular physics, including educational and general interest articles."
+    },
+    {
+      "id": 70,
+      "name": "q-fin.GN",
+      "definition": "General finance, including financial markets and instruments."
+    },
+    {
+      "id": 71,
+      "name": "math-ph",
+      "definition": "Mathematical physics, including mathematical methods for physical systems."
+    },
+    {
+      "id": 72,
+      "name": "cs.CE",
+      "definition": "Computational engineering, including simulations and design in engineering."
+    },
+    {
+      "id": 73,
+      "name": "cs.SI",
+      "definition": "Social and information networks, including network analysis and dynamics."
+    },
+    {
+      "id": 74,
+      "name": "astro-ph.CO",
+      "definition": "Cosmology and extragalactic astrophysics, including the early universe."
+    },
+    {
+      "id": 75,
+      "name": "hep-ex",
+      "definition": "High energy physics - experiment, including particle detectors and results."
+    },
+    {
+      "id": 76,
+      "name": "cs.FL",
+      "definition": "Formal languages and automata theory, including computational complexity."
+    },
+    {
+      "id": 77,
+      "name": "q-bio.PE",
+      "definition": "Populations and evolution, including evolutionary dynamics and population genetics."
+    },
+    {
+      "id": 78,
+      "name": "cs.PL",
+      "definition": "Programming languages, including semantics, types, and compilers."
+    },
+    {
+      "id": 79,
+      "name": "cs.OS",
+      "definition": "Operating systems, including system architecture and resource management."
+    },
+    {
+      "id": 80,
+      "name": "physics.geo-ph",
+      "definition": "Geophysics, including seismology and Earth structure."
+    }
+  ]
+}

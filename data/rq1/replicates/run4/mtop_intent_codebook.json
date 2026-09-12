@@ -1,0 +1,117 @@
+{
+  "bench": "mtop_intent",
+  "run": 4,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "COMMUNICATION_CALL",
+      "definition": "Initiating a phone call or audio call to one or more contacts."
+    },
+    {
+      "id": 2,
+      "name": "COMMUNICATION_MESSAGE",
+      "definition": "Sending a text or written message to one or more contacts."
+    },
+    {
+      "id": 3,
+      "name": "COMMUNICATION_VIDEO_CALL_MESSAGE",
+      "definition": "Initiating, managing, or recording a video call or video message."
+    },
+    {
+      "id": 4,
+      "name": "COMMUNICATION_RETRIEVE",
+      "definition": "Retrieving past messages, call history, or video messages."
+    },
+    {
+      "id": 5,
+      "name": "COMMUNICATION_MANAGE_CALL",
+      "definition": "Adding or dropping participants from an ongoing call, or cancelling a current call."
+    },
+    {
+      "id": 6,
+      "name": "ALARM_SET",
+      "definition": "Setting a new alarm, including one-time or recurring alarms."
+    },
+    {
+      "id": 7,
+      "name": "ALARM_MANAGE_QUERY",
+      "definition": "Modifying, querying, or retrieving information about existing alarms."
+    },
+    {
+      "id": 8,
+      "name": "TIMER_SET",
+      "definition": "Setting a new timer for a specified duration."
+    },
+    {
+      "id": 9,
+      "name": "TIMER_MANAGE_QUERY",
+      "definition": "Modifying, querying, or retrieving information about existing timers."
+    },
+    {
+      "id": 10,
+      "name": "REMINDER_SET",
+      "definition": "Setting a new reminder for a specific event or task."
+    },
+    {
+      "id": 11,
+      "name": "REMINDER_MANAGE_QUERY",
+      "definition": "Modifying, querying, or deleting existing reminders."
+    },
+    {
+      "id": 12,
+      "name": "INFORMATION_RECIPE_COOKING",
+      "definition": "Asking for recipes, cooking instructions, or food preparation details."
+    },
+    {
+      "id": 13,
+      "name": "INFORMATION_GENERAL_FACT",
+      "definition": "Asking for general facts, definitions, or knowledge not covered by other information categories."
+    },
+    {
+      "id": 14,
+      "name": "INFORMATION_CONTACT_SOCIAL",
+      "definition": "Asking for information about contacts, social connections, or people's personal details."
+    },
+    {
+      "id": 15,
+      "name": "INFORMATION_WEATHER",
+      "definition": "Asking for current weather conditions or forecasts."
+    },
+    {
+      "id": 16,
+      "name": "INFORMATION_NEWS",
+      "definition": "Asking for general news, headlines, or news on specific topics or sources."
+    },
+    {
+      "id": 17,
+      "name": "MEDIA_PLAYBACK_MUSIC",
+      "definition": "Playing music, podcasts, or other audio content."
+    },
+    {
+      "id": 18,
+      "name": "MEDIA_PLAYBACK_CONTROL",
+      "definition": "Controlling media playback, such as skipping, repeating, or shuffling."
+    },
+    {
+      "id": 19,
+      "name": "MEDIA_PLAYBACK_QUERY_SETTINGS",
+      "definition": "Querying information about currently playing media or configuring media settings."
+    },
+    {
+      "id": 20,
+      "name": "EVENTS_CALENDAR",
+      "definition": "Querying for upcoming events or calendar entries."
+    },
+    {
+      "id": 21,
+      "name": "TIME_DATE_QUERY",
+      "definition": "Asking for general time or date information, such as sunrise or sunset."
+    },
+    {
+      "id": 22,
+      "name": "ASSISTANT_CONTROL_STATUS",
+      "definition": "Indicating the user is done, unavailable, or general interaction control."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "bench": "clinc150_domain",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking & Finance",
+      "definition": "Managing personal banking accounts, credit cards, payments, and financial transactions."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Scheduling",
+      "definition": "Checking dates, scheduling meetings, and managing calendar events."
+    },
+    {
+      "id": 3,
+      "name": "Device Settings & Voice Configuration",
+      "definition": "Adjusting assistant settings such as voice, language, volume, and operational modes."
+    },
+    {
+      "id": 4,
+      "name": "Food & Nutrition",
+      "definition": "Finding recipes, nutritional information, and cooking instructions."
+    },
+    {
+      "id": 5,
+      "name": "General Knowledge & Trivia",
+      "definition": "Answering questions about facts, definitions, conversions, and general world knowledge."
+    },
+    {
+      "id": 6,
+      "name": "Home Automation",
+      "definition": "Controlling smart home devices like thermostats and alarms."
+    },
+    {
+      "id": 7,
+      "name": "Lists & Organization",
+      "definition": "Managing personal to-do lists, shopping lists, and reminders."
+    },
+    {
+      "id": 8,
+      "name": "Media & Music",
+      "definition": "Playing music, identifying songs, and managing playlists."
+    },
+    {
+      "id": 9,
+      "name": "Personal Assistant Meta",
+      "definition": "Questions regarding the assistant's identity, capabilities, personality, or origin."
+    },
+    {
+      "id": 10,
+      "name": "Shopping & Orders",
+      "definition": "Placing orders for products and tracking deliveries."
+    },
+    {
+      "id": 11,
+      "name": "Travel & Transportation",
+      "definition": "Booking travel, requesting rides, checking navigation, and handling travel documentation."
+    },
+    {
+      "id": 12,
+      "name": "Utilities & Bills",
+      "definition": "Checking and managing utility bills and service payments."
+    },
+    {
+      "id": 13,
+      "name": "Vehicle & Maintenance",
+      "definition": "Checking vehicle status, maintenance needs, and requesting automotive assistance."
+    },
+    {
+      "id": 14,
+      "name": "Work & HR",
+      "definition": "Managing employment tasks such as payroll, time off, and benefits."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "bench": "clinc150_domain",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar Management",
+      "definition": "Requests related to managing calendar events, meetings, and reminders."
+    },
+    {
+      "id": 2,
+      "name": "Banking and Finance",
+      "definition": "Inquiries and actions related to bank accounts, credit cards, and financial transactions."
+    },
+    {
+      "id": 3,
+      "name": "Currency and Measurement Conversion",
+      "definition": "Requests for converting currencies or measurements."
+    },
+    {
+      "id": 4,
+      "name": "Travel and Transportation",
+      "definition": "Questions and actions related to travel plans, flights, and transportation."
+    },
+    {
+      "id": 5,
+      "name": "Utilities and Bills",
+      "definition": "Inquiries and actions related to utility bills and payments."
+    },
+    {
+      "id": 6,
+      "name": "Music and Entertainment",
+      "definition": "Requests to play music or provide entertainment-related information."
+    },
+    {
+      "id": 7,
+      "name": "Dining and Reservations",
+      "definition": "Requests for restaurant suggestions, reservations, and reviews."
+    },
+    {
+      "id": 8,
+      "name": "Weather and Time",
+      "definition": "Inquiries about weather forecasts and time-related questions."
+    },
+    {
+      "id": 9,
+      "name": "Language and Translation",
+      "definition": "Requests for translations or language-related information."
+    },
+    {
+      "id": 10,
+      "name": "Personal Assistant Interaction",
+      "definition": "Requests related to interacting with the assistant, including changing settings or preferences."
+    },
+    {
+      "id": 11,
+      "name": "Shopping and Grocery Lists",
+      "definition": "Requests to manage shopping lists or inquire about products."
+    },
+    {
+      "id": 12,
+      "name": "Health and Insurance",
+      "definition": "Inquiries related to health, insurance plans, and medical appointments."
+    },
+    {
+      "id": 13,
+      "name": "Trivia and Fun Facts",
+      "definition": "Requests for trivia, fun facts, or jokes."
+    },
+    {
+      "id": 14,
+      "name": "Device and Technical Support",
+      "definition": "Requests for technical support or device-related actions."
+    },
+    {
+      "id": 15,
+      "name": "Communication",
+      "definition": "Requests to send messages or make calls."
+    },
+    {
+      "id": 16,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 17,
+      "name": "Automotive",
+      "definition": "Inquiries related to car maintenance and specifications."
+    }
+  ]
+}

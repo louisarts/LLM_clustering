@@ -1,0 +1,165 @@
+{
+  "bench": "stackoverflow20",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML."
+    },
+    {
+      "id": 2,
+      "name": "Apache",
+      "definition": "Questions related to the Apache web server."
+    },
+    {
+      "id": 3,
+      "name": "Bash",
+      "definition": "Questions related to the Bash scripting language."
+    },
+    {
+      "id": 4,
+      "name": "C#",
+      "definition": "Questions related to the C# programming language."
+    },
+    {
+      "id": 5,
+      "name": "C++",
+      "definition": "Questions related to the C++ programming language."
+    },
+    {
+      "id": 6,
+      "name": "Cocoa",
+      "definition": "Questions related to Cocoa development."
+    },
+    {
+      "id": 7,
+      "name": "Drupal",
+      "definition": "Questions related to the Drupal content management system."
+    },
+    {
+      "id": 8,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel."
+    },
+    {
+      "id": 9,
+      "name": "Flex",
+      "definition": "Questions related to the Flex framework."
+    },
+    {
+      "id": 10,
+      "name": "Git",
+      "definition": "Questions related to the Git version control system."
+    },
+    {
+      "id": 11,
+      "name": "Haskell",
+      "definition": "Questions related to the Haskell programming language."
+    },
+    {
+      "id": 12,
+      "name": "Hibernate",
+      "definition": "Questions related to the Hibernate ORM framework."
+    },
+    {
+      "id": 13,
+      "name": "HTML/CSS",
+      "definition": "Questions related to HTML and CSS."
+    },
+    {
+      "id": 14,
+      "name": "Java",
+      "definition": "Questions related to the Java programming language."
+    },
+    {
+      "id": 15,
+      "name": "JavaScript",
+      "definition": "Questions related to JavaScript programming."
+    },
+    {
+      "id": 16,
+      "name": "jQuery",
+      "definition": "Questions related to the jQuery library."
+    },
+    {
+      "id": 17,
+      "name": "LINQ",
+      "definition": "Questions related to Language Integrated Query."
+    },
+    {
+      "id": 18,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 19,
+      "name": "Matlab",
+      "definition": "Questions related to the Matlab programming language."
+    },
+    {
+      "id": 20,
+      "name": "MySQL",
+      "definition": "Questions related to the MySQL database system."
+    },
+    {
+      "id": 21,
+      "name": "Objective-C",
+      "definition": "Questions related to the Objective-C programming language."
+    },
+    {
+      "id": 22,
+      "name": "Oracle",
+      "definition": "Questions related to the Oracle database system."
+    },
+    {
+      "id": 23,
+      "name": "PHP",
+      "definition": "Questions related to the PHP programming language."
+    },
+    {
+      "id": 24,
+      "name": "Python",
+      "definition": "Questions related to the Python programming language."
+    },
+    {
+      "id": 25,
+      "name": "Qt",
+      "definition": "Questions related to the Qt application framework."
+    },
+    {
+      "id": 26,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language."
+    },
+    {
+      "id": 27,
+      "name": "SharePoint",
+      "definition": "Questions related to the SharePoint platform."
+    },
+    {
+      "id": 28,
+      "name": "Spring",
+      "definition": "Questions related to the Spring framework."
+    },
+    {
+      "id": 29,
+      "name": "Subversion",
+      "definition": "Questions related to the Subversion version control system."
+    },
+    {
+      "id": 30,
+      "name": "Visual Studio",
+      "definition": "Questions related to Microsoft Visual Studio."
+    },
+    {
+      "id": 31,
+      "name": "WordPress",
+      "definition": "Questions related to the WordPress content management system."
+    }
+  ]
+}

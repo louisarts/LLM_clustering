@@ -1,0 +1,120 @@
+{
+  "bench": "stackoverflow20",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apache",
+      "definition": "Web server software used to serve web content."
+    },
+    {
+      "id": 2,
+      "name": "Bash",
+      "definition": "Unix shell and command language for scripting."
+    },
+    {
+      "id": 3,
+      "name": "Cocoa",
+      "definition": "Apple's native object-oriented application programming interface for macOS."
+    },
+    {
+      "id": 4,
+      "name": "Drupal",
+      "definition": "Open-source content management framework for building websites."
+    },
+    {
+      "id": 5,
+      "name": "Excel VBA",
+      "definition": "Visual Basic for Applications used for automation in Microsoft Excel."
+    },
+    {
+      "id": 6,
+      "name": "Haskell",
+      "definition": "A functional programming language known for its strong static typing."
+    },
+    {
+      "id": 7,
+      "name": "Hibernate",
+      "definition": "Object-relational mapping framework for Java."
+    },
+    {
+      "id": 8,
+      "name": "Java",
+      "definition": "A high-level programming language used for building applications."
+    },
+    {
+      "id": 9,
+      "name": "jQuery",
+      "definition": "A fast, small, and feature-rich JavaScript library."
+    },
+    {
+      "id": 10,
+      "name": "LINQ",
+      "definition": "Language Integrated Query, a Microsoft .NET Framework component."
+    },
+    {
+      "id": 11,
+      "name": "Magento",
+      "definition": "Open-source e-commerce platform for online stores."
+    },
+    {
+      "id": 12,
+      "name": "Matlab",
+      "definition": "A programming platform designed for engineers and scientists."
+    },
+    {
+      "id": 13,
+      "name": "Oracle",
+      "definition": "A multi-model database management system produced by Oracle Corporation."
+    },
+    {
+      "id": 14,
+      "name": "PHP",
+      "definition": "A popular general-purpose scripting language especially suited to web development."
+    },
+    {
+      "id": 15,
+      "name": "Python",
+      "definition": "A high-level programming language known for its readability and versatility."
+    },
+    {
+      "id": 16,
+      "name": "Qt",
+      "definition": "A free and open-source widget toolkit for creating graphical user interfaces."
+    },
+    {
+      "id": 17,
+      "name": "SharePoint",
+      "definition": "A web-based collaborative platform that integrates with Microsoft Office."
+    },
+    {
+      "id": 18,
+      "name": "Spring",
+      "definition": "A comprehensive framework for enterprise Java development."
+    },
+    {
+      "id": 19,
+      "name": "Subversion (SVN)",
+      "definition": "A version control system for tracking changes in files and directories."
+    },
+    {
+      "id": 20,
+      "name": "Visual Studio",
+      "definition": "An integrated development environment (IDE) from Microsoft."
+    },
+    {
+      "id": 21,
+      "name": "WordPress",
+      "definition": "An open-source content management system for building websites and blogs."
+    },
+    {
+      "id": 22,
+      "name": "Scala",
+      "definition": "A high-level programming language that combines functional and object-oriented programming."
+    }
+  ]
+}

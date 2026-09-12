@@ -1,0 +1,85 @@
+{
+  "bench": "mtop_domain",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm Management",
+      "definition": "Requests related to setting, modifying, or deleting alarms."
+    },
+    {
+      "id": 2,
+      "name": "Reminder Management",
+      "definition": "Requests for setting, modifying, or deleting reminders."
+    },
+    {
+      "id": 3,
+      "name": "Weather Information",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 4,
+      "name": "News Updates",
+      "definition": "Requests for news articles or updates on specific topics."
+    },
+    {
+      "id": 5,
+      "name": "Call Management",
+      "definition": "Requests related to making, managing, or ending phone calls."
+    },
+    {
+      "id": 6,
+      "name": "Messaging",
+      "definition": "Requests for sending or managing messages via various platforms."
+    },
+    {
+      "id": 7,
+      "name": "Music Playback",
+      "definition": "Requests for playing, pausing, or managing music tracks or playlists."
+    },
+    {
+      "id": 8,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions or recipes."
+    },
+    {
+      "id": 9,
+      "name": "Timer Management",
+      "definition": "Requests related to setting, modifying, or stopping timers."
+    },
+    {
+      "id": 10,
+      "name": "Event Management",
+      "definition": "Requests for information about events or managing event-related reminders."
+    },
+    {
+      "id": 11,
+      "name": "Personal Information Queries",
+      "definition": "Requests for information about people, such as their jobs or locations."
+    },
+    {
+      "id": 12,
+      "name": "Health and Nutrition",
+      "definition": "Requests for nutritional information or health-related queries."
+    },
+    {
+      "id": 13,
+      "name": "Social Media Interaction",
+      "definition": "Requests for interacting with social media platforms or contacts."
+    },
+    {
+      "id": 14,
+      "name": "Travel and Location Queries",
+      "definition": "Requests for information about travel, locations, or local conditions."
+    },
+    {
+      "id": 15,
+      "name": "General Knowledge Queries",
+      "definition": "Requests for factual information or general knowledge."
+    }
+  ]
+}

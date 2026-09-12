@@ -1,0 +1,52 @@
+{
+  "bench": "snips",
+  "run": 4,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Find Content",
+      "definition": "User wants to locate or retrieve information about a specific piece of media or information, such as a book, movie, game, song, album, or image."
+    },
+    {
+      "id": 2,
+      "name": "Play Media",
+      "definition": "User wants to initiate the playback of audio or video content, including songs, albums, artists, playlists, or specific media types."
+    },
+    {
+      "id": 3,
+      "name": "Add to Playlist",
+      "definition": "User wants to add a specific item, such as a song, artist, or album, to a designated playlist."
+    },
+    {
+      "id": 4,
+      "name": "Rate Content",
+      "definition": "User wants to assign a rating or express an opinion about a piece of content, such as a book, movie, album, or essay."
+    },
+    {
+      "id": 5,
+      "name": "Book Restaurant Reservation",
+      "definition": "User wants to reserve a table or make a booking at an eating establishment like a restaurant, cafe, pub, or diner."
+    },
+    {
+      "id": 6,
+      "name": "Get Weather Information",
+      "definition": "User wants to retrieve current or forecasted weather conditions for a specific location."
+    },
+    {
+      "id": 7,
+      "name": "Find Movie Showtimes & Locations",
+      "definition": "User wants to find out what movies are playing, where they are playing, and at what specific times."
+    },
+    {
+      "id": 8,
+      "name": "Navigate to Location",
+      "definition": "User wants to find directions or plan a route to a specific geographical place or point of interest."
+    },
+    {
+      "id": 9,
+      "name": "Find Business",
+      "definition": "User wants to locate a specific type of business or point of interest, without the intent to make a reservation."
+    }
+  ]
+}

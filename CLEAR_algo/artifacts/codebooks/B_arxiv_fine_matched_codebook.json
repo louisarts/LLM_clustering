@@ -1,0 +1,227 @@
+[
+ {
+  "id": 1,
+  "name": "cs.IR",
+  "definition": "Information Retrieval"
+ },
+ {
+  "id": 2,
+  "name": "cs.LG",
+  "definition": "Machine Learning"
+ },
+ {
+  "id": 3,
+  "name": "physics.optics",
+  "definition": "Optics"
+ },
+ {
+  "id": 4,
+  "name": "math.GR",
+  "definition": "Group Theory"
+ },
+ {
+  "id": 5,
+  "name": "q-fin.ST",
+  "definition": "Statistical Finance"
+ },
+ {
+  "id": 6,
+  "name": "cs.SD",
+  "definition": "Software Development"
+ },
+ {
+  "id": 7,
+  "name": "cs.SI",
+  "definition": "Social and Information Networks"
+ },
+ {
+  "id": 8,
+  "name": "cs.SY",
+  "definition": "Systems and Control"
+ },
+ {
+  "id": 9,
+  "name": "math.DS",
+  "definition": "Dynamical Systems"
+ },
+ {
+  "id": 10,
+  "name": "cs.CL",
+  "definition": "Computation and Language"
+ },
+ {
+  "id": 11,
+  "name": "math.FA",
+  "definition": "Functional Analysis"
+ },
+ {
+  "id": 12,
+  "name": "astro-ph.HE",
+  "definition": "High Energy Astrophysical Phenomena"
+ },
+ {
+  "id": 13,
+  "name": "quant-ph",
+  "definition": "Quantum Physics"
+ },
+ {
+  "id": 14,
+  "name": "cs.AI",
+  "definition": "Artificial Intelligence"
+ },
+ {
+  "id": 15,
+  "name": "q-bio.GN",
+  "definition": "Genomics"
+ },
+ {
+  "id": 16,
+  "name": "hep-ex",
+  "definition": "High Energy Physics - Experiment"
+ },
+ {
+  "id": 17,
+  "name": "cond-mat.quant-gas",
+  "definition": "Quantum Gases"
+ },
+ {
+  "id": 18,
+  "name": "astro-ph.IM",
+  "definition": "Instrumentation and Methods for Astrophysics"
+ },
+ {
+  "id": 19,
+  "name": "math.CO",
+  "definition": "Combinatorics"
+ },
+ {
+  "id": 20,
+  "name": "physics.flu-dyn",
+  "definition": "Fluid Dynamics"
+ },
+ {
+  "id": 21,
+  "name": "cs.NE",
+  "definition": "Neural and Evolutionary Computing"
+ },
+ {
+  "id": 22,
+  "name": "math.AT",
+  "definition": "Algebraic Topology"
+ },
+ {
+  "id": 23,
+  "name": "math.RA",
+  "definition": "Rings and Algebras"
+ },
+ {
+  "id": 24,
+  "name": "cs.CV",
+  "definition": "Computer Vision and Pattern Recognition"
+ },
+ {
+  "id": 25,
+  "name": "math.OA",
+  "definition": "Operator Algebras"
+ },
+ {
+  "id": 26,
+  "name": "physics.acc-ph",
+  "definition": "Accelerator Physics"
+ },
+ {
+  "id": 27,
+  "name": "cs.GR",
+  "definition": "Graphics"
+ },
+ {
+  "id": 28,
+  "name": "math.SP",
+  "definition": "Spectral Theory"
+ },
+ {
+  "id": 29,
+  "name": "cs.PL",
+  "definition": "Programming Languages"
+ },
+ {
+  "id": 30,
+  "name": "econ.GN",
+  "definition": "General Economics"
+ },
+ {
+  "id": 31,
+  "name": "cs.LO",
+  "definition": "Logic in Computer Science"
+ },
+ {
+  "id": 32,
+  "name": "cs.DB",
+  "definition": "Databases"
+ },
+ {
+  "id": 33,
+  "name": "math.PR",
+  "definition": "Probability"
+ },
+ {
+  "id": 34,
+  "name": "physics.bio-ph",
+  "definition": "Physics - Biological Physics"
+ },
+ {
+  "id": 35,
+  "name": "math.AC",
+  "definition": "Mathematics - Commutative Algebra"
+ },
+ {
+  "id": 36,
+  "name": "cs.DC",
+  "definition": "Computer Science - Distributed, Parallel, and Cluster Computing"
+ },
+ {
+  "id": 37,
+  "name": "math.NT",
+  "definition": "Mathematics - Number Theory"
+ },
+ {
+  "id": 38,
+  "name": "q-fin.CP",
+  "definition": "Quantitative Finance - Computational Finance"
+ },
+ {
+  "id": 39,
+  "name": "cs.SC",
+  "definition": "Computer Science - Symbolic Computation"
+ },
+ {
+  "id": 40,
+  "name": "math.GN",
+  "definition": "Mathematics - General Mathematics"
+ },
+ {
+  "id": 41,
+  "name": "math.GT",
+  "definition": "Mathematics - Geometric Topology"
+ },
+ {
+  "id": 42,
+  "name": "cs.MM",
+  "definition": "Computer Science - Multimedia"
+ },
+ {
+  "id": 43,
+  "name": "cs.OS",
+  "definition": "Computer Science - Operating Systems"
+ },
+ {
+  "id": 44,
+  "name": "cs.SE",
+  "definition": "Computer Science - Software Engineering"
+ },
+ {
+  "id": 45,
+  "name": "cs.CG",
+  "definition": "Computer Science - Computational Geometry"
+ }
+]

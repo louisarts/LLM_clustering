@@ -1,0 +1,70 @@
+{
+  "bench": "bbcnews",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sports",
+      "definition": "Articles covering sporting events, teams, and athletes."
+    },
+    {
+      "id": 2,
+      "name": "Politics",
+      "definition": "Articles discussing political events, policies, and figures."
+    },
+    {
+      "id": 3,
+      "name": "Business",
+      "definition": "Articles related to business news, corporate actions, and economic trends."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Articles about movies, music, celebrities, and cultural events."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "Articles covering technological advancements, companies, and digital trends."
+    },
+    {
+      "id": 6,
+      "name": "Science and Health",
+      "definition": "Articles related to scientific discoveries, health news, and medical research."
+    },
+    {
+      "id": 7,
+      "name": "World News",
+      "definition": "Articles covering international events and global issues."
+    },
+    {
+      "id": 8,
+      "name": "Finance",
+      "definition": "Articles discussing financial markets, investments, and economic policies."
+    },
+    {
+      "id": 9,
+      "name": "Law and Crime",
+      "definition": "Articles about legal cases, crime reports, and judicial matters."
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "Articles related to educational policies, institutions, and learning methods."
+    },
+    {
+      "id": 11,
+      "name": "Lifestyle",
+      "definition": "Articles covering lifestyle topics, including fashion, travel, and personal well-being."
+    },
+    {
+      "id": 12,
+      "name": "Environment",
+      "definition": "Articles discussing environmental issues, conservation, and climate change."
+    }
+  ]
+}

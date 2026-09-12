@@ -1,0 +1,60 @@
+{
+  "bench": "mcid",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Donation Intent",
+      "definition": "Requests or offers to donate money, goods, or services related to COVID-19 relief."
+    },
+    {
+      "id": 2,
+      "name": "Information Seeking",
+      "definition": "Inquiries about COVID-19 facts, statistics, treatments, and myths."
+    },
+    {
+      "id": 3,
+      "name": "Health and Safety Precautions",
+      "definition": "Questions or statements regarding measures to protect oneself from COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "Travel Concerns",
+      "definition": "Questions or statements related to travel restrictions, safety, and protocols during the pandemic."
+    },
+    {
+      "id": 5,
+      "name": "Symptoms and Testing",
+      "definition": "Inquiries about COVID-19 symptoms, testing procedures, and personal health assessments."
+    },
+    {
+      "id": 6,
+      "name": "Misinformation and Myths",
+      "definition": "Requests for clarification or debunking of myths and misinformation about COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Updates and News",
+      "definition": "Requests for the latest news, statistics, and updates regarding COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Treatment Options",
+      "definition": "Inquiries about available treatments and remedies for COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Community Support",
+      "definition": "Requests for information on how to support local communities during the pandemic."
+    },
+    {
+      "id": 10,
+      "name": "General Interaction",
+      "definition": "Casual greetings or acknowledgments without specific COVID-19 intent."
+    }
+  ]
+}

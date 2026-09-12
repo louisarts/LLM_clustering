@@ -1,0 +1,55 @@
+{
+  "bench": "bbcnews",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Economic Growth",
+      "definition": "Articles discussing economic growth, financial markets, and business profits"
+    },
+    {
+      "id": 2,
+      "name": "Technology and Innovation",
+      "definition": "Articles about technological advancements, software development, and gadget releases"
+    },
+    {
+      "id": 3,
+      "name": "Politics and Government",
+      "definition": "Articles covering political campaigns, government policies, and elections"
+    },
+    {
+      "id": 4,
+      "name": "Entertainment Industry",
+      "definition": "Articles related to movies, music awards, and celebrity events"
+    },
+    {
+      "id": 5,
+      "name": "Sports News",
+      "definition": "Articles focusing on sports events, athlete performances, and team updates"
+    },
+    {
+      "id": 6,
+      "name": "Legal Issues",
+      "definition": "Articles discussing legal cases, court rulings, and law enforcement actions"
+    },
+    {
+      "id": 7,
+      "name": "Health and Medicine",
+      "definition": "Articles about health-related topics, medical research, and pharmaceutical developments"
+    },
+    {
+      "id": 8,
+      "name": "International Relations",
+      "definition": "Articles covering global events, foreign policies, and international conflicts"
+    },
+    {
+      "id": 9,
+      "name": "Education and Learning",
+      "definition": "Articles related to educational systems, learning technologies, and academic research"
+    }
+  ]
+}

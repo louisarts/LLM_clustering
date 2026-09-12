@@ -1,0 +1,130 @@
+{
+  "bench": "massive_intent",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Reminder",
+      "definition": "User wants to set a reminder for a specific event or task."
+    },
+    {
+      "id": 2,
+      "name": "Check Status",
+      "definition": "User wants to check the status of a specific task or event."
+    },
+    {
+      "id": 3,
+      "name": "Book/Order",
+      "definition": "User wants to book or order a service or product."
+    },
+    {
+      "id": 4,
+      "name": "Get Information",
+      "definition": "User wants to get information about a specific topic or query."
+    },
+    {
+      "id": 5,
+      "name": "Play Media",
+      "definition": "User wants to play music, podcast, radio, or other media content."
+    },
+    {
+      "id": 6,
+      "name": "Control Smart Devices",
+      "definition": "User wants to control smart home devices such as lights, speakers, or appliances."
+    },
+    {
+      "id": 7,
+      "name": "Send/Reply Communication",
+      "definition": "User wants to send or reply to emails, tweets, messages, or social media posts."
+    },
+    {
+      "id": 8,
+      "name": "Check Weather/Time",
+      "definition": "User wants to check the weather forecast or current time."
+    },
+    {
+      "id": 9,
+      "name": "Get Directions/Travel Info",
+      "definition": "User wants to get directions or travel information."
+    },
+    {
+      "id": 10,
+      "name": "Get Recipe/Cooking Instructions",
+      "definition": "User wants to get a recipe or cooking instructions for a specific dish."
+    },
+    {
+      "id": 11,
+      "name": "Check News/Headlines",
+      "definition": "User wants to check news updates or headlines."
+    },
+    {
+      "id": 12,
+      "name": "Check Financial Information",
+      "definition": "User wants to check financial information such as exchange rates or stock market updates."
+    },
+    {
+      "id": 13,
+      "name": "Check Calendar/Events",
+      "definition": "User wants to check calendar events or schedule meetings."
+    },
+    {
+      "id": 14,
+      "name": "Get Contact Information",
+      "definition": "User wants to get contact information for a specific person or business."
+    },
+    {
+      "id": 15,
+      "name": "Control Media Playback",
+      "definition": "User wants to control media playback such as play, pause, skip, or shuffle."
+    },
+    {
+      "id": 16,
+      "name": "Delete/Cancel",
+      "definition": "User wants to delete or cancel a specific task, event, or item."
+    },
+    {
+      "id": 17,
+      "name": "Get Definition",
+      "definition": "User wants to get the definition of a specific word or term."
+    },
+    {
+      "id": 18,
+      "name": "Get Location Information",
+      "definition": "User wants to get information about a specific location or place."
+    },
+    {
+      "id": 19,
+      "name": "Get Recommendation/Advice",
+      "definition": "User wants to get a recommendation or advice on a specific topic."
+    },
+    {
+      "id": 20,
+      "name": "Control Smart Home Settings",
+      "definition": "User wants to control smart home settings such as brightness, color, or volume."
+    },
+    {
+      "id": 21,
+      "name": "Get Travel Booking",
+      "definition": "User wants to book or get information about travel bookings."
+    },
+    {
+      "id": 22,
+      "name": "Get Sports Information",
+      "definition": "User wants to get information about sports events, scores, or news."
+    },
+    {
+      "id": 23,
+      "name": "Get Educational Information",
+      "definition": "User wants to get educational information or tutorials."
+    },
+    {
+      "id": 24,
+      "name": "Get Traffic Information",
+      "definition": "User wants to get information about traffic conditions or road closures."
+    }
+  ]
+}

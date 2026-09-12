@@ -1,0 +1,160 @@
+{
+  "bench": "dbpedia",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Books",
+      "definition": "Encyclopedia articles about books, including novels and other written works."
+    },
+    {
+      "id": 2,
+      "name": "Plants",
+      "definition": "Encyclopedia articles about plant species, including trees, shrubs, and herbs."
+    },
+    {
+      "id": 3,
+      "name": "Mountains",
+      "definition": "Encyclopedia articles about mountains and mountain ranges."
+    },
+    {
+      "id": 4,
+      "name": "Companies",
+      "definition": "Encyclopedia articles about businesses and corporations."
+    },
+    {
+      "id": 5,
+      "name": "Lakes",
+      "definition": "Encyclopedia articles about lakes and bodies of freshwater."
+    },
+    {
+      "id": 6,
+      "name": "People",
+      "definition": "Encyclopedia articles about individuals, including historical figures, politicians, and artists."
+    },
+    {
+      "id": 7,
+      "name": "Buildings",
+      "definition": "Encyclopedia articles about structures, including houses, schools, and religious buildings."
+    },
+    {
+      "id": 8,
+      "name": "Sports",
+      "definition": "Encyclopedia articles about sports, athletes, and sports teams."
+    },
+    {
+      "id": 9,
+      "name": "Transportation",
+      "definition": "Encyclopedia articles about vehicles, including ships, trains, and aircraft."
+    },
+    {
+      "id": 10,
+      "name": "Villages",
+      "definition": "Encyclopedia articles about villages and small settlements."
+    },
+    {
+      "id": 11,
+      "name": "Hospitals",
+      "definition": "Encyclopedia articles about hospitals and medical centers."
+    },
+    {
+      "id": 12,
+      "name": "Films",
+      "definition": "Encyclopedia articles about films and movies."
+    },
+    {
+      "id": 13,
+      "name": "Music",
+      "definition": "Encyclopedia articles about music albums, songs, and musicians."
+    },
+    {
+      "id": 14,
+      "name": "Rivers",
+      "definition": "Encyclopedia articles about rivers and streams."
+    },
+    {
+      "id": 15,
+      "name": "Animals",
+      "definition": "Encyclopedia articles about animal species, including mammals, birds, and insects."
+    },
+    {
+      "id": 16,
+      "name": "Schools",
+      "definition": "Encyclopedia articles about educational institutions, including high schools and universities."
+    },
+    {
+      "id": 17,
+      "name": "Government",
+      "definition": "Encyclopedia articles about government entities, including agencies and political offices."
+    },
+    {
+      "id": 18,
+      "name": "Historical Events",
+      "definition": "Encyclopedia articles about historical events and periods."
+    },
+    {
+      "id": 19,
+      "name": "Technology",
+      "definition": "Encyclopedia articles about technological devices and innovations."
+    },
+    {
+      "id": 20,
+      "name": "Museums",
+      "definition": "Encyclopedia articles about museums and cultural institutions."
+    },
+    {
+      "id": 21,
+      "name": "Islands",
+      "definition": "Encyclopedia articles about islands and island groups."
+    },
+    {
+      "id": 22,
+      "name": "Organizations",
+      "definition": "Encyclopedia articles about organizations, including non-profits and advocacy groups."
+    },
+    {
+      "id": 23,
+      "name": "Art",
+      "definition": "Encyclopedia articles about artworks and artists."
+    },
+    {
+      "id": 24,
+      "name": "Military",
+      "definition": "Encyclopedia articles about military entities, including ships and operations."
+    },
+    {
+      "id": 25,
+      "name": "Geographical Features",
+      "definition": "Encyclopedia articles about geographical features not covered by other categories, such as deserts and plains."
+    },
+    {
+      "id": 26,
+      "name": "Food and Drink",
+      "definition": "Encyclopedia articles about food and beverage products and companies."
+    },
+    {
+      "id": 27,
+      "name": "Religion",
+      "definition": "Encyclopedia articles about religious figures, texts, and institutions."
+    },
+    {
+      "id": 28,
+      "name": "Science",
+      "definition": "Encyclopedia articles about scientific concepts, discoveries, and researchers."
+    },
+    {
+      "id": 29,
+      "name": "Economy",
+      "definition": "Encyclopedia articles about economic concepts, companies, and markets."
+    },
+    {
+      "id": 30,
+      "name": "Languages",
+      "definition": "Encyclopedia articles about languages and linguistic studies."
+    }
+  ]
+}

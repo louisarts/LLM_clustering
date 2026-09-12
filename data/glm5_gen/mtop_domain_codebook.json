@@ -1,0 +1,57 @@
+[
+ {
+  "id": 1,
+  "name": "Weather",
+  "definition": "Queries regarding weather conditions, forecasts, or temperature."
+ },
+ {
+  "id": 2,
+  "name": "News",
+  "definition": "Requests for news updates, headlines, or information on current events."
+ },
+ {
+  "id": 3,
+  "name": "Calling",
+  "definition": "Initiating, managing, or ending voice or video calls."
+ },
+ {
+  "id": 4,
+  "name": "Messaging",
+  "definition": "Sending, reading, or replying to messages, or setting communication status."
+ },
+ {
+  "id": 5,
+  "name": "Reminders",
+  "definition": "Setting, modifying, or querying task-based reminders for the user."
+ },
+ {
+  "id": 6,
+  "name": "Alarms",
+  "definition": "Setting, managing, or querying wake-up alarms."
+ },
+ {
+  "id": 7,
+  "name": "Timers",
+  "definition": "Setting, managing, or querying countdown timers."
+ },
+ {
+  "id": 8,
+  "name": "Music & Audio",
+  "definition": "Playing, controlling, or querying music, radio, or other audio content."
+ },
+ {
+  "id": 9,
+  "name": "Recipes & Cooking",
+  "definition": "Finding recipes, cooking instructions, ingredients, or nutritional information."
+ },
+ {
+  "id": 10,
+  "name": "People Information",
+  "definition": "Querying information about contacts, such as employment, relationships, or birthdays."
+ },
+ {
+  "id": 11,
+  "name": "Events",
+  "definition": "Finding local events, activities, or managing event attendance."
+ }
+]

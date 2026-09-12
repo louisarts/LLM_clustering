@@ -1,0 +1,74 @@
+{
+  "bench": "dbpedia",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "People",
+      "definition": "Individuals notable for their contributions to fields such as arts, sports, politics, history, or other human endeavors."
+    },
+    {
+      "id": 2,
+      "name": "Organizations",
+      "definition": "Groups of people structured as companies, institutions, government bodies, or other collective entities."
+    },
+    {
+      "id": 3,
+      "name": "Geographical features",
+      "definition": "Natural or physical features of the Earth's surface such as mountains, bodies of water, and landforms."
+    },
+    {
+      "id": 4,
+      "name": "Villages",
+      "definition": "Small human settlements or communities located within a specific administrative region."
+    },
+    {
+      "id": 5,
+      "name": "Films",
+      "definition": "Motion pictures or cinematic works created for entertainment, documentary, or artistic purposes."
+    },
+    {
+      "id": 6,
+      "name": "Albums",
+      "definition": "Collections of audio recordings, typically music, issued as a single item on various media."
+    },
+    {
+      "id": 7,
+      "name": "Plants",
+      "definition": "Living organisms belonging to the kingdom Plantae, including trees, shrubs, flowers, and ferns."
+    },
+    {
+      "id": 8,
+      "name": "Animals",
+      "definition": "Living organisms belonging to the kingdom Animalia, including insects, birds, mammals, and fish."
+    },
+    {
+      "id": 9,
+      "name": "Vehicles",
+      "definition": "Machines used for transporting people or cargo, such as automobiles, aircraft, and ships."
+    },
+    {
+      "id": 10,
+      "name": "Books",
+      "definition": "Written or printed works of fiction or non-fiction, typically published as physical volumes."
+    },
+    {
+      "id": 11,
+      "name": "Schools",
+      "definition": "Educational institutions dedicated to teaching students at the primary, secondary, or higher levels."
+    },
+    {
+      "id": 12,
+      "name": "Buildings and structures",
+      "definition": "Man-made constructions such as historic buildings, religious sites, and infrastructure."
+    },
+    {
+      "id": 13,
+      "name": "Periodicals",
+      "definition": "Publications issued at regular intervals, such as newspapers, magazines, and academic journals."
+    }
+  ]
+}

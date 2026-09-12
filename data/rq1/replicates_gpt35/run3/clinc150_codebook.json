@@ -1,0 +1,60 @@
+{
+  "bench": "clinc150",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Inquiry",
+      "definition": "User seeks information or answers to questions."
+    },
+    {
+      "id": 2,
+      "name": "Task Execution Request",
+      "definition": "User requests the assistant to perform a specific task or action."
+    },
+    {
+      "id": 3,
+      "name": "Reminder Setting",
+      "definition": "User asks the assistant to set a reminder for a specific event or task."
+    },
+    {
+      "id": 4,
+      "name": "Financial Inquiry",
+      "definition": "User seeks information related to finances, such as credit cards, bills, or taxes."
+    },
+    {
+      "id": 5,
+      "name": "Location Inquiry",
+      "definition": "User asks for information related to locations, directions, or maps."
+    },
+    {
+      "id": 6,
+      "name": "Personal Assistance",
+      "definition": "User requests personal assistance or help with daily tasks."
+    },
+    {
+      "id": 7,
+      "name": "Language Translation",
+      "definition": "User asks for translation of words or phrases in different languages."
+    },
+    {
+      "id": 8,
+      "name": "Entertainment Inquiry",
+      "definition": "User seeks information related to entertainment, such as movies, music, or jokes."
+    },
+    {
+      "id": 9,
+      "name": "Health Inquiry",
+      "definition": "User seeks information related to health, medical conditions, or treatments."
+    },
+    {
+      "id": 10,
+      "name": "Technical Support",
+      "definition": "User requests technical support or assistance with devices or applications."
+    }
+  ]
+}

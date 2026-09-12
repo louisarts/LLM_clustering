@@ -1,0 +1,70 @@
+{
+  "bench": "snips",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Media",
+      "definition": "Request to play music, videos, or other media."
+    },
+    {
+      "id": 2,
+      "name": "Book Reservation",
+      "definition": "Request to make a reservation at a restaurant, hotel, or other venue."
+    },
+    {
+      "id": 3,
+      "name": "Find Information",
+      "definition": "Request to find specific information about movies, books, songs, or other topics."
+    },
+    {
+      "id": 4,
+      "name": "Rate Item",
+      "definition": "Request to provide a rating for a book, movie, song, or other item."
+    },
+    {
+      "id": 5,
+      "name": "Weather Inquiry",
+      "definition": "Request for weather forecasts or conditions for a specific location."
+    },
+    {
+      "id": 6,
+      "name": "Add to Playlist",
+      "definition": "Request to add a song, album, or track to a specified playlist."
+    },
+    {
+      "id": 7,
+      "name": "Show Schedule",
+      "definition": "Request to display schedules for movies, shows, or events."
+    },
+    {
+      "id": 8,
+      "name": "Search for Media",
+      "definition": "Request to search for specific media such as movies, songs, or games."
+    },
+    {
+      "id": 9,
+      "name": "Show Media",
+      "definition": "Request to display or show a specific media item."
+    },
+    {
+      "id": 10,
+      "name": "Purchase Inquiry",
+      "definition": "Request to find where to purchase items such as books, music, or art."
+    },
+    {
+      "id": 11,
+      "name": "Game Inquiry",
+      "definition": "Request to find information about games."
+    },
+    {
+      "id": 12,
+      "name": "Food Inquiry",
+      "definition": "Request for information about food options or specific types of cuisine."
+    }
+  ]
+}

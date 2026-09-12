@@ -1,0 +1,734 @@
+{
+  "bench": "reddit_s2s",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Aviation",
+      "definition": "Topics related to aircraft, airlines, pilots, and flying enthusiasts."
+    },
+    {
+      "id": 2,
+      "name": "Airsoft",
+      "definition": "Discussion and content regarding the sport of airsoft and replica firearms."
+    },
+    {
+      "id": 3,
+      "name": "Anime",
+      "definition": "Posts concerning Japanese animation and related media."
+    },
+    {
+      "id": 4,
+      "name": "Architecture",
+      "definition": "News, designs, and discussions regarding buildings and urban planning."
+    },
+    {
+      "id": 5,
+      "name": "Art",
+      "definition": "Visual arts including painting, drawing, and sculpture."
+    },
+    {
+      "id": 6,
+      "name": "Atheism",
+      "definition": "Discussions concerning atheism, agnosticism, and secular living."
+    },
+    {
+      "id": 7,
+      "name": "Austin",
+      "definition": "Local news, events, and discussion for Austin, Texas."
+    },
+    {
+      "id": 8,
+      "name": "Australian Football League",
+      "definition": "News and discussion regarding the Australian Football League."
+    },
+    {
+      "id": 9,
+      "name": "Automotive",
+      "definition": "Discussion of cars, vehicle maintenance, and driving experiences."
+    },
+    {
+      "id": 10,
+      "name": "Bicycling",
+      "definition": "Topics related to cycling, bikes, and bike culture."
+    },
+    {
+      "id": 11,
+      "name": "Biology",
+      "definition": "Scientific discussion and news regarding the study of living organisms."
+    },
+    {
+      "id": 12,
+      "name": "Blender",
+      "definition": "Posts about the Blender 3D creation software."
+    },
+    {
+      "id": 13,
+      "name": "Books",
+      "definition": "Discussion of literature, reading recommendations, and book news."
+    },
+    {
+      "id": 14,
+      "name": "Cancer",
+      "definition": "Support, stories, and information related to cancer diagnosis and treatment."
+    },
+    {
+      "id": 15,
+      "name": "Chemistry",
+      "definition": "Scientific discussion and questions related to the field of chemistry."
+    },
+    {
+      "id": 16,
+      "name": "Chicago",
+      "definition": "Local news, events, and discussion for Chicago, Illinois."
+    },
+    {
+      "id": 17,
+      "name": "Christianity",
+      "definition": "Discussion of Christian faith, theology, and practice."
+    },
+    {
+      "id": 18,
+      "name": "Coffee",
+      "definition": "Discussion regarding coffee beans, brewing methods, and equipment."
+    },
+    {
+      "id": 19,
+      "name": "Comics",
+      "definition": "Discussion of comic books, graphic novels, and industry news."
+    },
+    {
+      "id": 20,
+      "name": "Comedy",
+      "definition": "Stand-up comedy, comedians, and humorous content."
+    },
+    {
+      "id": 21,
+      "name": "Cosplay",
+      "definition": "Content related to the creation and wearing of costumes based on fictional characters."
+    },
+    {
+      "id": 22,
+      "name": "DataIsBeautiful",
+      "definition": "Visualizations and discussions of data aesthetics."
+    },
+    {
+      "id": 23,
+      "name": "Drugs",
+      "definition": "Discussion regarding recreational drugs, culture, and safety."
+    },
+    {
+      "id": 24,
+      "name": "Economics",
+      "definition": "News and discussion regarding economic theory, markets, and policy."
+    },
+    {
+      "id": 25,
+      "name": "Environment",
+      "definition": "News and discussion regarding environmental issues and sustainability."
+    },
+    {
+      "id": 26,
+      "name": "Ferrari",
+      "definition": "Discussion specifically regarding Ferrari vehicles and brand."
+    },
+    {
+      "id": 27,
+      "name": "GameDeals",
+      "definition": "Posts highlighting deals and sales for video games."
+    },
+    {
+      "id": 28,
+      "name": "Gaming",
+      "definition": "General discussion of video games and gaming culture."
+    },
+    {
+      "id": 29,
+      "name": "GamePhysics",
+      "definition": "Discussion and demonstration of physics engines in video games."
+    },
+    {
+      "id": 30,
+      "name": "HamRadio",
+      "definition": "Discussion regarding amateur radio operations and equipment."
+    },
+    {
+      "id": 31,
+      "name": "History",
+      "definition": "Discussion of historical events, figures, and artifacts."
+    },
+    {
+      "id": 32,
+      "name": "Hockey",
+      "definition": "Discussion of ice hockey teams, players, and games."
+    },
+    {
+      "id": 33,
+      "name": "InternetIsBeautiful",
+      "definition": "Links to unique and interesting websites."
+    },
+    {
+      "id": 34,
+      "name": "iOS",
+      "definition": "Discussion of Apple's mobile operating system and devices."
+    },
+    {
+      "id": 35,
+      "name": "Islam",
+      "definition": "Discussion regarding the Islamic faith and Muslim communities."
+    },
+    {
+      "id": 36,
+      "name": "Leatherworking",
+      "definition": "Crafting and discussion regarding leather goods."
+    },
+    {
+      "id": 37,
+      "name": "Life",
+      "definition": "General life updates, milestones, and personal stories."
+    },
+    {
+      "id": 38,
+      "name": "Minecraft",
+      "definition": "Discussion and content related to the game Minecraft."
+    },
+    {
+      "id": 39,
+      "name": "Music",
+      "definition": "General discussion of music, artists, and composition."
+    },
+    {
+      "id": 40,
+      "name": "News",
+      "definition": "Current events and breaking news articles."
+    },
+    {
+      "id": 41,
+      "name": "OnePunchMan",
+      "definition": "Discussion of the One Punch Man anime and manga series."
+    },
+    {
+      "id": 42,
+      "name": "PersonalFinance",
+      "definition": "Questions and advice regarding personal money management."
+    },
+    {
+      "id": 43,
+      "name": "Pets",
+      "definition": "Images and discussion regarding household pets."
+    },
+    {
+      "id": 44,
+      "name": "Philosophy",
+      "definition": "Discussion of philosophical ideas and questions."
+    },
+    {
+      "id": 45,
+      "name": "Physics",
+      "definition": "Scientific discussion and questions regarding the laws of physics."
+    },
+    {
+      "id": 46,
+      "name": "Porsche",
+      "definition": "Discussion specifically regarding Porsche vehicles and brand."
+    },
+    {
+      "id": 47,
+      "name": "Portland",
+      "definition": "Local news, events, and discussion for Portland, Oregon."
+    },
+    {
+      "id": 48,
+      "name": "RealEstate",
+      "definition": "Discussion of property, housing markets, and real estate investment."
+    },
+    {
+      "id": 49,
+      "name": "Relationships",
+      "definition": "Advice and discussion regarding interpersonal relationships."
+    },
+    {
+      "id": 50,
+      "name": "RocketLeague",
+      "definition": "Discussion and content related to the video game Rocket League."
+    },
+    {
+      "id": 51,
+      "name": "Subaru",
+      "definition": "Discussion specifically regarding Subaru vehicles and brand."
+    },
+    {
+      "id": 52,
+      "name": "Technology",
+      "definition": "News and discussion regarding consumer technology and gadgets."
+    },
+    {
+      "id": 53,
+      "name": "Television",
+      "definition": "Discussion of TV shows and the television industry."
+    },
+    {
+      "id": 54,
+      "name": "Tennis",
+      "definition": "Discussion of professional tennis players and tournaments."
+    },
+    {
+      "id": 55,
+      "name": "Tinder",
+      "definition": "Screenshots and stories from the Tinder dating application."
+    },
+    {
+      "id": 56,
+      "name": "UpliftingNews",
+      "definition": "News stories focused on positive and inspiring events."
+    },
+    {
+      "id": 57,
+      "name": "Volvo",
+      "definition": "Discussion specifically regarding Volvo vehicles and brand."
+    },
+    {
+      "id": 58,
+      "name": "WTF",
+      "definition": "Links to bizarre, shocking, or confusing content."
+    },
+    {
+      "id": 59,
+      "name": "WorldNews",
+      "definition": "Major international news events and global politics."
+    },
+    {
+      "id": 60,
+      "name": "Writing",
+      "definition": "Discussion regarding the craft of writing and storytelling."
+    },
+    {
+      "id": 61,
+      "name": "Blogging",
+      "definition": "Discussion and advice regarding the creation and management of blogs."
+    },
+    {
+      "id": 62,
+      "name": "Android",
+      "definition": "Discussion of the Android operating system and related devices."
+    },
+    {
+      "id": 63,
+      "name": "Bitcoin",
+      "definition": "Discussion of cryptocurrency, specifically Bitcoin."
+    },
+    {
+      "id": 64,
+      "name": "DIY",
+      "definition": "Do-it-yourself projects and home improvement advice."
+    },
+    {
+      "id": 65,
+      "name": "Documentaries",
+      "definition": "Discussion and recommendations of documentary films and series."
+    },
+    {
+      "id": 66,
+      "name": "Fantasy",
+      "definition": "Discussion of the fantasy genre in literature and media."
+    },
+    {
+      "id": 67,
+      "name": "Futurology",
+      "definition": "Speculation and news regarding the future of humanity and technology."
+    },
+    {
+      "id": 68,
+      "name": "HistoryPorn",
+      "definition": "Historical photographs and images."
+    },
+    {
+      "id": 69,
+      "name": "MMA",
+      "definition": "Discussion of Mixed Martial Arts fighting and promotions."
+    },
+    {
+      "id": 70,
+      "name": "MensRights",
+      "definition": "Discussion regarding men's rights and gender issues."
+    },
+    {
+      "id": 71,
+      "name": "Parenting",
+      "definition": "Advice and discussion regarding raising children."
+    },
+    {
+      "id": 72,
+      "name": "ShowerThoughts",
+      "definition": "Mini-essays and insights written in the style of the subreddit."
+    },
+    {
+      "id": 73,
+      "name": "Space",
+      "definition": "News and discussion regarding space exploration and astronomy."
+    },
+    {
+      "id": 74,
+      "name": "TalesFromYourServer",
+      "definition": "Stories and experiences from those working in the service industry."
+    },
+    {
+      "id": 75,
+      "name": "Ukraine",
+      "definition": "News and discussion specifically regarding Ukraine."
+    },
+    {
+      "id": 76,
+      "name": "Vegan",
+      "definition": "Discussion regarding veganism, diet, and lifestyle."
+    },
+    {
+      "id": 77,
+      "name": "Wine",
+      "definition": "Discussion regarding wine varieties, tasting, and production."
+    },
+    {
+      "id": 78,
+      "name": "Zelda",
+      "definition": "Discussion of The Legend of Zelda video game franchise."
+    },
+    {
+      "id": 79,
+      "name": "Amazon",
+      "definition": "Discussion regarding the marketplace, services, and products of Amazon."
+    },
+    {
+      "id": 80,
+      "name": "Beer",
+      "definition": "Discussion regarding beer brewing, tasting, and culture."
+    },
+    {
+      "id": 81,
+      "name": "Belgium",
+      "definition": "News, discussion, and content specifically regarding Belgium."
+    },
+    {
+      "id": 82,
+      "name": "Bonsai",
+      "definition": "Discussion and images related to the art of bonsai trees."
+    },
+    {
+      "id": 83,
+      "name": "Catholicism",
+      "definition": "Discussion regarding the Catholic faith and Church."
+    },
+    {
+      "id": 84,
+      "name": "Cinemagraphs",
+      "definition": "Discussion or sharing of cinemagraphs, still photographs with subtle motion."
+    },
+    {
+      "id": 85,
+      "name": "Dentistry",
+      "definition": "Discussion regarding dental health and procedures."
+    },
+    {
+      "id": 86,
+      "name": "Dogs",
+      "definition": "Images and discussion regarding dogs."
+    },
+    {
+      "id": 87,
+      "name": "FantasyPL",
+      "definition": "Discussion regarding the Fantasy Premier League game."
+    },
+    {
+      "id": 88,
+      "name": "Fishing",
+      "definition": "Discussion regarding angling and fishing equipment."
+    },
+    {
+      "id": 89,
+      "name": "Frisson",
+      "definition": "Media intended to evoke a physical sensation of aesthetic chills."
+    },
+    {
+      "id": 90,
+      "name": "Golf",
+      "definition": "Discussion regarding the sport of golf."
+    },
+    {
+      "id": 91,
+      "name": "Guns",
+      "definition": "Discussion regarding firearms and gun culture."
+    },
+    {
+      "id": 92,
+      "name": "HistoryAnecdotes",
+      "definition": "Short, interesting historical stories and facts."
+    },
+    {
+      "id": 93,
+      "name": "HomeImprovement",
+      "definition": "Advice and discussion on home renovation and repair."
+    },
+    {
+      "id": 94,
+      "name": "Jokes",
+      "definition": "Humorous text jokes and puns."
+    },
+    {
+      "id": 95,
+      "name": "KDRAMA",
+      "definition": "Discussion regarding Korean television dramas."
+    },
+    {
+      "id": 96,
+      "name": "Keto",
+      "definition": "Discussion regarding the ketogenic diet."
+    },
+    {
+      "id": 97,
+      "name": "Korea",
+      "definition": "News and discussion regarding South Korea."
+    },
+    {
+      "id": 98,
+      "name": "Law",
+      "definition": "Discussion of legal issues and the legal profession."
+    },
+    {
+      "id": 99,
+      "name": "LDS",
+      "definition": "Discussion regarding the Latter-day Saint movement."
+    },
+    {
+      "id": 100,
+      "name": "Libertarian",
+      "definition": "Discussion regarding libertarian political philosophy."
+    },
+    {
+      "id": 101,
+      "name": "London",
+      "definition": "Local news, events, and discussion for London, UK."
+    },
+    {
+      "id": 102,
+      "name": "MagicTCG",
+      "definition": "Discussion regarding Magic: The Gathering trading card game."
+    },
+    {
+      "id": 103,
+      "name": "Meditation",
+      "definition": "Discussion regarding meditation practices and benefits."
+    },
+    {
+      "id": 104,
+      "name": "Movies",
+      "definition": "General discussion of films and the film industry."
+    },
+    {
+      "id": 105,
+      "name": "Nails",
+      "definition": "Images and discussion regarding nail art and manicures."
+    },
+    {
+      "id": 106,
+      "name": "Naruto",
+      "definition": "Discussion of the Naruto anime and manga series."
+    },
+    {
+      "id": 107,
+      "name": "Netherlands",
+      "definition": "News, discussion, and content specifically regarding the Netherlands."
+    },
+    {
+      "id": 108,
+      "name": "NewParents",
+      "definition": "Support and advice for new and expecting parents."
+    },
+    {
+      "id": 109,
+      "name": "NoStupidQuestions",
+      "definition": "A place for asking questions without fear of judgment."
+    },
+    {
+      "id": 110,
+      "name": "OldSchoolCool",
+      "definition": "Historical photos of people looking cool, often from the past."
+    },
+    {
+      "id": 111,
+      "name": "PoliticalDiscussion",
+      "definition": "Civil discussion regarding political topics and policy."
+    },
+    {
+      "id": 112,
+      "name": "Poker",
+      "definition": "Discussion regarding the game of poker."
+    },
+    {
+      "id": 113,
+      "name": "PublicFreakout",
+      "definition": "Videos of public outbursts, arguments, and chaotic behavior."
+    },
+    {
+      "id": 114,
+      "name": "RBI",
+      "definition": "Requests for help in solving mysteries or identifying information."
+    },
+    {
+      "id": 115,
+      "name": "RetroGaming",
+      "definition": "Discussion of classic and older video games."
+    },
+    {
+      "id": 116,
+      "name": "Running",
+      "definition": "Discussion regarding the sport of running."
+    },
+    {
+      "id": 117,
+      "name": "SandersForPresident",
+      "definition": "Political campaign discussion and support for Bernie Sanders."
+    },
+    {
+      "id": 118,
+      "name": "Sims",
+      "definition": "Discussion regarding The Sims video game series."
+    },
+    {
+      "id": 119,
+      "name": "SkincareAddiction",
+      "definition": "Discussion and advice regarding skincare routines and products."
+    },
+    {
+      "id": 120,
+      "name": "Sneakers",
+      "definition": "Discussion and images regarding sneaker culture and footwear."
+    },
+    {
+      "id": 121,
+      "name": "Soccer",
+      "definition": "Discussion of association football (soccer)."
+    },
+    {
+      "id": 122,
+      "name": "Sprinting",
+      "definition": "Discussion regarding the sport of sprinting."
+    },
+    {
+      "id": 123,
+      "name": "StarWars",
+      "definition": "Discussion regarding the Star Wars franchise."
+    },
+    {
+      "id": 124,
+      "name": "Sushi",
+      "definition": "Discussion and images regarding sushi preparation and dining."
+    },
+    {
+      "id": 125,
+      "name": "Switzerland",
+      "definition": "News, discussion, and content specifically regarding Switzerland."
+    },
+    {
+      "id": 126,
+      "name": "Tattoos",
+      "definition": "Images and discussion regarding tattoo art."
+    },
+    {
+      "id": 127,
+      "name": "Taxes",
+      "definition": "Questions and advice regarding tax laws and filing."
+    },
+    {
+      "id": 128,
+      "name": "TikTok",
+      "definition": "Discussion and sharing of content from the TikTok platform."
+    },
+    {
+      "id": 129,
+      "name": "Tinder",
+      "definition": "Screenshots and stories from the Tinder dating application."
+    },
+    {
+      "id": 130,
+      "name": "Tires",
+      "definition": "Discussion regarding vehicle tires and maintenance."
+    },
+    {
+      "id": 131,
+      "name": "Tools",
+      "definition": "Discussion regarding hand tools and power tools."
+    },
+    {
+      "id": 132,
+      "name": "Travel",
+      "definition": "Discussion regarding travel destinations and tips."
+    },
+    {
+      "id": 133,
+      "name": "TwoXChromosomes",
+      "definition": "Discussion regarding women's experiences and perspectives."
+    },
+    {
+      "id": 134,
+      "name": "USPS",
+      "definition": "Discussion regarding the United States Postal Service."
+    },
+    {
+      "id": 135,
+      "name": "Unemployment",
+      "definition": "Support and discussion for those experiencing unemployment."
+    },
+    {
+      "id": 136,
+      "name": "Vehicles",
+      "definition": "General discussion of various vehicle types."
+    },
+    {
+      "id": 137,
+      "name": "Warhammer",
+      "definition": "Discussion regarding Warhammer tabletop games and lore."
+    },
+    {
+      "id": 138,
+      "name": "WatchPeopleDieInside",
+      "definition": "Videos of people experiencing embarrassing or cringe-inducing moments."
+    },
+    {
+      "id": 139,
+      "name": "WellThatSucks",
+      "definition": "Images and stories of unfortunate events and minor failures."
+    },
+    {
+      "id": 140,
+      "name": "Whatisthis",
+      "definition": "Requests to identify unknown objects, plants, or phenomena."
+    },
+    {
+      "id": 141,
+      "name": "WikiLeaks",
+      "definition": "Discussion regarding the organization WikiLeaks and its releases."
+    },
+    {
+      "id": 142,
+      "name": "Xbox",
+      "definition": "Discussion regarding the Xbox gaming console and platform."
+    },
+    {
+      "id": 143,
+      "name": "Yoga",
+      "definition": "Discussion regarding yoga practice and philosophy."
+    },
+    {
+      "id": 144,
+      "name": "YouShouldKnow",
+      "definition": "Posts sharing useful knowledge or tips for everyday life."
+    },
+    {
+      "id": 145,
+      "name": "Zombies",
+      "definition": "Discussion regarding zombies in media and survival theory."
+    }
+  ]
+}

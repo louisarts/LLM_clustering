@@ -1,0 +1,160 @@
+{
+  "bench": "arxiv_fine",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence and its applications."
+    },
+    {
+      "id": 2,
+      "name": "cs.LG",
+      "definition": "Machine Learning and related algorithms."
+    },
+    {
+      "id": 3,
+      "name": "cs.CV",
+      "definition": "Computer Vision and image processing."
+    },
+    {
+      "id": 4,
+      "name": "cs.NE",
+      "definition": "Neural Networks and deep learning."
+    },
+    {
+      "id": 5,
+      "name": "cs.SY",
+      "definition": "Systems and control theory."
+    },
+    {
+      "id": 6,
+      "name": "math.ST",
+      "definition": "Statistics and probability theory."
+    },
+    {
+      "id": 7,
+      "name": "math.AP",
+      "definition": "Applied mathematics and its applications."
+    },
+    {
+      "id": 8,
+      "name": "math.DS",
+      "definition": "Dynamical systems and differential equations."
+    },
+    {
+      "id": 9,
+      "name": "math.GT",
+      "definition": "Geometry and topology."
+    },
+    {
+      "id": 10,
+      "name": "math.AG",
+      "definition": "Algebraic geometry."
+    },
+    {
+      "id": 11,
+      "name": "math.PR",
+      "definition": "Probability and stochastic processes."
+    },
+    {
+      "id": 12,
+      "name": "math.FA",
+      "definition": "Functional analysis."
+    },
+    {
+      "id": 13,
+      "name": "math.NA",
+      "definition": "Numerical analysis."
+    },
+    {
+      "id": 14,
+      "name": "math.CT",
+      "definition": "Category theory."
+    },
+    {
+      "id": 15,
+      "name": "hep-th",
+      "definition": "Theoretical high-energy physics."
+    },
+    {
+      "id": 16,
+      "name": "cond-mat.stat-mech",
+      "definition": "Statistical mechanics in condensed matter physics."
+    },
+    {
+      "id": 17,
+      "name": "astro-ph",
+      "definition": "Astrophysics and cosmology."
+    },
+    {
+      "id": 18,
+      "name": "bio.Ph",
+      "definition": "Biophysics and biological physics."
+    },
+    {
+      "id": 19,
+      "name": "q-bio",
+      "definition": "Quantitative biology."
+    },
+    {
+      "id": 20,
+      "name": "stat.ME",
+      "definition": "Methodology in statistics."
+    },
+    {
+      "id": 21,
+      "name": "stat.TH",
+      "definition": "Theoretical statistics."
+    },
+    {
+      "id": 22,
+      "name": "stat.OT",
+      "definition": "Optimal transport and its applications."
+    },
+    {
+      "id": 23,
+      "name": "stat.ML",
+      "definition": "Statistical machine learning."
+    },
+    {
+      "id": 24,
+      "name": "stat.AP",
+      "definition": "Applied statistics."
+    },
+    {
+      "id": 25,
+      "name": "stat.CS",
+      "definition": "Computational statistics."
+    },
+    {
+      "id": 26,
+      "name": "stat.EC",
+      "definition": "Econometrics and statistical economics."
+    },
+    {
+      "id": 27,
+      "name": "stat.BI",
+      "definition": "Biostatistics."
+    },
+    {
+      "id": 28,
+      "name": "stat.ME",
+      "definition": "Statistical mechanics."
+    },
+    {
+      "id": 29,
+      "name": "stat.DS",
+      "definition": "Data science and analytics."
+    },
+    {
+      "id": 30,
+      "name": "stat.ML",
+      "definition": "Machine learning in statistics."
+    }
+  ]
+}

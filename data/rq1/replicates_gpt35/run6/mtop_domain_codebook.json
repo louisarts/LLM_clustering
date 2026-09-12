@@ -1,0 +1,115 @@
+{
+  "bench": "mtop_domain",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Utterances related to current or forecasted weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Utterances requesting reminders for specific tasks or events."
+    },
+    {
+      "id": 3,
+      "name": "Calls",
+      "definition": "Utterances related to making phone calls or video calls."
+    },
+    {
+      "id": 4,
+      "name": "News",
+      "definition": "Utterances related to news updates or headlines."
+    },
+    {
+      "id": 5,
+      "name": "Timers",
+      "definition": "Utterances related to setting, checking, or modifying timers."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Utterances related to playing music or playlists."
+    },
+    {
+      "id": 7,
+      "name": "Recipes",
+      "definition": "Utterances requesting or providing recipes."
+    },
+    {
+      "id": 8,
+      "name": "Alarms",
+      "definition": "Utterances related to setting, modifying, or deleting alarms."
+    },
+    {
+      "id": 9,
+      "name": "Messages",
+      "definition": "Utterances related to sending or receiving messages."
+    },
+    {
+      "id": 10,
+      "name": "Contacts",
+      "definition": "Utterances related to contacting or checking the status of contacts."
+    },
+    {
+      "id": 11,
+      "name": "Events",
+      "definition": "Utterances related to finding or planning events or activities."
+    },
+    {
+      "id": 12,
+      "name": "Location",
+      "definition": "Utterances related to checking or providing location information."
+    },
+    {
+      "id": 13,
+      "name": "Calories",
+      "definition": "Utterances related to checking the calorie content of food or drinks."
+    },
+    {
+      "id": 14,
+      "name": "Ingredients",
+      "definition": "Utterances related to checking or providing ingredients for recipes."
+    },
+    {
+      "id": 15,
+      "name": "Friends",
+      "definition": "Utterances related to checking or contacting friends."
+    },
+    {
+      "id": 16,
+      "name": "Work",
+      "definition": "Utterances related to work-related queries or tasks."
+    },
+    {
+      "id": 17,
+      "name": "Family",
+      "definition": "Utterances related to family-related queries or tasks."
+    },
+    {
+      "id": 18,
+      "name": "Health",
+      "definition": "Utterances related to health-related queries or tasks."
+    },
+    {
+      "id": 19,
+      "name": "Social Media",
+      "definition": "Utterances related to social media interactions or updates."
+    },
+    {
+      "id": 20,
+      "name": "Cooking",
+      "definition": "Utterances related to cooking or food preparation."
+    },
+    {
+      "id": 21,
+      "name": "Events",
+      "definition": "Utterances related to finding or planning events or activities."
+    }
+  ]
+}

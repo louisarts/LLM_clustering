@@ -1,0 +1,110 @@
+{
+  "bench": "massive_domain",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music",
+      "definition": "Utterances related to playing music or specific songs."
+    },
+    {
+      "id": 2,
+      "name": "Weather",
+      "definition": "Utterances related to checking or asking about the weather."
+    },
+    {
+      "id": 3,
+      "name": "Calendar",
+      "definition": "Utterances related to scheduling or managing events on a calendar."
+    },
+    {
+      "id": 4,
+      "name": "Email",
+      "definition": "Utterances related to sending, receiving, or managing emails."
+    },
+    {
+      "id": 5,
+      "name": "Alarm",
+      "definition": "Utterances related to setting, canceling, or managing alarms."
+    },
+    {
+      "id": 6,
+      "name": "News",
+      "definition": "Utterances related to getting the latest news or updates."
+    },
+    {
+      "id": 7,
+      "name": "Navigation",
+      "definition": "Utterances related to finding directions or locations."
+    },
+    {
+      "id": 8,
+      "name": "Cooking",
+      "definition": "Utterances related to cooking or recipes."
+    },
+    {
+      "id": 9,
+      "name": "Entertainment",
+      "definition": "Utterances related to entertainment preferences or recommendations."
+    },
+    {
+      "id": 10,
+      "name": "Time",
+      "definition": "Utterances related to checking or asking about the time in different locations or time zones."
+    },
+    {
+      "id": 11,
+      "name": "Shopping",
+      "definition": "Utterances related to creating or managing shopping lists."
+    },
+    {
+      "id": 12,
+      "name": "Social Media",
+      "definition": "Utterances related to notifications or interactions on social media platforms."
+    },
+    {
+      "id": 13,
+      "name": "Traffic",
+      "definition": "Utterances related to checking traffic conditions or routes."
+    },
+    {
+      "id": 14,
+      "name": "Lighting",
+      "definition": "Utterances related to controlling or adjusting lights or colors."
+    },
+    {
+      "id": 15,
+      "name": "General Knowledge",
+      "definition": "Utterances related to general knowledge questions or definitions."
+    },
+    {
+      "id": 16,
+      "name": "Sports",
+      "definition": "Utterances related to sports updates, scores, or notifications."
+    },
+    {
+      "id": 17,
+      "name": "Travel",
+      "definition": "Utterances related to booking transportation or travel arrangements."
+    },
+    {
+      "id": 18,
+      "name": "Complaints",
+      "definition": "Utterances related to lodging complaints or feedback."
+    },
+    {
+      "id": 19,
+      "name": "Health",
+      "definition": "Utterances related to health or medical queries."
+    },
+    {
+      "id": 20,
+      "name": "Social Events",
+      "definition": "Utterances related to social events, birthdays, or parties."
+    }
+  ]
+}

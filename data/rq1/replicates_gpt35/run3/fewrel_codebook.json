@@ -1,0 +1,135 @@
+{
+  "bench": "fewrel",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person - Profession",
+      "definition": "The relation between a person and their profession."
+    },
+    {
+      "id": 2,
+      "name": "Person - Family",
+      "definition": "The relation between family members."
+    },
+    {
+      "id": 3,
+      "name": "Person - Nationality",
+      "definition": "The relation between a person and their nationality."
+    },
+    {
+      "id": 4,
+      "name": "Person - Birthplace",
+      "definition": "The relation between a person and their place of birth."
+    },
+    {
+      "id": 5,
+      "name": "Person - Residence",
+      "definition": "The relation between a person and their place of residence."
+    },
+    {
+      "id": 6,
+      "name": "Person - Education",
+      "definition": "The relation between a person and their educational background."
+    },
+    {
+      "id": 7,
+      "name": "Person - Achievement",
+      "definition": "The relation between a person and their notable achievements."
+    },
+    {
+      "id": 8,
+      "name": "Organization - Event",
+      "definition": "The relation between an organization and an event."
+    },
+    {
+      "id": 9,
+      "name": "Organization - Location",
+      "definition": "The relation between an organization and its location."
+    },
+    {
+      "id": 10,
+      "name": "Organization - Product",
+      "definition": "The relation between an organization and its product."
+    },
+    {
+      "id": 11,
+      "name": "Organization - Acquisition",
+      "definition": "The relation between an organization and an acquisition."
+    },
+    {
+      "id": 12,
+      "name": "Organization - Partnership",
+      "definition": "The relation between organizations in a partnership."
+    },
+    {
+      "id": 13,
+      "name": "Organization - Award",
+      "definition": "The relation between an organization and an award."
+    },
+    {
+      "id": 14,
+      "name": "Organization - Publication",
+      "definition": "The relation between an organization and a publication."
+    },
+    {
+      "id": 15,
+      "name": "Organization - Foundation",
+      "definition": "The relation between an organization and its foundation."
+    },
+    {
+      "id": 16,
+      "name": "Organization - Industry",
+      "definition": "The relation between an organization and its industry."
+    },
+    {
+      "id": 17,
+      "name": "Organization - Genre",
+      "definition": "The relation between an organization and its genre."
+    },
+    {
+      "id": 18,
+      "name": "Organization - Record",
+      "definition": "The relation between an organization and a record."
+    },
+    {
+      "id": 19,
+      "name": "Organization - Label",
+      "definition": "The relation between an organization and a label."
+    },
+    {
+      "id": 20,
+      "name": "Organization - Film",
+      "definition": "The relation between an organization and a film."
+    },
+    {
+      "id": 21,
+      "name": "Organization - Music",
+      "definition": "The relation between an organization and music."
+    },
+    {
+      "id": 22,
+      "name": "Organization - Television",
+      "definition": "The relation between an organization and television."
+    },
+    {
+      "id": 23,
+      "name": "Organization - Software",
+      "definition": "The relation between an organization and software."
+    },
+    {
+      "id": 24,
+      "name": "Organization - Game",
+      "definition": "The relation between an organization and a game."
+    },
+    {
+      "id": 25,
+      "name": "Organization - Sports",
+      "definition": "The relation between an organization and sports."
+    }
+  ]
+}

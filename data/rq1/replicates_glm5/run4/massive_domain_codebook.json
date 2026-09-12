@@ -1,0 +1,59 @@
+{
+  "bench": "massive_domain",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar & Scheduling",
+      "definition": "Managing events, meetings, appointments, and checking the schedule on a digital calendar."
+    },
+    {
+      "id": 2,
+      "name": "Communication",
+      "definition": "Sending, reading, and managing emails, as well as posting to or checking social media platforms."
+    },
+    {
+      "id": 3,
+      "name": "Device Control",
+      "definition": "Controlling smart home devices, appliances, and hardware settings such as lights, plugs, and vacuums."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Playing, controlling, or requesting music, podcasts, audiobooks, videos, and games."
+    },
+    {
+      "id": 5,
+      "name": "Informational Query",
+      "definition": "Asking general knowledge questions, definitions, historical facts, or explanations not covered by other specific categories."
+    },
+    {
+      "id": 6,
+      "name": "Lists & Notes",
+      "definition": "Creating, reading, updating, or deleting to-do lists, shopping lists, and notes."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Requesting news updates, headlines, or articles on specific topics or from specific sources."
+    },
+    {
+      "id": 8,
+      "name": "Reminders & Alarms",
+      "definition": "Setting, checking, or deleting alarms and personal reminders."
+    },
+    {
+      "id": 9,
+      "name": "Transportation & Navigation",
+      "definition": "Booking rides, checking train schedules, and asking for directions or navigation."
+    },
+    {
+      "id": 10,
+      "name": "Weather",
+      "definition": "Checking current weather conditions or forecasts for specific locations and times."
+    }
+  ]
+}

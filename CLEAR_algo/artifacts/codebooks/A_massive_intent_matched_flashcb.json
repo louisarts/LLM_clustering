@@ -1,0 +1,142 @@
+[
+ {
+  "id": 1,
+  "name": "Alarm Management",
+  "definition": "Setting, querying, or deleting alarms."
+ },
+ {
+  "id": 2,
+  "name": "App Control",
+  "definition": "Launching or interacting with specific applications."
+ },
+ {
+  "id": 3,
+  "name": "Assistant Interaction & General Chat",
+  "definition": "Conversational queries, feedback, jokes, or non-command statements directed at the assistant."
+ },
+ {
+  "id": 4,
+  "name": "Calculation",
+  "definition": "Performing mathematical operations."
+ },
+ {
+  "id": 5,
+  "name": "Calendar & Scheduling",
+  "definition": "Adding, querying, or deleting events and meetings in a calendar."
+ },
+ {
+  "id": 6,
+  "name": "Contact Management",
+  "definition": "Adding, retrieving, or managing contact information."
+ },
+ {
+  "id": 7,
+  "name": "Device Control",
+  "definition": "Adjusting settings or controlling general functions of the device or connected peripherals."
+ },
+ {
+  "id": 8,
+  "name": "Email Management",
+  "definition": "Checking, sending, replying to, or forwarding emails."
+ },
+ {
+  "id": 9,
+  "name": "Event Search & Discovery",
+  "definition": "Finding information about events, concerts, or exhibitions."
+ },
+ {
+  "id": 10,
+  "name": "Game Play",
+  "definition": "Initiating or playing games."
+ },
+ {
+  "id": 11,
+  "name": "Information Retrieval (Date & Time)",
+  "definition": "Querying current time, date, or specific date information."
+ },
+ {
+  "id": 12,
+  "name": "Information Retrieval (Financial)",
+  "definition": "Querying stock prices, exchange rates, or other financial data."
+ },
+ {
+  "id": 13,
+  "name": "Information Retrieval (General Knowledge)",
+  "definition": "Asking for facts, definitions, biographies, or general information."
+ },
+ {
+  "id": 14,
+  "name": "Information Retrieval (Music Info)",
+  "definition": "Querying information about songs, artists, or music genres."
+ },
+ {
+  "id": 15,
+  "name": "Information Retrieval (News)",
+  "definition": "Querying current events, headlines, or specific news topics."
+ },
+ {
+  "id": 16,
+  "name": "Information Retrieval (Recipe & Cooking)",
+  "definition": "Asking for recipes, cooking instructions, or cooking times."
+ },
+ {
+  "id": 17,
+  "name": "Information Retrieval (Weather)",
+  "definition": "Querying weather forecasts or current weather conditions."
+ },
+ {
+  "id": 18,
+  "name": "List Management",
+  "definition": "Creating, adding items to, retrieving, or deleting user-defined lists."
+ },
+ {
+  "id": 19,
+  "name": "Local Search & POI",
+  "definition": "Finding nearby places, services, or points of interest."
+ },
+ {
+  "id": 20,
+  "name": "Media Playback (Audiobook & Podcast)",
+  "definition": "Playing or controlling audiobooks and podcasts."
+ },
+ {
+  "id": 21,
+  "name": "Media Playback (Music)",
+  "definition": "Playing or controlling music, artists, genres, or playlists."
+ },
+ {
+  "id": 22,
+  "name": "Media Playback (Radio)",
+  "definition": "Playing radio stations."
+ },
+ {
+  "id": 23,
+  "name": "Media Search & Recommendation",
+  "definition": "Searching for specific media content or requesting recommendations."
+ },
+ {
+  "id": 24,
+  "name": "Reminders",
+  "definition": "Setting, querying, or managing reminders."
+ },
+ {
+  "id": 25,
+  "name": "Smart Home Control",
+  "definition": "Controlling smart home devices like lights or appliances."
+ },
+ {
+  "id": 26,
+  "name": "Social Media",
+  "definition": "Posting messages or tweets to social media platforms."
+ },
+ {
+  "id": 27,
+  "name": "Transportation Booking",
+  "definition": "Booking taxis, ride-shares, or tickets for travel."
+ },
+ {
+  "id": 28,
+  "name": "Transportation Information",
+  "definition": "Querying information about travel, such as train times, flight fares, traffic, or travel duration."
+ }
+]

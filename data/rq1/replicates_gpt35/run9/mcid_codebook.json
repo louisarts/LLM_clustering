@@ -1,0 +1,115 @@
+{
+  "bench": "mcid",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sharing Information",
+      "definition": "Utterances expressing a desire to share COVID-19 related information or reports."
+    },
+    {
+      "id": 2,
+      "name": "Expressing Gratitude",
+      "definition": "Utterances expressing thanks for COVID-19 related information or assistance received."
+    },
+    {
+      "id": 3,
+      "name": "Seeking Information on Transmission",
+      "definition": "Utterances seeking information on how COVID-19 transmits, including from pets to humans."
+    },
+    {
+      "id": 4,
+      "name": "Seeking Latest Updates",
+      "definition": "Utterances seeking the latest updates or news on COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Seeking Cure Information",
+      "definition": "Utterances seeking information on the availability of a cure for COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Seeking Donation Information",
+      "definition": "Utterances seeking information on how to donate to COVID-19 relief efforts."
+    },
+    {
+      "id": 7,
+      "name": "Seeking Specific Country Updates",
+      "definition": "Utterances seeking COVID-19 related news or updates specific to a country."
+    },
+    {
+      "id": 8,
+      "name": "Seeking Data or Statistics",
+      "definition": "Utterances seeking the latest data or statistics related to COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Seeking Information on Symptoms",
+      "definition": "Utterances seeking information on COVID-19 symptoms."
+    },
+    {
+      "id": 10,
+      "name": "Seeking Information on Prevention",
+      "definition": "Utterances seeking information on how to prevent COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Seeking Information on Myths",
+      "definition": "Utterances seeking information on debunked myths or misinformation about COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "Seeking Travel Advice",
+      "definition": "Utterances seeking advice on travel during the COVID-19 pandemic."
+    },
+    {
+      "id": 13,
+      "name": "Expressing Concern for Pets",
+      "definition": "Utterances expressing concern for pets and seeking information on protecting them from COVID-19."
+    },
+    {
+      "id": 14,
+      "name": "Seeking Information on High-Risk Areas",
+      "definition": "Utterances seeking information on travel restrictions and high-risk areas for COVID-19."
+    },
+    {
+      "id": 15,
+      "name": "Seeking Information on Cleaning and Disinfection",
+      "definition": "Utterances seeking information on cleaning and disinfection methods for COVID-19 prevention."
+    },
+    {
+      "id": 16,
+      "name": "Seeking Information on Testing",
+      "definition": "Utterances seeking information on COVID-19 testing, including for animals."
+    },
+    {
+      "id": 17,
+      "name": "Expressing Frustration or Helplessness",
+      "definition": "Utterances expressing frustration or helplessness about the COVID-19 situation."
+    },
+    {
+      "id": 18,
+      "name": "Seeking Information on Vaccine",
+      "definition": "Utterances seeking information on the availability of a vaccine for COVID-19."
+    },
+    {
+      "id": 19,
+      "name": "Seeking Information on Treatment",
+      "definition": "Utterances seeking information on treatment options for COVID-19."
+    },
+    {
+      "id": 20,
+      "name": "Seeking Information on Recovery Rate",
+      "definition": "Utterances seeking information on the recovery rate of COVID-19 patients."
+    },
+    {
+      "id": 21,
+      "name": "Seeking Information on CDC Recommendations",
+      "definition": "Utterances seeking information on recommendations from the CDC for COVID-19 prevention and treatment."
+    }
+  ]
+}

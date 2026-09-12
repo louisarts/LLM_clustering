@@ -1,0 +1,110 @@
+{
+  "bench": "massive_intent",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "News Inquiry",
+      "definition": "Requests for information about current news or events."
+    },
+    {
+      "id": 2,
+      "name": "Weather Inquiry",
+      "definition": "Requests for weather forecasts or current weather conditions."
+    },
+    {
+      "id": 3,
+      "name": "Travel Booking",
+      "definition": "Requests to book travel arrangements such as tickets or rides."
+    },
+    {
+      "id": 4,
+      "name": "Home Automation",
+      "definition": "Commands to control smart home devices like lights or appliances."
+    },
+    {
+      "id": 5,
+      "name": "Calendar Management",
+      "definition": "Requests to manage calendar events, reminders, or notifications."
+    },
+    {
+      "id": 6,
+      "name": "Email Management",
+      "definition": "Requests to send, compose, or check emails."
+    },
+    {
+      "id": 7,
+      "name": "Food Ordering",
+      "definition": "Requests to find and order food."
+    },
+    {
+      "id": 8,
+      "name": "Entertainment Control",
+      "definition": "Commands to play music, podcasts, or videos."
+    },
+    {
+      "id": 9,
+      "name": "Information Request",
+      "definition": "Requests for general information or explanations."
+    },
+    {
+      "id": 10,
+      "name": "Reminder Setting",
+      "definition": "Requests to set reminders for various tasks or events."
+    },
+    {
+      "id": 11,
+      "name": "Task Management",
+      "definition": "Requests to manage to-do lists or tasks."
+    },
+    {
+      "id": 12,
+      "name": "Social Media Interaction",
+      "definition": "Requests to post or interact on social media platforms."
+    },
+    {
+      "id": 13,
+      "name": "Game Interaction",
+      "definition": "Requests to play games or engage in gaming activities."
+    },
+    {
+      "id": 14,
+      "name": "Recipe Inquiry",
+      "definition": "Requests for cooking instructions or recipes."
+    },
+    {
+      "id": 15,
+      "name": "Health and Wellness Reminders",
+      "definition": "Requests to remind about health-related tasks or appointments."
+    },
+    {
+      "id": 16,
+      "name": "Location Inquiry",
+      "definition": "Requests for information about locations or directions."
+    },
+    {
+      "id": 17,
+      "name": "Device Control",
+      "definition": "Commands to control electronic devices or settings."
+    },
+    {
+      "id": 18,
+      "name": "Currency Inquiry",
+      "definition": "Requests for information about currency exchange rates."
+    },
+    {
+      "id": 19,
+      "name": "Event Inquiry",
+      "definition": "Requests for information about upcoming events or schedules."
+    },
+    {
+      "id": 20,
+      "name": "Personal Preferences",
+      "definition": "Requests to remember or recommend based on user preferences."
+    }
+  ]
+}

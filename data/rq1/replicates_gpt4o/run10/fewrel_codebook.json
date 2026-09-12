@@ -1,0 +1,100 @@
+{
+  "bench": "fewrel",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ownership or Management",
+      "definition": "One entity owns or manages the other."
+    },
+    {
+      "id": 2,
+      "name": "Geographical Location",
+      "definition": "One entity is located within or is a part of the other."
+    },
+    {
+      "id": 3,
+      "name": "Authorship or Creation",
+      "definition": "One entity is created or authored by the other."
+    },
+    {
+      "id": 4,
+      "name": "Participation or Membership",
+      "definition": "One entity is a participant or member of the other."
+    },
+    {
+      "id": 5,
+      "name": "Event or Occurrence",
+      "definition": "One entity is an event or occurrence involving the other."
+    },
+    {
+      "id": 6,
+      "name": "Representation or Symbolism",
+      "definition": "One entity represents or symbolizes the other."
+    },
+    {
+      "id": 7,
+      "name": "Comparison or Similarity",
+      "definition": "One entity is compared to or similar to the other."
+    },
+    {
+      "id": 8,
+      "name": "Historical or Temporal Relation",
+      "definition": "One entity is historically or temporally related to the other."
+    },
+    {
+      "id": 9,
+      "name": "Family or Lineage",
+      "definition": "One entity is a family member or descendant of the other."
+    },
+    {
+      "id": 10,
+      "name": "Professional or Occupational Relation",
+      "definition": "One entity is professionally or occupationally related to the other."
+    },
+    {
+      "id": 11,
+      "name": "Cultural or Ethnic Relation",
+      "definition": "One entity is culturally or ethnically related to the other."
+    },
+    {
+      "id": 12,
+      "name": "Educational or Institutional Relation",
+      "definition": "One entity is educationally or institutionally related to the other."
+    },
+    {
+      "id": 13,
+      "name": "Product or Service",
+      "definition": "One entity is a product or service provided by the other."
+    },
+    {
+      "id": 14,
+      "name": "Legal or Political Relation",
+      "definition": "One entity is legally or politically related to the other."
+    },
+    {
+      "id": 15,
+      "name": "Artistic or Creative Work",
+      "definition": "One entity is an artistic or creative work involving the other."
+    },
+    {
+      "id": 16,
+      "name": "Scientific or Technological Relation",
+      "definition": "One entity is scientifically or technologically related to the other."
+    },
+    {
+      "id": 17,
+      "name": "Award or Recognition",
+      "definition": "One entity is an award or recognition received by the other."
+    },
+    {
+      "id": 18,
+      "name": "Transportation or Infrastructure",
+      "definition": "One entity is a transportation or infrastructure element related to the other."
+    }
+  ]
+}

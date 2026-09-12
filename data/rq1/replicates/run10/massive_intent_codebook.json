@@ -1,0 +1,82 @@
+{
+  "bench": "massive_intent",
+  "run": 10,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Reminder or Alarm",
+      "definition": "User wants to create, schedule, or activate a reminder or alarm."
+    },
+    {
+      "id": 2,
+      "name": "Manage Reminder or Alarm",
+      "definition": "User wants to delete, cancel, disable, or check the status of existing reminders or alarms."
+    },
+    {
+      "id": 3,
+      "name": "Control Smart Home Device",
+      "definition": "User wants to control smart home devices or appliances such as lights, thermostat, vacuum, or coffee machine."
+    },
+    {
+      "id": 4,
+      "name": "Get General Knowledge",
+      "definition": "User wants to retrieve facts, definitions, calculations, or general information not tied to personal context or current events."
+    },
+    {
+      "id": 5,
+      "name": "Get Personal or Contextual Information",
+      "definition": "User wants information related to their personal data, current situation, environment, or specific recommendations like weather, schedule, emails, or local events."
+    },
+    {
+      "id": 6,
+      "name": "Play Media",
+      "definition": "User wants to play, pause, skip, or control media playback such as music, podcasts, videos, or radio on a device."
+    },
+    {
+      "id": 7,
+      "name": "Send Communication",
+      "definition": "User wants to send emails, messages, or post on social media platforms."
+    },
+    {
+      "id": 8,
+      "name": "Manage Lists",
+      "definition": "User wants to create, add items to, remove items from, or check the contents of a list like a shopping list or to-do list."
+    },
+    {
+      "id": 9,
+      "name": "Navigation & Travel",
+      "definition": "User wants directions, to find travel options, or book transportation or accommodation."
+    },
+    {
+      "id": 10,
+      "name": "Local Search",
+      "definition": "User wants to find nearby places, businesses, or services."
+    },
+    {
+      "id": 11,
+      "name": "Get News & Trends",
+      "definition": "User wants to retrieve current news, headlines, trending topics, or podcast updates."
+    },
+    {
+      "id": 12,
+      "name": "Manage Contacts",
+      "definition": "User wants to add, modify, or retrieve contact information."
+    },
+    {
+      "id": 13,
+      "name": "Interact with Assistant",
+      "definition": "User wants to engage in social conversation, ask about the assistant itself, or play games with it."
+    },
+    {
+      "id": 14,
+      "name": "Control Application",
+      "definition": "User wants to open, launch, or manage applications or system settings."
+    },
+    {
+      "id": 15,
+      "name": "Manage Calendar Events",
+      "definition": "User wants to add, modify, delete, or retrieve information about calendar events or meetings."
+    }
+  ]
+}

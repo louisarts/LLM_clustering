@@ -1,0 +1,122 @@
+[
+ {
+  "id": 1,
+  "name": "Account Closure",
+  "definition": "Requests to close, delete, terminate, or cancel an account."
+ },
+ {
+  "id": 2,
+  "name": "Account Eligibility",
+  "definition": "Questions about requirements to open or use an account, including age or location restrictions."
+ },
+ {
+  "id": 3,
+  "name": "Account Login Issues",
+  "definition": "Problems accessing the app or account, including password reset or phone theft."
+ },
+ {
+  "id": 4,
+  "name": "ATM Issues",
+  "definition": "Problems with ATM withdrawals, including cash not received, card retained, ATM fees, or pending ATM transactions."
+ },
+ {
+  "id": 5,
+  "name": "Card Activation",
+  "definition": "Requests to activate a new or replacement card."
+ },
+ {
+  "id": 6,
+  "name": "Card Block or Freeze",
+  "definition": "Requests to block, freeze, unblock, or reactivate a card."
+ },
+ {
+  "id": 7,
+  "name": "Card Delivery",
+  "definition": "Questions about card shipping, delivery status, ordering new or replacement cards, or card expiration renewal."
+ },
+ {
+  "id": 8,
+  "name": "Card Damage",
+  "definition": "Reports of physically damaged cards needing replacement."
+ },
+ {
+  "id": 9,
+  "name": "Card Decline",
+  "definition": "Issues where card payments are being declined at POS, online, or ATM."
+ },
+ {
+  "id": 10,
+  "name": "Card Linking",
+  "definition": "Questions about linking or adding a card to the app."
+ },
+ {
+  "id": 11,
+  "name": "Card Loss or Theft",
+  "definition": "Reports of lost, stolen, or missing cards."
+ },
+ {
+  "id": 12,
+  "name": "Card Acceptance",
+  "definition": "Questions about where cards are accepted, card types available, or what cards can be used for."
+ },
+ {
+  "id": 13,
+  "name": "Contactless Payment Issues",
+  "definition": "Problems with contactless payments not working."
+ },
+ {
+  "id": 14,
+  "name": "Currency Exchange",
+  "definition": "Questions about exchange rates, currency options, or exchange fees."
+ },
+ {
+  "id": 15,
+  "name": "Fee Inquiry",
+  "definition": "Questions about fees charged or fee structures."
+ },
+ {
+  "id": 16,
+  "name": "Fraud or Unauthorized Transaction",
+  "definition": "Reports of suspicious, unrecognized, or unauthorized transactions."
+ },
+ {
+  "id": 17,
+  "name": "Identity Verification",
+  "definition": "Questions about identity verification requirements or process."
+ },
+ {
+  "id": 18,
+  "name": "Personal Details Update",
+  "definition": "Requests to update personal information like address or name."
+ },
+ {
+  "id": 19,
+  "name": "PIN Issues",
+  "definition": "Problems with PIN, including reset, change, or unblock requests."
+ },
+ {
+  "id": 20,
+  "name": "Refund Issues",
+  "definition": "Questions about refund process or missing refunds from merchants."
+ },
+ {
+  "id": 21,
+  "name": "Top-up Issues",
+  "definition": "Problems with adding money to account, including failed, pending, or reverted top-ups."
+ },
+ {
+  "id": 22,
+  "name": "Transaction Cancellation",
+  "definition": "Requests to cancel or reverse a transfer or payment."
+ },
+ {
+  "id": 23,
+  "name": "Transfer Issues",
+  "definition": "Problems with sending or receiving money transfers."
+ },
+ {
+  "id": 24,
+  "name": "Virtual or Disposable Card",
+  "definition": "Questions about virtual or disposable card features and limits."
+ }
+]

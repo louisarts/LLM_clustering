@@ -1,0 +1,130 @@
+{
+  "bench": "banking77",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Delivery",
+      "definition": "Inquiries about the delivery status or timing of a new or replacement card."
+    },
+    {
+      "id": 2,
+      "name": "Card Activation",
+      "definition": "Questions about how to activate a new or replacement card."
+    },
+    {
+      "id": 3,
+      "name": "Card Usage Issues",
+      "definition": "Problems with using a card for payments, including declines and contactless issues."
+    },
+    {
+      "id": 4,
+      "name": "Card Lost or Stolen",
+      "definition": "Reports of lost or stolen cards and requests to freeze or replace them."
+    },
+    {
+      "id": 5,
+      "name": "PIN Issues",
+      "definition": "Inquiries about finding, changing, or unblocking a card PIN."
+    },
+    {
+      "id": 6,
+      "name": "Account Closure",
+      "definition": "Requests to delete or close an account."
+    },
+    {
+      "id": 7,
+      "name": "Transfer Issues",
+      "definition": "Problems with making or receiving transfers, including pending or failed transfers."
+    },
+    {
+      "id": 8,
+      "name": "Transfer Fees",
+      "definition": "Questions about fees associated with making transfers."
+    },
+    {
+      "id": 9,
+      "name": "Top-Up Issues",
+      "definition": "Problems with topping up an account, including failed or pending top-ups."
+    },
+    {
+      "id": 10,
+      "name": "Top-Up Methods",
+      "definition": "Inquiries about the methods available for topping up an account."
+    },
+    {
+      "id": 11,
+      "name": "Cash Withdrawal Issues",
+      "definition": "Problems with withdrawing cash from an ATM, including incorrect amounts or fees."
+    },
+    {
+      "id": 12,
+      "name": "Refunds",
+      "definition": "Inquiries about refunds for purchases or transactions."
+    },
+    {
+      "id": 13,
+      "name": "Fraud and Unauthorized Transactions",
+      "definition": "Reports of unauthorized transactions or suspected fraud on an account."
+    },
+    {
+      "id": 14,
+      "name": "Currency Exchange",
+      "definition": "Questions about exchanging currencies, including rates and fees."
+    },
+    {
+      "id": 15,
+      "name": "Virtual Cards",
+      "definition": "Inquiries about obtaining or using virtual or disposable virtual cards."
+    },
+    {
+      "id": 16,
+      "name": "Identity Verification",
+      "definition": "Issues or questions related to verifying identity for account access or transactions."
+    },
+    {
+      "id": 17,
+      "name": "Account Information",
+      "definition": "Requests to change or update account details, such as name or contact information."
+    },
+    {
+      "id": 18,
+      "name": "Account Balance and Transactions",
+      "definition": "Questions about account balance, transaction history, or the source of funds."
+    },
+    {
+      "id": 19,
+      "name": "Card Fees",
+      "definition": "Inquiries about fees associated with card usage, such as ATM or transaction fees."
+    },
+    {
+      "id": 20,
+      "name": "Payment Reversals",
+      "definition": "Questions about payments that have been reversed or returned."
+    },
+    {
+      "id": 21,
+      "name": "Account Access Issues",
+      "definition": "Problems accessing an account, including passcode or app login issues."
+    },
+    {
+      "id": 22,
+      "name": "Child Accounts",
+      "definition": "Inquiries about setting up or managing accounts for children."
+    },
+    {
+      "id": 23,
+      "name": "Card Options",
+      "definition": "Questions about the types of cards available, such as Visa or Mastercard."
+    },
+    {
+      "id": 24,
+      "name": "Auto Top-Up",
+      "definition": "Inquiries about setting up or managing automatic top-ups for an account."
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cryptocurrency",
+      "definition": "Questions related to cryptocurrency mining and transactions."
+    },
+    {
+      "id": 2,
+      "name": "Sitecore",
+      "definition": "Questions related to the Sitecore content management system."
+    },
+    {
+      "id": 3,
+      "name": "Statistics",
+      "definition": "Questions related to statistical analysis and methods."
+    },
+    {
+      "id": 4,
+      "name": "Software Development",
+      "definition": "Questions related to software development practices and tools."
+    },
+    {
+      "id": 5,
+      "name": "Cooking",
+      "definition": "Questions related to cooking and food preparation."
+    },
+    {
+      "id": 6,
+      "name": "Pets",
+      "definition": "Questions related to pet care and behavior."
+    },
+    {
+      "id": 7,
+      "name": "Writing",
+      "definition": "Questions related to writing techniques and grammar."
+    },
+    {
+      "id": 8,
+      "name": "Networking",
+      "definition": "Questions related to computer networking and protocols."
+    },
+    {
+      "id": 9,
+      "name": "Batch Scripting",
+      "definition": "Questions related to writing and troubleshooting batch scripts."
+    },
+    {
+      "id": 10,
+      "name": "Language Learning",
+      "definition": "Questions related to learning and understanding languages."
+    },
+    {
+      "id": 11,
+      "name": "Web Development",
+      "definition": "Questions related to web development and design."
+    },
+    {
+      "id": 12,
+      "name": "Yoga",
+      "definition": "Questions related to yoga practices and techniques."
+    },
+    {
+      "id": 13,
+      "name": "Interpersonal Skills",
+      "definition": "Questions related to interpersonal communication and relationships."
+    },
+    {
+      "id": 14,
+      "name": "Home Improvement",
+      "definition": "Questions related to home improvement and DIY projects."
+    },
+    {
+      "id": 15,
+      "name": "Database Management",
+      "definition": "Questions related to database management and queries."
+    },
+    {
+      "id": 16,
+      "name": "Linux",
+      "definition": "Questions related to Linux operating system and commands."
+    },
+    {
+      "id": 17,
+      "name": "Health",
+      "definition": "Questions related to health and wellness."
+    },
+    {
+      "id": 18,
+      "name": "Gaming",
+      "definition": "Questions related to video games and gaming strategies."
+    },
+    {
+      "id": 19,
+      "name": "Photography",
+      "definition": "Questions related to photography techniques and equipment."
+    },
+    {
+      "id": 20,
+      "name": "Security",
+      "definition": "Questions related to computer and network security."
+    },
+    {
+      "id": 21,
+      "name": "Travel",
+      "definition": "Questions related to travel and immigration."
+    },
+    {
+      "id": 22,
+      "name": "Mathematics",
+      "definition": "Questions related to mathematical concepts and problems."
+    },
+    {
+      "id": 23,
+      "name": "Physics",
+      "definition": "Questions related to physical sciences and phenomena."
+    },
+    {
+      "id": 24,
+      "name": "Music",
+      "definition": "Questions related to music theory and instruments."
+    },
+    {
+      "id": 25,
+      "name": "History",
+      "definition": "Questions related to historical events and figures."
+    },
+    {
+      "id": 26,
+      "name": "Philosophy",
+      "definition": "Questions related to philosophical concepts and theories."
+    },
+    {
+      "id": 27,
+      "name": "Genealogy",
+      "definition": "Questions related to family history and genealogy research."
+    },
+    {
+      "id": 28,
+      "name": "Sports",
+      "definition": "Questions related to sports and physical activities."
+    },
+    {
+      "id": 29,
+      "name": "Legal",
+      "definition": "Questions related to legal issues and advice."
+    },
+    {
+      "id": 30,
+      "name": "Finance",
+      "definition": "Questions related to financial management and investment."
+    },
+    {
+      "id": 31,
+      "name": "Electronics",
+      "definition": "Questions related to electronic devices and circuits."
+    },
+    {
+      "id": 32,
+      "name": "DIY",
+      "definition": "Questions related to do-it-yourself projects and crafts."
+    },
+    {
+      "id": 33,
+      "name": "Education",
+      "definition": "Questions related to educational methods and systems."
+    },
+    {
+      "id": 34,
+      "name": "Religion",
+      "definition": "Questions related to religious beliefs and practices."
+    },
+    {
+      "id": 35,
+      "name": "Linguistics",
+      "definition": "Questions related to the study of language and its structure."
+    },
+    {
+      "id": 36,
+      "name": "Astronomy",
+      "definition": "Questions related to celestial bodies and space exploration."
+    },
+    {
+      "id": 37,
+      "name": "Biology",
+      "definition": "Questions related to biological sciences and organisms."
+    },
+    {
+      "id": 38,
+      "name": "Chemistry",
+      "definition": "Questions related to chemical substances and reactions."
+    },
+    {
+      "id": 39,
+      "name": "Engineering",
+      "definition": "Questions related to engineering principles and practices."
+    },
+    {
+      "id": 40,
+      "name": "Fashion",
+      "definition": "Questions related to clothing and fashion trends."
+    },
+    {
+      "id": 41,
+      "name": "Gardening",
+      "definition": "Questions related to gardening and plant care."
+    },
+    {
+      "id": 42,
+      "name": "Automotive",
+      "definition": "Questions related to vehicles and automotive maintenance."
+    },
+    {
+      "id": 43,
+      "name": "Home Appliances",
+      "definition": "Questions related to home appliances and their maintenance."
+    },
+    {
+      "id": 44,
+      "name": "Psychology",
+      "definition": "Questions related to psychological concepts and mental health."
+    },
+    {
+      "id": 45,
+      "name": "Business",
+      "definition": "Questions related to business management and entrepreneurship."
+    },
+    {
+      "id": 46,
+      "name": "Project Management",
+      "definition": "Questions related to managing projects and teams."
+    },
+    {
+      "id": 47,
+      "name": "Career Development",
+      "definition": "Questions related to career growth and job searching."
+    },
+    {
+      "id": 48,
+      "name": "Parenting",
+      "definition": "Questions related to raising and caring for children."
+    },
+    {
+      "id": 49,
+      "name": "Cooking Techniques",
+      "definition": "Questions related to specific cooking techniques and methods."
+    },
+    {
+      "id": 50,
+      "name": "Language Translation",
+      "definition": "Questions related to translating languages and phrases."
+    }
+  ]
+}

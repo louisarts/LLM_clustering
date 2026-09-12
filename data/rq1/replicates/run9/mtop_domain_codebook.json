@@ -1,0 +1,57 @@
+{
+  "bench": "mtop_domain",
+  "run": 9,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms and Timers",
+      "definition": "Managing time-based alerts and countdowns, including setting, modifying, deleting, querying, pausing, or resuming."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Managing notifications for specific tasks or events, including setting, modifying, deleting, or querying."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "Sending, receiving, and managing calls, messages, and video messages, including initiating, sending content, managing participants, and retrieving history."
+    },
+    {
+      "id": 4,
+      "name": "Media Playback",
+      "definition": "Playing and controlling audio or video content, including playing songs, albums, playlists, switching tracks, setting defaults, and controlling output."
+    },
+    {
+      "id": 5,
+      "name": "Information Query",
+      "definition": "Retrieving general facts, definitions, recipes, calculations, or specific details about non-event/non-news topics."
+    },
+    {
+      "id": 6,
+      "name": "Weather",
+      "definition": "Querying current or forecasted weather conditions, including temperature, precipitation, wind, warnings, and general forecasts."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Retrieving current or historical news headlines and stories, including general news, specific topics, local news, and historical events."
+    },
+    {
+      "id": 8,
+      "name": "People and Contacts",
+      "definition": "Querying information about people, their relationships, affiliations, or contact details from a social context."
+    },
+    {
+      "id": 9,
+      "name": "Events and Activities",
+      "definition": "Discovering, recommending, or querying about social events, entertainment, or things to do."
+    },
+    {
+      "id": 10,
+      "name": "Presence and Availability",
+      "definition": "Checking or updating one's own or others' online status or general availability."
+    }
+  ]
+}

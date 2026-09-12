@@ -1,0 +1,35 @@
+{
+  "bench": "bbcnews",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics",
+      "definition": "News related to political figures, elections, government policies, and political events"
+    },
+    {
+      "id": 2,
+      "name": "Economy",
+      "definition": "News related to economic indicators, financial markets, business activities, and economic forecasts"
+    },
+    {
+      "id": 3,
+      "name": "Arts & Entertainment",
+      "definition": "News related to art, music, movies, celebrities, and cultural events"
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "definition": "News related to sports events, athletes, teams, and competitions"
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "News related to technological advancements, internet developments, and software innovations"
+    }
+  ]
+}

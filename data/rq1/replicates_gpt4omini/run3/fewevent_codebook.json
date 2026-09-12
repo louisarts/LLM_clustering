@@ -1,0 +1,110 @@
+{
+  "bench": "fewevent",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Employment",
+      "definition": "Events related to job positions, hiring, or employment status."
+    },
+    {
+      "id": 2,
+      "name": "Military",
+      "definition": "Events related to military service, ranks, or actions taken by military personnel."
+    },
+    {
+      "id": 3,
+      "name": "Sports",
+      "definition": "Events related to athletic competitions, achievements, or participation in sports."
+    },
+    {
+      "id": 4,
+      "name": "Education",
+      "definition": "Events related to academic achievements, institutions, or educational activities."
+    },
+    {
+      "id": 5,
+      "name": "Politics",
+      "definition": "Events related to political actions, positions, or governmental activities."
+    },
+    {
+      "id": 6,
+      "name": "Marriage and Relationships",
+      "definition": "Events related to marital status, relationships, or familial connections."
+    },
+    {
+      "id": 7,
+      "name": "Art and Entertainment",
+      "definition": "Events related to artistic performances, productions, or creative works."
+    },
+    {
+      "id": 8,
+      "name": "Criminal Justice",
+      "definition": "Events related to crimes, legal proceedings, or law enforcement actions."
+    },
+    {
+      "id": 9,
+      "name": "Demonstrations and Protests",
+      "definition": "Events related to public demonstrations, protests, or social movements."
+    },
+    {
+      "id": 10,
+      "name": "Health and Welfare",
+      "definition": "Events related to health issues, welfare, or humanitarian actions."
+    },
+    {
+      "id": 11,
+      "name": "Business and Economy",
+      "definition": "Events related to business activities, economic transactions, or market dynamics."
+    },
+    {
+      "id": 12,
+      "name": "Awards and Honors",
+      "definition": "Events related to receiving awards, recognitions, or honors."
+    },
+    {
+      "id": 13,
+      "name": "Travel and Movement",
+      "definition": "Events related to travel, relocation, or physical movement."
+    },
+    {
+      "id": 14,
+      "name": "Social Issues",
+      "definition": "Events related to social concerns, issues, or movements."
+    },
+    {
+      "id": 15,
+      "name": "Scientific Research",
+      "definition": "Events related to scientific studies, research activities, or academic collaborations."
+    },
+    {
+      "id": 16,
+      "name": "Leadership",
+      "definition": "Events related to leadership roles, appointments, or leadership actions."
+    },
+    {
+      "id": 17,
+      "name": "Community and Social Groups",
+      "definition": "Events related to community activities, social groups, or collective actions."
+    },
+    {
+      "id": 18,
+      "name": "Cultural Events",
+      "definition": "Events related to cultural practices, traditions, or celebrations."
+    },
+    {
+      "id": 19,
+      "name": "Environmental Issues",
+      "definition": "Events related to environmental concerns, activism, or ecological actions."
+    },
+    {
+      "id": 20,
+      "name": "Technology and Innovation",
+      "definition": "Events related to technological advancements, innovations, or industry changes."
+    }
+  ]
+}

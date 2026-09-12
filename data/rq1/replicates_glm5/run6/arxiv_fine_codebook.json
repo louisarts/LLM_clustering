@@ -1,0 +1,444 @@
+{
+  "bench": "arxiv_fine",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "q-bio.PE",
+      "definition": "Papers focusing on populations, epidemiology, and evolutionary dynamics."
+    },
+    {
+      "id": 2,
+      "name": "physics.flu-dyn",
+      "definition": "Papers concerning fluid dynamics, turbulence, and the physics of fluids."
+    },
+    {
+      "id": 3,
+      "name": "eess.IV",
+      "definition": "Papers on image and video processing, medical imaging, and computer vision applications."
+    },
+    {
+      "id": 4,
+      "name": "math.CA",
+      "definition": "Papers on classical analysis, harmonic analysis, differential equations, and operator theory."
+    },
+    {
+      "id": 5,
+      "name": "q-fin.TR",
+      "definition": "Papers on trading, market microstructure, limit order books, and portfolio management."
+    },
+    {
+      "id": 6,
+      "name": "cs.SE",
+      "definition": "Papers on software engineering, programming tools, and software development practices."
+    },
+    {
+      "id": 7,
+      "name": "cs.SI",
+      "definition": "Papers on social networks, complex networks, and computational social science."
+    },
+    {
+      "id": 8,
+      "name": "math.DS",
+      "definition": "Papers on dynamical systems, ergodic theory, and chaos."
+    },
+    {
+      "id": 9,
+      "name": "cs.NI",
+      "definition": "Papers on networking, internet architecture, and wireless communication protocols."
+    },
+    {
+      "id": 10,
+      "name": "math.AT",
+      "definition": "Papers on algebraic topology, homotopy theory, and homology."
+    },
+    {
+      "id": 11,
+      "name": "math.AG",
+      "definition": "Papers on algebraic geometry, varieties, and schemes."
+    },
+    {
+      "id": 12,
+      "name": "math.GN",
+      "definition": "Papers on general topology and topological spaces."
+    },
+    {
+      "id": 13,
+      "name": "physics.ins-det",
+      "definition": "Papers on the design, simulation, and performance of physics detectors and instrumentation."
+    },
+    {
+      "id": 14,
+      "name": "physics.ao-ph",
+      "definition": "Papers on atmospheric and oceanic physics, climate modeling, and geophysical fluid dynamics."
+    },
+    {
+      "id": 15,
+      "name": "math.GR",
+      "definition": "Papers on group theory and algebraic structures."
+    },
+    {
+      "id": 16,
+      "name": "physics.atom-ph",
+      "definition": "Papers on atomic physics, molecular physics, and cold atom interactions."
+    },
+    {
+      "id": 17,
+      "name": "cs.LG",
+      "definition": "Papers on machine learning, deep learning, and neural networks."
+    },
+    {
+      "id": 18,
+      "name": "cs.HC",
+      "definition": "Papers on human-computer interaction, visualization, and user interfaces."
+    },
+    {
+      "id": 19,
+      "name": "q-bio.TO",
+      "definition": "Papers on theoretical biology and biophysics modeling."
+    },
+    {
+      "id": 20,
+      "name": "econ.TH",
+      "definition": "Papers on economic theory, game theory, and mechanism design."
+    },
+    {
+      "id": 21,
+      "name": "math.NA",
+      "definition": "Papers on numerical analysis, scientific computing, and approximation algorithms."
+    },
+    {
+      "id": 22,
+      "name": "math.CV",
+      "definition": "Papers on complex variables, complex analysis, and several complex variables."
+    },
+    {
+      "id": 23,
+      "name": "cs.CR",
+      "definition": "Papers on cryptography, computer security, and privacy."
+    },
+    {
+      "id": 24,
+      "name": "stat.ME",
+      "definition": "Papers on statistical methodology, inference, and Bayesian statistics."
+    },
+    {
+      "id": 25,
+      "name": "cs.DC",
+      "definition": "Papers on distributed computing, cloud computing, and fault tolerance."
+    },
+    {
+      "id": 26,
+      "name": "cs.SD",
+      "definition": "Papers on sound and audio processing, speech recognition, and music information retrieval."
+    },
+    {
+      "id": 27,
+      "name": "cond-mat.str-el",
+      "definition": "Papers on strongly correlated electrons, superconductivity, and quantum phase transitions."
+    },
+    {
+      "id": 28,
+      "name": "q-fin.CP",
+      "definition": "Papers on computational finance, financial modeling, and algorithmic trading."
+    },
+    {
+      "id": 29,
+      "name": "cs.MM",
+      "definition": "Papers on multimedia processing, video analysis, and multimodal interaction."
+    },
+    {
+      "id": 30,
+      "name": "astro-ph.HE",
+      "definition": "Papers on high-energy astrophysics, black holes, and supernovae."
+    },
+    {
+      "id": 31,
+      "name": "cond-mat.supr-con",
+      "definition": "Papers on superconductivity and superfluidity."
+    },
+    {
+      "id": 32,
+      "name": "physics.plasm-ph",
+      "definition": "Papers on plasma physics, fusion, and plasma dynamics."
+    },
+    {
+      "id": 33,
+      "name": "physics.optics",
+      "definition": "Papers on optics, photonics, and lasers."
+    },
+    {
+      "id": 34,
+      "name": "stat.ML",
+      "definition": "Papers on machine learning from a statistical perspective and learning theory."
+    },
+    {
+      "id": 35,
+      "name": "quant-ph",
+      "definition": "Papers on quantum physics, quantum information, and quantum computing."
+    },
+    {
+      "id": 36,
+      "name": "cs.AI",
+      "definition": "Papers on artificial intelligence, knowledge representation, and reasoning."
+    },
+    {
+      "id": 37,
+      "name": "cs.RO",
+      "definition": "Papers on robotics, autonomous systems, and robot control."
+    },
+    {
+      "id": 38,
+      "name": "astro-ph.CO",
+      "definition": "Papers on cosmology, dark matter, and the large-scale structure of the universe."
+    },
+    {
+      "id": 39,
+      "name": "cs.CL",
+      "definition": "Papers on computational linguistics, natural language processing, and text mining."
+    },
+    {
+      "id": 40,
+      "name": "math.RT",
+      "definition": "Papers on representation theory and algebraic representations."
+    },
+    {
+      "id": 41,
+      "name": "math.PR",
+      "definition": "Papers on probability theory, stochastic processes, and random walks."
+    },
+    {
+      "id": 42,
+      "name": "math.OA",
+      "definition": "Papers on operator algebras, C*-algebras, and von Neumann algebras."
+    },
+    {
+      "id": 43,
+      "name": "math.AC",
+      "definition": "Papers on commutative algebra and ring theory."
+    },
+    {
+      "id": 44,
+      "name": "math.RA",
+      "definition": "Papers on rings and algebras, including non-commutative algebra."
+    },
+    {
+      "id": 45,
+      "name": "cs.IR",
+      "definition": "Papers on information retrieval, search engines, and document ranking."
+    },
+    {
+      "id": 46,
+      "name": "math.NT",
+      "definition": "Papers on number theory, arithmetic geometry, and modular forms."
+    },
+    {
+      "id": 47,
+      "name": "q-bio.QM",
+      "definition": "Papers on quantitative methods in biology, bioinformatics, and computational biology."
+    },
+    {
+      "id": 48,
+      "name": "stat.TH",
+      "definition": "Papers on statistical theory and asymptotic statistics."
+    },
+    {
+      "id": 49,
+      "name": "math.SG",
+      "definition": "Papers on symplectic geometry and geometric mechanics."
+    },
+    {
+      "id": 50,
+      "name": "math.MP",
+      "definition": "Papers on mathematical physics and the mathematical foundations of physical theories."
+    },
+    {
+      "id": 51,
+      "name": "cs.GT",
+      "definition": "Papers on computer science aspects of game theory and algorithmic game theory."
+    },
+    {
+      "id": 52,
+      "name": "cs.DB",
+      "definition": "Papers on databases, data management, and data mining."
+    },
+    {
+      "id": 53,
+      "name": "astro-ph.GA",
+      "definition": "Papers on galactic astrophysics, the Milky Way, and star formation."
+    },
+    {
+      "id": 54,
+      "name": "astro-ph.SR",
+      "definition": "Papers on solar and stellar astrophysics."
+    },
+    {
+      "id": 55,
+      "name": "hep-th",
+      "definition": "Papers on high energy physics theory, string theory, and quantum field theory."
+    },
+    {
+      "id": 56,
+      "name": "hep-ex",
+      "definition": "Papers on high energy physics experiments and particle detectors."
+    },
+    {
+      "id": 57,
+      "name": "nucl-th",
+      "definition": "Papers on nuclear theory and nuclear structure."
+    },
+    {
+      "id": 58,
+      "name": "cond-mat.mtrl-sci",
+      "definition": "Papers on materials science, condensed matter properties, and material characterization."
+    },
+    {
+      "id": 59,
+      "name": "cond-mat.mes-hall",
+      "definition": "Papers on mesoscale and nanoscale physics, including quantum Hall effect and nanostructures."
+    },
+    {
+      "id": 60,
+      "name": "cond-mat.quant-gas",
+      "definition": "Papers on quantum gases, Bose-Einstein condensates, and ultracold atoms."
+    },
+    {
+      "id": 61,
+      "name": "cond-mat.stat-mech",
+      "definition": "Papers on statistical mechanics, thermodynamics, and phase transitions."
+    },
+    {
+      "id": 62,
+      "name": "cond-mat.dis-nn",
+      "definition": "Papers on disordered systems and neural networks in condensed matter."
+    },
+    {
+      "id": 63,
+      "name": "physics.comp-ph",
+      "definition": "Papers on computational physics and physics simulations."
+    },
+    {
+      "id": 64,
+      "name": "physics.class-ph",
+      "definition": "Papers on classical physics topics not covered by other specific categories."
+    },
+    {
+      "id": 65,
+      "name": "physics.med-ph",
+      "definition": "Papers on medical physics, biomedical imaging, and radiation therapy."
+    },
+    {
+      "id": 66,
+      "name": "physics.geo-ph",
+      "definition": "Papers on geophysics and the physics of the Earth's interior."
+    },
+    {
+      "id": 67,
+      "name": "physics.space-ph",
+      "definition": "Papers on space physics, the solar wind, and planetary magnetospheres."
+    },
+    {
+      "id": 68,
+      "name": "physics.hist-ph",
+      "definition": "Papers on the history of physics and philosophical foundations of physics."
+    },
+    {
+      "id": 69,
+      "name": "math.HO",
+      "definition": "Papers on the history and overview of mathematics."
+    },
+    {
+      "id": 70,
+      "name": "math.LO",
+      "definition": "Papers on logic, set theory, and model theory."
+    },
+    {
+      "id": 71,
+      "name": "math.CO",
+      "definition": "Papers on combinatorics and graph theory."
+    },
+    {
+      "id": 72,
+      "name": "cs.FL",
+      "definition": "Papers on formal languages and automata theory."
+    },
+    {
+      "id": 73,
+      "name": "cs.CY",
+      "definition": "Papers on computers and society, digital ethics, and legal aspects of computing."
+    },
+    {
+      "id": 74,
+      "name": "cs.AR",
+      "definition": "Papers on computer architecture and hardware design."
+    },
+    {
+      "id": 75,
+      "name": "cs.ET",
+      "definition": "Papers on emerging technologies in computing."
+    },
+    {
+      "id": 76,
+      "name": "stat.AP",
+      "definition": "Papers on applications of statistics to other fields."
+    },
+    {
+      "id": 77,
+      "name": "stat.CO",
+      "definition": "Papers on statistical computing and computational statistics."
+    },
+    {
+      "id": 78,
+      "name": "q-fin.EC",
+      "definition": "Papers on economics within the context of quantitative finance."
+    },
+    {
+      "id": 79,
+      "name": "q-fin.RM",
+      "definition": "Papers on risk management in finance."
+    },
+    {
+      "id": 80,
+      "name": "q-fin.PM",
+      "definition": "Papers on portfolio management."
+    },
+    {
+      "id": 81,
+      "name": "q-bio.NC",
+      "definition": "Papers on neuroscience and computational neural systems."
+    },
+    {
+      "id": 82,
+      "name": "q-bio.BM",
+      "definition": "Papers on biomolecules and structural biology."
+    },
+    {
+      "id": 83,
+      "name": "q-bio.CB",
+      "definition": "Papers on cell behavior and cellular dynamics."
+    },
+    {
+      "id": 84,
+      "name": "q-bio.GN",
+      "definition": "Papers on genomics and genetics."
+    },
+    {
+      "id": 85,
+      "name": "q-bio.SC",
+      "definition": "Papers on subcellular processes and molecular networks."
+    },
+    {
+      "id": 86,
+      "name": "eess.SP",
+      "definition": "Papers on signal processing and signal analysis."
+    },
+    {
+      "id": 87,
+      "name": "eess.SY",
+      "definition": "Papers on systems and control theory."
+    }
+  ]
+}

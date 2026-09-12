@@ -1,0 +1,819 @@
+{
+  "bench": "reddit_s2s",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music: Classical",
+      "definition": "Topics related to classical music composers, performances, recordings, and composition."
+    },
+    {
+      "id": 2,
+      "name": "Cars",
+      "definition": "Discussions about car models, driving experiences, restoration, and automotive culture."
+    },
+    {
+      "id": 3,
+      "name": "Aviation",
+      "definition": "Content regarding aircraft, airports, pilots, and aviation photography."
+    },
+    {
+      "id": 4,
+      "name": "Netherlands",
+      "definition": "News, discussions, and local topics specific to the country of the Netherlands."
+    },
+    {
+      "id": 5,
+      "name": "History",
+      "definition": "Historical photos, events, and discussions about the past."
+    },
+    {
+      "id": 6,
+      "name": "AFL: Australian Football",
+      "definition": "News and discussion about the Australian Football League and its teams."
+    },
+    {
+      "id": 7,
+      "name": "Austin",
+      "definition": "Local news, events, housing, and questions specific to Austin, Texas."
+    },
+    {
+      "id": 8,
+      "name": "Casual Conversation",
+      "definition": "Open-ended questions and general discussion threads with no specific topic focus."
+    },
+    {
+      "id": 9,
+      "name": "Christianity",
+      "definition": "Theological discussions, advice, and questions related to the Christian faith."
+    },
+    {
+      "id": 10,
+      "name": "Chemistry",
+      "definition": "Questions and discussions regarding chemical reactions, compounds, and laboratory procedures."
+    },
+    {
+      "id": 11,
+      "name": "Drag Racing",
+      "definition": "Videos and discussions of drag races between specific car models."
+    },
+    {
+      "id": 12,
+      "name": "Astrophotography",
+      "definition": "Images and questions related to photographing celestial objects and the night sky."
+    },
+    {
+      "id": 13,
+      "name": "Art",
+      "definition": "Digital art, drawings, paintings, and artistic techniques."
+    },
+    {
+      "id": 14,
+      "name": "ApplyingToCollege",
+      "definition": "Questions and advice regarding the college and university application process."
+    },
+    {
+      "id": 15,
+      "name": "Boston",
+      "definition": "Local news, events, transportation, and history specific to Boston, Massachusetts."
+    },
+    {
+      "id": 16,
+      "name": "Nature",
+      "definition": "Images and articles about animals, biological phenomena, and the natural world."
+    },
+    {
+      "id": 17,
+      "name": "MacOS",
+      "definition": "Technical support, software, and hardware discussions for Apple Mac computers."
+    },
+    {
+      "id": 18,
+      "name": "Canada",
+      "definition": "National news, politics, and economic discussions pertaining to Canada."
+    },
+    {
+      "id": 19,
+      "name": "Camping",
+      "definition": "Discussions about outdoor gear, specifically related to opening the camping season."
+    },
+    {
+      "id": 20,
+      "name": "Superman",
+      "definition": "Fan discussions, lore, and media related to the superhero Superman."
+    },
+    {
+      "id": 21,
+      "name": "Spirituality",
+      "definition": "Discussions on spiritual journeys, awakening, and non-religious metaphysical topics."
+    },
+    {
+      "id": 22,
+      "name": "Gadgets",
+      "definition": "News and reviews about consumer electronics and hardware accessories."
+    },
+    {
+      "id": 23,
+      "name": "Politics",
+      "definition": "United States political news, elections, and campaign updates."
+    },
+    {
+      "id": 24,
+      "name": "Cats",
+      "definition": "Images, videos, and questions regarding domestic cats."
+    },
+    {
+      "id": 25,
+      "name": "Blogging",
+      "definition": "Advice, tools, and strategies for creating and monetizing blogs."
+    },
+    {
+      "id": 26,
+      "name": "Anarchism",
+      "definition": "Political philosophy discussions regarding stateless societies and anarchist theory."
+    },
+    {
+      "id": 27,
+      "name": "Economics",
+      "definition": "News and analysis regarding inflation, markets, and economic trends."
+    },
+    {
+      "id": 28,
+      "name": "Shanghai",
+      "definition": "Local questions and information specific to Shanghai, China."
+    },
+    {
+      "id": 29,
+      "name": "Astrology",
+      "definition": "Horoscopes, astrological readings, and related services."
+    },
+    {
+      "id": 30,
+      "name": "Amazon",
+      "definition": "Customer service issues, account features, and seller discussions related to Amazon."
+    },
+    {
+      "id": 31,
+      "name": "Webcomics",
+      "definition": "Updates and discussions regarding online comic series."
+    },
+    {
+      "id": 32,
+      "name": "Mauritius",
+      "definition": "Travel advice and local information for the island nation of Mauritius."
+    },
+    {
+      "id": 33,
+      "name": "Beer",
+      "definition": "Discussions about craft beer, breweries, and beer availability."
+    },
+    {
+      "id": 34,
+      "name": "LosAngeles",
+      "definition": "Local questions and information specific to Los Angeles, California."
+    },
+    {
+      "id": 35,
+      "name": "NYC",
+      "definition": "Local news, events, and questions specific to New York City."
+    },
+    {
+      "id": 36,
+      "name": "RealEstate",
+      "definition": "News and trends regarding housing markets, construction, and development."
+    },
+    {
+      "id": 37,
+      "name": "Science",
+      "definition": "General scientific discoveries and research news."
+    },
+    {
+      "id": 38,
+      "name": "Gaming",
+      "definition": "Discussions about playing video games and gaming culture."
+    },
+    {
+      "id": 39,
+      "name": "Portuguese",
+      "definition": "Language learning resources and questions for Portuguese speakers."
+    },
+    {
+      "id": 40,
+      "name": "Airsoft",
+      "definition": "Discussions about airsoft guns, gear, and technical modifications."
+    },
+    {
+      "id": 41,
+      "name": "Self",
+      "definition": "Questions and discussions regarding personal identity and self-concept."
+    },
+    {
+      "id": 42,
+      "name": "Anime",
+      "definition": "Discussions about Japanese animation and anime series."
+    },
+    {
+      "id": 43,
+      "name": "Psychology",
+      "definition": "Questions regarding psychological conditioning and mental processes."
+    },
+    {
+      "id": 44,
+      "name": "Cycling",
+      "definition": "Discussions about road cycling, equipment, and training."
+    },
+    {
+      "id": 45,
+      "name": "Sydney",
+      "definition": "Local news and events specific to Sydney, Australia."
+    },
+    {
+      "id": 46,
+      "name": "Motorcycles",
+      "definition": "Images and discussions regarding riding motorcycles."
+    },
+    {
+      "id": 47,
+      "name": "HistoryofIdeas",
+      "definition": "Discussions and texts regarding intellectual history and philosophy."
+    },
+    {
+      "id": 48,
+      "name": "Snakes",
+      "definition": "Images and discussions about snakes."
+    },
+    {
+      "id": 49,
+      "name": "Design",
+      "definition": "Graphic design, web design, and design critiques."
+    },
+    {
+      "id": 50,
+      "name": "Cars",
+      "definition": "Duplicate category for automotive content."
+    },
+    {
+      "id": 51,
+      "name": "Space",
+      "definition": "News and images regarding planets and the universe."
+    },
+    {
+      "id": 52,
+      "name": "TechSupport",
+      "definition": "General technical support questions for consumer electronics."
+    },
+    {
+      "id": 53,
+      "name": "Entrepreneur",
+      "definition": "Advice and discussion on starting and running a business."
+    },
+    {
+      "id": 54,
+      "name": "HomeworkHelp",
+      "definition": "Requests for assistance with academic assignments."
+    },
+    {
+      "id": 55,
+      "name": "Brewing",
+      "definition": "Professional and hobbyist discussions about brewing beer."
+    },
+    {
+      "id": 56,
+      "name": "Atlanta",
+      "definition": "Local news and filming locations specific to Atlanta, Georgia."
+    },
+    {
+      "id": 57,
+      "name": "CollegeBasketball",
+      "definition": "News and discussions about college basketball coaches and teams."
+    },
+    {
+      "id": 58,
+      "name": "India",
+      "definition": "News and discussions specific to India."
+    },
+    {
+      "id": 59,
+      "name": "Jailbreak",
+      "definition": "Discussions on modifying iOS devices and finding old app versions."
+    },
+    {
+      "id": 60,
+      "name": "Zen",
+      "definition": "Discussions on Zen Buddhism and associated teachers."
+    },
+    {
+      "id": 61,
+      "name": "Military",
+      "definition": "News and discussions about defense technology and military operations."
+    },
+    {
+      "id": 62,
+      "name": "Thief",
+      "definition": "Videos and news about thieves and anti-theft measures."
+    },
+    {
+      "id": 63,
+      "name": "Brussels",
+      "definition": "Local questions and information specific to Brussels, Belgium."
+    },
+    {
+      "id": 64,
+      "name": "Drugs",
+      "definition": "Discussions about recreational drug use and effects."
+    },
+    {
+      "id": 65,
+      "name": "Engineering",
+      "definition": "Questions regarding the structural feasibility of engineering concepts."
+    },
+    {
+      "id": 66,
+      "name": "Radio",
+      "definition": "Discussions about AM/FM radio and radio technology."
+    },
+    {
+      "id": 67,
+      "name": "Chile",
+      "definition": "News and protests specific to Chile."
+    },
+    {
+      "id": 68,
+      "name": "Catholicism",
+      "definition": "Questions and discussions specific to the Catholic faith and liturgy."
+    },
+    {
+      "id": 69,
+      "name": "Fashion",
+      "definition": "Trends, designs, and collections for women's fashion."
+    },
+    {
+      "id": 70,
+      "name": "Islam",
+      "definition": "Questions and discussions specific to the Islamic faith."
+    },
+    {
+      "id": 71,
+      "name": "Biology",
+      "definition": "Questions and discussions about biological theories and evolution."
+    },
+    {
+      "id": 72,
+      "name": "Guns",
+      "definition": "Images and discussions about firearms."
+    },
+    {
+      "id": 73,
+      "name": "DecidingToBeBetter",
+      "definition": "Requests for advice on life direction and self-improvement."
+    },
+    {
+      "id": 74,
+      "name": "Conspiracy",
+      "definition": "Discussions regarding alleged cover-ups and alternative explanations for events."
+    },
+    {
+      "id": 75,
+      "name": "Worship",
+      "definition": "News and discussions about Christian worship music and leaders."
+    },
+    {
+      "id": 76,
+      "name": "Composer",
+      "definition": "Posts specifically about classical music composers and sheet music."
+    },
+    {
+      "id": 77,
+      "name": "PakistaniMusic",
+      "definition": "Music content specific to Pakistan."
+    },
+    {
+      "id": 78,
+      "name": "Biology",
+      "definition": "Duplicate category for biological discussions."
+    },
+    {
+      "id": 79,
+      "name": "Design",
+      "definition": "Duplicate category for design work."
+    },
+    {
+      "id": 80,
+      "name": "BlackMagic",
+      "definition": "Discussions about supernatural spells and astrology services."
+    },
+    {
+      "id": 81,
+      "name": "Physics",
+      "definition": "Questions regarding physical energy and calculations."
+    },
+    {
+      "id": 82,
+      "name": "StarWars",
+      "definition": "Fan art and discussions related to the Star Wars franchise."
+    },
+    {
+      "id": 83,
+      "name": "Bicycling",
+      "definition": "Duplicate category for cycling discussions."
+    },
+    {
+      "id": 84,
+      "name": "Music",
+      "definition": "General music discussions and concert tickets."
+    },
+    {
+      "id": 85,
+      "name": "China",
+      "definition": "Questions, news, and censorship discussions regarding China."
+    },
+    {
+      "id": 86,
+      "name": "Software",
+      "definition": "Questions regarding software licensing and usage."
+    },
+    {
+      "id": 87,
+      "name": "Chicago",
+      "definition": "Local news, taxes, and recommendations specific to Chicago, Illinois."
+    },
+    {
+      "id": 88,
+      "name": "Medical",
+      "definition": "Questions regarding medical procedures and results."
+    },
+    {
+      "id": 89,
+      "name": "Poland",
+      "definition": "Content regarding Polish immigrants and culture."
+    },
+    {
+      "id": 90,
+      "name": "Baltimore",
+      "definition": "Local news, weather, and legal cases specific to Baltimore, Maryland."
+    },
+    {
+      "id": 91,
+      "name": "Android",
+      "definition": "Discussions about Android operating system features."
+    },
+    {
+      "id": 92,
+      "name": "Homebrewing",
+      "definition": "Duplicate category for brewing beer."
+    },
+    {
+      "id": 93,
+      "name": "Marketing",
+      "definition": "Strategies and questions regarding marketing and growing an audience."
+    },
+    {
+      "id": 94,
+      "name": "Japan",
+      "definition": "Language learning resources and questions for Japanese speakers."
+    },
+    {
+      "id": 95,
+      "name": "Drifting",
+      "definition": "Videos and discussions about drifting cars on snow and ice."
+    },
+    {
+      "id": 96,
+      "name": "AFL",
+      "definition": "Duplicate category for Australian Football."
+    },
+    {
+      "id": 97,
+      "name": "Texas",
+      "definition": "Questions and news specific to the state of Texas."
+    },
+    {
+      "id": 98,
+      "name": "Nissan",
+      "definition": "News and discussions about Nissan vehicles."
+    },
+    {
+      "id": 99,
+      "name": "Buffalo",
+      "definition": "Local questions specific to Buffalo, New York."
+    },
+    {
+      "id": 100,
+      "name": "Anthropology",
+      "definition": "Questions regarding human physical characteristics and evolution."
+    },
+    {
+      "id": 101,
+      "name": "Food",
+      "definition": "Videos and discussions about eating and food."
+    },
+    {
+      "id": 102,
+      "name": "Australia",
+      "definition": "National news and political discussions pertaining to Australia."
+    },
+    {
+      "id": 103,
+      "name": "Archeology",
+      "definition": "News about archeological discoveries such as coins and artifacts."
+    },
+    {
+      "id": 104,
+      "name": "Aviation",
+      "definition": "Duplicate category for aviation."
+    },
+    {
+      "id": 105,
+      "name": "Meditation",
+      "definition": "Discussions on the nature and process of meditation and awakening."
+    },
+    {
+      "id": 106,
+      "name": "Coffee",
+      "definition": "Questions and discussions about brewing coffee and equipment."
+    },
+    {
+      "id": 107,
+      "name": "Mac",
+      "definition": "Duplicate category for Mac hardware."
+    },
+    {
+      "id": 108,
+      "name": "MotoUK",
+      "definition": "Discussions about motorcycling in the United Kingdom."
+    },
+    {
+      "id": 109,
+      "name": "Belgium",
+      "definition": "Content regarding museums and travel in Belgium."
+    },
+    {
+      "id": 110,
+      "name": "SEO",
+      "definition": "Search Engine Optimization services and advice."
+    },
+    {
+      "id": 111,
+      "name": "Maryland",
+      "definition": "Legal news and services specific to Maryland."
+    },
+    {
+      "id": 112,
+      "name": "Philosophy",
+      "definition": "Discussions about philosophical principles and living."
+    },
+    {
+      "id": 113,
+      "name": "Architecture",
+      "definition": "Images and discussions about building design and futuristic concepts."
+    },
+    {
+      "id": 114,
+      "name": "Buddhism",
+      "definition": "Questions regarding Buddhist teachings and their relation to science."
+    },
+    {
+      "id": 115,
+      "name": "SmallBusiness",
+      "definition": "Questions about slogans and networking for small businesses."
+    },
+    {
+      "id": 116,
+      "name": "Ontario",
+      "definition": "Local questions and services specific to Ontario, Canada."
+    },
+    {
+      "id": 117,
+      "name": "Disney",
+      "definition": "Discussions about Disney movies and songs."
+    },
+    {
+      "id": 118,
+      "name": "Environment",
+      "definition": "News about pollution and environmental issues."
+    },
+    {
+      "id": 119,
+      "name": "Propaganda",
+      "definition": "Videos and discussions regarding political propaganda."
+    },
+    {
+      "id": 120,
+      "name": "Geopolitics",
+      "definition": "News and analysis regarding international relations and trade."
+    },
+    {
+      "id": 121,
+      "name": "Recycling",
+      "definition": "Questions about recycling center hours and procedures."
+    },
+    {
+      "id": 122,
+      "name": "Chevy",
+      "definition": "Discussions about Chevrolet vehicles and parts."
+    },
+    {
+      "id": 123,
+      "name": "Gunpla",
+      "definition": "Discussions about building Gundam model kits."
+    },
+    {
+      "id": 124,
+      "name": "Depression",
+      "definition": "Support and advice for dealing with depressive thoughts."
+    },
+    {
+      "id": 125,
+      "name": "Anime",
+      "definition": "Duplicate category for anime."
+    },
+    {
+      "id": 126,
+      "name": "Dating",
+      "definition": "Questions about dating culture and norms."
+    },
+    {
+      "id": 127,
+      "name": "IndianArt",
+      "definition": "Content regarding modern art from India."
+    },
+    {
+      "id": 128,
+      "name": "Cycling",
+      "definition": "Duplicate category for cycling."
+    },
+    {
+      "id": 129,
+      "name": "Architecture",
+      "definition": "Duplicate category for architecture."
+    },
+    {
+      "id": 130,
+      "name": "AnimalRights",
+      "definition": "Petitions and news regarding animal welfare issues."
+    },
+    {
+      "id": 131,
+      "name": "DC_Cinematic",
+      "definition": "Trailers and discussions for DC Comics movies."
+    },
+    {
+      "id": 132,
+      "name": "Rideshare",
+      "definition": "News about Uber, Lyft, and the rideshare industry."
+    },
+    {
+      "id": 133,
+      "name": "Gardening",
+      "definition": "Visits to conservatories and plant care."
+    },
+    {
+      "id": 134,
+      "name": "Belgium",
+      "definition": "Duplicate category for Belgium news."
+    },
+    {
+      "id": 135,
+      "name": "ios",
+      "definition": "Feature requests and discussions for the iOS operating system."
+    },
+    {
+      "id": 136,
+      "name": "Travel",
+      "definition": "Experiences and photos from traveling in Europe."
+    },
+    {
+      "id": 137,
+      "name": "Israel",
+      "definition": "News and political statements regarding Israel."
+    },
+    {
+      "id": 138,
+      "name": "Iphone",
+      "definition": "Rumors and reviews regarding iPhone models."
+    },
+    {
+      "id": 139,
+      "name": "Television",
+      "definition": "Discussions about TV shows and advertisements."
+    },
+    {
+      "id": 140,
+      "name": "Boxing",
+      "definition": "News and discussions about boxing matches and fighters."
+    },
+    {
+      "id": 141,
+      "name": "Friendship",
+      "definition": "Advice regarding toxic friendships and social dynamics."
+    },
+    {
+      "id": 142,
+      "name": "Advertising",
+      "definition": "Discussions about advertising agencies and wrap advertisements."
+    },
+    {
+      "id": 143,
+      "name": "FateStayNight",
+      "definition": "Fan art for the Fate series franchise."
+    },
+    {
+      "id": 144,
+      "name": "Food",
+      "definition": "Duplicate category for food challenges."
+    },
+    {
+      "id": 145,
+      "name": "Scholarships",
+      "definition": "Advice on finding and applying for educational scholarships."
+    },
+    {
+      "id": 146,
+      "name": "Aviation",
+      "definition": "Duplicate category for aviation photography."
+    },
+    {
+      "id": 147,
+      "name": "Chemistry",
+      "definition": "Duplicate category for chemistry questions."
+    },
+    {
+      "id": 148,
+      "name": "Cats",
+      "definition": "Duplicate category for cats."
+    },
+    {
+      "id": 149,
+      "name": "Cyprus",
+      "definition": "Content regarding coins and history of Cyprus."
+    },
+    {
+      "id": 150,
+      "name": "Buddhism",
+      "definition": "Duplicate category for Buddhism teachings."
+    },
+    {
+      "id": 151,
+      "name": "Baltimore",
+      "definition": "Duplicate category for Baltimore news."
+    },
+    {
+      "id": 152,
+      "name": "Astrology",
+      "definition": "Duplicate category for astrology."
+    },
+    {
+      "id": 153,
+      "name": "Airsoft",
+      "definition": "Duplicate category for airsoft gear."
+    },
+    {
+      "id": 154,
+      "name": "AFL",
+      "definition": "Duplicate category for Australian Football."
+    },
+    {
+      "id": 155,
+      "name": "Amazon",
+      "definition": "Duplicate category for Amazon rentals."
+    },
+    {
+      "id": 156,
+      "name": "Airsoft",
+      "definition": "Duplicate category for airsoft guns."
+    },
+    {
+      "id": 157,
+      "name": "Marketing",
+      "definition": "Duplicate category for marketing income."
+    },
+    {
+      "id": 158,
+      "name": "Medicine",
+      "definition": "Animations and discussions about medical procedures."
+    },
+    {
+      "id": 159,
+      "name": "Coffee",
+      "definition": "Duplicate category for espresso machines."
+    },
+    {
+      "id": 160,
+      "name": "Chemistry",
+      "definition": "Duplicate category for chemistry solutions."
+    },
+    {
+      "id": 161,
+      "name": "Health",
+      "definition": "Personal medical testing and results."
+    },
+    {
+      "id": 162,
+      "name": "Dogs",
+      "definition": "Images and discussions regarding dogs."
+    }
+  ]
+}

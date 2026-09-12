@@ -1,0 +1,110 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Mathematics",
+      "definition": "Questions related to mathematical concepts, theories, and calculations."
+    },
+    {
+      "id": 2,
+      "name": "Programming",
+      "definition": "Questions about coding, software development, and programming languages."
+    },
+    {
+      "id": 3,
+      "name": "Web Development",
+      "definition": "Questions regarding the creation and maintenance of websites and web applications."
+    },
+    {
+      "id": 4,
+      "name": "Health & Fitness",
+      "definition": "Questions related to health, wellness, and physical fitness."
+    },
+    {
+      "id": 5,
+      "name": "Science",
+      "definition": "Questions pertaining to scientific principles, experiments, and discoveries."
+    },
+    {
+      "id": 6,
+      "name": "Language & Linguistics",
+      "definition": "Questions about languages, grammar, and linguistic concepts."
+    },
+    {
+      "id": 7,
+      "name": "Arts & Humanities",
+      "definition": "Questions related to art, literature, philosophy, and cultural studies."
+    },
+    {
+      "id": 8,
+      "name": "Technology",
+      "definition": "Questions about technological devices, innovations, and their applications."
+    },
+    {
+      "id": 9,
+      "name": "Business & Finance",
+      "definition": "Questions related to business practices, finance, and economic principles."
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "Questions about teaching methods, learning processes, and educational systems."
+    },
+    {
+      "id": 11,
+      "name": "Legal",
+      "definition": "Questions regarding laws, legal practices, and rights."
+    },
+    {
+      "id": 12,
+      "name": "Cooking & Food",
+      "definition": "Questions about cooking techniques, recipes, and food-related inquiries."
+    },
+    {
+      "id": 13,
+      "name": "Travel",
+      "definition": "Questions related to travel, tourism, and cultural experiences."
+    },
+    {
+      "id": 14,
+      "name": "Home & Garden",
+      "definition": "Questions about home improvement, gardening, and domestic life."
+    },
+    {
+      "id": 15,
+      "name": "Sports",
+      "definition": "Questions related to sports, athletic activities, and fitness."
+    },
+    {
+      "id": 16,
+      "name": "Social Issues",
+      "definition": "Questions about societal challenges, relationships, and community dynamics."
+    },
+    {
+      "id": 17,
+      "name": "Entertainment",
+      "definition": "Questions about movies, music, games, and other forms of entertainment."
+    },
+    {
+      "id": 18,
+      "name": "History",
+      "definition": "Questions related to historical events, figures, and contexts."
+    },
+    {
+      "id": 19,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical concepts, theories, and discussions."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous",
+      "definition": "Questions that do not fit into the other specified categories."
+    }
+  ]
+}

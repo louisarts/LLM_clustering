@@ -1,0 +1,204 @@
+{
+  "bench": "clinc150",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General_Information_Query",
+      "definition": "Requests for facts, definitions, general knowledge, or answers to questions not covered by specific personal data categories."
+    },
+    {
+      "id": 2,
+      "name": "Personal_Finance_Query",
+      "definition": "Requests to check account balances, credit scores, transaction history, interest rates, reward points, or other personal banking details."
+    },
+    {
+      "id": 3,
+      "name": "Calendar_Management",
+      "definition": "Requests to check, schedule, cancel, or modify events and appointments on a personal calendar."
+    },
+    {
+      "id": 4,
+      "name": "Task_Management",
+      "definition": "Requests to add, remove, check, or interact with items on a personal to-do or reminder list."
+    },
+    {
+      "id": 5,
+      "name": "Music_Control",
+      "definition": "Commands to play, stop, skip, change, or identify music, or to adjust music volume."
+    },
+    {
+      "id": 6,
+      "name": "Travel_Booking",
+      "definition": "Requests to book or reserve flights, hotels, or rental cars."
+    },
+    {
+      "id": 7,
+      "name": "Reservation_Management",
+      "definition": "Requests to make, cancel, check, or modify restaurant reservations or similar bookings."
+    },
+    {
+      "id": 8,
+      "name": "Banking_Transaction",
+      "definition": "Requests to transfer funds, order checks, change PINs, or perform specific account actions."
+    },
+    {
+      "id": 9,
+      "name": "Credit_Card_Management",
+      "definition": "Requests to report lost or damaged cards, apply for cards, increase credit limits, or manage card settings."
+    },
+    {
+      "id": 10,
+      "name": "Travel_Alert",
+      "definition": "Requests to notify a bank or credit card company of upcoming travel plans."
+    },
+    {
+      "id": 11,
+      "name": "Device_Control",
+      "definition": "Commands to control smart home devices, adjust general volume, or locate personal devices."
+    },
+    {
+      "id": 12,
+      "name": "Timer_Alarm",
+      "definition": "Requests to set, manage, or check timers and alarms."
+    },
+    {
+      "id": 13,
+      "name": "Navigation_Directions",
+      "definition": "Requests for directions, travel routes, or estimated travel times."
+    },
+    {
+      "id": 14,
+      "name": "Transportation_Request",
+      "definition": "Requests to book a ride service such as Uber or Lyft."
+    },
+    {
+      "id": 15,
+      "name": "Weather_Query",
+      "definition": "Requests for current weather conditions or forecasts."
+    },
+    {
+      "id": 16,
+      "name": "Food_Recipe_Query",
+      "definition": "Requests for recipes, food preparation times, or ingredient substitutions."
+    },
+    {
+      "id": 17,
+      "name": "Vehicle_Maintenance_Query",
+      "definition": "Requests for information regarding car maintenance schedules, tire pressure, or fuel levels."
+    },
+    {
+      "id": 18,
+      "name": "Employment_HR_Query",
+      "definition": "Requests for information regarding work schedule, PTO, payroll, or benefits."
+    },
+    {
+      "id": 19,
+      "name": "Flight_Status_Query",
+      "definition": "Requests for the status or updates regarding specific airline flights."
+    },
+    {
+      "id": 20,
+      "name": "Traffic_Query",
+      "definition": "Requests for traffic conditions or road status."
+    },
+    {
+      "id": 21,
+      "name": "Translation_Query",
+      "definition": "Requests to translate words or phrases into a different language."
+    },
+    {
+      "id": 22,
+      "name": "Math_Calculation",
+      "definition": "Requests to perform mathematical calculations or unit conversions."
+    },
+    {
+      "id": 23,
+      "name": "Random_Generation",
+      "definition": "Requests to generate random outcomes like coin flips or dice rolls."
+    },
+    {
+      "id": 24,
+      "name": "Communication_Message",
+      "definition": "Requests to send messages, make phone calls, or share location with contacts."
+    },
+    {
+      "id": 25,
+      "name": "Shopping_Query",
+      "definition": "Requests to find products, compare prices, or check shopping lists."
+    },
+    {
+      "id": 26,
+      "name": "Order_Transaction",
+      "definition": "Requests to place orders for items or services."
+    },
+    {
+      "id": 27,
+      "name": "Assistant_Settings",
+      "definition": "Requests to change the assistant's voice, name, language settings, or reset configuration."
+    },
+    {
+      "id": 28,
+      "name": "Assistant_Personality_Query",
+      "definition": "Questions regarding the assistant's nature, origin, feelings, or personal preferences."
+    },
+    {
+      "id": 29,
+      "name": "Assistant_Capability_Query",
+      "definition": "Questions asking what the assistant can do or how to use it."
+    },
+    {
+      "id": 30,
+      "name": "System_Control",
+      "definition": "Commands to stop, cancel, undo, or repeat the current assistant process or response."
+    },
+    {
+      "id": 31,
+      "name": "User_Feedback",
+      "definition": "Statements providing feedback, corrections, or closing remarks to the assistant."
+    },
+    {
+      "id": 32,
+      "name": "Stock_Trading",
+      "definition": "Requests to buy or sell stocks or check stock market performance."
+    },
+    {
+      "id": 33,
+      "name": "News_Query",
+      "definition": "Requests for current news or market updates."
+    },
+    {
+      "id": 34,
+      "name": "Local_Business_Query",
+      "definition": "Requests to find local businesses, services, or attractions."
+    },
+    {
+      "id": 35,
+      "name": "Travel_Requirements_Query",
+      "definition": "Requests for information regarding visa, vaccination, or plug requirements for travel."
+    },
+    {
+      "id": 36,
+      "name": "Time_Zone_Query",
+      "definition": "Requests for the current time in a specific location."
+    },
+    {
+      "id": 37,
+      "name": "Creative_Writing",
+      "definition": "Requests to generate stories, jokes, quotes, or other creative content."
+    },
+    {
+      "id": 38,
+      "name": "Delivery_Management",
+      "definition": "Requests to track packages or manage deliveries."
+    },
+    {
+      "id": 39,
+      "name": "Subscription_Management",
+      "definition": "Requests to start, stop, or modify subscriptions or regular deliveries."
+    }
+  ]
+}

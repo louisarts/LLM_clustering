@@ -1,0 +1,142 @@
+{
+  "bench": "massive_domain",
+  "run": 5,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Queries about current weather, forecasts, conditions, or related phenomena."
+    },
+    {
+      "id": 2,
+      "name": "Smart Home Control",
+      "definition": "Controlling lights, plugs, appliances, thermostats, or other connected home devices."
+    },
+    {
+      "id": 3,
+      "name": "Lists",
+      "definition": "Creating, adding to, removing from, or querying various types of personal lists (e.g., grocery, to-do, shopping)."
+    },
+    {
+      "id": 4,
+      "name": "Information Query",
+      "definition": "Asking for factual information, definitions, general knowledge, or details about people, places, concepts, or products."
+    },
+    {
+      "id": 5,
+      "name": "News",
+      "definition": "Retrieving current events, headlines, or news on specific topics or from specific sources."
+    },
+    {
+      "id": 6,
+      "name": "Finance",
+      "definition": "Checking stock prices, currency exchange rates, or other financial information."
+    },
+    {
+      "id": 7,
+      "name": "Media Playback",
+      "definition": "Playing or controlling music, podcasts, audiobooks, or radio."
+    },
+    {
+      "id": 8,
+      "name": "Email Management",
+      "definition": "Checking, composing, sending, replying to, archiving, or managing email messages and notifications."
+    },
+    {
+      "id": 9,
+      "name": "Alarms",
+      "definition": "Setting, querying, canceling, or managing alarms."
+    },
+    {
+      "id": 10,
+      "name": "Reminders",
+      "definition": "Setting, querying, or managing personal reminders."
+    },
+    {
+      "id": 11,
+      "name": "Calendar and Events",
+      "definition": "Adding, querying, modifying, or managing events, appointments, and schedules."
+    },
+    {
+      "id": 12,
+      "name": "Web Search",
+      "definition": "Performing general searches on the internet or for specific content like videos."
+    },
+    {
+      "id": 13,
+      "name": "Recipes",
+      "definition": "Finding recipes, ingredients, or cooking instructions."
+    },
+    {
+      "id": 14,
+      "name": "Time and Date",
+      "definition": "Asking for current time, time zones, dates, holidays, or performing date calculations."
+    },
+    {
+      "id": 15,
+      "name": "Social Media",
+      "definition": "Posting updates, checking notifications, or interacting with social media platforms."
+    },
+    {
+      "id": 16,
+      "name": "Navigation and Travel",
+      "definition": "Getting directions, traffic information, public transport schedules, or finding locations."
+    },
+    {
+      "id": 17,
+      "name": "Food Ordering",
+      "definition": "Ordering food for delivery or pickup, or querying restaurant availability."
+    },
+    {
+      "id": 18,
+      "name": "Games and Entertainment",
+      "definition": "Playing interactive games or asking for jokes."
+    },
+    {
+      "id": 19,
+      "name": "Calculations",
+      "definition": "Performing mathematical operations."
+    },
+    {
+      "id": 20,
+      "name": "Ride Hailing and Booking",
+      "definition": "Booking transportation services like taxis or Ubers, or purchasing tickets."
+    },
+    {
+      "id": 21,
+      "name": "Device Settings",
+      "definition": "Adjusting settings of the assistant device itself (e.g., screen brightness, audio)."
+    },
+    {
+      "id": 22,
+      "name": "Communication",
+      "definition": "Initiating calls, sending group messages, or connecting with contacts."
+    },
+    {
+      "id": 23,
+      "name": "Local Business Search",
+      "definition": "Finding local businesses or services."
+    },
+    {
+      "id": 24,
+      "name": "General Notifications",
+      "definition": "Setting or managing notifications not specific to email or social media."
+    },
+    {
+      "id": 25,
+      "name": "Contacts Management",
+      "definition": "Querying or managing contact information."
+    },
+    {
+      "id": 26,
+      "name": "Conversational Interaction",
+      "definition": "Engaging in general conversation, chit-chat, or asking about the assistant's identity or capabilities."
+    },
+    {
+      "id": 27,
+      "name": "Personal Journaling",
+      "definition": "Recording personal thoughts, experiences, or daily events."
+    }
+  ]
+}

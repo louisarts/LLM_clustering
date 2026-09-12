@@ -1,0 +1,1980 @@
+doc_idx,rewrite
+4,Request tracking number for new card.
+5,Report unreceived card
+2,Check card arrival status
+7,Report delayed new card delivery
+13,Check card delivery status
+0,Report unreceived new card
+6,Customer wants to know card delivery status.
+8,Track card delivery status
+1,Report missing card delivery
+9,Report missing card delivery
+11,Check card delivery status
+12,Check bank card arrival status
+3,Report card not arrived.
+10,Customer wants to check new card status.
+15,Check card delivery status
+22,Track sent card status
+25,Report lost card
+19,Check card delivery status
+14,Check card delivery status
+23,Check card arrival status
+21,Report missing card delivery
+16,Check card order status
+20,Request card tracking number
+26,Provide the card tracking number.
+24,Report unreceived card.
+17,Check new card arrival time.
+27,Provide the card tracking number.
+18,Report missing debit card delivery
+30,Link new card
+29,Reactivate card
+32,Re-add card to the app
+33,Add card to account
+34,Reactivate old card
+37,Add a card to the app.
+28,Troubleshoot missing card on app
+38,Link new card
+39,Reactivate misplaced card
+36,Link an existing card.
+41,Find where to link card on website
+40,Link an existing card
+31,Activate new card in app
+35,Link a new card.
+42,Add found card to app
+44,Reactivate lost card.
+47,Link new card
+48,Activate old card for app use
+49,Reactivate a lost card
+51,Find where to enter card info in the app.
+43,Reactivate found card.
+45,Link an existing card.
+54,Link existing card to account
+56,Request current exchange rates
+53,Reactivate my card.
+55,Link replacement card
+46,Report card not showing in app
+57,Requesting current exchange rates
+52,Reactivate found card through app
+50,Link card to account
+59,Report exchange rate source
+61,Customer wants to know the exchange rate.
+68,Request list of exchange rates
+64,Check exchange rates
+62,Explain how exchange rates are calculated.
+60,Check exchange rate update frequency
+63,Explain the basis of exchange rates
+66,Check if it is a good time to exchange currency.
+71,Inquire about exchange rate source
+58,Explain exchange rate calculation
+65,Requesting current exchange rates
+72,Explain the basis of exchange rates.
+69,Get current foreign exchange rate.
+74,Calculate exchange rate amount
+67,Check exchange rate
+73,Requesting current exchange rates
+76,Check exchange rate
+75,Inquire about exchange rate
+70,Check available currencies for exchange rate calculation
+77,Explain how exchange rates work
+79,Inquire about exchange rate source
+78,Get the exchange rate.
+81,Request foreign exchange rate
+82,Inquire about foreign exchange rates
+80,Explain how exchange rates are determined
+85,Dispute currency exchange charge
+88,Verify the exchange rate used.
+91,Correct incorrect exchange rate for card payment.
+93,Report incorrect exchange rate on purchase.
+95,Explain the reason for the increased charge.
+83,Get current exchange rate.
+84,Report incorrect foreign currency exchange rate
+89,Dispute incorrect exchange rate.
+90,Dispute incorrect foreign exchange rate applied
+92,Explain incorrect exchange rate on foreign purchase
+86,Report incorrect exchange rate on foreign transaction.
+87,Correct the exchange rate on my purchase.
+96,Correct the exchange rate for a purchase.
+94,Report incorrect exchange rate for card payment.
+97,Report incorrect card payment conversion value.
+98,Report incorrect exchange rate on foreign purchase.
+99,Check transaction exchange rate
+103,Dispute a fee on statement
+105,Request refund for extra charge
+100,Report incorrect exchange rate on card payment
+111,Explain extra charge on card.
+109,Explain a one dollar charge on statement.
+108,Explain extra one pound charge
+102,Explain fee for extra weight on statement
+104,Explain extra dollar charge on account.
+112,Explain the one euro fee.
+106,Explain a random $1 charge.
+107,Identify an unfamiliar transaction on my statement.
+101,Correct wrong exchange rate applied to purchase.
+113,Remove extra fee from statement
+110,Explain the origin of a fee.
+114,Dispute an extra charge
+117,Explain an extra fee on statement
+115,Explain the extra fee on my statement.
+118,Explain a fee on bank statement.
+116,Dispute an unexpected extra charge.
+122,Explain extra charge on statement
+131,Report ATM withdrawal failure
+128,Check status of failed ATM withdrawal.
+120,Explain unknown one dollar transaction charge
+126,Cancel pending ATM transaction.
+129,Check cash withdrawal pending time
+119,Dispute an extra dollar charge.
+121,Investigate a stuck pending charge.
+127,Resolve pending cash withdrawal transaction.
+123,Explain the extra fee on the statement.
+130,Ask why cash withdrawal is still pending.
+132,Check withdrawal status
+124,Reverse the $1.00 transaction.
+125,Explain extra fee on statement
+141,Check withdrawal status
+145,Explain why card transaction is pending.
+136,Check cash out processing time
+134,Cancel pending ATM transaction.
+143,Expedite pending cash withdrawal.
+135,Check status of pending ATM withdrawal.
+137,Check ATM transaction status and prevent incorrect charge.
+139,Explain pending cash withdrawal
+138,Report declined ATM transaction with pending status.
+144,Fix pending cash withdrawal.
+146,Explain pending cash withdrawal
+140,Check status of pending cash withdrawal
+133,Confirm withdrawal posting time
+155,Cancel pending payment
+151,Explain pending cash withdrawal on statement
+157,List supported fiat currencies for holding and exchange.
+148,Check cash withdrawal status
+154,Check ATM withdrawal posting time
+147,Explain why ATM transaction is still pending.
+158,Exchange money for EUR
+150,Report stuck transaction
+152,Check cash withdrawal pending status.
+153,Refund a failed withdrawal charge.
+149,Report ATM cash withdrawal still showing as pending
+142,Explain why cash withdrawal is pending
+156,Check supported currencies for account holdings
+162,Change currency to euros
+165,Explain currency holding options
+163,List supported fiat currencies for holding and exchange.
+170,Exchange currency to EU.
+164,List supported fiat currencies
+166,Exchange EUR currency
+159,Hold money in multiple currencies
+168,Check currency exchange availability
+160,Exchange currency to EUR
+172,Exchange currencies
+167,Accept exchanges to EUR
+169,List currencies used in exchange.
+161,Check available currency options
+171,Check available currency holding options
+173,Hold money in multiple currencies
+175,List available account currencies.
+184,Check delivery time to US
+183,Request expedited card delivery.
+174,Check number of supported currencies
+178,Exchange EUR from my currency
+187,Ask about US delivery time.
+181,Asking about delivery timeframe.
+179,Customer wants to receive their card immediately.
+180,Request expedited card delivery
+177,Check available fiat currencies for holding and exchange
+176,Accept exchanges to EU
+186,Check card delivery status
+189,Request card delivery on a specific day.
+182,Check card delivery status
+185,Check delivery time to the US
+191,Check delivery date availability
+193,Check card delivery status
+194,Check card delivery status
+188,Check card arrival time
+192,Request delivery on a specific date.
+196,Check order delivery status
+195,Check card delivery timeframe.
+200,Check card delivery status
+202,Expedite card delivery.
+198,Check delivery time to the United States.
+206,Check card arrival status
+205,Request expedited delivery by Saturday
+190,Explain the difference between standard and express delivery.
+197,Check card delivery status
+201,Check shipping time to US destination
+204,Check new card arrival status
+199,Check card arrival status
+203,Check card delivery status
+207,Schedule a delivery date
+209,Check auto top-up limit
+210,Clarify automatic top-up process for low balance.
+211,Set up automatic account top up
+208,Request card delivery on a specific day.
+217,Locate the auto-top feature
+216,Set up automatic money additions at intervals.
+212,Enable automatic top-up when balance is low
+214,Locate the auto-top up function in the app
+213,Set up automatic top-up for low balance.
+215,Set up automatic money additions at time intervals.
+218,Fix auto top-up activation issue
+228,Set up automatic travel top-up
+229,Help me find the auto-top up option.
+224,Set up automatic card top-up schedule.
+231,Check for automatic top-up feature availability
+230,Set up automatic top-up at a specific balance
+221,Check auto top-up limit
+222,Set up automatic top-ups
+220,Assist with auto top up
+232,Check maximum auto top-up limit
+227,Check if automatic top-up is enabled
+219,Check auto top-up limits
+223,Check automatic top-up limit
+226,Change transfer frequency
+225,Set up automatic top-up for low balance
+234,Fix card not working
+244,Replace broken card
+237,Report card not working
+242,Explain why card is not working
+243,Report card not working
+235,Replace broken card
+240,Unblock card using the app
+236,Replace broken card.
+238,Report card not working
+246,Replace broken card
+233,Report card not working
+241,Fix physical card issue
+245,Fix card not working
+239,Identify the problem with my bank card.
+247,Replace broken card
+251,Report broken card
+249,Replace broken card
+253,Fix broken card
+256,Replace broken card
+255,Replace broken card
+259,Check if card is working
+248,Check if card is broken
+263,Exchange currencies
+254,Report card not working
+258,Replace broken card
+261,Find out why card is not working.
+260,Fix card transaction issues
+266,Check currency exchange availability
+252,Replace broken card
+250,Replace broken card
+262,Check if card is deactivated
+257,Replace broken card
+268,Change currency from GBP to AUD
+264,Customer wants to exchange GBP to AUD.
+269,Change account currency
+276,List available currency exchange options.
+277,Check if app supports currency exchange
+274,Check if currency exchange is available on the app
+278,Exchange currency
+265,Convert currencies with the app
+272,Change account currency
+270,Exchange GBP to AUD
+267,Exchange one currency for another.
+275,Exchange currencies
+271,Using money in a different country
+273,Change currency from AUD to GBP
+279,Exchange currency on the app
+281,Exchange currency
+282,Convert dollars to euros
+280,Check availability of currency exchange service
+283,Exchange currencies
+284,Block stolen card
+291,Report stolen card
+289,Report lost card
+286,Report lost card
+285,Report lost or stolen card
+294,Report a stolen card
+292,Asking if police report copy is required
+288,Report lost card
+293,Block card and send replacement.
+287,Report lost card
+296,Report lost card
+290,Report stolen card
+295,Freeze stolen card
+299,Report stolen card
+300,Check for unauthorized transactions on lost card.
+298,Report lost card
+303,Report lost card
+308,Report a stolen card
+302,Cancel stolen card and issue new one.
+307,Freeze card and ship replacement.
+306,Report lost card
+304,Report stolen card
+305,Report lost card
+301,Freeze a stolen card
+309,Locate the customer's card.
+312,Check age requirement to open an account.
+314,Open an account for daughter
+310,Report stolen card
+311,Report stolen card
+313,Check age requirement
+317,Check age requirement
+315,Check age requirement
+319,Check age eligibility for opening an account
+318,What is the minimum age requirement?
+321,Open an account for my child
+322,Open a bank account for a newborn.
+325,Open accounts for children
+324,Check minimum age to open an account.
+320,Open an account for children
+327,Check age requirements for opening an account.
+328,Check age requirement to open an account.
+329,Check age requirements for kids to use service
+334,Reinstate my PIN.
+330,Check age requirement for opening children's account
+332,Minimum age requirement to open an account
+333,Unlock my PIN.
+326,Check age requirements for kids using service
+336,Unblock PIN after entering it wrong too many times
+335,Reset blocked PIN
+338,Unblock my pin
+339,Check PIN attempt limit before block
+342,Unblock a blocked PIN number
+343,Report ATM not accepting PIN.
+341,Reset forgotten PIN
+347,Reset PIN number
+348,Reset forgotten PIN
+337,Unblock card
+344,Unlock my PIN.
+331,Minimum age requirement to open an account
+340,Unlock blocked PIN
+345,Unblock PIN
+316,Minimum age requirement to open an account
+346,Retrieve card retained by ATM.
+349,Customer asks why they were blocked.
+350,Unblock my pin
+351,Unblock PIN
+355,Reset PIN
+353,Unblock PIN after too many wrong attempts.
+356,Unblock PIN
+352,Unblock PIN
+360,Unblock PIN
+354,Unblock PIN
+363,Check required documents for new card
+297,Report lost card
+362,Fix contactless payment method
+357,Unfreeze frozen card
+323,Check eligibility to open a savings account.
+358,Unlock the PIN
+359,Assistance with non-working PIN
+368,Fix contactless payment issue
+361,Check if contactless payments are enabled.
+364,Enable contactless feature on card.
+367,Replace broken contactless card
+365,Fix contactless payment issue on card.
+374,Fix contactless payment method
+369,Fix contactless payment issues
+372,Enable contactless card for metro use.
+373,Fix contactless payment
+366,Fix unsuccessful contactless payments.
+371,Fix contactless payment issues
+381,Report contactless payment failure.
+375,Fix contactless payment issue
+376,Fix contactless payments
+379,Replace broken contactless card.
+377,Fix contactless payment issues
+380,Report contactless card not working
+378,Fix NFC payment failure on bus.
+385,Fix contactless payment issue
+370,Check security settings for contactless pay
+383,Enable contactless payments.
+382,Fix contactless payment failure
+384,Explain how to use contactless payments.
+388,Customer wants to know transfer fees.
+386,Explain how to use contactless pay.
+387,Ask about reinstalling the payment app.
+394,Check fees for transfers
+391,Ask about SWIFT transfer availability
+398,Check transfer fee
+390,Check charges for making a top-up
+400,Check fees for receiving money
+401,Customer inquires about top-up fees.
+397,Check charges for receiving money
+389,Check transfer fee
+396,Check fee for receiving money
+393,Check fees for topping up by transfer
+395,Request transfer from SWIFT
+402,Inquire about fee to receive money
+405,Check fees for a SEPA transfer
+392,Refill account using SWIFT
+403,Check SEPA transfer fee.
+407,Check SEPA transfer fees
+399,Check charges for receiving SEPA transfer
+404,Check SEPA transfer fee.
+408,Check transfer fee amount
+412,Inquire about transfer top-up fees
+410,Explain the transfer policy.
+406,Inquire about SWIFT transfer availability
+414,Check fees for receiving money
+415,transfer money with swift
+411,Asking if SWIFT transfer is acceptable.
+413,Fee inquiry for bank transfer
+416,Report card transaction stuck in pending status
+419,Explain why top-up has not gone through.
+409,Check transfer top-up fee
+417,Report delay in account top-up
+421,Fix pending account top-up.
+425,Check top up status
+422,Check pending top up status
+418,Check pending top-up status
+423,Expedite pending top up transaction.
+424,Check status of pending top-up
+420,Report failed top-up transaction.
+429,Update card balance after top-up.
+430,Fix pending top-up transaction.
+432,Fix card top up issue
+433,Resolve pending account top-up
+426,Report slow top-up processing.
+428,Report failed top up.
+427,Check status of pending card top-up
+437,Check top-up status
+440,Revert a transaction
+435,Resolve pending top up transaction
+431,Fix pending top-up transaction.
+436,Check why card top up is pending.
+438,Fix pending card top up
+441,Cancel a charge
+442,Cancel a transaction
+434,Explain pending top up status
+439,Resolve pending funds for immediate purchase.
+448,Cancel a transfer
+444,Cancel a transfer
+447,Cancel a transfer
+450,Cancel a transfer immediately
+449,Reverse a transaction made to the wrong account.
+446,Cancel recent transfer immediately
+452,Reverse a sent payment immediately.
+443,Reverse a transaction sent to wrong account
+451,Cancel a transaction
+454,Cancel a processed transfer.
+455,Cancel a bank transaction
+445,Cancel a transfer to wrong account.
+460,Cancel a transaction
+459,Cancel a recent transfer
+456,Fix a mistaken transfer
+462,Cancel a transfer immediately.
+461,Cancel a transaction.
+457,Cancel a transfer
+453,Reverse a transaction
+470,Check top-up limit
+468,Cancel a transaction
+463,Cancel a transaction
+466,Cancel a transaction
+465,Cancel a recent transfer.
+469,Set a limit on my top-ups.
+464,Cancel last transfer
+458,Cancel a mistaken transaction
+474,Check top-up limits
+467,Cancel a pending transaction
+471,Check account top up limit
+472,Check top up limit
+473,Inquire about top-off restrictions
+477,Check maximum top up limit
+480,Check card load limit
+476,Check top-up limit
+475,Check top up limit
+482,Check top-up limits
+478,Check top-up limit
+481,Check maximum top-up limit
+479,Check top-up amount limit
+486,Check top-up amount limits
+483,Increase account limit
+489,Check top up limit
+487,Check top-up limits
+484,Check top-up limit
+491,Check top-up amount limit
+493,Check top-up limit
+492,Check top-up limit
+490,Check top-up limit
+496,Report ATM dispensing incorrect cash amount
+494,Check top-up restrictions
+485,Check top-up limit
+495,Check if top ups are included in limits.
+497,Report ATM cash dispensing error
+501,Report incorrect cash amount received
+500,Report incorrect cash received
+505,Locate the withdrawn money shown in the mobile app.
+499,Report missing cash back after withdrawal
+502,Report ATM cash withdrawal discrepancy
+508,Report incorrect ATM withdrawal amount.
+503,Report incorrect ATM cash dispensing
+506,Report incorrect cash withdrawal amount
+510,Report ATM dispensed wrong amount.
+498,Report ATM cash shortage
+488,Check card top-up limit
+507,Report partial cash withdrawal decline
+504,Report ATM dispensed wrong amount
+509,Refund incorrect ATM withdrawal amount
+511,Report incorrect cash withdrawal amount.
+512,Check status of transfer amount
+513,Report ATM cash withdrawal discrepancy.
+519,Report incorrect ATM cash withdrawal amount
+515,Report incorrect ATM withdrawal amount.
+523,Report incorrect ATM withdrawal amount
+514,Report incorrect withdrawal amount.
+516,Report incorrect withdrawal amount
+517,Report incorrect cash back amount received
+520,Report ATM dispensed incorrect amount.
+524,Report incorrect cash amount received
+522,Report incorrect cash withdrawal amount
+521,Report incorrect cash withdrawal amount
+518,Report ATM cash shortage
+526,Report incorrect ATM withdrawal amount.
+529,Dispute incorrect card fee
+532,Explain card purchase fee
+536,Explain extra charge for card payment
+527,Report incorrect cash received from withdrawal
+525,Report incorrect transaction amount
+538,Check card payment fee
+531,Explain why additional fees are charged on some payments.
+533,Explain card payment charge
+537,Explain an unrecognized charge
+528,Dispute an extra card payment fee
+534,Notify customer of extra payment charges
+535,Explain extra card payment fee
+530,Explain an unrecognized card charge
+539,Check card transaction fee conditions
+540,Explain why card payment amount was higher.
+545,Check for an applied card fee.
+546,List items with extra fees
+542,Check card payment fee
+541,Dispute card payment fee
+543,Question about card payment fee.
+544,Check card usage fee policy
+551,Inquire about card usage fees
+550,Explain extra card usage fee
+548,Explain account fee charges
+558,Report missing money transfer.
+554,Explain card payment fees
+559,Report missing transaction funds.
+552,Explain card payment fee charge
+562,Report missing money transfer
+563,Check transfer status
+561,Check money transfer processing time
+553,Explain fee on account
+557,Report funds not available after transfer.
+555,Explain fee charged for card payment.
+565,Report recipient not seeing money transfer.
+560,Report missing money transfer
+549,Check card usage fees
+547,Check card payment fee
+556,Dispute card usage fee
+567,Investigate why transfer did not arrive
+569,Report missing transfer
+570,Check why transfer is not complete.
+566,Verify if the rent payment transaction went through.
+571,Report missing money transfer
+568,Check if landlord received payment.
+564,Report missing transaction funds.
+574,Check transaction status
+572,Locate a specific transaction.
+573,Report a missing transaction transfer.
+575,Check transaction status
+582,Check transfer status
+578,Check status of money transfer
+585,Customer wants to top up their card.
+587,Check accepted currencies for adding money.
+577,Resolve issue with receiver accessing sent money.
+584,Report recipient unable to withdraw transferred money.
+581,Check transfer status
+586,Remove US card
+576,Check transaction status.
+579,Report missing transfer recipient
+583,Check transaction status.
+580,Check funds transfer status
+588,Check accepted currencies for adding money.
+589,Remove my other US card
+590,List accepted cards and currencies
+593,Check supported cards for credit card top-up.
+592,Accept other card
+598,Asking if US credit cards are accepted.
+595,Transfer funds from American Express to account
+594,List supported cards and currencies.
+599,Add support for American Express cards
+591,Explain accepted cards and currencies.
+596,Add money to account using American Express
+601,Asking which cards are supported for top-ups.
+603,Ask about accepted currencies for adding money
+602,Check accepted currencies
+600,Inquire about payment options
+597,List accepted currencies for adding money.
+604,Verify accepted currencies for adding money.
+605,Inquire about accepted cards and currencies.
+607,Locate virtual card
+609,Request option for virtual card
+608,Locate virtual card
+610,Request a virtual card instead of a physical one.
+615,Order a virtual card
+618,Order a virtual card
+614,Request virtual card
+612,Locate the virtual card
+613,Explain virtual card
+611,Order a virtual card
+623,Order a virtual card
+620,Order a virtual card
+622,Locate virtual card
+626,Order a virtual card
+621,Steps to get a virtual card
+624,Request copy of card via email
+629,Locate virtual cards
+606,Check supported currencies and cards for top-ups.
+625,Request virtual card
+627,Order a virtual card
+617,Order virtual cards
+619,Request a virtual card
+631,Get a virtual card
+616,Requesting status of virtual card issuance
+632,Request a virtual card
+628,Request information on obtaining a virtual card
+637,Check card usage location limits
+634,Find card acceptance locations.
+630,Reorder virtual card
+636,Confirm card acceptance at merchants.
+633,Check card acceptance worldwide
+635,Check card usability for worldwide payments
+638,Find stores that accept the card.
+641,Find locations where card is accepted.
+642,Check card acceptance locations
+639,Check card usage locations.
+640,Where can I use my card?
+647,Find locations where card cannot be used.
+645,Find outlets that accept my card.
+643,Find businesses that accept the card.
+646,Find stores accepting credit card payment.
+648,Check card usage locations.
+644,Find locations to use card
+652,Check card accepted locations
+650,Check card acceptance locations
+655,Check card acceptance by businesses
+653,Report where card is accepted
+649,Check card usage locations.
+657,Find card acceptance locations.
+656,Check card acceptance at filling stations
+662,Request refund for duplicate top-up payment
+651,Check card acceptance locations
+663,Fix app top up issue.
+664,Investigate missing account funds
+654,Find locations where the card is accepted.
+660,Check if top up has reverted
+661,Investigate missing top-up transaction.
+659,Resolve reverted top up
+667,Report failed top-up transaction reversal.
+658,Requesting refund for cancelled top-up
+665,Explain why top-up was reverted
+666,Check if top-up was cancelled
+672,Report failed top-up transaction
+673,Check if top-up was refunded
+668,Explain why top up was cancelled
+670,Refund reverted top-up.
+669,Reverse an erroneous top-up reversion.
+674,Explain why top up was reverted
+671,Investigate failed crypto top up transaction.
+676,Report app funds reversion during top-up.
+675,Explain why a top up was reverted.
+681,Report revoked top-up.
+678,Check top up reversal status
+680,Check if top-up was cancelled
+677,Reverse an app top-up transaction.
+679,Explain why top-up was canceled.
+682,Identify reasons for top-up cancellation.
+689,Update account to reflect check balance
+686,Report cancelled top-up
+685,Explain why my top-up was canceled.
+683,Revert app top up transaction
+691,Resolve missing cash deposit
+684,Check if top up was reverted
+694,Check deposit availability
+690,Check status of missing deposit
+695,Check deposit status
+693,Check status of cash deposit
+688,Check account for missing cheque deposit.
+692,Locate cash deposit
+697,Check status of submitted cheque
+698,Check deposit status
+700,Report balance not updating after deposit
+703,Check status of deposited cheque.
+701,Report missing deposit to account balance.
+699,Investigate missing cash deposit
+696,Report a flagged cash deposit
+702,Customer wants to know why cash deposits are not accepted.
+687,Report unsuccessful top-up transaction.
+706,Check status of sent cheque
+704,Check status of missing cheque deposit
+705,Check status of cash deposit
+707,Check if deposited check has cleared.
+711,Check why my cheque has not cleared
+716,Report an unauthorized payment.
+714,Report an unauthorized payment
+712,Report unrecognized transaction on statement
+717,Report unauthorized card payment
+708,Investigate missing cash deposit
+713,Report an unauthorized payment
+718,Report unauthorized transaction
+719,Dispute a payment.
+710,Report missing cash deposit
+715,Dispute a card payment.
+709,Report cash deposit not reflected
+720,Freeze card and dispute unknown payments.
+723,Report unauthorized payment
+731,Report unauthorized card transaction
+730,Report unrecognized transaction
+721,Report unauthorized card transactions
+727,Report unrecognized card transaction
+725,Dispute an unauthorized payment
+729,Report unrecognized card payment
+724,Report unrecognized card payment
+728,Freeze card due to unauthorized payments
+732,Investigate unauthorized card charge
+733,Explain discrepancies in card payment descriptions.
+726,Freeze card due to suspicious payments
+734,Report unauthorized transaction
+735,Dispute a fraudulent charge
+740,Update personal details on account
+722,Report unauthorized card charges and request refund
+742,Update personal details
+746,Update personal details
+738,Update personal details
+739,Update customer details
+741,Update personal information after moving
+748,Update personal details
+736,Report unrecognized payment on statement
+743,Update customer information
+737,Update personal details
+745,Update customer details after moving
+747,Update customer address
+744,Update account details
+757,Update customer information
+755,Change account name
+749,Change account name
+751,Update personal details on the app
+753,Change last name on account
+750,Update personal profile
+756,Change address
+754,Update residence details
+760,Change customer name
+758,Update current address
+762,Questioning identity verification requirements
+752,Change account details
+759,Update customer details
+761,Change address
+764,Customer asks about login identity verification requirements.
+767,Check if identity verification is required
+771,Simplify identity verification process
+776,Customer asks if identity verification is required.
+774,Customer inquires about identity check requirement.
+773,Asking about identity verification requirements
+763,Decline to verify identity
+765,Asking about transferring funds before identity verification.
+768,Use account without verifying identity
+769,Check account usability pending identity verification.
+775,Questioning requirement for identity check
+772,Questioning identity verification requirement
+770,Questioning identity verification requirements
+785,Customer wants to know why identity verification is required.
+766,Explain the need for identity verification
+781,Explain why identity verification is required
+782,Explain the identity check
+784,Use account without completing identity verification
+778,Refuse identity verification
+780,Decline identity verification
+777,Questioning requirement to provide identification details.
+786,Customer wants to know if identity verification is required.
+779,Skip identity verification
+783,Verify identity using alternative methods
+790,Verify customer ID
+794,Fix app login recognition issue
+788,Verify identity
+795,Unable to access account.
+800,Verify identity
+799,Customer cannot verify identity.
+797,Verify my ID
+789,Help with failed verification
+792,Verify customer ID
+791,Fix app identity verification failure.
+787,Questioning information requirements
+793,Verify identity without proof
+796,Verify my identity
+798,Fix app identity verification issue
+808,Unable to verify ID
+806,verify identity
+802,Verify my ID
+804,Verify customer ID
+805,Verify identity
+810,Verify identity on the app
+809,Fix identity verification issue
+807,Check ID verification status
+813,Verify customer ID
+801,Fix identity verification issue
+812,Customer wants to verify identity.
+803,Customer asks ID verification requirements.
+814,Change card PIN
+811,Unable to log in to the app.
+817,Set up PIN for new card
+815,Check if PIN is delivered separately
+816,Reset forgotten PIN
+818,Find card PIN
+820,Find location of new PIN in app
+823,View PIN
+819,Find my PIN
+825,Customer asks about PIN delivery method.
+821,Locate PIN in app
+824,explain how to set up a pin
+828,Find PIN location on account
+829,Report missing PIN.
+832,Customer wants to know when they will receive their PIN.
+827,Customer inquires about PIN availability status.
+822,Report missing PIN for received card.
+830,Customer asks about card PIN.
+831,Retrieve lost card PIN
+826,Locate card PIN
+835,Retrieve PIN
+833,Check PIN delivery status
+836,Check if Visa or Mastercard are accepted.
+841,Apply for a Visa credit card
+843,Order Visa and Mastercard
+838,Request a Mastercard
+834,Get information about obtaining a PIN.
+842,Choose between Visa and Mastercard.
+839,Apply for a Visa credit card
+847,Asking about accepted card types.
+846,Apply for a visa card.
+837,Check if Visa and Mastercard are accepted.
+840,Customer wants to switch to a Mastercard.
+849,Customer wants to select the Mastercard.
+844,Customer wants to choose their card.
+845,Check available card types.
+848,Check eligibility for both Visa and Mastercard
+854,Customer wants to get a Visa card.
+857,Report missing wallet top-up
+855,Customer wants to know how to top up by card.
+861,How to top up account
+851,Asking which major card payments are accepted.
+852,Check if Visa is a card scheme assignment.
+858,Transfer money using credit card
+862,Report missing funds from transfer.
+860,Investigate missing money transfer.
+856,Top up card using the app
+863,Check if others can top up account
+859,Explain how friends can top up account
+864,Transfer money using a credit card
+850,Request Visa and MasterCard.
+853,Asking about accepted card types.
+869,Transfer funds directly from card.
+865,Authorize friends to top up account
+873,Check if friends can add funds to account.
+870,Check wallet top up status.
+867,Fix missing top-up balance
+874,Transfer money to credit card
+875,Customer wants to top up account.
+866,Check missing wallet top-up.
+871,Investigate missing funds during card top-up.
+878,Check if friends can top up account
+877,Report missing wallet top up
+879,Request multiple disposable cards
+872,Explain how to add money to account
+868,Check if someone else can top up account.
+880,Ask about daily disposable card limit
+876,Report missing funds after card top-up.
+882,Check disposable card limit
+885,Check disposable card payment limit
+886,Explain disposable card restrictions
+884,Check disposable card limit
+889,Create multiple temporary cards daily.
+887,Check disposable card limit
+888,Check disposable card transaction limit
+891,Check disposable card transaction limit
+881,Create multiple disposable cards in one day
+890,Create multiple disposable cards in one day
+894,Check disposable virtual card limit
+892,Check disposable card usage limits
+893,Explain the virtual cards limit.
+896,Check disposable virtual card usage restrictions
+898,Query disposable card limit
+883,Check virtual card usage limits
+895,Create multiple disposable cards daily
+897,Query disposable card ownership limit
+902,Check disposable virtual card limits
+901,Check disposable virtual card limits
+899,Check disposable card usage limit.
+903,Check disposable card transaction limit
+900,Asking about virtual disposable card uses
+905,Report unauthorized card transactions
+912,Report unauthorized card transactions
+907,Report unauthorized card transaction
+908,Freeze hacked account
+914,Freeze account and dispute fraud
+915,Freeze account due to compromised card.
+911,Report unauthorized card transactions
+913,Report unauthorized card transactions
+906,Report unauthorized card transaction
+904,Check disposable virtual card usage limit
+916,Report unauthorized transactions and check account security.
+909,Report unauthorized card transactions
+917,Freeze card using the app
+910,Freeze my account immediately
+919,Report suspected unauthorized card use.
+924,Report unauthorized card transaction
+923,Report unauthorized card transactions
+920,Report unauthorized card transactions
+922,Freeze card to stop unauthorized transactions
+921,Report potential unauthorized card use
+918,Report compromised card
+927,Report unauthorized transactions
+925,Report unauthorized card use
+933,Find ATMs that accept this card.
+931,Freeze card due to unauthorized use
+935,Find ATMs where the card can be used.
+930,Report potentially compromised card information
+932,Check if ATMs accept the card
+936,Find ATMs that accept my card.
+939,Find the nearest ATM
+938,Locate the nearest ATM
+929,Report unauthorized card transaction
+934,Request list of ATM machines
+928,Report unauthorized card access
+926,Request new card due to compromised information
+940,Find usable ATM locations
+937,Find ATMs that accept the placard.
+941,Customer wants to know how to withdraw money.
+949,Find nearby ATM locations
+944,Find ATMs that accept the card.
+954,Find withdrawable ATMs.
+945,Find ATMs where the card can be used.
+942,Locate the nearest ATM
+952,Find ATM locations for card usage.
+951,Find ATMs that accept this card.
+953,Find compatible ATMs for this card.
+947,Check if card allows cash withdrawals anywhere.
+948,Find nearest ATM
+943,Find ATM withdrawal locations
+946,Check card ATM usage eligibility
+950,Find the nearest bank machine.
+955,Find ATM or branch location for withdrawal
+962,Check ATM withdrawal restrictions
+956,Locate ATMs that accept the card
+958,Find ATM location
+963,Find locations to withdraw money
+966,Dispute unauthorized debit charge
+960,Find the closest ATM
+964,Report unauthorized direct debit
+967,Explain a charge on my account.
+959,Find ATMs that accept the card.
+969,Report stolen money
+961,Check card ATM eligibility
+957,Find ATMs that accept this card.
+965,Report an unrecognized direct debit charge
+968,Report unauthorized charges on card.
+976,Trace unrecognized transaction details.
+980,Report unauthorized direct debit payment
+972,Report unauthorized debit card charges
+970,Report unauthorized direct debit transaction
+975,Report a suspicious direct debit payment.
+973,Dispute an unauthorized charge
+983,Report unrecognized direct debit charge
+978,Report unauthorized direct debit charge
+971,Report a fraudulent debit card charge
+981,Dispute an incorrect direct debit payment.
+982,Dispute a debit card charge.
+979,Cancel unauthorized payment.
+977,Trace unknown transaction to identify seller
+974,Trace an unknown transaction to confirm origin.
+986,Dispute a transaction due to security concerns.
+990,Dispute a direct debit
+984,Report unauthorized direct debit
+992,Reset forgotten password
+988,Report unrecognized direct debit
+985,Dispute a large unauthorized charge.
+996,Reset password
+995,Reset account password
+987,Report unrecognized direct debit transaction
+997,Reset a forgotten passcode.
+993,Reset passcode
+991,Reset forgotten passcode
+989,Report unauthorized transaction
+994,Reset lost password
+998,Reset passcode
+999,Request a new passcode
+1003,Reset passcode
+1004,Reset passcode
+1001,Reset passcode
+1010,Reset password
+1005,Fix a non-working passcode
+1009,Reset passcode.
+1008,Reset forgotten password.
+1000,Reset app access code
+1006,Reset forgotten PIN
+1013,Reset forgotten passcode
+1012,Reset passcode
+1002,Reset passcode
+1007,Reset passcode for app access
+1011,Reset account password
+1017,Retrieve login code for the app.
+1022,Check account for card decline issue
+1021,Explain why ATM transaction was cancelled
+1016,Reset passcode.
+1020,Fix my card that isn't working at ATMs.
+1025,Explain inability to withdraw funds
+1019,Report cancelled withdrawal.
+1015,Retrieve access code for the app.
+1027,Explain why cash withdrawal was declined
+1024,Report ATM cash withdrawal failure
+1026,Check why my card is being declined.
+1018,Explain why ATM withdrawal was denied.
+1031,Report unsuccessful ATM transaction.
+1032,Report declined withdrawal transaction
+1037,Explain why cash withdrawal was declined
+1036,Report ATM not dispensing cash
+1030,Explain why ATM withdrawal was declined.
+1035,Explain why ATM cash withdrawal failed.
+1028,Report ATM withdrawal failure
+1034,Explain why cash withdrawal was declined
+1029,Customer wants to know why cash withdrawal was declined.
+1038,Report ATM cash withdrawal failure
+1039,Investigate why card was declined at ATM
+1033,Check account for card decline issue
+1044,Check payment status
+1042,Report ATM cash dispensing failure
+1041,Report failed ATM cash withdrawal.
+1045,Check card payment status.
+1047,Check why payment has not gone through
+1040,Explain why cash withdrawal was declined
+1050,Explain the meaning of pending payment.
+1048,Check card payment status
+1043,Explain why card payment is on hold
+1046,Check status of pending card payment
+1049,Explain the meaning of a pending payment.
+1061,Investigate delayed payment clearance.
+1053,Check status of pending card payment
+1055,Check payment status
+1058,Explain why a payment is pending.
+1054,Check pending payment status
+1051,Check payment status
+1052,Remove pending card payment hold.
+1056,Explain what a pending payment is
+1062,Explain why a payment is pending.
+1066,Check payment authorisation time
+1064,Check card pending status
+1059,Explain the meaning of pending.
+1063,Explain why payments are showing pending.
+1065,Check status of pending payment
+1069,Check pending payment status
+1072,Report lost or stolen phone.
+1071,Report stolen phone
+1075,Report lost or stolen phone
+1074,Report lost or stolen phone.
+1067,Check payment status.
+1076,Block lost phone access
+1068,Check pending card payment status
+1073,Recover account access after losing everything
+1070,Report stolen phone
+1077,Secure my account after losing my phone.
+1079,Recover app access without phone
+1084,Freeze my accounts.
+1083,Cancel account due to stolen phone.
+1087,Block account access due to lost phone.
+1086,Report stolen phone and ask for next steps.
+1085,Customer wants to access account after losing phone.
+1080,Access the app without a phone.
+1082,Unable to access banking app without phone.
+1078,Report stolen phone and regain account access
+1091,Report stolen phone
+1081,Report lost phone
+1088,Report lost smartphone
+1092,Block mobile banking app access
+1089,Check if app works on new phone
+1090,Report lost cards and secure account.
+1096,Report stolen items and get help
+1093,Report lost phone
+1098,Request refund for item
+1100,Request refund for purchase
+1097,Request refund for unhelpful merchant product
+1095,Report lost card and regain app access.
+1104,Requesting a refund
+1099,Request an item refund
+1103,Return an item
+1094,Explain how to use the app without a phone
+1102,Request a refund for a purchase
+1101,Request refund or cancel payment for unreceived item.
+1107,Apply for a refund
+1106,Cancel order and process refund
+1108,Requesting a refund
+1112,Request a refund
+1113,Cancel my purchase.
+1109,Request refund for undelivered online purchase.
+1116,Request a refund for accidental purchase
+1114,Cancel a previous purchase
+1105,Dispute incorrect transaction amount
+1110,Cancel a purchase order
+1115,Request a refund for an item
+1111,Requesting a refund for a purchase.
+1117,Request a product refund
+1119,Request refund for incorrect charge
+1118,Request a product refund
+1120,Cancel a payment
+1122,Request refund for purchase
+1124,Cancel a purchase
+1121,Customer wants to know the refund process.
+1123,Process a refund for a purchase
+1126,Investigate declined credit card purchase.
+1125,Explain why transfer was declined
+1128,Explain transfer decline reason.
+1129,Resolve declined card issue
+1127,Resolve continuous transfer failures.
+1130,Explain why a transfer was declined
+1132,Report a declined transfer
+1131,Fix declined card transfers
+1134,Explain why transfer was declined
+1135,Explain why the transfer was declined.
+1138,Fix declined transfer submissions.
+1136,Explain why transfer was declined
+1133,Report declined card transaction
+1139,Report declined transfer
+1140,Report declined transfer
+1137,Fix declined card during purchases.
+1142,Explain why transfer was declined
+1141,Resolve declined transfer
+1144,Check reason for declined funds
+1145,Fix money transfer issue
+1148,Explain why card is being declined.
+1147,Find out why card is being declined.
+1143,Explain why transfer was declined
+1146,Fix declined online purchase.
+1149,Check transfer restrictions causing decline
+1151,Investigate missing refund on statement.
+1150,Investigate missing refund on account.
+1156,Check refund status
+1153,Report missing refund on statement
+1152,Check status of missing purchase refund
+1157,Check status of pending refund
+1158,Report missing refund for returned purchase.
+1154,Investigate missing refund in account.
+1159,Check refund status
+1155,Check status of missing refund
+1160,Check status of recent refund
+1164,Check if refund was processed
+1162,Check status of merchant refund
+1165,Check if refund has processed
+1167,Request refund status update
+1161,Check why refund was not received
+1170,Check on missing refund status
+1166,Check refund status
+1168,Customer wants to inquire about a missing refund.
+1163,Check on missing refund status
+1171,Check status of recent refund
+1169,Check why refund is not showing on statement
+1176,Help getting a refund from a seller.
+1175,Request refund for unresponsive seller.
+1060,Check card payment pending status.
+1023,Report declined ATM withdrawal
+1057,Explain pending transaction on card
+1014,Explain how to reset the passcode.
+1178,Report declined credit card.
+1179,Fix declined new card
+1177,Report missing refund on statement
+1174,Check status of missing seller refund
+1172,Request refund due to unresponsive seller
+1173,Check status of missing purchase return.
+1180,Explain why my payment was declined.
+1183,Resolve declined card payment.
+1187,Explain why my payment was declined.
+1186,Explain why card payment failed
+1182,Resolve declined payment issue
+1184,Fix card payment issue
+1189,Fix card not accepted.
+1190,Fix failed card payment
+1198,Report failed card payment.
+1197,Explain why card payment was declined
+1191,Investigate why my card was rejected.
+1192,Explain why card was declined
+1185,Fix failed card payment
+1188,Explain why payment failed.
+1181,Explain why card transaction was declined
+1196,Resolve declined card payment.
+1193,Fix declining payments on new card.
+1195,Explain why payment was declined
+1194,Explain why card payment was declined.
+1200,Report declined card payment
+1199,Report card not working
+1201,Explain why my card was declined.
+1202,Fix card payment
+1207,Check EU transfer processing time.
+1203,Check transfer status
+1205,Check transfer status
+1208,Check status of pending transfer
+1210,Check transfer pending duration
+1209,Resolve pending transfer
+1212,Investigate pending transfer status
+1218,Check transfer confirmation time.
+1214,Explain why the transfer is pending.
+1219,Check status of pending transfer
+1220,Explain why transfer is pending
+1217,Report missing incoming transfer
+1216,Explain why payment is still pending
+1213,Check transfer status
+1204,Check money transfer status
+1211,Check transfer pending duration
+1206,Check status of pending transfer
+1215,Check transfer status
+1222,Check transfer status
+1221,Check transfer pending status
+1223,Check money transfer status
+1229,Close bank account
+1232,Delete my account.
+1230,Delete account
+1235,Delete my account
+1224,Close my account
+1227,Close bank account
+1231,Delete my account.
+1234,Delete my account
+1236,Close account
+1233,Close account
+1228,Delete my account.
+1241,Close account
+1238,Delete account
+1243,Delete my account.
+1239,Delete my accounts.
+1240,Close bank account
+1237,Close bank account immediately.
+1245,Delete my account.
+1248,Close my account
+1251,Delete my account
+1249,Close bank account
+1250,Delete my account.
+1253,Close account
+1225,Delete account
+1254,Terminate my account.
+1252,Delete my account
+1226,Close my account
+1244,Delete my account
+1246,Close bank account.
+1256,Retrieve card from machine
+1255,Report an ATM retaining my card.
+1259,Report ATM card retention.
+1261,Retrieve card stuck in ATM
+1262,Retrieve card from machine
+1242,Close my account
+1247,Delete my account
+1257,Report card stuck in ATM.
+1260,Retrieve card stuck in ATM.
+1258,Report card swallowed by machine and request replacement.
+1264,Retrieve swallowed card from ATM.
+1266,Retrieve card stuck in ATM
+1269,Retrieve card retained by ATM
+1268,Report an ATM card retention.
+1270,Report an ATM card retention.
+1263,Report stolen card
+1265,Report a card retained by ATM
+1279,Retrieve stuck ATM card
+1274,Retrieve card stuck in ATM
+1280,Report ATM card retention.
+1272,Retrieve stuck card from ATM
+1275,Replace swallowed card immediately
+1273,Explain why the ATM swallowed my card.
+1276,Report card stuck in ATM
+1271,Report ATM card retention
+1277,Report trapped ATM card
+1267,Retrieve confiscated card from ATM
+1278,Report card retained by ATM
+1292,Remove duplicate charges from account.
+1288,Dispute duplicate charges
+1286,Dispute a duplicate payment charge
+1291,Dispute duplicate transaction charge
+1289,Report duplicate charge
+1281,Retrieve card retained by ATM
+1294,Resolve duplicate card charge
+1282,Replace swallowed ATM card.
+1284,Explain duplicate charge for purchase.
+1293,Explain duplicate charges
+1283,Report card stuck in ATM
+1287,Dispute duplicate transaction charges
+1285,Dispute duplicate card charges
+1290,Investigate and refund double charges.
+1295,Request refund for double charge
+1297,Refund duplicate transaction charges
+1299,Dispute duplicate card charge
+1305,Report duplicate payment
+1306,Request refund for duplicate charge
+1296,Refund duplicate card charges.
+1298,Report duplicate transactions on account.
+1303,Dispute duplicate transaction charges.
+1304,Report duplicate transactions
+1302,Report a double charge
+1301,Dispute duplicate transaction charges
+1308,Verify source of funds.
+1307,Dispute a duplicate charge
+1300,Dispute a duplicate transaction charge
+1309,Customer wants information about source of funds.
+1310,Identify source of funds
+1311,Verify source of funds
+1312,Show the source of my money.
+1314,Verify source of funds.
+1313,Questioning Source of Funds information requirement
+1318,Locate source of available money
+1319,Verify source of funds
+1316,Verify source of funds
+1321,Identify source of funds
+1317,Trace the origin of funds.
+1315,Verify Source of Funds requirements
+1324,Verify source of funds.
+1320,Validate source of funds.
+1322,Explain the source of available funds.
+1328,Questioning the source of funds
+1323,Check transaction source
+1325,Customer wants to know source of funds.
+1332,Check transfer status
+1329,Check wait time for Europe transfer
+1330,Check transfer wait time from the US.
+1326,View source of funds.
+1336,Check deposit availability
+1337,Check transfer arrival time
+1338,Check transfer status in account
+1335,Check bank transfer processing time
+1331,Transfer money from China quickly
+1334,Check transfer processing time
+1339,Check international transfer processing time
+1333,Speed of making a transfer
+1327,Track the source of my funds.
+1343,Check wait time for US transfer
+1345,Check urgent transfer time from China
+1348,Check urgent transfer delivery date to China
+1347,Check funds transfer time between banks
+1342,Check Europe transfer wait time.
+1341,Check transfer processing time from US
+1340,Check transfer arrival time.
+1349,Transfer funds to China urgently
+1346,Ask transfer processing time from Europe.
+1353,Ask transfer processing time
+1344,Check transfer processing time
+1350,Check fund availability time
+1351,Check transfer arrival time
+1352,Check transfer arrival time
+1355,Check fund availability
+1362,Explain reason for unexpected payment refund.
+1364,Explain why an approved payment was refused.
+1357,Revert a payment.
+1365,Report cancelled credit card payment.
+1358,Explain why payment was cancelled
+1354,Check international transfer processing time.
+1356,Explain why card payment was reverted
+1363,Resolve declined card purchase
+1360,Explain when card payments are reverted.
+1367,Report returned card payment
+1361,Explain cancelled card payment
+1359,Report reverted payment
+1366,Explain why payment was reversed
+1368,Investigate why seller did not receive payment.
+1369,Explain payment refusal fund status
+1371,Find out why card was cancelled.
+1374,File a claim for a payment inquiry
+1373,Investigate why card payment was cancelled
+1372,Report cancelled card payment.
+1380,Change PIN location options
+1377,Report a stopped payment
+1370,Explain why card payment was reverted
+1375,Report reverted payment.
+1382,Set a new PIN
+1379,Change PIN
+1384,Change card PIN at a nearby location
+1385,Change PIN.
+1381,Change PIN
+1376,Report returned transaction.
+1378,Find ATMs that allow PIN changes.
+1386,Set a new PIN.
+1383,Change PIN while overseas
+1390,Change PIN at cash machine
+1387,Update PIN.
+1392,Change PIN
+1395,Set up a new PIN
+1388,Change PIN.
+1393,Change PIN
+1389,Change PIN
+1394,Request a new card PIN
+1391,Change PIN at cash machine
+1401,Change PIN
+1404,Report inability to transfer funds
+1399,Find ATMs that allow PIN changes.
+1409,Resolve issue transferring to beneficiary
+1400,Change card PIN
+1408,Fix failed money transfer
+1397,Update account PIN
+1403,Resolve money transfer error.
+1396,Find ATMs that allow PIN changes.
+1405,Report transfer failure
+1406,Unblock a transfer
+1407,Fix transfer error message.
+1402,Fix failed funds transfer
+1398,Request a new PIN
+1414,Transfer money to a beneficiary.
+1413,Explain why account transfer failed
+1420,Transfer money to a beneficiary
+1412,Process cryptocurrency exchange.
+1411,Explain beneficiary transfer rules
+1419,Report transfer to beneficiary failure
+1422,Customer wants to enable account transfers.
+1415,Explain why transfer failed.
+1421,transfer money to an account
+1418,Ask why beneficiary was denied
+1417,Report transfer failure to beneficiary
+1423,Enable cryptocurrency purchases in the app.
+1424,Report failed transfer to beneficiary
+1427,Explain transfer fee charge
+1416,Report failed transfer to beneficiary
+1410,Fix transfer error message
+1430,Waive the transfer fee
+1428,Check transfer fee amount
+1434,Dispute an international transaction fee.
+1425,Explain why a transfer was not allowed.
+1433,Check transfer fee charges
+1435,Dispute overcharge on money transfer
+1432,Question fee for transferring money
+1431,Question transfer fee charge
+1426,Dispute transfer fee
+1429,Dispute extra charge for money transfer
+1437,Explain extra fee for transferring funds
+1436,Inquire about transfer fee
+1438,Dispute transfer fee charge
+1439,Dispute extra transfer charge
+1442,Explain transfer fee
+1440,Dispute transfer fee charge
+1448,Explain extra charges
+1441,Dispute extra transfer fee
+1445,Question about transfer fee
+1444,Explain transfer fee charge
+1446,Enroll in rewards programme for frequent users
+1447,Explain transfer fee charge
+1443,Investigate transfer amount discrepancy.
+1450,Explain transfer charge
+1451,Dispute an unexpected charge
+1449,Remove unexpected international transaction fee
+1454,Change salary deposit currency
+1453,Receive payments in a different currency
+1452,Explain the transfer fee
+1455,Receive salary via this account
+1462,Configure salary in GBP
+1460,Check if GBP is a supported currency
+1456,Customer asks how to receive money.
+1458,Configure account for GBP payments
+1463,Set up salary deposit into account
+1466,Transfer paycheck to account
+1467,Explain how to receive money from a friend
+1459,Explain how to receive money
+1457,Confirm currency for salary deposit
+1465,Ways to receive money
+1461,Verify requirement for GBP income before transfer
+1464,Explain methods for receiving money transfers
+1468,Set up direct deposit for salary
+1469,Deposit money in GBP
+1472,Customer wants to deposit paycheck.
+1473,Check account eligibility for salary credit
+1470,Convert salary from GBP to local currency.
+1481,Explain why the transfer failed.
+1475,Set up salary direct deposit
+1471,Explain how to receive a money transfer
+1477,Transfer salary in a different currency
+1480,Set up direct deposit
+1474,Set up salary deposit to account
+1479,Receive payments in a different currency
+1478,Check salary eligibility
+1476,Set up direct deposit for paycheck.
+1485,Investigate why transfer failed
+1483,Explain why transfer failed
+1490,Fix failed money transfer
+1489,Fix a failed transfer.
+1486,Report a failed transfer.
+1491,Investigate failed money transfer
+1484,Investigate failed transfer
+1492,Explain card transfer policies
+1488,Investigate failed transfer
+1487,Report a failed funds transfer.
+1494,Report failed transfer
+1496,Explain why money transfer is not working.
+1500,Explain why transfer is unsuccessful
+1498,Help with failed transfer.
+1497,Report failed transfer
+1505,Report a failed money transfer
+1495,Report a failed transfer.
+1503,Explain why the transfer is failing.
+1493,Check if the system is down.
+1504,Explain why the transfer failed.
+1502,Resolve failed transfer.
+1506,transfer money into account
+1501,Report a failed transfer
+1482,Report failed transfer
+1499,Resolve failed money transfers to friends
+1507,Customer seeks advice on transferring funds.
+1508,Explain how to transfer money into account
+1516,Ways to add money to account
+1512,Transfer money into account
+1521,Explain how a transfer works
+1518,Transfer money to account
+1515,Fund top-up account using bank account
+1519,Initiate an international transfer
+1513,Transfer funds to top up account
+1510,Transfer money to my account
+1514,Transfer money from an outside bank.
+1520,Customer wants to know how to transfer money into account.
+1517,Transfer money from another account.
+1509,Transfer money from another account
+1511,Customer wants to transfer funds into account.
+1522,Customer wants to top up via bank transfer.
+1523,transfer money into account
+1524,Transfer money from another bank account.
+1528,Question reason for top-up verification requirement
+1527,Explain why top up verification is needed.
+1532,verify top up
+1534,Verify a top up.
+1531,Verify a top up.
+1525,Refill account via bank transfer
+1530,Explain benefits of verifying top-up
+1537,Verify top up necessity
+1535,Question top-up verification requirement
+1536,Question why top-up requires verification
+1526,Verify requirements for top-up card
+1529,Explain verification code information
+1533,Question code verification for top up
+1540,Find verification code for top-up card.
+1539,Request verification code for top-up card.
+1538,Disable top-up verification requirement
+1543,Explain how the top-up card is verified
+1541,Explain why top-up verification is required.
+1546,Find the top-up card's verification code.
+1548,Verify a top-up.
+1549,Find verification code for top-up card.
+1545,Explain the importance of verifying a top-up.
+1547,Resend top-up verification code.
+1551,Explain the necessity of verifying the top up.
+1554,Request additional cards
+1544,Request verification code for top-up card.
+1552,Check card limit per account
+1553,Order a new card
+1542,Explain the verification code on a top-up.
+1557,Request additional physical cards
+1559,Requesting a second card
+1550,Request verification code for top-ups
+1555,Check fees for extra cards
+1556,Order spare physical cards.
+1561,Order new physical cards
+1562,Request an additional card for daughter
+1558,Requesting a second card
+1563,Request to order a card for daughter
+1566,Order extra cards.
+1568,Order additional physical cards
+1567,Requesting a second card.
+1560,Request additional card for another person
+1565,Inquire about card issuance fees
+1569,Request a second physical card
+1570,Request a second card
+1564,Order an additional card for a family member.
+1571,Request a card for daughter
+1575,Request a second card.
+1572,Ask about restrictions for ordering extra cards
+1574,Request another card
+1577,Request a second card for daughter
+1573,Request a second card for daughter
+1583,Find top up by cash deposit option.
+1582,Asking how to top up with cash
+1584,Top up account with cheque
+1581,Explain how to top-up using cash
+1578,Add child to existing account
+1586,Top up account with cash
+1576,Asking about card issuance fees
+1579,Add daughter to account for card
+1590,Top up using a cheque
+1588,Add to account balance with a cheque
+1587,Explain how to pay by check
+1589,List accepted deposit types
+1580,Top up account by cheque
+1585,Help finding the cash deposit option
+1592,Find cash top-up locations.
+1594,Top up account with cash deposit
+1597,Accept cheque for account top-up
+1595,Top up account with cash
+1591,Top-up a card with a cheque
+1598,How to deposit a cheque
+1599,Explain account top-up methods
+1604,Deposit cheque into account
+1600,Customer wants to know how to deposit cash.
+1593,Find cash top-up locations
+1601,Enable cheque top-ups
+1596,Asking how to top up with cash
+1603,Customer wants to top up with cash
+1602,Pay by cheque for top ups
+1605,Top-up account using cash
+1606,Customer wants to know how to top up card.
+1611,Find card pickup location
+1616,Check if cards ship to my address
+1613,Order a card
+1614,Request a physical card
+1612,Request physical card price.
+1617,Check card delivery locations
+1608,Receive physical card
+1615,Check fees for physical cards
+1618,Change card delivery address
+1619,Request information on obtaining a physical card.
+1610,Check fees for physical cards
+1607,Submit a check or cash payment.
+1609,Customer wants to know the card application procedure.
+1620,Request non-electronic card availability
+1627,Asking where cards can be delivered
+1624,Check physical card fees.
+1622,Request physical card
+1625,Check card delivery locations
+1621,Inquire about card usage fees
+1623,Inquire about physical card fees
+1632,Check disposable card restrictions
+1626,Asking about fees for a physical card.
+1628,Customer requests a physical card.
+1629,Requesting a physical card
+1633,Replace disposable virtual card.
+1631,Fix non-physical card not working
+1630,Fix disposable virtual card.
+1637,Resolve virtual card rejection issue
+1640,Fix virtual card issue
+1636,Fix virtual card not working
+1638,Report virtual card not working
+1635,Enable virtual card for subscription services
+1644,Fix disposable virtual card not working at point of sale.
+1646,Fix disposable virtual card.
+1634,Check virtual card transaction limits.
+1641,Fix broken card
+1642,Fix disposable card not working.
+1643,Fix rejected virtual card payments.
+1647,Troubleshoot disposable virtual card issues
+1645,Resolve declined transaction with disposable virtual card.
+1639,Get disposable virtual card to work
+1648,Explain why virtual disposable card is not working.
+1651,Fix virtual card
+1650,Activate virtual card.
+1654,Report incorrect exchange rate for cash withdrawal
+1652,Report incorrect currency exchange amount
+1661,Questioning exchange rate applied to transaction.
+1660,Check fee for exchanging cash
+1656,Question incorrect exchange rate for cash withdrawal
+1653,Report incorrect exchange rate at ATM
+1657,Report incorrect ATM exchange rate
+1655,Find ATM for home currency withdrawal.
+1649,Fix virtual card rejection at merchant.
+1659,Correct the cash withdrawal exchange rate.
+1665,Check ATM withdrawal fees abroad.
+1663,Report incorrect exchange rate for cash withdrawal.
+1664,Explain the exchange rate discrepancy.
+1658,Correct wrong exchange rate applied to transaction.
+1662,Explain exchange rate discrepancy on cash withdrawal.
+1667,Report exchange rate error on cash withdrawal
+1673,Check current exchange rates
+1674,Report incorrect exchange rate on foreign transaction.
+1669,Report incorrect exchange rate on cash withdrawal
+1668,Report incorrect ATM currency conversion rate
+1675,Report incorrect cash withdrawal exchange rate.
+1672,Correct wrong exchange rate for cash transaction.
+1666,Dispute currency exchange amount
+1670,Request refund for ATM fees.
+1678,Request information about virtual disposable cards
+1680,Request a temporary virtual card
+1679,Explain how VR cards work
+1677,Create a disposable virtual card
+1681,Explain how disposable cards work.
+1684,Explain disposable cards
+1687,Request disposable virtual card
+1686,Check disposable virtual card security
+1689,Request a disposable virtual card
+1683,Find best place to get disposable virtual card.
+1688,Explain disposable cards
+1690,Request a single use virtual card
+1685,Request a disposable virtual card
+1691,Explain how a virtual card works
+1692,Explain how to get a disposable virtual card.
+1694,Request a disposable virtual card
+1695,Requesting a disposable virtual card
+1682,Explain how to use a disposable virtual card.
+1676,Explain how to use a disposable virtual card
+1671,Dispute ATM cash amount and explain exchange rate policy.
+1696,Explain how disposable cards work.
+1700,Check disposable card transaction limit
+1693,Explain what a disposable virtual card does.
+1702,Investigate failed card top-up.
+1698,Requesting a disposable virtual card
+1701,Explain why top up failed.
+1697,Order a disposable virtual card.
+1699,Order a disposable virtual card
+1703,Explain why top-up failed.
+1706,Fix failed top up.
+1705,Verify top-up status
+1710,Explain why credit card was declined for top up.
+1707,Report failed top up
+1708,Report failed topup transaction
+1709,Report failed top up
+1711,Report failed top-up transaction.
+1712,Report denied top up in app.
+1716,Resolve card top up denial.
+1718,Top up account
+1713,Verify if pop-up payment went through
+1719,Report denied top up request
+1720,Report top up problem
+1721,Fix declined card
+1725,Update account balance after money transfer
+1723,Fix top up issue
+1717,Fix top up issue
+1722,Check if top up was unsuccessful.
+1727,Check balance update time after transfer.
+1728,Check international transfer processing time
+1726,Report balance not updating after transfer
+1724,Check status of recent transfer.
+1715,Report failed top-up
+1714,Explain why the top-up failed.
+1729,Check transfer status
+1730,Check transfer availability in account
+1735,Check transfer status
+1704,Resolve denied top up attempt.
+1734,Check status of bank transfer
+1736,Check status of international transfer
+1731,Update account balance after transfer.
+1733,Check UK transfer processing time
+1737,Report balance not updating after transfer.
+1738,Check status of a recent transfer
+1740,Report missing bank transfer
+1741,Report missing transfer
+1732,Trace a missing money transfer.
+1739,Update account balance to reflect transfer.
+1743,Check transfer status
+1744,Check status of missing bank transfer
+1748,Check transfer status and processing time.
+1751,Report unauthorized transaction
+1746,Report missing account balance after bank transfer.
+1742,Report missing transfer balance
+1747,Report missing transfer funds
+1753,Block card to stop unauthorized transactions.
+1750,Check when new balance will appear after transfer
+1754,Report ATM cash not received.
+1749,Check why transfer is not reflected in balance
+1757,Report suspicious cash withdrawal
+1755,Report incorrect transaction balance.
+1756,Explain a random withdrawal in my app.
+1752,Report unauthorized withdrawal in the app.
+1745,Track incoming international transfer status
+1758,Report failed ATM withdrawal.
+1759,Report unauthorized ATM withdrawal.
+1763,Report stolen card and unauthorized withdrawals.
+1765,Report unauthorized transaction
+1767,Cancel stolen card
+1764,Report unauthorized cash withdrawal
+1760,Report unauthorized cash withdrawal
+1761,Report unauthorized cash withdrawal
+1772,Report unrecognized cash withdrawal transaction
+1768,Cancel card and dispute unauthorized charges
+1770,Block my card and stop unauthorized withdrawals.
+1777,Check exchange fee
+1775,Report unrecognized ATM withdrawal
+1766,Report incorrect available balance.
+1762,Report unauthorized cash withdrawal
+1774,Freeze my account immediately.
+1769,Report unauthorized ATM withdrawal transaction
+1773,Report unauthorized ATM withdrawal.
+1776,Report unauthorized cash withdrawal
+1778,Get current exchange rate
+1780,Find the exchange rate.
+1784,Check currency exchange fees
+1782,Check foreign exchange fee
+1781,Check currency exchange fees
+1787,Check foreign currency exchange fees
+1786,Check foreign currency exchange fees
+1792,Check currency exchange fee
+1789,Inquire about currency exchange discounts
+1788,Check cross currency exchange cost and available discounts
+1791,Inquire about currency exchange fees
+1790,Check exchange fee amount
+1783,Inquire about currency exchange discounts
+1785,Check currency exchange fees
+1794,Check for hidden currency exchange fees
+1793,Inquire about currency exchange fees
+1771,Report unrecognized cash withdrawal
+1799,Ask about currency exchange fees
+1779,Inquire about currency exchange fees
+1795,Cost to exchange currency for travel
+1796,Check foreign currency exchange fees
+1803,Check fee for using European bank card to top up
+1797,Inquire about currency exchange fees
+1800,Exchange currencies
+1798,Inquire about currency exchange discounts
+1801,Asking about exchange fees
+1804,Check for hidden fees on international card top-ups
+1802,Exchange foreign money without fees
+1805,Check fees for topping off card.
+1807,Check fees for top ups
+1809,Asking about fees for top ups
+1812,Check fees for European card top up.
+1810,Inquire about top-up fees
+1806,Inquire about top-up charges for US cards
+1814,Check top-up fee
+1815,Inquire about top up fees
+1811,Check fees for topping up US card
+1817,Check fees for adding money with international card
+1816,Check fees for topping up a US card.
+1818,Check cost for top up with US card
+1808,Check charges for US card top ups.
+1819,Check top-up fee for European card
+1813,Check fees for card top-up
+1820,Check top-up fee
+1821,Check fees for top ups
+1828,Activate card
+1829,Activate new card
+1823,Check fee for top ups
+1831,Check card activation time.
+1822,Check fees for topping up with a European bank.
+1833,Activate a received card.
+1835,Report missing card
+1830,Activate card
+1826,Inquire about top up charges for US cards.
+1824,Top up with international card
+1837,Activate new card
+1832,Activate new card.
+1838,activate card
+1834,Customer wants to activate card.
+1842,Activate card
+1849,Activate card
+1846,Activate card
+1840,Activate card
+1841,Activate card
+1843,Activate card
+1839,Activate bill of fare
+1844,Activate card
+1847,Activate new card
+1848,Activate new card
+1845,Check card activation status
+1851,Activate a new card.
+1853,Activate new card
+1855,Dispute cash withdrawal fees
+1860,Questioning cash withdrawal fee
+1836,Activate new card
+1827,Activate my card
+1825,Customer inquires about top-up fees.
+1854,Activate card
+1850,Activating a new card
+1852,activate card
+1857,Explain cash withdrawal charges
+1861,Waive ATM withdrawal fee
+1856,Explain extra charge for cash withdrawal
+1858,Explain a cash withdrawal charge.
+1863,Question fee for cash withdrawal
+1862,Check ATM withdrawal fees
+1859,Question about cash withdrawal fees.
+1866,Waive ATM withdrawal fee.
+1864,Dispute ATM withdrawal fee
+1865,Waive withdrawal fee
+1868,Explain cash withdrawal fee
+1871,Remove ATM fee from withdrawal.
+1869,Explain ATM charge on account
+1879,Explain cash withdrawal charge
+1870,Explain cash withdrawal charge on account
+1867,Customer inquires about cash withdrawal fee.
+1877,Question fee charge for cash withdrawal
+1872,Dispute cash withdrawal fee
+1875,Check withdrawal limit without fees
+1878,Dispute cash withdrawal fee
+1873,Explain reason for cash withdrawal fee.
+1880,Request refund for ATM fee.
+1874,Explain why ATM fee was charged
+1876,Questioning cash withdrawal fees.
+1881,Dispute incorrect ATM fee
+1882,Report ATM cash withdrawal overcharge
+1884,Replace expired card.
+1888,Replace expiring card.
+1883,Order a new card to be sent to China.
+1886,Replace expiring card.
+1891,Request card replacement fee and delivery time
+1894,Replace expired card
+1893,Replace expiring card.
+1885,Replace expiring card.
+1892,Check card replacement policy upon expiration
+1887,Customer asks about new card delivery time and cost.
+1890,Request new card due to expiration
+1895,Replace expiring bank card
+1897,Replace expiring card
+1896,Order a new card.
+1898,Order a new card.
+1899,Customer wants to know card replacement fees and timing.
+1903,Replace expiring card with new card.
+1902,Update card expiration date
+1905,Requesting card replacement fee and delivery time.
+1900,Order a new card.
+1906,Request card replacement fee and delivery time
+1904,Replace expiring card.
+1889,Request card replacement cost and delivery time
+1901,Ask if new card must be ordered before expiration.
+1912,Fix Google Pay top-up issue.
+1910,Check Apple Watch top up availability
+1909,Requesting a new card replacement.
+1907,Customer needs a new card.
+1911,Check Google Pay eligibility for top-ups.
+1917,Check Apple Pay top up eligibility
+1914,Top up Google Pay.
+1921,Check if Apple Pay is a top up option
+1918,Unable to top up account with American Express.
+1908,Customer asks if they need to order a new card.
+1913,Add money with Apple Pay
+1923,Asking about Apple Pay fees
+1915,Check for Google Play top-up app availability
+1916,Help add American Express card to Apple Pay.
+1924,Explain how to top up with Google Pay
+1920,Fix Apple Pay top up issue.
+1922,Top up from Apple Watch
+1919,Add money using Apple Watch
+1925,Fix Apple Pay top-up with American Express.
+1927,Deposit money using Apple Pay
+1935,Verify identity
+1926,Fix Apple Bay American Express top up issue
+1931,Troubleshoot Google Pay top up
+1933,Requesting Google Pay top-up
+1934,Verify identity
+1939,Verify identity requirements
+1937,Asking about identity verification document requirements
+1929,Use Google Pay to top up
+1932,Explain how to use the top up app on Apple Watch.
+1930,Enable Top Up feature on Apple Watch
+1936,Customer asks about identity verification requirements.
+1938,Ask for identity check document requirements
+1928,Top off account using Apple Watch
+1940,Explain the ID verification process.
+1941,Explain identity check steps
+1943,Verify identity requirements
+1942,Explain identity verification process
+1944,Verify identity
+1953,Asking about identity check process.
+1946,Verify identity
+1950,Customer asks about identity verification requirements.
+1951,Verify my identity
+1948,Verify my identity
+1952,Ask about identity check documentation requirements
+1955,Customer wants to apply for a card.
+1957,Check supported countries
+1954,Verify identity
+1949,Verify my identity
+1958,Check card eligibility for US residents
+1945,verify if profile details must match documents
+1947,Customer asks about required identity check documents.
+1959,Get a card outside the UK.
+1956,Check card availability in Europe
+1967,Check product usage countries
+1971,Request to use card in Europe
+1968,Find bank locations
+1960,Check eligibility for card application outside the UK
+1966,Check supported countries
+1961,Check card eligibility for customers outside the UK.
+1962,Request to get a card as a US resident.
+1964,Confirm support for the EU
+1970,Check eligibility to sign up
+1965,Order a card while in the USA
+1963,Apply for a card outside the UK
+1969,Check eligibility for card with foreign address
+1975,Check eligibility for card application abroad
+1973,Request list of operating countries
+1977,List countries of operation.
+1978,Check card usability and mailing options for Europe.
+1972,Find bank locations
+1976,List countries where you do business.
+1974,List countries where you do business.

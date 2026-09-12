@@ -1,0 +1,147 @@
+{
+  "bench": "bbcnews",
+  "run": 5,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sports: Football",
+      "definition": "News and updates related to football (soccer) matches, teams, players, and club management."
+    },
+    {
+      "id": 2,
+      "name": "Sports: Rugby",
+      "definition": "News and updates related to rugby matches, teams, players, and tournaments."
+    },
+    {
+      "id": 3,
+      "name": "Sports: Tennis",
+      "definition": "News and updates related to tennis matches, players, and tournaments."
+    },
+    {
+      "id": 4,
+      "name": "Sports: Athletics",
+      "definition": "News and updates related to track and field events, athletes, and competitions."
+    },
+    {
+      "id": 5,
+      "name": "Sports: Doping",
+      "definition": "News and legal issues concerning performance-enhancing drugs in sports."
+    },
+    {
+      "id": 6,
+      "name": "Business: Corporate News",
+      "definition": "News about specific companies, including mergers, acquisitions, financial performance, and leadership changes."
+    },
+    {
+      "id": 7,
+      "name": "Business: Finance",
+      "definition": "News related to banking, insurance, stock markets, corporate fraud, and personal finance."
+    },
+    {
+      "id": 8,
+      "name": "Business: International Trade",
+      "definition": "News concerning global trade, exports, imports, trade agreements, and currency impacts on trade."
+    },
+    {
+      "id": 9,
+      "name": "Business: Employment",
+      "definition": "News about job markets, unemployment rates, workplace issues, and pension policies."
+    },
+    {
+      "id": 10,
+      "name": "Politics: UK Domestic",
+      "definition": "News and analysis of internal UK government, elections, political parties, and national policy."
+    },
+    {
+      "id": 11,
+      "name": "Politics: US Domestic",
+      "definition": "News and analysis of internal US government, elections, political parties, and national policy."
+    },
+    {
+      "id": 12,
+      "name": "Politics: European Union",
+      "definition": "News concerning EU policies, institutions, and relations among member states."
+    },
+    {
+      "id": 13,
+      "name": "Politics: International Relations",
+      "definition": "News about diplomacy, international conflicts, global governance, and human rights in a global context."
+    },
+    {
+      "id": 14,
+      "name": "Politics: Law & Justice",
+      "definition": "News and legal proceedings related to the justice system, law enforcement, civil liberties, and crime with political implications."
+    },
+    {
+      "id": 15,
+      "name": "Technology: Consumer Electronics",
+      "definition": "News about personal electronic devices, gadgets, mobile phones, and gaming hardware."
+    },
+    {
+      "id": 16,
+      "name": "Technology: Internet & Software",
+      "definition": "News concerning internet services, software development, cybersecurity, and digital content issues."
+    },
+    {
+      "id": 17,
+      "name": "Entertainment: Music",
+      "definition": "News about musical artists, albums, charts, festivals, and industry awards."
+    },
+    {
+      "id": 18,
+      "name": "Entertainment: Film",
+      "definition": "News about movies, actors, directors, box office performance, and film festivals or awards."
+    },
+    {
+      "id": 19,
+      "name": "Entertainment: Television",
+      "definition": "News about TV shows, channels, reality programming, and broadcast industry awards."
+    },
+    {
+      "id": 20,
+      "name": "Entertainment: Gaming",
+      "definition": "News specifically about video games, esports, game development, and the gaming industry."
+    },
+    {
+      "id": 21,
+      "name": "Economics: Macroeconomics",
+      "definition": "News and analysis of national and international economic indicators, growth, interest rates, and fiscal policy."
+    },
+    {
+      "id": 22,
+      "name": "Economics: Energy",
+      "definition": "News related to the energy sector, including oil and gas prices, energy policy, and industry developments."
+    },
+    {
+      "id": 23,
+      "name": "Social Issues: Healthcare",
+      "definition": "News about public health, medical research, diseases, and healthcare policy."
+    },
+    {
+      "id": 24,
+      "name": "Social Issues: Education",
+      "definition": "News concerning educational policies, institutions, and student-related issues."
+    },
+    {
+      "id": 25,
+      "name": "Social Issues: Crime & Public Safety",
+      "definition": "News about general crime, law enforcement actions, and public safety concerns."
+    },
+    {
+      "id": 26,
+      "name": "Social Issues: Culture & Society",
+      "definition": "News on broader societal trends, cultural events, human rights, and social policy not primarily political or economic."
+    },
+    {
+      "id": 27,
+      "name": "Natural Disasters",
+      "definition": "News covering the impact, relief efforts, and reconstruction following natural catastrophes."
+    },
+    {
+      "id": 28,
+      "name": "Environment",
+      "definition": "News related to environmental conservation, climate, and ecological issues."
+    }
+  ]
+}

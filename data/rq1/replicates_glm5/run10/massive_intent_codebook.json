@@ -1,0 +1,179 @@
+{
+  "bench": "massive_intent",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar_Management",
+      "definition": "Create, delete, or modify events and appointments in a calendar, or request details about scheduled events."
+    },
+    {
+      "id": 2,
+      "name": "Reminder_Management",
+      "definition": "Create, delete, or modify reminders for tasks or specific times, or check existing reminders."
+    },
+    {
+      "id": 3,
+      "name": "Alarm_Management",
+      "definition": "Create, delete, modify, or check status of alarms."
+    },
+    {
+      "id": 4,
+      "name": "Music_Playback",
+      "definition": "Play, pause, resume, skip, or control the source of music or radio audio."
+    },
+    {
+      "id": 5,
+      "name": "Podcast_Playback",
+      "definition": "Play, resume, skip, or find specific podcasts."
+    },
+    {
+      "id": 6,
+      "name": "Volume_Control",
+      "definition": "Adjust, mute, or check the volume level of audio devices."
+    },
+    {
+      "id": 7,
+      "name": "Light_Control",
+      "definition": "Turn lights on or off, adjust brightness, or change light colors."
+    },
+    {
+      "id": 8,
+      "name": "Smart_Device_Control",
+      "definition": "Control smart home appliances like plugs, vacuum cleaners, or coffee machines."
+    },
+    {
+      "id": 9,
+      "name": "Email_Management",
+      "definition": "Send, check, read, or reply to emails, or manage email contacts."
+    },
+    {
+      "id": 10,
+      "name": "Social_Media",
+      "definition": "Post content, send messages, or check updates on social media platforms."
+    },
+    {
+      "id": 11,
+      "name": "Transportation_Booking",
+      "definition": "Book or request transportation services like taxis or ride-shares."
+    },
+    {
+      "id": 12,
+      "name": "Travel_Planning",
+      "definition": "Search for train tickets, check schedules, or find travel routes."
+    },
+    {
+      "id": 13,
+      "name": "Food_Ordering",
+      "definition": "Order food or check details regarding food delivery."
+    },
+    {
+      "id": 14,
+      "name": "List_Management",
+      "definition": "Create, view, modify, or delete to-do lists or shopping lists."
+    },
+    {
+      "id": 15,
+      "name": "Time_Query",
+      "definition": "Request the current time or time in a specific location."
+    },
+    {
+      "id": 16,
+      "name": "Date_Query",
+      "definition": "Request the current date or the day of the week for a specific date."
+    },
+    {
+      "id": 17,
+      "name": "Weather_Query",
+      "definition": "Request weather forecasts or current weather conditions."
+    },
+    {
+      "id": 18,
+      "name": "News_Query",
+      "definition": "Request news headlines, specific news topics, or updates from news sources."
+    },
+    {
+      "id": 19,
+      "name": "General_Knowledge",
+      "definition": "Ask factual questions, definitions, or seek information about people, places, or things."
+    },
+    {
+      "id": 20,
+      "name": "Math_Calculation",
+      "definition": "Perform mathematical calculations or conversions."
+    },
+    {
+      "id": 21,
+      "name": "Currency_Exchange",
+      "definition": "Request currency exchange rates or conversions."
+    },
+    {
+      "id": 22,
+      "name": "Stock_Query",
+      "definition": "Request stock prices or market information."
+    },
+    {
+      "id": 23,
+      "name": "Entertainment_Recommendation",
+      "definition": "Find movies, events, or activities, or request recommendations for entertainment."
+    },
+    {
+      "id": 24,
+      "name": "Navigation",
+      "definition": "Request directions or navigation to a specific location."
+    },
+    {
+      "id": 25,
+      "name": "Local_Business_Query",
+      "definition": "Find local businesses, restaurants, or services nearby."
+    },
+    {
+      "id": 26,
+      "name": "Joke_Request",
+      "definition": "Ask the assistant to tell a joke."
+    },
+    {
+      "id": 27,
+      "name": "Game_Interaction",
+      "definition": "Start or play a game."
+    },
+    {
+      "id": 28,
+      "name": "Media_Video",
+      "definition": "Play video content or launch video streaming applications."
+    },
+    {
+      "id": 29,
+      "name": "Recipe_Query",
+      "definition": "Request recipes or cooking instructions."
+    },
+    {
+      "id": 30,
+      "name": "Sports_Update",
+      "definition": "Request sports scores or game schedules."
+    },
+    {
+      "id": 31,
+      "name": "Contact_Management",
+      "definition": "Add or modify contacts in an address book."
+    },
+    {
+      "id": 32,
+      "name": "Notification_Management",
+      "definition": "Set or manage notifications for events or messages."
+    },
+    {
+      "id": 33,
+      "name": "User_Preference",
+      "definition": "Inquire about user preferences or ask the assistant to remember preferences."
+    },
+    {
+      "id": 34,
+      "name": "Assistant_Personality",
+      "definition": "Ask about the assistant's status, feelings, or capabilities."
+    }
+  ]
+}

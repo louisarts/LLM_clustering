@@ -1,0 +1,95 @@
+{
+  "bench": "massive_domain",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Social Media",
+      "definition": "Interactions and updates related to social media platforms."
+    },
+    {
+      "id": 2,
+      "name": "Time and Date",
+      "definition": "Inquiries and commands related to time, date, and scheduling."
+    },
+    {
+      "id": 3,
+      "name": "Reminders and Notifications",
+      "definition": "Setting and managing reminders and notifications for events or tasks."
+    },
+    {
+      "id": 4,
+      "name": "Music and Entertainment",
+      "definition": "Requests related to playing music, podcasts, or games."
+    },
+    {
+      "id": 5,
+      "name": "Home Automation",
+      "definition": "Commands related to controlling smart home devices and settings."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Transportation",
+      "definition": "Inquiries and requests related to travel arrangements and transportation."
+    },
+    {
+      "id": 7,
+      "name": "Finance and Currency",
+      "definition": "Questions and commands related to financial information and currency exchange."
+    },
+    {
+      "id": 8,
+      "name": "Emails and Communication",
+      "definition": "Managing emails, sending messages, and communication tasks."
+    },
+    {
+      "id": 9,
+      "name": "Weather and Environment",
+      "definition": "Inquiries related to weather conditions and environmental information."
+    },
+    {
+      "id": 10,
+      "name": "Food and Cooking",
+      "definition": "Requests and inquiries related to food, recipes, and cooking."
+    },
+    {
+      "id": 11,
+      "name": "News and Information",
+      "definition": "Requests for news updates and general information."
+    },
+    {
+      "id": 12,
+      "name": "Tasks and Lists",
+      "definition": "Creating, managing, and inquiring about tasks and lists."
+    },
+    {
+      "id": 13,
+      "name": "Health and Wellness",
+      "definition": "Inquiries related to health, fitness, and wellness."
+    },
+    {
+      "id": 14,
+      "name": "Definitions and Knowledge",
+      "definition": "Requests for definitions, explanations, and general knowledge."
+    },
+    {
+      "id": 15,
+      "name": "Events and Appointments",
+      "definition": "Managing events, appointments, and schedules."
+    },
+    {
+      "id": 16,
+      "name": "Shopping and Purchases",
+      "definition": "Requests related to shopping, ordering, and purchasing items."
+    },
+    {
+      "id": 17,
+      "name": "Personal Assistance",
+      "definition": "General inquiries and requests for personal assistance."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "bench": "massive_intent",
+  "run": 2,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music Playback",
+      "definition": "The user wants to play music, a specific song, playlist, genre, or radio station, or control its playback."
+    },
+    {
+      "id": 2,
+      "name": "Information Query",
+      "definition": "The user is asking for general facts, knowledge, or specific details about people, places, or current events."
+    },
+    {
+      "id": 3,
+      "name": "Definition Query",
+      "definition": "The user is asking for the meaning of a word or concept."
+    },
+    {
+      "id": 4,
+      "name": "Weather Query",
+      "definition": "The user is asking for current weather conditions, forecasts, or weather-related advice."
+    },
+    {
+      "id": 5,
+      "name": "Email Management",
+      "definition": "The user wants to compose, send, reply to, or query emails."
+    },
+    {
+      "id": 6,
+      "name": "Alarm & Timer Management",
+      "definition": "The user wants to set, cancel, or query alarms and timers."
+    },
+    {
+      "id": 7,
+      "name": "Smart Home Control",
+      "definition": "The user wants to control smart devices, lights, or appliances in a home environment."
+    },
+    {
+      "id": 8,
+      "name": "Calendar & Event Management",
+      "definition": "The user wants to add, modify, delete, or query events, meetings, or schedules."
+    },
+    {
+      "id": 9,
+      "name": "Conversational Interaction",
+      "definition": "The user is engaging in general chat, asking personal questions, or making general statements to the assistant."
+    },
+    {
+      "id": 10,
+      "name": "Joke Request",
+      "definition": "The user is asking the assistant to tell a joke."
+    },
+    {
+      "id": 11,
+      "name": "News & Updates Query",
+      "definition": "The user is asking for general news, specific news topics, or sports updates and scores."
+    },
+    {
+      "id": 12,
+      "name": "List Management",
+      "definition": "The user wants to create, modify, delete, or query various types of lists, such as shopping or to-do lists."
+    },
+    {
+      "id": 13,
+      "name": "Navigation & Traffic",
+      "definition": "The user wants to get directions, traffic information, or find routes."
+    },
+    {
+      "id": 14,
+      "name": "Recipe & Cooking",
+      "definition": "The user is searching for recipes or cooking instructions."
+    },
+    {
+      "id": 15,
+      "name": "Time & Date Query",
+      "definition": "The user is asking for the current time, date, or performing time conversions."
+    },
+    {
+      "id": 16,
+      "name": "App & Game Control",
+      "definition": "The user wants to launch or control applications or games."
+    },
+    {
+      "id": 17,
+      "name": "Travel Booking",
+      "definition": "The user wants to book transportation like flights or trains."
+    },
+    {
+      "id": 18,
+      "name": "Ride Hailing",
+      "definition": "The user wants to request a taxi or ride-sharing service."
+    },
+    {
+      "id": 19,
+      "name": "Order Status Query",
+      "definition": "The user is checking the status of a delivery or purchase order."
+    },
+    {
+      "id": 20,
+      "name": "Device Control",
+      "definition": "The user wants to adjust device settings like volume or power."
+    },
+    {
+      "id": 21,
+      "name": "Social Media Interaction",
+      "definition": "The user wants to post content, check notifications, or manage social media accounts."
+    },
+    {
+      "id": 22,
+      "name": "Local Search & POI",
+      "definition": "The user wants to find nearby places, businesses, or local events (Points of Interest)."
+    },
+    {
+      "id": 23,
+      "name": "Reminder Management",
+      "definition": "The user wants to set, query, or manage reminders."
+    },
+    {
+      "id": 24,
+      "name": "Financial Information Query",
+      "definition": "The user is asking for exchange rates or stock prices."
+    },
+    {
+      "id": 25,
+      "name": "Movie & TV Information",
+      "definition": "The user is searching for movies, showtimes, or recommendations."
+    },
+    {
+      "id": 26,
+      "name": "Podcast Playback",
+      "definition": "The user wants to play or control podcasts."
+    },
+    {
+      "id": 27,
+      "name": "Video Playback",
+      "definition": "The user wants to play videos or video playlists."
+    },
+    {
+      "id": 28,
+      "name": "Music Information Query",
+      "definition": "The user is asking to identify songs, artists, or for details about music."
+    },
+    {
+      "id": 29,
+      "name": "Customer Service & Feedback",
+      "definition": "The user wants to send complaints or feedback to companies or services."
+    },
+    {
+      "id": 30,
+      "name": "Note & Memory Management",
+      "definition": "The user wants to save or recall specific pieces of information."
+    },
+    {
+      "id": 31,
+      "name": "Calculator",
+      "definition": "The user wants to perform mathematical calculations."
+    },
+    {
+      "id": 32,
+      "name": "Media Control",
+      "definition": "The user wants to pause or resume playback of general media (e.g., audiobooks, podcasts, videos)."
+    }
+  ]
+}

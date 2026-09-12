@@ -1,0 +1,79 @@
+{
+  "bench": "mtop_intent",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm Management",
+      "definition": "Set, cancel, query, or modify alarms intended to signal a specific time."
+    },
+    {
+      "id": 2,
+      "name": "Timer Management",
+      "definition": "Start, stop, adjust, or query timers used for counting down a duration."
+    },
+    {
+      "id": 3,
+      "name": "Reminder Management",
+      "definition": "Create, delete, show, or modify reminders for tasks or events."
+    },
+    {
+      "id": 4,
+      "name": "Calling",
+      "definition": "Initiate, answer, reject, or manage voice or video calls with contacts."
+    },
+    {
+      "id": 5,
+      "name": "Messaging",
+      "definition": "Send, read, or reply to text or video messages to contacts or groups."
+    },
+    {
+      "id": 6,
+      "name": "Music Playback",
+      "definition": "Play, skip, pause, or control music tracks, albums, or radio stations."
+    },
+    {
+      "id": 7,
+      "name": "Weather Inquiry",
+      "definition": "Request current conditions, forecasts, or specific weather data for locations."
+    },
+    {
+      "id": 8,
+      "name": "News Inquiry",
+      "definition": "Request news headlines, stories, or updates on specific topics or sources."
+    },
+    {
+      "id": 9,
+      "name": "Recipe Inquiry",
+      "definition": "Search for recipes, ingredients, or cooking instructions for food and drink."
+    },
+    {
+      "id": 10,
+      "name": "Food Information",
+      "definition": "Request nutritional information, such as calories, for food items."
+    },
+    {
+      "id": 11,
+      "name": "Cooking Information",
+      "definition": "Request cooking times, temperatures, or preparation techniques for food."
+    },
+    {
+      "id": 12,
+      "name": "Events Inquiry",
+      "definition": "Search for local events, concerts, festivals, or activities happening in a specific area."
+    },
+    {
+      "id": 13,
+      "name": "Contact Information",
+      "definition": "Query personal contacts for information like where they live, work, or who they know."
+    },
+    {
+      "id": 14,
+      "name": "Device Settings",
+      "definition": "Adjust device modes, settings, or status, such as Do Not Disturb or silence."
+    }
+  ]
+}

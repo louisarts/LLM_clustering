@@ -1,0 +1,79 @@
+{
+  "bench": "mcid",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Transmission & Spread",
+      "definition": "Queries regarding how the virus spreads, including vectors, contagion methods, and high-risk locations or areas."
+    },
+    {
+      "id": 2,
+      "name": "Prevention & Precautions",
+      "definition": "Queries seeking advice on protective measures, safety guidelines, and best practices to avoid infection."
+    },
+    {
+      "id": 3,
+      "name": "Symptoms & Diagnosis",
+      "definition": "Queries regarding specific symptoms of COVID-19 or how to determine if one is infected."
+    },
+    {
+      "id": 4,
+      "name": "Treatments & Cures",
+      "definition": "Queries about medical treatments, cures, vaccines, or home remedies for COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Statistics & Data",
+      "definition": "Queries requesting specific numbers, rates, or quantitative data regarding cases, deaths, or testing."
+    },
+    {
+      "id": 6,
+      "name": "News & Updates",
+      "definition": "Queries requesting the latest news, current developments, or general status updates regarding the pandemic."
+    },
+    {
+      "id": 7,
+      "name": "Myths & Misinformation",
+      "definition": "Queries specifically referencing, seeking to verify, or asking about myths, hoaxes, or misconceptions regarding COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Travel Advice",
+      "definition": "Queries seeking guidance or safety information regarding travel, transportation, or specific trip planning."
+    },
+    {
+      "id": 9,
+      "name": "Animals & Pets",
+      "definition": "Queries regarding the relationship between COVID-19 and animals, including transmission via pets and wildlife."
+    },
+    {
+      "id": 10,
+      "name": "Donations & Charity",
+      "definition": "Queries expressing a desire to donate money, goods, or find causes and organizations to support."
+    },
+    {
+      "id": 11,
+      "name": "Social Sharing",
+      "definition": "Queries requesting to share information, links, or content on social media or with friends and family."
+    },
+    {
+      "id": 12,
+      "name": "Greetings & Gratitude",
+      "definition": "Utterances consisting of salutations, greetings, or expressions of thanks and appreciation."
+    },
+    {
+      "id": 13,
+      "name": "General Information",
+      "definition": "Broad queries seeking general explanations, definitions, or comprehensive overviews of COVID-19."
+    },
+    {
+      "id": 14,
+      "name": "Personal Help",
+      "definition": "Queries where the user expresses personal distress or asks for direct assistance not covered by factual information categories."
+    }
+  ]
+}

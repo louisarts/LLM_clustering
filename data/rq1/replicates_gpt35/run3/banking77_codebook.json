@@ -1,0 +1,165 @@
+{
+  "bench": "banking77",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Issue",
+      "definition": "Queries related to ordering, receiving, activating, or reactivating physical or virtual cards."
+    },
+    {
+      "id": 2,
+      "name": "Card Usage Issue",
+      "definition": "Queries related to using cards for transactions, cash withdrawals, contactless payments, or ATM issues."
+    },
+    {
+      "id": 3,
+      "name": "Refund Request",
+      "definition": "Queries related to refunds for transactions or products."
+    },
+    {
+      "id": 4,
+      "name": "Transfer Issue",
+      "definition": "Queries related to transferring money, failed transfers, pending transfers, or incorrect transfers."
+    },
+    {
+      "id": 5,
+      "name": "Identity Verification",
+      "definition": "Queries related to proving identity, verifying identity for transactions, or identity checks."
+    },
+    {
+      "id": 6,
+      "name": "Account Closure",
+      "definition": "Queries related to closing or deleting accounts due to dissatisfaction with service."
+    },
+    {
+      "id": 7,
+      "name": "Fee Inquiry",
+      "definition": "Queries related to fees for transactions, withdrawals, transfers, or card usage."
+    },
+    {
+      "id": 8,
+      "name": "Top-Up Assistance",
+      "definition": "Queries related to topping up accounts, top-up charges, or issues with top-up not reflecting in balance."
+    },
+    {
+      "id": 9,
+      "name": "Security Concern",
+      "definition": "Queries related to stolen cards, unauthorized payments, freezing cards, or suspicious activities."
+    },
+    {
+      "id": 10,
+      "name": "Currency Exchange",
+      "definition": "Queries related to exchanging currencies, fees for currency exchange, or currency support."
+    },
+    {
+      "id": 11,
+      "name": "Card Type Inquiry",
+      "definition": "Queries related to types of cards supported (Visa, Mastercard, etc.) or obtaining specific types of cards."
+    },
+    {
+      "id": 12,
+      "name": "PIN Assistance",
+      "definition": "Queries related to PIN issues, changing PINs, unblocking PINs, or PIN delivery."
+    },
+    {
+      "id": 13,
+      "name": "ATM Assistance",
+      "definition": "Queries related to ATM locations, ATM usage, changing PIN at ATMs, or ATM card retention."
+    },
+    {
+      "id": 14,
+      "name": "Contactless Payment Issue",
+      "definition": "Queries related to contactless payment failures, contactless not working, or contactless payment restrictions."
+    },
+    {
+      "id": 15,
+      "name": "Card Payment Dispute",
+      "definition": "Queries related to disputing card payments, unrecognized transactions, or duplicate charges."
+    },
+    {
+      "id": 16,
+      "name": "Card Activation",
+      "definition": "Queries related to activating new cards, reactivating cards, or card activation process."
+    },
+    {
+      "id": 17,
+      "name": "Lost or Stolen Card",
+      "definition": "Queries related to lost or stolen cards, reporting lost cards, or preventing unauthorized card usage."
+    },
+    {
+      "id": 18,
+      "name": "Card Decline Issue",
+      "definition": "Queries related to card declines, declined payments, or declined transactions."
+    },
+    {
+      "id": 19,
+      "name": "Physical Card Request",
+      "definition": "Queries related to ordering additional physical cards or requesting spare physical cards."
+    },
+    {
+      "id": 20,
+      "name": "Virtual Card Request",
+      "definition": "Queries related to ordering virtual cards, obtaining disposable virtual cards, or virtual card delivery."
+    },
+    {
+      "id": 21,
+      "name": "Transfer Time Inquiry",
+      "definition": "Queries related to transfer times, pending transfers, or delays in fund availability."
+    },
+    {
+      "id": 22,
+      "name": "Account Information Update",
+      "definition": "Queries related to updating personal details, changing addresses, or editing account information."
+    },
+    {
+      "id": 23,
+      "name": "Top-Up Limit Inquiry",
+      "definition": "Queries related to top-up limits, setting top-up limits, or top-up restrictions."
+    },
+    {
+      "id": 24,
+      "name": "Card Fee Dispute",
+      "definition": "Queries related to disputing card fees, extra charges, or fee explanations."
+    },
+    {
+      "id": 25,
+      "name": "Card Freeze Request",
+      "definition": "Queries related to freezing cards, blocking cards, or preventing further card usage."
+    },
+    {
+      "id": 26,
+      "name": "Card Replacement Request",
+      "definition": "Queries related to replacing expired cards, lost cards, or damaged cards."
+    },
+    {
+      "id": 27,
+      "name": "Card Refund Inquiry",
+      "definition": "Queries related to refund processing, missing refunds, or refund delays."
+    },
+    {
+      "id": 28,
+      "name": "Card Security Concern",
+      "definition": "Queries related to card security, unauthorized card usage, or suspicious transactions."
+    },
+    {
+      "id": 29,
+      "name": "Card Activation Process",
+      "definition": "Queries related to the process of activating new cards, card activation steps, or activation assistance."
+    },
+    {
+      "id": 30,
+      "name": "Card Verification Process",
+      "definition": "Queries related to the process of verifying identity for transactions, identity verification steps, or verification requirements."
+    },
+    {
+      "id": 31,
+      "name": "Card Top-Up Process",
+      "definition": "Queries related to the process of topping up accounts, top-up methods, or top-up instructions."
+    }
+  ]
+}

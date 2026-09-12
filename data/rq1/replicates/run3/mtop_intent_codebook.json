@@ -1,0 +1,77 @@
+{
+  "bench": "mtop_intent",
+  "run": 3,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm Management",
+      "definition": "Commands related to creating, modifying, querying, or deleting alarms."
+    },
+    {
+      "id": 2,
+      "name": "Reminder Management",
+      "definition": "Commands related to creating, modifying, querying, or deleting reminders."
+    },
+    {
+      "id": 3,
+      "name": "Timer Management",
+      "definition": "Commands related to starting, stopping, modifying, or querying timers."
+    },
+    {
+      "id": 4,
+      "name": "Communication",
+      "definition": "Commands to initiate or manage calls, send messages, or interact with contacts."
+    },
+    {
+      "id": 5,
+      "name": "Weather Query",
+      "definition": "Requests for current, past, or future weather conditions or forecasts."
+    },
+    {
+      "id": 6,
+      "name": "News Query",
+      "definition": "Requests for current events, headlines, or specific news topics."
+    },
+    {
+      "id": 7,
+      "name": "Event Query",
+      "definition": "Requests for information about local or upcoming events, shows, or activities."
+    },
+    {
+      "id": 8,
+      "name": "Recipe Query",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 9,
+      "name": "People Information Query",
+      "definition": "Requests for information about individuals, their relationships, or their professional details."
+    },
+    {
+      "id": 10,
+      "name": "General Fact Query",
+      "definition": "Requests for general factual information not covered by other specific query types."
+    },
+    {
+      "id": 11,
+      "name": "Local Search Query",
+      "definition": "Requests to find locations or services nearby."
+    },
+    {
+      "id": 12,
+      "name": "Media Playback",
+      "definition": "Commands to play, stop, skip, or control music or other audio/video media."
+    },
+    {
+      "id": 13,
+      "name": "Settings Management",
+      "definition": "Commands to change system settings or preferences."
+    },
+    {
+      "id": 14,
+      "name": "Music Information Query",
+      "definition": "Requests for information about music, artists, or songs."
+    }
+  ]
+}

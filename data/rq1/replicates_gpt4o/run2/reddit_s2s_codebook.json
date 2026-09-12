@@ -1,0 +1,145 @@
+{
+  "bench": "reddit_s2s",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Classical Music",
+      "definition": "Posts related to classical music, performances, and composers."
+    },
+    {
+      "id": 2,
+      "name": "Automobiles",
+      "definition": "Posts discussing cars, driving experiences, and automotive comparisons."
+    },
+    {
+      "id": 3,
+      "name": "Live Streaming",
+      "definition": "Posts about live streaming events or broadcasts."
+    },
+    {
+      "id": 4,
+      "name": "Economics and Politics",
+      "definition": "Posts discussing economic impacts, political opinions, and related news."
+    },
+    {
+      "id": 5,
+      "name": "History and Culture",
+      "definition": "Posts about historical events, cultural artifacts, and historical analysis."
+    },
+    {
+      "id": 6,
+      "name": "Sports",
+      "definition": "Posts related to sports events, teams, and athletes."
+    },
+    {
+      "id": 7,
+      "name": "Local News and Issues",
+      "definition": "Posts discussing local ordinances, community issues, and regional news."
+    },
+    {
+      "id": 8,
+      "name": "Personal Advice and Help",
+      "definition": "Posts seeking advice or help on personal matters or projects."
+    },
+    {
+      "id": 9,
+      "name": "Travel and Relocation",
+      "definition": "Posts about travel plans, moving, and relocation advice."
+    },
+    {
+      "id": 10,
+      "name": "Home and Living",
+      "definition": "Posts about home maintenance, living situations, and domestic advice."
+    },
+    {
+      "id": 11,
+      "name": "Religion and Spirituality",
+      "definition": "Posts discussing religious beliefs, spiritual experiences, and related topics."
+    },
+    {
+      "id": 12,
+      "name": "Science and Technology",
+      "definition": "Posts about scientific discoveries, technological advancements, and related discussions."
+    },
+    {
+      "id": 13,
+      "name": "Food and Drink",
+      "definition": "Posts about food, beverages, and culinary experiences."
+    },
+    {
+      "id": 14,
+      "name": "Art and Design",
+      "definition": "Posts showcasing or discussing art, design, and creative works."
+    },
+    {
+      "id": 15,
+      "name": "Education and Academia",
+      "definition": "Posts related to educational institutions, academic questions, and scholarly discussions."
+    },
+    {
+      "id": 16,
+      "name": "Entertainment and Media",
+      "definition": "Posts about movies, TV shows, comics, and other forms of entertainment."
+    },
+    {
+      "id": 17,
+      "name": "Technology and Gadgets",
+      "definition": "Posts discussing gadgets, tech products, and related reviews."
+    },
+    {
+      "id": 18,
+      "name": "Health and Wellness",
+      "definition": "Posts about health issues, wellness advice, and medical topics."
+    },
+    {
+      "id": 19,
+      "name": "Business and Finance",
+      "definition": "Posts discussing business strategies, financial markets, and economic trends."
+    },
+    {
+      "id": 20,
+      "name": "Astrology and Mysticism",
+      "definition": "Posts about astrology, mystical beliefs, and related practices."
+    },
+    {
+      "id": 21,
+      "name": "DIY and Crafts",
+      "definition": "Posts about do-it-yourself projects, crafting, and creative hobbies."
+    },
+    {
+      "id": 22,
+      "name": "Pets and Animals",
+      "definition": "Posts about pets, animal care, and wildlife."
+    },
+    {
+      "id": 23,
+      "name": "Fashion and Style",
+      "definition": "Posts about fashion trends, clothing, and personal style."
+    },
+    {
+      "id": 24,
+      "name": "Gaming",
+      "definition": "Posts related to video games, gaming experiences, and game reviews."
+    },
+    {
+      "id": 25,
+      "name": "Social Media and Blogging",
+      "definition": "Posts about social media strategies, blogging tips, and online presence."
+    },
+    {
+      "id": 26,
+      "name": "Legal and Government",
+      "definition": "Posts discussing legal issues, government policies, and civic matters."
+    },
+    {
+      "id": 27,
+      "name": "Miscellaneous",
+      "definition": "Posts that do not fit into any specific category listed above."
+    }
+  ]
+}

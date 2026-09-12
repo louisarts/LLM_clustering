@@ -1,0 +1,42 @@
+{
+  "bench": "snips",
+  "run": 7,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Media",
+      "definition": "Play a specific song, album, artist, playlist, genre, era, or other media content."
+    },
+    {
+      "id": 2,
+      "name": "Add Media to Playlist",
+      "definition": "Add a song, album, artist, or other media item to a specified playlist."
+    },
+    {
+      "id": 3,
+      "name": "Rate Media",
+      "definition": "Assign a rating or score to a specific or currently referenced media item."
+    },
+    {
+      "id": 4,
+      "name": "Find Media Information",
+      "definition": "Search for details, trailers, or availability of a specific movie, TV show, book, game, image, or music."
+    },
+    {
+      "id": 5,
+      "name": "Get Movie Showtimes",
+      "definition": "Inquire about movie schedules, showtimes, or what films are playing at specific locations."
+    },
+    {
+      "id": 6,
+      "name": "Get Weather Forecast",
+      "definition": "Request current or future weather conditions, temperature, or specific weather events for a given location and time."
+    },
+    {
+      "id": 7,
+      "name": "Book Restaurant Reservation",
+      "definition": "Make or inquire about a reservation at a restaurant, specifying details like time, date, party size, location, or cuisine."
+    }
+  ]
+}

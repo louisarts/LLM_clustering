@@ -1,0 +1,62 @@
+{
+  "bench": "mcid",
+  "run": 9,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General COVID-19 Information",
+      "definition": "The user is asking for basic facts, definitions, or general information about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Diagnosis",
+      "definition": "The user is asking about COVID-19 symptoms, how to identify them, or whether they should get tested."
+    },
+    {
+      "id": 3,
+      "name": "Transmission and Prevention",
+      "definition": "The user is asking how COVID-19 spreads or how to protect themselves and others from infection."
+    },
+    {
+      "id": 4,
+      "name": "Treatment and Cure",
+      "definition": "The user is asking about available treatments, potential cures, or medical advice for COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Travel and Restrictions",
+      "definition": "The user is asking about travel safety, restrictions, or high-risk areas related to COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Animal and Pet Related",
+      "definition": "The user is asking about COVID-19 transmission to or from animals/pets, or how to protect them."
+    },
+    {
+      "id": 7,
+      "name": "Statistics and Current Situation",
+      "definition": "The user is asking for current data, news, or updates on COVID-19 cases, deaths, or developments in specific regions."
+    },
+    {
+      "id": 8,
+      "name": "Myths and Misinformation",
+      "definition": "The user is asking to confirm or debunk common myths or misinformation about COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Donation and Contribution",
+      "definition": "The user is expressing an intent to donate money, materials, or support to COVID-19 relief efforts."
+    },
+    {
+      "id": 10,
+      "name": "Sharing Information/Service",
+      "definition": "The user is expressing an intent to share the provided information or the service itself with others."
+    },
+    {
+      "id": 11,
+      "name": "Greetings and Gratitude",
+      "definition": "The user is expressing a greeting, thanks, or general positive sentiment towards the service."
+    }
+  ]
+}

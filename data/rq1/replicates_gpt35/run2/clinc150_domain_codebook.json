@@ -1,0 +1,60 @@
+{
+  "bench": "clinc150_domain",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Appointment Scheduling",
+      "definition": "Utterances related to making, changing, or canceling appointments or reservations"
+    },
+    {
+      "id": 2,
+      "name": "Financial Assistance",
+      "definition": "Utterances related to credit cards, bank accounts, loans, payments, and financial queries"
+    },
+    {
+      "id": 3,
+      "name": "Travel Assistance",
+      "definition": "Utterances related to booking flights, hotels, car rentals, and travel queries"
+    },
+    {
+      "id": 4,
+      "name": "Information Retrieval",
+      "definition": "Utterances requesting information such as facts, definitions, or general knowledge"
+    },
+    {
+      "id": 5,
+      "name": "Task Management",
+      "definition": "Utterances related to setting alarms, reminders, timers, or managing to-do lists"
+    },
+    {
+      "id": 6,
+      "name": "Technical Support",
+      "definition": "Utterances related to troubleshooting, device location, software assistance, or account management"
+    },
+    {
+      "id": 7,
+      "name": "Health and Nutrition",
+      "definition": "Utterances related to health plans, nutrition facts, recipes, or cooking instructions"
+    },
+    {
+      "id": 8,
+      "name": "Entertainment and Fun",
+      "definition": "Utterances requesting jokes, fun facts, or entertainment recommendations"
+    },
+    {
+      "id": 9,
+      "name": "Language and Voice Settings",
+      "definition": "Utterances related to changing accents, voices, or sound settings"
+    },
+    {
+      "id": 10,
+      "name": "Math and Conversion",
+      "definition": "Utterances related to mathematical calculations, currency conversions, or unit conversions"
+    }
+  ]
+}

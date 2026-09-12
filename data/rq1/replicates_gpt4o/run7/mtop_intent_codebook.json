@@ -1,0 +1,95 @@
+{
+  "bench": "mtop_intent",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Requests to set an alarm for a specific time or recurring schedule."
+    },
+    {
+      "id": 2,
+      "name": "Manage Alarm",
+      "definition": "Requests to modify, cancel, or snooze existing alarms."
+    },
+    {
+      "id": 3,
+      "name": "Set Timer",
+      "definition": "Requests to set a timer for a specific duration."
+    },
+    {
+      "id": 4,
+      "name": "Manage Timer",
+      "definition": "Requests to modify, cancel, or check existing timers."
+    },
+    {
+      "id": 5,
+      "name": "Set Reminder",
+      "definition": "Requests to set a reminder for a specific task or event."
+    },
+    {
+      "id": 6,
+      "name": "Manage Reminder",
+      "definition": "Requests to modify, cancel, or check existing reminders."
+    },
+    {
+      "id": 7,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or forecasted weather information."
+    },
+    {
+      "id": 8,
+      "name": "News Inquiry",
+      "definition": "Requests for current news updates or specific news topics."
+    },
+    {
+      "id": 9,
+      "name": "Music Control",
+      "definition": "Requests to play, pause, skip, or repeat music tracks."
+    },
+    {
+      "id": 10,
+      "name": "Music Inquiry",
+      "definition": "Requests for information about currently playing or specific songs."
+    },
+    {
+      "id": 11,
+      "name": "Music Provider Management",
+      "definition": "Requests to change or set default music providers."
+    },
+    {
+      "id": 12,
+      "name": "Call Initiation",
+      "definition": "Requests to start a phone or video call with specific contacts."
+    },
+    {
+      "id": 13,
+      "name": "Call Management",
+      "definition": "Requests to end, join, or manage ongoing calls."
+    },
+    {
+      "id": 14,
+      "name": "Messaging",
+      "definition": "Requests to send, read, or reply to messages."
+    },
+    {
+      "id": 15,
+      "name": "Social Inquiry",
+      "definition": "Requests for information about friends or social connections."
+    },
+    {
+      "id": 16,
+      "name": "Recipe Inquiry",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 17,
+      "name": "General Inquiry",
+      "definition": "Requests for general information or facts not covered by other categories."
+    }
+  ]
+}

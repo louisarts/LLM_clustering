@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Economy",
+      "definition": "Articles discussing economic growth, trade, and financial markets."
+    },
+    {
+      "id": 2,
+      "name": "Education",
+      "definition": "Articles related to educational initiatives, policies, and innovations."
+    },
+    {
+      "id": 3,
+      "name": "Politics",
+      "definition": "Articles covering political parties, elections, and government policies."
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "Articles about technological advancements, gadgets, and digital trends."
+    },
+    {
+      "id": 5,
+      "name": "Health",
+      "definition": "Articles discussing health policies, medical advancements, and public health issues."
+    },
+    {
+      "id": 6,
+      "name": "Entertainment",
+      "definition": "Articles about movies, music, awards, and celebrity news."
+    },
+    {
+      "id": 7,
+      "name": "Sports",
+      "definition": "Articles covering sports events, athletes, and competitions."
+    },
+    {
+      "id": 8,
+      "name": "Crime and Law",
+      "definition": "Articles about legal cases, criminal activities, and law enforcement."
+    },
+    {
+      "id": 9,
+      "name": "Environment",
+      "definition": "Articles discussing environmental issues, climate change, and sustainability."
+    },
+    {
+      "id": 10,
+      "name": "Science",
+      "definition": "Articles related to scientific research, discoveries, and innovations."
+    },
+    {
+      "id": 11,
+      "name": "Social Issues",
+      "definition": "Articles addressing societal challenges, cultural topics, and community actions."
+    },
+    {
+      "id": 12,
+      "name": "Business",
+      "definition": "Articles about corporate activities, mergers, and market strategies."
+    },
+    {
+      "id": 13,
+      "name": "International Relations",
+      "definition": "Articles discussing diplomatic relations, international agreements, and global conflicts."
+    },
+    {
+      "id": 14,
+      "name": "Transport",
+      "definition": "Articles related to transportation infrastructure, policies, and innovations."
+    },
+    {
+      "id": 15,
+      "name": "Fashion",
+      "definition": "Articles about fashion trends, designers, and industry news."
+    }
+  ]
+}

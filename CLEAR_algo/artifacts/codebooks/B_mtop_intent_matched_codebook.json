@@ -1,0 +1,512 @@
+[
+ {
+  "id": 1,
+  "name": "Weather Forecast",
+  "definition": "Requesting information about current or future weather conditions in a specific location."
+ },
+ {
+  "id": 2,
+  "name": "News Search",
+  "definition": "Asking for news articles or updates on a particular topic or event."
+ },
+ {
+  "id": 3,
+  "name": "Contact Information",
+  "definition": "Seeking contact details for individuals or organizations."
+ },
+ {
+  "id": 4,
+  "name": "Reminder Setting",
+  "definition": "Requesting the assistant to set a reminder for a specific task or event."
+ },
+ {
+  "id": 5,
+  "name": "Recipe Search",
+  "definition": "Looking for recipes for specific dishes or ingredients."
+ },
+ {
+  "id": 6,
+  "name": "Flood Risk Inquiry",
+  "definition": "Asking about the likelihood of flooding in a particular location."
+ },
+ {
+  "id": 7,
+  "name": "App Control",
+  "definition": "Directing the assistant to play or control a specific app."
+ },
+ {
+  "id": 8,
+  "name": "Message Delivery",
+  "definition": "Requesting the assistant to deliver a message to another person."
+ },
+ {
+  "id": 9,
+  "name": "Music Playback",
+  "definition": "Control the playback of music, including playing specific songs, artists, or stations."
+ },
+ {
+  "id": 10,
+  "name": "Channel Creation",
+  "definition": "Create or manage channels on music streaming services."
+ },
+ {
+  "id": 11,
+  "name": "Contact Information Lookup",
+  "definition": "Find contact details for individuals, such as their location or work information."
+ },
+ {
+  "id": 12,
+  "name": "Event Information",
+  "definition": "Request information about upcoming events, such as political events or weather forecasts."
+ },
+ {
+  "id": 13,
+  "name": "Alarm Management",
+  "definition": "Set, view, or modify alarm times."
+ },
+ {
+  "id": 14,
+  "name": "Call Handling",
+  "definition": "Control incoming calls, such as answering or rejecting them based on caller ID."
+ },
+ {
+  "id": 15,
+  "name": "Temperature Forecast",
+  "definition": "Requesting the predicted temperature for a specific location and time period."
+ },
+ {
+  "id": 16,
+  "name": "Genealogy Inquiry",
+  "definition": "Asking for information about family history or ancestry."
+ },
+ {
+  "id": 17,
+  "name": "Clothing Advice",
+  "definition": "Seeking guidance on what to wear based on weather or occasion."
+ },
+ {
+  "id": 18,
+  "name": "Specific Recipe Search",
+  "definition": "Requesting a recipe for a particular dish."
+ },
+ {
+  "id": 19,
+  "name": "Music Genre Playback",
+  "definition": "Asking to play music from a specific genre."
+ },
+ {
+  "id": 20,
+  "name": "News Headlines",
+  "definition": "Requesting a summary of the latest news stories."
+ },
+ {
+  "id": 21,
+  "name": "Call Group",
+  "definition": "Initiating a call to a pre-defined group of contacts."
+ },
+ {
+  "id": 22,
+  "name": "Timer Setting",
+  "definition": "Setting a timer for a specific duration."
+ },
+ {
+  "id": 23,
+  "name": "Event Listing",
+  "definition": "Asking for information about upcoming musical concerts or events."
+ },
+ {
+  "id": 24,
+  "name": "Location-Based Work Inquiry",
+  "definition": "Asking if a person works at a specific location."
+ },
+ {
+  "id": 25,
+  "name": "Nutrition Information",
+  "definition": "Requesting dietary information about a specific food item."
+ },
+ {
+  "id": 26,
+  "name": "Call Initiation",
+  "definition": "Starting a call with multiple recipients."
+ },
+ {
+  "id": 27,
+  "name": "Timer Creation",
+  "definition": "Setting a timer for a specific duration."
+ },
+ {
+  "id": 28,
+  "name": "Cooking Instructions",
+  "definition": "Seeking guidance on how to prepare a particular dish."
+ },
+ {
+  "id": 29,
+  "name": "Video Messaging",
+  "definition": "Sending a video message to a recipient."
+ },
+ {
+  "id": 30,
+  "name": "Leftover Recipe",
+  "definition": "Requesting a recipe that utilizes leftover ingredients."
+ },
+ {
+  "id": 31,
+  "name": "Reminder Modification",
+  "definition": "Changing the details of an existing reminder."
+ },
+ {
+  "id": 32,
+  "name": "Alarm Snooze",
+  "definition": "Temporarily pausing an active alarm."
+ },
+ {
+  "id": 33,
+  "name": "Text Messaging",
+  "definition": "Sending a text message to a recipient."
+ },
+ {
+  "id": 34,
+  "name": "Alarm Scheduling",
+  "definition": "Setting an alarm for a specific time and day."
+ },
+ {
+  "id": 35,
+  "name": "Reminder Deletion",
+  "definition": "Removing an existing reminder."
+ },
+ {
+  "id": 36,
+  "name": "Reminder Creation",
+  "definition": "Setting a new reminder for a future event or task."
+ },
+ {
+  "id": 37,
+  "name": "Music Streaming Platform",
+  "definition": "Specifying the desired music streaming platform."
+ },
+ {
+  "id": 38,
+  "name": "Current Events Inquiry",
+  "definition": "Asking for information about current news events."
+ },
+ {
+  "id": 39,
+  "name": "Call Removal",
+  "definition": "Removing a participant from an ongoing call."
+ },
+ {
+  "id": 40,
+  "name": "Friend Lookup",
+  "definition": "Requesting information about a user's friends."
+ },
+ {
+  "id": 41,
+  "name": "Timer Duration Inquiry",
+  "definition": "Asking for the remaining time on a set timer."
+ },
+ {
+  "id": 42,
+  "name": "Local News",
+  "definition": "Requesting news specific to the user's current location."
+ },
+ {
+  "id": 43,
+  "name": "Breaking News",
+  "definition": "Asking for the latest significant news events."
+ },
+ {
+  "id": 44,
+  "name": "Timer Modification",
+  "definition": "Adjusting the duration of an existing timer."
+ },
+ {
+  "id": 45,
+  "name": "Employee Information",
+  "definition": "Seeking details about employees at a specific location."
+ },
+ {
+  "id": 46,
+  "name": "Event RSVP",
+  "definition": "Responding to an invitation to an event."
+ },
+ {
+  "id": 47,
+  "name": "Active Timer Listing",
+  "definition": "Requesting a list of currently active timers."
+ },
+ {
+  "id": 48,
+  "name": "Temperature Inquiry",
+  "definition": "Asking for the temperature in a specific location."
+ },
+ {
+  "id": 49,
+  "name": "Music Genre Continuation",
+  "definition": "Requesting more music in the currently playing genre."
+ },
+ {
+  "id": 50,
+  "name": "Message Sender Inquiry",
+  "definition": "Asking who sent a message."
+ },
+ {
+  "id": 51,
+  "name": "Song Information",
+  "definition": "Asking for information about a song, such as the artist or lyrics."
+ },
+ {
+  "id": 52,
+  "name": "Alumni Information",
+  "definition": "Searching for information about graduates of a specific institution."
+ },
+ {
+  "id": 53,
+  "name": "Event Recommendations",
+  "definition": "Seeking suggestions for events based on user interests."
+ },
+ {
+  "id": 54,
+  "name": "Group Connection",
+  "definition": "Requesting to be connected with a specific group of people."
+ },
+ {
+  "id": 55,
+  "name": "Specific Time Weather Forecast",
+  "definition": "Asking for the weather forecast at a particular time."
+ },
+ {
+  "id": 56,
+  "name": "Cooking Temperature Inquiry",
+  "definition": "Asking for the recommended cooking temperature for a specific dish."
+ },
+ {
+  "id": 57,
+  "name": "Cooking Time Inquiry",
+  "definition": "Requesting information about the appropriate cooking time for a specific food item."
+ },
+ {
+  "id": 58,
+  "name": "Person Information Lookup",
+  "definition": "Seeking information about a specific person, such as their contact details or background."
+ },
+ {
+  "id": 59,
+  "name": "Pet Grooming Appointment Inquiry",
+  "definition": "Asking for the availability of a pet groomer for a specific service."
+ },
+ {
+  "id": 60,
+  "name": "Employee Information Lookup",
+  "definition": "Requesting information about employees of a particular company."
+ },
+ {
+  "id": 61,
+  "name": "Video Message Playback",
+  "definition": "Requesting to view previously sent video messages."
+ },
+ {
+  "id": 62,
+  "name": "Video Call Initiation",
+  "definition": "Initiating a video call with a specific person using a designated platform."
+ },
+ {
+  "id": 63,
+  "name": "Reminder Time Inquiry",
+  "definition": "Asking for the scheduled time of an upcoming reminder."
+ },
+ {
+  "id": 64,
+  "name": "Timer Result Display",
+  "definition": "Requesting to view the results of a previously set timer."
+ },
+ {
+  "id": 65,
+  "name": "Timer Duration Modification",
+  "definition": "Changing the duration of an active timer."
+ },
+ {
+  "id": 66,
+  "name": "Alarm Time Inquiry",
+  "definition": "Requesting the time of a scheduled alarm."
+ },
+ {
+  "id": 67,
+  "name": "Major News Inquiry",
+  "definition": "Asking for a summary of significant news on a specific topic or region."
+ },
+ {
+  "id": 68,
+  "name": "Reminder Date Check",
+  "definition": "Verifying the existence of a reminder for a specific date."
+ },
+ {
+  "id": 69,
+  "name": "Alarm Repetition Setting",
+  "definition": "Setting an alarm to repeat on a specific schedule."
+ },
+ {
+  "id": 70,
+  "name": "Alarm Modification",
+  "definition": "Changing the time or other attributes of an existing alarm."
+ },
+ {
+  "id": 71,
+  "name": "Call Conferencing",
+  "definition": "Adding participants to an ongoing call."
+ },
+ {
+  "id": 72,
+  "name": "Call Termination",
+  "definition": "Ending an active call."
+ },
+ {
+  "id": 73,
+  "name": "Call Initiation with Multiple Recipients",
+  "definition": "Starting a call with multiple individuals simultaneously."
+ },
+ {
+  "id": 74,
+  "name": "Video Call Hangup",
+  "definition": "Ending a video call."
+ },
+ {
+  "id": 75,
+  "name": "Repeating Reminder Inquiry",
+  "definition": "Checking if reminders are set up for a recurring event."
+ },
+ {
+  "id": 76,
+  "name": "Event Schedule Inquiry",
+  "definition": "Asking about events scheduled for a specific time and date."
+ },
+ {
+  "id": 77,
+  "name": "Call Status Inquiry",
+  "definition": "Checking the status of a call (e.g., active, on hold)."
+ },
+ {
+  "id": 78,
+  "name": "Label Status Modification",
+  "definition": "Changing the user's availability status."
+ },
+ {
+  "id": 79,
+  "name": "Recipe Search with Specific Ingredients",
+  "definition": "Finding a recipe based on specific ingredients mentioned by the user."
+ },
+ {
+  "id": 80,
+  "name": "Event Search",
+  "definition": "Searching for events based on user-specified criteria (e.g., type, location, date)."
+ },
+ {
+  "id": 81,
+  "name": "Friend List Inquiry",
+  "definition": "Requesting a list of friends associated with a specific user."
+ },
+ {
+  "id": 82,
+  "name": "Cooking Instruction Inquiry",
+  "definition": "Asking for specific cooking instructions or tips related to a dish or ingredient."
+ },
+ {
+  "id": 83,
+  "name": "Timer Restart",
+  "definition": "Restarting a previously started timer."
+ },
+ {
+  "id": 84,
+  "name": "General News Update",
+  "definition": "Requesting a general overview of current news events."
+ },
+ {
+  "id": 85,
+  "name": "Relationship Inquiry",
+  "definition": "Asking about the relationship status between two individuals."
+ },
+ {
+  "id": 86,
+  "name": "Alarm Setting with Specific Time",
+  "definition": "Setting an alarm for a specific time in the future."
+ },
+ {
+  "id": 87,
+  "name": "Reminder Count Inquiry",
+  "definition": "Asking for the number of reminders associated with a specific person."
+ },
+ {
+  "id": 88,
+  "name": "Call Participant Addition",
+  "definition": "Requesting to add a person to an ongoing call."
+ },
+ {
+  "id": 89,
+  "name": "Message Retrieval",
+  "definition": "Requesting to view messages from a specific contact."
+ },
+ {
+  "id": 90,
+  "name": "Genealogy Inquiry - Specific Relation",
+  "definition": "Searching for information about a specific relative (e.g., father-in-law)."
+ },
+ {
+  "id": 91,
+  "name": "Reminder Sharing",
+  "definition": "Requesting to share a weather forecast for a specific day."
+ },
+ {
+  "id": 92,
+  "name": "Birthday Inquiry",
+  "definition": "Asking for information about upcoming birthdays."
+ },
+ {
+  "id": 93,
+  "name": "News Event Details",
+  "definition": "Requesting specific details about a past news event."
+ },
+ {
+  "id": 94,
+  "name": "Reminder Deletion by Description",
+  "definition": "Deleting a reminder based on its content or description."
+ },
+ {
+  "id": 95,
+  "name": "Call Specific Contact",
+  "definition": "Initiating a call to a specific person by name."
+ },
+ {
+  "id": 96,
+  "name": "News Search by Person",
+  "definition": "Searching for news articles related to a specific person."
+ },
+ {
+  "id": 97,
+  "name": "Calorie Information",
+  "definition": "Inquiring about the calorie content of a food item."
+ },
+ {
+  "id": 98,
+  "name": "Specific Date Weather Forecast",
+  "definition": "Requesting the weather forecast for a specific date."
+ },
+ {
+  "id": 99,
+  "name": "Alarm Setting with Specific Time and Recurrence",
+  "definition": "Setting an alarm for a specific time and recurring on specific days."
+ },
+ {
+  "id": 100,
+  "name": "Reminder Inquiry by Contact",
+  "definition": "Checking for reminders associated with a specific person."
+ },
+ {
+  "id": 101,
+  "name": "Recipe Search by Ingredients",
+  "definition": "Searching for recipes that include specific ingredients."
+ },
+ {
+  "id": 102,
+  "name": "Reminder Setting with Specific Time and Day",
+  "definition": "Setting a reminder for a specific time and day."
+ }
+]

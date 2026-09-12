@@ -1,0 +1,80 @@
+{
+  "bench": "banking77",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Management",
+      "definition": "Queries related to managing, closing, or deleting accounts."
+    },
+    {
+      "id": 2,
+      "name": "Card Issues",
+      "definition": "Queries about lost, stolen, broken, or malfunctioning cards."
+    },
+    {
+      "id": 3,
+      "name": "Card Activation and PIN",
+      "definition": "Queries about activating cards or managing PINs."
+    },
+    {
+      "id": 4,
+      "name": "Card Transactions",
+      "definition": "Queries about card payments, declines, or unauthorized transactions."
+    },
+    {
+      "id": 5,
+      "name": "Transfers and Payments",
+      "definition": "Queries about money transfers, pending transactions, or transfer errors."
+    },
+    {
+      "id": 6,
+      "name": "Top-Up Issues",
+      "definition": "Queries about topping up accounts, including verification and failures."
+    },
+    {
+      "id": 7,
+      "name": "Exchange Rates and Currency",
+      "definition": "Queries about exchange rates, currency conversion, and related fees."
+    },
+    {
+      "id": 8,
+      "name": "Fees and Charges",
+      "definition": "Queries about fees for transactions, cards, or other services."
+    },
+    {
+      "id": 9,
+      "name": "Identity Verification",
+      "definition": "Queries about identity checks and verification processes."
+    },
+    {
+      "id": 10,
+      "name": "ATM Issues",
+      "definition": "Queries about ATM transactions, card retrieval, or cash withdrawal problems."
+    },
+    {
+      "id": 11,
+      "name": "Refunds and Disputes",
+      "definition": "Queries about refunds, chargebacks, or disputing transactions."
+    },
+    {
+      "id": 12,
+      "name": "Virtual and Disposable Cards",
+      "definition": "Queries about virtual or disposable card usage and issues."
+    },
+    {
+      "id": 13,
+      "name": "Account Access and Security",
+      "definition": "Queries about accessing accounts, security concerns, or app issues."
+    },
+    {
+      "id": 14,
+      "name": "General Information",
+      "definition": "Queries about general banking information, such as account eligibility or supported services."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "fewrel",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Temporal",
+      "definition": "The relation involves a time or date in relation to an event or entity."
+    },
+    {
+      "id": 2,
+      "name": "Geographical",
+      "definition": "The relation involves a location or geographical feature in relation to another entity."
+    },
+    {
+      "id": 3,
+      "name": "Authorship/Creation",
+      "definition": "The relation involves a creator or author in relation to their work or creation."
+    },
+    {
+      "id": 4,
+      "name": "Participation",
+      "definition": "The relation involves an entity participating in an event or being part of a group."
+    },
+    {
+      "id": 5,
+      "name": "Ownership/Control",
+      "definition": "The relation involves ownership or control of one entity by another."
+    },
+    {
+      "id": 6,
+      "name": "Composition",
+      "definition": "The relation involves an entity being a part or component of another entity."
+    },
+    {
+      "id": 7,
+      "name": "Successor/Predecessor",
+      "definition": "The relation involves one entity succeeding or preceding another in a sequence or series."
+    },
+    {
+      "id": 8,
+      "name": "Inspiration/Influence",
+      "definition": "The relation involves one entity being inspired or influenced by another."
+    },
+    {
+      "id": 9,
+      "name": "Association",
+      "definition": "The relation involves a general association or connection between two entities."
+    },
+    {
+      "id": 10,
+      "name": "Event Participation",
+      "definition": "The relation involves an entity participating in or being associated with an event."
+    },
+    {
+      "id": 11,
+      "name": "Naming",
+      "definition": "The relation involves one entity being named after another."
+    },
+    {
+      "id": 12,
+      "name": "Role/Position",
+      "definition": "The relation involves an entity holding a role or position in relation to another entity."
+    },
+    {
+      "id": 13,
+      "name": "Family/Lineage",
+      "definition": "The relation involves a familial or lineage connection between two entities."
+    },
+    {
+      "id": 14,
+      "name": "Language/Translation",
+      "definition": "The relation involves a language or translation connection between two entities."
+    },
+    {
+      "id": 15,
+      "name": "Award/Nomination",
+      "definition": "The relation involves an entity being nominated for or receiving an award."
+    },
+    {
+      "id": 16,
+      "name": "Adaptation",
+      "definition": "The relation involves one entity being an adaptation of another."
+    },
+    {
+      "id": 17,
+      "name": "Collaboration",
+      "definition": "The relation involves two entities collaborating or working together."
+    },
+    {
+      "id": 18,
+      "name": "Historical Event",
+      "definition": "The relation involves an entity being part of or associated with a historical event."
+    },
+    {
+      "id": 19,
+      "name": "Cultural/Artistic Movement",
+      "definition": "The relation involves an entity being part of or associated with a cultural or artistic movement."
+    },
+    {
+      "id": 20,
+      "name": "Scientific/Technical",
+      "definition": "The relation involves a scientific or technical connection between two entities."
+    }
+  ]
+}

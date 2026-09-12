@@ -1,0 +1,80 @@
+{
+  "bench": "banking77",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Management",
+      "definition": "Inquiries related to account creation, closure, and personal information updates."
+    },
+    {
+      "id": 2,
+      "name": "Card Issues",
+      "definition": "Questions regarding card functionality, replacement, and security."
+    },
+    {
+      "id": 3,
+      "name": "Transaction Inquiries",
+      "definition": "Requests for information about specific transactions, including disputes and errors."
+    },
+    {
+      "id": 4,
+      "name": "Transfer Issues",
+      "definition": "Concerns related to money transfers, including failures and delays."
+    },
+    {
+      "id": 5,
+      "name": "Top-Up Problems",
+      "definition": "Issues regarding the topping up of accounts, including fees and processing delays."
+    },
+    {
+      "id": 6,
+      "name": "Fees and Charges",
+      "definition": "Questions about various fees associated with transactions, card usage, and services."
+    },
+    {
+      "id": 7,
+      "name": "Identity Verification",
+      "definition": "Inquiries about the identity verification process and requirements."
+    },
+    {
+      "id": 8,
+      "name": "Refund Requests",
+      "definition": "Requests for refunds on transactions or charges."
+    },
+    {
+      "id": 9,
+      "name": "Exchange Rates",
+      "definition": "Questions regarding currency exchange rates and related transactions."
+    },
+    {
+      "id": 10,
+      "name": "Fraud and Security",
+      "definition": "Concerns about unauthorized transactions, lost or stolen cards, and account security."
+    },
+    {
+      "id": 11,
+      "name": "Card Types and Availability",
+      "definition": "Inquiries about different types of cards, their availability, and features."
+    },
+    {
+      "id": 12,
+      "name": "Cash Deposits and Withdrawals",
+      "definition": "Questions related to cash deposits, withdrawals, and associated issues."
+    },
+    {
+      "id": 13,
+      "name": "Virtual Cards",
+      "definition": "Inquiries specifically about virtual cards, their usage, and issues."
+    },
+    {
+      "id": 14,
+      "name": "Customer Support",
+      "definition": "Requests for assistance with various banking services and features."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "reddit_s2s",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Blogging",
+      "definition": "Posts related to blogging, content creation, and online writing."
+    },
+    {
+      "id": 2,
+      "name": "Architecture",
+      "definition": "Discussions and inquiries about architectural design and theory."
+    },
+    {
+      "id": 3,
+      "name": "Education",
+      "definition": "Topics concerning academic applications, transcripts, and educational advice."
+    },
+    {
+      "id": 4,
+      "name": "Cooking",
+      "definition": "Posts about recipes, cooking techniques, and food preparation."
+    },
+    {
+      "id": 5,
+      "name": "Home Improvement",
+      "definition": "Discussions about renovations, repairs, and home maintenance."
+    },
+    {
+      "id": 6,
+      "name": "Health",
+      "definition": "Topics related to health, wellness, and medical advice."
+    },
+    {
+      "id": 7,
+      "name": "Technology",
+      "definition": "Posts about gadgets, software, and technological advancements."
+    },
+    {
+      "id": 8,
+      "name": "Finance",
+      "definition": "Discussions about personal finance, investments, and economic trends."
+    },
+    {
+      "id": 9,
+      "name": "Travel",
+      "definition": "Posts related to travel experiences, tips, and destinations."
+    },
+    {
+      "id": 10,
+      "name": "Entertainment",
+      "definition": "Topics covering movies, music, and other forms of entertainment."
+    },
+    {
+      "id": 11,
+      "name": "Politics",
+      "definition": "Discussions about political events, policies, and opinions."
+    },
+    {
+      "id": 12,
+      "name": "Science",
+      "definition": "Posts related to scientific discoveries, theories, and discussions."
+    },
+    {
+      "id": 13,
+      "name": "Pets",
+      "definition": "Topics concerning pet care, experiences, and animal-related discussions."
+    },
+    {
+      "id": 14,
+      "name": "Comics",
+      "definition": "Discussions about comic books, graphic novels, and related media."
+    },
+    {
+      "id": 15,
+      "name": "Social Issues",
+      "definition": "Posts addressing social justice, community concerns, and activism."
+    },
+    {
+      "id": 16,
+      "name": "Gaming",
+      "definition": "Topics related to video games, board games, and gaming culture."
+    },
+    {
+      "id": 17,
+      "name": "Fashion",
+      "definition": "Discussions about clothing, style, and fashion trends."
+    },
+    {
+      "id": 18,
+      "name": "Food and Drink",
+      "definition": "Posts about food, beverages, and culinary experiences."
+    },
+    {
+      "id": 19,
+      "name": "DIY and Crafts",
+      "definition": "Topics related to do-it-yourself projects and crafting."
+    },
+    {
+      "id": 20,
+      "name": "Local News",
+      "definition": "Discussions about news and events specific to a local area."
+    }
+  ]
+}

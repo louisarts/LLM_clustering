@@ -1,0 +1,69 @@
+{
+  "bench": "mtop_domain",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms",
+      "definition": "Setting, managing, or querying clock-based alerts intended to wake the user or trigger at a specific time."
+    },
+    {
+      "id": 2,
+      "name": "Calling",
+      "definition": "Initiating, managing, or modifying real-time voice or video connections with other people."
+    },
+    {
+      "id": 3,
+      "name": "Cooking_Food",
+      "definition": "Queries regarding food preparation, recipes, ingredients, cooking times, and nutritional information."
+    },
+    {
+      "id": 4,
+      "name": "Events",
+      "definition": "Finding local events, checking event schedules, or managing event attendance status."
+    },
+    {
+      "id": 5,
+      "name": "Messaging",
+      "definition": "Sending, reading, or managing text-based communications or video messages to individuals or groups."
+    },
+    {
+      "id": 6,
+      "name": "Music_Audio",
+      "definition": "Playing, controlling, or identifying music and audio content on streaming platforms."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Requesting news headlines, stories, or updates on current events from specific or general sources."
+    },
+    {
+      "id": 8,
+      "name": "People_Contacts",
+      "definition": "Retrieving information about contacts, such as their relationships, locations, employment, or contact details."
+    },
+    {
+      "id": 9,
+      "name": "Reminders",
+      "definition": "Creating, deleting, or managing task-based notifications for the user to remember specific actions."
+    },
+    {
+      "id": 10,
+      "name": "Settings",
+      "definition": "Configuring device preferences or setting default applications for the assistant."
+    },
+    {
+      "id": 11,
+      "name": "Timers",
+      "definition": "Starting, stopping, adjusting, or querying countdown timers for specific durations."
+    },
+    {
+      "id": 12,
+      "name": "Weather",
+      "definition": "Requesting weather forecasts, conditions, or temperature information for specific locations and times."
+    }
+  ]
+}

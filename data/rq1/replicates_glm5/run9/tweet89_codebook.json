@@ -1,0 +1,289 @@
+{
+  "bench": "tweet89",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Christina Aguilera National Anthem Performance",
+      "definition": "News and reactions regarding Christina Aguilera's performance and lyrical error while singing the national anthem."
+    },
+    {
+      "id": 2,
+      "name": "Super Bowl Commercials",
+      "definition": "Discussions, reviews, and releases of advertisements aired during the Super Bowl."
+    },
+    {
+      "id": 3,
+      "name": "Yemeni Protests and Political Unrest",
+      "definition": "Reports on anti-government protests, political concessions, and unrest in Yemen."
+    },
+    {
+      "id": 4,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Coverage of the lawsuit alleging Taco Bell used false advertising regarding the beef content of their products."
+    },
+    {
+      "id": 5,
+      "name": "The King's Speech and Awards Season",
+      "definition": "News regarding the film The King's Speech and nominations or wins for major awards like the Oscars and SAG Awards."
+    },
+    {
+      "id": 6,
+      "name": "Egypt Crisis and Journalist Attacks",
+      "definition": "Reports on the political crisis in Egypt and specific incidents of journalists being attacked or detained."
+    },
+    {
+      "id": 7,
+      "name": "Rahm Emanuel Chicago Mayoral Campaign",
+      "definition": "Legal rulings and news regarding Rahm Emanuel's eligibility and campaign for Mayor of Chicago."
+    },
+    {
+      "id": 8,
+      "name": "Fishing Reports and Techniques",
+      "definition": "Posts sharing fishing reports, tips, techniques, and equipment advice for various fishing locations."
+    },
+    {
+      "id": 9,
+      "name": "Acai Berry Weight Loss Diet",
+      "definition": "Promotional content and articles discussing the use of acai berry for weight loss and diet plans."
+    },
+    {
+      "id": 10,
+      "name": "US Healthcare Reform Legal Challenges",
+      "definition": "Reports on federal judges striking down the insurance mandate or other legal challenges to the healthcare reform bill."
+    },
+    {
+      "id": 11,
+      "name": "Australian Open Tennis",
+      "definition": "Updates and results from the Australian Open tennis tournament, specifically regarding Novak Djokovic and Andy Murray."
+    },
+    {
+      "id": 12,
+      "name": "TSA Body Scanners",
+      "definition": "News regarding TSA body scanner technology, software updates, and security capabilities."
+    },
+    {
+      "id": 13,
+      "name": "Charlie Sheen and Two and a Half Men",
+      "definition": "News regarding actor Charlie Sheen and the television show Two and a Half Men."
+    },
+    {
+      "id": 14,
+      "name": "Identity Theft Prevention",
+      "definition": "Articles and infographics regarding the costs and prevention of identity theft."
+    },
+    {
+      "id": 15,
+      "name": "Distracted Driving Awareness",
+      "definition": "Public service messages and campaigns warning against texting while driving."
+    },
+    {
+      "id": 16,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Reports on the arrest and charging of Vincent Tabak for the murder of Joanna Yeates."
+    },
+    {
+      "id": 17,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates on the medical condition and recovery of Congresswoman Gabrielle Giffords."
+    },
+    {
+      "id": 18,
+      "name": "Piracy and Anti-Piracy Operations",
+      "definition": "Reports on naval operations against pirates and the rescue of vessels in regions like the Gulf of Aden."
+    },
+    {
+      "id": 19,
+      "name": "Iran-Dutch Diplomatic Relations",
+      "definition": "News regarding diplomatic tensions between the Netherlands and Iran following the execution of a Dutch-Iranian woman."
+    },
+    {
+      "id": 20,
+      "name": "Keith Olbermann and Current TV",
+      "definition": "News regarding Keith Olbermann's departure from MSNBC and his move to Current TV."
+    },
+    {
+      "id": 21,
+      "name": "FDA Drug Approvals",
+      "definition": "Announcements of FDA approval for specific drugs, such as those preventing preterm birth."
+    },
+    {
+      "id": 22,
+      "name": "Sports Concussion Safety",
+      "definition": "Discussions on concussion risks and safety protocols in sports, including hockey and football."
+    },
+    {
+      "id": 23,
+      "name": "James Franco at Sundance Film Festival",
+      "definition": "Celebrity sightings and news regarding James Franco at the Sundance Film Festival."
+    },
+    {
+      "id": 24,
+      "name": "Chipotle Immigration Inspection",
+      "definition": "Reports on ICE inspections of Chipotle Mexican Grill restaurants regarding immigration compliance."
+    },
+    {
+      "id": 25,
+      "name": "Chicago Blizzard",
+      "definition": "Reports on the severe blizzard hitting Chicago and its impact on the city."
+    },
+    {
+      "id": 26,
+      "name": "Facebook Privacy Settings",
+      "definition": "News and user guides regarding changes to Facebook privacy settings."
+    },
+    {
+      "id": 27,
+      "name": "Moscow Airport Bombing",
+      "definition": "Reports on the suicide bombing attack at a Moscow airport."
+    },
+    {
+      "id": 28,
+      "name": "Jordanian Protests",
+      "definition": "Reports on political protests and demands for the Prime Minister to step down in Jordan."
+    },
+    {
+      "id": 29,
+      "name": "Recipes and Cooking",
+      "definition": "Posts sharing recipes for specific dishes such as chicken, chili, and other meals."
+    },
+    {
+      "id": 30,
+      "name": "College Financial Aid and Scholarships",
+      "definition": "Information regarding financial aid applications, grants, and scholarships for university students."
+    },
+    {
+      "id": 31,
+      "name": "Ivory Coast Political Crisis",
+      "definition": "Reports on the political and economic situation in Ivory Coast involving Laurent Gbagbo."
+    },
+    {
+      "id": 32,
+      "name": "Iran Nuclear Program",
+      "definition": "News regarding Iran's nuclear program and international diplomatic talks."
+    },
+    {
+      "id": 33,
+      "name": "Wikileaks Nobel Peace Prize Nomination",
+      "definition": "News regarding the nomination of Wikileaks for the Nobel Peace Prize."
+    },
+    {
+      "id": 34,
+      "name": "Jay Carney White House Appointment",
+      "definition": "News regarding the appointment of Jay Carney as White House Press Secretary."
+    },
+    {
+      "id": 35,
+      "name": "Starbucks Trenta Cup Size",
+      "definition": "News and reactions regarding the introduction of the Trenta cup size at Starbucks."
+    },
+    {
+      "id": 36,
+      "name": "China Electronics Import Tax",
+      "definition": "Reports on China reducing import taxes on consumer electronics."
+    },
+    {
+      "id": 37,
+      "name": "Michael Steele RNC Resignation",
+      "definition": "News regarding the resignation of Michael Steele as chairman of the Republican National Committee."
+    },
+    {
+      "id": 38,
+      "name": "Oprah Winfrey Family Secret",
+      "definition": "News regarding a family secret revealed by Oprah Winfrey."
+    },
+    {
+      "id": 39,
+      "name": "Best Buy and Verizon iPhone Launch",
+      "definition": "Reports on Best Buy preparing for the launch of the Verizon iPhone."
+    },
+    {
+      "id": 40,
+      "name": "Anti-Bullying Initiatives",
+      "definition": "News regarding anti-bullying programs and awareness campaigns in schools."
+    },
+    {
+      "id": 41,
+      "name": "Natalie Portman and Black Swan",
+      "definition": "Discussions and praise for Natalie Portman's performance in the film Black Swan."
+    },
+    {
+      "id": 42,
+      "name": "General Entertainment and Television",
+      "definition": "General posts about television shows like NCIS, Blue Bloods, and Keeping Up with the Kardashians."
+    },
+    {
+      "id": 43,
+      "name": "General Sports News",
+      "definition": "General sports news not fitting other specific categories, such as NBA trades or player updates."
+    },
+    {
+      "id": 44,
+      "name": "Consumer Finance and Debt",
+      "definition": "Articles regarding credit card debt, bankruptcy, and consumer financial advice."
+    },
+    {
+      "id": 45,
+      "name": "Amtrak Rail Tunnel Plan",
+      "definition": "News regarding the Amtrak rail tunnel plan for New York and New Jersey."
+    },
+    {
+      "id": 46,
+      "name": "Andrew Cuomo New York Budget",
+      "definition": "Reports on Governor Andrew Cuomo's budget proposals and process in New York."
+    },
+    {
+      "id": 47,
+      "name": "Australia Floods",
+      "definition": "Reports on severe flooding in southeast Australia."
+    },
+    {
+      "id": 48,
+      "name": "Supreme Court Privacy Ruling",
+      "definition": "Reports on a Supreme Court case regarding personal privacy and corporations."
+    },
+    {
+      "id": 49,
+      "name": "Obama Social Media Campaign",
+      "definition": "News regarding President Obama's use of social media to promote his agenda."
+    },
+    {
+      "id": 50,
+      "name": "Republican Social Media Usage",
+      "definition": "Study regarding the use of social media by Republican politicians."
+    },
+    {
+      "id": 51,
+      "name": "Apple Shareholder Meeting",
+      "definition": "News regarding Apple shareholders demanding a succession plan for Steve Jobs."
+    },
+    {
+      "id": 52,
+      "name": "Walmart Nutrition Campaign",
+      "definition": "News regarding Walmart's initiative to promote nutrition."
+    },
+    {
+      "id": 53,
+      "name": "Toyota Scholarship Program",
+      "definition": "News regarding Toyota renewing a scholarship program for the American Indian College Fund."
+    },
+    {
+      "id": 54,
+      "name": "Lighting Energy Efficiency",
+      "definition": "Articles discussing the cost-effectiveness of changing lighting systems to save energy."
+    },
+    {
+      "id": 55,
+      "name": "Stuxnet Computer Worm",
+      "definition": "Security warnings regarding the Stuxnet computer worm."
+    },
+    {
+      "id": 56,
+      "name": "Arizona Immigration Law",
+      "definition": "Reports and opinion pieces regarding the enforcement of immigration law in Arizona."
+    }
+  ]
+}

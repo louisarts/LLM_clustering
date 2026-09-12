@@ -1,0 +1,109 @@
+{
+  "bench": "massive_intent",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Requests for current or forecasted weather conditions, temperature, or climate information."
+    },
+    {
+      "id": 2,
+      "name": "Music",
+      "definition": "Requests to play, control, or adjust music, playlists, or radio stations."
+    },
+    {
+      "id": 3,
+      "name": "Calendar",
+      "definition": "Interactions to create, query, modify, or delete events and appointments in a schedule."
+    },
+    {
+      "id": 4,
+      "name": "Email",
+      "definition": "Actions to read, compose, send, or manage emails and email notifications."
+    },
+    {
+      "id": 5,
+      "name": "Reminders",
+      "definition": "Requests to set, query, or manage reminders for tasks or future events."
+    },
+    {
+      "id": 6,
+      "name": "Smart Home",
+      "definition": "Commands to control smart home devices like lights, plugs, or vacuum cleaners."
+    },
+    {
+      "id": 7,
+      "name": "Alarms",
+      "definition": "Requests to set, query, or cancel wake-up alarms."
+    },
+    {
+      "id": 8,
+      "name": "News",
+      "definition": "Requests for current news headlines, updates, or articles."
+    },
+    {
+      "id": 9,
+      "name": "General Information",
+      "definition": "Queries seeking facts, definitions, descriptions, or general knowledge."
+    },
+    {
+      "id": 10,
+      "name": "Lists",
+      "definition": "Requests to create, add items to, or manage to-do or grocery lists."
+    },
+    {
+      "id": 11,
+      "name": "Transportation",
+      "definition": "Requests for travel directions, train schedules, or booking rides like taxis."
+    },
+    {
+      "id": 12,
+      "name": "Food",
+      "definition": "Requests for recipes, food preparation instructions, or ordering food."
+    },
+    {
+      "id": 13,
+      "name": "Social Media",
+      "definition": "Actions to post content or check notifications on social media platforms."
+    },
+    {
+      "id": 14,
+      "name": "Finance",
+      "definition": "Queries regarding stock prices, currency exchange rates, or financial values."
+    },
+    {
+      "id": 15,
+      "name": "Time",
+      "definition": "Requests for the current time or time zone conversions."
+    },
+    {
+      "id": 16,
+      "name": "Podcasts",
+      "definition": "Requests to play or control podcasts."
+    },
+    {
+      "id": 17,
+      "name": "Audiobooks",
+      "definition": "Requests to play or control audiobooks."
+    },
+    {
+      "id": 18,
+      "name": "Search",
+      "definition": "Requests to search the web or find specific information online."
+    },
+    {
+      "id": 19,
+      "name": "Math",
+      "definition": "Requests to perform mathematical calculations."
+    },
+    {
+      "id": 20,
+      "name": "Small Talk",
+      "definition": "Conversational statements or questions not requesting a specific functional task."
+    }
+  ]
+}

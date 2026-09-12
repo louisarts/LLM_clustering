@@ -1,0 +1,50 @@
+{
+  "bench": "snips",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or future weather conditions in a specific location."
+    },
+    {
+      "id": 2,
+      "name": "Movie Schedule Inquiry",
+      "definition": "Requests for movie showtimes or schedules at specific or nearby cinemas."
+    },
+    {
+      "id": 3,
+      "name": "Restaurant Reservation",
+      "definition": "Requests to book a table or make a reservation at a restaurant."
+    },
+    {
+      "id": 4,
+      "name": "Music Playback",
+      "definition": "Requests to play specific songs, albums, or music from a certain era or genre."
+    },
+    {
+      "id": 5,
+      "name": "Playlist Management",
+      "definition": "Requests to add songs, albums, or artists to a specific playlist."
+    },
+    {
+      "id": 6,
+      "name": "Creative Work Search",
+      "definition": "Requests to find or locate books, movies, games, or other creative works."
+    },
+    {
+      "id": 7,
+      "name": "Rating Assignment",
+      "definition": "Requests to assign a rating or score to a book, album, or other creative work."
+    },
+    {
+      "id": 8,
+      "name": "Television Show Inquiry",
+      "definition": "Requests to find where to watch specific television shows."
+    }
+  ]
+}

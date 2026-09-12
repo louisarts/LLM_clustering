@@ -1,0 +1,70 @@
+{
+  "bench": "mcid",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Seeking Medical Information",
+      "definition": "Utterances seeking information about symptoms, treatments, prevention, or transmission of COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Expressing Gratitude",
+      "definition": "Utterances expressing thanks or appreciation for help or information related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Donating to COVID-19 Relief",
+      "definition": "Utterances expressing intent to donate money or resources to support COVID-19 medical research, hospitals, or charities."
+    },
+    {
+      "id": 4,
+      "name": "Seeking Travel Advice",
+      "definition": "Utterances seeking information about travel restrictions, safety, or guidelines related to COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Myths and Misinformation",
+      "definition": "Utterances related to myths, misinformation, or misconceptions about COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Animal and Pet Concerns",
+      "definition": "Utterances related to concerns about pets, animals, or wildlife in relation to COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Environmental Concerns",
+      "definition": "Utterances related to concerns about surfaces, objects, or environments potentially contaminated with COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Community Support and Donations",
+      "definition": "Utterances expressing intent to donate or support local communities, hospitals, schools, or food banks affected by COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Government Updates and Policies",
+      "definition": "Utterances seeking information about government actions, policies, or updates related to COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "Personal Protection and Hygiene",
+      "definition": "Utterances seeking information about personal protective measures, hygiene practices, or cleaning routines to prevent COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Social Distancing and Isolation",
+      "definition": "Utterances seeking information about social distancing guidelines, isolation protocols, or high-risk areas for COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "Vaccine Development and Treatment",
+      "definition": "Utterances seeking information about vaccine development, treatment options, or clinical trials for COVID-19."
+    }
+  ]
+}

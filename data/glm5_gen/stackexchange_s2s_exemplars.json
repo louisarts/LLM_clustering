@@ -1,0 +1,170 @@
+{
+ "1": [
+  "How do I reverse a list in Python using slicing?",
+  "What is the difference between an abstract class and an interface in Java?",
+  "Explain the concept of database normalization up to the third normal form.",
+  "How do I resolve merge conflicts in Git after a failed pull request?",
+  "Best practices for securing REST API endpoints against SQL injection."
+ ],
+ "6": [
+  "What is the significance of transubstantiation in Catholic theology versus the Lutheran view of consubstantiation?",
+  "How do different schools of Islamic jurisprudence interpret the concept of abrogation within the Quran?",
+  "Can someone explain the Buddhist concept of Anatman and how it differs from the Hindu belief in Atman?",
+  "What are the main arguments regarding the authorship of the Deutero-Pauline epistles in modern biblical scholarship?",
+  "Why is the concept of Ahimsa central to Jainism, and how does it influence their daily dietary practices?"
+ ],
+ "2": [
+  "What is the etymological origin of the word \"serendipity\"?",
+  "Is it grammatically correct to end an English sentence with a preposition?",
+  "How do you translate \"I miss you\" into Japanese naturally?",
+  "What is the difference between \"affect\" and \"effect\" in usage?",
+  "Why do some languages use gendered nouns while others do not?"
+ ],
+ "10": [
+  "How do I prevent my souffl\u00e9 from collapsing during the final stages of baking?",
+  "What is the ideal water-to-grain ratio for a single-step mash in all-grain brewing?",
+  "Can I substitute active dry yeast for instant yeast without proofing it first?",
+  "Why does my homemade mayonnaise fail to emulsify and turn into a liquid mess?",
+  "What is the correct internal temperature to pull a medium-rare steak from the grill?"
+ ],
+ "7": [
+  "Why didn't the Eagles just fly the Fellowship directly to Mordor?",
+  "Is there an in-universe explanation for the change in Klingon appearance between TOS and TNG?",
+  "Who actually won the game of thrones in the end, Bran or the audience?",
+  "How does the Heighliner navigation work in Dune without computers?",
+  "Does the Force have a light side, or is it just the absence of the dark side?"
+ ],
+ "3": [
+  "How do I configure iptables to drop all incoming traffic except SSH on port 22?",
+  "What are the security risks of using exit nodes for sensitive browsing on the Tor network?",
+  "Which open source vulnerability scanner is best suited for scanning legacy Windows servers?",
+  "Is full disk encryption with LUKS sufficient to protect data if my laptop is physically stolen?",
+  "How can I prevent browser fingerprinting while maintaining usability for daily web browsing?"
+ ],
+ "4": [
+  "How do I conduct a comprehensive prior art search to ensure my invention is novel before filing a patent application?",
+  "What are the key differences between filing a provisional patent application versus a non-provisional one with the USPTO?",
+  "Can I patent a software algorithm, or does the subject matter eligibility requirement exclude it from protection?",
+  "What steps should be taken when a competitor is infringing on our registered trademark design?",
+  "How long does the patent cooperation treaty (PCT) process typically take for securing international intellectual property rights?"
+ ],
+ "9": [
+  "How does the Merkle tree structure in Bitcoin's block header ensure data integrity?",
+  "What are the security implications of reentrancy attacks in Solidity smart contracts?",
+  "Explain the difference between the Proof of Work and Proof of Stake consensus mechanisms.",
+  "How do layer 2 scaling solutions like the Lightning Network reduce on-chain transaction fees?",
+  "Can you provide a step-by-step guide for compiling and deploying an ERC-20 token on the Ethereum testnet?"
+ ],
+ "5": [
+  "What type of drywall anchor should I use to hang a heavy mirror on a plaster wall?",
+  "My table saw motor is overheating and shutting off after about ten minutes of ripping hardwood.",
+  "How do I fix a squeaky hardwood floor that is accessible from the basement?",
+  "Can I replace a 15 amp breaker with a 20 amp breaker to stop it from tripping?",
+  "What is the best method to strip multiple layers of paint from an antique wooden chair?"
+ ],
+ "12": [
+  "Is it possible to have free will in a deterministic universe?",
+  "What distinguishes valid logical deduction from sound argumentation?",
+  "Can objective moral values exist without the existence of God?",
+  "How does Plato's Allegory of the Cave relate to modern perceptions of reality?",
+  "What is the Ship of Theseus paradox and what does it suggest about personal identity?"
+ ],
+ "8": [
+  "In D&D 5e, does the War Caster feat advantage on Constitution saves apply to maintaining concentration on a spell while already dead?",
+  "What is the official ruling on stacking the AC bonuses from a shield of faith spell and a physical shield in Pathfinder 2e?",
+  "Can a player character use the Mage Hand cantrip to administer a healing potion to an unconscious ally during combat?",
+  "What is the difference between a creature being immune to damage and having resistance to a specific damage type?",
+  "How do I calculate the challenge rating for a homebrew monster that has high damage output but very low hit points?"
+ ],
+ "11": [
+  "How should I allocate my 401k contributions between stocks and bonds given I'm 30 years old?",
+  "Is it better to pay off my mortgage early or invest that extra capital into the stock market?",
+  "What does the current inverted yield curve suggest about the probability of a recession next year?",
+  "Can someone explain the difference between the Capital Asset Pricing Model and Arbitrage Pricing Theory?",
+  "What are the tax implications of selling employee stock options before the one-year holding period?"
+ ],
+ "13": [
+  "How do I find the determinant of a 3x3 matrix using cofactor expansion?",
+  "What is the geometric interpretation of the dot product between two vectors?",
+  "Can someone explain the steps to solve this second order linear differential equation?",
+  "Proving that the square root of two is an irrational number by contradiction.",
+  "What is the difference between a permutation and a combination in probability?"
+ ],
+ "16": [
+  "What is the optimal opening strategy for Russia in a game of Risk?",
+  "Can I play a Draw 4 Wild card in Uno if I have a matching color?",
+  "How many victory points are required to win a standard game of Catan?",
+  "Is the \"En Passant\" capture move mandatory in chess or is it optional?",
+  "Do you reshuffle the discard pile to form a new deck when the main deck runs out?"
+ ],
+ "15": [
+  "Why was the offside rule changed in 1925 to require only two defenders?",
+  "What is the correct hand signal for an illegal screen in basketball?",
+  "Explain the cover-2 defensive scheme in American football.",
+  "Who holds the record for the most consecutive wins in Formula 1 history?",
+  "What constitutes a foot fault in a tennis serve?"
+ ],
+ "14": [
+  "How do I calculate the correct base resistor for an NPN transistor switching a 12V load?",
+  "What is the best way to implement a Kalman filter for smoothing noisy accelerometer data?",
+  "My Arduino Nano is not recognized by the USB port after I shorted the 5V pin, is it fried?",
+  "Can someone explain how to interface a stepper motor with a Raspberry Pi using Python?",
+  "How should I design a low-pass filter to remove high-frequency noise from my audio input circuit?"
+ ],
+ "18": [
+  "What causes the \"stitch\" in my side during vigorous exercise?",
+  "How do beta-blockers work to lower high blood pressure?",
+  "What is the biological mechanism behind insulin resistance in type 2 diabetes?",
+  "Why do humans lack the ability to synthesize vitamin C internally?",
+  "How does the myelin sheath affect the speed of neural signal transmission?"
+ ],
+ "17": [
+  "What is the functional difference between a major and a minor scale?",
+  "How do I properly execute a tremolo picking technique on an acoustic guitar?",
+  "Who was the lead singer for the band Soundgarden during their 1994 Superunknown tour?",
+  "What is the name of the classical piece used as the theme for 'The Lone Ranger'?",
+  "Can someone explain the concept of counterpoint in Baroque composition?"
+ ],
+ "20": [
+  "How should I structure a syllabus for an introductory undergraduate course on data science?",
+  "What are the key differences between qualitative and quantitative approaches in social science research?",
+  "Is it ethical to use ChatGPT to generate literature review summaries for my thesis?",
+  "Balancing teaching assistant responsibilities with my own dissertation progress is becoming overwhelming.",
+  "Best practices for providing constructive feedback on student essays without discouraging them."
+ ],
+ "22": [
+  "What settings should I use to capture sharp images of the night sky?",
+  "Looking for recommendations on a versatile prime lens for street photography.",
+  "How do I properly color grade log footage to achieve a cinematic look?",
+  "Is there a significant difference in dynamic range between full frame and crop sensors?",
+  "Best practices for stabilizing handheld video while walking backwards."
+ ],
+ "21": [
+  "How might a breathable atmosphere be scientifically justified on a planet with twice Earth's gravity?",
+  "What are the economic consequences of a society where resurrection magic is a commercially available service?",
+  "Can a desert city sustain a population of 500,000 using only aquifer water and air wells?",
+  "What narrative tropes should be avoided when writing a magic system based on pure willpower?",
+  "How would a hive-mind species develop space travel without the concept of individual self-preservation?"
+ ],
+ "19": [
+  "How should I professionally address a colleague who consistently interrupts me during team meetings?",
+  "Is it appropriate to negotiate a higher starting salary if I have multiple competing job offers?",
+  "My manager frequently micromanages my tasks; how can I establish more autonomy without offending them?",
+  "What is the correct etiquette for declining a former coworker's request for a LinkedIn recommendation?",
+  "How do I handle a situation where a team member is not contributing their fair share to a group project?"
+ ],
+ "23": [
+  "How does the Electoral College work in the United States presidential elections?",
+  "What are the main differences between a parliamentary and a presidential system of government?",
+  "Can you explain the process of how a bill becomes a law at the federal level?",
+  "What are the specific requirements to register to vote in a general election?",
+  "What powers are specifically reserved for the state governments under the Tenth Amendment?"
+ ],
+ "24": [
+  "How does the Heisenberg Uncertainty Principle affect the measurement of a particle's momentum?",
+  "What is the difference between a scalar field and a vector field in classical mechanics?",
+  "Can the conservation of energy be violated in quantum field theory fluctuations?",
+  "Why does light bend when passing through a strong gravitational field?",
+  "How do you calculate the escape velocity required to leave a planet's surface?"
+ ]
+}

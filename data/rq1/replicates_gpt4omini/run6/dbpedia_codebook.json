@@ -1,0 +1,85 @@
+{
+  "bench": "dbpedia",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Historical Figures",
+      "definition": "Individuals known for their significant contributions or roles in history."
+    },
+    {
+      "id": 2,
+      "name": "Geographical Locations",
+      "definition": "Places including cities, towns, villages, and natural features."
+    },
+    {
+      "id": 3,
+      "name": "Educational Institutions",
+      "definition": "Schools, colleges, and universities providing education."
+    },
+    {
+      "id": 4,
+      "name": "Flora",
+      "definition": "Plant species, including trees, flowers, and other vegetation."
+    },
+    {
+      "id": 5,
+      "name": "Fauna",
+      "definition": "Animal species, including mammals, birds, insects, and other wildlife."
+    },
+    {
+      "id": 6,
+      "name": "Cultural Works",
+      "definition": "Artistic creations including books, films, music, and other media."
+    },
+    {
+      "id": 7,
+      "name": "Organizations",
+      "definition": "Groups or entities formed for a specific purpose, including companies and NGOs."
+    },
+    {
+      "id": 8,
+      "name": "Government Entities",
+      "definition": "Institutions or bodies that govern or administer public policy."
+    },
+    {
+      "id": 9,
+      "name": "Transportation",
+      "definition": "Vehicles, vessels, and infrastructure related to the movement of people or goods."
+    },
+    {
+      "id": 10,
+      "name": "Historical Events",
+      "definition": "Significant occurrences that have shaped history."
+    },
+    {
+      "id": 11,
+      "name": "Scientific Concepts",
+      "definition": "Theories, principles, or discoveries in various scientific fields."
+    },
+    {
+      "id": 12,
+      "name": "Religious Institutions",
+      "definition": "Places of worship and organizations related to religious practices."
+    },
+    {
+      "id": 13,
+      "name": "Media",
+      "definition": "Publications, broadcasts, and other forms of communication."
+    },
+    {
+      "id": 14,
+      "name": "Sports",
+      "definition": "Activities involving physical exertion and skill, including teams and athletes."
+    },
+    {
+      "id": 15,
+      "name": "Technology",
+      "definition": "Devices, systems, and methods developed through scientific knowledge."
+    }
+  ]
+}

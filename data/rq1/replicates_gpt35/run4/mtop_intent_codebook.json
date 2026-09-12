@@ -1,0 +1,60 @@
+{
+  "bench": "mtop_intent",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cooking",
+      "definition": "User wants to know how to cook a specific dish or ingredient."
+    },
+    {
+      "id": 2,
+      "name": "Music",
+      "definition": "User wants to play music or albums from specific artists."
+    },
+    {
+      "id": 3,
+      "name": "Alarm/Reminder",
+      "definition": "User wants to set, change, or delete alarms or reminders."
+    },
+    {
+      "id": 4,
+      "name": "Weather",
+      "definition": "User wants to know the weather forecast for a specific time or location."
+    },
+    {
+      "id": 5,
+      "name": "Call/Message",
+      "definition": "User wants to make a call or send a message to a specific contact."
+    },
+    {
+      "id": 6,
+      "name": "News",
+      "definition": "User wants to know the latest news headlines or updates."
+    },
+    {
+      "id": 7,
+      "name": "Timer",
+      "definition": "User wants to set, change, or check the timer for a specific duration."
+    },
+    {
+      "id": 8,
+      "name": "Location",
+      "definition": "User wants to know the location or address of a specific person or place."
+    },
+    {
+      "id": 9,
+      "name": "Event",
+      "definition": "User wants to know about upcoming events or activities."
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "User wants information related to education, schools, or universities."
+    }
+  ]
+}

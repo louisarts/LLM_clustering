@@ -1,0 +1,95 @@
+{
+  "bench": "dbpedia",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Animal",
+      "definition": "Articles describing species or types of animals."
+    },
+    {
+      "id": 2,
+      "name": "Plant",
+      "definition": "Articles describing species or types of plants."
+    },
+    {
+      "id": 3,
+      "name": "Film",
+      "definition": "Articles about films, including their production, cast, and plot."
+    },
+    {
+      "id": 4,
+      "name": "Music",
+      "definition": "Articles about music albums, artists, and musical works."
+    },
+    {
+      "id": 5,
+      "name": "Political Figure",
+      "definition": "Articles about individuals involved in politics."
+    },
+    {
+      "id": 6,
+      "name": "Educational Institution",
+      "definition": "Articles about schools, colleges, and universities."
+    },
+    {
+      "id": 7,
+      "name": "Geographical Feature",
+      "definition": "Articles describing mountains, rivers, lakes, and other natural features."
+    },
+    {
+      "id": 8,
+      "name": "Historical Site",
+      "definition": "Articles about locations of historical significance."
+    },
+    {
+      "id": 9,
+      "name": "Company",
+      "definition": "Articles about businesses and corporations."
+    },
+    {
+      "id": 10,
+      "name": "Book",
+      "definition": "Articles about literary works, including novels and non-fiction."
+    },
+    {
+      "id": 11,
+      "name": "Documentary",
+      "definition": "Articles about documentary films and their subjects."
+    },
+    {
+      "id": 12,
+      "name": "Sport",
+      "definition": "Articles about sports, athletes, and sporting events."
+    },
+    {
+      "id": 13,
+      "name": "Cultural Artifact",
+      "definition": "Articles about significant cultural items or practices."
+    },
+    {
+      "id": 14,
+      "name": "Journal",
+      "definition": "Articles about academic or professional journals."
+    },
+    {
+      "id": 15,
+      "name": "Village",
+      "definition": "Articles describing small settlements or communities."
+    },
+    {
+      "id": 16,
+      "name": "Church",
+      "definition": "Articles about places of worship, particularly Christian churches."
+    },
+    {
+      "id": 17,
+      "name": "Album",
+      "definition": "Articles about music albums, including their content and impact."
+    }
+  ]
+}

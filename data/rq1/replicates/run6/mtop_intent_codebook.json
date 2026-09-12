@@ -1,0 +1,102 @@
+{
+  "bench": "mtop_intent",
+  "run": 6,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Information",
+      "definition": "Get current, forecast, or specific weather details."
+    },
+    {
+      "id": 2,
+      "name": "Set Reminder",
+      "definition": "Create a new reminder for a specific task or event."
+    },
+    {
+      "id": 3,
+      "name": "Manage Reminder",
+      "definition": "Modify, delete, or retrieve existing reminders."
+    },
+    {
+      "id": 4,
+      "name": "Initiate Call",
+      "definition": "Start a voice or video call with a contact or group."
+    },
+    {
+      "id": 5,
+      "name": "Manage Call",
+      "definition": "Control an ongoing call, such as dismissing, ending, or modifying participants."
+    },
+    {
+      "id": 6,
+      "name": "Set Alarm",
+      "definition": "Create a new alarm for a specific time or recurring schedule."
+    },
+    {
+      "id": 7,
+      "name": "Manage Alarm",
+      "definition": "Modify, delete, or retrieve existing alarms."
+    },
+    {
+      "id": 8,
+      "name": "Recipe and Cooking Information",
+      "definition": "Find recipes, ingredients, or cooking instructions."
+    },
+    {
+      "id": 9,
+      "name": "News Information",
+      "definition": "Get current news, headlines, or specific news topics."
+    },
+    {
+      "id": 10,
+      "name": "Music Playback",
+      "definition": "Play music, specific songs, artists, or playlists."
+    },
+    {
+      "id": 11,
+      "name": "Music Management",
+      "definition": "Create, modify, or manage music playlists or library."
+    },
+    {
+      "id": 12,
+      "name": "Send Message",
+      "definition": "Send a text or chat message to a contact or group."
+    },
+    {
+      "id": 13,
+      "name": "Set Timer",
+      "definition": "Start a new timer for a specified duration."
+    },
+    {
+      "id": 14,
+      "name": "Manage Timer",
+      "definition": "Modify, delete, pause, resume, or check the status of an existing timer."
+    },
+    {
+      "id": 15,
+      "name": "Contact and Social Information",
+      "definition": "Query details about contacts, their status, location, or relationships."
+    },
+    {
+      "id": 16,
+      "name": "Factual Query",
+      "definition": "Ask for general factual information or definitions."
+    },
+    {
+      "id": 17,
+      "name": "Event and Activity Information",
+      "definition": "Find events, activities, or things to do in a specific location or time."
+    },
+    {
+      "id": 18,
+      "name": "Send Video Message",
+      "definition": "Record and send a video message to a contact or group."
+    },
+    {
+      "id": 19,
+      "name": "Update Status",
+      "definition": "Change or set a personal status or availability."
+    }
+  ]
+}

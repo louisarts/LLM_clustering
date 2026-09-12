@@ -1,0 +1,109 @@
+{
+  "bench": "massive_domain",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music & Audio",
+      "definition": "Requests to play, control, or identify music, radio stations, podcasts, or audiobooks."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Scheduling",
+      "definition": "Interactions regarding the creation, modification, or querying of calendar events, meetings, and schedules."
+    },
+    {
+      "id": 3,
+      "name": "Weather",
+      "definition": "Queries regarding current conditions, forecasts, or specific weather parameters like rain or temperature."
+    },
+    {
+      "id": 4,
+      "name": "Alarms & Reminders",
+      "definition": "Setting, deleting, or managing alarms and task-based reminders."
+    },
+    {
+      "id": 5,
+      "name": "Home Automation",
+      "definition": "Controlling smart home devices such as lights, plugs, thermostats, or appliances."
+    },
+    {
+      "id": 6,
+      "name": "Email",
+      "definition": "Sending, reading, searching, or managing emails and email contacts."
+    },
+    {
+      "id": 7,
+      "name": "General Knowledge & QA",
+      "definition": "Questions seeking factual information, definitions, opinions, or general knowledge not covered by other specific domains."
+    },
+    {
+      "id": 8,
+      "name": "News",
+      "definition": "Requests for current news stories, specific news sources, or updates on current events."
+    },
+    {
+      "id": 9,
+      "name": "Time & Date",
+      "definition": "Queries asking for the current time, date, or time zone conversions."
+    },
+    {
+      "id": 10,
+      "name": "Food & Cooking",
+      "definition": "Queries regarding recipes, cooking instructions, food preparation, or ordering food."
+    },
+    {
+      "id": 11,
+      "name": "Lists & Notes",
+      "definition": "Managing personal lists, shopping items, or notes."
+    },
+    {
+      "id": 12,
+      "name": "Navigation & Transport",
+      "definition": "Requests for directions, traffic conditions, taxi bookings, or public transport information."
+    },
+    {
+      "id": 13,
+      "name": "Social Media",
+      "definition": "Posting, reading, or interacting with content on social media platforms."
+    },
+    {
+      "id": 14,
+      "name": "Gaming",
+      "definition": "Launching or interacting with video games or game apps."
+    },
+    {
+      "id": 15,
+      "name": "Device Control & Settings",
+      "definition": "Commands to control device settings such as volume, mute functions, or general device states."
+    },
+    {
+      "id": 16,
+      "name": "Local Businesses & Places",
+      "definition": "Finding nearby businesses, restaurants, shops, or local events."
+    },
+    {
+      "id": 17,
+      "name": "Finance",
+      "definition": "Queries regarding currency exchange rates or financial information."
+    },
+    {
+      "id": 18,
+      "name": "Contacts",
+      "definition": "Retrieving or managing contact information or address books."
+    },
+    {
+      "id": 19,
+      "name": "Messaging & Communication",
+      "definition": "Sending messages or making calls via phone or messaging apps."
+    },
+    {
+      "id": 20,
+      "name": "Sports",
+      "definition": "Queries regarding sports scores, schedules, or sporting events."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "fewrel",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Competition",
+      "definition": "Entities involved in a competitive event or contest."
+    },
+    {
+      "id": 2,
+      "name": "Political",
+      "definition": "Entities related to political positions, elections, or governance."
+    },
+    {
+      "id": 3,
+      "name": "Creative Work",
+      "definition": "Entities associated with artistic or literary creations."
+    },
+    {
+      "id": 4,
+      "name": "Historical",
+      "definition": "Entities related to historical events or figures."
+    },
+    {
+      "id": 5,
+      "name": "Geographical",
+      "definition": "Entities related to locations, regions, or geographical features."
+    },
+    {
+      "id": 6,
+      "name": "Cultural",
+      "definition": "Entities associated with cultural practices, traditions, or movements."
+    },
+    {
+      "id": 7,
+      "name": "Scientific",
+      "definition": "Entities related to scientific concepts, discoveries, or figures."
+    },
+    {
+      "id": 8,
+      "name": "Sports",
+      "definition": "Entities related to sports teams, events, or athletes."
+    },
+    {
+      "id": 9,
+      "name": "Media",
+      "definition": "Entities associated with media production, distribution, or broadcasting."
+    },
+    {
+      "id": 10,
+      "name": "Business",
+      "definition": "Entities related to companies, organizations, or economic activities."
+    },
+    {
+      "id": 11,
+      "name": "Music",
+      "definition": "Entities related to musical works, artists, or genres."
+    },
+    {
+      "id": 12,
+      "name": "Film",
+      "definition": "Entities related to movies, directors, or film production."
+    },
+    {
+      "id": 13,
+      "name": "Education",
+      "definition": "Entities related to educational institutions or figures."
+    },
+    {
+      "id": 14,
+      "name": "Legal",
+      "definition": "Entities related to legal matters, laws, or judicial figures."
+    },
+    {
+      "id": 15,
+      "name": "Technology",
+      "definition": "Entities related to technological products, companies, or innovations."
+    },
+    {
+      "id": 16,
+      "name": "Religion",
+      "definition": "Entities associated with religious figures, practices, or organizations."
+    },
+    {
+      "id": 17,
+      "name": "Transportation",
+      "definition": "Entities related to transportation systems, vehicles, or infrastructure."
+    },
+    {
+      "id": 18,
+      "name": "Nature",
+      "definition": "Entities related to natural features, flora, or fauna."
+    },
+    {
+      "id": 19,
+      "name": "Awards",
+      "definition": "Entities related to awards, nominations, or recognitions."
+    },
+    {
+      "id": 20,
+      "name": "Family",
+      "definition": "Entities related to familial relationships or lineage."
+    }
+  ]
+}

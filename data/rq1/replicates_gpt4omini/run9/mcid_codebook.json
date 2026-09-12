@@ -1,0 +1,80 @@
+{
+  "bench": "mcid",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Request",
+      "definition": "User seeks information about COVID-19, including symptoms, transmission, and treatment."
+    },
+    {
+      "id": 2,
+      "name": "News Update",
+      "definition": "User requests the latest news or updates regarding COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Travel Inquiry",
+      "definition": "User asks about travel restrictions, safety, or protocols related to COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "Health Precautions",
+      "definition": "User seeks advice on how to protect themselves or others from COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Donation Request",
+      "definition": "User expresses intent to donate or requests information on how to donate for COVID-19 relief."
+    },
+    {
+      "id": 6,
+      "name": "Myth Debunking",
+      "definition": "User inquires about myths or misinformation related to COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Symptom Inquiry",
+      "definition": "User asks about specific symptoms related to COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Treatment Inquiry",
+      "definition": "User seeks information about treatments or cures for COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Pet Concerns",
+      "definition": "User asks about the impact of COVID-19 on pets or animal transmission."
+    },
+    {
+      "id": 10,
+      "name": "Community Support",
+      "definition": "User expresses a desire to help or support their community during the pandemic."
+    },
+    {
+      "id": 11,
+      "name": "Testing Inquiry",
+      "definition": "User asks about COVID-19 testing procedures or availability."
+    },
+    {
+      "id": 12,
+      "name": "Personal Experience",
+      "definition": "User shares personal experiences or symptoms related to COVID-19."
+    },
+    {
+      "id": 13,
+      "name": "Gratitude",
+      "definition": "User expresses thanks or appreciation for information or assistance received."
+    },
+    {
+      "id": 14,
+      "name": "General Inquiry",
+      "definition": "User asks general questions or makes casual remarks unrelated to specific COVID-19 topics."
+    }
+  ]
+}

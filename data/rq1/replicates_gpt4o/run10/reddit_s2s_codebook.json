@@ -1,0 +1,160 @@
+{
+  "bench": "reddit_s2s",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Education",
+      "definition": "Posts related to educational resources, study advice, or academic institutions."
+    },
+    {
+      "id": 2,
+      "name": "Sports",
+      "definition": "Posts related to sports teams, events, or athletes."
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "definition": "Posts related to technology products, reviews, or companies."
+    },
+    {
+      "id": 4,
+      "name": "Advice",
+      "definition": "Posts seeking or offering personal advice or life guidance."
+    },
+    {
+      "id": 5,
+      "name": "Finance",
+      "definition": "Posts related to financial news, advice, or economic conditions."
+    },
+    {
+      "id": 6,
+      "name": "Travel",
+      "definition": "Posts related to travel experiences, advice, or destinations."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Posts related to current events or news stories."
+    },
+    {
+      "id": 8,
+      "name": "Entertainment",
+      "definition": "Posts related to movies, TV shows, music, or celebrities."
+    },
+    {
+      "id": 9,
+      "name": "Gaming",
+      "definition": "Posts related to video games, gaming culture, or gaming news."
+    },
+    {
+      "id": 10,
+      "name": "Health",
+      "definition": "Posts related to health, wellness, or medical advice."
+    },
+    {
+      "id": 11,
+      "name": "Food and Drink",
+      "definition": "Posts related to food, recipes, or beverages."
+    },
+    {
+      "id": 12,
+      "name": "Automotive",
+      "definition": "Posts related to cars, automotive news, or vehicle advice."
+    },
+    {
+      "id": 13,
+      "name": "Pets",
+      "definition": "Posts related to pet care, pet stories, or animal advice."
+    },
+    {
+      "id": 14,
+      "name": "DIY and Crafts",
+      "definition": "Posts related to do-it-yourself projects or crafting."
+    },
+    {
+      "id": 15,
+      "name": "Fashion",
+      "definition": "Posts related to fashion, clothing, or style advice."
+    },
+    {
+      "id": 16,
+      "name": "Real Estate",
+      "definition": "Posts related to housing, real estate advice, or property listings."
+    },
+    {
+      "id": 17,
+      "name": "Religion and Spirituality",
+      "definition": "Posts related to religious beliefs, practices, or spiritual advice."
+    },
+    {
+      "id": 18,
+      "name": "Science",
+      "definition": "Posts related to scientific discoveries, research, or discussions."
+    },
+    {
+      "id": 19,
+      "name": "Art",
+      "definition": "Posts related to art, artists, or artistic techniques."
+    },
+    {
+      "id": 20,
+      "name": "Local Communities",
+      "definition": "Posts related to specific local events, news, or community discussions."
+    },
+    {
+      "id": 21,
+      "name": "Relationships",
+      "definition": "Posts related to relationship advice, experiences, or questions."
+    },
+    {
+      "id": 22,
+      "name": "Shopping",
+      "definition": "Posts related to shopping advice, product reviews, or consumer experiences."
+    },
+    {
+      "id": 23,
+      "name": "History",
+      "definition": "Posts related to historical events, figures, or discussions."
+    },
+    {
+      "id": 24,
+      "name": "Astrology",
+      "definition": "Posts related to astrology, horoscopes, or astrological advice."
+    },
+    {
+      "id": 25,
+      "name": "Legal",
+      "definition": "Posts related to legal advice, news, or discussions."
+    },
+    {
+      "id": 26,
+      "name": "Language",
+      "definition": "Posts related to language learning, translation, or linguistic discussions."
+    },
+    {
+      "id": 27,
+      "name": "Philosophy",
+      "definition": "Posts related to philosophical discussions, theories, or questions."
+    },
+    {
+      "id": 28,
+      "name": "Politics",
+      "definition": "Posts related to political news, discussions, or opinions."
+    },
+    {
+      "id": 29,
+      "name": "Business",
+      "definition": "Posts related to business news, advice, or entrepreneurship."
+    },
+    {
+      "id": 30,
+      "name": "Humor",
+      "definition": "Posts intended to be humorous or entertaining."
+    }
+  ]
+}

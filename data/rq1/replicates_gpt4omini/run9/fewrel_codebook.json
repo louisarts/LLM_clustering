@@ -1,0 +1,85 @@
+{
+  "bench": "fewrel",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Historical Event",
+      "definition": "A relationship where one entity is associated with a significant historical event."
+    },
+    {
+      "id": 2,
+      "name": "Geographical Feature",
+      "definition": "A relationship where one entity is a geographical feature such as a river, mountain, or city."
+    },
+    {
+      "id": 3,
+      "name": "Cultural Work",
+      "definition": "A relationship where one entity is a cultural work such as a book, film, or song."
+    },
+    {
+      "id": 4,
+      "name": "Political Entity",
+      "definition": "A relationship where one entity is a political figure or organization."
+    },
+    {
+      "id": 5,
+      "name": "Biological Classification",
+      "definition": "A relationship where one entity is a classification in biological taxonomy."
+    },
+    {
+      "id": 6,
+      "name": "Sports Team or Event",
+      "definition": "A relationship where one entity is a sports team or event."
+    },
+    {
+      "id": 7,
+      "name": "Institution or Organization",
+      "definition": "A relationship where one entity is an institution or organization."
+    },
+    {
+      "id": 8,
+      "name": "Person",
+      "definition": "A relationship where one entity is a person, often in relation to their achievements or roles."
+    },
+    {
+      "id": 9,
+      "name": "Artistic Collaboration",
+      "definition": "A relationship where one entity is involved in a collaboration with another in the arts."
+    },
+    {
+      "id": 10,
+      "name": "Technological Development",
+      "definition": "A relationship where one entity is a technological product or development."
+    },
+    {
+      "id": 11,
+      "name": "Literary Adaptation",
+      "definition": "A relationship where one entity is an adaptation of another literary work."
+    },
+    {
+      "id": 12,
+      "name": "Economic Entity",
+      "definition": "A relationship where one entity is related to an economic aspect, such as a company or product."
+    },
+    {
+      "id": 13,
+      "name": "Religious Context",
+      "definition": "A relationship where one entity is associated with a religious context or figure."
+    },
+    {
+      "id": 14,
+      "name": "Media Production",
+      "definition": "A relationship where one entity is involved in the production of media content."
+    },
+    {
+      "id": 15,
+      "name": "Environmental Feature",
+      "definition": "A relationship where one entity is an environmental feature or aspect."
+    }
+  ]
+}

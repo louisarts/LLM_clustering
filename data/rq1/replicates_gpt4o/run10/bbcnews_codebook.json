@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music Industry",
+      "definition": "Articles related to music, musicians, and the music business."
+    },
+    {
+      "id": 2,
+      "name": "Politics",
+      "definition": "Articles covering political events, policies, and figures."
+    },
+    {
+      "id": 3,
+      "name": "Sports",
+      "definition": "Articles about sporting events, athletes, and sports organizations."
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "Articles discussing technological advancements, companies, and trends."
+    },
+    {
+      "id": 5,
+      "name": "Economy and Business",
+      "definition": "Articles related to economic trends, business news, and financial markets."
+    },
+    {
+      "id": 6,
+      "name": "Film and Television",
+      "definition": "Articles about movies, TV shows, and the entertainment industry."
+    },
+    {
+      "id": 7,
+      "name": "International Relations",
+      "definition": "Articles covering diplomatic relations and international affairs."
+    },
+    {
+      "id": 8,
+      "name": "Crime and Legal Issues",
+      "definition": "Articles about criminal activities, legal cases, and law enforcement."
+    },
+    {
+      "id": 9,
+      "name": "Health",
+      "definition": "Articles related to health issues, medical advancements, and public health policies."
+    },
+    {
+      "id": 10,
+      "name": "Science and Environment",
+      "definition": "Articles discussing scientific discoveries and environmental issues."
+    },
+    {
+      "id": 11,
+      "name": "Social Issues",
+      "definition": "Articles addressing societal challenges, cultural topics, and community matters."
+    },
+    {
+      "id": 12,
+      "name": "Education",
+      "definition": "Articles about educational policies, institutions, and academic achievements."
+    },
+    {
+      "id": 13,
+      "name": "Consumer and Lifestyle",
+      "definition": "Articles related to consumer trends, lifestyle choices, and personal finance."
+    },
+    {
+      "id": 14,
+      "name": "Transportation",
+      "definition": "Articles about transportation systems, infrastructure, and travel."
+    },
+    {
+      "id": 15,
+      "name": "Real Estate",
+      "definition": "Articles discussing housing markets, property trends, and real estate developments."
+    }
+  ]
+}

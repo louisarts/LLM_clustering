@@ -1,0 +1,82 @@
+{
+  "bench": "dbpedia",
+  "run": 3,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, living or deceased."
+    },
+    {
+      "id": 2,
+      "name": "Company",
+      "definition": "A for-profit business entity or corporation."
+    },
+    {
+      "id": 3,
+      "name": "Biological Species",
+      "definition": "A specific type of organism, identified by its scientific binomial name."
+    },
+    {
+      "id": 4,
+      "name": "Product",
+      "definition": "A manufactured item, including vehicles, machinery, or specific models thereof."
+    },
+    {
+      "id": 5,
+      "name": "Film",
+      "definition": "A motion picture, including movies, documentaries, and film series."
+    },
+    {
+      "id": 6,
+      "name": "Geographical Feature",
+      "definition": "A natural or man-made landform or body of water, such as a mountain, river, lake, or reservoir."
+    },
+    {
+      "id": 7,
+      "name": "Album",
+      "definition": "A collection of musical recordings, including EPs and compilations."
+    },
+    {
+      "id": 8,
+      "name": "Novel",
+      "definition": "A long work of narrative fiction."
+    },
+    {
+      "id": 9,
+      "name": "Settlement",
+      "definition": "A populated place, such as a village, town, or city."
+    },
+    {
+      "id": 10,
+      "name": "Building",
+      "definition": "A specific physical structure, such as a house, school, church, or museum."
+    },
+    {
+      "id": 11,
+      "name": "Publication",
+      "definition": "A printed or electronic periodical, such as a newspaper, magazine, journal, or manga."
+    },
+    {
+      "id": 12,
+      "name": "Organization",
+      "definition": "A group of people with a particular purpose, such as a non-profit, government agency, educational institution, or religious congregation."
+    },
+    {
+      "id": 13,
+      "name": "Book",
+      "definition": "A written or printed work, typically non-fiction, a memoir, or a collection of stories, distinct from a novel."
+    },
+    {
+      "id": 14,
+      "name": "Biological Taxon",
+      "definition": "A broader taxonomic group of organisms, such as a genus or family."
+    },
+    {
+      "id": 15,
+      "name": "Concept",
+      "definition": "An abstract idea or a historical term."
+    }
+  ]
+}

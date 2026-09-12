@@ -1,0 +1,94 @@
+{
+  "bench": "clinc150_domain",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking & Finance",
+      "definition": "Managing bank accounts, credit cards, transactions, rewards, and financial inquiries."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Scheduling",
+      "definition": "Managing events, meetings, reminders, and scheduling appointments."
+    },
+    {
+      "id": 3,
+      "name": "Travel & Transportation",
+      "definition": "Planning trips, checking flights, navigating directions, and travel requirements."
+    },
+    {
+      "id": 4,
+      "name": "Food & Dining",
+      "definition": "Finding restaurants, making reservations, and exploring cuisine or recipes."
+    },
+    {
+      "id": 5,
+      "name": "Shopping & Organization",
+      "definition": "Managing shopping lists, to-do lists, and tracking packages or items."
+    },
+    {
+      "id": 6,
+      "name": "Device & Media Control",
+      "definition": "Controlling smart home devices, appliances, music playback, and volume."
+    },
+    {
+      "id": 7,
+      "name": "Auto & Vehicle Maintenance",
+      "definition": "Checking vehicle specifications, maintenance schedules, and mechanical troubleshooting."
+    },
+    {
+      "id": 8,
+      "name": "Information & Reference",
+      "definition": "Answering general knowledge questions, trivia, definitions, and factual data."
+    },
+    {
+      "id": 9,
+      "name": "Math & Unit Conversion",
+      "definition": "Performing arithmetic calculations and converting units of measurement."
+    },
+    {
+      "id": 10,
+      "name": "Assistant Configuration",
+      "definition": "Adjusting assistant settings such as voice, language, name, or device configuration."
+    },
+    {
+      "id": 11,
+      "name": "Communication",
+      "definition": "Initiating calls, sending messages, and sharing location or contacts."
+    },
+    {
+      "id": 12,
+      "name": "Work & HR",
+      "definition": "Managing work-related tasks such as vacation requests, payroll, and meeting rooms."
+    },
+    {
+      "id": 13,
+      "name": "Weather & Time",
+      "definition": "Checking weather forecasts, current time, and time zones."
+    },
+    {
+      "id": 14,
+      "name": "Meta & Social",
+      "definition": "Questions about the assistant's identity, capabilities, or general social pleasantries."
+    },
+    {
+      "id": 15,
+      "name": "Navigation & Location",
+      "definition": "Finding specific locations, checking current location, and mapping services."
+    },
+    {
+      "id": 16,
+      "name": "Health & Legal",
+      "definition": "Inquiries regarding health plans, insurance policies, and legal requirements like visas."
+    },
+    {
+      "id": 17,
+      "name": "Utility & Feedback",
+      "definition": "System-level commands, error correction, repetition requests, and generic responses."
+    }
+  ]
+}

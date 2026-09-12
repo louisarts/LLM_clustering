@@ -1,0 +1,1746 @@
+doc_idx,text,true_label
+0,"hello doc, how's it hanging",intent:hi
+1,is there any information from an animal getting sick and transmitting it to a human,intent:can_i_get_from_feces_animal_pets
+2,can the virus travel by touch,intent:how_does_corona_spread
+3,is vomiting a symptom,intent:what_are_symptoms
+4,are taxis considered unsafe,intent:travel
+5,should i be worried about my plants spreading the disease to me,intent:how_does_corona_spread
+6,how to donate for corona treatment,intent:donate
+7,"why coronavirus affects some animals, but not others",intent:can_i_get_from_feces_animal_pets
+8,is it still possible to go to europe,intent:travel
+9,how can i donate to new york city,intent:donate
+10,what are the late stage symptoms,intent:what_are_symptoms
+11,number of tests carried out in spain,intent:latest_numbers
+12,where can i go in the world that's safe,intent:travel
+13,good morning doc,intent:hi
+14,what can the hospitals do in this situation,intent:what_are_treatment_options
+15,can pets spread covid-19,intent:can_i_get_from_feces_animal_pets
+16,how does the virus travel,intent:how_does_corona_spread
+17,"thanks for checking that up, doctor bot",intent:okay_thanks
+18,did they spread corona on purpose,intent:myths
+19,"alright, bot",intent:hi
+20,can i travel to japan,intent:travel
+21,what can i do to treat myself if i'm sick with coronavirus,intent:what_are_treatment_options
+22,share service please,intent:share
+23,can i travel out of my city,intent:travel
+24,give me a summary on corona virus,intent:what_is_corona
+25,is having a lack of taste a symptom,intent:what_are_symptoms
+26,tell me some covid-19 myths that have been debunked,intent:myths
+27,thank you for all your help,intent:okay_thanks
+28,who needs money right now,intent:donate
+29,hi covid doc,intent:hi
+30,are only older people susceptible to covid,intent:myths
+31,i'd like to make a donation,intent:donate
+32,can covid-19 spread through pools,intent:how_does_corona_spread
+33,will cotton facemasks protect me,intent:protect_yourself
+34,is there a vaccine to treat the coronavirus,intent:what_are_treatment_options
+35,what should i be looking out for to tell if someone has it,intent:what_are_symptoms
+36,how can i share this service,intent:share
+37,what are some differences betweens covid19 and the common cold,intent:what_are_symptoms
+38,send this to my spouse,intent:share
+39,donate to make more masks,intent:donate
+40,is vitamin c useful to prevent coronavirus infection,intent:what_are_treatment_options
+41,is coronavirus spread through a certain type of liquid,intent:how_does_corona_spread
+42,donate to the food bank,intent:donate
+43,share this with jack,intent:share
+44,tell me about the myths related to coronavirus,intent:myths
+45,give me information to avoiding covid-19,intent:protect_yourself
+46,tell me more information on corona,intent:what_is_corona
+47,any myths about the origin of covid-19,intent:myths
+48,what is the best face mask to wear,intent:protect_yourself
+49,can pets spread covid19,intent:can_i_get_from_feces_animal_pets
+50,how can i donate,intent:donate
+51,what are the steps to protect myself when entering a hisk risk area,intent:what_if_i_visited_high_risk_area
+52,please send a donation to a local charity,intent:donate
+53,how many people have died because of covid,intent:latest_numbers
+54,is it a myth that coronavirus spreads in cold climates,intent:myths
+55,donate medical material to the nearest hospital,intent:donate
+56,is china still a hisk risk country,intent:what_if_i_visited_high_risk_area
+57,thank you for all the help you've given me doc,intent:okay_thanks
+58,what are the newest covid-19 myths,intent:myths
+59,what's the latest on coronavirus in dc,intent:news_and_press
+60,covid 19 updates,intent:news_and_press
+61,what are the main symptoms of the corona virus,intent:what_are_symptoms
+62,"coronavirus donation info, please",intent:donate
+63,what are some early symptoms,intent:what_are_symptoms
+64,thanks for the info,intent:okay_thanks
+65,send me news updates from the last hour,intent:news_and_press
+66,donate to china,intent:donate
+67,what should i not trust,intent:myths
+68,is it safe to get food delivered,intent:can_i_get_from_packages_surfaces
+69,are my animals at risk to catch the corona virus,intent:can_i_get_from_feces_animal_pets
+70,what should symptoms should i look out for if i am worried someone has corona,intent:what_are_symptoms
+71,did anything big happen today,intent:news_and_press
+72,"good morning, covid bot",intent:hi
+73,number of recovery cases in new york,intent:latest_numbers
+74,"hi doc, how are you",intent:hi
+75,can snakes get the virus,intent:can_i_get_from_feces_animal_pets
+76,was covid lad-made to control masses,intent:myths
+77,i want to know if i can take a trip to the mountains,intent:travel
+78,is there a vaccine against coronavirus,intent:what_are_treatment_options
+79,is the metro still working in france,intent:travel
+80,"i appreciate your help, dear corona",intent:okay_thanks
+81,is there a vaccine for coronavirus yet,intent:what_are_treatment_options
+82,how to kill the spread of corona virus on surfaces,intent:protect_yourself
+83,are the buses cancelled in town,intent:travel
+84,do i need to worry about my dog getting corona,intent:can_i_get_from_feces_animal_pets
+85,"top of the morning to you, covid bot",intent:hi
+86,should i sanitize my clothing after going outside,intent:protect_yourself
+87,my parents are old what do i do,intent:protect_yourself
+88,thanks for the search doc,intent:okay_thanks
+89,does staying away 6 feet in public reduce prevention,intent:protect_yourself
+90,how can i donate to charity,intent:donate
+91,can i donate to medical needs for corona virus,intent:donate
+92,"are domestic flights cancelled, too",intent:travel
+93,nice to meet you,intent:hi
+94,what cleaning products should i use,intent:protect_yourself
+95,is it safe to lick envelopes,intent:can_i_get_from_packages_surfaces
+96,do face masks help stop coronavirus,intent:protect_yourself
+97,i've been to a lot of infected places will i get the coronavirus,intent:what_if_i_visited_high_risk_area
+98,"thanks for the help, doc",intent:okay_thanks
+99,should i quarantine my cat too,intent:can_i_get_from_feces_animal_pets
+100,what are some popular covid myths,intent:myths
+101,can i fly during coronavirus outbreak,intent:what_if_i_visited_high_risk_area
+102,what are my treatment options for covid 19,intent:what_are_treatment_options
+103,what's the total death count in the u.s,intent:latest_numbers
+104,hi i have a question,intent:hi
+105,can you show me the ranking by confirmed cases within the u.s,intent:latest_numbers
+106,please send me the latest coronavirus news,intent:news_and_press
+107,hi doc bot,intent:hi
+108,myths about using mask filters,intent:myths
+109,is covid more likely to spread in humid weather,intent:how_does_corona_spread
+110,can i see reports on infection rates,intent:news_and_press
+111,can i get covid-19 from having food delivered to me,intent:can_i_get_from_packages_surfaces
+112,which countries are safe for nonessential international travel,intent:what_if_i_visited_high_risk_area
+113,how is the covid-19 situation near me,intent:news_and_press
+114,how does coronavirus get transmitted,intent:how_does_corona_spread
+115,does covid-19 attach onto fruit,intent:can_i_get_from_packages_surfaces
+116,myth about half the population dying from covid 19,intent:myths
+117,when did the corona virus start,intent:what_is_corona
+118,"outline the current covid-19 treatments, please",intent:what_are_treatment_options
+119,send a report to this link,intent:share
+120,morning doctor,intent:hi
+121,how's it going,intent:hi
+122,what's the best cure for covid-19,intent:what_are_treatment_options
+123,any new myths about covid-19,intent:myths
+124,are there any updates in texas,intent:news_and_press
+125,please share this on my page,intent:share
+126,"show me how i can share this, please",intent:share
+127,how many people are infected daily by corona,intent:latest_numbers
+128,i want to share this info,intent:share
+129,can covid19 stay on handle bars,intent:can_i_get_from_packages_surfaces
+130,what precautions can i take to help eliminate spreading of this virus,intent:how_does_corona_spread
+131,what are some signs of corona virus,intent:what_are_symptoms
+132,what are some steps to avoid covid-19,intent:protect_yourself
+133,is the hospital considered a high risk area,intent:what_if_i_visited_high_risk_area
+134,hey corona doctor,intent:hi
+135,please share this service,intent:share
+136,how likely is corona virus spread by delivered food and packages,intent:how_does_corona_spread
+137,what are some treatment options for covid-19,intent:what_are_treatment_options
+138,do fruit-flies carry the virus,intent:how_does_corona_spread
+139,what are the signs you may have the corona,intent:what_are_symptoms
+140,what should i do if i think my animal has the new strain of coronavirus,intent:can_i_get_from_feces_animal_pets
+141,donate in my area,intent:donate
+142,"thank you, doc",intent:okay_thanks
+143,how is it like in california now,intent:latest_numbers
+144,let's share this report with my family,intent:share
+145,how does the virus survive on different surfaces,intent:can_i_get_from_packages_surfaces
+146,thanks so much doc,intent:okay_thanks
+147,animal corona myths,intent:myths
+148,what information can you give me,intent:what_is_corona
+149,gargling salty water to prevent the coronavirus,intent:myths
+150,what is the average age of people affected in the us,intent:latest_numbers
+151,corona virus news from bbc,intent:news_and_press
+152,can someone spread the disease just by walking or running past them,intent:how_does_corona_spread
+153,is vinegar effective in cleaning plastics,intent:can_i_get_from_packages_surfaces
+154,provide funding for virus cure,intent:donate
+155,do you take money,intent:donate
+156,what new happened today,intent:news_and_press
+157,how will i know if i have covid-19,intent:what_are_symptoms
+158,what locations are considered at high risk for coronavirus,intent:what_if_i_visited_high_risk_area
+159,is it true pets can get covid-19,intent:myths
+160,"g'day, doc",intent:hi
+161,can covid-19 spread if you live in high temperature weather,intent:how_does_corona_spread
+162,thank you so so much,intent:okay_thanks
+163,i want more information on covid-19,intent:what_is_corona
+164,which businesses are considered high risks,intent:what_if_i_visited_high_risk_area
+165,is it safe to handle envleopes,intent:can_i_get_from_packages_surfaces
+166,can you educate me on this virus,intent:what_is_corona
+167,how can touching shared surfuces put you at risk for corona virus,intent:how_does_corona_spread
+168,can the 19 be spread faster,intent:how_does_corona_spread
+169,where can i donate canned goods,intent:donate
+170,does that lupus medicine work for covid,intent:what_are_treatment_options
+171,what is covid 19,intent:what_is_corona
+172,"great help, thanks bot",intent:okay_thanks
+173,what is the cure to covid,intent:what_are_treatment_options
+174,do gloves help,intent:protect_yourself
+175,can ticks spread coronavirus,intent:how_does_corona_spread
+176,what are the early stage symptoms,intent:what_are_symptoms
+177,what symptoms would my iguana show,intent:can_i_get_from_feces_animal_pets
+178,could you help me,intent:hi
+179,whaddup doctor,intent:hi
+180,hello covid bot,intent:hi
+181,what is the press saying,intent:news_and_press
+182,how's everything dr. covid,intent:hi
+183,can i get the virus from my phone surface,intent:can_i_get_from_packages_surfaces
+184,give money to school fund for covid-19,intent:donate
+185,will wearing gloves help me avoid covid-19,intent:protect_yourself
+186,is there a vaccination against the covid-19 coronavirus that my pet can receive,intent:can_i_get_from_feces_animal_pets
+187,what are the donation options,intent:donate
+188,what is the narrative on the virus,intent:what_is_corona
+189,can my dog get infected with covid,intent:how_does_corona_spread
+190,how are you corona bot,intent:hi
+191,do hospitals know how to fix this,intent:what_are_treatment_options
+192,how can i donate to corona relief,intent:donate
+193,do nsaids treat covid 19,intent:what_are_treatment_options
+194,ways to protect myself from the virus,intent:protect_yourself
+195,share chat,intent:share
+196,may i get more details on the corona,intent:what_is_corona
+197,can fish and aquarium water spread the virus to people,intent:can_i_get_from_feces_animal_pets
+198,should i be worried of corona virus being spreadable through air,intent:how_does_corona_spread
+199,what's a good cause to donate to,intent:donate
+200,can you get sick by touching a surface with virus,intent:can_i_get_from_packages_surfaces
+201,can i get the corona from opening my mail,intent:how_does_corona_spread
+202,daily death rate in the us,intent:latest_numbers
+203,hmm thanks for the info,intent:okay_thanks
+204,i'll tell my family about this,intent:share
+205,covid age myth,intent:myths
+206,should i cancel my vacation,intent:travel
+207,any new informations on coronavirus,intent:what_is_corona
+208,is coughing a symptom,intent:what_are_symptoms
+209,i went to the hospital without a mask what should i do,intent:what_if_i_visited_high_risk_area
+210,what is the average cost of testing for the virus,intent:latest_numbers
+211,how to tell if a family member has corona virus,intent:what_are_symptoms
+212,do bees carry the virus,intent:how_does_corona_spread
+213,"how's it going, doc",intent:hi
+214,give me a definition of corona virus,intent:what_is_corona
+215,is there a cure for the coronavirus,intent:what_are_treatment_options
+216,hi i'm jack,intent:hi
+217,"hello there, doc",intent:hi
+218,is it safe to visit an elderly care center,intent:what_if_i_visited_high_risk_area
+219,hello covid bot,intent:hi
+220,any updates,intent:news_and_press
+221,"how are you, covid bot",intent:hi
+222,can my pets catch covid19,intent:can_i_get_from_feces_animal_pets
+223,is coronavirus spread on doorknobs,intent:how_does_corona_spread
+224,"afternoon, doc",intent:hi
+225,what is there to know about the corona virus,intent:what_is_corona
+226,how do i donate to the local hospital,intent:donate
+227,best practices to stay safe from covid-19,intent:protect_yourself
+228,is there more we can learn about covid-19,intent:what_is_corona
+229,does hydroxychloroquine treat covid,intent:what_are_treatment_options
+230,should i get tested after visiting a high risk area,intent:what_if_i_visited_high_risk_area
+231,what treatment is there for covid,intent:what_are_treatment_options
+232,"corona updates, please",intent:news_and_press
+233,how long does corona virus last,intent:what_are_symptoms
+234,what are possible danger signs for it,intent:what_are_symptoms
+235,is diarrhea a symptom,intent:what_are_symptoms
+236,tell me the lastest stats in texas,intent:latest_numbers
+237,latest corona press release,intent:news_and_press
+238,how long does the virus live on surfaces,intent:can_i_get_from_packages_surfaces
+239,i have been extra tired lately does that mean u have the corona,intent:what_are_symptoms
+240,how can i protect myself from coronavirus,intent:protect_yourself
+241,will i be ok if i fly to new york in the summer,intent:travel
+242,does the corona cause pressure in my chest,intent:what_are_symptoms
+243,did donald trump fabricate coronavirus to get re-elected,intent:myths
+244,what updates can you give me about covid-19,intent:news_and_press
+245,do flies carry the 19,intent:how_does_corona_spread
+246,which pet is the most at risk for the coronavirus disease,intent:can_i_get_from_feces_animal_pets
+247,what's the highest report of covid 19 contagious,intent:news_and_press
+248,how to clean the groceries,intent:can_i_get_from_packages_surfaces
+249,i want to donate for the refugees,intent:donate
+250,can coronavirus get on door handles,intent:can_i_get_from_packages_surfaces
+251,tell me the latest corona news for europe,intent:news_and_press
+252,differences between allergies and covid19,intent:what_are_symptoms
+253,should i use my own bags at the grocery store,intent:protect_yourself
+254,i wanna donate to the covid 19 illness people,intent:donate
+255,could you tell me about corona virus,intent:what_is_corona
+256,send a link to this service,intent:share
+257,hello,intent:hi
+258,what types of animals can spread the virus,intent:can_i_get_from_feces_animal_pets
+259,should i cancel my destination wedding to italy,intent:travel
+260,"share this bot, please",intent:share
+261,more details that relate to corona virus,intent:what_is_corona
+262,is having a hard time to breathe a symptom,intent:what_are_symptoms
+263,can i go to ny after the quarantine,intent:travel
+264,if i show symptoms what should i do,intent:what_are_symptoms
+265,how do i know if iam in a high risk area,intent:what_if_i_visited_high_risk_area
+266,i would like to help your cause,intent:donate
+267,can i get a vaccine for coronavirus,intent:what_are_treatment_options
+268,share this link on facebook,intent:share
+269,will eating more fruit cure coronavirus,intent:what_are_treatment_options
+270,does it travel in the air,intent:how_does_corona_spread
+271,good morning doctor bot,intent:hi
+272,how is the virus traveling,intent:how_does_corona_spread
+273,how many us states have a shelter in place order,intent:latest_numbers
+274,do i need to clean all my groceries,intent:protect_yourself
+275,thank you for your help corona bot,intent:okay_thanks
+276,coronavirus with heart disease myth,intent:myths
+277,morning doc,intent:hi
+278,what do the numbers look like now,intent:latest_numbers
+279,can i donate some groceries,intent:donate
+280,forward this bot,intent:share
+281,can i share this,intent:share
+282,any news on a vaccine,intent:news_and_press
+283,please give me the latest updates on covid-19,intent:news_and_press
+284,i want an update on the corona virus,intent:what_is_corona
+285,latest covid-19 article,intent:news_and_press
+286,is it true that i can catch covid-19 from animals,intent:myths
+287,is coughing blood a symptom of it,intent:what_are_symptoms
+288,how long is covid-19 active on surfaces,intent:can_i_get_from_packages_surfaces
+289,can covid live long on trees,intent:can_i_get_from_packages_surfaces
+290,what is it about the corona virus we should keep in mind,intent:what_is_corona
+291,what else can i learn about the corona virus,intent:what_is_corona
+292,send this to everyone,intent:share
+293,how do i donate,intent:donate
+294,so grateful for your help,intent:okay_thanks
+295,any homeopathic remedies for covid 19,intent:what_are_treatment_options
+296,covid debunked myths,intent:myths
+297,what does the cdc recommend to treat coronavirus,intent:what_are_treatment_options
+298,is it true dogs were less susceptible to the corona,intent:how_does_corona_spread
+299,give me an update on the pandemic,intent:what_is_corona
+300,may i have more information on airbone transmission,intent:how_does_corona_spread
+301,share the link with my family,intent:share
+302,how do i protect myself if i need to go out for essentials,intent:what_if_i_visited_high_risk_area
+303,how many different symptoms are there,intent:what_are_symptoms
+304,"great, thanks a bunch",intent:okay_thanks
+305,can butterflies carry the virus,intent:how_does_corona_spread
+306,does covid-19 stay on gaming systems,intent:can_i_get_from_packages_surfaces
+307,how far apart should i stand from other people,intent:protect_yourself
+308,is it true plants cant spread the corona virus,intent:how_does_corona_spread
+309,can i get coronavirus from touching groceries,intent:can_i_get_from_packages_surfaces
+310,recovery rate in modesto,intent:latest_numbers
+311,should i be worried about my pets catching covid 19,intent:can_i_get_from_feces_animal_pets
+312,how do i keep safe from getting virus,intent:protect_yourself
+313,what are the treatment options for covid,intent:what_are_treatment_options
+314,share this info,intent:share
+315,can you tell me what covid-19 is,intent:what_is_corona
+316,what are the most recent covid-19 myths,intent:myths
+317,covid myths,intent:myths
+318,how many covid19 cases are there now,intent:latest_numbers
+319,what is the definition of the virus,intent:what_is_corona
+320,i want to share this news link,intent:share
+321,flu treatment options viable to fight corona,intent:what_are_treatment_options
+322,how is it going corona doc,intent:hi
+323,share info about this service,intent:share
+324,can i share this information,intent:share
+325,hey doc,intent:hi
+326,what are some ways to staying safe from covid-19,intent:protect_yourself
+327,what's the treatment for a coronavirus patient,intent:what_are_treatment_options
+328,is it a myth that covid-19 can re-infect people,intent:myths
+329,are body aches symptoms,intent:what_are_symptoms
+330,share this link with my contacts,intent:share
+331,can a dog contract the virus,intent:can_i_get_from_feces_animal_pets
+332,"good day, corona doc",intent:hi
+333,is it safe to travel out of the country,intent:travel
+334,can covid19 live on food items touched by an infected person,intent:can_i_get_from_packages_surfaces
+335,forward the news,intent:share
+336,hi covid- 19 doctor,intent:hi
+337,is covid good at living on steel,intent:can_i_get_from_packages_surfaces
+338,send donation to paris,intent:donate
+339,how many new cases popped up in singapore,intent:latest_numbers
+340,"thanks for the info, doc",intent:okay_thanks
+341,does the coronavirus affect dogs,intent:can_i_get_from_feces_animal_pets
+342,how can i get it,intent:how_does_corona_spread
+343,should i wear gloves when grocery shopping,intent:protect_yourself
+344,updates from italy,intent:news_and_press
+345,i want to share this service,intent:share
+346,is coronavirus dangerous,intent:what_is_corona
+347,is eucaliptus a treatment option for coronavirus,intent:what_are_treatment_options
+348,how safe are cat bites during the pandemic,intent:can_i_get_from_feces_animal_pets
+349,what can i use instead,intent:what_are_treatment_options
+350,rise and shine mr. corona,intent:hi
+351,hi,intent:hi
+352,how is the virus reaching to my house,intent:how_does_corona_spread
+353,what is the safest mode of travel,intent:travel
+354,how often should i clean my table,intent:can_i_get_from_packages_surfaces
+355,what are some of the symptoms,intent:what_are_symptoms
+356,thanks for all the info,intent:okay_thanks
+357,will i get the virus from eating meat,intent:can_i_get_from_feces_animal_pets
+358,does staying home protect my family from getting infected with the virus,intent:protect_yourself
+359,can i visit greece within the next year and be okay,intent:travel
+360,"thanks a million, doctor",intent:okay_thanks
+361,is there otc medicine that will help covid,intent:what_are_treatment_options
+362,hello doc bot,intent:hi
+363,what medicine should i take if i get covid-19,intent:what_are_treatment_options
+364,does covid-19 have a surface it cant attach to,intent:can_i_get_from_packages_surfaces
+365,can i get corona virus from eating sushi,intent:can_i_get_from_feces_animal_pets
+366,is there a list of countries that are officially high risk,intent:what_if_i_visited_high_risk_area
+367,can you list all the symptoms,intent:what_are_symptoms
+368,can i get infected by touch a patient,intent:how_does_corona_spread
+369,what kinds of travel restriction are in place right now,intent:what_if_i_visited_high_risk_area
+370,any misinformation about the virus,intent:myths
+371,how do i donate to unemployed people in my town,intent:donate
+372,should i be concerned about the virus,intent:how_does_corona_spread
+373,omg so glad someone built this,intent:okay_thanks
+374,should i sanitize my hands after grocery shopping,intent:protect_yourself
+375,what should i do if i live with essential workers,intent:what_if_i_visited_high_risk_area
+376,what are the best precautions while travelling,intent:travel
+377,give me treatment options for covid-19,intent:what_are_treatment_options
+378,are my birds at risk to catch the virus,intent:can_i_get_from_feces_animal_pets
+379,what kind of face mask helps,intent:protect_yourself
+380,"hello, hello doc",intent:hi
+381,"thanks for all this, covid bot",intent:okay_thanks
+382,send funds to raleigh,intent:donate
+383,what are.the first symptoms to appear,intent:what_are_symptoms
+384,how do i find out current quarantine restrictions for my city,intent:what_if_i_visited_high_risk_area
+385,headlines for corona virus please,intent:news_and_press
+386,does covid only infect old people,intent:how_does_corona_spread
+387,tell me about the corona virus,intent:what_is_corona
+388,what's the latetest stats on covid19,intent:latest_numbers
+389,does cruising count as non-essential travel,intent:travel
+390,appreciate the help doc,intent:okay_thanks
+391,whats the best material covid-19 dies on,intent:can_i_get_from_packages_surfaces
+392,can covid19 live on bags from the store,intent:can_i_get_from_packages_surfaces
+393,is shortness of breath a symptom,intent:what_are_symptoms
+394,if i think i have covid should i go to the hospital,intent:what_are_treatment_options
+395,share link,intent:share
+396,do 5g antennas spread the coronavirus,intent:myths
+397,how often should i wash a cloth mask,intent:protect_yourself
+398,"share the chat service, please",intent:share
+399,share the world health bot,intent:share
+400,do i have allergies or covid-19,intent:what_are_symptoms
+401,should i need to wash my fresh groceries,intent:protect_yourself
+402,how can i donate,intent:donate
+403,whom can i donate to,intent:donate
+404,funding for covid 19 response chicago,intent:donate
+405,latest news from new york,intent:news_and_press
+406,recovery rate in chicago,intent:latest_numbers
+407,what are the latest numbers of south korea,intent:latest_numbers
+408,ive been sneezing a lot is that caused buy the corona,intent:what_are_symptoms
+409,what should my mom do since she works at the hospital,intent:what_if_i_visited_high_risk_area
+410,"share this, please",intent:share
+411,how do i donate locally,intent:donate
+412,how can i alleviate covid symptoms,intent:what_are_treatment_options
+413,does covid-19 seep into the walls,intent:can_i_get_from_packages_surfaces
+414,if i have a sore throat does that mean i have the corona,intent:what_are_symptoms
+415,can i get covid 19 from petting a cat,intent:can_i_get_from_feces_animal_pets
+416,share this info,intent:share
+417,"great info, thanks doctor bot",intent:okay_thanks
+418,what is the inside story about the virus,intent:what_is_corona
+419,can coronavirus get on my toilet paper,intent:can_i_get_from_packages_surfaces
+420,does covid-19 have specific surfaces it cant be removed from,intent:can_i_get_from_packages_surfaces
+421,morning bot,intent:hi
+422,enlighten me about the virus,intent:what_is_corona
+423,can i travel domestically,intent:travel
+424,how many people have been found to be infected by the virus,intent:latest_numbers
+425,is the coronavirus curable,intent:what_are_treatment_options
+426,what are the signs of the virus,intent:what_are_symptoms
+427,what shoud essential workers do to protect people in their household,intent:what_if_i_visited_high_risk_area
+428,is there a cure for the virus,intent:what_are_treatment_options
+429,what's the best way to make a donation in my community,intent:donate
+430,hello bot,intent:hi
+431,donate to india,intent:donate
+432,i wish i could do something about this,intent:donate
+433,list high risk areas for covid-19,intent:what_if_i_visited_high_risk_area
+434,share this link with my friends only,intent:share
+435,is it a myth that lysol kills coronavirus,intent:myths
+436,tell me about the different symptoms of corona virus,intent:what_are_symptoms
+437,is this story true,intent:myths
+438,what should i do if i visited a high risk area,intent:what_if_i_visited_high_risk_area
+439,tell me about common covid myths,intent:myths
+440,do kids need to wear face masks,intent:protect_yourself
+441,does the coronavirus spread through air,intent:how_does_corona_spread
+442,give me a general update on the corona virus,intent:what_is_corona
+443,what symptoms are there,intent:what_are_symptoms
+444,"doctor corona, you there",intent:hi
+445,how can i tell if my pet get sick from coronavirus,intent:can_i_get_from_feces_animal_pets
+446,"top o' the mornin' to ya, doc",intent:hi
+447,hey there doc,intent:hi
+448,what should i know about covid,intent:what_is_corona
+449,"myths about covid, please",intent:myths
+450,how to clean delivery packages,intent:can_i_get_from_packages_surfaces
+451,should i be worried about getting the virus from delivery packages,intent:can_i_get_from_packages_surfaces
+452,can the virus live on wood items,intent:can_i_get_from_packages_surfaces
+453,what has who said about covid19,intent:news_and_press
+454,i don't wanna die,intent:protect_yourself
+455,how do i share this,intent:share
+456,how are covid patients treated in the hospital,intent:what_are_treatment_options
+457,is it true that the covid-19 was made in a lab,intent:myths
+458,how do i prevent my kids from getting the virus,intent:protect_yourself
+459,what should i do if i have to go to the grocery store,intent:what_if_i_visited_high_risk_area
+460,should i travel by car,intent:travel
+461,what did the president announce,intent:news_and_press
+462,do cat scratches contain the virus,intent:can_i_get_from_feces_animal_pets
+463,how many people total in the world have recovered from the virus,intent:latest_numbers
+464,how many cases per 100k people in california,intent:latest_numbers
+465,this would be great to share,intent:share
+466,which myths about coronovirus are actually true,intent:myths
+467,how can i protect against the virus,intent:protect_yourself
+468,is my dog immune to covid 19,intent:can_i_get_from_feces_animal_pets
+469,how to get treated for corona virus,intent:what_are_treatment_options
+470,is it safe to go abroad this fall,intent:travel
+471,can covid-19 spread by shared living spaces,intent:how_does_corona_spread
+472,do any countries have a cure for coronavirus,intent:what_are_treatment_options
+473,please send a link for this service,intent:share
+474,should i take vitamins to protect myself,intent:protect_yourself
+475,can my snake get covid-19,intent:how_does_corona_spread
+476,hi corona bot,intent:hi
+477,i want to hear about corona virus,intent:what_is_corona
+478,how many people are infected in the bay area,intent:latest_numbers
+479,what is the latest covid news,intent:news_and_press
+480,can i still travel to europe,intent:travel
+481,is there any reliable news on corona,intent:news_and_press
+482,send link to sister,intent:share
+483,will hand sanitizers protect me from the virus,intent:protect_yourself
+484,hey bot,intent:hi
+485,thank you for all the information,intent:okay_thanks
+486,recent developments in my city,intent:news_and_press
+487,can someone who has been quarantined still spread corona virus,intent:how_does_corona_spread
+488,share on my social media,intent:share
+489,please share this,intent:share
+490,show me how to share this to my family,intent:share
+491,what does the cdc recommend for travelers,intent:travel
+492,what's new covid doctor,intent:hi
+493,how does covid-19 spread so easily,intent:how_does_corona_spread
+494,where can i get news on covid-19,intent:news_and_press
+495,is public transportation considered a high risk area,intent:what_if_i_visited_high_risk_area
+496,do cloth face mask help prevent the spread,intent:protect_yourself
+497,is a fever a symptom,intent:what_are_symptoms
+498,how many cases are there in india,intent:latest_numbers
+499,updates on covid-19 in the us,intent:news_and_press
+500,how's it going covid doc,intent:hi
+501,how's the pandemic situation in the philippines,intent:what_if_i_visited_high_risk_area
+502,i'd like to provide funding to spain,intent:donate
+503,is pneumonia a symptom,intent:what_are_symptoms
+504,"thanks, bot",intent:okay_thanks
+505,are there any guidelines i can follow if i visited a high risk area,intent:what_if_i_visited_high_risk_area
+506,will i get the covid from pumping gas,intent:can_i_get_from_packages_surfaces
+507,"how's it going, coronabot",intent:hi
+508,can i travel to mexico via foot,intent:travel
+509,whta's the latest data,intent:latest_numbers
+510,share this information,intent:share
+511,what are the misconceptions,intent:myths
+512,what are high risk areas for coronavirus,intent:what_if_i_visited_high_risk_area
+513,which state has the second highest risk,intent:what_if_i_visited_high_risk_area
+514,"hey doc, what's new",intent:hi
+515,advice for traveling in dc,intent:travel
+516,how many people have died from covid,intent:latest_numbers
+517,will i get covid from my groceries,intent:can_i_get_from_packages_surfaces
+518,i wanna see the latest news about covid in my city,intent:news_and_press
+519,"thanks, i appreciate it",intent:okay_thanks
+520,describe corona,intent:what_is_corona
+521,can i visit my parents in california right now,intent:travel
+522,what do i do if i live with essential employees,intent:what_if_i_visited_high_risk_area
+523,"hello, doc",intent:hi
+524,share this,intent:share
+525,is the virus spreading growing,intent:how_does_corona_spread
+526,can i get sick with covid through food,intent:how_does_corona_spread
+527,what are some of the symptoms associated with corona virus,intent:what_are_symptoms
+528,does virus thrive in water,intent:can_i_get_from_packages_surfaces
+529,how many corona virus cases are there globally now,intent:latest_numbers
+530,what's the latest news about covid,intent:news_and_press
+531,how many new cases are there in california,intent:latest_numbers
+532,what is the treatment for covid-19 on pets,intent:can_i_get_from_feces_animal_pets
+533,can amazon packages transmit the virus,intent:can_i_get_from_packages_surfaces
+534,"hiya, bot doc",intent:hi
+535,coronavirus update iowa,intent:news_and_press
+536,what will help me stay safe,intent:protect_yourself
+537,is corona virus spreadable through air filters and/or air conditioning,intent:how_does_corona_spread
+538,will be the hotels reopen in 40 days,intent:travel
+539,can you get a fever from this virus,intent:what_are_symptoms
+540,did the covid 19 come from africa,intent:myths
+541,how's it going,intent:hi
+542,death rate of coronavirus in the us,intent:latest_numbers
+543,any more information that relates to the covid,intent:what_is_corona
+544,what have the doctors come up with,intent:what_are_treatment_options
+545,is social distancing a myth,intent:myths
+546,please elaborate on the corona,intent:what_is_corona
+547,what are the safety measures for a domestic travel,intent:travel
+548,"i just came back from china, should i get tested",intent:what_if_i_visited_high_risk_area
+549,what are today's updates,intent:news_and_press
+550,am i coming down with a cold or covid-19,intent:what_are_symptoms
+551,have there been any updates on coronavirus from the cdc since last week,intent:news_and_press
+552,share a link to this,intent:share
+553,total deaths from covid in australia,intent:latest_numbers
+554,"okay, thanks covid doc",intent:okay_thanks
+555,what are the current bans on travel in the us,intent:travel
+556,give me information about the virus and animals,intent:can_i_get_from_feces_animal_pets
+557,what is the projected number of deaths from the virus if we do not socially distance,intent:latest_numbers
+558,what is causing it to spread,intent:how_does_corona_spread
+559,how many people has coronavirus killed,intent:latest_numbers
+560,good morning doctor bot,intent:hi
+561,are there any news about coronavirus in my area,intent:news_and_press
+562,which country is currently the highest risk,intent:what_if_i_visited_high_risk_area
+563,how many people died yesterday from the covid,intent:latest_numbers
+564,"thanks, you rock",intent:okay_thanks
+565,what measures should elderly individuals be taking,intent:protect_yourself
+566,how can i tell if my cat has corona,intent:can_i_get_from_feces_animal_pets
+567,are beaches considered high risk areas,intent:what_if_i_visited_high_risk_area
+568,"what's new, coronabot",intent:hi
+569,tell me about travel in the midwest usa,intent:travel
+570,does washing hands help,intent:protect_yourself
+571,tell me all of the symptoms of covid19,intent:what_are_symptoms
+572,recovery rate in san francisco,intent:latest_numbers
+573,are baby animals affected more,intent:can_i_get_from_feces_animal_pets
+574,what are the updates regarding covid-19 travel restrictions,intent:travel
+575,"thank you very much, corona doc",intent:okay_thanks
+576,give money to the who fund,intent:donate
+577,thanks for the help,intent:okay_thanks
+578,should i eat uncooked meat like sushi without coronavirus concern,intent:can_i_get_from_feces_animal_pets
+579,does covid-19 stay on bed sheets,intent:can_i_get_from_packages_surfaces
+580,"good morning, dr",intent:hi
+581,should i avoid large crowded places,intent:protect_yourself
+582,share this link to my twitter followers,intent:share
+583,"interesting, thanks",intent:okay_thanks
+584,how many elderly people have recovered from the virus,intent:latest_numbers
+585,how is coronavirus spread in public,intent:how_does_corona_spread
+586,what did cuomo do regarding covid today,intent:news_and_press
+587,death rate in the united kingdom,intent:latest_numbers
+588,what's the stats on corona in new york now,intent:latest_numbers
+589,can a bird test positive,intent:can_i_get_from_feces_animal_pets
+590,share this article on my facebook feed,intent:share
+591,is person-to-person contact the main mode of covid transmission,intent:how_does_corona_spread
+592,what are the myths about covid,intent:myths
+593,is there a specific number of cases that define high risk area,intent:what_if_i_visited_high_risk_area
+594,how can i protect my family,intent:protect_yourself
+595,how can the covid-19 spread decrease in a large community,intent:how_does_corona_spread
+596,how severe do the symptoms get,intent:what_are_symptoms
+597,what are myths about coronavirus,intent:myths
+598,myths about desinfect your shoes every day,intent:myths
+599,can cloth mask be a carrier of virus,intent:can_i_get_from_packages_surfaces
+600,please tell me if it's a myth that soup gives you corona,intent:myths
+601,is there a covid-19 vaccine in the works,intent:what_are_treatment_options
+602,show me the lastest stats for china,intent:latest_numbers
+603,is it safe to drive to cleveland,intent:travel
+604,how can i send dollars to someone,intent:donate
+605,donate doctors without borders,intent:donate
+606,can you tell me the total confirmed cases in the tri-state area,intent:latest_numbers
+607,how effective are gloves,intent:protect_yourself
+608,can bleach kill the virus,intent:can_i_get_from_packages_surfaces
+609,covid hoax snopes,intent:myths
+610,i live in a high risk area what are the chances i have contracted or am a carrier of disease,intent:what_if_i_visited_high_risk_area
+611,should i wear face masks to prevent covid-19,intent:protect_yourself
+612,are there steps to follow for people who visited high risk areas,intent:what_if_i_visited_high_risk_area
+613,how to determine if i have corona virus,intent:what_are_symptoms
+614,should i self-isolate if i show symptoms,intent:what_are_symptoms
+615,link this to my profile,intent:share
+616,how safe is air travel now,intent:travel
+617,send out this information,intent:share
+618,which cities in the united states are at most risk for coronavirus right now,intent:what_if_i_visited_high_risk_area
+619,at-home remedies for covid,intent:what_are_treatment_options
+620,can i visit china now,intent:travel
+621,how long does covid19 stay on public surfaces,intent:can_i_get_from_packages_surfaces
+622,how fast can people get infected if there is a community spread,intent:how_does_corona_spread
+623,does the virus travel by smells,intent:how_does_corona_spread
+624,are wild mice coming up positive,intent:can_i_get_from_feces_animal_pets
+625,how can i protect my family from covid-19,intent:protect_yourself
+626,did a tiger really get the corona virus,intent:myths
+627,what's the most recent news about covid-19,intent:news_and_press
+628,can i get covid19 from mail deliveries,intent:can_i_get_from_packages_surfaces
+629,what areas have the quarantine restrictions in place for covid-19,intent:what_if_i_visited_high_risk_area
+630,tell me potential myths about covid,intent:myths
+631,"corona virus, what is it",intent:what_is_corona
+632,share this service with all my followers,intent:share
+633,i'd like to donate,intent:donate
+634,is the cough of corona virus contagious,intent:what_are_symptoms
+635,what is the lowdown on this covid,intent:what_is_corona
+636,will withdrawing cash from an atm give me the virus,intent:can_i_get_from_packages_surfaces
+637,whart is the recovery rate in china,intent:latest_numbers
+638,is it a myth that gargling salt water kills corona,intent:myths
+639,i'm gonna share this service online,intent:share
+640,can i get covid-19 from kids dirty clothes,intent:how_does_corona_spread
+641,tell me some tips to staying safe,intent:protect_yourself
+642,what's the most dangerous material,intent:can_i_get_from_packages_surfaces
+643,can the virus be on doors,intent:can_i_get_from_packages_surfaces
+644,i want to donate to spain,intent:donate
+645,can the virus spread on my tv remote,intent:can_i_get_from_packages_surfaces
+646,how easily is covid-19 spread,intent:how_does_corona_spread
+647,i wanna donate a bit of money,intent:donate
+648,can you tell me what corona virus is,intent:what_is_corona
+649,most recent news from south korea,intent:news_and_press
+650,can i travel outside the united states,intent:travel
+651,whassup doc,intent:hi
+652,how do people get rid of the coronavirus,intent:what_are_treatment_options
+653,does bird feces contain the virus,intent:can_i_get_from_feces_animal_pets
+654,where do i go to donate to the red cross,intent:donate
+655,"thanks, covid bot",intent:okay_thanks
+656,how do i give money to a ventilator fund,intent:donate
+657,does the covid-19 cause diarrhoea,intent:what_are_symptoms
+658,should my pet wear a face mask when in public,intent:can_i_get_from_feces_animal_pets
+659,how is the virus traveling,intent:how_does_corona_spread
+660,is there any vaccine for covid-19,intent:what_are_treatment_options
+661,share this on my story,intent:share
+662,thanks so much bot,intent:okay_thanks
+663,"what's the word, covid bot",intent:hi
+664,is there a list of protected gear i need when leaving my house,intent:what_if_i_visited_high_risk_area
+665,how can i call the bs,intent:myths
+666,enlighten me about the virus,intent:what_is_corona
+667,i wanna send money to unemployed people,intent:donate
+668,give me the facts about covid-19,intent:what_is_corona
+669,donate to local food banks,intent:donate
+670,how to avoid getting the virus,intent:protect_yourself
+671,do i need to cancel my vacation to japan,intent:travel
+672,can i get corona virus from eating beef,intent:can_i_get_from_feces_animal_pets
+673,what is the virus,intent:what_is_corona
+674,what are the lies they are saying,intent:myths
+675,does the vaccine exist in germany,intent:myths
+676,is it a myth that lavender helps covid,intent:myths
+677,i wanna provide money to a fund for nyc food shelters,intent:donate
+678,travel tips during the pandemic,intent:travel
+679,okay thanks,intent:okay_thanks
+680,should i travel within the u.s during the pandemic,intent:what_if_i_visited_high_risk_area
+681,is it a myth that ibuprofin makes coronavirus worse,intent:myths
+682,are there any travel restrictions in spain,intent:what_if_i_visited_high_risk_area
+683,advice for traveling by train,intent:travel
+684,what symptoms should i worry about most,intent:what_are_symptoms
+685,is it true that there's covid vaccine,intent:myths
+686,what is the main transmission of covid-19,intent:how_does_corona_spread
+687,are you there doctor,intent:hi
+688,what time will the press release be today,intent:news_and_press
+689,what is considered essential travel,intent:travel
+690,post this bot,intent:share
+691,is buying groceries an excuse to be outside,intent:travel
+692,what are the statistics on countries enforcing mask wearing versus countries that don't,intent:latest_numbers
+693,what are the least safe places to travel right now,intent:travel
+694,i want to donate money to italy,intent:donate
+695,is there a list of items i should wear if i am going somewhere,intent:what_if_i_visited_high_risk_area
+696,how can i stay safe,intent:protect_yourself
+697,should i worry about petting animals and getting the virus,intent:can_i_get_from_feces_animal_pets
+698,is sharing allowed,intent:share
+699,hello,intent:hi
+700,how do i donate to support washington,intent:donate
+701,what are the symptoms of covid-19,intent:what_are_symptoms
+702,how do i share this with reddit,intent:share
+703,can a mosquito bite give me covid,intent:how_does_corona_spread
+704,does the covid-19 cause nasal congestion,intent:what_are_symptoms
+705,"much thankful, coronabot",intent:okay_thanks
+706,thank you very much,intent:okay_thanks
+707,is coughing a symptom,intent:what_are_symptoms
+708,how to protect myself in high risk areas,intent:what_if_i_visited_high_risk_area
+709,is having a high temperature a sign of having corona,intent:what_are_symptoms
+710,what's the most recent news from australia,intent:news_and_press
+711,how likely is covid-19 spreadable through tap water,intent:how_does_corona_spread
+712,how many new cases are there worldwide today,intent:latest_numbers
+713,how can i treat myself for coronavirus,intent:what_are_treatment_options
+714,what's the safest transport right now,intent:travel
+715,can i share this link,intent:share
+716,how do i know if i have traveled from a high risk area,intent:what_if_i_visited_high_risk_area
+717,what is the most recent news from seattle,intent:news_and_press
+718,can insects be coronavirus carriers,intent:can_i_get_from_feces_animal_pets
+719,"yo, corona bot, what's up",intent:hi
+720,do gloves actually help decrease the spread of the contact transmission,intent:how_does_corona_spread
+721,let's donate for new york,intent:donate
+722,what's the latest news on the situation in india,intent:news_and_press
+723,are grocery stores considered a hisk risk area,intent:what_if_i_visited_high_risk_area
+724,can horses get the virus,intent:can_i_get_from_feces_animal_pets
+725,can i share this link,intent:share
+726,thank you for your help,intent:okay_thanks
+727,i'd like to know how many people have been tested so far for covid19 in the u.s,intent:latest_numbers
+728,is there an outline on details regarding covid,intent:what_is_corona
+729,am i in a high risk area,intent:what_if_i_visited_high_risk_area
+730,let me share this chat,intent:share
+731,what medication can i take to get over covid-19,intent:what_are_treatment_options
+732,what is a virus,intent:what_is_corona
+733,hello robot,intent:hi
+734,share the link for this,intent:share
+735,can the virus travel on clothes,intent:how_does_corona_spread
+736,post this on my timeline,intent:share
+737,ways to assure i dont get the virus,intent:protect_yourself
+738,is it ok to visit a hospital this week,intent:what_if_i_visited_high_risk_area
+739,what's the country with the most death count,intent:latest_numbers
+740,what surface will have virus for the longest time,intent:can_i_get_from_packages_surfaces
+741,does corona virus transmit from birds,intent:can_i_get_from_feces_animal_pets
+742,i want to donate to local relief efforts,intent:donate
+743,can i take a two hour trip to visit my grandmother,intent:travel
+744,does it stay active on surfaces,intent:can_i_get_from_packages_surfaces
+745,how can i donate to the red cross,intent:donate
+746,i've had a cold for a week now,intent:what_are_symptoms
+747,what makes a place considered high risk,intent:what_if_i_visited_high_risk_area
+748,thanks for doing this,intent:okay_thanks
+749,myths about face masks to prevent coronavirus,intent:myths
+750,what can i do to avoid getting sick,intent:protect_yourself
+751,covid-19 news from south korea,intent:news_and_press
+752,can i use hydroxycholroquine for novel virus,intent:what_are_treatment_options
+753,can alcohol kill the virus,intent:can_i_get_from_packages_surfaces
+754,is it ok to visit japan this year once the lockdown is over,intent:what_if_i_visited_high_risk_area
+755,does coronavirus stay longer on cardboard,intent:can_i_get_from_packages_surfaces
+756,total recoveries from covid,intent:latest_numbers
+757,thanks for the details,intent:okay_thanks
+758,can i travel to europe right now,intent:travel
+759,cure for covid-19,intent:what_are_treatment_options
+760,how can i tell if my cat has corona,intent:can_i_get_from_feces_animal_pets
+761,what are the current developments about corona worldwide,intent:news_and_press
+762,is coronavirus treatable,intent:what_are_treatment_options
+763,tell me about the pandemic,intent:what_is_corona
+764,does 5g cause coronavirus,intent:myths
+765,good morning doc covid,intent:hi
+766,"what's the current pandemic status in rome, italy",intent:what_if_i_visited_high_risk_area
+767,can i drive across state lines,intent:travel
+768,what's the death count in south korea,intent:latest_numbers
+769,may i know more on the corona virus,intent:what_is_corona
+770,what are the most important updates on coronavirus in the world,intent:news_and_press
+771,thank you so much for the info,intent:okay_thanks
+772,send funds to nursing homes in my area,intent:donate
+773,how many people under the age of 18 are infected,intent:latest_numbers
+774,can i still travel by train,intent:travel
+775,what other information must i learn about covid,intent:what_is_corona
+776,myths about pets and coronavirus,intent:myths
+777,can i safely travel via bus,intent:travel
+778,can covid spread if someone only has mild symptoms,intent:how_does_corona_spread
+779,where can i track the global outbreak,intent:what_if_i_visited_high_risk_area
+780,how effective is hand sanitizer,intent:protect_yourself
+781,would there be anymore details about covid,intent:what_is_corona
+782,how do i share this,intent:share
+783,can asymptomatic people spread coronavirus,intent:how_does_corona_spread
+784,thanks for the info doc,intent:okay_thanks
+785,should i increase indoor ventilation to prevent covid from spreading,intent:how_does_corona_spread
+786,number of cases in vietnam,intent:latest_numbers
+787,while staying on surfaces does covid become stronger,intent:can_i_get_from_packages_surfaces
+788,who are you,intent:hi
+789,news,intent:news_and_press
+790,how many times a day should i wash my hands,intent:protect_yourself
+791,i want to share this on my page,intent:share
+792,thank you for your interest,intent:okay_thanks
+793,if i show symptoms what should i do,intent:what_are_symptoms
+794,can my dog get the virus,intent:can_i_get_from_feces_animal_pets
+795,give me the best options for travel in dc,intent:travel
+796,should i be wiping down my groceries,intent:protect_yourself
+797,what is best way to clean any surface carrying virus,intent:can_i_get_from_packages_surfaces
+798,latest stats in the us,intent:latest_numbers
+799,can the disease spread from touching your eyes,intent:how_does_corona_spread
+800,give to the nyc fund,intent:donate
+801,should i cancel my flight,intent:travel
+802,thanks for your help,intent:okay_thanks
+803,covid updates from the latest press release,intent:news_and_press
+804,hello corona doctor,intent:hi
+805,cdc covid-19 treatment recommendations,intent:what_are_treatment_options
+806,is a runny nose a symptom of the covid-19,intent:what_are_symptoms
+807,natural remedies for covid-19 side effects,intent:what_are_treatment_options
+808,i'm so pleassed to learn from you coronabot,intent:okay_thanks
+809,can we get sick from giraffe mucus exposure,intent:can_i_get_from_feces_animal_pets
+810,i really appreciate you for helping me,intent:okay_thanks
+811,hello covid bot,intent:hi
+812,who will collect the samples from my pets if my pets have covid-19 symptoms,intent:can_i_get_from_feces_animal_pets
+813,i'd like to donate to help italy,intent:donate
+814,how did you sleep mr. covid,intent:hi
+815,"i appreciate it, thank you",intent:okay_thanks
+816,show me how to donate please,intent:donate
+817,how long is the virus alive on surfaces,intent:protect_yourself
+818,send this info to my friends,intent:share
+819,hey doc,intent:hi
+820,covid-19 updates,intent:news_and_press
+821,do animals spread the virus,intent:myths
+822,i appreciate it,intent:okay_thanks
+823,what does the cft about the economic crisis,intent:news_and_press
+824,"can pets get the coronavirus, and can we catch it from them",intent:can_i_get_from_feces_animal_pets
+825,what's up doc,intent:hi
+826,is coronavirus like the flu,intent:what_is_corona
+827,show the latest myths about coronavirus,intent:myths
+828,is the coronavirus disease zoonotic,intent:can_i_get_from_feces_animal_pets
+829,is it a myth that my dog can give me covid 19,intent:myths
+830,can you give me more info on respiratory transmission,intent:how_does_corona_spread
+831,broadcast this chat,intent:share
+832,can corona virus cause pnumonia,intent:what_are_symptoms
+833,what are the newest figures,intent:latest_numbers
+834,should i avoid wearing jewelry when shopping,intent:protect_yourself
+835,i wanna give funds to italy,intent:donate
+836,morning,intent:hi
+837,thanks for everything,intent:okay_thanks
+838,donate funds,intent:donate
+839,why is this virus spreading so fast,intent:how_does_corona_spread
+840,need travel advice,intent:travel
+841,is it true that drinking alcohol prevents coronavirus,intent:myths
+842,should pets be tested for coronavirus,intent:can_i_get_from_feces_animal_pets
+843,if a dog bites me can i get covid 19,intent:can_i_get_from_feces_animal_pets
+844,is it true that i need to wear a mask in public,intent:myths
+845,are there any species of amphibians that carry covid,intent:can_i_get_from_feces_animal_pets
+846,gimme the daily corona update,intent:news_and_press
+847,what are the highest risk businesses to visit right now,intent:what_if_i_visited_high_risk_area
+848,is it okay to travel to alaska,intent:travel
+849,thanks for all your help,intent:okay_thanks
+850,does covid-19 attach itself to the walls,intent:can_i_get_from_packages_surfaces
+851,get me latest coronavirus myths,intent:myths
+852,can i get the virus from using plastic bags from safeway,intent:can_i_get_from_packages_surfaces
+853,i have a fever does that mean i have the corona,intent:what_are_symptoms
+854,what state in the united states is at the highest risk,intent:what_if_i_visited_high_risk_area
+855,where should i go for medical advice,intent:what_are_treatment_options
+856,how can i get better,intent:what_are_symptoms
+857,does standing 6ft apart from others help,intent:protect_yourself
+858,thanks doctor for all your help,intent:okay_thanks
+859,how many tests are there in are available in the us,intent:latest_numbers
+860,what's the latest on the pandemic in puerto rico,intent:news_and_press
+861,can you share the who bot,intent:share
+862,do we have a cure yet,intent:what_are_treatment_options
+863,does covid live on packages for 24 hours,intent:myths
+864,thanks a ton,intent:okay_thanks
+865,are face masks effective,intent:protect_yourself
+866,can i get infected with covid if someone sneezes on me,intent:how_does_corona_spread
+867,share this link with mom,intent:share
+868,"i just visited a high risk area, should i get tested",intent:what_if_i_visited_high_risk_area
+869,can i travel to go hiking,intent:travel
+870,does the disease travel in food,intent:how_does_corona_spread
+871,how many people have been tested in the korea so far,intent:latest_numbers
+872,what are the who press releases on covid-19 this week,intent:news_and_press
+873,should i be using public hand rails without gloves,intent:can_i_get_from_packages_surfaces
+874,coronavirus news please,intent:news_and_press
+875,how can i not get coronavirus,intent:protect_yourself
+876,what do i do if i live in a high risk area for coronavirus,intent:what_if_i_visited_high_risk_area
+877,are there any economic updates,intent:news_and_press
+878,can i use it as soon as it wil be delivered,intent:what_are_treatment_options
+879,how can i tell if someone has corona,intent:what_are_symptoms
+880,okay,intent:okay_thanks
+881,travel agents during quarantine,intent:travel
+882,"do i need to worry about wild life like birds, squirrels? can them spread virus too",intent:can_i_get_from_feces_animal_pets
+883,can i get the virus from eating pork,intent:can_i_get_from_feces_animal_pets
+884,what info do you have on corona,intent:what_is_corona
+885,covid myths versus facts,intent:myths
+886,hi doc,intent:hi
+887,"today's coronavirus update, please",intent:news_and_press
+888,donate to covid-19 relief now,intent:donate
+889,is covid-19 a bioweapon,intent:myths
+890,what do i do if i have to visit a high risk area,intent:what_if_i_visited_high_risk_area
+891,can mosquitoes spread coronavirus,intent:can_i_get_from_feces_animal_pets
+892,how's your day going corona doc,intent:hi
+893,i wanna share this link with my family,intent:share
+894,are there any cases of getting covid from eating steaks,intent:can_i_get_from_feces_animal_pets
+895,should i wear gloves,intent:protect_yourself
+896,what's the newest stats on corona virus in u.s,intent:latest_numbers
+897,i live near the beach. should i be concerned,intent:what_if_i_visited_high_risk_area
+898,what is the most popular coronavirus myth,intent:myths
+899,is there a vaccine for covid-19,intent:what_are_treatment_options
+900,"hey, yo, what up bot",intent:hi
+901,does my city have a local relief fund,intent:donate
+902,should i wash all my shopping,intent:can_i_get_from_packages_surfaces
+903,which countries are still in a nationwide shutdown,intent:what_if_i_visited_high_risk_area
+904,can my parrot get the corona,intent:how_does_corona_spread
+905,is it okay to commute across state lines,intent:travel
+906,where is a covid-19 vaccine being developed,intent:what_are_treatment_options
+907,recent updates in bahrain,intent:news_and_press
+908,what are some methods to protecting a newborn baby from covid-19,intent:protect_yourself
+909,can you get covid from opening a trash can,intent:can_i_get_from_packages_surfaces
+910,"more infomation about corona virus, please",intent:what_is_corona
+911,funding for high-risk locations,intent:donate
+912,does covid-19 stay on ceilings,intent:can_i_get_from_packages_surfaces
+913,"how do you do, doctor",intent:hi
+914,is it a myth that diffused oils can cure covid-19,intent:myths
+915,what's the latest statistics,intent:latest_numbers
+916,donate to covid-19,intent:donate
+917,how many tests has the us done,intent:latest_numbers
+918,"popular coronavirus myths, please",intent:myths
+919,care to explain explicit details on corona,intent:what_is_corona
+920,covid vaccine,intent:what_are_treatment_options
+921,what practices should i use when doing essential errands,intent:protect_yourself
+922,"send me the latest news from germany, please",intent:news_and_press
+923,does covid-19 stay on books,intent:can_i_get_from_packages_surfaces
+924,what's the lastest news from italy,intent:news_and_press
+925,does acetaminophen cure coronavirus,intent:what_are_treatment_options
+926,what's the death count in santa clara county,intent:latest_numbers
+927,educate me on covid-19,intent:what_is_corona
+928,myths about home remedies for covid-19,intent:myths
+929,can i hear an update on the pandemic,intent:what_is_corona
+930,top precautions for the virus,intent:protect_yourself
+931,i have a cold should i be worried,intent:what_are_symptoms
+932,good evening,intent:hi
+933,tell me all the possible symptoms of covid-19,intent:what_are_symptoms
+934,thnx bro,intent:okay_thanks
+935,world updates for covid-19,intent:news_and_press
+936,which surface is most likely to have virus for the longest time,intent:can_i_get_from_packages_surfaces
+937,should i be scared since i was around a lot of people,intent:what_if_i_visited_high_risk_area
+938,tell me about corona virus,intent:what_is_corona
+939,what should i do to prevent,intent:protect_yourself
+940,what about the sneeze of a tiger,intent:can_i_get_from_feces_animal_pets
+941,is testing mandatory in the high risk areas,intent:what_if_i_visited_high_risk_area
+942,"hey, what's up",intent:hi
+943,get me last local press release on virus,intent:news_and_press
+944,can i get covid 19 from mice,intent:can_i_get_from_feces_animal_pets
+945,how should i shop for produce at the grocery store,intent:protect_yourself
+946,where did the covid-19 come from,intent:what_is_corona
+947,"what's up, covid bot",intent:hi
+948,"much appreciated, bot",intent:okay_thanks
+949,how do i share link this to my contact list,intent:share
+950,should i wear a mask,intent:how_does_corona_spread
+951,treatments for corona,intent:what_are_treatment_options
+952,is it possible to for me to get infected with covid and spread it to others without knowing,intent:how_does_corona_spread
+953,infected cases in colorado,intent:latest_numbers
+954,can i get a vaccine for covid,intent:what_are_treatment_options
+955,what is the history of covid-10,intent:what_is_corona
+956,should different age groups take different prevention measures,intent:protect_yourself
+957,is there any truth to the covid myths,intent:myths
+958,i appreciate your help with travel safety tips,intent:okay_thanks
+959,what was in the last press release about covid,intent:news_and_press
+960,will i get in trouble visiting a high risk area,intent:what_if_i_visited_high_risk_area
+961,how can i tell if someone has corona virus,intent:what_are_symptoms
+962,how long does the corona stay on my kids toys,intent:how_does_corona_spread
+963,should i wipe down my trunk after going grocery shopping,intent:protect_yourself
+964,is it a myth that covid is worse than the regular flu,intent:myths
+965,how did they come up with name for the virus,intent:what_is_corona
+966,could you share more information about corona,intent:what_is_corona
+967,show me yesterday's press release from trump,intent:news_and_press
+968,is there a cure yet for covid-19,intent:what_are_treatment_options
+969,how many essential workers have been infected so far,intent:latest_numbers
+970,how should i protect myself,intent:protect_yourself
+971,what medicines are effective against covid-19,intent:what_are_treatment_options
+972,how do i share this link,intent:share
+973,"how ya goin, bot",intent:hi
+974,what should i check to see if i have the disease,intent:what_are_symptoms
+975,has any animals tested positive from corona,intent:can_i_get_from_feces_animal_pets
+976,can i use essential oils to tread covid,intent:what_are_treatment_options
+977,should i go to the hospital if i show symptoms,intent:what_are_symptoms
+978,what's happening,intent:hi
+979,do i need to wear a mask on my subway ride,intent:travel
+980,do i need a n95 mask,intent:protect_yourself
+981,any news today for rome,intent:news_and_press
+982,will self quarantine help if i have come back from a high risk area,intent:what_if_i_visited_high_risk_area
+983,can coronavirus be spread in our stool,intent:how_does_corona_spread
+984,"gratitude, corona doc",intent:okay_thanks
+985,link this publication to my office,intent:share
+986,give me an update on covid-19,intent:what_is_corona
+987,will i get infected if i touch something a patient has used,intent:can_i_get_from_packages_surfaces
+988,is air travel safe right now,intent:travel
+989,can the virus spread by skin to skin interaction,intent:how_does_corona_spread
+990,can a dead skunk on the road get a hungry coyote ill,intent:can_i_get_from_feces_animal_pets
+991,what ethnicity has taken the largest hit from covid,intent:latest_numbers
+992,can i reuse my face mask,intent:protect_yourself
+993,which countries are most affected by coronavirus outbreak,intent:what_if_i_visited_high_risk_area
+994,hello doctor,intent:hi
+995,can mites spread the disease to rats,intent:can_i_get_from_feces_animal_pets
+996,how effective has masks been with slowing down the spread of covid-19,intent:how_does_corona_spread
+997,thanks bot,intent:okay_thanks
+998,donate to lansing,intent:donate
+999,can i get the virus from dogs,intent:can_i_get_from_feces_animal_pets
+1000,what qualifies as a high risk area for coronavirus,intent:what_if_i_visited_high_risk_area
+1001,any news on coronavirus from today,intent:news_and_press
+1002,post to friends,intent:share
+1003,can coronavirus live on the exterior of my face mask,intent:can_i_get_from_packages_surfaces
+1004,are there any treatments for covid,intent:what_are_treatment_options
+1005,what types of businesses are considered high risk,intent:what_if_i_visited_high_risk_area
+1006,is covid-19 causing my shortness of breath,intent:what_are_symptoms
+1007,number of cases in europe,intent:latest_numbers
+1008,share this info over text,intent:share
+1009,i want to know about the virus,intent:what_is_corona
+1010,how can i donate money,intent:donate
+1011,are you still sleepy bot,intent:hi
+1012,what if i have to work in a high risk area during coronavirus outbreak,intent:what_if_i_visited_high_risk_area
+1013,will there be a press conference today,intent:news_and_press
+1014,does coronavirus have a cure,intent:what_are_treatment_options
+1015,can someone spread coronavirus if they don't have symptoms,intent:how_does_corona_spread
+1016,can i take the subway to the store,intent:travel
+1017,covid-19 press releases,intent:news_and_press
+1018,have people got covid from deliveries from china,intent:can_i_get_from_packages_surfaces
+1019,how effective is cleaning with alcohol,intent:can_i_get_from_packages_surfaces
+1020,will corona die fast on metal,intent:can_i_get_from_packages_surfaces
+1021,show me the latest about covid-19 in mexico,intent:news_and_press
+1022,this is amazing,intent:okay_thanks
+1023,any other details you can recount on the corona,intent:what_is_corona
+1024,show me treatment options for the virus,intent:what_are_treatment_options
+1025,share this link to non believers,intent:share
+1026,is it safe to get on a flight,intent:travel
+1027,is it okay if i take the train,intent:travel
+1028,how long should i wait to get help if i show signs of corona,intent:what_are_symptoms
+1029,can i get covid-19 by touching my eyes,intent:can_i_get_from_packages_surfaces
+1030,what cleaning practices kill the virus,intent:protect_yourself
+1031,do you need to dilute bleach to clean,intent:can_i_get_from_packages_surfaces
+1032,is there type of material it cant live on,intent:can_i_get_from_packages_surfaces
+1033,tell me information on corona virus myths,intent:myths
+1034,how to alleviate coronavirus symptoms,intent:what_are_treatment_options
+1035,"got it, thanks",intent:okay_thanks
+1036,are trains still running in europe,intent:travel
+1037,i traveled to new york recently am i infected,intent:what_if_i_visited_high_risk_area
+1038,"cool, thanks",intent:okay_thanks
+1039,can i continue using public transportation during the pandemic,intent:what_if_i_visited_high_risk_area
+1040,is it safer to travel on plane or train,intent:travel
+1041,thanks doctor bot,intent:okay_thanks
+1042,how do i cure coronavirus if i caught it,intent:what_are_treatment_options
+1043,is covid fake,intent:myths
+1044,covid cure please,intent:what_are_treatment_options
+1045,what can i do first if i get covid 19,intent:what_are_treatment_options
+1046,any news about covid,intent:news_and_press
+1047,"i have a dry cough, does that mean i have the corona virus",intent:what_are_symptoms
+1048,will you get covid if you read a newspaper,intent:can_i_get_from_packages_surfaces
+1049,send out funds to coronavirus efforts in colorado,intent:donate
+1050,should i be worried about my girlfriend coming home from the hospital,intent:what_if_i_visited_high_risk_area
+1051,i need more information about covid-19,intent:what_is_corona
+1052,is it safe to travel with kids,intent:travel
+1053,"you're literally a life saver, thanks doc",intent:okay_thanks
+1054,can the virus be spread by kissing,intent:how_does_corona_spread
+1055,is it true that hot baths kill covid-19,intent:myths
+1056,can a bear's sneeze spread coronavirus,intent:can_i_get_from_feces_animal_pets
+1057,"hi, corona",intent:hi
+1058,can chickens carry the virus,intent:can_i_get_from_feces_animal_pets
+1059,i think i have the flu,intent:what_are_symptoms
+1060,who offers a vaccine for corona virus,intent:what_are_treatment_options
+1061,do pigeons carry corona,intent:can_i_get_from_feces_animal_pets
+1062,"much appreciated, corona bot",intent:okay_thanks
+1063,how can i donate to new york city,intent:donate
+1064,how does the virus spread,intent:how_does_corona_spread
+1065,i wanna hear more about the pandemic,intent:what_is_corona
+1066,did corona virus come from a lab,intent:myths
+1067,what's the latest,intent:news_and_press
+1068,can you update me on any new informations for covid-19,intent:what_is_corona
+1069,can you share this bot,intent:share
+1070,i want to donate to research in my state,intent:donate
+1071,does the virus live on mail boxes,intent:can_i_get_from_packages_surfaces
+1072,is it safe to go grocery shopping,intent:what_if_i_visited_high_risk_area
+1073,should i stand six feet apart from others,intent:protect_yourself
+1074,can i travel from the us right now,intent:travel
+1075,what are doctors using for covid,intent:what_are_treatment_options
+1076,what are common myths about corona,intent:myths
+1077,how long does these symptoms last,intent:what_are_symptoms
+1078,how can i protect my kids,intent:protect_yourself
+1079,can i travel to canada right now,intent:travel
+1080,what is considered essential travel,intent:travel
+1081,how fast does coronavirus die on surfaces that are cleaned,intent:can_i_get_from_packages_surfaces
+1082,should i worry if i have a runny nose,intent:what_are_symptoms
+1083,thank you kindly,intent:okay_thanks
+1084,treatment covid 19,intent:what_are_treatment_options
+1085,any news about the virus in italy,intent:news_and_press
+1086,covid 19 cures,intent:what_are_treatment_options
+1087,good morning,intent:hi
+1088,i appreciate it doc,intent:okay_thanks
+1089,is it safe to travel now,intent:travel
+1090,donate to a local charity,intent:donate
+1091,does hot weather kill the virus,intent:myths
+1092,give me a report on corona,intent:what_is_corona
+1093,donate american red cross,intent:donate
+1094,new updates from new york,intent:news_and_press
+1095,is crossing state lines allowed,intent:travel
+1096,tell me what i should know about covid,intent:what_is_corona
+1097,is the virus present in dog saliva,intent:can_i_get_from_feces_animal_pets
+1098,how likely can you transmit the corona virus,intent:how_does_corona_spread
+1099,"share this with my friends, please",intent:share
+1100,i'm scared what do i do,intent:protect_yourself
+1101,good morning doctor,intent:hi
+1102,how safe is it to own a pet bat,intent:can_i_get_from_feces_animal_pets
+1103,hi coronavirus doctor,intent:hi
+1104,what treatments are there for covid right now,intent:what_are_treatment_options
+1105,how do i tell if someone is infected,intent:what_are_symptoms
+1106,what medicine should i take for covid,intent:what_are_treatment_options
+1107,is it safe to travel on a train,intent:travel
+1108,please tell me my fish are safe from the covid-19,intent:can_i_get_from_feces_animal_pets
+1109,i am helping someone who is sick by walking their dog. how do i stay safe,intent:can_i_get_from_feces_animal_pets
+1110,how do i donate to grocery store workers in town,intent:donate
+1111,how many active cases that are critical condition,intent:latest_numbers
+1112,covid-19 fox news liberal hoax myth,intent:myths
+1113,is there a vaccine for covid,intent:what_are_treatment_options
+1114,thank you so much for all the help,intent:okay_thanks
+1115,did corona really come from eating bats,intent:myths
+1116,coronavirus news in spain today,intent:news_and_press
+1117,"rightio, thank you covid doc",intent:okay_thanks
+1118,is plastic a carrier of covid-19,intent:can_i_get_from_packages_surfaces
+1119,is traveling by car safe,intent:travel
+1120,thanks covid bot,intent:okay_thanks
+1121,should i keep my summer trips planned,intent:travel
+1122,what are some updates on the cure for covid-19,intent:what_are_treatment_options
+1123,what are the main signs of having the virus,intent:what_are_symptoms
+1124,how do gloves play a part with the covid-19 epidemic,intent:how_does_corona_spread
+1125,are the politicians spreading any lies,intent:myths
+1126,what is the average rate of recovery for people between the ages of 20 and 40,intent:latest_numbers
+1127,how many deaths has covid-19 caused worldwide,intent:latest_numbers
+1128,can you share this please,intent:share
+1129,i wanna thank you for your help,intent:okay_thanks
+1130,thanks for the help doc,intent:okay_thanks
+1131,what are some at-home treatments for covid,intent:what_are_treatment_options
+1132,can you show me the latest updates in washington,intent:news_and_press
+1133,can you give me some travel advice,intent:travel
+1134,i wanna donate,intent:donate
+1135,is it safe to ride a bike,intent:travel
+1136,share bot to my feed,intent:share
+1137,thank you for the info,intent:okay_thanks
+1138,does the virus spread slower beacuse of heat,intent:how_does_corona_spread
+1139,is there a protocol to follow when i need to leave my house,intent:what_if_i_visited_high_risk_area
+1140,"please, more information regarding the corona virus",intent:what_is_corona
+1141,whats the latest numbers in california,intent:latest_numbers
+1142,can i get it from animals,intent:can_i_get_from_feces_animal_pets
+1143,how do i share this with my family,intent:share
+1144,how can i find out more about donation campaigns,intent:donate
+1145,can i see the latest news about coronavirus,intent:news_and_press
+1146,do i need to wear a face mask to walk outdoors,intent:protect_yourself
+1147,can my daughter get the virus from my pet,intent:can_i_get_from_feces_animal_pets
+1148,what are some tell tale signs of covid-19,intent:what_are_symptoms
+1149,how can someone spread the disease,intent:how_does_corona_spread
+1150,common covid-19 misconceptions,intent:myths
+1151,send me all news articles about coronavirus in california,intent:news_and_press
+1152,can the disease be spread by coughing,intent:how_does_corona_spread
+1153,can corona virus cause a headache,intent:what_are_symptoms
+1154,what is the latest infomation on corona,intent:what_is_corona
+1155,please send me the latest updates on covid,intent:news_and_press
+1156,how does coronavirus infect other people,intent:how_does_corona_spread
+1157,how many people have been infected since march,intent:latest_numbers
+1158,get me today's press release about the virus,intent:news_and_press
+1159,what are the top five myths about coronavirus,intent:myths
+1160,share this report,intent:share
+1161,can houseflies spread covid-19,intent:can_i_get_from_feces_animal_pets
+1162,make a donation to dallas' fundraiser for coronavirus,intent:donate
+1163,which bag to use for groceries,intent:can_i_get_from_packages_surfaces
+1164,"got it, thanks bot",intent:okay_thanks
+1165,how do we protect ourselves from virus in family,intent:what_if_i_visited_high_risk_area
+1166,can electonic surfaces contain covid19,intent:can_i_get_from_packages_surfaces
+1167,can i hear updated info on the corona virus,intent:what_is_corona
+1168,"okay, thank you so much coronabot",intent:okay_thanks
+1169,show me local high risk areas,intent:what_if_i_visited_high_risk_area
+1170,are certain races statistically more likely to get the virus,intent:latest_numbers
+1171,"you're such a big help, doc",intent:okay_thanks
+1172,anything else i should understand about covid,intent:what_is_corona
+1173,what intelligence do you have on the virus,intent:what_is_corona
+1174,i'd like to send a donation to blue cross,intent:donate
+1175,is it a myth that i can get coronavirus from my cat,intent:myths
+1176,can i donate to hospitals near me,intent:donate
+1177,should i clean delivery packages beforehand,intent:can_i_get_from_packages_surfaces
+1178,can i take an airplane on may the 15th,intent:travel
+1179,will bleach kill coronavirus on my stove,intent:can_i_get_from_packages_surfaces
+1180,donate to the cdc,intent:donate
+1181,how long coronavirus stay on surfaces,intent:can_i_get_from_packages_surfaces
+1182,send me an update about trump's corona press briefing,intent:news_and_press
+1183,thank you,intent:okay_thanks
+1184,please share this link on my twitter,intent:share
+1185,what is coronavirus,intent:what_is_corona
+1186,can i use a mask to help with spreading corona virus,intent:how_does_corona_spread
+1187,what animals carry corona,intent:can_i_get_from_feces_animal_pets
+1188,can you give me advice about covid-19,intent:what_is_corona
+1189,does regular flu vaccine help fight the virus,intent:protect_yourself
+1190,"alright, thanks",intent:okay_thanks
+1191,what are travel restrictions for high risk areas,intent:what_if_i_visited_high_risk_area
+1192,is it a myth that coronavirus dies in hot weather,intent:myths
+1193,are there any recent covid-19 press releases,intent:news_and_press
+1194,what are the symptoms,intent:what_are_symptoms
+1195,average age of death from the virus,intent:latest_numbers
+1196,do i need to disinfect my luggage when travelling,intent:travel
+1197,are any of the covid myths true,intent:myths
+1198,is it recommended to stop traveling in the united states,intent:travel
+1199,best way to prevent getting the virus,intent:protect_yourself
+1200,best place to avoid getting the virus,intent:protect_yourself
+1201,should i wear gloves outside to prevent coronavirus,intent:protect_yourself
+1202,is a runny nose a symptom,intent:what_are_symptoms
+1203,good morning covid bot,intent:hi
+1204,can you tell more about covid-19,intent:what_is_corona
+1205,i want treatment options for covid-19,intent:what_are_treatment_options
+1206,how do i protect myself in high risk areas,intent:what_if_i_visited_high_risk_area
+1207,send money to the relief fund,intent:donate
+1208,is coughing a sign of the virus,intent:what_are_symptoms
+1209,in what ways can we protect ourselves from coronavirus,intent:protect_yourself
+1210,can i spread coronavirus if i'm pregnant,intent:how_does_corona_spread
+1211,if i eat sea food can i get corona,intent:can_i_get_from_feces_animal_pets
+1212,what to look out for for covid19,intent:what_are_symptoms
+1213,share link,intent:share
+1214,can the virus travel by touching door knobs,intent:how_does_corona_spread
+1215,thanks doc,intent:okay_thanks
+1216,where can i get the covid vaccine,intent:what_are_treatment_options
+1217,share this service with my family chat,intent:share
+1218,send this article to my parents,intent:share
+1219,donate to the who,intent:donate
+1220,how's the virus situation in italy now,intent:news_and_press
+1221,does coughing up phlem mean i. have the corona,intent:what_are_symptoms
+1222,am i in a high risk area for covid-19,intent:what_if_i_visited_high_risk_area
+1223,what does covid-19 stand for,intent:what_is_corona
+1224,what are the most recent coronavirus numbers,intent:news_and_press
+1225,get me news from my hometown,intent:news_and_press
+1226,is it a myth china invented covid,intent:myths
+1227,what's the worst thing to touch,intent:can_i_get_from_packages_surfaces
+1228,can i use flu medicine to treat covid,intent:what_are_treatment_options
+1229,tell me how to donate please,intent:donate
+1230,do face masks help,intent:protect_yourself
+1231,latest on corona virus,intent:news_and_press
+1232,i want to share this assistant with my contacts,intent:share
+1233,does covid-19 live long on cardboard,intent:can_i_get_from_packages_surfaces
+1234,good morning,intent:hi
+1235,how many people died today in the u.s,intent:latest_numbers
+1236,what covid myths have been debunked,intent:myths
+1237,what main symptoms are clear signs of the disease,intent:what_are_symptoms
+1238,are there any symptoms for animals that have the virus,intent:can_i_get_from_feces_animal_pets
+1239,i want to fund nyc,intent:donate
+1240,"thanks much, doc bot",intent:okay_thanks
+1241,how many hospitals have access to testing for the virus,intent:latest_numbers
+1242,share the article,intent:share
+1243,can chicken breasts contain the rona,intent:can_i_get_from_feces_animal_pets
+1244,can humans contract coronavirus from an aimal,intent:can_i_get_from_feces_animal_pets
+1245,donate to local schools,intent:donate
+1246,this is great how do i help you,intent:donate
+1247,do i need to clean my mailbox,intent:can_i_get_from_packages_surfaces
+1248,how can i rid of my cough,intent:what_are_symptoms
+1249,can covid 19 live on car surfaces,intent:can_i_get_from_packages_surfaces
+1250,can i get infected with covid through indirect contact,intent:how_does_corona_spread
+1251,is munich germany also on lockdown,intent:what_if_i_visited_high_risk_area
+1252,should i have contact with my pet if i have the coronavirus disease,intent:can_i_get_from_feces_animal_pets
+1253,is it safe to travel right now,intent:travel
+1254,i dont have a fever but a headache,intent:what_are_symptoms
+1255,how many more months until a vaccine is ready,intent:what_are_treatment_options
+1256,are there surfaces covid-19 cant live on,intent:can_i_get_from_packages_surfaces
+1257,educate me about corona,intent:what_is_corona
+1258,give me info on the weirdest covid myths,intent:myths
+1259,are fruits and vegetables susceptible carriers of virus,intent:can_i_get_from_packages_surfaces
+1260,how long until a vaccine,intent:what_are_treatment_options
+1261,what is the total death count in the us so far,intent:latest_numbers
+1262,any description on the corona,intent:what_is_corona
+1263,corona virus news updates spain,intent:news_and_press
+1264,what should healthcare workers be doing,intent:what_if_i_visited_high_risk_area
+1265,can i get the latest updates for covid in az,intent:news_and_press
+1266,is it a myth that covid is made up,intent:myths
+1267,average hospital occupancy with cases of corona,intent:latest_numbers
+1268,can i get it if someone sneezes on me,intent:how_does_corona_spread
+1269,do infants need a face mask,intent:protect_yourself
+1270,how many states have flattened the curve,intent:latest_numbers
+1271,where can i donate to covid-19 relief,intent:donate
+1272,what should essential workers do for prevention of the virus,intent:protect_yourself
+1273,how many people died in california yesterday,intent:latest_numbers
+1274,how do i donate money,intent:donate
+1275,tldr of coronavirus,intent:what_is_corona
+1276,do any medications protect against the virus,intent:protect_yourself
+1277,what is considered non-essential travel,intent:travel
+1278,can i fly to see my son across the country,intent:travel
+1279,charitable donation for covid,intent:donate
+1280,is the virus in the air,intent:how_does_corona_spread
+1281,is there a way to share this service,intent:share
+1282,infections cause daily by covid,intent:latest_numbers
+1283,can i get a news briefing about covid,intent:news_and_press
+1284,can you give me the latests stats for taiwan,intent:latest_numbers
+1285,common myths about covid-19,intent:myths
+1286,do high risk areas have their own protocol,intent:what_if_i_visited_high_risk_area
+1287,best treatment for corona virus cough,intent:what_are_treatment_options
+1288,how do i travel safely,intent:travel
+1289,share this chat with my friends,intent:share
+1290,i'll be so gratefull to you mr covid,intent:okay_thanks
+1291,does visiting a high risk location help spread the virus,intent:what_if_i_visited_high_risk_area
+1292,go on and forward this feature,intent:share
+1293,you are so useful,intent:okay_thanks
+1294,what is the most common way covid is spread,intent:how_does_corona_spread
+1295,is it a myth that children aren't prone to getting corona,intent:myths
+1296,donate money now,intent:donate
+1297,is there a vaccine for covid,intent:what_are_treatment_options
+1298,is lysol the best option to clean surfaces,intent:can_i_get_from_packages_surfaces
+1299,are flights safe to take right now,intent:travel
+1300,"hey hey, bot doc",intent:hi
+1301,what is covid 19,intent:what_is_corona
+1302,anything new about new york,intent:news_and_press
+1303,is the disease able to spread by food,intent:how_does_corona_spread
+1304,this report is so good to publish,intent:share
+1305,do mosquitos carry covid,intent:can_i_get_from_feces_animal_pets
+1306,can you teach me about covid,intent:what_is_corona
+1307,please help me donate to covid-19 medical research,intent:donate
+1308,does the virus transmit via pets,intent:can_i_get_from_feces_animal_pets
+1309,are mosquitos and ticks be able to spread corona virus,intent:how_does_corona_spread
+1310,is it a myth that 5g gives you covid,intent:myths
+1311,is there a list of foundations to donate to,intent:donate
+1312,share this with a facebook group,intent:share
+1313,what kind of guidance can you give me on covid-19,intent:what_is_corona
+1314,is a sign of corona having a lack of breath,intent:what_are_symptoms
+1315,thanks for sharing this with me,intent:okay_thanks
+1316,how can i tell if i've had coronva virus,intent:what_are_symptoms
+1317,what is non-essential travel,intent:travel
+1318,what's new with coronavirus in florida,intent:news_and_press
+1319,can you get corona from boxes of corona beer,intent:can_i_get_from_packages_surfaces
+1320,safe travel options,intent:travel
+1321,does elderberry juice treat covid,intent:what_are_treatment_options
+1322,is my trip to las vegas considered non-essential,intent:travel
+1323,how long with travel bans be in effect,intent:travel
+1324,how can i help fund vaccine research,intent:donate
+1325,thank you for the help today,intent:okay_thanks
+1326,does corona virus spread through farts,intent:how_does_corona_spread
+1327,is it a myth that covid 19 started in china,intent:myths
+1328,share the chat with my friends,intent:share
+1329,do raccoons carry covid,intent:can_i_get_from_feces_animal_pets
+1330,how does corona effect my pets,intent:can_i_get_from_feces_animal_pets
+1331,coronavirus news subscription,intent:news_and_press
+1332,shareable link,intent:share
+1333,where can i find a list of high risk countries,intent:what_if_i_visited_high_risk_area
+1334,can i share this on my website,intent:share
+1335,what are you gonna do today dr. covid,intent:hi
+1336,will the 6 feet apart rule really help decrease virus transmission,intent:how_does_corona_spread
+1337,i'd like to encounter anymore details on corona,intent:what_is_corona
+1338,how many children have been affected worldwide,intent:latest_numbers
+1339,"how are you doing, doc",intent:hi
+1340,donate to the local homeless shelter,intent:donate
+1341,donate for african relief,intent:donate
+1342,what should i do i need to travel for work,intent:what_if_i_visited_high_risk_area
+1343,how long does it take for covid 19 to leave surfaces,intent:can_i_get_from_packages_surfaces
+1344,is a headache one of the symptoms,intent:what_are_symptoms
+1345,is plasma donation good to treat coronavirus,intent:what_are_treatment_options
+1346,when will travel bans lift,intent:travel
+1347,give me daily updates,intent:news_and_press
+1348,do i need to worry about my pets during the virus,intent:can_i_get_from_feces_animal_pets
+1349,what else could be expressed about the corona,intent:what_is_corona
+1350,can i get the virus from deer meat,intent:can_i_get_from_feces_animal_pets
+1351,thanks for the help,intent:okay_thanks
+1352,share this link,intent:share
+1353,can you give me a understanding of covid,intent:what_is_corona
+1354,what symptom is the easiest to notice when someone has the disease,intent:what_are_symptoms
+1355,how can i tell the difference between having allergies or coronavirus,intent:what_are_symptoms
+1356,let's donate to the poorest people,intent:donate
+1357,share this service,intent:share
+1358,"thank you for everything, doctor",intent:okay_thanks
+1359,should i disinfect my grocery bags,intent:protect_yourself
+1360,what can you tell me about the current pandemic,intent:what_is_corona
+1361,how can i protect my parents against covid-19,intent:protect_yourself
+1362,will gloves help stop coronavirus,intent:protect_yourself
+1363,is it safe to walk around wuhan now,intent:what_if_i_visited_high_risk_area
+1364,is corona virus airborne,intent:how_does_corona_spread
+1365,alright thanks,intent:okay_thanks
+1366,"great info, thanks",intent:okay_thanks
+1367,what symptoms are most common,intent:what_are_symptoms
+1368,should i cancel all my upcoming flights to the usa,intent:travel
+1369,"coronavirus myths, please",intent:myths
+1370,how does 19 spread,intent:how_does_corona_spread
+1371,does hand santizer kill the virus on packages,intent:can_i_get_from_packages_surfaces
+1372,share this post now,intent:share
+1373,what city nearby is the highest risk,intent:what_if_i_visited_high_risk_area
+1374,does covid-19 go away after some time,intent:can_i_get_from_packages_surfaces
+1375,can i get a report on what is the corona,intent:what_is_corona
+1376,donate covid,intent:donate
+1377,hey covid bot,intent:hi
+1378,donate money to who,intent:donate
+1379,"really appreciate this, doctor",intent:okay_thanks
+1380,can you elaborate on the corona,intent:what_is_corona
+1381,please tell me the symptoms of corona virus,intent:what_are_symptoms
+1382,what gloves are best for protection,intent:protect_yourself
+1383,hey there,intent:hi
+1384,thanks for the info,intent:okay_thanks
+1385,i wanna share this on instagram,intent:share
+1386,should i stop using cash,intent:protect_yourself
+1387,coronavirus myths,intent:myths
+1388,list all of the corona virus symptoms,intent:what_are_symptoms
+1389,what are the stats in the uk for the coronavirus,intent:latest_numbers
+1390,how many people have died from covid19 in the u.s. already,intent:latest_numbers
+1391,does drinking water reduce getting the virus,intent:protect_yourself
+1392,are muscle aches a symptom of corona,intent:what_are_symptoms
+1393,can you get coronavirus from borrowing clothes,intent:can_i_get_from_packages_surfaces
+1394,what kind of hand sanitizer should i use,intent:protect_yourself
+1395,how does the virus keep spreading,intent:how_does_corona_spread
+1396,what city in california has the highest risk,intent:what_if_i_visited_high_risk_area
+1397,how can i share this link,intent:share
+1398,thank you for the information,intent:okay_thanks
+1399,is there a vaccine yet for the covid,intent:what_are_treatment_options
+1400,what are my covid treatment options,intent:what_are_treatment_options
+1401,how many types of marsupials have been infected,intent:can_i_get_from_feces_animal_pets
+1402,number of cases in north korea,intent:latest_numbers
+1403,how does the virus affect animals,intent:can_i_get_from_feces_animal_pets
+1404,give me the latest rundown on covid-19,intent:what_is_corona
+1405,what are the main ways to see if i have it,intent:what_are_symptoms
+1406,is it safe to go hiking,intent:travel
+1407,what are the statistics for elderly people infected by the virus,intent:latest_numbers
+1408,can i travel outside the united states right now,intent:what_if_i_visited_high_risk_area
+1409,how should i self-quarantine in a high risk coronavirus area,intent:what_if_i_visited_high_risk_area
+1410,thank you for sharing this info with me,intent:okay_thanks
+1411,"i just learned about covid-19 symptoms. thanks a bunch, doc",intent:okay_thanks
+1412,is tamiflu effective against covid,intent:what_are_treatment_options
+1413,my throat is sore do i have the virus,intent:what_are_symptoms
+1414,why is the virus spreading,intent:how_does_corona_spread
+1415,that's exactly what i needed to know - thanks bot,intent:okay_thanks
+1416,is driving to the store considered essential,intent:travel
+1417,are there any safe destinations,intent:travel
+1418,could i share this on my facebook,intent:share
+1419,share link with friends on facebook,intent:share
+1420,what protection can i use if i am in a high risk area,intent:what_if_i_visited_high_risk_area
+1421,post the service,intent:share
+1422,what is essential travel,intent:travel
+1423,tell me some ways to avoid coronavirus,intent:protect_yourself
+1424,any news about stay at home orders regarding covid 19,intent:news_and_press
+1425,can the blood of an infected animal spread the virus to my kids,intent:can_i_get_from_feces_animal_pets
+1426,what news should i not listen to,intent:myths
+1427,give me a summary on corona,intent:what_is_corona
+1428,thanks for your help,intent:okay_thanks
+1429,is headache a symptom of the coronavirus disease,intent:what_are_symptoms
+1430,how many cases are there in the world,intent:latest_numbers
+1431,what surfaces are safest,intent:can_i_get_from_packages_surfaces
+1432,"i have a sore throat, is this a symptom of the covid-19",intent:what_are_symptoms
+1433,how are people being infected with covid-19,intent:how_does_corona_spread
+1434,do pets need protection if going outdoors,intent:protect_yourself
+1435,how many people over the age 40 has been infected,intent:latest_numbers
+1436,tell me about covid-19,intent:what_is_corona
+1437,"bot, what's happening",intent:hi
+1438,are aches and pains a symptom of the corona,intent:what_are_symptoms
+1439,how do i avoid getting covid from animals,intent:can_i_get_from_feces_animal_pets
+1440,ty,intent:okay_thanks
+1441,hey bot,intent:hi
+1442,"morning, corona doc",intent:hi
+1443,am i allowed to leave my state,intent:travel
+1444,will heat therapy treat coronavirus,intent:what_are_treatment_options
+1445,how are you today bot,intent:hi
+1446,can medicine cure corona,intent:what_are_treatment_options
+1447,"thanks so much, corona doc",intent:okay_thanks
+1448,can animals carry the coronavirus,intent:can_i_get_from_feces_animal_pets
+1449,what is the timeframe for covid19 to remain active on surfaces,intent:can_i_get_from_packages_surfaces
+1450,should i wash my hands with hot or cold water,intent:protect_yourself
+1451,hallo doctor bot,intent:hi
+1452,covid-19 donations,intent:donate
+1453,does hydroxycholroquine work as a treatment for the coronavirus,intent:what_are_treatment_options
+1454,what can i do to protect others from getting the virus,intent:protect_yourself
+1455,latest treatment for sars cov 2,intent:what_are_treatment_options
+1456,can i get the corona from my kids ipad even after 3 days,intent:how_does_corona_spread
+1457,should i be concerned since i just visited china,intent:what_if_i_visited_high_risk_area
+1458,hey doctor,intent:hi
+1459,should i stop getting deliveries,intent:can_i_get_from_packages_surfaces
+1460,what protects me from getting coronavirus,intent:protect_yourself
+1461,where does the virus come from,intent:what_is_corona
+1462,are there any natural treatments for the coronavirus,intent:what_are_treatment_options
+1463,should i stop eating meat,intent:can_i_get_from_feces_animal_pets
+1464,how many have recovered in the us,intent:latest_numbers
+1465,is air travel safe yet,intent:travel
+1466,is there more details about the corona virus,intent:what_is_corona
+1467,can i use vinegar to clean my throat,intent:what_are_treatment_options
+1468,can i travel to go camping,intent:travel
+1469,what do the pandemic numbers look like,intent:latest_numbers
+1470,latest stats on cases in africa,intent:latest_numbers
+1471,was the coronavirus engineered,intent:myths
+1472,please help me send money to nyc hospitals,intent:donate
+1473,how bad is the situation in new york,intent:latest_numbers
+1474,is there a limit to how many animals can be treated for the rona,intent:can_i_get_from_feces_animal_pets
+1475,has any animal died from the virus,intent:can_i_get_from_feces_animal_pets
+1476,is there any evidence that pets other than dogs and cats could be susceptible,intent:can_i_get_from_feces_animal_pets
+1477,give ma breakdown of what the virus is,intent:what_is_corona
+1478,do you think i have to cancel my trip to japan in august,intent:travel
+1479,does corona virus transmit from pets to humans,intent:can_i_get_from_feces_animal_pets
+1480,should i avoid using uber,intent:travel
+1481,the covid 19 vacciine is on the way,intent:what_are_treatment_options
+1482,current developments fromthe who,intent:news_and_press
+1483,corona myths,intent:myths
+1484,does covid get weaker if stays too long on the surfaces,intent:can_i_get_from_packages_surfaces
+1485,tell me more about covid-19,intent:what_is_corona
+1486,what are the statistics in canada for covid,intent:latest_numbers
+1487,can you please tell me the symptoms of coronavirus,intent:what_are_symptoms
+1488,should i stop using public transport,intent:travel
+1489,what precautions should i take for covid,intent:protect_yourself
+1490,is covid a hoax,intent:myths
+1491,how can i stay safe from covid-19,intent:protect_yourself
+1492,how are you doctor,intent:hi
+1493,is coughing a symptom of the corona virus disease,intent:what_are_symptoms
+1494,what helps me avoid covid-19,intent:protect_yourself
+1495,how many cases has there been in the us,intent:latest_numbers
+1496,how many active cases that are mild condition,intent:latest_numbers
+1497,does wearing gloves help me stay safe from covid-19,intent:protect_yourself
+1498,who is taking coronavirus donations,intent:donate
+1499,is a place with 10 or more people considered a high risk area,intent:what_if_i_visited_high_risk_area
+1500,total confirmed cases in california,intent:latest_numbers
+1501,"thanks for the help, bot",intent:okay_thanks
+1502,debunked covid19 myths,intent:myths
+1503,how long does it stay on a surface that isnt touched,intent:can_i_get_from_packages_surfaces
+1504,how to treat covid at home,intent:what_are_treatment_options
+1505,is 6ft apart effective to stop spreading the virus,intent:how_does_corona_spread
+1506,latest stats on recovery in georgia,intent:latest_numbers
+1507,give me a profile on corona,intent:what_is_corona
+1508,number of people who got tested in new york,intent:latest_numbers
+1509,how can i donate money to help feed homeless,intent:donate
+1510,does corona virus spread from touching someone infected only,intent:how_does_corona_spread
+1511,how can fecal matter be included with covid-19 spreading,intent:how_does_corona_spread
+1512,pangolin myth covid,intent:myths
+1513,can warm weather slow the spread of covid-19,intent:how_does_corona_spread
+1514,can i get covid-19 from insects,intent:how_does_corona_spread
+1515,may god bless you,intent:okay_thanks
+1516,does the virus float in air,intent:how_does_corona_spread
+1517,which essential business has the highest risk of infection,intent:what_if_i_visited_high_risk_area
+1518,will essential oils fight coronavirus,intent:what_are_treatment_options
+1519,what methods will help prevent coronavirus,intent:protect_yourself
+1520,how many people are recovered in california,intent:latest_numbers
+1521,should i disinfect my table every day,intent:can_i_get_from_packages_surfaces
+1522,how likely does covid spread on amazon packages,intent:how_does_corona_spread
+1523,what are the treatment options,intent:what_are_treatment_options
+1524,does quinine help with covid,intent:what_are_treatment_options
+1525,can coronavirus spread through drinking water,intent:how_does_corona_spread
+1526,treatment against covid-19,intent:what_are_treatment_options
+1527,do i have to cancel my trip to italy,intent:travel
+1528,why are there so many covid myths,intent:myths
+1529,fake news,intent:myths
+1530,thank you doc,intent:okay_thanks
+1531,give to the meals on wheels fund,intent:donate
+1532,"wakey wakey, cov bot",intent:hi
+1533,can i get through the border to mexico,intent:travel
+1534,how can i share you with people,intent:share
+1535,brief me about the corona,intent:what_is_corona
+1536,my flight from japan had someone test positive should i be worried,intent:what_if_i_visited_high_risk_area
+1537,what should i bring for going into high risk areas,intent:what_if_i_visited_high_risk_area
+1538,thanks for helping,intent:okay_thanks
+1539,is the company building i work at considered a high risk area,intent:what_if_i_visited_high_risk_area
+1540,is an upset stomach a sign of covid19,intent:what_are_symptoms
+1541,donate to seattle,intent:donate
+1542,what's happening with the virus worldwide,intent:news_and_press
+1543,will i get coronavirus from touching hand rails,intent:can_i_get_from_packages_surfaces
+1544,please give more info on covid-19,intent:what_is_corona
+1545,is a fever a symptom of corona virus,intent:what_are_symptoms
+1546,share this service,intent:share
+1547,is covid-19 in the water,intent:how_does_corona_spread
+1548,what is the amount of time the corona virus stays on surfaces,intent:can_i_get_from_packages_surfaces
+1549,is the malaria medicine safe for treatment of covid,intent:what_are_treatment_options
+1550,what is the protocol if i show symptoms,intent:what_are_symptoms
+1551,which surfaces are likely to have virus,intent:can_i_get_from_packages_surfaces
+1552,give money to the local food bank,intent:donate
+1553,show me organizations accepting donations in my state,intent:donate
+1554,how can i protect my grandparents,intent:protect_yourself
+1555,may i have more information on covid,intent:what_is_corona
+1556,what's the latest updates from the white house,intent:news_and_press
+1557,"i appreciate the info, doc",intent:okay_thanks
+1558,can i have more information on aerosol transmission,intent:how_does_corona_spread
+1559,can the virus spread through feces,intent:can_i_get_from_feces_animal_pets
+1560,what are the number of cases worldwide,intent:latest_numbers
+1561,latest coronavirus news,intent:news_and_press
+1562,can the virus spread though the sewarage system,intent:how_does_corona_spread
+1563,is the mexican border closed because of covid 19,intent:travel
+1564,what can i do to cure coronavirus,intent:what_are_treatment_options
+1565,covid-19 origin myths,intent:myths
+1566,share this story,intent:share
+1567,what are some coronavirus myths,intent:myths
+1568,thank you doc for teaching about face masks,intent:okay_thanks
+1569,can a ladybug carry the virus,intent:how_does_corona_spread
+1570,give me more info on the pandemic,intent:what_is_corona
+1571,is it safe to travel by bus,intent:travel
+1572,share this article,intent:share
+1573,is china still considered a high risk country,intent:what_if_i_visited_high_risk_area
+1574,can i take uber,intent:travel
+1575,"got it, thank you doctor",intent:okay_thanks
+1576,total deaths as of today,intent:latest_numbers
+1577,thanks a bunch bot doc,intent:okay_thanks
+1578,what's up doc,intent:hi
+1579,send me some myths about covid19,intent:myths
+1580,i'd like to share this,intent:share
+1581,share this bot on twitter,intent:share
+1582,what policies are in place for high risk areas,intent:what_if_i_visited_high_risk_area
+1583,does covid-19 stay on furniture,intent:can_i_get_from_packages_surfaces
+1584,can you explain in more detail about covid,intent:what_is_corona
+1585,what are the high risk areas nearby,intent:what_if_i_visited_high_risk_area
+1586,why are there lots of myths about coronavirus on the news,intent:myths
+1587,how do i not get sick from coronavirus,intent:protect_yourself
+1588,can the virus live on my phone,intent:can_i_get_from_packages_surfaces
+1589,which states have the highest coronavirus outbreaks,intent:what_if_i_visited_high_risk_area
+1590,how many people have been infected,intent:latest_numbers
+1591,are sea animals contracting the virus,intent:can_i_get_from_feces_animal_pets
+1592,is it safe to travel by your own car,intent:travel
+1593,whar are the number of cases in china,intent:latest_numbers
+1594,hi,intent:hi
+1595,tell me about corona virus,intent:what_is_corona
+1596,could the coronavirus mutate over time into strains for dogs or cats,intent:can_i_get_from_feces_animal_pets
+1597,send this to parents,intent:share
+1598,how can i protect myself from coronavirus,intent:protect_yourself
+1599,how to protect your pets from covid-19,intent:can_i_get_from_feces_animal_pets
+1600,how do i deal with someone that just came from china,intent:what_if_i_visited_high_risk_area
+1601,if i pet a cat can i get covid 19,intent:can_i_get_from_feces_animal_pets
+1602,can i take my pet's ivermectin to prevent or treat my covid-19 infection,intent:can_i_get_from_feces_animal_pets
+1603,does disinfecting clothes after grocery shopping help,intent:protect_yourself
+1604,top covid myths please,intent:myths
+1605,how's it going,intent:hi
+1606,does hydroxychloroquine treat corona,intent:what_are_treatment_options
+1607,is touching hand rails safe,intent:can_i_get_from_packages_surfaces
+1608,number of cases in mexico,intent:latest_numbers
+1609,"grateful for the feedback, covid doc",intent:okay_thanks
+1610,what should i do if i went to china,intent:what_if_i_visited_high_risk_area
+1611,what is the rate of recovery for corona in europe,intent:latest_numbers
+1612,what symptoms should we watch for,intent:what_are_symptoms
+1613,should i avoid touching my face,intent:protect_yourself
+1614,can we move around freely now,intent:travel
+1615,can i see today's news on covid 19,intent:news_and_press
+1616,how does the virus work,intent:what_is_corona
+1617,can people with masks transmit it to other people,intent:how_does_corona_spread
+1618,is there a vaccine for covid,intent:what_are_treatment_options
+1619,is muscle soreness a corona virus symptom,intent:what_are_symptoms
+1620,"hey doc, you there",intent:hi
+1621,please show me updates about the coronavirus in the us,intent:news_and_press
+1622,"thanks, i appreciate the help",intent:okay_thanks
+1623,what is the most recent new from spain,intent:news_and_press
+1624,what are the treatment options for covid-19,intent:what_are_treatment_options
+1625,are the symptoms similar to having flu,intent:what_are_symptoms
+1626,show all the news on corona in my county,intent:news_and_press
+1627,is chest pain a sign i have covid-19,intent:what_are_symptoms
+1628,how many people have recovered in china,intent:latest_numbers
+1629,what does the press say about the vaccine development,intent:news_and_press
+1630,in what ways can i protect my children,intent:protect_yourself
+1631,thanks for the information doctor,intent:okay_thanks
+1632,give me some conspiracy theories on coronavirus,intent:myths
+1633,please describe what covid is,intent:what_is_corona
+1634,how do i know if i have visited a high risk area,intent:what_if_i_visited_high_risk_area
+1635,how can i tell if my dog has the virus,intent:can_i_get_from_feces_animal_pets
+1636,any news from seoul,intent:news_and_press
+1637,best cure for the corona virus,intent:what_are_treatment_options
+1638,what should i do if i order take out or delivery food,intent:protect_yourself
+1639,how many confirmed cases are there in new york,intent:latest_numbers
+1640,what's up,intent:hi
+1641,what is the news on corona virus in my state,intent:news_and_press
+1642,where did corona virus start,intent:what_is_corona
+1643,how many people died yesterday in the u.s,intent:latest_numbers
+1644,are cloth masks as efficient as surgical masks,intent:protect_yourself
+1645,are the symptoms of covid-19 similar to allergies,intent:what_are_symptoms
+1646,should i avoid those who recently came back from international travel,intent:what_if_i_visited_high_risk_area
+1647,what surface is safe from covid-19,intent:can_i_get_from_packages_surfaces
+1648,what areas are at most risk for coronavirus outbreak,intent:what_if_i_visited_high_risk_area
+1649,give me more info on covid-19,intent:what_is_corona
+1650,is headache a symptom of the coronavirus disease,intent:what_are_symptoms
+1651,am i safe to handle plastic things,intent:can_i_get_from_packages_surfaces
+1652,is it safe to touch glass,intent:can_i_get_from_packages_surfaces
+1653,can a pet's fur spread the virus that causes covid-19,intent:can_i_get_from_feces_animal_pets
+1654,what are the symptoms of the coronavirus disease,intent:what_are_symptoms
+1655,how many have died in the uk,intent:latest_numbers
+1656,is there any airline operating these days,intent:travel
+1657,what can i use as a treatment for covid-19,intent:what_are_treatment_options
+1658,how do i tell everyone about this,intent:share
+1659,thanks bot,intent:okay_thanks
+1660,more information on coronavirus please,intent:what_is_corona
+1661,how many toddlers have been infected,intent:latest_numbers
+1662,"ok, thanks a lot",intent:okay_thanks
+1663,updates for my area,intent:news_and_press
+1664,can i take the bus to work,intent:travel
+1665,how can i care for a cat that has contracted the virus,intent:can_i_get_from_feces_animal_pets
+1666,any corona virus updates,intent:news_and_press
+1667,will wearing a mask be enough,intent:protect_yourself
+1668,will covid-19 stick to my gloves,intent:can_i_get_from_packages_surfaces
+1669,i wanna know if i can still go to hawaii,intent:travel
+1670,tell me the news,intent:news_and_press
+1671,are there any medications i should take if i have the virus,intent:protect_yourself
+1672,is it the covid-19 transmited by water,intent:myths
+1673,"tell me about covid-19, please",intent:what_is_corona
+1674,does the virus live on clothing,intent:can_i_get_from_packages_surfaces
+1675,news updates corona virus united states,intent:news_and_press
+1676,what animal did covid-19 originate from,intent:can_i_get_from_feces_animal_pets
+1677,any new informations for covid-19 symptoms,intent:what_are_symptoms
+1678,tell me the best news about the covid 19 cure process,intent:news_and_press
+1679,can i still take domestic flights,intent:travel
+1680,what are some myths floating around about covid,intent:myths
+1681,what is the recovery rate in the us,intent:latest_numbers
+1682,morning corona bot,intent:hi
+1683,how many people died in santa clara county,intent:latest_numbers
+1684,can i get corona virus from mosquitos,intent:can_i_get_from_feces_animal_pets
+1685,how can i tell my cat doesn't have covid 19,intent:can_i_get_from_feces_animal_pets
+1686,can you tell me about the virus,intent:what_is_corona
+1687,should i be ordering packages online,intent:protect_yourself
+1688,what are the common vectors,intent:how_does_corona_spread
+1689,can i travel to and from a high risk area for coronavirus,intent:what_if_i_visited_high_risk_area
+1690,what kind of illness is covid-19,intent:what_is_corona
+1691,any updates from new york,intent:news_and_press
+1692,"hi, bot",intent:hi
+1693,give funding for my area,intent:donate
+1694,what can i use at home to treat myself if i have corona,intent:what_are_treatment_options
+1695,what is the most common myth of covid,intent:myths
+1696,what's the case count in new york,intent:latest_numbers
+1697,"good morning, doctor corona",intent:hi
+1698,"wake up, corona doc",intent:hi
+1699,donate to the food bank,intent:donate
+1700,i wanna make a monetary donation,intent:donate
+1701,share this bot,intent:share
+1702,thanks for letting me know about high risk areas,intent:okay_thanks
+1703,any updates on the corona situation today,intent:news_and_press
+1704,what is dangerous about covid-19,intent:what_is_corona
+1705,is it safe to use glassware,intent:can_i_get_from_packages_surfaces
+1706,give out money,intent:donate
+1707,how often should i switch out my face mask,intent:protect_yourself
+1708,should i use one specific type of material,intent:can_i_get_from_packages_surfaces
+1709,what is the nearest high risk area to me,intent:what_if_i_visited_high_risk_area
+1710,travel advice,intent:travel
+1711,what is the science behind virus protection,intent:what_is_corona
+1712,share this to friends,intent:share
+1713,should i wear a mask and gloves on the subway,intent:travel
+1714,what is the death rate in china,intent:latest_numbers
+1715,does the corona cause lack. of appetite,intent:what_are_symptoms
+1716,how can i get treated,intent:what_are_treatment_options
+1717,number of recovered cases in italy,intent:latest_numbers
+1718,preventive measures,intent:protect_yourself
+1719,more details on covid 19 please,intent:what_is_corona
+1720,hello,intent:hi
+1721,should i still use atms,intent:can_i_get_from_packages_surfaces
+1722,what is the latest data. on the corona,intent:what_is_corona
+1723,what exactly is covid-19,intent:what_is_corona
+1724,are there any approved vaccines for covid-19,intent:what_are_treatment_options
+1725,share with mom,intent:share
+1726,"what's new, doc",intent:hi
+1727,how are you doing today,intent:hi
+1728,can i donate to my county,intent:donate
+1729,are airport bus services canceled,intent:travel
+1730,is it a myth that heat stops coronavirus,intent:myths
+1731,thanks for the help,intent:okay_thanks
+1732,how do i share this device,intent:share
+1733,can i contract coronavirus from a guinea pig,intent:can_i_get_from_feces_animal_pets
+1734,thank you for your assistance,intent:okay_thanks
+1735,is a myth that you can get coronavirus more than once,intent:myths
+1736,can i get the 19 by using public transport,intent:how_does_corona_spread
+1737,can i test my animal through a private veterinary laboratory,intent:can_i_get_from_feces_animal_pets
+1738,what if i live in a high risk area,intent:what_if_i_visited_high_risk_area
+1739,daily recovery rate in the us,intent:latest_numbers
+1740,how can i protect my dog,intent:protect_yourself
+1741,what if i have come in contact with someone at the grocery store,intent:what_if_i_visited_high_risk_area
+1742,is having a lack of appetite a symptom of the disease,intent:what_are_symptoms
+1743,good evening,intent:hi
+1744,i'd like to donate to italy,intent:donate

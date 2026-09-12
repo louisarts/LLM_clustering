@@ -1,0 +1,85 @@
+{
+  "bench": "mtop_intent",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Make a phone call",
+      "definition": "Commands to initiate a phone call to a contact."
+    },
+    {
+      "id": 2,
+      "name": "Send a message",
+      "definition": "Commands to send a text or video message to a contact."
+    },
+    {
+      "id": 3,
+      "name": "Set an alarm",
+      "definition": "Commands to create, modify, or delete alarms."
+    },
+    {
+      "id": 4,
+      "name": "Set a reminder",
+      "definition": "Commands to create, modify, or delete reminders."
+    },
+    {
+      "id": 5,
+      "name": "Manage timers",
+      "definition": "Commands to create, modify, or delete timers."
+    },
+    {
+      "id": 6,
+      "name": "Play music",
+      "definition": "Commands to play, skip, or repeat songs or playlists."
+    },
+    {
+      "id": 7,
+      "name": "Weather information",
+      "definition": "Commands to inquire about current or future weather conditions."
+    },
+    {
+      "id": 8,
+      "name": "News updates",
+      "definition": "Commands to request news headlines or updates."
+    },
+    {
+      "id": 9,
+      "name": "Recipe and cooking information",
+      "definition": "Commands to request recipes or cooking instructions."
+    },
+    {
+      "id": 10,
+      "name": "Calorie information",
+      "definition": "Commands to inquire about the calorie content of food items."
+    },
+    {
+      "id": 11,
+      "name": "Event and activity suggestions",
+      "definition": "Commands to request information about events or activities."
+    },
+    {
+      "id": 12,
+      "name": "Contact information",
+      "definition": "Commands to inquire about or display contact details."
+    },
+    {
+      "id": 13,
+      "name": "Social and online status",
+      "definition": "Commands to check the online status or availability of contacts."
+    },
+    {
+      "id": 14,
+      "name": "Video call",
+      "definition": "Commands to initiate or manage video calls."
+    },
+    {
+      "id": 15,
+      "name": "General inquiries",
+      "definition": "Commands to ask general questions not covered by other categories."
+    }
+  ]
+}

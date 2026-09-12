@@ -1,0 +1,110 @@
+{
+  "bench": "massive_domain",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music",
+      "definition": "Requests related to playing, pausing, or identifying music."
+    },
+    {
+      "id": 2,
+      "name": "Podcasts",
+      "definition": "Requests to play, resume, or inquire about podcasts."
+    },
+    {
+      "id": 3,
+      "name": "Email Management",
+      "definition": "Requests related to sending, replying, or checking emails."
+    },
+    {
+      "id": 4,
+      "name": "Reminders",
+      "definition": "Requests to set, modify, or inquire about reminders."
+    },
+    {
+      "id": 5,
+      "name": "Calendar Management",
+      "definition": "Requests related to scheduling, deleting, or checking calendar events."
+    },
+    {
+      "id": 6,
+      "name": "Weather",
+      "definition": "Requests for current or forecasted weather information."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Requests for current news updates or headlines."
+    },
+    {
+      "id": 8,
+      "name": "Travel and Transportation",
+      "definition": "Requests related to booking or finding travel information, such as train tickets."
+    },
+    {
+      "id": 9,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions or recipes."
+    },
+    {
+      "id": 10,
+      "name": "Shopping and Lists",
+      "definition": "Requests to add, remove, or inquire about shopping lists or items."
+    },
+    {
+      "id": 11,
+      "name": "Home Automation",
+      "definition": "Requests to control smart home devices, such as lights or appliances."
+    },
+    {
+      "id": 12,
+      "name": "Social Media",
+      "definition": "Requests related to posting or checking social media updates."
+    },
+    {
+      "id": 13,
+      "name": "General Knowledge",
+      "definition": "Requests for information or definitions on various topics."
+    },
+    {
+      "id": 14,
+      "name": "Health and Wellness",
+      "definition": "Requests related to health information or wellness tips."
+    },
+    {
+      "id": 15,
+      "name": "Traffic and Directions",
+      "definition": "Requests for traffic conditions or directions."
+    },
+    {
+      "id": 16,
+      "name": "Entertainment Recommendations",
+      "definition": "Requests for suggestions on movies, books, or activities."
+    },
+    {
+      "id": 17,
+      "name": "Personal Assistance",
+      "definition": "Requests for general assistance or personal inquiries."
+    },
+    {
+      "id": 18,
+      "name": "Finance and Stocks",
+      "definition": "Requests related to financial information, stock prices, or economic news."
+    },
+    {
+      "id": 19,
+      "name": "Complaints and Feedback",
+      "definition": "Requests to send complaints or feedback to companies or services."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous",
+      "definition": "Requests that do not fit into other defined categories."
+    }
+  ]
+}

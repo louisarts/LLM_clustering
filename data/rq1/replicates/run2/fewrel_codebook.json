@@ -1,0 +1,77 @@
+{
+  "bench": "fewrel",
+  "run": 2,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Creation/Authorship",
+      "definition": "One entity is the creator, author, designer, developer, or composer of the other entity (a work, product, or structure)."
+    },
+    {
+      "id": 2,
+      "name": "Location/Containment",
+      "definition": "One entity is situated within, originates from, or is primarily associated with a specific geographical place or larger area."
+    },
+    {
+      "id": 3,
+      "name": "Part-Whole/Component",
+      "definition": "One entity is a constituent part, member, or subdivision of another larger entity or system."
+    },
+    {
+      "id": 4,
+      "name": "Classification/Type",
+      "definition": "One entity is identified as belonging to a particular category, class, genre, occupation, or artistic style."
+    },
+    {
+      "id": 5,
+      "name": "Event Participation",
+      "definition": "An individual, group, or country is actively involved in or associated with a specific event, competition, or campaign."
+    },
+    {
+      "id": 6,
+      "name": "Temporal Relation",
+      "definition": "Two entities are connected by their chronological order, co-occurrence in time, or a specific time period associated with an event or entity."
+    },
+    {
+      "id": 7,
+      "name": "Business/Organizational Relationship",
+      "definition": "Two entities (typically organizations or an individual and an organization) are linked by a formal business, contractual, or ownership relationship."
+    },
+    {
+      "id": 8,
+      "name": "Person-Role/Attribute",
+      "definition": "An entity specifies a particular position, characteristic, nationality, or affiliation associated with an individual."
+    },
+    {
+      "id": 9,
+      "name": "Recognition/Award",
+      "definition": "An entity is formally acknowledged, honored, or listed for an achievement, quality, or status."
+    },
+    {
+      "id": 10,
+      "name": "Family/Personal Relationship",
+      "definition": "Two individuals are connected through familial bonds or a direct personal relationship."
+    },
+    {
+      "id": 11,
+      "name": "Geographical Feature Connection",
+      "definition": "Two distinct geographical features are linked by a natural connection, such as a confluence, a tributary relationship, or a joining point."
+    },
+    {
+      "id": 12,
+      "name": "Linguistic/Conceptual Relation",
+      "definition": "Two entities are linked through their linguistic form, naming convention, or a conceptual derivation from one to the other."
+    },
+    {
+      "id": 13,
+      "name": "Platform/Medium",
+      "definition": "An entity serves as the underlying system, environment, or channel for the operation or delivery of another entity."
+    },
+    {
+      "id": 14,
+      "name": "Entity-Attribute",
+      "definition": "An entity specifies a characteristic, property, or quality of another non-person entity."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "bench": "bbcnews",
+  "run": 3,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Economy",
+      "definition": "News related to national and international economic performance, financial markets, trade, employment, and fiscal policy."
+    },
+    {
+      "id": 2,
+      "name": "Sport",
+      "definition": "News covering various sports, competitions, teams, athletes, and related management or controversies."
+    },
+    {
+      "id": 3,
+      "name": "Arts and Culture",
+      "definition": "News about music, film, theatre, literature, visual arts, museums, and entertainment events, including celebrity news within these fields."
+    },
+    {
+      "id": 4,
+      "name": "Business",
+      "definition": "News focusing on companies, industries, corporate finance, mergers, acquisitions, profits, and business-related legal issues."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "News about computing, internet, software, hardware, consumer electronics, telecommunications, cybersecurity, and digital trends, including gaming."
+    },
+    {
+      "id": 6,
+      "name": "Politics",
+      "definition": "News concerning national and local government, elections, political parties, policy debates, legislation, and political controversies within a country."
+    },
+    {
+      "id": 7,
+      "name": "International Affairs",
+      "definition": "News about global events, foreign policy, international relations, humanitarian crises, and significant political or social developments in specific countries that have broader international implications."
+    },
+    {
+      "id": 8,
+      "name": "Media",
+      "definition": "News about the media industry, including television, radio, print, and online platforms, their content, ratings, and related legal or ethical issues."
+    },
+    {
+      "id": 9,
+      "name": "Health",
+      "definition": "News related to public health, diseases, medical research, and healthcare policy."
+    },
+    {
+      "id": 10,
+      "name": "Environment",
+      "definition": "News concerning environmental issues, climate change, conservation, and environmental policy."
+    }
+  ]
+}

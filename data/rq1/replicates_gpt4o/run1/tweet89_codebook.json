@@ -1,0 +1,210 @@
+{
+  "bench": "tweet89",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Immigration and Customs Enforcement",
+      "definition": "News related to immigration enforcement actions, such as inspections at restaurants."
+    },
+    {
+      "id": 2,
+      "name": "Anti-Immigrant Laws",
+      "definition": "Discussions and reports on anti-immigrant laws at local and state levels."
+    },
+    {
+      "id": 3,
+      "name": "Acai Berry and Weight Loss",
+      "definition": "Articles and discussions about acai berry products and their purported weight loss benefits."
+    },
+    {
+      "id": 4,
+      "name": "Academy Awards and Oscars",
+      "definition": "News and discussions about the Oscars, including nominations and winners."
+    },
+    {
+      "id": 5,
+      "name": "Recipes and Cooking",
+      "definition": "Posts sharing recipes and cooking tips."
+    },
+    {
+      "id": 6,
+      "name": "Obama Healthcare Overhaul",
+      "definition": "News about legal challenges and rulings related to the Obama administration's healthcare reform."
+    },
+    {
+      "id": 7,
+      "name": "Scholarships and Financial Aid",
+      "definition": "Information and advice on scholarships and financial aid for education."
+    },
+    {
+      "id": 8,
+      "name": "Facebook Privacy Settings",
+      "definition": "Discussions about privacy settings and issues on Facebook."
+    },
+    {
+      "id": 9,
+      "name": "White Stripes Breakup",
+      "definition": "News about the breakup of the band White Stripes."
+    },
+    {
+      "id": 10,
+      "name": "US-China Relations",
+      "definition": "News about diplomatic relations and agreements between the US and China."
+    },
+    {
+      "id": 11,
+      "name": "Super Bowl Seating Issues",
+      "definition": "Issues related to seating accommodations at the Super Bowl."
+    },
+    {
+      "id": 12,
+      "name": "Yemen Political Unrest",
+      "definition": "News about political unrest and protests in Yemen."
+    },
+    {
+      "id": 13,
+      "name": "Royal Wedding of Prince William and Kate Middleton",
+      "definition": "News and details about the wedding of Prince William and Kate Middleton."
+    },
+    {
+      "id": 14,
+      "name": "Super Bowl Commercials",
+      "definition": "Discussions and reviews of commercials aired during the Super Bowl."
+    },
+    {
+      "id": 15,
+      "name": "Hugo Chavez and Venezuelan Politics",
+      "definition": "News about Hugo Chavez and political events in Venezuela."
+    },
+    {
+      "id": 16,
+      "name": "Egyptian Protests and Internet Blackout",
+      "definition": "Coverage of protests in Egypt and related internet blackouts."
+    },
+    {
+      "id": 17,
+      "name": "Oprah Winfrey's Secret Sister",
+      "definition": "News about Oprah Winfrey revealing her secret sister."
+    },
+    {
+      "id": 18,
+      "name": "Corporate Mergers and Stock Market",
+      "definition": "News about corporate mergers and their impact on the stock market."
+    },
+    {
+      "id": 19,
+      "name": "Identity Theft and Online Fraud",
+      "definition": "Information and statistics about identity theft and online fraud."
+    },
+    {
+      "id": 20,
+      "name": "Texting While Driving Campaigns",
+      "definition": "Campaigns and initiatives to prevent texting while driving."
+    },
+    {
+      "id": 21,
+      "name": "Australian Open Tennis",
+      "definition": "News and results from the Australian Open tennis tournament."
+    },
+    {
+      "id": 22,
+      "name": "Flooding in Australia",
+      "definition": "News about flooding events and their impact in Australia."
+    },
+    {
+      "id": 23,
+      "name": "Journalists Attacked in Egypt",
+      "definition": "Reports of journalists being attacked or harassed during the Egyptian protests."
+    },
+    {
+      "id": 24,
+      "name": "Moscow Airport Terrorist Attack",
+      "definition": "News about the terrorist attack at Moscow's airport."
+    },
+    {
+      "id": 25,
+      "name": "FDA Approvals",
+      "definition": "News about FDA approvals of medical treatments or drugs."
+    },
+    {
+      "id": 26,
+      "name": "Iran Nuclear Program and Sanctions",
+      "definition": "News about Iran's nuclear program and related international sanctions."
+    },
+    {
+      "id": 27,
+      "name": "Wikileaks and International Relations",
+      "definition": "News about Wikileaks and its impact on international relations."
+    },
+    {
+      "id": 28,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "News about the lawsuit against Taco Bell regarding the content of their beef."
+    },
+    {
+      "id": 29,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Posts about fishing techniques, forecasts, and outdoor activities."
+    },
+    {
+      "id": 30,
+      "name": "Sundance Film Festival",
+      "definition": "News and celebrity sightings related to the Sundance Film Festival."
+    },
+    {
+      "id": 31,
+      "name": "Keith Olbermann's Career",
+      "definition": "News about Keith Olbermann's career moves and controversies."
+    },
+    {
+      "id": 32,
+      "name": "Concussions in Sports",
+      "definition": "News and discussions about concussions and their impact in sports."
+    },
+    {
+      "id": 33,
+      "name": "Gabrielle Giffords' Recovery",
+      "definition": "Updates on the recovery of Rep. Gabrielle Giffords after being shot."
+    },
+    {
+      "id": 34,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "News about the murder case of Joanna Yeates and related legal proceedings."
+    },
+    {
+      "id": 35,
+      "name": "Somali Pirates",
+      "definition": "News about Somali pirates and related international incidents."
+    },
+    {
+      "id": 36,
+      "name": "Climate Change and Weather Events",
+      "definition": "Discussions about climate change and its impact on weather events."
+    },
+    {
+      "id": 37,
+      "name": "Myanmar Sanctions",
+      "definition": "News about international sanctions on Myanmar."
+    },
+    {
+      "id": 38,
+      "name": "Jordan Protests",
+      "definition": "News about protests and political demands in Jordan."
+    },
+    {
+      "id": 39,
+      "name": "Starbucks Trenta Cup",
+      "definition": "Discussions about the new Starbucks Trenta cup size."
+    },
+    {
+      "id": 40,
+      "name": "Supreme Court Rulings",
+      "definition": "News about recent rulings and decisions by the Supreme Court."
+    }
+  ]
+}

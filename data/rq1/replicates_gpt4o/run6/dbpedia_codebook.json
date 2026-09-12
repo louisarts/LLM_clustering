@@ -1,0 +1,110 @@
+{
+  "bench": "dbpedia",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Historical Buildings",
+      "definition": "Structures of historical significance, including houses and churches."
+    },
+    {
+      "id": 2,
+      "name": "Biological Taxa",
+      "definition": "Categories of living organisms, including species, genera, and families."
+    },
+    {
+      "id": 3,
+      "name": "Educational Institutions",
+      "definition": "Schools, colleges, and universities."
+    },
+    {
+      "id": 4,
+      "name": "Companies and Organizations",
+      "definition": "Business entities and non-profit organizations."
+    },
+    {
+      "id": 5,
+      "name": "Geographical Features",
+      "definition": "Natural landforms and bodies of water, including rivers and mountains."
+    },
+    {
+      "id": 6,
+      "name": "Birds",
+      "definition": "Species of avian creatures."
+    },
+    {
+      "id": 7,
+      "name": "Books and Literature",
+      "definition": "Written works, including novels and academic journals."
+    },
+    {
+      "id": 8,
+      "name": "Music and Albums",
+      "definition": "Musical works, including albums and songs."
+    },
+    {
+      "id": 9,
+      "name": "People",
+      "definition": "Individuals, including politicians, athletes, and artists."
+    },
+    {
+      "id": 10,
+      "name": "Vehicles",
+      "definition": "Modes of transportation, including ships, cars, and aircraft."
+    },
+    {
+      "id": 11,
+      "name": "Films and Television",
+      "definition": "Cinematic and television productions."
+    },
+    {
+      "id": 12,
+      "name": "Villages and Settlements",
+      "definition": "Small communities and populated places."
+    },
+    {
+      "id": 13,
+      "name": "Sports and Athletes",
+      "definition": "Sports-related topics, including athletes and teams."
+    },
+    {
+      "id": 14,
+      "name": "Political Entities",
+      "definition": "Governments, political parties, and administrative regions."
+    },
+    {
+      "id": 15,
+      "name": "Events and Festivals",
+      "definition": "Occasions and gatherings, including festivals and historical events."
+    },
+    {
+      "id": 16,
+      "name": "Technology and Innovations",
+      "definition": "Technological advancements and inventions."
+    },
+    {
+      "id": 17,
+      "name": "Art and Artists",
+      "definition": "Visual arts and the individuals who create them."
+    },
+    {
+      "id": 18,
+      "name": "Religious and Cultural Sites",
+      "definition": "Places of religious or cultural significance."
+    },
+    {
+      "id": 19,
+      "name": "Food and Beverages",
+      "definition": "Edible products and drinks."
+    },
+    {
+      "id": 20,
+      "name": "Natural Phenomena",
+      "definition": "Occurrences in nature, including weather and geological events."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "bench": "stackoverflow20",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "LINQ",
+      "definition": "Language Integrated Query, a component of .NET for querying data."
+    },
+    {
+      "id": 2,
+      "name": "Haskell",
+      "definition": "A purely functional programming language known for its strong static typing."
+    },
+    {
+      "id": 3,
+      "name": "Apache",
+      "definition": "An open-source web server software that serves web content."
+    },
+    {
+      "id": 4,
+      "name": "SharePoint",
+      "definition": "A web-based collaboration platform from Microsoft for document management and storage."
+    },
+    {
+      "id": 5,
+      "name": "Magento",
+      "definition": "An open-source e-commerce platform written in PHP."
+    },
+    {
+      "id": 6,
+      "name": "Spring",
+      "definition": "A framework for building Java applications, particularly web applications."
+    },
+    {
+      "id": 7,
+      "name": "Hibernate",
+      "definition": "An object-relational mapping framework for Java."
+    },
+    {
+      "id": 8,
+      "name": "Excel VBA",
+      "definition": "Visual Basic for Applications, a programming language for Excel automation."
+    },
+    {
+      "id": 9,
+      "name": "Cocoa/Objective-C",
+      "definition": "A framework and programming language for macOS and iOS application development."
+    },
+    {
+      "id": 10,
+      "name": "Bash",
+      "definition": "A Unix shell and command language."
+    },
+    {
+      "id": 11,
+      "name": "Drupal",
+      "definition": "An open-source content management system written in PHP."
+    },
+    {
+      "id": 12,
+      "name": "Visual Studio",
+      "definition": "An integrated development environment from Microsoft for developing applications."
+    },
+    {
+      "id": 13,
+      "name": "Oracle",
+      "definition": "A multi-model database management system produced by Oracle Corporation."
+    },
+    {
+      "id": 14,
+      "name": "JavaScript/AJAX",
+      "definition": "A set of web development techniques combining JavaScript and XML for asynchronous web applications."
+    },
+    {
+      "id": 15,
+      "name": "Qt",
+      "definition": "A free and open-source widget toolkit for creating graphical user interfaces."
+    },
+    {
+      "id": 16,
+      "name": "PHP",
+      "definition": "A popular general-purpose scripting language that is especially suited to web development."
+    },
+    {
+      "id": 17,
+      "name": "Scala",
+      "definition": "A high-level programming language that combines functional and object-oriented programming."
+    },
+    {
+      "id": 18,
+      "name": "MATLAB",
+      "definition": "A programming platform designed for engineers and scientists."
+    },
+    {
+      "id": 19,
+      "name": "Subversion (SVN)",
+      "definition": "A version control system for tracking changes in files and directories."
+    },
+    {
+      "id": 20,
+      "name": "Git",
+      "definition": "A distributed version control system for tracking changes in source code."
+    },
+    {
+      "id": 21,
+      "name": "Django",
+      "definition": "A high-level Python web framework that encourages rapid development."
+    },
+    {
+      "id": 22,
+      "name": "C++",
+      "definition": "A general-purpose programming language created as an extension of the C programming language."
+    },
+    {
+      "id": 23,
+      "name": "ASP.NET",
+      "definition": "A web framework for building web apps and services with .NET and C#."
+    },
+    {
+      "id": 24,
+      "name": "Core Data",
+      "definition": "An object graph and persistence framework provided by Apple for macOS and iOS."
+    },
+    {
+      "id": 25,
+      "name": "JDO",
+      "definition": "Java Data Objects, a specification for data persistence in Java."
+    },
+    {
+      "id": 26,
+      "name": "XML",
+      "definition": "A markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable."
+    },
+    {
+      "id": 27,
+      "name": "JSON",
+      "definition": "A lightweight data interchange format that is easy for humans to read and write."
+    },
+    {
+      "id": 28,
+      "name": "C#",
+      "definition": "A modern, object-oriented programming language developed by Microsoft."
+    },
+    {
+      "id": 29,
+      "name": "Python",
+      "definition": "A high-level programming language known for its readability and versatility."
+    },
+    {
+      "id": 30,
+      "name": "R",
+      "definition": "A programming language and free software environment for statistical computing and graphics."
+    }
+  ]
+}

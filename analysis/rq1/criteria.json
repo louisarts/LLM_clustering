@@ -1,0 +1,21 @@
+{
+ "mtop_intent": "which assistant-command intent the utterance expresses, that is what the user wants done",
+ "mtop_domain": "which domain of assistant functionality the utterance belongs to",
+ "massive_domain": "which domain of everyday assistant use the utterance belongs to",
+ "massive_intent": "which assistant-command intent the utterance expresses, that is what the user wants done",
+ "reddit_s2s": "which subreddit community the post title was written for",
+ "banking77": "which banking customer-service intent the query expresses",
+ "arxiv_fine": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+ "stackexchange_cl": "which StackExchange community / site the question title was posted to",
+ "fewrel": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+ "fewnerd": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+ "fewevent": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+ "tweet89": "which specific news story or event the tweet is about",
+ "clinc150": "which assistant-command intent the utterance expresses, that is what the user wants done",
+ "clinc150_domain": "which general domain of assistant use the utterance belongs to",
+ "stackoverflow20": "which programming technology or tool the question is about",
+ "bbcnews": "which news topic area the article covers",
+ "dbpedia": "which type of entity the encyclopedia article describes",
+ "snips": "which assistant-command intent the utterance expresses, that is what the user wants done",
+ "mcid": "which COVID-19-related user intent the utterance expresses"
+}

@@ -1,0 +1,160 @@
+{
+  "bench": "fewevent",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Government",
+      "definition": "Events related to the formation, actions, or changes in government."
+    },
+    {
+      "id": 2,
+      "name": "Sports Achievement",
+      "definition": "Events related to winning medals or achieving notable success in sports."
+    },
+    {
+      "id": 3,
+      "name": "Military Command",
+      "definition": "Events involving military leadership or command decisions."
+    },
+    {
+      "id": 4,
+      "name": "Violence",
+      "definition": "Events characterized by acts of violence or aggression."
+    },
+    {
+      "id": 5,
+      "name": "Marriage",
+      "definition": "Events related to the act of marrying or being married."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Events related to the creation, performance, or discussion of music."
+    },
+    {
+      "id": 7,
+      "name": "Education",
+      "definition": "Events related to academic institutions, teaching, or learning."
+    },
+    {
+      "id": 8,
+      "name": "Work",
+      "definition": "Events related to employment, job roles, or professional activities."
+    },
+    {
+      "id": 9,
+      "name": "Protest",
+      "definition": "Events involving public demonstrations or expressions of dissent."
+    },
+    {
+      "id": 10,
+      "name": "Leadership",
+      "definition": "Events related to individuals in leadership positions or roles."
+    },
+    {
+      "id": 11,
+      "name": "Sailing",
+      "definition": "Events related to naval activities or individuals serving in the navy."
+    },
+    {
+      "id": 12,
+      "name": "Resignation",
+      "definition": "Events involving the act of resigning from a position or role."
+    },
+    {
+      "id": 13,
+      "name": "Death",
+      "definition": "Events related to the death of individuals."
+    },
+    {
+      "id": 14,
+      "name": "Statements",
+      "definition": "Events involving public statements or declarations."
+    },
+    {
+      "id": 15,
+      "name": "Competition",
+      "definition": "Events related to competing in sports or other competitive activities."
+    },
+    {
+      "id": 16,
+      "name": "Research",
+      "definition": "Events related to academic or scientific research activities."
+    },
+    {
+      "id": 17,
+      "name": "Protests",
+      "definition": "Events involving organized public demonstrations."
+    },
+    {
+      "id": 18,
+      "name": "Artistic Performance",
+      "definition": "Events related to performances in the arts, including theater and dance."
+    },
+    {
+      "id": 19,
+      "name": "Travel",
+      "definition": "Events related to travel or movement from one place to another."
+    },
+    {
+      "id": 20,
+      "name": "Import/Export",
+      "definition": "Events related to the importation or exportation of goods."
+    },
+    {
+      "id": 21,
+      "name": "Public Speaking",
+      "definition": "Events involving speeches or public addresses."
+    },
+    {
+      "id": 22,
+      "name": "Controversy",
+      "definition": "Events involving disputes or public disagreements."
+    },
+    {
+      "id": 23,
+      "name": "Community Engagement",
+      "definition": "Events involving community involvement or local activities."
+    },
+    {
+      "id": 24,
+      "name": "Crisis",
+      "definition": "Events related to emergencies or critical situations."
+    },
+    {
+      "id": 25,
+      "name": "Collaboration",
+      "definition": "Events involving teamwork or joint efforts."
+    },
+    {
+      "id": 26,
+      "name": "Endorsement",
+      "definition": "Events involving public support or approval of individuals or causes."
+    },
+    {
+      "id": 27,
+      "name": "Exploration",
+      "definition": "Events related to discovering or investigating new areas or ideas."
+    },
+    {
+      "id": 28,
+      "name": "Cultural Exchange",
+      "definition": "Events involving the sharing of cultural practices or ideas."
+    },
+    {
+      "id": 29,
+      "name": "Innovation",
+      "definition": "Events related to new ideas, inventions, or advancements."
+    },
+    {
+      "id": 30,
+      "name": "Health",
+      "definition": "Events related to health issues or medical practices."
+    }
+  ]
+}

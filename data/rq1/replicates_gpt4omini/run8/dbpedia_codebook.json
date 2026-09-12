@@ -1,0 +1,90 @@
+{
+  "bench": "dbpedia",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Literature",
+      "definition": "Works of written or spoken artistic expression, including novels, poetry, and essays."
+    },
+    {
+      "id": 2,
+      "name": "Geography",
+      "definition": "Physical locations, including mountains, rivers, lakes, and other geographical features."
+    },
+    {
+      "id": 3,
+      "name": "Biology",
+      "definition": "Living organisms, including plants, animals, and microorganisms."
+    },
+    {
+      "id": 4,
+      "name": "History",
+      "definition": "Historical figures, events, and places significant to past human activities."
+    },
+    {
+      "id": 5,
+      "name": "Film and Television",
+      "definition": "Motion pictures and television shows, including documentaries and series."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Musical works, including albums, songs, and artists."
+    },
+    {
+      "id": 7,
+      "name": "Education",
+      "definition": "Institutions and systems of learning, including schools and universities."
+    },
+    {
+      "id": 8,
+      "name": "Politics",
+      "definition": "Political figures, parties, and governmental structures."
+    },
+    {
+      "id": 9,
+      "name": "Business",
+      "definition": "Companies, corporations, and economic activities."
+    },
+    {
+      "id": 10,
+      "name": "Sports",
+      "definition": "Athletes, teams, and sporting events."
+    },
+    {
+      "id": 11,
+      "name": "Architecture",
+      "definition": "Buildings and structures, including historical and modern designs."
+    },
+    {
+      "id": 12,
+      "name": "Transportation",
+      "definition": "Vehicles and systems used for moving people or goods."
+    },
+    {
+      "id": 13,
+      "name": "Religion",
+      "definition": "Religious figures, institutions, and beliefs."
+    },
+    {
+      "id": 14,
+      "name": "Science",
+      "definition": "Scientific concepts, discoveries, and figures."
+    },
+    {
+      "id": 15,
+      "name": "Comics and Graphic Novels",
+      "definition": "Comic books and graphic novels, including their creators and stories."
+    },
+    {
+      "id": 16,
+      "name": "Cultural Studies",
+      "definition": "Cultural phenomena, including traditions, practices, and social issues."
+    }
+  ]
+}

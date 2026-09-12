@@ -1,0 +1,60 @@
+{
+  "bench": "mtop_domain",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm Management",
+      "definition": "Requests to set, delete, or manage alarms."
+    },
+    {
+      "id": 2,
+      "name": "Reminder Management",
+      "definition": "Requests to set, delete, or manage reminders."
+    },
+    {
+      "id": 3,
+      "name": "Weather Information",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 4,
+      "name": "News and Current Events",
+      "definition": "Requests for news updates or information on current events."
+    },
+    {
+      "id": 5,
+      "name": "Music and Media Playback",
+      "definition": "Requests to play, pause, or manage music and media."
+    },
+    {
+      "id": 6,
+      "name": "Timer Management",
+      "definition": "Requests to set, delete, or manage timers."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "Requests to make calls, send messages, or manage contacts."
+    },
+    {
+      "id": 8,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions, recipes, or food-related information."
+    },
+    {
+      "id": 9,
+      "name": "Event and Activity Information",
+      "definition": "Requests for information on events or activities happening at a specific time or location."
+    },
+    {
+      "id": 10,
+      "name": "Personal Information Management",
+      "definition": "Requests for information about personal contacts, friends, or social connections."
+    }
+  ]
+}

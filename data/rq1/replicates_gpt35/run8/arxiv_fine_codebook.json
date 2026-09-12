@@ -1,0 +1,60 @@
+{
+  "bench": "arxiv_fine",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.CR",
+      "definition": "Computer Science - Cryptography and Security"
+    },
+    {
+      "id": 2,
+      "name": "math.DG",
+      "definition": "Mathematics - Differential Geometry"
+    },
+    {
+      "id": 3,
+      "name": "cond-mat.stat-mech",
+      "definition": "Condensed Matter - Statistical Mechanics"
+    },
+    {
+      "id": 4,
+      "name": "q-bio.PE",
+      "definition": "Quantitative Biology - Populations and Evolution"
+    },
+    {
+      "id": 5,
+      "name": "q-fin.CP",
+      "definition": "Quantitative Finance - Computational Finance"
+    },
+    {
+      "id": 6,
+      "name": "physics.optics",
+      "definition": "Physics - Optics"
+    },
+    {
+      "id": 7,
+      "name": "cs.LG",
+      "definition": "Computer Science - Machine Learning"
+    },
+    {
+      "id": 8,
+      "name": "math.RA",
+      "definition": "Mathematics - Rings and Algebras"
+    },
+    {
+      "id": 9,
+      "name": "astro-ph.SR",
+      "definition": "Astrophysics - Solar and Stellar Astrophysics"
+    },
+    {
+      "id": 10,
+      "name": "hep-th",
+      "definition": "High Energy Physics - Theory"
+    }
+  ]
+}

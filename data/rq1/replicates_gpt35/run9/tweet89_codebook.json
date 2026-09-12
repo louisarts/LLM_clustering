@@ -1,0 +1,195 @@
+{
+  "bench": "tweet89",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Immigration Enforcement",
+      "definition": "Documents related to immigration law enforcement and inspections."
+    },
+    {
+      "id": 2,
+      "name": "National Anthem Flub",
+      "definition": "Documents related to incidents of national anthem flubs, specifically mentioning Christina Aguilera."
+    },
+    {
+      "id": 3,
+      "name": "Piracy Operation",
+      "definition": "Documents related to anti-piracy operations targeting pirates in the Gulf of Aden."
+    },
+    {
+      "id": 4,
+      "name": "Food Lawsuit",
+      "definition": "Documents related to lawsuits and claims about food quality, specifically mentioning Taco Bell."
+    },
+    {
+      "id": 5,
+      "name": "Yemen Unrest",
+      "definition": "Documents related to protests and unrest in Yemen."
+    },
+    {
+      "id": 6,
+      "name": "Social Media Campaign",
+      "definition": "Documents related to social media campaigns promoting agendas."
+    },
+    {
+      "id": 7,
+      "name": "Super Bowl Commercials",
+      "definition": "Documents related to commercials aired during the Super Bowl."
+    },
+    {
+      "id": 8,
+      "name": "Egypt Protests",
+      "definition": "Documents related to protests and events in Egypt."
+    },
+    {
+      "id": 9,
+      "name": "Healthcare Reform",
+      "definition": "Documents related to healthcare reform and court rulings."
+    },
+    {
+      "id": 10,
+      "name": "Academy Award Nominations",
+      "definition": "Documents related to nominations for the Academy Awards."
+    },
+    {
+      "id": 11,
+      "name": "Fishing Reports",
+      "definition": "Documents related to fishing reports and techniques."
+    },
+    {
+      "id": 12,
+      "name": "Iran Nuclear Talks",
+      "definition": "Documents related to talks and developments regarding Iran's nuclear program."
+    },
+    {
+      "id": 13,
+      "name": "Chicago Mayoral Race",
+      "definition": "Documents related to the Chicago mayoral race and court rulings."
+    },
+    {
+      "id": 14,
+      "name": "Privacy Settings",
+      "definition": "Documents related to privacy settings on social media platforms."
+    },
+    {
+      "id": 15,
+      "name": "Weight Loss Claims",
+      "definition": "Documents related to weight loss claims and products, specifically mentioning Acai Berry."
+    },
+    {
+      "id": 16,
+      "name": "Super Bowl Party Recipes",
+      "definition": "Documents related to recipes and food for Super Bowl parties."
+    },
+    {
+      "id": 17,
+      "name": "Concussion Risks",
+      "definition": "Documents related to concussion risks in sports."
+    },
+    {
+      "id": 18,
+      "name": "Bullying Prevention Programs",
+      "definition": "Documents related to programs and initiatives aimed at preventing bullying."
+    },
+    {
+      "id": 19,
+      "name": "Nobel Peace Prize Controversy",
+      "definition": "Documents related to controversies surrounding the Nobel Peace Prize."
+    },
+    {
+      "id": 20,
+      "name": "Texting While Driving Campaigns",
+      "definition": "Documents related to campaigns against texting while driving."
+    },
+    {
+      "id": 21,
+      "name": "Celebrity News",
+      "definition": "Documents related to news and events involving celebrities."
+    },
+    {
+      "id": 22,
+      "name": "Fishing Gear and Techniques",
+      "definition": "Documents related to fishing gear, techniques, and reports."
+    },
+    {
+      "id": 23,
+      "name": "Super Bowl Halftime Show",
+      "definition": "Documents related to the Super Bowl halftime show and performances."
+    },
+    {
+      "id": 24,
+      "name": "Russian Airport Bombing",
+      "definition": "Documents related to the deadly suicide bombing at a Moscow airport."
+    },
+    {
+      "id": 25,
+      "name": "Journalist Arrests in Egypt",
+      "definition": "Documents related to the arrest and detention of journalists in Egypt."
+    },
+    {
+      "id": 26,
+      "name": "TSA Body Scanner Controversy",
+      "definition": "Documents related to controversies surrounding TSA body scanners."
+    },
+    {
+      "id": 27,
+      "name": "Black Swan Movie",
+      "definition": "Documents related to the movie 'Black Swan' and its actors."
+    },
+    {
+      "id": 28,
+      "name": "Chicago Blizzard",
+      "definition": "Documents related to the blizzard in Chicago and its impact."
+    },
+    {
+      "id": 29,
+      "name": "Facebook Privacy Concerns",
+      "definition": "Documents related to privacy concerns on Facebook."
+    },
+    {
+      "id": 30,
+      "name": "Iranian-Dutch Woman Execution",
+      "definition": "Documents related to the execution of an Iranian-Dutch woman in Iran."
+    },
+    {
+      "id": 31,
+      "name": "Super Bowl Game Highlights",
+      "definition": "Documents related to highlights and events during the Super Bowl game."
+    },
+    {
+      "id": 32,
+      "name": "Super Bowl Halftime Show",
+      "definition": "Documents related to the Super Bowl halftime show and performances."
+    },
+    {
+      "id": 33,
+      "name": "Super Bowl Commercials",
+      "definition": "Documents related to commercials aired during the Super Bowl."
+    },
+    {
+      "id": 34,
+      "name": "Super Bowl Party Recipes",
+      "definition": "Documents related to recipes and food for Super Bowl parties."
+    },
+    {
+      "id": 35,
+      "name": "Super Bowl Halftime Show",
+      "definition": "Documents related to the Super Bowl halftime show and performances."
+    },
+    {
+      "id": 36,
+      "name": "Super Bowl Commercials",
+      "definition": "Documents related to commercials aired during the Super Bowl."
+    },
+    {
+      "id": 37,
+      "name": "Super Bowl Party Recipes",
+      "definition": "Documents related to recipes and food for Super Bowl parties."
+    }
+  ]
+}

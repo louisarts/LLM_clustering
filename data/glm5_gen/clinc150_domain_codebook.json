@@ -1,0 +1,77 @@
+[
+ {
+  "id": 1,
+  "name": "Banking & Finance",
+  "definition": "Managing bank accounts, credit cards, loans, payments, bills, rewards, and financial transactions"
+ },
+ {
+  "id": 2,
+  "name": "Music & Audio",
+  "definition": "Playing, identifying, skipping, and controlling music and audio playback"
+ },
+ {
+  "id": 3,
+  "name": "Cooking & Food",
+  "definition": "Recipes, cooking instructions and times, food storage, ingredient substitutions, and nutrition information"
+ },
+ {
+  "id": 4,
+  "name": "Travel",
+  "definition": "Flights, hotels, visas, travel advisories, rental cars, rideshare booking, and luggage"
+ },
+ {
+  "id": 5,
+  "name": "Restaurants & Dining",
+  "definition": "Restaurant reservations, information, reviews, and wait times"
+ },
+ {
+  "id": 6,
+  "name": "Shopping & Lists",
+  "definition": "Managing shopping lists, ordering items, and tracking order status"
+ },
+ {
+  "id": 7,
+  "name": "Vehicle & Automotive",
+  "definition": "Car maintenance, tire pressure, fuel levels, mileage, and vehicle diagnostics"
+ },
+ {
+  "id": 8,
+  "name": "Communication",
+  "definition": "Making phone calls, sending messages, and sharing location with contacts"
+ },
+ {
+  "id": 9,
+  "name": "Time, Alarms & Reminders",
+  "definition": "Checking time, setting timers and alarms, managing reminders and calendar events"
+ },
+ {
+  "id": 10,
+  "name": "Language & Translation",
+  "definition": "Language settings, translations between languages, spelling, and word definitions"
+ },
+ {
+  "id": 11,
+  "name": "Device Settings & Personalization",
+  "definition": "Configuring device settings, voice, name, modes, and controlling connected devices"
+ },
+ {
+  "id": 12,
+  "name": "General Knowledge & Entertainment",
+  "definition": "Jokes, fun facts, trivia, philosophical questions, calculations, and unit conversions"
+ },
+ {
+  "id": 13,
+  "name": "Navigation & Location",
+  "definition": "Finding nearby places, getting directions, and checking current location"
+ },
+ {
+  "id": 14,
+  "name": "Work & Employment",
+  "definition": "PTO requests, vacation days, and employment-related inquiries"
+ },
+ {
+  "id": 15,
+  "name": "Weather",
+  "definition": "Weather conditions, forecasts, and climate information"
+ }
+]

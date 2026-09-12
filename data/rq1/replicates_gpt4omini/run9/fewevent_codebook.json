@@ -1,0 +1,110 @@
+{
+  "bench": "fewevent",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Work",
+      "definition": "Events related to employment, positions, or professional roles."
+    },
+    {
+      "id": 2,
+      "name": "Sports Achievement",
+      "definition": "Events related to winning medals or titles in sports competitions."
+    },
+    {
+      "id": 3,
+      "name": "Leadership",
+      "definition": "Events related to holding leadership positions or titles."
+    },
+    {
+      "id": 4,
+      "name": "Marriage",
+      "definition": "Events related to the act of marrying or being married."
+    },
+    {
+      "id": 5,
+      "name": "Travel",
+      "definition": "Events related to the act of traveling or moving from one place to another."
+    },
+    {
+      "id": 6,
+      "name": "Command",
+      "definition": "Events related to military or authoritative command."
+    },
+    {
+      "id": 7,
+      "name": "Singing/Music",
+      "definition": "Events related to musical performances or singing."
+    },
+    {
+      "id": 8,
+      "name": "Education",
+      "definition": "Events related to studying, teaching, or academic positions."
+    },
+    {
+      "id": 9,
+      "name": "Protests/Demonstrations",
+      "definition": "Events related to public demonstrations or protests."
+    },
+    {
+      "id": 10,
+      "name": "Funding/Financial Transactions",
+      "definition": "Events related to financial support, funding, or transactions."
+    },
+    {
+      "id": 11,
+      "name": "Resignation",
+      "definition": "Events related to stepping down from a position or role."
+    },
+    {
+      "id": 12,
+      "name": "Accusations",
+      "definition": "Events related to making accusations or claims against someone."
+    },
+    {
+      "id": 13,
+      "name": "Clashes/Conflicts",
+      "definition": "Events related to physical confrontations or conflicts."
+    },
+    {
+      "id": 14,
+      "name": "General Statements",
+      "definition": "Events related to general statements or declarations."
+    },
+    {
+      "id": 15,
+      "name": "Interviews",
+      "definition": "Events related to conducting or participating in interviews."
+    },
+    {
+      "id": 16,
+      "name": "Hired/Employment",
+      "definition": "Events related to hiring or employment arrangements."
+    },
+    {
+      "id": 17,
+      "name": "Messages/Communications",
+      "definition": "Events related to sending or receiving messages or communications."
+    },
+    {
+      "id": 18,
+      "name": "Celebrations",
+      "definition": "Events related to celebrations or commemorations."
+    },
+    {
+      "id": 19,
+      "name": "Public Health",
+      "definition": "Events related to public health concerns or emergencies."
+    },
+    {
+      "id": 20,
+      "name": "Legal Matters",
+      "definition": "Events related to legal actions or judicial proceedings."
+    }
+  ]
+}

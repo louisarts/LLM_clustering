@@ -1,0 +1,82 @@
+{
+  "bench": "dbpedia",
+  "run": 6,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, living or historical."
+    },
+    {
+      "id": 2,
+      "name": "Organization",
+      "definition": "A company, institution, group, or governmental body."
+    },
+    {
+      "id": 3,
+      "name": "Geographical Feature",
+      "definition": "A natural landform or body of water."
+    },
+    {
+      "id": 4,
+      "name": "Settlement",
+      "definition": "A human habitation, such as a village, town, city, or administrative division."
+    },
+    {
+      "id": 5,
+      "name": "Organism",
+      "definition": "A living being, including plants, animals, fungi, or other biological classifications."
+    },
+    {
+      "id": 6,
+      "name": "Building",
+      "definition": "A man-made structure, typically fixed and enclosed."
+    },
+    {
+      "id": 7,
+      "name": "Ship",
+      "definition": "A large watercraft, typically self-propelled."
+    },
+    {
+      "id": 8,
+      "name": "Vehicle Model",
+      "definition": "A specific design or type of vehicle, rather than an individual unit."
+    },
+    {
+      "id": 9,
+      "name": "Book",
+      "definition": "A written work, including novels, biographies, anthologies, or graphic novels."
+    },
+    {
+      "id": 10,
+      "name": "Album",
+      "definition": "A recorded music release, including studio albums, EPs, or compilations."
+    },
+    {
+      "id": 11,
+      "name": "Film",
+      "definition": "A motion picture, including feature films, documentaries, or mini-series."
+    },
+    {
+      "id": 12,
+      "name": "Publication",
+      "definition": "A periodical, such as a journal, magazine, newspaper, or comic strip."
+    },
+    {
+      "id": 13,
+      "name": "Site",
+      "definition": "A specific location of historical, cultural, or engineering significance that is not a settlement or natural feature."
+    },
+    {
+      "id": 14,
+      "name": "Creative Work",
+      "definition": "An artistic or intellectual work that is not a book, album, or film, such as a play or recorded performance."
+    },
+    {
+      "id": 15,
+      "name": "Product or Service",
+      "definition": "A commercial offering or specific product."
+    }
+  ]
+}

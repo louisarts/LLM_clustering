@@ -1,0 +1,47 @@
+{
+  "bench": "clinc150_domain",
+  "run": 2,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking & Finance",
+      "definition": "Requests and inquiries related to personal banking, credit, loans, bills, insurance, and financial transactions."
+    },
+    {
+      "id": 2,
+      "name": "Automotive",
+      "definition": "Questions and tasks related to vehicle maintenance, fuel, performance, and repairs."
+    },
+    {
+      "id": 3,
+      "name": "Navigation & Travel",
+      "definition": "Requests for directions, traffic updates, travel planning, booking transportation, and information about destinations."
+    },
+    {
+      "id": 4,
+      "name": "Reservations & Appointments",
+      "definition": "Managing bookings for dining, hotels, meetings, or other scheduled appointments."
+    },
+    {
+      "id": 5,
+      "name": "General Information & Knowledge",
+      "definition": "Requests for facts, definitions, calculations, recipes, jokes, general knowledge, or recommendations."
+    },
+    {
+      "id": 6,
+      "name": "Personal Assistant & Device Control",
+      "definition": "Commands and inquiries related to the assistant's settings, identity, alarms, timers, reminders, device location, communication, and general conversational interactions."
+    },
+    {
+      "id": 7,
+      "name": "Shopping & Ordering",
+      "definition": "Requests for product information, reviews, managing shopping lists, placing orders for goods or services, and tracking orders."
+    },
+    {
+      "id": 8,
+      "name": "Work & HR",
+      "definition": "Inquiries and tasks related to employment, such as vacation requests, paid time off, and HR information."
+    }
+  ]
+}

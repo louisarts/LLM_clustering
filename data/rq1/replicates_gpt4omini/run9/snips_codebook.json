@@ -1,0 +1,85 @@
+{
+  "bench": "snips",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Add to Playlist",
+      "definition": "Requests to add songs or artists to a specified playlist."
+    },
+    {
+      "id": 2,
+      "name": "Play Music",
+      "definition": "Requests to play specific songs, albums, or music from a service."
+    },
+    {
+      "id": 3,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or future weather forecasts."
+    },
+    {
+      "id": 4,
+      "name": "Movie Schedule Inquiry",
+      "definition": "Requests for information about movie showtimes or schedules."
+    },
+    {
+      "id": 5,
+      "name": "Rate Item",
+      "definition": "Requests to rate books, movies, albums, or other items."
+    },
+    {
+      "id": 6,
+      "name": "Find Item",
+      "definition": "Requests to locate specific items such as books, movies, or photographs."
+    },
+    {
+      "id": 7,
+      "name": "Book Reservation",
+      "definition": "Requests to make reservations at restaurants, theaters, or other venues."
+    },
+    {
+      "id": 8,
+      "name": "Show Item",
+      "definition": "Requests to display or show specific items such as movies, games, or sagas."
+    },
+    {
+      "id": 9,
+      "name": "Search for Information",
+      "definition": "Requests for general information about various topics."
+    },
+    {
+      "id": 10,
+      "name": "Play Specific Media",
+      "definition": "Requests to play specific media types such as videos or soundtracks."
+    },
+    {
+      "id": 11,
+      "name": "Add Artist or Album",
+      "definition": "Requests to add specific artists or albums to playlists."
+    },
+    {
+      "id": 12,
+      "name": "Find Movie",
+      "definition": "Requests to find specific movies or their showtimes."
+    },
+    {
+      "id": 13,
+      "name": "Locate Venue",
+      "definition": "Requests to find specific types of venues such as restaurants or theaters."
+    },
+    {
+      "id": 14,
+      "name": "Play Genre or Theme",
+      "definition": "Requests to play music from a specific genre or theme."
+    },
+    {
+      "id": 15,
+      "name": "Forecast Inquiry",
+      "definition": "Requests for weather forecasts over a specified time frame."
+    }
+  ]
+}

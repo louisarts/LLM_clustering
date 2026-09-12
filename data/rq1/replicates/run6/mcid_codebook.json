@@ -1,0 +1,62 @@
+{
+  "bench": "mcid",
+  "run": 6,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "COVID-19 General Information",
+      "definition": "User seeks broad facts, definitions, myths, or general news about COVID-19, its origin, or potential cures/vaccines."
+    },
+    {
+      "id": 2,
+      "name": "COVID-19 Symptoms and Treatment",
+      "definition": "User asks about identifying symptoms, diagnosis, or medical/home treatment options for COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "COVID-19 Transmission and Prevention",
+      "definition": "User inquires about how COVID-19 spreads, how long it survives, or methods to protect oneself and others from infection."
+    },
+    {
+      "id": 4,
+      "name": "COVID-19 Statistics and Data",
+      "definition": "User requests numerical data such as case counts, death tolls, recovery rates, testing figures, or demographic impacts of COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "COVID-19 Travel and Restrictions",
+      "definition": "User asks about travel advisories, restrictions, high-risk areas, or quarantine guidelines related to COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "COVID-19 Local/Regional Updates",
+      "definition": "User seeks news or updates specific to a particular geographic location regarding COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Donation and Support",
+      "definition": "User expresses an intent to donate money or resources, or asks for information on how to provide support for COVID-19 relief efforts."
+    },
+    {
+      "id": 8,
+      "name": "Sharing Information",
+      "definition": "User expresses an intent to share the current information, link, or service with others."
+    },
+    {
+      "id": 9,
+      "name": "Gratitude and Acknowledgment",
+      "definition": "User expresses thanks, appreciation, or positive feedback for the provided information or service."
+    },
+    {
+      "id": 10,
+      "name": "Personal Advice Seeking",
+      "definition": "User asks for advice or guidance tailored to their specific personal situation or concerns related to COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Greetings/Chat",
+      "definition": "User initiates a conversation, offers a compliment, or uses conversational fillers without seeking specific COVID-19 related information."
+    }
+  ]
+}

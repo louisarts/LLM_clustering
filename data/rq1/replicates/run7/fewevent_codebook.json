@@ -1,0 +1,82 @@
+{
+  "bench": "fewevent",
+  "run": 7,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Role or Title",
+      "definition": "Denotes a specific job, position, or designation held by an individual or group."
+    },
+    {
+      "id": 2,
+      "name": "Award or Recognition",
+      "definition": "Denotes an honor, prize, or successful achievement."
+    },
+    {
+      "id": 3,
+      "name": "Relationship Event or Status",
+      "definition": "Denotes a personal connection, formal union, or an event related to such a connection."
+    },
+    {
+      "id": 4,
+      "name": "Commercial Transaction",
+      "definition": "Denotes an exchange of goods, services, or money."
+    },
+    {
+      "id": 5,
+      "name": "Conflict or Violence",
+      "definition": "Denotes an act of aggression, dispute, or destructive physical event."
+    },
+    {
+      "id": 6,
+      "name": "Movement or Location",
+      "definition": "Denotes an act of changing position, being situated in a place, or a specific place itself."
+    },
+    {
+      "id": 7,
+      "name": "Communication or Publication",
+      "definition": "Denotes the act of conveying information, ideas, or messages, or the resulting output."
+    },
+    {
+      "id": 8,
+      "name": "Employment Action",
+      "definition": "Denotes an action related to the hiring, termination, or performance of work."
+    },
+    {
+      "id": 9,
+      "name": "Legal or Political Action",
+      "definition": "Denotes an action or situation related to law, justice, or governance."
+    },
+    {
+      "id": 10,
+      "name": "Creative Output or Performance",
+      "definition": "Denotes an artistic production, composition, intellectual work, or its public presentation."
+    },
+    {
+      "id": 11,
+      "name": "Organizational Entity",
+      "definition": "Denotes a formal group, body, or system established for a particular purpose."
+    },
+    {
+      "id": 12,
+      "name": "Status or Affiliation",
+      "definition": "Denotes a state of belonging, occupancy, or participation in a group or place."
+    },
+    {
+      "id": 13,
+      "name": "Educational Process or Achievement",
+      "definition": "Denotes an action, process, or qualification related to learning or academic pursuits."
+    },
+    {
+      "id": 14,
+      "name": "Medical Event",
+      "definition": "Denotes an event related to health or medical treatment."
+    },
+    {
+      "id": 15,
+      "name": "General Activity",
+      "definition": "Denotes a broad action, process, or condition not covered by more specific categories."
+    }
+  ]
+}

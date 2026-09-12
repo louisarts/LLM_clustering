@@ -1,0 +1,110 @@
+{
+  "bench": "clinc150",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Travel Information",
+      "definition": "Requests for information related to travel, such as visas, flights, or accommodations."
+    },
+    {
+      "id": 2,
+      "name": "Financial Information",
+      "definition": "Requests for information about personal finances, such as bank balances, credit scores, or transaction history."
+    },
+    {
+      "id": 3,
+      "name": "Calendar and Scheduling",
+      "definition": "Requests to check, add, or remove events from a calendar or schedule."
+    },
+    {
+      "id": 4,
+      "name": "Shopping and Orders",
+      "definition": "Requests related to shopping lists, purchasing items, or checking order status."
+    },
+    {
+      "id": 5,
+      "name": "Music and Media Control",
+      "definition": "Commands to play, skip, or add songs to playlists."
+    },
+    {
+      "id": 6,
+      "name": "Weather and News",
+      "definition": "Requests for weather forecasts or news updates."
+    },
+    {
+      "id": 7,
+      "name": "Food and Recipes",
+      "definition": "Requests for recipes, nutrition facts, or food-related suggestions."
+    },
+    {
+      "id": 8,
+      "name": "Utilities and Home",
+      "definition": "Requests related to home utilities, such as paying bills or controlling smart home devices."
+    },
+    {
+      "id": 9,
+      "name": "Communication",
+      "definition": "Commands to send messages or make calls."
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge and Advice",
+      "definition": "Requests for general information or advice on various topics."
+    },
+    {
+      "id": 11,
+      "name": "Personal Information",
+      "definition": "Requests for personal information or settings, such as names or preferences."
+    },
+    {
+      "id": 12,
+      "name": "Technical Support",
+      "definition": "Requests for help with technical issues or device settings."
+    },
+    {
+      "id": 13,
+      "name": "Banking and Financial Transactions",
+      "definition": "Commands to perform banking transactions or report issues with financial accounts."
+    },
+    {
+      "id": 14,
+      "name": "Reservations and Appointments",
+      "definition": "Commands to make, confirm, or cancel reservations or appointments."
+    },
+    {
+      "id": 15,
+      "name": "Language and Translation",
+      "definition": "Requests for translations or language-related information."
+    },
+    {
+      "id": 16,
+      "name": "Math and Conversions",
+      "definition": "Requests for mathematical calculations or unit conversions."
+    },
+    {
+      "id": 17,
+      "name": "Vehicle and Transportation",
+      "definition": "Requests related to vehicles, such as maintenance or rental information."
+    },
+    {
+      "id": 18,
+      "name": "Entertainment and Leisure",
+      "definition": "Requests for entertainment suggestions or information about leisure activities."
+    },
+    {
+      "id": 19,
+      "name": "Identity and Existence",
+      "definition": "Questions about the assistant's identity or existence."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous",
+      "definition": "Requests that do not fit into other categories."
+    }
+  ]
+}

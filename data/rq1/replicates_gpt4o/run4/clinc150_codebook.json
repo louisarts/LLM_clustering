@@ -1,0 +1,1010 @@
+{
+  "bench": "clinc150",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Reminder",
+      "definition": "Requests to set a reminder for a future task or event."
+    },
+    {
+      "id": 2,
+      "name": "Travel Information",
+      "definition": "Inquiries about travel requirements, destinations, or arrangements."
+    },
+    {
+      "id": 3,
+      "name": "Legal Information",
+      "definition": "Questions about legal matters or regulations."
+    },
+    {
+      "id": 4,
+      "name": "Recipe Substitution",
+      "definition": "Questions about substituting ingredients in recipes."
+    },
+    {
+      "id": 5,
+      "name": "Programming Help",
+      "definition": "Requests for help with programming or coding."
+    },
+    {
+      "id": 6,
+      "name": "Fashion Trends",
+      "definition": "Inquiries about current fashion trends."
+    },
+    {
+      "id": 7,
+      "name": "Bank Account Information",
+      "definition": "Requests for information about bank account details."
+    },
+    {
+      "id": 8,
+      "name": "Vehicle Assistance",
+      "definition": "Requests for help with vehicle-related issues."
+    },
+    {
+      "id": 9,
+      "name": "Language Translation",
+      "definition": "Requests for translation of words or phrases."
+    },
+    {
+      "id": 10,
+      "name": "Voice or Accent Change",
+      "definition": "Requests to change the assistant's voice or accent."
+    },
+    {
+      "id": 11,
+      "name": "Account Freeze",
+      "definition": "Requests to freeze or unfreeze a bank account."
+    },
+    {
+      "id": 12,
+      "name": "Stop or Cancel Action",
+      "definition": "Requests to stop or cancel a current action or process."
+    },
+    {
+      "id": 13,
+      "name": "Calendar Management",
+      "definition": "Requests to manage calendar events or appointments."
+    },
+    {
+      "id": 14,
+      "name": "Flight Booking",
+      "definition": "Requests to book flights."
+    },
+    {
+      "id": 15,
+      "name": "Funds Transfer",
+      "definition": "Requests to transfer funds between accounts."
+    },
+    {
+      "id": 16,
+      "name": "Spelling Assistance",
+      "definition": "Requests for help with spelling words."
+    },
+    {
+      "id": 17,
+      "name": "Photo Editing",
+      "definition": "Requests to edit or create photos."
+    },
+    {
+      "id": 18,
+      "name": "Health and Fitness Advice",
+      "definition": "Inquiries about health or fitness advice."
+    },
+    {
+      "id": 19,
+      "name": "Vacation Planning",
+      "definition": "Requests related to planning or confirming vacations."
+    },
+    {
+      "id": 20,
+      "name": "Directions and Navigation",
+      "definition": "Requests for directions or navigation assistance."
+    },
+    {
+      "id": 21,
+      "name": "Music and Playlist Management",
+      "definition": "Requests to play music or manage playlists."
+    },
+    {
+      "id": 22,
+      "name": "Insurance Information",
+      "definition": "Inquiries about insurance benefits or plans."
+    },
+    {
+      "id": 23,
+      "name": "Credit Card Management",
+      "definition": "Requests related to credit card information or issues."
+    },
+    {
+      "id": 24,
+      "name": "Weather Information",
+      "definition": "Requests for current or future weather updates."
+    },
+    {
+      "id": 25,
+      "name": "Shopping and Orders",
+      "definition": "Requests related to shopping or tracking orders."
+    },
+    {
+      "id": 26,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes or cooking advice."
+    },
+    {
+      "id": 27,
+      "name": "Financial Advice",
+      "definition": "Requests for financial advice or information."
+    },
+    {
+      "id": 28,
+      "name": "Jokes and Entertainment",
+      "definition": "Requests for jokes or entertainment."
+    },
+    {
+      "id": 29,
+      "name": "Utility Bill Assistance",
+      "definition": "Requests for help with paying utility bills."
+    },
+    {
+      "id": 30,
+      "name": "Reservation Management",
+      "definition": "Requests to make, confirm, or cancel reservations."
+    },
+    {
+      "id": 31,
+      "name": "General Knowledge",
+      "definition": "Inquiries about general knowledge or trivia."
+    },
+    {
+      "id": 32,
+      "name": "Device Settings",
+      "definition": "Requests to change or adjust device settings."
+    },
+    {
+      "id": 33,
+      "name": "Language Learning",
+      "definition": "Requests for help with learning languages."
+    },
+    {
+      "id": 34,
+      "name": "Banking and Finance",
+      "definition": "Requests related to banking or financial transactions."
+    },
+    {
+      "id": 35,
+      "name": "Local Services",
+      "definition": "Requests for information about local services or businesses."
+    },
+    {
+      "id": 36,
+      "name": "Math and Calculations",
+      "definition": "Requests for mathematical calculations or solutions."
+    },
+    {
+      "id": 37,
+      "name": "News and Current Events",
+      "definition": "Requests for news updates or current events."
+    },
+    {
+      "id": 38,
+      "name": "Hobbies and Interests",
+      "definition": "Inquiries about hobbies or personal interests."
+    },
+    {
+      "id": 39,
+      "name": "Utilities and Home Maintenance",
+      "definition": "Requests related to home maintenance or utilities."
+    },
+    {
+      "id": 40,
+      "name": "Time and Date Information",
+      "definition": "Requests for time or date-related information."
+    },
+    {
+      "id": 41,
+      "name": "Transportation and Commute",
+      "definition": "Requests related to transportation or commuting."
+    },
+    {
+      "id": 42,
+      "name": "Social Media and Apps",
+      "definition": "Requests related to social media or app management."
+    },
+    {
+      "id": 43,
+      "name": "Coin Flips and Random Choices",
+      "definition": "Requests for random choices or coin flips."
+    },
+    {
+      "id": 44,
+      "name": "Pet Information",
+      "definition": "Inquiries about pets or pet-related topics."
+    },
+    {
+      "id": 45,
+      "name": "Technical Support",
+      "definition": "Requests for technical support or troubleshooting."
+    },
+    {
+      "id": 46,
+      "name": "Event and Activity Planning",
+      "definition": "Requests related to planning events or activities."
+    },
+    {
+      "id": 47,
+      "name": "Food and Dining",
+      "definition": "Requests for dining options or food-related information."
+    },
+    {
+      "id": 48,
+      "name": "Shopping List Management",
+      "definition": "Requests to manage or retrieve shopping lists."
+    },
+    {
+      "id": 49,
+      "name": "Bank Notifications",
+      "definition": "Requests to notify banks about travel or other activities."
+    },
+    {
+      "id": 50,
+      "name": "Credit Score Information",
+      "definition": "Requests for information about credit scores."
+    },
+    {
+      "id": 51,
+      "name": "Utility and Service Providers",
+      "definition": "Inquiries about utility or service providers."
+    },
+    {
+      "id": 52,
+      "name": "Personal Information Management",
+      "definition": "Requests to manage personal information or accounts."
+    },
+    {
+      "id": 53,
+      "name": "Learning and Education",
+      "definition": "Requests for educational resources or learning assistance."
+    },
+    {
+      "id": 54,
+      "name": "Entertainment and Media",
+      "definition": "Requests related to entertainment or media content."
+    },
+    {
+      "id": 55,
+      "name": "Health and Medical Information",
+      "definition": "Inquiries about health or medical information."
+    },
+    {
+      "id": 56,
+      "name": "Utilities and Bills",
+      "definition": "Requests related to utility bills or payments."
+    },
+    {
+      "id": 57,
+      "name": "Language and Translation",
+      "definition": "Requests for language translation or learning."
+    },
+    {
+      "id": 58,
+      "name": "Device Pairing and Connectivity",
+      "definition": "Requests to pair or connect devices."
+    },
+    {
+      "id": 59,
+      "name": "Financial Transactions",
+      "definition": "Requests related to financial transactions or inquiries."
+    },
+    {
+      "id": 60,
+      "name": "Travel and Transportation",
+      "definition": "Requests related to travel or transportation arrangements."
+    },
+    {
+      "id": 61,
+      "name": "Calendar and Scheduling",
+      "definition": "Requests to manage or retrieve calendar events."
+    },
+    {
+      "id": 62,
+      "name": "Shopping and Purchases",
+      "definition": "Requests related to shopping or making purchases."
+    },
+    {
+      "id": 63,
+      "name": "Weather and Climate",
+      "definition": "Requests for weather or climate information."
+    },
+    {
+      "id": 64,
+      "name": "Banking and Finance Management",
+      "definition": "Requests related to managing banking or financial accounts."
+    },
+    {
+      "id": 65,
+      "name": "Technical Assistance",
+      "definition": "Requests for technical assistance or support."
+    },
+    {
+      "id": 66,
+      "name": "Event Planning and Management",
+      "definition": "Requests related to planning or managing events."
+    },
+    {
+      "id": 67,
+      "name": "Food and Cooking",
+      "definition": "Requests for food or cooking-related information."
+    },
+    {
+      "id": 68,
+      "name": "Entertainment and Leisure",
+      "definition": "Requests related to entertainment or leisure activities."
+    },
+    {
+      "id": 69,
+      "name": "Health and Wellness",
+      "definition": "Requests for health or wellness-related information."
+    },
+    {
+      "id": 70,
+      "name": "Utilities and Home Services",
+      "definition": "Requests related to utilities or home services."
+    },
+    {
+      "id": 71,
+      "name": "Language and Communication",
+      "definition": "Requests for language or communication assistance."
+    },
+    {
+      "id": 72,
+      "name": "Device Settings and Preferences",
+      "definition": "Requests to change device settings or preferences."
+    },
+    {
+      "id": 73,
+      "name": "Financial and Banking Information",
+      "definition": "Requests for financial or banking information."
+    },
+    {
+      "id": 74,
+      "name": "Local Services and Businesses",
+      "definition": "Requests for information about local services or businesses."
+    },
+    {
+      "id": 75,
+      "name": "Mathematics and Calculations",
+      "definition": "Requests for mathematical calculations or solutions."
+    },
+    {
+      "id": 76,
+      "name": "News and Information",
+      "definition": "Requests for news or information updates."
+    },
+    {
+      "id": 77,
+      "name": "Hobbies and Interests",
+      "definition": "Inquiries about hobbies or personal interests."
+    },
+    {
+      "id": 78,
+      "name": "Home Maintenance and Utilities",
+      "definition": "Requests related to home maintenance or utilities."
+    },
+    {
+      "id": 79,
+      "name": "Time and Date",
+      "definition": "Requests for time or date-related information."
+    },
+    {
+      "id": 80,
+      "name": "Transportation and Travel",
+      "definition": "Requests related to transportation or travel arrangements."
+    },
+    {
+      "id": 81,
+      "name": "Social Media and Applications",
+      "definition": "Requests related to social media or applications."
+    },
+    {
+      "id": 82,
+      "name": "Random Choices and Games",
+      "definition": "Requests for random choices or games."
+    },
+    {
+      "id": 83,
+      "name": "Pet Information and Care",
+      "definition": "Inquiries about pets or pet care."
+    },
+    {
+      "id": 84,
+      "name": "Technical Support and Troubleshooting",
+      "definition": "Requests for technical support or troubleshooting."
+    },
+    {
+      "id": 85,
+      "name": "Event and Activity Planning",
+      "definition": "Requests related to planning events or activities."
+    },
+    {
+      "id": 86,
+      "name": "Food and Dining Options",
+      "definition": "Requests for dining options or food-related information."
+    },
+    {
+      "id": 87,
+      "name": "Shopping List and Management",
+      "definition": "Requests to manage or retrieve shopping lists."
+    },
+    {
+      "id": 88,
+      "name": "Bank Notifications and Alerts",
+      "definition": "Requests to notify banks about travel or other activities."
+    },
+    {
+      "id": 89,
+      "name": "Credit Score and Financial Information",
+      "definition": "Requests for information about credit scores or financial details."
+    },
+    {
+      "id": 90,
+      "name": "Utility and Service Providers",
+      "definition": "Inquiries about utility or service providers."
+    },
+    {
+      "id": 91,
+      "name": "Personal Information and Account Management",
+      "definition": "Requests to manage personal information or accounts."
+    },
+    {
+      "id": 92,
+      "name": "Learning and Educational Resources",
+      "definition": "Requests for educational resources or learning assistance."
+    },
+    {
+      "id": 93,
+      "name": "Entertainment and Media Content",
+      "definition": "Requests related to entertainment or media content."
+    },
+    {
+      "id": 94,
+      "name": "Health and Medical Information",
+      "definition": "Inquiries about health or medical information."
+    },
+    {
+      "id": 95,
+      "name": "Utilities and Bill Payments",
+      "definition": "Requests related to utility bills or payments."
+    },
+    {
+      "id": 96,
+      "name": "Language and Translation Assistance",
+      "definition": "Requests for language translation or learning."
+    },
+    {
+      "id": 97,
+      "name": "Device Pairing and Connectivity",
+      "definition": "Requests to pair or connect devices."
+    },
+    {
+      "id": 98,
+      "name": "Financial Transactions and Inquiries",
+      "definition": "Requests related to financial transactions or inquiries."
+    },
+    {
+      "id": 99,
+      "name": "Travel and Transportation Arrangements",
+      "definition": "Requests related to travel or transportation arrangements."
+    },
+    {
+      "id": 100,
+      "name": "Calendar and Scheduling Management",
+      "definition": "Requests to manage or retrieve calendar events."
+    },
+    {
+      "id": 101,
+      "name": "Shopping and Purchase Requests",
+      "definition": "Requests related to shopping or making purchases."
+    },
+    {
+      "id": 102,
+      "name": "Weather and Climate Information",
+      "definition": "Requests for weather or climate information."
+    },
+    {
+      "id": 103,
+      "name": "Banking and Finance Management",
+      "definition": "Requests related to managing banking or financial accounts."
+    },
+    {
+      "id": 104,
+      "name": "Technical Assistance and Support",
+      "definition": "Requests for technical assistance or support."
+    },
+    {
+      "id": 105,
+      "name": "Event Planning and Management",
+      "definition": "Requests related to planning or managing events."
+    },
+    {
+      "id": 106,
+      "name": "Food and Cooking Information",
+      "definition": "Requests for food or cooking-related information."
+    },
+    {
+      "id": 107,
+      "name": "Entertainment and Leisure Activities",
+      "definition": "Requests related to entertainment or leisure activities."
+    },
+    {
+      "id": 108,
+      "name": "Health and Wellness Information",
+      "definition": "Requests for health or wellness-related information."
+    },
+    {
+      "id": 109,
+      "name": "Utilities and Home Services",
+      "definition": "Requests related to utilities or home services."
+    },
+    {
+      "id": 110,
+      "name": "Language and Communication Assistance",
+      "definition": "Requests for language or communication assistance."
+    },
+    {
+      "id": 111,
+      "name": "Device Settings and Preferences",
+      "definition": "Requests to change device settings or preferences."
+    },
+    {
+      "id": 112,
+      "name": "Financial and Banking Information",
+      "definition": "Requests for financial or banking information."
+    },
+    {
+      "id": 113,
+      "name": "Local Services and Business Information",
+      "definition": "Requests for information about local services or businesses."
+    },
+    {
+      "id": 114,
+      "name": "Mathematics and Calculation Requests",
+      "definition": "Requests for mathematical calculations or solutions."
+    },
+    {
+      "id": 115,
+      "name": "News and Information Updates",
+      "definition": "Requests for news or information updates."
+    },
+    {
+      "id": 116,
+      "name": "Hobbies and Personal Interests",
+      "definition": "Inquiries about hobbies or personal interests."
+    },
+    {
+      "id": 117,
+      "name": "Home Maintenance and Utility Services",
+      "definition": "Requests related to home maintenance or utilities."
+    },
+    {
+      "id": 118,
+      "name": "Time and Date Information Requests",
+      "definition": "Requests for time or date-related information."
+    },
+    {
+      "id": 119,
+      "name": "Transportation and Travel Requests",
+      "definition": "Requests related to transportation or travel arrangements."
+    },
+    {
+      "id": 120,
+      "name": "Social Media and Application Management",
+      "definition": "Requests related to social media or applications."
+    },
+    {
+      "id": 121,
+      "name": "Random Choices and Game Requests",
+      "definition": "Requests for random choices or games."
+    },
+    {
+      "id": 122,
+      "name": "Pet Information and Care Requests",
+      "definition": "Inquiries about pets or pet care."
+    },
+    {
+      "id": 123,
+      "name": "Technical Support and Troubleshooting Requests",
+      "definition": "Requests for technical support or troubleshooting."
+    },
+    {
+      "id": 124,
+      "name": "Event and Activity Planning Requests",
+      "definition": "Requests related to planning events or activities."
+    },
+    {
+      "id": 125,
+      "name": "Food and Dining Option Requests",
+      "definition": "Requests for dining options or food-related information."
+    },
+    {
+      "id": 126,
+      "name": "Shopping List and Management Requests",
+      "definition": "Requests to manage or retrieve shopping lists."
+    },
+    {
+      "id": 127,
+      "name": "Bank Notifications and Alert Requests",
+      "definition": "Requests to notify banks about travel or other activities."
+    },
+    {
+      "id": 128,
+      "name": "Credit Score and Financial Information Requests",
+      "definition": "Requests for information about credit scores or financial details."
+    },
+    {
+      "id": 129,
+      "name": "Utility and Service Provider Inquiries",
+      "definition": "Inquiries about utility or service providers."
+    },
+    {
+      "id": 130,
+      "name": "Personal Information and Account Management Requests",
+      "definition": "Requests to manage personal information or accounts."
+    },
+    {
+      "id": 131,
+      "name": "Learning and Educational Resource Requests",
+      "definition": "Requests for educational resources or learning assistance."
+    },
+    {
+      "id": 132,
+      "name": "Entertainment and Media Content Requests",
+      "definition": "Requests related to entertainment or media content."
+    },
+    {
+      "id": 133,
+      "name": "Health and Medical Information Requests",
+      "definition": "Inquiries about health or medical information."
+    },
+    {
+      "id": 134,
+      "name": "Utilities and Bill Payment Requests",
+      "definition": "Requests related to utility bills or payments."
+    },
+    {
+      "id": 135,
+      "name": "Language and Translation Assistance Requests",
+      "definition": "Requests for language translation or learning."
+    },
+    {
+      "id": 136,
+      "name": "Device Pairing and Connectivity Requests",
+      "definition": "Requests to pair or connect devices."
+    },
+    {
+      "id": 137,
+      "name": "Financial Transactions and Inquiry Requests",
+      "definition": "Requests related to financial transactions or inquiries."
+    },
+    {
+      "id": 138,
+      "name": "Travel and Transportation Arrangement Requests",
+      "definition": "Requests related to travel or transportation arrangements."
+    },
+    {
+      "id": 139,
+      "name": "Calendar and Scheduling Management Requests",
+      "definition": "Requests to manage or retrieve calendar events."
+    },
+    {
+      "id": 140,
+      "name": "Shopping and Purchase Requests",
+      "definition": "Requests related to shopping or making purchases."
+    },
+    {
+      "id": 141,
+      "name": "Weather and Climate Information Requests",
+      "definition": "Requests for weather or climate information."
+    },
+    {
+      "id": 142,
+      "name": "Banking and Finance Management Requests",
+      "definition": "Requests related to managing banking or financial accounts."
+    },
+    {
+      "id": 143,
+      "name": "Technical Assistance and Support Requests",
+      "definition": "Requests for technical assistance or support."
+    },
+    {
+      "id": 144,
+      "name": "Event Planning and Management Requests",
+      "definition": "Requests related to planning or managing events."
+    },
+    {
+      "id": 145,
+      "name": "Food and Cooking Information Requests",
+      "definition": "Requests for food or cooking-related information."
+    },
+    {
+      "id": 146,
+      "name": "Entertainment and Leisure Activity Requests",
+      "definition": "Requests related to entertainment or leisure activities."
+    },
+    {
+      "id": 147,
+      "name": "Health and Wellness Information Requests",
+      "definition": "Requests for health or wellness-related information."
+    },
+    {
+      "id": 148,
+      "name": "Utilities and Home Service Requests",
+      "definition": "Requests related to utilities or home services."
+    },
+    {
+      "id": 149,
+      "name": "Language and Communication Assistance Requests",
+      "definition": "Requests for language or communication assistance."
+    },
+    {
+      "id": 150,
+      "name": "Device Settings and Preference Requests",
+      "definition": "Requests to change device settings or preferences."
+    },
+    {
+      "id": 151,
+      "name": "Financial and Banking Information Requests",
+      "definition": "Requests for financial or banking information."
+    },
+    {
+      "id": 152,
+      "name": "Local Services and Business Information Requests",
+      "definition": "Requests for information about local services or businesses."
+    },
+    {
+      "id": 153,
+      "name": "Mathematics and Calculation Requests",
+      "definition": "Requests for mathematical calculations or solutions."
+    },
+    {
+      "id": 154,
+      "name": "News and Information Update Requests",
+      "definition": "Requests for news or information updates."
+    },
+    {
+      "id": 155,
+      "name": "Hobbies and Personal Interest Requests",
+      "definition": "Inquiries about hobbies or personal interests."
+    },
+    {
+      "id": 156,
+      "name": "Home Maintenance and Utility Service Requests",
+      "definition": "Requests related to home maintenance or utilities."
+    },
+    {
+      "id": 157,
+      "name": "Time and Date Information Requests",
+      "definition": "Requests for time or date-related information."
+    },
+    {
+      "id": 158,
+      "name": "Transportation and Travel Request",
+      "definition": "Requests related to transportation or travel arrangements."
+    },
+    {
+      "id": 159,
+      "name": "Social Media and Application Management Requests",
+      "definition": "Requests related to social media or applications."
+    },
+    {
+      "id": 160,
+      "name": "Random Choices and Game Requests",
+      "definition": "Requests for random choices or games."
+    },
+    {
+      "id": 161,
+      "name": "Pet Information and Care Requests",
+      "definition": "Inquiries about pets or pet care."
+    },
+    {
+      "id": 162,
+      "name": "Technical Support and Troubleshooting Requests",
+      "definition": "Requests for technical support or troubleshooting."
+    },
+    {
+      "id": 163,
+      "name": "Event and Activity Planning Requests",
+      "definition": "Requests related to planning events or activities."
+    },
+    {
+      "id": 164,
+      "name": "Food and Dining Option Requests",
+      "definition": "Requests for dining options or food-related information."
+    },
+    {
+      "id": 165,
+      "name": "Shopping List and Management Requests",
+      "definition": "Requests to manage or retrieve shopping lists."
+    },
+    {
+      "id": 166,
+      "name": "Bank Notifications and Alert Requests",
+      "definition": "Requests to notify banks about travel or other activities."
+    },
+    {
+      "id": 167,
+      "name": "Credit Score and Financial Information Requests",
+      "definition": "Requests for information about credit scores or financial details."
+    },
+    {
+      "id": 168,
+      "name": "Utility and Service Provider Inquiries",
+      "definition": "Inquiries about utility or service providers."
+    },
+    {
+      "id": 169,
+      "name": "Personal Information and Account Management Requests",
+      "definition": "Requests to manage personal information or accounts."
+    },
+    {
+      "id": 170,
+      "name": "Learning and Educational Resource Requests",
+      "definition": "Requests for educational resources or learning assistance."
+    },
+    {
+      "id": 171,
+      "name": "Entertainment and Media Content Requests",
+      "definition": "Requests related to entertainment or media content."
+    },
+    {
+      "id": 172,
+      "name": "Health and Medical Information Requests",
+      "definition": "Inquiries about health or medical information."
+    },
+    {
+      "id": 173,
+      "name": "Utilities and Bill Payment Requests",
+      "definition": "Requests related to utility bills or payments."
+    },
+    {
+      "id": 174,
+      "name": "Language and Translation Assistance Requests",
+      "definition": "Requests for language translation or learning."
+    },
+    {
+      "id": 175,
+      "name": "Device Pairing and Connectivity Requests",
+      "definition": "Requests to pair or connect devices."
+    },
+    {
+      "id": 176,
+      "name": "Financial Transactions and Inquiry Requests",
+      "definition": "Requests related to financial transactions or inquiries."
+    },
+    {
+      "id": 177,
+      "name": "Travel and Transportation Arrangement Requests",
+      "definition": "Requests related to travel or transportation arrangements."
+    },
+    {
+      "id": 178,
+      "name": "Calendar and Scheduling Management Requests",
+      "definition": "Requests to manage or retrieve calendar events."
+    },
+    {
+      "id": 179,
+      "name": "Shopping and Purchase Requests",
+      "definition": "Requests related to shopping or making purchases."
+    },
+    {
+      "id": 180,
+      "name": "Weather and Climate Information Requests",
+      "definition": "Requests for weather or climate information."
+    },
+    {
+      "id": 181,
+      "name": "Banking and Finance Management Requests",
+      "definition": "Requests related to managing banking or financial accounts."
+    },
+    {
+      "id": 182,
+      "name": "Technical Assistance and Support Requests",
+      "definition": "Requests for technical assistance or support."
+    },
+    {
+      "id": 183,
+      "name": "Event Planning and Management Requests",
+      "definition": "Requests related to planning or managing events."
+    },
+    {
+      "id": 184,
+      "name": "Food and Cooking Information Requests",
+      "definition": "Requests for food or cooking-related information."
+    },
+    {
+      "id": 185,
+      "name": "Entertainment and Leisure Activity Requests",
+      "definition": "Requests related to entertainment or leisure activities."
+    },
+    {
+      "id": 186,
+      "name": "Health and Wellness Information Requests",
+      "definition": "Requests for health or wellness-related information."
+    },
+    {
+      "id": 187,
+      "name": "Utilities and Home Service Requests",
+      "definition": "Requests related to utilities or home services."
+    },
+    {
+      "id": 188,
+      "name": "Language and Communication Assistance Requests",
+      "definition": "Requests for language or communication assistance."
+    },
+    {
+      "id": 189,
+      "name": "Device Settings and Preference Requests",
+      "definition": "Requests to change device settings or preferences."
+    },
+    {
+      "id": 190,
+      "name": "Financial and Banking Information Requests",
+      "definition": "Requests for financial or banking information."
+    },
+    {
+      "id": 191,
+      "name": "Local Services and Business Information Requests",
+      "definition": "Requests for information about local services or businesses."
+    },
+    {
+      "id": 192,
+      "name": "Mathematics and Calculation Requests",
+      "definition": "Requests for mathematical calculations or solutions."
+    },
+    {
+      "id": 193,
+      "name": "News and Information Update Requests",
+      "definition": "Requests for news or information updates."
+    },
+    {
+      "id": 194,
+      "name": "Hobbies and Personal Interest Requests",
+      "definition": "Inquiries about hobbies or personal interests."
+    },
+    {
+      "id": 195,
+      "name": "Home Maintenance and Utility Service Requests",
+      "definition": "Requests related to home maintenance or utilities."
+    },
+    {
+      "id": 196,
+      "name": "Time and Date Information Requests",
+      "definition": "Requests for time or date-related information."
+    },
+    {
+      "id": 197,
+      "name": "Transportation and Travel Request",
+      "definition": "Requests related to transportation or travel arrangements."
+    },
+    {
+      "id": 198,
+      "name": "Social Media and Application Management Requests",
+      "definition": "Requests related to social media or applications."
+    },
+    {
+      "id": 199,
+      "name": "Random Choices and Game Requests",
+      "definition": "Requests for random choices or games."
+    },
+    {
+      "id": 200,
+      "name": "Pet Information and Care Requests",
+      "definition": "Inquiries about pets or pet care."
+    }
+  ]
+}

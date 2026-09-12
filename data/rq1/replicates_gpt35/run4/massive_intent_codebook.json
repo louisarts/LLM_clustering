@@ -1,0 +1,155 @@
+{
+  "bench": "massive_intent",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Check News",
+      "definition": "User wants to check the latest news updates"
+    },
+    {
+      "id": 2,
+      "name": "Check Weather",
+      "definition": "User wants to know the weather forecast for a specific location"
+    },
+    {
+      "id": 3,
+      "name": "Book Tickets",
+      "definition": "User wants to book tickets for travel"
+    },
+    {
+      "id": 4,
+      "name": "Activate Device",
+      "definition": "User wants to activate a device or appliance"
+    },
+    {
+      "id": 5,
+      "name": "Add Contact Information",
+      "definition": "User wants to add or update contact information"
+    },
+    {
+      "id": 6,
+      "name": "Order Food",
+      "definition": "User wants to find and order food"
+    },
+    {
+      "id": 7,
+      "name": "Call Taxi Service",
+      "definition": "User wants to call a taxi or cab service"
+    },
+    {
+      "id": 8,
+      "name": "Download and Play Podcast",
+      "definition": "User wants to download and play a podcast"
+    },
+    {
+      "id": 9,
+      "name": "Get Information",
+      "definition": "User wants to get information about a specific topic"
+    },
+    {
+      "id": 10,
+      "name": "Check Living Cost",
+      "definition": "User wants to know if a city is cheaper or costlier to live in"
+    },
+    {
+      "id": 11,
+      "name": "Control Device",
+      "definition": "User wants to control a device or appliance"
+    },
+    {
+      "id": 12,
+      "name": "Set Reminder",
+      "definition": "User wants to set a reminder for a specific event or task"
+    },
+    {
+      "id": 13,
+      "name": "Check Alarm",
+      "definition": "User wants to check or set an alarm"
+    },
+    {
+      "id": 14,
+      "name": "Get Notification",
+      "definition": "User wants to receive notifications on specific topics"
+    },
+    {
+      "id": 15,
+      "name": "Delete Calendar Events",
+      "definition": "User wants to delete calendar events or appointments"
+    },
+    {
+      "id": 16,
+      "name": "Compose Email",
+      "definition": "User wants to compose and send an email"
+    },
+    {
+      "id": 17,
+      "name": "Play Music or Podcast",
+      "definition": "User wants to play music or podcast"
+    },
+    {
+      "id": 18,
+      "name": "Check Movie Information",
+      "definition": "User wants to check information about movies"
+    },
+    {
+      "id": 19,
+      "name": "Get Travel Information",
+      "definition": "User wants to get information about travel options"
+    },
+    {
+      "id": 20,
+      "name": "Check Stock Market News",
+      "definition": "User wants to check news related to the stock market"
+    },
+    {
+      "id": 21,
+      "name": "Adjust Lighting",
+      "definition": "User wants to adjust the lighting settings"
+    },
+    {
+      "id": 22,
+      "name": "Post on Social Media",
+      "definition": "User wants to post on social media platforms"
+    },
+    {
+      "id": 23,
+      "name": "Get Time Information",
+      "definition": "User wants to know the time in a specific location"
+    },
+    {
+      "id": 24,
+      "name": "Get Exchange Rate",
+      "definition": "User wants to check currency exchange rates"
+    },
+    {
+      "id": 25,
+      "name": "Get Recipe",
+      "definition": "User wants to get a recipe for cooking"
+    },
+    {
+      "id": 26,
+      "name": "Play Game",
+      "definition": "User wants to play a game"
+    },
+    {
+      "id": 27,
+      "name": "Check Event Schedule",
+      "definition": "User wants to check the schedule of events"
+    },
+    {
+      "id": 28,
+      "name": "Get Location Information",
+      "definition": "User wants to get information about specific locations"
+    },
+    {
+      "id": 29,
+      "name": "Cancel Calendar Events",
+      "definition": "User wants to cancel or remove calendar events"
+    }
+  ]
+}

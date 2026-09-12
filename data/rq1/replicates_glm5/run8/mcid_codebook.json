@@ -1,0 +1,79 @@
+{
+  "bench": "mcid",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Prevention and Precautions",
+      "definition": "User seeks advice on how to prevent infection or protect oneself and others through behaviors like masking, distancing, hygiene, or ventilation."
+    },
+    {
+      "id": 2,
+      "name": "Transmission and Surface Survival",
+      "definition": "User asks about how the virus spreads, survival duration on specific surfaces, or the risk of transmission via objects, animals, or specific activities."
+    },
+    {
+      "id": 3,
+      "name": "Treatments and Remedies",
+      "definition": "User inquires about medical treatments, cures, home remedies, or medication for COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "Vaccines",
+      "definition": "User asks about the existence, availability, or development status of a COVID-19 vaccine."
+    },
+    {
+      "id": 5,
+      "name": "Symptoms and Diagnosis",
+      "definition": "User asks about specific symptoms, checks if personal symptoms indicate infection, or seeks information on how to identify the disease."
+    },
+    {
+      "id": 6,
+      "name": "Statistics and Data",
+      "definition": "User requests specific numbers, case counts, death rates, or recovery statistics for specific locations or globally."
+    },
+    {
+      "id": 7,
+      "name": "Travel and Movement Restrictions",
+      "definition": "User asks about travel safety, transport cancellations, or restrictions on movement between locations."
+    },
+    {
+      "id": 8,
+      "name": "High Risk Areas and Protocols",
+      "definition": "User asks to identify high-risk locations or asks about specific rules and protocols for visiting or living in such areas."
+    },
+    {
+      "id": 9,
+      "name": "News and Updates",
+      "definition": "User requests the latest news, general updates, press releases, or current developments regarding the pandemic."
+    },
+    {
+      "id": 10,
+      "name": "Myths and Misinformation",
+      "definition": "User asks to verify or debunk specific claims, hoaxes, conspiracy theories, or myths regarding the virus."
+    },
+    {
+      "id": 11,
+      "name": "General Information and Definition",
+      "definition": "User requests a broad overview, definition, or explanation of what COVID-19 is."
+    },
+    {
+      "id": 12,
+      "name": "Donations and Support",
+      "definition": "User expresses a desire to donate money, find donation options, or support relief efforts."
+    },
+    {
+      "id": 13,
+      "name": "Sharing and Social Actions",
+      "definition": "User requests to share the bot, information, or links via social media or messaging platforms."
+    },
+    {
+      "id": 14,
+      "name": "Greetings and Gratitude",
+      "definition": "User greets the bot, expresses thanks, or provides general feedback without asking a specific question."
+    }
+  ]
+}

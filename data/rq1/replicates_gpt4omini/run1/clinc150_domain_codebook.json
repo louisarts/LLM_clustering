@@ -1,0 +1,85 @@
+{
+  "bench": "clinc150_domain",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Mathematics",
+      "definition": "Queries involving mathematical calculations or conversions."
+    },
+    {
+      "id": 2,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking times, recipes, or food preparation instructions."
+    },
+    {
+      "id": 3,
+      "name": "Travel and Transportation",
+      "definition": "Inquiries related to travel arrangements, transportation options, and travel advisories."
+    },
+    {
+      "id": 4,
+      "name": "Time and Scheduling",
+      "definition": "Questions about time, scheduling events, or checking calendars."
+    },
+    {
+      "id": 5,
+      "name": "Personal Assistance",
+      "definition": "Requests for personal help, reminders, or task management."
+    },
+    {
+      "id": 6,
+      "name": "Finance and Banking",
+      "definition": "Inquiries related to banking, credit cards, transactions, and account management."
+    },
+    {
+      "id": 7,
+      "name": "Health and Nutrition",
+      "definition": "Questions about health, nutrition facts, and dietary information."
+    },
+    {
+      "id": 8,
+      "name": "Entertainment",
+      "definition": "Requests for music, movies, or fun facts related to entertainment."
+    },
+    {
+      "id": 9,
+      "name": "Identity and Personalization",
+      "definition": "Questions about personal identity, names, or preferences."
+    },
+    {
+      "id": 10,
+      "name": "Technology and Devices",
+      "definition": "Inquiries about technology, devices, and their functionalities."
+    },
+    {
+      "id": 11,
+      "name": "Emergency and Support",
+      "definition": "Requests for assistance in emergencies or urgent situations."
+    },
+    {
+      "id": 12,
+      "name": "Shopping and Orders",
+      "definition": "Questions related to shopping, orders, and product availability."
+    },
+    {
+      "id": 13,
+      "name": "Travel Documentation",
+      "definition": "Inquiries about visas, travel documents, and requirements."
+    },
+    {
+      "id": 14,
+      "name": "Feedback and Reviews",
+      "definition": "Requests for opinions, reviews, or feedback on products or services."
+    },
+    {
+      "id": 15,
+      "name": "Miscellaneous",
+      "definition": "General inquiries that do not fit into other specific categories."
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 9,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Stack Overflow",
+      "definition": "Questions about programming, software development, algorithms, data structures, specific programming languages (e.g., Java, Python, C#, JavaScript, R), frameworks, APIs, and software engineering practices."
+    },
+    {
+      "id": 2,
+      "name": "Server Fault",
+      "definition": "Questions about server administration, networking infrastructure, enterprise hardware, operating systems (e.g., Windows Server, Linux servers), Active Directory, DNS, and cloud computing."
+    },
+    {
+      "id": 3,
+      "name": "Super User",
+      "definition": "Questions about general computer usage, desktop operating systems (e.g., Windows, Linux, macOS), consumer software, hardware troubleshooting, and productivity tools for end-users."
+    },
+    {
+      "id": 4,
+      "name": "Information Security",
+      "definition": "Questions about cybersecurity, cryptography, network security, malware, privacy, and secure system design."
+    },
+    {
+      "id": 5,
+      "name": "Webmasters",
+      "definition": "Questions about web development (general), SEO, web analytics, e-commerce platforms (e.g., Magento, WordPress, Joomla), content management systems (e.g., SharePoint, Tridion, Sitecore), and browser compatibility."
+    },
+    {
+      "id": 6,
+      "name": "Mathematics",
+      "definition": "Questions about pure and applied mathematics, statistics, calculus, algebra, geometry, and mathematical proofs."
+    },
+    {
+      "id": 7,
+      "name": "Physics",
+      "definition": "Questions about the fundamental laws of nature, astronomy, mechanics, electromagnetism, quantum physics, and relativity."
+    },
+    {
+      "id": 8,
+      "name": "Chemistry",
+      "definition": "Questions about chemical compounds, reactions, materials science, and chemical processes."
+    },
+    {
+      "id": 9,
+      "name": "Biology",
+      "definition": "Questions about life sciences, genetics, animal behavior, human biology, and ecology."
+    },
+    {
+      "id": 10,
+      "name": "English Language & Usage",
+      "definition": "Questions about English grammar, vocabulary, etymology, idioms, and proper usage."
+    },
+    {
+      "id": 11,
+      "name": "French Language",
+      "definition": "Questions about French grammar, vocabulary, etymology, and usage."
+    },
+    {
+      "id": 12,
+      "name": "German Language",
+      "definition": "Questions about German grammar, vocabulary, etymology, and usage."
+    },
+    {
+      "id": 13,
+      "name": "Japanese Language",
+      "definition": "Questions about Japanese grammar, vocabulary, etymology, and usage."
+    },
+    {
+      "id": 14,
+      "name": "Russian Language",
+      "definition": "Questions about Russian grammar, vocabulary, etymology, and usage."
+    },
+    {
+      "id": 15,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish grammar, vocabulary, etymology, and usage."
+    },
+    {
+      "id": 16,
+      "name": "Linguistics",
+      "definition": "Questions about the scientific study of language, including phonetics, syntax, semantics, and historical linguistics."
+    },
+    {
+      "id": 17,
+      "name": "History",
+      "definition": "Questions about historical events, figures, periods, and social history."
+    },
+    {
+      "id": 18,
+      "name": "Philosophy",
+      "definition": "Questions about fundamental questions concerning existence, knowledge, values, reason, mind, and language."
+    },
+    {
+      "id": 19,
+      "name": "Religion",
+      "definition": "Questions about religious beliefs, practices, texts, and history (e.g., Hinduism, Islam, Jewish Life, Biblical Hermeneutics)."
+    },
+    {
+      "id": 20,
+      "name": "Literature",
+      "definition": "Questions about books, authors, literary analysis, genres, and specific works of fiction or non-fiction."
+    },
+    {
+      "id": 21,
+      "name": "Science Fiction & Fantasy",
+      "definition": "Questions about fictional universes, worldbuilding, specific movies, TV shows, or books within the genres."
+    },
+    {
+      "id": 22,
+      "name": "Gaming",
+      "definition": "Questions about video games (e.g., Minecraft, Starcraft, RPGs), board games, card games (e.g., Poker), and game strategy."
+    },
+    {
+      "id": 23,
+      "name": "Photography",
+      "definition": "Questions about camera equipment, photographic techniques, image editing, and visual arts."
+    },
+    {
+      "id": 24,
+      "name": "Graphic Design",
+      "definition": "Questions about visual communication, typography, image manipulation software (e.g., Photoshop, InDesign), and design principles."
+    },
+    {
+      "id": 25,
+      "name": "User Experience",
+      "definition": "Questions about user interface (UI) and user experience (UX) design, usability, and human-computer interaction."
+    },
+    {
+      "id": 26,
+      "name": "Automotive",
+      "definition": "Questions about car repair, maintenance, vehicle engineering, and automotive technology."
+    },
+    {
+      "id": 27,
+      "name": "Electronics",
+      "definition": "Questions about electronic components, circuits, embedded systems, ham radio, and general electronics projects."
+    },
+    {
+      "id": 28,
+      "name": "Engineering",
+      "definition": "Questions about mechanical, civil, electrical, robotics, and general engineering principles and applications."
+    },
+    {
+      "id": 29,
+      "name": "Home Improvement",
+      "definition": "Questions about DIY projects, home repairs, gardening, landscaping, and construction."
+    },
+    {
+      "id": 30,
+      "name": "Cooking",
+      "definition": "Questions about recipes, cooking techniques, food science, and ingredients."
+    },
+    {
+      "id": 31,
+      "name": "Pets",
+      "definition": "Questions about pet care, animal behavior, and pet health."
+    },
+    {
+      "id": 32,
+      "name": "Parenting",
+      "definition": "Questions about child care, family dynamics, child development, and parenting advice."
+    },
+    {
+      "id": 33,
+      "name": "Personal Finance & Money",
+      "definition": "Questions about investments, taxes, budgeting, banking, and financial planning."
+    },
+    {
+      "id": 34,
+      "name": "Travel",
+      "definition": "Questions about destinations, immigration, travel logistics, and local advice."
+    },
+    {
+      "id": 35,
+      "name": "Workplace",
+      "definition": "Questions about career advice, office dynamics, job search, business etiquette, and professional development."
+    },
+    {
+      "id": 36,
+      "name": "Law",
+      "definition": "Questions about legal principles, specific laws (e.g., US law, intellectual property, immigration), and legal processes."
+    },
+    {
+      "id": 37,
+      "name": "Politics",
+      "definition": "Questions about government, political systems, elections, and public policy."
+    },
+    {
+      "id": 38,
+      "name": "Economics",
+      "definition": "Questions about economic theory, markets, business cycles, and financial economics."
+    },
+    {
+      "id": 39,
+      "name": "Project Management",
+      "definition": "Questions about project planning, execution, methodologies, and project management software."
+    },
+    {
+      "id": 40,
+      "name": "Business",
+      "definition": "Questions about entrepreneurship, startups, marketing, manufacturing, and general business strategy."
+    },
+    {
+      "id": 41,
+      "name": "Academia",
+      "definition": "Questions about higher education, academic research methods, student life, and scholarly publishing."
+    },
+    {
+      "id": 42,
+      "name": "Puzzling",
+      "definition": "Questions about riddles, logic puzzles, and brain teasers."
+    },
+    {
+      "id": 43,
+      "name": "Cryptocurrency",
+      "definition": "Questions about blockchain technology, digital currencies, mining, and related concepts."
+    },
+    {
+      "id": 44,
+      "name": "Music",
+      "definition": "Questions about musical instruments, music theory, composition, and song identification."
+    },
+    {
+      "id": 45,
+      "name": "Interpersonal Skills",
+      "definition": "Questions about social interactions, etiquette, communication, and applied psychology in relationships."
+    },
+    {
+      "id": 46,
+      "name": "Health",
+      "definition": "Questions about human health, fitness, nutrition, medical conditions, and alternative medicine."
+    }
+  ]
+}

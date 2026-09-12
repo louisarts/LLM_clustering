@@ -1,0 +1,89 @@
+{
+  "bench": "fewrel",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Part-Whole",
+      "definition": "Entity X is a component, member, branch, or subsection of the larger entity Y, or Y contains X."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "Entity X is geographically situated, located, or based within the place or region Y."
+    },
+    {
+      "id": 3,
+      "name": "Creator-Creation",
+      "definition": "Entity X is the author, artist, designer, architect, or producer of the work, invention, or entity Y, or vice versa."
+    },
+    {
+      "id": 4,
+      "name": "Affiliation",
+      "definition": "Entity X is an employee, member, athlete, or official associated with an organization, team, or group Y."
+    },
+    {
+      "id": 5,
+      "name": "Origin-Derivation",
+      "definition": "Entity X is the source, basis, inspiration, or predecessor from which entity Y is derived, adapted, or evolved."
+    },
+    {
+      "id": 6,
+      "name": "Parent-Child",
+      "definition": "Entity X is the parent, child, or sibling of entity Y, indicating a direct familial lineage."
+    },
+    {
+      "id": 7,
+      "name": "Administrative-Territorial",
+      "definition": "Entity X is a political subdivision, capital, or administrative unit belonging to the governing entity Y."
+    },
+    {
+      "id": 8,
+      "name": "Product-Platform",
+      "definition": "Entity X is a product, software, game, or vehicle designed for, released on, or manufactured by entity Y."
+    },
+    {
+      "id": 9,
+      "name": "Event-Participant",
+      "definition": "Entity X is a competition, event, or award in which entity Y participated, won, or was featured."
+    },
+    {
+      "id": 10,
+      "name": "Hydrography-Geography",
+      "definition": "Entity X is a body of water flowing into, located within, or part of the water system or geographic feature Y."
+    },
+    {
+      "id": 11,
+      "name": "Spousal",
+      "definition": "Entity X is the husband, wife, or spouse of entity Y."
+    },
+    {
+      "id": 12,
+      "name": "Character-Work",
+      "definition": "Entity X is a fictional character appearing in or associated with the creative work, series, or franchise Y."
+    },
+    {
+      "id": 13,
+      "name": "Acquisition-Merger",
+      "definition": "Entity X acquired, purchased, or merged with entity Y, or Y is a subsidiary of X."
+    },
+    {
+      "id": 14,
+      "name": "Translation-Language",
+      "definition": "Entity X is a work, word, or name expressed in or translated to the language Y."
+    },
+    {
+      "id": 15,
+      "name": "Synonymy",
+      "definition": "Entity X and entity Y are equivalent terms, aliases, or different names for the same concept or entity."
+    },
+    {
+      "id": 16,
+      "name": "Subclass-Category",
+      "definition": "Entity X is a specific type, class, or instance of the broader category, rank, or classification Y."
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "bench": "tweet89",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Christina Aguilera National Anthem Performance",
+      "definition": "News and reactions regarding Christina Aguilera's performance and lyrical error while singing the national anthem at the Super Bowl."
+    },
+    {
+      "id": 2,
+      "name": "Super Bowl Commercials",
+      "definition": "Discussions, reviews, and releases of advertisements that aired during the Super Bowl, including those for Volkswagen, Chrysler, Doritos, and other brands."
+    },
+    {
+      "id": 3,
+      "name": "Academy Award Nominations",
+      "definition": "Announcements and reactions to the Oscar nominations, focusing on films like The King's Speech, The Social Network, and Black Swan."
+    },
+    {
+      "id": 4,
+      "name": "Unrest in Yemen",
+      "definition": "Reports on political protests, President Saleh's actions, and government responses in Yemen."
+    },
+    {
+      "id": 5,
+      "name": "Egyptian Museum Looting and Journalist Safety",
+      "definition": "Incidents concerning the protection of artifacts in the Egyptian Museum and attacks on journalists during the unrest in Egypt."
+    },
+    {
+      "id": 6,
+      "name": "Moscow Airport Bombing",
+      "definition": "Coverage of the suicide bombing attack at Domodedovo Airport in Moscow."
+    },
+    {
+      "id": 7,
+      "name": "US Healthcare Law Ruling",
+      "definition": "Judicial rulings and legal decisions regarding the constitutionality of the federal healthcare reform law."
+    },
+    {
+      "id": 8,
+      "name": "Acai Berry Weight Loss Products",
+      "definition": "Promotional content and articles discussing acai berry diets and weight loss supplements."
+    },
+    {
+      "id": 9,
+      "name": "Australian Open Tennis",
+      "definition": "Updates and results from the Australian Open tennis tournament, featuring players like Novak Djokovic and Andy Murray."
+    },
+    {
+      "id": 10,
+      "name": "Sundance Film Festival",
+      "definition": "News, celebrity sightings, and events occurring at the Sundance Film Festival."
+    },
+    {
+      "id": 11,
+      "name": "Somali Piracy",
+      "definition": "Reports on naval operations, captures, and prosecutions related to Somali pirates."
+    },
+    {
+      "id": 12,
+      "name": "Distracted Driving Awareness",
+      "definition": "Campaigns and warnings regarding the dangers of texting while driving."
+    },
+    {
+      "id": 13,
+      "name": "Chicago Blizzard",
+      "definition": "Reports on the severe winter blizzard hitting the Chicago area."
+    },
+    {
+      "id": 14,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "News regarding the lawsuit and controversy over the meat filling used by Taco Bell."
+    },
+    {
+      "id": 15,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Medical updates on the condition and recovery of Representative Gabrielle Giffords."
+    },
+    {
+      "id": 16,
+      "name": "Starbucks Trenta Cup Size",
+      "definition": "News and social media reactions to the introduction of the new large Trenta cup size at Starbucks."
+    },
+    {
+      "id": 17,
+      "name": "Keith Olbermann Media Move",
+      "definition": "Reports on Keith Olbermann leaving MSNBC to join Current TV."
+    },
+    {
+      "id": 18,
+      "name": "Charlie Sheen Personal Life",
+      "definition": "Updates on Charlie Sheen's health, legal issues, and personal troubles."
+    },
+    {
+      "id": 19,
+      "name": "Iran Nuclear Program",
+      "definition": "Developments concerning Iran's nuclear capabilities and the Stuxnet virus."
+    },
+    {
+      "id": 20,
+      "name": "Venezuelan Politics",
+      "definition": "Political news concerning President Hugo Chavez and government actions in Venezuela."
+    },
+    {
+      "id": 21,
+      "name": "White Stripes Breakup",
+      "definition": "Announcement that the band The White Stripes has officially disbanded."
+    },
+    {
+      "id": 22,
+      "name": "US Debt and Budget",
+      "definition": "Political news and proposals regarding the US national debt, budget cuts, and Medicaid."
+    },
+    {
+      "id": 23,
+      "name": "Fishing Reports and Tips",
+      "definition": "General advice, reports, and equipment discussions related to fishing activities."
+    },
+    {
+      "id": 24,
+      "name": "Recipes and Cooking",
+      "definition": "Sharing of recipes and cooking tips for various meals."
+    },
+    {
+      "id": 25,
+      "name": "Bedbug Infestations",
+      "definition": "News on the evolution and management of bedbug infestations."
+    },
+    {
+      "id": 26,
+      "name": "Facebook Privacy Settings",
+      "definition": "Updates and discussions regarding user privacy settings on Facebook."
+    },
+    {
+      "id": 27,
+      "name": "TSA Body Scanner Privacy",
+      "definition": "News on TSA testing of privacy-enhancing software for airport body scanners."
+    },
+    {
+      "id": 28,
+      "name": "Scholarship and Financial Aid",
+      "definition": "Information on available scholarships and financial aid for students."
+    },
+    {
+      "id": 29,
+      "name": "Identity Theft Protection",
+      "definition": "Tips and news regarding the prevention of identity theft."
+    },
+    {
+      "id": 30,
+      "name": "Climate Change and Weather",
+      "definition": "Reports on extreme weather events and climate change updates."
+    },
+    {
+      "id": 31,
+      "name": "Glenn Beck Ratings",
+      "definition": "News regarding the television ratings of Glenn Beck's show."
+    },
+    {
+      "id": 32,
+      "name": "Consumer Electronics and Tech News",
+      "definition": "General news on gadgets, smartphones, and technology services."
+    },
+    {
+      "id": 33,
+      "name": "Kardashian Family",
+      "definition": "Social media mentions and news regarding the Kardashian family."
+    },
+    {
+      "id": 34,
+      "name": "Concussions in Sports",
+      "definition": "Health news regarding the risks of concussions for athletes."
+    },
+    {
+      "id": 35,
+      "name": "Myanmar Sanctions",
+      "definition": "Political news regarding international sanctions against Myanmar."
+    },
+    {
+      "id": 36,
+      "name": "Jo Yeates Murder Case",
+      "definition": "Legal proceedings regarding the arrest of Vincent Tabak for the murder of Jo Yeates."
+    },
+    {
+      "id": 37,
+      "name": "Iranian Execution",
+      "definition": "Reports on the execution of an Iranian-Dutch woman in Iran."
+    },
+    {
+      "id": 38,
+      "name": "US Political Appointments",
+      "definition": "News regarding White House staff appointments, such as the Press Secretary."
+    },
+    {
+      "id": 39,
+      "name": "Immigration Law Enforcement",
+      "definition": "Reports on the enforcement and legal challenges of immigration laws."
+    },
+    {
+      "id": 40,
+      "name": "Supreme Court Rulings",
+      "definition": "Decisions made by the US Supreme Court on various legal matters."
+    },
+    {
+      "id": 41,
+      "name": "Rahm Emanuel Mayoral Candidacy",
+      "definition": "Legal challenges regarding Rahm Emanuel's eligibility to run for Mayor of Chicago."
+    },
+    {
+      "id": 42,
+      "name": "Obama Birth Certificate",
+      "definition": "News regarding legislation in Hawaii proposed to address birther conspiracy theories."
+    },
+    {
+      "id": 43,
+      "name": "US Employment Report",
+      "definition": "Updates on the US unemployment rate and job market."
+    },
+    {
+      "id": 44,
+      "name": "Chinese State Visit",
+      "definition": "Coverage of President Hu Jintao's visit to the United States."
+    },
+    {
+      "id": 45,
+      "name": "Film Reviews",
+      "definition": "Reviews and opinions on current movie releases such as The Rite."
+    },
+    {
+      "id": 46,
+      "name": "Anti-Bullying Initiatives",
+      "definition": "Campaigns and advice aimed at stopping bullying in schools."
+    },
+    {
+      "id": 47,
+      "name": "Energy Saving Tips",
+      "definition": "Advice on reducing energy consumption and saving money on utilities."
+    },
+    {
+      "id": 48,
+      "name": "Walmart Nutrition Campaign",
+      "definition": "News about Walmart's initiative to offer healthier food options."
+    },
+    {
+      "id": 49,
+      "name": "Best Buy Corporate News",
+      "definition": "Business news regarding Best Buy stock and outlet launches."
+    },
+    {
+      "id": 50,
+      "name": "Michael Steele RNC Resignation",
+      "definition": "News regarding the resignation of Michael Steele as RNC Chairman."
+    },
+    {
+      "id": 51,
+      "name": "US Political Polling",
+      "definition": "Poll results regarding political party support and social media usage."
+    }
+  ]
+}

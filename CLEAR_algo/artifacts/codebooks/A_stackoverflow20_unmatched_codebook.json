@@ -1,0 +1,232 @@
+[
+ {
+  "id": 1,
+  "name": "Apache",
+  "definition": "Questions about the Apache HTTP Server, configuration files like .htaccess, and modules such as mod_rewrite."
+ },
+ {
+  "id": 2,
+  "name": "Bash",
+  "definition": "Questions about the Bash shell, shell scripting, and command-line operations in Unix-like systems."
+ },
+ {
+  "id": 3,
+  "name": "C# / .NET",
+  "definition": "Questions regarding the .NET framework, C# language, ASP.NET, and technologies like LINQ."
+ },
+ {
+  "id": 4,
+  "name": "Clearcase",
+  "definition": "Questions about the IBM Rational Clearcase version control system."
+ },
+ {
+  "id": 5,
+  "name": "Computer Science",
+  "definition": "Questions about theoretical concepts such as logic, algorithms, and programming language theory."
+ },
+ {
+  "id": 6,
+  "name": "Drupal",
+  "definition": "Questions about the Drupal content management system, modules, and themes."
+ },
+ {
+  "id": 7,
+  "name": "Eclipse",
+  "definition": "Questions about the Eclipse IDE and the Rich Client Platform (RCP)."
+ },
+ {
+  "id": 8,
+  "name": "Excel / VBA",
+  "definition": "Questions about Microsoft Excel, including formulas, VBA macros, and data manipulation."
+ },
+ {
+  "id": 9,
+  "name": "FastCGI",
+  "definition": "Questions about the FastCGI protocol and its implementation in web servers."
+ },
+ {
+  "id": 10,
+  "name": "Flex / BlazeDS",
+  "definition": "Questions about Adobe Flex applications and BlazeDS data services."
+ },
+ {
+  "id": 11,
+  "name": "GDB",
+  "definition": "Questions about the GNU Debugger (GDB)."
+ },
+ {
+  "id": 12,
+  "name": "Haskell",
+  "definition": "Questions about the Haskell programming language and its ecosystem tools like Cabal and Parsec."
+ },
+ {
+  "id": 13,
+  "name": "Hibernate / JPA",
+  "definition": "Questions about the Hibernate object-relational mapping library and the Java Persistence API."
+ },
+ {
+  "id": 14,
+  "name": "HTML/CSS",
+  "definition": "Questions about HTML markup and CSS styling for web pages."
+ },
+ {
+  "id": 15,
+  "name": "IntelliJ IDEA",
+  "definition": "Questions about the IntelliJ IDEA integrated development environment."
+ },
+ {
+  "id": 16,
+  "name": "JIRA",
+  "definition": "Questions about the JIRA issue tracking and project management application."
+ },
+ {
+  "id": 17,
+  "name": "Java",
+  "definition": "Questions about the Java programming language and standard libraries, excluding specific frameworks like Spring."
+ },
+ {
+  "id": 18,
+  "name": "Java Application Servers",
+  "definition": "Questions about Java application servers and servlet containers such as Tomcat, JBoss, and Glassfish."
+ },
+ {
+  "id": 19,
+  "name": "JavaScript / jQuery",
+  "definition": "Questions about the JavaScript language, the jQuery library, and AJAX techniques."
+ },
+ {
+  "id": 20,
+  "name": "LDAP",
+  "definition": "Questions about the Lightweight Directory Access Protocol and directory services integration."
+ },
+ {
+  "id": 21,
+  "name": "Lighttpd",
+  "definition": "Questions about the Lighttpd web server software."
+ },
+ {
+  "id": 22,
+  "name": "Mac OS X / Cocoa",
+  "definition": "Questions about developing applications for Mac OS X using Cocoa, Objective-C, and related frameworks."
+ },
+ {
+  "id": 23,
+  "name": "Magento",
+  "definition": "Questions about the Magento e-commerce platform."
+ },
+ {
+  "id": 24,
+  "name": "MAMP",
+  "definition": "Questions about the MAMP (Macintosh, Apache, MySQL, PHP) local server environment."
+ },
+ {
+  "id": 25,
+  "name": "Matlab / Simulink",
+  "definition": "Questions about MATLAB numerical computing, Simulink simulation, and related toolboxes."
+ },
+ {
+  "id": 26,
+  "name": "Memcached",
+  "definition": "Questions about the Memcached distributed memory caching system."
+ },
+ {
+  "id": 27,
+  "name": "MySQL",
+  "definition": "Questions about the MySQL relational database management system."
+ },
+ {
+  "id": 28,
+  "name": "Operating Systems",
+  "definition": "Questions about operating system concepts, file systems, and environment configuration not specific to a programming language."
+ },
+ {
+  "id": 29,
+  "name": "Oracle",
+  "definition": "Questions about the Oracle Database, SQL Developer, and PL/SQL."
+ },
+ {
+  "id": 30,
+  "name": "PHP",
+  "definition": "Questions about the PHP scripting language, excluding specific CMS or framework implementations."
+ },
+ {
+  "id": 31,
+  "name": "Python",
+  "definition": "Questions about the Python programming language."
+ },
+ {
+  "id": 32,
+  "name": "Qt",
+  "definition": "Questions about the Qt cross-platform application development framework."
+ },
+ {
+  "id": 33,
+  "name": "Restlet",
+  "definition": "Questions about the Restlet framework for building RESTful web services."
+ },
+ {
+  "id": 34,
+  "name": "SQL",
+  "definition": "Questions about generic SQL syntax and queries not specific to a particular database vendor."
+ },
+ {
+  "id": 35,
+  "name": "SQL Server",
+  "definition": "Questions about the Microsoft SQL Server database management system."
+ },
+ {
+  "id": 36,
+  "name": "SQLab",
+  "definition": "Questions about the SQLab database tuning tool."
+ },
+ {
+  "id": 37,
+  "name": "SVN",
+  "definition": "Questions about the Subversion version control system."
+ },
+ {
+  "id": 38,
+  "name": "SAP",
+  "definition": "Questions about SAP software and integration."
+ },
+ {
+  "id": 39,
+  "name": "Scala",
+  "definition": "Questions about the Scala programming language."
+ },
+ {
+  "id": 40,
+  "name": "SharePoint",
+  "definition": "Questions about Microsoft SharePoint, including CAML queries and web parts."
+ },
+ {
+  "id": 41,
+  "name": "Software Engineering",
+  "definition": "Questions about software design patterns, architecture, testing methodologies, and best practices."
+ },
+ {
+  "id": 42,
+  "name": "Spring",
+  "definition": "Questions about the Spring framework and its various modules."
+ },
+ {
+  "id": 43,
+  "name": "Visual Studio",
+  "definition": "Questions about the Microsoft Visual Studio integrated development environment."
+ },
+ {
+  "id": 44,
+  "name": "WordPress",
+  "definition": "Questions about the WordPress content management system."
+ },
+ {
+  "id": 45,
+  "name": "WxWidgets",
+  "definition": "Questions about the WxWidgets C++ framework for creating cross-platform applications."
+ },
+ {
+  "id": 46,
+  "name": "Xcode",
+  "definition": "Questions about the Xcode development environment for macOS and iOS."
+ }
+]

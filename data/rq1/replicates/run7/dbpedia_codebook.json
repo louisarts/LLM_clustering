@@ -1,0 +1,72 @@
+{
+  "bench": "dbpedia",
+  "run": 7,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, living or historical, often notable for their profession or achievements."
+    },
+    {
+      "id": 2,
+      "name": "Place",
+      "definition": "A geographical location, including natural features (e.g., mountains, rivers, lakes, valleys, craters) and settlements (e.g., villages, cities, regions, ruins)."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "A formal group or institution, such as a company, school, university, record label, or government body."
+    },
+    {
+      "id": 4,
+      "name": "Animal Species",
+      "definition": "A specific species, genus, or family of animals."
+    },
+    {
+      "id": 5,
+      "name": "Plant Species",
+      "definition": "A specific species, genus, or family of plants."
+    },
+    {
+      "id": 6,
+      "name": "Building",
+      "definition": "A permanent, enclosed structure with a roof and walls, typically used for habitation, work, or public assembly."
+    },
+    {
+      "id": 7,
+      "name": "Ship",
+      "definition": "A large watercraft, including various types of naval vessels, ferries, and cargo ships."
+    },
+    {
+      "id": 8,
+      "name": "Vehicle",
+      "definition": "A means of transport, including land-based (e.g., cars, locomotives) and air-based (e.g., aircraft) conveyances."
+    },
+    {
+      "id": 9,
+      "name": "Publication",
+      "definition": "A regularly issued printed or digital work, such as a journal, magazine, newspaper, or manga."
+    },
+    {
+      "id": 10,
+      "name": "Book",
+      "definition": "A long written work, typically bound, including novels, non-fiction, short stories, and game accessories."
+    },
+    {
+      "id": 11,
+      "name": "Album",
+      "definition": "A collection of recorded music, such as a studio album, live album, EP, or compilation."
+    },
+    {
+      "id": 12,
+      "name": "Film",
+      "definition": "A motion picture, including movies, television films, and mini-series."
+    },
+    {
+      "id": 13,
+      "name": "Structure",
+      "definition": "A man-made construction that is not primarily a building, such as a bridge, dam, or monument."
+    }
+  ]
+}

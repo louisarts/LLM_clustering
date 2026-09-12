@@ -1,0 +1,62 @@
+[
+ {
+  "id": 1,
+  "name": "Greeting",
+  "definition": "User initiates the conversation or greets the bot."
+ },
+ {
+  "id": 2,
+  "name": "General Information",
+  "definition": "User requests general definitions, overview, history, or explanation of COVID-19."
+ },
+ {
+  "id": 3,
+  "name": "News & Statistics",
+  "definition": "User requests current news, updates, case counts, death tolls, or situation reports."
+ },
+ {
+  "id": 4,
+  "name": "Symptoms",
+  "definition": "User asks about symptoms, signs, or diagnosis of COVID-19."
+ },
+ {
+  "id": 5,
+  "name": "Transmission & Risk",
+  "definition": "User asks about how the virus spreads, survival on surfaces, high risk areas, or transmission via animals."
+ },
+ {
+  "id": 6,
+  "name": "Prevention & Safety",
+  "definition": "User asks for advice on protective measures, hygiene, social distancing, or how to avoid infection."
+ },
+ {
+  "id": 7,
+  "name": "Treatment & Cure",
+  "definition": "User asks about medical treatments, vaccines, medicines, or remedies for COVID-19."
+ },
+ {
+  "id": 8,
+  "name": "Travel",
+  "definition": "User asks about travel safety, restrictions, cancellations, or transportation advice."
+ },
+ {
+  "id": 9,
+  "name": "Myths & Misinformation",
+  "definition": "User asks about myths, hoaxes, rumors, or verification of questionable claims regarding COVID-19."
+ },
+ {
+  "id": 10,
+  "name": "Donation",
+  "definition": "User expresses intent to donate money or asks about donation options and charities."
+ },
+ {
+  "id": 11,
+  "name": "Sharing & Social",
+  "definition": "User requests to share information, articles, or links via social media or messaging."
+ },
+ {
+  "id": 12,
+  "name": "Gratitude",
+  "definition": "User expresses thanks or appreciation for the bot's assistance."
+ }
+]

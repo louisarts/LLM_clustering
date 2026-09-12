@@ -1,0 +1,97 @@
+{
+  "bench": "bbcnews",
+  "run": 4,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Film",
+      "definition": "News and reviews related to movies, cinema, box office performance, film festivals, and awards."
+    },
+    {
+      "id": 2,
+      "name": "Business",
+      "definition": "News about companies, industries, corporate finance, mergers, acquisitions, and stock markets."
+    },
+    {
+      "id": 3,
+      "name": "Politics",
+      "definition": "News concerning government, elections, political parties, legislation, and public policy, primarily within the UK."
+    },
+    {
+      "id": 4,
+      "name": "Sport",
+      "definition": "News and results from various sports, including competitions, athletes, teams, and related controversies."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "News about computing, internet, software, hardware, consumer electronics, telecommunications, and scientific advancements."
+    },
+    {
+      "id": 6,
+      "name": "Economy",
+      "definition": "News on national and global economic trends, finance, trade, inflation, interest rates, and employment figures."
+    },
+    {
+      "id": 7,
+      "name": "Music",
+      "definition": "News about musical artists, albums, concerts, awards, and the music industry."
+    },
+    {
+      "id": 8,
+      "name": "Television",
+      "definition": "News about TV shows, networks, broadcasting, awards, and media consumption trends."
+    },
+    {
+      "id": 9,
+      "name": "World Affairs",
+      "definition": "News on international relations, foreign policy, global events, conflicts, and significant developments in countries outside the UK."
+    },
+    {
+      "id": 10,
+      "name": "Crime & Justice",
+      "definition": "News related to legal cases, criminal investigations, court proceedings, and law enforcement."
+    },
+    {
+      "id": 11,
+      "name": "Arts & Culture",
+      "definition": "News about theatre, literature, visual arts, museums, cultural events, and historical heritage."
+    },
+    {
+      "id": 12,
+      "name": "Health",
+      "definition": "News concerning public health, medical research, healthcare services, and health policy."
+    },
+    {
+      "id": 13,
+      "name": "Labour & Employment",
+      "definition": "News about workers' rights, employment conditions, job markets, and industrial relations."
+    },
+    {
+      "id": 14,
+      "name": "Environment",
+      "definition": "News on climate change, conservation efforts, pollution, and environmental policy."
+    },
+    {
+      "id": 15,
+      "name": "Education",
+      "definition": "News about schools, universities, educational policies, and student affairs."
+    },
+    {
+      "id": 16,
+      "name": "Gaming",
+      "definition": "News about video games, game development, gaming culture, and the gaming industry."
+    },
+    {
+      "id": 17,
+      "name": "Social Issues",
+      "definition": "News on societal trends, demographics, community concerns, and social welfare topics."
+    },
+    {
+      "id": 18,
+      "name": "UK News",
+      "definition": "General news specific to the United Kingdom that does not fit into other specialized categories."
+    }
+  ]
+}

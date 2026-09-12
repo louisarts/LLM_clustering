@@ -1,0 +1,510 @@
+{
+  "bench": "fewnerd",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 2,
+      "name": "Country",
+      "definition": "A nation with its own government, occupying a particular territory."
+    },
+    {
+      "id": 3,
+      "name": "Region",
+      "definition": "A specific area within a country or continent, often with distinct geographical or cultural characteristics."
+    },
+    {
+      "id": 4,
+      "name": "City",
+      "definition": "A large town or populated urban area."
+    },
+    {
+      "id": 5,
+      "name": "Organization",
+      "definition": "An organized group of people with a particular purpose, such as a business or government department."
+    },
+    {
+      "id": 6,
+      "name": "Building",
+      "definition": "A structure with a roof and walls, such as a house, school, or factory."
+    },
+    {
+      "id": 7,
+      "name": "Natural Feature",
+      "definition": "A naturally occurring geographical feature, such as a mountain, river, or forest."
+    },
+    {
+      "id": 8,
+      "name": "Chemical",
+      "definition": "A compound or substance that has been purified or prepared, especially artificially."
+    },
+    {
+      "id": 9,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 10,
+      "name": "Event",
+      "definition": "A significant occurrence or happening, often involving a gathering of people."
+    },
+    {
+      "id": 11,
+      "name": "Company",
+      "definition": "A commercial business."
+    },
+    {
+      "id": 12,
+      "name": "Product",
+      "definition": "An article or substance that is manufactured or refined for sale."
+    },
+    {
+      "id": 13,
+      "name": "Animal",
+      "definition": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system."
+    },
+    {
+      "id": 14,
+      "name": "Plant",
+      "definition": "A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses."
+    },
+    {
+      "id": 15,
+      "name": "Vehicle",
+      "definition": "A thing used for transporting people or goods, especially on land, such as a car, truck, or cart."
+    },
+    {
+      "id": 16,
+      "name": "Language",
+      "definition": "A system of communication used by a particular country or community."
+    },
+    {
+      "id": 17,
+      "name": "Award",
+      "definition": "A prize or other mark of recognition given in honor of an achievement."
+    },
+    {
+      "id": 18,
+      "name": "Historical Period",
+      "definition": "A distinct period of time in history with specific characteristics."
+    },
+    {
+      "id": 19,
+      "name": "Mythological Figure",
+      "definition": "A character from a myth or legend."
+    },
+    {
+      "id": 20,
+      "name": "Sport",
+      "definition": "An activity involving physical exertion and skill in which an individual or team competes against another or others for entertainment."
+    },
+    {
+      "id": 21,
+      "name": "Media",
+      "definition": "The main means of mass communication, such as television, radio, and newspapers, regarded collectively."
+    },
+    {
+      "id": 22,
+      "name": "Law",
+      "definition": "A system of rules that are created and enforced through social or governmental institutions to regulate behavior."
+    },
+    {
+      "id": 23,
+      "name": "Political Entity",
+      "definition": "An organization or unit that has political authority or influence."
+    },
+    {
+      "id": 24,
+      "name": "Technology",
+      "definition": "The application of scientific knowledge for practical purposes, especially in industry."
+    },
+    {
+      "id": 25,
+      "name": "Food",
+      "definition": "Any nutritious substance that people or animals eat or drink or that plants absorb in order to maintain life and growth."
+    },
+    {
+      "id": 26,
+      "name": "Disease",
+      "definition": "A disorder of structure or function in a human, animal, or plant, especially one that produces specific symptoms or that affects a specific location and is not simply a direct result of physical injury."
+    },
+    {
+      "id": 27,
+      "name": "Art",
+      "definition": "The expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture."
+    },
+    {
+      "id": 28,
+      "name": "Music",
+      "definition": "Vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion."
+    },
+    {
+      "id": 29,
+      "name": "Fictional Character",
+      "definition": "A character created for a fictional work, such as a novel, play, or film."
+    },
+    {
+      "id": 30,
+      "name": "Mythological Place",
+      "definition": "A location from a myth or legend."
+    },
+    {
+      "id": 31,
+      "name": "Educational Institution",
+      "definition": "An organization providing educational services, such as a school, college, or university."
+    },
+    {
+      "id": 32,
+      "name": "Publication",
+      "definition": "A book, journal, or other work that is published."
+    },
+    {
+      "id": 33,
+      "name": "Festival",
+      "definition": "A day or period of celebration, typically for religious reasons."
+    },
+    {
+      "id": 34,
+      "name": "Game",
+      "definition": "A form of play or sport, especially a competitive one played according to rules and decided by skill, strength, or luck."
+    },
+    {
+      "id": 35,
+      "name": "Transportation Infrastructure",
+      "definition": "Facilities and systems serving a country, city, or area, including the services and facilities necessary for its economy to function, such as roads, bridges, and airports."
+    },
+    {
+      "id": 36,
+      "name": "Gene",
+      "definition": "A unit of heredity which is transferred from a parent to offspring and is held to determine some characteristic of the offspring."
+    },
+    {
+      "id": 37,
+      "name": "Political Party",
+      "definition": "An organized group of people with at least roughly similar political aims and opinions, that seeks to influence public policy by getting its candidates elected to public office."
+    },
+    {
+      "id": 38,
+      "name": "Military",
+      "definition": "The armed forces of a country."
+    },
+    {
+      "id": 39,
+      "name": "Religious Institution",
+      "definition": "An organization dedicated to the practice and promotion of religious beliefs."
+    },
+    {
+      "id": 40,
+      "name": "Mythological Object",
+      "definition": "An object from a myth or legend."
+    },
+    {
+      "id": 41,
+      "name": "Mythological Event",
+      "definition": "An event from a myth or legend."
+    },
+    {
+      "id": 42,
+      "name": "Mythological Creature",
+      "definition": "A creature from a myth or legend."
+    },
+    {
+      "id": 43,
+      "name": "Mythological Concept",
+      "definition": "A concept from a myth or legend."
+    },
+    {
+      "id": 44,
+      "name": "Mythological Deity",
+      "definition": "A god or goddess from a myth or legend."
+    },
+    {
+      "id": 45,
+      "name": "Mythological Hero",
+      "definition": "A hero from a myth or legend."
+    },
+    {
+      "id": 46,
+      "name": "Mythological Villain",
+      "definition": "A villain from a myth or legend."
+    },
+    {
+      "id": 47,
+      "name": "Mythological Artifact",
+      "definition": "An artifact from a myth or legend."
+    },
+    {
+      "id": 48,
+      "name": "Mythological Weapon",
+      "definition": "A weapon from a myth or legend."
+    },
+    {
+      "id": 49,
+      "name": "Mythological Location",
+      "definition": "A location from a myth or legend."
+    },
+    {
+      "id": 50,
+      "name": "Mythological Race",
+      "definition": "A race from a myth or legend."
+    },
+    {
+      "id": 51,
+      "name": "Mythological Language",
+      "definition": "A language from a myth or legend."
+    },
+    {
+      "id": 52,
+      "name": "Mythological Culture",
+      "definition": "A culture from a myth or legend."
+    },
+    {
+      "id": 53,
+      "name": "Mythological Civilization",
+      "definition": "A civilization from a myth or legend."
+    },
+    {
+      "id": 54,
+      "name": "Mythological Religion",
+      "definition": "A religion from a myth or legend."
+    },
+    {
+      "id": 55,
+      "name": "Mythological Philosophy",
+      "definition": "A philosophy from a myth or legend."
+    },
+    {
+      "id": 56,
+      "name": "Mythological Science",
+      "definition": "A science from a myth or legend."
+    },
+    {
+      "id": 57,
+      "name": "Mythological Technology",
+      "definition": "A technology from a myth or legend."
+    },
+    {
+      "id": 58,
+      "name": "Mythological Magic",
+      "definition": "Magic from a myth or legend."
+    },
+    {
+      "id": 59,
+      "name": "Mythological Spell",
+      "definition": "A spell from a myth or legend."
+    },
+    {
+      "id": 60,
+      "name": "Mythological Potion",
+      "definition": "A potion from a myth or legend."
+    },
+    {
+      "id": 61,
+      "name": "Mythological Ritual",
+      "definition": "A ritual from a myth or legend."
+    },
+    {
+      "id": 62,
+      "name": "Mythological Ceremony",
+      "definition": "A ceremony from a myth or legend."
+    },
+    {
+      "id": 63,
+      "name": "Mythological Tradition",
+      "definition": "A tradition from a myth or legend."
+    },
+    {
+      "id": 64,
+      "name": "Mythological Custom",
+      "definition": "A custom from a myth or legend."
+    },
+    {
+      "id": 65,
+      "name": "Mythological Practice",
+      "definition": "A practice from a myth or legend."
+    },
+    {
+      "id": 66,
+      "name": "Mythological Belief",
+      "definition": "A belief from a myth or legend."
+    },
+    {
+      "id": 67,
+      "name": "Mythological Legend",
+      "definition": "A legend from a myth or legend."
+    },
+    {
+      "id": 68,
+      "name": "Mythological Tale",
+      "definition": "A tale from a myth or legend."
+    },
+    {
+      "id": 69,
+      "name": "Mythological Story",
+      "definition": "A story from a myth or legend."
+    },
+    {
+      "id": 70,
+      "name": "Mythological Myth",
+      "definition": "A myth from a myth or legend."
+    },
+    {
+      "id": 71,
+      "name": "Mythological Fable",
+      "definition": "A fable from a myth or legend."
+    },
+    {
+      "id": 72,
+      "name": "Mythological Parable",
+      "definition": "A parable from a myth or legend."
+    },
+    {
+      "id": 73,
+      "name": "Mythological Allegory",
+      "definition": "An allegory from a myth or legend."
+    },
+    {
+      "id": 74,
+      "name": "Mythological Symbol",
+      "definition": "A symbol from a myth or legend."
+    },
+    {
+      "id": 75,
+      "name": "Mythological Icon",
+      "definition": "An icon from a myth or legend."
+    },
+    {
+      "id": 76,
+      "name": "Mythological Image",
+      "definition": "An image from a myth or legend."
+    },
+    {
+      "id": 77,
+      "name": "Mythological Figurehead",
+      "definition": "A figurehead from a myth or legend."
+    },
+    {
+      "id": 78,
+      "name": "Mythological Emblem",
+      "definition": "An emblem from a myth or legend."
+    },
+    {
+      "id": 79,
+      "name": "Mythological Insignia",
+      "definition": "An insignia from a myth or legend."
+    },
+    {
+      "id": 80,
+      "name": "Mythological Crest",
+      "definition": "A crest from a myth or legend."
+    },
+    {
+      "id": 81,
+      "name": "Mythological Coat of Arms",
+      "definition": "A coat of arms from a myth or legend."
+    },
+    {
+      "id": 82,
+      "name": "Mythological Banner",
+      "definition": "A banner from a myth or legend."
+    },
+    {
+      "id": 83,
+      "name": "Mythological Flag",
+      "definition": "A flag from a myth or legend."
+    },
+    {
+      "id": 84,
+      "name": "Mythological Standard",
+      "definition": "A standard from a myth or legend."
+    },
+    {
+      "id": 85,
+      "name": "Mythological Pennant",
+      "definition": "A pennant from a myth or legend."
+    },
+    {
+      "id": 86,
+      "name": "Mythological Streamer",
+      "definition": "A streamer from a myth or legend."
+    },
+    {
+      "id": 87,
+      "name": "Mythological Ribbon",
+      "definition": "A ribbon from a myth or legend."
+    },
+    {
+      "id": 88,
+      "name": "Mythological Sash",
+      "definition": "A sash from a myth or legend."
+    },
+    {
+      "id": 89,
+      "name": "Mythological Scarf",
+      "definition": "A scarf from a myth or legend."
+    },
+    {
+      "id": 90,
+      "name": "Mythological Shawl",
+      "definition": "A shawl from a myth or legend."
+    },
+    {
+      "id": 91,
+      "name": "Mythological Cloak",
+      "definition": "A cloak from a myth or legend."
+    },
+    {
+      "id": 92,
+      "name": "Mythological Cape",
+      "definition": "A cape from a myth or legend."
+    },
+    {
+      "id": 93,
+      "name": "Mythological Mantle",
+      "definition": "A mantle from a myth or legend."
+    },
+    {
+      "id": 94,
+      "name": "Mythological Robe",
+      "definition": "A robe from a myth or legend."
+    },
+    {
+      "id": 95,
+      "name": "Mythological Gown",
+      "definition": "A gown from a myth or legend."
+    },
+    {
+      "id": 96,
+      "name": "Mythological Dress",
+      "definition": "A dress from a myth or legend."
+    },
+    {
+      "id": 97,
+      "name": "Mythological Suit",
+      "definition": "A suit from a myth or legend."
+    },
+    {
+      "id": 98,
+      "name": "Mythological Uniform",
+      "definition": "A uniform from a myth or legend."
+    },
+    {
+      "id": 99,
+      "name": "Mythological Costume",
+      "definition": "A costume from a myth or legend."
+    },
+    {
+      "id": 100,
+      "name": "Mythological Outfit",
+      "definition": "An outfit from a myth or legend."
+    }
+  ]
+}

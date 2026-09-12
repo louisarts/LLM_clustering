@@ -1,0 +1,60 @@
+{
+  "bench": "reddit_s2s",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Coffee Enthusiasts",
+      "definition": "Posts related to coffee, including recommendations, questions, and surveys."
+    },
+    {
+      "id": 2,
+      "name": "Anime Fans",
+      "definition": "Posts related to anime, including forums and recommendations."
+    },
+    {
+      "id": 3,
+      "name": "Technology News",
+      "definition": "Posts about new technology products and releases."
+    },
+    {
+      "id": 4,
+      "name": "Homeowners and Buyers",
+      "definition": "Posts related to mortgages, home renovations, and real estate."
+    },
+    {
+      "id": 5,
+      "name": "Academic Advice",
+      "definition": "Posts about education, degrees, and academic questions."
+    },
+    {
+      "id": 6,
+      "name": "Podcasts and Media",
+      "definition": "Posts about podcasts, episodes, and media recommendations."
+    },
+    {
+      "id": 7,
+      "name": "Gun Enthusiasts",
+      "definition": "Posts about guns, ammunition, and gun-related questions."
+    },
+    {
+      "id": 8,
+      "name": "Marketplace Updates",
+      "definition": "Posts about marketplace listings, sales, and reports."
+    },
+    {
+      "id": 9,
+      "name": "Art and Design",
+      "definition": "Posts about art, design, and creative projects."
+    },
+    {
+      "id": 10,
+      "name": "Health and Wellness",
+      "definition": "Posts about health, medicine, and wellness topics."
+    }
+  ]
+}

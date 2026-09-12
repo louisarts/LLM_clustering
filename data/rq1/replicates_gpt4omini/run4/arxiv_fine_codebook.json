@@ -1,0 +1,210 @@
+{
+  "bench": "arxiv_fine",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence and its applications."
+    },
+    {
+      "id": 2,
+      "name": "cs.LG",
+      "definition": "Machine Learning and related methodologies."
+    },
+    {
+      "id": 3,
+      "name": "cs.CV",
+      "definition": "Computer Vision and image processing techniques."
+    },
+    {
+      "id": 4,
+      "name": "cs.NE",
+      "definition": "Neural Networks and deep learning architectures."
+    },
+    {
+      "id": 5,
+      "name": "cs.SY",
+      "definition": "Systems and control theory."
+    },
+    {
+      "id": 6,
+      "name": "math.ST",
+      "definition": "Statistics and probability theory."
+    },
+    {
+      "id": 7,
+      "name": "math.MG",
+      "definition": "Mathematical finance and risk management."
+    },
+    {
+      "id": 8,
+      "name": "math.AG",
+      "definition": "Algebraic geometry and related topics."
+    },
+    {
+      "id": 9,
+      "name": "math.DS",
+      "definition": "Dynamical systems and their applications."
+    },
+    {
+      "id": 10,
+      "name": "math.PR",
+      "definition": "Probability and stochastic processes."
+    },
+    {
+      "id": 11,
+      "name": "math.NA",
+      "definition": "Numerical analysis and computational methods."
+    },
+    {
+      "id": 12,
+      "name": "math.FA",
+      "definition": "Functional analysis and operator theory."
+    },
+    {
+      "id": 13,
+      "name": "math.CA",
+      "definition": "Complex analysis and its applications."
+    },
+    {
+      "id": 14,
+      "name": "math.CT",
+      "definition": "Category theory and its applications."
+    },
+    {
+      "id": 15,
+      "name": "hep-th",
+      "definition": "Theoretical high-energy physics."
+    },
+    {
+      "id": 16,
+      "name": "astro-ph",
+      "definition": "Astrophysics and cosmology."
+    },
+    {
+      "id": 17,
+      "name": "cond-mat",
+      "definition": "Condensed matter physics."
+    },
+    {
+      "id": 18,
+      "name": "quant-ph",
+      "definition": "Quantum physics and quantum information."
+    },
+    {
+      "id": 19,
+      "name": "stat.ME",
+      "definition": "Statistical mechanics and thermodynamics."
+    },
+    {
+      "id": 20,
+      "name": "bio.Ph",
+      "definition": "Biophysics and biological applications."
+    },
+    {
+      "id": 21,
+      "name": "bio.OT",
+      "definition": "Biostatistics and bioinformatics."
+    },
+    {
+      "id": 22,
+      "name": "econ.GN",
+      "definition": "Game theory and economic models."
+    },
+    {
+      "id": 23,
+      "name": "econ.MA",
+      "definition": "Mathematical economics and optimization."
+    },
+    {
+      "id": 24,
+      "name": "stat.ML",
+      "definition": "Statistical machine learning."
+    },
+    {
+      "id": 25,
+      "name": "stat.TH",
+      "definition": "Theoretical statistics."
+    },
+    {
+      "id": 26,
+      "name": "stat.AP",
+      "definition": "Applied statistics and data analysis."
+    },
+    {
+      "id": 27,
+      "name": "cs.DS",
+      "definition": "Data structures and algorithms."
+    },
+    {
+      "id": 28,
+      "name": "cs.DB",
+      "definition": "Database systems and data management."
+    },
+    {
+      "id": 29,
+      "name": "cs.HC",
+      "definition": "Human-computer interaction."
+    },
+    {
+      "id": 30,
+      "name": "cs.SE",
+      "definition": "Software engineering and development."
+    },
+    {
+      "id": 31,
+      "name": "cs.NI",
+      "definition": "Network and internet technologies."
+    },
+    {
+      "id": 32,
+      "name": "cs.CR",
+      "definition": "Cryptography and security."
+    },
+    {
+      "id": 33,
+      "name": "cs.MA",
+      "definition": "Mathematical aspects of computer science."
+    },
+    {
+      "id": 34,
+      "name": "cs.SI",
+      "definition": "Scientific computing and simulations."
+    },
+    {
+      "id": 35,
+      "name": "cs.ET",
+      "definition": "Embedded systems and real-time computing."
+    },
+    {
+      "id": 36,
+      "name": "cs.CT",
+      "definition": "Computational theory and complexity."
+    },
+    {
+      "id": 37,
+      "name": "cs.AT",
+      "definition": "Automata theory and formal languages."
+    },
+    {
+      "id": 38,
+      "name": "cs.IG",
+      "definition": "Information retrieval and data mining."
+    },
+    {
+      "id": 39,
+      "name": "cs.IV",
+      "definition": "Information visualization."
+    },
+    {
+      "id": 40,
+      "name": "cs.MA",
+      "definition": "Mathematical aspects of computer science."
+    }
+  ]
+}

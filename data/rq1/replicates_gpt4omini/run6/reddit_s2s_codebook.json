@@ -1,0 +1,110 @@
+{
+  "bench": "reddit_s2s",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Science",
+      "definition": "Posts related to scientific inquiries, experiments, and discussions."
+    },
+    {
+      "id": 2,
+      "name": "Technology",
+      "definition": "Posts discussing technology, gadgets, software, and related issues."
+    },
+    {
+      "id": 3,
+      "name": "Health",
+      "definition": "Posts related to health, wellness, medical inquiries, and personal health stories."
+    },
+    {
+      "id": 4,
+      "name": "Education",
+      "definition": "Posts about academic subjects, learning resources, and educational experiences."
+    },
+    {
+      "id": 5,
+      "name": "Lifestyle",
+      "definition": "Posts about personal experiences, lifestyle choices, and daily life."
+    },
+    {
+      "id": 6,
+      "name": "Food",
+      "definition": "Posts related to food, cooking, recipes, and culinary experiences."
+    },
+    {
+      "id": 7,
+      "name": "Travel",
+      "definition": "Posts discussing travel experiences, tips, and destination recommendations."
+    },
+    {
+      "id": 8,
+      "name": "Art and Design",
+      "definition": "Posts related to visual arts, design, and creative projects."
+    },
+    {
+      "id": 9,
+      "name": "Entertainment",
+      "definition": "Posts about movies, TV shows, music, and other forms of entertainment."
+    },
+    {
+      "id": 10,
+      "name": "Politics",
+      "definition": "Posts discussing political issues, news, and opinions."
+    },
+    {
+      "id": 11,
+      "name": "Animals",
+      "definition": "Posts related to pets, wildlife, and animal care."
+    },
+    {
+      "id": 12,
+      "name": "Finance",
+      "definition": "Posts discussing financial advice, investments, and economic issues."
+    },
+    {
+      "id": 13,
+      "name": "Community",
+      "definition": "Posts related to local events, community issues, and social interactions."
+    },
+    {
+      "id": 14,
+      "name": "Gaming",
+      "definition": "Posts discussing video games, board games, and gaming culture."
+    },
+    {
+      "id": 15,
+      "name": "Relationships",
+      "definition": "Posts about personal relationships, dating, and social dynamics."
+    },
+    {
+      "id": 16,
+      "name": "DIY and Crafts",
+      "definition": "Posts related to do-it-yourself projects, crafts, and home improvement."
+    },
+    {
+      "id": 17,
+      "name": "News",
+      "definition": "Posts sharing news articles, updates, and current events."
+    },
+    {
+      "id": 18,
+      "name": "Humor",
+      "definition": "Posts intended for humor, jokes, and comedic content."
+    },
+    {
+      "id": 19,
+      "name": "Philosophy",
+      "definition": "Posts discussing philosophical ideas, theories, and debates."
+    },
+    {
+      "id": 20,
+      "name": "Sports",
+      "definition": "Posts related to sports events, teams, and athletic discussions."
+    }
+  ]
+}

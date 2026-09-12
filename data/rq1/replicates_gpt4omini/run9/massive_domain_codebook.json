@@ -1,0 +1,90 @@
+{
+  "bench": "massive_domain",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Reminders",
+      "definition": "Requests to set reminders for specific tasks or events."
+    },
+    {
+      "id": 2,
+      "name": "Weather",
+      "definition": "Inquiries about current or future weather conditions."
+    },
+    {
+      "id": 3,
+      "name": "Music and Audio",
+      "definition": "Requests related to playing, identifying, or managing music and audio content."
+    },
+    {
+      "id": 4,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions or recipes."
+    },
+    {
+      "id": 5,
+      "name": "Emails and Communication",
+      "definition": "Requests related to sending, checking, or managing emails and messages."
+    },
+    {
+      "id": 6,
+      "name": "Calendar and Scheduling",
+      "definition": "Requests to manage calendar events, appointments, and schedules."
+    },
+    {
+      "id": 7,
+      "name": "Travel and Transportation",
+      "definition": "Requests related to booking tickets, checking travel times, or finding directions."
+    },
+    {
+      "id": 8,
+      "name": "Home Automation",
+      "definition": "Requests to control smart home devices such as lights and appliances."
+    },
+    {
+      "id": 9,
+      "name": "News and Information",
+      "definition": "Requests for current news, information, or updates on various topics."
+    },
+    {
+      "id": 10,
+      "name": "Social Media",
+      "definition": "Requests related to managing social media accounts or interactions."
+    },
+    {
+      "id": 11,
+      "name": "Shopping and Purchases",
+      "definition": "Requests related to shopping, ordering food, or managing shopping lists."
+    },
+    {
+      "id": 12,
+      "name": "Tasks and To-Do Lists",
+      "definition": "Requests to manage tasks, to-do lists, or reminders for personal organization."
+    },
+    {
+      "id": 13,
+      "name": "General Knowledge",
+      "definition": "Inquiries seeking factual information or explanations on various subjects."
+    },
+    {
+      "id": 14,
+      "name": "Health and Wellness",
+      "definition": "Requests related to health, wellness, or medical appointments."
+    },
+    {
+      "id": 15,
+      "name": "Events and Activities",
+      "definition": "Requests for information about local events, activities, or entertainment."
+    },
+    {
+      "id": 16,
+      "name": "Technical Support",
+      "definition": "Requests for assistance with technical issues or device management."
+    }
+  ]
+}

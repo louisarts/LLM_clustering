@@ -1,0 +1,109 @@
+{
+  "bench": "banking77",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Fraud and Security",
+      "definition": "Reports of unauthorized transactions, stolen cards, or compromised account security requiring immediate action."
+    },
+    {
+      "id": 2,
+      "name": "Card Status and Delivery",
+      "definition": "Inquiries regarding the ordering, delivery tracking, expiration, or physical status of a card."
+    },
+    {
+      "id": 3,
+      "name": "Card Functionality and Settings",
+      "definition": "Issues or questions about using the card, including declined payments, PIN management, and activation."
+    },
+    {
+      "id": 4,
+      "name": "Virtual Card",
+      "definition": "Questions specifically regarding the features, availability, or usage of virtual disposable cards."
+    },
+    {
+      "id": 5,
+      "name": "Top Up Issues",
+      "definition": "Problems experienced when attempting to add funds to the account, such as failed or pending top-ups."
+    },
+    {
+      "id": 6,
+      "name": "Top Up Fees and Limits",
+      "definition": "Questions concerning fees, limits, or policies related to adding money to the account."
+    },
+    {
+      "id": 7,
+      "name": "Incoming Transfer Issues",
+      "definition": "Reports of missing or delayed funds transferred from external bank accounts into the user's account."
+    },
+    {
+      "id": 8,
+      "name": "Outgoing Transfer Issues",
+      "definition": "Problems with sending money to others, including failed, declined, or delayed outgoing transfers."
+    },
+    {
+      "id": 9,
+      "name": "Transfer Fees and Policies",
+      "definition": "Inquiries about fees, processing times, or policies applicable to money transfers."
+    },
+    {
+      "id": 10,
+      "name": "Cash Withdrawal Issues",
+      "definition": "Problems encountered at ATMs, including failed withdrawals, captured cards, or incorrect dispensed amounts."
+    },
+    {
+      "id": 11,
+      "name": "Cash Deposit Issues",
+      "definition": "Reports of missing or delayed funds resulting from cash or cheque deposits."
+    },
+    {
+      "id": 12,
+      "name": "Transaction Disputes and Refunds",
+      "definition": "Requests to cancel transactions, dispute merchant charges, or resolve issues with missing refunds."
+    },
+    {
+      "id": 13,
+      "name": "Duplicate or Incorrect Transaction",
+      "definition": "Reports of duplicate charges, incorrect transaction amounts, or unrecognized transaction names."
+    },
+    {
+      "id": 14,
+      "name": "Transaction Status",
+      "definition": "Questions regarding the meaning or duration of pending transaction states."
+    },
+    {
+      "id": 15,
+      "name": "Exchange Rates and Currency",
+      "definition": "Questions about applicable exchange rates, currency conversion processes, or supported currencies."
+    },
+    {
+      "id": 16,
+      "name": "Fees Inquiry",
+      "definition": "General questions about service fees, card usage fees, or unexplained charges not specific to transfers or top-ups."
+    },
+    {
+      "id": 17,
+      "name": "Identity Verification",
+      "definition": "Issues or questions regarding the process, requirements, or necessity of verifying personal identity."
+    },
+    {
+      "id": 18,
+      "name": "Account Management",
+      "definition": "Requests to update personal details, close accounts, or manage account access and settings."
+    },
+    {
+      "id": 19,
+      "name": "App and Technical Support",
+      "definition": "Technical difficulties using the mobile app or website, including login issues and feature bugs."
+    },
+    {
+      "id": 20,
+      "name": "General Information",
+      "definition": "General questions about company operations, supported regions, age requirements, or product availability."
+    }
+  ]
+}

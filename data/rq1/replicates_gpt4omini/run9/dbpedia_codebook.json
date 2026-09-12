@@ -1,0 +1,160 @@
+{
+  "bench": "dbpedia",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Company",
+      "definition": "A business entity that engages in commercial, industrial, or professional activities."
+    },
+    {
+      "id": 2,
+      "name": "Taxonomic Group",
+      "definition": "A classification of organisms in biology, including orders, families, and genera."
+    },
+    {
+      "id": 3,
+      "name": "Vessel",
+      "definition": "A watercraft designed for navigation on water."
+    },
+    {
+      "id": 4,
+      "name": "University",
+      "definition": "An institution of higher education and research that grants academic degrees."
+    },
+    {
+      "id": 5,
+      "name": "Geographical Feature",
+      "definition": "Natural physical features of the Earth, such as lakes, mountains, and rivers."
+    },
+    {
+      "id": 6,
+      "name": "Research Organization",
+      "definition": "An entity that conducts research and provides services in various fields."
+    },
+    {
+      "id": 7,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages bound together."
+    },
+    {
+      "id": 8,
+      "name": "Album",
+      "definition": "A collection of audio recordings issued as a single item."
+    },
+    {
+      "id": 9,
+      "name": "Plant Species",
+      "definition": "A group of plants that can interbreed and produce fertile offspring."
+    },
+    {
+      "id": 10,
+      "name": "Village",
+      "definition": "A small community or group of houses in a rural area."
+    },
+    {
+      "id": 11,
+      "name": "Film",
+      "definition": "A motion picture or movie that tells a story through moving images."
+    },
+    {
+      "id": 12,
+      "name": "Artist",
+      "definition": "A person who creates art, such as paintings, music, or literature."
+    },
+    {
+      "id": 13,
+      "name": "Political Figure",
+      "definition": "An individual involved in politics, often holding a position of authority."
+    },
+    {
+      "id": 14,
+      "name": "School",
+      "definition": "An institution for educating children or students."
+    },
+    {
+      "id": 15,
+      "name": "Historical Site",
+      "definition": "A location that has historical significance."
+    },
+    {
+      "id": 16,
+      "name": "Submarine",
+      "definition": "A watercraft capable of underwater operation."
+    },
+    {
+      "id": 17,
+      "name": "Journal",
+      "definition": "A periodical publication that contains scholarly articles and research."
+    },
+    {
+      "id": 18,
+      "name": "Mountain",
+      "definition": "A large landform that rises prominently above its surroundings."
+    },
+    {
+      "id": 19,
+      "name": "River",
+      "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another river."
+    },
+    {
+      "id": 20,
+      "name": "Moth Species",
+      "definition": "A group of insects in the order Lepidoptera, typically characterized by their nocturnal habits."
+    },
+    {
+      "id": 21,
+      "name": "Crater",
+      "definition": "A bowl-shaped depression formed by volcanic activity or impact."
+    },
+    {
+      "id": 22,
+      "name": "Record Label",
+      "definition": "A company that produces and sells music recordings."
+    },
+    {
+      "id": 23,
+      "name": "Album Compilation",
+      "definition": "A collection of selected tracks from various artists or albums."
+    },
+    {
+      "id": 24,
+      "name": "Documentary",
+      "definition": "A non-fiction film or television program that documents reality."
+    },
+    {
+      "id": 25,
+      "name": "Play",
+      "definition": "A form of literature intended for theatrical performance."
+    },
+    {
+      "id": 26,
+      "name": "Government Institution",
+      "definition": "An organization that is part of the government structure."
+    },
+    {
+      "id": 27,
+      "name": "Shopping Mall",
+      "definition": "A large indoor shopping center with various stores and services."
+    },
+    {
+      "id": 28,
+      "name": "Cultural Institution",
+      "definition": "An organization that promotes cultural activities and education."
+    },
+    {
+      "id": 29,
+      "name": "Sports Team",
+      "definition": "A group of individuals organized to play a sport together."
+    },
+    {
+      "id": 30,
+      "name": "Historical Figure",
+      "definition": "An individual who has had a significant impact on history."
+    }
+  ]
+}

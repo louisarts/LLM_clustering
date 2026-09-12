@@ -1,0 +1,149 @@
+{
+  "bench": "reddit_s2s",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Animals and Pets",
+      "definition": "Posts regarding pets, wildlife, animal behavior, and veterinary advice."
+    },
+    {
+      "id": 2,
+      "name": "Art and Creativity",
+      "definition": "Posts showcasing artwork, photography, art history, and creative techniques."
+    },
+    {
+      "id": 3,
+      "name": "Automotive",
+      "definition": "Posts concerning cars, motorcycles, driving, and vehicle maintenance."
+    },
+    {
+      "id": 4,
+      "name": "Books and Literature",
+      "definition": "Posts discussing books, authors, reading recommendations, and literary analysis."
+    },
+    {
+      "id": 5,
+      "name": "Business and Finance",
+      "definition": "Posts related to economics, investing, corporate news, and professional services."
+    },
+    {
+      "id": 6,
+      "name": "Career and Education",
+      "definition": "Posts seeking advice on jobs, academic studies, schools, and professional development."
+    },
+    {
+      "id": 7,
+      "name": "Comics and Graphic Novels",
+      "definition": "Posts about comic books, graphic novels, and the comic book industry."
+    },
+    {
+      "id": 8,
+      "name": "Computers and Hardware",
+      "definition": "Posts regarding computer components, peripherals, and technical support."
+    },
+    {
+      "id": 9,
+      "name": "Food and Drink",
+      "definition": "Posts about cooking, dining, beverages, and culinary equipment."
+    },
+    {
+      "id": 10,
+      "name": "Gaming",
+      "definition": "Posts about video games, board games, gaming culture, and specific game titles."
+    },
+    {
+      "id": 11,
+      "name": "Health and Medicine",
+      "definition": "Posts concerning medical conditions, health advice, and healthcare."
+    },
+    {
+      "id": 12,
+      "name": "History",
+      "definition": "Posts discussing historical events, figures, and historical analysis."
+    },
+    {
+      "id": 13,
+      "name": "Hobby Electronics and Radio",
+      "definition": "Posts about amateur radio, electronics projects, and shortwave listening."
+    },
+    {
+      "id": 14,
+      "name": "Home and Garden",
+      "definition": "Posts regarding home improvement, gardening, and interior design."
+    },
+    {
+      "id": 15,
+      "name": "Humor and Memes",
+      "definition": "Posts intended to be funny, including memes, jokes, and comedic images."
+    },
+    {
+      "id": 16,
+      "name": "International News and Politics",
+      "definition": "Posts covering political events, world news, and geopolitical issues."
+    },
+    {
+      "id": 17,
+      "name": "Local City and Regional Discussion",
+      "definition": "Posts focused on news, events, and discussion specific to a city or region."
+    },
+    {
+      "id": 18,
+      "name": "Movies and Television",
+      "definition": "Posts about films, TV shows, streaming content, and celebrity news."
+    },
+    {
+      "id": 19,
+      "name": "Music",
+      "definition": "Posts regarding musicians, music theory, albums, and performances."
+    },
+    {
+      "id": 20,
+      "name": "Numismatics",
+      "definition": "Posts about coin collecting, identification, and valuation."
+    },
+    {
+      "id": 21,
+      "name": "Philosophy and Religion",
+      "definition": "Posts discussing philosophical concepts, religious texts, and spirituality."
+    },
+    {
+      "id": 22,
+      "name": "Science",
+      "definition": "Posts about biology, chemistry, physics, and other natural sciences."
+    },
+    {
+      "id": 23,
+      "name": "Social Media and Web Platforms",
+      "definition": "Posts discussing social networks, blogging platforms, and web services."
+    },
+    {
+      "id": 24,
+      "name": "Sports",
+      "definition": "Posts about athletic events, teams, and sports news."
+    },
+    {
+      "id": 25,
+      "name": "Technology and Gadgets",
+      "definition": "Posts about consumer electronics, smartphones, and new technology."
+    },
+    {
+      "id": 26,
+      "name": "Travel",
+      "definition": "Posts regarding travel destinations, advice, and trip reports."
+    },
+    {
+      "id": 27,
+      "name": "Web Development and SEO",
+      "definition": "Posts about website creation, coding, and search engine optimization."
+    },
+    {
+      "id": 28,
+      "name": "Writing and Advice",
+      "definition": "Posts seeking personal advice, feedback, or general discussion."
+    }
+  ]
+}

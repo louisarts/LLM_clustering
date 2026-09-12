@@ -1,0 +1,64 @@
+{
+  "bench": "banking77",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Management",
+      "definition": "Requests to order, activate, freeze, unfreeze, or report lost or stolen physical or virtual cards."
+    },
+    {
+      "id": 2,
+      "name": "Transaction Issues",
+      "definition": "Reports of unauthorized, duplicate, or unrecognized transactions, or disputes regarding transaction amounts and missing refunds."
+    },
+    {
+      "id": 3,
+      "name": "Transfers and Deposits",
+      "definition": "Queries regarding the status, failure, cancellation, or non-arrival of sent or received money transfers and deposits."
+    },
+    {
+      "id": 4,
+      "name": "Fees and Exchange Rates",
+      "definition": "Questions or disputes about fees for transfers, withdrawals, card usage, currency exchange rates, and other service charges."
+    },
+    {
+      "id": 5,
+      "name": "Identity Verification",
+      "definition": "Issues or questions regarding the process of verifying identity, source of funds, or account access restrictions due to verification status."
+    },
+    {
+      "id": 6,
+      "name": "Top Up",
+      "definition": "Queries about methods, limits, fees, or failures related to adding funds to the account balance."
+    },
+    {
+      "id": 7,
+      "name": "ATM and Cash Withdrawal",
+      "definition": "Issues specifically related to using ATMs, including cash withdrawal failures, captured cards, and locating machines."
+    },
+    {
+      "id": 8,
+      "name": "Account Management",
+      "definition": "Requests to close or delete an account, update personal details, or questions regarding account eligibility and login access."
+    },
+    {
+      "id": 9,
+      "name": "Card Functionality",
+      "definition": "Reports of cards being declined, failing to work for payments, or issues with specific features like contactless payments."
+    },
+    {
+      "id": 10,
+      "name": "PIN Management",
+      "definition": "Requests to change, reset, unblock, or locate a PIN, or issues regarding PIN entry attempts."
+    },
+    {
+      "id": 11,
+      "name": "General Information",
+      "definition": "General questions about card types, supported currencies, delivery times, usage locations, and operational procedures."
+    }
+  ]
+}

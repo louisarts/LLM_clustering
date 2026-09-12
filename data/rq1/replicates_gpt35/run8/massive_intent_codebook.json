@@ -1,0 +1,110 @@
+{
+  "bench": "massive_intent",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "User wants to set an alarm for a specific time."
+    },
+    {
+      "id": 2,
+      "name": "Check Email",
+      "definition": "User wants to check if there are any new emails in their inbox."
+    },
+    {
+      "id": 3,
+      "name": "Get News Updates",
+      "definition": "User wants to receive the latest news updates."
+    },
+    {
+      "id": 4,
+      "name": "Get Weather Information",
+      "definition": "User wants to know the current or forecasted weather information."
+    },
+    {
+      "id": 5,
+      "name": "Get Recipe",
+      "definition": "User wants to obtain a recipe for a specific dish."
+    },
+    {
+      "id": 6,
+      "name": "Play Music",
+      "definition": "User wants to listen to music or a specific song."
+    },
+    {
+      "id": 7,
+      "name": "Create Reminder",
+      "definition": "User wants to create a reminder for a specific task or event."
+    },
+    {
+      "id": 8,
+      "name": "Search Information",
+      "definition": "User wants to search for specific information or details."
+    },
+    {
+      "id": 9,
+      "name": "Send Email",
+      "definition": "User wants to compose and send an email to a specific contact."
+    },
+    {
+      "id": 10,
+      "name": "Turn On/Off Lights",
+      "definition": "User wants to control the lighting in their home."
+    },
+    {
+      "id": 11,
+      "name": "Book Tickets",
+      "definition": "User wants to book tickets for travel or events."
+    },
+    {
+      "id": 12,
+      "name": "Get Traffic Updates",
+      "definition": "User wants to know the current traffic situation."
+    },
+    {
+      "id": 13,
+      "name": "Get Sports Updates",
+      "definition": "User wants to receive updates on sports events or scores."
+    },
+    {
+      "id": 14,
+      "name": "Social Media Interaction",
+      "definition": "User wants to post or interact on social media platforms."
+    },
+    {
+      "id": 15,
+      "name": "Get Location Information",
+      "definition": "User wants to know about specific locations or directions."
+    },
+    {
+      "id": 16,
+      "name": "Get Currency Exchange Rate",
+      "definition": "User wants to know the exchange rate between currencies."
+    },
+    {
+      "id": 17,
+      "name": "Get Event Information",
+      "definition": "User wants to know about upcoming events or activities."
+    },
+    {
+      "id": 18,
+      "name": "Get Recipe Ingredients",
+      "definition": "User wants to obtain a list of ingredients for a recipe."
+    },
+    {
+      "id": 19,
+      "name": "Control Home Appliances",
+      "definition": "User wants to control home appliances such as vacuum cleaner or Roomba."
+    },
+    {
+      "id": 20,
+      "name": "Get Traffic Directions",
+      "definition": "User wants to know directions or routes for travel."
+    }
+  ]
+}

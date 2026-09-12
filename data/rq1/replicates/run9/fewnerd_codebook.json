@@ -1,0 +1,177 @@
+{
+  "bench": "fewnerd",
+  "run": 9,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, real or fictional."
+    },
+    {
+      "id": 2,
+      "name": "Location - City/Town",
+      "definition": "A populated urban or rural settlement."
+    },
+    {
+      "id": 3,
+      "name": "Location - Country",
+      "definition": "A sovereign state or nation."
+    },
+    {
+      "id": 4,
+      "name": "Location - Region/Administrative Division",
+      "definition": "A geographical area larger than a city but smaller than a continent, or a political subdivision of a country (e.g., state, province, district)."
+    },
+    {
+      "id": 5,
+      "name": "Location - Geographical Feature",
+      "definition": "A natural or man-made physical feature of the earth's surface."
+    },
+    {
+      "id": 6,
+      "name": "Organization - Company/Business",
+      "definition": "A commercial enterprise or firm."
+    },
+    {
+      "id": 7,
+      "name": "Organization - Government Body/Agency",
+      "definition": "An official administrative unit of a government."
+    },
+    {
+      "id": 8,
+      "name": "Organization - Political Party",
+      "definition": "A group of people organized to acquire and exercise political power."
+    },
+    {
+      "id": 9,
+      "name": "Organization - Sports Team",
+      "definition": "A group of athletes competing together."
+    },
+    {
+      "id": 10,
+      "name": "Organization - Sports League",
+      "definition": "An association of sports clubs or teams that compete against each other."
+    },
+    {
+      "id": 11,
+      "name": "Organization - Educational Institution",
+      "definition": "A school, college, or university."
+    },
+    {
+      "id": 12,
+      "name": "Organization - Religious Body",
+      "definition": "A group or institution associated with a religion."
+    },
+    {
+      "id": 13,
+      "name": "Organization - Other Group",
+      "definition": "A non-commercial, non-governmental, or general group/association."
+    },
+    {
+      "id": 14,
+      "name": "Work - Literary/Academic Publication",
+      "definition": "A book, article, journal, or other written work."
+    },
+    {
+      "id": 15,
+      "name": "Work - Music/Film/TV",
+      "definition": "A song, album, film, or television series."
+    },
+    {
+      "id": 16,
+      "name": "Event - Sporting",
+      "definition": "A competition or series of competitions in sports."
+    },
+    {
+      "id": 17,
+      "name": "Event - Historical",
+      "definition": "A significant past occurrence, movement, or disaster."
+    },
+    {
+      "id": 18,
+      "name": "Scientific/Biological Entity",
+      "definition": "A specific biological organism, chemical compound, gene, protein, or medical condition."
+    },
+    {
+      "id": 19,
+      "name": "Award",
+      "definition": "A prize or honor given for achievement."
+    },
+    {
+      "id": 20,
+      "name": "Building/Structure/Venue",
+      "definition": "A physical construction used for a specific purpose."
+    },
+    {
+      "id": 21,
+      "name": "Vehicle/Model",
+      "definition": "A specific type or model of a vehicle, aircraft, or weapon system."
+    },
+    {
+      "id": 22,
+      "name": "Nationality/Demonym",
+      "definition": "A term referring to the people or origin of a country."
+    },
+    {
+      "id": 23,
+      "name": "Religious Group",
+      "definition": "A community of people adhering to a particular religious faith."
+    },
+    {
+      "id": 24,
+      "name": "Concept/Abstract Term",
+      "definition": "An idea, principle, system, or non-physical entity."
+    },
+    {
+      "id": 25,
+      "name": "Product/Brand",
+      "definition": "A manufactured item or a commercial name for a product."
+    },
+    {
+      "id": 26,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 27,
+      "name": "Celestial Body",
+      "definition": "A natural object in space."
+    },
+    {
+      "id": 28,
+      "name": "Address/Street",
+      "definition": "A specific location identifier or a public road."
+    },
+    {
+      "id": 29,
+      "name": "Language/Dialect",
+      "definition": "A particular form of a language."
+    },
+    {
+      "id": 30,
+      "name": "Ship",
+      "definition": "A large boat for transporting people or goods by sea."
+    },
+    {
+      "id": 31,
+      "name": "Fictional Entity",
+      "definition": "A character, location, or concept from a work of fiction."
+    },
+    {
+      "id": 32,
+      "name": "Software",
+      "definition": "Computer programs or applications."
+    },
+    {
+      "id": 33,
+      "name": "Historical Group/People",
+      "definition": "An ancient or historical community, tribe, or kingdom."
+    },
+    {
+      "id": 34,
+      "name": "Cultural Term/Concept",
+      "definition": "A specific term or idea related to cultural practices, beliefs, or expressions."
+    }
+  ]
+}

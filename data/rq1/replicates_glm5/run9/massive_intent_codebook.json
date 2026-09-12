@@ -1,0 +1,84 @@
+{
+  "bench": "massive_intent",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar_Management",
+      "definition": "Creating, deleting, or viewing events and appointments in a calendar."
+    },
+    {
+      "id": 2,
+      "name": "Device_Control",
+      "definition": "Controlling smart home devices, appliances, or system settings like lights, volume, and power."
+    },
+    {
+      "id": 3,
+      "name": "Email_Management",
+      "definition": "Sending, checking, or managing emails and email settings."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment_Finder",
+      "definition": "Finding movies, events, or media content recommendations."
+    },
+    {
+      "id": 5,
+      "name": "General_Knowledge",
+      "definition": "Asking for facts, definitions, explanations, or general information about the world."
+    },
+    {
+      "id": 6,
+      "name": "List_Management",
+      "definition": "Creating, adding to, deleting from, or viewing to-do and shopping lists."
+    },
+    {
+      "id": 7,
+      "name": "Media_Playback",
+      "definition": "Playing, controlling, or identifying music, podcasts, audiobooks, or radio."
+    },
+    {
+      "id": 8,
+      "name": "Navigation_Transport",
+      "definition": "Booking tickets, checking schedules, or getting directions for travel."
+    },
+    {
+      "id": 9,
+      "name": "News_Query",
+      "definition": "Requesting news headlines or updates on current events."
+    },
+    {
+      "id": 10,
+      "name": "Ordering_Food",
+      "definition": "Ordering food or checking restaurant delivery and takeaway options."
+    },
+    {
+      "id": 11,
+      "name": "Recipe_Search",
+      "definition": "Finding recipes or instructions for cooking food."
+    },
+    {
+      "id": 12,
+      "name": "Reminder",
+      "definition": "Setting, checking, or managing reminders and alarms."
+    },
+    {
+      "id": 13,
+      "name": "Social_Media",
+      "definition": "Posting to social media or checking social network updates."
+    },
+    {
+      "id": 14,
+      "name": "Time_Query",
+      "definition": "Asking for the current time or time zone conversions."
+    },
+    {
+      "id": 15,
+      "name": "Weather_Query",
+      "definition": "Asking for current or future weather conditions and forecasts."
+    }
+  ]
+}

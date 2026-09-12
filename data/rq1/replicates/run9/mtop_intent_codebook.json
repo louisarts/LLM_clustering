@@ -1,0 +1,67 @@
+{
+  "bench": "mtop_intent",
+  "run": 9,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm Management",
+      "definition": "Setting, changing, deleting, querying, or postponing alarms."
+    },
+    {
+      "id": 2,
+      "name": "Timer Management",
+      "definition": "Setting, changing, deleting, querying, or resetting timers."
+    },
+    {
+      "id": 3,
+      "name": "Reminder Management",
+      "definition": "Setting, changing, deleting, or querying reminders."
+    },
+    {
+      "id": 4,
+      "name": "Communication",
+      "definition": "Sending messages (text or video), making calls, answering calls, or managing participants in a call."
+    },
+    {
+      "id": 5,
+      "name": "Music Playback",
+      "definition": "Playing, identifying, repeating, or controlling music or audio, and setting music preferences."
+    },
+    {
+      "id": 6,
+      "name": "General Information Query",
+      "definition": "Asking for facts, definitions, how-to instructions, or general knowledge."
+    },
+    {
+      "id": 7,
+      "name": "People & Contact Information Query",
+      "definition": "Asking about people's online status, relationships, employment, or location."
+    },
+    {
+      "id": 8,
+      "name": "News Query",
+      "definition": "Asking for current or past news headlines, updates, or specific news topics."
+    },
+    {
+      "id": 9,
+      "name": "Weather Query",
+      "definition": "Asking for current weather conditions or forecasts."
+    },
+    {
+      "id": 10,
+      "name": "Events & Recommendations Query",
+      "definition": "Asking for information about local events, activities, or general recommendations."
+    },
+    {
+      "id": 11,
+      "name": "Status Management",
+      "definition": "Setting or changing the user's online status or availability."
+    },
+    {
+      "id": 12,
+      "name": "Stop Current Activity",
+      "definition": "Commanding the assistant to cease its current action or output."
+    }
+  ]
+}

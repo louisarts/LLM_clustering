@@ -1,0 +1,110 @@
+{
+  "bench": "reddit_s2s",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "News",
+      "definition": "Posts related to current events, news articles, and updates."
+    },
+    {
+      "id": 2,
+      "name": "Health",
+      "definition": "Discussions about health, medical conditions, treatments, and wellness."
+    },
+    {
+      "id": 3,
+      "name": "Books",
+      "definition": "Topics related to literature, book recommendations, and discussions."
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "Posts about gadgets, software, tech news, and innovations."
+    },
+    {
+      "id": 5,
+      "name": "Science",
+      "definition": "Discussions on scientific theories, discoveries, and research."
+    },
+    {
+      "id": 6,
+      "name": "Entertainment",
+      "definition": "Topics related to movies, TV shows, music, and pop culture."
+    },
+    {
+      "id": 7,
+      "name": "Travel",
+      "definition": "Posts about travel experiences, tips, and destination recommendations."
+    },
+    {
+      "id": 8,
+      "name": "Food",
+      "definition": "Discussions about recipes, cooking, and food recommendations."
+    },
+    {
+      "id": 9,
+      "name": "Art",
+      "definition": "Topics related to visual arts, artists, and art discussions."
+    },
+    {
+      "id": 10,
+      "name": "Personal Stories",
+      "definition": "Posts sharing personal experiences, anecdotes, and life stories."
+    },
+    {
+      "id": 11,
+      "name": "Advice",
+      "definition": "Requests for and sharing of advice on various topics."
+    },
+    {
+      "id": 12,
+      "name": "Hobbies",
+      "definition": "Discussions about various hobbies and leisure activities."
+    },
+    {
+      "id": 13,
+      "name": "Finance",
+      "definition": "Topics related to personal finance, investments, and economic discussions."
+    },
+    {
+      "id": 14,
+      "name": "Education",
+      "definition": "Discussions about academic topics, learning resources, and educational experiences."
+    },
+    {
+      "id": 15,
+      "name": "Relationships",
+      "definition": "Topics related to personal relationships, dating, and social interactions."
+    },
+    {
+      "id": 16,
+      "name": "Politics",
+      "definition": "Discussions about political events, opinions, and policies."
+    },
+    {
+      "id": 17,
+      "name": "Gaming",
+      "definition": "Topics related to video games, board games, and gaming culture."
+    },
+    {
+      "id": 18,
+      "name": "Fashion",
+      "definition": "Discussions about clothing, style, and fashion trends."
+    },
+    {
+      "id": 19,
+      "name": "Pets",
+      "definition": "Topics related to pet care, experiences, and animal discussions."
+    },
+    {
+      "id": 20,
+      "name": "Community",
+      "definition": "Posts related to community events, local news, and neighborhood discussions."
+    }
+  ]
+}

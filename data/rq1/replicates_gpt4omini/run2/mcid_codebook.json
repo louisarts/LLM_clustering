@@ -1,0 +1,70 @@
+{
+  "bench": "mcid",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Seeking",
+      "definition": "Requests for general information about COVID-19, including symptoms, transmission, and statistics."
+    },
+    {
+      "id": 2,
+      "name": "Travel Concerns",
+      "definition": "Inquiries about travel restrictions, safety, and guidelines related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Health and Safety Precautions",
+      "definition": "Questions regarding measures to protect oneself and others from COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "Treatment and Cures",
+      "definition": "Requests for information about treatments, cures, and medical advice related to COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Myth Busting",
+      "definition": "Inquiries or statements regarding myths and misinformation about COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Donations and Support",
+      "definition": "Requests for information on how to donate or support COVID-19 relief efforts."
+    },
+    {
+      "id": 7,
+      "name": "Symptoms and Diagnosis",
+      "definition": "Questions about symptoms of COVID-19 and how to determine if one is infected."
+    },
+    {
+      "id": 8,
+      "name": "Animal Concerns",
+      "definition": "Inquiries about the impact of COVID-19 on animals and potential transmission from animals to humans."
+    },
+    {
+      "id": 9,
+      "name": "Cleaning and Disinfection",
+      "definition": "Questions about how to properly clean and disinfect surfaces to prevent the spread of COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "Updates and News",
+      "definition": "Requests for the latest news, updates, and press releases regarding COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Community Impact",
+      "definition": "Inquiries about the effects of COVID-19 on local communities and populations."
+    },
+    {
+      "id": 12,
+      "name": "Public Health Guidelines",
+      "definition": "Requests for information on public health guidelines and recommendations during the pandemic."
+    }
+  ]
+}

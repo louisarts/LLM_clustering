@@ -1,0 +1,85 @@
+{
+  "bench": "massive_domain",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music",
+      "definition": "Requests related to playing, finding, or managing music and audio content."
+    },
+    {
+      "id": 2,
+      "name": "Weather",
+      "definition": "Inquiries and requests regarding current or forecasted weather conditions."
+    },
+    {
+      "id": 3,
+      "name": "Calendar Management",
+      "definition": "Tasks related to scheduling, reminders, and managing calendar events."
+    },
+    {
+      "id": 4,
+      "name": "Email Management",
+      "definition": "Requests for sending, checking, or managing emails."
+    },
+    {
+      "id": 5,
+      "name": "News and Information",
+      "definition": "Requests for current news, information, or updates on various topics."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Navigation",
+      "definition": "Inquiries related to travel arrangements, routes, and transportation."
+    },
+    {
+      "id": 7,
+      "name": "Food and Recipes",
+      "definition": "Requests for food orders, recipes, or cooking-related inquiries."
+    },
+    {
+      "id": 8,
+      "name": "Home Automation",
+      "definition": "Commands related to controlling smart home devices and settings."
+    },
+    {
+      "id": 9,
+      "name": "Finance and Stocks",
+      "definition": "Inquiries related to stock prices, financial information, and currency exchange."
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge",
+      "definition": "Requests for definitions, explanations, or general information."
+    },
+    {
+      "id": 11,
+      "name": "Social Media Management",
+      "definition": "Requests related to posting, checking, or managing social media content."
+    },
+    {
+      "id": 12,
+      "name": "Personal Assistance",
+      "definition": "General inquiries or requests for assistance in daily tasks."
+    },
+    {
+      "id": 13,
+      "name": "Entertainment",
+      "definition": "Requests related to movies, shows, podcasts, and other forms of entertainment."
+    },
+    {
+      "id": 14,
+      "name": "Health and Lifestyle",
+      "definition": "Inquiries related to health, fitness, and lifestyle choices."
+    },
+    {
+      "id": 15,
+      "name": "Shopping",
+      "definition": "Requests related to shopping lists, product searches, and purchases."
+    }
+  ]
+}

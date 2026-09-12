@@ -1,0 +1,110 @@
+{
+  "bench": "fewevent",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Marriage",
+      "definition": "Events related to marriage or being a spouse."
+    },
+    {
+      "id": 2,
+      "name": "Military Service",
+      "definition": "Events related to military service or roles."
+    },
+    {
+      "id": 3,
+      "name": "Education",
+      "definition": "Events related to studying, teaching, or academic roles."
+    },
+    {
+      "id": 4,
+      "name": "Music",
+      "definition": "Events related to music performance or roles in music."
+    },
+    {
+      "id": 5,
+      "name": "Film and Media",
+      "definition": "Events related to film production or roles in media."
+    },
+    {
+      "id": 6,
+      "name": "Sports Achievement",
+      "definition": "Events related to winning medals or competitions in sports."
+    },
+    {
+      "id": 7,
+      "name": "Protests and Demonstrations",
+      "definition": "Events related to protests or public demonstrations."
+    },
+    {
+      "id": 8,
+      "name": "Leadership and Command",
+      "definition": "Events related to holding a leadership or command position."
+    },
+    {
+      "id": 9,
+      "name": "Business and Work",
+      "definition": "Events related to business roles or work activities."
+    },
+    {
+      "id": 10,
+      "name": "Political Actions",
+      "definition": "Events related to political actions or roles."
+    },
+    {
+      "id": 11,
+      "name": "Travel and Movement",
+      "definition": "Events related to travel or movement from one place to another."
+    },
+    {
+      "id": 12,
+      "name": "Art and Literature",
+      "definition": "Events related to art creation or literary work."
+    },
+    {
+      "id": 13,
+      "name": "Awards and Honors",
+      "definition": "Events related to receiving awards or honors."
+    },
+    {
+      "id": 14,
+      "name": "Family and Relationships",
+      "definition": "Events related to family roles or relationships."
+    },
+    {
+      "id": 15,
+      "name": "Legal and Judicial",
+      "definition": "Events related to legal actions or judicial roles."
+    },
+    {
+      "id": 16,
+      "name": "Economic and Financial",
+      "definition": "Events related to economic activities or financial roles."
+    },
+    {
+      "id": 17,
+      "name": "Scientific and Academic Work",
+      "definition": "Events related to scientific research or academic work."
+    },
+    {
+      "id": 18,
+      "name": "Public Speaking and Communication",
+      "definition": "Events related to public speaking or communication roles."
+    },
+    {
+      "id": 19,
+      "name": "Construction and Development",
+      "definition": "Events related to construction or development projects."
+    },
+    {
+      "id": 20,
+      "name": "Social and Cultural Events",
+      "definition": "Events related to social or cultural activities."
+    }
+  ]
+}

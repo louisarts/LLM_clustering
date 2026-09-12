@@ -1,0 +1,134 @@
+{
+  "bench": "fewrel",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Location-Location",
+      "definition": "A spatial relation where one location is contained within, part of, or situated in another location."
+    },
+    {
+      "id": 2,
+      "name": "Location-Waterbody",
+      "definition": "A spatial relation where a water body flows into, is situated in, or borders another water body or location."
+    },
+    {
+      "id": 3,
+      "name": "Location-Mountain",
+      "definition": "A spatial relation where a mountain or landform is part of a larger mountain range or geographical region."
+    },
+    {
+      "id": 4,
+      "name": "Person-Location",
+      "definition": "A relation where a person is associated with a location through birth, residence, travel, or position."
+    },
+    {
+      "id": 5,
+      "name": "Person-Organization",
+      "definition": "A relation where a person is a member, employee, leader, or representative of an organization or group."
+    },
+    {
+      "id": 6,
+      "name": "Person-Role",
+      "definition": "A relation where a person holds a specific title, office, or professional role."
+    },
+    {
+      "id": 7,
+      "name": "Person-Person",
+      "definition": "A familial, professional, or social relation between two individuals."
+    },
+    {
+      "id": 8,
+      "name": "Creative Work-Creator",
+      "definition": "A relation where a creative work is authored, directed, composed, or created by a person or group."
+    },
+    {
+      "id": 9,
+      "name": "Creative Work-Publisher",
+      "definition": "A relation where a work is released, published, or distributed by a company or label."
+    },
+    {
+      "id": 10,
+      "name": "Creative Work-Genre",
+      "definition": "A relation where a work, group, or person belongs to a specific artistic style, genre, or category."
+    },
+    {
+      "id": 11,
+      "name": "Creative Work-Work",
+      "definition": "A relation between two creative works, such as being part of a series, a sequel, or a version."
+    },
+    {
+      "id": 12,
+      "name": "Organization-Organization",
+      "definition": "A relation where an organization is a subsidiary, part of, merged with, or acquired by another organization."
+    },
+    {
+      "id": 13,
+      "name": "Organization-Location",
+      "definition": "A relation where an organization is based in, operates in, or serves a specific location."
+    },
+    {
+      "id": 14,
+      "name": "Event-Location",
+      "definition": "A relation where an event takes place at or is hosted by a specific location or venue."
+    },
+    {
+      "id": 15,
+      "name": "Event-Participant",
+      "definition": "A relation where a person or entity participates in, competes in, or wins an event."
+    },
+    {
+      "id": 16,
+      "name": "Event-Organization",
+      "definition": "A relation where an event is organized by, affiliated with, or part of an organization's activities."
+    },
+    {
+      "id": 17,
+      "name": "Product-Developer",
+      "definition": "A relation where a product, software, or vehicle is developed, manufactured, or owned by a company."
+    },
+    {
+      "id": 18,
+      "name": "Product-Platform",
+      "definition": "A relation where a software product or game is designed to run on a specific operating system or platform."
+    },
+    {
+      "id": 19,
+      "name": "Award-Nominee",
+      "definition": "A relation where a person or work is nominated for or wins an award or honor."
+    },
+    {
+      "id": 20,
+      "name": "Concept-Concept",
+      "definition": "A relation between abstract concepts, such as one being a type of, part of, or equivalent to another."
+    },
+    {
+      "id": 21,
+      "name": "Entity-Nationality",
+      "definition": "A relation where a person, group, or entity is identified with a specific country, nationality, or ethnic group."
+    },
+    {
+      "id": 22,
+      "name": "Instrument-Musician",
+      "definition": "A relation where a person plays a specific musical instrument."
+    },
+    {
+      "id": 23,
+      "name": "Infrastructure-Location",
+      "definition": "A relation where a transportation route, facility, or structure is located in or connects geographic points."
+    },
+    {
+      "id": 24,
+      "name": "Administrative-Division",
+      "definition": "A relation where a geographic entity is a type of or belongs to a specific administrative or political division."
+    },
+    {
+      "id": 25,
+      "name": "Heritage-Registry",
+      "definition": "A relation where a site or object is listed on a historical or heritage registry."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "bench": "mcid",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information",
+      "definition": "Requests for general information or definitions about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Health Concerns",
+      "definition": "Inquiries about symptoms, health concerns, or personal health safety related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Transmission and Prevention",
+      "definition": "Questions about how COVID-19 spreads and how to prevent infection."
+    },
+    {
+      "id": 4,
+      "name": "Treatment and Cure",
+      "definition": "Requests for information on treatments, cures, or medical advice for COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Vaccines",
+      "definition": "Inquiries about the availability, development, or details of COVID-19 vaccines."
+    },
+    {
+      "id": 6,
+      "name": "Statistics and Updates",
+      "definition": "Requests for current statistics, updates, or news about COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Travel and Safety",
+      "definition": "Questions about travel safety, restrictions, or advisories related to COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Myths and Misconceptions",
+      "definition": "Inquiries about myths, misconceptions, or false information regarding COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Animal Transmission",
+      "definition": "Questions about COVID-19 transmission between animals and humans."
+    },
+    {
+      "id": 10,
+      "name": "Donations and Support",
+      "definition": "Requests for information on how to donate or support COVID-19 relief efforts."
+    },
+    {
+      "id": 11,
+      "name": "Sharing Information",
+      "definition": "Requests for assistance in sharing information or resources about COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "Gratitude and Acknowledgments",
+      "definition": "Expressions of gratitude or acknowledgment towards assistance or information provided."
+    }
+  ]
+}

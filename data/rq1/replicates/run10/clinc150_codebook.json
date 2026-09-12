@@ -1,0 +1,82 @@
+{
+  "bench": "clinc150",
+  "run": 10,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information Query",
+      "definition": "User asks for factual information, definitions, how-to instructions, or general knowledge not specific to their personal accounts or current context."
+    },
+    {
+      "id": 2,
+      "name": "Personal Information Query",
+      "definition": "User asks for information specific to their personal accounts, status, history, or current context."
+    },
+    {
+      "id": 3,
+      "name": "Assistant Identity Query",
+      "definition": "User asks questions about the assistant's nature, origin, or capabilities."
+    },
+    {
+      "id": 4,
+      "name": "Device/Assistant Setting Control",
+      "definition": "User requests changes to the assistant's behavior, voice, or device settings."
+    },
+    {
+      "id": 5,
+      "name": "Scheduling & Reminders",
+      "definition": "User requests to set, check, modify, or cancel appointments, reminders, or calendar events."
+    },
+    {
+      "id": 6,
+      "name": "Financial Account Management",
+      "definition": "User requests actions related to their financial accounts, cards, or insurance."
+    },
+    {
+      "id": 7,
+      "name": "Navigation & Location",
+      "definition": "User requests directions, location information, or to find places."
+    },
+    {
+      "id": 8,
+      "name": "Communication",
+      "definition": "User requests to send messages or make calls."
+    },
+    {
+      "id": 9,
+      "name": "Shopping & Purchasing",
+      "definition": "User requests to buy items or add them to a shopping list with the intent of purchase."
+    },
+    {
+      "id": 10,
+      "name": "Search & Discovery",
+      "definition": "User requests to find specific content, products, services, or information that requires searching a database or the web, without immediate purchase intent."
+    },
+    {
+      "id": 11,
+      "name": "Travel Planning",
+      "definition": "User requests to plan or inquire about specific travel arrangements, flights, or destinations for their trip."
+    },
+    {
+      "id": 12,
+      "name": "Calculations",
+      "definition": "User requests mathematical computations or unit conversions."
+    },
+    {
+      "id": 13,
+      "name": "Direct Action/Physical Control",
+      "definition": "User requests the assistant to perform a physical action or control an external device."
+    },
+    {
+      "id": 14,
+      "name": "Conversational/Confirmation",
+      "definition": "User engages in general conversation, provides feedback, or confirms information."
+    },
+    {
+      "id": 15,
+      "name": "User Identity/Naming",
+      "definition": "User asks what the assistant calls them or requests a specific name for themselves."
+    }
+  ]
+}

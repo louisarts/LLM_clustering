@@ -1,0 +1,85 @@
+{
+  "bench": "mtop_domain",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms and Timers",
+      "definition": "Requests related to setting, modifying, or canceling alarms and timers."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Requests to create, modify, or delete reminders for various tasks or events."
+    },
+    {
+      "id": 3,
+      "name": "Weather Information",
+      "definition": "Requests for current or forecasted weather conditions in specific locations."
+    },
+    {
+      "id": 4,
+      "name": "News and Headlines",
+      "definition": "Requests for current news updates or specific news topics."
+    },
+    {
+      "id": 5,
+      "name": "Recipes and Cooking",
+      "definition": "Requests for cooking instructions, recipes, or ingredient information."
+    },
+    {
+      "id": 6,
+      "name": "Calls and Messaging",
+      "definition": "Requests to make phone calls, send messages, or manage communication."
+    },
+    {
+      "id": 7,
+      "name": "Social and Events",
+      "definition": "Requests related to social interactions, event planning, or checking availability."
+    },
+    {
+      "id": 8,
+      "name": "Music and Media",
+      "definition": "Requests to play music, manage playlists, or access media content."
+    },
+    {
+      "id": 9,
+      "name": "Personal Information",
+      "definition": "Requests for information about personal contacts, family, or friends."
+    },
+    {
+      "id": 10,
+      "name": "Location and Travel",
+      "definition": "Requests for information related to travel, directions, or location-based queries."
+    },
+    {
+      "id": 11,
+      "name": "Health and Nutrition",
+      "definition": "Requests for nutritional information, health-related queries, or cooking times."
+    },
+    {
+      "id": 12,
+      "name": "Work and Appointments",
+      "definition": "Requests related to work tasks, appointments, or professional reminders."
+    },
+    {
+      "id": 13,
+      "name": "Timers",
+      "definition": "Requests to set, modify, or stop timers for various activities."
+    },
+    {
+      "id": 14,
+      "name": "Status Updates",
+      "definition": "Requests to change or check status in social or work contexts."
+    },
+    {
+      "id": 15,
+      "name": "Entertainment and Events",
+      "definition": "Requests for information about entertainment options, events, or activities."
+    }
+  ]
+}

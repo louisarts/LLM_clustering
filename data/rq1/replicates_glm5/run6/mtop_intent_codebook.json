@@ -1,0 +1,69 @@
+{
+  "bench": "mtop_intent",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Requests for current or forecasted weather conditions, temperature, or precipitation."
+    },
+    {
+      "id": 2,
+      "name": "Calling",
+      "definition": "Requests to initiate, manage, or end voice or video calls with specific contacts."
+    },
+    {
+      "id": 3,
+      "name": "Recipe_Food",
+      "definition": "Requests for recipes, cooking instructions, or information about food ingredients and nutrition."
+    },
+    {
+      "id": 4,
+      "name": "Reminder",
+      "definition": "Requests to create, view, modify, or delete reminders for tasks or events."
+    },
+    {
+      "id": 5,
+      "name": "News",
+      "definition": "Requests for current news headlines, stories, or updates on specific topics."
+    },
+    {
+      "id": 6,
+      "name": "Alarm",
+      "definition": "Requests to set, modify, or cancel alarms."
+    },
+    {
+      "id": 7,
+      "name": "Music",
+      "definition": "Requests to play, control, or seek information about music or audio content."
+    },
+    {
+      "id": 8,
+      "name": "Messaging",
+      "definition": "Requests to send text or video messages to contacts."
+    },
+    {
+      "id": 9,
+      "name": "Timer",
+      "definition": "Requests to start, stop, check, or modify a countdown timer."
+    },
+    {
+      "id": 10,
+      "name": "Events",
+      "definition": "Requests to find local events, activities, or things to do in a specific area."
+    },
+    {
+      "id": 11,
+      "name": "Contacts_Social",
+      "definition": "Queries about contacts, friends locations, relationships, or social availability."
+    },
+    {
+      "id": 12,
+      "name": "General_Info",
+      "definition": "General questions seeking factual information, definitions, or details not covered by other categories."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "bench": "mtop_domain",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Requests for current or future weather conditions, forecasts, or temperature information."
+    },
+    {
+      "id": 2,
+      "name": "Calling",
+      "definition": "Requests to initiate, manage, or modify voice or video calls with contacts."
+    },
+    {
+      "id": 3,
+      "name": "Reminders",
+      "definition": "Requests to create, view, modify, or delete reminders for tasks or appointments."
+    },
+    {
+      "id": 4,
+      "name": "Alarms",
+      "definition": "Requests to set, modify, or manage alarms for waking up or specific times."
+    },
+    {
+      "id": 5,
+      "name": "News",
+      "definition": "Requests for current news headlines, stories, or updates on specific topics."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Requests to play, control, or seek information about music or audio playlists."
+    },
+    {
+      "id": 7,
+      "name": "Messaging",
+      "definition": "Requests to send, record, or manage text, voice, or video messages to contacts."
+    },
+    {
+      "id": 8,
+      "name": "Timer",
+      "definition": "Requests to start, stop, check, or modify countdown timers."
+    },
+    {
+      "id": 9,
+      "name": "Recipes & Food",
+      "definition": "Requests for recipes, cooking instructions, or nutritional information about food."
+    },
+    {
+      "id": 10,
+      "name": "Events",
+      "definition": "Requests for information regarding local events, activities, or things to do."
+    },
+    {
+      "id": 11,
+      "name": "Social",
+      "definition": "Queries regarding the location, workplace, relationships, or availability of contacts."
+    },
+    {
+      "id": 12,
+      "name": "General Knowledge",
+      "definition": "Questions seeking factual information or general knowledge not covered by other categories."
+    }
+  ]
+}

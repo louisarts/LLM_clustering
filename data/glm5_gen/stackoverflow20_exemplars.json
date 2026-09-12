@@ -1,0 +1,373 @@
+{
+ "3": [
+  "How do I iterate through all files with a .txt extension in a directory using a for loop?",
+  "What is the difference between grep and egrep when searching for regular expressions?",
+  "How can I assign the output of a command to a variable in a shell script?",
+  "How do I use the `find` command to locate files modified in the last 24 hours?",
+  "What is the correct syntax to check if a file does not exist in an if statement?"
+ ],
+ "8": [
+  "How do I center a div horizontally and vertically using Flexbox?",
+  "What is the difference between `rem` and `em` units in CSS?",
+  "Why is my background image not showing up when I set the URL?",
+  "How can I select the second child element of a specific class?",
+  "Is it possible to animate a gradient transition using only CSS?"
+ ],
+ "5": [
+  "How do I resolve a hijacked file in my ClearCase snapshot view?",
+  "What is the command to recursively check out all files in a directory using cleartool?",
+  "Can I rename a VOB tag without stopping the ClearCase albd service?",
+  "Why does my ClearCase merge wizard fail with a \"not an ancestor\" error?",
+  "How do I configure a config spec to exclude all files with a .tmp extension?"
+ ],
+ "4": [
+  "How do I configure the services-config.xml file to enable AMF serialization in BlazeDS?",
+  "I am getting a \"Send failed\" error when my Flex client tries to push messages to the BlazeDS server.",
+  "What is the correct way to define a remoting destination for a Spring-managed bean in BlazeDS?",
+  "Can BlazeDS handle long-polling connections to support real-time data updates for web applications?",
+  "How do I enable detailed debugging logs to inspect the actual AMF packets being processed by BlazeDS?"
+ ],
+ "2": [
+  "How do I configure middleware in my ASP.NET Core startup class?",
+  "What is the difference between MVC and Web API in ASP.NET?",
+  "I am getting a 404 error when deploying my ASP.NET app to IIS.",
+  "How can I use Entity Framework to perform migrations in an ASP.NET project?",
+  "Why is my ASP.NET Core session state being lost after a redirect?"
+ ],
+ "7": [
+  "How can I configure my NSManagedObject subclass to ignore certain transient properties during a save operation?",
+  "What is the best way to handle data migration when adding a new attribute to an existing Core Data entity?",
+  "I am getting a \"CoreData: error: Failed to call designated initializer on NSManagedObject class\" error when fetching data.",
+  "Is it better to use an NSFetchedResultsController or a simple fetch request for populating a UITableView with Core Data objects?",
+  "How do I resolve merge conflicts when syncing Core Data with CloudKit across multiple devices?"
+ ],
+ "6": [
+  "How do I bind an NSArrayController to an NSTableView in Interface Builder?",
+  "What is the correct way to subclass NSView for custom drawing in Objective-C?",
+  "I am getting a \"selector not recognized\" error when trying to call a method on my delegate.",
+  "How can I use NSUserDefaults to persist user preferences across application launches?",
+  "What are the steps to enable sandboxing for a macOS app in Xcode?"
+ ],
+ "13": [
+  "How do I deploy a WAR file to GlassFish using the asadmin command line utility?",
+  "My GlassFish server fails to start with a port conflict error on 8080, how can I change the default port?",
+  "What is the correct way to configure a JDBC connection pool for MySQL in the GlassFish admin console?",
+  "Can I use GlassFish 5.0 to run applications built with Java EE 8 without any compatibility issues?",
+  "I am getting a \"Secure Socket not found\" error when trying to enable HTTPS on my GlassFish domain."
+ ],
+ "11": [
+  "How do I configure Nginx to pass PHP scripts to a PHP-FPM backend using FastCGI?",
+  "My FastCGI application keeps returning a 502 Bad Gateway error after a few minutes of inactivity.",
+  "What is the correct way to send custom HTTP headers from a C++ program using the FastCGI library?",
+  "Can I use mod_proxy_fcgi to connect Apache to a standalone FastCGI process instead of a socket?",
+  "How do I increase the timeout for FastCGI read operations to prevent premature connection termination?"
+ ],
+ "16": [
+  "How do I make a button submit a form?",
+  "What is the correct way to use the srcset attribute?",
+  "Why is my custom data attribute not showing up in the DOM?",
+  "Can I put a div element inside an anchor tag?",
+  "How do I create a dropdown list?"
+ ],
+ "14": [
+  "How do I parse a CSV file using the Parsec library in Haskell?",
+  "What is the difference between `foldl` and `foldr` in Haskell?",
+  "How can I fix the \"Non-exhaustive patterns in function\" error in GHC?",
+  "How do I install the QuickCheck package using Stack?",
+  "Why does my Haskell program throw a \"<> is not in scope\" error?"
+ ],
+ "12": [
+  "How do I undo the last commit but keep the changes in my working directory?",
+  "What is the difference between `git merge` and `git rebase`?",
+  "I accidentally committed a large file; how can I remove it from the history?",
+  "Why does `git push` fail with a rejected error message?",
+  "How can I see the commit history for a specific file?"
+ ],
+ "10": [
+  "How do I increase the memory allocation for the Eclipse JVM in the eclipse.ini file?",
+  "My Eclipse IDE is crashing with a PermGen space error whenever I deploy a large web application.",
+  "What are the steps to install the Subversive SVN connector in Eclipse Neon?",
+  "How can I reset the default Java perspective in Eclipse if I accidentally closed the package explorer?",
+  "How do I configure a target platform for a new Eclipse RCP product build?"
+ ],
+ "15": [
+  "How can I configure the hibernate.cfg.xml file to connect to a MySQL database?",
+  "What is the correct HQL syntax to perform a left outer join between two entities?",
+  "I am getting a LazyInitializationException when trying to access a child collection outside of a session.",
+  "How do I use the @GeneratedValue annotation to customize the primary key generation strategy?",
+  "What is the difference between the transient, persistent, and detached states in a Hibernate session?"
+ ],
+ "22": [
+  "How do I configure secure TLS connections for my OpenLDAP server on Ubuntu?",
+  "What is the correct LDAP filter syntax to search for users not in a specific group?",
+  "I am getting an \"invalid credentials\" error when binding to Active Directory using simple authentication.",
+  "Can someone explain the difference between the member and memberUid attributes in LDAP schemas?",
+  "How can I use ldapsearch to debug why my application cannot find a specific user entry?"
+ ],
+ "1": [
+  "How do I enable mod_rewrite and set up the required AllowOverride settings for clean URLs?",
+  "What is the correct syntax for a VirtualHost entry to serve multiple domains on a single IP address?",
+  "My server returns a 403 Forbidden error; how can I fix permissions in the httpd.conf file?",
+  "How do I configure .htaccess to permanently redirect all HTTP traffic to HTTPS?",
+  "What is the best way to use mod_proxy to forward requests to a Node.js application running on port 3000?"
+ ],
+ "9": [
+  "How do I override the default node template for a specific content type in Drupal 9?",
+  "What is the correct Drush command to clear the cache after installing a new module?",
+  "I need to create a custom field formatter for an image field, where should I start?",
+  "My site is throwing a white screen of death after increasing the PHP memory limit, any ideas?",
+  "Can someone explain the difference between Configuration Management and the Features module in Drupal 8?"
+ ],
+ "25": [
+  "How do I change the default PHP version in MAMP to 7.4?",
+  "My MAMP server won't start because Apache says port 80 is already in use.",
+  "Where can I find the php.ini configuration file in a MAMP installation?",
+  "I am getting a 403 Forbidden error when trying to access my MAMP localhost root.",
+  "How do I enable Xdebug for my PHP project in the MAMP interface?"
+ ],
+ "24": [
+  "How do I configure Lighttpd to use PHP-FPM instead of spawning PHP processes directly?",
+  "Is it possible to set up HTTP to HTTPS redirection using mod_redirect in Lighttpd?",
+  "I am getting a 403 Forbidden error when accessing my Lighttpd server, even though file permissions look correct.",
+  "What is the correct syntax to enable URL rewriting in Lighttpd for a WordPress installation?",
+  "Does Lighttpd support HTTP/2 out of the box, or do I need to compile it with specific flags?"
+ ],
+ "17": [
+  "How do I increase the memory allocated to the IntelliJ IDEA JVM via the custom VM options file?",
+  "Is there a keyboard shortcut to quickly find and replace text across the entire project in IntelliJ?",
+  "My Gradle project is not syncing correctly, how can I refresh the project structure in IntelliJ IDEA?",
+  "How do I configure the code style settings in IntelliJ to automatically add a newline at the end of every file?",
+  "Why is IntelliJ not recognizing my imported Maven dependencies and showing them in red?"
+ ],
+ "28": [
+  "How do I enable root user on macOS Monterey?",
+  "What is the correct way to implement NSPopover in a Swift Cocoa app?",
+  "My Macbook Pro keeps losing Wi-Fi connection after waking from sleep.",
+  "How can I programmatically check the macOS version in Objective-C?",
+  "Where is the default location for the Apache configuration file on OS X?"
+ ],
+ "26": [
+  "How do I create a subplot with different scales on the left and right y-axes?",
+  "I am getting an \"Index exceeds matrix dimensions\" error when trying to access the third column of my cell array.",
+  "What is the difference between using a script and a function file in MATLAB?",
+  "How can I simulate a PID controller for a DC motor using Simulink blocks?",
+  "Why does the `fzero` function fail to find a root for my transcendental equation?"
+ ],
+ "27": [
+  "How do I enable template path hints in Magento 2 to debug a layout issue?",
+  "I need to override the default product list block in my custom Magento module.",
+  "What is the correct way to add a CSS file to a specific CMS page via layout XML?",
+  "My Magento 2 site is throwing a 503 error during static content deployment.",
+  "How can I programmatically update a product's stock quantity using the Inventory Reservation CLI?"
+ ],
+ "29": [
+  "How can I write a VBA macro to loop through all worksheets in a workbook and unhide them?",
+  "What is the correct formula to perform a VLOOKUP that searches from right to left?",
+  "My pivot table is not updating with new rows added to my source data table, how do I fix this?",
+  "I need a conditional formatting rule to highlight duplicate values across two different columns.",
+  "Why does my SUMPRODUCT formula return a #VALUE! error when referencing a closed external workbook?"
+ ],
+ "20": [
+  "How do I use the `map()` function to iterate over an array of objects in ES6?",
+  "What is the difference between `let` and `const` when declaring variables?",
+  "I am getting a \"Cannot read property of undefined\" error; how do I debug this?",
+  "How can I make an asynchronous HTTP request using the Fetch API?",
+  "How do I export a function from one module and import it into another in Node.js?"
+ ],
+ "31": [
+  "How do I restore a .bak file to a new database instance?",
+  "What is the correct syntax to add a non-clustered index on multiple columns?",
+  "My stored procedure is running slowly; how can I view the execution plan?",
+  "How do I use the ROW_NUMBER() function to delete duplicate rows?",
+  "Can I use a CASE statement inside an ORDER BY clause for custom sorting?"
+ ],
+ "19": [
+  "How do I fix a ClassNotFoundException for JDBC drivers in my Maven project?",
+  "What is the default size of the HashMap bucket array in Java 8?",
+  "Why does my Stream pipeline throw a NullPointerException when using map?",
+  "How do I configure the JVM heap size to avoid OutOfMemoryError in production?",
+  "Is it possible to extend the String class in Java given it is marked final?"
+ ],
+ "23": [
+  "How do I use the 'select' clause to project a new anonymous type in a LINQ query?",
+  "What is the difference between using First() and FirstOrDefault() when a sequence returns no elements?",
+  "I am getting a NullReferenceException when trying to access a property in my LINQ Where clause.",
+  "Can someone explain how to perform a left outer join using the method syntax in LINQ?",
+  "Is there a way to convert this foreach loop into a single LINQ statement using the Aggregate method?"
+ ],
+ "34": [
+  "How do I fix the \"Cannot modify header information - headers already sent\" error in PHP?",
+  "What is the correct syntax to define a constructor in a PHP class that is compatible with namespaces?",
+  "I need to concatenate two strings in PHP but the dot operator is not working as expected.",
+  "How can I increase the maximum file upload size limit in my php.ini configuration file?",
+  "Why is my foreach loop returning an invalid argument error when passing a MySQLi result set?"
+ ],
+ "30": [
+  "How do I programmatically copy a worksheet to a new workbook using VBA without triggering the clipboard prompt?",
+  "I am trying to intercept the Send button in Outlook using an Application-level add-in developed in C# and VSTO.",
+  "What is the correct syntax for a SQL query to update a specific cell range in an Excel workbook via ADO?",
+  "My Word document-level customization is throwing a \"Cannot create the document\" exception on client machines.",
+  "Is it possible to embed a WPF user control inside a standard Windows Forms task pane for Excel 2016?"
+ ],
+ "33": [
+  "How do I write a PL/SQL loop to iterate over a cursor and update rows in a table?",
+  "What is the correct syntax to grant SELECT privileges on a specific table to a user?",
+  "I need to import a large .dmp file into my local database using the impdp command line tool.",
+  "Why does my SQL query return ORA-00904 invalid identifier when the column clearly exists?",
+  "How can I configure the listener.ora file to allow remote connections to my database instance?"
+ ],
+ "37": [
+  "How do I connect a QPushButton click signal to a custom slot in my main window class?",
+  "My QTableView is not displaying any data even though I called setModel() with a valid QSqlTableModel.",
+  "What is the correct way to configure the CMakeLists.txt file to link against Qt6 Widgets?",
+  "Is it possible to update the GUI from a background worker thread using QThread without freezing the interface?",
+  "I am getting a linker error saying 'undefined reference to vtable' after adding the Q_OBJECT macro to my class."
+ ],
+ "40": [
+  "How do I implement a generic implicit class in Scala 3?",
+  "What is the difference between a trait and an abstract class in Scala?",
+  "Why does my Spark job fail with a Task not serializable error in Scala?",
+  "How can I parse a JSON string into a case class using the Play framework?",
+  "What are the performance implications of using Option in Scala compared to null?"
+ ],
+ "35": [
+  "How do I configure streaming replication between a primary and standby server?",
+  "What is the correct syntax to alter an existing column type in a table?",
+  "Why is my query using a sequential scan instead of the index I just created?",
+  "How can I enable the pg_stat_statements extension for query performance monitoring?",
+  "What are the steps to upgrade a database cluster from version 14 to 15?"
+ ],
+ "18": [
+  "How do I configure a webhook to trigger a Jenkins build when an issue transitions to Done?",
+  "What is the correct JQL syntax to find all issues assigned to me that were updated in the last 24 hours?",
+  "Can I restrict a specific workflow transition so that only users in the 'Administrators' group can execute it?",
+  "Is there a way to bulk edit a thousand issues to change their priority without triggering email notifications?",
+  "Why does my Scrum board display the incorrect total of Story Points after I added a new estimation field?"
+ ],
+ "36": [
+  "How do I merge two dictionaries in a single expression?",
+  "What is the difference between a list and a tuple?",
+  "Why am I getting an IndentationError in my for loop?",
+  "How can I install a specific version of a package using pip?",
+  "What does `if __name__ == \"__main__\":` actually do?"
+ ],
+ "42": [
+  "How do I inject a dependency into a Spring bean using constructor injection?",
+  "What is the difference between @Controller and @RestController in Spring MVC?",
+  "How can I handle exceptions globally in my Spring Boot application?",
+  "I am getting a BeanCreationException when starting my application context, how do I fix it?",
+  "How do I configure a DataSource for a MySQL database in Spring Boot?"
+ ],
+ "46": [
+  "How do I change the default font size in the Visual Studio code editor?",
+  "My breakpoints are not being hit when I start debugging in Visual Studio 2019.",
+  "Is there a keyboard shortcut to format the entire document in Visual Studio?",
+  "Where can I find the option to switch to the dark theme in Visual Studio?",
+  "Visual Studio keeps freezing when I open large solution files, how can I fix this?"
+ ],
+ "44": [
+  "How do I revert a single file to a previous revision using the command line client?",
+  "TortoiseSVN is showing a red exclamation mark overlay on my folder, but I don't see any modified files.",
+  "I am trying to branch my code, but I keep getting a \"path not found\" error during the copy operation.",
+  "What is the correct way to resolve a tree conflict that occurred during an update?",
+  "My commit is blocked because the repository UUID does not match the working copy."
+ ],
+ "41": [
+  "How do I use CAML Query to filter a list by a date range?",
+  "My site collection administrator permissions are not inheriting correctly to subsites.",
+  "What is the best way to deploy a custom web part to a modern page?",
+  "I need to increase the maximum file upload size limit in Central Administration.",
+  "Why does my SharePoint Designer workflow keep failing with an access denied error?"
+ ],
+ "38": [
+  "How do I configure the Restlet component to automatically handle GZIP compression for outgoing responses?",
+  "I am getting a \"No available connector\" error when trying to attach my ServerResource to an HTTPS port.",
+  "What is the correct way to parse a JSON representation in a Restlet 2.x resource class?",
+  "Can someone explain the difference between a Filter and a Restlet in the framework's routing hierarchy?",
+  "How do I override the getStatus method to return a custom 404 error message in my server resource?"
+ ],
+ "39": [
+  "How do I configure the SAP PI/PO integration builder to handle SOAP faults?",
+  "What is the correct ABAP syntax for selecting data from a BSEG table in a custom report?",
+  "Can someone explain the steps to expose an RFC as a RESTful OData service in SAP Gateway?",
+  "I am getting a short dump in transaction ST22 when trying to execute a BAPI for sales order creation.",
+  "How can we migrate our existing SAP ERP customizations to SAP S/4HANA using the READINESS CHECK tool?"
+ ],
+ "45": [
+  "How do I use the CleanupStack to prevent memory leaks in my Symbian C++ application?",
+  "Is it possible to install the S60 5th Edition SDK on Windows 10 for legacy development?",
+  "My app crashes with KERN-EXEC 3 panic when I try to access a NULL pointer on startup.",
+  "What are the necessary capabilities in the .pkg file to access the device location API?",
+  "How can I convert a TBuf descriptor to a standard C-style char array for legacy library compatibility?"
+ ],
+ "43": [
+  "How do I configure the struts.xml file to enable developer mode for better debugging?",
+  "I am getting a \"There is no Action mapped for namespace\" error when deploying my WAR file.",
+  "What is the correct syntax for iterating over a List of objects using the Struts s:iterator tag?",
+  "Can someone explain the difference between a DispatcherResult and a RedirectResult in Struts?",
+  "How can I implement custom validation logic in my ActionSupport class instead of using XML validation?"
+ ],
+ "48": [
+  "How can I update a wxGrid cell from a background thread without causing a crash?",
+  "Is there a simple way to handle PNG transparency in a wxStaticBitmap control?",
+  "I need to intercept the close event for a wxFrame to ask the user to save changes.",
+  "What is the correct procedure to link the wxWidgets static libraries in Visual Studio?",
+  "Why does my wxButton look different on macOS compared to Windows?"
+ ],
+ "50": [
+  "How do I send a POST request to a PHP script without reloading the page?",
+  "My AJAX call returns a 404 error even though the API endpoint URL is correct in the browser.",
+  "What is the difference between using `fetch()` and `XMLHttpRequest` for handling JSON data?",
+  "How can I update a specific div element with the response text from an asynchronous call?",
+  "The console shows \"CORS policy blocked\" when I try to fetch data from an external API."
+ ],
+ "32": [
+  "How do I reset the root password if I've forgotten it on a Linux server?",
+  "What is the correct syntax to add a foreign key constraint to an existing table?",
+  "Why does my query return an empty set when I use a LEFT JOIN with these conditions?",
+  "I am getting error 1054 unknown column when trying to update a specific row.",
+  "How can I limit the number of rows returned by a SELECT statement to just the top 10?"
+ ],
+ "51": [
+  "How do I skin a Spark Button component using CSS in Apache Flex?",
+  "What is the correct way to call a REST API from an HTTPService object in Flex?",
+  "Can I use Apache Flex to build mobile applications for both Android and iOS?",
+  "How do I resolve the \"Flex compiler\" error regarding missing embedded fonts?",
+  "What are the steps to migrate a legacy Adobe Flex project to Apache Flex?"
+ ],
+ "52": [
+  "How do I increase the JVM heap memory for my Tomcat 9 service on Windows?",
+  "I am getting a \"SEVERE: Error listenerStart\" message in my catalina.out log file.",
+  "What is the correct server.xml configuration to enable HTTPS on port 8443?",
+  "Where should I place the MYSQL JDBC driver JAR file to fix a ClassNotFoundException?",
+  "My application works fine locally but throws a 404 error when deployed to the Tomcat webapps directory."
+ ],
+ "21": [
+  "How do I select all elements with a specific class using the jQuery $ function?",
+  "What is the difference between event.preventDefault() and return false in a jQuery click handler?",
+  "My AJAX request using $.get is returning a 404 error, how can I debug this?",
+  "How can I fade out a div element and then remove it from the DOM once the animation completes?",
+  "Is it possible to chain multiple CSS property changes in a single jQuery statement?"
+ ],
+ "47": [
+  "How do I create a custom child theme without modifying the parent core files?",
+  "What is the best plugin to improve site speed and caching for a blog?",
+  "My site shows a white screen of death after I updated to the latest version.",
+  "How can I change the permalink structure for my posts without breaking links?",
+  "I need to add a custom meta box to the post editor screen for extra data."
+ ],
+ "53": [
+  "How do I apply a CSS gradient filter in IE8 since it doesn't support standard background gradients?",
+  "My flexbox layout is completely broken in Internet Explorer 11, how can I add the necessary vendor prefixes?",
+  "What specific X-UA-Compatible meta tag should I use to force IE to render a legacy site in Edge mode?",
+  "Why does my website display in Quirks Mode in IE9 and how do I trigger Standards Mode?",
+  "Is there a workaround to support the HTML5 placeholder attribute in Internet Explorer 9?"
+ ],
+ "49": [
+  "How do I resolve the \"Failed to create provisioning profile\" error in Xcode 14?",
+  "My app crashes on launch with the message \"dyld: Library not loaded\" in Xcode.",
+  "Is there a keyboard shortcut to jump from the implementation file to the header file in Xcode?",
+  "The Xcode simulator is stuck on a black screen and won't load the main storyboard.",
+  "Where can I find the derived data folder to delete it and clean my project build?"
+ ]
+}

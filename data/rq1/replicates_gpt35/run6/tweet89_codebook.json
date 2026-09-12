@@ -1,0 +1,110 @@
+{
+  "bench": "tweet89",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl",
+      "definition": "Tweets related to the Super Bowl event, commercials, halftime show, etc."
+    },
+    {
+      "id": 2,
+      "name": "Protests in Yemen",
+      "definition": "Tweets related to protests and events in Yemen"
+    },
+    {
+      "id": 3,
+      "name": "Christina Aguilera National Anthem",
+      "definition": "Tweets related to Christina Aguilera's performance of the national anthem at the Super Bowl"
+    },
+    {
+      "id": 4,
+      "name": "Fishing",
+      "definition": "Tweets related to fishing, fishing tips, gear, etc."
+    },
+    {
+      "id": 5,
+      "name": "Academic Scholarships",
+      "definition": "Tweets related to scholarships for academic studies"
+    },
+    {
+      "id": 6,
+      "name": "Stock Market and Mergers",
+      "definition": "Tweets related to stock market trends, mergers, and corporate deals"
+    },
+    {
+      "id": 7,
+      "name": "Facebook Security",
+      "definition": "Tweets related to Facebook security features and issues"
+    },
+    {
+      "id": 8,
+      "name": "Egypt Protests",
+      "definition": "Tweets related to protests and events in Egypt"
+    },
+    {
+      "id": 9,
+      "name": "Healthcare Reform Law",
+      "definition": "Tweets related to the healthcare reform law and its implications"
+    },
+    {
+      "id": 10,
+      "name": "Taco Bell Lawsuit",
+      "definition": "Tweets related to the lawsuit against Taco Bell regarding its beef filling"
+    },
+    {
+      "id": 11,
+      "name": "Oscar Nominations",
+      "definition": "Tweets related to the Academy Award nominations and winners"
+    },
+    {
+      "id": 12,
+      "name": "Texting and Driving Awareness",
+      "definition": "Tweets promoting awareness about the dangers of texting and driving"
+    },
+    {
+      "id": 13,
+      "name": "Identity Theft Prevention",
+      "definition": "Tweets discussing identity theft prevention measures and risks"
+    },
+    {
+      "id": 14,
+      "name": "Australian Open Tennis",
+      "definition": "Tweets related to the Australian Open tennis tournament and matches"
+    },
+    {
+      "id": 15,
+      "name": "Black Swan Movie",
+      "definition": "Tweets related to the movie 'Black Swan' and its performances"
+    },
+    {
+      "id": 16,
+      "name": "Illegal Immigration",
+      "definition": "Tweets related to issues of illegal immigration and citizenship"
+    },
+    {
+      "id": 17,
+      "name": "Bullying Prevention",
+      "definition": "Tweets related to anti-bullying efforts and campaigns"
+    },
+    {
+      "id": 18,
+      "name": "Social Media in Politics",
+      "definition": "Tweets discussing the role of social media in political campaigns and activism"
+    },
+    {
+      "id": 19,
+      "name": "Environmental Issues",
+      "definition": "Tweets related to climate change, fracking, and environmental concerns"
+    },
+    {
+      "id": 20,
+      "name": "Film Festivals",
+      "definition": "Tweets related to film festivals like Sundance and movie premieres"
+    }
+  ]
+}

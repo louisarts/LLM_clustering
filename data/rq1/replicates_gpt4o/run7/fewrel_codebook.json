@@ -1,0 +1,135 @@
+{
+  "bench": "fewrel",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Location",
+      "definition": "The relation involves a geographical or physical location."
+    },
+    {
+      "id": 2,
+      "name": "Authorship/Creation",
+      "definition": "The relation involves the creation or authorship of a work."
+    },
+    {
+      "id": 3,
+      "name": "Membership/Affiliation",
+      "definition": "The relation involves membership or affiliation with an organization or group."
+    },
+    {
+      "id": 4,
+      "name": "Event Participation",
+      "definition": "The relation involves participation in an event."
+    },
+    {
+      "id": 5,
+      "name": "Production/Manufacture",
+      "definition": "The relation involves the production or manufacture of a product."
+    },
+    {
+      "id": 6,
+      "name": "Family/Personal Relationship",
+      "definition": "The relation involves a family or personal relationship."
+    },
+    {
+      "id": 7,
+      "name": "Adaptation/Derivation",
+      "definition": "The relation involves adaptation or derivation from an original work."
+    },
+    {
+      "id": 8,
+      "name": "Award/Nomination",
+      "definition": "The relation involves an award or nomination."
+    },
+    {
+      "id": 9,
+      "name": "Historical/Temporal",
+      "definition": "The relation involves a historical or temporal context."
+    },
+    {
+      "id": 10,
+      "name": "Ownership/Control",
+      "definition": "The relation involves ownership or control over an entity."
+    },
+    {
+      "id": 11,
+      "name": "Collaboration/Contribution",
+      "definition": "The relation involves collaboration or contribution to a project or work."
+    },
+    {
+      "id": 12,
+      "name": "Representation/Portrayal",
+      "definition": "The relation involves representation or portrayal in media or art."
+    },
+    {
+      "id": 13,
+      "name": "Naming/Designation",
+      "definition": "The relation involves naming or designation of an entity."
+    },
+    {
+      "id": 14,
+      "name": "Inspiration/Influence",
+      "definition": "The relation involves inspiration or influence on a work or person."
+    },
+    {
+      "id": 15,
+      "name": "Competition/Contest",
+      "definition": "The relation involves a competition or contest."
+    },
+    {
+      "id": 16,
+      "name": "Scientific/Academic",
+      "definition": "The relation involves a scientific or academic context."
+    },
+    {
+      "id": 17,
+      "name": "Broadcasting/Media",
+      "definition": "The relation involves broadcasting or media."
+    },
+    {
+      "id": 18,
+      "name": "Legal/Political",
+      "definition": "The relation involves a legal or political context."
+    },
+    {
+      "id": 19,
+      "name": "Religious/Spiritual",
+      "definition": "The relation involves a religious or spiritual context."
+    },
+    {
+      "id": 20,
+      "name": "Transportation/Infrastructure",
+      "definition": "The relation involves transportation or infrastructure."
+    },
+    {
+      "id": 21,
+      "name": "Cultural/Traditional",
+      "definition": "The relation involves cultural or traditional aspects."
+    },
+    {
+      "id": 22,
+      "name": "Economic/Financial",
+      "definition": "The relation involves economic or financial aspects."
+    },
+    {
+      "id": 23,
+      "name": "Military/Defense",
+      "definition": "The relation involves military or defense aspects."
+    },
+    {
+      "id": 24,
+      "name": "Technological/Innovation",
+      "definition": "The relation involves technology or innovation."
+    },
+    {
+      "id": 25,
+      "name": "Biological/Taxonomical",
+      "definition": "The relation involves biological or taxonomical classification."
+    }
+  ]
+}

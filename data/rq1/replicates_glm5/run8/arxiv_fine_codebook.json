@@ -1,0 +1,514 @@
+{
+  "bench": "arxiv_fine",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.CR",
+      "definition": "Cryptography, security, and privacy in computing systems."
+    },
+    {
+      "id": 2,
+      "name": "math.DG",
+      "definition": "Differential geometry and its applications."
+    },
+    {
+      "id": 3,
+      "name": "cond-mat.stat-mech",
+      "definition": "Statistical mechanics and percolation theory."
+    },
+    {
+      "id": 4,
+      "name": "stat.ME",
+      "definition": "Methodology for statistical inference and modeling."
+    },
+    {
+      "id": 5,
+      "name": "q-fin.MF",
+      "definition": "Mathematical finance and derivative pricing."
+    },
+    {
+      "id": 6,
+      "name": "math.NT",
+      "definition": "Number theory and modular forms."
+    },
+    {
+      "id": 7,
+      "name": "q-bio.GN",
+      "definition": "Genomics and microbiome analysis."
+    },
+    {
+      "id": 8,
+      "name": "cond-mat.quant-gas",
+      "definition": "Quantum gases and fermionic systems in condensed matter."
+    },
+    {
+      "id": 9,
+      "name": "physics.ins-det",
+      "definition": "Instrumentation and detectors for physics experiments."
+    },
+    {
+      "id": 10,
+      "name": "astro-ph.CO",
+      "definition": "Cosmology and cosmic microwave background analysis."
+    },
+    {
+      "id": 11,
+      "name": "eess.SY",
+      "definition": "Systems and control theory."
+    },
+    {
+      "id": 12,
+      "name": "math.CO",
+      "definition": "Combinatorics and graph theory."
+    },
+    {
+      "id": 13,
+      "name": "cond-mat.mtrl-sci",
+      "definition": "Materials science and properties of condensed matter."
+    },
+    {
+      "id": 14,
+      "name": "econ.GN",
+      "definition": "Economics and econometrics."
+    },
+    {
+      "id": 15,
+      "name": "cs.IR",
+      "definition": "Information retrieval and recommendation systems."
+    },
+    {
+      "id": 16,
+      "name": "quant-ph",
+      "definition": "Quantum physics and open quantum systems."
+    },
+    {
+      "id": 17,
+      "name": "math.PR",
+      "definition": "Probability theory and stochastic processes."
+    },
+    {
+      "id": 18,
+      "name": "math.SP",
+      "definition": "Spectral theory and operator analysis."
+    },
+    {
+      "id": 19,
+      "name": "physics.flu-dyn",
+      "definition": "Fluid dynamics and porous media flow."
+    },
+    {
+      "id": 20,
+      "name": "cs.CL",
+      "definition": "Computation and language, including natural language processing."
+    },
+    {
+      "id": 21,
+      "name": "cs.LO",
+      "definition": "Logic in computer science."
+    },
+    {
+      "id": 22,
+      "name": "math.NA",
+      "definition": "Numerical analysis and scientific computing."
+    },
+    {
+      "id": 23,
+      "name": "cs.LG",
+      "definition": "Machine learning and neural networks."
+    },
+    {
+      "id": 24,
+      "name": "cs.HC",
+      "definition": "Human-computer interaction and mixed reality."
+    },
+    {
+      "id": 25,
+      "name": "physics.acc-ph",
+      "definition": "Accelerator physics and beam dynamics."
+    },
+    {
+      "id": 26,
+      "name": "stat.ML",
+      "definition": "Machine learning from a statistical perspective."
+    },
+    {
+      "id": 27,
+      "name": "cs.NI",
+      "definition": "Networking and internet architecture."
+    },
+    {
+      "id": 28,
+      "name": "astro-ph.EP",
+      "definition": "Earth and planetary sciences."
+    },
+    {
+      "id": 29,
+      "name": "astro-ph.SR",
+      "definition": "Solar and stellar astrophysics."
+    },
+    {
+      "id": 30,
+      "name": "cs.CY",
+      "definition": "Computers and society, including social issues."
+    },
+    {
+      "id": 31,
+      "name": "q-bio.PE",
+      "definition": "Populations and evolution in biological systems."
+    },
+    {
+      "id": 32,
+      "name": "astro-ph.GA",
+      "definition": "Galactic astrophysics and the interstellar medium."
+    },
+    {
+      "id": 33,
+      "name": "cs.DC",
+      "definition": "Distributed and parallel computing."
+    },
+    {
+      "id": 34,
+      "name": "math.RT",
+      "definition": "Representation theory and algebraic structures."
+    },
+    {
+      "id": 35,
+      "name": "math.AT",
+      "definition": "Algebraic topology and homotopy theory."
+    },
+    {
+      "id": 36,
+      "name": "math.AG",
+      "definition": "Algebraic geometry and geometric algebra."
+    },
+    {
+      "id": 37,
+      "name": "q-bio.QM",
+      "definition": "Quantitative methods and modeling in biology."
+    },
+    {
+      "id": 38,
+      "name": "cs.CV",
+      "definition": "Computer vision and image processing."
+    },
+    {
+      "id": 39,
+      "name": "math.GR",
+      "definition": "Group theory and algebraic structures."
+    },
+    {
+      "id": 40,
+      "name": "cs.SE",
+      "definition": "Software engineering and programming languages."
+    },
+    {
+      "id": 41,
+      "name": "cs.RO",
+      "definition": "Robotics and autonomous systems."
+    },
+    {
+      "id": 42,
+      "name": "math.AP",
+      "definition": "Analysis of partial differential equations."
+    },
+    {
+      "id": 43,
+      "name": "physics.optics",
+      "definition": "Optics and photonics."
+    },
+    {
+      "id": 44,
+      "name": "cond-mat.supr-con",
+      "definition": "Superconductivity and superfluidity."
+    },
+    {
+      "id": 45,
+      "name": "math.GT",
+      "definition": "Geometric topology and knot theory."
+    },
+    {
+      "id": 46,
+      "name": "astro-ph.HE",
+      "definition": "High-energy astrophysical phenomena."
+    },
+    {
+      "id": 47,
+      "name": "hep-th",
+      "definition": "High energy physics theory and field theory."
+    },
+    {
+      "id": 48,
+      "name": "physics.comp-ph",
+      "definition": "Computational physics and simulation methods."
+    },
+    {
+      "id": 49,
+      "name": "physics.chem-ph",
+      "definition": "Chemical physics and molecular dynamics."
+    },
+    {
+      "id": 50,
+      "name": "physics.atom-ph",
+      "definition": "Atomic physics and molecular interactions."
+    },
+    {
+      "id": 51,
+      "name": "physics.plasm-ph",
+      "definition": "Plasma physics and magnetohydrodynamics."
+    },
+    {
+      "id": 52,
+      "name": "math.LO",
+      "definition": "Logic and set theory."
+    },
+    {
+      "id": 53,
+      "name": "cs.AI",
+      "definition": "Artificial intelligence and intelligent systems."
+    },
+    {
+      "id": 54,
+      "name": "cs.DB",
+      "definition": "Databases and data management."
+    },
+    {
+      "id": 55,
+      "name": "math.CV",
+      "definition": "Complex variables and analytic functions."
+    },
+    {
+      "id": 56,
+      "name": "math.RA",
+      "definition": "Rings and algebras."
+    },
+    {
+      "id": 57,
+      "name": "math.SG",
+      "definition": "Symplectic geometry."
+    },
+    {
+      "id": 58,
+      "name": "math.DS",
+      "definition": "Dynamical systems and ergodic theory."
+    },
+    {
+      "id": 59,
+      "name": "nlin.CD",
+      "definition": "Chaotic dynamics and nonlinear systems."
+    },
+    {
+      "id": 60,
+      "name": "cs.MM",
+      "definition": "Multimedia and audio processing."
+    },
+    {
+      "id": 61,
+      "name": "cs.SC",
+      "definition": "Symbolic computation and computational science."
+    },
+    {
+      "id": 62,
+      "name": "stat.TH",
+      "definition": "Statistics theory."
+    },
+    {
+      "id": 63,
+      "name": "q-fin.RM",
+      "definition": "Risk management in finance."
+    },
+    {
+      "id": 64,
+      "name": "q-fin.CP",
+      "definition": "Computational finance and portfolio management."
+    },
+    {
+      "id": 65,
+      "name": "q-fin.EC",
+      "definition": "Economics and financial market modeling."
+    },
+    {
+      "id": 66,
+      "name": "cs.GT",
+      "definition": "Computer science and game theory."
+    },
+    {
+      "id": 67,
+      "name": "cs.SI",
+      "definition": "Social and information networks."
+    },
+    {
+      "id": 68,
+      "name": "physics.med-ph",
+      "definition": "Medical physics and biomedical imaging."
+    },
+    {
+      "id": 69,
+      "name": "physics.bio-ph",
+      "definition": "Biological physics."
+    },
+    {
+      "id": 70,
+      "name": "physics.geo-ph",
+      "definition": "Geophysics."
+    },
+    {
+      "id": 71,
+      "name": "physics.space-ph",
+      "definition": "Space physics."
+    },
+    {
+      "id": 72,
+      "name": "physics.hist-ph",
+      "definition": "History and philosophy of physics."
+    },
+    {
+      "id": 73,
+      "name": "physics.pop-ph",
+      "definition": "Popular physics."
+    },
+    {
+      "id": 74,
+      "name": "physics.soc-ph",
+      "definition": "Social physics and econophysics."
+    },
+    {
+      "id": 75,
+      "name": "physics.class-ph",
+      "definition": "Classical physics."
+    },
+    {
+      "id": 76,
+      "name": "physics.ed-ph",
+      "definition": "Physics education."
+    },
+    {
+      "id": 77,
+      "name": "physics.gen-ph",
+      "definition": "General physics."
+    },
+    {
+      "id": 78,
+      "name": "cond-mat.dis-nn",
+      "definition": "Disordered systems and neural networks in condensed matter."
+    },
+    {
+      "id": 79,
+      "name": "cond-mat.mes-hall",
+      "definition": "Mesoscale and nanoscale physics."
+    },
+    {
+      "id": 80,
+      "name": "cond-mat.other",
+      "definition": "Other condensed matter topics."
+    },
+    {
+      "id": 81,
+      "name": "cond-mat.soft",
+      "definition": "Soft condensed matter."
+    },
+    {
+      "id": 82,
+      "name": "cond-mat.str-el",
+      "definition": "Strongly correlated electrons."
+    },
+    {
+      "id": 83,
+      "name": "gr-qc",
+      "definition": "General relativity and quantum cosmology."
+    },
+    {
+      "id": 84,
+      "name": "hep-ex",
+      "definition": "High energy physics experiments."
+    },
+    {
+      "id": 85,
+      "name": "hep-lat",
+      "definition": "Lattice field theory."
+    },
+    {
+      "id": 86,
+      "name": "hep-ph",
+      "definition": "High energy physics phenomenology."
+    },
+    {
+      "id": 87,
+      "name": "math-ph",
+      "definition": "Mathematical physics."
+    },
+    {
+      "id": 88,
+      "name": "nlin.AO",
+      "definition": "Adaptation and self-organizing systems."
+    },
+    {
+      "id": 89,
+      "name": "nlin.PS",
+      "definition": "Pattern formation and solitons."
+    },
+    {
+      "id": 90,
+      "name": "nlin.SI",
+      "definition": "Exactly solvable and integrable systems."
+    },
+    {
+      "id": 91,
+      "name": "nucl-ex",
+      "definition": "Nuclear experiment."
+    },
+    {
+      "id": 92,
+      "name": "nucl-th",
+      "definition": "Nuclear theory."
+    },
+    {
+      "id": 93,
+      "name": "q-bio.BM",
+      "definition": "Biomolecules and cellular biology."
+    },
+    {
+      "id": 94,
+      "name": "q-bio.CB",
+      "definition": "Cell behavior and regulation."
+    },
+    {
+      "id": 95,
+      "name": "q-bio.MN",
+      "definition": "Molecular networks and regulation."
+    },
+    {
+      "id": 96,
+      "name": "q-bio.NC",
+      "definition": "Neurons, cognition, and neural networks."
+    },
+    {
+      "id": 97,
+      "name": "q-bio.OT",
+      "definition": "Other quantitative biology topics."
+    },
+    {
+      "id": 98,
+      "name": "q-bio.SC",
+      "definition": "Subcellular processes."
+    },
+    {
+      "id": 99,
+      "name": "q-bio.TO",
+      "definition": "Tissues and organs."
+    },
+    {
+      "id": 100,
+      "name": "stat.AP",
+      "definition": "Applications of statistics."
+    },
+    {
+      "id": 101,
+      "name": "stat.CO",
+      "definition": "Computation for statistics."
+    }
+  ]
+}

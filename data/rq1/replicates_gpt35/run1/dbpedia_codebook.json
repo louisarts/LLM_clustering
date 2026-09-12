@@ -1,0 +1,60 @@
+{
+  "bench": "dbpedia",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "fresh",
+  "clip_chars": 150,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being"
+    },
+    {
+      "id": 2,
+      "name": "Place",
+      "definition": "A specific point, area, or region on Earth"
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "A group of people working together towards a common goal"
+    },
+    {
+      "id": 4,
+      "name": "Animal",
+      "definition": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system"
+    },
+    {
+      "id": 5,
+      "name": "Plant",
+      "definition": "A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses"
+    },
+    {
+      "id": 6,
+      "name": "Event",
+      "definition": "A thing that happens, especially one of importance"
+    },
+    {
+      "id": 7,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers"
+    },
+    {
+      "id": 8,
+      "name": "Film",
+      "definition": "A motion picture"
+    },
+    {
+      "id": 9,
+      "name": "Album",
+      "definition": "A collection of audio recordings issued as a single item on CD, record, or another medium"
+    },
+    {
+      "id": 10,
+      "name": "School",
+      "definition": "An institution for educating children or students"
+    }
+  ]
+}

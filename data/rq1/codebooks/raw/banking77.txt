@@ -1,0 +1,126 @@
+```json
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Order & Delivery",
+      "definition": "Inquiries about ordering a new card, its delivery status, or expedited shipping."
+    },
+    {
+      "id": 2,
+      "name": "Card Activation & Linking",
+      "definition": "Questions or issues related to activating a new card or linking it to an account or app."
+    },
+    {
+      "id": 3,
+      "name": "Card Usage & Features",
+      "definition": "Questions about how to use a card, its features, accepted locations, or virtual/disposable card options."
+    },
+    {
+      "id": 4,
+      "name": "Card Declined & Malfunction",
+      "definition": "Issues where a card is not working, declined for payments, or malfunctioning."
+    },
+    {
+      "id": 5,
+      "name": "Lost, Stolen, or Compromised Card",
+      "definition": "Reporting a lost, stolen, or compromised card and seeking assistance."
+    },
+    {
+      "id": 6,
+      "name": "ATM Issues",
+      "definition": "Problems encountered at an ATM, such as card retention, incorrect cash dispensing, or withdrawal failures."
+    },
+    {
+      "id": 7,
+      "name": "PIN Management",
+      "definition": "Requests to change, reset, unblock, or inquire about a card PIN."
+    },
+    {
+      "id": 8,
+      "name": "Card Replacement & Expiration",
+      "definition": "Inquiries about card expiration, renewal, or ordering a replacement card."
+    },
+    {
+      "id": 9,
+      "name": "Account Closure",
+      "definition": "Requests to close or delete an account."
+    },
+    {
+      "id": 10,
+      "name": "Identity Verification",
+      "definition": "Questions or issues related to verifying identity for account access or features."
+    },
+    {
+      "id": 11,
+      "name": "Personal Details Update",
+      "definition": "Requests to update personal information associated with an account."
+    },
+    {
+      "id": 12,
+      "name": "Login & App Access Issues",
+      "definition": "Problems logging into the app or accessing account features."
+    },
+    {
+      "id": 13,
+      "name": "General Account Information",
+      "definition": "General questions about the bank's services, locations, eligibility, or general fees."
+    },
+    {
+      "id": 14,
+      "name": "Money Transfer Issues",
+      "definition": "Problems with sending money, such as failed, pending, or delayed transfers."
+    },
+    {
+      "id": 15,
+      "name": "Money Transfer Fees & Limits",
+      "definition": "Questions about fees, limits, or charges related to sending or receiving money."
+    },
+    {
+      "id": 16,
+      "name": "Transaction Disputes & Unrecognized Charges",
+      "definition": "Reporting unauthorized, unrecognized, or incorrect transactions and charges."
+    },
+    {
+      "id": 17,
+      "name": "Transaction Reversal & Cancellation",
+      "definition": "Requests to reverse or cancel a recent transaction."
+    },
+    {
+      "id": 18,
+      "name": "Source of Funds Inquiry",
+      "definition": "Questions about the origin or verification of funds in an account."
+    },
+    {
+      "id": 19,
+      "name": "Top-Up Issues",
+      "definition": "Problems with adding money to an account, such as failed, reverted, or pending top-ups, or questions about top-up limits and verification."
+    },
+    {
+      "id": 20,
+      "name": "How to Top-Up/Add Money",
+      "definition": "Questions about methods, currencies, or auto-top-up features for adding money to an account."
+    },
+    {
+      "id": 21,
+      "name": "Top-Up Fees",
+      "definition": "Questions about fees or charges associated with topping up an account."
+    },
+    {
+      "id": 22,
+      "name": "Currency Exchange Rates & Fees",
+      "definition": "Inquiries about currency exchange rates, fees, or conversion issues."
+    },
+    {
+      "id": 23,
+      "name": "Currency Options",
+      "definition": "Questions about available currencies or multi-currency account options."
+    },
+    {
+      "id": 24,
+      "name": "Refund Status & Process",
+      "definition": "Inquiries about the status or process of a refund for a purchase."
+    }
+  ]
+}
+```

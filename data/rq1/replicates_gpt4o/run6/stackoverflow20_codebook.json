@@ -1,0 +1,510 @@
+{
+  "bench": "stackoverflow20",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "QSettings",
+      "definition": "Questions about using QSettings for configuration management."
+    },
+    {
+      "id": 2,
+      "name": "Google App Engine (GAE)",
+      "definition": "Questions about using Google App Engine, especially with JDO and Scala."
+    },
+    {
+      "id": 3,
+      "name": "Dynamic Libraries on Mac",
+      "definition": "Questions about linking to dynamic libraries on macOS."
+    },
+    {
+      "id": 4,
+      "name": "Subversion (SVN)",
+      "definition": "Questions about using Subversion for version control."
+    },
+    {
+      "id": 5,
+      "name": "LINQ",
+      "definition": "Questions about using LINQ for querying and data manipulation."
+    },
+    {
+      "id": 6,
+      "name": "Haskell",
+      "definition": "Questions about programming in Haskell."
+    },
+    {
+      "id": 7,
+      "name": "ASP.NET",
+      "definition": "Questions about developing web applications using ASP.NET."
+    },
+    {
+      "id": 8,
+      "name": "VBA & Excel",
+      "definition": "Questions about using VBA for automation in Excel."
+    },
+    {
+      "id": 9,
+      "name": "Spring Framework",
+      "definition": "Questions about using the Spring Framework for Java applications."
+    },
+    {
+      "id": 10,
+      "name": "Hibernate",
+      "definition": "Questions about using Hibernate for object-relational mapping."
+    },
+    {
+      "id": 11,
+      "name": "UNIX/OSX System Programming",
+      "definition": "Questions about system programming on UNIX or macOS."
+    },
+    {
+      "id": 12,
+      "name": "Apache HTTP Server",
+      "definition": "Questions about configuring and troubleshooting Apache HTTP Server."
+    },
+    {
+      "id": 13,
+      "name": "C++ Standard Library",
+      "definition": "Questions about using the C++ Standard Library."
+    },
+    {
+      "id": 14,
+      "name": "Magento",
+      "definition": "Questions about developing and managing e-commerce sites with Magento."
+    },
+    {
+      "id": 15,
+      "name": "Bash",
+      "definition": "Questions about scripting and command-line operations using Bash."
+    },
+    {
+      "id": 16,
+      "name": "Oracle Database",
+      "definition": "Questions about using Oracle Database for data management."
+    },
+    {
+      "id": 17,
+      "name": "Scala",
+      "definition": "Questions about programming in Scala."
+    },
+    {
+      "id": 18,
+      "name": "Qt",
+      "definition": "Questions about developing applications using the Qt framework."
+    },
+    {
+      "id": 19,
+      "name": "Core Data",
+      "definition": "Questions about using Core Data for data persistence in macOS/iOS applications."
+    },
+    {
+      "id": 20,
+      "name": "CAML",
+      "definition": "Questions about using CAML for querying in SharePoint."
+    },
+    {
+      "id": 21,
+      "name": "Pro*C",
+      "definition": "Questions about using Pro*C for embedded SQL in C programs."
+    },
+    {
+      "id": 22,
+      "name": "YouTube API",
+      "definition": "Questions about using the YouTube API for video management."
+    },
+    {
+      "id": 23,
+      "name": "Drupal",
+      "definition": "Questions about developing and managing websites using Drupal."
+    },
+    {
+      "id": 24,
+      "name": "wxHaskell",
+      "definition": "Questions about using wxHaskell for GUI development."
+    },
+    {
+      "id": 25,
+      "name": "Gtk2HS",
+      "definition": "Questions about using Gtk2HS for GUI development in Haskell."
+    },
+    {
+      "id": 26,
+      "name": "WordPress",
+      "definition": "Questions about developing and managing websites using WordPress."
+    },
+    {
+      "id": 27,
+      "name": "NSNotification",
+      "definition": "Questions about using NSNotification in Cocoa applications."
+    },
+    {
+      "id": 28,
+      "name": "SharePoint",
+      "definition": "Questions about developing and managing solutions using SharePoint."
+    },
+    {
+      "id": 29,
+      "name": "Objective-C",
+      "definition": "Questions about programming in Objective-C."
+    },
+    {
+      "id": 30,
+      "name": "AJAX",
+      "definition": "Questions about using AJAX for asynchronous web applications."
+    },
+    {
+      "id": 31,
+      "name": "MATLAB",
+      "definition": "Questions about programming and data analysis using MATLAB."
+    },
+    {
+      "id": 32,
+      "name": "Excel",
+      "definition": "Questions about using Microsoft Excel for data analysis and automation."
+    },
+    {
+      "id": 33,
+      "name": "Visual Studio",
+      "definition": "Questions about using Microsoft Visual Studio for software development."
+    },
+    {
+      "id": 34,
+      "name": "PHP",
+      "definition": "Questions about programming in PHP."
+    },
+    {
+      "id": 35,
+      "name": "JPA",
+      "definition": "Questions about using Java Persistence API for data management."
+    },
+    {
+      "id": 36,
+      "name": "JSON",
+      "definition": "Questions about using JSON for data interchange."
+    },
+    {
+      "id": 37,
+      "name": "FastCGI",
+      "definition": "Questions about using FastCGI for web server performance."
+    },
+    {
+      "id": 38,
+      "name": "IntelliJ IDEA",
+      "definition": "Questions about using IntelliJ IDEA for software development."
+    },
+    {
+      "id": 39,
+      "name": "Lighttpd",
+      "definition": "Questions about configuring and using Lighttpd web server."
+    },
+    {
+      "id": 40,
+      "name": "Struts",
+      "definition": "Questions about using Apache Struts for web application development."
+    },
+    {
+      "id": 41,
+      "name": "jBPM",
+      "definition": "Questions about using jBPM for business process management."
+    },
+    {
+      "id": 42,
+      "name": "C#",
+      "definition": "Questions about programming in C#."
+    },
+    {
+      "id": 43,
+      "name": "Markdown",
+      "definition": "Questions about using Markdown for text formatting."
+    },
+    {
+      "id": 44,
+      "name": "XML",
+      "definition": "Questions about using XML for data representation and interchange."
+    },
+    {
+      "id": 45,
+      "name": "JavaScript",
+      "definition": "Questions about programming in JavaScript."
+    },
+    {
+      "id": 46,
+      "name": "Django",
+      "definition": "Questions about developing web applications using Django."
+    },
+    {
+      "id": 47,
+      "name": "nginx",
+      "definition": "Questions about configuring and using nginx web server."
+    },
+    {
+      "id": 48,
+      "name": "haproxy",
+      "definition": "Questions about using haproxy for load balancing."
+    },
+    {
+      "id": 49,
+      "name": "mcrypt",
+      "definition": "Questions about using mcrypt for encryption in PHP."
+    },
+    {
+      "id": 50,
+      "name": "ImageMagick",
+      "definition": "Questions about using ImageMagick for image processing."
+    },
+    {
+      "id": 51,
+      "name": "WebDAV",
+      "definition": "Questions about using WebDAV for web-based distributed authoring."
+    },
+    {
+      "id": 52,
+      "name": "mod_python",
+      "definition": "Questions about using mod_python for integrating Python with Apache."
+    },
+    {
+      "id": 53,
+      "name": "IntelliJ Scala Plugin",
+      "definition": "Questions about using the Scala plugin in IntelliJ IDEA."
+    },
+    {
+      "id": 54,
+      "name": "JDO",
+      "definition": "Questions about using Java Data Objects for data persistence."
+    },
+    {
+      "id": 55,
+      "name": "Castor JDO",
+      "definition": "Questions about using Castor JDO for data persistence."
+    },
+    {
+      "id": 56,
+      "name": "JPOX",
+      "definition": "Questions about using JPOX for Java persistence."
+    },
+    {
+      "id": 57,
+      "name": "Zen Subtheme",
+      "definition": "Questions about using Zen Subtheme in Drupal."
+    },
+    {
+      "id": 58,
+      "name": "PyString",
+      "definition": "Questions about using PyString in Python development."
+    },
+    {
+      "id": 59,
+      "name": "OCI",
+      "definition": "Questions about using Oracle Call Interface for database connectivity."
+    },
+    {
+      "id": 60,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 61,
+      "name": "haproxy",
+      "definition": "Questions about using haproxy for load balancing."
+    },
+    {
+      "id": 62,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 63,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 64,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 65,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 66,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 67,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 68,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 69,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 70,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 71,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 72,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 73,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 74,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 75,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 76,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 77,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 78,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 79,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 80,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 81,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 82,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 83,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 84,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 85,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 86,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 87,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 88,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 89,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 90,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 91,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 92,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 93,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 94,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 95,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 96,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 97,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 98,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 99,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    },
+    {
+      "id": 100,
+      "name": "mod_proxy_balancer",
+      "definition": "Questions about using mod_proxy_balancer for load balancing in Apache."
+    }
+  ]
+}

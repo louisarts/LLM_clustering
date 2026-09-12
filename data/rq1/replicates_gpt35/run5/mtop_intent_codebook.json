@@ -1,0 +1,80 @@
+{
+  "bench": "mtop_intent",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Contact Inquiry",
+      "definition": "User wants to know about contacts or relationships"
+    },
+    {
+      "id": 2,
+      "name": "Alarm Setting",
+      "definition": "User wants to set or manage alarms"
+    },
+    {
+      "id": 3,
+      "name": "Music Playback",
+      "definition": "User wants to play or listen to music"
+    },
+    {
+      "id": 4,
+      "name": "Reminder Creation",
+      "definition": "User wants to create or manage reminders"
+    },
+    {
+      "id": 5,
+      "name": "Weather Inquiry",
+      "definition": "User wants to know about the weather"
+    },
+    {
+      "id": 6,
+      "name": "Call Initiation",
+      "definition": "User wants to make a phone call"
+    },
+    {
+      "id": 7,
+      "name": "Recipe Search",
+      "definition": "User wants to find a recipe"
+    },
+    {
+      "id": 8,
+      "name": "News Inquiry",
+      "definition": "User wants to know about news or current events"
+    },
+    {
+      "id": 9,
+      "name": "Timer Setting",
+      "definition": "User wants to set or manage timers"
+    },
+    {
+      "id": 10,
+      "name": "Message Sending",
+      "definition": "User wants to send a message"
+    },
+    {
+      "id": 11,
+      "name": "Event Inquiry",
+      "definition": "User wants to know about events or activities"
+    },
+    {
+      "id": 12,
+      "name": "Call Management",
+      "definition": "User wants to manage phone calls"
+    },
+    {
+      "id": 13,
+      "name": "Music Recommendation",
+      "definition": "User wants music recommendations"
+    },
+    {
+      "id": 14,
+      "name": "Location Inquiry",
+      "definition": "User wants to know about locations or places"
+    }
+  ]
+}

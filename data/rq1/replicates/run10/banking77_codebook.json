@@ -1,0 +1,62 @@
+{
+  "bench": "banking77",
+  "run": 10,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Ordering & Activation",
+      "definition": "Inquiries about ordering new cards, replacing existing ones, card delivery status, or activating a card."
+    },
+    {
+      "id": 2,
+      "name": "Card Transaction Issues",
+      "definition": "Queries about cards not working for payments, withdrawals, contactless, or issues with PINs or ATMs."
+    },
+    {
+      "id": 3,
+      "name": "Unauthorized Transactions",
+      "definition": "Reporting or inquiring about suspicious, unrecognized, or fraudulent transactions on an account or card."
+    },
+    {
+      "id": 4,
+      "name": "Refunds & Payment Reversals",
+      "definition": "Inquiries about the status of a refund, why a payment was reversed, or how to initiate a refund."
+    },
+    {
+      "id": 5,
+      "name": "Outgoing Transfers & Payments",
+      "definition": "Questions about sending money, transfer fees, transfer status, or issues with outgoing payments."
+    },
+    {
+      "id": 6,
+      "name": "Account Funding & Deposits",
+      "definition": "Inquiries about adding money to an account via top-ups, deposits, or receiving funds, including related fees, limits, or status."
+    },
+    {
+      "id": 7,
+      "name": "Currency Exchange",
+      "definition": "Questions about converting currencies, exchange rates, or fees for currency exchange services."
+    },
+    {
+      "id": 8,
+      "name": "Account & Identity Management",
+      "definition": "Inquiries about account access, identity verification, security settings, updating personal details, or account closure."
+    },
+    {
+      "id": 9,
+      "name": "General Fees & Charges",
+      "definition": "Questions about general account fees, unexpected charges, or understanding the overall fee structure."
+    },
+    {
+      "id": 10,
+      "name": "Transaction Amount Discrepancies",
+      "definition": "Reporting issues where the amount of money received or recorded for a transaction is incorrect or less than expected."
+    },
+    {
+      "id": 11,
+      "name": "Pending Transactions",
+      "definition": "Inquiries about why a transaction is showing as pending or how long it will take to clear."
+    }
+  ]
+}

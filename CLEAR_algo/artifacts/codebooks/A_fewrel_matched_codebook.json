@@ -1,0 +1,322 @@
+[
+ {
+  "id": 1,
+  "name": "National Register of Historic Places Listing",
+  "definition": "The entities are listed on the National Register of Historic Places."
+ },
+ {
+  "id": 2,
+  "name": "Eurovision Song Contest Representation",
+  "definition": "The entities are representatives at the Eurovision Song Contest."
+ },
+ {
+  "id": 3,
+  "name": "Jazz Quintet Members",
+  "definition": "The entities are members of a jazz quintet."
+ },
+ {
+  "id": 4,
+  "name": "Naming of Geographical Features",
+  "definition": "One entity names a geographical feature after the other entity."
+ },
+ {
+  "id": 5,
+  "name": "Logistics Company Nationality",
+  "definition": "The entity is a logistics company from Germany."
+ },
+ {
+  "id": 6,
+  "name": "Location of Ashram Visit",
+  "definition": "The entity visits an ashram located by the banks of the Ganges."
+ },
+ {
+  "id": 7,
+  "name": "Military Unit Naming",
+  "definition": "A military unit is named after one of the entities."
+ },
+ {
+  "id": 8,
+  "name": "Newspaper Ownership Change",
+  "definition": "The entity is sold by Guardian Media Group."
+ },
+ {
+  "id": 9,
+  "name": "Geographical Territory Extension",
+  "definition": "The geographical territory extends along a specific area."
+ },
+ {
+  "id": 10,
+  "name": "Radio Station Licensing Location",
+  "definition": "The radio station is licensed to a specific location."
+ },
+ {
+  "id": 11,
+  "name": "Royal Marriage",
+  "definition": "The entity marries a member of the French royal family."
+ },
+ {
+  "id": 12,
+  "name": "Navy Alternative Fuels Pursuit",
+  "definition": "The US Navy pursues alternative fuels."
+ },
+ {
+  "id": 13,
+  "name": "Video Game Backward Compatibility",
+  "definition": "The Xbox 360 is backward compatible with the video game."
+ },
+ {
+  "id": 14,
+  "name": "Song Release by Record Label",
+  "definition": "The song is released as a single by Elektra Records."
+ },
+ {
+  "id": 15,
+  "name": "Film Director and Film Relationship",
+  "definition": "The film is directed by Todd Haynes."
+ },
+ {
+  "id": 16,
+  "name": "Footballer Nationality",
+  "definition": "The entity is a retired Norwegian footballer."
+ },
+ {
+  "id": 17,
+  "name": "Military Career",
+  "definition": "The relation between an individual and their military career."
+ },
+ {
+  "id": 18,
+  "name": "Record Label Signing",
+  "definition": "The relation between a record label and the signing of a musical group."
+ },
+ {
+  "id": 19,
+  "name": "TV Series Cancellation",
+  "definition": "The relation between a TV series and its cancellation."
+ },
+ {
+  "id": 20,
+  "name": "Presidential Election",
+  "definition": "The relation between candidates in a presidential election."
+ },
+ {
+  "id": 21,
+  "name": "Legislative Assembly",
+  "definition": "The relation between a legislative assembly and its components."
+ },
+ {
+  "id": 22,
+  "name": "Return to Country",
+  "definition": "The relation between an entity and their return to a specific country."
+ },
+ {
+  "id": 23,
+  "name": "Election Participation",
+  "definition": "The relation between being a candidate and participating in elections."
+ },
+ {
+  "id": 24,
+  "name": "Music Studio Collaboration",
+  "definition": "The relation between a music group and a recording studio."
+ },
+ {
+  "id": 25,
+  "name": "Territorial Formation",
+  "definition": "The relation between geographical entities and the formation of territories."
+ },
+ {
+  "id": 26,
+  "name": "Public Transportation Line",
+  "definition": "The relation between a transportation system and a specific line."
+ },
+ {
+  "id": 27,
+  "name": "Regulatory Compliance",
+  "definition": "The relation between compliance with regulations and an entity."
+ },
+ {
+  "id": 28,
+  "name": "Acquisition by Equity Group",
+  "definition": "The relation between an acquisition and a private equity group."
+ },
+ {
+  "id": 29,
+  "name": "Radio Station Location",
+  "definition": "The relation between a radio station and its location."
+ },
+ {
+  "id": 30,
+  "name": "TV Network Show Cancellation",
+  "definition": "The relation between a TV network and the cancellation of a show."
+ },
+ {
+  "id": 31,
+  "name": "Chapel Occupancy",
+  "definition": "The relation between occupants and a chapel."
+ },
+ {
+  "id": 32,
+  "name": "Sports Team Debut",
+  "definition": "The relation between a sports team and its debut."
+ },
+ {
+  "id": 33,
+  "name": "Correspondent in Series",
+  "definition": "The relation between a correspondent and a TV series."
+ },
+ {
+  "id": 34,
+  "name": "Producer Location",
+  "definition": "The relation between a producer and their location."
+ },
+ {
+  "id": 35,
+  "name": "Naming Rights Acquisition",
+  "definition": "The relation between acquiring naming rights and a venue."
+ },
+ {
+  "id": 36,
+  "name": "Public Opinion Reaction",
+  "definition": "The relation between public opinion and a specific event."
+ },
+ {
+  "id": 37,
+  "name": "Commune Representation",
+  "definition": "The relation between a commune and its representation."
+ },
+ {
+  "id": 38,
+  "name": "Opera Debut",
+  "definition": "The first professional performance in an opera by a singer."
+ },
+ {
+  "id": 39,
+  "name": "Investment Management",
+  "definition": "The management of investments by individuals or entities."
+ },
+ {
+  "id": 40,
+  "name": "Album Release Date",
+  "definition": "The date on which a music album was officially released."
+ },
+ {
+  "id": 41,
+  "name": "Operating System Compatibility",
+  "definition": "The ability of a software product to run on a specific operating system."
+ },
+ {
+  "id": 42,
+  "name": "Animated Series Appearance",
+  "definition": "A brief appearance by a person in an animated series."
+ },
+ {
+  "id": 43,
+  "name": "Regional Relation",
+  "definition": "The relation between two regions or countries."
+ },
+ {
+  "id": 44,
+  "name": "Film and Author Relation",
+  "definition": "The relation between a film and its author."
+ },
+ {
+  "id": 45,
+  "name": "Award Nomination",
+  "definition": "The relation between an individual and their nomination for an award."
+ },
+ {
+  "id": 46,
+  "name": "TV Show Creation",
+  "definition": "The relation between an individual and the creation of a TV show."
+ },
+ {
+  "id": 47,
+  "name": "Academic Field Relation",
+  "definition": "The relation between an individual and their contribution to an academic field."
+ },
+ {
+  "id": 48,
+  "name": "Historical Figure Relation",
+  "definition": "The relation between historical figures and their impact on events."
+ },
+ {
+  "id": 49,
+  "name": "Historical Event Relation",
+  "definition": "The relation between historical events and their participants."
+ },
+ {
+  "id": 50,
+  "name": "Geographical Relation",
+  "definition": "The relation between geographical entities and their features."
+ },
+ {
+  "id": 51,
+  "name": "Architectural Relation",
+  "definition": "The relation between architects and their architectural creations."
+ },
+ {
+  "id": 52,
+  "name": "Cultural Relation",
+  "definition": "The relation between cultural entities and their representations."
+ },
+ {
+  "id": 53,
+  "name": "Musical Relation",
+  "definition": "The relation between musicians and their musical works."
+ },
+ {
+  "id": 54,
+  "name": "Sporting Relation",
+  "definition": "The relation between athletes and their sporting achievements."
+ },
+ {
+  "id": 55,
+  "name": "Gaming Relation",
+  "definition": "The relation between video games and their developers."
+ },
+ {
+  "id": 56,
+  "name": "Film Relation",
+  "definition": "The relation between films and their production details."
+ },
+ {
+  "id": 57,
+  "name": "Political Relation",
+  "definition": "The relation between politicians and their political activities."
+ },
+ {
+  "id": 58,
+  "name": "Mathematical Relation",
+  "definition": "The relation between mathematicians and their contributions to the field."
+ },
+ {
+  "id": 59,
+  "name": "Solo Performer",
+  "definition": "The performer who plays a solo in a musical performance."
+ },
+ {
+  "id": 60,
+  "name": "County Location",
+  "definition": "The location of a county within a specific state or region."
+ },
+ {
+  "id": 61,
+  "name": "River Estuary Location",
+  "definition": "The location where a river meets the sea or ocean."
+ },
+ {
+  "id": 62,
+  "name": "Album Relationship",
+  "definition": "The relationship between two albums, such as one being a follow-up to the other."
+ },
+ {
+  "id": 63,
+  "name": "River Location",
+  "definition": "The location of a river within a specific region or country."
+ },
+ {
+  "id": 64,
+  "name": "Film Director Relationship",
+  "definition": "The relationship between a film and its director, indicating who directed the film."
+ }
+]

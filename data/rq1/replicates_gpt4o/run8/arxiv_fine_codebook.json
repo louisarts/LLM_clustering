@@ -1,0 +1,1510 @@
+{
+  "bench": "arxiv_fine",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.CR",
+      "definition": "Cryptography and Security"
+    },
+    {
+      "id": 2,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 3,
+      "name": "cond-mat.stat-mech",
+      "definition": "Statistical Mechanics"
+    },
+    {
+      "id": 4,
+      "name": "stat.ME",
+      "definition": "Methodology"
+    },
+    {
+      "id": 5,
+      "name": "q-fin.MF",
+      "definition": "Mathematical Finance"
+    },
+    {
+      "id": 6,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 7,
+      "name": "q-bio.GN",
+      "definition": "Genomics"
+    },
+    {
+      "id": 8,
+      "name": "cond-mat.str-el",
+      "definition": "Strongly Correlated Electrons"
+    },
+    {
+      "id": 9,
+      "name": "cs.AR",
+      "definition": "Hardware Architecture"
+    },
+    {
+      "id": 10,
+      "name": "astro-ph.CO",
+      "definition": "Cosmology and Nongalactic Astrophysics"
+    },
+    {
+      "id": 11,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 12,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 13,
+      "name": "cond-mat.mtrl-sci",
+      "definition": "Materials Science"
+    },
+    {
+      "id": 14,
+      "name": "econ.GN",
+      "definition": "General Economics"
+    },
+    {
+      "id": 15,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 16,
+      "name": "quant-ph",
+      "definition": "Quantum Physics"
+    },
+    {
+      "id": 17,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence"
+    },
+    {
+      "id": 18,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 19,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 20,
+      "name": "physics.flu-dyn",
+      "definition": "Fluid Dynamics"
+    },
+    {
+      "id": 21,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 22,
+      "name": "cs.CL",
+      "definition": "Computation and Language"
+    },
+    {
+      "id": 23,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 24,
+      "name": "math.AP",
+      "definition": "Analysis of PDEs"
+    },
+    {
+      "id": 25,
+      "name": "cond-mat.supr-con",
+      "definition": "Superconductivity"
+    },
+    {
+      "id": 26,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 27,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 28,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 29,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 30,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 31,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 32,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 33,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 34,
+      "name": "math.AG",
+      "definition": "Algebraic Geometry"
+    },
+    {
+      "id": 35,
+      "name": "math.LO",
+      "definition": "Logic"
+    },
+    {
+      "id": 36,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 37,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 38,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 39,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 40,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 41,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 42,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 43,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 44,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 45,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 46,
+      "name": "cs.DB",
+      "definition": "Databases"
+    },
+    {
+      "id": 47,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 48,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 49,
+      "name": "cs.CY",
+      "definition": "Computers and Society"
+    },
+    {
+      "id": 50,
+      "name": "cs.GL",
+      "definition": "General Literature"
+    },
+    {
+      "id": 51,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 52,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 53,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 54,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 55,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 56,
+      "name": "cs.LO",
+      "definition": "Logic in Computer Science"
+    },
+    {
+      "id": 57,
+      "name": "cs.MS",
+      "definition": "Mathematical Software"
+    },
+    {
+      "id": 58,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 59,
+      "name": "cs.FL",
+      "definition": "Formal Languages and Automata Theory"
+    },
+    {
+      "id": 60,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 61,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 62,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence"
+    },
+    {
+      "id": 63,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 64,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 65,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 66,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 67,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 68,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 69,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 70,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 71,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 72,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 73,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 74,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 75,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 76,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 77,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 78,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 79,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 80,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 81,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 82,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 83,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 84,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 85,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 86,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 87,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 88,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 89,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 90,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 91,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 92,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 93,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 94,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 95,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 96,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 97,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 98,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 99,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 100,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 101,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 102,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 103,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 104,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 105,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 106,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 107,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 108,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 109,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 110,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 111,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 112,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 113,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 114,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 115,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 116,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 117,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 118,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 119,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 120,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 121,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 122,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 123,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 124,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 125,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 126,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 127,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 128,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 129,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 130,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 131,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 132,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 133,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 134,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 135,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 136,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 137,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 138,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 139,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 140,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 141,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 142,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 143,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 144,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 145,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 146,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 147,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 148,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 149,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 150,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 151,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 152,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 153,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 154,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 155,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 156,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 157,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 158,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 159,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 160,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 161,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 162,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 163,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 164,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 165,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 166,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 167,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 168,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 169,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 170,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 171,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 172,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 173,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 174,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 175,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 176,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 177,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 178,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 179,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 180,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 181,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 182,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 183,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 184,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 185,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 186,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 187,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 188,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 189,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 190,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 191,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 192,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 193,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 194,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 195,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 196,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 197,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 198,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 199,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 200,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 201,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 202,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 203,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 204,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 205,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 206,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 207,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 208,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 209,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 210,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 211,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 212,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 213,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 214,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 215,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 216,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 217,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 218,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 219,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 220,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 221,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 222,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 223,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 224,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 225,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 226,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 227,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 228,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 229,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 230,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 231,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 232,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 233,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 234,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 235,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 236,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 237,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 238,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 239,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 240,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 241,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 242,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 243,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 244,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 245,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 246,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 247,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 248,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 249,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 250,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 251,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 252,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 253,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 254,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 255,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 256,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 257,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 258,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 259,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 260,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 261,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 262,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 263,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 264,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 265,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 266,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 267,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 268,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 269,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 270,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 271,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 272,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 273,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 274,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 275,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 276,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 277,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 278,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 279,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 280,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 281,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 282,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 283,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 284,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 285,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 286,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 287,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 288,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 289,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 290,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 291,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 292,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 293,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 294,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 295,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 296,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 297,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 298,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 299,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 300,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "bench": "fewrel",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Administrative or Political Part-Whole",
+      "definition": "One entity is a geographical or political subdivision, component, or administrative part of the other."
+    },
+    {
+      "id": 2,
+      "name": "Geographical Location",
+      "definition": "One entity is physically located, situated, or found within the geographical boundaries of the other."
+    },
+    {
+      "id": 3,
+      "name": "Organizational Affiliation",
+      "definition": "An entity belongs to, is employed by, is a member of, or is affiliated with an organization, group, or team."
+    },
+    {
+      "id": 4,
+      "name": "Creative Authorship",
+      "definition": "One entity is the creator, author, writer, composer, or originator of a creative work, product, or invention."
+    },
+    {
+      "id": 5,
+      "name": "Performance or Representation",
+      "definition": "An entity performs, acts in, represents, or is the featured subject of a work, event, or role."
+    },
+    {
+      "id": 6,
+      "name": "Ownership",
+      "definition": "One entity owns, possesses, or holds the property rights to the other."
+    },
+    {
+      "id": 7,
+      "name": "Product or Brand Origin",
+      "definition": "A product, brand, or model is produced, manufactured, developed, or published by a parent entity."
+    },
+    {
+      "id": 8,
+      "name": "Family Relationship",
+      "definition": "One entity is related to the other by blood, marriage, or lineage."
+    },
+    {
+      "id": 9,
+      "name": "Hydrological Feature",
+      "definition": "One water body flows into, is a tributary of, or is part of the river system of another."
+    },
+    {
+      "id": 10,
+      "name": "Event-Entity Association",
+      "definition": "An entity participates in, hosts, wins, or is the subject of a specific event, competition, or award."
+    },
+    {
+      "id": 11,
+      "name": "Taxonomic Classification",
+      "definition": "One entity is a biological taxon (e.g., family, order) or classifies the other within a scientific hierarchy."
+    },
+    {
+      "id": 12,
+      "name": "Derivation or Equivalence",
+      "definition": "One entity is derived from, inspired by, based on, translates, or is an equivalent form of the other."
+    },
+    {
+      "id": 13,
+      "name": "Named After",
+      "definition": "One entity is named after or bears the name of the other entity."
+    },
+    {
+      "id": 14,
+      "name": "Topographical or Physical Part",
+      "definition": "One entity is a physical part, component, or topographical feature of a larger geographical or physical entity."
+    }
+  ]
+}

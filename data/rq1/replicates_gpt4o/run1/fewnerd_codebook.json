@@ -1,0 +1,110 @@
+{
+  "bench": "fewnerd",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Transportation",
+      "definition": "Entities related to vehicles, infrastructure, and systems for moving people or goods."
+    },
+    {
+      "id": 2,
+      "name": "Geographical Location",
+      "definition": "Entities that are specific places, regions, or physical features on Earth."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "Entities that are groups of people structured for a specific purpose, such as companies, governments, or non-profits."
+    },
+    {
+      "id": 4,
+      "name": "Person",
+      "definition": "Entities that are individual human beings."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "Entities that are occurrences or happenings, often with a specific date or period."
+    },
+    {
+      "id": 6,
+      "name": "Product",
+      "definition": "Entities that are manufactured or created items, including software and media."
+    },
+    {
+      "id": 7,
+      "name": "Currency",
+      "definition": "Entities that are systems of money in general use in a particular country."
+    },
+    {
+      "id": 8,
+      "name": "Award",
+      "definition": "Entities that are recognitions or honors given for achievement."
+    },
+    {
+      "id": 9,
+      "name": "Biological Entity",
+      "definition": "Entities that are living organisms or parts thereof."
+    },
+    {
+      "id": 10,
+      "name": "Chemical Substance",
+      "definition": "Entities that are pure chemical compounds or elements."
+    },
+    {
+      "id": 11,
+      "name": "Language",
+      "definition": "Entities that are systems of communication used by particular communities."
+    },
+    {
+      "id": 12,
+      "name": "Title",
+      "definition": "Entities that are formal designations or names given to individuals or works."
+    },
+    {
+      "id": 13,
+      "name": "Sport",
+      "definition": "Entities that are competitive physical activities or games."
+    },
+    {
+      "id": 14,
+      "name": "Disease",
+      "definition": "Entities that are disorders or illnesses affecting organisms."
+    },
+    {
+      "id": 15,
+      "name": "Natural Phenomenon",
+      "definition": "Entities that are naturally occurring events or processes."
+    },
+    {
+      "id": 16,
+      "name": "Material",
+      "definition": "Entities that are substances or matter used for specific purposes."
+    },
+    {
+      "id": 17,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or conditions."
+    },
+    {
+      "id": 18,
+      "name": "Legal Document",
+      "definition": "Entities that are formal written instruments with legal significance."
+    },
+    {
+      "id": 19,
+      "name": "Food and Drink",
+      "definition": "Entities that are consumable items for nutrition or pleasure."
+    },
+    {
+      "id": 20,
+      "name": "Mythological Entity",
+      "definition": "Entities that are beings or concepts from mythology or folklore."
+    }
+  ]
+}

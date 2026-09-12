@@ -1,0 +1,60 @@
+{
+  "bench": "mcid",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Request",
+      "definition": "User seeks information about COVID-19, including symptoms, transmission, and statistics."
+    },
+    {
+      "id": 2,
+      "name": "Treatment Inquiry",
+      "definition": "User asks about treatments, cures, or remedies for COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Vaccine Inquiry",
+      "definition": "User inquires about the availability, effectiveness, or details of COVID-19 vaccines."
+    },
+    {
+      "id": 4,
+      "name": "Safety Precautions",
+      "definition": "User seeks advice on how to stay safe or prevent infection from COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Travel Concerns",
+      "definition": "User asks about travel safety, restrictions, or guidelines related to COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Myth Debunking",
+      "definition": "User seeks clarification or debunking of myths related to COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Updates and News",
+      "definition": "User requests the latest news or updates regarding COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Community Support",
+      "definition": "User expresses a desire to donate or support COVID-19 relief efforts."
+    },
+    {
+      "id": 9,
+      "name": "Personal Experience",
+      "definition": "User shares personal symptoms or experiences related to COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "General Inquiry",
+      "definition": "User asks general questions or makes casual remarks not specifically related to COVID-19."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "bench": "clinc150_domain",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Management",
+      "definition": "Assistance related to managing bank accounts, credit cards, and financial transactions."
+    },
+    {
+      "id": 2,
+      "name": "Travel Planning",
+      "definition": "Assistance related to booking flights, hotels, car rentals, and travel alerts."
+    },
+    {
+      "id": 3,
+      "name": "General Information",
+      "definition": "Assistance with providing general information, facts, and trivia."
+    },
+    {
+      "id": 4,
+      "name": "Task Management",
+      "definition": "Assistance with managing tasks, to-do lists, and reminders."
+    },
+    {
+      "id": 5,
+      "name": "Technical Support",
+      "definition": "Assistance with technical issues such as car maintenance, device settings, and troubleshooting."
+    },
+    {
+      "id": 6,
+      "name": "Personal Preferences",
+      "definition": "Assistance with personal preferences such as changing names, voices, and settings."
+    },
+    {
+      "id": 7,
+      "name": "Food and Recipe Assistance",
+      "definition": "Assistance with food-related queries, recipes, and nutritional information."
+    },
+    {
+      "id": 8,
+      "name": "Location Services",
+      "definition": "Assistance with finding locations, directions, and traffic updates."
+    },
+    {
+      "id": 9,
+      "name": "Entertainment and Leisure",
+      "definition": "Assistance with entertainment recommendations, jokes, and fun facts."
+    },
+    {
+      "id": 10,
+      "name": "Language Translation",
+      "definition": "Assistance with translating phrases or words into different languages."
+    }
+  ]
+}

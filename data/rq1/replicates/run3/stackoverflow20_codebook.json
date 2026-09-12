@@ -1,0 +1,192 @@
+{
+  "bench": "stackoverflow20",
+  "run": 3,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apache",
+      "definition": "The Apache HTTP Server and related modules or configurations."
+    },
+    {
+      "id": 2,
+      "name": "SharePoint",
+      "definition": "Microsoft's collaboration and document management platform."
+    },
+    {
+      "id": 3,
+      "name": "Hibernate",
+      "definition": "An object-relational mapping (ORM) framework for Java."
+    },
+    {
+      "id": 4,
+      "name": "LINQ",
+      "definition": "Language Integrated Query, a set of features in .NET for querying data."
+    },
+    {
+      "id": 5,
+      "name": "Qt",
+      "definition": "A cross-platform application development framework."
+    },
+    {
+      "id": 6,
+      "name": "Excel",
+      "definition": "Microsoft Excel spreadsheet application, including VBA scripting and add-ins."
+    },
+    {
+      "id": 7,
+      "name": "Bash",
+      "definition": "The Bourne Again SHell, a Unix shell and command language."
+    },
+    {
+      "id": 8,
+      "name": "SQLite",
+      "definition": "A self-contained, serverless, zero-configuration, transactional SQL database engine."
+    },
+    {
+      "id": 9,
+      "name": "PHP",
+      "definition": "A server-side scripting language designed for web development."
+    },
+    {
+      "id": 10,
+      "name": "Magento",
+      "definition": "An open-source e-commerce platform."
+    },
+    {
+      "id": 11,
+      "name": "WordPress",
+      "definition": "A free and open-source content management system (CMS)."
+    },
+    {
+      "id": 12,
+      "name": "Drupal",
+      "definition": "A free and open-source content management framework (CMF)."
+    },
+    {
+      "id": 13,
+      "name": "Haskell",
+      "definition": "A purely functional programming language."
+    },
+    {
+      "id": 14,
+      "name": "Visual Studio",
+      "definition": "Microsoft's integrated development environment (IDE)."
+    },
+    {
+      "id": 15,
+      "name": "Matlab",
+      "definition": "A proprietary multi-paradigm programming language and numerical computing environment."
+    },
+    {
+      "id": 16,
+      "name": "AJAX",
+      "definition": "Asynchronous JavaScript and XML, a set of web development techniques."
+    },
+    {
+      "id": 17,
+      "name": "JQuery",
+      "definition": "A fast, small, and feature-rich JavaScript library."
+    },
+    {
+      "id": 18,
+      "name": ".NET",
+      "definition": "Microsoft's development platform, including C#, ASP.NET, and related technologies."
+    },
+    {
+      "id": 19,
+      "name": "Scala",
+      "definition": "A multi-paradigm programming language for the Java Virtual Machine (JVM)."
+    },
+    {
+      "id": 20,
+      "name": "Xcode",
+      "definition": "Apple's integrated development environment (IDE) for macOS, iOS, watchOS, and tvOS."
+    },
+    {
+      "id": 21,
+      "name": "Cocoa/macOS Development",
+      "definition": "Apple's native object-oriented API for macOS, including Objective-C and related tools."
+    },
+    {
+      "id": 22,
+      "name": "SVN",
+      "definition": "Subversion, a centralized version control system."
+    },
+    {
+      "id": 23,
+      "name": "Oracle Database",
+      "definition": "A relational database management system (RDBMS) from Oracle Corporation."
+    },
+    {
+      "id": 24,
+      "name": "Spring Framework",
+      "definition": "An open-source application framework for the Java platform."
+    },
+    {
+      "id": 25,
+      "name": "ASP Classic",
+      "definition": "Microsoft's first server-side script engine for dynamically generated web pages."
+    },
+    {
+      "id": 26,
+      "name": "SQL Server",
+      "definition": "Microsoft's relational database management system (RDBMS)."
+    },
+    {
+      "id": 27,
+      "name": "IIS",
+      "definition": "Internet Information Services, Microsoft's extensible web server software."
+    },
+    {
+      "id": 28,
+      "name": "Apache Velocity",
+      "definition": "A Java-based template engine."
+    },
+    {
+      "id": 29,
+      "name": "DB2",
+      "definition": "A family of relational database management system (RDBMS) products from IBM."
+    },
+    {
+      "id": 30,
+      "name": "C++",
+      "definition": "A general-purpose programming language, including its standard library and common third-party libraries like Boost."
+    },
+    {
+      "id": 31,
+      "name": "Python",
+      "definition": "A high-level, general-purpose programming language."
+    },
+    {
+      "id": 32,
+      "name": "SQL",
+      "definition": "Structured Query Language, used for managing and querying relational databases generally."
+    },
+    {
+      "id": 33,
+      "name": "VBScript",
+      "definition": "A scripting language developed by Microsoft, often used in web pages or for automation."
+    },
+    {
+      "id": 34,
+      "name": "MySQL",
+      "definition": "A popular open-source relational database management system (RDBMS)."
+    },
+    {
+      "id": 35,
+      "name": "FastCGI",
+      "definition": "An open, extension of CGI that provides high performance for web applications."
+    },
+    {
+      "id": 36,
+      "name": "Java",
+      "definition": "A general-purpose programming language and computing platform."
+    },
+    {
+      "id": 37,
+      "name": "JavaScript",
+      "definition": "A high-level, often just-in-time compiled, multi-paradigm programming language for web development, including frameworks like ExtJS."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "bench": "mcid",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Case and Death Statistics",
+      "definition": "Queries seeking numerical data regarding infections, deaths, recoveries, or testing rates."
+    },
+    {
+      "id": 2,
+      "name": "Prevention and Precautions",
+      "definition": "Queries about measures, behaviors, and equipment to avoid contracting or spreading the virus."
+    },
+    {
+      "id": 3,
+      "name": "Treatment and Remedies",
+      "definition": "Queries regarding medical treatments, cures, vaccines, or home remedies for COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "Symptoms and Diagnosis",
+      "definition": "Queries identifying or verifying symptoms of COVID-19 or asking if specific sensations indicate infection."
+    },
+    {
+      "id": 5,
+      "name": "Transmission and Risk Factors",
+      "definition": "Queries about how the virus spreads, survival on surfaces, and identification of high-risk groups or areas."
+    },
+    {
+      "id": 6,
+      "name": "Travel Advice and Restrictions",
+      "definition": "Queries concerning travel safety, restrictions, bans, or transportation status."
+    },
+    {
+      "id": 7,
+      "name": "News and Updates",
+      "definition": "Queries requesting the latest news, recent developments, or status updates for specific locations."
+    },
+    {
+      "id": 8,
+      "name": "Donations and Financial Support",
+      "definition": "Queries expressing intent to donate money or asking how to support relief funds and charities."
+    },
+    {
+      "id": 9,
+      "name": "Myths and Misinformation",
+      "definition": "Queries asking to verify or debunk specific rumors, conspiracy theories, or fake news."
+    },
+    {
+      "id": 10,
+      "name": "Animals and Pets",
+      "definition": "Queries specifically regarding the impact of COVID-19 on animals, pets, or transmission via animals."
+    },
+    {
+      "id": 11,
+      "name": "General Information",
+      "definition": "Broad queries seeking definitions, general facts, or comprehensive overviews of COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "Sharing and Social Actions",
+      "definition": "Queries requesting to share information, articles, or links with others."
+    },
+    {
+      "id": 13,
+      "name": "Greetings and Gratitude",
+      "definition": "Utterances consisting of greetings, thanks, or appreciation without a specific information request."
+    }
+  ]
+}

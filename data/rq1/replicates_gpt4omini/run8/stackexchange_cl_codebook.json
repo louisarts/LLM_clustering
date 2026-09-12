@@ -1,0 +1,110 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Programming",
+      "definition": "Questions related to coding, software development, and programming languages."
+    },
+    {
+      "id": 2,
+      "name": "Mathematics",
+      "definition": "Questions involving mathematical concepts, theories, and problems."
+    },
+    {
+      "id": 3,
+      "name": "Science",
+      "definition": "Questions pertaining to scientific principles, experiments, and theories."
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "Questions about technology, gadgets, and technical issues."
+    },
+    {
+      "id": 5,
+      "name": "Health",
+      "definition": "Questions related to health, medical conditions, and wellness."
+    },
+    {
+      "id": 6,
+      "name": "Education",
+      "definition": "Questions about learning, teaching methods, and educational resources."
+    },
+    {
+      "id": 7,
+      "name": "Language",
+      "definition": "Questions about language, linguistics, and translation."
+    },
+    {
+      "id": 8,
+      "name": "Culture",
+      "definition": "Questions related to cultural practices, traditions, and societal issues."
+    },
+    {
+      "id": 9,
+      "name": "Business",
+      "definition": "Questions about business practices, management, and entrepreneurship."
+    },
+    {
+      "id": 10,
+      "name": "Gaming",
+      "definition": "Questions related to video games, game mechanics, and gaming culture."
+    },
+    {
+      "id": 11,
+      "name": "Art and Design",
+      "definition": "Questions about artistic techniques, design principles, and creative processes."
+    },
+    {
+      "id": 12,
+      "name": "Legal",
+      "definition": "Questions regarding legal matters, regulations, and rights."
+    },
+    {
+      "id": 13,
+      "name": "Travel",
+      "definition": "Questions about travel, destinations, and travel-related advice."
+    },
+    {
+      "id": 14,
+      "name": "Food and Cooking",
+      "definition": "Questions related to food preparation, recipes, and culinary techniques."
+    },
+    {
+      "id": 15,
+      "name": "Finance",
+      "definition": "Questions about financial concepts, investments, and economic principles."
+    },
+    {
+      "id": 16,
+      "name": "Social Issues",
+      "definition": "Questions concerning social justice, ethics, and community matters."
+    },
+    {
+      "id": 17,
+      "name": "Home and Garden",
+      "definition": "Questions about home improvement, gardening, and domestic life."
+    },
+    {
+      "id": 18,
+      "name": "Sports",
+      "definition": "Questions related to sports, athletic activities, and fitness."
+    },
+    {
+      "id": 19,
+      "name": "History",
+      "definition": "Questions about historical events, figures, and contexts."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous",
+      "definition": "Questions that do not fit into the other specified categories."
+    }
+  ]
+}

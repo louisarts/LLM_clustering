@@ -1,0 +1,127 @@
+{
+  "bench": "mtop_intent",
+  "run": 10,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Create a new alarm for a specific time or interval."
+    },
+    {
+      "id": 2,
+      "name": "Query Alarm",
+      "definition": "Ask for information about existing alarms."
+    },
+    {
+      "id": 3,
+      "name": "Manage Alarm",
+      "definition": "Modify, delete, snooze, or control an existing alarm."
+    },
+    {
+      "id": 4,
+      "name": "Set Timer",
+      "definition": "Create a new countdown timer."
+    },
+    {
+      "id": 5,
+      "name": "Query Timer",
+      "definition": "Ask for information about existing timers."
+    },
+    {
+      "id": 6,
+      "name": "Manage Timer",
+      "definition": "Modify, delete, pause, resume, or control an existing timer."
+    },
+    {
+      "id": 7,
+      "name": "Set Reminder",
+      "definition": "Create a new reminder for a specific task or event."
+    },
+    {
+      "id": 8,
+      "name": "Query Reminder",
+      "definition": "Ask for information about existing reminders."
+    },
+    {
+      "id": 9,
+      "name": "Manage Reminder",
+      "definition": "Modify, delete, or control an existing reminder."
+    },
+    {
+      "id": 10,
+      "name": "Initiate Call",
+      "definition": "Start a phone or video call with one or more contacts."
+    },
+    {
+      "id": 11,
+      "name": "Manage Call",
+      "definition": "Control an ongoing call, such as answering, hanging up, adding/removing participants, or switching modes."
+    },
+    {
+      "id": 12,
+      "name": "Query Call History",
+      "definition": "Ask for information about past calls, such as missed calls or call times."
+    },
+    {
+      "id": 13,
+      "name": "Query Call Status",
+      "definition": "Ask for information about the current call status, such as who is calling."
+    },
+    {
+      "id": 14,
+      "name": "Send Message",
+      "definition": "Send a text or video message to one or more contacts or groups."
+    },
+    {
+      "id": 15,
+      "name": "Query Message",
+      "definition": "Ask for information about received messages."
+    },
+    {
+      "id": 16,
+      "name": "Play Media",
+      "definition": "Start playing music, podcasts, or other audio/video content."
+    },
+    {
+      "id": 17,
+      "name": "Manage Media Playback",
+      "definition": "Control ongoing media playback, such as stopping, skipping, or fast-forwarding."
+    },
+    {
+      "id": 18,
+      "name": "Set Media Preferences",
+      "definition": "Configure default media applications or playback settings."
+    },
+    {
+      "id": 19,
+      "name": "Query Weather",
+      "definition": "Ask for current or forecasted weather information for a location."
+    },
+    {
+      "id": 20,
+      "name": "Query News",
+      "definition": "Ask for news headlines or details on specific topics."
+    },
+    {
+      "id": 21,
+      "name": "Query General Knowledge",
+      "definition": "Ask for factual information, recipes, definitions, or how-to instructions."
+    },
+    {
+      "id": 22,
+      "name": "Query Contact Information",
+      "definition": "Ask for details about contacts, such as address, phone number, employer, online status, or relationships."
+    },
+    {
+      "id": 23,
+      "name": "Query Events",
+      "definition": "Ask for information about upcoming or past events, activities, or entertainment options."
+    },
+    {
+      "id": 24,
+      "name": "Manage Event RSVP",
+      "definition": "Respond to an event invitation by accepting or declining."
+    }
+  ]
+}

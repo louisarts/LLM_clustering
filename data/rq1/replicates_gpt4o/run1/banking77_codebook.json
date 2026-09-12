@@ -1,0 +1,90 @@
+{
+  "bench": "banking77",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Closure",
+      "definition": "Requests or inquiries about closing or deleting a bank account."
+    },
+    {
+      "id": 2,
+      "name": "Unauthorized Transactions",
+      "definition": "Reports of transactions or charges that the customer did not authorize."
+    },
+    {
+      "id": 3,
+      "name": "Card Issues",
+      "definition": "Problems related to card usage, including declined transactions, lost or stolen cards, and card activation."
+    },
+    {
+      "id": 4,
+      "name": "PIN and Security",
+      "definition": "Inquiries about changing, setting, or issues with card PINs and security checks."
+    },
+    {
+      "id": 5,
+      "name": "Transfers and Payments",
+      "definition": "Questions or issues related to transferring funds, pending payments, and payment reversals."
+    },
+    {
+      "id": 6,
+      "name": "Top-Up Issues",
+      "definition": "Problems or questions regarding topping up accounts, including pending or failed top-ups."
+    },
+    {
+      "id": 7,
+      "name": "Fees and Charges",
+      "definition": "Inquiries about fees, charges, and exchange rates applied to transactions."
+    },
+    {
+      "id": 8,
+      "name": "Card Delivery",
+      "definition": "Questions about the delivery status or tracking of new or replacement cards."
+    },
+    {
+      "id": 9,
+      "name": "Identity Verification",
+      "definition": "Issues or questions related to verifying identity for account access or transactions."
+    },
+    {
+      "id": 10,
+      "name": "Virtual and Disposable Cards",
+      "definition": "Inquiries about obtaining or using virtual or disposable cards."
+    },
+    {
+      "id": 11,
+      "name": "Currency Exchange",
+      "definition": "Questions about currency exchange rates and fees."
+    },
+    {
+      "id": 12,
+      "name": "Account Access",
+      "definition": "Issues related to accessing the account or app, including password or passcode resets."
+    },
+    {
+      "id": 13,
+      "name": "ATM Issues",
+      "definition": "Problems encountered at ATMs, such as incorrect cash amounts or card retention."
+    },
+    {
+      "id": 14,
+      "name": "Account Information Update",
+      "definition": "Requests to update personal information, such as address or name changes."
+    },
+    {
+      "id": 15,
+      "name": "Refunds",
+      "definition": "Inquiries about refunds for transactions or purchases."
+    },
+    {
+      "id": 16,
+      "name": "General Inquiries",
+      "definition": "Miscellaneous questions not covered by other categories, such as bank locations or supported currencies."
+    }
+  ]
+}

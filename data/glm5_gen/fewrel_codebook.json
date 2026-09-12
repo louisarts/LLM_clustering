@@ -1,0 +1,107 @@
+[
+ {
+  "id": 1,
+  "name": "Location",
+  "definition": "Entity is located in, based in, or situated at a geographic place."
+ },
+ {
+  "id": 2,
+  "name": "Home Venue",
+  "definition": "Sports facility serves as the home ground for a sports team."
+ },
+ {
+  "id": 3,
+  "name": "Geographic Relation",
+  "definition": "Physical relationship between natural geographic features such as rivers or mountains."
+ },
+ {
+  "id": 4,
+  "name": "Organizational Membership",
+  "definition": "Entity is a member of, part of, or affiliated with an organization, team, or military branch."
+ },
+ {
+  "id": 5,
+  "name": "Political Affiliation",
+  "definition": "Entity is a member of or affiliated with a political party."
+ },
+ {
+  "id": 6,
+  "name": "Ownership/Subsidiary",
+  "definition": "Entity is owned by, a subsidiary of, or acquired by another corporate entity."
+ },
+ {
+  "id": 7,
+  "name": "Role/Position",
+  "definition": "Entity holds a specific professional role, political office, or title."
+ },
+ {
+  "id": 8,
+  "name": "Creator/Contributor",
+  "definition": "Entity is the author, director, composer, architect, or developer of a creative work or project."
+ },
+ {
+  "id": 9,
+  "name": "Family Relationship",
+  "definition": "Kinship or familial connection between entities."
+ },
+ {
+  "id": 10,
+  "name": "Award/Nomination",
+  "definition": "Entity received or was nominated for an award, prize, or honor."
+ },
+ {
+  "id": 11,
+  "name": "Event Participation/Outcome",
+  "definition": "Entity participated in, won, or was the result of a competition, election, or event."
+ },
+ {
+  "id": 12,
+  "name": "Distribution/Platform",
+  "definition": "Entity is published, broadcast, released by, or compatible with a platform, network, or label."
+ },
+ {
+  "id": 13,
+  "name": "Genre/Type",
+  "definition": "Entity belongs to a specific category, class, or artistic style."
+ },
+ {
+  "id": 14,
+  "name": "Language",
+  "definition": "Entity is written, performed, or published in a specific language."
+ },
+ {
+  "id": 15,
+  "name": "Character",
+  "definition": "Fictional character appears in or is associated with a creative work."
+ },
+ {
+  "id": 16,
+  "name": "Identity/Name",
+  "definition": "Entity is an alternate name, version, translation, namesake, or alter ego of another entity."
+ },
+ {
+  "id": 17,
+  "name": "Heritage Listing",
+  "definition": "Entity is listed on a historic register or heritage list."
+ },
+ {
+  "id": 18,
+  "name": "Subject/Field",
+  "definition": "Entity is the subject of, or associated with a field of study or topic."
+ },
+ {
+  "id": 19,
+  "name": "Temporal Relation",
+  "definition": "Entity precedes, follows, or is associated with a specific time relative to another entity."
+ },
+ {
+  "id": 20,
+  "name": "Comparison",
+  "definition": "Entity is compared to another entity based on shared or contrasting attributes."
+ },
+ {
+  "id": 21,
+  "name": "Related Works",
+  "definition": "Entity is a related work or part of a series with another entity."
+ }
+]

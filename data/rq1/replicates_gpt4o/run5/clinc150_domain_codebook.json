@@ -1,0 +1,100 @@
+{
+  "bench": "clinc150_domain",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking and Finance",
+      "definition": "Utterances related to banking, financial transactions, account inquiries, and credit information."
+    },
+    {
+      "id": 2,
+      "name": "Travel and Transportation",
+      "definition": "Utterances related to booking flights, car rentals, travel plans, and transportation inquiries."
+    },
+    {
+      "id": 3,
+      "name": "Calendar and Scheduling",
+      "definition": "Utterances related to managing calendar events, scheduling, and reminders."
+    },
+    {
+      "id": 4,
+      "name": "Shopping and Grocery Lists",
+      "definition": "Utterances related to managing shopping lists and grocery items."
+    },
+    {
+      "id": 5,
+      "name": "Music and Entertainment",
+      "definition": "Utterances related to playing music, managing playlists, and entertainment suggestions."
+    },
+    {
+      "id": 6,
+      "name": "Weather and Time",
+      "definition": "Utterances related to weather forecasts and time inquiries."
+    },
+    {
+      "id": 7,
+      "name": "Language and Definitions",
+      "definition": "Utterances related to language translation, word definitions, and spelling."
+    },
+    {
+      "id": 8,
+      "name": "Health and Safety",
+      "definition": "Utterances related to health inquiries, vaccinations, and safety information."
+    },
+    {
+      "id": 9,
+      "name": "Utilities and Bills",
+      "definition": "Utterances related to utility bills, payments, and service inquiries."
+    },
+    {
+      "id": 10,
+      "name": "Cooking and Recipes",
+      "definition": "Utterances related to cooking instructions, recipes, and food safety."
+    },
+    {
+      "id": 11,
+      "name": "Personalization and Settings",
+      "definition": "Utterances related to changing assistant settings, names, and preferences."
+    },
+    {
+      "id": 12,
+      "name": "Communication",
+      "definition": "Utterances related to sending messages, making calls, and communication tasks."
+    },
+    {
+      "id": 13,
+      "name": "General Knowledge and Trivia",
+      "definition": "Utterances related to general knowledge, trivia, and fun facts."
+    },
+    {
+      "id": 14,
+      "name": "Automotive",
+      "definition": "Utterances related to car maintenance, gas, and automotive inquiries."
+    },
+    {
+      "id": 15,
+      "name": "Insurance",
+      "definition": "Utterances related to insurance plans, benefits, and inquiries."
+    },
+    {
+      "id": 16,
+      "name": "Employment and Income",
+      "definition": "Utterances related to employment, income, and payroll inquiries."
+    },
+    {
+      "id": 17,
+      "name": "Technical Support",
+      "definition": "Utterances related to technical support and troubleshooting."
+    },
+    {
+      "id": 18,
+      "name": "Social Interaction",
+      "definition": "Utterances related to social interaction, greetings, and casual conversation."
+    }
+  ]
+}

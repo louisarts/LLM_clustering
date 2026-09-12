@@ -1,0 +1,337 @@
+{
+  "bench": "arxiv_fine",
+  "run": 5,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.AI",
+      "definition": "Research in artificial intelligence, including knowledge representation, reasoning, planning, game theory, and explainable AI."
+    },
+    {
+      "id": 2,
+      "name": "cs.CL",
+      "definition": "Natural language processing, speech processing, computational linguistics, and dialogue systems."
+    },
+    {
+      "id": 3,
+      "name": "cs.CR",
+      "definition": "Network security, information security, cryptography, and adversarial attacks."
+    },
+    {
+      "id": 4,
+      "name": "cs.CV",
+      "definition": "Image and video processing, object detection, segmentation, and computer vision applications."
+    },
+    {
+      "id": 5,
+      "name": "cs.DC",
+      "definition": "Distributed systems, parallel computing, web technologies, and cloud computing."
+    },
+    {
+      "id": 6,
+      "name": "cs.DS",
+      "definition": "Design and analysis of algorithms, data structures, and computational complexity."
+    },
+    {
+      "id": 7,
+      "name": "cs.GR",
+      "definition": "Computer graphics, visualization, and graph drawing."
+    },
+    {
+      "id": 8,
+      "name": "cs.HC",
+      "definition": "User interfaces, social computing, educational technology, and human factors in computing."
+    },
+    {
+      "id": 9,
+      "name": "cs.IR",
+      "definition": "Information retrieval, recommender systems, and search technologies."
+    },
+    {
+      "id": 10,
+      "name": "cs.IT",
+      "definition": "Fundamental theory of information, coding theory, and communication channels."
+    },
+    {
+      "id": 11,
+      "name": "cs.LG",
+      "definition": "Machine learning algorithms, deep learning, reinforcement learning, and statistical learning theory."
+    },
+    {
+      "id": 12,
+      "name": "cs.NI",
+      "definition": "Networking and Internet architecture, including software-defined networking and mobile networks."
+    },
+    {
+      "id": 13,
+      "name": "cs.PL",
+      "definition": "Programming language design, semantics, type theory, and formal methods for software."
+    },
+    {
+      "id": 14,
+      "name": "cs.RO",
+      "definition": "Robotics, autonomous systems, robot control, and human-robot interaction."
+    },
+    {
+      "id": 15,
+      "name": "cs.SE",
+      "definition": "Software design, development methodologies, testing, and maintenance."
+    },
+    {
+      "id": 16,
+      "name": "cs.SY",
+      "definition": "Control theory, systems engineering, and optimization in computer science applications."
+    },
+    {
+      "id": 17,
+      "name": "math.AG",
+      "definition": "Study of algebraic varieties, schemes, and their geometric properties."
+    },
+    {
+      "id": 18,
+      "name": "math.AP",
+      "definition": "Theory and applications of partial differential equations."
+    },
+    {
+      "id": 19,
+      "name": "math.AT",
+      "definition": "Use of algebraic tools to study topological spaces."
+    },
+    {
+      "id": 20,
+      "name": "math.CA",
+      "definition": "Real and complex analysis, functional analysis, and ordinary differential equations."
+    },
+    {
+      "id": 21,
+      "name": "math.CO",
+      "definition": "Discrete mathematics, graph theory, and enumerative combinatorics."
+    },
+    {
+      "id": 22,
+      "name": "math.CT",
+      "definition": "Abstract algebra, category theory, and homological algebra."
+    },
+    {
+      "id": 23,
+      "name": "math.DG",
+      "definition": "Study of smooth manifolds, curvature, and geometric structures."
+    },
+    {
+      "id": 24,
+      "name": "math.DS",
+      "definition": "Study of systems that evolve over time, including chaos and bifurcations."
+    },
+    {
+      "id": 25,
+      "name": "math.FA",
+      "definition": "Study of vector spaces with limits, including Hilbert and Banach spaces."
+    },
+    {
+      "id": 26,
+      "name": "math.GR",
+      "definition": "Study of groups, their representations, and related algebraic structures."
+    },
+    {
+      "id": 27,
+      "name": "math.GT",
+      "definition": "Study of manifolds, knots, and low-dimensional topology."
+    },
+    {
+      "id": 28,
+      "name": "math.LO",
+      "definition": "Mathematical logic, model theory, proof theory, and set theory."
+    },
+    {
+      "id": 29,
+      "name": "math.NA",
+      "definition": "Development and analysis of numerical methods for solving mathematical problems."
+    },
+    {
+      "id": 30,
+      "name": "math.NT",
+      "definition": "Study of integers and their properties, including algebraic and analytic number theory."
+    },
+    {
+      "id": 31,
+      "name": "math.PR",
+      "definition": "Probability theory, stochastic processes, and random phenomena."
+    },
+    {
+      "id": 32,
+      "name": "math.RA",
+      "definition": "Study of rings, algebras, and their modules."
+    },
+    {
+      "id": 33,
+      "name": "astro-ph.CO",
+      "definition": "Study of the origin, evolution, and large-scale structure of the universe."
+    },
+    {
+      "id": 34,
+      "name": "astro-ph.GA",
+      "definition": "Study of galaxies, their structure, evolution, and stellar populations."
+    },
+    {
+      "id": 35,
+      "name": "astro-ph.HE",
+      "definition": "Study of high-energy processes in the universe, including supernovae, gamma-ray bursts, and active galactic nuclei."
+    },
+    {
+      "id": 36,
+      "name": "astro-ph.SR",
+      "definition": "Study of the Sun, stars, their formation, evolution, and properties."
+    },
+    {
+      "id": 37,
+      "name": "cond-mat.mes-hall",
+      "definition": "Physics of mesoscopic systems, quantum dots, and low-dimensional electron systems."
+    },
+    {
+      "id": 38,
+      "name": "cond-mat.mtrl-sci",
+      "definition": "Study of material properties, synthesis, characterization, and applications."
+    },
+    {
+      "id": 39,
+      "name": "cond-mat.soft",
+      "definition": "Physics of soft materials like polymers, colloids, liquid crystals, and granular matter."
+    },
+    {
+      "id": 40,
+      "name": "cond-mat.stat-mech",
+      "definition": "Statistical mechanics, thermodynamics, phase transitions, and critical phenomena."
+    },
+    {
+      "id": 41,
+      "name": "cond-mat.str-el",
+      "definition": "Physics of strongly correlated electron systems, including superconductivity and magnetism."
+    },
+    {
+      "id": 42,
+      "name": "hep-ex",
+      "definition": "Experimental particle physics, detector development, and data analysis in high energy physics."
+    },
+    {
+      "id": 43,
+      "name": "hep-th",
+      "definition": "Theoretical high energy physics, quantum field theory, string theory, and general relativity."
+    },
+    {
+      "id": 44,
+      "name": "nucl-th",
+      "definition": "Theoretical nuclear physics, including nuclear structure and reactions."
+    },
+    {
+      "id": 45,
+      "name": "physics.atm-clus",
+      "definition": "Atomic, molecular, and optical physics, including quantum gases and spectroscopy."
+    },
+    {
+      "id": 46,
+      "name": "physics.chem-ph",
+      "definition": "Interdisciplinary field combining physics and chemistry, including quantum chemistry and molecular dynamics."
+    },
+    {
+      "id": 47,
+      "name": "physics.flu-dyn",
+      "definition": "Study of fluid motion, including turbulence, hydrodynamics, and rheology."
+    },
+    {
+      "id": 48,
+      "name": "physics.ins-det",
+      "definition": "Design, development, and characterization of scientific instruments and detectors."
+    },
+    {
+      "id": 49,
+      "name": "physics.optics",
+      "definition": "Study of light, its properties, and applications, including lasers and photonics."
+    },
+    {
+      "id": 50,
+      "name": "physics.plasm-ph",
+      "definition": "Study of ionized gases and their behavior."
+    },
+    {
+      "id": 51,
+      "name": "physics.soc-ph",
+      "definition": "Application of physics methods to social and economic systems, including complex networks."
+    },
+    {
+      "id": 52,
+      "name": "physics.space-ph",
+      "definition": "Study of physical processes in space, including planetary magnetospheres and solar wind."
+    },
+    {
+      "id": 53,
+      "name": "q-bio.BM",
+      "definition": "Study of biomolecules, their structure, function, and interactions."
+    },
+    {
+      "id": 54,
+      "name": "q-bio.CB",
+      "definition": "Study of cellular processes, signaling pathways, and cell mechanics."
+    },
+    {
+      "id": 55,
+      "name": "q-bio.GN",
+      "definition": "Genomics, transcriptomics, population genetics, and bioinformatics."
+    },
+    {
+      "id": 56,
+      "name": "q-bio.NC",
+      "definition": "Computational neuroscience, neural networks, and cognitive modeling."
+    },
+    {
+      "id": 57,
+      "name": "q-bio.QM",
+      "definition": "Mathematical and statistical methods applied to biological problems."
+    },
+    {
+      "id": 58,
+      "name": "q-fin.EC",
+      "definition": "Economic theory, econometrics, financial economics, and public finance."
+    },
+    {
+      "id": 59,
+      "name": "q-fin.PM",
+      "definition": "Portfolio optimization, risk management, and pricing of financial instruments."
+    },
+    {
+      "id": 60,
+      "name": "stat.ME",
+      "definition": "Development and analysis of statistical methods and models."
+    },
+    {
+      "id": 61,
+      "name": "eess.EE",
+      "definition": "Electrical circuits, power systems, communications engineering, and electronic devices."
+    },
+    {
+      "id": 62,
+      "name": "eess.SP",
+      "definition": "Theory and applications of signal processing, including biomedical signals."
+    },
+    {
+      "id": 63,
+      "name": "bio.EC",
+      "definition": "Study of organisms and their environment, including population dynamics and ecosystems."
+    },
+    {
+      "id": 64,
+      "name": "hist-ph",
+      "definition": "History and philosophy of science, particularly physics."
+    },
+    {
+      "id": 65,
+      "name": "med-ph",
+      "definition": "Application of physics principles to medicine, including medical imaging and radiation therapy."
+    },
+    {
+      "id": 66,
+      "name": "soc.ST",
+      "definition": "Statistical methods applied to social sciences, public health, and epidemiology."
+    }
+  ]
+}

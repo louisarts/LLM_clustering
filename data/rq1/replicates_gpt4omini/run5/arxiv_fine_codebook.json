@@ -1,0 +1,160 @@
+{
+  "bench": "arxiv_fine",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "quant-ph",
+      "definition": "Quantum physics, including quantum mechanics and quantum information."
+    },
+    {
+      "id": 2,
+      "name": "stat",
+      "definition": "Statistics, including statistical methods and theory."
+    },
+    {
+      "id": 3,
+      "name": "cs.LG",
+      "definition": "Machine learning and related algorithms."
+    },
+    {
+      "id": 4,
+      "name": "math.ST",
+      "definition": "Statistical mathematics and related theories."
+    },
+    {
+      "id": 5,
+      "name": "astro-ph",
+      "definition": "Astrophysics and related astronomical studies."
+    },
+    {
+      "id": 6,
+      "name": "cond-mat",
+      "definition": "Condensed matter physics, including materials science."
+    },
+    {
+      "id": 7,
+      "name": "bio.Ph",
+      "definition": "Biophysics and biological physics."
+    },
+    {
+      "id": 8,
+      "name": "math.AG",
+      "definition": "Algebraic geometry and related mathematical theories."
+    },
+    {
+      "id": 9,
+      "name": "cs.CV",
+      "definition": "Computer vision and image processing."
+    },
+    {
+      "id": 10,
+      "name": "cs.HC",
+      "definition": "Human-computer interaction and related technologies."
+    },
+    {
+      "id": 11,
+      "name": "math.DS",
+      "definition": "Dynamical systems and related mathematical theories."
+    },
+    {
+      "id": 12,
+      "name": "econ.GN",
+      "definition": "General economics and related financial studies."
+    },
+    {
+      "id": 13,
+      "name": "cs.NE",
+      "definition": "Neural networks and related computational models."
+    },
+    {
+      "id": 14,
+      "name": "math.PR",
+      "definition": "Probability theory and related mathematical studies."
+    },
+    {
+      "id": 15,
+      "name": "hep-th",
+      "definition": "Theoretical high-energy physics."
+    },
+    {
+      "id": 16,
+      "name": "cs.SI",
+      "definition": "Social and information networks."
+    },
+    {
+      "id": 17,
+      "name": "math.NA",
+      "definition": "Numerical analysis and related computational methods."
+    },
+    {
+      "id": 18,
+      "name": "cs.SE",
+      "definition": "Software engineering and related methodologies."
+    },
+    {
+      "id": 19,
+      "name": "math.FA",
+      "definition": "Functional analysis and related mathematical theories."
+    },
+    {
+      "id": 20,
+      "name": "cs.AI",
+      "definition": "Artificial intelligence and related technologies."
+    },
+    {
+      "id": 21,
+      "name": "math.CA",
+      "definition": "Complex analysis and related mathematical theories."
+    },
+    {
+      "id": 22,
+      "name": "math.CT",
+      "definition": "Category theory and related mathematical studies."
+    },
+    {
+      "id": 23,
+      "name": "cs.DS",
+      "definition": "Data structures and algorithms."
+    },
+    {
+      "id": 24,
+      "name": "math.GT",
+      "definition": "Geometric topology and related mathematical theories."
+    },
+    {
+      "id": 25,
+      "name": "cs.MS",
+      "definition": "Machine systems and robotics."
+    },
+    {
+      "id": 26,
+      "name": "math.QA",
+      "definition": "Quantum algebra and related mathematical theories."
+    },
+    {
+      "id": 27,
+      "name": "cs.NI",
+      "definition": "Network and internet technologies."
+    },
+    {
+      "id": 28,
+      "name": "math.OC",
+      "definition": "Optimization and control theory."
+    },
+    {
+      "id": 29,
+      "name": "cs.LG",
+      "definition": "Learning theory and algorithms."
+    },
+    {
+      "id": 30,
+      "name": "math.MG",
+      "definition": "Matrix theory and related mathematical studies."
+    }
+  ]
+}

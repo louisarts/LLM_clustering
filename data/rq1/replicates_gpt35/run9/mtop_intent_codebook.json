@@ -1,0 +1,190 @@
+{
+  "bench": "mtop_intent",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Identify Song",
+      "definition": "User wants to know the name of a song."
+    },
+    {
+      "id": 2,
+      "name": "Set Alarm",
+      "definition": "User wants to schedule an alarm for a specific time."
+    },
+    {
+      "id": 3,
+      "name": "List Information",
+      "definition": "User wants a list of specific information."
+    },
+    {
+      "id": 4,
+      "name": "Make Call",
+      "definition": "User wants to initiate a phone call."
+    },
+    {
+      "id": 5,
+      "name": "Cooking Temperature",
+      "definition": "User wants to know the best temperature for cooking a specific food item."
+    },
+    {
+      "id": 6,
+      "name": "Location Inquiry",
+      "definition": "User wants to know who lives in a specific location."
+    },
+    {
+      "id": 7,
+      "name": "Online Status",
+      "definition": "User wants to know if a specific person is online."
+    },
+    {
+      "id": 8,
+      "name": "Award Inquiry",
+      "definition": "User wants to know the number of awards won by a specific person."
+    },
+    {
+      "id": 9,
+      "name": "Play Music",
+      "definition": "User wants to play a specific music track or album."
+    },
+    {
+      "id": 10,
+      "name": "Recurring Alarm",
+      "definition": "User wants to set a recurring alarm for a specific time interval."
+    },
+    {
+      "id": 11,
+      "name": "Message Delivery",
+      "definition": "User wants to send a message to a specific person."
+    },
+    {
+      "id": 12,
+      "name": "Weather Inquiry",
+      "definition": "User wants to know the weather forecast for a specific date or time."
+    },
+    {
+      "id": 13,
+      "name": "Timer Management",
+      "definition": "User wants to set, adjust, or cancel a timer."
+    },
+    {
+      "id": 14,
+      "name": "News Update",
+      "definition": "User wants to receive the latest news updates."
+    },
+    {
+      "id": 15,
+      "name": "Recipe Inquiry",
+      "definition": "User wants a recipe for a specific dish."
+    },
+    {
+      "id": 16,
+      "name": "Cancel Reminder",
+      "definition": "User wants to cancel a previously set reminder."
+    },
+    {
+      "id": 17,
+      "name": "Contact Inquiry",
+      "definition": "User wants to know who works for a specific employer."
+    },
+    {
+      "id": 18,
+      "name": "Music Playlist Creation",
+      "definition": "User wants to create a new music playlist."
+    },
+    {
+      "id": 19,
+      "name": "Event Inquiry",
+      "definition": "User wants to know about upcoming events in a specific location."
+    },
+    {
+      "id": 20,
+      "name": "Text Messaging",
+      "definition": "User wants to send a text message to a specific person."
+    },
+    {
+      "id": 21,
+      "name": "Call Management",
+      "definition": "User wants to manage incoming or ongoing calls."
+    },
+    {
+      "id": 22,
+      "name": "Location Reminder",
+      "definition": "User wants to set a reminder based on a specific location."
+    },
+    {
+      "id": 23,
+      "name": "Music Playback Control",
+      "definition": "User wants to control the playback of music tracks."
+    },
+    {
+      "id": 24,
+      "name": "Lyrics Inquiry",
+      "definition": "User wants to find the lyrics for a specific song."
+    },
+    {
+      "id": 25,
+      "name": "Calorie Inquiry",
+      "definition": "User wants to know the calorie content of a specific food item."
+    },
+    {
+      "id": 26,
+      "name": "Video Messaging",
+      "definition": "User wants to send a video message to a specific person."
+    },
+    {
+      "id": 27,
+      "name": "Alarm Adjustment",
+      "definition": "User wants to adjust the settings of an existing alarm."
+    },
+    {
+      "id": 28,
+      "name": "Event Recommendation",
+      "definition": "User wants recommendations for events happening in a specific location."
+    },
+    {
+      "id": 29,
+      "name": "Reminder Update",
+      "definition": "User wants to update the details of an existing reminder."
+    },
+    {
+      "id": 30,
+      "name": "Weather Update",
+      "definition": "User wants an update on the current weather conditions."
+    },
+    {
+      "id": 31,
+      "name": "Call Initiation",
+      "definition": "User wants to initiate a phone call to a specific person."
+    },
+    {
+      "id": 32,
+      "name": "Status Update",
+      "definition": "User wants to update their online status."
+    },
+    {
+      "id": 33,
+      "name": "Message Reply",
+      "definition": "User wants to reply to a message received."
+    },
+    {
+      "id": 34,
+      "name": "Music Provider Selection",
+      "definition": "User wants to select a specific music provider as the default."
+    },
+    {
+      "id": 35,
+      "name": "Traffic Update",
+      "definition": "User wants to receive updates on traffic conditions."
+    },
+    {
+      "id": 36,
+      "name": "Route Recommendation",
+      "definition": "User wants recommendations for alternative routes based on traffic conditions."
+    }
+  ]
+}

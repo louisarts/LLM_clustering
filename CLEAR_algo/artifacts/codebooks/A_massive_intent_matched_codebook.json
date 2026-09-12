@@ -1,0 +1,432 @@
+[
+ {
+  "id": 1,
+  "name": "BookTransportation",
+  "definition": "Requesting to book a transportation service, such as a taxi or ride-sharing."
+ },
+ {
+  "id": 2,
+  "name": "ScheduleMeeting",
+  "definition": "Requesting to schedule a meeting with a specific person at a particular time and location."
+ },
+ {
+  "id": 3,
+  "name": "GetNews",
+  "definition": "Requesting for news updates, either general or from a specific source."
+ },
+ {
+  "id": 4,
+  "name": "SetReminder",
+  "definition": "Requesting to be reminded about a specific event or task at a later time."
+ },
+ {
+  "id": 5,
+  "name": "GetWeatherForecast",
+  "definition": "Requesting the weather forecast for a specific period."
+ },
+ {
+  "id": 6,
+  "name": "PostOnSocialMedia",
+  "definition": "Requesting to post a message on a social media platform, such as Twitter."
+ },
+ {
+  "id": 7,
+  "name": "CheckEmail",
+  "definition": "Requesting to check email for new messages or information."
+ },
+ {
+  "id": 8,
+  "name": "FindLocation",
+  "definition": "Requesting to find nearby businesses or locations based on a specific criteria."
+ },
+ {
+  "id": 9,
+  "name": "AdjustAudio",
+  "definition": "Requesting to adjust the volume or mute the audio output."
+ },
+ {
+  "id": 10,
+  "name": "GetContactInformation",
+  "definition": "Requesting for contact details, such as a phone number."
+ },
+ {
+  "id": 11,
+  "name": "CheckUpcomingEvents",
+  "definition": "Requesting information about scheduled events, such as meetings or appointments."
+ },
+ {
+  "id": 12,
+  "name": "GetTravelTime",
+  "definition": "Requesting an estimated travel time to a scheduled event to ensure timely arrival."
+ },
+ {
+  "id": 13,
+  "name": "ManageShoppingList",
+  "definition": "Requesting to add or modify items on a shopping list."
+ },
+ {
+  "id": 14,
+  "name": "FollowNewsUpdates",
+  "definition": "Requesting to be notified about new developments or updates on a specific topic."
+ },
+ {
+  "id": 15,
+  "name": "PlayAudio",
+  "definition": "Requesting to play audio content, such as radio."
+ },
+ {
+  "id": 16,
+  "name": "CheckAlarmStatus",
+  "definition": "Requesting to confirm if an alarm is set."
+ },
+ {
+  "id": 17,
+  "name": "GetSportsSchedule",
+  "definition": "Requesting information about upcoming games or events for a specific sport."
+ },
+ {
+  "id": 18,
+  "name": "GetShowSummary",
+  "definition": "Asking for a brief synopsis or plot details about a TV show."
+ },
+ {
+  "id": 19,
+  "name": "GetCurrencyExchangeRate",
+  "definition": "Inquiring about the current exchange rate between two currencies."
+ },
+ {
+  "id": 20,
+  "name": "GetSongInformation",
+  "definition": "Requesting information about a specific song, such as the artist, title, or lyrics."
+ },
+ {
+  "id": 21,
+  "name": "GetEventInformation",
+  "definition": "Asking for details about events happening in a specific location and time period."
+ },
+ {
+  "id": 22,
+  "name": "GetPersonInformation",
+  "definition": "Seeking biographical details about a person, such as their birth year or profession."
+ },
+ {
+  "id": 23,
+  "name": "ProvideLegalConsultation",
+  "definition": "Requesting legal advice or guidance on a specific issue."
+ },
+ {
+  "id": 24,
+  "name": "ManageLists",
+  "definition": "Requesting to create, delete, or modify lists."
+ },
+ {
+  "id": 25,
+  "name": "GetCurrentTime",
+  "definition": "User wants to know the current time in a specific location."
+ },
+ {
+  "id": 26,
+  "name": "GetTemperature",
+  "definition": "User wants to know the current temperature."
+ },
+ {
+  "id": 27,
+  "name": "PlayMusicGenre",
+  "definition": "User wants to play music of a specific genre."
+ },
+ {
+  "id": 28,
+  "name": "TellJoke",
+  "definition": "User wants to hear a joke."
+ },
+ {
+  "id": 29,
+  "name": "CheckTime",
+  "definition": "User wants to confirm a specific time."
+ },
+ {
+  "id": 30,
+  "name": "CheckAvailability",
+  "definition": "User wants to know if they are free at a specific time."
+ },
+ {
+  "id": 31,
+  "name": "PlayGame",
+  "definition": "User wants to play a game with the assistant."
+ },
+ {
+  "id": 32,
+  "name": "AdjustLights",
+  "definition": "User wants to change the brightness of the lights."
+ },
+ {
+  "id": 33,
+  "name": "RespondToEmail",
+  "definition": "User wants to respond to a specific email."
+ },
+ {
+  "id": 34,
+  "name": "CallService",
+  "definition": "User wants to call a specific service."
+ },
+ {
+  "id": 35,
+  "name": "PhilosophicalQuery",
+  "definition": "User asks a question about the nature of consciousness or sentience."
+ },
+ {
+  "id": 36,
+  "name": "PlayRadioStation",
+  "definition": "User wants to play a specific radio station."
+ },
+ {
+  "id": 37,
+  "name": "GetTrainSchedule",
+  "definition": "Requesting information about train departures, including time and destination."
+ },
+ {
+  "id": 38,
+  "name": "PlayRadio",
+  "definition": "Playing a radio station."
+ },
+ {
+  "id": 39,
+  "name": "ManageTasks",
+  "definition": "Managing tasks, including deleting future events."
+ },
+ {
+  "id": 40,
+  "name": "GetUsageStatistics",
+  "definition": "Requesting information about the assistant's past usage patterns."
+ },
+ {
+  "id": 41,
+  "name": "GetTrafficConditions",
+  "definition": "Asking for real-time traffic information on a specific route."
+ },
+ {
+  "id": 42,
+  "name": "ShowLocalEvents",
+  "definition": "Requesting information about upcoming events in a specific location."
+ },
+ {
+  "id": 43,
+  "name": "ListItems",
+  "definition": "Asking the assistant to display the contents of a list."
+ },
+ {
+  "id": 44,
+  "name": "GetDirections",
+  "definition": "Requesting directions from the user's current location to a destination."
+ },
+ {
+  "id": 45,
+  "name": "SetBirthdayReminder",
+  "definition": "Setting a reminder for a specific date, such as a birthday."
+ },
+ {
+  "id": 46,
+  "name": "SendEmail",
+  "definition": "Composing and sending an email."
+ },
+ {
+  "id": 47,
+  "name": "GetFlightInformation",
+  "definition": "Requesting information about flight fares and schedules."
+ },
+ {
+  "id": 48,
+  "name": "AdjustVolume",
+  "definition": "Changing the volume level."
+ },
+ {
+  "id": 49,
+  "name": "GetCompanyInformation",
+  "definition": "Asking for information about a specific company."
+ },
+ {
+  "id": 50,
+  "name": "GetNewsSummary",
+  "definition": "Requesting a summary of the latest news."
+ },
+ {
+  "id": 51,
+  "name": "DeleteAlarm",
+  "definition": "Removing a specific alarm from the user's schedule."
+ },
+ {
+  "id": 52,
+  "name": "PlayMusic",
+  "definition": "Playing music."
+ },
+ {
+  "id": 53,
+  "name": "MakeCoffee",
+  "definition": "The user wants the assistant to turn on a coffee machine and brew coffee."
+ },
+ {
+  "id": 54,
+  "name": "StartGame",
+  "definition": "The user wants the assistant to launch a specific game."
+ },
+ {
+  "id": 55,
+  "name": "ReadLists",
+  "definition": "The user wants the assistant to read aloud their saved lists."
+ },
+ {
+  "id": 56,
+  "name": "MuteDevice",
+  "definition": "The user wants the assistant to mute the device's audio output."
+ },
+ {
+  "id": 57,
+  "name": "ShuffleMusic",
+  "definition": "The user wants the assistant to shuffle a playlist of songs by a specific artist."
+ },
+ {
+  "id": 58,
+  "name": "CheckAlarmTime",
+  "definition": "The user wants to know the time their next alarm is set for."
+ },
+ {
+  "id": 59,
+  "name": "PhilosophicalQuestion",
+  "definition": "The user poses a thought-provoking or ethical question."
+ },
+ {
+  "id": 60,
+  "name": "GetSongWriter",
+  "definition": "The user wants to know who wrote a particular song."
+ },
+ {
+  "id": 61,
+  "name": "GetSpecificTrainSchedule",
+  "definition": "The user wants to know the schedule for a specific train."
+ },
+ {
+  "id": 62,
+  "name": "FindUpcomingConcerts",
+  "definition": "The user wants to know about upcoming concerts by a specific artist or band."
+ },
+ {
+  "id": 63,
+  "name": "AddPodcastToPlaylist",
+  "definition": "The user wants to add podcast episodes to a playlist and start playing them."
+ },
+ {
+  "id": 64,
+  "name": "TurnOnRadio",
+  "definition": "The user wants the assistant to turn on a radio station."
+ },
+ {
+  "id": 65,
+  "name": "GetDeepestPointOnEarth",
+  "definition": "The user wants to know the deepest point on Earth."
+ },
+ {
+  "id": 66,
+  "name": "CheckNewEmails",
+  "definition": "The user wants to know if they have any new emails."
+ },
+ {
+  "id": 67,
+  "name": "CheckEmailsAfterTime",
+  "definition": "The user wants to know if they have any new emails received after a specific time."
+ },
+ {
+  "id": 68,
+  "name": "GetCurrentDate",
+  "definition": "The user wants to know the current date."
+ },
+ {
+  "id": 69,
+  "name": "GetMedicalInformation",
+  "definition": "Requesting information about a medical condition or treatment."
+ },
+ {
+  "id": 70,
+  "name": "ManageMusicPlayback",
+  "definition": "Controlling the playback of music, such as playing, pausing, skipping, shuffling, or repeating."
+ },
+ {
+  "id": 71,
+  "name": "AddContact",
+  "definition": "Adding a new contact to a list of contacts."
+ },
+ {
+  "id": 72,
+  "name": "ControlDevice",
+  "definition": "Activating or controlling a smart device, such as a Roomba or smart lights."
+ },
+ {
+  "id": 73,
+  "name": "SetTimer",
+  "definition": "Setting a timer for a specific duration."
+ },
+ {
+  "id": 74,
+  "name": "GetInformation",
+  "definition": "Requesting factual information, such as weather, climate, stock prices, news, or trivia."
+ },
+ {
+  "id": 75,
+  "name": "ManageCalendar",
+  "definition": "Interacting with a calendar, such as adding, deleting, or viewing events."
+ },
+ {
+  "id": 76,
+  "name": "SearchAndDiscover",
+  "definition": "Searching for and discovering content, such as podcasts, movies, restaurants, or vacation spots."
+ },
+ {
+  "id": 77,
+  "name": "ManageCommunication",
+  "definition": "Interacting with email or other communication channels, such as checking status, reading messages, or sending emails."
+ },
+ {
+  "id": 78,
+  "name": "BookTravel",
+  "definition": "Booking travel arrangements, such as train tickets or taxi rides."
+ },
+ {
+  "id": 79,
+  "name": "ManagePreferences",
+  "definition": "Storing user preferences, such as music genre or lighting settings."
+ },
+ {
+  "id": 80,
+  "name": "ReportIssues",
+  "definition": "Reporting problems or issues, such as product defects or complaints."
+ },
+ {
+  "id": 81,
+  "name": "PerformActions",
+  "definition": "Executing specific actions, such as opening apps, playing music, setting alarms, controlling smart devices, or ordering services."
+ },
+ {
+  "id": 82,
+  "name": "ManageData",
+  "definition": "Modifying or accessing user data, including contacts, reminders, calendar events, or financial information."
+ },
+ {
+  "id": 83,
+  "name": "ControlAudio",
+  "definition": "Managing audio playback, such as playing, pausing, resuming, or adjusting speed."
+ },
+ {
+  "id": 84,
+  "name": "EngageInConversation",
+  "definition": "Participating in a dialogue on a specific topic."
+ },
+ {
+  "id": 85,
+  "name": "SocialInteraction",
+  "definition": "Commands related to social media, such as posting feedback or complaints."
+ },
+ {
+  "id": 86,
+  "name": "AccessInformation",
+  "definition": "Retrieving information on various topics, including entertainment, news, or factual data."
+ }
+]

@@ -1,0 +1,82 @@
+[
+ {
+  "id": 1,
+  "name": "App & Website Experience - Positive",
+  "definition": "Praise regarding the design, ease of use, speed, or technical performance of the application or website."
+ },
+ {
+  "id": 2,
+  "name": "App & Website Experience - Negative",
+  "definition": "Complaints regarding bugs, crashes, glitches, slow performance, or poor user interface of the application or website."
+ },
+ {
+  "id": 3,
+  "name": "Customer Service - Positive",
+  "definition": "Praise for the helpfulness, responsiveness, or professionalism of support staff or agents."
+ },
+ {
+  "id": 4,
+  "name": "Customer Service - Negative",
+  "definition": "Complaints regarding unresponsive, unhelpful, or rude support staff and customer service channels."
+ },
+ {
+  "id": 5,
+  "name": "Product Quality - Positive",
+  "definition": "Satisfaction with the quality, fit, material, or variety of physical products purchased."
+ },
+ {
+  "id": 6,
+  "name": "Product Quality - Negative",
+  "definition": "Dissatisfaction with the quality, condition, sizing, or accuracy of physical products purchased."
+ },
+ {
+  "id": 7,
+  "name": "Delivery & Logistics - Positive",
+  "definition": "Praise for the speed, timing, or accuracy of shipping and delivery services."
+ },
+ {
+  "id": 8,
+  "name": "Delivery & Logistics - Negative",
+  "definition": "Complaints regarding delays, lost items, cancellations, or errors in the delivery process."
+ },
+ {
+  "id": 9,
+  "name": "Travel & Hospitality - Positive",
+  "definition": "Positive experiences with hotels, flights, restaurants, or transportation services booked or found via the service."
+ },
+ {
+  "id": 10,
+  "name": "Travel & Hospitality - Negative",
+  "definition": "Negative experiences with hotels, flights, restaurants, or transportation services booked or found via the service."
+ },
+ {
+  "id": 11,
+  "name": "Pricing & Value - Positive",
+  "definition": "Praise for low prices, good deals, discounts, investment returns, or general value for money."
+ },
+ {
+  "id": 12,
+  "name": "Pricing & Value - Negative",
+  "definition": "Complaints about high costs, hidden fees, poor financial returns, or lack of value."
+ },
+ {
+  "id": 13,
+  "name": "Trust & Security - Positive",
+  "definition": "Expressions of trust, safety, or reliability regarding the platform or service provider."
+ },
+ {
+  "id": 14,
+  "name": "Trust & Security - Negative",
+  "definition": "Accusations of scams, fraud, privacy violations, or general untrustworthiness."
+ },
+ {
+  "id": 15,
+  "name": "General Sentiment - Positive",
+  "definition": "General praise or recommendation of the service without mentioning a specific functional aspect."
+ },
+ {
+  "id": 16,
+  "name": "General Sentiment - Negative",
+  "definition": "General criticism or disapproval of the service without mentioning a specific functional aspect."
+ }
+]

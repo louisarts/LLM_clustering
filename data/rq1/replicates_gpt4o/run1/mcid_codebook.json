@@ -1,0 +1,75 @@
+{
+  "bench": "mcid",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Transmission and Spread",
+      "definition": "Questions about how COVID-19 spreads and the risk of transmission through various means."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Health Concerns",
+      "definition": "Inquiries about symptoms of COVID-19 and personal health concerns related to the virus."
+    },
+    {
+      "id": 3,
+      "name": "Travel and Safety",
+      "definition": "Questions regarding the safety of travel and related advisories during the pandemic."
+    },
+    {
+      "id": 4,
+      "name": "Prevention and Protection",
+      "definition": "Requests for information on how to prevent infection and protect oneself and others from COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Treatment and Cure",
+      "definition": "Inquiries about treatment options, cures, and medical recommendations for COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Vaccines",
+      "definition": "Questions about the availability and development of vaccines for COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Statistics and Updates",
+      "definition": "Requests for the latest statistics, news updates, and press releases related to COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Myths and Misconceptions",
+      "definition": "Inquiries about myths, misconceptions, and misinformation regarding COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Donations and Support",
+      "definition": "Requests for information on how to donate or support COVID-19 relief efforts."
+    },
+    {
+      "id": 10,
+      "name": "General Information",
+      "definition": "Requests for general information and understanding about COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Social and Economic Impact",
+      "definition": "Questions about the social and economic effects of the COVID-19 pandemic."
+    },
+    {
+      "id": 12,
+      "name": "Personal Greetings and Gratitude",
+      "definition": "Messages expressing greetings, gratitude, or personal interaction with the bot."
+    },
+    {
+      "id": 13,
+      "name": "Sharing and Communication",
+      "definition": "Requests to share information or communicate updates with others."
+    }
+  ]
+}

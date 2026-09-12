@@ -1,0 +1,57 @@
+{
+  "bench": "bbcnews",
+  "run": 9,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics",
+      "definition": "News related to government, political parties, elections, policy, and political figures within a country."
+    },
+    {
+      "id": 2,
+      "name": "Business and Finance",
+      "definition": "News concerning companies, markets, economics, trade, employment, and financial indicators."
+    },
+    {
+      "id": 3,
+      "name": "Sports",
+      "definition": "News covering athletic competitions, teams, athletes, and related events."
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "News about computing, internet, telecommunications, consumer electronics, and scientific advancements with a technological application."
+    },
+    {
+      "id": 5,
+      "name": "Culture and Entertainment",
+      "definition": "News about film, music, television, arts, literature, and celebrity culture."
+    },
+    {
+      "id": 6,
+      "name": "Law and Crime",
+      "definition": "News concerning legal proceedings, criminal acts, law enforcement, and judicial decisions."
+    },
+    {
+      "id": 7,
+      "name": "International Relations",
+      "definition": "News about diplomatic relations, foreign policy, and interactions between countries or international bodies."
+    },
+    {
+      "id": 8,
+      "name": "Disasters and Humanitarian Aid",
+      "definition": "News concerning natural disasters, humanitarian crises, and international relief efforts."
+    },
+    {
+      "id": 9,
+      "name": "Social Issues",
+      "definition": "News related to societal trends, public health, community concerns, and human rights."
+    },
+    {
+      "id": 10,
+      "name": "Science and Environment",
+      "definition": "News about scientific discoveries, research, environmental issues, and ecological concerns."
+    }
+  ]
+}

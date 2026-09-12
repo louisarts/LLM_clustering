@@ -1,0 +1,84 @@
+{
+  "bench": "clinc150_domain",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking & Credit Cards",
+      "definition": "Managing bank accounts, credit cards, transactions, rewards, and reporting lost or stolen cards."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Scheduling",
+      "definition": "Checking, creating, or managing calendar events, meetings, and reminders."
+    },
+    {
+      "id": 3,
+      "name": "Device Settings & Control",
+      "definition": "Adjusting device settings, hardware controls, voice modes, and connectivity."
+    },
+    {
+      "id": 4,
+      "name": "Food & Cooking",
+      "definition": "Requesting recipes, nutritional information, and cooking instructions or tips."
+    },
+    {
+      "id": 5,
+      "name": "General Knowledge & QA",
+      "definition": "Answering questions about facts, definitions, spelling, math, philosophy, and general trivia."
+    },
+    {
+      "id": 6,
+      "name": "Home & Auto Maintenance",
+      "definition": "Managing vehicle maintenance, home utilities, and household chores."
+    },
+    {
+      "id": 7,
+      "name": "Media & Music",
+      "definition": "Controlling music playback, identifying songs, and managing playlists."
+    },
+    {
+      "id": 8,
+      "name": "Personal Assistant Meta",
+      "definition": "Questions about the assistant's identity, capabilities, personality, and naming."
+    },
+    {
+      "id": 9,
+      "name": "Reservations & Travel Booking",
+      "definition": "Booking flights, rental cars, hotels, and restaurant reservations."
+    },
+    {
+      "id": 10,
+      "name": "Shopping & Orders",
+      "definition": "Managing shopping lists, checking order status, and product reviews."
+    },
+    {
+      "id": 11,
+      "name": "Transportation & Navigation",
+      "definition": "Requesting directions, checking traffic, and booking rideshares."
+    },
+    {
+      "id": 12,
+      "name": "Travel Information",
+      "definition": "Seeking information about travel requirements, visas, currency exchange, and local attractions."
+    },
+    {
+      "id": 13,
+      "name": "Utilities & Bills",
+      "definition": "Checking and paying utility bills, insurance, and managing budgets."
+    },
+    {
+      "id": 14,
+      "name": "Weather & Time",
+      "definition": "Checking weather forecasts, time zones, and current time."
+    },
+    {
+      "id": 15,
+      "name": "Work & Finance",
+      "definition": "Managing payroll, salary, PTO, and retirement accounts."
+    }
+  ]
+}

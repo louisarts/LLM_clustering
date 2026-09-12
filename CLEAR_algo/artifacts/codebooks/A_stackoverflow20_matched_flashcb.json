@@ -1,0 +1,282 @@
+[
+ {
+  "id": 1,
+  "name": "Java",
+  "definition": "Questions related to the Java programming language or its ecosystem."
+ },
+ {
+  "id": 2,
+  "name": "Scala",
+  "definition": "Questions related to the Scala programming language."
+ },
+ {
+  "id": 3,
+  "name": "Haskell",
+  "definition": "Questions related to the Haskell programming language."
+ },
+ {
+  "id": 4,
+  "name": "Python",
+  "definition": "Questions related to the Python programming language."
+ },
+ {
+  "id": 5,
+  "name": "PHP",
+  "definition": "Questions related to the PHP programming language."
+ },
+ {
+  "id": 6,
+  "name": "Javascript",
+  "definition": "Questions related to the Javascript programming language."
+ },
+ {
+  "id": 7,
+  "name": "Objective-C",
+  "definition": "Questions related to the Objective-C programming language."
+ },
+ {
+  "id": 8,
+  "name": "C#",
+  "definition": "Questions related to the C# programming language."
+ },
+ {
+  "id": 9,
+  "name": "VBA",
+  "definition": "Questions related to Visual Basic for Applications."
+ },
+ {
+  "id": 10,
+  "name": "Oracle Database",
+  "definition": "Questions related to Oracle database systems, including PL/SQL and tools like SQLDeveloper."
+ },
+ {
+  "id": 11,
+  "name": "SQL Server",
+  "definition": "Questions related to Microsoft SQL Server."
+ },
+ {
+  "id": 12,
+  "name": "MySQL",
+  "definition": "Questions related to MySQL database systems."
+ },
+ {
+  "id": 13,
+  "name": "PostgreSQL",
+  "definition": "Questions related to PostgreSQL database systems."
+ },
+ {
+  "id": 14,
+  "name": "HSQLDB",
+  "definition": "Questions related to HSQLDB database systems."
+ },
+ {
+  "id": 15,
+  "name": "SQL",
+  "definition": "Questions related to the general SQL query language, not specific to one database system."
+ },
+ {
+  "id": 16,
+  "name": "Hibernate",
+  "definition": "Questions related to the Hibernate ORM framework, including HQL and JPA mapping."
+ },
+ {
+  "id": 17,
+  "name": "LINQ",
+  "definition": "Questions related to Language Integrated Query, including LINQ to SQL."
+ },
+ {
+  "id": 18,
+  "name": "Apache HTTP Server",
+  "definition": "Questions related to the Apache HTTP Server, including mod_rewrite."
+ },
+ {
+  "id": 19,
+  "name": "Apache Tomcat",
+  "definition": "Questions related to the Apache Tomcat servlet container."
+ },
+ {
+  "id": 20,
+  "name": "Lighttpd",
+  "definition": "Questions related to the Lighttpd web server."
+ },
+ {
+  "id": 21,
+  "name": "FastCGI",
+  "definition": "Questions related to the FastCGI protocol for web server interaction."
+ },
+ {
+  "id": 22,
+  "name": "Memcached",
+  "definition": "Questions related to the Memcached distributed memory caching system."
+ },
+ {
+  "id": 23,
+  "name": "Messaging Systems",
+  "definition": "Questions related to message queueing systems like OpenMQ."
+ },
+ {
+  "id": 24,
+  "name": "AJAX",
+  "definition": "Questions related to Asynchronous JavaScript and XML."
+ },
+ {
+  "id": 25,
+  "name": "jQuery",
+  "definition": "Questions related to the jQuery Javascript library."
+ },
+ {
+  "id": 26,
+  "name": "ASP.NET",
+  "definition": "Questions related to Microsoft's ASP.NET web framework."
+ },
+ {
+  "id": 27,
+  "name": "Apache Struts",
+  "definition": "Questions related to the Apache Struts web framework."
+ },
+ {
+  "id": 28,
+  "name": "Restlet",
+  "definition": "Questions related to the Restlet RESTful web framework."
+ },
+ {
+  "id": 29,
+  "name": "Web Browsers",
+  "definition": "Questions related to specific web browser behavior or compatibility."
+ },
+ {
+  "id": 30,
+  "name": "Spring Framework",
+  "definition": "Questions related to the Spring Framework, including its various modules like Spring-JDBC, Spring Web Flow, and Spring AOP."
+ },
+ {
+  "id": 31,
+  "name": "Java EE",
+  "definition": "Questions related to Java Platform, Enterprise Edition, including EJB and application servers like Glassfish."
+ },
+ {
+  "id": 32,
+  "name": "Qt",
+  "definition": "Questions related to the Qt cross-platform application framework, including QMake and specific Qt classes."
+ },
+ {
+  "id": 33,
+  "name": "WxWidgets",
+  "definition": "Questions related to the WxWidgets cross-platform GUI library."
+ },
+ {
+  "id": 34,
+  "name": "Adobe Flex",
+  "definition": "Questions related to the Adobe Flex framework."
+ },
+ {
+  "id": 35,
+  "name": "BlazeDS",
+  "definition": "Questions related to Adobe BlazeDS data services."
+ },
+ {
+  "id": 36,
+  "name": "WordPress",
+  "definition": "Questions related to the WordPress Content Management System."
+ },
+ {
+  "id": 37,
+  "name": "Drupal",
+  "definition": "Questions related to the Drupal Content Management System, including modules like Ubercart."
+ },
+ {
+  "id": 38,
+  "name": "Magento",
+  "definition": "Questions related to the Magento e-commerce platform."
+ },
+ {
+  "id": 39,
+  "name": "SharePoint",
+  "definition": "Questions related to Microsoft SharePoint, including CAML and WSS."
+ },
+ {
+  "id": 40,
+  "name": "Subversion (SVN)",
+  "definition": "Questions related to the Subversion version control system, including clients like TortoiseSVN."
+ },
+ {
+  "id": 41,
+  "name": "Git",
+  "definition": "Questions related to the Git distributed version control system."
+ },
+ {
+  "id": 42,
+  "name": "ClearCase",
+  "definition": "Questions related to IBM Rational ClearCase."
+ },
+ {
+  "id": 43,
+  "name": "Visual Studio",
+  "definition": "Questions related to Microsoft Visual Studio IDE."
+ },
+ {
+  "id": 44,
+  "name": "Eclipse",
+  "definition": "Questions related to the Eclipse IDE."
+ },
+ {
+  "id": 45,
+  "name": "Xcode",
+  "definition": "Questions related to Apple's Xcode IDE."
+ },
+ {
+  "id": 46,
+  "name": "IntelliJ IDEA",
+  "definition": "Questions related to the IntelliJ IDEA IDE."
+ },
+ {
+  "id": 47,
+  "name": "Debugging Tools",
+  "definition": "Questions related to software debuggers like GDB."
+ },
+ {
+  "id": 48,
+  "name": "macOS Development",
+  "definition": "Questions related to developing applications for macOS, including Cocoa and specific Apple APIs."
+ },
+ {
+  "id": 49,
+  "name": "Bash",
+  "definition": "Questions related to the Bash shell and scripting."
+ },
+ {
+  "id": 50,
+  "name": "Mobile Development",
+  "definition": "Questions related to developing for mobile platforms, such as Symbian."
+ },
+ {
+  "id": 51,
+  "name": "Matlab",
+  "definition": "Questions related to MATLAB and Simulink."
+ },
+ {
+  "id": 52,
+  "name": "Microsoft Excel",
+  "definition": "Questions related to Microsoft Excel software."
+ },
+ {
+  "id": 53,
+  "name": "JIRA",
+  "definition": "Questions related to the JIRA issue tracking system."
+ },
+ {
+  "id": 54,
+  "name": "SAP",
+  "definition": "Questions related to SAP business software, often in an integration context."
+ },
+ {
+  "id": 55,
+  "name": "Business Process Management",
+  "definition": "Questions related to Business Process Management suites like JBoss jBPM."
+ },
+ {
+  "id": 56,
+  "name": "JVM",
+  "definition": "Questions related to the Java Virtual Machine as a runtime environment."
+ }
+]

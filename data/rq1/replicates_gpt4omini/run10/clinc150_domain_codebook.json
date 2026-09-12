@@ -1,0 +1,85 @@
+{
+  "bench": "clinc150_domain",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Meetings and Scheduling",
+      "definition": "Inquiries and actions related to meetings, appointments, and calendar management."
+    },
+    {
+      "id": 2,
+      "name": "Travel and Transportation",
+      "definition": "Questions and requests regarding travel arrangements, visas, and transportation options."
+    },
+    {
+      "id": 3,
+      "name": "Finance and Banking",
+      "definition": "Requests and inquiries related to banking, credit cards, and financial transactions."
+    },
+    {
+      "id": 4,
+      "name": "Cooking and Recipes",
+      "definition": "Questions and requests for cooking instructions, recipes, and meal suggestions."
+    },
+    {
+      "id": 5,
+      "name": "Health and Medical",
+      "definition": "Inquiries related to health care, medical appointments, and health insurance."
+    },
+    {
+      "id": 6,
+      "name": "Utilities and Bills",
+      "definition": "Questions and requests regarding utility bills, payments, and account management."
+    },
+    {
+      "id": 7,
+      "name": "Shopping and Grocery Lists",
+      "definition": "Requests related to shopping lists, grocery items, and product inquiries."
+    },
+    {
+      "id": 8,
+      "name": "Entertainment and Media",
+      "definition": "Inquiries related to music, movies, and other forms of entertainment."
+    },
+    {
+      "id": 9,
+      "name": "Personal Assistance and Reminders",
+      "definition": "Requests for reminders, to-do lists, and personal organization."
+    },
+    {
+      "id": 10,
+      "name": "Weather and Environment",
+      "definition": "Questions related to weather forecasts and environmental conditions."
+    },
+    {
+      "id": 11,
+      "name": "Trivia and General Knowledge",
+      "definition": "Inquiries for interesting facts, trivia, and general knowledge."
+    },
+    {
+      "id": 12,
+      "name": "Technical Support and Troubleshooting",
+      "definition": "Requests for assistance with technical issues and device management."
+    },
+    {
+      "id": 13,
+      "name": "Insurance and Claims",
+      "definition": "Questions related to insurance policies, claims, and coverage."
+    },
+    {
+      "id": 14,
+      "name": "Personal Information and Identity",
+      "definition": "Inquiries about personal identity, preferences, and account details."
+    },
+    {
+      "id": 15,
+      "name": "Language and Communication",
+      "definition": "Requests related to language preferences and communication styles."
+    }
+  ]
+}

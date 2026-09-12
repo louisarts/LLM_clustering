@@ -1,0 +1,20 @@
+bench,gold_k,n_docs,criterion
+arxiv_fine,93,3674,"which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to"
+banking77,77,1979,which banking customer-service intent the query expresses
+bbcnews,5,2225,which news topic area the article covers
+clinc150,151,5500,"which assistant-command intent the utterance expresses, that is what the user wants done"
+clinc150_domain,10,4500,which general domain of assistant use the utterance belongs to
+dbpedia,14,3010,which type of entity the encyclopedia article describes
+fewevent,34,4742,"which type of event the trigger word stated at the end of the text (""The event trigger is ..."") denotes"
+fewnerd,58,3789,"which entity type the entity named at the end of the text (""The entity type of X"") belongs to"
+fewrel,64,4480,"which semantic relation holds between the two entities stated at the end of the text (""The relation between X and Y"")"
+massive_domain,18,2974,which domain of everyday assistant use the utterance belongs to
+massive_intent,59,2974,"which assistant-command intent the utterance expresses, that is what the user wants done"
+mcid,16,1745,which COVID-19-related user intent the utterance expresses
+mtop_domain,11,4386,which domain of assistant functionality the utterance belongs to
+mtop_intent,102,4386,"which assistant-command intent the utterance expresses, that is what the user wants done"
+reddit_s2s,49,6000,which subreddit community the post title was written for
+snips,7,3010,"which assistant-command intent the utterance expresses, that is what the user wants done"
+stackexchange_cl,121,4156,which StackExchange community / site the question title was posted to
+stackoverflow20,20,3000,which programming technology or tool the question is about
+tweet89,89,2472,which specific news story or event the tweet is about

@@ -1,0 +1,50 @@
+{
+  "bench": "clinc150_domain",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Travel Information",
+      "definition": "Utterances related to travel plans, reservations, locations, and transportation"
+    },
+    {
+      "id": 2,
+      "name": "Financial Inquiries",
+      "definition": "Utterances related to banking, credit cards, payments, and financial accounts"
+    },
+    {
+      "id": 3,
+      "name": "General Knowledge",
+      "definition": "Utterances seeking information or trivia on various topics"
+    },
+    {
+      "id": 4,
+      "name": "Task Management",
+      "definition": "Utterances related to reminders, to-do lists, and scheduling"
+    },
+    {
+      "id": 5,
+      "name": "Technical Support",
+      "definition": "Utterances seeking help with technical issues or device settings"
+    },
+    {
+      "id": 6,
+      "name": "Food and Recipe Queries",
+      "definition": "Utterances related to cooking, recipes, and food preferences"
+    },
+    {
+      "id": 7,
+      "name": "Health and Wellness",
+      "definition": "Utterances related to health plans, medical inquiries, and nutrition information"
+    },
+    {
+      "id": 8,
+      "name": "Language and Communication",
+      "definition": "Utterances related to language preferences, accents, and communication styles"
+    }
+  ]
+}

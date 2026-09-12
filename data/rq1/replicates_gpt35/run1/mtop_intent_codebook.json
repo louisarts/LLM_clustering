@@ -1,0 +1,110 @@
+{
+  "bench": "mtop_intent",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "User wants to create or modify an alarm for a specific time."
+    },
+    {
+      "id": 2,
+      "name": "Check Weather",
+      "definition": "User wants to know the current or forecasted weather for a specific location."
+    },
+    {
+      "id": 3,
+      "name": "Check News",
+      "definition": "User wants to get the latest news headlines or updates."
+    },
+    {
+      "id": 4,
+      "name": "Set Timer",
+      "definition": "User wants to create or modify a timer for a specific duration."
+    },
+    {
+      "id": 5,
+      "name": "Check Calendar/Reminders",
+      "definition": "User wants to view, create, modify, or delete calendar events or reminders."
+    },
+    {
+      "id": 6,
+      "name": "Make Call/Message",
+      "definition": "User wants to initiate a call or send a message to a specific contact."
+    },
+    {
+      "id": 7,
+      "name": "Play Music",
+      "definition": "User wants to play music or a specific song/artist."
+    },
+    {
+      "id": 8,
+      "name": "Cooking Instructions/Recipes",
+      "definition": "User wants to know cooking instructions or recipes for a specific dish."
+    },
+    {
+      "id": 9,
+      "name": "Check Online Status",
+      "definition": "User wants to know the online status of specific contacts."
+    },
+    {
+      "id": 10,
+      "name": "Search Contacts/People",
+      "definition": "User wants to search for specific contacts or people."
+    },
+    {
+      "id": 11,
+      "name": "Change Status/Settings",
+      "definition": "User wants to change their status or settings on a platform."
+    },
+    {
+      "id": 12,
+      "name": "Search Social Media",
+      "definition": "User wants to search for or access social media content."
+    },
+    {
+      "id": 13,
+      "name": "Check Sports Events",
+      "definition": "User wants to know about sports events or games."
+    },
+    {
+      "id": 14,
+      "name": "Search Recipes",
+      "definition": "User wants to search for specific recipes or cooking instructions."
+    },
+    {
+      "id": 15,
+      "name": "Search Music",
+      "definition": "User wants to search for or play specific music or songs."
+    },
+    {
+      "id": 16,
+      "name": "Check Temperature Conversion",
+      "definition": "User wants to convert temperature between Celsius and Fahrenheit."
+    },
+    {
+      "id": 17,
+      "name": "Search Events/Activities",
+      "definition": "User wants to search for events or activities happening in a specific location."
+    },
+    {
+      "id": 18,
+      "name": "Search Health/Nutrition Information",
+      "definition": "User wants to search for health or nutrition-related information."
+    },
+    {
+      "id": 19,
+      "name": "Search Political News",
+      "definition": "User wants to search for or access political news or updates."
+    },
+    {
+      "id": 20,
+      "name": "Search Entertainment News",
+      "definition": "User wants to search for or access entertainment news or updates."
+    }
+  ]
+}

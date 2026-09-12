@@ -1,0 +1,150 @@
+{
+  "bench": "reddit_s2s",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "definition": "Posts related to technology, gadgets, and software."
+    },
+    {
+      "id": 2,
+      "name": "Astrology",
+      "definition": "Posts discussing astrology and horoscopes."
+    },
+    {
+      "id": 3,
+      "name": "Music",
+      "definition": "Posts about music, musicians, and music events."
+    },
+    {
+      "id": 4,
+      "name": "Automotive",
+      "definition": "Posts related to cars, automotive news, and car maintenance."
+    },
+    {
+      "id": 5,
+      "name": "Coffee",
+      "definition": "Posts discussing coffee, coffee makers, and coffee subscriptions."
+    },
+    {
+      "id": 6,
+      "name": "Education",
+      "definition": "Posts related to homework help, research ideas, and educational resources."
+    },
+    {
+      "id": 7,
+      "name": "Politics",
+      "definition": "Posts discussing political news, events, and figures."
+    },
+    {
+      "id": 8,
+      "name": "Sports",
+      "definition": "Posts about sports events, teams, and players."
+    },
+    {
+      "id": 9,
+      "name": "Health",
+      "definition": "Posts discussing health, wellness, and medical advice."
+    },
+    {
+      "id": 10,
+      "name": "Anime",
+      "definition": "Posts related to anime shows, characters, and discussions."
+    },
+    {
+      "id": 11,
+      "name": "Architecture",
+      "definition": "Posts discussing architecture styles, buildings, and design."
+    },
+    {
+      "id": 12,
+      "name": "Travel",
+      "definition": "Posts about travel destinations, tips, and experiences."
+    },
+    {
+      "id": 13,
+      "name": "Pets",
+      "definition": "Posts about pet care, adoption, and animal stories."
+    },
+    {
+      "id": 14,
+      "name": "Food and Drink",
+      "definition": "Posts discussing food, recipes, and beverages."
+    },
+    {
+      "id": 15,
+      "name": "Relationships",
+      "definition": "Posts about relationship advice and experiences."
+    },
+    {
+      "id": 16,
+      "name": "Art",
+      "definition": "Posts related to art, artists, and artistic techniques."
+    },
+    {
+      "id": 17,
+      "name": "Local News",
+      "definition": "Posts discussing local news and events in specific regions."
+    },
+    {
+      "id": 18,
+      "name": "Finance",
+      "definition": "Posts related to financial advice, investments, and economic news."
+    },
+    {
+      "id": 19,
+      "name": "Legal",
+      "definition": "Posts discussing legal advice and issues."
+    },
+    {
+      "id": 20,
+      "name": "Science",
+      "definition": "Posts about scientific discoveries, research, and discussions."
+    },
+    {
+      "id": 21,
+      "name": "Gaming",
+      "definition": "Posts related to video games, gaming news, and discussions."
+    },
+    {
+      "id": 22,
+      "name": "Books",
+      "definition": "Posts discussing books, authors, and literary topics."
+    },
+    {
+      "id": 23,
+      "name": "Movies and TV",
+      "definition": "Posts about movies, TV shows, and entertainment news."
+    },
+    {
+      "id": 24,
+      "name": "Humor",
+      "definition": "Posts intended to be humorous or funny."
+    },
+    {
+      "id": 25,
+      "name": "DIY",
+      "definition": "Posts about do-it-yourself projects and crafts."
+    },
+    {
+      "id": 26,
+      "name": "Fashion",
+      "definition": "Posts discussing fashion, clothing, and style."
+    },
+    {
+      "id": 27,
+      "name": "Religion and Spirituality",
+      "definition": "Posts discussing religious beliefs and spiritual practices."
+    },
+    {
+      "id": 28,
+      "name": "Miscellaneous",
+      "definition": "Posts that do not fit into any other category."
+    }
+  ]
+}

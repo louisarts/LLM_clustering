@@ -1,0 +1,70 @@
+{
+  "bench": "banking77",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Issues",
+      "definition": "Queries related to problems with card usage, activation, or delivery."
+    },
+    {
+      "id": 2,
+      "name": "Fraud and Unauthorized Transactions",
+      "definition": "Concerns about unauthorized access or fraudulent transactions on an account."
+    },
+    {
+      "id": 3,
+      "name": "Refunds and Disputes",
+      "definition": "Requests for refunds or disputes over transactions."
+    },
+    {
+      "id": 4,
+      "name": "Currency Exchange",
+      "definition": "Questions about currency conversion and related fees."
+    },
+    {
+      "id": 5,
+      "name": "Account Management",
+      "definition": "Inquiries about account settings, updates, or deletions."
+    },
+    {
+      "id": 6,
+      "name": "Transfers and Payments",
+      "definition": "Issues or questions regarding money transfers and payment processing."
+    },
+    {
+      "id": 7,
+      "name": "Top-Up and Deposits",
+      "definition": "Concerns about adding funds to an account or deposit issues."
+    },
+    {
+      "id": 8,
+      "name": "Fees and Charges",
+      "definition": "Questions about fees, charges, and unexpected costs."
+    },
+    {
+      "id": 9,
+      "name": "PIN and Security",
+      "definition": "Issues related to PIN usage, security settings, and identity verification."
+    },
+    {
+      "id": 10,
+      "name": "Contactless and Virtual Cards",
+      "definition": "Inquiries about using contactless payments or virtual cards."
+    },
+    {
+      "id": 11,
+      "name": "ATM Issues",
+      "definition": "Problems encountered when using ATMs, such as card retention or incorrect cash dispensed."
+    },
+    {
+      "id": 12,
+      "name": "Service Availability and Support",
+      "definition": "Questions about service availability, support, and general inquiries."
+    }
+  ]
+}

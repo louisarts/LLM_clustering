@@ -1,0 +1,90 @@
+{
+  "bench": "clinc150_domain",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Finance",
+      "definition": "Inquiries and actions related to banking, credit cards, loans, and financial transactions."
+    },
+    {
+      "id": 2,
+      "name": "Travel",
+      "definition": "Requests for information or assistance regarding travel arrangements, destinations, and related services."
+    },
+    {
+      "id": 3,
+      "name": "Health",
+      "definition": "Questions and requests related to health, medical appointments, and health insurance."
+    },
+    {
+      "id": 4,
+      "name": "Food and Cooking",
+      "definition": "Inquiries about recipes, cooking instructions, and nutritional information."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment",
+      "definition": "Requests for music, jokes, and other forms of entertainment."
+    },
+    {
+      "id": 6,
+      "name": "Utilities",
+      "definition": "Questions and actions related to utility bills, payments, and service inquiries."
+    },
+    {
+      "id": 7,
+      "name": "Personal Assistance",
+      "definition": "General inquiries and requests for assistance with personal tasks and organization."
+    },
+    {
+      "id": 8,
+      "name": "Technology",
+      "definition": "Questions and requests related to devices, software, and technical support."
+    },
+    {
+      "id": 9,
+      "name": "Transportation",
+      "definition": "Inquiries about transportation options, including rideshares and public transport."
+    },
+    {
+      "id": 10,
+      "name": "Calendar Management",
+      "definition": "Requests for managing appointments, reminders, and scheduling."
+    },
+    {
+      "id": 11,
+      "name": "Education",
+      "definition": "Questions related to learning, knowledge, and educational resources."
+    },
+    {
+      "id": 12,
+      "name": "Weather",
+      "definition": "Inquiries about current weather conditions and forecasts."
+    },
+    {
+      "id": 13,
+      "name": "Shopping",
+      "definition": "Requests related to shopping lists, product inquiries, and order tracking."
+    },
+    {
+      "id": 14,
+      "name": "Home Maintenance",
+      "definition": "Questions and requests related to home repairs, maintenance, and utilities."
+    },
+    {
+      "id": 15,
+      "name": "Identity and Personal Information",
+      "definition": "Inquiries about personal identity, names, and related information."
+    },
+    {
+      "id": 16,
+      "name": "Miscellaneous",
+      "definition": "General inquiries that do not fit into other specific categories."
+    }
+  ]
+}

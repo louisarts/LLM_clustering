@@ -1,0 +1,414 @@
+{
+  "bench": "reddit_s2s",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Science and Chemistry",
+      "definition": "Topics related to chemical experiments, biological processes, and general scientific inquiry."
+    },
+    {
+      "id": 2,
+      "name": "Sports",
+      "definition": "Posts concerning professional sports, athletes, teams, and related discussions."
+    },
+    {
+      "id": 3,
+      "name": "Baltimore",
+      "definition": "Local news, events, and questions specific to Baltimore, Maryland."
+    },
+    {
+      "id": 4,
+      "name": "Nature and Wildlife",
+      "definition": "Images, videos, and facts regarding wild animals and natural phenomena."
+    },
+    {
+      "id": 5,
+      "name": "Cats",
+      "definition": "Content focusing on domestic cats, including photos, advice, and humor."
+    },
+    {
+      "id": 6,
+      "name": "Comics and Graphic Novels",
+      "definition": "Discussion of comic books, graphic novels, and industry news."
+    },
+    {
+      "id": 7,
+      "name": "Blogging",
+      "definition": "Advice and discussion regarding blogging platforms, SEO, and monetization."
+    },
+    {
+      "id": 8,
+      "name": "Economics and Business",
+      "definition": "News and analysis regarding economic trends, inflation, and corporate developments."
+    },
+    {
+      "id": 9,
+      "name": "Books and Literature",
+      "definition": "Discussions, recommendations, and searches for novels and authors."
+    },
+    {
+      "id": 10,
+      "name": "Anime",
+      "definition": "Topics related to Japanese animation, including series discussions and recommendations."
+    },
+    {
+      "id": 11,
+      "name": "Astrology",
+      "definition": "Posts concerning horoscopes, zodiac signs, and astrological predictions."
+    },
+    {
+      "id": 12,
+      "name": "Education and Career Advice",
+      "definition": "Questions and advice regarding academic majors, career paths, and life direction."
+    },
+    {
+      "id": 13,
+      "name": "Housing and Urban Planning",
+      "definition": "Issues regarding affordable housing, neighborhood development, and real estate."
+    },
+    {
+      "id": 14,
+      "name": "Spam and Promotion",
+      "definition": "Unsolicited advertisements, betting site links, and promotional content."
+    },
+    {
+      "id": 15,
+      "name": "Cycling",
+      "definition": "Discussion of bicycles, cycling gear, routes, and training."
+    },
+    {
+      "id": 16,
+      "name": "Beer",
+      "definition": "Topics related to craft beer, breweries, and beer culture."
+    },
+    {
+      "id": 17,
+      "name": "Anime Figures and Merchandise",
+      "definition": "Identification and display of anime character figures and collectibles."
+    },
+    {
+      "id": 18,
+      "name": "Brussels",
+      "definition": "Local news, questions, and discussions specific to Brussels, Belgium."
+    },
+    {
+      "id": 19,
+      "name": "Star Wars",
+      "definition": "Content related to the Star Wars franchise, including fan art and news."
+    },
+    {
+      "id": 20,
+      "name": "Automotive",
+      "definition": "Discussion of cars, vehicle maintenance, and the automotive industry."
+    },
+    {
+      "id": 21,
+      "name": "Space and NASA",
+      "definition": "Topics concerning space exploration, NASA missions, and astronomy."
+    },
+    {
+      "id": 22,
+      "name": "Apple and iOS",
+      "definition": "Discussion of Apple products, iOS software, and technical support."
+    },
+    {
+      "id": 23,
+      "name": "Marketing and PR",
+      "definition": "Advice and news regarding public relations and marketing strategies."
+    },
+    {
+      "id": 24,
+      "name": "Dogs",
+      "definition": "Content focusing on dogs, including photos, videos, and advice."
+    },
+    {
+      "id": 25,
+      "name": "Toronto",
+      "definition": "Local news and events specific to Toronto, Canada."
+    },
+    {
+      "id": 26,
+      "name": "Chicago",
+      "definition": "Local news, events, and discussions specific to Chicago, Illinois."
+    },
+    {
+      "id": 27,
+      "name": "Aviation",
+      "definition": "Topics related to aircraft, piloting, and aviation incidents."
+    },
+    {
+      "id": 28,
+      "name": "True Crime and Mysteries",
+      "definition": "Discussion of unsolved mysteries, historical crimes, and investigations."
+    },
+    {
+      "id": 29,
+      "name": "Anarchism",
+      "definition": "News and theory related to anarchist movements and philosophy."
+    },
+    {
+      "id": 30,
+      "name": "Self Improvement and Advice",
+      "definition": "Requests for life advice and personal development strategies."
+    },
+    {
+      "id": 31,
+      "name": "Guitar and Music Lessons",
+      "definition": "Educational content related to learning guitar and other instruments."
+    },
+    {
+      "id": 32,
+      "name": "Architecture",
+      "definition": "Discussion of building design, architectural styles, and projects."
+    },
+    {
+      "id": 33,
+      "name": "Canada Politics and News",
+      "definition": "National news and political discussion specific to Canada."
+    },
+    {
+      "id": 34,
+      "name": "Food and Cooking",
+      "definition": "Discussion of recipes, food science, and dining."
+    },
+    {
+      "id": 35,
+      "name": "Crowdfunding and Finance",
+      "definition": "Requests for financial contributions and discussion of personal finance."
+    },
+    {
+      "id": 36,
+      "name": "Art and Drawing",
+      "definition": "Showcases of visual art, drawing techniques, and art supplies."
+    },
+    {
+      "id": 37,
+      "name": "3D Modeling and Design Software",
+      "definition": "Technical discussion of software like Blender, Rhino, and Revit."
+    },
+    {
+      "id": 38,
+      "name": "Environment",
+      "definition": "News and discussion regarding environmental issues and pollution."
+    },
+    {
+      "id": 39,
+      "name": "Coffee",
+      "definition": "Discussion of coffee brewing, beans, and equipment."
+    },
+    {
+      "id": 40,
+      "name": "Austin",
+      "definition": "Local news, events, and questions specific to Austin, Texas."
+    },
+    {
+      "id": 41,
+      "name": "Technology and Internet Culture",
+      "definition": "General tech news, internet trends, and software discussion."
+    },
+    {
+      "id": 42,
+      "name": "Manga",
+      "definition": "Discussion of Japanese comic books and manga series."
+    },
+    {
+      "id": 43,
+      "name": "Meta and Reddit Help",
+      "definition": "Questions and suggestions regarding Reddit features and moderation."
+    },
+    {
+      "id": 44,
+      "name": "Travel",
+      "definition": "Questions and advice regarding travel destinations and logistics."
+    },
+    {
+      "id": 45,
+      "name": "Airsoft",
+      "definition": "Discussion of airsoft guns, gear, and gameplay."
+    },
+    {
+      "id": 46,
+      "name": "Pyrotechnics and Explosives",
+      "definition": "Discussion of creating rocket candy, fireworks, and related chemistry."
+    },
+    {
+      "id": 47,
+      "name": "Classical Music",
+      "definition": "Discussion of classical composers, performances, and recordings."
+    },
+    {
+      "id": 48,
+      "name": "Atlanta",
+      "definition": "Local news, events, and questions specific to Atlanta, Georgia."
+    },
+    {
+      "id": 49,
+      "name": "Television",
+      "definition": "Discussion of TV shows, series, and episodes."
+    },
+    {
+      "id": 50,
+      "name": "Writing and Publishing",
+      "definition": "Discussion of the writing process, publishing industry, and authorship."
+    },
+    {
+      "id": 51,
+      "name": "Comedy",
+      "definition": "Stand-up comedy clips, news, and discussion."
+    },
+    {
+      "id": 52,
+      "name": "Amazon and Online Shopping",
+      "definition": "Discussion of Amazon services, reviews, and online marketplace issues."
+    },
+    {
+      "id": 53,
+      "name": "Buddhism",
+      "definition": "Discussion of Buddhist philosophy, practice, and news."
+    },
+    {
+      "id": 54,
+      "name": "Ham Radio and Amateur Radio",
+      "definition": "Technical discussion of amateur radio equipment and operation."
+    },
+    {
+      "id": 55,
+      "name": "Politics and Current Events",
+      "definition": "General political news and discussion of current events."
+    },
+    {
+      "id": 56,
+      "name": "Movies and Film",
+      "definition": "Discussion of films, cinema news, and movie recommendations."
+    },
+    {
+      "id": 57,
+      "name": "History",
+      "definition": "Discussion of historical events, figures, and artifacts."
+    },
+    {
+      "id": 58,
+      "name": "Relationships",
+      "definition": "Advice and stories regarding interpersonal relationships and dating."
+    },
+    {
+      "id": 59,
+      "name": "DIY and Home Improvement",
+      "definition": "Advice and projects regarding home renovation and repair."
+    },
+    {
+      "id": 60,
+      "name": "Fitness and Wellness",
+      "definition": "Discussion of exercise, health, and physical well-being."
+    },
+    {
+      "id": 61,
+      "name": "Gaming",
+      "definition": "Discussion of video games, gaming culture, and hardware."
+    },
+    {
+      "id": 62,
+      "name": "Legal Advice",
+      "definition": "Questions and discussion regarding legal matters and laws."
+    },
+    {
+      "id": 63,
+      "name": "Photography",
+      "definition": "Discussion of cameras, photography techniques, and equipment."
+    },
+    {
+      "id": 64,
+      "name": "Language Learning",
+      "definition": "Questions and resources for learning new languages."
+    },
+    {
+      "id": 65,
+      "name": "Medicine and Health",
+      "definition": "Discussion of medical conditions, treatments, and health news."
+    },
+    {
+      "id": 66,
+      "name": "Christianity",
+      "definition": "Discussion of Christian faith, theology, and community."
+    },
+    {
+      "id": 67,
+      "name": "Islam",
+      "definition": "Discussion of Islamic faith, theology, and community."
+    },
+    {
+      "id": 68,
+      "name": "Parenting",
+      "definition": "Advice and discussion regarding raising children."
+    },
+    {
+      "id": 69,
+      "name": "Jokes and Humor",
+      "definition": "Posts intended to be funny or entertaining."
+    },
+    {
+      "id": 70,
+      "name": "Skincare and Beauty",
+      "definition": "Discussion of skincare routines, products, and beauty tips."
+    },
+    {
+      "id": 71,
+      "name": "Music",
+      "definition": "General discussion of music, artists, and genres."
+    },
+    {
+      "id": 72,
+      "name": "Conspiracy Theories",
+      "definition": "Discussion of alternative theories regarding historical or current events."
+    },
+    {
+      "id": 73,
+      "name": "Genealogy",
+      "definition": "Discussion of family history and ancestry."
+    },
+    {
+      "id": 74,
+      "name": "Tattoos",
+      "definition": "Discussion of tattoo designs, artists, and experiences."
+    },
+    {
+      "id": 75,
+      "name": "Entrepreneurship",
+      "definition": "Discussion of startups, small business, and entrepreneurship."
+    },
+    {
+      "id": 76,
+      "name": "Android",
+      "definition": "Discussion of Android OS, devices, and apps."
+    },
+    {
+      "id": 77,
+      "name": "Firearms and Guns",
+      "definition": "Discussion of guns, shooting sports, and firearm legislation."
+    },
+    {
+      "id": 78,
+      "name": "Meditation",
+      "definition": "Discussion of meditation techniques and experiences."
+    },
+    {
+      "id": 79,
+      "name": "Web Design and Development",
+      "definition": "Technical discussion of website creation, coding, and design."
+    },
+    {
+      "id": 80,
+      "name": "News",
+      "definition": "General news articles and reports not fitting other specific categories."
+    },
+    {
+      "id": 81,
+      "name": "Miscellaneous Question",
+      "definition": "General questions that do not fit into other specific categories."
+    }
+  ]
+}

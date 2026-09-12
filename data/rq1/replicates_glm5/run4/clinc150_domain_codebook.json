@@ -1,0 +1,69 @@
+{
+  "bench": "clinc150_domain",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking & Finance",
+      "definition": "Managing personal finances, banking accounts, credit cards, loans, and monetary transactions."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Reminders",
+      "definition": "Scheduling events, setting alarms, managing to-do lists, and retrieving time-sensitive reminders."
+    },
+    {
+      "id": 3,
+      "name": "Travel & Navigation",
+      "definition": "Booking transportation and lodging, checking flight status, requesting rides, and navigation assistance."
+    },
+    {
+      "id": 4,
+      "name": "Food & Dining",
+      "definition": "Finding restaurants, managing reservations, and requesting food-related information like nutrition or recipes."
+    },
+    {
+      "id": 5,
+      "name": "Device & Settings",
+      "definition": "Controlling device hardware, software settings, voice configuration, and connectivity."
+    },
+    {
+      "id": 6,
+      "name": "Communication",
+      "definition": "Sending messages, making calls, and managing contacts."
+    },
+    {
+      "id": 7,
+      "name": "Informational Q&A",
+      "definition": "Answering general knowledge questions, performing calculations, and providing definitions or translations."
+    },
+    {
+      "id": 8,
+      "name": "Automotive",
+      "definition": "Checking vehicle status, maintenance, fuel requirements, and location."
+    },
+    {
+      "id": 9,
+      "name": "Entertainment & Media",
+      "definition": "Playing music, controlling media playback, and managing playlists."
+    },
+    {
+      "id": 10,
+      "name": "Smart Home",
+      "definition": "Controlling smart home appliances and home automation devices."
+    },
+    {
+      "id": 11,
+      "name": "Personal Assistant Meta",
+      "definition": "Questions regarding the assistant's identity, personality, capabilities, or opinions."
+    },
+    {
+      "id": 12,
+      "name": "Small Talk & Social",
+      "definition": "Engaging in casual conversation, greetings, and social pleasantries."
+    }
+  ]
+}

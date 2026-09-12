@@ -1,0 +1,69 @@
+{
+  "bench": "clinc150_domain",
+  "run": 1,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "rq3_cached",
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking & Finance",
+      "definition": "Managing bank accounts, credit cards, loans, payments, bills, rewards points, and financial transactions"
+    },
+    {
+      "id": 2,
+      "name": "Travel & Transportation",
+      "definition": "Planning trips, booking flights and hotels, rental cars, rideshare services, travel advisories, visas, and luggage"
+    },
+    {
+      "id": 3,
+      "name": "Music & Audio",
+      "definition": "Playing, identifying, skipping, or managing songs and playlists"
+    },
+    {
+      "id": 4,
+      "name": "Food & Dining",
+      "definition": "Recipes, cooking instructions, ingredient substitutions, restaurant recommendations, and reservations"
+    },
+    {
+      "id": 5,
+      "name": "Shopping & Orders",
+      "definition": "Managing shopping lists, tracking orders, and making purchases"
+    },
+    {
+      "id": 6,
+      "name": "Vehicle & Automotive",
+      "definition": "Car maintenance, tire pressure, fuel, mileage, and vehicle operation guidance"
+    },
+    {
+      "id": 7,
+      "name": "Personal Organization",
+      "definition": "Reminders, alarms, timers, calendars, to-do lists, and PTO or vacation requests"
+    },
+    {
+      "id": 8,
+      "name": "Communication",
+      "definition": "Making phone calls, sending messages, and sharing location with contacts"
+    },
+    {
+      "id": 9,
+      "name": "Device & Assistant Settings",
+      "definition": "Configuring voice, language, modes, names, and other assistant or device preferences"
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge",
+      "definition": "Definitions, spelling, math calculations, facts, jokes, unit conversions, time, weather, and translations"
+    },
+    {
+      "id": 11,
+      "name": "Location & Navigation",
+      "definition": "Finding places, checking current location, traffic conditions, and getting directions"
+    },
+    {
+      "id": 12,
+      "name": "Small Talk & Personal",
+      "definition": "Casual conversation, questions about the assistant, greetings, farewells, and philosophical discussions"
+    }
+  ]
+}

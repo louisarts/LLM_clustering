@@ -1,0 +1,89 @@
+{
+  "bench": "mcid",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Greetings and Social Pleasantries",
+      "definition": "Utterances used to greet the bot, check its presence, or ask how it is doing."
+    },
+    {
+      "id": 2,
+      "name": "Gratitude and Feedback",
+      "definition": "Expressions of thanks, appreciation, or positive feedback regarding the bot's service."
+    },
+    {
+      "id": 3,
+      "name": "General Information and Definition",
+      "definition": "Requests for a summary, definition, or general explanation of COVID-19 and how it works."
+    },
+    {
+      "id": 4,
+      "name": "Symptoms and Diagnosis",
+      "definition": "Questions regarding specific symptoms, signs of infection, or how to identify the disease in oneself or others."
+    },
+    {
+      "id": 5,
+      "name": "Transmission and Surface Survival",
+      "definition": "Questions about how the virus spreads, survival time on surfaces, and transmission modes like air or objects."
+    },
+    {
+      "id": 6,
+      "name": "Prevention and Safety Precautions",
+      "definition": "Requests for advice on protective measures, hygiene practices, and safety protocols to avoid infection."
+    },
+    {
+      "id": 7,
+      "name": "Treatments and Cures",
+      "definition": "Questions about medical treatments, drugs, remedies, or potential cures for COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Vaccines",
+      "definition": "Questions specifically concerning the existence, availability, or development of a COVID-19 vaccine."
+    },
+    {
+      "id": 9,
+      "name": "Statistics and Case Counts",
+      "definition": "Requests for specific numbers regarding cases, deaths, tests, or recovery rates in specific locations."
+    },
+    {
+      "id": 10,
+      "name": "News and Updates",
+      "definition": "Requests for the latest news, recent updates, or general status reports on the pandemic situation."
+    },
+    {
+      "id": 11,
+      "name": "Myths and Misinformation",
+      "definition": "Questions asking to verify, debunk, or list myths and misinformation regarding COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "Animals and Pets",
+      "definition": "Questions regarding the transmission, symptoms, or risks of COVID-19 specifically for animals or pets."
+    },
+    {
+      "id": 13,
+      "name": "Travel and Transport",
+      "definition": "Questions about travel restrictions, flight cancellations, border closures, and the safety of transportation methods."
+    },
+    {
+      "id": 14,
+      "name": "High Risk Areas and Groups",
+      "definition": "Questions identifying high risk locations or asking for advice relevant to high risk groups."
+    },
+    {
+      "id": 15,
+      "name": "Donations and Charitable Support",
+      "definition": "Intent to donate money or goods, or requests for information on how to support relief efforts."
+    },
+    {
+      "id": 16,
+      "name": "Sharing and Invitations",
+      "definition": "Requests to share the bot, a specific link, or information with friends, family, or social media."
+    }
+  ]
+}

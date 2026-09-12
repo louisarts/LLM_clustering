@@ -1,0 +1,82 @@
+{
+  "bench": "clinc150",
+  "run": 4,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Knowledge Query",
+      "definition": "User asks for facts, definitions, instructions, recommendations, or general information not specific to their personal accounts or data."
+    },
+    {
+      "id": 2,
+      "name": "Personal Data Query",
+      "definition": "User asks for specific information related to their personal accounts, status, or data."
+    },
+    {
+      "id": 3,
+      "name": "Scheduling & Reminders",
+      "definition": "User wants to create, modify, or query calendar events, reminders, or personal lists."
+    },
+    {
+      "id": 4,
+      "name": "Navigation & Location",
+      "definition": "User asks for directions, current location, or information about nearby places or lost items."
+    },
+    {
+      "id": 5,
+      "name": "Media Control",
+      "definition": "User wants to play, search for, or control media such as music, videos, or photos."
+    },
+    {
+      "id": 6,
+      "name": "Device & Assistant Settings",
+      "definition": "User wants to change device settings, assistant preferences, or control the assistant's own behavior."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "User wants to send messages, make calls, or inform others."
+    },
+    {
+      "id": 8,
+      "name": "Financial Transactions & Account Management",
+      "definition": "User wants to initiate financial transactions, manage account features, or pay bills."
+    },
+    {
+      "id": 9,
+      "name": "Shopping & Purchasing",
+      "definition": "User wants to purchase items, find products, or order goods."
+    },
+    {
+      "id": 10,
+      "name": "Reservations & Bookings",
+      "definition": "User wants to make, cancel, or inquire about reservations for travel, dining, or other services."
+    },
+    {
+      "id": 11,
+      "name": "Assistant Interaction Management",
+      "definition": "User provides feedback, asks for repetition, makes meta-comments about the interaction, or controls the interaction flow."
+    },
+    {
+      "id": 12,
+      "name": "System & Application Management",
+      "definition": "User wants to manage applications, files, or system processes."
+    },
+    {
+      "id": 13,
+      "name": "Random & Game Actions",
+      "definition": "User asks the assistant to perform a random action, play a simple game, or tell a joke."
+    },
+    {
+      "id": 14,
+      "name": "External System Interaction",
+      "definition": "User wants to interact with another smart assistant or external system via the current assistant."
+    },
+    {
+      "id": 15,
+      "name": "Problem Statement / Implied Need",
+      "definition": "User describes a problem or situation, implying a need for assistance or further action from the assistant."
+    }
+  ]
+}

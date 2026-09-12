@@ -1,0 +1,95 @@
+{
+  "bench": "massive_domain",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Utterances related to current weather conditions or forecasts"
+    },
+    {
+      "id": 2,
+      "name": "Home Automation",
+      "definition": "Utterances related to controlling lights, plugs, or other home devices"
+    },
+    {
+      "id": 3,
+      "name": "Grocery List",
+      "definition": "Utterances related to adding or removing items from a grocery list"
+    },
+    {
+      "id": 4,
+      "name": "Definitions",
+      "definition": "Utterances requesting definitions or descriptions of terms"
+    },
+    {
+      "id": 5,
+      "name": "News",
+      "definition": "Utterances related to current news updates"
+    },
+    {
+      "id": 6,
+      "name": "Currency Exchange",
+      "definition": "Utterances related to checking currency exchange rates"
+    },
+    {
+      "id": 7,
+      "name": "Podcasts",
+      "definition": "Utterances related to playing or controlling podcasts"
+    },
+    {
+      "id": 8,
+      "name": "Email Management",
+      "definition": "Utterances related to checking, sending, or managing emails"
+    },
+    {
+      "id": 9,
+      "name": "Meeting Scheduling",
+      "definition": "Utterances related to scheduling, updating, or canceling meetings"
+    },
+    {
+      "id": 10,
+      "name": "Math Calculations",
+      "definition": "Utterances related to performing mathematical calculations"
+    },
+    {
+      "id": 11,
+      "name": "Calendar Management",
+      "definition": "Utterances related to checking, adding, or removing events from a calendar"
+    },
+    {
+      "id": 12,
+      "name": "Music Playback",
+      "definition": "Utterances related to playing music or playlists"
+    },
+    {
+      "id": 13,
+      "name": "Social Media",
+      "definition": "Utterances related to posting or checking social media updates"
+    },
+    {
+      "id": 14,
+      "name": "Alarm Management",
+      "definition": "Utterances related to setting, checking, or canceling alarms"
+    },
+    {
+      "id": 15,
+      "name": "Recipe Requests",
+      "definition": "Utterances requesting recipes or cooking instructions"
+    },
+    {
+      "id": 16,
+      "name": "Stock Market",
+      "definition": "Utterances related to checking stock prices or market updates"
+    },
+    {
+      "id": 17,
+      "name": "Travel Planning",
+      "definition": "Utterances related to finding travel directions, tickets, or transportation options"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sports",
+      "definition": "Articles covering events, news, and personalities related to various sports."
+    },
+    {
+      "id": 2,
+      "name": "Politics",
+      "definition": "Articles discussing political events, parties, policies, and elections."
+    },
+    {
+      "id": 3,
+      "name": "Entertainment",
+      "definition": "Articles related to movies, music, television, and celebrity news."
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "Articles covering advancements, products, and issues in technology and computing."
+    },
+    {
+      "id": 5,
+      "name": "Economy",
+      "definition": "Articles discussing economic trends, financial markets, and corporate news."
+    },
+    {
+      "id": 6,
+      "name": "Health",
+      "definition": "Articles related to health issues, medical advancements, and public health policies."
+    },
+    {
+      "id": 7,
+      "name": "Environment",
+      "definition": "Articles covering environmental issues, climate change, and conservation efforts."
+    },
+    {
+      "id": 8,
+      "name": "Crime and Law",
+      "definition": "Articles discussing legal issues, crime reports, and law enforcement activities."
+    },
+    {
+      "id": 9,
+      "name": "International News",
+      "definition": "Articles covering global events, international relations, and foreign affairs."
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "Articles discussing educational policies, institutions, and issues affecting education."
+    },
+    {
+      "id": 11,
+      "name": "Culture",
+      "definition": "Articles related to cultural events, traditions, and societal issues."
+    },
+    {
+      "id": 12,
+      "name": "Business",
+      "definition": "Articles covering business news, corporate strategies, and market analysis."
+    },
+    {
+      "id": 13,
+      "name": "Science",
+      "definition": "Articles discussing scientific discoveries, research, and technological innovations."
+    },
+    {
+      "id": 14,
+      "name": "Travel",
+      "definition": "Articles related to travel destinations, tourism trends, and travel advisories."
+    },
+    {
+      "id": 15,
+      "name": "Social Issues",
+      "definition": "Articles discussing social justice, community issues, and public policy debates."
+    }
+  ]
+}

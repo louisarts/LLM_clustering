@@ -1,0 +1,174 @@
+{
+  "bench": "massive_intent",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar_Management",
+      "definition": "Add, delete, modify, or query events and appointments in a calendar."
+    },
+    {
+      "id": 2,
+      "name": "Alarm_Management",
+      "definition": "Set, delete, check, or modify alarms."
+    },
+    {
+      "id": 3,
+      "name": "Reminder_Management",
+      "definition": "Set or manage reminders for tasks or events."
+    },
+    {
+      "id": 4,
+      "name": "Weather_Query",
+      "definition": "Request weather forecasts, current conditions, or temperature."
+    },
+    {
+      "id": 5,
+      "name": "News_Query",
+      "definition": "Request news articles, headlines, or updates on specific topics."
+    },
+    {
+      "id": 6,
+      "name": "Music_Playback",
+      "definition": "Play, control, or request specific songs, artists, or music playlists."
+    },
+    {
+      "id": 7,
+      "name": "Podcast_Radio_Playback",
+      "definition": "Play, control, or request podcasts or radio stations."
+    },
+    {
+      "id": 8,
+      "name": "Audiobook_Playback",
+      "definition": "Play or control audiobooks."
+    },
+    {
+      "id": 9,
+      "name": "Video_Playback",
+      "definition": "Play or control videos, movies, or TV shows."
+    },
+    {
+      "id": 10,
+      "name": "Light_Control",
+      "definition": "Adjust brightness, color, or power state of lights."
+    },
+    {
+      "id": 11,
+      "name": "Smart_Device_Control",
+      "definition": "Control smart home devices other than lights, such as vacuums, sockets, or appliances."
+    },
+    {
+      "id": 12,
+      "name": "Email_Management",
+      "definition": "Compose, send, check, or manage emails."
+    },
+    {
+      "id": 13,
+      "name": "Social_Media",
+      "definition": "Post content or check updates on social media platforms."
+    },
+    {
+      "id": 14,
+      "name": "Contact_Management",
+      "definition": "Add or manage contact information."
+    },
+    {
+      "id": 15,
+      "name": "List_Management",
+      "definition": "Create, modify, or query shopping or to-do lists."
+    },
+    {
+      "id": 16,
+      "name": "Transportation_Booking",
+      "definition": "Book rideshares or tickets for travel."
+    },
+    {
+      "id": 17,
+      "name": "Transportation_Query",
+      "definition": "Query schedules or routes for public transportation."
+    },
+    {
+      "id": 18,
+      "name": "Time_Query",
+      "definition": "Request the current time or date in specific locations."
+    },
+    {
+      "id": 19,
+      "name": "General_Knowledge",
+      "definition": "Ask factual questions about people, places, definitions, or concepts."
+    },
+    {
+      "id": 20,
+      "name": "Math_Calculation",
+      "definition": "Perform mathematical calculations or conversions."
+    },
+    {
+      "id": 21,
+      "name": "Currency_Exchange",
+      "definition": "Request currency exchange rates or conversions."
+    },
+    {
+      "id": 22,
+      "name": "Stock_Query",
+      "definition": "Request stock prices or market trends."
+    },
+    {
+      "id": 23,
+      "name": "Local_Business_Query",
+      "definition": "Find nearby businesses, restaurants, or services."
+    },
+    {
+      "id": 24,
+      "name": "Event_Query",
+      "definition": "Find local events or activities happening in a specific area."
+    },
+    {
+      "id": 25,
+      "name": "Recipe_Request",
+      "definition": "Request recipes or cooking instructions."
+    },
+    {
+      "id": 26,
+      "name": "Gaming",
+      "definition": "Play or interact with games."
+    },
+    {
+      "id": 27,
+      "name": "App_Control",
+      "definition": "Open or launch specific applications."
+    },
+    {
+      "id": 28,
+      "name": "Volume_Control",
+      "definition": "Adjust or mute the volume of audio devices."
+    },
+    {
+      "id": 29,
+      "name": "Notification_Settings",
+      "definition": "Configure notifications for news or other updates."
+    },
+    {
+      "id": 30,
+      "name": "Device_Settings",
+      "definition": "Adjust general device settings like brightness or quiet mode."
+    },
+    {
+      "id": 31,
+      "name": "Recommendation_Request",
+      "definition": "Request recommendations for media or products."
+    },
+    {
+      "id": 32,
+      "name": "Navigation",
+      "definition": "Request directions or navigation to a location."
+    },
+    {
+      "id": 33,
+      "name": "Small_Talk",
+      "definition": "Engage in casual conversation or express statements not requiring a functional action."
+    }
+  ]
+}

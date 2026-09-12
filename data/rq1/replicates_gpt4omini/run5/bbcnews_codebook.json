@@ -1,0 +1,80 @@
+{
+  "bench": "bbcnews",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "definition": "Articles covering advancements, releases, and issues related to technology and gadgets."
+    },
+    {
+      "id": 2,
+      "name": "Sports",
+      "definition": "Articles related to various sports events, athletes, and competitions."
+    },
+    {
+      "id": 3,
+      "name": "Business",
+      "definition": "Articles discussing corporate news, financial markets, and economic trends."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Articles covering movies, music, celebrities, and cultural events."
+    },
+    {
+      "id": 5,
+      "name": "Politics",
+      "definition": "Articles related to political events, government actions, and electoral processes."
+    },
+    {
+      "id": 6,
+      "name": "Health",
+      "definition": "Articles discussing health issues, medical advancements, and public health policies."
+    },
+    {
+      "id": 7,
+      "name": "Environment",
+      "definition": "Articles covering environmental issues, climate change, and conservation efforts."
+    },
+    {
+      "id": 8,
+      "name": "International Affairs",
+      "definition": "Articles discussing global events, international relations, and conflicts."
+    },
+    {
+      "id": 9,
+      "name": "Social Issues",
+      "definition": "Articles addressing societal challenges, community concerns, and cultural discussions."
+    },
+    {
+      "id": 10,
+      "name": "Finance",
+      "definition": "Articles related to personal finance, investment, and economic policies."
+    },
+    {
+      "id": 11,
+      "name": "Education",
+      "definition": "Articles discussing educational policies, institutions, and learning methods."
+    },
+    {
+      "id": 12,
+      "name": "Crime and Law",
+      "definition": "Articles covering legal issues, crime reports, and judicial proceedings."
+    },
+    {
+      "id": 13,
+      "name": "Travel",
+      "definition": "Articles related to travel destinations, tourism trends, and travel advisories."
+    },
+    {
+      "id": 14,
+      "name": "Science",
+      "definition": "Articles discussing scientific discoveries, research, and technological innovations."
+    }
+  ]
+}

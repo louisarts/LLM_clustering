@@ -1,0 +1,150 @@
+{
+  "bench": "dbpedia",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Plant",
+      "definition": "A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses."
+    },
+    {
+      "id": 2,
+      "name": "Animal",
+      "definition": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system."
+    },
+    {
+      "id": 3,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 4,
+      "name": "Building",
+      "definition": "A structure with a roof and walls, such as a house, school, or factory."
+    },
+    {
+      "id": 5,
+      "name": "Location",
+      "definition": "A particular place or position."
+    },
+    {
+      "id": 6,
+      "name": "Company",
+      "definition": "A commercial business."
+    },
+    {
+      "id": 7,
+      "name": "Event",
+      "definition": "A thing that happens, especially one of importance."
+    },
+    {
+      "id": 8,
+      "name": "Publication",
+      "definition": "A book, journal, or other work that is published."
+    },
+    {
+      "id": 9,
+      "name": "Vehicle",
+      "definition": "A thing used for transporting people or goods, especially on land, such as a car, truck, or cart."
+    },
+    {
+      "id": 10,
+      "name": "Organization",
+      "definition": "An organized group of people with a particular purpose, such as a business or government department."
+    },
+    {
+      "id": 11,
+      "name": "River",
+      "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another river."
+    },
+    {
+      "id": 12,
+      "name": "Mountain",
+      "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level."
+    },
+    {
+      "id": 13,
+      "name": "Album",
+      "definition": "A collection of recordings issued as a single item on CD, record, or another medium."
+    },
+    {
+      "id": 14,
+      "name": "Film",
+      "definition": "A story or event recorded by a camera as a set of moving images and shown in a theater or on television."
+    },
+    {
+      "id": 15,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers."
+    },
+    {
+      "id": 16,
+      "name": "School",
+      "definition": "An institution for educating children."
+    },
+    {
+      "id": 17,
+      "name": "Historical Event",
+      "definition": "An event that has occurred in the past and is significant in history."
+    },
+    {
+      "id": 18,
+      "name": "Art",
+      "definition": "The expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture."
+    },
+    {
+      "id": 19,
+      "name": "Sport",
+      "definition": "An activity involving physical exertion and skill in which an individual or team competes against another or others for entertainment."
+    },
+    {
+      "id": 20,
+      "name": "Technology",
+      "definition": "The application of scientific knowledge for practical purposes, especially in industry."
+    },
+    {
+      "id": 21,
+      "name": "Music",
+      "definition": "Vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion."
+    },
+    {
+      "id": 22,
+      "name": "Government",
+      "definition": "The governing body of a nation, state, or community."
+    },
+    {
+      "id": 23,
+      "name": "Transportation",
+      "definition": "The action of transporting someone or something or the process of being transported."
+    },
+    {
+      "id": 24,
+      "name": "Military",
+      "definition": "The armed forces of a country."
+    },
+    {
+      "id": 25,
+      "name": "Religion",
+      "definition": "The belief in and worship of a superhuman controlling power, especially a personal God or gods."
+    },
+    {
+      "id": 26,
+      "name": "Science",
+      "definition": "The intellectual and practical activity encompassing the systematic study of the structure and behavior of the physical and natural world through observation and experiment."
+    },
+    {
+      "id": 27,
+      "name": "Political Entity",
+      "definition": "An organization or unit that has political responsibilities and powers."
+    },
+    {
+      "id": 28,
+      "name": "Cultural Entity",
+      "definition": "An entity that is significant in the culture of a society."
+    }
+  ]
+}

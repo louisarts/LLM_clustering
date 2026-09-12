@@ -1,0 +1,110 @@
+{
+  "bench": "tweet89",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Documents related to the recovery and rehabilitation of Gabrielle Giffords."
+    },
+    {
+      "id": 2,
+      "name": "Amazon Rainforest and Acai Berry Diet",
+      "definition": "Documents discussing the Amazon rainforest and the Acai berry diet."
+    },
+    {
+      "id": 3,
+      "name": "Bullying Prevention and Child Safety",
+      "definition": "Documents related to preventing bullying and ensuring child safety."
+    },
+    {
+      "id": 4,
+      "name": "Indian Navy Anti-Piracy Operation",
+      "definition": "Documents related to the Indian Navy's anti-piracy operations."
+    },
+    {
+      "id": 5,
+      "name": "NBA Concussion Protocol",
+      "definition": "Documents discussing the NBA concussion protocol."
+    },
+    {
+      "id": 6,
+      "name": "Arrest of Ahmed Mansour in Egypt",
+      "definition": "Documents related to the arrest and beating of journalist Ahmed Mansour in Egypt."
+    },
+    {
+      "id": 7,
+      "name": "Super Bowl Commercials",
+      "definition": "Documents discussing or related to Super Bowl commercials."
+    },
+    {
+      "id": 8,
+      "name": "Christina Aguilera National Anthem Flub",
+      "definition": "Documents related to Christina Aguilera's flubbing of the national anthem."
+    },
+    {
+      "id": 9,
+      "name": "Yemen Protests",
+      "definition": "Documents related to protests and demands for change in Yemen."
+    },
+    {
+      "id": 10,
+      "name": "Oscar Nominations",
+      "definition": "Documents discussing or related to Oscar nominations."
+    },
+    {
+      "id": 11,
+      "name": "Identity Theft and Cyber Bullying",
+      "definition": "Documents related to identity theft and cyberbullying."
+    },
+    {
+      "id": 12,
+      "name": "Healthcare Law and Obamacare",
+      "definition": "Documents discussing the healthcare law and Obamacare."
+    },
+    {
+      "id": 13,
+      "name": "Fly Fishing Tips and Forecasts",
+      "definition": "Documents providing tips and forecasts for fly fishing."
+    },
+    {
+      "id": 14,
+      "name": "Motorola Xoom Tablet and Super Bowl Commercial",
+      "definition": "Documents discussing the Motorola Xoom tablet and its Super Bowl commercial."
+    },
+    {
+      "id": 15,
+      "name": "Acai Berry Weight Loss Diet Plans",
+      "definition": "Documents related to Acai berry weight loss diet plans."
+    },
+    {
+      "id": 16,
+      "name": "Moscow Airport Explosion",
+      "definition": "Documents related to the explosion at Moscow airport."
+    },
+    {
+      "id": 17,
+      "name": "Jesse Ventura TSA Lawsuit",
+      "definition": "Documents related to Jesse Ventura's lawsuit against the TSA."
+    },
+    {
+      "id": 18,
+      "name": "Chrysler Super Bowl Commercial",
+      "definition": "Documents discussing or related to the Chrysler Super Bowl commercial."
+    },
+    {
+      "id": 19,
+      "name": "King's Speech and Oscar Nominations",
+      "definition": "Documents discussing the King's Speech and its Oscar nominations."
+    },
+    {
+      "id": 20,
+      "name": "Volkswagen Super Bowl Commercial",
+      "definition": "Documents discussing or related to the Volkswagen Super Bowl commercial."
+    }
+  ]
+}

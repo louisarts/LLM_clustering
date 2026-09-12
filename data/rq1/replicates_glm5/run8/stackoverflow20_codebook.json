@@ -1,0 +1,99 @@
+{
+  "bench": "stackoverflow20",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apache",
+      "definition": "Questions regarding the Apache HTTP Server, including configuration, virtual hosts, and modules like mod_rewrite."
+    },
+    {
+      "id": 2,
+      "name": "Bash",
+      "definition": "Questions about the Bash shell, shell scripting, and command-line operations in Unix/Linux environments."
+    },
+    {
+      "id": 3,
+      "name": "Cocoa",
+      "definition": "Questions about the Cocoa application programming interface (API) for the macOS operating system, often involving Objective-C."
+    },
+    {
+      "id": 4,
+      "name": "Drupal",
+      "definition": "Questions about the Drupal content management system, including modules, theming, and configuration."
+    },
+    {
+      "id": 5,
+      "name": "Excel",
+      "definition": "Questions about Microsoft Excel, including formulas, pivot tables, and VBA (Visual Basic for Applications) programming."
+    },
+    {
+      "id": 6,
+      "name": "Haskell",
+      "definition": "Questions about the Haskell programming language, including syntax, types, and functional programming concepts."
+    },
+    {
+      "id": 7,
+      "name": "Hibernate",
+      "definition": "Questions about the Hibernate object-relational mapping (ORM) library for Java, including mapping, sessions, and queries."
+    },
+    {
+      "id": 8,
+      "name": "LINQ",
+      "definition": "Questions about Language Integrated Query (LINQ) in .NET, including query syntax and operations on data collections."
+    },
+    {
+      "id": 9,
+      "name": "Magento",
+      "definition": "Questions about the Magento e-commerce platform, including product management, theming, and module development."
+    },
+    {
+      "id": 10,
+      "name": "Matlab",
+      "definition": "Questions about MATLAB, the numerical computing environment, including matrix manipulation, plotting, and toolboxes."
+    },
+    {
+      "id": 11,
+      "name": "Oracle",
+      "definition": "Questions about Oracle Database, including SQL queries, PL/SQL, and database administration."
+    },
+    {
+      "id": 12,
+      "name": "Qt",
+      "definition": "Questions about the Qt cross-platform application framework, including GUI development and signal-slot mechanisms."
+    },
+    {
+      "id": 13,
+      "name": "Scala",
+      "definition": "Questions about the Scala programming language, including syntax, functional programming, and the type system."
+    },
+    {
+      "id": 14,
+      "name": "SharePoint",
+      "definition": "Questions about Microsoft SharePoint, including web parts, workflows, and site administration."
+    },
+    {
+      "id": 15,
+      "name": "Spring",
+      "definition": "Questions about the Spring Framework for Java, including dependency injection, web MVC, and transaction management."
+    },
+    {
+      "id": 16,
+      "name": "Subversion",
+      "definition": "Questions about the Subversion (SVN) version control system, including branching, merging, and repository management."
+    },
+    {
+      "id": 17,
+      "name": "Visual Studio",
+      "definition": "Questions about the Microsoft Visual Studio integrated development environment (IDE), including debugging, extensions, and build configuration."
+    },
+    {
+      "id": 18,
+      "name": "WordPress",
+      "definition": "Questions about the WordPress content management system, including themes, plugins, and core functions."
+    }
+  ]
+}

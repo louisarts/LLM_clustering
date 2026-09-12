@@ -1,0 +1,120 @@
+{
+  "bench": "banking77",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Payment Issue",
+      "definition": "Queries related to issues with payments, including pending payments, overcharging, fees, and disputes."
+    },
+    {
+      "id": 2,
+      "name": "Security Concerns",
+      "definition": "Queries related to security concerns, unauthorized transactions, and card theft."
+    },
+    {
+      "id": 3,
+      "name": "Card Management",
+      "definition": "Queries related to managing cards, including activation, PIN management, card delivery, and lost/stolen cards."
+    },
+    {
+      "id": 4,
+      "name": "Transfer Problems",
+      "definition": "Queries related to issues with transfers, including delays, failures, reversals, and cancellations."
+    },
+    {
+      "id": 5,
+      "name": "Account Management",
+      "definition": "Queries related to managing account details, personal information, and account deletion."
+    },
+    {
+      "id": 6,
+      "name": "Currency Exchange",
+      "definition": "Queries related to currency exchange, exchange rates, and fees for exchanging currencies."
+    },
+    {
+      "id": 7,
+      "name": "Refunds and Reversals",
+      "definition": "Queries related to refunds, reversals, and discrepancies in transactions."
+    },
+    {
+      "id": 8,
+      "name": "Top-Up Assistance",
+      "definition": "Queries related to top-up issues, including pending top-ups, reversion of funds, and top-up verification."
+    },
+    {
+      "id": 9,
+      "name": "Card Types and Features",
+      "definition": "Queries related to different types of cards, virtual cards, disposable cards, and card features like contactless payments."
+    },
+    {
+      "id": 10,
+      "name": "App and Account Access",
+      "definition": "Queries related to accessing the app, verifying identity, resetting passcodes, and changing account information."
+    },
+    {
+      "id": 11,
+      "name": "Customer Service Satisfaction",
+      "definition": "Queries related to customer satisfaction, account deletion, and general dissatisfaction with the service."
+    },
+    {
+      "id": 12,
+      "name": "ATM Issues",
+      "definition": "Queries related to ATM transactions, issues with withdrawals, fees, and incorrect amounts dispensed."
+    },
+    {
+      "id": 13,
+      "name": "International Use",
+      "definition": "Queries related to using cards internationally, currency conversion, and fees for international transactions."
+    },
+    {
+      "id": 14,
+      "name": "Card Activation",
+      "definition": "Queries related to activating new cards, reactivating lost cards, and tracking card deliveries."
+    },
+    {
+      "id": 15,
+      "name": "Fee Inquiries",
+      "definition": "Queries related to fees for various transactions, including transfers, payments, and top-ups."
+    },
+    {
+      "id": 16,
+      "name": "Verification Process",
+      "definition": "Queries related to verifying identity, source of funds, and top-up verification."
+    },
+    {
+      "id": 17,
+      "name": "Transaction Delays",
+      "definition": "Queries related to delays in transactions, pending transfers, and missing funds."
+    },
+    {
+      "id": 18,
+      "name": "Card Network Preferences",
+      "definition": "Queries related to card network preferences, like Mastercard, Visa, and Apple Pay compatibility."
+    },
+    {
+      "id": 19,
+      "name": "Age Restrictions",
+      "definition": "Queries related to age restrictions for account opening and card usage."
+    },
+    {
+      "id": 20,
+      "name": "Exchange Rate Discrepancies",
+      "definition": "Queries related to discrepancies in exchange rates, incorrect charges, and exchange rate calculations."
+    },
+    {
+      "id": 21,
+      "name": "Direct Debit Issues",
+      "definition": "Queries related to direct debit payments, incorrect listings, and unauthorized direct debits."
+    },
+    {
+      "id": 22,
+      "name": "Rewards Program Inquiry",
+      "definition": "Queries related to rewards programs, fees, and benefits for frequent users."
+    }
+  ]
+}

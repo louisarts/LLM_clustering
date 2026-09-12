@@ -1,0 +1,102 @@
+{
+  "bench": "banking77",
+  "run": 6,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Order & Delivery",
+      "definition": "Queries about ordering new physical or virtual cards, delivery status, tracking, and specific delivery requests."
+    },
+    {
+      "id": 2,
+      "name": "Card Activation & PIN Management",
+      "definition": "Queries about activating cards, finding, changing, resetting, or unblocking PINs."
+    },
+    {
+      "id": 3,
+      "name": "Card Functionality & Usage",
+      "definition": "Queries about physical or virtual card not working (declined, contactless issues, ATM issues), general card questions (Mastercard/Visa, where to use)."
+    },
+    {
+      "id": 4,
+      "name": "Virtual Card Information",
+      "definition": "Specific questions about obtaining, limits, location, and general understanding of virtual or disposable cards."
+    },
+    {
+      "id": 5,
+      "name": "Lost, Stolen, or Damaged Card",
+      "definition": "Queries about what to do when a card is lost, stolen, or damaged, including freezing the card or account due to card compromise."
+    },
+    {
+      "id": 6,
+      "name": "Additional Card Requests",
+      "definition": "Requests for extra cards for family members or for personal use."
+    },
+    {
+      "id": 7,
+      "name": "Account Access & Security",
+      "definition": "Issues with logging in, forgotten passwords/passcodes, app access, or identity verification for app access."
+    },
+    {
+      "id": 8,
+      "name": "Account Closure",
+      "definition": "Requests to close or delete an account."
+    },
+    {
+      "id": 9,
+      "name": "Account Details & Settings",
+      "definition": "Changing personal details or general account settings."
+    },
+    {
+      "id": 10,
+      "name": "Account Opening & Eligibility",
+      "definition": "Questions about opening an account, age requirements, or opening accounts for minors."
+    },
+    {
+      "id": 11,
+      "name": "Initiate Funds Transfer or Top-up",
+      "definition": "How to make a transfer, payment, or top-up; methods, costs, limits, and auto-top-up features."
+    },
+    {
+      "id": 12,
+      "name": "Transaction Status & Issues",
+      "definition": "Queries about pending, failed, missing, or delayed transactions, incorrect amounts, or transactions not appearing."
+    },
+    {
+      "id": 13,
+      "name": "Transaction Fees & Charges",
+      "definition": "Questions about unexpected fees, charges for transfers, withdrawals, or payments."
+    },
+    {
+      "id": 14,
+      "name": "Refunds & Transaction Cancellations",
+      "definition": "Requests to cancel transactions, inquire about refunds, or issues with receiving refunds."
+    },
+    {
+      "id": 15,
+      "name": "Unrecognised or Fraudulent Transactions",
+      "definition": "Reporting suspicious, unrecognised, or fraudulent transactions, direct debits, or charges."
+    },
+    {
+      "id": 16,
+      "name": "Source of Funds Inquiry",
+      "definition": "Inquiries about where money in the account came from or validating funds."
+    },
+    {
+      "id": 17,
+      "name": "Currency Exchange",
+      "definition": "Questions about supported currencies, exchange rates, fees for currency exchange, or issues with applied exchange rates."
+    },
+    {
+      "id": 18,
+      "name": "Identity Verification",
+      "definition": "Questions about the identity verification process, requirements, or issues with verification."
+    },
+    {
+      "id": 19,
+      "name": "General Information",
+      "definition": "General inquiries about the banking service not covered by other categories."
+    }
+  ]
+}

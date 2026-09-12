@@ -1,0 +1,60 @@
+{
+  "bench": "dbpedia",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "Individual human being"
+    },
+    {
+      "id": 2,
+      "name": "Mountain",
+      "definition": "Landform that rises prominently above its surroundings"
+    },
+    {
+      "id": 3,
+      "name": "Company",
+      "definition": "Commercial business organization"
+    },
+    {
+      "id": 4,
+      "name": "Lake",
+      "definition": "Large body of water surrounded by land"
+    },
+    {
+      "id": 5,
+      "name": "River",
+      "definition": "Natural flowing watercourse"
+    },
+    {
+      "id": 6,
+      "name": "Building",
+      "definition": "Structure with a roof and walls"
+    },
+    {
+      "id": 7,
+      "name": "Film",
+      "definition": "Motion picture"
+    },
+    {
+      "id": 8,
+      "name": "School",
+      "definition": "Institution for educating students"
+    },
+    {
+      "id": 9,
+      "name": "Hospital",
+      "definition": "Medical facility for patient care"
+    },
+    {
+      "id": 10,
+      "name": "Album",
+      "definition": "Collection of audio recordings"
+    }
+  ]
+}

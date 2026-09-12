@@ -1,0 +1,182 @@
+{
+  "bench": "clinc150",
+  "run": 2,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Query",
+      "definition": "Requests for general factual information, definitions, explanations, or current events."
+    },
+    {
+      "id": 2,
+      "name": "Personal Status Query",
+      "definition": "Requests for information about the user's personal status, finances, or property."
+    },
+    {
+      "id": 3,
+      "name": "Financial Account Management",
+      "definition": "Requests to view, modify, or inquire about specific personal financial accounts or applications."
+    },
+    {
+      "id": 4,
+      "name": "Assistant Self-Reference",
+      "definition": "Queries about the assistant's identity, capabilities, or personal attributes."
+    },
+    {
+      "id": 5,
+      "name": "List Management",
+      "definition": "Creating, modifying, or querying personal lists such as shopping lists, to-do lists, or personal inventories."
+    },
+    {
+      "id": 6,
+      "name": "Booking & Reservations",
+      "definition": "Making reservations or bookings for travel, accommodation, or services."
+    },
+    {
+      "id": 7,
+      "name": "Device Control & Settings",
+      "definition": "Controlling smart devices, assistant settings, or device functions."
+    },
+    {
+      "id": 8,
+      "name": "Communication",
+      "definition": "Sending messages, making calls, or sharing information with others."
+    },
+    {
+      "id": 9,
+      "name": "Alarm & Timer Management",
+      "definition": "Setting, checking, or managing alarms and timers."
+    },
+    {
+      "id": 10,
+      "name": "How-to & Advice",
+      "definition": "Requests for step-by-step guides, instructions, or general advice on how to perform a task or solve a problem."
+    },
+    {
+      "id": 11,
+      "name": "Search & Recommendation",
+      "definition": "Finding products, services, businesses, or recommendations based on criteria, including local search."
+    },
+    {
+      "id": 12,
+      "name": "Financial Transaction",
+      "definition": "Initiating or requesting a financial transaction or payment."
+    },
+    {
+      "id": 13,
+      "name": "Tracking & Status",
+      "definition": "Checking the status or location of an item, order, flight, or personal request."
+    },
+    {
+      "id": 14,
+      "name": "Vehicle Maintenance & Info",
+      "definition": "Queries about vehicle status, specifications, or maintenance schedules."
+    },
+    {
+      "id": 15,
+      "name": "Travel Planning & Info",
+      "definition": "Queries about travel requirements, alerts, general travel advice, or informing about travel plans."
+    },
+    {
+      "id": 16,
+      "name": "Recipe & Ingredients",
+      "definition": "Finding recipes or lists of ingredients for cooking."
+    },
+    {
+      "id": 17,
+      "name": "Conversational & Social",
+      "definition": "Greetings, farewells, acknowledgements, or general chit-chat and feedback on assistant behavior."
+    },
+    {
+      "id": 18,
+      "name": "Media Playback & Management",
+      "definition": "Playing music, videos, or managing media content."
+    },
+    {
+      "id": 19,
+      "name": "Sports Information",
+      "definition": "Queries about sports scores, statistics, or news."
+    },
+    {
+      "id": 20,
+      "name": "Business Information Query",
+      "definition": "Queries about local businesses, their hours, reviews, or wait times."
+    },
+    {
+      "id": 21,
+      "name": "Task Management",
+      "definition": "Cancelling or managing ongoing tasks."
+    },
+    {
+      "id": 22,
+      "name": "Traffic Information",
+      "definition": "Queries about traffic conditions or routes."
+    },
+    {
+      "id": 23,
+      "name": "Weather Query",
+      "definition": "Queries about current or forecasted weather."
+    },
+    {
+      "id": 24,
+      "name": "Calculations",
+      "definition": "Performing mathematical calculations."
+    },
+    {
+      "id": 25,
+      "name": "Games & Randomizers",
+      "definition": "Requests for simple games or random outcomes."
+    },
+    {
+      "id": 26,
+      "name": "Unanswerable & Ambiguous",
+      "definition": "Queries that the assistant cannot answer factually, are philosophical, or are unclear commands."
+    },
+    {
+      "id": 27,
+      "name": "Service Management",
+      "definition": "Managing subscriptions, deliveries, or other ongoing services."
+    },
+    {
+      "id": 28,
+      "name": "Language Translation",
+      "definition": "Translating phrases into other languages."
+    },
+    {
+      "id": 29,
+      "name": "Image & Photo Manipulation",
+      "definition": "Requests related to generating or analyzing images."
+    },
+    {
+      "id": 30,
+      "name": "Financial Market Information",
+      "definition": "Queries about stock market performance or trends."
+    },
+    {
+      "id": 31,
+      "name": "Calendar & Schedule Query",
+      "definition": "Queries about personal or general schedules and dates."
+    },
+    {
+      "id": 32,
+      "name": "Financial Product Acquisition",
+      "definition": "Inquiries about applying for new financial products or their eligibility."
+    },
+    {
+      "id": 33,
+      "name": "Information Delivery",
+      "definition": "Requesting information to be sent to a specific device or contact."
+    },
+    {
+      "id": 34,
+      "name": "Document Retrieval",
+      "definition": "Requesting specific documents or forms."
+    },
+    {
+      "id": 35,
+      "name": "Financial Information (General)",
+      "definition": "General financial queries not tied to a specific personal account, such as exchange rates or direct deposit options."
+    }
+  ]
+}

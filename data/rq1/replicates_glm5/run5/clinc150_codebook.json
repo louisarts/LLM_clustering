@@ -1,0 +1,109 @@
+{
+  "bench": "clinc150",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar_Management",
+      "definition": "User wants to create, query, modify, or delete events and appointments on a personal calendar."
+    },
+    {
+      "id": 2,
+      "name": "Reservation_Booking",
+      "definition": "User wants to make, confirm, check, or cancel reservations for services like dining, hotels, or events."
+    },
+    {
+      "id": 3,
+      "name": "Financial_Account_Info",
+      "definition": "User wants to check balances, transaction history, rewards, limits, interest rates, or application status for banking and credit accounts."
+    },
+    {
+      "id": 4,
+      "name": "Financial_Transaction",
+      "definition": "User wants to perform an action involving money movement, payments, ordering financial products, or managing account settings like freezing or adding users."
+    },
+    {
+      "id": 5,
+      "name": "Travel_Transit_Info",
+      "definition": "User wants information regarding flight status, transportation options, traffic conditions, or navigation."
+    },
+    {
+      "id": 6,
+      "name": "Device_Control",
+      "definition": "User wants to control hardware settings, media playback, volume, connectivity, or other device functions."
+    },
+    {
+      "id": 7,
+      "name": "Vehicle_Info",
+      "definition": "User wants to check vehicle status, maintenance history, fuel levels, or control car features."
+    },
+    {
+      "id": 8,
+      "name": "Task_Management",
+      "definition": "User wants to create, view, or modify items on a personal to-do list, shopping list, or set reminders."
+    },
+    {
+      "id": 9,
+      "name": "General_Knowledge",
+      "definition": "User wants factual information, definitions, calculations, translations, or answers to general questions not specific to personal data."
+    },
+    {
+      "id": 10,
+      "name": "Local_Business_Info",
+      "definition": "User wants to find businesses, check business hours, reviews, or availability of services nearby."
+    },
+    {
+      "id": 11,
+      "name": "Food_Recipe_Info",
+      "definition": "User wants recipes, cooking instructions, ingredient information, or food-related facts."
+    },
+    {
+      "id": 12,
+      "name": "Weather_Info",
+      "definition": "User wants current weather conditions or a weather forecast for a specific location."
+    },
+    {
+      "id": 13,
+      "name": "Personal_Info_Query",
+      "definition": "User wants to retrieve specific personal information such as phone location, saved notes, or contact details."
+    },
+    {
+      "id": 14,
+      "name": "Communication",
+      "definition": "User wants to send messages, make phone calls, or share information with contacts."
+    },
+    {
+      "id": 15,
+      "name": "Assistant_Personality",
+      "definition": "User asks personal questions about the assistant, such as its age, creator, or preferences."
+    },
+    {
+      "id": 16,
+      "name": "System_Configuration",
+      "definition": "User wants to change the assistant's settings, voice, speed, or operating mode."
+    },
+    {
+      "id": 17,
+      "name": "Feedback_Response",
+      "definition": "User provides a response to a previous prompt, such as confirming, denying, or correcting information."
+    },
+    {
+      "id": 18,
+      "name": "Greeting",
+      "definition": "User initiates interaction with a salutation or general pleasantry."
+    },
+    {
+      "id": 19,
+      "name": "Health_Medical_Info",
+      "definition": "User wants information or advice regarding medical symptoms, health conditions, or medical procedures."
+    },
+    {
+      "id": 20,
+      "name": "Smart_Home_Control",
+      "definition": "User wants to control smart home devices, appliances, or robots."
+    }
+  ]
+}

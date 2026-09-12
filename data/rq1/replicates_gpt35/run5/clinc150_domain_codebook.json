@@ -1,0 +1,85 @@
+{
+  "bench": "clinc150_domain",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking",
+      "definition": "Utterances related to bank accounts, credit cards, loans, and financial transactions"
+    },
+    {
+      "id": 2,
+      "name": "Travel",
+      "definition": "Utterances related to flights, car rentals, travel destinations, and visas"
+    },
+    {
+      "id": 3,
+      "name": "Calendar",
+      "definition": "Utterances related to scheduling, appointments, reminders, and events"
+    },
+    {
+      "id": 4,
+      "name": "Shopping",
+      "definition": "Utterances related to shopping lists, grocery items, and purchases"
+    },
+    {
+      "id": 5,
+      "name": "Health",
+      "definition": "Utterances related to health insurance, medical bills, and health-related queries"
+    },
+    {
+      "id": 6,
+      "name": "Education",
+      "definition": "Utterances related to definitions, word meanings, and general knowledge queries"
+    },
+    {
+      "id": 7,
+      "name": "Entertainment",
+      "definition": "Utterances related to music, jokes, playlists, and fun facts"
+    },
+    {
+      "id": 8,
+      "name": "Utilities",
+      "definition": "Utterances related to utility bills, water bills, and household expenses"
+    },
+    {
+      "id": 9,
+      "name": "Insurance",
+      "definition": "Utterances related to insurance plans, coverage, and claims"
+    },
+    {
+      "id": 10,
+      "name": "Technical Support",
+      "definition": "Utterances related to device syncing, settings, and troubleshooting"
+    },
+    {
+      "id": 11,
+      "name": "Personal Information",
+      "definition": "Utterances related to personal details, names, ages, and preferences"
+    },
+    {
+      "id": 12,
+      "name": "Language",
+      "definition": "Utterances related to language preferences, translations, and communication modes"
+    },
+    {
+      "id": 13,
+      "name": "Food and Recipes",
+      "definition": "Utterances related to recipes, cooking instructions, and food queries"
+    },
+    {
+      "id": 14,
+      "name": "Transportation",
+      "definition": "Utterances related to car maintenance, gas mileage, tire pressure, and appointments"
+    },
+    {
+      "id": 15,
+      "name": "General Queries",
+      "definition": "Utterances that do not fit into any specific category"
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "bench": "fewevent",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music Performance",
+      "definition": "Events related to singing or playing music."
+    },
+    {
+      "id": 2,
+      "name": "Military Command",
+      "definition": "Events involving taking or having command in a military context."
+    },
+    {
+      "id": 3,
+      "name": "Marriage",
+      "definition": "Events involving getting married or being married."
+    },
+    {
+      "id": 4,
+      "name": "Education",
+      "definition": "Events related to studying or being a student."
+    },
+    {
+      "id": 5,
+      "name": "Sports Achievement",
+      "definition": "Events involving winning medals or competitions in sports."
+    },
+    {
+      "id": 6,
+      "name": "Employment",
+      "definition": "Events related to having a job or being employed."
+    },
+    {
+      "id": 7,
+      "name": "Protest",
+      "definition": "Events involving demonstrations or protests."
+    },
+    {
+      "id": 8,
+      "name": "Leadership",
+      "definition": "Events involving holding a leadership position, such as president or chief."
+    },
+    {
+      "id": 9,
+      "name": "Legal Action",
+      "definition": "Events involving legal actions such as being fined or arrested."
+    },
+    {
+      "id": 10,
+      "name": "Travel",
+      "definition": "Events involving moving or traveling from one place to another."
+    },
+    {
+      "id": 11,
+      "name": "Artistic Work",
+      "definition": "Events related to creating or performing artistic work."
+    },
+    {
+      "id": 12,
+      "name": "Family Relationship",
+      "definition": "Events involving family roles such as wife or husband."
+    },
+    {
+      "id": 13,
+      "name": "Political Action",
+      "definition": "Events involving political actions or statements."
+    },
+    {
+      "id": 14,
+      "name": "Business Transaction",
+      "definition": "Events involving sales or business deals."
+    },
+    {
+      "id": 15,
+      "name": "Military Service",
+      "definition": "Events involving serving in the military."
+    },
+    {
+      "id": 16,
+      "name": "Public Speaking",
+      "definition": "Events involving making statements or speeches."
+    },
+    {
+      "id": 17,
+      "name": "Competition",
+      "definition": "Events involving participating in competitions."
+    },
+    {
+      "id": 18,
+      "name": "Resignation",
+      "definition": "Events involving resigning from a position."
+    },
+    {
+      "id": 19,
+      "name": "Arrival",
+      "definition": "Events involving arriving at a location."
+    },
+    {
+      "id": 20,
+      "name": "Partnership",
+      "definition": "Events involving working or being together with others."
+    },
+    {
+      "id": 21,
+      "name": "Legal Status",
+      "definition": "Events involving legal status changes such as being detained."
+    },
+    {
+      "id": 22,
+      "name": "Communication",
+      "definition": "Events involving communication such as calls or emails."
+    },
+    {
+      "id": 23,
+      "name": "Performance",
+      "definition": "Events involving performing in a non-musical context."
+    },
+    {
+      "id": 24,
+      "name": "Production",
+      "definition": "Events involving producing or creating something."
+    },
+    {
+      "id": 25,
+      "name": "Engagement",
+      "definition": "Events involving being engaged to be married."
+    },
+    {
+      "id": 26,
+      "name": "Divorce",
+      "definition": "Events involving getting divorced."
+    },
+    {
+      "id": 27,
+      "name": "Victory",
+      "definition": "Events involving winning or achieving victory."
+    },
+    {
+      "id": 28,
+      "name": "Loss",
+      "definition": "Events involving losing or experiencing loss."
+    },
+    {
+      "id": 29,
+      "name": "Employment Termination",
+      "definition": "Events involving leaving or being removed from a job."
+    },
+    {
+      "id": 30,
+      "name": "Financial Transaction",
+      "definition": "Events involving financial transactions such as buyouts."
+    },
+    {
+      "id": 31,
+      "name": "Legal Accusation",
+      "definition": "Events involving being accused of a crime."
+    },
+    {
+      "id": 32,
+      "name": "Legal Conviction",
+      "definition": "Events involving being convicted of a crime."
+    },
+    {
+      "id": 33,
+      "name": "Legal Defense",
+      "definition": "Events involving defending against legal accusations."
+    },
+    {
+      "id": 34,
+      "name": "Legal Settlement",
+      "definition": "Events involving settling legal disputes."
+    },
+    {
+      "id": 35,
+      "name": "Legal Appeal",
+      "definition": "Events involving appealing legal decisions."
+    },
+    {
+      "id": 36,
+      "name": "Legal Execution",
+      "definition": "Events involving carrying out legal sentences."
+    },
+    {
+      "id": 37,
+      "name": "Legal Pardon",
+      "definition": "Events involving granting legal pardons."
+    },
+    {
+      "id": 38,
+      "name": "Legal Release",
+      "definition": "Events involving releasing from legal custody."
+    },
+    {
+      "id": 39,
+      "name": "Legal Imprisonment",
+      "definition": "Events involving being imprisoned."
+    },
+    {
+      "id": 40,
+      "name": "Legal Bail",
+      "definition": "Events involving posting bail."
+    },
+    {
+      "id": 41,
+      "name": "Legal Trial",
+      "definition": "Events involving undergoing a legal trial."
+    },
+    {
+      "id": 42,
+      "name": "Legal Testimony",
+      "definition": "Events involving giving legal testimony."
+    },
+    {
+      "id": 43,
+      "name": "Legal Evidence",
+      "definition": "Events involving presenting legal evidence."
+    },
+    {
+      "id": 44,
+      "name": "Legal Investigation",
+      "definition": "Events involving conducting legal investigations."
+    },
+    {
+      "id": 45,
+      "name": "Legal Judgment",
+      "definition": "Events involving receiving legal judgments."
+    },
+    {
+      "id": 46,
+      "name": "Legal Appeal",
+      "definition": "Events involving appealing legal decisions."
+    },
+    {
+      "id": 47,
+      "name": "Legal Settlement",
+      "definition": "Events involving settling legal disputes."
+    },
+    {
+      "id": 48,
+      "name": "Legal Defense",
+      "definition": "Events involving defending against legal accusations."
+    },
+    {
+      "id": 49,
+      "name": "Legal Conviction",
+      "definition": "Events involving being convicted of a crime."
+    },
+    {
+      "id": 50,
+      "name": "Legal Accusation",
+      "definition": "Events involving being accused of a crime."
+    },
+    {
+      "id": 51,
+      "name": "Financial Transaction",
+      "definition": "Events involving financial transactions such as buyouts."
+    },
+    {
+      "id": 52,
+      "name": "Employment Termination",
+      "definition": "Events involving leaving or being removed from a job."
+    },
+    {
+      "id": 53,
+      "name": "Loss",
+      "definition": "Events involving losing or experiencing loss."
+    },
+    {
+      "id": 54,
+      "name": "Victory",
+      "definition": "Events involving winning or achieving victory."
+    },
+    {
+      "id": 55,
+      "name": "Divorce",
+      "definition": "Events involving getting divorced."
+    },
+    {
+      "id": 56,
+      "name": "Engagement",
+      "definition": "Events involving being engaged to be married."
+    },
+    {
+      "id": 57,
+      "name": "Production",
+      "definition": "Events involving producing or creating something."
+    },
+    {
+      "id": 58,
+      "name": "Performance",
+      "definition": "Events involving performing in a non-musical context."
+    },
+    {
+      "id": 59,
+      "name": "Communication",
+      "definition": "Events involving communication such as calls or emails."
+    },
+    {
+      "id": 60,
+      "name": "Legal Status",
+      "definition": "Events involving legal status changes such as being detained."
+    },
+    {
+      "id": 61,
+      "name": "Partnership",
+      "definition": "Events involving working or being together with others."
+    },
+    {
+      "id": 62,
+      "name": "Arrival",
+      "definition": "Events involving arriving at a location."
+    },
+    {
+      "id": 63,
+      "name": "Resignation",
+      "definition": "Events involving resigning from a position."
+    },
+    {
+      "id": 64,
+      "name": "Competition",
+      "definition": "Events involving participating in competitions."
+    },
+    {
+      "id": 65,
+      "name": "Public Speaking",
+      "definition": "Events involving making statements or speeches."
+    },
+    {
+      "id": 66,
+      "name": "Military Service",
+      "definition": "Events involving serving in the military."
+    },
+    {
+      "id": 67,
+      "name": "Business Transaction",
+      "definition": "Events involving sales or business deals."
+    },
+    {
+      "id": 68,
+      "name": "Political Action",
+      "definition": "Events involving political actions or statements."
+    },
+    {
+      "id": 69,
+      "name": "Family Relationship",
+      "definition": "Events involving family roles such as wife or husband."
+    },
+    {
+      "id": 70,
+      "name": "Artistic Work",
+      "definition": "Events related to creating or performing artistic work."
+    },
+    {
+      "id": 71,
+      "name": "Travel",
+      "definition": "Events involving moving or traveling from one place to another."
+    },
+    {
+      "id": 72,
+      "name": "Legal Action",
+      "definition": "Events involving legal actions such as being fined or arrested."
+    },
+    {
+      "id": 73,
+      "name": "Leadership",
+      "definition": "Events involving holding a leadership position, such as president or chief."
+    },
+    {
+      "id": 74,
+      "name": "Protest",
+      "definition": "Events involving demonstrations or protests."
+    },
+    {
+      "id": 75,
+      "name": "Employment",
+      "definition": "Events related to having a job or being employed."
+    },
+    {
+      "id": 76,
+      "name": "Sports Achievement",
+      "definition": "Events involving winning medals or competitions in sports."
+    },
+    {
+      "id": 77,
+      "name": "Education",
+      "definition": "Events related to studying or being a student."
+    },
+    {
+      "id": 78,
+      "name": "Marriage",
+      "definition": "Events involving getting married or being married."
+    },
+    {
+      "id": 79,
+      "name": "Military Command",
+      "definition": "Events involving taking or having command in a military context."
+    },
+    {
+      "id": 80,
+      "name": "Music Performance",
+      "definition": "Events related to singing or playing music."
+    }
+  ]
+}

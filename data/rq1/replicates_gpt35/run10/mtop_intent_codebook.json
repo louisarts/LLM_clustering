@@ -1,0 +1,85 @@
+{
+  "bench": "mtop_intent",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "View Reminders",
+      "definition": "User wants to view their reminders."
+    },
+    {
+      "id": 2,
+      "name": "Make Calls",
+      "definition": "User wants to make a phone call or video call."
+    },
+    {
+      "id": 3,
+      "name": "Check Weather",
+      "definition": "User wants to check the weather forecast."
+    },
+    {
+      "id": 4,
+      "name": "Set Alarms",
+      "definition": "User wants to set an alarm for a specific time or recurring alarm."
+    },
+    {
+      "id": 5,
+      "name": "Play Music",
+      "definition": "User wants to play music from a specific artist or genre."
+    },
+    {
+      "id": 6,
+      "name": "Check Work History",
+      "definition": "User wants to know about someone's work history."
+    },
+    {
+      "id": 7,
+      "name": "Send Messages",
+      "definition": "User wants to send a message via text or messenger."
+    },
+    {
+      "id": 8,
+      "name": "Cooking Queries",
+      "definition": "User has queries related to cooking or recipes."
+    },
+    {
+      "id": 9,
+      "name": "Timer Functions",
+      "definition": "User wants to start, stop, or modify a timer."
+    },
+    {
+      "id": 10,
+      "name": "News Updates",
+      "definition": "User wants to know the latest news headlines."
+    },
+    {
+      "id": 11,
+      "name": "Event Information",
+      "definition": "User wants to know about upcoming events or activities."
+    },
+    {
+      "id": 12,
+      "name": "Location Specific Queries",
+      "definition": "User has queries related to specific locations."
+    },
+    {
+      "id": 13,
+      "name": "Cancel/Remove Reminders",
+      "definition": "User wants to cancel or remove existing reminders."
+    },
+    {
+      "id": 14,
+      "name": "Social Media Queries",
+      "definition": "User has queries related to social media platforms."
+    },
+    {
+      "id": 15,
+      "name": "Health and Fitness Queries",
+      "definition": "User has queries related to health, fitness, or nutrition."
+    }
+  ]
+}

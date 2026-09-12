@@ -1,0 +1,90 @@
+{
+  "bench": "massive_intent",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Music",
+      "definition": "Commands to play, shuffle, or resume music or playlists."
+    },
+    {
+      "id": 2,
+      "name": "Play Audio Content",
+      "definition": "Commands to play podcasts, audiobooks, or radio."
+    },
+    {
+      "id": 3,
+      "name": "Email Management",
+      "definition": "Commands to send, reply, or check emails."
+    },
+    {
+      "id": 4,
+      "name": "Calendar Management",
+      "definition": "Commands to add, remove, or check calendar events and reminders."
+    },
+    {
+      "id": 5,
+      "name": "Weather Information",
+      "definition": "Commands to get current or forecasted weather information."
+    },
+    {
+      "id": 6,
+      "name": "News Updates",
+      "definition": "Commands to get the latest news or headlines."
+    },
+    {
+      "id": 7,
+      "name": "Stock and Financial Information",
+      "definition": "Commands to get stock prices or financial information."
+    },
+    {
+      "id": 8,
+      "name": "Travel and Directions",
+      "definition": "Commands to book tickets, get directions, or check traffic."
+    },
+    {
+      "id": 9,
+      "name": "Home Automation",
+      "definition": "Commands to control lights, alarms, or other smart home devices."
+    },
+    {
+      "id": 10,
+      "name": "Shopping List Management",
+      "definition": "Commands to add or remove items from a shopping list."
+    },
+    {
+      "id": 11,
+      "name": "General Knowledge and Information",
+      "definition": "Commands to ask for definitions, facts, or general information."
+    },
+    {
+      "id": 12,
+      "name": "Social Media Interaction",
+      "definition": "Commands to post or interact on social media platforms."
+    },
+    {
+      "id": 13,
+      "name": "Cooking and Recipes",
+      "definition": "Commands to get recipes or cooking instructions."
+    },
+    {
+      "id": 14,
+      "name": "Time and Date Queries",
+      "definition": "Commands to ask about current time, date, or time zones."
+    },
+    {
+      "id": 15,
+      "name": "Personal Assistance",
+      "definition": "Commands to ask for personal advice or recommendations."
+    },
+    {
+      "id": 16,
+      "name": "Miscellaneous",
+      "definition": "Commands that do not fit into other categories, such as jokes or personal questions."
+    }
+  ]
+}

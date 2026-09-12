@@ -1,0 +1,1509 @@
+{
+  "bench": "dbpedia",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, including athletes, politicians, artists, military personnel, and other figures notable for their life and achievements."
+    },
+    {
+      "id": 2,
+      "name": "Building",
+      "definition": "A man-made structure, such as a tower, school, church, historic house, or other architectural construction."
+    },
+    {
+      "id": 3,
+      "name": "Vehicle",
+      "definition": "A craft or machine designed for transportation, including automobiles, aircraft, ships, and trains."
+    },
+    {
+      "id": 4,
+      "name": "Album",
+      "definition": "A collection of audio recordings, such as a music album, EP, or compilation, released as a single item."
+    },
+    {
+      "id": 5,
+      "name": "Educational Institution",
+      "definition": "An organization dedicated to education, such as a school, college, or university."
+    },
+    {
+      "id": 6,
+      "name": "Animal",
+      "definition": "A living organism that is a member of the kingdom Animalia, including specific species and genera."
+    },
+    {
+      "id": 7,
+      "name": "Plant",
+      "definition": "A living organism of the kingdom Plantae, including specific species and genera of flora."
+    },
+    {
+      "id": 8,
+      "name": "Village",
+      "definition": "A small human settlement or community, typically located in a rural area."
+    },
+    {
+      "id": 9,
+      "name": "Novel",
+      "definition": "A long work of fiction or literary prose published as a book."
+    },
+    {
+      "id": 10,
+      "name": "Film",
+      "definition": "A motion picture or movie, including theatrical releases and television films."
+    },
+    {
+      "id": 11,
+      "name": "Company",
+      "definition": "A business organization or commercial entity formed to trade goods or services."
+    },
+    {
+      "id": 12,
+      "name": "Journal",
+      "definition": "A periodical academic or professional publication dedicated to a specific field of study."
+    },
+    {
+      "id": 13,
+      "name": "Geographical Feature",
+      "definition": "A natural physical formation on the Earth's surface, such as a mountain, lake, river, or valley."
+    },
+    {
+      "id": 14,
+      "name": "Book",
+      "definition": "A written or printed work of non-fiction or a literary collection distinct from a novel."
+    },
+    {
+      "id": 15,
+      "name": "Short Story",
+      "definition": "A brief work of fiction, typically shorter than a novella or novel."
+    },
+    {
+      "id": 16,
+      "name": "Manga",
+      "definition": "A Japanese style of comic books or graphic novels."
+    },
+    {
+      "id": 17,
+      "name": "Television Series",
+      "definition": "A television show consisting of episodes broadcast over a period of time."
+    },
+    {
+      "id": 18,
+      "name": "Newspaper",
+      "definition": "A printed or digital publication containing news, articles, and advertisements, issued regularly."
+    },
+    {
+      "id": 19,
+      "name": "Magazine",
+      "definition": "A periodical publication containing articles and illustrations, often covering a specific topic."
+    },
+    {
+      "id": 20,
+      "name": "Record Label",
+      "definition": "A company that manages brands and trademarks of music recordings and music videos."
+    },
+    {
+      "id": 21,
+      "name": "Arthropod",
+      "definition": "An invertebrate animal of the phylum Arthropoda, such as an insect, spider, or crustacean."
+    },
+    {
+      "id": 22,
+      "name": "Mollusk",
+      "definition": "An invertebrate animal of the phylum Mollusca, such as a snail, slug, or octopus."
+    },
+    {
+      "id": 23,
+      "name": "Fungus",
+      "definition": "A member of the biological kingdom Fungi, such as a mushroom, mold, or yeast."
+    },
+    {
+      "id": 24,
+      "name": "Fictional Character",
+      "definition": "A person or persona appearing in a work of fiction."
+    },
+    {
+      "id": 25,
+      "name": "Video Game",
+      "definition": "An electronic game that involves interaction with a user interface to generate visual feedback."
+    },
+    {
+      "id": 26,
+      "name": "Board Game",
+      "definition": "A tabletop game that involves counters or pieces moved or placed on a pre-marked surface."
+    },
+    {
+      "id": 27,
+      "name": "Sports Team",
+      "definition": "A group of individuals who play sports together as a unit."
+    },
+    {
+      "id": 28,
+      "name": "Sports Season",
+      "definition": "A specific period of time during which a sports competition or league takes place."
+    },
+    {
+      "id": 29,
+      "name": "Sports Event",
+      "definition": "A single or series of athletic competitions, such as a championship or tournament."
+    },
+    {
+      "id": 30,
+      "name": "Award",
+      "definition": "A prize or recognition given to a person or organization for achievement."
+    },
+    {
+      "id": 31,
+      "name": "Legislative District",
+      "definition": "A geographical area represented by an elected official in a legislative body."
+    },
+    {
+      "id": 32,
+      "name": "Government Agency",
+      "definition": "A permanent or semi-permanent organization within a government responsible for the oversight and administration of specific functions."
+    },
+    {
+      "id": 33,
+      "name": "Military Unit",
+      "definition": "A subdivision of an armed force, such as a division, regiment, or squadron."
+    },
+    {
+      "id": 34,
+      "name": "Military Conflict",
+      "definition": "A period of armed conflict between two or more groups, such as a war or battle."
+    },
+    {
+      "id": 35,
+      "name": "Political Party",
+      "definition": "An organized group of people with at least roughly similar political aims and opinions."
+    },
+    {
+      "id": 36,
+      "name": "Language",
+      "definition": "A system of communication used by a particular country or community."
+    },
+    {
+      "id": 37,
+      "name": "Ethnic Group",
+      "definition": "A category of people who identify with each other based on common ancestral, social, cultural, or national experience."
+    },
+    {
+      "id": 38,
+      "name": "Religion",
+      "definition": "A particular system of faith and worship."
+    },
+    {
+      "id": 39,
+      "name": "Disease",
+      "definition": "A disorder of structure or function in a human, animal, or plant."
+    },
+    {
+      "id": 40,
+      "name": "Chemical Compound",
+      "definition": "A substance formed when two or more chemical elements are chemically bonded together."
+    },
+    {
+      "id": 41,
+      "name": "Chemical Element",
+      "definition": "A pure chemical substance consisting of a single type of atom."
+    },
+    {
+      "id": 42,
+      "name": "Scientific Theory",
+      "definition": "An explanation of an aspect of the natural world and universe that has been repeatedly tested and corroborated."
+    },
+    {
+      "id": 43,
+      "name": "Mathematical Concept",
+      "definition": "An abstract idea or general notion in the field of mathematics."
+    },
+    {
+      "id": 44,
+      "name": "Physical Constant",
+      "definition": "A physical quantity that is generally believed to be both universal in nature and have constant value in time."
+    },
+    {
+      "id": 45,
+      "name": "Astronomical Object",
+      "definition": "A naturally occurring physical entity, association, or structure that exists in the observable universe."
+    },
+    {
+      "id": 46,
+      "name": "Constellation",
+      "definition": "A group of stars forming a recognizable pattern that is traditionally named after its apparent form or identified with a mythological figure."
+    },
+    {
+      "id": 47,
+      "name": "Zodiac Sign",
+      "definition": "One of the twelve sectors of the ecliptic plane used in astrology."
+    },
+    {
+      "id": 48,
+      "name": "Geological Period",
+      "definition": "A subdivision of geological time based on the rock layers and fossil record."
+    },
+    {
+      "id": 49,
+      "name": "Prehistoric Era",
+      "definition": "A period of time before recorded history."
+    },
+    {
+      "id": 50,
+      "name": "Historical Event",
+      "definition": "A significant occurrence in the past."
+    },
+    {
+      "id": 51,
+      "name": "Historical Period",
+      "definition": "An era of history defined by specific cultural, political, or social characteristics."
+    },
+    {
+      "id": 52,
+      "name": "Archaeological Culture",
+      "definition": "A recurring assemblage of artifacts from a specific time and place that may constitute the material culture remains of a particular past human society."
+    },
+    {
+      "id": 53,
+      "name": "Archaeological Site",
+      "definition": "A place in which evidence of past activity is preserved, and which has been, or may be, investigated using the discipline of archaeology."
+    },
+    {
+      "id": 54,
+      "name": "Historical Landmark",
+      "definition": "A building, site, structure, or object that is officially recognized for its historical significance."
+    },
+    {
+      "id": 55,
+      "name": "Museum",
+      "definition": "A building or place where objects of historical, scientific, artistic, or cultural interest are stored and exhibited."
+    },
+    {
+      "id": 56,
+      "name": "Library",
+      "definition": "A building or room containing collections of books, periodicals, and sometimes films and recorded music for use or borrowing by the public or the members of an institution."
+    },
+    {
+      "id": 57,
+      "name": "Hospital",
+      "definition": "An institution providing medical and surgical treatment and nursing care for sick or injured people."
+    },
+    {
+      "id": 58,
+      "name": "Prison",
+      "definition": "A building to which people are legally committed as a punishment for crimes they have committed or while awaiting trial."
+    },
+    {
+      "id": 59,
+      "name": "Cemetery",
+      "definition": "A burial ground; a designated area where deceased individuals are interred."
+    },
+    {
+      "id": 60,
+      "name": "Park",
+      "definition": "A large public green area in a town, used for recreation."
+    },
+    {
+      "id": 61,
+      "name": "Garden",
+      "definition": "A piece of ground adjoining a house, used for growing flowers, fruit, or vegetables."
+    },
+    {
+      "id": 62,
+      "name": "Zoo",
+      "definition": "An establishment which maintains a collection of wild animals, typically in a park or gardens, for study, conservation, or display to the public."
+    },
+    {
+      "id": 63,
+      "name": "Aquarium",
+      "definition": "A building containing an artificial pool or tank of water where live aquatic animals and plants are kept for observation."
+    },
+    {
+      "id": 64,
+      "name": "Stadium",
+      "definition": "A sports arena with tiers of seats for spectators."
+    },
+    {
+      "id": 65,
+      "name": "Arena",
+      "definition": "A level area surrounded by seats, in which sports, entertainments, and other public events are held."
+    },
+    {
+      "id": 66,
+      "name": "Theater",
+      "definition": "A building or outdoor area in which plays and other dramatic performances are given."
+    },
+    {
+      "id": 67,
+      "name": "Restaurant",
+      "definition": "A place where people pay to sit and eat meals that are cooked and served on the premises."
+    },
+    {
+      "id": 68,
+      "name": "Hotel",
+      "definition": "An establishment providing accommodation, meals, and other services for travelers and tourists."
+    },
+    {
+      "id": 69,
+      "name": "Bar",
+      "definition": "An establishment where alcoholic drinks are served."
+    },
+    {
+      "id": 70,
+      "name": "Store",
+      "definition": "A retail establishment selling items to the public."
+    },
+    {
+      "id": 71,
+      "name": "Market",
+      "definition": "A regular gathering of people for the purchase and sale of provisions, livestock, and other commodities."
+    },
+    {
+      "id": 72,
+      "name": "Mall",
+      "definition": "A large building or series of connected buildings containing a variety of retail stores and often restaurants."
+    },
+    {
+      "id": 73,
+      "name": "Airport",
+      "definition": "A complex of runways and buildings for the takeoff, landing, and maintenance of civil aircraft, with facilities for passengers."
+    },
+    {
+      "id": 74,
+      "name": "Train Station",
+      "definition": "A place where trains stop to load and unload passengers or goods."
+    },
+    {
+      "id": 75,
+      "name": "Bus Station",
+      "definition": "A terminal where buses originate, terminate, or stop."
+    },
+    {
+      "id": 76,
+      "name": "Port",
+      "definition": "A town or city with a harbor where ships load or unload."
+    },
+    {
+      "id": 77,
+      "name": "Bridge",
+      "definition": "A structure built to carry a road, railway, or path across a river, road, or other obstacle."
+    },
+    {
+      "id": 78,
+      "name": "Tunnel",
+      "definition": "An artificial underground passage, especially one built through a hill or under a river."
+    },
+    {
+      "id": 79,
+      "name": "Dam",
+      "definition": "A barrier constructed to hold back water and raise its level, forming a reservoir used to generate electricity or as a water supply."
+    },
+    {
+      "id": 80,
+      "name": "Canal",
+      "definition": "An artificial waterway constructed to allow the passage of boats or ships inland or to convey water."
+    },
+    {
+      "id": 81,
+      "name": "Road",
+      "definition": "A wide way leading from one place to another, especially one with a specially prepared surface which vehicles can use."
+    },
+    {
+      "id": 82,
+      "name": "Highway",
+      "definition": "A main road, especially one connecting major towns or cities."
+    },
+    {
+      "id": 83,
+      "name": "Street",
+      "definition": "A public road in a city, town, or village, typically with houses and buildings on one or both sides."
+    },
+    {
+      "id": 84,
+      "name": "Square",
+      "definition": "An open, typically four-sided, area surrounded by buildings in a village, town, or city."
+    },
+    {
+      "id": 85,
+      "name": "Neighborhood",
+      "definition": "A district or community within a town or city."
+    },
+    {
+      "id": 86,
+      "name": "Suburb",
+      "definition": "An outlying district of a city, especially a residential one."
+    },
+    {
+      "id": 87,
+      "name": "City",
+      "definition": "A large town, often with a cathedral or university."
+    },
+    {
+      "id": 88,
+      "name": "Town",
+      "definition": "An urban area that has a name, defined boundaries, and local government, and that is generally larger than a village and smaller than a city."
+    },
+    {
+      "id": 89,
+      "name": "County",
+      "definition": "A territorial division of some countries, forming the chief unit of local administration."
+    },
+    {
+      "id": 90,
+      "name": "Province",
+      "definition": "A principal administrative division of a certain country or region."
+    },
+    {
+      "id": 91,
+      "name": "State",
+      "definition": "A nation or territory considered as an organized political community under one government."
+    },
+    {
+      "id": 92,
+      "name": "Country",
+      "definition": "A nation with its own government, occupying a particular territory."
+    },
+    {
+      "id": 93,
+      "name": "Continent",
+      "definition": "One of the earth's seven main continuous expanses of land."
+    },
+    {
+      "id": 94,
+      "name": "Region",
+      "definition": "An area, especially part of a country or the world having definable characteristics but not always fixed boundaries."
+    },
+    {
+      "id": 95,
+      "name": "Island",
+      "definition": "A piece of land surrounded by water."
+    },
+    {
+      "id": 96,
+      "name": "Peninsula",
+      "definition": "A piece of land almost surrounded by water or projecting out into a body of water."
+    },
+    {
+      "id": 97,
+      "name": "Archipelago",
+      "definition": "A group of islands."
+    },
+    {
+      "id": 98,
+      "name": "Mountain Range",
+      "definition": "A line of mountains connected by high ground."
+    },
+    {
+      "id": 99,
+      "name": "Mountain",
+      "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level."
+    },
+    {
+      "id": 100,
+      "name": "Hill",
+      "definition": "A naturally raised area of land, not as high or craggy as a mountain."
+    },
+    {
+      "id": 101,
+      "name": "Volcano",
+      "definition": "A mountain or hill, typically conical, having a crater or vent through which lava, rock fragments, hot vapor, and gas are being or have been erupted from the earth's crust."
+    },
+    {
+      "id": 102,
+      "name": "Valley",
+      "definition": "A low area of land between hills or mountains, typically with a river or stream flowing through it."
+    },
+    {
+      "id": 103,
+      "name": "Canyon",
+      "definition": "A deep gorge, typically one with a river flowing through it, as found in North America."
+    },
+    {
+      "id": 104,
+      "name": "Cave",
+      "definition": "A large underground chamber, typically of natural origin, in a hillside or cliff."
+    },
+    {
+      "id": 105,
+      "name": "Waterfall",
+      "definition": "A cascade of water falling from a height, formed when a river or stream flows over a precipice or steep incline."
+    },
+    {
+      "id": 106,
+      "name": "Lake",
+      "definition": "A large body of water surrounded by land."
+    },
+    {
+      "id": 107,
+      "name": "River",
+      "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another such stream."
+    },
+    {
+      "id": 108,
+      "name": "Stream",
+      "definition": "A small, narrow river."
+    },
+    {
+      "id": 109,
+      "name": "Spring",
+      "definition": "A place where water naturally flows out from the ground."
+    },
+    {
+      "id": 110,
+      "name": "Glacier",
+      "definition": "A slowly moving mass or river of ice formed by the accumulation and compaction of snow on mountains or near the poles."
+    },
+    {
+      "id": 111,
+      "name": "Desert",
+      "definition": "A dry, barren area of land, typically covered with sand, that receives very little precipitation."
+    },
+    {
+      "id": 112,
+      "name": "Forest",
+      "definition": "A large area covered chiefly with trees and undergrowth."
+    },
+    {
+      "id": 113,
+      "name": "Jungle",
+      "definition": "An area of land overgrown with dense forest and tangled vegetation, typically in the tropics."
+    },
+    {
+      "id": 114,
+      "name": "Swamp",
+      "definition": "An area of low-lying, uncultivated ground where water collects; a bog or marsh."
+    },
+    {
+      "id": 115,
+      "name": "Beach",
+      "definition": "A pebbly or sandy shore, especially by the ocean between high- and low-water marks."
+    },
+    {
+      "id": 116,
+      "name": "Ocean",
+      "definition": "A very large expanse of sea, in particular, each of the main areas into which the sea is divided geographically."
+    },
+    {
+      "id": 117,
+      "name": "Sea",
+      "definition": "The expanse of salt water that covers most of the earth's surface and surrounds its landmasses."
+    },
+    {
+      "id": 118,
+      "name": "Gulf",
+      "definition": "A deep inlet of the sea almost surrounded by land, with a narrow mouth."
+    },
+    {
+      "id": 119,
+      "name": "Bay",
+      "definition": "A broad inlet of the sea where the land curves inward."
+    },
+    {
+      "id": 120,
+      "name": "Strait",
+      "definition": "A narrow passage of water connecting two seas or two other large areas of water."
+    },
+    {
+      "id": 121,
+      "name": "Channel",
+      "definition": "A length of water wider than a strait, joining two larger areas of water, especially two seas."
+    },
+    {
+      "id": 122,
+      "name": "Cape",
+      "definition": "A headland or promontory."
+    },
+    {
+      "id": 123,
+      "name": "Atmospheric Phenomenon",
+      "definition": "A weather event or optical phenomenon that occurs in the atmosphere."
+    },
+    {
+      "id": 124,
+      "name": "Natural Disaster",
+      "definition": "A natural event such as a flood, earthquake, or hurricane that causes great damage or loss of life."
+    },
+    {
+      "id": 125,
+      "name": "Mineral",
+      "definition": "A solid inorganic substance of natural occurrence."
+    },
+    {
+      "id": 126,
+      "name": "Rock",
+      "definition": "The solid mineral material forming part of the surface of the earth and other similar planets."
+    },
+    {
+      "id": 127,
+      "name": "Gemstone",
+      "definition": "A precious or semi-precious stone, especially when cut and polished."
+    },
+    {
+      "id": 128,
+      "name": "Fossil",
+      "definition": "The remains or impression of a prehistoric organism preserved in petrified form or as a mold or cast in rock."
+    },
+    {
+      "id": 129,
+      "name": "Ecosystem",
+      "definition": "A biological community of interacting organisms and their physical environment."
+    },
+    {
+      "id": 130,
+      "name": "Biome",
+      "definition": "A large naturally occurring community of flora and fauna occupying a major habitat, e.g. forest or tundra."
+    },
+    {
+      "id": 131,
+      "name": "Habitat",
+      "definition": "The natural home or environment of an animal, plant, or other organism."
+    },
+    {
+      "id": 132,
+      "name": "Food",
+      "definition": "Any substance consumed to provide nutritional support for an organism."
+    },
+    {
+      "id": 133,
+      "name": "Drink",
+      "definition": "A liquid that can be swallowed as refreshment or nourishment."
+    },
+    {
+      "id": 134,
+      "name": "Clothing",
+      "definition": "Items worn to cover the body."
+    },
+    {
+      "id": 135,
+      "name": "Furniture",
+      "definition": "The movable articles that are used to make a room or other building suitable for living or working."
+    },
+    {
+      "id": 136,
+      "name": "Tool",
+      "definition": "A device or implement, especially one held in the hand, used to carry out a particular function."
+    },
+    {
+      "id": 137,
+      "name": "Instrument",
+      "definition": "A device for producing musical sounds or for scientific or navigational purposes."
+    },
+    {
+      "id": 138,
+      "name": "Weapon",
+      "definition": "A thing designed or used for inflicting bodily harm or physical damage."
+    },
+    {
+      "id": 139,
+      "name": "Toy",
+      "definition": "An object for a child to play with, typically a model or miniature replica of something."
+    },
+    {
+      "id": 140,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 141,
+      "name": "Stock Market Index",
+      "definition": "A measurement of the value of a section of the stock market."
+    },
+    {
+      "id": 142,
+      "name": "Product",
+      "definition": "An article or substance that is manufactured or refined for sale."
+    },
+    {
+      "id": 143,
+      "name": "Brand",
+      "definition": "A type of product manufactured by a particular company under a particular name."
+    },
+    {
+      "id": 144,
+      "name": "Software",
+      "definition": "Programs and other operating information used by a computer."
+    },
+    {
+      "id": 145,
+      "name": "Website",
+      "definition": "A location connected to the Internet that maintains one or more pages on the World Wide Web."
+    },
+    {
+      "id": 146,
+      "name": "Programming Language",
+      "definition": "A formal language comprising a set of instructions that produce various kinds of output."
+    },
+    {
+      "id": 147,
+      "name": "File Format",
+      "definition": "A standard way that information is encoded for storage in a computer file."
+    },
+    {
+      "id": 148,
+      "name": "Algorithm",
+      "definition": "A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer."
+    },
+    {
+      "id": 149,
+      "name": "Protocol",
+      "definition": "A set of rules governing the exchange or transmission of data between devices."
+    },
+    {
+      "id": 150,
+      "name": "Standard",
+      "definition": "A required or agreed level of quality or attainment."
+    },
+    {
+      "id": 151,
+      "name": "Unit of Measurement",
+      "definition": "A definite magnitude of a quantity, defined and adopted by convention or by law, that is used as a standard for measurement of the same kind of quantity."
+    },
+    {
+      "id": 152,
+      "name": "Color",
+      "definition": "The property possessed by an object of producing different sensations on the eye as a result of the way it reflects or emits light."
+    },
+    {
+      "id": 153,
+      "name": "Shape",
+      "definition": "The external form or appearance characteristic of someone or something."
+    },
+    {
+      "id": 154,
+      "name": "Number",
+      "definition": "An arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity."
+    },
+    {
+      "id": 155,
+      "name": "Symbol",
+      "definition": "A mark, character, or object used as a conventional representation of an object, function, or process."
+    },
+    {
+      "id": 156,
+      "name": "Letter",
+      "definition": "A character representing one or more of the sounds used in speech; any of the symbols of an alphabet."
+    },
+    {
+      "id": 157,
+      "name": "Punctuation Mark",
+      "definition": "A mark used to separate sentences and clarify meaning, such as a period or comma."
+    },
+    {
+      "id": 158,
+      "name": "Word",
+      "definition": "A single distinct meaningful element of speech or writing."
+    },
+    {
+      "id": 159,
+      "name": "Phrase",
+      "definition": "A small group of words standing together as a conceptual unit."
+    },
+    {
+      "id": 160,
+      "name": "Idiom",
+      "definition": "A group of words established by usage as having a meaning not deducible from those of the individual words."
+    },
+    {
+      "id": 161,
+      "name": "Proverb",
+      "definition": "A short pithy saying in general use, stating a general truth or piece of advice."
+    },
+    {
+      "id": 162,
+      "name": "Quote",
+      "definition": "A repetition of someone else's statement or thoughts."
+    },
+    {
+      "id": 163,
+      "name": "Joke",
+      "definition": "A thing that someone says to cause amusement or laughter."
+    },
+    {
+      "id": 164,
+      "name": "Riddle",
+      "definition": "A question or statement intentionally phrased so as to require ingenuity in ascertaining its answer or meaning."
+    },
+    {
+      "id": 165,
+      "name": "Myth",
+      "definition": "A traditional story, especially one concerning the early history of a people or explaining some natural or social phenomenon."
+    },
+    {
+      "id": 166,
+      "name": "Legend",
+      "definition": "A traditional story sometimes regarded as historical but unauthenticated."
+    },
+    {
+      "id": 167,
+      "name": "Fairy Tale",
+      "definition": "A children's story about magical and imaginary beings and lands."
+    },
+    {
+      "id": 168,
+      "name": "Folklore",
+      "definition": "The traditional beliefs, customs, and stories of a community, passed through the generations by word of mouth."
+    },
+    {
+      "id": 169,
+      "name": "Deity",
+      "definition": "A god or goddess in a polytheistic religion."
+    },
+    {
+      "id": 170,
+      "name": "Demon",
+      "definition": "An evil spirit or devil, especially one thought to possess a person or act as a tormentor in hell."
+    },
+    {
+      "id": 171,
+      "name": "Angel",
+      "definition": "A spiritual being believed to act as an attendant, agent, or messenger of God."
+    },
+    {
+      "id": 172,
+      "name": "Saint",
+      "definition": "A person acknowledged as holy or virtuous and typically regarded as being in heaven after death."
+    },
+    {
+      "id": 173,
+      "name": "Prophet",
+      "definition": "A person regarded as an inspired teacher or proclaimer of the will of God."
+    },
+    {
+      "id": 174,
+      "name": "Pope",
+      "definition": "The Bishop of Rome as head of the Roman Catholic Church."
+    },
+    {
+      "id": 175,
+      "name": "Monarch",
+      "definition": "A sovereign head of state, especially a king, queen, or emperor."
+    },
+    {
+      "id": 176,
+      "name": "Noble Title",
+      "definition": "A rank or status held by a person of high social or political importance."
+    },
+    {
+      "id": 177,
+      "name": "Order of Chivalry",
+      "definition": "A society of knights founded by a sovereign or other person of high rank."
+    },
+    {
+      "id": 178,
+      "name": "Award",
+      "definition": "A prize or other mark of recognition given in honor of an achievement."
+    },
+    {
+      "id": 179,
+      "name": "Treaty",
+      "definition": "A formally concluded and ratified agreement between countries."
+    },
+    {
+      "id": 180,
+      "name": "Law",
+      "definition": "The system of rules which a particular country or community recognizes as regulating the actions of its members and which it may enforce by the imposition of penalties."
+    },
+    {
+      "id": 181,
+      "name": "Court Case",
+      "definition": "A legal dispute between two or more parties that is decided by a court."
+    },
+    {
+      "id": 182,
+      "name": "Constitution",
+      "definition": "A body of fundamental principles or established precedents according to which a state or other organization is acknowledged to be governed."
+    },
+    {
+      "id": 183,
+      "name": "Election",
+      "definition": "A formal and organized process of electing or being elected, especially of members of a political body."
+    },
+    {
+      "id": 184,
+      "name": "Summit",
+      "definition": "A meeting between heads of government."
+    },
+    {
+      "id": 185,
+      "name": "Protest",
+      "definition": "A statement or action expressing disapproval of or objection to something."
+    },
+    {
+      "id": 186,
+      "name": "Strike",
+      "definition": "A refusal to work organized by a body of employees as a form of protest."
+    },
+    {
+      "id": 187,
+      "name": "Revolution",
+      "definition": "A forcible overthrow of a government or social order, in favor of a new system."
+    },
+    {
+      "id": 188,
+      "name": "Coup",
+      "definition": "A sudden, violent, and illegal seizure of power from a government."
+    },
+    {
+      "id": 189,
+      "name": "Assassination",
+      "definition": "The murder of an important person in a surprise attack for political or religious reasons."
+    },
+    {
+      "id": 190,
+      "name": "Terrorist Attack",
+      "definition": "A violent act or threat of violence intended to create fear and achieve a political, religious, or ideological goal."
+    },
+    {
+      "id": 191,
+      "name": "Mass Shooting",
+      "definition": "An incident involving multiple victims of gun violence."
+    },
+    {
+      "id": 192,
+      "name": "Kidnapping",
+      "definition": "The action of abducting someone and holding them captive."
+    },
+    {
+      "id": 193,
+      "name": "Robbery",
+      "definition": "The action of robbing a person or place."
+    },
+    {
+      "id": 194,
+      "name": "Fraud",
+      "definition": "Wrongful or criminal deception intended to result in financial or personal gain."
+    },
+    {
+      "id": 195,
+      "name": "Scandal",
+      "definition": "An action or event regarded as morally or legally wrong and causing general public outrage."
+    },
+    {
+      "id": 196,
+      "name": "Disappearance",
+      "definition": "An instance or fact of someone or something ceasing to be visible or present."
+    },
+    {
+      "id": 197,
+      "name": "Rescue",
+      "definition": "An act of saving or being saved from danger or difficulty."
+    },
+    {
+      "id": 198,
+      "name": "Discovery",
+      "definition": "The action or process of discovering or being discovered."
+    },
+    {
+      "id": 199,
+      "name": "Invention",
+      "definition": "The action of inventing something, typically a process or device."
+    },
+    {
+      "id": 200,
+      "name": "Exploration",
+      "definition": "The action of traveling in or through an unfamiliar area in order to learn about it."
+    },
+    {
+      "id": 201,
+      "name": "Expedition",
+      "definition": "A journey undertaken by a group of people with a particular purpose, especially that of exploration, research, or war."
+    },
+    {
+      "id": 202,
+      "name": "Mission",
+      "definition": "An important assignment carried out for political, religious, or commercial purposes, typically involving travel."
+    },
+    {
+      "id": 203,
+      "name": "Project",
+      "definition": "An individual or collaborative enterprise that is carefully planned and designed to achieve a particular aim."
+    },
+    {
+      "id": 204,
+      "name": "Construction",
+      "definition": "The building of something, typically a large structure."
+    },
+    {
+      "id": 205,
+      "name": "Demolition",
+      "definition": "The action or process of demolishing or being demolished."
+    },
+    {
+      "id": 206,
+      "name": "Renovation",
+      "definition": "The action of renovating a building or structure."
+    },
+    {
+      "id": 207,
+      "name": "Opening",
+      "definition": "The action or process of opening something."
+    },
+    {
+      "id": 208,
+      "name": "Closing",
+      "definition": "The action or process of closing something."
+    },
+    {
+      "id": 209,
+      "name": "Launch",
+      "definition": "The action of launching something, such as a ship or a product."
+    },
+    {
+      "id": 210,
+      "name": "Crash",
+      "definition": "A violent collision, typically of one vehicle with another or with an obstacle."
+    },
+    {
+      "id": 211,
+      "name": "Explosion",
+      "definition": "A violent and destructive shattering or blowing apart of something, as is caused by a bomb."
+    },
+    {
+      "id": 212,
+      "name": "Fire",
+      "definition": "Combustion or burning, in which substances combine chemically with oxygen from the air and typically give out bright light, heat, and smoke."
+    },
+    {
+      "id": 213,
+      "name": "Flood",
+      "definition": "An overflow of a large amount of water beyond its normal limits, especially over what is normally dry land."
+    },
+    {
+      "id": 214,
+      "name": "Earthquake",
+      "definition": "A sudden and violent shaking of the ground, sometimes causing great destruction, as a result of movements within the earth's crust or volcanic action."
+    },
+    {
+      "id": 215,
+      "name": "Hurricane",
+      "definition": "A storm with a violent wind, in particular a tropical cyclone in the Caribbean."
+    },
+    {
+      "id": 216,
+      "name": "Tornado",
+      "definition": "A mobile, destructive vortex of violently rotating winds having the appearance of a funnel-shaped cloud and advancing beneath a large storm system."
+    },
+    {
+      "id": 217,
+      "name": "Volcanic Eruption",
+      "definition": "The sudden occurrence of a violent discharge of steam and volcanic material."
+    },
+    {
+      "id": 218,
+      "name": "Tsunami",
+      "definition": "A long, high sea wave caused by a disturbance, such as an earthquake or volcanic eruption."
+    },
+    {
+      "id": 219,
+      "name": "Drought",
+      "definition": "A prolonged period of abnormally low rainfall, leading to a shortage of water."
+    },
+    {
+      "id": 220,
+      "name": "Famine",
+      "definition": "Extreme scarcity of food."
+    },
+    {
+      "id": 221,
+      "name": "Epidemic",
+      "definition": "A widespread occurrence of an infectious disease in a community at a particular time."
+    },
+    {
+      "id": 222,
+      "name": "Pandemic",
+      "definition": "An outbreak of a disease that occurs over a wide geographic area and affects an exceptionally high proportion of the population."
+    },
+    {
+      "id": 223,
+      "name": "Plague",
+      "definition": "A contagious bacterial disease characterized by fever and delirium, typically with the formation of buboes."
+    },
+    {
+      "id": 224,
+      "name": "Outbreak",
+      "definition": "The sudden or violent start of something unwelcome, such as war or disease."
+    },
+    {
+      "id": 225,
+      "name": "Accident",
+      "definition": "An unfortunate incident that happens unexpectedly and unintentionally, typically resulting in damage or injury."
+    },
+    {
+      "id": 226,
+      "name": "Disaster",
+      "definition": "A sudden event, such as an accident or a natural catastrophe, that causes great damage or loss of life."
+    },
+    {
+      "id": 227,
+      "name": "Emergency",
+      "definition": "A serious, unexpected, and often dangerous situation requiring immediate action."
+    },
+    {
+      "id": 228,
+      "name": "Crisis",
+      "definition": "A time of intense difficulty, trouble, or danger."
+    },
+    {
+      "id": 229,
+      "name": "Conflict",
+      "definition": "A serious disagreement or argument, typically a protracted one."
+    },
+    {
+      "id": 230,
+      "name": "War",
+      "definition": "A state of armed conflict between different nations or states or different groups within a nation or state."
+    },
+    {
+      "id": 231,
+      "name": "Battle",
+      "definition": "A sustained fight between large organized armed forces."
+    },
+    {
+      "id": 232,
+      "name": "Siege",
+      "definition": "A military operation in which enemy forces surround a town or building, cutting off essential supplies, compelling those inside to surrender."
+    },
+    {
+      "id": 233,
+      "name": "Invasion",
+      "definition": "An instance of invading a country or region with an armed force."
+    },
+    {
+      "id": 234,
+      "name": "Occupation",
+      "definition": "The action, state, or period of occupying or being occupied by military force."
+    },
+    {
+      "id": 235,
+      "name": "Revolt",
+      "definition": "Take violent action against an established government or ruler."
+    },
+    {
+      "id": 236,
+      "name": "Uprising",
+      "definition": "An act of resistance or rebellion; a revolt."
+    },
+    {
+      "id": 237,
+      "name": "Rebellion",
+      "definition": "The action or process of resisting authority, control, or convention."
+    },
+    {
+      "id": 238,
+      "name": "Civil War",
+      "definition": "A war between citizens of the same country."
+    },
+    {
+      "id": 239,
+      "name": "World War",
+      "definition": "A war involving many large nations in all different parts of the world."
+    },
+    {
+      "id": 240,
+      "name": "Cold War",
+      "definition": "A state of political hostility between countries characterized by threats, propaganda, and other measures short of open warfare."
+    },
+    {
+      "id": 241,
+      "name": "Genocide",
+      "definition": "The deliberate killing of a large group of people, especially those of a particular ethnic group or nation."
+    },
+    {
+      "id": 242,
+      "name": "Holocaust",
+      "definition": "The mass murder of Jews under the German Nazi regime during the period 1941\u201345."
+    },
+    {
+      "id": 243,
+      "name": "Massacre",
+      "definition": "An indiscriminate and brutal slaughter of people."
+    },
+    {
+      "id": 244,
+      "name": "Execution",
+      "definition": "The carrying out of a sentence of death on a condemned person."
+    },
+    {
+      "id": 245,
+      "name": "Assassination",
+      "definition": "The murder of an important person in a surprise attack for political or religious reasons."
+    },
+    {
+      "id": 246,
+      "name": "Murder",
+      "definition": "The unlawful premeditated killing of one human being by another."
+    },
+    {
+      "id": 247,
+      "name": "Homicide",
+      "definition": "The killing of one person by another."
+    },
+    {
+      "id": 248,
+      "name": "Suicide",
+      "definition": "The action of killing oneself intentionally."
+    },
+    {
+      "id": 249,
+      "name": "Death",
+      "definition": "The action or fact of dying or being killed; the end of the life of a person or organism."
+    },
+    {
+      "id": 250,
+      "name": "Funeral",
+      "definition": "A ceremony held in connection with the burial or cremation of a dead person."
+    },
+    {
+      "id": 251,
+      "name": "Memorial",
+      "definition": "A structure or monument erected in memory of a person or event."
+    },
+    {
+      "id": 252,
+      "name": "Cemetery",
+      "definition": "A burial ground; a designated area where deceased individuals are interred."
+    },
+    {
+      "id": 253,
+      "name": "Grave",
+      "definition": "A place of burial for a dead body, typically a hole dug in the ground."
+    },
+    {
+      "id": 254,
+      "name": "Tomb",
+      "definition": "A large vault, typically an underground one, for burying the dead."
+    },
+    {
+      "id": 255,
+      "name": "Mausoleum",
+      "definition": "A stately or impressive building housing a tomb or group of tombs."
+    },
+    {
+      "id": 256,
+      "name": "Catacomb",
+      "definition": "An underground cemetery consisting of a subterranean gallery with recesses for tombs."
+    },
+    {
+      "id": 257,
+      "name": "Cremation",
+      "definition": "The burning of a dead body."
+    },
+    {
+      "id": 258,
+      "name": "Burial",
+      "definition": "The action or practice of interring a dead body."
+    },
+    {
+      "id": 259,
+      "name": "Mourning",
+      "definition": "The expression of deep sorrow for someone who has died."
+    },
+    {
+      "id": 260,
+      "name": "Grief",
+      "definition": "Deep sorrow, especially that caused by someone's death."
+    },
+    {
+      "id": 261,
+      "name": "Loss",
+      "definition": "The fact or process of losing something or someone."
+    },
+    {
+      "id": 262,
+      "name": "Tragedy",
+      "definition": "An event causing great suffering, destruction, and distress, such as a serious accident, crime, or natural catastrophe."
+    },
+    {
+      "id": 263,
+      "name": "Miracle",
+      "definition": "A surprising and welcome event that is not explicable by natural or scientific laws and is therefore attributed to a divine agency."
+    },
+    {
+      "id": 264,
+      "name": "Wonder",
+      "definition": "A feeling of surprise mingled with admiration, caused by something beautiful, unexpected, unfamiliar, or inexplicable."
+    },
+    {
+      "id": 265,
+      "name": "Mystery",
+      "definition": "Something that is difficult or impossible to understand or explain."
+    },
+    {
+      "id": 266,
+      "name": "Secret",
+      "definition": "Something that is kept or meant to be kept unknown or unseen by others."
+    },
+    {
+      "id": 267,
+      "name": "Rumor",
+      "definition": "A currently circulating story or report of uncertain or doubtful truth."
+    },
+    {
+      "id": 268,
+      "name": "Gossip",
+      "definition": "Casual or unconstrained conversation or reports about other people, typically involving details that are not confirmed as being true."
+    },
+    {
+      "id": 269,
+      "name": "News",
+      "definition": "Newly received or noteworthy information, especially about recent or important events."
+    },
+    {
+      "id": 270,
+      "name": "Report",
+      "definition": "A spoken or written account of something that one has observed, heard, done, or investigated."
+    },
+    {
+      "id": 271,
+      "name": "Article",
+      "definition": "A piece of writing included with others in a newspaper, magazine, or other publication."
+    },
+    {
+      "id": 272,
+      "name": "Story",
+      "definition": "An account of imaginary or real people and events told for entertainment."
+    },
+    {
+      "id": 273,
+      "name": "Narrative",
+      "definition": "A spoken or written account of connected events; a story."
+    },
+    {
+      "id": 274,
+      "name": "Tale",
+      "definition": "A fictitious or true incident or story."
+    },
+    {
+      "id": 275,
+      "name": "Legend",
+      "definition": "A traditional story sometimes regarded as historical but unauthenticated."
+    },
+    {
+      "id": 276,
+      "name": "Myth",
+      "definition": "A traditional story, especially one concerning the early history of a people or explaining some natural or social phenomenon."
+    },
+    {
+      "id": 277,
+      "name": "Fable",
+      "definition": "A short story, typically with animals as characters, conveying a moral."
+    },
+    {
+      "id": 278,
+      "name": "Parable",
+      "definition": "A simple story used to illustrate a moral or spiritual lesson."
+    },
+    {
+      "id": 279,
+      "name": "Allegory",
+      "definition": "A story, poem, or picture that can be interpreted to reveal a hidden meaning, typically a moral or political one."
+    },
+    {
+      "id": 280,
+      "name": "Satire",
+      "definition": "The use of humor, irony, exaggeration, or ridicule to expose and criticize people's stupidity or vices."
+    },
+    {
+      "id": 281,
+      "name": "Irony",
+      "definition": "The expression of one's meaning by using language that normally signifies the opposite, typically for humorous or emphatic effect."
+    },
+    {
+      "id": 282,
+      "name": "Metaphor",
+      "definition": "A figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable."
+    },
+    {
+      "id": 283,
+      "name": "Simile",
+      "definition": "A figure of speech involving the comparison of one thing with another thing of a different kind, used to make a description more emphatic or vivid."
+    },
+    {
+      "id": 284,
+      "name": "Hyperbole",
+      "definition": "Exaggerated statements or claims not meant to be taken literally."
+    },
+    {
+      "id": 285,
+      "name": "Oxymoron",
+      "definition": "A figure of speech in which apparently contradictory terms appear in conjunction."
+    },
+    {
+      "id": 286,
+      "name": "Paradox",
+      "definition": "A statement that seems self-contradictory or absurd but in reality expresses a possible truth."
+    },
+    {
+      "id": 287,
+      "name": "Pun",
+      "definition": "A joke exploiting the different possible meanings of a word or the fact that there are words that sound alike but have different meanings."
+    },
+    {
+      "id": 288,
+      "name": "Joke",
+      "definition": "A thing that someone says to cause amusement or laughter."
+    },
+    {
+      "id": 289,
+      "name": "Riddle",
+      "definition": "A question or statement intentionally phrased so as to require ingenuity in ascertaining its answer or meaning."
+    },
+    {
+      "id": 290,
+      "name": "Limerick",
+      "definition": "A humorous, frequently bawdy, verse of three long and two short lines rhyming aabba."
+    },
+    {
+      "id": 291,
+      "name": "Haiku",
+      "definition": "A Japanese poem of seventeen syllables, in three lines of five, seven, and five, traditionally evoking images of the natural world."
+    },
+    {
+      "id": 292,
+      "name": "Sonnet",
+      "definition": "A poem of fourteen lines using any of a number of formal rhyme schemes, in English typically having ten syllables per line."
+    },
+    {
+      "id": 293,
+      "name": "Poem",
+      "definition": "A piece of writing in which the expression of feelings and ideas is given intensity by the use of distinctive style and rhythm."
+    },
+    {
+      "id": 294,
+      "name": "Song",
+      "definition": "A short poem or other set of words set to music or meant to be sung."
+    },
+    {
+      "id": 295,
+      "name": "Hymn",
+      "definition": "A religious song or poem of praise to God or a god."
+    },
+    {
+      "id": 296,
+      "name": "Anthem",
+      "definition": "A rousing or uplifting song identified with a particular group, body, or cause."
+    },
+    {
+      "id": 297,
+      "name": "Ballad",
+      "definition": "A poem or song narrating a story in short stanzas."
+    },
+    {
+      "id": 298,
+      "name": "Epic",
+      "definition": "A long poem, typically one derived from ancient oral tradition, narrating the deeds and adventures of heroic or legendary figures or the history of a nation."
+    },
+    {
+      "id": 299,
+      "name": "Novel",
+      "definition": "A fictitious prose narrative of book length, typically representing character and action with some degree of realism."
+    },
+    {
+      "id": 300,
+      "name": "Short Story",
+      "definition": "A story with a fully developed theme but significantly shorter and less elaborate than a novel."
+    }
+  ]
+}

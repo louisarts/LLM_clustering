@@ -1,0 +1,62 @@
+{
+  "bench": "banking77",
+  "run": 9,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Management",
+      "definition": "Queries related to ordering, activating, replacing, blocking, unblocking, or general usage of physical and virtual cards, including PIN management and delivery status."
+    },
+    {
+      "id": 2,
+      "name": "Fraud & Security",
+      "definition": "Queries about suspicious transactions, lost/stolen cards or phones, unauthorized access, or needing to freeze/block a card."
+    },
+    {
+      "id": 3,
+      "name": "Account Management",
+      "definition": "Queries related to opening, closing, updating personal details, or general information about the account itself (not specific to cards or transactions)."
+    },
+    {
+      "id": 4,
+      "name": "Money Transfers",
+      "definition": "Queries about sending or receiving money, transfer status, delays, cancellations, or issues with transfers."
+    },
+    {
+      "id": 5,
+      "name": "Top-up & Add Funds",
+      "definition": "Queries about adding money to an account or card, including methods, limits, fees, and issues with top-ups."
+    },
+    {
+      "id": 6,
+      "name": "ATM & Cash Services",
+      "definition": "Queries specifically about ATM withdrawals, cash deposits, issues with ATMs (e.g., wrong amount, card declined), or cash-related services."
+    },
+    {
+      "id": 7,
+      "name": "Fees, Charges & Refunds",
+      "definition": "Queries about unexpected fees, charges, pending transactions, or missing refunds for known transactions."
+    },
+    {
+      "id": 8,
+      "name": "Currency Exchange & Holdings",
+      "definition": "Queries about exchanging currencies, holding money in different currencies, or exchange rates."
+    },
+    {
+      "id": 9,
+      "name": "Identity Verification",
+      "definition": "Queries about the process, requirements, or issues with verifying identity or source of funds."
+    },
+    {
+      "id": 10,
+      "name": "App & Technical Support",
+      "definition": "Queries about general app functionality or technical issues not covered by other categories."
+    },
+    {
+      "id": 11,
+      "name": "General Information / Support",
+      "definition": "General inquiries about the banking service, policies, or information not covered by other specific categories."
+    }
+  ]
+}

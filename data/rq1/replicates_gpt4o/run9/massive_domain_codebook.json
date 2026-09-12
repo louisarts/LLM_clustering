@@ -1,0 +1,95 @@
+{
+  "bench": "massive_domain",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Reminders and Alarms",
+      "definition": "Requests to set, check, or manage reminders and alarms."
+    },
+    {
+      "id": 2,
+      "name": "Weather Information",
+      "definition": "Requests for current or future weather conditions."
+    },
+    {
+      "id": 3,
+      "name": "Calendar and Scheduling",
+      "definition": "Requests to create, modify, or inquire about calendar events and schedules."
+    },
+    {
+      "id": 4,
+      "name": "Music and Audio Playback",
+      "definition": "Requests to play, pause, or manage music, podcasts, or other audio content."
+    },
+    {
+      "id": 5,
+      "name": "Email Management",
+      "definition": "Requests to send, check, or manage emails."
+    },
+    {
+      "id": 6,
+      "name": "Lighting and Home Automation",
+      "definition": "Requests to control lights or other smart home devices."
+    },
+    {
+      "id": 7,
+      "name": "Travel and Transportation",
+      "definition": "Requests related to booking or checking transportation options like trains or flights."
+    },
+    {
+      "id": 8,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 9,
+      "name": "News and Information",
+      "definition": "Requests for news updates or general information."
+    },
+    {
+      "id": 10,
+      "name": "Social Media and Communication",
+      "definition": "Requests to interact with social media or send messages through other platforms."
+    },
+    {
+      "id": 11,
+      "name": "Shopping and Orders",
+      "definition": "Requests to order food, products, or manage shopping lists."
+    },
+    {
+      "id": 12,
+      "name": "Definitions and Explanations",
+      "definition": "Requests for definitions or explanations of terms or concepts."
+    },
+    {
+      "id": 13,
+      "name": "Time and Date",
+      "definition": "Requests for current time, date, or time zone conversions."
+    },
+    {
+      "id": 14,
+      "name": "Local Events and Activities",
+      "definition": "Requests for information about local events or activities."
+    },
+    {
+      "id": 15,
+      "name": "Device Control",
+      "definition": "Requests to control or interact with electronic devices."
+    },
+    {
+      "id": 16,
+      "name": "Financial Information",
+      "definition": "Requests for financial data such as exchange rates or stock market updates."
+    },
+    {
+      "id": 17,
+      "name": "General Queries",
+      "definition": "Miscellaneous requests that do not fit into other categories."
+    }
+  ]
+}

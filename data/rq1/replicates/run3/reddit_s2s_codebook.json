@@ -1,0 +1,147 @@
+{
+  "bench": "reddit_s2s",
+  "run": 3,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Academia & Education",
+      "definition": "Posts related to university, college, PhD, specific courses, studying, and career paths in academia."
+    },
+    {
+      "id": 2,
+      "name": "Amateur Radio",
+      "definition": "Posts discussing ham radio, radio equipment, frequencies, and related technical topics."
+    },
+    {
+      "id": 3,
+      "name": "Animals & Pets",
+      "definition": "Posts about domestic animals, wildlife, animal behavior, and pet care."
+    },
+    {
+      "id": 4,
+      "name": "Anime & Manga",
+      "definition": "Posts discussing specific anime series, manga, or related merchandise and culture."
+    },
+    {
+      "id": 5,
+      "name": "Apple Ecosystem",
+      "definition": "Posts specifically about Apple products, software, services, or the company itself."
+    },
+    {
+      "id": 6,
+      "name": "Art & Design",
+      "definition": "Posts about visual arts, digital art, painting, architecture, graphic design, and aesthetics."
+    },
+    {
+      "id": 7,
+      "name": "Astrology & Spirituality",
+      "definition": "Posts related to horoscopes, astrology, spiritual practices, and religious discussions."
+    },
+    {
+      "id": 8,
+      "name": "Automotive & Transport",
+      "definition": "Posts about cars, motorcycles, public transport, aviation, and related maintenance or accessories."
+    },
+    {
+      "id": 9,
+      "name": "Blogging & Content Creation",
+      "definition": "Posts about creating and managing blogs, generating content, and online publishing."
+    },
+    {
+      "id": 10,
+      "name": "Books & Literature",
+      "definition": "Posts discussing books, authors, literary genres, reading, and libraries."
+    },
+    {
+      "id": 11,
+      "name": "Business & Finance",
+      "definition": "Posts about advertising, marketing, economics, personal finance, investment, and business operations."
+    },
+    {
+      "id": 12,
+      "name": "Chemistry & Science",
+      "definition": "Posts specifically about chemistry, physics, biology, scientific research, and general scientific concepts."
+    },
+    {
+      "id": 13,
+      "name": "Coins & Collectibles",
+      "definition": "Posts about identifying, valuing, or discussing coins and other collectible items."
+    },
+    {
+      "id": 14,
+      "name": "Comics & Superheroes",
+      "definition": "Posts discussing comic books, graphic novels, superheroes, and related media."
+    },
+    {
+      "id": 15,
+      "name": "Current Events & Politics",
+      "definition": "Posts about local, national, or international news, political discussions, and societal issues."
+    },
+    {
+      "id": 16,
+      "name": "General Discussion & Advice",
+      "definition": "Broad questions, requests for opinions, personal dilemmas, and general help-seeking posts."
+    },
+    {
+      "id": 17,
+      "name": "Health & Wellness",
+      "definition": "Posts about physical and mental health, medical conditions, treatments, and personal well-being."
+    },
+    {
+      "id": 18,
+      "name": "Home & Lifestyle",
+      "definition": "Posts about home improvement, interior design, furniture, and general lifestyle topics."
+    },
+    {
+      "id": 19,
+      "name": "Humor & Memes",
+      "definition": "Posts intended to be funny, jokes, memes, or lighthearted observations."
+    },
+    {
+      "id": 20,
+      "name": "Language & Culture (Non-English)",
+      "definition": "Posts in or about non-English languages, or specific cultural topics from non-English speaking regions."
+    },
+    {
+      "id": 21,
+      "name": "Local Community (US)",
+      "definition": "Posts specific to a US city or region, including local news, events, and community discussions."
+    },
+    {
+      "id": 22,
+      "name": "Military & Firearms",
+      "definition": "Posts discussing military topics, firearms, or related equipment."
+    },
+    {
+      "id": 23,
+      "name": "Music & Audio",
+      "definition": "Posts about musicians, bands, genres, songs, audio equipment, and music production."
+    },
+    {
+      "id": 24,
+      "name": "Online Platforms & Tech",
+      "definition": "Posts about general technology, software, internet services, social media, and online platforms (excluding Apple/Amazon specific)."
+    },
+    {
+      "id": 25,
+      "name": "Reddit Meta",
+      "definition": "Posts discussing the Reddit platform itself, its features, or community guidelines."
+    },
+    {
+      "id": 26,
+      "name": "Spam & Adult Content",
+      "definition": "Posts that are clearly spam, scams, or explicitly sexual in nature."
+    },
+    {
+      "id": 27,
+      "name": "Sports & Gaming",
+      "definition": "Posts about sports, video games, or related equipment and events."
+    },
+    {
+      "id": 28,
+      "name": "Travel & Tourism",
+      "definition": "Posts about travel destinations, experiences, and related advice."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "fewnerd",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Company",
+      "definition": "A business organization that sells goods or services."
+    },
+    {
+      "id": 2,
+      "name": "Geographical Location",
+      "definition": "A specific area or place, including countries, cities, and landmarks."
+    },
+    {
+      "id": 3,
+      "name": "Event",
+      "definition": "A significant occurrence or happening, often with a specific date."
+    },
+    {
+      "id": 4,
+      "name": "Person",
+      "definition": "An individual human being, often notable for their achievements."
+    },
+    {
+      "id": 5,
+      "name": "Organization",
+      "definition": "A group of people with a specific purpose, often formalized."
+    },
+    {
+      "id": 6,
+      "name": "Award",
+      "definition": "A recognition given for achievement in a specific field."
+    },
+    {
+      "id": 7,
+      "name": "Artistic Work",
+      "definition": "A creation in the field of art, literature, or performance."
+    },
+    {
+      "id": 8,
+      "name": "Scientific Term",
+      "definition": "A term used in scientific contexts, often related to biology, chemistry, or physics."
+    },
+    {
+      "id": 9,
+      "name": "Political Entity",
+      "definition": "An organization or group involved in governance or political activities."
+    },
+    {
+      "id": 10,
+      "name": "Historical Figure",
+      "definition": "A person known for their impact on history."
+    },
+    {
+      "id": 11,
+      "name": "Sports Team",
+      "definition": "A group of individuals organized to compete in sports."
+    },
+    {
+      "id": 12,
+      "name": "Educational Institution",
+      "definition": "An organization that provides education, such as schools or universities."
+    },
+    {
+      "id": 13,
+      "name": "Cultural Reference",
+      "definition": "A reference to a cultural phenomenon, including traditions, practices, or beliefs."
+    },
+    {
+      "id": 14,
+      "name": "Legislation",
+      "definition": "A law or set of laws enacted by a governing body."
+    },
+    {
+      "id": 15,
+      "name": "Medical Term",
+      "definition": "A term used in the medical field, often related to health or diseases."
+    },
+    {
+      "id": 16,
+      "name": "Technology",
+      "definition": "An application of scientific knowledge for practical purposes, especially in industry."
+    },
+    {
+      "id": 17,
+      "name": "Film",
+      "definition": "A motion picture or movie, typically a narrative work."
+    },
+    {
+      "id": 18,
+      "name": "Literary Work",
+      "definition": "A written work, such as a book, poem, or article."
+    },
+    {
+      "id": 19,
+      "name": "Historical Event",
+      "definition": "A significant occurrence in history that has lasting impact."
+    },
+    {
+      "id": 20,
+      "name": "Natural Feature",
+      "definition": "A physical feature of the Earth, such as mountains, rivers, or lakes."
+    }
+  ]
+}

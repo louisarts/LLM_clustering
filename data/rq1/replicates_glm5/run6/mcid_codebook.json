@@ -1,0 +1,74 @@
+{
+  "bench": "mcid",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Case and Death Statistics",
+      "definition": "User requests for specific numbers, counts, rates, or statistics regarding infections, deaths, testing, or recovery."
+    },
+    {
+      "id": 2,
+      "name": "Transmission and Surface Survival",
+      "definition": "User questions about how the virus spreads, including airborne transmission, surface longevity, and specific vectors like animals or objects."
+    },
+    {
+      "id": 3,
+      "name": "Symptoms and Diagnosis",
+      "definition": "User inquiries regarding specific symptoms, identifying signs of infection, or interpreting personal health experiences."
+    },
+    {
+      "id": 4,
+      "name": "Prevention and Protective Measures",
+      "definition": "User requests for advice, tips, or guidelines on how to avoid infection, including the use of masks, gloves, and sanitation."
+    },
+    {
+      "id": 5,
+      "name": "Travel and Movement Restrictions",
+      "definition": "User questions about travel bans, domestic movement, safety of specific destinations, or essential travel definitions."
+    },
+    {
+      "id": 6,
+      "name": "Treatments and Cures",
+      "definition": "User inquiries regarding medical treatments, home remedies, vaccines, or the existence of a cure for the virus."
+    },
+    {
+      "id": 7,
+      "name": "News and Updates",
+      "definition": "User requests for the latest news, press releases, general updates, or current status of the pandemic."
+    },
+    {
+      "id": 8,
+      "name": "Donations and Financial Support",
+      "definition": "User intent to donate money, find donation links, or offer financial support to relief efforts and organizations."
+    },
+    {
+      "id": 9,
+      "name": "Sharing and Social Actions",
+      "definition": "User requests to share information, links, or the bot service with others via social media or direct messaging."
+    },
+    {
+      "id": 10,
+      "name": "Myths and Misconceptions",
+      "definition": "User questions or requests for information regarding specific myths, conspiracy theories, or misinformation about the virus."
+    },
+    {
+      "id": 11,
+      "name": "Virus Definition and General Information",
+      "definition": "User requests for a definition of the virus, general explanations, or broad educational information about COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "High Risk Areas and Quarantine Guidelines",
+      "definition": "User questions about identifying high-risk locations or asking for guidelines and rules regarding quarantine and isolation."
+    },
+    {
+      "id": 13,
+      "name": "Greetings and Gratitude",
+      "definition": "User utterances consisting of greetings, thanks, or other social pleasantries directed at the bot."
+    }
+  ]
+}

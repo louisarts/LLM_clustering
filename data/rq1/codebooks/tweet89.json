@@ -1,0 +1,189 @@
+{
+  "bench": "tweet89",
+  "criterion": "which specific news story or event the tweet is about",
+  "n_discovery_docs": 300,
+  "n_samples": 1,
+  "discovery_seed": 0,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Acai Berry Products and Weight Loss Claims",
+      "definition": "Discussions and advertisements related to acai berry products, diets, and their purported health or weight loss benefits."
+    },
+    {
+      "id": 2,
+      "name": "Yemen Political Protests",
+      "definition": "News and discussions about anti-government protests, 'day of rage' events, and political unrest in Yemen."
+    },
+    {
+      "id": 3,
+      "name": "Super Bowl Commercials",
+      "definition": "Discussions, reviews, and mentions of specific advertisements aired during the Super Bowl."
+    },
+    {
+      "id": 4,
+      "name": "Film Awards Season",
+      "definition": "News, nominations, and wins related to major film awards like the Oscars and Screen Actors Guild (SAG) Awards, often mentioning specific films."
+    },
+    {
+      "id": 5,
+      "name": "Facebook Privacy and Security Updates",
+      "definition": "Discussions and news about changes or concerns regarding user privacy settings and security features on Facebook."
+    },
+    {
+      "id": 6,
+      "name": "General Fishing Hobby",
+      "definition": "Discussions, tips, reports, and product mentions related to various types of fishing, excluding aquarium fish."
+    },
+    {
+      "id": 7,
+      "name": "Christina Aguilera's Super Bowl National Anthem Performance",
+      "definition": "Discussions and reactions to Christina Aguilera's performance of the national anthem at the Super Bowl, specifically her flub."
+    },
+    {
+      "id": 8,
+      "name": "Gabrielle Giffords Shooting and Recovery",
+      "definition": "News and updates regarding Congresswoman Gabrielle Giffords' shooting incident and her subsequent medical recovery."
+    },
+    {
+      "id": 9,
+      "name": "Taco Bell Meat Content Controversy",
+      "definition": "News and discussions surrounding allegations and lawsuits concerning the actual meat content in Taco Bell's products."
+    },
+    {
+      "id": 10,
+      "name": "Rahm Emanuel Mayoral Candidacy Legal Challenge",
+      "definition": "News and court rulings related to challenges against Rahm Emanuel's eligibility to run for mayor."
+    },
+    {
+      "id": 11,
+      "name": "Chipotle Immigration Raids and Firings",
+      "definition": "News about immigration raids at Chipotle Mexican Grill locations and subsequent employee firings."
+    },
+    {
+      "id": 12,
+      "name": "Don't Text and Drive Campaign",
+      "definition": "Mentions and pledges related to public awareness campaigns discouraging texting while driving."
+    },
+    {
+      "id": 13,
+      "name": "Joanna Yeates Murder Investigation",
+      "definition": "News and updates concerning the murder investigation of Joanna Yeates."
+    },
+    {
+      "id": 14,
+      "name": "The White Stripes Band Breakup",
+      "definition": "News and reactions to the announcement of the band The White Stripes breaking up."
+    },
+    {
+      "id": 15,
+      "name": "Charlie Sheen's Personal and Health Issues",
+      "definition": "News and discussions surrounding Charlie Sheen's personal life, health incidents, and rehab."
+    },
+    {
+      "id": 16,
+      "name": "Sundance Film Festival",
+      "definition": "News, celebrity sightings, and discussions related to the annual Sundance Film Festival."
+    },
+    {
+      "id": 17,
+      "name": "Legal Challenges to the US Health Care Law",
+      "definition": "News and court rulings concerning legal challenges to the Affordable Care Act (ObamaCare)."
+    },
+    {
+      "id": 18,
+      "name": "Egypt Protests and Targeting of Journalists",
+      "definition": "News and reports about the protests in Egypt, specifically focusing on the treatment and targeting of journalists."
+    },
+    {
+      "id": 19,
+      "name": "Australia Floods",
+      "definition": "News and updates regarding the severe flooding events in Australia."
+    },
+    {
+      "id": 20,
+      "name": "Starbucks Trenta Cup Size Discussion",
+      "definition": "Discussions and reactions to Starbucks introducing the Trenta cup size."
+    },
+    {
+      "id": 21,
+      "name": "Moscow Airport Bombing",
+      "definition": "News and reports about the terrorist bombing at Domodedovo Airport in Moscow."
+    },
+    {
+      "id": 22,
+      "name": "Iran's Nuclear Program and Related Issues",
+      "definition": "News and discussions concerning Iran's nuclear ambitions, sanctions, and related international incidents like executions."
+    },
+    {
+      "id": 23,
+      "name": "Kardashian Family Celebrity News",
+      "definition": "General celebrity news and discussions related to the Kardashian family."
+    },
+    {
+      "id": 24,
+      "name": "Sports Concussion Awareness and Research",
+      "definition": "Discussions and news about concussions in sports, including awareness campaigns and research initiatives."
+    },
+    {
+      "id": 25,
+      "name": "Maritime Piracy Incidents",
+      "definition": "News and reports about piracy incidents, particularly involving naval responses and trials."
+    },
+    {
+      "id": 26,
+      "name": "Identity Theft Awareness and Prevention",
+      "definition": "Discussions and information related to identity theft, its costs, and prevention."
+    },
+    {
+      "id": 27,
+      "name": "Keith Olbermann Joins Current TV",
+      "definition": "News about Keith Olbermann's move to Current TV."
+    },
+    {
+      "id": 28,
+      "name": "Chicago Snow Storm",
+      "definition": "News and reports about a significant snow storm affecting Chicago."
+    },
+    {
+      "id": 29,
+      "name": "Michelle Obama's Move Fitness Campaign",
+      "definition": "News and mentions of Michelle Obama's initiatives promoting fitness and healthy eating."
+    },
+    {
+      "id": 30,
+      "name": "Australian Open Tennis Tournament",
+      "definition": "News and results from the Australian Open, specifically mentioning players like Djokovic and Murray."
+    },
+    {
+      "id": 31,
+      "name": "Aquarium Fish Keeping",
+      "definition": "Discussions and advice related to keeping aquarium fish, including care, breeding, and types of fish."
+    },
+    {
+      "id": 32,
+      "name": "Hugo Chavez Apology",
+      "definition": "News about Venezuelan President Hugo Chavez apologizing to his people ahead of an election."
+    },
+    {
+      "id": 33,
+      "name": "Robert Kubica Rally Crash",
+      "definition": "News about Formula 1 driver Robert Kubica's serious crash in a rally."
+    },
+    {
+      "id": 34,
+      "name": "Myanmar Sanctions and Suu Kyi",
+      "definition": "News regarding Myanmar sanctions and Aung San Suu Kyi's party urging their maintenance."
+    },
+    {
+      "id": 35,
+      "name": "Obama Birth Certificate Controversy",
+      "definition": "News and discussions related to the controversy and requests for President Obama's birth certificate."
+    },
+    {
+      "id": 36,
+      "name": "Miscellaneous News and General Interest",
+      "definition": "Documents that do not fit into any specific news story or event category, covering a wide range of general topics, local news, or isolated mentions."
+    }
+  ]
+}

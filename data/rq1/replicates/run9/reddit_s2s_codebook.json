@@ -1,0 +1,137 @@
+{
+  "bench": "reddit_s2s",
+  "run": 9,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "definition": "Discussions about computers, software, hardware, mobile devices, and general tech news."
+    },
+    {
+      "id": 2,
+      "name": "Online Shopping & Consumer Issues",
+      "definition": "Discussions about e-commerce platforms, shopping advice, product reviews, and consumer rights."
+    },
+    {
+      "id": 3,
+      "name": "Health & Medicine",
+      "definition": "Discussions about physical and mental health, medical conditions, treatments, and personal well-being."
+    },
+    {
+      "id": 4,
+      "name": "Art & Visual Design",
+      "definition": "Discussions about fine art, digital art, graphic design, drawing, 3D rendering, and creative projects."
+    },
+    {
+      "id": 5,
+      "name": "Politics & Current Events",
+      "definition": "Discussions about national and international politics, social issues, human rights, and news."
+    },
+    {
+      "id": 6,
+      "name": "Airsoft & Firearms",
+      "definition": "Discussions about airsoft, guns, and related gear."
+    },
+    {
+      "id": 7,
+      "name": "Cycling",
+      "definition": "Discussions about bicycles, riding, and maintenance."
+    },
+    {
+      "id": 8,
+      "name": "Food & Drink",
+      "definition": "Discussions about coffee, beer, general food, cooking, and restaurants."
+    },
+    {
+      "id": 9,
+      "name": "Local Community & Services",
+      "definition": "Discussions about location-specific questions, events, news, and services."
+    },
+    {
+      "id": 10,
+      "name": "Pets & Animals",
+      "definition": "Discussions about pet care, animal welfare, wildlife, and cute animals."
+    },
+    {
+      "id": 11,
+      "name": "Relationships & Personal Development",
+      "definition": "Discussions about dating, family, self-improvement, and general life advice."
+    },
+    {
+      "id": 12,
+      "name": "Science & Academia",
+      "definition": "Discussions about biology, chemistry, physics, astronomy, research, and education."
+    },
+    {
+      "id": 13,
+      "name": "Comics & Anime",
+      "definition": "Discussions about superheroes, manga, anime, graphic novels, and related fandom."
+    },
+    {
+      "id": 14,
+      "name": "Blogging & Web Content",
+      "definition": "Discussions about website creation, content marketing, SEO, and online publishing."
+    },
+    {
+      "id": 15,
+      "name": "Aviation & Travel",
+      "definition": "Discussions about planes, airports, travel advice, and related experiences."
+    },
+    {
+      "id": 16,
+      "name": "Collecting",
+      "definition": "Discussions about coins, currency, and other collectibles."
+    },
+    {
+      "id": 17,
+      "name": "Architecture & Real Estate",
+      "definition": "Discussions about building design, housing, renting, and property."
+    },
+    {
+      "id": 18,
+      "name": "Spirituality & Beliefs",
+      "definition": "Discussions about astrology, religion, philosophy, and personal beliefs."
+    },
+    {
+      "id": 19,
+      "name": "Automotive",
+      "definition": "Discussions about cars, car models, events, and repair."
+    },
+    {
+      "id": 20,
+      "name": "Humor & Entertainment",
+      "definition": "Discussions about funny content, comedy, memes, movies, and TV shows."
+    },
+    {
+      "id": 21,
+      "name": "Music",
+      "definition": "Discussions about various music genres, artists, and related topics."
+    },
+    {
+      "id": 22,
+      "name": "Sports",
+      "definition": "Discussions about various sports and related events."
+    },
+    {
+      "id": 23,
+      "name": "Business & Finance",
+      "definition": "Discussions about general business, economics, personal finance, and management."
+    },
+    {
+      "id": 24,
+      "name": "DIY & Crafts",
+      "definition": "Discussions about home improvement, woodworking, and creative crafting projects."
+    },
+    {
+      "id": 25,
+      "name": "Foreign Language/Spam",
+      "definition": "Titles that are not in English and often appear to be spam or adult content."
+    },
+    {
+      "id": 26,
+      "name": "Ham Radio",
+      "definition": "Discussions specifically about amateur radio."
+    }
+  ]
+}

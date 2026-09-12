@@ -1,0 +1,62 @@
+{
+  "bench": "clinc150_domain",
+  "run": 4,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Financial Management",
+      "definition": "Managing personal finances, accounts, bills, credit, and related financial information."
+    },
+    {
+      "id": 2,
+      "name": "Travel and Navigation",
+      "definition": "Planning or inquiring about travel, transportation, or location-based information."
+    },
+    {
+      "id": 3,
+      "name": "Information Retrieval",
+      "definition": "Requesting general facts, definitions, calculations, or information on various topics."
+    },
+    {
+      "id": 4,
+      "name": "Assistant Settings",
+      "definition": "Modifying the assistant's settings, preferences, or device connections."
+    },
+    {
+      "id": 5,
+      "name": "Calendar and Lists",
+      "definition": "Managing personal schedules, alarms, reminders, and various lists."
+    },
+    {
+      "id": 6,
+      "name": "Communication",
+      "definition": "Initiating or managing communication with others."
+    },
+    {
+      "id": 7,
+      "name": "Device Control",
+      "definition": "Controlling smart home devices, media playback, or other connected hardware."
+    },
+    {
+      "id": 8,
+      "name": "Assistant Self-Inquiry",
+      "definition": "Inquiring about the assistant's identity, origin, capabilities, or personal characteristics."
+    },
+    {
+      "id": 9,
+      "name": "Reservations and Bookings",
+      "definition": "Making, confirming, or canceling reservations for services other than travel."
+    },
+    {
+      "id": 10,
+      "name": "Shopping and Purchasing",
+      "definition": "Requesting to purchase or order goods or services."
+    },
+    {
+      "id": 11,
+      "name": "General Interaction",
+      "definition": "General conversational exchanges, affirmations, rejections, or non-specific commands."
+    }
+  ]
+}

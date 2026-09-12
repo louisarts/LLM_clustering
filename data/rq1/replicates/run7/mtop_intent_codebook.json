@@ -1,0 +1,62 @@
+{
+  "bench": "mtop_intent",
+  "run": 7,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm & Timer Management",
+      "definition": "Set, modify, delete, check status, or control alarms and timers."
+    },
+    {
+      "id": 2,
+      "name": "Reminder Management",
+      "definition": "Set, modify, delete, or check the status of reminders."
+    },
+    {
+      "id": 3,
+      "name": "Weather Information",
+      "definition": "Request current, past, or future weather conditions or forecasts for a specific location or general area."
+    },
+    {
+      "id": 4,
+      "name": "News & Current Events",
+      "definition": "Request information about recent or ongoing events, headlines, or specific news topics."
+    },
+    {
+      "id": 5,
+      "name": "Media Playback Control",
+      "definition": "Play, stop, skip, repeat, or request information about music, radio, or other audio/video media."
+    },
+    {
+      "id": 6,
+      "name": "Communication",
+      "definition": "Initiate, manage, or respond to calls, messages, or video chats."
+    },
+    {
+      "id": 7,
+      "name": "Recipe & Cooking Information",
+      "definition": "Request recipes, cooking instructions, or nutritional information for food items."
+    },
+    {
+      "id": 8,
+      "name": "Social Network & Contact Information",
+      "definition": "Request information about social connections, friends, contacts, or their attributes and status."
+    },
+    {
+      "id": 9,
+      "name": "Personal Status Management",
+      "definition": "Set or query one's own availability or status."
+    },
+    {
+      "id": 10,
+      "name": "General Information Query",
+      "definition": "Request general facts, definitions, or static information about people, places, or things."
+    },
+    {
+      "id": 11,
+      "name": "Local Events & Activities",
+      "definition": "Request information about upcoming or current events and activities in a specific location."
+    }
+  ]
+}

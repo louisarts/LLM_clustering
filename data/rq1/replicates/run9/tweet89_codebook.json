@@ -1,0 +1,197 @@
+{
+  "bench": "tweet89",
+  "run": 9,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Immigration Law Enforcement",
+      "definition": "News and discussions related to immigration law enforcement, particularly ICE inspections.\"\n    ,\n    {\n      \"id\": 2,\n      \"name\": \"Christina Aguilera National Anthem Flub\",\n      \"definition\": \"Reports and reactions to Christina Aguilera's mistake during the Super Bowl national anthem performance."
+    },
+    {
+      "id": 2,
+      "name": "Yemen Protests",
+      "definition": "News and updates on anti-government protests and political unrest in Yemen."
+    },
+    {
+      "id": 3,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Discussions and news about the lawsuit alleging Taco Bell's beef is not 100% beef."
+    },
+    {
+      "id": 4,
+      "name": "Super Bowl Commercials",
+      "definition": "Mentions and reviews of advertisements aired during the Super Bowl."
+    },
+    {
+      "id": 5,
+      "name": "Iran Dutch Woman Execution",
+      "definition": "News regarding the execution of an Iranian-Dutch woman and its diplomatic fallout."
+    },
+    {
+      "id": 6,
+      "name": "Keith Olbermann Joins Current TV",
+      "definition": "Reports on Keith Olbermann's move to Current TV."
+    },
+    {
+      "id": 7,
+      "name": "The King's Speech Oscar Nominations and Wins",
+      "definition": "News and discussions about the film The King's Speech receiving Academy Award nominations and wins."
+    },
+    {
+      "id": 8,
+      "name": "Charlie Sheen Two and a Half Men Controversy",
+      "definition": "News and updates related to Charlie Sheen's issues and his show Two and a Half Men."
+    },
+    {
+      "id": 9,
+      "name": "TSA Body Scanners",
+      "definition": "Discussions and news about the use and privacy concerns of TSA full-body scanners."
+    },
+    {
+      "id": 10,
+      "name": "Kardashian Family News",
+      "definition": "General updates and mentions related to the Kardashian family."
+    },
+    {
+      "id": 11,
+      "name": "Australian Open Tennis",
+      "definition": "News and results from the Australian Open tennis tournament, particularly involving Andy Murray and Novak Djokovic."
+    },
+    {
+      "id": 12,
+      "name": "Rahm Emanuel Mayoral Eligibility",
+      "definition": "Reports on the legal challenges and rulings regarding Rahm Emanuel's eligibility to run for Chicago mayor."
+    },
+    {
+      "id": 13,
+      "name": "Don't Text and Drive Campaign",
+      "definition": "Mentions and promotions of campaigns against texting while driving."
+    },
+    {
+      "id": 14,
+      "name": "Healthcare Reform Law Challenge",
+      "definition": "News and legal challenges concerning the Affordable Care Act, particularly the individual mandate."
+    },
+    {
+      "id": 15,
+      "name": "Egypt Protests and Journalist Attacks",
+      "definition": "Reports on the protests in Egypt and the targeting of journalists covering the events."
+    },
+    {
+      "id": 16,
+      "name": "Piracy in Indian Ocean",
+      "definition": "News and operations related to anti-piracy efforts in the Gulf of Aden and Indian Ocean."
+    },
+    {
+      "id": 17,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates on the recovery and condition of Congresswoman Gabrielle Giffords after being shot."
+    },
+    {
+      "id": 18,
+      "name": "Sundance Film Festival",
+      "definition": "News and celebrity sightings from the Sundance Film Festival."
+    },
+    {
+      "id": 19,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Updates and developments in the murder investigation of Joanna Yeates."
+    },
+    {
+      "id": 20,
+      "name": "Acai Berry Weight Loss Claims",
+      "definition": "Discussions and claims about the effectiveness of acai berry for weight loss."
+    },
+    {
+      "id": 21,
+      "name": "Concussions in Sports",
+      "definition": "News and debates surrounding concussions in professional and youth sports."
+    },
+    {
+      "id": 22,
+      "name": "FDA Preterm Birth Drug Approval",
+      "definition": "Reports on the FDA's approval of a drug to prevent preterm births."
+    },
+    {
+      "id": 23,
+      "name": "Chicago Blizzard",
+      "definition": "News and impacts of a major blizzard hitting Chicago."
+    },
+    {
+      "id": 24,
+      "name": "Facebook Privacy Settings",
+      "definition": "Discussions and concerns regarding Facebook's privacy settings."
+    },
+    {
+      "id": 25,
+      "name": "Identity Theft and Online Fraud",
+      "definition": "Information and warnings about identity theft and online fraud."
+    },
+    {
+      "id": 26,
+      "name": "Wikileaks and Julian Assange",
+      "definition": "News and discussions related to Wikileaks and its founder Julian Assange."
+    },
+    {
+      "id": 27,
+      "name": "Jordan Protests",
+      "definition": "News and updates on anti-government protests in Jordan."
+    },
+    {
+      "id": 28,
+      "name": "Black Swan Movie and Natalie Portman",
+      "definition": "Discussions about the movie Black Swan and Natalie Portman's performance/Oscar chances."
+    },
+    {
+      "id": 29,
+      "name": "NY Governor Cuomo's Budget",
+      "definition": "News and discussions about New York Governor Andrew Cuomo's budget proposals and state finances."
+    },
+    {
+      "id": 30,
+      "name": "Supreme Court Rulings",
+      "definition": "News related to specific cases or rulings by the Supreme Court."
+    },
+    {
+      "id": 31,
+      "name": "Stuxnet Cyberattack",
+      "definition": "Discussions and warnings related to the Stuxnet computer worm."
+    },
+    {
+      "id": 32,
+      "name": "Australia Floods",
+      "definition": "News and impacts of severe flooding in Australia."
+    },
+    {
+      "id": 33,
+      "name": "National Bed Bug Summit",
+      "definition": "News or discussions related to a national summit on bed bugs."
+    },
+    {
+      "id": 34,
+      "name": "Oprah Winfrey Family Secret",
+      "definition": "News and buzz surrounding a newly revealed family secret of Oprah Winfrey."
+    },
+    {
+      "id": 35,
+      "name": "Ivory Coast Conflict",
+      "definition": "News and updates on the political and economic conflict in Ivory Coast."
+    },
+    {
+      "id": 36,
+      "name": "Moscow Airport Bombing",
+      "definition": "Reports on the deadly suicide bombing at Moscow's Domodedovo Airport."
+    },
+    {
+      "id": 37,
+      "name": "US Political Personnel and Campaigns",
+      "definition": "News related to specific US political appointments, resignations, or campaign strategies."
+    },
+    {
+      "id": 38,
+      "name": "Technology and Product News",
+      "definition": "News and updates on new technology products, corporate tech news, or product launches."
+    }
+  ]
+}

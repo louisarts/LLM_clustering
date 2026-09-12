@@ -1,0 +1,337 @@
+[
+ {
+  "id": 1,
+  "name": "alt.atheism",
+  "definition": "Discussions pertaining to atheism, critiques of religion, and related philosophical arguments."
+ },
+ {
+  "id": 2,
+  "name": "alt.drugs",
+  "definition": "Conversations regarding recreational drug use, experiences, and culture."
+ },
+ {
+  "id": 3,
+  "name": "alt.flame",
+  "definition": "Hostile exchanges and insults between users."
+ },
+ {
+  "id": 4,
+  "name": "alt.home.repair",
+  "definition": "Advice and discussion on home maintenance and repair projects."
+ },
+ {
+  "id": 5,
+  "name": "alt.mind-machine",
+  "definition": "Discussion of devices claiming to induce specific brain states or consciousness."
+ },
+ {
+  "id": 6,
+  "name": "alt.slack",
+  "definition": "Discussions related to the Church of the SubGenius and the concept of Slack."
+ },
+ {
+  "id": 7,
+  "name": "comp.apps.spreadsheets",
+  "definition": "Discussion of spreadsheet software such as Excel and Lotus 1-2-3."
+ },
+ {
+  "id": 8,
+  "name": "comp.arch",
+  "definition": "Technical discussion of computer architecture and hardware design."
+ },
+ {
+  "id": 9,
+  "name": "comp.cad",
+  "definition": "Discussion of computer-aided design software and hardware."
+ },
+ {
+  "id": 10,
+  "name": "comp.dcom",
+  "definition": "Discussion of data communications, networking hardware, and modems."
+ },
+ {
+  "id": 11,
+  "name": "comp.emacs",
+  "definition": "Discussion of the Emacs text editor and its customization."
+ },
+ {
+  "id": 12,
+  "name": "comp.graphics",
+  "definition": "Discussion of computer graphics software, algorithms, and image processing."
+ },
+ {
+  "id": 13,
+  "name": "comp.laptops",
+  "definition": "Discussion of portable computers and related hardware issues."
+ },
+ {
+  "id": 14,
+  "name": "comp.os.msdos.programmer",
+  "definition": "Programming issues specific to the MS-DOS operating system."
+ },
+ {
+  "id": 15,
+  "name": "comp.os.ms-windows",
+  "definition": "Discussion of the Microsoft Windows operating system and applications."
+ },
+ {
+  "id": 16,
+  "name": "comp.periphs",
+  "definition": "Discussion of computer peripherals such as printers, scanners, and monitors."
+ },
+ {
+  "id": 17,
+  "name": "comp.software-eng",
+  "definition": "Discussion of software engineering processes and methodologies."
+ },
+ {
+  "id": 18,
+  "name": "comp.sys.amiga",
+  "definition": "Discussion of Amiga computer hardware and software."
+ },
+ {
+  "id": 19,
+  "name": "comp.sys.atari",
+  "definition": "Discussion of Atari computer hardware and software."
+ },
+ {
+  "id": 20,
+  "name": "comp.sys.ibm.pc.hardware",
+  "definition": "Technical discussion of IBM PC compatible hardware and components."
+ },
+ {
+  "id": 21,
+  "name": "comp.sys.mac.hardware",
+  "definition": "Technical discussion of Apple Macintosh hardware."
+ },
+ {
+  "id": 22,
+  "name": "comp.sys.sun",
+  "definition": "Discussion of Sun Microsystems workstations and hardware."
+ },
+ {
+  "id": 23,
+  "name": "comp.text",
+  "definition": "Discussion of text processing standards and software."
+ },
+ {
+  "id": 24,
+  "name": "comp.unix",
+  "definition": "Discussion of the Unix operating system and its variants."
+ },
+ {
+  "id": 25,
+  "name": "comp.windows.x",
+  "definition": "Discussion of the X Window System and graphical user interfaces."
+ },
+ {
+  "id": 26,
+  "name": "misc.forsale",
+  "definition": "Postings of items for sale by individuals."
+ },
+ {
+  "id": 27,
+  "name": "misc.headlines",
+  "definition": "News headlines and press releases."
+ },
+ {
+  "id": 28,
+  "name": "misc.legal",
+  "definition": "Discussion of legal issues and the law."
+ },
+ {
+  "id": 29,
+  "name": "misc.taxes",
+  "definition": "Discussion of tax laws and tax protest issues."
+ },
+ {
+  "id": 30,
+  "name": "news.software",
+  "definition": "Discussion of software for reading and managing Usenet news."
+ },
+ {
+  "id": 31,
+  "name": "rec.arts.comics",
+  "definition": "Discussion of comic books and comic strips."
+ },
+ {
+  "id": 32,
+  "name": "rec.arts.movies",
+  "definition": "Discussion of films and cinema."
+ },
+ {
+  "id": 33,
+  "name": "rec.audio",
+  "definition": "Discussion of audio equipment, recording, and reproduction."
+ },
+ {
+  "id": 34,
+  "name": "rec.autos",
+  "definition": "Discussion of automobiles, driving, and maintenance."
+ },
+ {
+  "id": 35,
+  "name": "rec.crafts",
+  "definition": "Discussion of various handicrafts and hobbies."
+ },
+ {
+  "id": 36,
+  "name": "rec.games.video",
+  "definition": "Discussion of video games and video game hardware."
+ },
+ {
+  "id": 37,
+  "name": "rec.motorcycles",
+  "definition": "Discussion of motorcycles, riding techniques, and gear."
+ },
+ {
+  "id": 38,
+  "name": "rec.music",
+  "definition": "Discussion of music genres, artists, and recordings."
+ },
+ {
+  "id": 39,
+  "name": "rec.radio",
+  "definition": "Discussion of amateur and CB radio."
+ },
+ {
+  "id": 40,
+  "name": "rec.sport.baseball",
+  "definition": "Discussion of professional and amateur baseball."
+ },
+ {
+  "id": 41,
+  "name": "rec.sport.basketball",
+  "definition": "Discussion of professional and amateur basketball."
+ },
+ {
+  "id": 42,
+  "name": "rec.sport.hockey",
+  "definition": "Discussion of professional and amateur hockey."
+ },
+ {
+  "id": 43,
+  "name": "rec.travel",
+  "definition": "Discussion of travel destinations and tips."
+ },
+ {
+  "id": 44,
+  "name": "sci.astro",
+  "definition": "Discussion of astronomy and astrophysics."
+ },
+ {
+  "id": 45,
+  "name": "sci.bio",
+  "definition": "Discussion of biological sciences and entomology."
+ },
+ {
+  "id": 46,
+  "name": "sci.crypt",
+  "definition": "Discussion of cryptography, encryption technology, and privacy."
+ },
+ {
+  "id": 47,
+  "name": "sci.electronics",
+  "definition": "Discussion of electronic circuits, components, and design."
+ },
+ {
+  "id": 48,
+  "name": "sci.engr",
+  "definition": "Discussion of general engineering topics."
+ },
+ {
+  "id": 49,
+  "name": "sci.geo",
+  "definition": "Discussion of geology, geography, and mapping."
+ },
+ {
+  "id": 50,
+  "name": "sci.med",
+  "definition": "Discussion of medicine, health, diseases, and treatments."
+ },
+ {
+  "id": 51,
+  "name": "sci.military",
+  "definition": "Discussion of military technology and operations."
+ },
+ {
+  "id": 52,
+  "name": "sci.physics",
+  "definition": "Discussion of physics theories and experiments."
+ },
+ {
+  "id": 53,
+  "name": "sci.skeptic",
+  "definition": "Discussion of skepticism regarding paranormal and fringe science claims."
+ },
+ {
+  "id": 54,
+  "name": "sci.space",
+  "definition": "Discussion of space exploration, missions, and technology."
+ },
+ {
+  "id": 55,
+  "name": "soc.culture",
+  "definition": "Discussion of various cultural groups and social identities."
+ },
+ {
+  "id": 56,
+  "name": "soc.history",
+  "definition": "Discussion of historical events and analysis."
+ },
+ {
+  "id": 57,
+  "name": "soc.motss",
+  "definition": "Discussion of homosexuality and related social issues."
+ },
+ {
+  "id": 58,
+  "name": "soc.religion.christian",
+  "definition": "Discussion of Christian theology and practice."
+ },
+ {
+  "id": 59,
+  "name": "soc.religion.islam",
+  "definition": "Discussion of Islamic theology and practice."
+ },
+ {
+  "id": 60,
+  "name": "soc.religion.mormon",
+  "definition": "Discussion of the Latter-day Saints movement."
+ },
+ {
+  "id": 61,
+  "name": "soc.sexuality",
+  "definition": "Discussion of human sexuality and education."
+ },
+ {
+  "id": 62,
+  "name": "soc.women",
+  "definition": "Discussion of women's issues and feminism."
+ },
+ {
+  "id": 63,
+  "name": "talk.origins",
+  "definition": "Debate between evolution and creationism."
+ },
+ {
+  "id": 64,
+  "name": "talk.politics.guns",
+  "definition": "Debate over gun control and the right to keep and bear arms."
+ },
+ {
+  "id": 65,
+  "name": "talk.politics.mideast",
+  "definition": "Political discussion regarding the Middle East conflict."
+ },
+ {
+  "id": 66,
+  "name": "talk.politics.misc",
+  "definition": "General political discussion not covered by other groups."
+ },
+ {
+  "id": 67,
+  "name": "talk.politics.theory",
+  "definition": "Discussion of political theory and philosophy."
+ }
+]

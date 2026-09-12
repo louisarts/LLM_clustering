@@ -1,0 +1,90 @@
+{
+  "bench": "tweet89",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl",
+      "definition": "Tweets related to the Super Bowl event, including commercials and performances."
+    },
+    {
+      "id": 2,
+      "name": "Political Protests",
+      "definition": "Tweets discussing protests and political unrest in various countries."
+    },
+    {
+      "id": 3,
+      "name": "Health and Safety",
+      "definition": "Tweets concerning health issues, safety regulations, and medical news."
+    },
+    {
+      "id": 4,
+      "name": "Scholarships and Education",
+      "definition": "Tweets about scholarships, educational funding, and college applications."
+    },
+    {
+      "id": 5,
+      "name": "Celebrity News",
+      "definition": "Tweets related to celebrities, their activities, and public appearances."
+    },
+    {
+      "id": 6,
+      "name": "Environmental Issues",
+      "definition": "Tweets discussing environmental concerns, including climate change and conservation."
+    },
+    {
+      "id": 7,
+      "name": "Legal Matters",
+      "definition": "Tweets about lawsuits, legal rulings, and judicial decisions."
+    },
+    {
+      "id": 8,
+      "name": "Economic News",
+      "definition": "Tweets related to economic conditions, stock market updates, and financial news."
+    },
+    {
+      "id": 9,
+      "name": "Food and Recipes",
+      "definition": "Tweets sharing recipes, cooking tips, and food-related content."
+    },
+    {
+      "id": 10,
+      "name": "Technology and Gadgets",
+      "definition": "Tweets discussing new technology, gadgets, and innovations."
+    },
+    {
+      "id": 11,
+      "name": "Social Media Trends",
+      "definition": "Tweets about trends, studies, and news related to social media."
+    },
+    {
+      "id": 12,
+      "name": "Sports Events",
+      "definition": "Tweets covering various sports events, including tennis and fishing."
+    },
+    {
+      "id": 13,
+      "name": "Identity Theft and Privacy",
+      "definition": "Tweets discussing issues related to identity theft and online privacy."
+    },
+    {
+      "id": 14,
+      "name": "International Relations",
+      "definition": "Tweets about diplomatic relations, sanctions, and international conflicts."
+    },
+    {
+      "id": 15,
+      "name": "Awards and Nominations",
+      "definition": "Tweets related to film and music awards, nominations, and winners."
+    },
+    {
+      "id": 16,
+      "name": "Disaster and Crisis",
+      "definition": "Tweets discussing natural disasters, crises, and emergency responses."
+    }
+  ]
+}

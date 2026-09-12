@@ -1,0 +1,370 @@
+{
+  "bench": "fewnerd",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "chunked_no_target",
+  "clip_chars": 150,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Companies",
+      "definition": "Entities related to businesses or corporations."
+    },
+    {
+      "id": 2,
+      "name": "Hotels",
+      "definition": "Entities related to hotel establishments."
+    },
+    {
+      "id": 3,
+      "name": "Sports Teams",
+      "definition": "Entities related to organized sports teams."
+    },
+    {
+      "id": 4,
+      "name": "Locations",
+      "definition": "Entities related to specific geographic locations."
+    },
+    {
+      "id": 5,
+      "name": "Individuals",
+      "definition": "Entities related to specific persons."
+    },
+    {
+      "id": 6,
+      "name": "Military Units",
+      "definition": "Entities related to military units or divisions."
+    },
+    {
+      "id": 7,
+      "name": "Musical Groups",
+      "definition": "Entities related to musical bands or groups."
+    },
+    {
+      "id": 8,
+      "name": "Transportation Routes",
+      "definition": "Entities related to routes for transportation."
+    },
+    {
+      "id": 9,
+      "name": "Bodies of Water",
+      "definition": "Entities related to bodies of water or waterways."
+    },
+    {
+      "id": 10,
+      "name": "Organizations",
+      "definition": "Entities related to organized groups or associations."
+    },
+    {
+      "id": 11,
+      "name": "Sports Competitions",
+      "definition": "Entities related to organized sports competitions."
+    },
+    {
+      "id": 12,
+      "name": "Media Outlets",
+      "definition": "Entities related to media broadcasting or publishing outlets."
+    },
+    {
+      "id": 13,
+      "name": "Radio Stations",
+      "definition": "Entities related to radio broadcasting stations."
+    },
+    {
+      "id": 14,
+      "name": "Radio Frequencies",
+      "definition": "Entities related to radio frequency bands."
+    },
+    {
+      "id": 15,
+      "name": "Political Coalitions",
+      "definition": "Entities related to political alliance groups."
+    },
+    {
+      "id": 16,
+      "name": "Regions",
+      "definition": "Entities related to specific geographic regions."
+    },
+    {
+      "id": 17,
+      "name": "Countries",
+      "definition": "Entities related to sovereign nations or countries."
+    },
+    {
+      "id": 18,
+      "name": "Military Vehicles",
+      "definition": "Entities related to military vehicles or machinery."
+    },
+    {
+      "id": 19,
+      "name": "Sports Venues",
+      "definition": "Entities related to sports event venues."
+    },
+    {
+      "id": 20,
+      "name": "Sports Trophies",
+      "definition": "Entities related to sports championship trophies."
+    },
+    {
+      "id": 21,
+      "name": "Sports Leagues",
+      "definition": "Entities related to organized sports leagues."
+    },
+    {
+      "id": 22,
+      "name": "Sports Events",
+      "definition": "Entities related to specific sports events or tournaments."
+    },
+    {
+      "id": 23,
+      "name": "Theater",
+      "definition": "Entities related to theatrical performance venues or organizations."
+    },
+    {
+      "id": 24,
+      "name": "City",
+      "definition": "Entities related to urban municipalities or cities."
+    },
+    {
+      "id": 25,
+      "name": "Bacteria",
+      "definition": "Entities related to bacterial microorganisms."
+    },
+    {
+      "id": 26,
+      "name": "Tribe",
+      "definition": "Entities related to tribal communities or groups."
+    },
+    {
+      "id": 27,
+      "name": "Person",
+      "definition": "Entities related to individual persons."
+    },
+    {
+      "id": 28,
+      "name": "Venue",
+      "definition": "Entities related to event or performance venues."
+    },
+    {
+      "id": 29,
+      "name": "Tank",
+      "definition": "Entities related to armored military tanks."
+    },
+    {
+      "id": 30,
+      "name": "Aircraft",
+      "definition": "Entities related to aircraft or aviation technology."
+    },
+    {
+      "id": 31,
+      "name": "Highway",
+      "definition": "Entities related to road highways or motorways."
+    },
+    {
+      "id": 32,
+      "name": "Game",
+      "definition": "Entities related to games or recreational activities."
+    },
+    {
+      "id": 33,
+      "name": "Subway station",
+      "definition": "Entities related to subway or metro stations."
+    },
+    {
+      "id": 34,
+      "name": "Television series",
+      "definition": "Entities related to television show series."
+    },
+    {
+      "id": 35,
+      "name": "Vehicle prototype",
+      "definition": "Entities related to prototype vehicle designs."
+    },
+    {
+      "id": 36,
+      "name": "Producer",
+      "definition": "Entities related to producers of media content."
+    },
+    {
+      "id": 37,
+      "name": "State",
+      "definition": "Entities related to states or provinces within a country."
+    },
+    {
+      "id": 38,
+      "name": "Fungus Species",
+      "definition": "Entities related to specific species of fungi."
+    },
+    {
+      "id": 39,
+      "name": "Railway Shed",
+      "definition": "Entities related to railway maintenance sheds."
+    },
+    {
+      "id": 40,
+      "name": "Character",
+      "definition": "Entities related to fictional characters or personas."
+    },
+    {
+      "id": 41,
+      "name": "Literary Work",
+      "definition": "Entities related to written literary works or texts."
+    },
+    {
+      "id": 42,
+      "name": "Singer",
+      "definition": "Entities related to vocal singers or performers."
+    },
+    {
+      "id": 43,
+      "name": "University",
+      "definition": "Entities related to educational institutions or universities."
+    },
+    {
+      "id": 44,
+      "name": "Military Equipment",
+      "definition": "Entities related to military equipment or technology."
+    },
+    {
+      "id": 45,
+      "name": "Song",
+      "definition": "Entities related to musical compositions or songs."
+    },
+    {
+      "id": 46,
+      "name": "Registry",
+      "definition": "Entities related to official registries or records."
+    },
+    {
+      "id": 47,
+      "name": "Animated Film",
+      "definition": "Entities related to animated films or movies."
+    },
+    {
+      "id": 48,
+      "name": "Award Show",
+      "definition": "Entities related to award ceremonies or presentations."
+    },
+    {
+      "id": 49,
+      "name": "Author",
+      "definition": "Entities related to writers or authors of literary works."
+    },
+    {
+      "id": 50,
+      "name": "Game System",
+      "definition": "Entities related to gaming systems or platforms."
+    },
+    {
+      "id": 51,
+      "name": "Government Department",
+      "definition": "Entities related to governmental departments or agencies."
+    },
+    {
+      "id": 52,
+      "name": "Language",
+      "definition": "Entities related to spoken or written languages."
+    },
+    {
+      "id": 53,
+      "name": "Sports Organization",
+      "definition": "Entities related to sports governing bodies or associations."
+    },
+    {
+      "id": 54,
+      "name": "Political Party",
+      "definition": "Entities related to political parties or movements."
+    },
+    {
+      "id": 55,
+      "name": "Television Channel",
+      "definition": "Entities related to television broadcasting channels."
+    },
+    {
+      "id": 56,
+      "name": "Family",
+      "definition": "Entities related to familial relationships or kinship."
+    },
+    {
+      "id": 57,
+      "name": "Protein",
+      "definition": "Entities related to biological proteins or molecules."
+    },
+    {
+      "id": 58,
+      "name": "Religious Leader",
+      "definition": "Entities related to spiritual or religious leaders."
+    },
+    {
+      "id": 59,
+      "name": "Legislative Body",
+      "definition": "Entities related to legislative or parliamentary institutions."
+    },
+    {
+      "id": 60,
+      "name": "Airline",
+      "definition": "Entities related to commercial airlines or aviation companies."
+    },
+    {
+      "id": 61,
+      "name": "Island",
+      "definition": "Entities related to islands or landmasses surrounded by water."
+    },
+    {
+      "id": 62,
+      "name": "Community",
+      "definition": "Entities related to social or communal groups."
+    },
+    {
+      "id": 63,
+      "name": "Nationality",
+      "definition": "Entities related to specific nationalities or ethnic identities."
+    },
+    {
+      "id": 64,
+      "name": "Event",
+      "definition": "Entities related to specific events or occurrences."
+    },
+    {
+      "id": 65,
+      "name": "Location",
+      "definition": "Entities related to specific places, possibly including cities, states, landmarks, and geographical features"
+    },
+    {
+      "id": 66,
+      "name": "Organization",
+      "definition": "Entities related to groups or companies, possibly including political parties, universities, airlines, and record labels"
+    },
+    {
+      "id": 67,
+      "name": "Medication",
+      "definition": "Entities related to medical treatments or medications"
+    },
+    {
+      "id": 68,
+      "name": "Biological Molecule",
+      "definition": "Entities related to biological molecules, possibly including RNA"
+    },
+    {
+      "id": 69,
+      "name": "Vehicle",
+      "definition": "Entities related to vehicles, possibly including automobile models and aircraft models"
+    },
+    {
+      "id": 70,
+      "name": "Religious Group",
+      "definition": "Entities related to religious groups or institutions"
+    },
+    {
+      "id": 71,
+      "name": "Musical Group",
+      "definition": "Entities related to musical groups or bands"
+    },
+    {
+      "id": 72,
+      "name": "Artistic Work",
+      "definition": "Entities related to artistic works, possibly including movies, TV shows, and anime adaptations"
+    }
+  ]
+}

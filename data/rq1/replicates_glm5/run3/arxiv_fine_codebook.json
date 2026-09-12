@@ -1,0 +1,79 @@
+{
+  "bench": "arxiv_fine",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "astro-ph",
+      "definition": "Papers on astrophysics, cosmology, stellar evolution, galaxies, and planetary systems."
+    },
+    {
+      "id": 2,
+      "name": "cond-mat",
+      "definition": "Papers on condensed matter physics, including superconductivity, disordered systems, and materials science."
+    },
+    {
+      "id": 3,
+      "name": "cs",
+      "definition": "Papers on computer science, including machine learning, software engineering, information retrieval, and computational linguistics."
+    },
+    {
+      "id": 4,
+      "name": "econ",
+      "definition": "Papers on economics, econometrics, finance, and market dynamics."
+    },
+    {
+      "id": 5,
+      "name": "gr-qc",
+      "definition": "Papers on general relativity, quantum cosmology, and gravitational waves."
+    },
+    {
+      "id": 6,
+      "name": "hep-ex",
+      "definition": "Papers on high energy physics experiments, detectors, and observational particle physics."
+    },
+    {
+      "id": 7,
+      "name": "hep-th",
+      "definition": "Papers on high energy physics theory, including string theory, quantum field theory, and quantum gravity."
+    },
+    {
+      "id": 8,
+      "name": "math",
+      "definition": "Papers on pure and applied mathematics, including algebra, geometry, analysis, and topology."
+    },
+    {
+      "id": 9,
+      "name": "nlin",
+      "definition": "Papers on nonlinear sciences, including chaotic dynamics, cellular automata, and pattern formation."
+    },
+    {
+      "id": 10,
+      "name": "physics",
+      "definition": "Papers on general physics, including fluid dynamics, optics, geophysics, and biophysics."
+    },
+    {
+      "id": 11,
+      "name": "q-bio",
+      "definition": "Papers on quantitative biology, including biomolecules, genetics, and neuroscience."
+    },
+    {
+      "id": 12,
+      "name": "q-fin",
+      "definition": "Papers on quantitative finance, including mathematical finance, risk management, and portfolio management."
+    },
+    {
+      "id": 13,
+      "name": "quant-ph",
+      "definition": "Papers on quantum physics, including quantum information, quantum optics, and quantum thermodynamics."
+    },
+    {
+      "id": 14,
+      "name": "stat",
+      "definition": "Papers on statistics, including machine learning methodology, probability theory, and statistical inference."
+    }
+  ]
+}

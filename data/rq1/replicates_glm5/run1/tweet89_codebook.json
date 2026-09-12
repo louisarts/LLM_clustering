@@ -1,0 +1,269 @@
+{
+  "bench": "tweet89",
+  "run": 1,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "rq3_cached",
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Acai Berry Diet Products",
+      "definition": "Marketing and information regarding Acai berry weight loss diets."
+    },
+    {
+      "id": 2,
+      "name": "Aquarium Fish Keeping",
+      "definition": "Advice and topics related to keeping aquarium fish."
+    },
+    {
+      "id": 3,
+      "name": "Australian Flood Disaster",
+      "definition": "News and updates regarding the flood crisis in Australia."
+    },
+    {
+      "id": 4,
+      "name": "Australian Open Tennis",
+      "definition": "Coverage of the Australian Open tennis tournament."
+    },
+    {
+      "id": 5,
+      "name": "Barack Obama Birth Certificate",
+      "definition": "Discussion regarding President Obama's birth certificate."
+    },
+    {
+      "id": 6,
+      "name": "Bed Bug Infestations",
+      "definition": "Information and news related to bed bugs."
+    },
+    {
+      "id": 7,
+      "name": "Best Buy Promotions",
+      "definition": "News and deals from the retailer Best Buy."
+    },
+    {
+      "id": 8,
+      "name": "Charlie Sheen Personal Life",
+      "definition": "News and gossip regarding Charlie Sheen's personal issues."
+    },
+    {
+      "id": 9,
+      "name": "Chicago Blizzard",
+      "definition": "Reports on the severe blizzard hitting Chicago."
+    },
+    {
+      "id": 10,
+      "name": "Chipotle Immigration Raids",
+      "definition": "News regarding immigration audits at Chipotle restaurants."
+    },
+    {
+      "id": 11,
+      "name": "Christina Aguilera National Anthem Performance",
+      "definition": "Commentary on Christina Aguilera's Super Bowl anthem performance."
+    },
+    {
+      "id": 12,
+      "name": "College Scholarship Opportunities",
+      "definition": "Information and advice on scholarships and financial aid."
+    },
+    {
+      "id": 13,
+      "name": "Debt Consolidation Services",
+      "definition": "Advertisements and advice regarding debt consolidation."
+    },
+    {
+      "id": 14,
+      "name": "Distracted Driving Awareness",
+      "definition": "Campaigns and news regarding texting while driving."
+    },
+    {
+      "id": 15,
+      "name": "Donald Rumsfeld Memoir",
+      "definition": "News about the release of Donald Rumsfeld's book."
+    },
+    {
+      "id": 16,
+      "name": "Egypt Unrest and Media Repression",
+      "definition": "Coverage of Egyptian protests and attacks on journalists."
+    },
+    {
+      "id": 17,
+      "name": "Facebook Privacy Settings",
+      "definition": "Discussions and guides on Facebook privacy."
+    },
+    {
+      "id": 18,
+      "name": "Film Awards Season",
+      "definition": "News on the Oscars, SAG Awards, and film nominations."
+    },
+    {
+      "id": 19,
+      "name": "Fishing and Angling",
+      "definition": "Tips, reports, and discussions on fishing activities."
+    },
+    {
+      "id": 20,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Medical updates on Congresswoman Gabrielle Giffords."
+    },
+    {
+      "id": 21,
+      "name": "Glenn Beck Commentary",
+      "definition": "Mentions of Glenn Beck's political commentary."
+    },
+    {
+      "id": 22,
+      "name": "Global Warming Debate",
+      "definition": "Discussion regarding climate change and global warming."
+    },
+    {
+      "id": 23,
+      "name": "Hugo Chavez Politics",
+      "definition": "News regarding Venezuelan President Hugo Chavez."
+    },
+    {
+      "id": 24,
+      "name": "Identity Theft Prevention",
+      "definition": "Information and services regarding identity theft."
+    },
+    {
+      "id": 25,
+      "name": "Iran Nuclear Program and Executions",
+      "definition": "News on Iran's nuclear activities and executions."
+    },
+    {
+      "id": 26,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Updates on the murder investigation of Joanna Yeates."
+    },
+    {
+      "id": 27,
+      "name": "Kardashian Family",
+      "definition": "Tweets regarding the Kardashian family."
+    },
+    {
+      "id": 28,
+      "name": "Keith Olbermann Career Move",
+      "definition": "News regarding Keith Olbermann's television career."
+    },
+    {
+      "id": 29,
+      "name": "Michelle Obama Fitness Campaign",
+      "definition": "News regarding Michelle Obama's fitness initiatives."
+    },
+    {
+      "id": 30,
+      "name": "Moscow Airport Bombing",
+      "definition": "News on the terrorist attack at Moscow Domodedovo Airport."
+    },
+    {
+      "id": 31,
+      "name": "Motorola Xoom Tablet",
+      "definition": "News and reviews of the Motorola Xoom tablet."
+    },
+    {
+      "id": 32,
+      "name": "Myanmar Sanctions",
+      "definition": "News regarding sanctions and politics in Myanmar."
+    },
+    {
+      "id": 33,
+      "name": "News Corp The Daily Launch",
+      "definition": "Coverage of the launch of The Daily news app."
+    },
+    {
+      "id": 34,
+      "name": "Personal Finance and Investment",
+      "definition": "General advice on investing and money management."
+    },
+    {
+      "id": 35,
+      "name": "Rahm Emanuel Mayoral Ballot",
+      "definition": "Legal news regarding Rahm Emanuel's ballot eligibility."
+    },
+    {
+      "id": 36,
+      "name": "Recipes and Cooking",
+      "definition": "Sharing of recipes and cooking advice."
+    },
+    {
+      "id": 37,
+      "name": "Robert Kubica Rally Crash",
+      "definition": "News on the rally car crash of Robert Kubica."
+    },
+    {
+      "id": 38,
+      "name": "Somali Piracy",
+      "definition": "News regarding piracy incidents off Somalia."
+    },
+    {
+      "id": 39,
+      "name": "Sports Concussion Safety",
+      "definition": "Discussion on head injuries in sports."
+    },
+    {
+      "id": 40,
+      "name": "Starbucks Trenta Cup Launch",
+      "definition": "News regarding Starbucks' new cup size."
+    },
+    {
+      "id": 41,
+      "name": "Sundance Film Festival",
+      "definition": "Coverage of the Sundance Film Festival."
+    },
+    {
+      "id": 42,
+      "name": "Super Bowl Advertising",
+      "definition": "Discussion of commercials aired during the Super Bowl."
+    },
+    {
+      "id": 43,
+      "name": "Taco Bell Meat Lawsuit",
+      "definition": "News regarding the class action lawsuit against Taco Bell."
+    },
+    {
+      "id": 44,
+      "name": "The Rite Movie Release",
+      "definition": "Reviews and news about the film The Rite."
+    },
+    {
+      "id": 45,
+      "name": "TSA Body Scanners",
+      "definition": "Discussion regarding TSA security scanners."
+    },
+    {
+      "id": 46,
+      "name": "UK Public Spending Cuts",
+      "definition": "News regarding government budget cuts in the UK."
+    },
+    {
+      "id": 47,
+      "name": "US Economic News",
+      "definition": "Reports on the US economy and employment."
+    },
+    {
+      "id": 48,
+      "name": "US Healthcare Reform Rulings",
+      "definition": "Judicial rulings on the US healthcare reform law."
+    },
+    {
+      "id": 49,
+      "name": "US Supreme Court Organic Ruling",
+      "definition": "News on Supreme Court rulings affecting the organic sector."
+    },
+    {
+      "id": 50,
+      "name": "White Stripes Breakup",
+      "definition": "News regarding the band The White Stripes disbanding."
+    },
+    {
+      "id": 51,
+      "name": "Workplace Bullying",
+      "definition": "Discussion on bullying in professional environments."
+    },
+    {
+      "id": 52,
+      "name": "Yemeni Political Protests",
+      "definition": "News regarding protests and political unrest in Yemen."
+    }
+  ]
+}

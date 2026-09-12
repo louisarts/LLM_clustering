@@ -1,0 +1,80 @@
+{
+  "bench": "bbcnews",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Economy",
+      "definition": "Articles related to economic policies, financial markets, and economic performance."
+    },
+    {
+      "id": 2,
+      "name": "Politics",
+      "definition": "Articles covering political events, elections, and government policies."
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "definition": "Articles discussing advancements in technology, gadgets, and digital media."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Articles related to films, music, television shows, and celebrity news."
+    },
+    {
+      "id": 5,
+      "name": "Sports",
+      "definition": "Articles covering various sports events, athletes, and sports-related news."
+    },
+    {
+      "id": 6,
+      "name": "Health",
+      "definition": "Articles discussing health issues, medical advancements, and public health policies."
+    },
+    {
+      "id": 7,
+      "name": "Environment",
+      "definition": "Articles related to environmental issues, climate change, and sustainability."
+    },
+    {
+      "id": 8,
+      "name": "International Relations",
+      "definition": "Articles covering diplomatic relations, international conflicts, and global cooperation."
+    },
+    {
+      "id": 9,
+      "name": "Social Issues",
+      "definition": "Articles discussing societal challenges, human rights, and community concerns."
+    },
+    {
+      "id": 10,
+      "name": "Crime and Law",
+      "definition": "Articles related to legal issues, crime reports, and law enforcement."
+    },
+    {
+      "id": 11,
+      "name": "Education",
+      "definition": "Articles discussing educational policies, institutions, and student issues."
+    },
+    {
+      "id": 12,
+      "name": "Culture",
+      "definition": "Articles covering cultural events, traditions, and societal norms."
+    },
+    {
+      "id": 13,
+      "name": "Business",
+      "definition": "Articles related to corporate news, market trends, and business strategies."
+    },
+    {
+      "id": 14,
+      "name": "Disaster and Relief",
+      "definition": "Articles covering natural disasters, humanitarian efforts, and recovery initiatives."
+    }
+  ]
+}

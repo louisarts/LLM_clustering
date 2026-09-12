@@ -1,0 +1,52 @@
+{
+  "bench": "clinc150_domain",
+  "run": 7,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking & Finance",
+      "definition": "Utterances related to managing personal finances, bank accounts, credit cards, loans, bills, and financial transactions."
+    },
+    {
+      "id": 2,
+      "name": "Travel & Navigation",
+      "definition": "Utterances concerning travel planning, booking transportation or accommodation, navigation, location services, and travel-related information."
+    },
+    {
+      "id": 3,
+      "name": "Personal Organization & Scheduling",
+      "definition": "Utterances related to managing personal schedules, appointments, to-do lists, reminders, and tracking personal items or requests."
+    },
+    {
+      "id": 4,
+      "name": "Shopping & Ordering",
+      "definition": "Utterances for purchasing items, placing orders, or managing shopping lists for procurement."
+    },
+    {
+      "id": 5,
+      "name": "Vehicle Maintenance & Information",
+      "definition": "Utterances related to vehicle maintenance, status, fuel, or general car-related information."
+    },
+    {
+      "id": 6,
+      "name": "Media Control",
+      "definition": "Utterances to control media playback, manage playlists, or identify songs."
+    },
+    {
+      "id": 7,
+      "name": "Assistant & Device Control",
+      "definition": "Utterances that control the assistant's settings, voice, name, or directly interact with device functionalities like volume, lights, pairing, or making calls."
+    },
+    {
+      "id": 8,
+      "name": "General Knowledge & Information",
+      "definition": "Utterances seeking factual information, definitions, explanations, recipes, nutritional data, weather, time, or general knowledge."
+    },
+    {
+      "id": 9,
+      "name": "General Interaction & Small Talk",
+      "definition": "Utterances for casual conversation, greetings, acknowledgements, expressions of gratitude, or non-task-specific interactions."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "bench": "dbpedia",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Literary Works",
+      "definition": "Written works such as novels, short stories, poetry collections, and graphic novels."
+    },
+    {
+      "id": 2,
+      "name": "Plants",
+      "definition": "Members of the biological kingdom Plantae, including trees, flowers, shrubs, and herbs."
+    },
+    {
+      "id": 3,
+      "name": "Mountains",
+      "definition": "Landforms that rise prominently above their surroundings, including mountains, hills, and mountain ranges."
+    },
+    {
+      "id": 4,
+      "name": "Companies",
+      "definition": "Business entities, organizations, or brands involved in commercial, industrial, or professional activities."
+    },
+    {
+      "id": 5,
+      "name": "Lakes",
+      "definition": "Inland bodies of standing water, including lakes, ponds, and reservoirs."
+    },
+    {
+      "id": 6,
+      "name": "People",
+      "definition": "Individual human beings, including politicians, artists, athletes, and other public figures."
+    },
+    {
+      "id": 7,
+      "name": "Buildings",
+      "definition": "Man-made structures with roofs and walls, such as houses, skyscrapers, and historic sites."
+    },
+    {
+      "id": 8,
+      "name": "Films",
+      "definition": "Motion pictures, including feature films, documentaries, and television movies."
+    },
+    {
+      "id": 9,
+      "name": "Albums",
+      "definition": "Collections of audio recordings, including studio albums, soundtracks, and compilations."
+    },
+    {
+      "id": 10,
+      "name": "Villages",
+      "definition": "Small human settlements located in rural areas, smaller than a town."
+    },
+    {
+      "id": 11,
+      "name": "Ships",
+      "definition": "Vessels that travel on water, including naval ships, ferries, and historical ships."
+    },
+    {
+      "id": 12,
+      "name": "Animals",
+      "definition": "Members of the biological kingdom Animalia, including mammals, birds, fish, insects, and mollusks."
+    },
+    {
+      "id": 13,
+      "name": "Rivers",
+      "definition": "Natural flowing watercourses, including rivers, streams, and tributaries."
+    },
+    {
+      "id": 14,
+      "name": "Educational Institutions",
+      "definition": "Institutions dedicated to education, including schools, universities, and colleges."
+    },
+    {
+      "id": 15,
+      "name": "Aircraft",
+      "definition": "Vehicles capable of atmospheric flight, including airplanes and helicopters."
+    },
+    {
+      "id": 16,
+      "name": "Trains",
+      "definition": "Rail transport vehicles, including locomotives, train sets, and railway carriages."
+    },
+    {
+      "id": 17,
+      "name": "Automobiles",
+      "definition": "Road vehicles, primarily cars, designed for passenger transport."
+    },
+    {
+      "id": 18,
+      "name": "Journals",
+      "definition": "Periodical academic or professional publications."
+    },
+    {
+      "id": 19,
+      "name": "Museums",
+      "definition": "Institutions that care for and display collections of objects of artistic, historical, or scientific value."
+    },
+    {
+      "id": 20,
+      "name": "Hospitals",
+      "definition": "Health care institutions providing patient treatment with specialized medical and nursing staff."
+    },
+    {
+      "id": 21,
+      "name": "Religious Buildings",
+      "definition": "Structures used for religious worship, such as churches, mosques, and temples."
+    },
+    {
+      "id": 22,
+      "name": "Islands",
+      "definition": "Land masses surrounded by water."
+    },
+    {
+      "id": 23,
+      "name": "Comics",
+      "definition": "Publications consisting of comic art in the form of sequential panels."
+    },
+    {
+      "id": 24,
+      "name": "Craters",
+      "definition": "Circular depressions on the surface of a planet or moon, typically caused by impact or volcanic activity."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "fewevent",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Political Roles",
+      "definition": "Events related to individuals holding political positions or titles."
+    },
+    {
+      "id": 2,
+      "name": "Military Roles",
+      "definition": "Events related to individuals serving in military capacities."
+    },
+    {
+      "id": 3,
+      "name": "Artistic Roles",
+      "definition": "Events related to individuals in artistic professions such as musicians, singers, and actors."
+    },
+    {
+      "id": 4,
+      "name": "Academic Roles",
+      "definition": "Events related to individuals in educational or scholarly positions."
+    },
+    {
+      "id": 5,
+      "name": "Sports Events",
+      "definition": "Events related to competitions or achievements in sports."
+    },
+    {
+      "id": 6,
+      "name": "Employment Actions",
+      "definition": "Events related to hiring, working, or employment-related actions."
+    },
+    {
+      "id": 7,
+      "name": "Social Actions",
+      "definition": "Events related to social interactions, movements, or protests."
+    },
+    {
+      "id": 8,
+      "name": "Legal Actions",
+      "definition": "Events related to legal proceedings or judicial actions."
+    },
+    {
+      "id": 9,
+      "name": "Family Relations",
+      "definition": "Events related to familial relationships such as marriage, parenthood, or partnerships."
+    },
+    {
+      "id": 10,
+      "name": "Communication Actions",
+      "definition": "Events related to forms of communication, including speaking, writing, or reporting."
+    },
+    {
+      "id": 11,
+      "name": "Movement Actions",
+      "definition": "Events related to physical movement or travel."
+    },
+    {
+      "id": 12,
+      "name": "Cultural Events",
+      "definition": "Events related to cultural expressions, performances, or artistic presentations."
+    },
+    {
+      "id": 13,
+      "name": "Health and Safety Events",
+      "definition": "Events related to health, safety, or medical situations."
+    },
+    {
+      "id": 14,
+      "name": "Administrative Actions",
+      "definition": "Events related to administrative decisions or actions."
+    },
+    {
+      "id": 15,
+      "name": "Criminal Actions",
+      "definition": "Events related to criminal activities or accusations."
+    },
+    {
+      "id": 16,
+      "name": "Educational Actions",
+      "definition": "Events related to learning, teaching, or educational achievements."
+    },
+    {
+      "id": 17,
+      "name": "Economic Actions",
+      "definition": "Events related to economic activities, transactions, or financial decisions."
+    },
+    {
+      "id": 18,
+      "name": "Environmental Actions",
+      "definition": "Events related to environmental issues or actions affecting nature."
+    },
+    {
+      "id": 19,
+      "name": "Technological Actions",
+      "definition": "Events related to technology, innovation, or technical developments."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous Actions",
+      "definition": "Events that do not fit into other defined categories."
+    }
+  ]
+}

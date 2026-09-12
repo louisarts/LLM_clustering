@@ -1,0 +1,497 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 7,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Stack Overflow",
+      "definition": "Questions about programming, software development, and related technologies."
+    },
+    {
+      "id": 2,
+      "name": "Super User",
+      "definition": "Questions about computer hardware, software, and operating systems for general users."
+    },
+    {
+      "id": 3,
+      "name": "Unix & Linux",
+      "definition": "Questions about Unix, Linux, and FreeBSD operating systems."
+    },
+    {
+      "id": 4,
+      "name": "Server Fault",
+      "definition": "Questions for IT professionals about managing servers, networks, and enterprise systems."
+    },
+    {
+      "id": 5,
+      "name": "Information Security",
+      "definition": "Questions about computer security, cryptography, and privacy."
+    },
+    {
+      "id": 6,
+      "name": "User Experience",
+      "definition": "Questions about user experience design, usability, and human-computer interaction."
+    },
+    {
+      "id": 7,
+      "name": "Webmasters",
+      "definition": "Questions about managing websites, SEO, and web analytics."
+    },
+    {
+      "id": 8,
+      "name": "Web Applications",
+      "definition": "Questions about using specific web applications and online services."
+    },
+    {
+      "id": 9,
+      "name": "Software Recommendations",
+      "definition": "Questions asking for recommendations for software tools."
+    },
+    {
+      "id": 10,
+      "name": "Hardware Recommendations",
+      "definition": "Questions asking for recommendations for computer hardware."
+    },
+    {
+      "id": 11,
+      "name": "Electrical Engineering",
+      "definition": "Questions about electronics, circuit design, and electrical systems."
+    },
+    {
+      "id": 12,
+      "name": "Raspberry Pi",
+      "definition": "Questions specific to the Raspberry Pi single-board computer."
+    },
+    {
+      "id": 13,
+      "name": "Database Administrators",
+      "definition": "Questions about database management, design, and administration."
+    },
+    {
+      "id": 14,
+      "name": "Project Management",
+      "definition": "Questions about managing projects, teams, and software development processes."
+    },
+    {
+      "id": 15,
+      "name": "Software Quality Assurance & Testing",
+      "definition": "Questions about software testing, quality assurance, and debugging."
+    },
+    {
+      "id": 16,
+      "name": "Software Architecture",
+      "definition": "Questions about high-level software design and system architecture."
+    },
+    {
+      "id": 17,
+      "name": "Game Development",
+      "definition": "Questions about developing video games."
+    },
+    {
+      "id": 18,
+      "name": "Reverse Engineering",
+      "definition": "Questions about analyzing software, hardware, or protocols to understand their function."
+    },
+    {
+      "id": 19,
+      "name": "SharePoint",
+      "definition": "Questions specific to Microsoft SharePoint."
+    },
+    {
+      "id": 20,
+      "name": "Salesforce",
+      "definition": "Questions specific to the Salesforce platform."
+    },
+    {
+      "id": 21,
+      "name": "Sitecore",
+      "definition": "Questions specific to the Sitecore CMS."
+    },
+    {
+      "id": 22,
+      "name": "ExpressionEngine",
+      "definition": "Questions specific to the ExpressionEngine CMS."
+    },
+    {
+      "id": 23,
+      "name": "Joomla",
+      "definition": "Questions specific to the Joomla CMS."
+    },
+    {
+      "id": 24,
+      "name": "Android Developers",
+      "definition": "Questions about developing applications for the Android platform."
+    },
+    {
+      "id": 25,
+      "name": "Quantum Computing",
+      "definition": "Questions about quantum mechanics applied to computation."
+    },
+    {
+      "id": 26,
+      "name": "Data Science",
+      "definition": "Questions about statistics, machine learning, and data analysis."
+    },
+    {
+      "id": 27,
+      "name": "Operations Research",
+      "definition": "Questions about optimization, algorithms, and decision science."
+    },
+    {
+      "id": 28,
+      "name": "Mathematics",
+      "definition": "Questions about pure and applied mathematics."
+    },
+    {
+      "id": 29,
+      "name": "Physics",
+      "definition": "Questions about the fundamental laws of the universe."
+    },
+    {
+      "id": 30,
+      "name": "Chemistry",
+      "definition": "Questions about the composition, structure, properties, and reactions of matter."
+    },
+    {
+      "id": 31,
+      "name": "Biology",
+      "definition": "Questions about living organisms and life processes."
+    },
+    {
+      "id": 32,
+      "name": "Medical Sciences",
+      "definition": "Questions about human health, diseases, and medical treatments."
+    },
+    {
+      "id": 33,
+      "name": "Health",
+      "definition": "Questions about general health, wellness, and fitness."
+    },
+    {
+      "id": 34,
+      "name": "Physical Fitness",
+      "definition": "Questions about exercise, training, and sports science."
+    },
+    {
+      "id": 35,
+      "name": "Home Improvement",
+      "definition": "Questions about DIY, home repair, and maintenance."
+    },
+    {
+      "id": 36,
+      "name": "Gardening & Landscaping",
+      "definition": "Questions about plants, gardening, and outdoor spaces."
+    },
+    {
+      "id": 37,
+      "name": "Pets",
+      "definition": "Questions about pet care, behavior, and health."
+    },
+    {
+      "id": 38,
+      "name": "Seasoned Advice",
+      "definition": "Questions about cooking, food science, and recipes."
+    },
+    {
+      "id": 39,
+      "name": "Homebrewing",
+      "definition": "Questions about making beer, wine, and other fermented beverages."
+    },
+    {
+      "id": 40,
+      "name": "Photography",
+      "definition": "Questions about photography equipment, techniques, and post-processing."
+    },
+    {
+      "id": 41,
+      "name": "Travel",
+      "definition": "Questions about travel planning, destinations, and logistics."
+    },
+    {
+      "id": 42,
+      "name": "Interpersonal Skills",
+      "definition": "Questions about social interactions, communication, and relationships."
+    },
+    {
+      "id": 43,
+      "name": "Workplace",
+      "definition": "Questions about career, office life, and professional conduct."
+    },
+    {
+      "id": 44,
+      "name": "Parenting",
+      "definition": "Questions about raising children and family dynamics."
+    },
+    {
+      "id": 45,
+      "name": "Law",
+      "definition": "Questions about legal issues, regulations, and intellectual property."
+    },
+    {
+      "id": 46,
+      "name": "Personal Finance & Money",
+      "definition": "Questions about personal finance, investing, and money management."
+    },
+    {
+      "id": 47,
+      "name": "Economics",
+      "definition": "Questions about economic theory, markets, and financial systems."
+    },
+    {
+      "id": 48,
+      "name": "Politics & Government",
+      "definition": "Questions about political science, public administration, and current events."
+    },
+    {
+      "id": 49,
+      "name": "History",
+      "definition": "Questions about historical events, figures, and periods."
+    },
+    {
+      "id": 50,
+      "name": "Genealogy & Family History",
+      "definition": "Questions about family research, ancestry, and historical records."
+    },
+    {
+      "id": 51,
+      "name": "Philosophy",
+      "definition": "Questions about ethics, metaphysics, logic, and critical thought."
+    },
+    {
+      "id": 52,
+      "name": "Religion",
+      "definition": "Questions about general religious beliefs, practices, and theology."
+    },
+    {
+      "id": 53,
+      "name": "Biblical Hermeneutics",
+      "definition": "Questions about the interpretation of biblical texts."
+    },
+    {
+      "id": 54,
+      "name": "Judaism",
+      "definition": "Questions specific to the Jewish religion and culture."
+    },
+    {
+      "id": 55,
+      "name": "Hinduism",
+      "definition": "Questions specific to the Hindu religion and traditions."
+    },
+    {
+      "id": 56,
+      "name": "Islam",
+      "definition": "Questions specific to the Islamic religion and practices."
+    },
+    {
+      "id": 57,
+      "name": "English Language & Usage",
+      "definition": "Questions about the English language, grammar, and idioms."
+    },
+    {
+      "id": 58,
+      "name": "Linguistics",
+      "definition": "Questions about the scientific study of language."
+    },
+    {
+      "id": 59,
+      "name": "Language Learning",
+      "definition": "Questions about learning foreign languages."
+    },
+    {
+      "id": 60,
+      "name": "German Language",
+      "definition": "Questions specific to the German language."
+    },
+    {
+      "id": 61,
+      "name": "French Language",
+      "definition": "Questions specific to the French language."
+    },
+    {
+      "id": 62,
+      "name": "Spanish Language",
+      "definition": "Questions specific to the Spanish language."
+    },
+    {
+      "id": 63,
+      "name": "Japanese Language",
+      "definition": "Questions specific to the Japanese language."
+    },
+    {
+      "id": 64,
+      "name": "Ukrainian Language",
+      "definition": "Questions specific to the Ukrainian language."
+    },
+    {
+      "id": 65,
+      "name": "Russian Language",
+      "definition": "Questions specific to the Russian language."
+    },
+    {
+      "id": 66,
+      "name": "Latin Language",
+      "definition": "Questions specific to the Latin language."
+    },
+    {
+      "id": 67,
+      "name": "Korean Language",
+      "definition": "Questions specific to the Korean language."
+    },
+    {
+      "id": 68,
+      "name": "Music Practice & Theory",
+      "definition": "Questions about music theory, composition, and performance."
+    },
+    {
+      "id": 69,
+      "name": "Graphic Design",
+      "definition": "Questions about visual design, layout, and creative software."
+    },
+    {
+      "id": 70,
+      "name": "Typography",
+      "definition": "Questions about fonts, typefaces, and text presentation."
+    },
+    {
+      "id": 71,
+      "name": "Academia",
+      "definition": "Questions about academic life, research, and higher education."
+    },
+    {
+      "id": 72,
+      "name": "Writing",
+      "definition": "Questions about creative writing, publishing, and storytelling."
+    },
+    {
+      "id": 73,
+      "name": "Technical Writing",
+      "definition": "Questions about creating technical documentation and clear communication."
+    },
+    {
+      "id": 74,
+      "name": "Science Fiction & Fantasy",
+      "definition": "Questions about the science fiction and fantasy genres."
+    },
+    {
+      "id": 75,
+      "name": "Worldbuilding",
+      "definition": "Questions about creating fictional worlds and their systems."
+    },
+    {
+      "id": 76,
+      "name": "Role-playing Games",
+      "definition": "Questions about tabletop role-playing games."
+    },
+    {
+      "id": 77,
+      "name": "Arqade Video Games",
+      "definition": "Questions about video games."
+    },
+    {
+      "id": 78,
+      "name": "Board & Card Games",
+      "definition": "Questions about board games, card games, and tabletop strategy games."
+    },
+    {
+      "id": 79,
+      "name": "Puzzling",
+      "definition": "Questions about puzzles, riddles, and brain teasers."
+    },
+    {
+      "id": 80,
+      "name": "Sports",
+      "definition": "Questions about sports rules, history, and strategy."
+    },
+    {
+      "id": 81,
+      "name": "Space Exploration",
+      "definition": "Questions about space travel, astronomy, and astronautics."
+    },
+    {
+      "id": 82,
+      "name": "Computer Science",
+      "definition": "Questions about theoretical computer science and algorithms."
+    },
+    {
+      "id": 83,
+      "name": "Network Engineering",
+      "definition": "Questions about network design, protocols, and infrastructure."
+    },
+    {
+      "id": 84,
+      "name": "Cloud Computing",
+      "definition": "Questions about cloud platforms, services, and deployment."
+    },
+    {
+      "id": 85,
+      "name": "Open Source",
+      "definition": "Questions about open source software, licensing, and community."
+    },
+    {
+      "id": 86,
+      "name": "Smart Home",
+      "definition": "Questions about home automation and smart devices."
+    },
+    {
+      "id": 87,
+      "name": "Mechanics",
+      "definition": "Questions about automotive repair, maintenance, and engineering."
+    },
+    {
+      "id": 88,
+      "name": "Aviation",
+      "definition": "Questions about aircraft, flight, and air travel."
+    },
+    {
+      "id": 89,
+      "name": "Business",
+      "definition": "Questions about business practices, management, and entrepreneurship."
+    },
+    {
+      "id": 90,
+      "name": "Urban Planning",
+      "definition": "Questions about city planning, infrastructure, and community development."
+    },
+    {
+      "id": 91,
+      "name": "Geographic Information Systems",
+      "definition": "Questions about GIS software, data, and mapping."
+    },
+    {
+      "id": 92,
+      "name": "Lifehacks",
+      "definition": "Questions about tips and tricks for everyday life."
+    },
+    {
+      "id": 93,
+      "name": "Meta Stack Exchange",
+      "definition": "Questions about the Stack Exchange network itself."
+    },
+    {
+      "id": 94,
+      "name": "Cryptocurrencies",
+      "definition": "Questions about Bitcoin, Ethereum, blockchain, and other cryptocurrencies."
+    },
+    {
+      "id": 95,
+      "name": "Tor",
+      "definition": "Questions about the Tor anonymity network."
+    },
+    {
+      "id": 96,
+      "name": "Windows",
+      "definition": "Questions specific to Microsoft Windows operating systems and devices."
+    },
+    {
+      "id": 97,
+      "name": "Microsoft Office",
+      "definition": "Questions specific to Microsoft Office applications."
+    },
+    {
+      "id": 98,
+      "name": "Outdoors",
+      "definition": "Questions about outdoor activities, nature, and wildlife."
+    }
+  ]
+}

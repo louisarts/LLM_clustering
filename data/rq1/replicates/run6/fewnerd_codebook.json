@@ -1,0 +1,222 @@
+{
+  "bench": "fewnerd",
+  "run": 6,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "A human individual, historical or contemporary."
+    },
+    {
+      "id": 2,
+      "name": "Company",
+      "definition": "A commercial business or enterprise."
+    },
+    {
+      "id": 3,
+      "name": "Educational Institution",
+      "definition": "An institution providing education, such as a university, college, or school."
+    },
+    {
+      "id": 4,
+      "name": "Government Body/Agency",
+      "definition": "An official administrative unit or department of a government."
+    },
+    {
+      "id": 5,
+      "name": "Library",
+      "definition": "An institution or building housing a collection of books and other media for public or academic use."
+    },
+    {
+      "id": 6,
+      "name": "Political Party",
+      "definition": "An organization that seeks to achieve and maintain political power."
+    },
+    {
+      "id": 7,
+      "name": "Religious Organization",
+      "definition": "An organization dedicated to religious worship or practice."
+    },
+    {
+      "id": 8,
+      "name": "Sports League/Organization",
+      "definition": "An organized group of sports teams or clubs that compete against each other."
+    },
+    {
+      "id": 9,
+      "name": "Theatre Company",
+      "definition": "A group of actors and other professionals who produce plays or other theatrical performances."
+    },
+    {
+      "id": 10,
+      "name": "Association/Society",
+      "definition": "A group of people organized for a common purpose, often professional or social."
+    },
+    {
+      "id": 11,
+      "name": "Country",
+      "definition": "A nation or state, or a historical political entity."
+    },
+    {
+      "id": 12,
+      "name": "City",
+      "definition": "A large and permanent human settlement."
+    },
+    {
+      "id": 13,
+      "name": "Region/State/Province",
+      "definition": "A large geographical area or administrative division within a country."
+    },
+    {
+      "id": 14,
+      "name": "Island",
+      "definition": "A piece of land surrounded by water."
+    },
+    {
+      "id": 15,
+      "name": "Geographical Feature",
+      "definition": "A natural or artificial landform or body of water."
+    },
+    {
+      "id": 16,
+      "name": "Administrative Division",
+      "definition": "A subdivision of a country or region for administrative purposes."
+    },
+    {
+      "id": 17,
+      "name": "Creative Work",
+      "definition": "A book, album, song, game, or other artistic creation."
+    },
+    {
+      "id": 18,
+      "name": "Sports Team",
+      "definition": "A group of athletes competing together in a sport."
+    },
+    {
+      "id": 19,
+      "name": "Sports Event/Competition",
+      "definition": "An organized contest or series of contests in a sport."
+    },
+    {
+      "id": 20,
+      "name": "Medical Condition/Disease",
+      "definition": "An abnormal condition affecting an organism, often caused by infection, injury, or genetic defect."
+    },
+    {
+      "id": 21,
+      "name": "Biological Molecule/Component",
+      "definition": "A molecule or structure that is part of a living organism."
+    },
+    {
+      "id": 22,
+      "name": "Organism (Species/Genus/Family)",
+      "definition": "A living entity, classified by species, genus, or family."
+    },
+    {
+      "id": 23,
+      "name": "Fictional Character",
+      "definition": "A person or entity created for a fictional work."
+    },
+    {
+      "id": 24,
+      "name": "Deity/Mythological Figure",
+      "definition": "A supernatural being worshipped as divine or a figure from mythology."
+    },
+    {
+      "id": 25,
+      "name": "Fictional Place/Concept",
+      "definition": "A place or abstract idea existing within a fictional narrative."
+    },
+    {
+      "id": 26,
+      "name": "Vehicle Model",
+      "definition": "A specific design or type of vehicle."
+    },
+    {
+      "id": 27,
+      "name": "Software/Operating System",
+      "definition": "A program or set of programs that operates a computer or device."
+    },
+    {
+      "id": 28,
+      "name": "Weapon Model",
+      "definition": "A specific design or type of weapon."
+    },
+    {
+      "id": 29,
+      "name": "Vessel Type",
+      "definition": "A classification of a ship or boat."
+    },
+    {
+      "id": 30,
+      "name": "Ship",
+      "definition": "A specific named large boat or vessel."
+    },
+    {
+      "id": 31,
+      "name": "Brand/Product",
+      "definition": "A commercial name or item, not covered by more specific categories like vehicle or software."
+    },
+    {
+      "id": 32,
+      "name": "Event (Historical/Political)",
+      "definition": "A significant occurrence or happening, often with historical or political importance."
+    },
+    {
+      "id": 33,
+      "name": "Nationality/Ethnicity",
+      "definition": "Relating to a particular nation, country, or ethnic group."
+    },
+    {
+      "id": 34,
+      "name": "Chemical Compound/Substance",
+      "definition": "A substance formed from two or more elements chemically united in fixed proportions."
+    },
+    {
+      "id": 35,
+      "name": "Venue/Location",
+      "definition": "A place where an event or activity takes place, such as a stadium, hotel, or airport."
+    },
+    {
+      "id": 36,
+      "name": "Law/Legislation",
+      "definition": "A rule or set of rules established by authority, or a system of such rules."
+    },
+    {
+      "id": 37,
+      "name": "Astronomical Object",
+      "definition": "A naturally occurring physical entity or structure in the observable universe."
+    },
+    {
+      "id": 38,
+      "name": "Media Publication",
+      "definition": "A newspaper, magazine, or other regularly published print or digital material."
+    },
+    {
+      "id": 39,
+      "name": "Academic Degree",
+      "definition": "A qualification awarded by colleges and universities."
+    },
+    {
+      "id": 40,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 41,
+      "name": "Classification/Listing",
+      "definition": "A system for categorizing or ranking something."
+    },
+    {
+      "id": 42,
+      "name": "Religious Group/Belief System",
+      "definition": "A group of people sharing a common religious faith or a system of beliefs."
+    },
+    {
+      "id": 43,
+      "name": "Political Ideology",
+      "definition": "A set of beliefs and ideas that characterize a particular political system or party."
+    }
+  ]
+}

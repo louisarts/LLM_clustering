@@ -1,0 +1,60 @@
+{
+  "bench": "mcid",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Death Count Inquiries",
+      "definition": "User intent expresses curiosity about the number of deaths related to COVID-19 in specific regions."
+    },
+    {
+      "id": 2,
+      "name": "General Information Seeking",
+      "definition": "User intent seeks general information or updates about COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Gratitude and Appreciation",
+      "definition": "User expresses gratitude or appreciation towards COVID-19 information sources or assistance received."
+    },
+    {
+      "id": 4,
+      "name": "Prevention and Safety Measures",
+      "definition": "User intent focuses on ways to prevent infection and ensure safety from COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Myths and Misinformation",
+      "definition": "User intent involves questioning or debunking myths and misinformation related to COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Travel-related Inquiries",
+      "definition": "User intent pertains to travel-related queries and concerns in the context of COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Medical Treatment and Symptoms",
+      "definition": "User intent seeks information on medical treatment options, symptoms, and remedies for COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Donations and Contributions",
+      "definition": "User intent involves donating money or resources to COVID-19 relief efforts or research."
+    },
+    {
+      "id": 9,
+      "name": "Animal-related Concerns",
+      "definition": "User intent focuses on questions or worries related to animals and COVID-19 transmission."
+    },
+    {
+      "id": 10,
+      "name": "Community Spread and Risk Areas",
+      "definition": "User intent seeks information on community spread, high-risk areas, and specific locations affected by COVID-19."
+    }
+  ]
+}

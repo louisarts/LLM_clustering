@@ -1,0 +1,110 @@
+{
+  "bench": "massive_intent",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "User wants to know current or forecasted weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Home Automation",
+      "definition": "User wants to control lights, plugs, or other home devices."
+    },
+    {
+      "id": 3,
+      "name": "Grocery List Management",
+      "definition": "User wants to add or remove items from a grocery list."
+    },
+    {
+      "id": 4,
+      "name": "Information Inquiry",
+      "definition": "User wants to know about a specific topic or person."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment Request",
+      "definition": "User wants to play music, podcasts, audiobooks, or other entertainment media."
+    },
+    {
+      "id": 6,
+      "name": "Email Management",
+      "definition": "User wants to check, send, or delete emails."
+    },
+    {
+      "id": 7,
+      "name": "Calendar Management",
+      "definition": "User wants to schedule, check, or cancel events or appointments."
+    },
+    {
+      "id": 8,
+      "name": "Alarm Setting",
+      "definition": "User wants to set, check, or cancel alarms."
+    },
+    {
+      "id": 9,
+      "name": "Search Inquiry",
+      "definition": "User wants to search the web for specific information."
+    },
+    {
+      "id": 10,
+      "name": "Social Media Interaction",
+      "definition": "User wants to post, check, or interact with social media platforms."
+    },
+    {
+      "id": 11,
+      "name": "Task List Management",
+      "definition": "User wants to add, remove, or check tasks or to-do lists."
+    },
+    {
+      "id": 12,
+      "name": "Stock Price Inquiry",
+      "definition": "User wants to know the current or past stock prices."
+    },
+    {
+      "id": 13,
+      "name": "Travel Planning",
+      "definition": "User wants to plan or book travel arrangements."
+    },
+    {
+      "id": 14,
+      "name": "Recipe Inquiry",
+      "definition": "User wants to know or find a recipe for cooking."
+    },
+    {
+      "id": 15,
+      "name": "Location Inquiry",
+      "definition": "User wants to know the location of a place or person."
+    },
+    {
+      "id": 16,
+      "name": "Time Inquiry",
+      "definition": "User wants to know the current time or time in a specific location."
+    },
+    {
+      "id": 17,
+      "name": "Traffic Inquiry",
+      "definition": "User wants to know about traffic conditions or routes."
+    },
+    {
+      "id": 18,
+      "name": "Music Preference",
+      "definition": "User wants to play music based on genre or playlist."
+    },
+    {
+      "id": 19,
+      "name": "Math Calculation",
+      "definition": "User wants to perform a mathematical calculation."
+    },
+    {
+      "id": 20,
+      "name": "Device Control",
+      "definition": "User wants to control electronic devices or appliances."
+    }
+  ]
+}

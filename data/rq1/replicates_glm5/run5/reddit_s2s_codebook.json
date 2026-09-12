@@ -1,0 +1,624 @@
+{
+  "bench": "reddit_s2s",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Airsoft",
+      "definition": "Discussion of replica firearms, gear, and gameplay."
+    },
+    {
+      "id": 2,
+      "name": "Anime",
+      "definition": "Content related to Japanese animation and manga."
+    },
+    {
+      "id": 3,
+      "name": "Architecture",
+      "definition": "Discussion of building design, drafting, and urban planning."
+    },
+    {
+      "id": 4,
+      "name": "Art",
+      "definition": "Creation, exhibition, and discussion of visual arts."
+    },
+    {
+      "id": 5,
+      "name": "Atlanta",
+      "definition": "Local news, events, and discussion for Atlanta, Georgia."
+    },
+    {
+      "id": 6,
+      "name": "Baltimore",
+      "definition": "Local news, events, and discussion for Baltimore, Maryland."
+    },
+    {
+      "id": 7,
+      "name": "Beer",
+      "definition": "Discussion, brewing, and tasting of beer."
+    },
+    {
+      "id": 8,
+      "name": "Bicycling",
+      "definition": "Discussion of road bikes, cycling culture, and racing."
+    },
+    {
+      "id": 9,
+      "name": "Buddhism",
+      "definition": "Discussion of Buddhist philosophy, texts, and practice."
+    },
+    {
+      "id": 10,
+      "name": "Cars",
+      "definition": "Discussion of automobiles, maintenance, and driving."
+    },
+    {
+      "id": 11,
+      "name": "Catholicism",
+      "definition": "Discussion of Catholic theology, community, and apologetics."
+    },
+    {
+      "id": 12,
+      "name": "Comics",
+      "definition": "Discussion of comic books, graphic novels, and industry news."
+    },
+    {
+      "id": 13,
+      "name": "Coffee",
+      "definition": "Discussion of brewing methods, beans, and equipment."
+    },
+    {
+      "id": 14,
+      "name": "Edinburgh",
+      "definition": "Local news, events, and discussion for Edinburgh, Scotland."
+    },
+    {
+      "id": 15,
+      "name": "AskReddit",
+      "definition": "General questions and open-ended discussion topics."
+    },
+    {
+      "id": 16,
+      "name": "Fitness",
+      "definition": "Discussion of physical exercise, diet, and bodybuilding."
+    },
+    {
+      "id": 17,
+      "name": "History",
+      "definition": "Discussion of historical events, figures, and sources."
+    },
+    {
+      "id": 18,
+      "name": "Houston",
+      "definition": "Local news, events, and discussion for Houston, Texas."
+    },
+    {
+      "id": 19,
+      "name": "Jokes",
+      "definition": "Humorous content and comedy writing."
+    },
+    {
+      "id": 20,
+      "name": "London",
+      "definition": "Local news, events, and discussion for London, UK."
+    },
+    {
+      "id": 21,
+      "name": "Music",
+      "definition": "Discussion of music news, artists, and composition."
+    },
+    {
+      "id": 22,
+      "name": "Ottawa",
+      "definition": "Local news, events, and discussion for Ottawa, Canada."
+    },
+    {
+      "id": 23,
+      "name": "Photography",
+      "definition": "Discussion of photographic techniques, gear, and sharing images."
+    },
+    {
+      "id": 24,
+      "name": "Physics",
+      "definition": "Discussion of physical laws, theories, and concepts."
+    },
+    {
+      "id": 25,
+      "name": "Portland",
+      "definition": "Local news, events, and discussion for Portland, Oregon."
+    },
+    {
+      "id": 26,
+      "name": "Relationships",
+      "definition": "Advice and discussion regarding interpersonal relationships."
+    },
+    {
+      "id": 27,
+      "name": "TalesFromRetail",
+      "definition": "Stories and experiences from retail workers."
+    },
+    {
+      "id": 28,
+      "name": "Technology",
+      "definition": "Discussion of consumer electronics, software, and tech news."
+    },
+    {
+      "id": 29,
+      "name": "Television",
+      "definition": "Discussion of TV shows, news, and reviews."
+    },
+    {
+      "id": 30,
+      "name": "Toronto",
+      "definition": "Local news, events, and discussion for Toronto, Canada."
+    },
+    {
+      "id": 31,
+      "name": "Travel",
+      "definition": "Discussion of travel destinations, logistics, and advice."
+    },
+    {
+      "id": 32,
+      "name": "Vancouver",
+      "definition": "Local news, events, and discussion for Vancouver, Canada."
+    },
+    {
+      "id": 33,
+      "name": "WorldNews",
+      "definition": "Discussion of major global news events and politics."
+    },
+    {
+      "id": 34,
+      "name": "Writing",
+      "definition": "Discussion of the writing craft, prompts, and publishing."
+    },
+    {
+      "id": 35,
+      "name": "Aviation",
+      "definition": "Discussion of aircraft, piloting, and industry news."
+    },
+    {
+      "id": 36,
+      "name": "Biology",
+      "definition": "Discussion of biological sciences and academic research."
+    },
+    {
+      "id": 37,
+      "name": "Boston",
+      "definition": "Local news, events, and discussion for Boston, Massachusetts."
+    },
+    {
+      "id": 38,
+      "name": "Brussels",
+      "definition": "Local news, events, and discussion for Brussels, Belgium."
+    },
+    {
+      "id": 39,
+      "name": "Business",
+      "definition": "Discussion of business management, marketing, and finance."
+    },
+    {
+      "id": 40,
+      "name": "Canada",
+      "definition": "National news and discussion relevant to Canada."
+    },
+    {
+      "id": 41,
+      "name": "CasualConversation",
+      "definition": "Informal discussion and sharing of personal stories."
+    },
+    {
+      "id": 42,
+      "name": "Cats",
+      "definition": "Images, videos, and discussion regarding domestic cats."
+    },
+    {
+      "id": 43,
+      "name": "Christianity",
+      "definition": "General discussion of Christian theology and denominations."
+    },
+    {
+      "id": 44,
+      "name": "Civics",
+      "definition": "Discussion of citizenship, rights, and political responsibilities."
+    },
+    {
+      "id": 45,
+      "name": "Cleveland",
+      "definition": "Local news, events, and discussion for Cleveland, Ohio."
+    },
+    {
+      "id": 46,
+      "name": "Coins",
+      "definition": "Numismatics: collecting, identifying, and discussing coins."
+    },
+    {
+      "id": 47,
+      "name": "Comics",
+      "definition": "Discussion of comic books, graphic novels, and industry news."
+    },
+    {
+      "id": 48,
+      "name": "Dentistry",
+      "definition": "Discussion of dental health and professional practice."
+    },
+    {
+      "id": 49,
+      "name": "DIY",
+      "definition": "Do-it-yourself projects, home improvement, and repairs."
+    },
+    {
+      "id": 50,
+      "name": "Documentaries",
+      "definition": "Discussion of documentary films and series."
+    },
+    {
+      "id": 51,
+      "name": "Dogs",
+      "definition": "Images, videos, and discussion regarding dogs."
+    },
+    {
+      "id": 52,
+      "name": "Drugs",
+      "definition": "Discussion of psychoactive substances and harm reduction."
+    },
+    {
+      "id": 53,
+      "name": "Edmonton",
+      "definition": "Local news, events, and discussion for Edmonton, Canada."
+    },
+    {
+      "id": 54,
+      "name": "Engineering",
+      "definition": "Discussion of engineering principles and projects."
+    },
+    {
+      "id": 55,
+      "name": "Entrepreneur",
+      "definition": "Discussion for business owners and startup founders."
+    },
+    {
+      "id": 56,
+      "name": "Environment",
+      "definition": "Discussion of environmental issues and sustainability."
+    },
+    {
+      "id": 57,
+      "name": "Fishing",
+      "definition": "Discussion of angling, equipment, and locations."
+    },
+    {
+      "id": 58,
+      "name": "Food",
+      "definition": "Discussion of cooking, restaurants, and culinary culture."
+    },
+    {
+      "id": 59,
+      "name": "Futurology",
+      "definition": "Speculation and news about the future of humanity and technology."
+    },
+    {
+      "id": 60,
+      "name": "GameDeals",
+      "definition": "Links to discounts and sales for video games."
+    },
+    {
+      "id": 61,
+      "name": "Gaming",
+      "definition": "General discussion of video games and gaming culture."
+    },
+    {
+      "id": 62,
+      "name": "Geology",
+      "definition": "Discussion of earth sciences and geological formations."
+    },
+    {
+      "id": 63,
+      "name": "History",
+      "definition": "Discussion of historical events, figures, and sources."
+    },
+    {
+      "id": 64,
+      "name": "Hockey",
+      "definition": "Discussion of ice hockey teams, players, and games."
+    },
+    {
+      "id": 65,
+      "name": "HomeImprovement",
+      "definition": "Advice and discussion on home renovation and repair."
+    },
+    {
+      "id": 66,
+      "name": "India",
+      "definition": "News and discussion relevant to India."
+    },
+    {
+      "id": 67,
+      "name": "InternetIsBeautiful",
+      "definition": "Links to unique and interesting websites."
+    },
+    {
+      "id": 68,
+      "name": "Investing",
+      "definition": "Discussion of financial markets and investment strategies."
+    },
+    {
+      "id": 69,
+      "name": "Journalism",
+      "definition": "Discussion of news media, reporting, and press ethics."
+    },
+    {
+      "id": 70,
+      "name": "Kansascity",
+      "definition": "Local news, events, and discussion for Kansas City."
+    },
+    {
+      "id": 71,
+      "name": "LanguageLearning",
+      "definition": "Discussion of methods and resources for learning languages."
+    },
+    {
+      "id": 72,
+      "name": "Law",
+      "definition": "Discussion of legal issues and the justice system."
+    },
+    {
+      "id": 73,
+      "name": "LGBT",
+      "definition": "Discussion of LGBTQ+ issues and community support."
+    },
+    {
+      "id": 74,
+      "name": "Libertarian",
+      "definition": "Discussion of libertarian political philosophy."
+    },
+    {
+      "id": 75,
+      "name": "LosAngeles",
+      "definition": "Local news, events, and discussion for Los Angeles, California."
+    },
+    {
+      "id": 76,
+      "name": "Math",
+      "definition": "Discussion of mathematical problems and concepts."
+    },
+    {
+      "id": 77,
+      "name": "Meditation",
+      "definition": "Discussion of meditation techniques and experiences."
+    },
+    {
+      "id": 78,
+      "name": "MensRights",
+      "definition": "Discussion of men's issues and rights activism."
+    },
+    {
+      "id": 79,
+      "name": "Miami",
+      "definition": "Local news, events, and discussion for Miami, Florida."
+    },
+    {
+      "id": 80,
+      "name": "Military",
+      "definition": "Discussion of military news, history, and technology."
+    },
+    {
+      "id": 81,
+      "name": "Minneapolis",
+      "definition": "Local news, events, and discussion for Minneapolis, Minnesota."
+    },
+    {
+      "id": 82,
+      "name": "Movies",
+      "definition": "Discussion of films, trailers, and cinema."
+    },
+    {
+      "id": 83,
+      "name": "NewYorkCity",
+      "definition": "Local news, events, and discussion for New York City."
+    },
+    {
+      "id": 84,
+      "name": "News",
+      "definition": "Discussion of current events and breaking news."
+    },
+    {
+      "id": 85,
+      "name": "Nootropics",
+      "definition": "Discussion of cognitive enhancers and supplements."
+    },
+    {
+      "id": 86,
+      "name": "Patriots",
+      "definition": "Discussion of the New England Patriots NFL team."
+    },
+    {
+      "id": 87,
+      "name": "Pets",
+      "definition": "General discussion and advice regarding pet ownership."
+    },
+    {
+      "id": 88,
+      "name": "Philosophy",
+      "definition": "Discussion of philosophical ideas and thinkers."
+    },
+    {
+      "id": 89,
+      "name": "Pittsburgh",
+      "definition": "Local news, events, and discussion for Pittsburgh, Pennsylvania."
+    },
+    {
+      "id": 90,
+      "name": "Politics",
+      "definition": "Discussion of US political news and policy."
+    },
+    {
+      "id": 91,
+      "name": "Psychology",
+      "definition": "Discussion of psychological research and mental health."
+    },
+    {
+      "id": 92,
+      "name": "RealEstate",
+      "definition": "Discussion of property markets and real estate investing."
+    },
+    {
+      "id": 93,
+      "name": "RetroGaming",
+      "definition": "Discussion of classic and vintage video games."
+    },
+    {
+      "id": 94,
+      "name": "SanFrancisco",
+      "definition": "Local news, events, and discussion for San Francisco, California."
+    },
+    {
+      "id": 95,
+      "name": "Science",
+      "definition": "Discussion of general scientific discoveries and news."
+    },
+    {
+      "id": 96,
+      "name": "Seattle",
+      "definition": "Local news, events, and discussion for Seattle, Washington."
+    },
+    {
+      "id": 97,
+      "name": "SeattleWA",
+      "definition": "Alternative local discussion for Seattle and Washington state."
+    },
+    {
+      "id": 98,
+      "name": "Space",
+      "definition": "Discussion of space exploration, astronomy, and the universe."
+    },
+    {
+      "id": 99,
+      "name": "Sports",
+      "definition": "General discussion of various sports and athletics."
+    },
+    {
+      "id": 100,
+      "name": "Sydney",
+      "definition": "Local news, events, and discussion for Sydney, Australia."
+    },
+    {
+      "id": 101,
+      "name": "Tampa",
+      "definition": "Local news, events, and discussion for Tampa, Florida."
+    },
+    {
+      "id": 102,
+      "name": "Taxes",
+      "definition": "Discussion of tax laws, filing, and advice."
+    },
+    {
+      "id": 103,
+      "name": "TechSupport",
+      "definition": "Technical assistance and troubleshooting for technology."
+    },
+    {
+      "id": 104,
+      "name": "Tennis",
+      "definition": "Discussion of professional tennis tours and matches."
+    },
+    {
+      "id": 105,
+      "name": "Texas",
+      "definition": "News and discussion relevant to the state of Texas."
+    },
+    {
+      "id": 106,
+      "name": "Thailand",
+      "definition": "News, travel, and discussion relevant to Thailand."
+    },
+    {
+      "id": 107,
+      "name": "Tinder",
+      "definition": "Discussion of the Tinder dating app and experiences."
+    },
+    {
+      "id": 108,
+      "name": "UIUC",
+      "definition": "Community for the University of Illinois at Urbana-Champaign."
+    },
+    {
+      "id": 109,
+      "name": "UKPersonalFinance",
+      "definition": "Financial advice and discussion specific to the United Kingdom."
+    },
+    {
+      "id": 110,
+      "name": "UpliftingNews",
+      "definition": "Links to positive and inspiring news stories."
+    },
+    {
+      "id": 111,
+      "name": "USMC",
+      "definition": "Community for the United States Marine Corps."
+    },
+    {
+      "id": 112,
+      "name": "Ukraine",
+      "definition": "News and discussion relevant to Ukraine."
+    },
+    {
+      "id": 113,
+      "name": "Utah",
+      "definition": "Local news, events, and discussion for Utah."
+    },
+    {
+      "id": 114,
+      "name": "VictoriaBC",
+      "definition": "Local news, events, and discussion for Victoria, British Columbia."
+    },
+    {
+      "id": 115,
+      "name": "WTF",
+      "definition": "Links to bizarre, shocking, or confusing content."
+    },
+    {
+      "id": 116,
+      "name": "WashingtonDC",
+      "definition": "Local news, events, and discussion for Washington, D.C."
+    },
+    {
+      "id": 117,
+      "name": "Welding",
+      "definition": "Discussion of welding techniques, projects, and careers."
+    },
+    {
+      "id": 118,
+      "name": "Wellington",
+      "definition": "Local news, events, and discussion for Wellington, New Zealand."
+    },
+    {
+      "id": 119,
+      "name": "WikiLeaks",
+      "definition": "Discussion of WikiLeaks releases and related news."
+    },
+    {
+      "id": 120,
+      "name": "Wisconsin",
+      "definition": "Local news, events, and discussion for Wisconsin."
+    },
+    {
+      "id": 121,
+      "name": "WritingPrompts",
+      "definition": "Prompts and stories for creative writing practice."
+    },
+    {
+      "id": 122,
+      "name": "Xamarin",
+      "definition": "Discussion of the Xamarin mobile development platform."
+    },
+    {
+      "id": 123,
+      "name": "Zelda",
+      "definition": "Discussion of The Legend of Zelda video game franchise."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "clinc150",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Request",
+      "definition": "User seeks specific information or clarification."
+    },
+    {
+      "id": 2,
+      "name": "Task Execution",
+      "definition": "User requests the assistant to perform a specific task."
+    },
+    {
+      "id": 3,
+      "name": "Reminder Setting",
+      "definition": "User asks to set a reminder for a future event or task."
+    },
+    {
+      "id": 4,
+      "name": "Reservation Management",
+      "definition": "User requests to make, modify, or cancel a reservation."
+    },
+    {
+      "id": 5,
+      "name": "Account Management",
+      "definition": "User seeks assistance with banking or account-related issues."
+    },
+    {
+      "id": 6,
+      "name": "Travel Assistance",
+      "definition": "User requests help with travel-related inquiries or arrangements."
+    },
+    {
+      "id": 7,
+      "name": "Health and Safety Inquiry",
+      "definition": "User asks about health-related information or safety concerns."
+    },
+    {
+      "id": 8,
+      "name": "Shopping Assistance",
+      "definition": "User seeks help with shopping-related inquiries or recommendations."
+    },
+    {
+      "id": 9,
+      "name": "Technical Support",
+      "definition": "User requests help with technical issues or device troubleshooting."
+    },
+    {
+      "id": 10,
+      "name": "Cooking and Recipe Inquiry",
+      "definition": "User seeks cooking advice or recipe suggestions."
+    },
+    {
+      "id": 11,
+      "name": "Entertainment Request",
+      "definition": "User asks for entertainment options or suggestions."
+    },
+    {
+      "id": 12,
+      "name": "Personal Assistance",
+      "definition": "User requests help with personal tasks or errands."
+    },
+    {
+      "id": 13,
+      "name": "Feedback or Complaints",
+      "definition": "User expresses dissatisfaction or provides feedback."
+    },
+    {
+      "id": 14,
+      "name": "Learning and Education",
+      "definition": "User seeks educational information or learning resources."
+    },
+    {
+      "id": 15,
+      "name": "Social Interaction",
+      "definition": "User engages in casual conversation or social interaction."
+    },
+    {
+      "id": 16,
+      "name": "Financial Inquiry",
+      "definition": "User seeks information about financial products or services."
+    },
+    {
+      "id": 17,
+      "name": "Calendar Management",
+      "definition": "User requests help with managing calendar events."
+    },
+    {
+      "id": 18,
+      "name": "Location Services",
+      "definition": "User requests assistance with location-based inquiries."
+    },
+    {
+      "id": 19,
+      "name": "Voice and Communication Settings",
+      "definition": "User requests changes to voice settings or communication preferences."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous Requests",
+      "definition": "User makes requests that do not fit into other categories."
+    }
+  ]
+}

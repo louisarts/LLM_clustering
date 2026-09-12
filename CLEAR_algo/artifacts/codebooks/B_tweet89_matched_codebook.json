@@ -1,0 +1,447 @@
+[
+ {
+  "id": 1,
+  "name": "Yemen Protests",
+  "definition": "Events related to protests and civil unrest in Yemen."
+ },
+ {
+  "id": 2,
+  "name": "Oscar Nominations",
+  "definition": "Events and news related to the nominations for the Academy Awards."
+ },
+ {
+  "id": 3,
+  "name": "Super Bowl Commercials",
+  "definition": "Events and discussions surrounding commercials aired during the Super Bowl."
+ },
+ {
+  "id": 4,
+  "name": "Facebook Privacy Issues",
+  "definition": "Concerns and discussions regarding privacy settings and user data on Facebook."
+ },
+ {
+  "id": 5,
+  "name": "Concussion Awareness",
+  "definition": "Discussions and events related to concussion awareness and safety in sports."
+ },
+ {
+  "id": 6,
+  "name": "Charlie Sheen News",
+  "definition": "Events and news related to Charlie Sheen's personal life and career."
+ },
+ {
+  "id": 7,
+  "name": "Consumer Debt Consolidation",
+  "definition": "Topics related to managing and consolidating consumer debt."
+ },
+ {
+  "id": 8,
+  "name": "Marine Life and Fishing",
+  "definition": "Discussions and events related to fishing and marine life."
+ },
+ {
+  "id": 9,
+  "name": "Health Benefits of Acai Berry",
+  "definition": "Information and discussions regarding the health benefits of acai berries."
+ },
+ {
+  "id": 10,
+  "name": "Scholarship Programs",
+  "definition": "Events and news related to scholarship opportunities and educational funding."
+ },
+ {
+  "id": 11,
+  "name": "Energy Efficiency",
+  "definition": "Topics related to energy-saving practices and technologies."
+ },
+ {
+  "id": 12,
+  "name": "Stuxnet and Cybersecurity",
+  "definition": "Discussions related to the Stuxnet virus and its implications for cybersecurity."
+ },
+ {
+  "id": 13,
+  "name": "Taco Bell Lawsuit",
+  "definition": "Legal issues and news related to Taco Bell's food quality and ingredients."
+ },
+ {
+  "id": 14,
+  "name": "Christina Aguilera National Anthem Flub",
+  "definition": "Tweets discussing Christina Aguilera's performance of the national anthem and the controversy surrounding it."
+ },
+ {
+  "id": 15,
+  "name": "Taco Bell Meat Controversy",
+  "definition": "Tweets related to the quality and content of Taco Bell's meat products."
+ },
+ {
+  "id": 16,
+  "name": "Colorado Scam Invitations",
+  "definition": "Tweets about scams targeting residents in Colorado, particularly involving fraudulent invitations."
+ },
+ {
+  "id": 17,
+  "name": "Southeast Australia Flooding",
+  "definition": "Tweets covering the flooding events in Southeast Australia."
+ },
+ {
+  "id": 18,
+  "name": "Obama Health Care Law Ruling",
+  "definition": "Tweets discussing legal rulings related to the Obama health care law."
+ },
+ {
+  "id": 19,
+  "name": "Glenn Beck Controversy",
+  "definition": "Tweets about Glenn Beck's commentary and controversies, particularly regarding France and the Fox Piven strategy."
+ },
+ {
+  "id": 20,
+  "name": "Starbucks Trenta Cup",
+  "definition": "Tweets discussing the introduction and implications of Starbucks' Trenta cup size."
+ },
+ {
+  "id": 21,
+  "name": "Demi Moore Sundance Interview",
+  "definition": "Tweets related to Demi Moore's interview at the Sundance Film Festival."
+ },
+ {
+  "id": 22,
+  "name": "Giffords Condition Update",
+  "definition": "Tweets providing updates on the health condition of Gabrielle Giffords."
+ },
+ {
+  "id": 23,
+  "name": "Chipotle Immigration Raid",
+  "definition": "Tweets discussing the immigration raid at Chipotle and its implications."
+ },
+ {
+  "id": 24,
+  "name": "Political Power of Social Media",
+  "definition": "Tweets analyzing the influence of social media on political movements and foreign affairs."
+ },
+ {
+  "id": 25,
+  "name": "FDA Drug Approval for Premature Birth",
+  "definition": "Tweets about the FDA's approval of a drug aimed at reducing the risk of premature birth."
+ },
+ {
+  "id": 26,
+  "name": "Australian Open Final",
+  "definition": "Tweets related to the final match of the Australian Open tennis tournament."
+ },
+ {
+  "id": 27,
+  "name": "Court Rulings",
+  "definition": "Tweets discussing significant court rulings and legal decisions."
+ },
+ {
+  "id": 28,
+  "name": "Extreme Ice Fishing",
+  "definition": "Tweets about extreme ice fishing events and news."
+ },
+ {
+  "id": 29,
+  "name": "Navy Anti-Piracy Operations",
+  "definition": "Tweets regarding naval operations against piracy."
+ },
+ {
+  "id": 30,
+  "name": "Sundance Film Festival",
+  "definition": "Tweets related to events and news from the Sundance Film Festival."
+ },
+ {
+  "id": 31,
+  "name": "Workplace Bullying",
+  "definition": "Tweets discussing issues and news related to workplace bullying."
+ },
+ {
+  "id": 32,
+  "name": "Iranian Drug Smuggling Case",
+  "definition": "Tweets about the case involving an Iranian woman accused of drug smuggling."
+ },
+ {
+  "id": 33,
+  "name": "Austerity Cuts",
+  "definition": "Tweets discussing the impact of austerity cuts on public services."
+ },
+ {
+  "id": 34,
+  "name": "Moscow Bombing",
+  "definition": "Tweets related to the bombing incident in Moscow."
+ },
+ {
+  "id": 35,
+  "name": "Serious Car Crashes",
+  "definition": "Tweets about serious car accidents involving notable individuals."
+ },
+ {
+  "id": 36,
+  "name": "Myanmar Sanctions",
+  "definition": "Tweets discussing international sanctions related to Myanmar."
+ },
+ {
+  "id": 37,
+  "name": "Fitness and Nutrition Campaigns",
+  "definition": "Tweets about campaigns promoting fitness and nutrition."
+ },
+ {
+  "id": 38,
+  "name": "Identity Theft Awareness",
+  "definition": "Discussions and news related to identity theft incidents, prevention, and awareness campaigns."
+ },
+ {
+  "id": 39,
+  "name": "Facebook Security Features",
+  "definition": "Updates and news regarding security features and changes implemented by Facebook."
+ },
+ {
+  "id": 40,
+  "name": "Oscar Awards",
+  "definition": "News and events related to the Academy Awards, including nominations and winners."
+ },
+ {
+  "id": 41,
+  "name": "Super Bowl Recipes",
+  "definition": "Sharing and discussing recipes specifically for Super Bowl parties and gatherings."
+ },
+ {
+  "id": 42,
+  "name": "Financial Aid Myths",
+  "definition": "Information and discussions debunking myths surrounding financial aid for education."
+ },
+ {
+  "id": 43,
+  "name": "Aquarium Fish Breeding",
+  "definition": "News and tips related to breeding aquarium fish, including techniques and best practices."
+ },
+ {
+  "id": 44,
+  "name": "Yemen Protests Update",
+  "definition": "Current events and updates regarding protests in Yemen."
+ },
+ {
+  "id": 45,
+  "name": "Giffords Recovery Updates",
+  "definition": "News and updates on the recovery of Gabrielle Giffords."
+ },
+ {
+  "id": 46,
+  "name": "Government Spending Cuts",
+  "definition": "Discussions and news regarding cuts in government spending and their implications."
+ },
+ {
+  "id": 47,
+  "name": "Social Media Revolution",
+  "definition": "Discussions about the impact and evolution of social media."
+ },
+ {
+  "id": 48,
+  "name": "Fishing Reports",
+  "definition": "Updates and discussions about fishing conditions and experiences."
+ },
+ {
+  "id": 49,
+  "name": "Bed Bug Awareness",
+  "definition": "Information and news related to bed bug infestations and treatments."
+ },
+ {
+  "id": 50,
+  "name": "Sundance Film Festival Highlights",
+  "definition": "Highlights and news from the Sundance Film Festival."
+ },
+ {
+  "id": 51,
+  "name": "Australian Open Champion",
+  "definition": "News related to the champion of the Australian Open tennis tournament."
+ },
+ {
+  "id": 52,
+  "name": "Texting and Driving Awareness",
+  "definition": "Campaigns and discussions aimed at raising awareness about the dangers of texting while driving."
+ },
+ {
+  "id": 53,
+  "name": "Egyptian Journalist Targeting",
+  "definition": "News regarding the targeting and treatment of journalists in Egypt."
+ },
+ {
+  "id": 54,
+  "name": "Moscow Airport Explosion",
+  "definition": "News related to the explosion at a Moscow airport."
+ },
+ {
+  "id": 55,
+  "name": "Flooding in Australia",
+  "definition": "Updates and news regarding flooding events in Australia."
+ },
+ {
+  "id": 56,
+  "name": "Debt Consolidation Information",
+  "definition": "Discussions and news related to debt consolidation options and advice."
+ },
+ {
+  "id": 57,
+  "name": "Kacey Jordan and Charlie Sheen",
+  "definition": "News related to Kacey Jordan's involvement with Charlie Sheen."
+ },
+ {
+  "id": 58,
+  "name": "Iran Nuclear Talks",
+  "definition": "Discussions regarding Iran's nuclear program and international relations involving Iranian leadership."
+ },
+ {
+  "id": 59,
+  "name": "Bullying in the Workplace",
+  "definition": "Issues and discussions surrounding bullying behavior in professional environments."
+ },
+ {
+  "id": 60,
+  "name": "Obama Birth Certificate Controversy",
+  "definition": "Debate and discussions surrounding the legitimacy of President Obama's birth certificate."
+ },
+ {
+  "id": 61,
+  "name": "Concussion Safety in Sports",
+  "definition": "Discussions and awareness regarding concussion risks and safety measures in sports, particularly hockey."
+ },
+ {
+  "id": 62,
+  "name": "Yemen Day of Rage",
+  "definition": "Protests and demonstrations in Yemen against the government, often marked by significant public gatherings."
+ },
+ {
+  "id": 63,
+  "name": "Financial Aid Issues",
+  "definition": "Challenges and discussions related to obtaining financial aid for education, including appeals and office interactions."
+ },
+ {
+  "id": 64,
+  "name": "Acai Berry Diet",
+  "definition": "Discussions surrounding the use of acai berries in weight loss and health diets."
+ },
+ {
+  "id": 65,
+  "name": "Super Bowl Party Planning",
+  "definition": "Ideas and discussions related to planning and hosting Super Bowl parties, including food and activities."
+ },
+ {
+  "id": 66,
+  "name": "Fast Food Immigration Issues",
+  "definition": "Discussions surrounding immigration issues related to fast food companies and their hiring practices."
+ },
+ {
+  "id": 67,
+  "name": "Natalie Portman Golden Globe Win",
+  "definition": "Tweets related to Natalie Portman's win at the Golden Globe Awards for her role in 'Black Swan'."
+ },
+ {
+  "id": 68,
+  "name": "Joanna Yeates Murder Case",
+  "definition": "Tweets discussing the murder case of Joanna Yeates and the accused Vincent Tabak."
+ },
+ {
+  "id": 69,
+  "name": "Alaska Salmon Fishing",
+  "definition": "Tweets about fishing for salmon in Alaska."
+ },
+ {
+  "id": 70,
+  "name": "Employment Rate Improvement",
+  "definition": "Tweets discussing the improvement in the jobless rate and employment opportunities."
+ },
+ {
+  "id": 71,
+  "name": "Iran Election Protests",
+  "definition": "Tweets related to protests in Iran surrounding the elections."
+ },
+ {
+  "id": 72,
+  "name": "Oscars Best Documentary",
+  "definition": "Tweets discussing the Oscar nominations and wins for best documentary films."
+ },
+ {
+  "id": 73,
+  "name": "Human Wall Protests in Egypt",
+  "definition": "Tweets about the protests in Egypt aimed at protecting the Cairo Museum."
+ },
+ {
+  "id": 74,
+  "name": "Bed Bug Pesticide Technology",
+  "definition": "Tweets discussing advancements in technology to fight bed bugs."
+ },
+ {
+  "id": 75,
+  "name": "Moscow Airport Suicide Bombing",
+  "definition": "Tweets related to the suicide bombing at Moscow's airport."
+ },
+ {
+  "id": 76,
+  "name": "Yemen Protests Against President",
+  "definition": "Tweets about protests in Yemen calling for the resignation of President Ali Abdullah Saleh."
+ },
+ {
+  "id": 77,
+  "name": "Fishing Techniques and Equipment",
+  "definition": "Tweets discussing various fishing techniques and equipment."
+ },
+ {
+  "id": 78,
+  "name": "Tunisian and Egyptian Protests",
+  "definition": "Tweets discussing the protests in Tunisia and Egypt."
+ },
+ {
+  "id": 79,
+  "name": "Chicago Blizzard Records",
+  "definition": "Tweets about the blizzard in Chicago and its record snowfall."
+ },
+ {
+  "id": 80,
+  "name": "Stuxnet Cybersecurity Discussion",
+  "definition": "Tweets discussing the Stuxnet virus and its implications for cybersecurity."
+ },
+ {
+  "id": 81,
+  "name": "Egyptian Journalist Arrest",
+  "definition": "Reports on the arrest and beating of journalists in Egypt during protests."
+ },
+ {
+  "id": 82,
+  "name": "Super Bowl Commercials Recap",
+  "definition": "Summaries and discussions of various commercials aired during the Super Bowl."
+ },
+ {
+  "id": 83,
+  "name": "Chicago Blizzard Updates",
+  "definition": "Updates and reports related to the blizzard conditions in Chicago."
+ },
+ {
+  "id": 84,
+  "name": "Identity Theft Awareness Campaigns",
+  "definition": "Campaigns and discussions aimed at raising awareness about identity theft."
+ },
+ {
+  "id": 85,
+  "name": "King's Speech Awards",
+  "definition": "Reports and discussions surrounding the film 'The King's Speech' and its awards."
+ },
+ {
+  "id": 86,
+  "name": "Acai Berry Products",
+  "definition": "Discussions and information about various acai berry products and their benefits."
+ },
+ {
+  "id": 87,
+  "name": "Joanna Yeates Murder Case Update",
+  "definition": "News related to the ongoing legal proceedings or developments in the murder case of Joanna Yeates."
+ },
+ {
+  "id": 88,
+  "name": "Obamacare Court Rulings",
+  "definition": "Legal decisions and updates regarding the Affordable Care Act, commonly known as Obamacare."
+ },
+ {
+  "id": 89,
+  "name": "Sidney Crosby Concussion News",
+  "definition": "Reports and updates on NHL player Sidney Crosby's health and concussion-related issues."
+ }
+]

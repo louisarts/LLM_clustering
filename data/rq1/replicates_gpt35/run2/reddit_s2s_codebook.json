@@ -1,0 +1,95 @@
+{
+  "bench": "reddit_s2s",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music",
+      "definition": "Posts related to music, concerts, symphonies, and musicians"
+    },
+    {
+      "id": 2,
+      "name": "Automotive",
+      "definition": "Posts related to cars, driving experiences, and vehicle restoration"
+    },
+    {
+      "id": 3,
+      "name": "Travel",
+      "definition": "Posts related to travel destinations, vacation planning, and tourism"
+    },
+    {
+      "id": 4,
+      "name": "Economics",
+      "definition": "Posts related to economic impact, inflation, and financial markets"
+    },
+    {
+      "id": 5,
+      "name": "History",
+      "definition": "Posts related to historical events, colorized photos, and past cultures"
+    },
+    {
+      "id": 6,
+      "name": "Sports",
+      "definition": "Posts related to sports programs, hockey, and athletic achievements"
+    },
+    {
+      "id": 7,
+      "name": "Art",
+      "definition": "Posts related to digital art, architectural drawings, and artistic creations"
+    },
+    {
+      "id": 8,
+      "name": "Education",
+      "definition": "Posts related to college applications, school programs, and academic assignments"
+    },
+    {
+      "id": 9,
+      "name": "Technology",
+      "definition": "Posts related to tech devices, software, and troubleshooting"
+    },
+    {
+      "id": 10,
+      "name": "Politics",
+      "definition": "Posts related to political figures, elections, and government policies"
+    },
+    {
+      "id": 11,
+      "name": "Animals",
+      "definition": "Posts related to animal sightings, rescue stories, and wildlife conservation"
+    },
+    {
+      "id": 12,
+      "name": "Science",
+      "definition": "Posts related to scientific discoveries, experiments, and research studies"
+    },
+    {
+      "id": 13,
+      "name": "Business",
+      "definition": "Posts related to market analysis, industry trends, and entrepreneurship"
+    },
+    {
+      "id": 14,
+      "name": "Religion",
+      "definition": "Posts related to religious beliefs, atheism, and spiritual journeys"
+    },
+    {
+      "id": 15,
+      "name": "Entertainment",
+      "definition": "Posts related to movies, TV shows, fan art, and pop culture references"
+    },
+    {
+      "id": 16,
+      "name": "Food",
+      "definition": "Posts related to food reviews, recipes, and restaurant recommendations"
+    },
+    {
+      "id": 17,
+      "name": "Health",
+      "definition": "Posts related to medical tests, cancer diagnosis, and health concerns"
+    }
+  ]
+}

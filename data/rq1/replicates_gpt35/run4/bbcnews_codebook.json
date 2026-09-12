@@ -1,0 +1,60 @@
+{
+  "bench": "bbcnews",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Film & Entertainment",
+      "definition": "News related to movies, music, TV shows, celebrities, and entertainment industry"
+    },
+    {
+      "id": 2,
+      "name": "Business & Economy",
+      "definition": "News related to companies, profits, losses, stock markets, and economic trends"
+    },
+    {
+      "id": 3,
+      "name": "Politics & Government",
+      "definition": "News related to political parties, elections, government policies, and politicians"
+    },
+    {
+      "id": 4,
+      "name": "Technology & Innovation",
+      "definition": "News related to new gadgets, software, internet, and technological advancements"
+    },
+    {
+      "id": 5,
+      "name": "Sports",
+      "definition": "News related to sports events, athletes, teams, and competitions"
+    },
+    {
+      "id": 6,
+      "name": "Health & Safety",
+      "definition": "News related to health issues, safety concerns, medical breakthroughs, and public health policies"
+    },
+    {
+      "id": 7,
+      "name": "Arts & Culture",
+      "definition": "News related to art exhibitions, cultural events, literature, and artistic performances"
+    },
+    {
+      "id": 8,
+      "name": "Environment & Climate",
+      "definition": "News related to climate change, environmental issues, conservation efforts, and natural disasters"
+    },
+    {
+      "id": 9,
+      "name": "Education & Research",
+      "definition": "News related to educational institutions, research studies, academic achievements, and student activities"
+    },
+    {
+      "id": 10,
+      "name": "International Relations",
+      "definition": "News related to global politics, diplomatic relations, international conflicts, and peace initiatives"
+    }
+  ]
+}

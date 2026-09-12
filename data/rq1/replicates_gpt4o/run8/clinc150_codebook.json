@@ -1,0 +1,105 @@
+{
+  "bench": "clinc150",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Inquiry",
+      "definition": "Questions about general knowledge or information."
+    },
+    {
+      "id": 2,
+      "name": "Financial Inquiry",
+      "definition": "Questions related to financial accounts, transactions, or interest rates."
+    },
+    {
+      "id": 3,
+      "name": "Travel and Directions",
+      "definition": "Requests for travel information, directions, or transportation services."
+    },
+    {
+      "id": 4,
+      "name": "Shopping and Orders",
+      "definition": "Inquiries about shopping, orders, or product recommendations."
+    },
+    {
+      "id": 5,
+      "name": "Reminders and Scheduling",
+      "definition": "Requests to set reminders, alarms, or schedule events."
+    },
+    {
+      "id": 6,
+      "name": "Technical Assistance",
+      "definition": "Requests for help with technical issues or device settings."
+    },
+    {
+      "id": 7,
+      "name": "Entertainment and Media",
+      "definition": "Requests related to music, videos, or jokes."
+    },
+    {
+      "id": 8,
+      "name": "Food and Recipes",
+      "definition": "Inquiries about food, recipes, or meal suggestions."
+    },
+    {
+      "id": 9,
+      "name": "Health and Safety",
+      "definition": "Questions related to health, safety, or medical facilities."
+    },
+    {
+      "id": 10,
+      "name": "Personal Information",
+      "definition": "Requests for personal data or account details."
+    },
+    {
+      "id": 11,
+      "name": "Communication",
+      "definition": "Requests to send messages or make calls."
+    },
+    {
+      "id": 12,
+      "name": "Feedback and Complaints",
+      "definition": "Statements of dissatisfaction or feedback about services."
+    },
+    {
+      "id": 13,
+      "name": "Language and Translation",
+      "definition": "Requests for language translation or spelling assistance."
+    },
+    {
+      "id": 14,
+      "name": "Weather and Time",
+      "definition": "Inquiries about weather conditions or current time."
+    },
+    {
+      "id": 15,
+      "name": "Social and Cultural",
+      "definition": "Questions about social events, culture, or holidays."
+    },
+    {
+      "id": 16,
+      "name": "Identity and Existence",
+      "definition": "Questions about the assistant's identity or existence."
+    },
+    {
+      "id": 17,
+      "name": "Utilities and Home",
+      "definition": "Requests related to home utilities or chores."
+    },
+    {
+      "id": 18,
+      "name": "Games and Fun",
+      "definition": "Requests to play games or perform fun activities."
+    },
+    {
+      "id": 19,
+      "name": "Legal and Rights",
+      "definition": "Inquiries about legal rights or obligations."
+    }
+  ]
+}

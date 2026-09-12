@@ -1,0 +1,197 @@
+{
+  "bench": "massive_intent",
+  "run": 7,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm Management",
+      "definition": "Set, disable, or query alarms."
+    },
+    {
+      "id": 2,
+      "name": "Assistant Feedback",
+      "definition": "Provide feedback or express an opinion to the assistant."
+    },
+    {
+      "id": 3,
+      "name": "Assistant Fun and Entertainment",
+      "definition": "Request jokes or other lighthearted content from the assistant."
+    },
+    {
+      "id": 4,
+      "name": "Assistant Memory Query",
+      "definition": "Ask the assistant to recall past interactions."
+    },
+    {
+      "id": 5,
+      "name": "Assistant Personal Query",
+      "definition": "Ask the assistant about itself or its capabilities."
+    },
+    {
+      "id": 6,
+      "name": "Audio Device Control",
+      "definition": "Control audio settings like mute, unmute, or volume."
+    },
+    {
+      "id": 7,
+      "name": "Booking and Reservations",
+      "definition": "Book tickets or make reservations for travel or events."
+    },
+    {
+      "id": 8,
+      "name": "Calendar Management",
+      "definition": "Create, read, update, or delete events and appointments in a calendar."
+    },
+    {
+      "id": 9,
+      "name": "Communication",
+      "definition": "Initiate calls or send messages to contacts."
+    },
+    {
+      "id": 10,
+      "name": "Contact Management",
+      "definition": "Retrieve, add, or modify contact information."
+    },
+    {
+      "id": 11,
+      "name": "Definition and Description Query",
+      "definition": "Ask for the meaning or description of a word, concept, or item."
+    },
+    {
+      "id": 12,
+      "name": "Email Management",
+      "definition": "Send, reply to, check, or manage emails."
+    },
+    {
+      "id": 13,
+      "name": "Factual Query",
+      "definition": "Ask for specific facts, historical information, or general knowledge."
+    },
+    {
+      "id": 14,
+      "name": "Financial Information Query",
+      "definition": "Ask for exchange rates, stock prices, or other financial data."
+    },
+    {
+      "id": 15,
+      "name": "Game Play",
+      "definition": "Start or play a game."
+    },
+    {
+      "id": 16,
+      "name": "Health Information Query",
+      "definition": "Ask for general health tips or information."
+    },
+    {
+      "id": 17,
+      "name": "How-to Query",
+      "definition": "Ask for instructions or recipes."
+    },
+    {
+      "id": 18,
+      "name": "List Management",
+      "definition": "Create, read, add to, or modify lists."
+    },
+    {
+      "id": 19,
+      "name": "Local Search and Discovery",
+      "definition": "Find nearby places, businesses, or events."
+    },
+    {
+      "id": 20,
+      "name": "Location History Query",
+      "definition": "Ask for information about past locations or travel."
+    },
+    {
+      "id": 21,
+      "name": "Media Information Query",
+      "definition": "Ask for details about currently playing media or available media."
+    },
+    {
+      "id": 22,
+      "name": "Media Interaction",
+      "definition": "Provide feedback or save preferences related to media."
+    },
+    {
+      "id": 23,
+      "name": "Media Playback",
+      "definition": "Start, resume, or control playback of music, podcasts, radio, audiobooks, or video."
+    },
+    {
+      "id": 24,
+      "name": "Navigation and Directions",
+      "definition": "Get directions or information related to travel routes."
+    },
+    {
+      "id": 25,
+      "name": "News Query",
+      "definition": "Ask for current news, headlines, or news on specific topics."
+    },
+    {
+      "id": 26,
+      "name": "Order Food and Shopping",
+      "definition": "Order food delivery or purchase items."
+    },
+    {
+      "id": 27,
+      "name": "Order Status Tracking",
+      "definition": "Check the status of a placed order."
+    },
+    {
+      "id": 28,
+      "name": "Personal Information Query",
+      "definition": "Ask for stored personal information not covered by other categories."
+    },
+    {
+      "id": 29,
+      "name": "Recommendations and Suggestions",
+      "definition": "Ask for recommendations or advice."
+    },
+    {
+      "id": 30,
+      "name": "Reminder Management",
+      "definition": "Set, read, or modify reminders."
+    },
+    {
+      "id": 31,
+      "name": "Ride Hailing",
+      "definition": "Request a ride from a transportation service."
+    },
+    {
+      "id": 32,
+      "name": "Smart Home Appliance Control",
+      "definition": "Control smart home appliances other than lighting."
+    },
+    {
+      "id": 33,
+      "name": "Smart Home Lighting Control",
+      "definition": "Control smart home lighting settings like color or brightness."
+    },
+    {
+      "id": 34,
+      "name": "Social Media Interaction",
+      "definition": "Check notifications, post, or interact on social media platforms."
+    },
+    {
+      "id": 35,
+      "name": "Sports Information Query",
+      "definition": "Ask for sports scores, schedules, or related information."
+    },
+    {
+      "id": 36,
+      "name": "Time and Date Query",
+      "definition": "Ask for the current time, date, or time zone information."
+    },
+    {
+      "id": 37,
+      "name": "Traffic Information Query",
+      "definition": "Ask for current traffic conditions or commute times."
+    },
+    {
+      "id": 38,
+      "name": "Weather Query",
+      "definition": "Ask for current weather conditions or forecasts."
+    }
+  ]
+}

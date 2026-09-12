@@ -1,0 +1,149 @@
+{
+ "10": [
+  "How do I implement a basic game loop using pure Java Swing timers?",
+  "What is the most efficient way to load sprite sheets in a standard Java application?",
+  "Can I use JavaFX Canvas for rendering 2D games without a dedicated engine?",
+  "How do I handle keyboard input for player movement in a JFrame?",
+  "Is it better to use BufferStrategy or VolatileImage for double buffering in Java?"
+ ],
+ "4": [
+  "How do I make my player object collide with walls but not other enemies?",
+  "What is the difference between the Step event and the Begin Step event?",
+  "My sprite is blurry in the game window, how do I fix the interpolation?",
+  "Can someone explain the correct syntax for using ds_lists in GML?",
+  "I am getting a \"variable not set before reading it\" error in my Create event."
+ ],
+ "6": [
+  "How do I rotate a sprite around its center origin in MonoGame?",
+  "What is the correct way to unload a ContentManager in XNA?",
+  "My MonoGame project throws a SharpDXException when initializing the graphics device.",
+  "How can I implement pixel-perfect collision detection between two sprites in XNA?",
+  "Is it possible to use HLSL shaders created for XNA in a MonoGame pipeline?"
+ ],
+ "7": [
+  "How do I detect collision between two div elements using pure JavaScript in my game loop?",
+  "What is the most efficient way to render 10,000 sprites on an HTML5 canvas without dropping the frame rate?",
+  "I am trying to implement gamepad support using the Gamepad API, but the button inputs are not registering in Chrome.",
+  "Why does my sprite animation flicker rapidly when I use requestAnimationFrame for the update loop?",
+  "Is it better to use CSS transforms or the Canvas API for moving DOM elements smoothly during gameplay?"
+ ],
+ "5": [
+  "How do I correctly implement a Box2D collision listener in my LibGDX project?",
+  "What is the proper way to dispose of textures when exiting the application?",
+  "I am getting a blank screen when trying to render my Tiled map in LibGDX.",
+  "How can I use Scene2D to create a main menu with buttons and listeners?",
+  "Is it possible to run the desktop launcher on a different thread than the OpenGL context?"
+ ],
+ "1": [
+  "How do I make my player character jump using the new Input System in Unity?",
+  "My Rigidbody2D component keeps passing through colliders; how can I fix this physics issue?",
+  "What is the correct way to reference a script on another GameObject using GetComponent?",
+  "The Unity Editor crashes every time I try to import my fbx model from Blender.",
+  "How can I create a simple patrol AI for an enemy using NavMesh?"
+ ],
+ "9": [
+  "How do I correctly transpose a rotation matrix for use in an HLSL vertex shader?",
+  "My Direct3D 11 swap chain fails to resize when I handle the WM_SIZE event.",
+  "What is the difference between SamplerState and Texture2D.Sample in shader model 5.0?",
+  "I am getting a linker error when trying to compile a pixel shader with shader model 4.0 level 9.",
+  "Why does the D3D11 debug layer report that my constant buffer is not bound to the pipeline?"
+ ],
+ "2": [
+  "How can I cast a spawned actor to a specific class in Blueprints to access its variables?",
+  "I am getting a linker error when trying to access a function from my C++ class in Unreal Engine 5.",
+  "What is the most efficient way to handle input events using the Enhanced Input system?",
+  "My character keeps falling through the landscape mesh even though collision is enabled on the capsule.",
+  "Is it possible to create a custom Blueprint node to expose a complex C++ function to designers?"
+ ],
+ "8": [
+  "How do I properly configure the swap chain extent in Vulkan to match the window dimensions?",
+  "My OpenGL fragment shader is failing to compile with an error about undefined variables.",
+  "Is it necessary to call vkFlushMappedMemoryRanges after writing to a coherent buffer?",
+  "What is the modern equivalent for glPushMatrix in OpenGL 4.5 core profile?",
+  "I am getting a VK_ERROR_DEVICE_LOST error during heavy compute operations on my GPU."
+ ],
+ "3": [
+  "How do I make a character jump using the move_and_slide() function in a CharacterBody3D node?",
+  "What is the correct syntax for a for loop when iterating over a dictionary in GDScript?",
+  "My RigidBody2D keeps falling through the StaticBody2D floor, how do I fix the collision layers?",
+  "Can I use VisualShader to create a water ripple effect without writing code in the fragment shader?",
+  "Is it possible to change the texture of a Sprite2D node during runtime via a script?"
+ ],
+ "11": [
+  "How do I request runtime permissions for the camera in the latest Android SDK?",
+  "My app keeps crashing with a NullPointerException during the fragment transaction.",
+  "What is the correct way to implement a ViewModel using the Jetpack architecture components?",
+  "The device's Bluetooth adapter fails to discover other devices after the recent system update.",
+  "How can I fix the 'INSTALL_FAILED_UPDATE_INCOMPATIBLE' error when deploying to an emulator?"
+ ],
+ "15": [
+  "How do I implement continuous collision detection for fast-moving spheres to prevent tunneling?",
+  "My rigid bodies gain energy over time; what is causing this instability in my integration step?",
+  "What is the correct way to calculate the moment of inertia for a composite mesh?",
+  "Should I use Box2D or implement my own physics for a simple 2D platformer?",
+  "How can I resolve interpenetration issues when stacking multiple boxes on top of each other?"
+ ],
+ "13": [
+  "How do I implement a component-entity system in C++ that avoids cache misses during iteration?",
+  "Is it better to use raw OpenGL calls or abstract them behind a rendering API layer for future portability?",
+  "I'm getting a segmentation fault when initializing SDL2, specifically during the call to SDL_CreateWindow.",
+  "What are the best design patterns for managing game states and transitions in a custom engine loop?",
+  "Should I use smart pointers or raw pointers for managing the memory lifecycle of my game objects?"
+ ],
+ "12": [
+  "How can I programmatically change the root view controller of my UIWindow in SwiftUI?",
+  "My macOS app crashes with a sandbox violation when trying to access the user's Downloads folder.",
+  "What is the correct way to apply a physics body to a node in SpriteKit?",
+  "How do I bind a SwiftUI TextField to an @State variable inside a List row?",
+  "SceneKit renders with a black screen even though the scene is loaded and lights are added."
+ ],
+ "16": [
+  "How do I create a difficulty curve that feels challenging without frustrating casual players?",
+  "What are the best practices for designing a tutorial level that teaches mechanics implicitly?",
+  "I am struggling to balance the economy in my strategy game; how can I prevent hyperinflation?",
+  "What methods can I use to guide the player's attention toward a hidden path in a 3D environment?",
+  "How does the addition of a stamina bar fundamentally change the pacing of a combat system?"
+ ],
+ "17": [
+  "How do I export a rigged character from Blender to Unity without breaking the bone hierarchy?",
+  "What is the best workflow for importing a PSD file into After Effects to retain layer independence?",
+  "My character's mesh is distorting strangely around the shoulder joint during the raising animation.",
+  "Is it possible to generate sprite sheets directly from a 3D animation loop in Maya?",
+  "Why does my imported FBX model appear grey and untextured in the scene view?"
+ ],
+ "19": [
+  "How can I implement real-time pitch shifting without introducing noticeable latency in my audio engine?",
+  "What is the best method for seamlessly looping a background music track that has a dynamic intro?",
+  "I am getting a lot of clipping distortion when multiple sound effects play simultaneously; how should I manage the mixer volume?",
+  "Is there a standard library for parsing MIDI input data in C++ for a cross-platform audio application?",
+  "How do I create a realistic underwater effect using low-pass filters and reverb in FMOD?"
+ ],
+ "14": [
+  "How do I calculate the dot product of two vectors to check if they are perpendicular?",
+  "What is the most efficient algorithm to find the shortest path in a weighted graph?",
+  "How can I normalize a 3D vector so its length is exactly 1?",
+  "What is the formula to determine if a point lies inside a convex polygon?",
+  "How do I implement the Fast Fourier Transform for audio signal processing?"
+ ],
+ "18": [
+  "How do I implement client-side prediction to hide latency in a fast-paced shooter?",
+  "What is the best approach for handling NAT traversal in a peer-to-peer game architecture?",
+  "Should I use TCP or UDP for sending critical player movement updates?",
+  "How can I prevent players from teleporting through walls due to lag?",
+  "Is it better to use a lockstep simulation or a client-server model for an RTS game?"
+ ],
+ "20": [
+  "How do I detect collision between two movie clips in ActionScript 3?",
+  "My SWF file loops infinitely even though I added a stop(); command on the last frame.",
+  "What is the correct syntax to dispatch a custom event from a class to the main timeline?",
+  "Is it possible to embed a YouTube video into a Flash game using AS3?",
+  "I am getting a \"Cannot access a property of a null object reference\" error when removing child sprites."
+ ],
+ "21": [
+  "How do I center a div element using Flexbox in CSS?",
+  "What is the correct syntax to increment a variable in VHDL?",
+  "How can I read a CSV file into a dataframe using R?",
+  "Is it possible to run Kotlin code in a browser via WebAssembly?",
+  "How do I define a custom function in Google Sheets?"
+ ]
+}

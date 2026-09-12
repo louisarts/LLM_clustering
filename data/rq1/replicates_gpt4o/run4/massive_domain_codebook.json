@@ -1,0 +1,80 @@
+{
+  "bench": "massive_domain",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Requests for weather forecasts or current weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "News",
+      "definition": "Requests for news updates or specific news topics."
+    },
+    {
+      "id": 3,
+      "name": "Calendar and Reminders",
+      "definition": "Requests to manage calendar events or set reminders."
+    },
+    {
+      "id": 4,
+      "name": "Email and Messaging",
+      "definition": "Requests to send, read, or manage emails and messages."
+    },
+    {
+      "id": 5,
+      "name": "Music and Audio",
+      "definition": "Requests to play music, podcasts, or audiobooks."
+    },
+    {
+      "id": 6,
+      "name": "Smart Home Control",
+      "definition": "Requests to control smart home devices like lights and appliances."
+    },
+    {
+      "id": 7,
+      "name": "Transportation and Travel",
+      "definition": "Requests related to booking or checking transportation options."
+    },
+    {
+      "id": 8,
+      "name": "Social Media",
+      "definition": "Requests to post or check updates on social media platforms."
+    },
+    {
+      "id": 9,
+      "name": "General Knowledge and Information",
+      "definition": "Requests for factual information or general knowledge."
+    },
+    {
+      "id": 10,
+      "name": "Time and Date",
+      "definition": "Requests for current time or date information."
+    },
+    {
+      "id": 11,
+      "name": "Finance and Currency",
+      "definition": "Requests for financial information or currency exchange rates."
+    },
+    {
+      "id": 12,
+      "name": "Food and Dining",
+      "definition": "Requests related to food, recipes, or dining options."
+    },
+    {
+      "id": 13,
+      "name": "Games and Entertainment",
+      "definition": "Requests to play games or engage in entertainment activities."
+    },
+    {
+      "id": 14,
+      "name": "Shopping and Lists",
+      "definition": "Requests to manage shopping lists or find shopping information."
+    }
+  ]
+}

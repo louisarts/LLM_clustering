@@ -1,0 +1,85 @@
+{
+  "bench": "massive_domain",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Food and Drink",
+      "definition": "Requests related to food orders, recipes, and cooking."
+    },
+    {
+      "id": 2,
+      "name": "Weather",
+      "definition": "Inquiries about current or forecasted weather conditions."
+    },
+    {
+      "id": 3,
+      "name": "Time and Alarms",
+      "definition": "Requests for setting, removing, or inquiring about alarms and reminders."
+    },
+    {
+      "id": 4,
+      "name": "Navigation and Transportation",
+      "definition": "Requests for directions, transportation options, or travel-related inquiries."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment",
+      "definition": "Requests related to music, podcasts, games, and other forms of entertainment."
+    },
+    {
+      "id": 6,
+      "name": "Communication",
+      "definition": "Requests for sending emails, messages, or social media interactions."
+    },
+    {
+      "id": 7,
+      "name": "Calendar and Scheduling",
+      "definition": "Requests for managing calendar events, meetings, and reminders."
+    },
+    {
+      "id": 8,
+      "name": "News and Information",
+      "definition": "Inquiries about current events, news stories, and general knowledge."
+    },
+    {
+      "id": 9,
+      "name": "Home Automation",
+      "definition": "Requests related to controlling smart home devices and settings."
+    },
+    {
+      "id": 10,
+      "name": "Health and Fitness",
+      "definition": "Inquiries related to health tips, fitness advice, and general well-being."
+    },
+    {
+      "id": 11,
+      "name": "Shopping and Lists",
+      "definition": "Requests for managing shopping lists and inquiries about products."
+    },
+    {
+      "id": 12,
+      "name": "Personal Assistance",
+      "definition": "General requests for assistance with personal tasks or inquiries."
+    },
+    {
+      "id": 13,
+      "name": "Social Interaction",
+      "definition": "Requests for jokes, social engagement, and casual conversation."
+    },
+    {
+      "id": 14,
+      "name": "Education and Learning",
+      "definition": "Inquiries related to definitions, explanations, and educational content."
+    },
+    {
+      "id": 15,
+      "name": "Events and Activities",
+      "definition": "Requests for information about local events, activities, and entertainment options."
+    }
+  ]
+}

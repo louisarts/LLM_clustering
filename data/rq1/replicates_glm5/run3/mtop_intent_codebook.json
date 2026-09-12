@@ -1,0 +1,64 @@
+{
+  "bench": "mtop_intent",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm",
+      "definition": "Create, delete, modify, or check alarms and clock settings."
+    },
+    {
+      "id": 2,
+      "name": "Calling",
+      "definition": "Initiate, manage, or check phone or video calls with contacts or numbers."
+    },
+    {
+      "id": 3,
+      "name": "Events",
+      "definition": "Find information about local events, activities, or things to do."
+    },
+    {
+      "id": 4,
+      "name": "Friends",
+      "definition": "Query information about contacts, friends, or social connections."
+    },
+    {
+      "id": 5,
+      "name": "Messaging",
+      "definition": "Send, retrieve, or manage messages, texts, or video messages."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Play, control, or request music, playlists, or radio stations."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Request news updates, headlines, or information on current events."
+    },
+    {
+      "id": 8,
+      "name": "Recipes",
+      "definition": "Find recipes or ask questions about cooking ingredients and methods."
+    },
+    {
+      "id": 9,
+      "name": "Reminders",
+      "definition": "Create, delete, modify, or check reminders and personal tasks."
+    },
+    {
+      "id": 10,
+      "name": "Timer",
+      "definition": "Start, stop, adjust, or check timers and countdowns."
+    },
+    {
+      "id": 11,
+      "name": "Weather",
+      "definition": "Request weather forecasts, temperatures, or atmospheric conditions."
+    }
+  ]
+}

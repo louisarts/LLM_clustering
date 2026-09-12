@@ -1,0 +1,85 @@
+{
+  "bench": "tweet89",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Immigration and Law",
+      "definition": "Documents related to immigration laws, enforcement, and legal cases."
+    },
+    {
+      "id": 2,
+      "name": "Entertainment and Celebrity News",
+      "definition": "Documents covering events, performances, and controversies involving celebrities."
+    },
+    {
+      "id": 3,
+      "name": "Protests and Uprisings",
+      "definition": "Documents discussing protests, uprisings, and political movements."
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "definition": "Documents related to sports events, athletes, and competitions."
+    },
+    {
+      "id": 5,
+      "name": "Health and Safety",
+      "definition": "Documents discussing health issues, safety regulations, and medical news."
+    },
+    {
+      "id": 6,
+      "name": "Technology and Privacy",
+      "definition": "Documents related to technology, privacy concerns, and digital security."
+    },
+    {
+      "id": 7,
+      "name": "Food and Recipes",
+      "definition": "Documents sharing recipes, food news, and culinary tips."
+    },
+    {
+      "id": 8,
+      "name": "Judicial and Legal Decisions",
+      "definition": "Documents covering court rulings, legal challenges, and judicial matters."
+    },
+    {
+      "id": 9,
+      "name": "Environmental Issues",
+      "definition": "Documents discussing environmental concerns, climate change, and sustainability."
+    },
+    {
+      "id": 10,
+      "name": "Economic News",
+      "definition": "Documents related to economic policies, financial markets, and business news."
+    },
+    {
+      "id": 11,
+      "name": "International Relations",
+      "definition": "Documents discussing foreign policy, international conflicts, and diplomatic relations."
+    },
+    {
+      "id": 12,
+      "name": "Social Issues",
+      "definition": "Documents addressing social issues, including bullying, identity theft, and community concerns."
+    },
+    {
+      "id": 13,
+      "name": "Awards and Nominations",
+      "definition": "Documents related to awards, nominations, and recognition in various fields."
+    },
+    {
+      "id": 14,
+      "name": "Crime and Justice",
+      "definition": "Documents discussing crime, criminal cases, and law enforcement actions."
+    },
+    {
+      "id": 15,
+      "name": "Media and Journalism",
+      "definition": "Documents covering media events, journalism ethics, and press freedom."
+    }
+  ]
+}

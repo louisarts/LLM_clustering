@@ -1,0 +1,79 @@
+{
+  "bench": "massive_domain",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music & Audio Playback",
+      "definition": "Playing, controlling, or identifying music, podcasts, audiobooks, and radio stations."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Scheduling",
+      "definition": "Managing events, meetings, appointments, and checking schedules."
+    },
+    {
+      "id": 3,
+      "name": "Email Communication",
+      "definition": "Reading, composing, sending, or checking emails."
+    },
+    {
+      "id": 4,
+      "name": "Weather & Time",
+      "definition": "Checking weather forecasts, current conditions, time, dates, or time zones."
+    },
+    {
+      "id": 5,
+      "name": "Reminders & Alarms",
+      "definition": "Setting, checking, or managing reminders, alarms, and timers."
+    },
+    {
+      "id": 6,
+      "name": "Smart Home & Device Control",
+      "definition": "Controlling smart home devices like lights, speakers, plugs, or appliances."
+    },
+    {
+      "id": 7,
+      "name": "Travel & Transportation",
+      "definition": "Booking tickets, checking schedules, or getting information for trains, flights, or directions."
+    },
+    {
+      "id": 8,
+      "name": "Food & Cooking",
+      "definition": "Finding recipes, cooking instructions, or ordering food."
+    },
+    {
+      "id": 9,
+      "name": "News & Information",
+      "definition": "Requesting news headlines, factual information, definitions, or general knowledge."
+    },
+    {
+      "id": 10,
+      "name": "Lists & Notes",
+      "definition": "Creating, viewing, or managing to-do lists, shopping lists, or notes."
+    },
+    {
+      "id": 11,
+      "name": "Social Media",
+      "definition": "Posting to social media platforms or checking social network updates."
+    },
+    {
+      "id": 12,
+      "name": "Movies & Events",
+      "definition": "Finding movies, showtimes, or local events and entertainment."
+    },
+    {
+      "id": 13,
+      "name": "Finance",
+      "definition": "Checking stock prices, exchange rates, or managing expenses."
+    },
+    {
+      "id": 14,
+      "name": "General Conversation",
+      "definition": "Engaging in casual chat, asking for advice, or asking personal questions to the assistant."
+    }
+  ]
+}

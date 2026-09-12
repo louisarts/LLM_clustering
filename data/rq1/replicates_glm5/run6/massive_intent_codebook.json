@@ -1,0 +1,129 @@
+{
+  "bench": "massive_intent",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar_Management",
+      "definition": "Create, delete, query, or modify events and meetings in a calendar or schedule."
+    },
+    {
+      "id": 2,
+      "name": "Music_Playback",
+      "definition": "Play, resume, or control music, playlists, or specific songs on a media device."
+    },
+    {
+      "id": 3,
+      "name": "Weather_Query",
+      "definition": "Request weather forecasts, conditions, or temperature information for a specific location or time."
+    },
+    {
+      "id": 4,
+      "name": "Email_Management",
+      "definition": "Send, check, read, reply to, or compose emails."
+    },
+    {
+      "id": 5,
+      "name": "General_Information_Query",
+      "definition": "Ask for facts, definitions, explanations, or general knowledge not covered by other specific categories."
+    },
+    {
+      "id": 6,
+      "name": "Smart_Home_Control",
+      "definition": "Control smart home devices including lights, plugs, switches, and appliances."
+    },
+    {
+      "id": 7,
+      "name": "Alarm_Reminder_Setting",
+      "definition": "Set, check, or manage alarms and reminders."
+    },
+    {
+      "id": 8,
+      "name": "News_Query",
+      "definition": "Request news headlines, specific news topics, or current events updates."
+    },
+    {
+      "id": 9,
+      "name": "Transportation_Booking",
+      "definition": "Book or request transportation services such as taxis, trains, or ride-shares."
+    },
+    {
+      "id": 10,
+      "name": "Social_Media_Posting",
+      "definition": "Post messages, tweets, or updates to social media platforms."
+    },
+    {
+      "id": 11,
+      "name": "List_Management",
+      "definition": "Create, delete, or modify items within to-do lists, shopping lists, or notes."
+    },
+    {
+      "id": 12,
+      "name": "Radio_Podcast_Control",
+      "definition": "Play, find, or control radio stations and podcasts."
+    },
+    {
+      "id": 13,
+      "name": "Audiobook_Control",
+      "definition": "Play, resume, or control audiobooks."
+    },
+    {
+      "id": 14,
+      "name": "Finance_Query",
+      "definition": "Request stock prices, currency exchange rates, or financial market data."
+    },
+    {
+      "id": 15,
+      "name": "Time_Date_Query",
+      "definition": "Ask for the current time, date, or time zone differences."
+    },
+    {
+      "id": 16,
+      "name": "Device_Volume_Control",
+      "definition": "Adjust the volume level on speakers or audio devices."
+    },
+    {
+      "id": 17,
+      "name": "Food_Ordering_Recipe",
+      "definition": "Order food or request recipes and cooking instructions."
+    },
+    {
+      "id": 18,
+      "name": "Navigation_Location_Query",
+      "definition": "Request directions, traffic conditions, or location-based information."
+    },
+    {
+      "id": 19,
+      "name": "Contact_Management",
+      "definition": "Search for or retrieve contact information."
+    },
+    {
+      "id": 20,
+      "name": "Vacuum_Control",
+      "definition": "Start or control a robot vacuum cleaner."
+    },
+    {
+      "id": 21,
+      "name": "Coffee_Maker_Control",
+      "definition": "Start or control a coffee maker."
+    },
+    {
+      "id": 22,
+      "name": "Media_Navigation",
+      "definition": "Control media playback flow such as skipping, pausing, or moving to the next item."
+    },
+    {
+      "id": 23,
+      "name": "Shopping_Status",
+      "definition": "Check the status of orders or delivery services."
+    },
+    {
+      "id": 24,
+      "name": "Personal_Assistant_Interaction",
+      "definition": "Engage in casual conversation, jokes, or personal questions directed at the assistant."
+    }
+  ]
+}

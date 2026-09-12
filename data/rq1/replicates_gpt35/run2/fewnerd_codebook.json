@@ -1,0 +1,160 @@
+{
+  "bench": "fewnerd",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Award",
+      "definition": "Entities related to awards, such as Tony Award."
+    },
+    {
+      "id": 2,
+      "name": "Event",
+      "definition": "Entities related to events, such as 2011 FIS Nordic World Ski Championships."
+    },
+    {
+      "id": 3,
+      "name": "Location",
+      "definition": "Entities related to locations, such as Bad Oeynhausen."
+    },
+    {
+      "id": 4,
+      "name": "Theatre",
+      "definition": "Entities related to theatres, such as Lucille Lortel Theatre."
+    },
+    {
+      "id": 5,
+      "name": "Sports League",
+      "definition": "Entities related to sports leagues, such as League 1 rugby."
+    },
+    {
+      "id": 6,
+      "name": "Organization",
+      "definition": "Entities related to organizations, such as ABC."
+    },
+    {
+      "id": 7,
+      "name": "Military",
+      "definition": "Entities related to military, such as Hebron."
+    },
+    {
+      "id": 8,
+      "name": "Music",
+      "definition": "Entities related to music, such as Li."
+    },
+    {
+      "id": 9,
+      "name": "Religion",
+      "definition": "Entities related to religion, such as Mesopotamian religions."
+    },
+    {
+      "id": 10,
+      "name": "Historical Figure",
+      "definition": "Entities related to historical figures, such as Louis the Pious."
+    },
+    {
+      "id": 11,
+      "name": "University",
+      "definition": "Entities related to universities, such as University of Oxford."
+    },
+    {
+      "id": 12,
+      "name": "Country",
+      "definition": "Entities related to countries, such as Belarus."
+    },
+    {
+      "id": 13,
+      "name": "Language",
+      "definition": "Entities related to languages, such as Gastropoda Mollusca."
+    },
+    {
+      "id": 14,
+      "name": "Actor",
+      "definition": "Entities related to actors, such as Toby Stephens."
+    },
+    {
+      "id": 15,
+      "name": "City",
+      "definition": "Entities related to cities, such as New York City."
+    },
+    {
+      "id": 16,
+      "name": "Company",
+      "definition": "Entities related to companies, such as LeapFrog Enterprises."
+    },
+    {
+      "id": 17,
+      "name": "Book",
+      "definition": "Entities related to books, such as The Odyssey in Art and Literature."
+    },
+    {
+      "id": 18,
+      "name": "Airport",
+      "definition": "Entities related to airports, such as Oceanside Municipal Airport."
+    },
+    {
+      "id": 19,
+      "name": "Film",
+      "definition": "Entities related to films, such as Maan Gaye Mughal-E-Azam."
+    },
+    {
+      "id": 20,
+      "name": "Political Party",
+      "definition": "Entities related to political parties, such as Conservative Judaism."
+    },
+    {
+      "id": 21,
+      "name": "University Degree",
+      "definition": "Entities related to university degrees, such as Link\u00f6ping University."
+    },
+    {
+      "id": 22,
+      "name": "Currency",
+      "definition": "Entities related to currencies, such as Indian Rupee."
+    },
+    {
+      "id": 23,
+      "name": "Sport",
+      "definition": "Entities related to sports, such as Senegalese handball."
+    },
+    {
+      "id": 24,
+      "name": "River",
+      "definition": "Entities related to rivers, such as Ortega River."
+    },
+    {
+      "id": 25,
+      "name": "TV Show",
+      "definition": "Entities related to TV shows, such as NYPD Blue."
+    },
+    {
+      "id": 26,
+      "name": "Artist",
+      "definition": "Entities related to artists, such as Ermengard."
+    },
+    {
+      "id": 27,
+      "name": "Mountain",
+      "definition": "Entities related to mountains, such as Glen Lochay."
+    },
+    {
+      "id": 28,
+      "name": "Actor/Actress",
+      "definition": "Entities related to actors/actresses, such as Teresa Palmer."
+    },
+    {
+      "id": 29,
+      "name": "Diplomatic Mission",
+      "definition": "Entities related to diplomatic missions, such as Consulate General of Sweden."
+    },
+    {
+      "id": 30,
+      "name": "Genus",
+      "definition": "Entities related to genus, such as Gastropoda Mollusca."
+    }
+  ]
+}

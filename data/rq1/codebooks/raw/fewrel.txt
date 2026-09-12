@@ -1,0 +1,146 @@
+```json
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "IsA",
+      "definition": "X is a general type or classification of Y."
+    },
+    {
+      "id": 2,
+      "name": "MemberOf",
+      "definition": "X is a constituent part or member of Y (a larger group, organization, or entity)."
+    },
+    {
+      "id": 3,
+      "name": "LocatedIn",
+      "definition": "X is physically situated within Y (a larger geographical area or structure)."
+    },
+    {
+      "id": 4,
+      "name": "OriginOf",
+      "definition": "X originates from or has its nationality in Y (a place or country)."
+    },
+    {
+      "id": 5,
+      "name": "AssociatedWith",
+      "definition": "X has a general, non-hierarchical, or indirect connection to Y, often involving events, concepts, or activities."
+    },
+    {
+      "id": 6,
+      "name": "CreatedBy",
+      "definition": "X was brought into existence, designed, composed, or published by Y."
+    },
+    {
+      "id": 7,
+      "name": "HasRole",
+      "definition": "X holds a specific official position or function Y."
+    },
+    {
+      "id": 8,
+      "name": "FamilyRelation",
+      "definition": "X and Y are related by family ties."
+    },
+    {
+      "id": 9,
+      "name": "OwnedBy",
+      "definition": "X is owned, acquired, or controlled by Y."
+    },
+    {
+      "id": 10,
+      "name": "ManufacturedBy",
+      "definition": "X is produced by Y (a company or brand)."
+    },
+    {
+      "id": 11,
+      "name": "CompatibleWith",
+      "definition": "X can be used with or functions on Y (a system, platform, or software)."
+    },
+    {
+      "id": 12,
+      "name": "BroadcastOn",
+      "definition": "X is shown, distributed, or carried via Y (a media channel or platform)."
+    },
+    {
+      "id": 13,
+      "name": "HomeOf",
+      "definition": "X is the primary location or base for Y (a team, organization, or person)."
+    },
+    {
+      "id": 14,
+      "name": "HydrologicalRelation",
+      "definition": "X is a body of water that flows into, is a tributary of, or is located on Y (another body of water or a related structure like a dam)."
+    },
+    {
+      "id": 15,
+      "name": "NamedAfter",
+      "definition": "X is given its name in honor of or derived from Y."
+    },
+    {
+      "id": 16,
+      "name": "IsAliasOf",
+      "definition": "X is another name for Y, or Y is now known as X."
+    },
+    {
+      "id": 17,
+      "name": "TimeOfEvent",
+      "definition": "Y specifies the time or year when event X occurred or was relevant."
+    },
+    {
+      "id": 18,
+      "name": "AwardedTo",
+      "definition": "X (an award) was given to Y (a recipient)."
+    },
+    {
+      "id": 19,
+      "name": "NominatedFor",
+      "definition": "X (a work or person) was nominated for Y (an award)."
+    },
+    {
+      "id": 20,
+      "name": "WonBy",
+      "definition": "X (an event or award) was won by Y (a participant)."
+    },
+    {
+      "id": 21,
+      "name": "IsWrittenIn",
+      "definition": "X is composed or published in Y (a language)."
+    },
+    {
+      "id": 22,
+      "name": "GovernedBy",
+      "definition": "X (a place or entity) is governed or officially represented by Y (a person or body)."
+    },
+    {
+      "id": 23,
+      "name": "PredecessorOf",
+      "definition": "X came before Y in a sequence, series, or development."
+    },
+    {
+      "id": 24,
+      "name": "ComparedTo",
+      "definition": "X is being contrasted or compared with Y."
+    },
+    {
+      "id": 25,
+      "name": "PlaysInstrument",
+      "definition": "X performs using Y (a musical instrument)."
+    },
+    {
+      "id": 26,
+      "name": "PlaysSport",
+      "definition": "X participates in Y (a sport or athletic activity)."
+    },
+    {
+      "id": 27,
+      "name": "AdaptationOf",
+      "definition": "X is a version, remake, or adaptation of Y."
+    },
+    {
+      "id": 28,
+      "name": "CharacterIn",
+      "definition": "X is a fictional character appearing in Y (a work of fiction)."
+    }
+  ]
+}
+```

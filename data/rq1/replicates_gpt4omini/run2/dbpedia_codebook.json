@@ -1,0 +1,110 @@
+{
+  "bench": "dbpedia",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Educational Institution",
+      "definition": "An organization dedicated to education, including schools, colleges, and universities."
+    },
+    {
+      "id": 2,
+      "name": "Political Figure",
+      "definition": "An individual involved in politics, including elected officials and political activists."
+    },
+    {
+      "id": 3,
+      "name": "Film",
+      "definition": "A motion picture or movie, including feature films, documentaries, and film series."
+    },
+    {
+      "id": 4,
+      "name": "Music Album",
+      "definition": "A collection of audio recordings released as a single item, typically by a music artist or band."
+    },
+    {
+      "id": 5,
+      "name": "Plant Species",
+      "definition": "A specific type of plant, including trees, shrubs, and flowering plants."
+    },
+    {
+      "id": 6,
+      "name": "Animal Species",
+      "definition": "A specific type of animal, including mammals, birds, reptiles, and insects."
+    },
+    {
+      "id": 7,
+      "name": "Village or Town",
+      "definition": "A small settlement or community, typically smaller than a city."
+    },
+    {
+      "id": 8,
+      "name": "Historical Site",
+      "definition": "A location of historical significance, including buildings, monuments, and archaeological sites."
+    },
+    {
+      "id": 9,
+      "name": "Company or Organization",
+      "definition": "A business or group formed for a specific purpose, including corporations, non-profits, and government entities."
+    },
+    {
+      "id": 10,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages bound together, including novels, non-fiction, and academic texts."
+    },
+    {
+      "id": 11,
+      "name": "Sports Team or Athlete",
+      "definition": "An organized group of athletes or an individual athlete participating in competitive sports."
+    },
+    {
+      "id": 12,
+      "name": "Religious Institution",
+      "definition": "An organization dedicated to religious activities, including churches, synagogues, and temples."
+    },
+    {
+      "id": 13,
+      "name": "Journal or Periodical",
+      "definition": "A publication issued at regular intervals, typically containing articles and research on specific subjects."
+    },
+    {
+      "id": 14,
+      "name": "Government Building",
+      "definition": "A structure used for governmental purposes, including offices, courthouses, and legislative buildings."
+    },
+    {
+      "id": 15,
+      "name": "Museum",
+      "definition": "An institution that conserves and displays artifacts and objects of artistic, cultural, historical, or scientific significance."
+    },
+    {
+      "id": 16,
+      "name": "Television Show or Series",
+      "definition": "A program produced for broadcast on television, including dramas, comedies, and reality shows."
+    },
+    {
+      "id": 17,
+      "name": "River or Waterway",
+      "definition": "A natural flowing body of water, including rivers, streams, and lakes."
+    },
+    {
+      "id": 18,
+      "name": "Mountain or Peak",
+      "definition": "A large natural elevation of the earth's surface, typically rising prominently above its surroundings."
+    },
+    {
+      "id": 19,
+      "name": "Historical Figure",
+      "definition": "An individual who has had a significant impact on history, including leaders, inventors, and cultural icons."
+    },
+    {
+      "id": 20,
+      "name": "Documentary",
+      "definition": "A non-fiction film or television program that provides a factual report on a particular subject."
+    }
+  ]
+}

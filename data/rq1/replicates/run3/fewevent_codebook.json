@@ -1,0 +1,117 @@
+{
+  "bench": "fewevent",
+  "run": 3,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Occupation",
+      "definition": "A general job title or professional role."
+    },
+    {
+      "id": 2,
+      "name": "Leadership Role",
+      "definition": "A position of authority or head of an organization."
+    },
+    {
+      "id": 3,
+      "name": "Family Role",
+      "definition": "A role within a family or marital relationship."
+    },
+    {
+      "id": 4,
+      "name": "Award or Achievement",
+      "definition": "Recognition for success, performance, or victory."
+    },
+    {
+      "id": 5,
+      "name": "Employment Action",
+      "definition": "An action or state related to a person's employment status."
+    },
+    {
+      "id": 6,
+      "name": "Professional Activity",
+      "definition": "An action or task performed as part of one's professional duties."
+    },
+    {
+      "id": 7,
+      "name": "Financial Transaction",
+      "definition": "An action involving money, goods, or economic exchange."
+    },
+    {
+      "id": 8,
+      "name": "Communication",
+      "definition": "An act of conveying information, a request, or an interaction."
+    },
+    {
+      "id": 9,
+      "name": "Movement or Travel",
+      "definition": "An act of physical relocation or passage."
+    },
+    {
+      "id": 10,
+      "name": "Control or Influence",
+      "definition": "An act of exercising authority, management, or strategic action."
+    },
+    {
+      "id": 11,
+      "name": "Political Action",
+      "definition": "An action related to political processes or selection for office."
+    },
+    {
+      "id": 12,
+      "name": "Physical Action",
+      "definition": "A direct bodily action or interaction."
+    },
+    {
+      "id": 13,
+      "name": "Public Event or Protest",
+      "definition": "An organized public gathering, contest, or collective action."
+    },
+    {
+      "id": 14,
+      "name": "Negative Event or Outcome",
+      "definition": "A harmful, undesirable, or criminal occurrence."
+    },
+    {
+      "id": 15,
+      "name": "Legal or Enforcement Status",
+      "definition": "A state or action related to law enforcement or judicial process."
+    },
+    {
+      "id": 16,
+      "name": "Social or Economic Condition",
+      "definition": "A broader societal or economic state affecting a group or individual."
+    },
+    {
+      "id": 17,
+      "name": "Status or Association",
+      "definition": "A state of being, belonging, or a prior condition."
+    },
+    {
+      "id": 18,
+      "name": "Institution or Place",
+      "definition": "A physical location or an organizational entity."
+    },
+    {
+      "id": 19,
+      "name": "Art, Culture, or Product",
+      "definition": "A creative work, cultural item, or media product."
+    },
+    {
+      "id": 20,
+      "name": "Education or Learning",
+      "definition": "An activity, status, or achievement related to learning or academic pursuit."
+    },
+    {
+      "id": 21,
+      "name": "State of Being",
+      "definition": "A condition of existence."
+    },
+    {
+      "id": 22,
+      "name": "Business Entity",
+      "definition": "A commercial organization or group of individuals involved in business."
+    }
+  ]
+}

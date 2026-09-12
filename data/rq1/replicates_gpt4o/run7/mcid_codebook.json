@@ -1,0 +1,65 @@
+{
+  "bench": "mcid",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General COVID-19 Information",
+      "definition": "Requests for general information about COVID-19, including what it is and its characteristics."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Health Concerns",
+      "definition": "Inquiries about symptoms, health concerns, and personal health actions related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Transmission and Prevention",
+      "definition": "Questions about how COVID-19 spreads and how to prevent infection."
+    },
+    {
+      "id": 4,
+      "name": "Treatment and Cure",
+      "definition": "Requests for information on treatment options, cures, and vaccines for COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Statistics and Data",
+      "definition": "Requests for statistical data, such as case numbers, death counts, and recovery rates."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Safety Advice",
+      "definition": "Inquiries about travel restrictions, safety measures, and high-risk areas."
+    },
+    {
+      "id": 7,
+      "name": "Myths and Misinformation",
+      "definition": "Questions addressing myths, misinformation, and conspiracy theories about COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "News and Updates",
+      "definition": "Requests for the latest news and updates about COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Donations and Support",
+      "definition": "Expressions of intent to donate or support COVID-19-related causes."
+    },
+    {
+      "id": 10,
+      "name": "Gratitude and Greetings",
+      "definition": "Expressions of gratitude, greetings, or casual conversation not seeking information."
+    },
+    {
+      "id": 11,
+      "name": "Sharing Information",
+      "definition": "Requests or intentions to share COVID-19-related information with others."
+    }
+  ]
+}

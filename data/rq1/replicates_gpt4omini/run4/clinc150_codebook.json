@@ -1,0 +1,110 @@
+{
+  "bench": "clinc150",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Reminders",
+      "definition": "Requests for reminders about tasks or events."
+    },
+    {
+      "id": 2,
+      "name": "Travel Information",
+      "definition": "Inquiries about travel requirements, destinations, and arrangements."
+    },
+    {
+      "id": 3,
+      "name": "Cooking and Recipes",
+      "definition": "Questions about cooking methods, substitutions, and recipes."
+    },
+    {
+      "id": 4,
+      "name": "Technical Assistance",
+      "definition": "Requests for help with technical tasks or software."
+    },
+    {
+      "id": 5,
+      "name": "Financial Information",
+      "definition": "Inquiries about bank accounts, credit scores, and financial transactions."
+    },
+    {
+      "id": 6,
+      "name": "Voice and Sound Settings",
+      "definition": "Requests to change voice settings or sound preferences."
+    },
+    {
+      "id": 7,
+      "name": "Calendar Management",
+      "definition": "Requests to manage calendar events and appointments."
+    },
+    {
+      "id": 8,
+      "name": "Legal and Professional Services",
+      "definition": "Inquiries about legal services or professional recommendations."
+    },
+    {
+      "id": 9,
+      "name": "Health and Wellness",
+      "definition": "Questions about health, wellness, and medical advice."
+    },
+    {
+      "id": 10,
+      "name": "Shopping and Orders",
+      "definition": "Requests to make purchases or inquiries about shopping lists."
+    },
+    {
+      "id": 11,
+      "name": "Transportation Services",
+      "definition": "Requests for transportation arrangements like rides or directions."
+    },
+    {
+      "id": 12,
+      "name": "Weather Information",
+      "definition": "Inquiries about current or forecasted weather conditions."
+    },
+    {
+      "id": 13,
+      "name": "Entertainment and Media",
+      "definition": "Requests for information about movies, music, and other media."
+    },
+    {
+      "id": 14,
+      "name": "Personal Assistance",
+      "definition": "General requests for assistance with personal tasks."
+    },
+    {
+      "id": 15,
+      "name": "Learning and Education",
+      "definition": "Inquiries about learning resources or educational topics."
+    },
+    {
+      "id": 16,
+      "name": "Home and Lifestyle",
+      "definition": "Requests for home improvement tips or lifestyle advice."
+    },
+    {
+      "id": 17,
+      "name": "Account Management",
+      "definition": "Requests related to managing accounts, including banking and subscriptions."
+    },
+    {
+      "id": 18,
+      "name": "Communication",
+      "definition": "Requests to send messages or communicate with others."
+    },
+    {
+      "id": 19,
+      "name": "Event Planning",
+      "definition": "Requests for planning events or making reservations."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous Inquiries",
+      "definition": "General questions that do not fit into other categories."
+    }
+  ]
+}

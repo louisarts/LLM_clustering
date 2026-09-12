@@ -1,0 +1,90 @@
+{
+  "bench": "massive_domain",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar Events",
+      "definition": "Utterances related to scheduling events, appointments, reminders, and notifications"
+    },
+    {
+      "id": 2,
+      "name": "Email Management",
+      "definition": "Utterances related to sending, receiving, and managing emails"
+    },
+    {
+      "id": 3,
+      "name": "Music Playback",
+      "definition": "Utterances related to playing music, podcasts, radio stations, and playlists"
+    },
+    {
+      "id": 4,
+      "name": "Weather Information",
+      "definition": "Utterances related to checking current weather conditions and forecasts"
+    },
+    {
+      "id": 5,
+      "name": "General Knowledge",
+      "definition": "Utterances related to general knowledge questions, definitions, and facts"
+    },
+    {
+      "id": 6,
+      "name": "Shopping and Ticketing",
+      "definition": "Utterances related to purchasing tickets, ordering food, and shopping"
+    },
+    {
+      "id": 7,
+      "name": "Social Media Interaction",
+      "definition": "Utterances related to posting on social media platforms like Twitter and Facebook"
+    },
+    {
+      "id": 8,
+      "name": "Lighting Control",
+      "definition": "Utterances related to controlling lights, brightness, and colors in a room"
+    },
+    {
+      "id": 9,
+      "name": "Alarm and Timer Setting",
+      "definition": "Utterances related to setting alarms, timers, and notifications"
+    },
+    {
+      "id": 10,
+      "name": "Travel Information",
+      "definition": "Utterances related to booking travel tickets, finding train schedules, and directions"
+    },
+    {
+      "id": 11,
+      "name": "Recipe Search",
+      "definition": "Utterances related to finding recipes and cooking instructions"
+    },
+    {
+      "id": 12,
+      "name": "Entertainment Recommendations",
+      "definition": "Utterances related to finding movies, music, events, and entertainment options"
+    },
+    {
+      "id": 13,
+      "name": "List Management",
+      "definition": "Utterances related to managing lists, to-do lists, and grocery lists"
+    },
+    {
+      "id": 14,
+      "name": "Currency Exchange Rates",
+      "definition": "Utterances related to checking currency exchange rates between different currencies"
+    },
+    {
+      "id": 15,
+      "name": "Geographical Information",
+      "definition": "Utterances related to geographical locations, landmarks, and distances"
+    },
+    {
+      "id": 16,
+      "name": "Social Events",
+      "definition": "Utterances related to social events, parties, festivals, and gatherings"
+    }
+  ]
+}

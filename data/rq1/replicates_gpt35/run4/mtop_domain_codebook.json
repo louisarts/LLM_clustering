@@ -1,0 +1,85 @@
+{
+  "bench": "mtop_domain",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm",
+      "definition": "Setting, changing, or deleting alarms or reminders."
+    },
+    {
+      "id": 2,
+      "name": "Call/Message",
+      "definition": "Making calls, sending messages, or video chatting."
+    },
+    {
+      "id": 3,
+      "name": "Weather",
+      "definition": "Checking or providing weather forecasts."
+    },
+    {
+      "id": 4,
+      "name": "Timer",
+      "definition": "Setting, changing, or checking timers."
+    },
+    {
+      "id": 5,
+      "name": "Music",
+      "definition": "Playing music or recommending music."
+    },
+    {
+      "id": 6,
+      "name": "News",
+      "definition": "Providing news updates or headlines."
+    },
+    {
+      "id": 7,
+      "name": "Recipe",
+      "definition": "Finding or providing recipes."
+    },
+    {
+      "id": 8,
+      "name": "Location",
+      "definition": "Finding or providing information about locations."
+    },
+    {
+      "id": 9,
+      "name": "Calendar/Event",
+      "definition": "Checking or adding events to the calendar."
+    },
+    {
+      "id": 10,
+      "name": "Reminder",
+      "definition": "Setting, changing, or deleting reminders."
+    },
+    {
+      "id": 11,
+      "name": "Health/Nutrition",
+      "definition": "Providing information on health, nutrition, or cooking."
+    },
+    {
+      "id": 12,
+      "name": "Social Media",
+      "definition": "Interacting with social media platforms."
+    },
+    {
+      "id": 13,
+      "name": "Entertainment",
+      "definition": "Providing entertainment recommendations or information."
+    },
+    {
+      "id": 14,
+      "name": "Education",
+      "definition": "Providing educational information or answering questions."
+    },
+    {
+      "id": 15,
+      "name": "Miscellaneous",
+      "definition": "Utterances that do not fit into any other category."
+    }
+  ]
+}

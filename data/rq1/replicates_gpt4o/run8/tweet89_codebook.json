@@ -1,0 +1,260 @@
+{
+  "bench": "tweet89",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets discussing commercials aired during the Super Bowl."
+    },
+    {
+      "id": 2,
+      "name": "Egypt Protests and Journalist Targeting",
+      "definition": "Tweets about protests in Egypt and the targeting of journalists."
+    },
+    {
+      "id": 3,
+      "name": "Sundance Film Festival",
+      "definition": "Tweets related to the Sundance Film Festival."
+    },
+    {
+      "id": 4,
+      "name": "Scholarships and Education",
+      "definition": "Tweets about scholarships and educational opportunities."
+    },
+    {
+      "id": 5,
+      "name": "Verizon iPhone Launch",
+      "definition": "Tweets about Best Buy selling the Verizon iPhone."
+    },
+    {
+      "id": 6,
+      "name": "Steve Jobs Health and Apple Stock",
+      "definition": "Tweets discussing Steve Jobs' medical issues and their impact on Apple stock."
+    },
+    {
+      "id": 7,
+      "name": "Middle East Protests",
+      "definition": "Tweets about protests in the Middle East, excluding Egypt."
+    },
+    {
+      "id": 8,
+      "name": "State Budgets and Education",
+      "definition": "Tweets discussing state budget issues affecting education."
+    },
+    {
+      "id": 9,
+      "name": "Obama Administration",
+      "definition": "Tweets about actions and appointments within the Obama administration."
+    },
+    {
+      "id": 10,
+      "name": "Fishing and Recipes",
+      "definition": "Tweets about fishing tips and recipes involving fish."
+    },
+    {
+      "id": 11,
+      "name": "Social Media and Politics",
+      "definition": "Tweets discussing the role of social media in politics and protests."
+    },
+    {
+      "id": 12,
+      "name": "Oscar Nominations and Reactions",
+      "definition": "Tweets about Oscar nominations and reactions to them."
+    },
+    {
+      "id": 13,
+      "name": "Belarus and EU Sanctions",
+      "definition": "Tweets about Belarus' response to EU sanctions."
+    },
+    {
+      "id": 14,
+      "name": "FDA Drug Approvals",
+      "definition": "Tweets about FDA approvals of new drugs."
+    },
+    {
+      "id": 15,
+      "name": "Starbucks Trenta Size",
+      "definition": "Tweets discussing the new Starbucks Trenta size cup."
+    },
+    {
+      "id": 16,
+      "name": "Acai Berry Diet",
+      "definition": "Tweets about the acai berry diet and related products."
+    },
+    {
+      "id": 17,
+      "name": "Yemen Protests",
+      "definition": "Tweets about protests and political events in Yemen."
+    },
+    {
+      "id": 18,
+      "name": "Moscow Airport Explosion",
+      "definition": "Tweets about the terrorist attack at Moscow airport."
+    },
+    {
+      "id": 19,
+      "name": "Taco Bell Meat Lawsuit",
+      "definition": "Tweets about the lawsuit against Taco Bell regarding their meat content."
+    },
+    {
+      "id": 20,
+      "name": "Fashion Events",
+      "definition": "Tweets about fashion events and related activities."
+    },
+    {
+      "id": 21,
+      "name": "Iran and International Relations",
+      "definition": "Tweets about Iran's international relations and sanctions."
+    },
+    {
+      "id": 22,
+      "name": "Christina Aguilera National Anthem",
+      "definition": "Tweets about Christina Aguilera's performance of the national anthem at the Super Bowl."
+    },
+    {
+      "id": 23,
+      "name": "Facebook Privacy Settings",
+      "definition": "Tweets discussing Facebook's privacy settings and changes."
+    },
+    {
+      "id": 24,
+      "name": "Novak Djokovic and Tennis",
+      "definition": "Tweets about Novak Djokovic and tennis events."
+    },
+    {
+      "id": 25,
+      "name": "Rahm Emanuel Chicago Ballot",
+      "definition": "Tweets about Rahm Emanuel's eligibility for the Chicago mayoral ballot."
+    },
+    {
+      "id": 26,
+      "name": "Concussions in Sports",
+      "definition": "Tweets discussing concussions and health risks in sports."
+    },
+    {
+      "id": 27,
+      "name": "Venezuela and Hugo Chavez",
+      "definition": "Tweets about political events and statements by Hugo Chavez in Venezuela."
+    },
+    {
+      "id": 28,
+      "name": "Identity Theft",
+      "definition": "Tweets discussing issues and concerns related to identity theft."
+    },
+    {
+      "id": 29,
+      "name": "Gasland and Fracking",
+      "definition": "Tweets about the documentary Gasland and the environmental impact of fracking."
+    },
+    {
+      "id": 30,
+      "name": "Healthcare Reform Legal Challenges",
+      "definition": "Tweets about legal challenges to healthcare reform in the U.S."
+    },
+    {
+      "id": 31,
+      "name": "Employment and Economy",
+      "definition": "Tweets discussing employment rates and economic conditions."
+    },
+    {
+      "id": 32,
+      "name": "Piracy and Naval Operations",
+      "definition": "Tweets about naval operations against piracy."
+    },
+    {
+      "id": 33,
+      "name": "Extreme Makeover and Texting While Driving",
+      "definition": "Tweets about the Extreme Makeover show and its message against texting while driving."
+    },
+    {
+      "id": 34,
+      "name": "Nobel Peace Prize and Wikileaks",
+      "definition": "Tweets about Wikileaks and its nomination for the Nobel Peace Prize."
+    },
+    {
+      "id": 35,
+      "name": "Starbucks and Wine",
+      "definition": "Tweets about the Starbucks Trenta cup's capacity to hold a bottle of wine."
+    },
+    {
+      "id": 36,
+      "name": "Bullying Awareness",
+      "definition": "Tweets about events and initiatives to raise awareness about bullying."
+    },
+    {
+      "id": 37,
+      "name": "Immigration and Legal Issues",
+      "definition": "Tweets about immigration laws and related legal issues."
+    },
+    {
+      "id": 38,
+      "name": "Black Swan Movie",
+      "definition": "Tweets about the movie Black Swan and its actors."
+    },
+    {
+      "id": 39,
+      "name": "Keith Olbermann and Current TV",
+      "definition": "Tweets about Keith Olbermann joining Current TV."
+    },
+    {
+      "id": 40,
+      "name": "Food and Cooking",
+      "definition": "Tweets sharing recipes and cooking tips."
+    },
+    {
+      "id": 41,
+      "name": "State of the Union Address",
+      "definition": "Tweets about the U.S. State of the Union address."
+    },
+    {
+      "id": 42,
+      "name": "Cybersecurity and Stuxnet",
+      "definition": "Tweets about cybersecurity issues, including the Stuxnet virus."
+    },
+    {
+      "id": 43,
+      "name": "Oprah Winfrey Family Secret",
+      "definition": "Tweets about Oprah Winfrey's family secret revelation."
+    },
+    {
+      "id": 44,
+      "name": "NHL and Concussions",
+      "definition": "Tweets about concussions in the National Hockey League."
+    },
+    {
+      "id": 45,
+      "name": "Texting While Driving Pledges",
+      "definition": "Tweets encouraging pledges against texting while driving."
+    },
+    {
+      "id": 46,
+      "name": "Fashion and Art",
+      "definition": "Tweets about fashion shows and artistic expressions in fashion."
+    },
+    {
+      "id": 47,
+      "name": "Wine and Starbucks",
+      "definition": "Tweets about the Starbucks Trenta cup and its comparison to wine bottles."
+    },
+    {
+      "id": 48,
+      "name": "Piracy and Indian Navy",
+      "definition": "Tweets about the Indian Navy's actions against piracy."
+    },
+    {
+      "id": 49,
+      "name": "State Budget Cuts",
+      "definition": "Tweets about state budget cuts and their impacts."
+    },
+    {
+      "id": 50,
+      "name": "Social Media Privacy",
+      "definition": "Tweets about privacy concerns related to social media platforms."
+    }
+  ]
+}

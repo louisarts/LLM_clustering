@@ -1,0 +1,260 @@
+{
+  "bench": "tweet89",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates on the recovery of Rep. Gabrielle Giffords after being shot."
+    },
+    {
+      "id": 2,
+      "name": "Amazon Rainforest and Acai Berry",
+      "definition": "Discussions about the Amazon rainforest and the acai berry diet."
+    },
+    {
+      "id": 3,
+      "name": "Bullying Prevention",
+      "definition": "Articles and tips on preventing bullying."
+    },
+    {
+      "id": 4,
+      "name": "Indian Navy Anti-Piracy Operations",
+      "definition": "Reports on the Indian Navy's operations against piracy."
+    },
+    {
+      "id": 5,
+      "name": "NBA Concussion Protocol",
+      "definition": "Information about the NBA's concussion protocol."
+    },
+    {
+      "id": 6,
+      "name": "Journalists Arrested in Egypt",
+      "definition": "Incidents of journalists being arrested or detained in Egypt."
+    },
+    {
+      "id": 7,
+      "name": "Super Bowl Commercials",
+      "definition": "Discussions and reviews of Super Bowl commercials."
+    },
+    {
+      "id": 8,
+      "name": "Christina Aguilera National Anthem Flub",
+      "definition": "Coverage of Christina Aguilera's mistake during the national anthem at the Super Bowl."
+    },
+    {
+      "id": 9,
+      "name": "Fishing Tips and Reports",
+      "definition": "Tips and reports related to fishing activities."
+    },
+    {
+      "id": 10,
+      "name": "Andrew Cuomo's Budget Cuts",
+      "definition": "Reports on budget cuts proposed by New York Governor Andrew Cuomo."
+    },
+    {
+      "id": 11,
+      "name": "Penn Badgley at Sundance",
+      "definition": "Mentions of Penn Badgley snowboarding at the Sundance Film Festival."
+    },
+    {
+      "id": 12,
+      "name": "Scholarships and Education",
+      "definition": "Information about scholarships and educational opportunities."
+    },
+    {
+      "id": 13,
+      "name": "Kim Kardashian's Personal Life",
+      "definition": "Mentions of Kim Kardashian's relationship status."
+    },
+    {
+      "id": 14,
+      "name": "Myanmar Sanctions",
+      "definition": "Discussions about international sanctions on Myanmar."
+    },
+    {
+      "id": 15,
+      "name": "Justin Bieber and Jon Stewart",
+      "definition": "Mentions of interactions between Justin Bieber and Jon Stewart."
+    },
+    {
+      "id": 16,
+      "name": "Texting and Driving",
+      "definition": "Discussions about the dangers of texting while driving."
+    },
+    {
+      "id": 17,
+      "name": "Sundance Film Festival",
+      "definition": "Coverage of events and films at the Sundance Film Festival."
+    },
+    {
+      "id": 18,
+      "name": "Yemen Protests",
+      "definition": "Reports on protests and political unrest in Yemen."
+    },
+    {
+      "id": 19,
+      "name": "Oscar Nominations",
+      "definition": "Announcements and discussions of Oscar nominations."
+    },
+    {
+      "id": 20,
+      "name": "Healthcare Law and Obamacare",
+      "definition": "Legal challenges and rulings related to the Affordable Care Act."
+    },
+    {
+      "id": 21,
+      "name": "Moscow Airport Explosion",
+      "definition": "Coverage of the explosion at Moscow's airport."
+    },
+    {
+      "id": 22,
+      "name": "Identity Theft",
+      "definition": "Information and tips on preventing identity theft."
+    },
+    {
+      "id": 23,
+      "name": "Jesse Ventura TSA Lawsuit",
+      "definition": "Jesse Ventura's lawsuit against the TSA."
+    },
+    {
+      "id": 24,
+      "name": "Queensland Floods",
+      "definition": "Reports on the flooding in Queensland, Australia."
+    },
+    {
+      "id": 25,
+      "name": "Hugo Chavez and Venezuela",
+      "definition": "News related to Hugo Chavez and political events in Venezuela."
+    },
+    {
+      "id": 26,
+      "name": "Social Media and Protests",
+      "definition": "The role of social media in political protests."
+    },
+    {
+      "id": 27,
+      "name": "FDA Drug Approvals",
+      "definition": "Announcements of FDA approvals for new drugs."
+    },
+    {
+      "id": 28,
+      "name": "Iranian Executions",
+      "definition": "Reports on executions in Iran."
+    },
+    {
+      "id": 29,
+      "name": "Egyptian Museum Security",
+      "definition": "Security measures at Egyptian museums during protests."
+    },
+    {
+      "id": 30,
+      "name": "Michelle Obama's Initiatives",
+      "definition": "Michelle Obama's campaigns on fitness and nutrition."
+    },
+    {
+      "id": 31,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Lawsuit against Taco Bell regarding the content of their beef."
+    },
+    {
+      "id": 32,
+      "name": "Tea Party and Politics",
+      "definition": "Mentions of the Tea Party's influence in politics."
+    },
+    {
+      "id": 33,
+      "name": "Charlie Sheen's Personal Life",
+      "definition": "Mentions of Charlie Sheen's personal issues."
+    },
+    {
+      "id": 34,
+      "name": "White Stripes Breakup",
+      "definition": "News about the breakup of the band White Stripes."
+    },
+    {
+      "id": 35,
+      "name": "Piracy in the Gulf of Aden",
+      "definition": "Reports on piracy incidents in the Gulf of Aden."
+    },
+    {
+      "id": 36,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Coverage of the murder case of Joanna Yeates."
+    },
+    {
+      "id": 37,
+      "name": "Facebook Privacy Settings",
+      "definition": "Discussions about privacy settings on Facebook."
+    },
+    {
+      "id": 38,
+      "name": "Volkswagen Super Bowl Ad",
+      "definition": "Discussions about Volkswagen's Super Bowl advertisement."
+    },
+    {
+      "id": 39,
+      "name": "Acai Berry Weight Loss",
+      "definition": "Discussions about acai berry products for weight loss."
+    },
+    {
+      "id": 40,
+      "name": "Energy Conservation Tips",
+      "definition": "Tips for conserving energy and reducing bills."
+    },
+    {
+      "id": 41,
+      "name": "Unemployment Rates",
+      "definition": "Reports on unemployment statistics."
+    },
+    {
+      "id": 42,
+      "name": "Fashion Week NYC",
+      "definition": "Events and networking during New York City's Fashion Week."
+    },
+    {
+      "id": 43,
+      "name": "Fishing Techniques and Gear",
+      "definition": "Information on fishing techniques and equipment."
+    },
+    {
+      "id": 44,
+      "name": "Food Recipes",
+      "definition": "Various recipes for cooking and baking."
+    },
+    {
+      "id": 45,
+      "name": "Steve Jobs and Apple",
+      "definition": "Discussions about Steve Jobs and the future of Apple."
+    },
+    {
+      "id": 46,
+      "name": "Nobel Peace Prize Nomination for Wikileaks",
+      "definition": "Nomination of Wikileaks founder for the Nobel Peace Prize."
+    },
+    {
+      "id": 47,
+      "name": "Egyptian Uprising",
+      "definition": "Coverage of the uprising and protests in Egypt."
+    },
+    {
+      "id": 48,
+      "name": "Supreme Court Rulings",
+      "definition": "Rulings and decisions made by the Supreme Court."
+    },
+    {
+      "id": 49,
+      "name": "Cyberbullying and Harassment",
+      "definition": "Issues related to cyberbullying and online harassment."
+    },
+    {
+      "id": 50,
+      "name": "Chrysler Super Bowl Ad",
+      "definition": "Discussions about Chrysler's Super Bowl advertisement."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sports",
+      "definition": "Articles covering events, news, and updates related to sports and athletes."
+    },
+    {
+      "id": 2,
+      "name": "Politics",
+      "definition": "Articles discussing political events, elections, policies, and politicians."
+    },
+    {
+      "id": 3,
+      "name": "Music",
+      "definition": "Articles about music, musicians, albums, and music events."
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "Articles related to technological advancements, gadgets, and tech companies."
+    },
+    {
+      "id": 5,
+      "name": "Business",
+      "definition": "Articles covering business news, financial markets, and corporate activities."
+    },
+    {
+      "id": 6,
+      "name": "Entertainment",
+      "definition": "Articles about movies, TV shows, celebrities, and entertainment events."
+    },
+    {
+      "id": 7,
+      "name": "Science and Health",
+      "definition": "Articles discussing scientific discoveries, health news, and medical research."
+    },
+    {
+      "id": 8,
+      "name": "Economy",
+      "definition": "Articles focusing on economic trends, reports, and financial policies."
+    },
+    {
+      "id": 9,
+      "name": "Crime and Law",
+      "definition": "Articles covering legal cases, crime news, and law enforcement activities."
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "Articles related to educational policies, schools, and academic research."
+    },
+    {
+      "id": 11,
+      "name": "International Relations",
+      "definition": "Articles discussing diplomatic relations, international conflicts, and global policies."
+    },
+    {
+      "id": 12,
+      "name": "Environment",
+      "definition": "Articles about environmental issues, climate change, and conservation efforts."
+    },
+    {
+      "id": 13,
+      "name": "Society and Culture",
+      "definition": "Articles exploring societal trends, cultural events, and lifestyle topics."
+    },
+    {
+      "id": 14,
+      "name": "Real Estate",
+      "definition": "Articles covering housing markets, property developments, and real estate trends."
+    },
+    {
+      "id": 15,
+      "name": "Transportation",
+      "definition": "Articles about transportation systems, infrastructure, and travel news."
+    }
+  ]
+}

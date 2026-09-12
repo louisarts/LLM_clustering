@@ -1,0 +1,64 @@
+{
+  "bench": "mcid",
+  "run": 1,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "rq3_cached",
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Greetings & Gratitude",
+      "definition": "User expresses salutations, greetings, or gratitude towards the bot."
+    },
+    {
+      "id": 2,
+      "name": "General Information",
+      "definition": "User requests a definition, history, or general overview of the virus or pandemic."
+    },
+    {
+      "id": 3,
+      "name": "News & Statistics",
+      "definition": "User requests current news, updates, case counts, death tolls, or status of restrictions."
+    },
+    {
+      "id": 4,
+      "name": "Prevention & Safety",
+      "definition": "User asks about protective measures, hygiene, PPE, or safety guidelines to avoid infection."
+    },
+    {
+      "id": 5,
+      "name": "Transmission & Risk Factors",
+      "definition": "User asks about how the virus spreads, survival on surfaces, risk areas, or susceptibility of specific groups or animals."
+    },
+    {
+      "id": 6,
+      "name": "Symptoms & Diagnosis",
+      "definition": "User asks about symptoms, warning signs, or how to identify the disease."
+    },
+    {
+      "id": 7,
+      "name": "Treatment & Cure",
+      "definition": "User asks about vaccines, medications, medical procedures, or managing the illness."
+    },
+    {
+      "id": 8,
+      "name": "Travel",
+      "definition": "User asks about travel safety, restrictions, cancellations, or transportation options."
+    },
+    {
+      "id": 9,
+      "name": "Myths & Misinformation",
+      "definition": "User asks about myths, hoaxes, conspiracy theories, or verifies suspicious claims regarding the virus."
+    },
+    {
+      "id": 10,
+      "name": "Donations",
+      "definition": "User expresses intent to donate money or asks for information on how to donate to relief efforts."
+    },
+    {
+      "id": 11,
+      "name": "Sharing & Social",
+      "definition": "User requests to share information, links, or the bot service with others or on social media."
+    }
+  ]
+}

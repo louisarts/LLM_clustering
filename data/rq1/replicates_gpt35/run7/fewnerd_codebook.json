@@ -1,0 +1,65 @@
+{
+  "bench": "fewnerd",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "A specific individual."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "A specific place or position."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "A group of people identified by a particular name."
+    },
+    {
+      "id": 4,
+      "name": "Event",
+      "definition": "A specific occurrence."
+    },
+    {
+      "id": 5,
+      "name": "Musical Group",
+      "definition": "A group of musicians who perform together."
+    },
+    {
+      "id": 6,
+      "name": "Film",
+      "definition": "A motion picture."
+    },
+    {
+      "id": 7,
+      "name": "Company",
+      "definition": "A commercial business."
+    },
+    {
+      "id": 8,
+      "name": "University",
+      "definition": "An educational institution."
+    },
+    {
+      "id": 9,
+      "name": "Song",
+      "definition": "A musical composition with lyrics."
+    },
+    {
+      "id": 10,
+      "name": "Aircraft",
+      "definition": "A vehicle that can fly."
+    },
+    {
+      "id": 11,
+      "name": "River",
+      "definition": "A large natural stream of water."
+    }
+  ]
+}

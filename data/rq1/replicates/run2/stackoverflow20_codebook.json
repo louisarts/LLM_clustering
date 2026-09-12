@@ -1,0 +1,352 @@
+{
+  "bench": "stackoverflow20",
+  "run": 2,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "AJAX",
+      "definition": "Asynchronous JavaScript and XML for web applications."
+    },
+    {
+      "id": 2,
+      "name": "Apache",
+      "definition": "The Apache HTTP Server, including modules like mod_rewrite and .htaccess."
+    },
+    {
+      "id": 3,
+      "name": "ASP.NET",
+      "definition": "Microsoft's web application framework, including ASP.NET MVC and AJAX Toolkit."
+    },
+    {
+      "id": 4,
+      "name": "ActiveX",
+      "definition": "Microsoft's component technology for software components."
+    },
+    {
+      "id": 5,
+      "name": "Bash/Shell",
+      "definition": "Command-line interpreters and scripting, including Bash and zsh."
+    },
+    {
+      "id": 6,
+      "name": "C#",
+      "definition": "Microsoft's multi-paradigm programming language."
+    },
+    {
+      "id": 7,
+      "name": "C++",
+      "definition": "A general-purpose programming language."
+    },
+    {
+      "id": 8,
+      "name": "CGI",
+      "definition": "Common Gateway Interface for web servers."
+    },
+    {
+      "id": 9,
+      "name": "Cocoa",
+      "definition": "Apple's object-oriented application programming interface for macOS and iOS."
+    },
+    {
+      "id": 10,
+      "name": "COM",
+      "definition": "Microsoft's Component Object Model."
+    },
+    {
+      "id": 11,
+      "name": "Cron",
+      "definition": "A time-based job scheduler in Unix-like computer operating systems."
+    },
+    {
+      "id": 12,
+      "name": "cURL",
+      "definition": "A command-line tool and library for transferring data with URLs."
+    },
+    {
+      "id": 13,
+      "name": "Delphi",
+      "definition": "An integrated development environment for rapid application development."
+    },
+    {
+      "id": 14,
+      "name": "Django",
+      "definition": "A high-level Python web framework."
+    },
+    {
+      "id": 15,
+      "name": "Drupal",
+      "definition": "An open-source content management system."
+    },
+    {
+      "id": 16,
+      "name": "Eclipse",
+      "definition": "An integrated development environment, often used for Java and Scala."
+    },
+    {
+      "id": 17,
+      "name": "Excel",
+      "definition": "Microsoft Excel spreadsheet software, including its features and data handling."
+    },
+    {
+      "id": 18,
+      "name": "Excel VBA",
+      "definition": "Visual Basic for Applications scripting within Microsoft Excel."
+    },
+    {
+      "id": 19,
+      "name": "FFmpeg",
+      "definition": "A free and open-source project for handling multimedia data."
+    },
+    {
+      "id": 20,
+      "name": "Git",
+      "definition": "A distributed version control system."
+    },
+    {
+      "id": 21,
+      "name": "Google App Engine",
+      "definition": "A platform as a service for developing and hosting web applications."
+    },
+    {
+      "id": 22,
+      "name": "GTK",
+      "definition": "A free and open-source cross-platform widget toolkit for creating graphical user interfaces."
+    },
+    {
+      "id": 23,
+      "name": "HAProxy",
+      "definition": "A free, open-source software load balancer and proxy server."
+    },
+    {
+      "id": 24,
+      "name": "Haskell",
+      "definition": "A purely functional programming language."
+    },
+    {
+      "id": 25,
+      "name": "Hibernate",
+      "definition": "An object-relational mapping framework for Java."
+    },
+    {
+      "id": 26,
+      "name": "IIS",
+      "definition": "Microsoft's Internet Information Services web server."
+    },
+    {
+      "id": 27,
+      "name": "ImageMagick",
+      "definition": "A free and open-source software suite for displaying, converting, and editing raster image files."
+    },
+    {
+      "id": 28,
+      "name": "InfoPath",
+      "definition": "Microsoft's application for designing, distributing, filling, and submitting electronic forms."
+    },
+    {
+      "id": 29,
+      "name": "Internet Explorer",
+      "definition": "Microsoft's web browser."
+    },
+    {
+      "id": 30,
+      "name": "Java",
+      "definition": "A class-based, object-oriented programming language."
+    },
+    {
+      "id": 31,
+      "name": "JavaScript",
+      "definition": "A high-level, often just-in-time compiled, and multi-paradigm programming language."
+    },
+    {
+      "id": 32,
+      "name": "JPA/ORM",
+      "definition": "Java Persistence API and general Object-Relational Mapping concepts."
+    },
+    {
+      "id": 33,
+      "name": "JSON",
+      "definition": "JavaScript Object Notation, a lightweight data-interchange format."
+    },
+    {
+      "id": 34,
+      "name": "Lift",
+      "definition": "A free and open-source web framework for the Scala programming language."
+    },
+    {
+      "id": 35,
+      "name": "LINQ",
+      "definition": "Language Integrated Query for .NET."
+    },
+    {
+      "id": 36,
+      "name": "macOS",
+      "definition": "Apple's desktop operating system, including OS X and related development."
+    },
+    {
+      "id": 37,
+      "name": "Magento",
+      "definition": "An open-source e-commerce platform."
+    },
+    {
+      "id": 38,
+      "name": "Markdown",
+      "definition": "A lightweight markup language."
+    },
+    {
+      "id": 39,
+      "name": "Matlab",
+      "definition": "A proprietary multi-paradigm programming language and numerical computing environment."
+    },
+    {
+      "id": 40,
+      "name": "Maven",
+      "definition": "A software project management and comprehension tool."
+    },
+    {
+      "id": 41,
+      "name": "MediaWiki",
+      "definition": "Free and open-source wiki software."
+    },
+    {
+      "id": 42,
+      "name": "Moodle",
+      "definition": "A free and open-source learning management system."
+    },
+    {
+      "id": 43,
+      "name": "MySQL",
+      "definition": "An open-source relational database management system."
+    },
+    {
+      "id": 44,
+      "name": "Nginx",
+      "definition": "A web server that can also be used as a reverse proxy, load balancer, and HTTP cache."
+    },
+    {
+      "id": 45,
+      "name": "Objective-C",
+      "definition": "An object-oriented programming language, primarily used for Apple's platforms."
+    },
+    {
+      "id": 46,
+      "name": "ODBC",
+      "definition": "Open Database Connectivity, a standard API for accessing database management systems."
+    },
+    {
+      "id": 47,
+      "name": "OpenGL",
+      "definition": "A cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics."
+    },
+    {
+      "id": 48,
+      "name": "OpenID",
+      "definition": "An open standard and decentralized authentication protocol."
+    },
+    {
+      "id": 49,
+      "name": "Oracle",
+      "definition": "Oracle Database, a multi-model database management system."
+    },
+    {
+      "id": 50,
+      "name": "PHP",
+      "definition": "A general-purpose scripting language especially suited to web development."
+    },
+    {
+      "id": 51,
+      "name": "Python",
+      "definition": "A high-level, general-purpose programming language."
+    },
+    {
+      "id": 52,
+      "name": "Qt",
+      "definition": "A cross-platform widget toolkit for creating graphical user interfaces."
+    },
+    {
+      "id": 53,
+      "name": "Regular Expressions",
+      "definition": "A sequence of characters that define a search pattern."
+    },
+    {
+      "id": 54,
+      "name": "REST",
+      "definition": "Representational State Transfer, an architectural style for distributed hypermedia systems."
+    },
+    {
+      "id": 55,
+      "name": "Scala",
+      "definition": "A strong statically typed general-purpose programming language that supports both object-oriented and functional programming."
+    },
+    {
+      "id": 56,
+      "name": "SCP",
+      "definition": "Secure Copy Protocol for transferring files securely over a network."
+    },
+    {
+      "id": 57,
+      "name": "SharePoint",
+      "definition": "Microsoft's web-based collaborative platform."
+    },
+    {
+      "id": 58,
+      "name": "SQL",
+      "definition": "Structured Query Language for managing and manipulating relational databases."
+    },
+    {
+      "id": 59,
+      "name": "SQL Server",
+      "definition": "Microsoft SQL Server, a relational database management system."
+    },
+    {
+      "id": 60,
+      "name": "Spring",
+      "definition": "A comprehensive Java application framework."
+    },
+    {
+      "id": 61,
+      "name": "Stored Procedures",
+      "definition": "Pre-compiled SQL code stored in a database for reuse."
+    },
+    {
+      "id": 62,
+      "name": "SVN",
+      "definition": "Apache Subversion, a software versioning and revision control system."
+    },
+    {
+      "id": 63,
+      "name": "Telligent Community Server",
+      "definition": "A specific commercial community platform."
+    },
+    {
+      "id": 64,
+      "name": "Tomcat",
+      "definition": "Apache Tomcat, an open-source implementation of Java Servlet and JSP technologies."
+    },
+    {
+      "id": 65,
+      "name": "Visual Studio",
+      "definition": "Microsoft's integrated development environment."
+    },
+    {
+      "id": 66,
+      "name": "VLC",
+      "definition": "VideoLAN Client, a free and open-source portable cross-platform media player."
+    },
+    {
+      "id": 67,
+      "name": "WordPress",
+      "definition": "A free and open-source content management system."
+    },
+    {
+      "id": 68,
+      "name": "WxWidgets",
+      "definition": "A cross-platform C++ GUI toolkit."
+    },
+    {
+      "id": 69,
+      "name": "XML",
+      "definition": "Extensible Markup Language, a markup language for encoding documents."
+    }
+  ]
+}

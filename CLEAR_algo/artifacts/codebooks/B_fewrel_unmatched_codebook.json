@@ -1,0 +1,322 @@
+[
+ {
+  "id": 1,
+  "name": "Heritage Listing",
+  "definition": "The relation between a specific site or object and a heritage register or list it is included in."
+ },
+ {
+  "id": 2,
+  "name": "Event Participation",
+  "definition": "The relation between a person or group and a specific event or competition they participated in."
+ },
+ {
+  "id": 3,
+  "name": "Professional Role",
+  "definition": "The relation between a person and the specific job title, position, or role they hold."
+ },
+ {
+  "id": 4,
+  "name": "Location",
+  "definition": "The relation between an entity and the geographic place where it is situated, located, or takes place."
+ },
+ {
+  "id": 5,
+  "name": "Nationality",
+  "definition": "The relation between a person or entity and their country of origin or citizenship."
+ },
+ {
+  "id": 6,
+  "name": "Organizational Affiliation",
+  "definition": "The relation between a person or entity and an organization, political party, or group they are a member of or affiliated with."
+ },
+ {
+  "id": 7,
+  "name": "Product Origin",
+  "definition": "The relation between a product, work, or entity and its creator, developer, manufacturer, or parent company."
+ },
+ {
+  "id": 8,
+  "name": "Parent-Subsidiary",
+  "definition": "The relation between a company or organization and its parent company, owner, or acquiring entity."
+ },
+ {
+  "id": 9,
+  "name": "Geographic Subdivision",
+  "definition": "The relation between a geographic entity and the larger administrative or geographic region it belongs to."
+ },
+ {
+  "id": 10,
+  "name": "Kinship",
+  "definition": "The relation between two people based on family ties, such as parent-child, sibling, or spouse."
+ },
+ {
+  "id": 11,
+  "name": "Platform Compatibility",
+  "definition": "The relation between a software, game, or media product and the hardware platform or operating system it runs on."
+ },
+ {
+  "id": 12,
+  "name": "Record Label",
+  "definition": "The relation between a musical artist or group and the record label that releases their work."
+ },
+ {
+  "id": 13,
+  "name": "Creator",
+  "definition": "The relation between a creative work (such as a film, book, or art) and its author, director, or primary creator."
+ },
+ {
+  "id": 14,
+  "name": "Acquisition",
+  "definition": "The relation between an entity that is acquired and the entity that acquires or purchases it."
+ },
+ {
+  "id": 15,
+  "name": "Award Nomination",
+  "definition": "The relation between a work, person, or performance and the award or nomination they received."
+ },
+ {
+  "id": 16,
+  "name": "Identity",
+  "definition": "The relation between an entity and its alternate name, alias, abbreviation, or former name."
+ },
+ {
+  "id": 17,
+  "name": "Genre",
+  "definition": "The relation between a work, publication, or broadcast and its specific category, style, or format."
+ },
+ {
+  "id": 18,
+  "name": "Architectural Style",
+  "definition": "The relation between a building or structure and its specific architectural style or design movement."
+ },
+ {
+  "id": 19,
+  "name": "Sports League Membership",
+  "definition": "The relation between a sports team or club and the league or division they compete in."
+ },
+ {
+  "id": 20,
+  "name": "Military Service",
+  "definition": "The relation between a person and the military branch or armed force they served in."
+ },
+ {
+  "id": 21,
+  "name": "Part-Whole",
+  "definition": "The relation where the first entity is a component, member, or part of the second entity, which constitutes a whole (e.g., a mountain range is part of a larger mountain system, a segment is part of a "
+ },
+ {
+  "id": 22,
+  "name": "Tributary",
+  "definition": "The relation where a river or stream flows into a larger river or body of water."
+ },
+ {
+  "id": 23,
+  "name": "Political Office",
+  "definition": "The relation where a person holds or is a candidate for a specific government position or title."
+ },
+ {
+  "id": 24,
+  "name": "Sports Team Affiliation",
+  "definition": "The relation where an athlete, coach, or staff member is associated with a specific sports team."
+ },
+ {
+  "id": 25,
+  "name": "League Affiliation",
+  "definition": "The relation where a sports team or club competes in a specific sports league or division."
+ },
+ {
+  "id": 26,
+  "name": "Event-Winner",
+  "definition": "The relation where a person, team, or entity wins a specific competition, election, or award event."
+ },
+ {
+  "id": 27,
+  "name": "Family",
+  "definition": "The relation where two people are related by blood, marriage, or adoption (e.g., parent-child, sibling, spouse)."
+ },
+ {
+  "id": 28,
+  "name": "Group Membership",
+  "definition": "The relation where an individual is a member of a specific group, band, or organization (distinct from professional employment)."
+ },
+ {
+  "id": 29,
+  "name": "Product Line",
+  "definition": "The relation where a specific product or model belongs to a brand, company, or product line."
+ },
+ {
+  "id": 30,
+  "name": "Military Unit",
+  "definition": "The relation where a specific military unit, regiment, or vessel belongs to a larger branch of the armed forces."
+ },
+ {
+  "id": 31,
+  "name": "Language",
+  "definition": "The relation where a work, project, or entity is associated with a specific spoken or written language."
+ },
+ {
+  "id": 32,
+  "name": "Political Party Affiliation",
+  "definition": "The relation where a person, politician, or cabinet is affiliated with a specific political party."
+ },
+ {
+  "id": 33,
+  "name": "Software Compatibility",
+  "definition": "The relation where a software product, device, or feature is compatible with, included in, or designed for a specific operating system or software version."
+ },
+ {
+  "id": 34,
+  "name": "Publisher",
+  "definition": "The relation between a creative work (such as a book, music album, or film) and the company or entity responsible for publishing or releasing it."
+ },
+ {
+  "id": 35,
+  "name": "Time-Event Association",
+  "definition": "The relation between a specific point in time (year, date) and an event, season, or occurrence that happened at that time."
+ },
+ {
+  "id": 36,
+  "name": "Team-Event Participation",
+  "definition": "The relation between a sports team or national squad and a specific competitive event or tournament in which they participated."
+ },
+ {
+  "id": 37,
+  "name": "Translation",
+  "definition": "The relation between a source work and its translated version, or between different language versions of the same work."
+ },
+ {
+  "id": 38,
+  "name": "Head of Government",
+  "definition": "The relation between a political leader (such as a Prime Minister) and the country or administrative division they govern."
+ },
+ {
+  "id": 39,
+  "name": "Language of Publication",
+  "definition": "The relation between a published work, newspaper, or media outlet and the language in which it is written or broadcast."
+ },
+ {
+  "id": 40,
+  "name": "Parent Organization",
+  "definition": "The relation between an organization, institute, or division and the larger parent organization to which it belongs."
+ },
+ {
+  "id": 41,
+  "name": "Profession",
+  "definition": "The relation between a person and their specific occupation, professional field, or area of expertise."
+ },
+ {
+  "id": 42,
+  "name": "Product Manufacturer",
+  "definition": "The relation between a product, vehicle, or model and the company that manufactured or branded it."
+ },
+ {
+  "id": 43,
+  "name": "Software Platform",
+  "definition": "The relation between a software application or feature and the operating system or platform on which it runs."
+ },
+ {
+  "id": 44,
+  "name": "Director",
+  "definition": "The relation between a film, play, or production and the person who directed it."
+ },
+ {
+  "id": 45,
+  "name": "Broadcast Network",
+  "definition": "The relation between a television or radio program and the network or channel that broadcasts it."
+ },
+ {
+  "id": 46,
+  "name": "Military Branch",
+  "definition": "The relation between a person or unit and the specific branch of the armed forces (e.g., Army, Navy, Air Force) in which they serve."
+ },
+ {
+  "id": 47,
+  "name": "Setting",
+  "definition": "The relation between a creative work, such as a film or novel, and the geographic location where the story is set or where production took place."
+ },
+ {
+  "id": 48,
+  "name": "Political Endorsement",
+  "definition": "The relation between a candidate or political event and a person or group endorsing or supporting them."
+ },
+ {
+  "id": 49,
+  "name": "Transportation Route",
+  "definition": "The relation between a transportation system (like a metro or railway) and a specific line or route that operates within it."
+ },
+ {
+  "id": 50,
+  "name": "Technology Owner",
+  "definition": "The relation between a specific technology, software feature, or product and the company that owns or develops it."
+ },
+ {
+  "id": 51,
+  "name": "Venue-Tenant",
+  "definition": "The relation between a sports or performance venue and the team, club, or organization that primarily uses or occupies it."
+ },
+ {
+  "id": 52,
+  "name": "Legislative Representation",
+  "definition": "The relation between a geographic constituency or district and the elected official who represents it in a legislative body."
+ },
+ {
+  "id": 53,
+  "name": "League Division",
+  "definition": "The relation between a sports team or club and the specific competitive division or tier it competes in."
+ },
+ {
+  "id": 54,
+  "name": "Birthplace",
+  "definition": "The relation between a person and the specific location where they were born."
+ },
+ {
+  "id": 55,
+  "name": "Medium",
+  "definition": "The relation between a creative work and the artistic medium, format, or genre category it belongs to (e.g., short story, opera, sculpture)."
+ },
+ {
+  "id": 56,
+  "name": "Facility Type",
+  "definition": "The relation between a specific named facility (like a military base or station) and the general type or classification of that facility."
+ },
+ {
+  "id": 57,
+  "name": "Product Developer",
+  "definition": "The relation between a product (typically software or a game) and the company or individual that developed it."
+ },
+ {
+  "id": 58,
+  "name": "Composer",
+  "definition": "The relation between a musical work and the individual who composed the music."
+ },
+ {
+  "id": 59,
+  "name": "Geographic Part",
+  "definition": "The relation between a larger geographic region and a smaller region or feature located within or adjacent to it."
+ },
+ {
+  "id": 60,
+  "name": "Character",
+  "definition": "The relation between a creative work (such as a movie, show, or book) and a fictional character that appears in it."
+ },
+ {
+  "id": 61,
+  "name": "Broadcaster",
+  "definition": "The relation between a program or show and the television network or channel that broadcasts it."
+ },
+ {
+  "id": 62,
+  "name": "Educational Affiliation",
+  "definition": "The relation between a person (typically a student or teacher) and the educational institution they attend or work for."
+ },
+ {
+  "id": 63,
+  "name": "Origin",
+  "definition": "The relation between a person or group and the geographic location they are from or where they originated."
+ },
+ {
+  "id": 64,
+  "name": "Literary Form",
+  "definition": "The relation between a writer and the literary form or genre they write in (e.g., novel, short story)."
+ }
+]

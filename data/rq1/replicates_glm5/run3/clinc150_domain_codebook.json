@@ -1,0 +1,99 @@
+{
+  "bench": "clinc150_domain",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking & Finance",
+      "definition": "Managing bank accounts, credit cards, transactions, loans, taxes, and financial inquiries."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Scheduling",
+      "definition": "Managing events, meetings, reminders, appointments, and calendar queries."
+    },
+    {
+      "id": 3,
+      "name": "Travel & Transportation",
+      "definition": "Booking flights, hotels, rentals, checking flight status, and travel logistics."
+    },
+    {
+      "id": 4,
+      "name": "Navigation & Location",
+      "definition": "Getting directions, checking traffic, locating places, and identifying current location."
+    },
+    {
+      "id": 5,
+      "name": "Food & Dining",
+      "definition": "Finding restaurants, making reservations, and checking dining reviews."
+    },
+    {
+      "id": 6,
+      "name": "Shopping & Organization",
+      "definition": "Managing shopping lists, grocery lists, and tracking orders or deliveries."
+    },
+    {
+      "id": 7,
+      "name": "Media & Music",
+      "definition": "Playing music, managing playlists, identifying songs, and controlling media playback."
+    },
+    {
+      "id": 8,
+      "name": "Device Settings & Voice",
+      "definition": "Adjusting device settings like volume, voice, language, and system resets."
+    },
+    {
+      "id": 9,
+      "name": "Automotive & Fuel",
+      "definition": "Checking vehicle status, fuel levels, tire pressure, and maintenance needs."
+    },
+    {
+      "id": 10,
+      "name": "Cooking & Recipes",
+      "definition": "Finding recipes, checking ingredients, and cooking instructions or substitutions."
+    },
+    {
+      "id": 11,
+      "name": "Knowledge & Trivia",
+      "definition": "Answering general knowledge questions, definitions, trivia, and philosophical queries."
+    },
+    {
+      "id": 12,
+      "name": "Time & Weather",
+      "definition": "Checking the time, date, timezones, timers, alarms, and weather forecasts."
+    },
+    {
+      "id": 13,
+      "name": "Communication",
+      "definition": "Making calls, sending messages, and sharing information with contacts."
+    },
+    {
+      "id": 14,
+      "name": "Employment & HR",
+      "definition": "Managing work-related tasks like payroll, PTO, vacation requests, and benefits."
+    },
+    {
+      "id": 15,
+      "name": "Health & Lifestyle",
+      "definition": "Managing health insurance, nutrition facts, and fitness or medical queries."
+    },
+    {
+      "id": 16,
+      "name": "Math & Utilities",
+      "definition": "Performing calculations, conversions, and generating random numbers or coin flips."
+    },
+    {
+      "id": 17,
+      "name": "Assistant Personality",
+      "definition": "Questions about the assistant's identity, capabilities, name, and personal attributes."
+    },
+    {
+      "id": 18,
+      "name": "Feedback & Social",
+      "definition": "Expressing gratitude, greetings, confirming answers, or providing feedback to the assistant."
+    }
+  ]
+}

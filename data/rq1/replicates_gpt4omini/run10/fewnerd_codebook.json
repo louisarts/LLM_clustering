@@ -1,0 +1,160 @@
+{
+  "bench": "fewnerd",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "News Outlet",
+      "definition": "A publication or broadcast organization that reports news."
+    },
+    {
+      "id": 2,
+      "name": "Television Network",
+      "definition": "A company that provides television programming to viewers."
+    },
+    {
+      "id": 3,
+      "name": "Geographical Location",
+      "definition": "A specific area or place, including cities, countries, and regions."
+    },
+    {
+      "id": 4,
+      "name": "Educational Institution",
+      "definition": "An organization that provides instruction or education."
+    },
+    {
+      "id": 5,
+      "name": "Cultural Entity",
+      "definition": "A group or organization that represents a specific culture or tradition."
+    },
+    {
+      "id": 6,
+      "name": "Political Entity",
+      "definition": "An organization or group involved in politics or governance."
+    },
+    {
+      "id": 7,
+      "name": "Historical Figure",
+      "definition": "A person known for their significant impact on history."
+    },
+    {
+      "id": 8,
+      "name": "Artistic Work",
+      "definition": "A creation in the field of art, including music, literature, and performance."
+    },
+    {
+      "id": 9,
+      "name": "Scientific Term",
+      "definition": "A term used in scientific contexts, including biology, chemistry, and physics."
+    },
+    {
+      "id": 10,
+      "name": "Sports Team",
+      "definition": "A group of individuals organized to compete in sports."
+    },
+    {
+      "id": 11,
+      "name": "Legislation",
+      "definition": "A law or set of laws enacted by a governing body."
+    },
+    {
+      "id": 12,
+      "name": "Award",
+      "definition": "A recognition given for achievement in a specific field."
+    },
+    {
+      "id": 13,
+      "name": "Event",
+      "definition": "A planned public or social occasion."
+    },
+    {
+      "id": 14,
+      "name": "Company",
+      "definition": "A business organization that sells goods or services."
+    },
+    {
+      "id": 15,
+      "name": "Language",
+      "definition": "A system of communication used by a particular community or country."
+    },
+    {
+      "id": 16,
+      "name": "Biological Entity",
+      "definition": "A living organism or biological component."
+    },
+    {
+      "id": 17,
+      "name": "Transportation Infrastructure",
+      "definition": "Structures and systems that facilitate transportation."
+    },
+    {
+      "id": 18,
+      "name": "Historical Event",
+      "definition": "A significant occurrence in history."
+    },
+    {
+      "id": 19,
+      "name": "Film",
+      "definition": "A motion picture or movie."
+    },
+    {
+      "id": 20,
+      "name": "Musical Composition",
+      "definition": "A piece of music created by a composer."
+    },
+    {
+      "id": 21,
+      "name": "Health Condition",
+      "definition": "A medical issue or disease affecting individuals."
+    },
+    {
+      "id": 22,
+      "name": "Political Movement",
+      "definition": "A group of people advocating for political change."
+    },
+    {
+      "id": 23,
+      "name": "Cultural Movement",
+      "definition": "A collective effort to promote cultural change or expression."
+    },
+    {
+      "id": 24,
+      "name": "Historical Document",
+      "definition": "A written record of historical significance."
+    },
+    {
+      "id": 25,
+      "name": "Natural Feature",
+      "definition": "A physical feature of the earth's surface."
+    },
+    {
+      "id": 26,
+      "name": "Sporting Event",
+      "definition": "A competition or match in a sport."
+    },
+    {
+      "id": 27,
+      "name": "Festival",
+      "definition": "A celebration or series of events held to honor a particular theme or occasion."
+    },
+    {
+      "id": 28,
+      "name": "Research Institution",
+      "definition": "An organization dedicated to scientific research."
+    },
+    {
+      "id": 29,
+      "name": "Historical Site",
+      "definition": "A location of historical significance."
+    },
+    {
+      "id": 30,
+      "name": "Community",
+      "definition": "A group of people living in the same place or having a particular characteristic in common."
+    }
+  ]
+}

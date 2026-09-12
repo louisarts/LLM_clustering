@@ -1,0 +1,392 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 8,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Programming",
+      "definition": "Questions about general programming languages, algorithms, software engineering, and development practices."
+    },
+    {
+      "id": 2,
+      "name": "Web Development",
+      "definition": "Technologies and practices specific to building and maintaining websites and web applications."
+    },
+    {
+      "id": 3,
+      "name": "Databases",
+      "definition": "Design, management, and querying of databases."
+    },
+    {
+      "id": 4,
+      "name": "System Administration",
+      "definition": "Managing servers, operating systems, and network services in a professional context."
+    },
+    {
+      "id": 5,
+      "name": "Networking",
+      "definition": "Computer network configurations, protocols, and troubleshooting."
+    },
+    {
+      "id": 6,
+      "name": "Information Security",
+      "definition": "Cybersecurity, data privacy, and secure system design and practices."
+    },
+    {
+      "id": 7,
+      "name": "Operating Systems & Hardware",
+      "definition": "General computer usage, troubleshooting, specific operating systems (Windows, Linux, macOS), and computer hardware."
+    },
+    {
+      "id": 8,
+      "name": "Sitecore",
+      "definition": "Questions specifically about the Sitecore content management system."
+    },
+    {
+      "id": 9,
+      "name": "SharePoint",
+      "definition": "Questions specifically about Microsoft SharePoint."
+    },
+    {
+      "id": 10,
+      "name": "Magento",
+      "definition": "Questions specifically about the Magento e-commerce platform."
+    },
+    {
+      "id": 11,
+      "name": "Salesforce",
+      "definition": "Questions specifically about the Salesforce platform."
+    },
+    {
+      "id": 12,
+      "name": "WordPress",
+      "definition": "Questions specifically about the WordPress content management system."
+    },
+    {
+      "id": 13,
+      "name": "Drupal",
+      "definition": "Questions specifically about the Drupal content management system."
+    },
+    {
+      "id": 14,
+      "name": "Raspberry Pi",
+      "definition": "Questions specifically about Raspberry Pi hardware and software."
+    },
+    {
+      "id": 15,
+      "name": "TeX - LaTeX",
+      "definition": "Questions about the LaTeX typesetting system."
+    },
+    {
+      "id": 16,
+      "name": "Physics",
+      "definition": "Physical phenomena, theories, and applications."
+    },
+    {
+      "id": 17,
+      "name": "Mathematics",
+      "definition": "Mathematical concepts, proofs, and problem-solving."
+    },
+    {
+      "id": 18,
+      "name": "Biology",
+      "definition": "Living organisms, life processes, and biological sciences."
+    },
+    {
+      "id": 19,
+      "name": "Chemistry",
+      "definition": "Chemical substances, reactions, and principles."
+    },
+    {
+      "id": 20,
+      "name": "Environmental Science",
+      "definition": "The environment, sustainability, and ecological issues."
+    },
+    {
+      "id": 21,
+      "name": "Data Science & Machine Learning",
+      "definition": "Data analysis, machine learning, and statistical modeling."
+    },
+    {
+      "id": 22,
+      "name": "Electrical Engineering",
+      "definition": "Electronics, circuits, and electrical systems."
+    },
+    {
+      "id": 23,
+      "name": "Automotive",
+      "definition": "Cars, motorcycles, and vehicle mechanics."
+    },
+    {
+      "id": 24,
+      "name": "History",
+      "definition": "Past events, civilizations, and historical figures."
+    },
+    {
+      "id": 25,
+      "name": "Philosophy",
+      "definition": "Fundamental nature of knowledge, reality, and existence."
+    },
+    {
+      "id": 26,
+      "name": "Politics",
+      "definition": "Government, public affairs, and political science."
+    },
+    {
+      "id": 27,
+      "name": "Law",
+      "definition": "Legal systems, regulations, and specific legal cases."
+    },
+    {
+      "id": 28,
+      "name": "Economics & Finance",
+      "definition": "Financial markets, personal finance, and economic theory."
+    },
+    {
+      "id": 29,
+      "name": "Workplace & Career",
+      "definition": "Career advice, job searching, and professional conduct."
+    },
+    {
+      "id": 30,
+      "name": "Academia",
+      "definition": "Academic life, research, and education."
+    },
+    {
+      "id": 31,
+      "name": "Psychology & Neuroscience",
+      "definition": "The mind, brain, and behavior."
+    },
+    {
+      "id": 32,
+      "name": "Skepticism",
+      "definition": "Critical thinking, debunking claims, and scientific method."
+    },
+    {
+      "id": 33,
+      "name": "English Language & Usage",
+      "definition": "English grammar, vocabulary, and idioms."
+    },
+    {
+      "id": 34,
+      "name": "German Language",
+      "definition": "German language and culture."
+    },
+    {
+      "id": 35,
+      "name": "French Language",
+      "definition": "French language and culture."
+    },
+    {
+      "id": 36,
+      "name": "Spanish Language",
+      "definition": "Spanish language and culture."
+    },
+    {
+      "id": 37,
+      "name": "Italian Language",
+      "definition": "Italian language and culture."
+    },
+    {
+      "id": 38,
+      "name": "Latin Language",
+      "definition": "Latin language and history."
+    },
+    {
+      "id": 39,
+      "name": "Japanese Language",
+      "definition": "Japanese language and culture."
+    },
+    {
+      "id": 40,
+      "name": "Ukrainian Language",
+      "definition": "Ukrainian language and culture."
+    },
+    {
+      "id": 41,
+      "name": "Russian Language",
+      "definition": "Russian language and culture."
+    },
+    {
+      "id": 42,
+      "name": "Portuguese Language",
+      "definition": "Portuguese language and culture."
+    },
+    {
+      "id": 43,
+      "name": "Linguistics",
+      "definition": "The scientific study of language."
+    },
+    {
+      "id": 44,
+      "name": "Language Learning",
+      "definition": "Methods and resources for learning languages."
+    },
+    {
+      "id": 45,
+      "name": "Gaming",
+      "definition": "Video games, board games, and game mechanics."
+    },
+    {
+      "id": 46,
+      "name": "Role-playing Games",
+      "definition": "Tabletop role-playing games."
+    },
+    {
+      "id": 47,
+      "name": "Photography",
+      "definition": "Cameras, techniques, and image capture."
+    },
+    {
+      "id": 48,
+      "name": "Graphic Design",
+      "definition": "Visual communication, typography, and image manipulation."
+    },
+    {
+      "id": 49,
+      "name": "Audio Production",
+      "definition": "Sound recording, mixing, and audio engineering."
+    },
+    {
+      "id": 50,
+      "name": "Music",
+      "definition": "Musical theory, instruments, and performance."
+    },
+    {
+      "id": 51,
+      "name": "Movies & TV",
+      "definition": "Films, television shows, and media studies."
+    },
+    {
+      "id": 52,
+      "name": "Writing & Creative Writing",
+      "definition": "Creative writing, storytelling, and literary techniques."
+    },
+    {
+      "id": 53,
+      "name": "Technical Writing",
+      "definition": "Creating technical documentation."
+    },
+    {
+      "id": 54,
+      "name": "Puzzles",
+      "definition": "Riddles, brain teasers, and logic puzzles."
+    },
+    {
+      "id": 55,
+      "name": "Travel",
+      "definition": "Destinations, logistics, and experiences of travel."
+    },
+    {
+      "id": 56,
+      "name": "Parenting",
+      "definition": "Raising children and family life."
+    },
+    {
+      "id": 57,
+      "name": "Pets",
+      "definition": "Animal care, behavior, and health."
+    },
+    {
+      "id": 58,
+      "name": "Home Improvement",
+      "definition": "DIY projects, repairs, and home maintenance."
+    },
+    {
+      "id": 59,
+      "name": "Gardening & Landscaping",
+      "definition": "Plants, cultivation, and outdoor spaces."
+    },
+    {
+      "id": 60,
+      "name": "Fitness & Nutrition",
+      "definition": "Exercise, diet, and health."
+    },
+    {
+      "id": 61,
+      "name": "Homebrewing",
+      "definition": "Making alcoholic beverages at home."
+    },
+    {
+      "id": 62,
+      "name": "Outdoors",
+      "definition": "Outdoor activities, camping, and wilderness skills."
+    },
+    {
+      "id": 63,
+      "name": "Hinduism",
+      "definition": "Hindu beliefs, practices, and scriptures."
+    },
+    {
+      "id": 64,
+      "name": "Islam",
+      "definition": "Islamic beliefs, practices, and scriptures."
+    },
+    {
+      "id": 65,
+      "name": "Judaism",
+      "definition": "Jewish beliefs, practices, and scriptures."
+    },
+    {
+      "id": 66,
+      "name": "Biblical Hermeneutics",
+      "definition": "Interpreting biblical texts."
+    },
+    {
+      "id": 67,
+      "name": "Mythology",
+      "definition": "Myths, legends, and folklore."
+    },
+    {
+      "id": 68,
+      "name": "Science Fiction & Fantasy",
+      "definition": "Speculative fiction, worldbuilding, and genre conventions."
+    },
+    {
+      "id": 69,
+      "name": "Amateur Radio",
+      "definition": "Ham radio, equipment, and regulations."
+    },
+    {
+      "id": 70,
+      "name": "Blockchain & Cryptocurrency",
+      "definition": "Blockchain technology, cryptocurrencies, and decentralized applications."
+    },
+    {
+      "id": 71,
+      "name": "GIS",
+      "definition": "Geographic Information Systems and spatial data."
+    },
+    {
+      "id": 72,
+      "name": "User Experience",
+      "definition": "Usability, interaction design, and user research."
+    },
+    {
+      "id": 73,
+      "name": "Software Recommendations",
+      "definition": "Asking for specific software tools."
+    },
+    {
+      "id": 74,
+      "name": "Stack Exchange Meta",
+      "definition": "Questions about the Stack Exchange network itself."
+    },
+    {
+      "id": 75,
+      "name": "Relationships",
+      "definition": "Questions about interpersonal relationships."
+    },
+    {
+      "id": 76,
+      "name": "Health",
+      "definition": "Questions about human health, medicine, and well-being."
+    },
+    {
+      "id": 77,
+      "name": "Sports",
+      "definition": "Questions about sports, rules, and statistics."
+    }
+  ]
+}

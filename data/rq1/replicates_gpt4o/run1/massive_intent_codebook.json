@@ -1,0 +1,260 @@
+{
+  "bench": "massive_intent",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Send Email",
+      "definition": "Compose and send an email to a specified recipient."
+    },
+    {
+      "id": 2,
+      "name": "Play Music",
+      "definition": "Play a specific song, playlist, or radio station."
+    },
+    {
+      "id": 3,
+      "name": "Set Reminder",
+      "definition": "Create a reminder for a specific time or event."
+    },
+    {
+      "id": 4,
+      "name": "Set Alarm",
+      "definition": "Set an alarm for a specified time."
+    },
+    {
+      "id": 5,
+      "name": "Check Weather",
+      "definition": "Provide current or forecasted weather information."
+    },
+    {
+      "id": 6,
+      "name": "Control Lights",
+      "definition": "Adjust the lighting settings, such as turning on/off or changing brightness."
+    },
+    {
+      "id": 7,
+      "name": "Calendar Management",
+      "definition": "Add, remove, or modify calendar events."
+    },
+    {
+      "id": 8,
+      "name": "Search Information",
+      "definition": "Look up information on a specified topic or question."
+    },
+    {
+      "id": 9,
+      "name": "Send Tweet",
+      "definition": "Compose and send a tweet on Twitter."
+    },
+    {
+      "id": 10,
+      "name": "Check News",
+      "definition": "Provide the latest news or headlines."
+    },
+    {
+      "id": 11,
+      "name": "Control Devices",
+      "definition": "Operate or adjust settings on smart devices, such as vacuum cleaners or speakers."
+    },
+    {
+      "id": 12,
+      "name": "Navigation and Directions",
+      "definition": "Provide directions or find routes to a specified location."
+    },
+    {
+      "id": 13,
+      "name": "Order Food",
+      "definition": "Place an order for food delivery or takeaway."
+    },
+    {
+      "id": 14,
+      "name": "Currency Conversion",
+      "definition": "Convert currency values between different currencies."
+    },
+    {
+      "id": 15,
+      "name": "Check Stock Prices",
+      "definition": "Provide current stock price information for a specified company."
+    },
+    {
+      "id": 16,
+      "name": "Math Calculation",
+      "definition": "Perform a mathematical calculation."
+    },
+    {
+      "id": 17,
+      "name": "Social Media Update",
+      "definition": "Post a status update or interact with social media platforms."
+    },
+    {
+      "id": 18,
+      "name": "Contact Information",
+      "definition": "Provide or manage contact information for individuals."
+    },
+    {
+      "id": 19,
+      "name": "Traffic Information",
+      "definition": "Provide current traffic conditions or commute times."
+    },
+    {
+      "id": 20,
+      "name": "General Inquiry",
+      "definition": "Engage in casual conversation or ask general questions."
+    },
+    {
+      "id": 21,
+      "name": "Recipe Inquiry",
+      "definition": "Request a recipe or cooking instructions."
+    },
+    {
+      "id": 22,
+      "name": "Event Inquiry",
+      "definition": "Ask about or find information on events or activities."
+    },
+    {
+      "id": 23,
+      "name": "Device Status",
+      "definition": "Check the status or settings of a device."
+    },
+    {
+      "id": 24,
+      "name": "List Management",
+      "definition": "Create, modify, or delete lists."
+    },
+    {
+      "id": 25,
+      "name": "Book Tickets",
+      "definition": "Reserve or purchase tickets for travel or events."
+    },
+    {
+      "id": 26,
+      "name": "Jokes and Entertainment",
+      "definition": "Request jokes or entertainment content."
+    },
+    {
+      "id": 27,
+      "name": "Stock Market Inquiry",
+      "definition": "Request information about stock market trends or specific stocks."
+    },
+    {
+      "id": 28,
+      "name": "Time Inquiry",
+      "definition": "Ask for the current time in a specific location."
+    },
+    {
+      "id": 29,
+      "name": "Reminder Inquiry",
+      "definition": "Ask about existing reminders or notifications."
+    },
+    {
+      "id": 30,
+      "name": "Email Management",
+      "definition": "Check, read, or manage emails."
+    },
+    {
+      "id": 31,
+      "name": "Podcast and Audiobook",
+      "definition": "Play or manage podcasts and audiobooks."
+    },
+    {
+      "id": 32,
+      "name": "Shopping Inquiry",
+      "definition": "Request information or recommendations for shopping."
+    },
+    {
+      "id": 33,
+      "name": "Exchange Rates",
+      "definition": "Provide current exchange rates between currencies."
+    },
+    {
+      "id": 34,
+      "name": "Event Scheduling",
+      "definition": "Schedule or inquire about meetings or appointments."
+    },
+    {
+      "id": 35,
+      "name": "Device Control",
+      "definition": "Turn on or off devices or adjust their settings."
+    },
+    {
+      "id": 36,
+      "name": "Social Media Interaction",
+      "definition": "Interact with social media platforms, such as liking or commenting."
+    },
+    {
+      "id": 37,
+      "name": "General Knowledge",
+      "definition": "Provide information or answer questions about general knowledge topics."
+    },
+    {
+      "id": 38,
+      "name": "News Inquiry",
+      "definition": "Request specific news articles or updates on a topic."
+    },
+    {
+      "id": 39,
+      "name": "Music Control",
+      "definition": "Control music playback, such as pausing or skipping tracks."
+    },
+    {
+      "id": 40,
+      "name": "Volume Control",
+      "definition": "Adjust the volume of audio devices."
+    },
+    {
+      "id": 41,
+      "name": "Event Cancellation",
+      "definition": "Cancel or remove scheduled events from a calendar."
+    },
+    {
+      "id": 42,
+      "name": "Weather Alerts",
+      "definition": "Set up notifications for weather-related alerts or disasters."
+    },
+    {
+      "id": 43,
+      "name": "Social Media Posting",
+      "definition": "Post content or updates on social media platforms."
+    },
+    {
+      "id": 44,
+      "name": "Device Activation",
+      "definition": "Activate or start a device or application."
+    },
+    {
+      "id": 45,
+      "name": "Event Reminder",
+      "definition": "Set or inquire about reminders for upcoming events."
+    },
+    {
+      "id": 46,
+      "name": "Stock Inquiry",
+      "definition": "Request detailed information about stock prices or market trends."
+    },
+    {
+      "id": 47,
+      "name": "Calendar Inquiry",
+      "definition": "Ask about or view calendar events and schedules."
+    },
+    {
+      "id": 48,
+      "name": "Recipe Request",
+      "definition": "Request a recipe or cooking instructions for a specific dish."
+    },
+    {
+      "id": 49,
+      "name": "Device Deactivation",
+      "definition": "Deactivate or turn off a device or application."
+    },
+    {
+      "id": 50,
+      "name": "Social Media Complaint",
+      "definition": "Post a complaint or feedback on social media platforms."
+    }
+  ]
+}

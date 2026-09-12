@@ -1,0 +1,110 @@
+{
+  "bench": "fewevent",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "musician",
+      "definition": "Document refers to a musician or their work."
+    },
+    {
+      "id": 2,
+      "name": "athlete",
+      "definition": "Document refers to an athlete or their achievements."
+    },
+    {
+      "id": 3,
+      "name": "work",
+      "definition": "Document refers to work or work-related activities."
+    },
+    {
+      "id": 4,
+      "name": "event",
+      "definition": "Document refers to a specific event or series of events."
+    },
+    {
+      "id": 5,
+      "name": "sailor",
+      "definition": "Document refers to a sailor or their service."
+    },
+    {
+      "id": 6,
+      "name": "film",
+      "definition": "Document refers to a film or film-related activities."
+    },
+    {
+      "id": 7,
+      "name": "command",
+      "definition": "Document refers to a command or leadership role."
+    },
+    {
+      "id": 8,
+      "name": "president",
+      "definition": "Document refers to a president or presidency."
+    },
+    {
+      "id": 9,
+      "name": "school",
+      "definition": "Document refers to a school or educational institution."
+    },
+    {
+      "id": 10,
+      "name": "professor",
+      "definition": "Document refers to a professor or academic role."
+    },
+    {
+      "id": 11,
+      "name": "wife",
+      "definition": "Document refers to a wife or marital relationship."
+    },
+    {
+      "id": 12,
+      "name": "soldier",
+      "definition": "Document refers to a soldier or military service."
+    },
+    {
+      "id": 13,
+      "name": "gold",
+      "definition": "Document refers to a gold medal or achievement."
+    },
+    {
+      "id": 14,
+      "name": "bronze",
+      "definition": "Document refers to a bronze medal or achievement."
+    },
+    {
+      "id": 15,
+      "name": "silver",
+      "definition": "Document refers to a silver medal or achievement."
+    },
+    {
+      "id": 16,
+      "name": "director",
+      "definition": "Document refers to a director or leadership role."
+    },
+    {
+      "id": 17,
+      "name": "professor",
+      "definition": "Document refers to a professor or academic role."
+    },
+    {
+      "id": 18,
+      "name": "command",
+      "definition": "Document refers to a command or leadership role."
+    },
+    {
+      "id": 19,
+      "name": "film",
+      "definition": "Document refers to a film or film-related activities."
+    },
+    {
+      "id": 20,
+      "name": "together",
+      "definition": "Document refers to a situation where individuals are together."
+    }
+  ]
+}

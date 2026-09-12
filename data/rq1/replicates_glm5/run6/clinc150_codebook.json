@@ -1,0 +1,314 @@
+{
+  "bench": "clinc150",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking_Balance",
+      "definition": "User requests the balance, rewards points, or total funds available in their bank accounts or credit cards."
+    },
+    {
+      "id": 2,
+      "name": "Banking_Transfer",
+      "definition": "User requests to move money between accounts, set up direct deposit, or perform wire transfers."
+    },
+    {
+      "id": 3,
+      "name": "Banking_ReportIssue",
+      "definition": "User reports a lost or stolen card, suspects fraudulent activity, or requests to block or stop an account."
+    },
+    {
+      "id": 4,
+      "name": "Banking_Info",
+      "definition": "User asks for specific banking details like routing numbers, transaction fees, interest rates, or card application status."
+    },
+    {
+      "id": 5,
+      "name": "Calendar_Schedule",
+      "definition": "User requests to create a meeting, event, or reservation, or to add something to their calendar."
+    },
+    {
+      "id": 6,
+      "name": "Calendar_Query",
+      "definition": "User asks about their schedule, upcoming meetings, or events on a specific date."
+    },
+    {
+      "id": 7,
+      "name": "Device_Control",
+      "definition": "User requests to change device settings, connect to phones, adjust volume, or switch operational modes."
+    },
+    {
+      "id": 8,
+      "name": "Device_Find",
+      "definition": "User requests assistance in locating a lost physical item such as a phone or remote."
+    },
+    {
+      "id": 9,
+      "name": "Finance_Payroll",
+      "definition": "User asks about their salary, paycheck arrival date, tax documents like W2, or pay information."
+    },
+    {
+      "id": 10,
+      "name": "Finance_Investment",
+      "definition": "User requests actions or information regarding stocks, 401k, or investment accounts."
+    },
+    {
+      "id": 11,
+      "name": "Finance_Credit",
+      "definition": "User asks about credit scores, credit limits, or ways to improve their credit status."
+    },
+    {
+      "id": 12,
+      "name": "Finance_Bills",
+      "definition": "User requests to pay a bill, check bill status, or inquire about payment amounts and due dates."
+    },
+    {
+      "id": 13,
+      "name": "Food_Recipe",
+      "definition": "User asks for recipes, cooking instructions, ingredient lists, or food preparation advice."
+    },
+    {
+      "id": 14,
+      "name": "Food_Nutrition",
+      "definition": "User asks for nutritional information, calories, or dietary details for food items."
+    },
+    {
+      "id": 15,
+      "name": "Food_Safety",
+      "definition": "User asks about food expiration, storage duration, or safety of consuming specific items."
+    },
+    {
+      "id": 16,
+      "name": "Travel_Flight",
+      "definition": "User asks about flight status, schedules, or airplane safety models."
+    },
+    {
+      "id": 17,
+      "name": "Travel_Requirements",
+      "definition": "User asks about visa requirements, vaccinations, or safety alerts for travel destinations."
+    },
+    {
+      "id": 18,
+      "name": "Travel_Booking",
+      "definition": "User requests to book or cancel hotel reservations or other travel accommodations."
+    },
+    {
+      "id": 19,
+      "name": "Transportation_Traffic",
+      "definition": "User asks about current traffic conditions or optimal driving routes."
+    },
+    {
+      "id": 20,
+      "name": "Transportation_Public",
+      "definition": "User asks about bus schedules, routes, or travel times via public transportation."
+    },
+    {
+      "id": 21,
+      "name": "Vehicle_Status",
+      "definition": "User asks about the current status of their car regarding fuel, tire pressure, or battery."
+    },
+    {
+      "id": 22,
+      "name": "Vehicle_Maintenance",
+      "definition": "User asks about or requests scheduling for car maintenance like oil changes or tire rotations."
+    },
+    {
+      "id": 23,
+      "name": "Vehicle_Info",
+      "definition": "User asks about vehicle specifications, required fuel type, or dashboard indicator meanings."
+    },
+    {
+      "id": 24,
+      "name": "Vehicle_Action",
+      "definition": "User requests instructions or assistance to perform physical vehicle tasks like jump starting or changing oil."
+    },
+    {
+      "id": 25,
+      "name": "Media_Music",
+      "definition": "User requests to play, skip, or identify music, or to manage music playlists."
+    },
+    {
+      "id": 26,
+      "name": "Media_Search",
+      "definition": "User requests to find specific media content, look up song lyrics, or search for sheet music."
+    },
+    {
+      "id": 27,
+      "name": "Media_Books",
+      "definition": "User requests to order books or search for book titles and authors."
+    },
+    {
+      "id": 28,
+      "name": "Media_Movies",
+      "definition": "User asks about movies currently showing in theaters or available to watch."
+    },
+    {
+      "id": 29,
+      "name": "Media_News",
+      "definition": "User asks for current news, specific articles, or market updates."
+    },
+    {
+      "id": 30,
+      "name": "Media_TV",
+      "definition": "User asks about television shows airing tonight or TV schedules."
+    },
+    {
+      "id": 31,
+      "name": "List_Add",
+      "definition": "User requests to add an item to a specific list such as a to-do or grocery list."
+    },
+    {
+      "id": 32,
+      "name": "List_Query",
+      "definition": "User asks to view the contents of a list or check if a specific item is on it."
+    },
+    {
+      "id": 33,
+      "name": "List_Manage",
+      "definition": "User requests to clear a list or modify list items."
+    },
+    {
+      "id": 34,
+      "name": "Alarm_Timer",
+      "definition": "User requests to set an alarm or a timer for a specific time or duration."
+    },
+    {
+      "id": 35,
+      "name": "Order_Status",
+      "definition": "User requests to track the status or delivery of a placed order."
+    },
+    {
+      "id": 36,
+      "name": "Order_Purchase",
+      "definition": "User requests to purchase items online, such as eyeglasses, stamps, or spacesuits."
+    },
+    {
+      "id": 37,
+      "name": "Restaurant_Info",
+      "definition": "User asks for restaurant reviews, cuisine recommendations, or specific menu details."
+    },
+    {
+      "id": 38,
+      "name": "Restaurant_Reservation",
+      "definition": "User requests to make, confirm, or cancel a restaurant reservation."
+    },
+    {
+      "id": 39,
+      "name": "Weather",
+      "definition": "User asks about current or future weather conditions in a specific location."
+    },
+    {
+      "id": 40,
+      "name": "Time_Date",
+      "definition": "User asks for the current time in a specific location or the date."
+    },
+    {
+      "id": 41,
+      "name": "General_Knowledge",
+      "definition": "User asks for facts, definitions, explanations, or general information about the world."
+    },
+    {
+      "id": 42,
+      "name": "Spelling_Vocab",
+      "definition": "User asks for the correct spelling of a word or the meaning of a specific word."
+    },
+    {
+      "id": 43,
+      "name": "Translation",
+      "definition": "User asks for the translation of a word or phrase into a different language."
+    },
+    {
+      "id": 44,
+      "name": "Math_Calculation",
+      "definition": "User requests a mathematical calculation or conversion."
+    },
+    {
+      "id": 45,
+      "name": "Random_Generation",
+      "definition": "User requests a random outcome generation such as rolling dice or flipping a coin."
+    },
+    {
+      "id": 46,
+      "name": "Personalization_Name",
+      "definition": "User requests to change what the assistant calls them or what they call the assistant."
+    },
+    {
+      "id": 47,
+      "name": "Personalization_Language",
+      "definition": "User requests the assistant to speak or understand a specific language."
+    },
+    {
+      "id": 48,
+      "name": "Assistant_Personality",
+      "definition": "User asks personal questions about the assistant's origins, preferences, or nature."
+    },
+    {
+      "id": 49,
+      "name": "Communication_Message",
+      "definition": "User requests to read, send, or manage text messages or emails."
+    },
+    {
+      "id": 50,
+      "name": "Communication_Location",
+      "definition": "User requests to share their GPS location with a contact."
+    },
+    {
+      "id": 51,
+      "name": "Search_General",
+      "definition": "User requests a general web search or to look up specific information online."
+    },
+    {
+      "id": 52,
+      "name": "Search_Jobs",
+      "definition": "User requests to search for job listings or career opportunities."
+    },
+    {
+      "id": 53,
+      "name": "Search_Local",
+      "definition": "User requests to find nearby businesses, services, or locations."
+    },
+    {
+      "id": 54,
+      "name": "Home_Appliance",
+      "definition": "User requests to control or check the status of smart home devices like ovens or vacuums."
+    },
+    {
+      "id": 55,
+      "name": "Health_Medical",
+      "definition": "User asks about medical symptoms, vaccinations, or health-related advice."
+    },
+    {
+      "id": 56,
+      "name": "Work_TimeOff",
+      "definition": "User asks about their paid time off balance, vacation days, or time off request status."
+    },
+    {
+      "id": 57,
+      "name": "Work_Task",
+      "definition": "User requests to create a list of work-related goals or tasks."
+    },
+    {
+      "id": 58,
+      "name": "Insurance",
+      "definition": "User asks about insurance plans, costs, or requests to switch plans."
+    },
+    {
+      "id": 59,
+      "name": "Legal",
+      "definition": "User asks about the legality of a specific scenario or action."
+    },
+    {
+      "id": 60,
+      "name": "Feedback",
+      "definition": "User provides a response indicating agreement, disagreement, or completion of the interaction."
+    },
+    {
+      "id": 61,
+      "name": "Repeat_Understand",
+      "definition": "User requests the assistant to repeat the last statement or indicates they did not hear or understand."
+    }
+  ]
+}

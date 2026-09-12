@@ -1,0 +1,60 @@
+{
+  "bench": "tweet89",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Gabrielle Giffords Condition",
+      "definition": "Tweets related to the condition and recovery of Gabrielle Giffords"
+    },
+    {
+      "id": 2,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets discussing or referencing commercials aired during the Super Bowl"
+    },
+    {
+      "id": 3,
+      "name": "Healthcare Law",
+      "definition": "Tweets related to federal judges, healthcare law, and related decisions"
+    },
+    {
+      "id": 4,
+      "name": "Sports News",
+      "definition": "Tweets about sports events, athletes, and related news"
+    },
+    {
+      "id": 5,
+      "name": "Academy Awards",
+      "definition": "Tweets about Oscar nominations, winners, and related news"
+    },
+    {
+      "id": 6,
+      "name": "Privacy Settings",
+      "definition": "Tweets discussing privacy settings on social media platforms"
+    },
+    {
+      "id": 7,
+      "name": "Protests in Yemen",
+      "definition": "Tweets about protests and political unrest in Yemen"
+    },
+    {
+      "id": 8,
+      "name": "Financial Aid and Scholarships",
+      "definition": "Tweets related to scholarships, financial aid, and student grants"
+    },
+    {
+      "id": 9,
+      "name": "Identity Theft",
+      "definition": "Tweets discussing identity theft, online fraud, and related crimes"
+    },
+    {
+      "id": 10,
+      "name": "Social Media and Politics",
+      "definition": "Tweets about the use of social media in politics and political campaigns"
+    }
+  ]
+}

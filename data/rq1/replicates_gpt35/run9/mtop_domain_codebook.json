@@ -1,0 +1,95 @@
+{
+  "bench": "mtop_domain",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm",
+      "definition": "Setting, changing, or cancelling alarms or reminders"
+    },
+    {
+      "id": 2,
+      "name": "Call",
+      "definition": "Making, receiving, or changing phone calls"
+    },
+    {
+      "id": 3,
+      "name": "Messaging",
+      "definition": "Sending, receiving, or replying to messages via text or video"
+    },
+    {
+      "id": 4,
+      "name": "Music",
+      "definition": "Playing, pausing, or changing music playlists or songs"
+    },
+    {
+      "id": 5,
+      "name": "Weather",
+      "definition": "Checking or providing weather forecasts"
+    },
+    {
+      "id": 6,
+      "name": "Timer",
+      "definition": "Setting, changing, or cancelling timers"
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Checking or providing news updates"
+    },
+    {
+      "id": 8,
+      "name": "Recipe",
+      "definition": "Finding or providing recipes for cooking or baking"
+    },
+    {
+      "id": 9,
+      "name": "Contact",
+      "definition": "Calling, messaging, or video messaging specific contacts"
+    },
+    {
+      "id": 10,
+      "name": "Location",
+      "definition": "Setting or changing location-based reminders or alerts"
+    },
+    {
+      "id": 11,
+      "name": "Calendar",
+      "definition": "Checking, setting, or changing calendar events or appointments"
+    },
+    {
+      "id": 12,
+      "name": "Social Media",
+      "definition": "Sending messages or making calls via social media platforms"
+    },
+    {
+      "id": 13,
+      "name": "Health",
+      "definition": "Checking or providing health-related information such as calories or recipes"
+    },
+    {
+      "id": 14,
+      "name": "Event",
+      "definition": "Finding or recommending events happening in specific locations or dates"
+    },
+    {
+      "id": 15,
+      "name": "Traffic",
+      "definition": "Checking or providing traffic updates or alternative routes"
+    },
+    {
+      "id": 16,
+      "name": "Status",
+      "definition": "Changing online status or visibility"
+    },
+    {
+      "id": 17,
+      "name": "Education",
+      "definition": "Checking or providing information about schools or universities attended by contacts"
+    }
+  ]
+}

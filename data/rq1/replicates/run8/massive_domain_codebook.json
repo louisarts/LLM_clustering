@@ -1,0 +1,92 @@
+{
+  "bench": "massive_domain",
+  "run": 8,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Query",
+      "definition": "Requests for factual information, definitions, calculations, conversions, or general knowledge."
+    },
+    {
+      "id": 2,
+      "name": "News & Current Events",
+      "definition": "Requests for general news, headlines, or specific updates on ongoing events or topics."
+    },
+    {
+      "id": 3,
+      "name": "Weather",
+      "definition": "Inquiries about current weather conditions, forecasts, or weather-related advice."
+    },
+    {
+      "id": 4,
+      "name": "Music & Audio Playback",
+      "definition": "Commands to play, control, or manage music, podcasts, radio, or other audio content."
+    },
+    {
+      "id": 5,
+      "name": "Calendar & Reminders",
+      "definition": "Creating, modifying, checking, or deleting calendar events, alarms, or reminders."
+    },
+    {
+      "id": 6,
+      "name": "Lists & Notes",
+      "definition": "Creating, checking, modifying, or deleting various types of lists (e.g., shopping, to-do) or notes."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "Sending, checking, or replying to emails, text messages, or social media posts, and managing contacts."
+    },
+    {
+      "id": 8,
+      "name": "Smart Home & Device Control",
+      "definition": "Commands to control smart home devices (lights, appliances) or general device settings (volume, power)."
+    },
+    {
+      "id": 9,
+      "name": "Navigation & Travel",
+      "definition": "Requests for directions, public transport information, or booking travel services (taxis, trains)."
+    },
+    {
+      "id": 10,
+      "name": "App Management",
+      "definition": "Commands to open, close, or interact with specific applications."
+    },
+    {
+      "id": 11,
+      "name": "Jokes & Entertainment",
+      "definition": "Requests for jokes or general entertainment content."
+    },
+    {
+      "id": 12,
+      "name": "Time & Date",
+      "definition": "Inquiries about current time, date, or time zone conversions."
+    },
+    {
+      "id": 13,
+      "name": "Personal Well-being",
+      "definition": "Commands or queries related to personal health, diet, or self-improvement goals."
+    },
+    {
+      "id": 14,
+      "name": "Shopping & Local Services",
+      "definition": "Finding stores, ordering products/food, checking prices, locating local services, or checking order status."
+    },
+    {
+      "id": 15,
+      "name": "General Conversation",
+      "definition": "Casual chat, greetings, expressing feelings, or open-ended conversational prompts not seeking specific information or action."
+    },
+    {
+      "id": 16,
+      "name": "Productivity & Planning",
+      "definition": "Requests for assistance with planning, organizing, analyzing ideas, or executing routines."
+    },
+    {
+      "id": 17,
+      "name": "General Notification",
+      "definition": "A general request to be alerted or notified, without specifying the type of event or reminder."
+    }
+  ]
+}

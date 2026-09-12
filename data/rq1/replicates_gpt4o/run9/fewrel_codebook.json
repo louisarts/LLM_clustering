@@ -1,0 +1,120 @@
+{
+  "bench": "fewrel",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person-Event",
+      "definition": "A person is associated with an event, such as participation, nomination, or achievement."
+    },
+    {
+      "id": 2,
+      "name": "Person-Organization",
+      "definition": "A person is associated with an organization, such as employment, leadership, or membership."
+    },
+    {
+      "id": 3,
+      "name": "Person-Person",
+      "definition": "A relationship between two people, such as familial, collaborative, or mentorship."
+    },
+    {
+      "id": 4,
+      "name": "Person-Place",
+      "definition": "A person is associated with a place, such as birthplace, residence, or significant activity location."
+    },
+    {
+      "id": 5,
+      "name": "Event-Place",
+      "definition": "An event is associated with a place, such as where it occurred or is held."
+    },
+    {
+      "id": 6,
+      "name": "Event-Event",
+      "definition": "A relationship between two events, such as sequence, causation, or participation."
+    },
+    {
+      "id": 7,
+      "name": "Organization-Place",
+      "definition": "An organization is associated with a place, such as headquarters, origin, or operational area."
+    },
+    {
+      "id": 8,
+      "name": "Organization-Organization",
+      "definition": "A relationship between two organizations, such as partnership, merger, or competition."
+    },
+    {
+      "id": 9,
+      "name": "Organization-Event",
+      "definition": "An organization is associated with an event, such as hosting, sponsoring, or participating."
+    },
+    {
+      "id": 10,
+      "name": "Place-Place",
+      "definition": "A relationship between two places, such as geographical proximity, administrative division, or historical connection."
+    },
+    {
+      "id": 11,
+      "name": "Place-Event",
+      "definition": "A place is associated with an event, such as being the location of occurrence or significance."
+    },
+    {
+      "id": 12,
+      "name": "Object-Person",
+      "definition": "An object is associated with a person, such as creation, ownership, or dedication."
+    },
+    {
+      "id": 13,
+      "name": "Object-Organization",
+      "definition": "An object is associated with an organization, such as production, ownership, or representation."
+    },
+    {
+      "id": 14,
+      "name": "Object-Event",
+      "definition": "An object is associated with an event, such as being featured, used, or awarded."
+    },
+    {
+      "id": 15,
+      "name": "Object-Place",
+      "definition": "An object is associated with a place, such as origin, location, or significance."
+    },
+    {
+      "id": 16,
+      "name": "Object-Object",
+      "definition": "A relationship between two objects, such as similarity, sequence, or transformation."
+    },
+    {
+      "id": 17,
+      "name": "Concept-Concept",
+      "definition": "A relationship between two concepts, such as synonymy, antonymy, or thematic connection."
+    },
+    {
+      "id": 18,
+      "name": "Concept-Object",
+      "definition": "A concept is associated with an object, such as representation, inspiration, or theme."
+    },
+    {
+      "id": 19,
+      "name": "Concept-Event",
+      "definition": "A concept is associated with an event, such as theme, cause, or outcome."
+    },
+    {
+      "id": 20,
+      "name": "Concept-Person",
+      "definition": "A concept is associated with a person, such as belief, advocacy, or representation."
+    },
+    {
+      "id": 21,
+      "name": "Concept-Organization",
+      "definition": "A concept is associated with an organization, such as mission, value, or representation."
+    },
+    {
+      "id": 22,
+      "name": "Concept-Place",
+      "definition": "A concept is associated with a place, such as cultural significance, origin, or representation."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "bench": "mtop_domain",
+  "run": 5,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms",
+      "definition": "Creating, managing, or querying alarms."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Creating, managing, or querying reminders for tasks or events."
+    },
+    {
+      "id": 3,
+      "name": "Timers",
+      "definition": "Creating, managing, or querying countdown timers."
+    },
+    {
+      "id": 4,
+      "name": "Music Playback",
+      "definition": "Controlling music playback, searching for music, or identifying songs."
+    },
+    {
+      "id": 5,
+      "name": "Calling",
+      "definition": "Initiating, managing, or querying phone or video calls."
+    },
+    {
+      "id": 6,
+      "name": "Messaging",
+      "definition": "Sending, receiving, or querying text or video messages."
+    },
+    {
+      "id": 7,
+      "name": "Weather Information",
+      "definition": "Requesting current or forecasted weather conditions."
+    },
+    {
+      "id": 8,
+      "name": "News Information",
+      "definition": "Requesting current events, headlines, or specific news topics."
+    },
+    {
+      "id": 9,
+      "name": "Recipe and Cooking Information",
+      "definition": "Requesting recipes, cooking instructions, or food preparation facts."
+    },
+    {
+      "id": 10,
+      "name": "Nutrition and General Facts",
+      "definition": "Requesting nutritional information or general factual knowledge."
+    },
+    {
+      "id": 11,
+      "name": "People and Contact Information",
+      "definition": "Querying information about people, contacts, or social connections."
+    },
+    {
+      "id": 12,
+      "name": "Events and Local Search",
+      "definition": "Searching for local events, activities, or managing event attendance."
+    },
+    {
+      "id": 13,
+      "name": "System Settings",
+      "definition": "Adjusting device or assistant settings or preferences."
+    }
+  ]
+}

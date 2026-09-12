@@ -1,0 +1,100 @@
+{
+  "bench": "massive_intent",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Reminder",
+      "definition": "Create a reminder for a specific event or task."
+    },
+    {
+      "id": 2,
+      "name": "Play Music or Audio",
+      "definition": "Play music, podcasts, or other audio content."
+    },
+    {
+      "id": 3,
+      "name": "Control Smart Home Devices",
+      "definition": "Adjust settings or control smart home devices like lights or appliances."
+    },
+    {
+      "id": 4,
+      "name": "Send Email or Message",
+      "definition": "Compose and send an email or message to a contact."
+    },
+    {
+      "id": 5,
+      "name": "Check Email",
+      "definition": "Retrieve information about new or unread emails."
+    },
+    {
+      "id": 6,
+      "name": "Get Weather Information",
+      "definition": "Request current or forecasted weather conditions."
+    },
+    {
+      "id": 7,
+      "name": "Get News or Information",
+      "definition": "Request the latest news or information on a specific topic."
+    },
+    {
+      "id": 8,
+      "name": "Set Alarm or Timer",
+      "definition": "Create or manage alarms or timers."
+    },
+    {
+      "id": 9,
+      "name": "Get Time or Date",
+      "definition": "Request the current time or date information."
+    },
+    {
+      "id": 10,
+      "name": "Book or Order Service",
+      "definition": "Book a service like a taxi or order food."
+    },
+    {
+      "id": 11,
+      "name": "Social Media Interaction",
+      "definition": "Post or interact with social media platforms."
+    },
+    {
+      "id": 12,
+      "name": "Get Directions or Navigation",
+      "definition": "Request directions or navigation assistance."
+    },
+    {
+      "id": 13,
+      "name": "Manage Lists",
+      "definition": "Create, modify, or delete lists or list items."
+    },
+    {
+      "id": 14,
+      "name": "Get Definitions or Explanations",
+      "definition": "Request definitions or explanations of terms or concepts."
+    },
+    {
+      "id": 15,
+      "name": "Check Calendar or Schedule",
+      "definition": "Retrieve or manage calendar events or schedules."
+    },
+    {
+      "id": 16,
+      "name": "Get Stock or Financial Information",
+      "definition": "Request stock prices or financial information."
+    },
+    {
+      "id": 17,
+      "name": "Tell a Joke or Entertain",
+      "definition": "Request a joke or entertainment content."
+    },
+    {
+      "id": 18,
+      "name": "General Inquiry",
+      "definition": "Ask a general question not covered by other categories."
+    }
+  ]
+}

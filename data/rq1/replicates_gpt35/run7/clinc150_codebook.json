@@ -1,0 +1,60 @@
+{
+  "bench": "clinc150",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Food/Restaurant Related",
+      "definition": "Utterances related to food, restaurants, reservations, and dining out."
+    },
+    {
+      "id": 2,
+      "name": "Personal Finance/Banking",
+      "definition": "Utterances related to credit cards, bank accounts, loans, and financial transactions."
+    },
+    {
+      "id": 3,
+      "name": "Travel/Transportation",
+      "definition": "Utterances related to travel plans, reservations, transportation modes, and destinations."
+    },
+    {
+      "id": 4,
+      "name": "Weather/Forecast",
+      "definition": "Utterances related to weather conditions, forecasts, and climate."
+    },
+    {
+      "id": 5,
+      "name": "Health/Wellness",
+      "definition": "Utterances related to health concerns, medical advice, and wellness tips."
+    },
+    {
+      "id": 6,
+      "name": "Entertainment/Media",
+      "definition": "Utterances related to music, movies, books, and entertainment recommendations."
+    },
+    {
+      "id": 7,
+      "name": "Technology/Electronics",
+      "definition": "Utterances related to electronic devices, gadgets, and technical support."
+    },
+    {
+      "id": 8,
+      "name": "Language/Translation",
+      "definition": "Utterances related to language translation, spelling, and linguistic queries."
+    },
+    {
+      "id": 9,
+      "name": "Calendar/Scheduling",
+      "definition": "Utterances related to scheduling appointments, setting reminders, and managing calendars."
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge/Trivia",
+      "definition": "Utterances related to general knowledge, trivia questions, and fact-finding inquiries."
+    }
+  ]
+}

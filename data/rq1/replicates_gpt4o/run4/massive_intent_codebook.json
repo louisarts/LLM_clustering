@@ -1,0 +1,90 @@
+{
+  "bench": "massive_intent",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "Requests for weather forecasts or current weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "News Inquiry",
+      "definition": "Requests for news updates or specific news topics."
+    },
+    {
+      "id": 3,
+      "name": "Calendar Management",
+      "definition": "Commands to add, remove, or inquire about calendar events."
+    },
+    {
+      "id": 4,
+      "name": "Alarm Management",
+      "definition": "Commands to set, delete, or inquire about alarms."
+    },
+    {
+      "id": 5,
+      "name": "Email Management",
+      "definition": "Commands to send, compose, or check emails."
+    },
+    {
+      "id": 6,
+      "name": "Music and Media Playback",
+      "definition": "Commands to play, pause, or resume music, podcasts, or audiobooks."
+    },
+    {
+      "id": 7,
+      "name": "Smart Home Control",
+      "definition": "Commands to control smart home devices like lights, sockets, or vacuum cleaners."
+    },
+    {
+      "id": 8,
+      "name": "Reminder and Notification",
+      "definition": "Commands to set reminders or notifications for future events."
+    },
+    {
+      "id": 9,
+      "name": "Transportation Booking",
+      "definition": "Commands to book or inquire about transportation services like trains or taxis."
+    },
+    {
+      "id": 10,
+      "name": "Social Media Interaction",
+      "definition": "Commands to post or interact on social media platforms."
+    },
+    {
+      "id": 11,
+      "name": "General Knowledge Inquiry",
+      "definition": "Requests for information or explanations on various topics."
+    },
+    {
+      "id": 12,
+      "name": "Time and Date Inquiry",
+      "definition": "Requests for the current time or date in various locations."
+    },
+    {
+      "id": 13,
+      "name": "Currency Exchange Inquiry",
+      "definition": "Requests for currency exchange rates or financial information."
+    },
+    {
+      "id": 14,
+      "name": "Shopping and Grocery Management",
+      "definition": "Commands to manage shopping lists or inquire about product prices."
+    },
+    {
+      "id": 15,
+      "name": "Game Interaction",
+      "definition": "Commands to start or play games."
+    },
+    {
+      "id": 16,
+      "name": "Event and Activity Inquiry",
+      "definition": "Requests for information about local events or activities."
+    }
+  ]
+}

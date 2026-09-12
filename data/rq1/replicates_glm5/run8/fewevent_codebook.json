@@ -1,0 +1,99 @@
+{
+  "bench": "fewevent",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Personnel_Role",
+      "definition": "A professional title, occupation, or role held by an individual."
+    },
+    {
+      "id": 2,
+      "name": "Family_Relationship",
+      "definition": "A familial connection or role such as spouse, parent, or sibling."
+    },
+    {
+      "id": 3,
+      "name": "Award_Medal",
+      "definition": "A prize, medal, or award received as a result of competition or achievement."
+    },
+    {
+      "id": 4,
+      "name": "Military_Command",
+      "definition": "The act or position of directing military forces or operations."
+    },
+    {
+      "id": 5,
+      "name": "Marriage",
+      "definition": "The act or state of being married or the ceremony of marriage."
+    },
+    {
+      "id": 6,
+      "name": "Motion_Picture",
+      "definition": "A movie, film, or cinematic work."
+    },
+    {
+      "id": 7,
+      "name": "Music",
+      "definition": "The art form of sound, including songs, albums, and musical works."
+    },
+    {
+      "id": 8,
+      "name": "Performance",
+      "definition": "A live presentation, concert, or artistic act."
+    },
+    {
+      "id": 9,
+      "name": "Employment_Work",
+      "definition": "A job, task, or professional engagement."
+    },
+    {
+      "id": 10,
+      "name": "Education_Training",
+      "definition": "The process of learning, studying, or receiving academic instruction."
+    },
+    {
+      "id": 11,
+      "name": "Conflict_Violence",
+      "definition": "Physical fighting, assault, or acts of war."
+    },
+    {
+      "id": 12,
+      "name": "Movement_Travel",
+      "definition": "The act of moving, traveling, or transporting from one place to another."
+    },
+    {
+      "id": 13,
+      "name": "Communication",
+      "definition": "The act of conveying information through speech, writing, or electronic means."
+    },
+    {
+      "id": 14,
+      "name": "Political_Administrative",
+      "definition": "Actions or orders related to governance, law, or official administration."
+    },
+    {
+      "id": 15,
+      "name": "Competition_Victory",
+      "definition": "The act of winning a contest or the state of being a winner."
+    },
+    {
+      "id": 16,
+      "name": "Life_Status",
+      "definition": "A state of being, living situation, or existential condition."
+    },
+    {
+      "id": 17,
+      "name": "Object_Artifact",
+      "definition": "A physical object, room, or constructed entity."
+    },
+    {
+      "id": 18,
+      "name": "General_Action",
+      "definition": "A general physical or abstract action not covered by other categories."
+    }
+  ]
+}

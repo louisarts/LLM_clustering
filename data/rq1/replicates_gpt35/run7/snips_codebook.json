@@ -1,0 +1,160 @@
+{
+  "bench": "snips",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Media",
+      "definition": "User wants to play a specific media file or content."
+    },
+    {
+      "id": 2,
+      "name": "Find Media",
+      "definition": "User wants to locate a specific media file or content."
+    },
+    {
+      "id": 3,
+      "name": "Rate Media",
+      "definition": "User wants to provide a rating to a specific media file or content."
+    },
+    {
+      "id": 4,
+      "name": "Add Media to Playlist",
+      "definition": "User wants to add a specific media file or content to a playlist."
+    },
+    {
+      "id": 5,
+      "name": "Book Reservation",
+      "definition": "User wants to make a reservation at a specific location or event."
+    },
+    {
+      "id": 6,
+      "name": "Get Weather Forecast",
+      "definition": "User wants to know the weather forecast for a specific location and time."
+    },
+    {
+      "id": 7,
+      "name": "Find Schedule",
+      "definition": "User wants to find the schedule of movies or events at a specific location."
+    },
+    {
+      "id": 8,
+      "name": "Search for Media Title",
+      "definition": "User wants to search for a specific media title or content."
+    },
+    {
+      "id": 9,
+      "name": "Search for Restaurant",
+      "definition": "User wants to search for a restaurant based on specific criteria."
+    },
+    {
+      "id": 10,
+      "name": "Search for Music Genre/Year",
+      "definition": "User wants to search for music based on genre or year."
+    },
+    {
+      "id": 11,
+      "name": "Assign Rating to Media",
+      "definition": "User wants to assign a rating to a specific media file or content."
+    },
+    {
+      "id": 12,
+      "name": "Search for TV Show",
+      "definition": "User wants to search for a specific TV show or series."
+    },
+    {
+      "id": 13,
+      "name": "Search for Movie Genre/Year",
+      "definition": "User wants to search for movies based on genre or year."
+    },
+    {
+      "id": 14,
+      "name": "Search for Book Title",
+      "definition": "User wants to search for a specific book title."
+    },
+    {
+      "id": 15,
+      "name": "Search for Game Title",
+      "definition": "User wants to search for a specific game title."
+    },
+    {
+      "id": 16,
+      "name": "Search for Album Title",
+      "definition": "User wants to search for a specific album title."
+    },
+    {
+      "id": 17,
+      "name": "Search for Artist",
+      "definition": "User wants to search for a specific artist."
+    },
+    {
+      "id": 18,
+      "name": "Search for Trailer",
+      "definition": "User wants to search for a trailer of a specific media title."
+    },
+    {
+      "id": 19,
+      "name": "Search for Song Title",
+      "definition": "User wants to search for a specific song title."
+    },
+    {
+      "id": 20,
+      "name": "Search for Playlist",
+      "definition": "User wants to search for a specific playlist."
+    },
+    {
+      "id": 21,
+      "name": "Search for TV Series",
+      "definition": "User wants to search for a specific TV series."
+    },
+    {
+      "id": 22,
+      "name": "Search for Movie Times",
+      "definition": "User wants to search for movie times at a specific location."
+    },
+    {
+      "id": 23,
+      "name": "Search for Movie Type",
+      "definition": "User wants to search for movies based on type or category."
+    },
+    {
+      "id": 24,
+      "name": "Search for TV Show Episode",
+      "definition": "User wants to search for a specific episode of a TV show."
+    },
+    {
+      "id": 25,
+      "name": "Search for Movie Schedule",
+      "definition": "User wants to search for the schedule of movies at a specific location."
+    },
+    {
+      "id": 26,
+      "name": "Search for Movie Theater",
+      "definition": "User wants to search for a specific movie theater."
+    },
+    {
+      "id": 27,
+      "name": "Search for Movie Theater Playing Specific Movies",
+      "definition": "User wants to search for a movie theater playing specific movies."
+    },
+    {
+      "id": 28,
+      "name": "Search for Movie Theater Playing Animated Movies",
+      "definition": "User wants to search for a movie theater playing animated movies."
+    },
+    {
+      "id": 29,
+      "name": "Search for Movie Theater Playing Specific Genre",
+      "definition": "User wants to search for a movie theater playing movies of a specific genre."
+    },
+    {
+      "id": 30,
+      "name": "Search for Movie Theater Playing Specific Time",
+      "definition": "User wants to search for a movie theater playing movies at a specific time."
+    }
+  ]
+}

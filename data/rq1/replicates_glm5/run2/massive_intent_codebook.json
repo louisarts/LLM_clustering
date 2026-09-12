@@ -1,0 +1,124 @@
+{
+  "bench": "massive_intent",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music_Playback",
+      "definition": "Play, pause, resume, skip, or control music, radio, podcasts, or audiobooks."
+    },
+    {
+      "id": 2,
+      "name": "Calendar_Schedule",
+      "definition": "View, create, modify, or cancel events and appointments in a calendar."
+    },
+    {
+      "id": 3,
+      "name": "Weather_Forecast",
+      "definition": "Request weather conditions, forecasts, or temperature information."
+    },
+    {
+      "id": 4,
+      "name": "Email_Management",
+      "definition": "Send, read, check, or manage emails and email contacts."
+    },
+    {
+      "id": 5,
+      "name": "Alarm_Reminder",
+      "definition": "Set, modify, delete, or query alarms and personal reminders."
+    },
+    {
+      "id": 6,
+      "name": "General_Info",
+      "definition": "Ask general knowledge questions, definitions, or facts about people, places, or things."
+    },
+    {
+      "id": 7,
+      "name": "Smart_Home_Device",
+      "definition": "Control smart home devices like lights, plugs, thermostats, or appliances."
+    },
+    {
+      "id": 8,
+      "name": "News_Query",
+      "definition": "Request news headlines, updates, or articles on specific topics."
+    },
+    {
+      "id": 9,
+      "name": "Transportation_Booking",
+      "definition": "Book or request transportation services like taxis, Ubers, or trains."
+    },
+    {
+      "id": 10,
+      "name": "Navigation_Location",
+      "definition": "Request directions, traffic conditions, or information about nearby places."
+    },
+    {
+      "id": 11,
+      "name": "Time_Date",
+      "definition": "Request the current time, date, or time zone conversions."
+    },
+    {
+      "id": 12,
+      "name": "List_Management",
+      "definition": "Create, view, modify, or delete shopping or to-do lists."
+    },
+    {
+      "id": 13,
+      "name": "Recipe_Food",
+      "definition": "Request recipes, cooking instructions, or food preparation details."
+    },
+    {
+      "id": 14,
+      "name": "Social_Media",
+      "definition": "Post, check, or interact with social media platforms."
+    },
+    {
+      "id": 15,
+      "name": "Finance_Currency",
+      "definition": "Request stock prices, currency exchange rates, or financial data."
+    },
+    {
+      "id": 16,
+      "name": "App_Control",
+      "definition": "Open, launch, or interact with specific software applications."
+    },
+    {
+      "id": 17,
+      "name": "Customer_Service",
+      "definition": "Draft or send complaints or feedback to companies or services."
+    },
+    {
+      "id": 18,
+      "name": "Sports_Update",
+      "definition": "Request sports scores, game highlights, or sports news."
+    },
+    {
+      "id": 19,
+      "name": "Volume_Control",
+      "definition": "Adjust, mute, or query the volume of audio devices."
+    },
+    {
+      "id": 20,
+      "name": "Entertainment_Movies",
+      "definition": "Request information about movies, movie times, or video games."
+    },
+    {
+      "id": 21,
+      "name": "Events_Finder",
+      "definition": "Find local events, activities, or happenings in a specific area."
+    },
+    {
+      "id": 22,
+      "name": "Order_Status",
+      "definition": "Check the status or arrival time of a delivery or order."
+    },
+    {
+      "id": 23,
+      "name": "Small_Talk",
+      "definition": "Engage in casual conversation, greetings, or personal questions."
+    }
+  ]
+}

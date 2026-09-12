@@ -1,0 +1,414 @@
+{
+  "bench": "arxiv_fine",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "astro-ph",
+      "definition": "Papers concerning astrophysics, cosmology, stellar evolution, galactic dynamics, and observational astronomy."
+    },
+    {
+      "id": 2,
+      "name": "cond-mat",
+      "definition": "Papers on condensed matter physics, including superconductivity, quantum phases, material properties, and soft matter."
+    },
+    {
+      "id": 3,
+      "name": "cs.AI",
+      "definition": "Papers on artificial intelligence, including reasoning, knowledge representation, and multi-agent systems."
+    },
+    {
+      "id": 4,
+      "name": "cs.CL",
+      "definition": "Papers on computational linguistics and natural language processing, including speech recognition, translation, and text analysis."
+    },
+    {
+      "id": 5,
+      "name": "cs.CV",
+      "definition": "Papers on computer vision and pattern recognition, including image segmentation, object detection, and video analysis."
+    },
+    {
+      "id": 6,
+      "name": "cs.LG",
+      "definition": "Papers on machine learning, including deep learning architectures, reinforcement learning, and optimization algorithms."
+    },
+    {
+      "id": 7,
+      "name": "cs.NE",
+      "definition": "Papers on neural and evolutionary computing, including neural architecture search and neuroplasticity models."
+    },
+    {
+      "id": 8,
+      "name": "cs.SD",
+      "definition": "Papers on sound and speech processing, including audio signal analysis and synthesis."
+    },
+    {
+      "id": 9,
+      "name": "econ.EM",
+      "definition": "Papers on econometrics, including economic modeling, market dynamics, and financial time series analysis."
+    },
+    {
+      "id": 10,
+      "name": "eess.SP",
+      "definition": "Papers on signal processing, including filtering, estimation theory, and spectral analysis."
+    },
+    {
+      "id": 11,
+      "name": "gr-qc",
+      "definition": "Papers on general relativity, quantum cosmology, and gravitational physics."
+    },
+    {
+      "id": 12,
+      "name": "hep-ex",
+      "definition": "Papers on high-energy physics experiments, including particle detectors and accelerator instrumentation."
+    },
+    {
+      "id": 13,
+      "name": "hep-lat",
+      "definition": "Papers on lattice field theory and computational studies of quantum field theories."
+    },
+    {
+      "id": 14,
+      "name": "hep-ph",
+      "definition": "Papers on phenomenological aspects of high-energy physics, including particle interactions and standard model extensions."
+    },
+    {
+      "id": 15,
+      "name": "hep-th",
+      "definition": "Papers on high-energy theory, including string theory, quantum gravity, and formal field theory."
+    },
+    {
+      "id": 16,
+      "name": "math.AC",
+      "definition": "Papers on commutative algebra, including ring theory, ideals, and algebraic geometry foundations."
+    },
+    {
+      "id": 17,
+      "name": "math.AG",
+      "definition": "Papers on algebraic geometry, including varieties, schemes, and moduli spaces."
+    },
+    {
+      "id": 18,
+      "name": "math.AP",
+      "definition": "Papers on analysis of partial differential equations and their applications."
+    },
+    {
+      "id": 19,
+      "name": "math.AT",
+      "definition": "Papers on algebraic topology, including homotopy theory, homology, and category theory applications."
+    },
+    {
+      "id": 20,
+      "name": "math.CA",
+      "definition": "Papers on classical analysis and ordinary differential equations."
+    },
+    {
+      "id": 21,
+      "name": "math.CO",
+      "definition": "Papers on combinatorics and discrete mathematics, including graph theory and design theory."
+    },
+    {
+      "id": 22,
+      "name": "math.DG",
+      "definition": "Papers on differential geometry, including manifolds, curvature, and Riemannian geometry."
+    },
+    {
+      "id": 23,
+      "name": "math.DS",
+      "definition": "Papers on dynamical systems, including chaos theory, ergodic theory, and complex dynamics."
+    },
+    {
+      "id": 24,
+      "name": "math.FA",
+      "definition": "Papers on functional analysis, including operator theory, Banach spaces, and measure theory."
+    },
+    {
+      "id": 25,
+      "name": "math.GN",
+      "definition": "Papers on general topology, including topological spaces and continuity."
+    },
+    {
+      "id": 26,
+      "name": "math.GR",
+      "definition": "Papers on group theory, including algebraic structures, representations, and combinatorial group theory."
+    },
+    {
+      "id": 27,
+      "name": "math.GT",
+      "definition": "Papers on geometric topology, including low-dimensional topology, knots, and manifolds."
+    },
+    {
+      "id": 28,
+      "name": "math.LO",
+      "definition": "Papers on logic, including model theory, set theory, and proof theory."
+    },
+    {
+      "id": 29,
+      "name": "math.NA",
+      "definition": "Papers on numerical analysis, including algorithms for solving mathematical problems."
+    },
+    {
+      "id": 30,
+      "name": "math.NT",
+      "definition": "Papers on number theory, including arithmetic geometry and modular forms."
+    },
+    {
+      "id": 31,
+      "name": "math.OA",
+      "definition": "Papers on operator algebras, including C*-algebras and von Neumann algebras."
+    },
+    {
+      "id": 32,
+      "name": "math.PR",
+      "definition": "Papers on probability theory, including stochastic processes and random structures."
+    },
+    {
+      "id": 33,
+      "name": "math.QA",
+      "definition": "Papers on quantum algebra, including quantum groups and representation theory."
+    },
+    {
+      "id": 34,
+      "name": "math.RT",
+      "definition": "Papers on representation theory, including Lie algebras and algebraic groups."
+    },
+    {
+      "id": 35,
+      "name": "math.SG",
+      "definition": "Papers on symplectic geometry, including Hamiltonian systems and symplectic manifolds."
+    },
+    {
+      "id": 36,
+      "name": "math.SP",
+      "definition": "Papers on spectral theory, including eigenvalue problems and Schr\u00f6dinger operators."
+    },
+    {
+      "id": 37,
+      "name": "nlin.AO",
+      "definition": "Papers on adaptation and self-organizing systems, including complex systems and agent-based models."
+    },
+    {
+      "id": 38,
+      "name": "nlin.CD",
+      "definition": "Papers on cellular automata and lattice gases, including discrete dynamical models."
+    },
+    {
+      "id": 39,
+      "name": "nlin.PS",
+      "definition": "Papers on pattern formation and solitons, including nonlinear waves and instabilities."
+    },
+    {
+      "id": 40,
+      "name": "physics.acc-ph",
+      "definition": "Papers on accelerator physics, including beam dynamics and particle collider design."
+    },
+    {
+      "id": 41,
+      "name": "physics.ao-ph",
+      "definition": "Papers on atmospheric and oceanic physics, including fluid dynamics and climate modeling."
+    },
+    {
+      "id": 42,
+      "name": "physics.app-ph",
+      "definition": "Papers on applied physics, including experimental techniques and instrumentation."
+    },
+    {
+      "id": 43,
+      "name": "physics.atm-clus",
+      "definition": "Papers on atomic and molecular clusters, including their structure and dynamics."
+    },
+    {
+      "id": 44,
+      "name": "physics.atom-ph",
+      "definition": "Papers on atomic physics, including atomic spectra and interactions with fields."
+    },
+    {
+      "id": 45,
+      "name": "physics.bio-ph",
+      "definition": "Papers on biological physics, including biomolecules, cell mechanics, and biophysics."
+    },
+    {
+      "id": 46,
+      "name": "physics.chem-ph",
+      "definition": "Papers on chemical physics, including molecular interactions and reaction dynamics."
+    },
+    {
+      "id": 47,
+      "name": "physics.class-ph",
+      "definition": "Papers on classical physics, including mechanics, electromagnetism, and thermodynamics."
+    },
+    {
+      "id": 48,
+      "name": "physics.comp-ph",
+      "definition": "Papers on computational physics, including simulations and numerical methods for physical systems."
+    },
+    {
+      "id": 49,
+      "name": "physics.data-an",
+      "definition": "Papers on data analysis, statistics, and machine learning methods applied to physics."
+    },
+    {
+      "id": 50,
+      "name": "physics.flu-dyn",
+      "definition": "Papers on fluid dynamics, including turbulence, aerodynamics, and hydrodynamics."
+    },
+    {
+      "id": 51,
+      "name": "physics.gen-ph",
+      "definition": "Papers on general physics, covering topics of broad interest not fitting other categories."
+    },
+    {
+      "id": 52,
+      "name": "physics.geo-ph",
+      "definition": "Papers on geophysics, including earth structure and physical processes."
+    },
+    {
+      "id": 53,
+      "name": "physics.hist-ph",
+      "definition": "Papers on the history and philosophy of physics."
+    },
+    {
+      "id": 54,
+      "name": "physics.ins-det",
+      "definition": "Papers on instrumentation and detectors, including sensors and measurement systems."
+    },
+    {
+      "id": 55,
+      "name": "physics.med-ph",
+      "definition": "Papers on medical physics, including imaging, radiation therapy, and biomedical optics."
+    },
+    {
+      "id": 56,
+      "name": "physics.optics",
+      "definition": "Papers on optics, including lasers, photonics, and light-matter interactions."
+    },
+    {
+      "id": 57,
+      "name": "physics.plasm-ph",
+      "definition": "Papers on plasma physics, including fusion, plasma waves, and magnetohydrodynamics."
+    },
+    {
+      "id": 58,
+      "name": "physics.pop-ph",
+      "definition": "Papers on physics and society, including the application of physics to social problems."
+    },
+    {
+      "id": 59,
+      "name": "physics.soc-ph",
+      "definition": "Papers on social physics, including the quantitative study of social behavior and networks."
+    },
+    {
+      "id": 60,
+      "name": "physics.space-ph",
+      "definition": "Papers on space physics, including solar wind, magnetospheres, and cosmic rays."
+    },
+    {
+      "id": 61,
+      "name": "q-bio.BM",
+      "definition": "Papers on biomolecules, including structure, function, and modeling of biological molecules."
+    },
+    {
+      "id": 62,
+      "name": "q-bio.CB",
+      "definition": "Papers on cell behavior, including signaling, motility, and developmental biology."
+    },
+    {
+      "id": 63,
+      "name": "q-bio.GN",
+      "definition": "Papers on genomics, including genetics, gene expression, and sequencing analysis."
+    },
+    {
+      "id": 64,
+      "name": "q-bio.NC",
+      "definition": "Papers on neuroscience, including neural coding, brain dynamics, and cognitive modeling."
+    },
+    {
+      "id": 65,
+      "name": "q-bio.PE",
+      "definition": "Papers on populations and evolution, including evolutionary dynamics and population genetics."
+    },
+    {
+      "id": 66,
+      "name": "q-bio.QM",
+      "definition": "Papers on quantitative methods, including mathematical modeling and computational biology."
+    },
+    {
+      "id": 67,
+      "name": "q-bio.SC",
+      "definition": "Papers on subcellular processes, including molecular networks and intracellular dynamics."
+    },
+    {
+      "id": 68,
+      "name": "q-bio.TO",
+      "definition": "Papers on tissues and organs, including physiology and multi-scale modeling."
+    },
+    {
+      "id": 69,
+      "name": "q-fin.CP",
+      "definition": "Papers on computational finance, including numerical methods and algorithmic trading."
+    },
+    {
+      "id": 70,
+      "name": "q-fin.EC",
+      "definition": "Papers on economics, including micro and macroeconomic theory and policy."
+    },
+    {
+      "id": 71,
+      "name": "q-fin.GN",
+      "definition": "Papers on general finance, including financial markets and institutions."
+    },
+    {
+      "id": 72,
+      "name": "q-fin.MF",
+      "definition": "Papers on mathematical finance, including derivative pricing, risk management, and portfolio theory."
+    },
+    {
+      "id": 73,
+      "name": "q-fin.PM",
+      "definition": "Papers on portfolio management, including asset allocation and investment strategies."
+    },
+    {
+      "id": 74,
+      "name": "q-fin.RM",
+      "definition": "Papers on risk management, including credit risk, market risk, and financial stability."
+    },
+    {
+      "id": 75,
+      "name": "q-fin.ST",
+      "definition": "Papers on statistical finance, including econometrics and empirical analysis of financial data."
+    },
+    {
+      "id": 76,
+      "name": "quant-ph",
+      "definition": "Papers on quantum physics, including quantum information, entanglement, and quantum computing."
+    },
+    {
+      "id": 77,
+      "name": "stat.AP",
+      "definition": "Papers on applications of statistics, including case studies and domain-specific methodologies."
+    },
+    {
+      "id": 78,
+      "name": "stat.CO",
+      "definition": "Papers on statistical computation, including algorithms, simulation, and software."
+    },
+    {
+      "id": 79,
+      "name": "stat.ME",
+      "definition": "Papers on methodology, including experimental design, inference, and model selection."
+    },
+    {
+      "id": 80,
+      "name": "stat.ML",
+      "definition": "Papers on machine learning from a statistical perspective, including learning theory and probabilistic models."
+    },
+    {
+      "id": 81,
+      "name": "stat.TH",
+      "definition": "Papers on statistical theory, including asymptotic analysis and foundational probability."
+    }
+  ]
+}

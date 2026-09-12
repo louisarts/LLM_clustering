@@ -1,0 +1,110 @@
+{
+  "bench": "clinc150",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Travel Information",
+      "definition": "Requests related to travel requirements, bookings, and itineraries."
+    },
+    {
+      "id": 2,
+      "name": "Financial Transactions",
+      "definition": "Requests for actions involving money transfers, payments, and account management."
+    },
+    {
+      "id": 3,
+      "name": "Account Management",
+      "definition": "Inquiries and requests regarding account details, limits, and statuses."
+    },
+    {
+      "id": 4,
+      "name": "Reminders and Notifications",
+      "definition": "Requests to set, check, or modify reminders and alerts."
+    },
+    {
+      "id": 5,
+      "name": "Product and Service Recommendations",
+      "definition": "Requests for suggestions on products, services, or places."
+    },
+    {
+      "id": 6,
+      "name": "Health and Nutrition",
+      "definition": "Inquiries about health, nutrition facts, and medical advice."
+    },
+    {
+      "id": 7,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions, recipes, and ingredient information."
+    },
+    {
+      "id": 8,
+      "name": "Weather and Traffic",
+      "definition": "Requests for current weather conditions and traffic information."
+    },
+    {
+      "id": 9,
+      "name": "Entertainment and Media",
+      "definition": "Inquiries about movies, music, and other forms of entertainment."
+    },
+    {
+      "id": 10,
+      "name": "Shopping and Lists",
+      "definition": "Requests to create, modify, or inquire about shopping lists."
+    },
+    {
+      "id": 11,
+      "name": "Technical Support",
+      "definition": "Requests for assistance with technical issues or device management."
+    },
+    {
+      "id": 12,
+      "name": "Personal Information",
+      "definition": "Inquiries about personal details or preferences."
+    },
+    {
+      "id": 13,
+      "name": "Social Interaction",
+      "definition": "Requests for social engagement or conversation."
+    },
+    {
+      "id": 14,
+      "name": "Home Management",
+      "definition": "Requests related to home maintenance, chores, and organization."
+    },
+    {
+      "id": 15,
+      "name": "Job and Career Assistance",
+      "definition": "Requests for job searches, career advice, and professional development."
+    },
+    {
+      "id": 16,
+      "name": "Emergency and Safety",
+      "definition": "Requests for urgent assistance or safety-related inquiries."
+    },
+    {
+      "id": 17,
+      "name": "General Knowledge",
+      "definition": "Inquiries seeking information or explanations on various topics."
+    },
+    {
+      "id": 18,
+      "name": "Voice and Communication Preferences",
+      "definition": "Requests to change voice settings or communication styles."
+    },
+    {
+      "id": 19,
+      "name": "Document and Form Assistance",
+      "definition": "Requests for help with forms, documents, and official paperwork."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous",
+      "definition": "Requests that do not fit into other defined categories."
+    }
+  ]
+}

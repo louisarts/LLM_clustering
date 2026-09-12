@@ -1,0 +1,115 @@
+{
+  "bench": "clinc150",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information Inquiry",
+      "definition": "Requests for general knowledge or information not specific to the user's personal data or tasks."
+    },
+    {
+      "id": 2,
+      "name": "Personal Information Inquiry",
+      "definition": "Requests for information specific to the user's personal data, accounts, or transactions."
+    },
+    {
+      "id": 3,
+      "name": "Financial Management",
+      "definition": "Requests related to managing financial accounts, transactions, or credit."
+    },
+    {
+      "id": 4,
+      "name": "Travel and Transportation",
+      "definition": "Requests related to travel plans, transportation bookings, or travel-related inquiries."
+    },
+    {
+      "id": 5,
+      "name": "Calendar and Scheduling",
+      "definition": "Requests to manage or inquire about calendar events and schedules."
+    },
+    {
+      "id": 6,
+      "name": "Shopping and Orders",
+      "definition": "Requests related to shopping, ordering products, or managing shopping lists."
+    },
+    {
+      "id": 7,
+      "name": "Health and Wellness",
+      "definition": "Requests for health-related information or wellness tips."
+    },
+    {
+      "id": 8,
+      "name": "Language and Translation",
+      "definition": "Requests for language translation or language-related inquiries."
+    },
+    {
+      "id": 9,
+      "name": "Music and Entertainment",
+      "definition": "Requests related to music, movies, or other forms of entertainment."
+    },
+    {
+      "id": 10,
+      "name": "Device and Application Management",
+      "definition": "Requests to manage or control devices, applications, or settings."
+    },
+    {
+      "id": 11,
+      "name": "Communication",
+      "definition": "Requests to send messages or make calls."
+    },
+    {
+      "id": 12,
+      "name": "Reminders and Alarms",
+      "definition": "Requests to set reminders or alarms."
+    },
+    {
+      "id": 13,
+      "name": "Weather and Time",
+      "definition": "Requests for weather updates or time-related inquiries."
+    },
+    {
+      "id": 14,
+      "name": "Location and Navigation",
+      "definition": "Requests related to finding locations or navigating to destinations."
+    },
+    {
+      "id": 15,
+      "name": "Task Management",
+      "definition": "Requests to manage tasks or to-do lists."
+    },
+    {
+      "id": 16,
+      "name": "Home and Household",
+      "definition": "Requests related to household tasks or home management."
+    },
+    {
+      "id": 17,
+      "name": "Technical Support",
+      "definition": "Requests for technical assistance or troubleshooting."
+    },
+    {
+      "id": 18,
+      "name": "Social Media",
+      "definition": "Requests related to social media activities or updates."
+    },
+    {
+      "id": 19,
+      "name": "Food and Dining",
+      "definition": "Requests related to food, recipes, or dining options."
+    },
+    {
+      "id": 20,
+      "name": "Legal and Policy",
+      "definition": "Requests related to legal information or policy inquiries."
+    },
+    {
+      "id": 21,
+      "name": "Feedback and Interaction",
+      "definition": "Requests or statements related to interacting with the assistant or providing feedback."
+    }
+  ]
+}

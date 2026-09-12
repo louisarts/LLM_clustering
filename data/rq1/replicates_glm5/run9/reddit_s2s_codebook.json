@@ -1,0 +1,249 @@
+{
+  "bench": "reddit_s2s",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Airsoft",
+      "definition": "Posts discussing airsoft guns, gear, gameplay, and related technical advice."
+    },
+    {
+      "id": 2,
+      "name": "Amazon",
+      "definition": "Posts regarding Amazon orders, Prime shipping, customer service, and account issues."
+    },
+    {
+      "id": 3,
+      "name": "Anime",
+      "definition": "Posts about anime series, characters, scenes, and related media."
+    },
+    {
+      "id": 4,
+      "name": "Architecture",
+      "definition": "Posts showcasing building designs, architectural theory, and urban planning."
+    },
+    {
+      "id": 5,
+      "name": "Art",
+      "definition": "Posts sharing drawings, paintings, sculptures, and other visual art creations."
+    },
+    {
+      "id": 6,
+      "name": "Astrology",
+      "definition": "Posts discussing horoscopes, birth charts, and astrological signs."
+    },
+    {
+      "id": 7,
+      "name": "Atheism",
+      "definition": "Posts discussing atheism, agnosticism, secular living, and criticism of religion."
+    },
+    {
+      "id": 8,
+      "name": "Aviation",
+      "definition": "Posts about aircraft, airports, plane spotting, and aviation industry news."
+    },
+    {
+      "id": 9,
+      "name": "Baltimore",
+      "definition": "Posts specifically concerning news, events, and life in Baltimore, Maryland."
+    },
+    {
+      "id": 10,
+      "name": "Bicycling",
+      "definition": "Posts about bicycles, cycling gear, maintenance, and riding experiences."
+    },
+    {
+      "id": 11,
+      "name": "Blogging",
+      "definition": "Posts seeking advice on starting, designing, and growing blogs."
+    },
+    {
+      "id": 12,
+      "name": "Books",
+      "definition": "Posts discussing books, reading recommendations, and literary discussions."
+    },
+    {
+      "id": 13,
+      "name": "Brazil",
+      "definition": "Posts regarding Brazilian politics, news, society, and culture written in Portuguese."
+    },
+    {
+      "id": 14,
+      "name": "Business",
+      "definition": "Posts seeking advice on business ideas, marketing strategies, and entrepreneurship."
+    },
+    {
+      "id": 15,
+      "name": "Cars",
+      "definition": "Posts about automobiles, automotive news, and car culture."
+    },
+    {
+      "id": 16,
+      "name": "Cats",
+      "definition": "Posts sharing pictures and stories about cats."
+    },
+    {
+      "id": 17,
+      "name": "Christianity",
+      "definition": "Posts discussing Christian theology, faith, and practice."
+    },
+    {
+      "id": 18,
+      "name": "Coffee",
+      "definition": "Posts about coffee beans, brewing methods, and coffee equipment."
+    },
+    {
+      "id": 19,
+      "name": "Comics",
+      "definition": "Posts discussing comic books, graphic novels, and industry news."
+    },
+    {
+      "id": 20,
+      "name": "Dating",
+      "definition": "Posts seeking advice on romantic relationships, dating, and attraction."
+    },
+    {
+      "id": 21,
+      "name": "Dogs",
+      "definition": "Posts sharing pictures and stories about dogs."
+    },
+    {
+      "id": 22,
+      "name": "Drugs",
+      "definition": "Posts discussing substance use, dependency, and drug-related experiences."
+    },
+    {
+      "id": 23,
+      "name": "Education",
+      "definition": "Posts about schools, universities, academic majors, and career advice for students."
+    },
+    {
+      "id": 24,
+      "name": "Finance",
+      "definition": "Posts regarding personal finance, banking, and money management."
+    },
+    {
+      "id": 25,
+      "name": "Gaming",
+      "definition": "Posts about video games, gaming hardware, and industry news."
+    },
+    {
+      "id": 26,
+      "name": "Ham Radio",
+      "definition": "Posts about amateur radio equipment, operations, and licensing."
+    },
+    {
+      "id": 27,
+      "name": "History",
+      "definition": "Posts discussing historical events, figures, and artifacts."
+    },
+    {
+      "id": 28,
+      "name": "Humor",
+      "definition": "Posts intended to be funny, including memes, jokes, and funny videos."
+    },
+    {
+      "id": 29,
+      "name": "Jobs",
+      "definition": "Posts seeking career advice, job search tips, and employment discussions."
+    },
+    {
+      "id": 30,
+      "name": "Mac",
+      "definition": "Posts about Apple Mac computers, macOS software, and peripherals."
+    },
+    {
+      "id": 31,
+      "name": "Meditation",
+      "definition": "Posts discussing meditation techniques, mindfulness, and spiritual practice."
+    },
+    {
+      "id": 32,
+      "name": "Movies",
+      "definition": "Posts discussing films, cinema news, and movie recommendations."
+    },
+    {
+      "id": 33,
+      "name": "Music",
+      "definition": "Posts about music theory, instruments, composers, and music appreciation."
+    },
+    {
+      "id": 34,
+      "name": "News",
+      "definition": "Posts sharing and discussing current events and breaking news from around the world."
+    },
+    {
+      "id": 35,
+      "name": "Parenting",
+      "definition": "Posts seeking advice on raising children and family dynamics."
+    },
+    {
+      "id": 36,
+      "name": "Pets",
+      "definition": "Posts about pet care, adoption, and general animal companions."
+    },
+    {
+      "id": 37,
+      "name": "Photography",
+      "definition": "Posts about photographic techniques, equipment, and sharing photos."
+    },
+    {
+      "id": 38,
+      "name": "Physics",
+      "definition": "Posts discussing physical concepts, phenomena, and academic questions."
+    },
+    {
+      "id": 39,
+      "name": "Poetry",
+      "definition": "Posts sharing and discussing original poetry."
+    },
+    {
+      "id": 40,
+      "name": "Politics",
+      "definition": "Posts discussing political systems, figures, and policy."
+    },
+    {
+      "id": 41,
+      "name": "Relationships",
+      "definition": "Posts seeking advice on interpersonal relationships, family, and partners."
+    },
+    {
+      "id": 42,
+      "name": "Science",
+      "definition": "Posts about scientific discoveries, biology, and general science topics."
+    },
+    {
+      "id": 43,
+      "name": "Spam",
+      "definition": "Posts containing unrelated links, advertisements, or nonsensical text."
+    },
+    {
+      "id": 44,
+      "name": "Tea",
+      "definition": "Posts about tea varieties, brewing, and tea culture."
+    },
+    {
+      "id": 45,
+      "name": "Technology",
+      "definition": "Posts about consumer electronics, gadgets, and tech industry news."
+    },
+    {
+      "id": 46,
+      "name": "Television",
+      "definition": "Posts discussing TV shows, series, and television broadcasting."
+    },
+    {
+      "id": 47,
+      "name": "Travel",
+      "definition": "Posts about travel destinations, visas, and trip planning."
+    },
+    {
+      "id": 48,
+      "name": "World News",
+      "definition": "Posts specifically focused on international news and global events."
+    }
+  ]
+}

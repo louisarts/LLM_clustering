@@ -1,0 +1,72 @@
+[
+ {
+  "id": 1,
+  "name": "Transportation",
+  "definition": "Requests related to booking or scheduling transportation services such as taxis, trains, or flights."
+ },
+ {
+  "id": 2,
+  "name": "Calendar and Scheduling",
+  "definition": "Requests to schedule, check, or modify calendar events and reminders."
+ },
+ {
+  "id": 3,
+  "name": "News and Information",
+  "definition": "Requests for news updates or general information about current events."
+ },
+ {
+  "id": 4,
+  "name": "Weather",
+  "definition": "Requests for weather forecasts or current weather conditions."
+ },
+ {
+  "id": 5,
+  "name": "Email and Messaging",
+  "definition": "Requests to send, check, or manage emails and messages."
+ },
+ {
+  "id": 6,
+  "name": "Music and Media",
+  "definition": "Requests to play, control, or get information about music, radio, podcasts, or other media."
+ },
+ {
+  "id": 7,
+  "name": "Smart Home Control",
+  "definition": "Requests to control smart home devices such as lights, alarms, or appliances."
+ },
+ {
+  "id": 8,
+  "name": "Shopping and Lists",
+  "definition": "Requests to add, remove, or manage items on shopping or other lists."
+ },
+ {
+  "id": 9,
+  "name": "Finance and Stocks",
+  "definition": "Requests for financial information such as stock prices or exchange rates."
+ },
+ {
+  "id": 10,
+  "name": "Travel and Navigation",
+  "definition": "Requests for travel information, directions, or navigation assistance."
+ },
+ {
+  "id": 11,
+  "name": "General Knowledge",
+  "definition": "Requests for factual information or definitions."
+ },
+ {
+  "id": 12,
+  "name": "Social Media",
+  "definition": "Requests to post or interact on social media platforms."
+ },
+ {
+  "id": 13,
+  "name": "Entertainment and Leisure",
+  "definition": "Requests for entertainment recommendations or information about leisure activities."
+ },
+ {
+  "id": 14,
+  "name": "Personal Assistance",
+  "definition": "Requests for personal reminders or assistance with daily tasks."
+ }
+]

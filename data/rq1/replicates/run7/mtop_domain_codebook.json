@@ -1,0 +1,47 @@
+{
+  "bench": "mtop_domain",
+  "run": 7,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms & Timers",
+      "definition": "Setting, modifying, deleting, or querying alarms and timers."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Setting, modifying, deleting, or querying reminders for tasks or events."
+    },
+    {
+      "id": 3,
+      "name": "Weather",
+      "definition": "Querying current weather conditions, forecasts, or specific weather-related information."
+    },
+    {
+      "id": 4,
+      "name": "News & Current Events",
+      "definition": "Retrieving general news headlines, updates on specific topics, or information about current events."
+    },
+    {
+      "id": 5,
+      "name": "Communication",
+      "definition": "Initiating, managing, or querying calls, messages, or video chats."
+    },
+    {
+      "id": 6,
+      "name": "Media Playback",
+      "definition": "Controlling playback of music, videos, or radio, including selection, skipping, repeating, and setting preferences."
+    },
+    {
+      "id": 7,
+      "name": "Information Retrieval",
+      "definition": "Querying general facts, definitions, recipes, event listings, or information about people and places."
+    },
+    {
+      "id": 8,
+      "name": "Personal Status Management",
+      "definition": "Setting or querying one's own availability or visibility status."
+    }
+  ]
+}

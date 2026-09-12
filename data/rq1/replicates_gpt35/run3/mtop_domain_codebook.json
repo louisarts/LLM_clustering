@@ -1,0 +1,70 @@
+{
+  "bench": "mtop_domain",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm",
+      "definition": "Utterances related to setting, modifying, or deleting alarms or reminders."
+    },
+    {
+      "id": 2,
+      "name": "Messaging",
+      "definition": "Utterances related to sending messages via various platforms."
+    },
+    {
+      "id": 3,
+      "name": "Calling",
+      "definition": "Utterances related to making phone calls or video calls."
+    },
+    {
+      "id": 4,
+      "name": "Timer",
+      "definition": "Utterances related to setting, modifying, or canceling timers."
+    },
+    {
+      "id": 5,
+      "name": "Weather",
+      "definition": "Utterances related to checking or receiving weather forecasts."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Utterances related to playing music or specific songs."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Utterances related to checking or receiving news updates."
+    },
+    {
+      "id": 8,
+      "name": "Recipe",
+      "definition": "Utterances related to finding or requesting recipes."
+    },
+    {
+      "id": 9,
+      "name": "Calendar",
+      "definition": "Utterances related to scheduling or managing calendar events."
+    },
+    {
+      "id": 10,
+      "name": "Contact Information",
+      "definition": "Utterances related to finding or contacting specific individuals."
+    },
+    {
+      "id": 11,
+      "name": "Location-based Information",
+      "definition": "Utterances related to finding places or services based on location."
+    },
+    {
+      "id": 12,
+      "name": "General Inquiry",
+      "definition": "Utterances that do not fit into any specific category but seek general information or assistance."
+    }
+  ]
+}

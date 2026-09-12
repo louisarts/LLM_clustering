@@ -1,0 +1,160 @@
+{
+  "bench": "fewnerd",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Animal Family",
+      "definition": "A group of related species or subspecies within the animal kingdom."
+    },
+    {
+      "id": 2,
+      "name": "Person",
+      "definition": "An individual human being, often identified by name."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "A group of people organized for a particular purpose, often with a formal structure."
+    },
+    {
+      "id": 4,
+      "name": "Location",
+      "definition": "A specific place or position, often geographical."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "A significant occurrence or happening, often with a specific time and place."
+    },
+    {
+      "id": 6,
+      "name": "Cultural Work",
+      "definition": "A creative work such as a book, film, or music album."
+    },
+    {
+      "id": 7,
+      "name": "Historical Figure",
+      "definition": "A person known for their significant impact on history."
+    },
+    {
+      "id": 8,
+      "name": "Geographical Feature",
+      "definition": "A natural physical feature of the earth's surface."
+    },
+    {
+      "id": 9,
+      "name": "Political Entity",
+      "definition": "An organized group of people with a governing structure, such as a country or political party."
+    },
+    {
+      "id": 10,
+      "name": "Sporting Event",
+      "definition": "A competitive event in which individuals or teams participate in sports."
+    },
+    {
+      "id": 11,
+      "name": "Disease",
+      "definition": "A pathological condition of a bodily part, an organism, or system resulting from various causes."
+    },
+    {
+      "id": 12,
+      "name": "Academic Degree",
+      "definition": "A qualification awarded to students upon successful completion of a course of study."
+    },
+    {
+      "id": 13,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 14,
+      "name": "Film",
+      "definition": "A motion picture or movie, typically a narrative work of fiction."
+    },
+    {
+      "id": 15,
+      "name": "Musical Work",
+      "definition": "A composition or performance of music."
+    },
+    {
+      "id": 16,
+      "name": "Historical Event",
+      "definition": "A significant occurrence in history that has lasting impact."
+    },
+    {
+      "id": 17,
+      "name": "Religious Group",
+      "definition": "A community of individuals who share a common religious belief or practice."
+    },
+    {
+      "id": 18,
+      "name": "Scientific Concept",
+      "definition": "An idea or principle that is fundamental to scientific understanding."
+    },
+    {
+      "id": 19,
+      "name": "Political Campaign",
+      "definition": "An organized effort to influence decision making within a specific group."
+    },
+    {
+      "id": 20,
+      "name": "Transportation System",
+      "definition": "A network of vehicles and infrastructure for moving people or goods."
+    },
+    {
+      "id": 21,
+      "name": "Educational Institution",
+      "definition": "An organization that provides instruction or education."
+    },
+    {
+      "id": 22,
+      "name": "Sports Team",
+      "definition": "A group of individuals organized to compete in a sport."
+    },
+    {
+      "id": 23,
+      "name": "Artistic Work",
+      "definition": "A creation that expresses the artist's imagination or skill."
+    },
+    {
+      "id": 24,
+      "name": "Natural Disaster",
+      "definition": "A catastrophic event caused by natural processes of the Earth."
+    },
+    {
+      "id": 25,
+      "name": "Technology",
+      "definition": "The application of scientific knowledge for practical purposes."
+    },
+    {
+      "id": 26,
+      "name": "Social Movement",
+      "definition": "A collective effort by a large group of people to bring about social change."
+    },
+    {
+      "id": 27,
+      "name": "Historical Document",
+      "definition": "A written or printed record that provides information about the past."
+    },
+    {
+      "id": 28,
+      "name": "Culinary Dish",
+      "definition": "A specific preparation of food, often associated with a particular culture."
+    },
+    {
+      "id": 29,
+      "name": "Military Unit",
+      "definition": "A group of soldiers organized for a specific purpose."
+    },
+    {
+      "id": 30,
+      "name": "Cultural Festival",
+      "definition": "An event celebrating a particular culture or tradition."
+    }
+  ]
+}

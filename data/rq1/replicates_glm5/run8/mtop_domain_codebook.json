@@ -1,0 +1,74 @@
+{
+  "bench": "mtop_domain",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms",
+      "definition": "Setting, managing, or querying alarms intended to wake the user or signal a specific time of day."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Creating, deleting, or reviewing tasks or notifications intended to remind the user to perform an action."
+    },
+    {
+      "id": 3,
+      "name": "Messaging",
+      "definition": "Sending, reading, or managing text messages, video messages, or other written correspondence to contacts."
+    },
+    {
+      "id": 4,
+      "name": "Calling",
+      "definition": "Initiating, managing, or ending voice or video calls with contacts or groups."
+    },
+    {
+      "id": 5,
+      "name": "Weather",
+      "definition": "Querying current conditions, forecasts, or specific weather parameters like temperature and precipitation."
+    },
+    {
+      "id": 6,
+      "name": "Music & Audio",
+      "definition": "Playing, controlling, or identifying music, songs, artists, or audio stations."
+    },
+    {
+      "id": 7,
+      "name": "Timers",
+      "definition": "Setting, adjusting, or checking countdown timers for durations of time."
+    },
+    {
+      "id": 8,
+      "name": "Contacts & Social",
+      "definition": "Retrieving information about contacts, relationships, employment history, or social connections."
+    },
+    {
+      "id": 9,
+      "name": "News",
+      "definition": "Requesting news headlines, stories, or updates on current events."
+    },
+    {
+      "id": 10,
+      "name": "Food & Recipes",
+      "definition": "Requesting recipes, cooking instructions, or nutritional information for food and drink."
+    },
+    {
+      "id": 11,
+      "name": "Events & Activities",
+      "definition": "Finding local events, activities, or things to do in specific locations."
+    },
+    {
+      "id": 12,
+      "name": "Availability & Status",
+      "definition": "Checking the online status or availability of contacts, or setting the user's own status."
+    },
+    {
+      "id": 13,
+      "name": "General Knowledge",
+      "definition": "Answering factual questions or providing information not covered by other specific domains."
+    }
+  ]
+}

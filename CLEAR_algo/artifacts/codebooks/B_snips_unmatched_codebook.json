@@ -1,0 +1,37 @@
+[
+ {
+  "id": 1,
+  "name": "Play_Music",
+  "definition": "The user wants to play music, songs, or artists, often specifying a source, genre, or time period."
+ },
+ {
+  "id": 2,
+  "name": "Manage_Playlist",
+  "definition": "The user wants to add tracks, albums, or artists to a specific playlist."
+ },
+ {
+  "id": 3,
+  "name": "Book_Restaurant",
+  "definition": "The user wants to make a reservation at a restaurant or find a place to eat."
+ },
+ {
+  "id": 4,
+  "name": "Rate_Item",
+  "definition": "The user wants to assign a score, rating, or points to a specific item such as a book, album, or game."
+ },
+ {
+  "id": 5,
+  "name": "Get_Weather",
+  "definition": "The user wants to check the weather forecast or conditions for a specific location and time."
+ },
+ {
+  "id": 6,
+  "name": "Find_Media",
+  "definition": "The user wants to find, search for, or locate media items such as books, movies, soundtracks, or games."
+ },
+ {
+  "id": 7,
+  "name": "Find_Entertainment_Venue",
+  "definition": "The user wants to find movie schedules, showtimes, or locate entertainment venues like cinemas and pubs."
+ }
+]

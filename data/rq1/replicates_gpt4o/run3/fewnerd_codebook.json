@@ -1,0 +1,160 @@
+{
+  "bench": "fewnerd",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 2,
+      "name": "Organization",
+      "definition": "A group of people structured and managed to meet a need or pursue collective goals."
+    },
+    {
+      "id": 3,
+      "name": "Location",
+      "definition": "A particular place or position."
+    },
+    {
+      "id": 4,
+      "name": "Event",
+      "definition": "An occurrence or happening, especially one of significance."
+    },
+    {
+      "id": 5,
+      "name": "Product",
+      "definition": "An item or service created or manufactured for sale."
+    },
+    {
+      "id": 6,
+      "name": "Award",
+      "definition": "A prize or other mark of recognition given in honor of an achievement."
+    },
+    {
+      "id": 7,
+      "name": "Language",
+      "definition": "A system of communication used by a particular country or community."
+    },
+    {
+      "id": 8,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 9,
+      "name": "Species",
+      "definition": "A group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding."
+    },
+    {
+      "id": 10,
+      "name": "Chemical",
+      "definition": "A compound or substance that has been purified or prepared, especially artificially."
+    },
+    {
+      "id": 11,
+      "name": "Title",
+      "definition": "The name of a book, composition, or other artistic work."
+    },
+    {
+      "id": 12,
+      "name": "Vehicle",
+      "definition": "A thing used for transporting people or goods, especially on land, such as a car, truck, or cart."
+    },
+    {
+      "id": 13,
+      "name": "Concept",
+      "definition": "An abstract idea or a general notion."
+    },
+    {
+      "id": 14,
+      "name": "Artifact",
+      "definition": "An object made by a human being, typically one of cultural or historical interest."
+    },
+    {
+      "id": 15,
+      "name": "Natural Phenomenon",
+      "definition": "A natural event or fact that is observable."
+    },
+    {
+      "id": 16,
+      "name": "Food",
+      "definition": "Any nutritious substance that people or animals eat or drink or that plants absorb in order to maintain life and growth."
+    },
+    {
+      "id": 17,
+      "name": "Disease",
+      "definition": "A disorder of structure or function in a human, animal, or plant, especially one that produces specific symptoms or that affects a specific location and is not simply a direct result of physical injury."
+    },
+    {
+      "id": 18,
+      "name": "Material",
+      "definition": "The matter from which a thing is or can be made."
+    },
+    {
+      "id": 19,
+      "name": "Instrument",
+      "definition": "A tool or implement, especially one for delicate or scientific work."
+    },
+    {
+      "id": 20,
+      "name": "Structure",
+      "definition": "A building or other object constructed from several parts."
+    },
+    {
+      "id": 21,
+      "name": "Institution",
+      "definition": "An organization founded for a religious, educational, professional, or social purpose."
+    },
+    {
+      "id": 22,
+      "name": "Publication",
+      "definition": "A book, journal, or other work that is published."
+    },
+    {
+      "id": 23,
+      "name": "Mythology",
+      "definition": "A collection of myths, especially one belonging to a particular religious or cultural tradition."
+    },
+    {
+      "id": 24,
+      "name": "Technology",
+      "definition": "The application of scientific knowledge for practical purposes, especially in industry."
+    },
+    {
+      "id": 25,
+      "name": "Sport",
+      "definition": "An activity involving physical exertion and skill in which an individual or team competes against another or others for entertainment."
+    },
+    {
+      "id": 26,
+      "name": "Art",
+      "definition": "The expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture, producing works to be appreciated primarily for their beauty or emotional power."
+    },
+    {
+      "id": 27,
+      "name": "Political Entity",
+      "definition": "An entity that is involved in the political process, such as a government or political party."
+    },
+    {
+      "id": 28,
+      "name": "Historical Period",
+      "definition": "A distinct period of time in history."
+    },
+    {
+      "id": 29,
+      "name": "Measurement",
+      "definition": "The size, length, or amount of something, as established by measuring."
+    },
+    {
+      "id": 30,
+      "name": "Media",
+      "definition": "The main means of mass communication (broadcasting, publishing, and the internet) regarded collectively."
+    }
+  ]
+}

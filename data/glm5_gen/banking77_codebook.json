@@ -1,0 +1,77 @@
+[
+ {
+  "id": 1,
+  "name": "Card Ordering & Delivery",
+  "definition": "Requests for new, replacement, or virtual cards, and inquiries regarding delivery status or eligibility."
+ },
+ {
+  "id": 2,
+  "name": "Lost or Stolen Card",
+  "definition": "Reporting a card as lost, stolen, stuck in an ATM, or damaged to request a block or replacement."
+ },
+ {
+  "id": 3,
+  "name": "Fraud & Unauthorized Transactions",
+  "definition": "Reporting unrecognized transactions, suspicious activity, or suspected unauthorized account access."
+ },
+ {
+  "id": 4,
+  "name": "Card Activation & Settings",
+  "definition": "Requests to activate a card, unblock a frozen card, or manage card features like contactless."
+ },
+ {
+  "id": 5,
+  "name": "PIN Management",
+  "definition": "Requests to view, change, reset, or unblock a card PIN."
+ },
+ {
+  "id": 6,
+  "name": "Card Usage & Acceptance",
+  "definition": "Inquiries about where a card is accepted, ATM availability, or general usage capabilities."
+ },
+ {
+  "id": 7,
+  "name": "Card Payment Declined",
+  "definition": "Issues where a card transaction or withdrawal is rejected or fails to process."
+ },
+ {
+  "id": 8,
+  "name": "Top-Up Issues",
+  "definition": "Problems with adding funds to the account, including failed, reverted, or pending top-ups."
+ },
+ {
+  "id": 9,
+  "name": "Transfer & Withdrawal Status",
+  "definition": "Inquiries regarding the status, failure, or non-arrival of transfers and cash withdrawals."
+ },
+ {
+  "id": 10,
+  "name": "Transaction Disputes & Refunds",
+  "definition": "Requests to dispute a charge, report incorrect amounts, or process refunds and cancellations."
+ },
+ {
+  "id": 11,
+  "name": "Fees, Limits, & Exchange Rates",
+  "definition": "Questions regarding account fees, transaction limits, exchange rates, or specific charges."
+ },
+ {
+  "id": 12,
+  "name": "Account Access & Login",
+  "definition": "Issues with logging in, passwords, passcodes, or account security access."
+ },
+ {
+  "id": 13,
+  "name": "Identity Verification",
+  "definition": "Inquiries about the identity verification process, document requirements, or source of funds checks."
+ },
+ {
+  "id": 14,
+  "name": "Account Management",
+  "definition": "Requests to update personal details, close an account, or manage account settings."
+ },
+ {
+  "id": 15,
+  "name": "General Information",
+  "definition": "General how-to questions about app features, top-up methods, and transfers."
+ }
+]

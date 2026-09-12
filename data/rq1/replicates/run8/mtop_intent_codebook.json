@@ -1,0 +1,152 @@
+{
+  "bench": "mtop_intent",
+  "run": 8,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Create Alarm",
+      "definition": "Set a new alarm for a specific time or recurrence."
+    },
+    {
+      "id": 2,
+      "name": "Modify Alarm",
+      "definition": "Change an existing alarm's time, snooze, or other settings."
+    },
+    {
+      "id": 3,
+      "name": "Delete Alarm",
+      "definition": "Remove one or more alarms."
+    },
+    {
+      "id": 4,
+      "name": "Create Reminder",
+      "definition": "Set a new reminder for a task, event, or general note."
+    },
+    {
+      "id": 5,
+      "name": "Modify Reminder",
+      "definition": "Change an existing reminder's details."
+    },
+    {
+      "id": 6,
+      "name": "Delete Reminder",
+      "definition": "Remove one or more reminders."
+    },
+    {
+      "id": 7,
+      "name": "Query Reminder",
+      "definition": "Ask for information about existing reminders."
+    },
+    {
+      "id": 8,
+      "name": "Create Timer",
+      "definition": "Start a new countdown timer for a specified duration."
+    },
+    {
+      "id": 9,
+      "name": "Modify Timer",
+      "definition": "Adjust an active timer's duration."
+    },
+    {
+      "id": 10,
+      "name": "Delete Timer",
+      "definition": "Stop and remove an active timer."
+    },
+    {
+      "id": 11,
+      "name": "Query Timer",
+      "definition": "Ask for information about an active timer."
+    },
+    {
+      "id": 12,
+      "name": "Control Timer",
+      "definition": "Start, stop, or restart a timer."
+    },
+    {
+      "id": 13,
+      "name": "Initiate Call",
+      "definition": "Start a voice or video call with a contact or group."
+    },
+    {
+      "id": 14,
+      "name": "Manage Call",
+      "definition": "Control an ongoing call, such as pausing, hanging up, switching to video, or adding participants."
+    },
+    {
+      "id": 15,
+      "name": "Initiate Message",
+      "definition": "Send a text, chat, or video message to a contact or group."
+    },
+    {
+      "id": 16,
+      "name": "Query Communication History",
+      "definition": "Ask for information about past calls or messages."
+    },
+    {
+      "id": 17,
+      "name": "Set Status/Availability",
+      "definition": "Update the user's online status or availability."
+    },
+    {
+      "id": 18,
+      "name": "Query Status/Availability",
+      "definition": "Ask for information about a contact's online status or availability."
+    },
+    {
+      "id": 19,
+      "name": "Query Weather",
+      "definition": "Ask for current or future weather conditions."
+    },
+    {
+      "id": 20,
+      "name": "Query News/Headlines",
+      "definition": "Ask for current news or headlines."
+    },
+    {
+      "id": 21,
+      "name": "Query Events/Activities",
+      "definition": "Ask for information about local or upcoming events."
+    },
+    {
+      "id": 22,
+      "name": "Query People/Contacts Information",
+      "definition": "Ask for details about contacts or people, such as who works where, birthdays, or relationships."
+    },
+    {
+      "id": 23,
+      "name": "Query Food/Recipe/Nutrition Information",
+      "definition": "Ask for recipes, cooking instructions, or nutritional facts."
+    },
+    {
+      "id": 24,
+      "name": "Query General Information",
+      "definition": "Ask for factual information or details on a broad range of topics not covered by other query categories."
+    },
+    {
+      "id": 25,
+      "name": "Play Music",
+      "definition": "Start playing music by artist, song, album, genre, or playlist."
+    },
+    {
+      "id": 26,
+      "name": "Control Music Playback",
+      "definition": "Control ongoing music playback, such as skipping, repeating, or going back."
+    },
+    {
+      "id": 27,
+      "name": "Set Default Application",
+      "definition": "Change the default application for a specific function."
+    },
+    {
+      "id": 28,
+      "name": "Display Information",
+      "definition": "Request to show specific information on screen without necessarily querying its state."
+    },
+    {
+      "id": 29,
+      "name": "Decline Event",
+      "definition": "Indicate refusal to attend an event."
+    }
+  ]
+}

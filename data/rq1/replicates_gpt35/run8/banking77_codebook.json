@@ -1,0 +1,60 @@
+{
+  "bench": "banking77",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Acceptance",
+      "definition": "Queries related to where and if the card is accepted by businesses or ATMs."
+    },
+    {
+      "id": 2,
+      "name": "Account Access",
+      "definition": "Issues related to accessing or using the account, such as transfers, top-ups, and balance updates."
+    },
+    {
+      "id": 3,
+      "name": "Card Delivery",
+      "definition": "Questions about the delivery process of physical or virtual cards."
+    },
+    {
+      "id": 4,
+      "name": "Currency Exchange",
+      "definition": "Queries regarding exchanging currencies or cross-currency transactions."
+    },
+    {
+      "id": 5,
+      "name": "Fees and Charges",
+      "definition": "Concerns about fees, charges, or unexpected costs associated with transactions."
+    },
+    {
+      "id": 6,
+      "name": "Identity Verification",
+      "definition": "Issues related to verifying identity for security or transaction purposes."
+    },
+    {
+      "id": 7,
+      "name": "Disputes and Refunds",
+      "definition": "Queries about disputing transactions, refunds, or unauthorized payments."
+    },
+    {
+      "id": 8,
+      "name": "Card Security",
+      "definition": "Concerns about card security, including lost or stolen cards, PIN issues, or unauthorized transactions."
+    },
+    {
+      "id": 9,
+      "name": "Card Functionality",
+      "definition": "Questions about card functionality, such as activation, top-up options, or contactless payments."
+    },
+    {
+      "id": 10,
+      "name": "Transfer Issues",
+      "definition": "Issues related to transferring money, delays in transfers, or failed transfer attempts."
+    }
+  ]
+}

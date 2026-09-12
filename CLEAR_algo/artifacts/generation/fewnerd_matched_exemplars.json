@@ -1,0 +1,212 @@
+{
+ "3": [
+  "The entity type of Google is Organization.",
+  "The entity type of Amnesty International is Organization.",
+  "The entity type of Harvard University is Organization.",
+  "The entity type of Greenpeace is Organization.",
+  "The entity type of The Red Cross is Organization."
+ ],
+ "1": [
+  "The entity type of Paris is Geographical Location.",
+  "The entity type of Mount Everest is Geographical Location.",
+  "The entity type of Sahara Desert is Geographical Location.",
+  "The entity type of Tokyo is Geographical Location.",
+  "The entity type of Amazon River is Geographical Location."
+ ],
+ "2": [
+  "Marie Curie was a pioneering physicist and chemist who conducted groundbreaking research on radioactivity. The entity type of Marie Curie is Person.",
+  "Sherlock Holmes is a fictional detective created by Sir Arthur Conan Doyle, known for his keen observation and logical reasoning. The entity type of Sherlock Holmes is Person.",
+  "Nelson Mandela was a South African anti-apartheid revolutionary and political leader who served as President of South Africa. The entity type of Nelson Mandela is Person.",
+  "Ada Lovelace is often regarded as the first computer programmer for her work on Charles Babbage's early mechanical general-purpose computer. The entity type of Ada Lovelace is Person.",
+  "William Shakespeare was an English playwright, poet, and actor, widely regarded as one of the greatest writers in the English language. The entity type of William Shakespeare is Person."
+ ],
+ "5": [
+  "The novel 'To Kill a Mockingbird' by Harper Lee explores themes of racial injustice and moral growth in the American South. The entity type of To Kill a Mockingbird.",
+  "'Inception' is a 2010 science fiction film directed by Christopher Nolan, known for its complex narrative and visual effects. The entity type of Inception.",
+  "The album 'Thriller' by Michael Jackson remains one of the best-selling music albums of all time, featuring iconic tracks like 'Beat It' and 'Billie Jean.' The entity type of Thriller.",
+  "'Hamilton' is a groundbreaking Broadway musical that tells the story of American Founding Father Alexander Hamilton through a blend of hip-hop, jazz, and traditional show tunes. The entity type of Hamilton.",
+  "The song 'Bohemian Rhapsody' by Queen is celebrated for its unique structure and operatic style, becoming a classic rock anthem. The entity type of Bohemian Rhapsody."
+ ],
+ "4": [
+  "The entity type of the 2020 Summer Olympics is Event.",
+  "The entity type of the Battle of Gettysburg is Event.",
+  "The entity type of the 2016 United States presidential election is Event.",
+  "The entity type of the Cannes Film Festival 2023 is Event.",
+  "The entity type of the Queen's Diamond Jubilee is Event."
+ ],
+ "10": [
+  "The entity type of the Golden Gate Bridge is Transportation Infrastructure or Vehicle.",
+  "The entity type of the Boeing 747 is Transportation Infrastructure or Vehicle.",
+  "The entity type of the Trans-Siberian Railway is Transportation Infrastructure or Vehicle.",
+  "The entity type of Heathrow Airport is Transportation Infrastructure or Vehicle.",
+  "The entity type of the USS Enterprise is Transportation Infrastructure or Vehicle."
+ ],
+ "7": [
+  "The 101st Airborne Division is a specialized modular light infantry division of the United States Army trained for air assault operations. The entity type of 101st Airborne Division is Military Unit or Force.",
+  "The Royal Navy is the United Kingdom's naval warfare force, responsible for the operation of ships, submarines, and aircraft. The entity type of Royal Navy is Military Unit or Force.",
+  "The Waffen-SS was the armed wing of the Nazi Party's SS organization during World War II, consisting of combat units and military formations. The entity type of Waffen-SS is Military Unit or Force.",
+  "The French Foreign Legion is a military service branch of the French Army established in 1831, composed of foreign volunteers. The entity type of French Foreign Legion is Military Unit or Force.",
+  "The 1st Marine Division is the oldest and largest active duty division in the United States Marine Corps, known for its role in amphibious warfare. The entity type of 1st Marine Division is Military Unit or Force."
+ ],
+ "9": [
+  "Apple Inc. is known for its innovative technology products such as the iPhone, iPad, and MacBook. The entity type of Apple Inc.",
+  "Nike is a global brand specializing in athletic footwear, apparel, and equipment. The entity type of Nike.",
+  "Coca-Cola is a popular beverage brand recognized worldwide for its soft drinks and marketing campaigns. The entity type of Coca-Cola.",
+  "Tesla manufactures electric vehicles and renewable energy products, making it a leading brand in sustainable technology. The entity type of Tesla.",
+  "McDonald's is a fast-food chain famous for its hamburgers, fries, and global presence. The entity type of McDonald's."
+ ],
+ "8": [
+  "The entity type of Nobel Prize is Award or Honor.",
+  "The entity type of Pulitzer Prize is Award or Honor.",
+  "The entity type of Academy Award is Award or Honor.",
+  "The entity type of Grammy Award is Award or Honor.",
+  "The entity type of Booker Prize is Award or Honor."
+ ],
+ "11": [
+  "The entity type of Mandarin is Language or Dialect.",
+  "The entity type of Bavarian is Language or Dialect.",
+  "The entity type of Swahili is Language or Dialect.",
+  "The entity type of Scots is Language or Dialect.",
+  "The entity type of Quechua is Language or Dialect."
+ ],
+ "14": [
+  "The entity type of the Civil Rights Act of 1964 is Legal Document or Act.",
+  "The entity type of the Treaty of Versailles is Legal Document or Act.",
+  "The entity type of the Affordable Care Act is Legal Document or Act.",
+  "The entity type of the Magna Carta is Legal Document or Act.",
+  "The entity type of the Paris Agreement is Legal Document or Act."
+ ],
+ "17": [
+  "The entity type of the Dalai Lama is Religious Entity or Concept.",
+  "The entity type of Buddhism is Religious Entity or Concept.",
+  "The entity type of the Vatican is Religious Entity or Concept.",
+  "The entity type of the Ten Commandments is Religious Entity or Concept.",
+  "The entity type of Saint Teresa of \u00c1vila is Religious Entity or Concept."
+ ],
+ "6": [
+  "The Democratic Party is one of the two major contemporary political parties in the United States. The entity type of Democratic Party is Political Entity or Government Body.",
+  "The United Nations is an intergovernmental organization tasked with maintaining international peace and security. The entity type of United Nations is Political Entity or Government Body.",
+  "The European Parliament is the directly elected parliamentary institution of the European Union. The entity type of European Parliament is Political Entity or Government Body.",
+  "The Ministry of Health in Canada is responsible for national public health policies and programs. The entity type of Ministry of Health is Political Entity or Government Body.",
+  "The African National Congress has been the ruling party of South Africa since the end of apartheid in 1994. The entity type of African National Congress is Political Entity or Government Body."
+ ],
+ "12": [
+  "The African elephant is the largest land animal on Earth, known for its distinctive large ears and tusks. The entity type of African elephant is Biological Entity.",
+  "Canis lupus, commonly known as the gray wolf, is a species of canine native to the wilderness and remote areas of North America and Eurasia. The entity type of Canis lupus is Biological Entity.",
+  "The Bengal tiger is a subspecies of tiger primarily found in India and Bangladesh, recognized for its striking orange coat with black stripes. The entity type of Bengal tiger is Biological Entity.",
+  "Quercus robur, or the English oak, is a species of oak native to most of Europe and is known for its strong wood and longevity. The entity type of Quercus robur is Biological Entity.",
+  "The domestic cat, Felis catus, is a small carnivorous mammal that has been domesticated by humans for companionship and pest control. The entity type of domestic cat is Biological Entity."
+ ],
+ "15": [
+  "The entity type of Quantum Entanglement is Academic or Scientific Concept.",
+  "The entity type of Newton's Laws of Motion is Academic or Scientific Concept.",
+  "The entity type of Support Vector Machine is Academic or Scientific Concept.",
+  "The entity type of Photosynthesis is Academic or Scientific Concept.",
+  "The entity type of Plate Tectonics is Academic or Scientific Concept."
+ ],
+ "13": [
+  "Aspirin is a widely used analgesic and anti-inflammatory drug that belongs to the class of salicylates. The entity type of Aspirin.",
+  "Caffeine is a central nervous system stimulant commonly found in coffee, tea, and various energy drinks. The entity type of Caffeine.",
+  "Benzene is an organic chemical compound with the molecular formula C6H6, known for its aromatic properties and use as a precursor in the synthesis of various chemicals. The entity type of Benzene.",
+  "Cholesterol is a type of lipid molecule essential for maintaining cell membrane integrity and serving as a precursor for steroid hormones. The entity type of Cholesterol.",
+  "Glucose is a simple sugar and an important energy source in living organisms, classified as a monosaccharide carbohydrate. The entity type of Glucose."
+ ],
+ "18": [
+  "The New York Times reported a significant increase in renewable energy investments this quarter. The entity type of The New York Times is Media Outlet or Publication.",
+  "BBC News covered the latest developments in the international climate summit held in Geneva. The entity type of BBC News is Media Outlet or Publication.",
+  "According to an article in The Guardian, urban green spaces have a positive impact on mental health. The entity type of The Guardian is Media Outlet or Publication.",
+  "CNN aired a special report on advancements in artificial intelligence and their ethical implications. The entity type of CNN is Media Outlet or Publication.",
+  "NPR featured an interview with leading scientists discussing the future of space exploration. The entity type of NPR is Media Outlet or Publication."
+ ],
+ "16": [
+  "The New York Yankees are one of the most successful baseball teams in Major League Baseball history. The entity type of New York Yankees is Sports Team or League.",
+  "The English Premier League is widely regarded as one of the most competitive football leagues in the world. The entity type of English Premier League is Sports Team or League.",
+  "The Los Angeles Lakers have won multiple NBA championships and are known for their star-studded rosters. The entity type of Los Angeles Lakers is Sports Team or League.",
+  "The National Hockey League (NHL) is the premier professional ice hockey league in North America. The entity type of National Hockey League is Sports Team or League.",
+  "Manchester United Football Club is a globally recognized soccer team with a rich history of success. The entity type of Manchester United is Sports Team or League."
+ ],
+ "19": [
+  "The entity type of The Louvre is Building or Facility.",
+  "The entity type of Sydney Opera House is Building or Facility.",
+  "The entity type of Mount Sinai Hospital is Building or Facility.",
+  "The entity type of Madison Square Garden is Building or Facility.",
+  "The entity type of The British Museum is Building or Facility."
+ ],
+ "22": [
+  "The entity type of Euro is Currency or Monetary Unit.",
+  "The entity type of Japanese Yen is Currency or Monetary Unit.",
+  "The entity type of British Pound Sterling is Currency or Monetary Unit.",
+  "The entity type of United States Dollar is Currency or Monetary Unit.",
+  "The entity type of Indian Rupee is Currency or Monetary Unit."
+ ],
+ "20": [
+  "The entity type of the Cannes Film Festival is Award Ceremony or Festival.",
+  "The entity type of the Grammy Awards is Award Ceremony or Festival.",
+  "The entity type of the Sundance Film Festival is Award Ceremony or Festival.",
+  "The entity type of the Academy Awards is Award Ceremony or Festival.",
+  "The entity type of the Venice Film Festival is Award Ceremony or Festival."
+ ],
+ "21": [
+  "The Legend of Zelda: Breath of the Wild revolutionized open-world gaming with its expansive environment and innovative mechanics. The entity type of The Legend of Zelda: Breath of the Wild.",
+  "The PlayStation 5 features a custom SSD and powerful GPU, making it one of the most advanced gaming consoles available. The entity type of PlayStation 5.",
+  "Fortnite is a popular battle royale game known for its building mechanics and frequent content updates. The entity type of Fortnite.",
+  "The Nintendo Switch offers a hybrid design that allows players to switch between handheld and TV modes seamlessly. The entity type of Nintendo Switch.",
+  "Steam is a digital distribution platform that provides a vast library of video games and community features for PC gamers. The entity type of Steam."
+ ],
+ "23": [
+  "Harvard University is renowned for its law and business programs. The entity type of Harvard University is University or Educational Institution.",
+  "Stanford University, located in California, is a leading research university known for its innovation. The entity type of Stanford University is University or Educational Institution.",
+  "The Massachusetts Institute of Technology offers top-tier courses in engineering and computer science. The entity type of Massachusetts Institute of Technology is University or Educational Institution.",
+  "Oxford University, one of the oldest universities in the world, has a rich history of academic excellence. The entity type of Oxford University is University or Educational Institution.",
+  "The London School of Economics specializes in social sciences and attracts students globally. The entity type of London School of Economics is University or Educational Institution."
+ ],
+ "28": [
+  "The entity type of Wimbledon is Sports Event or Tournament.",
+  "The entity type of the Super Bowl is Sports Event or Tournament.",
+  "The entity type of the Tour de France is Sports Event or Tournament.",
+  "The entity type of the FIFA World Cup is Sports Event or Tournament.",
+  "The entity type of the NBA Finals is Sports Event or Tournament."
+ ],
+ "27": [
+  "Harry Potter is a young wizard who attends Hogwarts School of Witchcraft and Wizardry. The entity type of Harry Potter is Fictional Entity.",
+  "Gotham City is a fictional city appearing in American comic books published by DC Comics, known as the home of Batman. The entity type of Gotham City is Fictional Entity.",
+  "The One Ring is a powerful magical artifact created by the Dark Lord Sauron in J.R.R. Tolkien's Middle-earth legendarium. The entity type of The One Ring is Fictional Entity.",
+  "Westeros is a continent in the fictional world of the A Song of Ice and Fire novels by George R.R. Martin, featuring various noble houses and political intrigue. The entity type of Westeros is Fictional Entity.",
+  "Dumbledore is the headmaster of Hogwarts and a key character in the Harry Potter series, known for his wisdom and powerful magic. The entity type of Dumbledore is Fictional Entity."
+ ],
+ "25": [
+  "The Amazon River is the largest river by discharge volume of water in the world. It flows through several South American countries and is known for its vast biodiversity. The entity type of Amazon River.",
+  "Mount Everest is the highest mountain on Earth, located in the Himalayas on the border between Nepal and China. It attracts climbers from all over the world. The entity type of Mount Everest.",
+  "Lake Victoria is one of the African Great Lakes and is the largest lake on the continent by area. It is bordered by Tanzania, Uganda, and Kenya. The entity type of Lake Victoria.",
+  "The Sahara Desert is the largest hot desert in the world, covering much of North Africa. It is known for its extreme temperatures and vast sand dunes. The entity type of Sahara Desert.",
+  "The Black Forest is a large forested mountain range in southwestern Germany, famous for its dense woods and picturesque villages. The entity type of Black Forest."
+ ],
+ "26": [
+  "Delta Air Lines is a major American airline headquartered in Atlanta, Georgia. The entity type of Delta Air Lines is Transportation Company or Airline.",
+  "Lufthansa is the largest German airline and one of the leading European carriers. The entity type of Lufthansa is Transportation Company or Airline.",
+  "Emirates operates a large fleet of aircraft and is based in Dubai, providing international air travel services. The entity type of Emirates is Transportation Company or Airline.",
+  "Southwest Airlines is known for its low-cost domestic flights across the United States. The entity type of Southwest Airlines is Transportation Company or Airline.",
+  "Qantas Airways is the flag carrier of Australia, offering both domestic and international flights. The entity type of Qantas Airways is Transportation Company or Airline."
+ ],
+ "24": [
+  "The M1 Abrams is a third-generation American main battle tank used by the United States Army and Marine Corps. The entity type of M1 Abrams is Military Equipment or Weapon.",
+  "The AK-47 is a gas-operated assault rifle developed in the Soviet Union by Mikhail Kalashnikov. The entity type of AK-47 is Military Equipment or Weapon.",
+  "The Tomahawk missile is a long-range, all-weather, subsonic cruise missile used by the United States Navy. The entity type of Tomahawk missile is Military Equipment or Weapon.",
+  "The F-22 Raptor is a fifth-generation, single-seat, twin-engine stealth fighter aircraft developed for the United States Air Force. The entity type of F-22 Raptor is Military Equipment or Weapon.",
+  "The Glock 17 is a 9mm semi-automatic pistol widely used by military and law enforcement agencies worldwide. The entity type of Glock 17 is Military Equipment or Weapon."
+ ],
+ "30": [
+  "The entity type of Best Actor is Award Category or Title.",
+  "The entity type of Nobel Prize in Literature is Award Category or Title.",
+  "The entity type of Grammy Award for Album of the Year is Award Category or Title.",
+  "The entity type of Pulitzer Prize for Fiction is Award Category or Title.",
+  "The entity type of Academy Award for Best Director is Award Category or Title."
+ ],
+ "29": [
+  "Aspirin is widely used as an analgesic to relieve minor aches and pains, as well as an antipyretic to reduce fever. The entity type of Aspirin.",
+  "Penicillin was the first antibiotic discovered and has saved countless lives by treating bacterial infections effectively. The entity type of Penicillin.",
+  "Insulin therapy is essential for managing blood sugar levels in patients with type 1 diabetes. The entity type of Insulin.",
+  "Chloroquine is a medication primarily used to prevent and treat malaria in endemic regions. The entity type of Chloroquine.",
+  "Morphine is a potent opioid analgesic used to alleviate severe pain in clinical settings. The entity type of Morphine."
+ ]
+}

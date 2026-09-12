@@ -1,0 +1,194 @@
+{
+  "bench": "reddit_s2s",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Coffee",
+      "definition": "Topics related to coffee brewing, equipment, beans, and industry news."
+    },
+    {
+      "id": 2,
+      "name": "Beer",
+      "definition": "Discussion concerning beer brewing, tasting, events, and commercial news."
+    },
+    {
+      "id": 3,
+      "name": "Baltimore",
+      "definition": "Posts regarding local news, events, and life in Baltimore, Maryland."
+    },
+    {
+      "id": 4,
+      "name": "Austin",
+      "definition": "Posts regarding local news, events, and life in Austin, Texas."
+    },
+    {
+      "id": 5,
+      "name": "AFL",
+      "definition": "Content focused on Australian Football League teams, players, and fantasy leagues."
+    },
+    {
+      "id": 6,
+      "name": "Buddhism",
+      "definition": "Discussions on Buddhist practice, philosophy, and meditation."
+    },
+    {
+      "id": 7,
+      "name": "Christianity",
+      "definition": "Topics related to Christian theology, scripture, and church life."
+    },
+    {
+      "id": 8,
+      "name": "Astrology",
+      "definition": "Posts about zodiac signs, horoscopes, and astrological compatibility."
+    },
+    {
+      "id": 9,
+      "name": "Anime",
+      "definition": "Discussion of Japanese animation, specific series, and related media."
+    },
+    {
+      "id": 10,
+      "name": "Comics",
+      "definition": "News and discussion about comic books, graphic novels, and publishers."
+    },
+    {
+      "id": 11,
+      "name": "Numismatics",
+      "definition": "The study and collection of coins, currency, and numismatic news."
+    },
+    {
+      "id": 12,
+      "name": "HamRadio",
+      "definition": "Topics related to amateur radio operations, equipment, and licensing."
+    },
+    {
+      "id": 13,
+      "name": "Airsoft",
+      "definition": "Discussion of airsoft guns, gear, and gameplay."
+    },
+    {
+      "id": 14,
+      "name": "Cars",
+      "definition": "Automotive discussion including reviews, maintenance, and buying advice."
+    },
+    {
+      "id": 15,
+      "name": "Cancer",
+      "definition": "Support and information regarding cancer diagnoses, treatment, and research."
+    },
+    {
+      "id": 16,
+      "name": "Biking",
+      "definition": "Cycling related posts including bikes, gear, and maintenance."
+    },
+    {
+      "id": 17,
+      "name": "Blender",
+      "definition": "Technical support and showcase for the Blender 3D creation suite."
+    },
+    {
+      "id": 18,
+      "name": "ClassicalMusic",
+      "definition": "Discussion of classical composers, works, performances, and history."
+    },
+    {
+      "id": 19,
+      "name": "Blogger",
+      "definition": "Tips, help, and discussion regarding the Blogger publishing platform."
+    },
+    {
+      "id": 20,
+      "name": "AskReddit",
+      "definition": "General questions and open-ended discussion prompts for a wide audience."
+    },
+    {
+      "id": 21,
+      "name": "WorldNews",
+      "definition": "Major international news and political developments."
+    },
+    {
+      "id": 22,
+      "name": "Science",
+      "definition": "Academic and popular science news, research, and questions."
+    },
+    {
+      "id": 23,
+      "name": "Technology",
+      "definition": "News and discussion about consumer technology, software, and gadgets."
+    },
+    {
+      "id": 24,
+      "name": "Movies",
+      "definition": "Discussion of films, cinema news, and movie recommendations."
+    },
+    {
+      "id": 25,
+      "name": "Television",
+      "definition": "Discussion of TV shows, series news, and episode reactions."
+    },
+    {
+      "id": 26,
+      "name": "Music",
+      "definition": "General music discussion, artist news, and composition."
+    },
+    {
+      "id": 27,
+      "name": "Art",
+      "definition": "Visual arts including drawing, painting, and digital art."
+    },
+    {
+      "id": 28,
+      "name": "Architecture",
+      "definition": "Discussion of architectural design, projects, and history."
+    },
+    {
+      "id": 29,
+      "name": "Cats",
+      "definition": "Pictures, videos, and discussion about domestic cats."
+    },
+    {
+      "id": 30,
+      "name": "Dogs",
+      "definition": "Pictures, videos, and discussion about dogs and breeds."
+    },
+    {
+      "id": 31,
+      "name": "LifeAdvice",
+      "definition": "Requests for advice regarding personal dilemmas and life decisions."
+    },
+    {
+      "id": 32,
+      "name": "Aviation",
+      "definition": "Discussion of aircraft, airlines, and piloting."
+    },
+    {
+      "id": 33,
+      "name": "Android",
+      "definition": "Discussion regarding the Android operating system and apps."
+    },
+    {
+      "id": 34,
+      "name": "Kindle",
+      "definition": "Discussion about Amazon Kindle devices and ebooks."
+    },
+    {
+      "id": 35,
+      "name": "Amazon",
+      "definition": "Customer service questions and discussion about Amazon shopping."
+    },
+    {
+      "id": 36,
+      "name": "Portuguese",
+      "definition": "Content in Portuguese language, often regarding Brazilian culture or news."
+    },
+    {
+      "id": 37,
+      "name": "Spam",
+      "definition": "Unsolicited advertisements, SEO links, and irrelevant promotional content."
+    }
+  ]
+}

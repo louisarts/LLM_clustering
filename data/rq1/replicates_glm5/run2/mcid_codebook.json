@@ -1,0 +1,79 @@
+{
+  "bench": "mcid",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Symptoms & Diagnosis",
+      "definition": "User asks about specific symptoms, how to identify or diagnose the virus, or whether they are infected."
+    },
+    {
+      "id": 2,
+      "name": "Transmission & Risk Factors",
+      "definition": "User inquires about how the virus spreads, risk levels in specific areas, or the likelihood of contracting it."
+    },
+    {
+      "id": 3,
+      "name": "Prevention & Safety Measures",
+      "definition": "User seeks advice on protective behaviors, hygiene, social distancing, or safety in public spaces."
+    },
+    {
+      "id": 4,
+      "name": "Treatments & Cures",
+      "definition": "User asks about medical treatments, cures, vaccines, or home remedies for the virus."
+    },
+    {
+      "id": 5,
+      "name": "Surface Survival & Cleaning",
+      "definition": "User asks about the virus surviving on specific surfaces or how to clean and disinfect objects."
+    },
+    {
+      "id": 6,
+      "name": "Travel & Movement",
+      "definition": "User asks about travel restrictions, safety of travel modes, or permission to travel to specific locations."
+    },
+    {
+      "id": 7,
+      "name": "Animals & Pets",
+      "definition": "User asks about the virus affecting animals, pets, or transmission via insects and wildlife."
+    },
+    {
+      "id": 8,
+      "name": "Statistics & Data",
+      "definition": "User requests specific numbers regarding cases, deaths, testing rates, or recovery rates."
+    },
+    {
+      "id": 9,
+      "name": "News & Updates",
+      "definition": "User requests the latest news, press releases, or general updates on the situation."
+    },
+    {
+      "id": 10,
+      "name": "Myths & Misinformation",
+      "definition": "User asks about specific myths, rumors, or the validity of unverified information regarding the virus."
+    },
+    {
+      "id": 11,
+      "name": "Donations & Financial Help",
+      "definition": "User expresses a desire to donate money, fund causes, or help financially."
+    },
+    {
+      "id": 12,
+      "name": "Sharing & Social",
+      "definition": "User requests to share the service, information, or link with others."
+    },
+    {
+      "id": 13,
+      "name": "Greetings & Gratitude",
+      "definition": "User greets the bot, checks its status, or expresses thanks and appreciation."
+    },
+    {
+      "id": 14,
+      "name": "General Information",
+      "definition": "User requests broad, non-specific information or a definition of the virus."
+    }
+  ]
+}

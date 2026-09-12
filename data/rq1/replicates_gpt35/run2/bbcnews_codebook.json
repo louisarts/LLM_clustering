@@ -1,0 +1,60 @@
+{
+  "bench": "bbcnews",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Economy",
+      "definition": "News related to state spending, job creation, economic growth, and financial markets"
+    },
+    {
+      "id": 2,
+      "name": "Politics",
+      "definition": "News related to elections, government policies, political leaders, and pressure groups"
+    },
+    {
+      "id": 3,
+      "name": "Sports",
+      "definition": "News related to sports events, athletes, matches, and competitions"
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "News related to mobile phones, software, blogging, and digital entertainment"
+    },
+    {
+      "id": 5,
+      "name": "Entertainment",
+      "definition": "News related to films, actors, directors, music, and awards"
+    },
+    {
+      "id": 6,
+      "name": "International Relations",
+      "definition": "News related to world leaders, global business, political summits, and international cooperation"
+    },
+    {
+      "id": 7,
+      "name": "Legal Issues",
+      "definition": "News related to court cases, lawsuits, discrimination cases, and legal reforms"
+    },
+    {
+      "id": 8,
+      "name": "Arts & Culture",
+      "definition": "News related to art exhibitions, film festivals, music concerts, and cultural events"
+    },
+    {
+      "id": 9,
+      "name": "Health & Science",
+      "definition": "News related to health research, medical breakthroughs, technology advancements, and social issues"
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "News related to schools, universities, educational reforms, and student activities"
+    }
+  ]
+}

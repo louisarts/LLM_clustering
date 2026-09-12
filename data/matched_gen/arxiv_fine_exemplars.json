@@ -1,0 +1,702 @@
+{
+ "4": [
+  "1. \"Observations of X-ray emission from a black hole in a binary system.\"",
+  "2. \"Modeling the accretion disk around a neutron star in a binary system.\"",
+  "3. \"Detection of gamma-ray bursts from a distant supernova explosion.\"",
+  "4. \"Investigating the magnetic fields of pulsars using radio observations.\"",
+  "5. \"Studying the gravitational waves produced by the merger of two black holes.\""
+ ],
+ "1": [
+  "1. \"Constraints on dark energy models from cosmic microwave background observations.\"",
+  "2. \"The impact of baryonic feedback on large-scale structure formation.\"",
+  "3. \"Probing the nature of dark matter with galaxy cluster abundance.\"",
+  "4. \"Exploring the cosmic web with weak gravitational lensing.\"",
+  "5. \"Measuring the expansion rate of the universe using Type Ia supernovae.\""
+ ],
+ "3": [
+  "1. \"The Formation and Evolution of the Milky Way Galaxy\"",
+  "2. \"Stellar Populations in Nearby Galaxies\"",
+  "3. \"The Role of Dark Matter in Galactic Structure\"",
+  "4. \"Interstellar Medium Properties in Star-forming Galaxies\"",
+  "5. \"Galactic Winds and Their Impact on Galaxy Evolution\""
+ ],
+ "10": [
+  "1. \"Observation of Bose-Einstein condensation in a trapped atomic gas.\"",
+  "2. \"Quantum simulation of Hubbard model with ultracold atoms in optical lattices.\"",
+  "3. \"Dynamics of quantum vortices in superfluid Bose-Einstein condensates.\"",
+  "4. \"Quantum phase transitions in ultracold atomic gases.\"",
+  "5. \"Exploring quantum chaos in a disordered Bose-Einstein condensate.\""
+ ],
+ "8": [
+  "1. \"Quantum transport in graphene nanoribbons with edge disorder.\"",
+  "2. \"Tuning the electronic properties of semiconductor nanowires through strain engineering.\"",
+  "3. \"Quantum dot arrays for single electron transistors.\"",
+  "4. \"Topological insulator behavior in two-dimensional materials.\"",
+  "5. \"Manipulating spin states in mesoscopic systems using magnetic fields.\""
+ ],
+ "6": [
+  "1. \"The Evolution of Solar Flares on Active Regions\"",
+  "2. \"Stellar Abundance Patterns in Globular Clusters\"",
+  "3. \"Modeling the Magnetic Activity of Sun-like Stars\"",
+  "4. \"The Impact of Stellar Winds on Exoplanet Atmospheres\"",
+  "5. \"Investigating the Rotation Periods of Young Sun-like Stars\""
+ ],
+ "7": [
+  "1. \"Investigating the effects of disorder on neural network performance in spin glass models.\"",
+  "2. \"Localization properties of disordered systems in neural network simulations.\"",
+  "3. \"Comparing different neural network models for studying spin glass behavior.\"",
+  "4. \"Exploring the role of randomness in neural network training algorithms.\"",
+  "5. \"Analyzing the impact of disorder on information processing in neural networks.\""
+ ],
+ "5": [
+  "1. Development of a new high-resolution spectrograph for studying exoplanet atmospheres.",
+  "2. Comparison of different data reduction techniques for improving signal-to-noise ratio in astronomical images.",
+  "3. Design and testing of a new type of telescope mirror coating for increased reflectivity.",
+  "4. Evaluation of the performance of a new generation of CCD detectors for astronomical observations.",
+  "5. Software package for automated identification and classification of variable stars in large sky surveys."
+ ],
+ "2": [
+  "1. \"Formation and evolution of the Martian moons Phobos and Deimos.\"",
+  "2. \"Characterizing the atmosphere of a potentially habitable exoplanet.\"",
+  "3. \"Investigating the composition of asteroids in the outer solar system.\"",
+  "4. \"Detecting water vapor on a distant exoplanet using transit spectroscopy.\"",
+  "5. \"Exploring the potential for life on icy moons in the outer solar system.\""
+ ],
+ "9": [
+  "1. \"Investigation of the mechanical properties of graphene oxide nanocomposites.\"",
+  "2. \"Synthesis and characterization of novel perovskite materials for solar cell applications.\"",
+  "3. \"Understanding the electronic structure of transition metal dichalcogenides through first-principles calculations.\"",
+  "4. \"Impact of defects on the thermal conductivity of two-dimensional materials.\"",
+  "5. \"Investigating the phase transition behavior of shape memory alloys using in situ TEM.\""
+ ],
+ "12": [
+  "1. \"Critical behavior of the Ising model on a triangular lattice\"",
+  "2. \"Phase transitions in a two-dimensional XY model with long-range interactions\"",
+  "3. \"Entropy production in driven diffusive systems\"",
+  "4. \"Quantum entanglement in many-body systems\"",
+  "5. \"Thermodynamic properties of a frustrated spin system\""
+ ],
+ "14": [
+  "1. \"Investigation of the Meissner effect in high-temperature superconductors.\"",
+  "2. \"Superconducting properties of unconventional materials under extreme conditions.\"",
+  "3. \"Role of impurities in the superconducting behavior of conventional superconductors.\"",
+  "4. \"Exploring the critical temperature of novel superconducting compounds.\"",
+  "5. \"Comparative study of conventional and unconventional superconductors in magnetic fields.\""
+ ],
+ "11": [
+  "1. \"Investigation of the phase behavior of colloidal suspensions in confined geometries.\"",
+  "2. \"Polymer dynamics in crowded environments: a molecular simulation study.\"",
+  "3. \"Rheological properties of granular materials under shear flow.\"",
+  "4. \"Liquid crystal ordering in confined geometries: a theoretical and experimental study.\"",
+  "5. \"Understanding the self-assembly of nanoparticles in solution using computer simulations.\""
+ ],
+ "18": [
+  "1. \"A Survey of Natural Language Processing Techniques for Sentiment Analysis\"",
+  "2. \"Improving Speech Recognition Accuracy using Deep Learning Models\"",
+  "3. \"Machine Translation Systems for Low-Resource Languages\"",
+  "4. \"Analyzing the Impact of Pretrained Language Models on Text Generation Tasks\"",
+  "5. \"Investigating the Use of Neural Networks for Named Entity Recognition in Biomedical Text\""
+ ],
+ "20": [
+  "1. \"A deep learning approach for facial recognition in low-light conditions.\"",
+  "2. \"Enhancing image segmentation using convolutional neural networks.\"",
+  "3. \"Automated object detection in aerial drone footage.\"",
+  "4. \"Improving image classification accuracy with transfer learning.\"",
+  "5. \"Real-time hand gesture recognition for human-computer interaction.\""
+ ],
+ "15": [
+  "1. \"A Survey of Deep Reinforcement Learning Algorithms for Autonomous Driving\"",
+  "2. \"Knowledge Graph Embeddings for Link Prediction in Social Networks\"",
+  "3. \"Planning and Execution of Multi-Agent Systems using Hierarchical Task Networks\"",
+  "4. \"Reasoning with Uncertainty in Bayesian Networks for Medical Diagnosis\"",
+  "5. \"Natural Language Understanding with Transformer-based Models\""
+ ],
+ "17": [
+  "1. \"Efficient algorithms for computing the convex hull of a set of points in 2D.\"",
+  "2. \"A new approach for solving the closest pair of points problem in computational geometry.\"",
+  "3. \"Geometric data structures for efficient point location queries in planar subdivisions.\"",
+  "4. \"An algorithm for computing the intersection of two polygons in the plane.\"",
+  "5. \"Discrete Voronoi diagrams: algorithms and applications in computational geometry.\""
+ ],
+ "19": [
+  "1. \"A Comparative Study of Symmetric Key Encryption Algorithms for IoT Devices.\"",
+  "2. \"Privacy-Preserving Data Sharing in Cloud Computing Using Homomorphic Encryption.\"",
+  "3. \"Analysis of Side-Channel Attacks on Hardware Security Modules.\"",
+  "4. \"Secure Multi-Party Computation Protocols for Privacy-Preserving Data Analysis.\"",
+  "5. \"Evaluation of Blockchain Technology for Secure and Transparent Voting Systems.\""
+ ],
+ "16": [
+  "1. \"A survey of recent advances in circuit complexity theory.\"",
+  "2. \"An analysis of the relationship between complexity classes P and NP.\"",
+  "3. \"Exploring the limits of proof complexity in automated theorem proving.\"",
+  "4. \"Investigating the complexity of parallel algorithms for graph problems.\"",
+  "5. \"Comparing the computational complexity of different sorting algorithms.\""
+ ],
+ "13": [
+  "1. \"Emergent quantum criticality in a frustrated spin-1/2 Heisenberg antiferromagnet.\"",
+  "2. \"Unconventional superconductivity in doped cuprates: a review of recent experiments.\"",
+  "3. \"Metal-insulator transition in the Hubbard model with long-range interactions.\"",
+  "4. \"Quantum phase transitions in the Kondo lattice model with frustration.\"",
+  "5. \"Heavy fermion behavior in the pyrochlore iridate Yb2Ir2O7.\""
+ ],
+ "21": [
+  "1. \"Efficient Indexing Techniques for Large Scale Databases.\"",
+  "2. \"Query Optimization Strategies for Distributed Database Systems.\"",
+  "3. \"Data Cleaning and Deduplication in NoSQL Databases.\"",
+  "4. \"Scalable Data Management Solutions for Cloud-based Databases.\"",
+  "5. \"Privacy-preserving Query Processing in Encrypted Databases.\""
+ ],
+ "23": [
+  "1. \"A novel algorithm for solving the traveling salesman problem using genetic algorithms.\"",
+  "2. \"Analyzing the complexity of finding a Hamiltonian cycle in a graph.\"",
+  "3. \"Investigating the chromatic number of a specific class of graphs.\"",
+  "4. \"Optimizing the placement of sensors in a wireless sensor network for maximum coverage.\"",
+  "5. \"Exploring the relationship between graph theory and social network analysis.\""
+ ],
+ "22": [
+  "1. \"A Survey of Fault Tolerance Techniques in Distributed Systems\"",
+  "2. \"Efficient Load Balancing Algorithms for Cluster Computing\"",
+  "3. \"Analysis of Distributed Consensus Algorithms in Peer-to-Peer Networks\"",
+  "4. \"Scalable Data Partitioning Strategies for Parallel Processing\"",
+  "5. \"Optimizing Communication Overhead in Distributed Computing Environments\""
+ ],
+ "27": [
+  "1. \"Improving search engine performance using query expansion techniques.\"",
+  "2. \"A comparative study of ranking algorithms for information retrieval.\"",
+  "3. \"Enhancing recommender systems with collaborative filtering methods.\"",
+  "4. \"Investigating the impact of user feedback on search engine results.\"",
+  "5. \"Analyzing the effectiveness of different recommendation algorithms in e-commerce platforms.\""
+ ],
+ "25": [
+  "1. \"A survey of recent advances in algorithmic mechanism design.\"",
+  "2. \"Analyzing the impact of strategic behavior in online auctions.\"",
+  "3. \"Game-theoretic analysis of decentralized resource allocation.\"",
+  "4. \"Designing incentive mechanisms for crowdsourcing platforms.\"",
+  "5. \"Studying the complexity of equilibrium computation in network games.\""
+ ],
+ "26": [
+  "1. \"A study on the impact of color schemes on user engagement in mobile applications.\"",
+  "2. \"Designing an intuitive user interface for elderly users in smart home systems.\"",
+  "3. \"Exploring the use of virtual reality for enhancing user experience in educational software.\"",
+  "4. \"Investigating the effectiveness of different navigation menus on website usability.\"",
+  "5. \"Analyzing the role of feedback mechanisms in improving user satisfaction with online shopping platforms.\""
+ ],
+ "28": [
+  "1. \"Efficient lossless data compression using Huffman coding.\"",
+  "2. \"Analysis of channel capacity for wireless communication systems.\"",
+  "3. \"Error-correcting codes for reliable data transmission.\"",
+  "4. \"Quantifying information entropy in communication systems.\"",
+  "5. \"Optimal coding schemes for minimizing data transmission latency.\""
+ ],
+ "30": [
+  "1. \"A Survey of Automated Theorem Proving Techniques in First-Order Logic\"",
+  "2. \"Formal Verification of Concurrent Programs using Temporal Logic\"",
+  "3. \"Type Theory Foundations for Functional Programming Languages\"",
+  "4. \"Model Checking Algorithms for Verifying Distributed Systems\"",
+  "5. \"A Comparative Study of Proof Assistants for Formal Verification\""
+ ],
+ "29": [
+  "1. \"A Survey of Deep Reinforcement Learning Algorithms for Autonomous Driving\"",
+  "2. \"Understanding the Role of Regularization in Neural Network Training\"",
+  "3. \"An Analysis of Transfer Learning Techniques for Image Classification\"",
+  "4. \"Exploring the Impact of Data Augmentation on Convolutional Neural Networks\"",
+  "5. \"Investigating the Use of Generative Adversarial Networks for Anomaly Detection\""
+ ],
+ "31": [
+  "1. \"A comparison of iterative methods for solving large linear systems in computational fluid dynamics.\"",
+  "2. \"Efficient algorithms for solving sparse linear systems arising in finite element analysis.\"",
+  "3. \"Numerical integration techniques for accurately approximating definite integrals in scientific computing.\"",
+  "4. \"A study on the convergence properties of iterative solvers for nonlinear equations in optimization.\"",
+  "5. \"Parallel computing strategies for accelerating the solution of large-scale numerical simulations in computational physics.\""
+ ],
+ "32": [
+  "1. \"A Survey of Internet of Things (IoT) Security Protocols in Wireless Networks.\"",
+  "2. \"Analyzing the Performance of TCP Congestion Control Algorithms in Data Center Networks.\"",
+  "3. \"Design and Implementation of a Scalable Content Delivery Network (CDN) Architecture.\"",
+  "4. \"Investigating the Impact of Network Topology on Routing Efficiency in Peer-to-Peer Networks.\"",
+  "5. \"Evaluation of Quality of Service (QoS) Metrics for Video Streaming over Wireless Networks.\""
+ ],
+ "34": [
+  "1. \"A study on the impact of code reviews on software quality in agile development teams.\"",
+  "2. \"Automated testing strategies for ensuring the reliability of web applications.\"",
+  "3. \"Best practices for incorporating user feedback into the software development process.\"",
+  "4. \"An analysis of the effectiveness of different project management methodologies in software development.\"",
+  "5. \"Investigating the role of continuous integration and deployment in improving software delivery speed and quality.\""
+ ],
+ "33": [
+  "1. \"A Survey of Human-Robot Interaction Techniques in Assistive Robotics.\"",
+  "2. \"Efficient Motion Planning for Autonomous Mobile Robots in Dynamic Environments.\"",
+  "3. \"Learning-Based Control Strategies for Robotic Manipulation Tasks.\"",
+  "4. \"Multi-Robot Coordination for Search and Rescue Missions in Disaster Scenarios.\"",
+  "5. \"Real-Time Obstacle Avoidance Algorithm for Unmanned Aerial Vehicles.\""
+ ],
+ "35": [
+  "1. \"Analyzing the spread of misinformation on Twitter using graph mining techniques.\"",
+  "2. \"A study on the impact of social media influencers on user engagement in online communities.\"",
+  "3. \"Detecting fake accounts in social networks using machine learning algorithms.\"",
+  "4. \"Exploring the dynamics of information diffusion in online social networks.\"",
+  "5. \"Investigating the role of homophily in the formation of friendship networks on Facebook.\""
+ ],
+ "37": [
+  "1. \"Causal Inference in Panel Data: A Bayesian Approach\"",
+  "2. \"Machine Learning Methods for Forecasting Economic Time Series\"",
+  "3. \"Instrumental Variables Estimation in the Presence of Endogeneity\"",
+  "4. \"Bayesian Structural Time Series Models for Macroeconomic Forecasting\"",
+  "5. \"Testing for Granger Causality in Nonstationary Time Series Data\""
+ ],
+ "24": [
+  "1. \"A Comparative Study of Sorting Algorithms for Large Datasets.\"",
+  "2. \"Efficient Data Structures for Spatial Indexing in Geographic Information Systems.\"",
+  "3. \"Dynamic Programming Approach for Solving the Knapsack Problem.\"",
+  "4. \"Analysis of Time Complexity for Hashing Techniques in Data Structures.\"",
+  "5. \"Optimizing Memory Usage in Tree Data Structures for Fast Retrieval Operations.\""
+ ],
+ "36": [
+  "1. \"A Robust Adaptive Control Approach for Uncertain Nonlinear Systems.\"",
+  "2. \"Model Predictive Control for Autonomous Vehicles in Urban Environments.\"",
+  "3. \"Identification of Nonlinear Systems using Neural Networks and Genetic Algorithms.\"",
+  "4. \"Stability Analysis of Networked Control Systems with Time Delays.\"",
+  "5. \"Optimal Control of Renewable Energy Systems with Energy Storage.\""
+ ],
+ "39": [
+  "1. \"A game-theoretic analysis of strategic voting in elections.\"",
+  "2. \"Mechanism design for optimal resource allocation in a competitive market.\"",
+  "3. \"General equilibrium modeling of the effects of trade tariffs on consumer welfare.\"",
+  "4. \"An exploration of the Nash equilibrium concept in bargaining games.\"",
+  "5. \"Theoretical implications of information asymmetry in financial markets.\""
+ ],
+ "38": [
+  "1. \"The impact of foreign direct investment on economic growth in developing countries.\"",
+  "2. \"A comparative analysis of fiscal policy effectiveness in stimulating economic growth.\"",
+  "3. \"The role of institutions in promoting sustainable development in emerging economies.\"",
+  "4. \"An examination of the relationship between income inequality and economic growth.\"",
+  "5. \"The effects of trade liberalization on poverty reduction in low-income countries.\""
+ ],
+ "41": [
+  "1. \"Deep learning approach for medical image segmentation.\"",
+  "2. \"Enhancing video quality using convolutional neural networks.\"",
+  "3. \"Sparse signal reconstruction using compressive sensing techniques.\"",
+  "4. \"Automated detection of tumors in MRI scans.\"",
+  "5. \"Real-time facial recognition system for security applications.\""
+ ],
+ "42": [
+  "1. \"A novel approach for speech enhancement using deep learning techniques.\"",
+  "2. \"Performance analysis of adaptive filters for echo cancellation in audio signals.\"",
+  "3. \"Comparison of different algorithms for image denoising in medical imaging.\"",
+  "4. \"Investigating the use of wavelet transforms for feature extraction in radar signal processing.\"",
+  "5. \"Anomaly detection in wireless sensor networks using statistical signal processing methods.\""
+ ],
+ "40": [
+  "1. \"Improving speech recognition accuracy using deep learning techniques.\"",
+  "2. \"An analysis of audio signal processing algorithms for noise reduction.\"",
+  "3. \"Speech synthesis using neural networks for natural sounding voices.\"",
+  "4. \"Investigating the impact of different feature extraction methods on speech recognition performance.\"",
+  "5. \"A study on the use of machine learning for speaker diarization in audio recordings.\""
+ ],
+ "46": [
+  "1. \"On the structure of finitely generated modules over local rings.\"",
+  "2. \"Prime ideals in polynomial rings over algebraically closed fields.\"",
+  "3. \"Homological properties of graded rings and modules.\"",
+  "4. \"Characterizing Noetherian rings with finite Krull dimension.\"",
+  "5. \"The behavior of primary decompositions in commutative algebra.\""
+ ],
+ "45": [
+  "1. \"Exploring the holographic principle in AdS/CFT correspondence.\"",
+  "2. \"Black hole entropy and the information paradox in quantum gravity.\"",
+  "3. \"Supersymmetry breaking in string theory compactifications.\"",
+  "4. \"Collider signatures of new physics beyond the Standard Model.\"",
+  "5. \"Non-perturbative effects in quantum field theory and their implications for particle physics.\""
+ ],
+ "44": [
+  "1. Measurement of the Higgs boson production in the diphoton decay channel at the LHC.",
+  "2. Search for new physics in the dimuon final state with the ATLAS detector.",
+  "3. Observation of the top quark pair production in proton-proton collisions at 13 TeV.",
+  "4. Measurement of the W boson mass with the CMS detector at the LHC.",
+  "5. Search for dark matter particles in the monojet final state at the Fermilab Tevatron."
+ ],
+ "47": [
+  "1. \"On the classification of smooth projective curves of genus 3.\"",
+  "2. \"A study of rational points on elliptic curves over finite fields.\"",
+  "3. \"Toric varieties and their applications in algebraic geometry.\"",
+  "4. \"The geometry of moduli spaces of stable curves.\"",
+  "5. \"Sheaf cohomology and its role in algebraic geometry.\""
+ ],
+ "48": [
+  "1. \"Existence and regularity of solutions to the Navier-Stokes equations in bounded domains.\"",
+  "2. \"Uniqueness of weak solutions for the heat equation with non-homogeneous boundary conditions.\"",
+  "3. \"Regularity results for the Monge-Amp\u00e8re equation in convex domains.\"",
+  "4. \"Global existence of solutions to the nonlinear Schr\u00f6dinger equation with critical nonlinearity.\"",
+  "5. \"Unique continuation for the wave equation with variable coefficients.\""
+ ],
+ "49": [
+  "1. \"A survey of persistent homology techniques in topological data analysis.\"",
+  "2. \"The relationship between homotopy groups and covering spaces.\"",
+  "3. \"Cohomology operations and their applications in algebraic topology.\"",
+  "4. \"Steenrod squares and their role in the classification of vector bundles.\"",
+  "5. \"Homological algebra techniques for studying the fundamental group of a space.\""
+ ],
+ "50": [
+  "1. \"On the convergence of Fourier series for piecewise smooth functions.\"",
+  "2. \"Analytic solutions to the heat equation on bounded domains.\"",
+  "3. \"Orthogonal polynomials and their applications in numerical integration.\"",
+  "4. \"Spectral properties of Sturm-Liouville operators with non-self-adjoint boundary conditions.\"",
+  "5. \"Asymptotic behavior of solutions to ordinary differential equations with singularities.\""
+ ],
+ "52": [
+  "1. \"Analytic continuation of meromorphic functions on Riemann surfaces.\"",
+  "2. \"Conformal mapping techniques for solving complex variable problems.\"",
+  "3. \"Applications of Cauchy's integral formula in complex analysis.\"",
+  "4. \"Harmonic functions and their properties in several complex variables.\"",
+  "5. \"Classification of singularities in complex analytic functions.\""
+ ],
+ "51": [
+  "1. \"On the chromatic number of a graph with a given degree sequence.\"",
+  "2. \"Counting the number of spanning trees in a hypercube graph.\"",
+  "3. \"An algorithm for finding the maximum independent set in a bipartite graph.\"",
+  "4. \"Enumerating all possible Hamiltonian cycles in a complete graph.\"",
+  "5. \"Investigating the connectivity of random graphs with a given degree distribution.\""
+ ],
+ "54": [
+  "1. \"Bifurcation analysis of a predator-prey model with Allee effect.\"",
+  "2. \"Ergodic properties of a chaotic map on the unit interval.\"",
+  "3. \"Stability analysis of a delay differential equation with Hopf bifurcation.\"",
+  "4. \"Chaos synchronization in a network of coupled oscillators.\"",
+  "5. \"Ergodic theory for random dynamical systems on compact metric spaces.\""
+ ],
+ "43": [
+  "1. \"Robust control design for a grid-connected photovoltaic system.\"",
+  "2. \"Kalman filter based state estimation for a power system with renewable energy sources.\"",
+  "3. \"Adaptive control of a DC motor using neural networks.\"",
+  "4. \"Model predictive control of a smart grid with energy storage.\"",
+  "5. \"Observer design for fault detection in a wind turbine system.\""
+ ],
+ "57": [
+  "1. \"A proof of the compactness theorem in first-order logic.\"",
+  "2. \"An exploration of the relationship between set theory and model theory.\"",
+  "3. \"Investigating the consistency of ZFC set theory with large cardinals.\"",
+  "4. \"A study on the decidability of first-order theories.\"",
+  "5. \"Examining the complexity of proof systems in modal logic.\""
+ ],
+ "53": [
+  "1. \"On the curvature properties of Finsler manifolds with prescribed Ricci curvature.\"",
+  "2. \"A study of the geodesic flow on compact Riemannian manifolds.\"",
+  "3. \"Connections on principal bundles and their curvature forms.\"",
+  "4. \"The Gauss-Bonnet theorem for surfaces with boundary.\"",
+  "5. \"Symplectic structures on cotangent bundles and their relation to Hamiltonian dynamics.\""
+ ],
+ "56": [
+  "1. \"Classification of closed 3-manifolds with cyclic fundamental group.\"",
+  "2. \"Knot theory and its applications in DNA topology.\"",
+  "3. \"Geometric structures on hyperbolic 3-manifolds.\"",
+  "4. \"Dehn surgery and its effects on the topology of manifolds.\"",
+  "5. \"Invariants of 3-manifolds under homeomorphism and diffeomorphism.\""
+ ],
+ "55": [
+  "1. \"Classification of finite simple groups with order less than 10^9.\"",
+  "2. \"Structure of solvable groups with abelian Sylow subgroups.\"",
+  "3. \"Representation theory of semisimple Lie groups and algebras.\"",
+  "4. \"Algebraic groups over non-algebraically closed fields.\"",
+  "5. \"Automorphism groups of algebraic varieties and their actions.\""
+ ],
+ "58": [
+  "1. \"On the convergence of discrete curvature flows in metric spaces.\"",
+  "2. \"Characterizing convex bodies with minimal surface area in Euclidean space.\"",
+  "3. \"Exploring the relationship between curvature and volume in metric geometry.\"",
+  "4. \"A study of the isoperimetric inequality in discrete geometric settings.\"",
+  "5. \"Investigating the properties of convex hulls in metric spaces.\""
+ ],
+ "60": [
+  "1. \"On the distribution of prime numbers in arithmetic progressions.\"",
+  "2. \"An elementary proof of the infinitude of prime numbers.\"",
+  "3. \"Algebraic number theory and the theory of quadratic forms.\"",
+  "4. \"Analytic methods in the study of the Riemann zeta function.\"",
+  "5. \"The abc conjecture and its implications in number theory.\""
+ ],
+ "59": [
+  "1. \"Convergence analysis of the Jacobi iterative method for solving linear systems.\"",
+  "2. \"A comparison of numerical integration methods for solving stiff differential equations.\"",
+  "3. \"Error analysis of the trapezoidal rule for approximating definite integrals.\"",
+  "4. \"Optimal parameter selection for the Gauss-Seidel method in solving partial differential equations.\"",
+  "5. \"Stability analysis of the Crank-Nicolson method for solving parabolic PDEs.\""
+ ],
+ "67": [
+  "1. \"A Bayesian approach to estimating population parameters using hierarchical models.\"",
+  "2. \"Comparing the performance of different hypothesis testing methods in non-parametric statistics.\"",
+  "3. \"Optimizing sample size for statistical power in clinical trials.\"",
+  "4. \"Exploring the relationship between Bayesian decision theory and game theory.\"",
+  "5. \"An analysis of the bias-variance tradeoff in machine learning algorithms.\""
+ ],
+ "66": [
+  "1. \"Symplectic capacities on contact manifolds\"",
+  "2. \"Quantum cohomology of symplectic manifolds\"",
+  "3. \"Contact structures on 3-dimensional manifolds\"",
+  "4. \"Symplectic embeddings of ellipsoids\"",
+  "5. \"Contact homology and symplectic field theory\""
+ ],
+ "61": [
+  "1. \"Classification of simple nuclear C*-algebras with finite decomposition rank.\"",
+  "2. \"On the structure of operator algebras associated with discrete groups.\"",
+  "3. \"Characterizing von Neumann algebras with property (T) using group actions.\"",
+  "4. \"Approximation properties of C*-algebras associated with topological dynamical systems.\"",
+  "5. \"Existence of conditional expectations on certain von Neumann algebras.\""
+ ],
+ "64": [
+  "1. \"On the classification of finite-dimensional irreducible representations of quantum affine algebras.\"",
+  "2. \"Hopf algebra structures on the quantum torus and their applications in noncommutative geometry.\"",
+  "3. \"Quantum groups and their role in the study of integrable systems.\"",
+  "4. \"Categorical aspects of quantum groups and their relation to tensor categories.\"",
+  "5. \"Quantum cluster algebras and their connections to quantum groups and quantum integrable systems.\""
+ ],
+ "62": [
+  "1. \"A new algorithm for solving large-scale convex optimization problems.\"",
+  "2. \"Optimal control of a robotic arm using reinforcement learning techniques.\"",
+  "3. \"Variational analysis of the convergence properties of gradient descent.\"",
+  "4. \"Efficient methods for solving non-convex optimization problems.\"",
+  "5. \"Applications of optimal control theory in finance and economics.\""
+ ],
+ "65": [
+  "1. \"On the classification of irreducible representations of semisimple Lie algebras.\"",
+  "2. \"Invariant theory of finite groups and its applications in algebraic geometry.\"",
+  "3. \"Representations of quantum groups and their connection to knot theory.\"",
+  "4. \"Algebraic groups and their actions on projective varieties.\"",
+  "5. \"Character theory of symmetric groups and its role in combinatorics.\""
+ ],
+ "69": [
+  "1. \"Design and simulation of a novel compact linear accelerator for medical applications.\"",
+  "2. \"Investigation of beam dynamics in a high-energy particle collider.\"",
+  "3. \"Optimization of beam parameters for maximum efficiency in a synchrotron accelerator.\"",
+  "4. \"Development of advanced beam diagnostics for improved control of particle beams.\"",
+  "5. \"Study of beam instabilities in a circular accelerator using numerical simulations.\""
+ ],
+ "68": [
+  "1. On the convergence of the Trotter product formula in quantum mechanics.",
+  "2. Rigorous analysis of the Ising model on a random graph.",
+  "3. Existence of ground states for the Bose-Hubbard model with long-range interactions.",
+  "4. Quantum entanglement in spin chains with long-range interactions.",
+  "5. Renormalization group analysis of critical behavior in the XY model."
+ ],
+ "70": [
+  "1. \"Development of a novel solar panel design for increased energy efficiency.\"",
+  "2. \"Investigating the impact of magnetic fields on drug delivery systems.\"",
+  "3. \"Optimizing the performance of microfluidic devices for biomedical applications.\"",
+  "4. \"Utilizing nanotechnology for improved water purification processes.\"",
+  "5. \"Exploring the use of acoustic waves for non-invasive medical imaging techniques.\""
+ ],
+ "63": [
+  "1. \"A study of Markov chains in financial modeling.\"",
+  "2. \"Analysis of random walks on graphs with applications to network theory.\"",
+  "3. \"Investigating the convergence properties of stochastic processes.\"",
+  "4. \"Exploring the distribution of random variables in queueing theory.\"",
+  "5. \"Probabilistic methods in combinatorics and their applications in computer science.\""
+ ],
+ "76": [
+  "1. \"A Bayesian approach to analyzing cosmic microwave background data.\"",
+  "2. \"Comparing machine learning algorithms for particle physics data analysis.\"",
+  "3. \"Statistical methods for detecting anomalies in large-scale astrophysical datasets.\"",
+  "4. \"Exploring data processing techniques for gravitational wave signals.\"",
+  "5. \"Quantifying uncertainty in climate model simulations using statistical analysis.\""
+ ],
+ "74": [
+  "1. \"Newton's Laws of Motion and Their Applications in Engineering\"",
+  "2. \"Thermodynamic Properties of Ideal Gases at Different Pressures\"",
+  "3. \"Maxwell's Equations and Their Role in Electromagnetic Wave Propagation\"",
+  "4. \"Analyzing the Motion of a Pendulum Using Lagrangian Mechanics\"",
+  "5. \"Heat Transfer in a Conduction-Dominated System with Varying Boundary Conditions\""
+ ],
+ "73": [
+  "1. \"Investigating the electronic structure of metal-organic frameworks using density functional theory.\"",
+  "2. \"Understanding the dynamics of chemical reactions at the nanoscale using ultrafast spectroscopy.\"",
+  "3. \"Exploring the phase behavior of colloidal suspensions through computer simulations.\"",
+  "4. \"Characterizing the surface properties of catalysts for hydrogen production using X-ray photoelectron spectroscopy.\"",
+  "5. \"Investigating the role of solvent dynamics in controlling the reactivity of organic molecules in solution.\""
+ ],
+ "75": [
+  "1. \"A comparison of Monte Carlo and molecular dynamics simulations for studying phase transitions in materials.\"",
+  "2. \"Development of a new finite element method for solving partial differential equations in fluid dynamics.\"",
+  "3. \"Investigating the efficiency of parallel computing techniques in simulating quantum systems.\"",
+  "4. \"Application of machine learning algorithms for predicting the behavior of complex physical systems.\"",
+  "5. \"Optimization of numerical algorithms for simulating the dynamics of granular materials.\""
+ ],
+ "71": [
+  "1. \"Investigating the electron shell structure of lithium using laser spectroscopy.\"",
+  "2. \"Collision dynamics of ultracold rubidium atoms in a magneto-optical trap.\"",
+  "3. \"Exploring the quantum behavior of trapped cesium atoms in an optical lattice.\"",
+  "4. \"Analyzing the effects of electron-electron interactions in highly excited helium atoms.\"",
+  "5. \"Studying the formation of molecular ions in a cold atom experiment.\""
+ ],
+ "78": [
+  "1. \"A Brief History of Quantum Mechanics: From Bohr to Bell\"",
+  "2. \"Einstein's Philosophical Views on the Nature of Time\"",
+  "3. \"The Role of Experimentation in the Development of Modern Physics\"",
+  "4. \"Historical Analysis of the Wave-Particle Duality in Quantum Mechanics\"",
+  "5. \"The Influence of Ancient Greek Philosophy on Early Physics Theories\""
+ ],
+ "77": [
+  "1. \"Investigation of vortex shedding behind a circular cylinder in a uniform flow.\"",
+  "2. \"Numerical simulation of turbulent flow over a backward-facing step.\"",
+  "3. \"Experimental study of the drag reduction in turbulent boundary layers using riblets.\"",
+  "4. \"Analysis of the flow field around a NACA airfoil at different angles of attack.\"",
+  "5. \"Comparison of different turbulence models for predicting flow behavior in a pipe.\""
+ ],
+ "79": [
+  "1. Development of a novel photon counting detector for X-ray spectroscopy.",
+  "2. Performance evaluation of a new particle tracking system for high-energy physics experiments.",
+  "3. Design and testing of a compact gamma-ray spectrometer for space missions.",
+  "4. Calibration methods for improving the accuracy of a neutron detection system.",
+  "5. Investigation of noise sources in a magnetic resonance imaging scanner for medical imaging applications."
+ ],
+ "80": [
+  "1. \"Enhanced light absorption in silicon nanowire arrays for photovoltaic applications.\"",
+  "2. \"Ultrafast laser-induced phase transitions in vanadium dioxide thin films.\"",
+  "3. \"Design and fabrication of plasmonic nanostructures for surface-enhanced Raman spectroscopy.\"",
+  "4. \"Nonlinear optical properties of graphene oxide for all-optical switching applications.\"",
+  "5. \"Development of high-power fiber lasers for industrial cutting and welding processes.\""
+ ],
+ "72": [
+  "1. \"Modeling the dynamics of protein folding using molecular dynamics simulations.\"",
+  "2. \"Investigating the mechanical properties of cell membranes through atomic force microscopy.\"",
+  "3. \"Understanding the role of hydrodynamics in bacterial motility.\"",
+  "4. \"Quantifying the forces involved in DNA replication using optical tweezers.\"",
+  "5. \"Exploring the physics of neural networks in the brain for cognitive function.\""
+ ],
+ "82": [
+  "1. \"Modeling the spread of misinformation on social media using physics principles.\"",
+  "2. \"Analyzing the impact of urban planning on community cohesion through physics simulations.\"",
+  "3. \"Investigating the dynamics of opinion formation in online social networks.\"",
+  "4. \"Applying network theory to study the structure of social interactions in a community.\"",
+  "5. \"Examining the role of physics in understanding patterns of collective behavior in crowds.\""
+ ],
+ "87": [
+  "1. \"The role of genetic drift in shaping population diversity in Drosophila melanogaster.\"",
+  "2. \"Evolutionary dynamics of antibiotic resistance in bacterial populations.\"",
+  "3. \"Population genetics of invasive species in urban environments.\"",
+  "4. \"The impact of environmental change on the evolution of plant populations.\"",
+  "5. \"Modeling the spread of infectious diseases in human populations.\""
+ ],
+ "81": [
+  "1. \"Investigation of magnetic reconnection in laboratory plasma experiments.\"",
+  "2. \"Modeling of turbulence in fusion plasmas using gyrokinetic simulations.\"",
+  "3. \"Observations of plasma instabilities in the Earth's magnetosphere.\"",
+  "4. \"Development of advanced diagnostics for measuring plasma parameters in fusion reactors.\"",
+  "5. \"Study of plasma heating mechanisms in solar flares using satellite observations.\""
+ ],
+ "84": [
+  "1. \"Comparative analysis of gene expression patterns in cancer cells using RNA sequencing.\"",
+  "2. \"Identification of novel genetic markers associated with Alzheimer's disease through whole genome sequencing.\"",
+  "3. \"Investigating the impact of environmental factors on gene expression in plants using microarray technology.\"",
+  "4. \"Characterization of the gut microbiome in individuals with inflammatory bowel disease using metagenomic sequencing.\"",
+  "5. \"Exploring the role of epigenetic modifications in regulating gene expression during embryonic development.\""
+ ],
+ "85": [
+  "1. \"Analysis of gene regulatory networks in breast cancer cells.\"",
+  "2. \"Modeling signaling pathways in immune response.\"",
+  "3. \"Identifying key players in molecular networks of Alzheimer's disease.\"",
+  "4. \"Comparative study of gene regulatory networks in different species.\"",
+  "5. \"Predicting drug targets in cancer using network analysis.\""
+ ],
+ "83": [
+  "1. \"Investigating the role of protein folding in neurodegenerative diseases.\"",
+  "2. \"Structural analysis of DNA repair enzymes in cancer cells.\"",
+  "3. \"Exploring the function of RNA-binding proteins in gene regulation.\"",
+  "4. \"Characterizing the interaction between membrane proteins and lipids.\"",
+  "5. \"Understanding the molecular mechanisms of enzyme catalysis in metabolic pathways.\""
+ ],
+ "86": [
+  "1. \"A computational model of synaptic plasticity in neural networks.\"",
+  "2. \"Investigating the role of inhibitory neurons in cognitive processes.\"",
+  "3. \"Neural correlates of decision-making in the prefrontal cortex.\"",
+  "4. \"Analyzing the dynamics of neural activity during memory retrieval.\"",
+  "5. \"Modeling the effects of neurotransmitters on synaptic transmission.\""
+ ],
+ "89": [
+  "1. \"Investigating the role of microRNAs in regulating stem cell differentiation in cardiac tissue.\"",
+  "2. \"Engineering a 3D bioprinted liver model for drug toxicity testing.\"",
+  "3. \"Understanding the molecular mechanisms of organ development in zebrafish embryos.\"",
+  "4. \"Examining the effects of mechanical forces on tissue regeneration in skeletal muscle.\"",
+  "5. \"Optimizing culture conditions for the growth of intestinal organoids in vitro.\""
+ ],
+ "88": [
+  "1. \"A mathematical model for predicting population dynamics of invasive species in a new environment.\"",
+  "2. \"Simulation of gene regulatory networks to study the effects of mutations on protein expression levels.\"",
+  "3. \"Quantitative analysis of cell migration patterns using computational algorithms.\"",
+  "4. \"Modeling the spread of infectious diseases in a population using agent-based simulations.\"",
+  "5. \"Predicting the impact of climate change on biodiversity through mathematical modeling of ecosystem dynamics.\""
+ ],
+ "91": [
+  "1. \"The impact of monetary policy on stock market volatility: a dynamic analysis.\"",
+  "2. \"Forecasting exchange rate movements using machine learning algorithms.\"",
+  "3. \"The role of financial intermediaries in the transmission of monetary policy.\"",
+  "4. \"An empirical analysis of the relationship between inflation and economic growth.\"",
+  "5. \"The effect of trade liberalization on income inequality in developing countries.\""
+ ],
+ "90": [
+  "1. \"A comparative study of Monte Carlo simulation and finite difference methods for pricing exotic options in computational finance.\"",
+  "2. \"An analysis of the efficiency of machine learning algorithms in predicting stock prices in the financial market.\"",
+  "3. \"Developing a novel algorithm for portfolio optimization using genetic programming in computational finance.\"",
+  "4. \"Exploring the impact of high-frequency trading on market volatility through numerical simulations in computational finance.\"",
+  "5. \"Investigating the effectiveness of deep learning models in forecasting cryptocurrency prices in computational finance.\""
+ ],
+ "94": [
+  "1. \"An analysis of credit risk models in the banking sector.\"",
+  "2. \"Market risk assessment using stochastic volatility models.\"",
+  "3. \"The impact of macroeconomic factors on insurance pricing.\"",
+  "4. \"A comparison of different methods for measuring financial risk.\"",
+  "5. \"Risk management strategies for mitigating operational risk in financial institutions.\""
+ ],
+ "92": [
+  "1. \"A new approach to option pricing using stochastic volatility models.\"",
+  "2. \"Analyzing the impact of market microstructure on high-frequency trading strategies.\"",
+  "3. \"Risk management in portfolio optimization using copula models.\"",
+  "4. \"Hedging strategies for energy derivatives in the presence of jumps.\"",
+  "5. \"Stochastic calculus applications in credit risk modeling for structured products.\""
+ ],
+ "95": [
+  "1. \"Forecasting stock prices using machine learning algorithms: A comparative study.\"",
+  "2. \"Impact of macroeconomic indicators on stock market volatility: An empirical analysis.\"",
+  "3. \"Time series analysis of cryptocurrency prices: A case study of Bitcoin.\"",
+  "4. \"Modeling credit risk in banking sector using econometric techniques.\"",
+  "5. \"Predicting financial market trends using sentiment analysis of news articles.\""
+ ],
+ "93": [
+  "1. \"Optimal Portfolio Allocation using Machine Learning Techniques\"",
+  "2. \"Risk Management Strategies for Hedge Fund Investments\"",
+  "3. \"Comparing Performance of Active vs. Passive Investment Strategies\"",
+  "4. \"Impact of Market Volatility on Portfolio Diversification\"",
+  "5. \"Evaluation of Factor Models in Portfolio Management\""
+ ],
+ "97": [
+  "1. \"Predicting customer churn in the telecommunications industry using logistic regression.\"",
+  "2. \"Assessing the effectiveness of a new drug treatment through a randomized controlled trial.\"",
+  "3. \"Analyzing the impact of social media marketing on brand awareness using time series analysis.\"",
+  "4. \"Investigating the relationship between income level and health outcomes in a population study.\"",
+  "5. \"Developing a predictive model for stock market fluctuations based on historical data.\""
+ ],
+ "98": [
+  "1. \"Efficient Monte Carlo methods for Bayesian inference in hierarchical models.\"",
+  "2. \"A comparison of computational algorithms for sparse matrix factorization.\"",
+  "3. \"Parallel computing strategies for large-scale statistical simulations.\"",
+  "4. \"Optimizing Markov chain Monte Carlo algorithms for high-dimensional data.\"",
+  "5. \"An evaluation of computational techniques for estimating covariance matrices.\""
+ ],
+ "96": [
+  "1. \"High-Frequency Trading Strategies: A Comparative Analysis of Market Impact.\"",
+  "2. \"Liquidity Provision in Dark Pools: An Empirical Study of Execution Costs.\"",
+  "3. \"The Impact of Algorithmic Trading on Market Volatility: Evidence from the Futures Market.\"",
+  "4. \"Market Microstructure and Price Discovery in Cryptocurrency Exchanges.\"",
+  "5. \"Optimal Execution Strategies for Institutional Investors: A Game-Theoretic Approach.\""
+ ],
+ "99": [
+  "1. \"A comparison of Bayesian and frequentist approaches for estimating population parameters.\"",
+  "2. \"An investigation into the impact of sample size on the power of hypothesis tests.\"",
+  "3. \"Model selection techniques for identifying the best fitting regression model.\"",
+  "4. \"A study on the use of cross-validation for assessing the performance of predictive models.\"",
+  "5. \"The application of bootstrapping methods in estimating the uncertainty of parameter estimates.\""
+ ],
+ "100": [
+  "1. \"A comparative study of ensemble learning methods for classification tasks.\"",
+  "2. \"Investigating the impact of feature selection on the performance of deep learning models.\"",
+  "3. \"Understanding the trade-off between bias and variance in supervised learning algorithms.\"",
+  "4. \"An analysis of the convergence properties of stochastic gradient descent for neural networks.\"",
+  "5. \"Exploring the use of generative adversarial networks for data augmentation in imbalanced datasets.\""
+ ]
+}

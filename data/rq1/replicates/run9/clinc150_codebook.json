@@ -1,0 +1,117 @@
+{
+  "bench": "clinc150",
+  "run": 9,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information Query",
+      "definition": "Requesting facts, definitions, schedules, or general knowledge."
+    },
+    {
+      "id": 2,
+      "name": "Personal Information Query",
+      "definition": "Requesting specific information related to the user's accounts, status, or personal data."
+    },
+    {
+      "id": 3,
+      "name": "Instructional Query",
+      "definition": "Requesting steps, procedures, or how-to guides for a task."
+    },
+    {
+      "id": 4,
+      "name": "Assistant Settings",
+      "definition": "Modifying the assistant's behavior, voice, or other operational settings."
+    },
+    {
+      "id": 5,
+      "name": "Communication",
+      "definition": "Initiating or sending messages, calls, or sharing information with others."
+    },
+    {
+      "id": 6,
+      "name": "Booking and Reservations",
+      "definition": "Making, modifying, or canceling reservations for services, events, or places."
+    },
+    {
+      "id": 7,
+      "name": "Travel Planning",
+      "definition": "Searching for travel options or requesting travel-related information."
+    },
+    {
+      "id": 8,
+      "name": "Media Control",
+      "definition": "Playing, managing, or querying information about media."
+    },
+    {
+      "id": 9,
+      "name": "Alarms and Timers",
+      "definition": "Setting, querying, or managing alarms and timers."
+    },
+    {
+      "id": 10,
+      "name": "Location-Based Search",
+      "definition": "Finding places or services near the user's current or specified location."
+    },
+    {
+      "id": 11,
+      "name": "Shopping and Product Management",
+      "definition": "Searching for products, making purchases, or requesting product recommendations."
+    },
+    {
+      "id": 12,
+      "name": "Task and List Management",
+      "definition": "Managing personal to-do lists, reminders, or calendar entries."
+    },
+    {
+      "id": 13,
+      "name": "Utility Tools",
+      "definition": "Performing simple calculations, conversions, or random selections."
+    },
+    {
+      "id": 14,
+      "name": "Assistant Interaction",
+      "definition": "General conversational commands, feedback, greetings, or requests for the assistant to repeat itself."
+    },
+    {
+      "id": 15,
+      "name": "Device Finding",
+      "definition": "Locating a lost device."
+    },
+    {
+      "id": 16,
+      "name": "Financial Account Management",
+      "definition": "Performing actions related to financial accounts."
+    },
+    {
+      "id": 17,
+      "name": "Service Booking",
+      "definition": "Booking appointments or services for personal items."
+    },
+    {
+      "id": 18,
+      "name": "Navigation and Traffic",
+      "definition": "Getting directions, travel times, or traffic updates."
+    },
+    {
+      "id": 19,
+      "name": "Problem Reporting",
+      "definition": "Reporting a non-financial problem or issue."
+    },
+    {
+      "id": 20,
+      "name": "Application and Website Launch",
+      "definition": "Direct command to open an application or website."
+    },
+    {
+      "id": 21,
+      "name": "Entertainment Request",
+      "definition": "Requesting jokes or fun facts."
+    },
+    {
+      "id": 22,
+      "name": "Game Interaction",
+      "definition": "Specific commands related to playing a game."
+    }
+  ]
+}

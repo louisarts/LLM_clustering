@@ -1,0 +1,77 @@
+{
+  "bench": "massive_domain",
+  "run": 2,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Media Playback & Control",
+      "definition": "Playing, pausing, skipping, or adjusting volume for music, podcasts, audiobooks, or videos."
+    },
+    {
+      "id": 2,
+      "name": "Information Retrieval",
+      "definition": "Asking for general facts, definitions, calculations, recipes, jokes, celebrity information, location details, or current time/date."
+    },
+    {
+      "id": 3,
+      "name": "News & Sports Updates",
+      "definition": "Requesting current events, headlines, or sports scores."
+    },
+    {
+      "id": 4,
+      "name": "Weather Information",
+      "definition": "Asking for current weather conditions or forecasts."
+    },
+    {
+      "id": 5,
+      "name": "Email Management",
+      "definition": "Composing, sending, checking, or managing emails."
+    },
+    {
+      "id": 6,
+      "name": "Calendar & Reminders",
+      "definition": "Setting, managing, or querying alarms, reminders, and calendar events."
+    },
+    {
+      "id": 7,
+      "name": "Smart Home & Device Control",
+      "definition": "Controlling smart home devices like lights, thermostats, appliances, or general device settings."
+    },
+    {
+      "id": 8,
+      "name": "Navigation & Transportation",
+      "definition": "Getting directions, traffic information, or booking transportation services."
+    },
+    {
+      "id": 9,
+      "name": "Shopping & Lists",
+      "definition": "Creating, managing, or querying shopping lists or other personal lists."
+    },
+    {
+      "id": 10,
+      "name": "Social Media & Messaging",
+      "definition": "Interacting with social media platforms or sending messages (excluding email)."
+    },
+    {
+      "id": 11,
+      "name": "App & System Control",
+      "definition": "Opening or interacting with specific applications, or general system commands like power management."
+    },
+    {
+      "id": 12,
+      "name": "Customer Service & Feedback",
+      "definition": "Sending complaints or feedback to companies or services."
+    },
+    {
+      "id": 13,
+      "name": "Food & Dining",
+      "definition": "Ordering food, finding restaurants, or checking food order status."
+    },
+    {
+      "id": 14,
+      "name": "Financial Information",
+      "definition": "Querying personal financial details or exchange rates."
+    }
+  ]
+}

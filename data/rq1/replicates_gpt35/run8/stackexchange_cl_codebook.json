@@ -1,0 +1,160 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "StackOverflow",
+      "definition": "Questions related to programming, software development, and technology."
+    },
+    {
+      "id": 2,
+      "name": "Academia",
+      "definition": "Questions related to academia, research, and education."
+    },
+    {
+      "id": 3,
+      "name": "Interpersonal Skills",
+      "definition": "Questions related to communication, relationships, and social interactions."
+    },
+    {
+      "id": 4,
+      "name": "Mythology & Folklore",
+      "definition": "Questions related to myths, legends, and folklore."
+    },
+    {
+      "id": 5,
+      "name": "Language & Linguistics",
+      "definition": "Questions related to languages, linguistics, and translation."
+    },
+    {
+      "id": 6,
+      "name": "GIS & Mapping",
+      "definition": "Questions related to geographic information systems and mapping."
+    },
+    {
+      "id": 7,
+      "name": "Physics",
+      "definition": "Questions related to physics and mathematical concepts."
+    },
+    {
+      "id": 8,
+      "name": "Latin Language",
+      "definition": "Questions related to the Latin language and translations."
+    },
+    {
+      "id": 9,
+      "name": "Biology & Genetics",
+      "definition": "Questions related to biology, genetics, and evolution."
+    },
+    {
+      "id": 10,
+      "name": "GIS & Mapping",
+      "definition": "Questions related to geographic information systems and mapping."
+    },
+    {
+      "id": 11,
+      "name": "Art & Design",
+      "definition": "Questions related to art, design, and visual aesthetics."
+    },
+    {
+      "id": 12,
+      "name": "Astronomy & Space",
+      "definition": "Questions related to astronomy, space exploration, and celestial bodies."
+    },
+    {
+      "id": 13,
+      "name": "History",
+      "definition": "Questions related to historical events, figures, and civilizations."
+    },
+    {
+      "id": 14,
+      "name": "Music & Instruments",
+      "definition": "Questions related to music theory, instruments, and composition."
+    },
+    {
+      "id": 15,
+      "name": "Travel & Transportation",
+      "definition": "Questions related to travel destinations, transportation methods, and logistics."
+    },
+    {
+      "id": 16,
+      "name": "Mathematics",
+      "definition": "Questions related to mathematical concepts, equations, and problem-solving."
+    },
+    {
+      "id": 17,
+      "name": "Religion & Beliefs",
+      "definition": "Questions related to religious beliefs, practices, and traditions."
+    },
+    {
+      "id": 18,
+      "name": "Video Games",
+      "definition": "Questions related to video games, gaming strategies, and gameplay."
+    },
+    {
+      "id": 19,
+      "name": "Web Development",
+      "definition": "Questions related to web development, programming languages, and coding practices."
+    },
+    {
+      "id": 20,
+      "name": "Literature & Writing",
+      "definition": "Questions related to literature, writing techniques, and storytelling."
+    },
+    {
+      "id": 21,
+      "name": "Health & Fitness",
+      "definition": "Questions related to health, fitness, and wellness."
+    },
+    {
+      "id": 22,
+      "name": "Photography & Imaging",
+      "definition": "Questions related to photography techniques, equipment, and editing software."
+    },
+    {
+      "id": 23,
+      "name": "Legal & Patents",
+      "definition": "Questions related to legal matters, patents, and intellectual property."
+    },
+    {
+      "id": 24,
+      "name": "Computer Science",
+      "definition": "Questions related to computer science, algorithms, and data structures."
+    },
+    {
+      "id": 25,
+      "name": "Movies & TV",
+      "definition": "Questions related to movies, television shows, and entertainment media."
+    },
+    {
+      "id": 26,
+      "name": "Mechanical Engineering",
+      "definition": "Questions related to mechanical engineering principles, designs, and applications."
+    },
+    {
+      "id": 27,
+      "name": "Graphic Design",
+      "definition": "Questions related to graphic design, visual communication, and digital art."
+    },
+    {
+      "id": 28,
+      "name": "Psychology & Behavior",
+      "definition": "Questions related to psychology, behavior analysis, and mental health."
+    },
+    {
+      "id": 29,
+      "name": "Economics & Finance",
+      "definition": "Questions related to economics, financial markets, and investment strategies."
+    },
+    {
+      "id": 30,
+      "name": "Chemistry",
+      "definition": "Questions related to chemical compounds, reactions, and laboratory techniques."
+    }
+  ]
+}

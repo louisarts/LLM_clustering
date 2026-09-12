@@ -1,0 +1,94 @@
+{
+  "bench": "massive_domain",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar & Scheduling",
+      "definition": "Managing events, meetings, and appointments, including creating, deleting, querying, and rescheduling them."
+    },
+    {
+      "id": 2,
+      "name": "Music & Audio Playback",
+      "definition": "Controlling music, podcasts, radio, and audiobooks, including playback commands and queries about audio content."
+    },
+    {
+      "id": 3,
+      "name": "Email Communication",
+      "definition": "Managing email inboxes, including reading, composing, sending, and checking for new emails."
+    },
+    {
+      "id": 4,
+      "name": "Weather & Forecast",
+      "definition": "Requesting weather conditions, forecasts, and temperature information for specific locations and times."
+    },
+    {
+      "id": 5,
+      "name": "Alarms & Reminders",
+      "definition": "Setting, checking, and managing alarms and personal reminders for tasks or events."
+    },
+    {
+      "id": 6,
+      "name": "General Information & Q&A",
+      "definition": "Requesting facts, definitions, general knowledge, opinions, and explanations not covered by other specific categories."
+    },
+    {
+      "id": 7,
+      "name": "Smart Home & IoT",
+      "definition": "Controlling smart home devices like lights, plugs, thermostats, and robotic vacuums."
+    },
+    {
+      "id": 8,
+      "name": "News & Media Updates",
+      "definition": "Requesting news headlines, specific news topics, stock market updates, and trending social media topics."
+    },
+    {
+      "id": 9,
+      "name": "Lists & Notes",
+      "definition": "Managing to-do lists, shopping lists, and notes, including adding, removing, and querying items."
+    },
+    {
+      "id": 10,
+      "name": "Social Media",
+      "definition": "Posting content, replying, and interacting on social media platforms like Twitter."
+    },
+    {
+      "id": 11,
+      "name": "Device Settings & Volume",
+      "definition": "Adjusting device settings, specifically volume control and other hardware configurations."
+    },
+    {
+      "id": 12,
+      "name": "Food & Cooking",
+      "definition": "Requesting recipes, cooking instructions, and health or dietary tips."
+    },
+    {
+      "id": 13,
+      "name": "Transportation & Navigation",
+      "definition": "Booking rides, checking traffic, and navigating travel or directions."
+    },
+    {
+      "id": 14,
+      "name": "Finance & Currency",
+      "definition": "Checking stock prices and currency exchange rates."
+    },
+    {
+      "id": 15,
+      "name": "Time & Date",
+      "definition": "Querying the current time, date, time zones, and calendar dates."
+    },
+    {
+      "id": 16,
+      "name": "Shopping & Services",
+      "definition": "Ordering food, checking order status, and finding local services or shops."
+    },
+    {
+      "id": 17,
+      "name": "Contacts",
+      "definition": "Retrieving contact information and phone numbers."
+    }
+  ]
+}

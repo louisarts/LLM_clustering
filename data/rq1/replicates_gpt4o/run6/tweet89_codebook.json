@@ -1,0 +1,295 @@
+{
+  "bench": "tweet89",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets discussing commercials aired during the Super Bowl."
+    },
+    {
+      "id": 2,
+      "name": "Christina Aguilera National Anthem Flub",
+      "definition": "Tweets about Christina Aguilera's mistake during the national anthem at the Super Bowl."
+    },
+    {
+      "id": 3,
+      "name": "Yemen Protests",
+      "definition": "Tweets about protests and political unrest in Yemen."
+    },
+    {
+      "id": 4,
+      "name": "Jordan Protests",
+      "definition": "Tweets about protests and political unrest in Jordan."
+    },
+    {
+      "id": 5,
+      "name": "Egypt Protests",
+      "definition": "Tweets about protests and political unrest in Egypt."
+    },
+    {
+      "id": 6,
+      "name": "Rahm Emanuel Chicago Mayoral Race",
+      "definition": "Tweets about Rahm Emanuel's eligibility and participation in the Chicago mayoral race."
+    },
+    {
+      "id": 7,
+      "name": "Australian Open 2011",
+      "definition": "Tweets about the 2011 Australian Open tennis tournament, particularly focusing on Djokovic and Murray."
+    },
+    {
+      "id": 8,
+      "name": "King's Speech Awards",
+      "definition": "Tweets about the film 'The King's Speech' and its success in various award ceremonies."
+    },
+    {
+      "id": 9,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Tweets discussing the lawsuit against Taco Bell regarding the content of their beef."
+    },
+    {
+      "id": 10,
+      "name": "Apple and Steve Jobs",
+      "definition": "Tweets about Apple, including Steve Jobs' medical leave and company succession plans."
+    },
+    {
+      "id": 11,
+      "name": "Chipotle Immigration Issues",
+      "definition": "Tweets about Chipotle's issues with immigration and related investigations."
+    },
+    {
+      "id": 12,
+      "name": "Health Care Reform Law",
+      "definition": "Tweets about the legal challenges and rulings related to the health care reform law."
+    },
+    {
+      "id": 13,
+      "name": "Fishing",
+      "definition": "Tweets about fishing tips, reports, and related activities."
+    },
+    {
+      "id": 14,
+      "name": "Scholarships and Education",
+      "definition": "Tweets about scholarships, educational opportunities, and related topics."
+    },
+    {
+      "id": 15,
+      "name": "Acai Berry Diet",
+      "definition": "Tweets discussing the acai berry diet and its effects."
+    },
+    {
+      "id": 16,
+      "name": "Moscow Airport Bombing",
+      "definition": "Tweets about the terrorist bombing at Moscow's Domodedovo Airport."
+    },
+    {
+      "id": 17,
+      "name": "Sundance Film Festival",
+      "definition": "Tweets about events and celebrities at the Sundance Film Festival."
+    },
+    {
+      "id": 18,
+      "name": "Debt and Credit Issues",
+      "definition": "Tweets about managing debt, credit card issues, and consolidation."
+    },
+    {
+      "id": 19,
+      "name": "Bedbug Resistance",
+      "definition": "Tweets about bedbugs evolving resistance to pesticides."
+    },
+    {
+      "id": 20,
+      "name": "Oprah Winfrey's Family Secret",
+      "definition": "Tweets about Oprah Winfrey revealing a family secret."
+    },
+    {
+      "id": 21,
+      "name": "Piracy and Naval Operations",
+      "definition": "Tweets about piracy incidents and naval operations against pirates."
+    },
+    {
+      "id": 22,
+      "name": "Arizona Immigration Law",
+      "definition": "Tweets about Arizona's immigration law and related legal challenges."
+    },
+    {
+      "id": 23,
+      "name": "Social Media and Politics",
+      "definition": "Tweets about the use of social media in political campaigns and movements."
+    },
+    {
+      "id": 24,
+      "name": "Oscars and Academy Awards",
+      "definition": "Tweets about the Oscars and Academy Award nominations and winners."
+    },
+    {
+      "id": 25,
+      "name": "Bullying and Education",
+      "definition": "Tweets about bullying prevention and education initiatives."
+    },
+    {
+      "id": 26,
+      "name": "Climate Change and Weather",
+      "definition": "Tweets about climate change and its impact on weather patterns."
+    },
+    {
+      "id": 27,
+      "name": "Texting and Driving",
+      "definition": "Tweets about the dangers of texting while driving and related campaigns."
+    },
+    {
+      "id": 28,
+      "name": "Food Recipes",
+      "definition": "Tweets sharing various food recipes."
+    },
+    {
+      "id": 29,
+      "name": "Chavez and Venezuela",
+      "definition": "Tweets about Hugo Chavez and political events in Venezuela."
+    },
+    {
+      "id": 30,
+      "name": "Identity Theft",
+      "definition": "Tweets about identity theft and its implications."
+    },
+    {
+      "id": 31,
+      "name": "Stuxnet and Cybersecurity",
+      "definition": "Tweets about the Stuxnet virus and cybersecurity concerns."
+    },
+    {
+      "id": 32,
+      "name": "Giffords Recovery",
+      "definition": "Tweets about the recovery of Congresswoman Gabrielle Giffords."
+    },
+    {
+      "id": 33,
+      "name": "Supreme Court Rulings",
+      "definition": "Tweets about various rulings by the Supreme Court."
+    },
+    {
+      "id": 34,
+      "name": "Mergers and Stock Market",
+      "definition": "Tweets about corporate mergers and their impact on the stock market."
+    },
+    {
+      "id": 35,
+      "name": "Autism Awareness",
+      "definition": "Tweets about autism awareness and related educational efforts."
+    },
+    {
+      "id": 36,
+      "name": "Whitney Port and Fashion",
+      "definition": "Tweets about Whitney Port and her involvement in fashion events."
+    },
+    {
+      "id": 37,
+      "name": "Ford and Super Bowl Ads",
+      "definition": "Tweets about Ford's advertising during the Super Bowl."
+    },
+    {
+      "id": 38,
+      "name": "Starbucks Trente Size",
+      "definition": "Tweets about Starbucks introducing the Trente size."
+    },
+    {
+      "id": 39,
+      "name": "Jesse Ventura TSA Lawsuit",
+      "definition": "Tweets about Jesse Ventura's lawsuit against the TSA."
+    },
+    {
+      "id": 40,
+      "name": "Black Swan Film",
+      "definition": "Tweets about the film 'Black Swan' and its performances."
+    },
+    {
+      "id": 41,
+      "name": "Kardashians",
+      "definition": "Tweets about the Kardashian family and their television shows."
+    },
+    {
+      "id": 42,
+      "name": "Toyota Texas Bass Classic",
+      "definition": "Tweets about the Toyota Texas Bass Classic fishing event."
+    },
+    {
+      "id": 43,
+      "name": "Lady Obama's Fitness Campaign",
+      "definition": "Tweets about Michelle Obama's fitness and nutrition campaign."
+    },
+    {
+      "id": 44,
+      "name": "Blizzard and Weather Alerts",
+      "definition": "Tweets about blizzard warnings and weather alerts."
+    },
+    {
+      "id": 45,
+      "name": "Iranian Executions",
+      "definition": "Tweets about executions in Iran, particularly of an Iranian-Dutch woman."
+    },
+    {
+      "id": 46,
+      "name": "Facebook Security",
+      "definition": "Tweets about Facebook's security features and privacy concerns."
+    },
+    {
+      "id": 47,
+      "name": "Whitney Port and Fashion",
+      "definition": "Tweets about Whitney Port and her involvement in fashion events."
+    },
+    {
+      "id": 48,
+      "name": "Ford and Super Bowl Ads",
+      "definition": "Tweets about Ford's advertising during the Super Bowl."
+    },
+    {
+      "id": 49,
+      "name": "Starbucks Trente Size",
+      "definition": "Tweets about Starbucks introducing the Trente size."
+    },
+    {
+      "id": 50,
+      "name": "Jesse Ventura TSA Lawsuit",
+      "definition": "Tweets about Jesse Ventura's lawsuit against the TSA."
+    },
+    {
+      "id": 51,
+      "name": "Black Swan Film",
+      "definition": "Tweets about the film 'Black Swan' and its performances."
+    },
+    {
+      "id": 52,
+      "name": "Kardashians",
+      "definition": "Tweets about the Kardashian family and their television shows."
+    },
+    {
+      "id": 53,
+      "name": "Toyota Texas Bass Classic",
+      "definition": "Tweets about the Toyota Texas Bass Classic fishing event."
+    },
+    {
+      "id": 54,
+      "name": "Lady Obama's Fitness Campaign",
+      "definition": "Tweets about Michelle Obama's fitness and nutrition campaign."
+    },
+    {
+      "id": 55,
+      "name": "Blizzard and Weather Alerts",
+      "definition": "Tweets about blizzard warnings and weather alerts."
+    },
+    {
+      "id": 56,
+      "name": "Iranian Executions",
+      "definition": "Tweets about executions in Iran, particularly of an Iranian-Dutch woman."
+    },
+    {
+      "id": 57,
+      "name": "Facebook Security",
+      "definition": "Tweets about Facebook's security features and privacy concerns."
+    }
+  ]
+}

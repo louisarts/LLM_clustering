@@ -1,0 +1,110 @@
+{
+  "bench": "reddit_s2s",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Art",
+      "definition": "Posts related to visual or performing arts, including painting, sculpture, music, and photography."
+    },
+    {
+      "id": 2,
+      "name": "Technology",
+      "definition": "Posts related to technology, gadgets, and electronics."
+    },
+    {
+      "id": 3,
+      "name": "Music",
+      "definition": "Posts related to music, musicians, and music events."
+    },
+    {
+      "id": 4,
+      "name": "Health",
+      "definition": "Posts related to health, wellness, and medical topics."
+    },
+    {
+      "id": 5,
+      "name": "Business",
+      "definition": "Posts related to business, entrepreneurship, and finance."
+    },
+    {
+      "id": 6,
+      "name": "Education",
+      "definition": "Posts related to education, schools, and learning."
+    },
+    {
+      "id": 7,
+      "name": "Travel",
+      "definition": "Posts related to travel destinations, tips, and experiences."
+    },
+    {
+      "id": 8,
+      "name": "Sports",
+      "definition": "Posts related to sports, athletes, and sporting events."
+    },
+    {
+      "id": 9,
+      "name": "Science",
+      "definition": "Posts related to scientific research, discoveries, and experiments."
+    },
+    {
+      "id": 10,
+      "name": "Fashion",
+      "definition": "Posts related to clothing, style, and fashion trends."
+    },
+    {
+      "id": 11,
+      "name": "Food",
+      "definition": "Posts related to food, recipes, and culinary experiences."
+    },
+    {
+      "id": 12,
+      "name": "Relationships",
+      "definition": "Posts related to personal relationships, advice, and dating."
+    },
+    {
+      "id": 13,
+      "name": "Automotive",
+      "definition": "Posts related to cars, motorcycles, and automotive industry."
+    },
+    {
+      "id": 14,
+      "name": "Politics",
+      "definition": "Posts related to political news, events, and opinions."
+    },
+    {
+      "id": 15,
+      "name": "Gaming",
+      "definition": "Posts related to video games, gaming consoles, and gaming culture."
+    },
+    {
+      "id": 16,
+      "name": "Photography",
+      "definition": "Posts related to photography techniques, equipment, and photoshoots."
+    },
+    {
+      "id": 17,
+      "name": "Pets",
+      "definition": "Posts related to pets, pet care, and animal welfare."
+    },
+    {
+      "id": 18,
+      "name": "Legal",
+      "definition": "Posts related to legal issues, laws, and court cases."
+    },
+    {
+      "id": 19,
+      "name": "Environment",
+      "definition": "Posts related to environmental issues, conservation, and sustainability."
+    },
+    {
+      "id": 20,
+      "name": "Social Issues",
+      "definition": "Posts related to social justice, equality, and activism."
+    }
+  ]
+}

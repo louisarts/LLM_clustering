@@ -1,0 +1,137 @@
+{
+  "bench": "mtop_intent",
+  "run": 2,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Create a new alarm with specified time, frequency, or label."
+    },
+    {
+      "id": 2,
+      "name": "Manage Alarm",
+      "definition": "Modify, delete, enable, or disable an existing alarm."
+    },
+    {
+      "id": 3,
+      "name": "Query Alarm Status",
+      "definition": "Ask about existing alarms, their settings, or remaining time until they trigger."
+    },
+    {
+      "id": 4,
+      "name": "Snooze Alarm",
+      "definition": "Temporarily silence an active alarm."
+    },
+    {
+      "id": 5,
+      "name": "Set Reminder",
+      "definition": "Create a new reminder with specified content, time, or recipient."
+    },
+    {
+      "id": 6,
+      "name": "Manage Reminder",
+      "definition": "Modify or delete an existing reminder."
+    },
+    {
+      "id": 7,
+      "name": "Query Reminder",
+      "definition": "Ask about existing reminders, their content, or upcoming alerts."
+    },
+    {
+      "id": 8,
+      "name": "Initiate Call",
+      "definition": "Start a voice or video call with a contact or group."
+    },
+    {
+      "id": 9,
+      "name": "Send Message",
+      "definition": "Send a text or video message to a contact or group."
+    },
+    {
+      "id": 10,
+      "name": "Manage Call",
+      "definition": "Perform actions during an active call, such as adding participants, dropping participants, pausing, or ending the call."
+    },
+    {
+      "id": 11,
+      "name": "Block Contact",
+      "definition": "Block a contact from initiating communication."
+    },
+    {
+      "id": 12,
+      "name": "Play Music",
+      "definition": "Start playing music, a specific song, artist, genre, or station."
+    },
+    {
+      "id": 13,
+      "name": "Control Music Playback",
+      "definition": "Perform actions on currently playing music, such as repeating, skipping, pausing, or stopping."
+    },
+    {
+      "id": 14,
+      "name": "Query Music Information",
+      "definition": "Ask for details about the currently playing song."
+    },
+    {
+      "id": 15,
+      "name": "Manage Music Preferences",
+      "definition": "Create new music stations or manage preferences."
+    },
+    {
+      "id": 16,
+      "name": "Get News",
+      "definition": "Request news updates, specific topics, or headlines."
+    },
+    {
+      "id": 17,
+      "name": "Get Weather",
+      "definition": "Request current, future, or historical weather information."
+    },
+    {
+      "id": 18,
+      "name": "Get General Information",
+      "definition": "Request facts, definitions, recipes, or general knowledge."
+    },
+    {
+      "id": 19,
+      "name": "Set Timer",
+      "definition": "Create a new timer with a specified duration."
+    },
+    {
+      "id": 20,
+      "name": "Manage Timer",
+      "definition": "Pause, resume, reset, add/subtract time, or stop an existing timer."
+    },
+    {
+      "id": 21,
+      "name": "Query Timer Status",
+      "definition": "Ask about the remaining time or status of a timer."
+    },
+    {
+      "id": 22,
+      "name": "Query Contact Information",
+      "definition": "Ask for details about contacts, such as their work, friends, online status, address, or birthdays."
+    },
+    {
+      "id": 23,
+      "name": "Query Communication History",
+      "definition": "Ask about past calls or messages."
+    },
+    {
+      "id": 24,
+      "name": "Find Events",
+      "definition": "Search for local events or activities."
+    },
+    {
+      "id": 25,
+      "name": "Manage Event Participation",
+      "definition": "Indicate attendance or non-attendance for an event."
+    },
+    {
+      "id": 26,
+      "name": "Set Availability Status",
+      "definition": "Update the user's availability status."
+    }
+  ]
+}

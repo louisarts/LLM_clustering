@@ -1,0 +1,162 @@
+{
+  "bench": "dbpedia",
+  "run": 10,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "A human being, typically a notable individual."
+    },
+    {
+      "id": 2,
+      "name": "Organization (Educational)",
+      "definition": "An institution or entity providing education."
+    },
+    {
+      "id": 3,
+      "name": "Organization (Business)",
+      "definition": "A commercial enterprise or company."
+    },
+    {
+      "id": 4,
+      "name": "Organization (Governmental)",
+      "definition": "A body or agency of government."
+    },
+    {
+      "id": 5,
+      "name": "Organization (Social)",
+      "definition": "A club or association formed for social purposes."
+    },
+    {
+      "id": 6,
+      "name": "Literary Work",
+      "definition": "A written work such as a novel, short story, play, or manga."
+    },
+    {
+      "id": 7,
+      "name": "Film",
+      "definition": "A motion picture, including documentaries and concert films."
+    },
+    {
+      "id": 8,
+      "name": "Music Album",
+      "definition": "A collection of musical recordings released together."
+    },
+    {
+      "id": 9,
+      "name": "Publication (Periodical)",
+      "definition": "A regularly published work such as a journal, newspaper, or magazine."
+    },
+    {
+      "id": 10,
+      "name": "Animal Species",
+      "definition": "A specific type of animal."
+    },
+    {
+      "id": 11,
+      "name": "Animal Genus",
+      "definition": "A taxonomic rank above species, grouping related animal species."
+    },
+    {
+      "id": 12,
+      "name": "Plant Species",
+      "definition": "A specific type of plant."
+    },
+    {
+      "id": 13,
+      "name": "Plant Cultivar",
+      "definition": "A plant variety produced by selective breeding."
+    },
+    {
+      "id": 14,
+      "name": "Plant Family",
+      "definition": "A taxonomic rank above genus, grouping related plant genera."
+    },
+    {
+      "id": 15,
+      "name": "Geographical Feature",
+      "definition": "A natural landform or body of water, such as a mountain, river, lake, or mountain range."
+    },
+    {
+      "id": 16,
+      "name": "Settlement",
+      "definition": "A populated place such as a village or town."
+    },
+    {
+      "id": 17,
+      "name": "Building (Religious)",
+      "definition": "A structure used for religious worship or activities."
+    },
+    {
+      "id": 18,
+      "name": "Building (Commercial)",
+      "definition": "A structure used for business or trade."
+    },
+    {
+      "id": 19,
+      "name": "Building (Residential)",
+      "definition": "A structure used as a dwelling."
+    },
+    {
+      "id": 20,
+      "name": "Building (Governmental)",
+      "definition": "A structure used for government administration."
+    },
+    {
+      "id": 21,
+      "name": "Building (Agricultural)",
+      "definition": "A structure used for farming or agricultural purposes."
+    },
+    {
+      "id": 22,
+      "name": "Building (Educational)",
+      "definition": "A physical structure used for educational purposes."
+    },
+    {
+      "id": 23,
+      "name": "Building (Historical)",
+      "definition": "A structure primarily notable for its historical significance, rather than its current function."
+    },
+    {
+      "id": 24,
+      "name": "Infrastructure",
+      "definition": "A fundamental facility or system serving a country, city, or area, such as a waterworks or dam."
+    },
+    {
+      "id": 25,
+      "name": "Archaeological Site",
+      "definition": "A place where evidence of past human activity is preserved."
+    },
+    {
+      "id": 26,
+      "name": "Astronomical Feature",
+      "definition": "A natural formation or object in space."
+    },
+    {
+      "id": 27,
+      "name": "Structure (Monument)",
+      "definition": "A building or edifice erected to commemorate a person or event."
+    },
+    {
+      "id": 28,
+      "name": "Vehicle Model",
+      "definition": "A specific model of a car, motorcycle, or other land vehicle."
+    },
+    {
+      "id": 29,
+      "name": "Ship",
+      "definition": "A large watercraft, including specific vessels and types."
+    },
+    {
+      "id": 30,
+      "name": "Ship Class",
+      "definition": "A group of ships of a similar design."
+    },
+    {
+      "id": 31,
+      "name": "Aircraft Model",
+      "definition": "A specific model of an aircraft."
+    }
+  ]
+}

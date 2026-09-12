@@ -1,0 +1,37 @@
+[
+ {
+  "id": 1,
+  "name": "Rate Media",
+  "definition": "User wants to provide a rating for a media item such as a book, album, or movie."
+ },
+ {
+  "id": 2,
+  "name": "Play Music",
+  "definition": "User wants to play a specific song, album, or artist."
+ },
+ {
+  "id": 3,
+  "name": "Book Reservation",
+  "definition": "User wants to make a reservation at a restaurant or venue."
+ },
+ {
+  "id": 4,
+  "name": "Weather Inquiry",
+  "definition": "User wants to know the weather forecast for a specific location and time."
+ },
+ {
+  "id": 5,
+  "name": "Add to Playlist",
+  "definition": "User wants to add a specific track or artist to a designated playlist."
+ },
+ {
+  "id": 6,
+  "name": "Find Item",
+  "definition": "User wants to locate a specific item, such as a book, painting, or soundtrack."
+ },
+ {
+  "id": 7,
+  "name": "Show Schedule",
+  "definition": "User wants to see the schedule for movies or events."
+ }
+]

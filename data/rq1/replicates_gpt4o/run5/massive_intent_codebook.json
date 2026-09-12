@@ -1,0 +1,125 @@
+{
+  "bench": "massive_intent",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or forecasted weather information."
+    },
+    {
+      "id": 2,
+      "name": "Music Playback",
+      "definition": "Commands to play, pause, or stop music or playlists."
+    },
+    {
+      "id": 3,
+      "name": "Podcast Playback",
+      "definition": "Commands to play or manage podcasts."
+    },
+    {
+      "id": 4,
+      "name": "Email Management",
+      "definition": "Requests to check, send, or manage emails."
+    },
+    {
+      "id": 5,
+      "name": "Calendar Management",
+      "definition": "Commands to add, remove, or inquire about calendar events."
+    },
+    {
+      "id": 6,
+      "name": "Reminder Setup",
+      "definition": "Requests to set or inquire about reminders."
+    },
+    {
+      "id": 7,
+      "name": "Alarm Management",
+      "definition": "Commands to set, cancel, or inquire about alarms."
+    },
+    {
+      "id": 8,
+      "name": "News Inquiry",
+      "definition": "Requests for the latest news or updates on specific topics."
+    },
+    {
+      "id": 9,
+      "name": "Stock Inquiry",
+      "definition": "Requests for current stock prices or financial information."
+    },
+    {
+      "id": 10,
+      "name": "Recipe Inquiry",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 11,
+      "name": "Smart Home Control",
+      "definition": "Commands to control smart home devices like lights or plugs."
+    },
+    {
+      "id": 12,
+      "name": "Time Inquiry",
+      "definition": "Requests for the current time or time in different locations."
+    },
+    {
+      "id": 13,
+      "name": "Travel and Directions",
+      "definition": "Requests for travel information or directions."
+    },
+    {
+      "id": 14,
+      "name": "Grocery List Management",
+      "definition": "Commands to add or remove items from a grocery list."
+    },
+    {
+      "id": 15,
+      "name": "Social Media Interaction",
+      "definition": "Commands to post or check updates on social media."
+    },
+    {
+      "id": 16,
+      "name": "Joke Request",
+      "definition": "Requests for jokes or humorous content."
+    },
+    {
+      "id": 17,
+      "name": "General Knowledge Inquiry",
+      "definition": "Requests for definitions, descriptions, or general information."
+    },
+    {
+      "id": 18,
+      "name": "Order Food",
+      "definition": "Commands to order food or inquire about takeout options."
+    },
+    {
+      "id": 19,
+      "name": "Device Control",
+      "definition": "Commands to control non-smart home devices or settings."
+    },
+    {
+      "id": 20,
+      "name": "Task Management",
+      "definition": "Commands to manage tasks or to-do lists."
+    },
+    {
+      "id": 21,
+      "name": "Transportation Booking",
+      "definition": "Requests to book or inquire about transportation options."
+    },
+    {
+      "id": 22,
+      "name": "Notification Management",
+      "definition": "Commands to set or inquire about notifications."
+    },
+    {
+      "id": 23,
+      "name": "Miscellaneous",
+      "definition": "Commands or inquiries that do not fit into other categories."
+    }
+  ]
+}

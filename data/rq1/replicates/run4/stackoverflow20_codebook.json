@@ -1,0 +1,162 @@
+{
+  "bench": "stackoverflow20",
+  "run": 4,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "AJAX/JavaScript",
+      "definition": "Questions related to Asynchronous JavaScript and XML, the JavaScript language, or client-side libraries like jQuery."
+    },
+    {
+      "id": 2,
+      "name": "Apache HTTP Server",
+      "definition": "Questions about the Apache HTTP Server, its modules (e.g., mod_deflate, mod_proxy), or configuration (e.g., .htaccess, RewriteRule)."
+    },
+    {
+      "id": 3,
+      "name": "C#/.NET",
+      "definition": "Questions specific to the C# programming language, the .NET framework, or related technologies like ASP.NET."
+    },
+    {
+      "id": 4,
+      "name": "C++",
+      "definition": "Questions specific to the C++ programming language."
+    },
+    {
+      "id": 5,
+      "name": "DB2",
+      "definition": "Questions specific to the IBM DB2 relational database system."
+    },
+    {
+      "id": 6,
+      "name": "Drupal",
+      "definition": "Questions about the Drupal content management system, its modules, or development practices."
+    },
+    {
+      "id": 7,
+      "name": "Haskell",
+      "definition": "Questions specific to the Haskell programming language."
+    },
+    {
+      "id": 8,
+      "name": "Hibernate",
+      "definition": "Questions about the Hibernate ORM framework, its configuration, or usage."
+    },
+    {
+      "id": 9,
+      "name": "Java Libraries",
+      "definition": "Questions about general Java libraries or APIs not covered by specific frameworks (e.g., C3P0, Log4j, JMS, Apache POI)."
+    },
+    {
+      "id": 10,
+      "name": "LINQ",
+      "definition": "Questions about Language Integrated Query, including LINQ to SQL and LINQ to Entities."
+    },
+    {
+      "id": 11,
+      "name": "macOS Development",
+      "definition": "Questions about developing applications for macOS, including Cocoa, Objective-C, Xcode, AppleScript, and OS-specific APIs."
+    },
+    {
+      "id": 12,
+      "name": "Magento",
+      "definition": "Questions about the Magento e-commerce platform, its modules, or development practices."
+    },
+    {
+      "id": 13,
+      "name": "Matlab",
+      "definition": "Questions about the Matlab programming language, environment, or toolboxes."
+    },
+    {
+      "id": 14,
+      "name": "Microsoft Excel",
+      "definition": "Questions about Microsoft Excel, including VBA, macros, formulas, and Office Add-ins."
+    },
+    {
+      "id": 15,
+      "name": "MySQL",
+      "definition": "Questions specific to the MySQL relational database system."
+    },
+    {
+      "id": 16,
+      "name": "Oracle Database",
+      "definition": "Questions specific to the Oracle relational database system."
+    },
+    {
+      "id": 17,
+      "name": "PHP",
+      "definition": "Questions specific to the PHP programming language."
+    },
+    {
+      "id": 18,
+      "name": "Processing",
+      "definition": "Questions about the Processing programming language or development environment."
+    },
+    {
+      "id": 19,
+      "name": "Python",
+      "definition": "Questions specific to the Python programming language."
+    },
+    {
+      "id": 20,
+      "name": "Qt",
+      "definition": "Questions about the Qt cross-platform application framework."
+    },
+    {
+      "id": 21,
+      "name": "Scala",
+      "definition": "Questions specific to the Scala programming language."
+    },
+    {
+      "id": 22,
+      "name": "Shell Scripting",
+      "definition": "Questions about shell scripting, including Bash, Zsh, and general command-line utilities on Unix-like systems."
+    },
+    {
+      "id": 23,
+      "name": "SharePoint",
+      "definition": "Questions about Microsoft SharePoint, its features, development, or administration."
+    },
+    {
+      "id": 24,
+      "name": "Spring Framework",
+      "definition": "Questions about the Spring Framework, including Spring MVC, Spring AOP, and core Spring concepts."
+    },
+    {
+      "id": 25,
+      "name": "SQL Server",
+      "definition": "Questions specific to the Microsoft SQL Server relational database system."
+    },
+    {
+      "id": 26,
+      "name": "Subversion",
+      "definition": "Questions about the Subversion version control system, its usage, or administration."
+    },
+    {
+      "id": 27,
+      "name": "Tomcat",
+      "definition": "Questions about the Apache Tomcat web server/servlet container."
+    },
+    {
+      "id": 28,
+      "name": "Version Control Systems",
+      "definition": "Questions about version control systems in general, or specific systems not covered by Subversion (e.g., SourceSafe)."
+    },
+    {
+      "id": 29,
+      "name": "Visual Studio",
+      "definition": "Questions about the Visual Studio IDE, its features, project types, or extensions."
+    },
+    {
+      "id": 30,
+      "name": "Wordpress",
+      "definition": "Questions about the WordPress content management system, its plugins, themes, or development practices."
+    },
+    {
+      "id": 31,
+      "name": "XML",
+      "definition": "Questions about XML, its parsing, manipulation, or usage in data exchange."
+    }
+  ]
+}

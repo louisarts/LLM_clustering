@@ -1,0 +1,104 @@
+{
+  "bench": "stackoverflow20",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": ".NET / LINQ",
+      "definition": "Questions concerning the .NET framework, C# language features, and specifically LINQ technologies."
+    },
+    {
+      "id": 2,
+      "name": "Visual Studio",
+      "definition": "Questions regarding the usage, configuration, and extension of the Visual Studio IDE."
+    },
+    {
+      "id": 3,
+      "name": "Qt",
+      "definition": "Questions about the Qt cross-platform application framework and its libraries."
+    },
+    {
+      "id": 4,
+      "name": "Hibernate",
+      "definition": "Questions pertaining to the Hibernate object-relational mapping library for Java."
+    },
+    {
+      "id": 5,
+      "name": "Spring Framework",
+      "definition": "Questions about the Spring ecosystem, including dependency injection, MVC, and AOP."
+    },
+    {
+      "id": 6,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel usage, formulas, VBA, and automation."
+    },
+    {
+      "id": 7,
+      "name": "Magento",
+      "definition": "Questions concerning the Magento e-commerce platform development and configuration."
+    },
+    {
+      "id": 8,
+      "name": "WordPress",
+      "definition": "Questions regarding the WordPress content management system, plugins, and themes."
+    },
+    {
+      "id": 9,
+      "name": "Bash / Shell Scripting",
+      "definition": "Questions about shell scripting, command-line usage, and automation in Unix-like environments."
+    },
+    {
+      "id": 10,
+      "name": "Subversion (SVN)",
+      "definition": "Questions related to the Subversion version control system and its tooling."
+    },
+    {
+      "id": 11,
+      "name": "Oracle Database",
+      "definition": "Questions concerning the Oracle database management system and SQL dialect."
+    },
+    {
+      "id": 12,
+      "name": "Haskell",
+      "definition": "Questions about the Haskell programming language and its compiler tools."
+    },
+    {
+      "id": 13,
+      "name": "Scala",
+      "definition": "Questions regarding the Scala programming language and its features."
+    },
+    {
+      "id": 14,
+      "name": "SharePoint",
+      "definition": "Questions about developing for and administering Microsoft SharePoint products."
+    },
+    {
+      "id": 15,
+      "name": "Drupal",
+      "definition": "Questions concerning the Drupal content management framework."
+    },
+    {
+      "id": 16,
+      "name": "MATLAB",
+      "definition": "Questions related to the MATLAB numerical computing environment and language."
+    },
+    {
+      "id": 17,
+      "name": "Cocoa / Objective-C",
+      "definition": "Questions regarding native development for macOS using Cocoa and Objective-C."
+    },
+    {
+      "id": 18,
+      "name": "Apache Web Server",
+      "definition": "Questions about the Apache HTTP Server configuration and modules."
+    },
+    {
+      "id": 19,
+      "name": "General Programming",
+      "definition": "Questions about general programming concepts, algorithms, and language-agnostic issues."
+    }
+  ]
+}

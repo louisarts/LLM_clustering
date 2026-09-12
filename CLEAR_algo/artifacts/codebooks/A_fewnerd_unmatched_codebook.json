@@ -1,0 +1,77 @@
+[
+ {
+  "id": 1,
+  "name": "Person",
+  "definition": "An individual human being or a group of humans (e.g., demographic, tribe, or fictional character)."
+ },
+ {
+  "id": 2,
+  "name": "Location",
+  "definition": "A geographical entity, facility, or infrastructure such as a city, country, building, or road."
+ },
+ {
+  "id": 3,
+  "name": "Organization",
+  "definition": "A group of people, company, institution, or association with a collective goal, including sports teams and political parties."
+ },
+ {
+  "id": 4,
+  "name": "Creative Work",
+  "definition": "A distinct artistic or intellectual creation such as a film, book, song, game, or television series."
+ },
+ {
+  "id": 5,
+  "name": "Product",
+  "definition": "A manufactured item, vehicle, weapon, or software."
+ },
+ {
+  "id": 6,
+  "name": "Event",
+  "definition": "A specific occurrence, competition, or happening in time."
+ },
+ {
+  "id": 7,
+  "name": "Chemical Substance",
+  "definition": "A chemical compound, drug, or element."
+ },
+ {
+  "id": 8,
+  "name": "Biological Molecule",
+  "definition": "A complex molecule essential to life, such as a protein, enzyme, or nucleic acid."
+ },
+ {
+  "id": 9,
+  "name": "Organism",
+  "definition": "An individual living thing, such as an animal, plant, or fungus, or a taxonomic group of living things."
+ },
+ {
+  "id": 10,
+  "name": "Award",
+  "definition": "A prize, honor, or trophy given for achievement."
+ },
+ {
+  "id": 11,
+  "name": "Language",
+  "definition": "A system of communication used by a community."
+ },
+ {
+  "id": 12,
+  "name": "Currency",
+  "definition": "A standard of value in the form of money or a monetary symbol."
+ },
+ {
+  "id": 13,
+  "name": "Legislation",
+  "definition": "A law or set of laws passed by a legislative body."
+ },
+ {
+  "id": 14,
+  "name": "Disease",
+  "definition": "A disorder of structure or function in a human, animal, or plant."
+ },
+ {
+  "id": 15,
+  "name": "Concept",
+  "definition": "An abstract idea, metric, or general notion."
+ }
+]

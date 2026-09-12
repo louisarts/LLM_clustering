@@ -1,0 +1,44 @@
+{
+  "bench": "snips",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Music",
+      "definition": "User wants to play music, songs, albums, or artists on a specific platform or service."
+    },
+    {
+      "id": 2,
+      "name": "Add to Playlist",
+      "definition": "User wants to add a song, track, album, or artist to a specific playlist."
+    },
+    {
+      "id": 3,
+      "name": "Rate Creative Work",
+      "definition": "User wants to assign a rating, score, or star value to a book, movie, album, or other creative work."
+    },
+    {
+      "id": 4,
+      "name": "Book Restaurant",
+      "definition": "User wants to reserve a table or spot at a restaurant, bar, or other dining establishment."
+    },
+    {
+      "id": 5,
+      "name": "Get Weather",
+      "definition": "User wants to know the weather forecast or specific weather conditions for a location and time."
+    },
+    {
+      "id": 6,
+      "name": "Find Movie Showtimes",
+      "definition": "User wants to find movie schedules, showtimes, or movie theatres playing specific films."
+    },
+    {
+      "id": 7,
+      "name": "Find Creative Work",
+      "definition": "User wants to locate, search for, or identify a specific book, movie, TV show, album, or other creative work."
+    }
+  ]
+}

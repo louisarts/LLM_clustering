@@ -1,0 +1,307 @@
+{
+  "bench": "tweet89",
+  "run": 3,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "Discussions about advertisements aired during the Super Bowl."
+    },
+    {
+      "id": 2,
+      "name": "Christina Aguilera National Anthem Flub",
+      "definition": "Tweets discussing Christina Aguilera's mistake while singing the national anthem at the Super Bowl."
+    },
+    {
+      "id": 3,
+      "name": "The King's Speech Awards",
+      "definition": "News and discussions about the film The King's Speech winning awards or receiving nominations."
+    },
+    {
+      "id": 4,
+      "name": "Egyptian Protests",
+      "definition": "News and discussions about the protests and political unrest in Egypt."
+    },
+    {
+      "id": 5,
+      "name": "Yemen Protests",
+      "definition": "News and discussions about anti-government protests and political developments in Yemen."
+    },
+    {
+      "id": 6,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Discussions about a lawsuit alleging Taco Bell's beef product contains little actual beef."
+    },
+    {
+      "id": 7,
+      "name": "Acai Berry Products",
+      "definition": "Discussions about acai berry products, often related to weight loss or health benefits."
+    },
+    {
+      "id": 8,
+      "name": "Healthcare Reform Law Challenge",
+      "definition": "News about a federal judge ruling against the US healthcare reform law."
+    },
+    {
+      "id": 9,
+      "name": "Sundance Film Festival",
+      "definition": "Discussions and news related to the Sundance Film Festival."
+    },
+    {
+      "id": 10,
+      "name": "Rahm Emanuel Mayoral Candidacy",
+      "definition": "News and discussions about challenges to Rahm Emanuel's eligibility to run for Mayor of Chicago."
+    },
+    {
+      "id": 11,
+      "name": "Texting While Driving Awareness",
+      "definition": "Discussions and campaigns promoting awareness against texting while driving."
+    },
+    {
+      "id": 12,
+      "name": "Kardashian Family",
+      "definition": "Discussions and opinions about the Kardashian family."
+    },
+    {
+      "id": 13,
+      "name": "Charlie Sheen Personal Issues",
+      "definition": "News and discussions about Charlie Sheen's personal struggles, hospitalizations, or alleged abuse."
+    },
+    {
+      "id": 14,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates and discussions about Congresswoman Gabrielle Giffords' recovery after being shot."
+    },
+    {
+      "id": 15,
+      "name": "Domodedovo Airport Bombing",
+      "definition": "News about the suicide bombing at Domodedovo Airport in Moscow, Russia."
+    },
+    {
+      "id": 16,
+      "name": "Myanmar Sanctions",
+      "definition": "Discussions about international pressure and sanctions against Myanmar."
+    },
+    {
+      "id": 17,
+      "name": "Iran Nuclear Program and Sanctions",
+      "definition": "News and discussions about Iran's nuclear program, international sanctions, or diplomatic deals."
+    },
+    {
+      "id": 18,
+      "name": "Australian Open Tennis",
+      "definition": "Discussions about the Australian Open tennis tournament, particularly the men's singles final."
+    },
+    {
+      "id": 19,
+      "name": "Somali Piracy",
+      "definition": "News and discussions about Somali piracy, including hijackings and rescue operations."
+    },
+    {
+      "id": 20,
+      "name": "Joanna Yeates Murder Investigation",
+      "definition": "News and updates regarding the murder investigation of Joanna Yeates."
+    },
+    {
+      "id": 21,
+      "name": "Facebook Privacy",
+      "definition": "Discussions and news about Facebook's privacy settings and user data."
+    },
+    {
+      "id": 22,
+      "name": "TSA Body Scanners",
+      "definition": "Discussions about Transportation Security Administration TSA body scanners and related privacy issues."
+    },
+    {
+      "id": 23,
+      "name": "Arizona Immigration Law",
+      "definition": "News and discussions about the Arizona immigration law and legal challenges against it."
+    },
+    {
+      "id": 24,
+      "name": "Red Light Camera Effectiveness",
+      "definition": "Discussions about studies or debates concerning the effectiveness of red light cameras in improving safety."
+    },
+    {
+      "id": 25,
+      "name": "New York State Budget",
+      "definition": "News and discussions about New York Governor Cuomo's proposed budget cuts."
+    },
+    {
+      "id": 26,
+      "name": "Bed Bug Issues",
+      "definition": "Discussions about bed bug infestations or related public health concerns."
+    },
+    {
+      "id": 27,
+      "name": "Debt Management",
+      "definition": "Discussions about debt consolidation, debt settlement, or other debt management strategies."
+    },
+    {
+      "id": 28,
+      "name": "Fishing Hobby",
+      "definition": "Discussions about fishing as a sport, hobby, or related activities."
+    },
+    {
+      "id": 29,
+      "name": "Scholarships and Financial Aid",
+      "definition": "Discussions about college scholarships, financial aid, or educational funding opportunities."
+    },
+    {
+      "id": 30,
+      "name": "Starbucks Trenta Cup",
+      "definition": "Discussions about Starbucks introducing the new Trenta cup size."
+    },
+    {
+      "id": 31,
+      "name": "Keith Olbermann Career Move",
+      "definition": "News about Keith Olbermann joining Current TV."
+    },
+    {
+      "id": 32,
+      "name": "WikiLeaks Revelations",
+      "definition": "Discussions about WikiLeaks and its published diplomatic cables or other revelations."
+    },
+    {
+      "id": 33,
+      "name": "Robert Kubica F1 Crash",
+      "definition": "News about Formula 1 driver Robert Kubica's serious crash."
+    },
+    {
+      "id": 34,
+      "name": "Oprah Winfrey Family Secret",
+      "definition": "News about Oprah Winfrey revealing a deep family secret on her show."
+    },
+    {
+      "id": 35,
+      "name": "Donald Rumsfeld Memoir",
+      "definition": "News about Donald Rumsfeld writing and releasing his memoir."
+    },
+    {
+      "id": 36,
+      "name": "BBC Service Cuts",
+      "definition": "News about proposed service cuts at the BBC."
+    },
+    {
+      "id": 37,
+      "name": "Bullying Awareness",
+      "definition": "Discussions and tips related to bullying awareness and prevention."
+    },
+    {
+      "id": 38,
+      "name": "General Cooking and Recipes",
+      "definition": "Discussions about cooking, recipes, or healthy eating."
+    },
+    {
+      "id": 39,
+      "name": "Financial Markets News",
+      "definition": "General news and updates related to the stock market and financial sector."
+    },
+    {
+      "id": 40,
+      "name": "Social Media Trends",
+      "definition": "Discussions about the growing role and trends in social media."
+    },
+    {
+      "id": 41,
+      "name": "Obama Birth Certificate Controversy",
+      "definition": "Discussions related to the controversy surrounding President Obama's birth certificate."
+    },
+    {
+      "id": 42,
+      "name": "White Stripes Breakup",
+      "definition": "News about the band The White Stripes breaking up."
+    },
+    {
+      "id": 43,
+      "name": "Stuxnet Cyberattack",
+      "definition": "Discussions about the Stuxnet computer worm and its implications."
+    },
+    {
+      "id": 44,
+      "name": "Verizon iPhone Launch",
+      "definition": "News and discussions about the launch of the iPhone on Verizon's network."
+    },
+    {
+      "id": 45,
+      "name": "Ian Thorpe Comeback Rumors",
+      "definition": "Discussions about rumors of swimmer Ian Thorpe's potential comeback."
+    },
+    {
+      "id": 46,
+      "name": "Global Warming and Climate Change",
+      "definition": "Discussions about global warming, climate change, or unusual weather patterns."
+    },
+    {
+      "id": 47,
+      "name": "The Rite Movie",
+      "definition": "Discussions and reviews about the movie The Rite."
+    },
+    {
+      "id": 48,
+      "name": "NBA Concussion Protocol",
+      "definition": "Discussions about the NBA's concussion protocol."
+    },
+    {
+      "id": 49,
+      "name": "Michelle Obama Army Visit",
+      "definition": "News about Michelle Obama's visit to the Army."
+    },
+    {
+      "id": 50,
+      "name": "Dallas Super Bowl Logistics Issues",
+      "definition": "Discussions about logistical problems or issues at the Super Bowl in Dallas."
+    },
+    {
+      "id": 51,
+      "name": "Hugo Chavez and Golf",
+      "definition": "Discussions about Venezuelan President Hugo Chavez's views on golf."
+    },
+    {
+      "id": 52,
+      "name": "Scam Alerts",
+      "definition": "Warnings or discussions about scams."
+    },
+    {
+      "id": 53,
+      "name": "Energy Saving Tips",
+      "definition": "Tips and advice for reducing energy consumption and bills."
+    },
+    {
+      "id": 54,
+      "name": "Toy Library Funding",
+      "definition": "Discussions about funding issues affecting toy libraries."
+    },
+    {
+      "id": 55,
+      "name": "Internet Freedom and Protection",
+      "definition": "Discussions about protecting the internet or internet freedom."
+    },
+    {
+      "id": 56,
+      "name": "NBA Player News",
+      "definition": "News about specific NBA players or coaches."
+    },
+    {
+      "id": 57,
+      "name": "Horse Racing",
+      "definition": "Discussions about horse racing, betting, or related news."
+    },
+    {
+      "id": 58,
+      "name": "Supreme Court General Decisions",
+      "definition": "General news or discussions about US Supreme Court decisions not tied to a specific major case."
+    },
+    {
+      "id": 59,
+      "name": "Police News",
+      "definition": "News related to police activities or personnel."
+    },
+    {
+      "id": 60,
+      "name": "General Health and Diet Tips",
+      "definition": "General advice or discussions related to health, fitness, or diet."
+    }
+  ]
+}

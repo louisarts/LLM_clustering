@@ -1,0 +1,107 @@
+[
+ {
+  "id": 1,
+  "name": "Unity",
+  "definition": "Questions regarding the Unity game engine, its editor, components, and C# scripting."
+ },
+ {
+  "id": 2,
+  "name": "Unreal Engine",
+  "definition": "Questions regarding the Unreal Engine, Blueprints, and C++ development within the engine."
+ },
+ {
+  "id": 3,
+  "name": "Godot",
+  "definition": "Questions regarding the Godot game engine and its scripting language GDScript."
+ },
+ {
+  "id": 4,
+  "name": "GameMaker",
+  "definition": "Questions regarding GameMaker Studio and its GameMaker Language (GML)."
+ },
+ {
+  "id": 5,
+  "name": "LibGDX",
+  "definition": "Questions regarding the LibGDX cross-platform Java game development framework."
+ },
+ {
+  "id": 6,
+  "name": "XNA & MonoGame",
+  "definition": "Questions regarding the Microsoft XNA framework or the open source MonoGame implementation."
+ },
+ {
+  "id": 7,
+  "name": "HTML5 & JavaScript",
+  "definition": "Questions regarding web game development using HTML5, JavaScript, CSS, or related libraries."
+ },
+ {
+  "id": 8,
+  "name": "OpenGL & Vulkan",
+  "definition": "Questions regarding graphics programming using the OpenGL, OpenGL ES, or Vulkan APIs."
+ },
+ {
+  "id": 9,
+  "name": "DirectX & HLSL",
+  "definition": "Questions regarding graphics programming using the DirectX API, Direct3D, or HLSL shaders."
+ },
+ {
+  "id": 10,
+  "name": "Java",
+  "definition": "Questions regarding generic Java game development not specific to a particular framework like LibGDX."
+ },
+ {
+  "id": 11,
+  "name": "Android",
+  "definition": "Questions regarding native Android development, the Android SDK, or hardware issues on Android devices."
+ },
+ {
+  "id": 12,
+  "name": "iOS & macOS",
+  "definition": "Questions regarding development for Apple platforms, including iOS, macOS, SpriteKit, and SceneKit."
+ },
+ {
+  "id": 13,
+  "name": "Engine Development & Architecture",
+  "definition": "Questions regarding building custom game engines, software architecture, design patterns, and libraries like SDL or SFML."
+ },
+ {
+  "id": 14,
+  "name": "Math & Algorithms",
+  "definition": "Questions regarding mathematics, geometry, vectors, pathfinding, and computational algorithms."
+ },
+ {
+  "id": 15,
+  "name": "Physics",
+  "definition": "Questions regarding physics simulation, collision detection, rigid body dynamics, and standalone physics engines."
+ },
+ {
+  "id": 16,
+  "name": "Game Design",
+  "definition": "Questions regarding gameplay mechanics, game balance, level design, and player experience."
+ },
+ {
+  "id": 17,
+  "name": "Art & Assets",
+  "definition": "Questions regarding the creation, import, rigging, and animation of 2D or 3D art assets."
+ },
+ {
+  "id": 18,
+  "name": "Networking",
+  "definition": "Questions regarding multiplayer game architecture, protocols, and synchronization."
+ },
+ {
+  "id": 19,
+  "name": "Audio",
+  "definition": "Questions regarding sound design, music implementation, and audio programming."
+ },
+ {
+  "id": 20,
+  "name": "Flash & ActionScript",
+  "definition": "Questions regarding game development using Adobe Flash or ActionScript."
+ },
+ {
+  "id": 21,
+  "name": "Other",
+  "definition": "Questions regarding other programming languages, platforms, or topics not covered by specific categories."
+ }
+]

@@ -1,0 +1,52 @@
+{
+  "bench": "mcid",
+  "run": 2,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General COVID-19 Information",
+      "definition": "User seeks broad or foundational knowledge about COVID-19, its nature, origin, or general facts."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Personal Health",
+      "definition": "User inquires about COVID-19 symptoms, how to identify them, or assesses their personal health risk."
+    },
+    {
+      "id": 3,
+      "name": "Transmission and Prevention",
+      "definition": "User asks about how COVID-19 spreads, methods of protection, or best practices to avoid infection for themselves, others, or pets."
+    },
+    {
+      "id": 4,
+      "name": "Treatment, Cure, and Vaccine",
+      "definition": "User seeks information about medical treatments, potential cures, or vaccine availability and development."
+    },
+    {
+      "id": 5,
+      "name": "Statistics and Updates",
+      "definition": "User requests current data, case numbers, death tolls, recovery rates, or general news updates related to COVID-19, often location-specific."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Restrictions",
+      "definition": "User asks about the safety of travel, current travel bans, quarantine rules, or high-risk locations for travel."
+    },
+    {
+      "id": 7,
+      "name": "Myths and Misinformation",
+      "definition": "User seeks to verify, debunk, or identify false information and myths about COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Donation Intent",
+      "definition": "User expresses a desire or intent to contribute financially or materially to COVID-19 relief efforts."
+    },
+    {
+      "id": 9,
+      "name": "Information Sharing Intent",
+      "definition": "User expresses a desire to share the received information or the service itself with others."
+    }
+  ]
+}

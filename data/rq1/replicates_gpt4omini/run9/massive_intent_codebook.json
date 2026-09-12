@@ -1,0 +1,110 @@
+{
+  "bench": "massive_intent",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Reminders",
+      "definition": "Requests to set reminders for specific tasks or events."
+    },
+    {
+      "id": 2,
+      "name": "Information Requests",
+      "definition": "Requests for information on various topics, including news, weather, and general knowledge."
+    },
+    {
+      "id": 3,
+      "name": "Email Management",
+      "definition": "Requests related to sending, checking, or managing emails."
+    },
+    {
+      "id": 4,
+      "name": "Calendar Management",
+      "definition": "Requests to add, delete, or modify events in a calendar."
+    },
+    {
+      "id": 5,
+      "name": "Music and Audio Control",
+      "definition": "Requests to play, pause, or manage music and audio content."
+    },
+    {
+      "id": 6,
+      "name": "Device Control",
+      "definition": "Requests to control smart devices, such as lights and appliances."
+    },
+    {
+      "id": 7,
+      "name": "Travel and Booking",
+      "definition": "Requests related to booking travel, such as train or flight tickets."
+    },
+    {
+      "id": 8,
+      "name": "Recipe and Cooking",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 9,
+      "name": "Social Media Interaction",
+      "definition": "Requests to interact with social media platforms, including posting and checking updates."
+    },
+    {
+      "id": 10,
+      "name": "Task Management",
+      "definition": "Requests to manage to-do lists or tasks."
+    },
+    {
+      "id": 11,
+      "name": "Shopping and Orders",
+      "definition": "Requests related to shopping, including ordering food or items."
+    },
+    {
+      "id": 12,
+      "name": "Notifications and Alerts",
+      "definition": "Requests to set notifications for various events or updates."
+    },
+    {
+      "id": 13,
+      "name": "Weather Queries",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 14,
+      "name": "Meeting Scheduling",
+      "definition": "Requests to schedule or manage meetings."
+    },
+    {
+      "id": 15,
+      "name": "General Queries",
+      "definition": "Requests for general knowledge or trivia."
+    },
+    {
+      "id": 16,
+      "name": "Light and Color Control",
+      "definition": "Requests to adjust lighting settings or colors."
+    },
+    {
+      "id": 17,
+      "name": "Cooking Tutorials",
+      "definition": "Requests for video or audio tutorials related to cooking."
+    },
+    {
+      "id": 18,
+      "name": "Event Queries",
+      "definition": "Requests for information about upcoming events or activities."
+    },
+    {
+      "id": 19,
+      "name": "Traffic and Directions",
+      "definition": "Requests for traffic updates or directions."
+    },
+    {
+      "id": 20,
+      "name": "Device Status Checks",
+      "definition": "Requests to check the status of devices or settings."
+    }
+  ]
+}

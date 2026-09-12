@@ -1,0 +1,60 @@
+{
+  "bench": "mcid",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information Inquiry",
+      "definition": "Utterances seeking general information about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Symptom Inquiry",
+      "definition": "Utterances inquiring about symptoms related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Prevention Inquiry",
+      "definition": "Utterances seeking information on how to prevent COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "Travel Inquiry",
+      "definition": "Utterances related to travel concerns and restrictions due to COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Donation Inquiry",
+      "definition": "Utterances expressing interest in donating to COVID-19 relief efforts."
+    },
+    {
+      "id": 6,
+      "name": "Myth Inquiry",
+      "definition": "Utterances seeking clarification on myths or misinformation about COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Treatment Inquiry",
+      "definition": "Utterances inquiring about treatment options for COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Animal Related Inquiry",
+      "definition": "Utterances related to animals and their susceptibility to COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Personal Situation Inquiry",
+      "definition": "Utterances seeking advice or information on personal situations related to COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "Appreciation",
+      "definition": "Utterances expressing gratitude or appreciation for information or assistance related to COVID-19."
+    }
+  ]
+}

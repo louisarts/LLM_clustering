@@ -1,0 +1,79 @@
+{
+  "bench": "fewevent",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Employment",
+      "definition": "Events describing a person's job, position, role, or employment status within an organization."
+    },
+    {
+      "id": 2,
+      "name": "Family",
+      "definition": "Events describing familial relationships such as marriage, spousal ties, or parenthood."
+    },
+    {
+      "id": 3,
+      "name": "Education",
+      "definition": "Events related to studying, graduating, or being a student or academic at an educational institution."
+    },
+    {
+      "id": 4,
+      "name": "Military",
+      "definition": "Events involving military personnel, roles, commands, or specific war-related actions."
+    },
+    {
+      "id": 5,
+      "name": "Sports_Result",
+      "definition": "Events describing the outcome of a sporting competition, such as winning a medal or a specific rank."
+    },
+    {
+      "id": 6,
+      "name": "Sports_Competition",
+      "definition": "Events describing the act of participating in or organizing a sports competition."
+    },
+    {
+      "id": 7,
+      "name": "Arts",
+      "definition": "Events related to the creation, production, or performance of artistic works like films, music, or books."
+    },
+    {
+      "id": 8,
+      "name": "Political",
+      "definition": "Events involving governance, elections, political roles, or diplomatic relations."
+    },
+    {
+      "id": 9,
+      "name": "Conflict",
+      "definition": "Events involving physical violence, war, protests, or crimes."
+    },
+    {
+      "id": 10,
+      "name": "Commercial",
+      "definition": "Events involving the buying, selling, or trading of goods and services."
+    },
+    {
+      "id": 11,
+      "name": "Movement",
+      "definition": "Events describing physical travel, transportation, or relocation from one place to another."
+    },
+    {
+      "id": 12,
+      "name": "Social",
+      "definition": "Events describing general social interactions, communication, or gatherings."
+    },
+    {
+      "id": 13,
+      "name": "Legal",
+      "definition": "Events involving legal proceedings, sentences, or law enforcement actions."
+    },
+    {
+      "id": 14,
+      "name": "Disaster",
+      "definition": "Events describing natural or man-made accidents and emergencies."
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+```json
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Programming",
+      "definition": "Questions about writing code, algorithms, data structures, specific programming languages, and general software development."
+    },
+    {
+      "id": 2,
+      "name": "Information Security",
+      "definition": "Questions about protecting digital information, systems, networks, privacy, and ethical hacking."
+    },
+    {
+      "id": 3,
+      "name": "Networking",
+      "definition": "Questions about computer networks, their configuration, protocols, hardware, and troubleshooting."
+    },
+    {
+      "id": 4,
+      "name": "Mathematics",
+      "definition": "Questions about pure and applied mathematics, statistics, and numerical analysis."
+    },
+    {
+      "id": 5,
+      "name": "Physics",
+      "definition": "Questions about the fundamental laws of nature, quantum mechanics, astronomy, and related engineering principles."
+    },
+    {
+      "id": 6,
+      "name": "Health & Medicine",
+      "definition": "Questions about human health, medical conditions, fitness, nutrition, and biology related to the human body."
+    },
+    {
+      "id": 7,
+      "name": "Law",
+      "definition": "Questions about legal issues, intellectual property, immigration law, consumer rights, and regulations."
+    },
+    {
+      "id": 8,
+      "name": "Travel & Immigration",
+      "definition": "Questions about travel planning, visa requirements, and immigration processes."
+    },
+    {
+      "id": 9,
+      "name": "Automotive",
+      "definition": "Questions about car maintenance, repair, engineering, and specific vehicle models."
+    },
+    {
+      "id": 10,
+      "name": "Outdoors & Sports",
+      "definition": "Questions about outdoor activities, sports, survival skills, and related gear."
+    },
+    {
+      "id": 11,
+      "name": "Gaming",
+      "definition": "Questions about video games, board games, tabletop role-playing games, and card games."
+    },
+    {
+      "id": 12,
+      "name": "Language Learning & Linguistics",
+      "definition": "Questions about specific human languages, grammar, phonetics, etymology, and language acquisition."
+    },
+    {
+      "id": 13,
+      "name": "Religion & Spirituality",
+      "definition": "Questions about specific religions, theology, religious texts, and spiritual practices."
+    },
+    {
+      "id": 14,
+      "name": "History",
+      "definition": "Questions about past events, historical figures, and the development of societies or technologies."
+    },
+    {
+      "id": 15,
+      "name": "Science Fiction & Fantasy",
+      "definition": "Questions about speculative fiction, fictional universes, and worldbuilding."
+    },
+    {
+      "id": 16,
+      "name": "Parenting & Family",
+      "definition": "Questions about child development, family dynamics, and household management."
+    },
+    {
+      "id": 17,
+      "name": "Workplace & Career",
+      "definition": "Questions about job search, professional development, workplace relationships, and general project management."
+    },
+    {
+      "id": 18,
+      "name": "Software Applications",
+      "definition": "Questions about using specific software programs for productivity, multimedia, or other general tasks."
+    },
+    {
+      "id": 19,
+      "name": "Electronics & Hardware",
+      "definition": "Questions about electronic components, circuits, microcontrollers, and computer hardware."
+    },
+    {
+      "id": 20,
+      "name": "User Experience & Design",
+      "definition": "Questions about user interface design, user experience principles, graphic design, and typography."
+    },
+    {
+      "id": 21,
+      "name": "Finance & Economics",
+      "definition": "Questions about financial markets, investments, personal finance, and economic theory."
+    },
+    {
+      "id": 22,
+      "name": "Puzzles & Logic",
+      "definition": "Questions about riddles, brain teasers, and formal logic problems."
+    },
+    {
+      "id": 23,
+      "name": "Etiquette & Relationships",
+      "definition": "Questions about social norms, personal advice, and interpersonal relationships."
+    },
+    {
+      "id": 24,
+      "name": "Biology",
+      "definition": "Questions about general life sciences, genetics, animal behavior, and environmental science, not directly related to human health."
+    },
+    {
+      "id": 25,
+      "name": "Home & Garden",
+      "definition": "Questions about gardening, home improvement, cooking, and homebrewing."
+    },
+    {
+      "id": 26,
+      "name": "Blockchain & Cryptocurrency",
+      "definition": "Questions about blockchain technology, cryptocurrencies, smart contracts, and related security."
+    },
+    {
+      "id": 27,
+      "name": "Web Marketing & SEO",
+      "definition": "Questions about search engine optimization, online advertising, and web analytics."
+    },
+    {
+      "id": 28,
+      "name": "Software Recommendations",
+      "definition": "Questions asking for suggestions for software tools or applications."
+    }
+  ]
+}
+```

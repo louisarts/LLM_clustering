@@ -1,0 +1,77 @@
+{
+  "bench": "banking77",
+  "run": 4,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Management (Physical)",
+      "definition": "Inquiries about ordering, receiving, activating, replacing, linking, or general functionality of physical cards."
+    },
+    {
+      "id": 2,
+      "name": "Lost, Stolen, or Damaged Card",
+      "definition": "Queries related to reporting, cancelling, freezing, reactivating, or issues with ATMs retaining physical cards."
+    },
+    {
+      "id": 3,
+      "name": "PIN Management",
+      "definition": "Questions about unlocking, changing, finding, or issues related to card PINs."
+    },
+    {
+      "id": 4,
+      "name": "Virtual Card Management",
+      "definition": "Inquiries about obtaining, using, security, or issues specific to virtual or disposable cards."
+    },
+    {
+      "id": 5,
+      "name": "Top-up Issues & Inquiries",
+      "definition": "Questions about fees, limits, auto-top-up, failed, pending, or general functionality issues related to adding funds to an account."
+    },
+    {
+      "id": 6,
+      "name": "Transaction Status & Issues",
+      "definition": "Inquiries about pending, missing, failed, or declined transactions (transfers, deposits, withdrawals, payments), duplicate charges, or unrecognized transactions."
+    },
+    {
+      "id": 7,
+      "name": "Refunds, Disputes & Cancellations",
+      "definition": "Requests to dispute charges, process refunds, or cancel transactions or payments."
+    },
+    {
+      "id": 8,
+      "name": "Fees & Charges Inquiry",
+      "definition": "Questions about specific fees, unexpected charges, or general fee structures, excluding currency exchange rates."
+    },
+    {
+      "id": 9,
+      "name": "Account Information & Management",
+      "definition": "Inquiries about opening or closing accounts, updating personal details, or general account settings."
+    },
+    {
+      "id": 10,
+      "name": "Identity Verification & KYC",
+      "definition": "Questions about the process, requirements, or reasons for identity verification or source of funds checks."
+    },
+    {
+      "id": 11,
+      "name": "Currency Exchange & Rates",
+      "definition": "Inquiries about exchange rates, converting currencies, supported currencies, or related processes."
+    },
+    {
+      "id": 12,
+      "name": "Transfer Information & How-to",
+      "definition": "Questions about how to make transfers, transfer policies, limits, or expected transfer times."
+    },
+    {
+      "id": 13,
+      "name": "Geographic & Service Availability",
+      "definition": "Inquiries about where cards can be used, countries of operation, delivery locations, or ATM compatibility."
+    },
+    {
+      "id": 14,
+      "name": "App & Technical Support",
+      "definition": "Issues related to app access, contactless payments, or other technical functionalities within the banking application."
+    }
+  ]
+}

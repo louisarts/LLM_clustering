@@ -1,0 +1,535 @@
+{
+  "bench": "fewnerd",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "chunked_no_target",
+  "clip_chars": 150,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Anheuser Busch",
+      "definition": "Company"
+    },
+    {
+      "id": 2,
+      "name": "Treasure Island Hotel",
+      "definition": "Hotel"
+    },
+    {
+      "id": 3,
+      "name": "Nortel Football Club",
+      "definition": "Sports Team"
+    },
+    {
+      "id": 4,
+      "name": "Monkstown",
+      "definition": "Location"
+    },
+    {
+      "id": 5,
+      "name": "Newtownabbey",
+      "definition": "Location"
+    },
+    {
+      "id": 6,
+      "name": "Philip Sheridan",
+      "definition": "Person"
+    },
+    {
+      "id": 7,
+      "name": "V Corps",
+      "definition": "Military Unit"
+    },
+    {
+      "id": 8,
+      "name": "Born Ruffians",
+      "definition": "Band"
+    },
+    {
+      "id": 9,
+      "name": "Tweedmouth",
+      "definition": "Location"
+    },
+    {
+      "id": 10,
+      "name": "Kelso",
+      "definition": "Location"
+    },
+    {
+      "id": 11,
+      "name": "PA 333",
+      "definition": "Highway"
+    },
+    {
+      "id": 12,
+      "name": "Tuscarora",
+      "definition": "Location"
+    },
+    {
+      "id": 13,
+      "name": "Walker Township",
+      "definition": "Location"
+    },
+    {
+      "id": 14,
+      "name": "Lebanese Elite Cup",
+      "definition": "Sports Event"
+    },
+    {
+      "id": 15,
+      "name": "Radio Nova",
+      "definition": "Radio Station"
+    },
+    {
+      "id": 16,
+      "name": "Mammoth Spring",
+      "definition": "Location"
+    },
+    {
+      "id": 17,
+      "name": "USFS",
+      "definition": "Government Agency"
+    },
+    {
+      "id": 18,
+      "name": "Channel 4",
+      "definition": "Television Network"
+    },
+    {
+      "id": 19,
+      "name": "Josie",
+      "definition": "Person"
+    },
+    {
+      "id": 20,
+      "name": "Big Eight Men's Basketball Tournament",
+      "definition": "Sports Tournament"
+    },
+    {
+      "id": 21,
+      "name": "ESB-PSV",
+      "definition": "Company"
+    },
+    {
+      "id": 22,
+      "name": "Holmes-Dennis",
+      "definition": "Person"
+    },
+    {
+      "id": 23,
+      "name": "Huddersfield Town",
+      "definition": "Sports Team"
+    },
+    {
+      "id": 24,
+      "name": "C Company",
+      "definition": "Military Unit"
+    },
+    {
+      "id": 25,
+      "name": "M2A3 Bradley Fighting Vehicles",
+      "definition": "Military Vehicles"
+    },
+    {
+      "id": 26,
+      "name": "Comprom\u00eds PV",
+      "definition": "Political Party"
+    },
+    {
+      "id": 27,
+      "name": "Gantoris",
+      "definition": "Character"
+    },
+    {
+      "id": 28,
+      "name": "Super Bowl VIII",
+      "definition": "Sports Event"
+    },
+    {
+      "id": 29,
+      "name": "Bacillus subtilis",
+      "definition": "Bacteria Species"
+    },
+    {
+      "id": 30,
+      "name": "Sulu",
+      "definition": "Region"
+    },
+    {
+      "id": 31,
+      "name": "Penn State",
+      "definition": "University"
+    },
+    {
+      "id": 32,
+      "name": "Republican",
+      "definition": "Political Party"
+    },
+    {
+      "id": 33,
+      "name": "Manchester Pride",
+      "definition": "Event"
+    },
+    {
+      "id": 34,
+      "name": "Chaldean Catholic Archeparchy of Basra",
+      "definition": "Religious Organization"
+    },
+    {
+      "id": 35,
+      "name": "Palestinian Christian communities",
+      "definition": "Religious Community"
+    },
+    {
+      "id": 36,
+      "name": "Painted Desert",
+      "definition": "Geographical Location"
+    },
+    {
+      "id": 37,
+      "name": "Fulkerson Prize",
+      "definition": "Award"
+    },
+    {
+      "id": 38,
+      "name": "National Labor Relations Act",
+      "definition": "Legislation"
+    },
+    {
+      "id": 39,
+      "name": "Erekle II",
+      "definition": "Historical Figure"
+    },
+    {
+      "id": 40,
+      "name": "Italian / Italian American community",
+      "definition": "Ethnic Community"
+    },
+    {
+      "id": 41,
+      "name": "Georges St-Pierre",
+      "definition": "Athlete"
+    },
+    {
+      "id": 42,
+      "name": "Jean Seberg",
+      "definition": "Person"
+    },
+    {
+      "id": 43,
+      "name": "John Ibbitson",
+      "definition": "Person"
+    },
+    {
+      "id": 44,
+      "name": "The Hydromatics",
+      "definition": "Band"
+    },
+    {
+      "id": 45,
+      "name": "Phillip Thomas",
+      "definition": "Person"
+    },
+    {
+      "id": 46,
+      "name": "La Quinta area",
+      "definition": "Geographical Location"
+    },
+    {
+      "id": 47,
+      "name": "Bembridge School",
+      "definition": "Educational Institution"
+    },
+    {
+      "id": 48,
+      "name": "Santa Rosa Mountains",
+      "definition": "Geographical Feature"
+    },
+    {
+      "id": 49,
+      "name": "aspartic acid",
+      "definition": "Chemical Compound"
+    },
+    {
+      "id": 50,
+      "name": "Benin",
+      "definition": "Country"
+    },
+    {
+      "id": 51,
+      "name": "Interstate 65",
+      "definition": "Highway"
+    },
+    {
+      "id": 52,
+      "name": "Kings Highway",
+      "definition": "Subway Station"
+    },
+    {
+      "id": 53,
+      "name": "Video Mods",
+      "definition": "Television Series"
+    },
+    {
+      "id": 54,
+      "name": "T115 minivan",
+      "definition": "Vehicle Prototype"
+    },
+    {
+      "id": 55,
+      "name": "Malcolm Burn",
+      "definition": "Music Producer"
+    },
+    {
+      "id": 56,
+      "name": "TCI",
+      "definition": "Company"
+    },
+    {
+      "id": 57,
+      "name": "Pappas",
+      "definition": "Person"
+    },
+    {
+      "id": 58,
+      "name": "Tupolev Tu-154",
+      "definition": "Aircraft"
+    },
+    {
+      "id": 59,
+      "name": "Ian Anderson",
+      "definition": "Person"
+    },
+    {
+      "id": 60,
+      "name": "Tigers",
+      "definition": "Sports Team"
+    },
+    {
+      "id": 61,
+      "name": "Louisville",
+      "definition": "University"
+    },
+    {
+      "id": 62,
+      "name": "Penicillium amagasakiense",
+      "definition": "Fungus Species"
+    },
+    {
+      "id": 63,
+      "name": "Trawsfynydd shed",
+      "definition": "Railway Shed"
+    },
+    {
+      "id": 64,
+      "name": "Linus the Lionhearted",
+      "definition": "Character"
+    },
+    {
+      "id": 65,
+      "name": "Walter Moyle's Works",
+      "definition": "Literary Work"
+    },
+    {
+      "id": 66,
+      "name": "Wynonna Judd",
+      "definition": "Singer"
+    },
+    {
+      "id": 67,
+      "name": "Kyungsung University",
+      "definition": "University"
+    },
+    {
+      "id": 68,
+      "name": "Nablus",
+      "definition": "City"
+    },
+    {
+      "id": 69,
+      "name": "Yorkshire",
+      "definition": "Sports Team"
+    },
+    {
+      "id": 70,
+      "name": "alph Eastwood",
+      "definition": "Person"
+    },
+    {
+      "id": 71,
+      "name": "Albert Embankm",
+      "definition": "Location"
+    },
+    {
+      "id": 72,
+      "name": "F-102A",
+      "definition": "Military Aircraft"
+    },
+    {
+      "id": 73,
+      "name": "At the Dixie",
+      "definition": "Song"
+    },
+    {
+      "id": 74,
+      "name": "National Register of Historic",
+      "definition": "Registry"
+    },
+    {
+      "id": 75,
+      "name": "Gu",
+      "definition": "Location"
+    },
+    {
+      "id": 76,
+      "name": "Canada",
+      "definition": "Country"
+    },
+    {
+      "id": 77,
+      "name": "The Incredibles",
+      "definition": "Movie"
+    },
+    {
+      "id": 78,
+      "name": "London",
+      "definition": "City"
+    },
+    {
+      "id": 79,
+      "name": "Canada \u2013 United Arab Emirates aviation dispute",
+      "definition": "International Dispute"
+    },
+    {
+      "id": 80,
+      "name": "The British Soap Awards",
+      "definition": "Award Show"
+    },
+    {
+      "id": 81,
+      "name": "Author",
+      "definition": "Entity type for authors"
+    },
+    {
+      "id": 82,
+      "name": "Game feature",
+      "definition": "Entity type for features in games"
+    },
+    {
+      "id": 83,
+      "name": "Government agency",
+      "definition": "Entity type for government agencies"
+    },
+    {
+      "id": 84,
+      "name": "Language",
+      "definition": "Entity type for languages"
+    },
+    {
+      "id": 85,
+      "name": "Sports organization",
+      "definition": "Entity type for sports organizations"
+    },
+    {
+      "id": 86,
+      "name": "State",
+      "definition": "Entity type for states"
+    },
+    {
+      "id": 87,
+      "name": "Country",
+      "definition": "Entity type for countries"
+    },
+    {
+      "id": 88,
+      "name": "Religious leader",
+      "definition": "Entity type for religious leaders"
+    },
+    {
+      "id": 89,
+      "name": "Political party",
+      "definition": "Entity type for political parties"
+    },
+    {
+      "id": 90,
+      "name": "Television channel",
+      "definition": "Entity type for television channels"
+    },
+    {
+      "id": 91,
+      "name": "Family",
+      "definition": "Entity type for families"
+    },
+    {
+      "id": 92,
+      "name": "Sports league",
+      "definition": "Entity type for sports leagues"
+    },
+    {
+      "id": 93,
+      "name": "Polling district",
+      "definition": "Entity type for polling districts"
+    },
+    {
+      "id": 94,
+      "name": "Law enforcement agency",
+      "definition": "Entity type for law enforcement agencies"
+    },
+    {
+      "id": 95,
+      "name": "Sports team",
+      "definition": "Entity type for sports teams"
+    },
+    {
+      "id": 96,
+      "name": "Political leader",
+      "definition": "Entity type for political leaders"
+    },
+    {
+      "id": 97,
+      "name": "Legislative body",
+      "definition": "Entity type for legislative bodies"
+    },
+    {
+      "id": 98,
+      "name": "Airline",
+      "definition": "Entity type for airlines"
+    },
+    {
+      "id": 99,
+      "name": "Island",
+      "definition": "Entity type for islands"
+    },
+    {
+      "id": 100,
+      "name": "Natural disaster",
+      "definition": "Entity type for natural disasters"
+    },
+    {
+      "id": 101,
+      "name": "Community",
+      "definition": "Entity type for communities"
+    },
+    {
+      "id": 102,
+      "name": "Region",
+      "definition": "Entity type for regions"
+    },
+    {
+      "id": 103,
+      "name": "Company",
+      "definition": "Entity type for companies"
+    },
+    {
+      "id": 104,
+      "name": "Nationality",
+      "definition": "Entity type for nationalities"
+    },
+    {
+      "id": 105,
+      "name": "Protein",
+      "definition": "Entity type for proteins"
+    }
+  ]
+}

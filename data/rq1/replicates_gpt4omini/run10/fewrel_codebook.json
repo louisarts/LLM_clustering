@@ -1,0 +1,80 @@
+{
+  "bench": "fewrel",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Geographical Relation",
+      "definition": "A relation where one entity is a geographical location or feature related to another."
+    },
+    {
+      "id": 2,
+      "name": "Cultural Relation",
+      "definition": "A relation involving cultural aspects, such as traditions, practices, or artistic expressions."
+    },
+    {
+      "id": 3,
+      "name": "Political Relation",
+      "definition": "A relation that involves political entities, such as governments, political parties, or elections."
+    },
+    {
+      "id": 4,
+      "name": "Historical Relation",
+      "definition": "A relation that pertains to historical events, figures, or periods."
+    },
+    {
+      "id": 5,
+      "name": "Institutional Relation",
+      "definition": "A relation between organizations, institutions, or entities."
+    },
+    {
+      "id": 6,
+      "name": "Artistic Relation",
+      "definition": "A relation that involves artistic works, such as films, music, or literature."
+    },
+    {
+      "id": 7,
+      "name": "Scientific Relation",
+      "definition": "A relation that pertains to scientific concepts, discoveries, or entities."
+    },
+    {
+      "id": 8,
+      "name": "Economic Relation",
+      "definition": "A relation that involves economic entities, such as businesses or financial institutions."
+    },
+    {
+      "id": 9,
+      "name": "Personal Relation",
+      "definition": "A relation that involves personal connections between individuals."
+    },
+    {
+      "id": 10,
+      "name": "Technological Relation",
+      "definition": "A relation that involves technology, software, or technical systems."
+    },
+    {
+      "id": 11,
+      "name": "Religious Relation",
+      "definition": "A relation that involves religious figures, beliefs, or institutions."
+    },
+    {
+      "id": 12,
+      "name": "Sports Relation",
+      "definition": "A relation that involves sports teams, events, or athletes."
+    },
+    {
+      "id": 13,
+      "name": "Educational Relation",
+      "definition": "A relation that involves educational institutions or academic achievements."
+    },
+    {
+      "id": 14,
+      "name": "Environmental Relation",
+      "definition": "A relation that pertains to environmental features or ecological aspects."
+    }
+  ]
+}

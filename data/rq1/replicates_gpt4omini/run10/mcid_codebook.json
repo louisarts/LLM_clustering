@@ -1,0 +1,85 @@
+{
+  "bench": "mcid",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Request",
+      "definition": "User seeks information about COVID-19, its symptoms, transmission, or related topics."
+    },
+    {
+      "id": 2,
+      "name": "Travel Concerns",
+      "definition": "User expresses concerns or inquiries about travel restrictions or safety related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Health and Safety Precautions",
+      "definition": "User asks for advice on how to protect themselves or others from COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "Symptoms Inquiry",
+      "definition": "User inquires about symptoms associated with COVID-19 or how to identify them."
+    },
+    {
+      "id": 5,
+      "name": "Myth Busting",
+      "definition": "User seeks clarification on myths or misinformation regarding COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Treatment Options",
+      "definition": "User asks about treatment options or remedies for COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Donation and Support",
+      "definition": "User expresses intent to donate or support COVID-19 relief efforts."
+    },
+    {
+      "id": 8,
+      "name": "Statistics and Updates",
+      "definition": "User requests current statistics or updates on COVID-19 cases and impacts."
+    },
+    {
+      "id": 9,
+      "name": "Animal Concerns",
+      "definition": "User inquires about the impact of COVID-19 on animals or transmission between species."
+    },
+    {
+      "id": 10,
+      "name": "Public Health Guidelines",
+      "definition": "User seeks information on public health guidelines or recommendations related to COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Economic Impact",
+      "definition": "User inquires about the economic effects or updates related to COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "Personal Experience",
+      "definition": "User shares personal experiences or symptoms related to COVID-19."
+    },
+    {
+      "id": 13,
+      "name": "Vaccine Information",
+      "definition": "User seeks information about COVID-19 vaccines, their availability, or effectiveness."
+    },
+    {
+      "id": 14,
+      "name": "Community Health",
+      "definition": "User inquires about health measures or concerns within their community."
+    },
+    {
+      "id": 15,
+      "name": "General Inquiry",
+      "definition": "User makes a general inquiry or expresses casual conversation about COVID-19."
+    }
+  ]
+}

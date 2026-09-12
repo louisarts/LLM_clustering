@@ -1,0 +1,110 @@
+{
+  "bench": "massive_intent",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music Control",
+      "definition": "Commands related to playing, pausing, or controlling music playback."
+    },
+    {
+      "id": 2,
+      "name": "Weather Inquiry",
+      "definition": "Requests for weather information or forecasts."
+    },
+    {
+      "id": 3,
+      "name": "Calendar Management",
+      "definition": "Commands to add, remove, or modify calendar events and appointments."
+    },
+    {
+      "id": 4,
+      "name": "Email Management",
+      "definition": "Commands to send, read, or manage emails."
+    },
+    {
+      "id": 5,
+      "name": "General Knowledge Inquiry",
+      "definition": "Requests for factual information or definitions."
+    },
+    {
+      "id": 6,
+      "name": "Alarm and Reminder Management",
+      "definition": "Commands to set, cancel, or manage alarms and reminders."
+    },
+    {
+      "id": 7,
+      "name": "News and Updates",
+      "definition": "Requests for news updates or current events."
+    },
+    {
+      "id": 8,
+      "name": "Social Media Interaction",
+      "definition": "Commands related to posting or checking social media."
+    },
+    {
+      "id": 9,
+      "name": "Lighting Control",
+      "definition": "Commands to turn on, off, or change lighting settings."
+    },
+    {
+      "id": 10,
+      "name": "Navigation and Directions",
+      "definition": "Requests for directions or navigation assistance."
+    },
+    {
+      "id": 11,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 12,
+      "name": "Transportation Booking",
+      "definition": "Commands to book or inquire about transportation services."
+    },
+    {
+      "id": 13,
+      "name": "Time Inquiry",
+      "definition": "Requests for the current time or time conversions."
+    },
+    {
+      "id": 14,
+      "name": "Shopping List Management",
+      "definition": "Commands to add or remove items from a shopping list."
+    },
+    {
+      "id": 15,
+      "name": "Device Control",
+      "definition": "Commands to control smart devices or appliances."
+    },
+    {
+      "id": 16,
+      "name": "Jokes and Entertainment",
+      "definition": "Requests for jokes or entertainment-related content."
+    },
+    {
+      "id": 17,
+      "name": "Currency and Exchange Rates",
+      "definition": "Requests for currency exchange rates or conversions."
+    },
+    {
+      "id": 18,
+      "name": "Traffic and Commute",
+      "definition": "Requests for traffic updates or commute information."
+    },
+    {
+      "id": 19,
+      "name": "Contact Management",
+      "definition": "Commands to manage or access contact information."
+    },
+    {
+      "id": 20,
+      "name": "General Inquiry",
+      "definition": "Miscellaneous requests for information not covered by other categories."
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "bench": "tweet89",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets discussing, reviewing, or listing advertisements that aired during the Super Bowl."
+    },
+    {
+      "id": 2,
+      "name": "Christina Aguilera National Anthem Performance",
+      "definition": "Tweets specifically regarding Christina Aguilera's performance or lyrical error while singing the national anthem at the Super Bowl."
+    },
+    {
+      "id": 3,
+      "name": "Egyptian Protests and Crisis",
+      "definition": "Tweets covering the political protests, violence, internet shutdowns, and attacks on journalists in Egypt."
+    },
+    {
+      "id": 4,
+      "name": "The King's Speech Awards Success",
+      "definition": "Tweets about the film The King's Speech receiving awards or nominations from the Oscars, SAG, or Producers Guild."
+    },
+    {
+      "id": 5,
+      "name": "US Healthcare Reform Ruling",
+      "definition": "Tweets reporting on federal judges ruling on the constitutionality of the US healthcare reform law or individual mandate."
+    },
+    {
+      "id": 6,
+      "name": "Acai Berry Weight Loss Products",
+      "definition": "Tweets promoting, reviewing, or discussing acai berry diet pills and weight loss supplements."
+    },
+    {
+      "id": 7,
+      "name": "Fishing Reports and Tips",
+      "definition": "Tweets containing personal fishing reports, tips, guides, or updates on fishing conditions and tournaments."
+    },
+    {
+      "id": 8,
+      "name": "Yemeni Political Unrest",
+      "definition": "Tweets regarding anti-government protests, political maneuvers, and police actions in Yemen."
+    },
+    {
+      "id": 9,
+      "name": "Rahm Emanuel Ballot Eligibility",
+      "definition": "Tweets concerning the legal challenges and court rulings regarding Rahm Emanuel's eligibility to run for Mayor of Chicago."
+    },
+    {
+      "id": 10,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Tweets discussing the lawsuit or controversy regarding the meat filling used by Taco Bell."
+    },
+    {
+      "id": 11,
+      "name": "Charlie Sheen Personal Troubles",
+      "definition": "Tweets regarding Charlie Sheen's hospitalization, rehab, or personal issues."
+    },
+    {
+      "id": 12,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets reporting on the arrest, court appearance, or details of the suspect in the Joanna Yeates murder investigation."
+    },
+    {
+      "id": 13,
+      "name": "Australian Open Tennis",
+      "definition": "Tweets reporting on matches, winners, and results from the Australian Open tennis tournament."
+    },
+    {
+      "id": 14,
+      "name": "Distracted Driving Campaigns",
+      "definition": "Tweets promoting pledges, safety tips, or awareness regarding texting while driving."
+    },
+    {
+      "id": 15,
+      "name": "Kardashian Family Commentary",
+      "definition": "Tweets expressing opinions, fandom, or criticism regarding the Kardashian family members."
+    },
+    {
+      "id": 16,
+      "name": "Sundance Film Festival",
+      "definition": "Tweets reporting on events, films, and celebrity sightings at the Sundance Film Festival."
+    },
+    {
+      "id": 17,
+      "name": "Somali Piracy",
+      "definition": "Tweets regarding naval operations, hijackings, and trials related to piracy off the coast of Somalia."
+    },
+    {
+      "id": 18,
+      "name": "Iran Sanctions and Nuclear Program",
+      "definition": "Tweets discussing international sanctions, uranium deals, and political issues concerning Iran."
+    },
+    {
+      "id": 19,
+      "name": "Debt Consolidation and Settlement",
+      "definition": "Tweets offering advice, services, or information on consolidating or settling personal debt."
+    },
+    {
+      "id": 20,
+      "name": "College Scholarships and Financial Aid",
+      "definition": "Tweets sharing information, advice, or listings for college scholarships and financial aid."
+    },
+    {
+      "id": 21,
+      "name": "Facebook Privacy Settings",
+      "definition": "Tweets discussing changes, concerns, or guides regarding user privacy settings on Facebook."
+    },
+    {
+      "id": 22,
+      "name": "TSA Airport Security Procedures",
+      "definition": "Tweets regarding TSA body scanners, privacy enhancements, and airport security protocols."
+    },
+    {
+      "id": 23,
+      "name": "Myanmar Sanctions",
+      "definition": "Tweets reporting on international pressure and calls for sanctions against Myanmar."
+    },
+    {
+      "id": 24,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Tweets providing updates on the medical condition and recovery of Congresswoman Gabrielle Giffords."
+    },
+    {
+      "id": 25,
+      "name": "Starbucks Trenta Size Launch",
+      "definition": "Tweets discussing the introduction and size of the Starbucks Trenta cup."
+    },
+    {
+      "id": 26,
+      "name": "New York State Budget Cuts",
+      "definition": "Tweets reporting on Governor Cuomo's budget proposal and funding cuts in New York."
+    },
+    {
+      "id": 27,
+      "name": "Keith Olbermann Media Move",
+      "definition": "Tweets regarding Keith Olbermann's departure from MSNBC and subsequent hiring by Current TV."
+    },
+    {
+      "id": 28,
+      "name": "Red Light Camera Studies",
+      "definition": "Tweets reporting on studies regarding the effectiveness of red light cameras in saving lives."
+    },
+    {
+      "id": 29,
+      "name": "Super Bowl Seat Shortage",
+      "definition": "Tweets regarding the logistical issues and temporary seat problems at the Super Bowl."
+    },
+    {
+      "id": 30,
+      "name": "Oscar Nominations Announcement",
+      "definition": "Tweets listing or discussing the announcement of the annual Academy Award nominations."
+    },
+    {
+      "id": 31,
+      "name": "Arizona Immigration Law",
+      "definition": "Tweets regarding legal challenges and rulings on Arizona's immigration laws."
+    },
+    {
+      "id": 32,
+      "name": "Global Weather Events",
+      "definition": "Tweets reporting on unusual weather patterns, snowstorms, and climate updates."
+    },
+    {
+      "id": 33,
+      "name": "BBC Service Cuts",
+      "definition": "Tweets reporting on budget cuts and staff reductions at the British Broadcasting Corporation."
+    },
+    {
+      "id": 34,
+      "name": "Bullying Prevention",
+      "definition": "Tweets sharing tips and resources for parents and students regarding bullying."
+    },
+    {
+      "id": 35,
+      "name": "Healthy Recipes and Cooking",
+      "definition": "Tweets sharing recipes and cooking instructions for healthy meals."
+    },
+    {
+      "id": 36,
+      "name": "Stock Market Investment",
+      "definition": "Tweets offering advice, news, and updates on stock market investments."
+    },
+    {
+      "id": 37,
+      "name": "Bed Bug Summit",
+      "definition": "Tweets regarding the national summit held to discuss bed bug infestations."
+    },
+    {
+      "id": 38,
+      "name": "Donald Rumsfeld Memoir",
+      "definition": "Tweets discussing Donald Rumsfeld's reflections and book release."
+    },
+    {
+      "id": 39,
+      "name": "Hugo Chavez and Golf",
+      "definition": "Tweets regarding Venezuelan President Hugo Chavez's views on golf."
+    },
+    {
+      "id": 40,
+      "name": "Ian Thorpe Swimming Comeback",
+      "definition": "Tweets reporting on swimmer Ian Thorpe's return to competitive swimming."
+    },
+    {
+      "id": 41,
+      "name": "Robert Kubica Rally Crash",
+      "definition": "Tweets reporting on the serious rally car crash involving driver Robert Kubica."
+    },
+    {
+      "id": 42,
+      "name": "White Stripes Breakup",
+      "definition": "Tweets announcing or reacting to the band The White Stripes ending their career."
+    },
+    {
+      "id": 43,
+      "name": "Obama Birth Certificate Legislation",
+      "definition": "Tweets regarding Hawaii's legislation concerning President Obama's birth records."
+    },
+    {
+      "id": 44,
+      "name": "James Franco Sundance Appearance",
+      "definition": "Tweets specifically discussing James Franco's activities and appearance at the Sundance Film Festival."
+    },
+    {
+      "id": 45,
+      "name": "Motorola Xoom Tablet Ad",
+      "definition": "Tweets discussing the Super Bowl advertisement for the Motorola Xoom tablet."
+    },
+    {
+      "id": 46,
+      "name": "Justin Bieber MTV Appearance",
+      "definition": "Tweets regarding Justin Bieber's appearance or role swap on MTV."
+    },
+    {
+      "id": 47,
+      "name": "Oprah Winfrey Family Secret",
+      "definition": "Tweets promoting or discussing a reveal of a family secret on the Oprah Winfrey show."
+    },
+    {
+      "id": 48,
+      "name": "Supreme Court Privacy Ruling",
+      "definition": "Tweets reporting on a Supreme Court case regarding personal privacy and false information."
+    },
+    {
+      "id": 49,
+      "name": "Verizon iPhone Launch",
+      "definition": "Tweets regarding the launch and availability of the iPhone on the Verizon network."
+    },
+    {
+      "id": 50,
+      "name": "Stuxnet Computer Worm",
+      "definition": "Tweets discussing the security implications of the Stuxnet computer worm."
+    }
+  ]
+}

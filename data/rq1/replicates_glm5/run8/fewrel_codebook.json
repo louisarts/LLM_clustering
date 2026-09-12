@@ -1,0 +1,119 @@
+{
+  "bench": "fewrel",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Part-Whole",
+      "definition": "One entity is a component, segment, or subset of the other entity."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "One entity is physically located, situated, or based within the other entity."
+    },
+    {
+      "id": 3,
+      "name": "Creator-Creation",
+      "definition": "One entity is the originator, author, designer, or producer of the other entity."
+    },
+    {
+      "id": 4,
+      "name": "Affiliation",
+      "definition": "One entity is a member, employee, representative, or affiliate of the other entity."
+    },
+    {
+      "id": 5,
+      "name": "Parent-Subsidiary",
+      "definition": "One entity owns, controls, or is a subsidiary of the other entity."
+    },
+    {
+      "id": 6,
+      "name": "Event-Participant",
+      "definition": "One entity participates in, competes at, or is associated with the other entity as an event."
+    },
+    {
+      "id": 7,
+      "name": "Product-Producer",
+      "definition": "One entity is a product, vehicle, or item manufactured or developed by the other entity."
+    },
+    {
+      "id": 8,
+      "name": "Geographic-Subdivision",
+      "definition": "One entity is a political or administrative division (e.g., city, state, country) belonging to the other."
+    },
+    {
+      "id": 9,
+      "name": "Spouse-Family",
+      "definition": "One entity is related to the other by blood, marriage, or kinship."
+    },
+    {
+      "id": 10,
+      "name": "Content-Platform",
+      "definition": "One entity is a creative work, channel, or program featured on or distributed by the other entity."
+    },
+    {
+      "id": 11,
+      "name": "Award-Nominee",
+      "definition": "One entity is an award or honor for which the other entity was nominated or won."
+    },
+    {
+      "id": 12,
+      "name": "Character-Creator",
+      "definition": "One entity is a fictional character appearing in or created for the other entity."
+    },
+    {
+      "id": 13,
+      "name": "Genre-Style",
+      "definition": "One entity is a genre, style, or category to which the other entity belongs."
+    },
+    {
+      "id": 14,
+      "name": "River-Waterbody",
+      "definition": "One river or waterbody flows into, is a tributary of, or connects with the other."
+    },
+    {
+      "id": 15,
+      "name": "Position-Role",
+      "definition": "One entity is a job title, role, or position held by the other entity."
+    },
+    {
+      "id": 16,
+      "name": "Instrument-Musician",
+      "definition": "One entity is a musical instrument played by or associated with the other entity."
+    },
+    {
+      "id": 17,
+      "name": "Architectural-Designer",
+      "definition": "One entity is a building or structure designed by the other entity."
+    },
+    {
+      "id": 18,
+      "name": "Sports-League",
+      "definition": "One entity is a sports team or club that competes within the other entity."
+    },
+    {
+      "id": 19,
+      "name": "Taxonomy",
+      "definition": "One entity is a biological taxon (e.g., family, order) to which the other entity belongs."
+    },
+    {
+      "id": 20,
+      "name": "Software-Platform",
+      "definition": "One entity is software or an application that runs on or is compatible with the other entity."
+    },
+    {
+      "id": 21,
+      "name": "Name-Origin",
+      "definition": "One entity is the namesake or etymological origin of the other entity."
+    },
+    {
+      "id": 22,
+      "name": "Award-Recipient",
+      "definition": "One entity is an award or honor received by the other entity."
+    }
+  ]
+}

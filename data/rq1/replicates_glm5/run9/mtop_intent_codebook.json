@@ -1,0 +1,119 @@
+{
+  "bench": "mtop_intent",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm_Set",
+      "definition": "Set a new alarm for a specific time or event."
+    },
+    {
+      "id": 2,
+      "name": "Alarm_Manage",
+      "definition": "Modify, cancel, or query existing alarms."
+    },
+    {
+      "id": 3,
+      "name": "Reminder_Set",
+      "definition": "Set a new reminder for a specific task or time."
+    },
+    {
+      "id": 4,
+      "name": "Reminder_Manage",
+      "definition": "Modify, cancel, or query existing reminders."
+    },
+    {
+      "id": 5,
+      "name": "Timer_Set",
+      "definition": "Start or set a new countdown timer."
+    },
+    {
+      "id": 6,
+      "name": "Timer_Manage",
+      "definition": "Modify, cancel, reset, or query existing timers."
+    },
+    {
+      "id": 7,
+      "name": "Call_Initiate",
+      "definition": "Start a new phone or video call with a contact or number."
+    },
+    {
+      "id": 8,
+      "name": "Call_Manage",
+      "definition": "Manage ongoing calls, such as adding or removing participants, answering, or switching lines."
+    },
+    {
+      "id": 9,
+      "name": "Message_Send",
+      "definition": "Send a text or video message to a contact or group."
+    },
+    {
+      "id": 10,
+      "name": "Message_Query",
+      "definition": "Query or view existing messages, call logs, or conversation history."
+    },
+    {
+      "id": 11,
+      "name": "Music_Play",
+      "definition": "Request to play music, a specific song, album, artist, or playlist."
+    },
+    {
+      "id": 12,
+      "name": "Music_Settings",
+      "definition": "Control music playback settings, such as repeating songs, changing volume, or setting default providers."
+    },
+    {
+      "id": 13,
+      "name": "Weather_Query",
+      "definition": "Request weather forecasts, current conditions, or specific weather alerts."
+    },
+    {
+      "id": 14,
+      "name": "News_Query",
+      "definition": "Request news headlines, specific topics, or recent stories."
+    },
+    {
+      "id": 15,
+      "name": "Recipe_Query",
+      "definition": "Request recipes, cooking instructions, or food preparation advice."
+    },
+    {
+      "id": 16,
+      "name": "Food_Info",
+      "definition": "Request nutritional information, calorie counts, or food facts."
+    },
+    {
+      "id": 17,
+      "name": "Contact_Info",
+      "definition": "Request information about a contact's location, workplace, education, or online status."
+    },
+    {
+      "id": 18,
+      "name": "Social_Query",
+      "definition": "Request information about friends, family, or other users' activities or availability."
+    },
+    {
+      "id": 19,
+      "name": "Event_Query",
+      "definition": "Request information about local events, activities, or things to do."
+    },
+    {
+      "id": 20,
+      "name": "Music_Info",
+      "definition": "Request information about a song, such as the title, artist, or lyrics."
+    },
+    {
+      "id": 21,
+      "name": "Status_Set",
+      "definition": "Set the user's availability or online status."
+    },
+    {
+      "id": 22,
+      "name": "General_Info",
+      "definition": "Request general factual information or answers to miscellaneous questions."
+    }
+  ]
+}

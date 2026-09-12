@@ -1,0 +1,95 @@
+{
+  "bench": "massive_intent",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Social Media Management",
+      "definition": "Commands related to posting, checking, or managing social media accounts."
+    },
+    {
+      "id": 2,
+      "name": "Reminders and Notifications",
+      "definition": "Commands for setting, checking, or managing reminders and notifications."
+    },
+    {
+      "id": 3,
+      "name": "Email Management",
+      "definition": "Commands for sending, checking, or managing emails."
+    },
+    {
+      "id": 4,
+      "name": "Music and Media Playback",
+      "definition": "Commands for playing, pausing, or managing music and media."
+    },
+    {
+      "id": 5,
+      "name": "Home Automation",
+      "definition": "Commands for controlling smart home devices like lights and appliances."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Transportation",
+      "definition": "Commands related to booking or checking travel arrangements and transportation."
+    },
+    {
+      "id": 7,
+      "name": "Information Retrieval",
+      "definition": "Commands for asking questions or retrieving information on various topics."
+    },
+    {
+      "id": 8,
+      "name": "Calendar Management",
+      "definition": "Commands for managing calendar events and appointments."
+    },
+    {
+      "id": 9,
+      "name": "Task and List Management",
+      "definition": "Commands for creating, checking, or managing to-do lists and tasks."
+    },
+    {
+      "id": 10,
+      "name": "Weather and Forecast",
+      "definition": "Commands for checking weather conditions and forecasts."
+    },
+    {
+      "id": 11,
+      "name": "Games and Entertainment",
+      "definition": "Commands for launching or playing games and entertainment content."
+    },
+    {
+      "id": 12,
+      "name": "Cooking and Recipes",
+      "definition": "Commands related to cooking, recipes, and food preparation."
+    },
+    {
+      "id": 13,
+      "name": "News and Updates",
+      "definition": "Commands for retrieving news articles and updates from various sources."
+    },
+    {
+      "id": 14,
+      "name": "Definitions and Explanations",
+      "definition": "Commands for looking up definitions or explanations of terms."
+    },
+    {
+      "id": 15,
+      "name": "Stock and Financial Information",
+      "definition": "Commands for checking stock prices and financial information."
+    },
+    {
+      "id": 16,
+      "name": "Jokes and Humor",
+      "definition": "Commands for retrieving jokes or humorous content."
+    },
+    {
+      "id": 17,
+      "name": "Personal Assistance",
+      "definition": "Commands for general assistance or personal inquiries."
+    }
+  ]
+}

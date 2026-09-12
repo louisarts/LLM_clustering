@@ -1,0 +1,85 @@
+{
+  "bench": "fewevent",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Military",
+      "definition": "Events related to military personnel, actions, or honors."
+    },
+    {
+      "id": 2,
+      "name": "Political",
+      "definition": "Events related to political positions, actions, or statements."
+    },
+    {
+      "id": 3,
+      "name": "Sports",
+      "definition": "Events related to athletic competitions, achievements, or recognitions."
+    },
+    {
+      "id": 4,
+      "name": "Education",
+      "definition": "Events related to academic positions, studies, or educational achievements."
+    },
+    {
+      "id": 5,
+      "name": "Music",
+      "definition": "Events related to musical performances, artists, or compositions."
+    },
+    {
+      "id": 6,
+      "name": "Legal",
+      "definition": "Events related to legal actions, accusations, or judicial matters."
+    },
+    {
+      "id": 7,
+      "name": "Marriage and Relationships",
+      "definition": "Events related to marriages, partnerships, or familial relationships."
+    },
+    {
+      "id": 8,
+      "name": "Violence and Crime",
+      "definition": "Events related to acts of violence, crime, or criminal accusations."
+    },
+    {
+      "id": 9,
+      "name": "Work and Employment",
+      "definition": "Events related to jobs, employment, or professional activities."
+    },
+    {
+      "id": 10,
+      "name": "Protests and Social Movements",
+      "definition": "Events related to protests, demonstrations, or social activism."
+    },
+    {
+      "id": 11,
+      "name": "Travel",
+      "definition": "Events related to travel, journeys, or relocations."
+    },
+    {
+      "id": 12,
+      "name": "Statements and Communications",
+      "definition": "Events related to public statements, communications, or declarations."
+    },
+    {
+      "id": 13,
+      "name": "Health and Safety",
+      "definition": "Events related to health, safety, or medical issues."
+    },
+    {
+      "id": 14,
+      "name": "Administration and Governance",
+      "definition": "Events related to administrative actions or governance."
+    },
+    {
+      "id": 15,
+      "name": "Art and Culture",
+      "definition": "Events related to artistic expressions, cultural activities, or performances."
+    }
+  ]
+}

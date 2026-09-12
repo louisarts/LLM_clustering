@@ -1,0 +1,92 @@
+{
+  "bench": "clinc150_domain",
+  "run": 9,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Finance and Banking",
+      "definition": "User requests or inquiries related to personal financial accounts, credit/debit cards, bills, loans, investments, and currency exchange."
+    },
+    {
+      "id": 2,
+      "name": "Information Retrieval",
+      "definition": "User requests for general knowledge, definitions, facts, time, date, spelling, or language translation."
+    },
+    {
+      "id": 3,
+      "name": "Device and Assistant Management",
+      "definition": "User commands to control the assistant's settings, device functions, connectivity, or to manage ongoing processes."
+    },
+    {
+      "id": 4,
+      "name": "Travel and Navigation",
+      "definition": "User requests for travel planning, booking (flights, hotels, cars), directions, traffic information, ride-sharing, or travel-related information."
+    },
+    {
+      "id": 5,
+      "name": "Food and Dining",
+      "definition": "User requests for recipes, nutritional information, meal planning, food storage advice, or information/recommendations about restaurants."
+    },
+    {
+      "id": 6,
+      "name": "Automotive",
+      "definition": "User inquiries or tasks related to vehicle maintenance, performance information, or troubleshooting car issues."
+    },
+    {
+      "id": 7,
+      "name": "Calendar and Scheduling",
+      "definition": "User requests to manage appointments, events, or meetings on a calendar."
+    },
+    {
+      "id": 8,
+      "name": "Timers and Alarms",
+      "definition": "User commands to set, check, or manage timers and alarms."
+    },
+    {
+      "id": 9,
+      "name": "Shopping and List Management",
+      "definition": "User requests to track orders, manage shopping lists, or general to-do lists."
+    },
+    {
+      "id": 10,
+      "name": "Conversational and Social",
+      "definition": "User utterances for greetings, small talk, philosophical discussions, expressions of gratitude, or general feedback not tied to a specific task."
+    },
+    {
+      "id": 11,
+      "name": "Calculations and Conversions",
+      "definition": "User requests to perform mathematical operations or unit conversions."
+    },
+    {
+      "id": 12,
+      "name": "Assistant Persona and Customization",
+      "definition": "User questions about the assistant's identity or capabilities, or requests to customize the assistant's name or the user's name."
+    },
+    {
+      "id": 13,
+      "name": "Smart Home Control",
+      "definition": "User commands to control smart home devices or appliances."
+    },
+    {
+      "id": 14,
+      "name": "Booking and Reservations",
+      "definition": "User requests to make reservations for services, primarily restaurants, that are not related to travel."
+    },
+    {
+      "id": 15,
+      "name": "Weather",
+      "definition": "User inquiries about current or forecasted weather conditions."
+    },
+    {
+      "id": 16,
+      "name": "Media Control",
+      "definition": "User commands to play, pause, skip, identify, or manage media playback and playlists."
+    },
+    {
+      "id": 17,
+      "name": "Games and Simple Utilities",
+      "definition": "User requests for simple games, dice rolls, coin flips, or jokes."
+    }
+  ]
+}

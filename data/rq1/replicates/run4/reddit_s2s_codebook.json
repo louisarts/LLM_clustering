@@ -1,0 +1,142 @@
+{
+  "bench": "reddit_s2s",
+  "run": 4,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Architecture & Urban Planning",
+      "definition": "Discussions about building design, urban development, real estate, and related professional fields."
+    },
+    {
+      "id": 2,
+      "name": "Art & Culture",
+      "definition": "Topics related to visual arts, performing arts, literature, comics, and general cultural commentary."
+    },
+    {
+      "id": 3,
+      "name": "Astrology & Spirituality",
+      "definition": "Discussions about zodiac signs, horoscopes, and personal spiritual beliefs or practices."
+    },
+    {
+      "id": 4,
+      "name": "Automotive",
+      "definition": "Discussions about cars, trucks, motorcycles, and related topics like sales, maintenance, or specific models."
+    },
+    {
+      "id": 5,
+      "name": "Business & Finance",
+      "definition": "Topics related to investing, market analysis, advertising, career advice, economics, and corporate news."
+    },
+    {
+      "id": 6,
+      "name": "Chemistry & Science",
+      "definition": "Discussions about chemical reactions, scientific theories, research, space, and general scientific topics."
+    },
+    {
+      "id": 7,
+      "name": "Computers & Technology",
+      "definition": "Topics related to software, hardware, internet, mobile devices, cybersecurity, and general tech news."
+    },
+    {
+      "id": 8,
+      "name": "Cooking & Food",
+      "definition": "Recipes, ingredients, food preparation, dining, and food-related discussions."
+    },
+    {
+      "id": 9,
+      "name": "Cycling",
+      "definition": "Discussions about bicycles, cycling as a sport or hobby, and related gear or events."
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "Topics related to academic studies, college applications, teaching, and learning processes."
+    },
+    {
+      "id": 11,
+      "name": "Gaming & Hobbies",
+      "definition": "Discussions about video games, board games, role-playing, and various leisure activities like collecting or crafting."
+    },
+    {
+      "id": 12,
+      "name": "Health & Wellness",
+      "definition": "Discussions about physical and mental health, medical conditions, treatments, and wellness practices."
+    },
+    {
+      "id": 13,
+      "name": "History & Archaeology",
+      "definition": "Topics related to past events, historical figures, ancient artifacts, and archaeological discoveries."
+    },
+    {
+      "id": 14,
+      "name": "Home & DIY",
+      "definition": "Discussions about home improvement, repairs, crafts, and do-it-yourself projects."
+    },
+    {
+      "id": 15,
+      "name": "Humor & General Discussion",
+      "definition": "Jokes, lighthearted content, and broad discussions not fitting more specific categories."
+    },
+    {
+      "id": 16,
+      "name": "Law & Legal Advice",
+      "definition": "Questions about legal matters, court cases, laws, and law enforcement topics."
+    },
+    {
+      "id": 17,
+      "name": "Local Community & Events",
+      "definition": "News, events, and discussions specific to a particular city or region."
+    },
+    {
+      "id": 18,
+      "name": "Military & Defense",
+      "definition": "Discussions about armed forces, military history, and tactical equipment."
+    },
+    {
+      "id": 19,
+      "name": "Music",
+      "definition": "Discussions about specific artists, genres, instruments, concerts, and music theory."
+    },
+    {
+      "id": 20,
+      "name": "Personal Advice & Relationships",
+      "definition": "Questions seeking advice on personal issues, relationships, mental health, or life choices."
+    },
+    {
+      "id": 21,
+      "name": "Pets & Animals",
+      "definition": "Discussions about domestic animals, wildlife, animal care, and animal-related news."
+    },
+    {
+      "id": 22,
+      "name": "Philosophy & Religion",
+      "definition": "Discussions about deeper thought, ethics, organized religions, and existential questions."
+    },
+    {
+      "id": 23,
+      "name": "Politics & International Affairs",
+      "definition": "Discussions about government, elections, foreign policy, and global events."
+    },
+    {
+      "id": 24,
+      "name": "Shopping & Consumer Advice",
+      "definition": "Product recommendations, deals, online stores, and consumer-related questions."
+    },
+    {
+      "id": 25,
+      "name": "Sports",
+      "definition": "Discussions about professional and amateur sports, teams, athletes, and related news, excluding cycling."
+    },
+    {
+      "id": 26,
+      "name": "Travel & Tourism",
+      "definition": "Discussions about destinations, travel tips, experiences, and related planning."
+    },
+    {
+      "id": 27,
+      "name": "World Languages & Culture",
+      "definition": "Content primarily in a non-English language or focused on specific non-Western cultures."
+    }
+  ]
+}

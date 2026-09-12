@@ -1,0 +1,260 @@
+{
+  "bench": "stackoverflow20",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "SVN",
+      "definition": "Questions related to Subversion (SVN) version control system."
+    },
+    {
+      "id": 2,
+      "name": "Drupal",
+      "definition": "Questions related to the Drupal content management system."
+    },
+    {
+      "id": 3,
+      "name": "VBA",
+      "definition": "Questions related to Visual Basic for Applications (VBA) programming."
+    },
+    {
+      "id": 4,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel, excluding VBA-specific questions."
+    },
+    {
+      "id": 5,
+      "name": "Python",
+      "definition": "Questions related to the Python programming language."
+    },
+    {
+      "id": 6,
+      "name": "Django",
+      "definition": "Questions related to the Django web framework for Python."
+    },
+    {
+      "id": 7,
+      "name": "IIS",
+      "definition": "Questions related to Internet Information Services (IIS) web server."
+    },
+    {
+      "id": 8,
+      "name": "Qt",
+      "definition": "Questions related to the Qt application framework."
+    },
+    {
+      "id": 9,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language."
+    },
+    {
+      "id": 10,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 11,
+      "name": "Apache",
+      "definition": "Questions related to the Apache HTTP Server."
+    },
+    {
+      "id": 12,
+      "name": "WordPress",
+      "definition": "Questions related to the WordPress content management system."
+    },
+    {
+      "id": 13,
+      "name": "Hibernate",
+      "definition": "Questions related to the Hibernate ORM framework."
+    },
+    {
+      "id": 14,
+      "name": "Bash",
+      "definition": "Questions related to Bash scripting."
+    },
+    {
+      "id": 15,
+      "name": "Markdown",
+      "definition": "Questions related to the Markdown markup language."
+    },
+    {
+      "id": 16,
+      "name": "Cocoa",
+      "definition": "Questions related to the Cocoa application framework for macOS."
+    },
+    {
+      "id": 17,
+      "name": "PL/SQL",
+      "definition": "Questions related to PL/SQL programming language for Oracle databases."
+    },
+    {
+      "id": 18,
+      "name": "LINQ",
+      "definition": "Questions related to Language Integrated Query (LINQ) in .NET."
+    },
+    {
+      "id": 19,
+      "name": "SharePoint",
+      "definition": "Questions related to Microsoft SharePoint."
+    },
+    {
+      "id": 20,
+      "name": "MATLAB",
+      "definition": "Questions related to MATLAB programming and environment."
+    },
+    {
+      "id": 21,
+      "name": "Visual Studio",
+      "definition": "Questions related to Microsoft Visual Studio IDE."
+    },
+    {
+      "id": 22,
+      "name": "Spring",
+      "definition": "Questions related to the Spring framework for Java."
+    },
+    {
+      "id": 23,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 24,
+      "name": "Oracle",
+      "definition": "Questions related to Oracle databases, excluding PL/SQL-specific questions."
+    },
+    {
+      "id": 25,
+      "name": "Haskell",
+      "definition": "Questions related to the Haskell programming language."
+    },
+    {
+      "id": 26,
+      "name": "C#",
+      "definition": "Questions related to the C# programming language."
+    },
+    {
+      "id": 27,
+      "name": "Java",
+      "definition": "Questions related to the Java programming language."
+    },
+    {
+      "id": 28,
+      "name": "Objective-C",
+      "definition": "Questions related to the Objective-C programming language."
+    },
+    {
+      "id": 29,
+      "name": "JavaScript",
+      "definition": "Questions related to the JavaScript programming language."
+    },
+    {
+      "id": 30,
+      "name": "C++",
+      "definition": "Questions related to the C++ programming language."
+    },
+    {
+      "id": 31,
+      "name": "Nginx",
+      "definition": "Questions related to the Nginx web server."
+    },
+    {
+      "id": 32,
+      "name": "Moodle",
+      "definition": "Questions related to the Moodle learning platform."
+    },
+    {
+      "id": 33,
+      "name": "MediaWiki",
+      "definition": "Questions related to the MediaWiki software."
+    },
+    {
+      "id": 34,
+      "name": "OpenID",
+      "definition": "Questions related to OpenID authentication protocol."
+    },
+    {
+      "id": 35,
+      "name": "Cabal",
+      "definition": "Questions related to the Cabal package manager for Haskell."
+    },
+    {
+      "id": 36,
+      "name": "Telligent Community Server",
+      "definition": "Questions related to Telligent Community Server."
+    },
+    {
+      "id": 37,
+      "name": "ImageMagick",
+      "definition": "Questions related to the ImageMagick software suite."
+    },
+    {
+      "id": 38,
+      "name": "CURL",
+      "definition": "Questions related to the cURL command-line tool and library."
+    },
+    {
+      "id": 39,
+      "name": "WxWidgets",
+      "definition": "Questions related to the WxWidgets application framework."
+    },
+    {
+      "id": 40,
+      "name": "Delphi",
+      "definition": "Questions related to the Delphi programming language and IDE."
+    },
+    {
+      "id": 41,
+      "name": "JPA",
+      "definition": "Questions related to Java Persistence API (JPA)."
+    },
+    {
+      "id": 42,
+      "name": "NSOutlineView",
+      "definition": "Questions related to NSOutlineView in Cocoa."
+    },
+    {
+      "id": 43,
+      "name": "NSRect",
+      "definition": "Questions related to NSRect in Cocoa."
+    },
+    {
+      "id": 44,
+      "name": "NSView",
+      "definition": "Questions related to NSView in Cocoa."
+    },
+    {
+      "id": 45,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in Cocoa."
+    },
+    {
+      "id": 46,
+      "name": "NSFormatter",
+      "definition": "Questions related to NSFormatter in Cocoa."
+    },
+    {
+      "id": 47,
+      "name": "NSOutlineView",
+      "definition": "Questions related to NSOutlineView in Cocoa."
+    },
+    {
+      "id": 48,
+      "name": "NSOutlineView",
+      "definition": "Questions related to NSOutlineView in Cocoa."
+    },
+    {
+      "id": 49,
+      "name": "NSOutlineView",
+      "definition": "Questions related to NSOutlineView in Cocoa."
+    },
+    {
+      "id": 50,
+      "name": "NSOutlineView",
+      "definition": "Questions related to NSOutlineView in Cocoa."
+    }
+  ]
+}

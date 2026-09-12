@@ -1,0 +1,119 @@
+{
+  "bench": "clinc150",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account_Management",
+      "definition": "Requests to manage banking accounts, credit cards, or financial settings such as freezing accounts, reporting lost cards, or ordering checkbooks."
+    },
+    {
+      "id": 2,
+      "name": "Alarm_Reminder",
+      "definition": "Requests to set, check, or manage alarms and personal reminders for specific times or tasks."
+    },
+    {
+      "id": 3,
+      "name": "Booking_Reservation",
+      "definition": "Requests to book or reserve services including travel, accommodation, dining, or transportation."
+    },
+    {
+      "id": 4,
+      "name": "Calendar_Schedule",
+      "definition": "Requests to check or manage calendar events, meetings, schedules, or dates."
+    },
+    {
+      "id": 5,
+      "name": "Communication",
+      "definition": "Requests to send messages, make calls, or share information with contacts."
+    },
+    {
+      "id": 6,
+      "name": "Creative_Task",
+      "definition": "Requests to generate content such as images, lists, jokes, or stories."
+    },
+    {
+      "id": 7,
+      "name": "Device_Control",
+      "definition": "Requests to control smart home devices, hardware settings, or media playback."
+    },
+    {
+      "id": 8,
+      "name": "Finance_Banking_Info",
+      "definition": "Requests for specific information regarding bank accounts, credit cards, loans, or transactions."
+    },
+    {
+      "id": 9,
+      "name": "Food_Recipe",
+      "definition": "Requests for recipes, ingredient lists, or cooking instructions."
+    },
+    {
+      "id": 10,
+      "name": "General_Knowledge",
+      "definition": "Requests for facts, definitions, trivia, or explanations on general topics."
+    },
+    {
+      "id": 11,
+      "name": "Identity_Personalization",
+      "definition": "Requests to change how the assistant addresses the user, check known user details, or inquire about the assistant's identity."
+    },
+    {
+      "id": 12,
+      "name": "List_Management",
+      "definition": "Requests to add, remove, or view items on personal lists like shopping or to-do lists."
+    },
+    {
+      "id": 13,
+      "name": "Location_Navigation",
+      "definition": "Requests for directions, traffic conditions, or current location information."
+    },
+    {
+      "id": 14,
+      "name": "Math_Calculation",
+      "definition": "Requests to perform mathematical calculations or unit conversions."
+    },
+    {
+      "id": 15,
+      "name": "Order_Tracking",
+      "definition": "Requests to track the status or location of packages or orders."
+    },
+    {
+      "id": 16,
+      "name": "Payment_Transfer",
+      "definition": "Requests to transfer money, pay bills, or manage payment methods."
+    },
+    {
+      "id": 17,
+      "name": "Search_Shopping",
+      "definition": "Requests to find products, compare prices, or search for specific items to purchase."
+    },
+    {
+      "id": 18,
+      "name": "Small_Talk",
+      "definition": "Phatic expressions, greetings, goodbyes, or casual conversation not requesting specific action."
+    },
+    {
+      "id": 19,
+      "name": "System_Settings",
+      "definition": "Requests to change device settings, voice preferences, or system configurations."
+    },
+    {
+      "id": 20,
+      "name": "Travel_Info",
+      "definition": "Requests for travel requirements, visa information, or travel alerts."
+    },
+    {
+      "id": 21,
+      "name": "Vehicle_Info",
+      "definition": "Requests for information regarding vehicle maintenance, specifications, or status."
+    },
+    {
+      "id": 22,
+      "name": "Weather_Time",
+      "definition": "Requests for current weather forecasts or time zone information."
+    }
+  ]
+}

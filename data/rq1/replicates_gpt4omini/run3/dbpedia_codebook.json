@@ -1,0 +1,95 @@
+{
+  "bench": "dbpedia",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, often notable for their achievements or roles."
+    },
+    {
+      "id": 2,
+      "name": "Place",
+      "definition": "A specific location or geographical area, including cities, towns, and natural features."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "A group of people or entities organized for a specific purpose, such as businesses, institutions, or non-profits."
+    },
+    {
+      "id": 4,
+      "name": "Event",
+      "definition": "A significant occurrence or happening, often of historical or cultural importance."
+    },
+    {
+      "id": 5,
+      "name": "Work of Art",
+      "definition": "A creative piece such as a book, film, music album, or visual art."
+    },
+    {
+      "id": 6,
+      "name": "Species",
+      "definition": "A group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding."
+    },
+    {
+      "id": 7,
+      "name": "Vehicle",
+      "definition": "A machine used for transporting people or goods, including cars, boats, and aircraft."
+    },
+    {
+      "id": 8,
+      "name": "Building",
+      "definition": "A structure with a roof and walls, such as a house, school, or historical site."
+    },
+    {
+      "id": 9,
+      "name": "Mountain",
+      "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level."
+    },
+    {
+      "id": 10,
+      "name": "River",
+      "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another river."
+    },
+    {
+      "id": 11,
+      "name": "Plant",
+      "definition": "A living organism that typically grows in soil and absorbs water and nutrients through its roots."
+    },
+    {
+      "id": 12,
+      "name": "Animal",
+      "definition": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system."
+    },
+    {
+      "id": 13,
+      "name": "Academic Journal",
+      "definition": "A periodical publication that contains scholarly articles and research findings in a specific field."
+    },
+    {
+      "id": 14,
+      "name": "Film",
+      "definition": "A motion picture or movie, typically a narrative work of fiction or documentary."
+    },
+    {
+      "id": 15,
+      "name": "Album",
+      "definition": "A collection of audio recordings issued as a single item, typically in the music industry."
+    },
+    {
+      "id": 16,
+      "name": "Historical Figure",
+      "definition": "A person who has had a significant impact on history, often studied in historical contexts."
+    },
+    {
+      "id": 17,
+      "name": "Technology",
+      "definition": "The application of scientific knowledge for practical purposes, especially in industry."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "bench": "stackoverflow20",
+  "run": 9,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Spring Framework",
+      "definition": "For questions related to the Spring ecosystem, including Spring MVC, Spring Integration, and SpringSessionContext."
+    },
+    {
+      "id": 2,
+      "name": "Oracle Database",
+      "definition": "For questions related to Oracle's relational database management system, SQL, PL/SQL, and ORA errors."
+    },
+    {
+      "id": 3,
+      "name": "Apple Development",
+      "definition": "For questions related to macOS/OS X, Objective-C, Cocoa, Xcode, NSTextView, NSImage, and NIB files."
+    },
+    {
+      "id": 4,
+      "name": "LINQ",
+      "definition": "For questions related to Language Integrated Query, including LINQ to SQL and LINQ to XML."
+    },
+    {
+      "id": 5,
+      "name": "WordPress",
+      "definition": "For questions related to the WordPress content management system, themes, plugins, and database interaction."
+    },
+    {
+      "id": 6,
+      "name": "Hibernate ORM",
+      "definition": "For questions related to the Hibernate object-relational mapping framework, fetching strategies, and configuration."
+    },
+    {
+      "id": 7,
+      "name": "Version Control Systems",
+      "definition": "For questions related to source code management tools like Subversion (SVN) and ClearCase."
+    },
+    {
+      "id": 8,
+      "name": "Bash Scripting",
+      "definition": "For questions related to writing and executing scripts in the Bash shell, command line operations, and parsing."
+    },
+    {
+      "id": 9,
+      "name": "Apache HTTP Server",
+      "definition": "For questions related to the Apache web server, SSL, .htaccess, mod_rewrite, ProxyPass, and MAMP."
+    },
+    {
+      "id": 10,
+      "name": "MATLAB",
+      "definition": "For questions related to the MATLAB numerical computing environment, plotting, matrix operations, and image processing."
+    },
+    {
+      "id": 11,
+      "name": "Drupal",
+      "definition": "For questions related to the Drupal content management system, modules, themes, and content types."
+    },
+    {
+      "id": 12,
+      "name": "Scala",
+      "definition": "For questions related to the Scala programming language, traits, implicit conversions, and collections."
+    },
+    {
+      "id": 13,
+      "name": "Microsoft Excel / VBA",
+      "definition": "For questions related to Microsoft Excel spreadsheet software, formulas, macros, and VBA scripting."
+    },
+    {
+      "id": 14,
+      "name": "Qt Framework",
+      "definition": "For questions related to the Qt cross-platform application framework, widgets, models, and stylesheets."
+    },
+    {
+      "id": 15,
+      "name": "AJAX",
+      "definition": "For questions related to Asynchronous JavaScript and XML, including XMLHttpRequest and AJAX extenders."
+    },
+    {
+      "id": 16,
+      "name": "Visual Studio IDE",
+      "definition": "For questions related to the Microsoft Visual Studio integrated development environment, debugging, and project building."
+    },
+    {
+      "id": 17,
+      "name": "SharePoint",
+      "definition": "For questions related to Microsoft SharePoint, workflows, web parts, document libraries, and WSS."
+    },
+    {
+      "id": 18,
+      "name": "Haskell",
+      "definition": "For questions related to the Haskell programming language, monads, FFI, typeclasses, and Parsec."
+    },
+    {
+      "id": 19,
+      "name": "Magento",
+      "definition": "For questions related to the Magento e-commerce platform, products, attributes, and orders."
+    },
+    {
+      "id": 20,
+      "name": "ASP.NET Web Framework",
+      "definition": "For questions related to Microsoft's ASP.NET web application framework, including ASP.NET MVC."
+    },
+    {
+      "id": 21,
+      "name": ".NET Data Access",
+      "definition": "For questions related to data access technologies within the Microsoft .NET ecosystem, such as ADO.NET and Entity Framework."
+    },
+    {
+      "id": 22,
+      "name": "Tomcat",
+      "definition": "For questions related to the Apache Tomcat Java application server and servlet container."
+    },
+    {
+      "id": 23,
+      "name": "Ant Build Tool",
+      "definition": "For questions related to the Apache Ant Java-based build automation tool."
+    },
+    {
+      "id": 24,
+      "name": "JBoss Ecosystem",
+      "definition": "For questions related to the JBoss application server and related enterprise middleware, including jBPM."
+    },
+    {
+      "id": 25,
+      "name": "Google Web Toolkit (GWT)",
+      "definition": "For questions related to the Google Web Toolkit framework for building browser-based applications in Java."
+    },
+    {
+      "id": 26,
+      "name": "Struts Framework",
+      "definition": "For questions related to the Apache Struts MVC framework for developing Java web applications."
+    },
+    {
+      "id": 27,
+      "name": "ZeroC Ice",
+      "definition": "For questions related to the ZeroC Ice object-oriented middleware platform for distributed applications."
+    },
+    {
+      "id": 28,
+      "name": "Common Gateway Interface (CGI)",
+      "definition": "For questions related to the standard protocol for web servers to execute external programs."
+    },
+    {
+      "id": 29,
+      "name": "Java Message Service (JMS)",
+      "definition": "For questions related to the Java API for sending and receiving messages between applications."
+    }
+  ]
+}

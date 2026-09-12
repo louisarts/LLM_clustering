@@ -1,0 +1,322 @@
+{
+  "bench": "fewrel",
+  "run": 8,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Authored_By",
+      "definition": "A creative work and its author."
+    },
+    {
+      "id": 2,
+      "name": "Composed_By",
+      "definition": "A musical work and its composer."
+    },
+    {
+      "id": 3,
+      "name": "Designed_By",
+      "definition": "A structure, product, or system and its designer or architect."
+    },
+    {
+      "id": 4,
+      "name": "Developed_By",
+      "definition": "A software, game, or product and its developer."
+    },
+    {
+      "id": 5,
+      "name": "Directed_By",
+      "definition": "A film, play, or production and its director."
+    },
+    {
+      "id": 6,
+      "name": "Produced_By",
+      "definition": "A film, TV show, or other work and its production company."
+    },
+    {
+      "id": 7,
+      "name": "Created_By",
+      "definition": "A general creative work, concept, or character and its creator."
+    },
+    {
+      "id": 8,
+      "name": "Has_Role",
+      "definition": "A person and their profession, role, or position."
+    },
+    {
+      "id": 9,
+      "name": "Member_Of_Organization",
+      "definition": "A person and an organization they belong to."
+    },
+    {
+      "id": 10,
+      "name": "Member_Of_Political_Party",
+      "definition": "A person and a political party they belong to."
+    },
+    {
+      "id": 11,
+      "name": "Member_Of_Movement",
+      "definition": "A person and an artistic, intellectual, or social movement they are associated with."
+    },
+    {
+      "id": 12,
+      "name": "Plays_Instrument",
+      "definition": "A person and a musical instrument they play."
+    },
+    {
+      "id": 13,
+      "name": "Expert_In_Field",
+      "definition": "A person and their field of expertise or study."
+    },
+    {
+      "id": 14,
+      "name": "Adheres_To_Belief",
+      "definition": "A person and a belief system, religion, or philosophy they follow."
+    },
+    {
+      "id": 15,
+      "name": "Associated_With_Organization",
+      "definition": "A person or entity and an organization they are linked to."
+    },
+    {
+      "id": 16,
+      "name": "Located_In",
+      "definition": "An entity and its containing geographic location."
+    },
+    {
+      "id": 17,
+      "name": "Origin_Location",
+      "definition": "An entity and its place of origin or base (e.g., city, region)."
+    },
+    {
+      "id": 18,
+      "name": "Origin_Country",
+      "definition": "A person, band, or product and their country of origin or representation."
+    },
+    {
+      "id": 19,
+      "name": "Part_Of_Geographic_Feature",
+      "definition": "A smaller geographic entity and a larger one it is part of."
+    },
+    {
+      "id": 20,
+      "name": "Tributary_Of",
+      "definition": "A river and a larger river it flows into."
+    },
+    {
+      "id": 21,
+      "name": "Located_On_River",
+      "definition": "A structure or place and a river it is situated on."
+    },
+    {
+      "id": 22,
+      "name": "Flows_Through_Country",
+      "definition": "A river and a country it flows through."
+    },
+    {
+      "id": 23,
+      "name": "County_Seat_Of",
+      "definition": "A city and the county it is the administrative center of."
+    },
+    {
+      "id": 24,
+      "name": "Governs_Place",
+      "definition": "A person or role and a place they govern."
+    },
+    {
+      "id": 25,
+      "name": "Role_In_Location",
+      "definition": "A role or position and the geographic location it pertains to."
+    },
+    {
+      "id": 26,
+      "name": "Lived_In",
+      "definition": "A person and a place they resided in."
+    },
+    {
+      "id": 27,
+      "name": "Worked_In",
+      "definition": "A person and a place they worked in."
+    },
+    {
+      "id": 28,
+      "name": "Set_In_Location",
+      "definition": "A creative work and its fictional or real-world setting."
+    },
+    {
+      "id": 29,
+      "name": "Associated_With_Place",
+      "definition": "A general, less direct association between an entity and a place."
+    },
+    {
+      "id": 30,
+      "name": "Explored_Place",
+      "definition": "A person and a geographic place they explored or were instrumental in founding."
+    },
+    {
+      "id": 31,
+      "name": "Participated_In_Event",
+      "definition": "An entity (person, country, team) and an event they took part in."
+    },
+    {
+      "id": 32,
+      "name": "Occurred_At",
+      "definition": "An event and its specific location."
+    },
+    {
+      "id": 33,
+      "name": "Occurred_In_Year",
+      "definition": "An event and the year it took place."
+    },
+    {
+      "id": 34,
+      "name": "Associated_With_Year",
+      "definition": "An entity and a year it is linked to."
+    },
+    {
+      "id": 35,
+      "name": "Is_A_Type_Of",
+      "definition": "A specific entity and its general type, category, or classification."
+    },
+    {
+      "id": 36,
+      "name": "Features_Character",
+      "definition": "A creative work and a character within it."
+    },
+    {
+      "id": 37,
+      "name": "Runs_On_Platform",
+      "definition": "Software or a product and its operating system or platform."
+    },
+    {
+      "id": 38,
+      "name": "In_Language",
+      "definition": "A creative work and the language it is in."
+    },
+    {
+      "id": 39,
+      "name": "Associated_With_Genre",
+      "definition": "An artist or work and a specific artistic or literary genre."
+    },
+    {
+      "id": 40,
+      "name": "Has_Part",
+      "definition": "A larger work or entity and a specific part or component of it."
+    },
+    {
+      "id": 41,
+      "name": "Based_On_Work_By",
+      "definition": "A creative work and the author of the source material it is adapted from."
+    },
+    {
+      "id": 42,
+      "name": "Part_Of_Organization",
+      "definition": "A smaller organization, division, or brand and its parent organization."
+    },
+    {
+      "id": 43,
+      "name": "Manufactured_By",
+      "definition": "A product and the company that manufactures it."
+    },
+    {
+      "id": 44,
+      "name": "Founded_By",
+      "definition": "An organization or entity and its founder."
+    },
+    {
+      "id": 45,
+      "name": "Owned_By",
+      "definition": "An entity and its owner."
+    },
+    {
+      "id": 46,
+      "name": "Acquired_By",
+      "definition": "A company and the company that acquired it."
+    },
+    {
+      "id": 47,
+      "name": "Released_By",
+      "definition": "A creative work (e.g., album, song) and its record label or publisher."
+    },
+    {
+      "id": 48,
+      "name": "Distributed_By",
+      "definition": "A creative work (e.g., film) and its distributor."
+    },
+    {
+      "id": 49,
+      "name": "Published_By",
+      "definition": "A publication and its publisher or institution."
+    },
+    {
+      "id": 50,
+      "name": "Signed_To",
+      "definition": "An artist or band and a record label they are signed with."
+    },
+    {
+      "id": 51,
+      "name": "Operated_By",
+      "definition": "A facility or service and the organization that operates it."
+    },
+    {
+      "id": 52,
+      "name": "Broadcast_On",
+      "definition": "A program or work and the channel or network it is broadcast on."
+    },
+    {
+      "id": 53,
+      "name": "Published_In_Country",
+      "definition": "A publication and the country where it is published."
+    },
+    {
+      "id": 54,
+      "name": "Family_Relation",
+      "definition": "Two people with a family relationship."
+    },
+    {
+      "id": 55,
+      "name": "Alternate_Name_For",
+      "definition": "Two names or terms referring to the same entity."
+    },
+    {
+      "id": 56,
+      "name": "Related_Works",
+      "definition": "Two creative works that are part of a series or closely connected."
+    },
+    {
+      "id": 57,
+      "name": "Connected_Geographic_Features",
+      "definition": "Two geographic features that are adjacent or connected."
+    },
+    {
+      "id": 58,
+      "name": "Award_Recipient",
+      "definition": "A person and an award they received."
+    },
+    {
+      "id": 59,
+      "name": "Associated_With_Award",
+      "definition": "A creative work and an award it is linked to (e.g., an actor in the work received the award)."
+    },
+    {
+      "id": 60,
+      "name": "Listed_On",
+      "definition": "An entity and a list, register, or database it is included in."
+    },
+    {
+      "id": 61,
+      "name": "Achieved_By",
+      "definition": "An achievement or action and the person or entity who accomplished it."
+    },
+    {
+      "id": 62,
+      "name": "Plays_In_League",
+      "definition": "A sports team and the league they participate in."
+    },
+    {
+      "id": 63,
+      "name": "Home_Stadium_Of",
+      "definition": "A stadium and the sports team that uses it as its home."
+    }
+  ]
+}

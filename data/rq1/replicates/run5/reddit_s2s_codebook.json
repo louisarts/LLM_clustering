@@ -1,0 +1,77 @@
+{
+  "bench": "reddit_s2s",
+  "run": 5,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "News & Current Events",
+      "definition": "Covers national and international news, politics, social issues, and media criticism."
+    },
+    {
+      "id": 2,
+      "name": "Local Community & Events",
+      "definition": "Discussions, questions, events, services, or complaints specific to a city or region."
+    },
+    {
+      "id": 3,
+      "name": "Science & Academia",
+      "definition": "Topics related to scientific research, academic studies, and educational inquiries in various fields."
+    },
+    {
+      "id": 4,
+      "name": "Technology & Computing",
+      "definition": "Discussions about software, hardware, internet, programming, and specific tech products or services."
+    },
+    {
+      "id": 5,
+      "name": "Automotive",
+      "definition": "Content related to cars, motorcycles, specific models, DIY repairs, and racing."
+    },
+    {
+      "id": 6,
+      "name": "Arts & Entertainment",
+      "definition": "Discussions about anime, film, music, TV shows, books, comics, art, photography, creative writing, and comedy."
+    },
+    {
+      "id": 7,
+      "name": "Hobbies & Collecting",
+      "definition": "Posts about collecting items like coins, specific gear for hobbies like airsoft, and general hobby-related discussions."
+    },
+    {
+      "id": 8,
+      "name": "Health & Personal Well-being",
+      "definition": "Topics concerning physical and mental health, fitness, medical conditions, personal support, and self-improvement."
+    },
+    {
+      "id": 9,
+      "name": "Food & Drink",
+      "definition": "Content related to coffee, alcoholic beverages, specific food items, recipes, and restaurant reviews."
+    },
+    {
+      "id": 10,
+      "name": "Home & Lifestyle",
+      "definition": "Discussions about interior design, home improvement, pets, relationships, fashion, and general personal advice or travel experiences."
+    },
+    {
+      "id": 11,
+      "name": "Business & Finance",
+      "definition": "Topics covering marketing, advertising, economics, real estate, personal finance, e-commerce, and career advice."
+    },
+    {
+      "id": 12,
+      "name": "Religion & Philosophy",
+      "definition": "Discussions about religious beliefs, philosophical questions, and spiritual practices."
+    },
+    {
+      "id": 13,
+      "name": "Subreddit Meta & General Discussion",
+      "definition": "Posts about the subreddit itself, general questions to the community, or broad discussions not fitting other specific topics."
+    },
+    {
+      "id": 14,
+      "name": "Spam & Misleading Content",
+      "definition": "Titles that are clearly advertisements for adult services, gambling, or other unsolicited content."
+    }
+  ]
+}

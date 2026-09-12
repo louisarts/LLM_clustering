@@ -1,0 +1,327 @@
+{
+  "bench": "stackoverflow20",
+  "run": 5,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "AJAX",
+      "definition": "Asynchronous JavaScript and XML, a set of web development techniques."
+    },
+    {
+      "id": 2,
+      "name": "Apache HTTP Server",
+      "definition": "The Apache HTTP Server, commonly known as Apache."
+    },
+    {
+      "id": 3,
+      "name": "ASP.NET",
+      "definition": "Microsoft's open-source web framework for building web apps and services."
+    },
+    {
+      "id": 4,
+      "name": "Bash",
+      "definition": "The GNU Bourne-Again Shell, a Unix shell and command language."
+    },
+    {
+      "id": 5,
+      "name": "C#",
+      "definition": "A multi-paradigm programming language developed by Microsoft."
+    },
+    {
+      "id": 6,
+      "name": "C++",
+      "definition": "A general-purpose programming language."
+    },
+    {
+      "id": 7,
+      "name": "CGI",
+      "definition": "Common Gateway Interface, an interface for web servers to execute programs."
+    },
+    {
+      "id": 8,
+      "name": "Cocoa",
+      "definition": "Apple's native object-oriented API for macOS and iOS."
+    },
+    {
+      "id": 9,
+      "name": "Core Data",
+      "definition": "An object graph and persistence framework provided by Apple for macOS and iOS."
+    },
+    {
+      "id": 10,
+      "name": "DOM",
+      "definition": "Document Object Model, a cross-platform and language-independent interface for HTML and XML documents."
+    },
+    {
+      "id": 11,
+      "name": "Drupal",
+      "definition": "An open-source content management system."
+    },
+    {
+      "id": 12,
+      "name": "EJB",
+      "definition": "Enterprise JavaBeans, a component architecture for Java EE."
+    },
+    {
+      "id": 13,
+      "name": "Emacs",
+      "definition": "A family of text editors."
+    },
+    {
+      "id": 14,
+      "name": "Excel",
+      "definition": "Microsoft Excel spreadsheet application."
+    },
+    {
+      "id": 15,
+      "name": "Git",
+      "definition": "A distributed version control system."
+    },
+    {
+      "id": 16,
+      "name": "Haskell",
+      "definition": "A purely functional programming language."
+    },
+    {
+      "id": 17,
+      "name": "Hibernate",
+      "definition": "An object-relational mapping ORM framework for Java."
+    },
+    {
+      "id": 18,
+      "name": "IIS",
+      "definition": "Microsoft's Internet Information Services web server."
+    },
+    {
+      "id": 19,
+      "name": "ImageMagick",
+      "definition": "A free and open-source software suite for displaying, converting, and editing raster image files."
+    },
+    {
+      "id": 20,
+      "name": "IntelliJ IDEA",
+      "definition": "An integrated development environment for Java and other JVM languages."
+    },
+    {
+      "id": 21,
+      "name": "Java",
+      "definition": "A high-level, class-based, object-oriented programming language."
+    },
+    {
+      "id": 22,
+      "name": "JavaScript",
+      "definition": "A high-level, interpreted programming language for web browsers."
+    },
+    {
+      "id": 23,
+      "name": "JDBC",
+      "definition": "Java Database Connectivity, an API for the Java programming language to connect to databases."
+    },
+    {
+      "id": 24,
+      "name": "LDAP",
+      "definition": "Lightweight Directory Access Protocol, an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services."
+    },
+    {
+      "id": 25,
+      "name": "LINQ",
+      "definition": "Language Integrated Query, a set of features in .NET for querying data."
+    },
+    {
+      "id": 26,
+      "name": "Linux",
+      "definition": "A family of open-source Unix-like operating systems."
+    },
+    {
+      "id": 27,
+      "name": "macOS",
+      "definition": "Apple's desktop operating system."
+    },
+    {
+      "id": 28,
+      "name": "Magento",
+      "definition": "An open-source e-commerce platform."
+    },
+    {
+      "id": 29,
+      "name": "Makefile",
+      "definition": "A utility for directing program compilation and other tasks."
+    },
+    {
+      "id": 30,
+      "name": "Markdown",
+      "definition": "A lightweight markup language."
+    },
+    {
+      "id": 31,
+      "name": "Matlab",
+      "definition": "A proprietary multi-paradigm programming language and numerical computing environment."
+    },
+    {
+      "id": 32,
+      "name": "Maven",
+      "definition": "A software project management and comprehension tool primarily for Java."
+    },
+    {
+      "id": 33,
+      "name": "Microsoft Access",
+      "definition": "A database management system from Microsoft."
+    },
+    {
+      "id": 34,
+      "name": "MinGW",
+      "definition": "A minimalist GNU for Windows, a development environment for creating Windows applications."
+    },
+    {
+      "id": 35,
+      "name": ".NET",
+      "definition": "A free, cross-platform, open-source developer platform for building many different types of applications."
+    },
+    {
+      "id": 36,
+      "name": "Objective-C",
+      "definition": "A general-purpose, object-oriented programming language that adds Smalltalk-style messaging to C."
+    },
+    {
+      "id": 37,
+      "name": "OpenID",
+      "definition": "An open standard for decentralized authentication."
+    },
+    {
+      "id": 38,
+      "name": "Oracle Database",
+      "definition": "A multi-model database management system from Oracle Corporation."
+    },
+    {
+      "id": 39,
+      "name": "Passenger",
+      "definition": "A free web server module that makes it easy to deploy web applications."
+    },
+    {
+      "id": 40,
+      "name": "PHP",
+      "definition": "A general-purpose scripting language especially suited to web development."
+    },
+    {
+      "id": 41,
+      "name": "PostgreSQL",
+      "definition": "A free and open-source relational database management system."
+    },
+    {
+      "id": 42,
+      "name": "Qt",
+      "definition": "A cross-platform application development framework."
+    },
+    {
+      "id": 43,
+      "name": "RDLC",
+      "definition": "Report Definition Language Client-side, a reporting technology from Microsoft."
+    },
+    {
+      "id": 44,
+      "name": "RSS",
+      "definition": "Really Simple Syndication, a web feed format."
+    },
+    {
+      "id": 45,
+      "name": "Ruby",
+      "definition": "An open-source programming language with a focus on simplicity and productivity."
+    },
+    {
+      "id": 46,
+      "name": "Scala",
+      "definition": "A strong static type system programming language that combines functional and object-oriented programming."
+    },
+    {
+      "id": 47,
+      "name": "SharePoint",
+      "definition": "Microsoft's web-based collaborative platform."
+    },
+    {
+      "id": 48,
+      "name": "Sparkle",
+      "definition": "An open-source software update framework for macOS applications."
+    },
+    {
+      "id": 49,
+      "name": "Spring Framework",
+      "definition": "An open-source application framework for Java."
+    },
+    {
+      "id": 50,
+      "name": "SQL",
+      "definition": "Structured Query Language for managing relational databases."
+    },
+    {
+      "id": 51,
+      "name": "SQLite",
+      "definition": "A C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine."
+    },
+    {
+      "id": 52,
+      "name": "SSH",
+      "definition": "Secure Shell Protocol, a cryptographic network protocol."
+    },
+    {
+      "id": 53,
+      "name": "Subversion",
+      "definition": "A software versioning and revision control system."
+    },
+    {
+      "id": 54,
+      "name": "Symbian",
+      "definition": "A discontinued mobile operating system."
+    },
+    {
+      "id": 55,
+      "name": "Tomcat",
+      "definition": "An open-source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies."
+    },
+    {
+      "id": 56,
+      "name": "Trac",
+      "definition": "An open-source web-based software project management and bug tracking system."
+    },
+    {
+      "id": 57,
+      "name": "VBA",
+      "definition": "Visual Basic for Applications, an implementation of Microsoft's event-driven programming language Visual Basic."
+    },
+    {
+      "id": 58,
+      "name": "Visual Studio",
+      "definition": "Microsoft's integrated development environment."
+    },
+    {
+      "id": 59,
+      "name": "Web Services",
+      "definition": "A method of communication between two electronic devices over a network."
+    },
+    {
+      "id": 60,
+      "name": "Windows",
+      "definition": "A family of graphical operating systems developed by Microsoft."
+    },
+    {
+      "id": 61,
+      "name": "WordPress",
+      "definition": "An open-source content management system."
+    },
+    {
+      "id": 62,
+      "name": "XDebug",
+      "definition": "A PHP extension for debugging and profiling."
+    },
+    {
+      "id": 63,
+      "name": "Xcode",
+      "definition": "Apple's integrated development environment for macOS and iOS."
+    },
+    {
+      "id": 64,
+      "name": "XML",
+      "definition": "Extensible Markup Language, a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable."
+    }
+  ]
+}

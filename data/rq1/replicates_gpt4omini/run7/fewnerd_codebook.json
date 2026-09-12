@@ -1,0 +1,110 @@
+{
+  "bench": "fewnerd",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "A specific place or position."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "A group of people with a particular purpose or function."
+    },
+    {
+      "id": 4,
+      "name": "Event",
+      "definition": "An occurrence or happening, often of significance."
+    },
+    {
+      "id": 5,
+      "name": "Entity",
+      "definition": "A thing with distinct and independent existence."
+    },
+    {
+      "id": 6,
+      "name": "Geographical Feature",
+      "definition": "Natural formations or features of the earth."
+    },
+    {
+      "id": 7,
+      "name": "Political Entity",
+      "definition": "An organization or group that has political power or authority."
+    },
+    {
+      "id": 8,
+      "name": "Cultural Artifact",
+      "definition": "An object made by a human being that reflects cultural practices."
+    },
+    {
+      "id": 9,
+      "name": "Scientific Concept",
+      "definition": "An idea or principle that is based on scientific understanding."
+    },
+    {
+      "id": 10,
+      "name": "Legislation",
+      "definition": "Laws or legal regulations enacted by a governing body."
+    },
+    {
+      "id": 11,
+      "name": "Historical Figure",
+      "definition": "A person who has had a significant impact on history."
+    },
+    {
+      "id": 12,
+      "name": "Film/Media",
+      "definition": "A work of cinema or television, including actors and productions."
+    },
+    {
+      "id": 13,
+      "name": "Sporting Event",
+      "definition": "An organized competition in sports."
+    },
+    {
+      "id": 14,
+      "name": "Disease/Medical Condition",
+      "definition": "A pathological condition of a bodily part, an organism, or system resulting from various causes."
+    },
+    {
+      "id": 15,
+      "name": "Economic Entity",
+      "definition": "An organization or institution involved in economic activities."
+    },
+    {
+      "id": 16,
+      "name": "Technology",
+      "definition": "The application of scientific knowledge for practical purposes."
+    },
+    {
+      "id": 17,
+      "name": "Artistic Work",
+      "definition": "A creation in the field of art, including literature, music, and visual arts."
+    },
+    {
+      "id": 18,
+      "name": "Natural Resource",
+      "definition": "Materials or substances occurring in nature that can be exploited for economic gain."
+    },
+    {
+      "id": 19,
+      "name": "Transportation",
+      "definition": "Means or systems used for moving people or goods."
+    },
+    {
+      "id": 20,
+      "name": "Educational Institution",
+      "definition": "An organization that provides instruction or education."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "bench": "massive_intent",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music_Playback",
+      "definition": "Request to play, resume, or shuffle music, songs, playlists, or radio stations."
+    },
+    {
+      "id": 2,
+      "name": "Calendar_Management",
+      "definition": "Create, delete, modify, or view events and meetings in a calendar."
+    },
+    {
+      "id": 3,
+      "name": "Weather_Query",
+      "definition": "Request for current, past, or future weather conditions or forecasts."
+    },
+    {
+      "id": 4,
+      "name": "Email_Management",
+      "definition": "Send, read, check, or reply to emails."
+    },
+    {
+      "id": 5,
+      "name": "Alarm_Set",
+      "definition": "Set, enable, or create a new alarm."
+    },
+    {
+      "id": 6,
+      "name": "Reminder_Set",
+      "definition": "Set a reminder for a specific task or event."
+    },
+    {
+      "id": 7,
+      "name": "General_Knowledge",
+      "definition": "Ask for facts, definitions, calculations, or general information."
+    },
+    {
+      "id": 8,
+      "name": "Smart_Lighting",
+      "definition": "Control or adjust the state, brightness, or color of smart lights."
+    },
+    {
+      "id": 9,
+      "name": "News_Query",
+      "definition": "Request for current news, headlines, or specific news topics."
+    },
+    {
+      "id": 10,
+      "name": "Todo_List_Management",
+      "definition": "Add, remove, view, or modify items in a to-do or shopping list."
+    },
+    {
+      "id": 11,
+      "name": "Transportation_Booking",
+      "definition": "Search for or book tickets for trains or other transportation."
+    },
+    {
+      "id": 12,
+      "name": "Social_Media_Post",
+      "definition": "Post a message, tweet, or update on a social media platform."
+    },
+    {
+      "id": 13,
+      "name": "Audiobook_Playback",
+      "definition": "Play, resume, or listen to audiobooks."
+    },
+    {
+      "id": 14,
+      "name": "Alarm_Delete",
+      "definition": "Delete, remove, or cancel an existing alarm."
+    },
+    {
+      "id": 15,
+      "name": "Volume_Control",
+      "definition": "Adjust the volume level of audio playback."
+    },
+    {
+      "id": 16,
+      "name": "Stock_Query",
+      "definition": "Request for stock prices, market updates, or financial exchange rates."
+    },
+    {
+      "id": 17,
+      "name": "Device_Control",
+      "definition": "Control smart home devices other than lights, such as sockets or appliances."
+    },
+    {
+      "id": 18,
+      "name": "Navigation_Directions",
+      "definition": "Request for directions, traffic conditions, or travel time."
+    },
+    {
+      "id": 19,
+      "name": "Food_Ordering",
+      "definition": "Order food or request recipes."
+    },
+    {
+      "id": 20,
+      "name": "Podcast_Playback",
+      "definition": "Play, resume, or listen to podcasts."
+    },
+    {
+      "id": 21,
+      "name": "Personal_Assistant_Info",
+      "definition": "Ask about the assistant's name, age, or personal attributes."
+    },
+    {
+      "id": 22,
+      "name": "Music_Query",
+      "definition": "Request for information about songs, artists, or lyrics."
+    },
+    {
+      "id": 23,
+      "name": "App_Control",
+      "definition": "Open or launch a specific application."
+    },
+    {
+      "id": 24,
+      "name": "Time_Query",
+      "definition": "Request for the current time or time zone conversions."
+    },
+    {
+      "id": 25,
+      "name": "Date_Query",
+      "definition": "Request for the current date or day of the week for a specific date."
+    },
+    {
+      "id": 26,
+      "name": "Local_Business_Query",
+      "definition": "Find local businesses, places, or services."
+    },
+    {
+      "id": 27,
+      "name": "Calendar_Query",
+      "definition": "Check availability or schedule without modifying the calendar."
+    },
+    {
+      "id": 28,
+      "name": "Alarm_Query",
+      "definition": "Check the status or existence of set alarms."
+    },
+    {
+      "id": 29,
+      "name": "Contact_Management",
+      "definition": "Find or retrieve contact information."
+    },
+    {
+      "id": 30,
+      "name": "Entertainment_Recommendation",
+      "definition": "Request for recommendations for movies, books, or other media."
+    },
+    {
+      "id": 31,
+      "name": "System_Command",
+      "definition": "Control system-level functions like power or silence mode."
+    }
+  ]
+}

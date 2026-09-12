@@ -1,0 +1,80 @@
+{
+  "bench": "banking77",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Issues",
+      "definition": "Inquiries related to problems with physical or virtual cards, including activation, blocking, and PIN issues."
+    },
+    {
+      "id": 2,
+      "name": "Account Management",
+      "definition": "Requests for changes or updates to account details, including name changes and account deletion."
+    },
+    {
+      "id": 3,
+      "name": "Transaction Inquiries",
+      "definition": "Questions regarding the status, processing, or issues related to transactions, including transfers and refunds."
+    },
+    {
+      "id": 4,
+      "name": "Identity Verification",
+      "definition": "Concerns related to the process of verifying identity for account access or transactions."
+    },
+    {
+      "id": 5,
+      "name": "Fees and Charges",
+      "definition": "Inquiries about fees associated with transactions, card usage, or account services."
+    },
+    {
+      "id": 6,
+      "name": "Top-Up and Funding",
+      "definition": "Questions about adding funds to accounts, including methods and limits for top-ups."
+    },
+    {
+      "id": 7,
+      "name": "Money Transfers",
+      "definition": "Requests for information on sending or receiving money, including methods and issues with transfers."
+    },
+    {
+      "id": 8,
+      "name": "Exchange Rates and Currency Conversion",
+      "definition": "Inquiries about exchange rates, currency conversion, and related fees."
+    },
+    {
+      "id": 9,
+      "name": "ATM Issues",
+      "definition": "Concerns related to ATM transactions, including withdrawals, declines, and machine malfunctions."
+    },
+    {
+      "id": 10,
+      "name": "Refund Requests",
+      "definition": "Requests for information or action regarding refunds for transactions."
+    },
+    {
+      "id": 11,
+      "name": "Virtual Card Usage",
+      "definition": "Questions specifically about the use and functionality of disposable or virtual cards."
+    },
+    {
+      "id": 12,
+      "name": "Security Concerns",
+      "definition": "Inquiries related to potential fraud, unauthorized transactions, or account security."
+    },
+    {
+      "id": 13,
+      "name": "Delivery and Timing",
+      "definition": "Questions about the timing of card deliveries, transaction processing, and transfer durations."
+    },
+    {
+      "id": 14,
+      "name": "General Banking Questions",
+      "definition": "General inquiries about banking services, policies, and account features."
+    }
+  ]
+}

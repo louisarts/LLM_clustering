@@ -1,0 +1,110 @@
+{
+  "bench": "fewevent",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Marriage",
+      "definition": "Events related to marriage or being a spouse."
+    },
+    {
+      "id": 2,
+      "name": "Work",
+      "definition": "Events related to employment or professional activities."
+    },
+    {
+      "id": 3,
+      "name": "Military Service",
+      "definition": "Events related to serving in the military or being a soldier."
+    },
+    {
+      "id": 4,
+      "name": "Leadership",
+      "definition": "Events related to holding a leadership position, such as president or chairman."
+    },
+    {
+      "id": 5,
+      "name": "Education",
+      "definition": "Events related to attending or graduating from an educational institution."
+    },
+    {
+      "id": 6,
+      "name": "Competition",
+      "definition": "Events related to participating in or winning a competition."
+    },
+    {
+      "id": 7,
+      "name": "Music",
+      "definition": "Events related to music, such as being a musician or singer."
+    },
+    {
+      "id": 8,
+      "name": "Film and Theater",
+      "definition": "Events related to film or theater, such as being a director or actor."
+    },
+    {
+      "id": 9,
+      "name": "Sports",
+      "definition": "Events related to sports, such as being a coach or athlete."
+    },
+    {
+      "id": 10,
+      "name": "Political Events",
+      "definition": "Events related to political activities, such as elections or demonstrations."
+    },
+    {
+      "id": 11,
+      "name": "Crime and Legal",
+      "definition": "Events related to crime, legal actions, or being detained."
+    },
+    {
+      "id": 12,
+      "name": "Awards and Honors",
+      "definition": "Events related to receiving awards or honors, such as medals."
+    },
+    {
+      "id": 13,
+      "name": "Business and Economy",
+      "definition": "Events related to business activities, such as sales or purchases."
+    },
+    {
+      "id": 14,
+      "name": "Social and Cultural",
+      "definition": "Events related to social or cultural activities, such as protests or gatherings."
+    },
+    {
+      "id": 15,
+      "name": "Travel and Movement",
+      "definition": "Events related to travel or relocation."
+    },
+    {
+      "id": 16,
+      "name": "Death and Loss",
+      "definition": "Events related to death or loss."
+    },
+    {
+      "id": 17,
+      "name": "Communication",
+      "definition": "Events related to communication, such as speaking or writing."
+    },
+    {
+      "id": 18,
+      "name": "Science and Technology",
+      "definition": "Events related to scientific or technological activities."
+    },
+    {
+      "id": 19,
+      "name": "Family",
+      "definition": "Events related to family relationships, such as being a parent or child."
+    },
+    {
+      "id": 20,
+      "name": "Religion",
+      "definition": "Events related to religious activities or positions."
+    }
+  ]
+}

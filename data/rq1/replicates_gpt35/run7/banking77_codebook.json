@@ -1,0 +1,260 @@
+{
+  "bench": "banking77",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Freezing Accounts",
+      "definition": "Queries related to freezing accounts due to lost or stolen phones or cards."
+    },
+    {
+      "id": 2,
+      "name": "Transaction Cancellation",
+      "definition": "Queries about cancelling transactions or transfers."
+    },
+    {
+      "id": 3,
+      "name": "Exchange Rates Inquiry",
+      "definition": "Queries related to current exchange rates."
+    },
+    {
+      "id": 4,
+      "name": "Card Issues",
+      "definition": "Queries about card-related issues such as being stuck in an ATM, broken, lost, or stolen."
+    },
+    {
+      "id": 5,
+      "name": "Transfer Issues",
+      "definition": "Queries related to issues with transfers, including delays, fees, and pending status."
+    },
+    {
+      "id": 6,
+      "name": "Top-Up Queries",
+      "definition": "Queries about top-up fees, verification, limits, and failures."
+    },
+    {
+      "id": 7,
+      "name": "Refunds and Disputes",
+      "definition": "Queries related to refunds, disputes, unauthorized payments, and double charges."
+    },
+    {
+      "id": 8,
+      "name": "Identity Verification",
+      "definition": "Queries about verifying identity for account access or transactions."
+    },
+    {
+      "id": 9,
+      "name": "Account Closure",
+      "definition": "Queries related to closing accounts and deleting profiles."
+    },
+    {
+      "id": 10,
+      "name": "Currency Exchange",
+      "definition": "Queries about exchanging currencies, fees, rates, and supported currencies."
+    },
+    {
+      "id": 11,
+      "name": "Card Activation and PIN",
+      "definition": "Queries about activating cards, setting up PINs, and resetting passcodes."
+    },
+    {
+      "id": 12,
+      "name": "ATM Issues",
+      "definition": "Queries related to ATM transactions, errors, incorrect amounts, and card retention."
+    },
+    {
+      "id": 13,
+      "name": "Contactless Payment Problems",
+      "definition": "Queries about issues with contactless payments not working."
+    },
+    {
+      "id": 14,
+      "name": "App Access and Troubleshooting",
+      "definition": "Queries about accessing accounts through apps, troubleshooting, and lost phones."
+    },
+    {
+      "id": 15,
+      "name": "Card Delivery and Replacement",
+      "definition": "Queries about card delivery, tracking, expiration, and replacements."
+    },
+    {
+      "id": 16,
+      "name": "Virtual Card Queries",
+      "definition": "Queries related to virtual cards, limits, fees, and usage."
+    },
+    {
+      "id": 17,
+      "name": "Direct Debit Disputes",
+      "definition": "Queries about disputing direct debits and unrecognized transactions."
+    },
+    {
+      "id": 18,
+      "name": "Cash Deposit Issues",
+      "definition": "Queries related to cash deposits, delays, pending status, and missing funds."
+    },
+    {
+      "id": 19,
+      "name": "Customer Service Experience",
+      "definition": "Queries expressing dissatisfaction with the service or company."
+    },
+    {
+      "id": 20,
+      "name": "Card Security Concerns",
+      "definition": "Queries about card security, unauthorized use, and compromised cards."
+    },
+    {
+      "id": 21,
+      "name": "Top-Up Verification",
+      "definition": "Queries about the verification process for top-ups."
+    },
+    {
+      "id": 22,
+      "name": "Card Charges and Fees",
+      "definition": "Queries about card fees, extra charges, and transaction fees."
+    },
+    {
+      "id": 23,
+      "name": "Transfer Delays",
+      "definition": "Queries about delays in transfers reaching the recipient."
+    },
+    {
+      "id": 24,
+      "name": "Card Limit Inquiries",
+      "definition": "Queries about card limits, top-up limits, and transaction limits."
+    },
+    {
+      "id": 25,
+      "name": "Card Usage Restrictions",
+      "definition": "Queries about restrictions on card usage, subscriptions, and ATM withdrawals."
+    },
+    {
+      "id": 26,
+      "name": "Account Linking and Updates",
+      "definition": "Queries about linking cards, updating personal details, and changing addresses."
+    },
+    {
+      "id": 27,
+      "name": "Double Charge Resolution",
+      "definition": "Queries about resolving double charges, refunds, and disputed transactions."
+    },
+    {
+      "id": 28,
+      "name": "International Transfer Inquiries",
+      "definition": "Queries about international transfers, fees, and processing times."
+    },
+    {
+      "id": 29,
+      "name": "Card Decline Investigation",
+      "definition": "Queries about investigating declined card payments and transactions."
+    },
+    {
+      "id": 30,
+      "name": "Card Replacement Process",
+      "definition": "Queries about replacing lost, stolen, or expired cards."
+    },
+    {
+      "id": 31,
+      "name": "App Troubleshooting",
+      "definition": "Queries about troubleshooting app access, login issues, and account verification."
+    },
+    {
+      "id": 32,
+      "name": "Card Fee Disputes",
+      "definition": "Queries about disputing card fees, extra charges, and incorrect amounts."
+    },
+    {
+      "id": 33,
+      "name": "Card Activation Assistance",
+      "definition": "Queries about assistance with activating new cards and setting up PINs."
+    },
+    {
+      "id": 34,
+      "name": "Card Delivery Tracking",
+      "definition": "Queries about tracking card deliveries, shipping status, and expected arrival dates."
+    },
+    {
+      "id": 35,
+      "name": "Card Security Verification",
+      "definition": "Queries about verifying card security, identity checks, and proof of funds."
+    },
+    {
+      "id": 36,
+      "name": "Card Usage Authorization",
+      "definition": "Queries about authorizing card usage, top-ups, and transfers."
+    },
+    {
+      "id": 37,
+      "name": "Card Dispute Resolution",
+      "definition": "Queries about resolving card disputes, unauthorized payments, and chargebacks."
+    },
+    {
+      "id": 38,
+      "name": "Card Replacement Request",
+      "definition": "Queries about requesting card replacements, reordering cards, and updating details."
+    },
+    {
+      "id": 39,
+      "name": "Card Transaction Errors",
+      "definition": "Queries about transaction errors, incorrect charges, and pending payments."
+    },
+    {
+      "id": 40,
+      "name": "Card Payment Decline Investigation",
+      "definition": "Queries about investigating declined card payments, errors, and issues."
+    },
+    {
+      "id": 41,
+      "name": "Card Fee Refund Request",
+      "definition": "Queries about requesting fee refunds, charge reversals, and incorrect charges."
+    },
+    {
+      "id": 42,
+      "name": "Card Transaction Dispute Process",
+      "definition": "Queries about the process of disputing card transactions, unauthorized charges, and fraud."
+    },
+    {
+      "id": 43,
+      "name": "Card Security Verification Process",
+      "definition": "Queries about the verification process for card security, identity checks, and proof of funds."
+    },
+    {
+      "id": 44,
+      "name": "Card Usage Authorization Process",
+      "definition": "Queries about the process of authorizing card usage, top-ups, and transfers."
+    },
+    {
+      "id": 45,
+      "name": "Card Dispute Resolution Process",
+      "definition": "Queries about the process of resolving card disputes, unauthorized payments, and chargebacks."
+    },
+    {
+      "id": 46,
+      "name": "Card Replacement Request Process",
+      "definition": "Queries about the process of requesting card replacements, reordering cards, and updating details."
+    },
+    {
+      "id": 47,
+      "name": "Card Transaction Errors Process",
+      "definition": "Queries about the process of transaction errors, incorrect charges, and pending payments."
+    },
+    {
+      "id": 48,
+      "name": "Card Payment Decline Investigation Process",
+      "definition": "Queries about the process of investigating declined card payments, errors, and issues."
+    },
+    {
+      "id": 49,
+      "name": "Card Fee Refund Request Process",
+      "definition": "Queries about the process of requesting fee refunds, charge reversals, and incorrect charges."
+    },
+    {
+      "id": 50,
+      "name": "Card Transaction Dispute Process",
+      "definition": "Queries about the process of disputing card transactions, unauthorized charges, and fraud."
+    }
+  ]
+}

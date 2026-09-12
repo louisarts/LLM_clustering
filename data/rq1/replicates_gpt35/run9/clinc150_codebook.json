@@ -1,0 +1,60 @@
+{
+  "bench": "clinc150",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Time Information",
+      "definition": "Utterances requesting information related to time, dates, or schedules"
+    },
+    {
+      "id": 2,
+      "name": "Location Information",
+      "definition": "Utterances requesting information related to locations or directions"
+    },
+    {
+      "id": 3,
+      "name": "Reminder/Notification",
+      "definition": "Utterances requesting reminders or notifications to be set or provided"
+    },
+    {
+      "id": 4,
+      "name": "Financial Information",
+      "definition": "Utterances requesting information related to finances, such as bills, payments, or accounts"
+    },
+    {
+      "id": 5,
+      "name": "Search/Information Retrieval",
+      "definition": "Utterances requesting general information or search results"
+    },
+    {
+      "id": 6,
+      "name": "Task Execution",
+      "definition": "Utterances requesting tasks to be performed or actions to be taken"
+    },
+    {
+      "id": 7,
+      "name": "Entertainment",
+      "definition": "Utterances requesting entertainment-related actions, such as playing music or providing jokes"
+    },
+    {
+      "id": 8,
+      "name": "Technical Support",
+      "definition": "Utterances requesting technical support or assistance with devices or systems"
+    },
+    {
+      "id": 9,
+      "name": "Personal Information",
+      "definition": "Utterances requesting personal information or preferences to be provided or updated"
+    },
+    {
+      "id": 10,
+      "name": "Communication",
+      "definition": "Utterances requesting communication actions, such as calls, texts, or messages"
+    }
+  ]
+}

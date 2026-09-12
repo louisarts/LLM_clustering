@@ -1,0 +1,254 @@
+{
+  "bench": "reddit_s2s",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Airsoft",
+      "definition": "Discussion of equipment, gameplay, and technical aspects of airsoft replica firearms."
+    },
+    {
+      "id": 2,
+      "name": "Amazon",
+      "definition": "Topics concerning Amazon's retail services, Prime membership, and customer support."
+    },
+    {
+      "id": 3,
+      "name": "Anime",
+      "definition": "Discussion of Japanese animation series, movies, and related media."
+    },
+    {
+      "id": 4,
+      "name": "Apple",
+      "definition": "News, troubleshooting, and discussion regarding Apple hardware, software, and services."
+    },
+    {
+      "id": 5,
+      "name": "Art",
+      "definition": "Sharing and discussion of visual arts, drawing, painting, and artistic techniques."
+    },
+    {
+      "id": 6,
+      "name": "Astronomy",
+      "definition": "Observation and discussion of celestial objects, space phenomena, and the night sky."
+    },
+    {
+      "id": 7,
+      "name": "Austin",
+      "definition": "Local news, events, and discussion for Austin, Texas."
+    },
+    {
+      "id": 8,
+      "name": "Aviation",
+      "definition": "Discussion of aircraft, airlines, piloting, and aviation industry news."
+    },
+    {
+      "id": 9,
+      "name": "Baltimore",
+      "definition": "Local news, events, and discussion for Baltimore, Maryland."
+    },
+    {
+      "id": 10,
+      "name": "Beer",
+      "definition": "Discussion of craft beer, brewing, breweries, and beer culture."
+    },
+    {
+      "id": 11,
+      "name": "Belgium",
+      "definition": "News, politics, and discussion relevant to the country of Belgium."
+    },
+    {
+      "id": 12,
+      "name": "Bicycling",
+      "definition": "Discussion of road and mountain biking, equipment, and cycling culture."
+    },
+    {
+      "id": 13,
+      "name": "Buddhism",
+      "definition": "Discussion of Buddhist philosophy, practice, and texts."
+    },
+    {
+      "id": 14,
+      "name": "Cars",
+      "definition": "Discussion of automobiles, maintenance, and the automotive industry."
+    },
+    {
+      "id": 15,
+      "name": "Cats",
+      "definition": "Sharing pictures, videos, and stories about domestic cats."
+    },
+    {
+      "id": 16,
+      "name": "China",
+      "definition": "News, culture, and discussion regarding the country of China."
+    },
+    {
+      "id": 17,
+      "name": "Coffee",
+      "definition": "Discussion of coffee brewing, beans, equipment, and culture."
+    },
+    {
+      "id": 18,
+      "name": "Coins",
+      "definition": "Numismatics: collecting, identifying, and discussing coins and currency."
+    },
+    {
+      "id": 19,
+      "name": "Dogs",
+      "definition": "Sharing pictures, advice, and stories about domestic dogs."
+    },
+    {
+      "id": 20,
+      "name": "Entrepreneur",
+      "definition": "Discussion of starting and running businesses, startups, and side hustles."
+    },
+    {
+      "id": 21,
+      "name": "Fitness",
+      "definition": "Discussion of physical exercise, nutrition, and training regimens."
+    },
+    {
+      "id": 22,
+      "name": "Frisson",
+      "definition": "Images, videos, and audio meant to induce an aesthetic chill or shiver."
+    },
+    {
+      "id": 23,
+      "name": "Hamsters",
+      "definition": "Discussion and care advice for hamsters."
+    },
+    {
+      "id": 24,
+      "name": "History",
+      "definition": "Discussion of historical events, figures, and eras."
+    },
+    {
+      "id": 25,
+      "name": "Homelabs",
+      "definition": "Discussion of home server setups, networking, and data management."
+    },
+    {
+      "id": 26,
+      "name": "Japan",
+      "definition": "Discussion of Japanese culture, news, and society."
+    },
+    {
+      "id": 27,
+      "name": "LegalAdvice",
+      "definition": "Questions and discussion regarding legal situations and the law."
+    },
+    {
+      "id": 28,
+      "name": "Meditation",
+      "definition": "Discussion of meditation practices, experiences, and techniques."
+    },
+    {
+      "id": 29,
+      "name": "Movies",
+      "definition": "Discussion of films, cinema, and the movie industry."
+    },
+    {
+      "id": 30,
+      "name": "Music",
+      "definition": "Discussion of music genres, artists, composition, and industry news."
+    },
+    {
+      "id": 31,
+      "name": "Philosophy",
+      "definition": "Discussion of philosophical ideas, arguments, and thinkers."
+    },
+    {
+      "id": 32,
+      "name": "Physics",
+      "definition": "Discussion of physical laws, theories, and phenomena."
+    },
+    {
+      "id": 33,
+      "name": "Poetry",
+      "definition": "Sharing and discussion of original and published poems."
+    },
+    {
+      "id": 34,
+      "name": "Portugal",
+      "definition": "News, culture, and discussion relevant to the country of Portugal."
+    },
+    {
+      "id": 35,
+      "name": "Psychology",
+      "definition": "Discussion of psychological research, mental health, and human behavior."
+    },
+    {
+      "id": 36,
+      "name": "Relationships",
+      "definition": "Seeking and providing advice on interpersonal and romantic relationships."
+    },
+    {
+      "id": 37,
+      "name": "Singapore",
+      "definition": "Local news, events, and discussion for Singapore."
+    },
+    {
+      "id": 38,
+      "name": "SkincareAddiction",
+      "definition": "Discussion of skincare routines, products, and skin conditions."
+    },
+    {
+      "id": 39,
+      "name": "Space",
+      "definition": "Discussion of space exploration, spaceflight, and the universe."
+    },
+    {
+      "id": 40,
+      "name": "Spam",
+      "definition": "Unsolicited advertisements, SEO links, and irrelevant promotional content."
+    },
+    {
+      "id": 41,
+      "name": "Tattoos",
+      "definition": "Discussion of tattoo art, designs, and placement."
+    },
+    {
+      "id": 42,
+      "name": "Technology",
+      "definition": "General discussion of consumer technology, gadgets, and tech news."
+    },
+    {
+      "id": 43,
+      "name": "Television",
+      "definition": "Discussion of TV shows, series, and the television industry."
+    },
+    {
+      "id": 44,
+      "name": "Transhumanism",
+      "definition": "Discussion of enhancing the human condition through advanced technology."
+    },
+    {
+      "id": 45,
+      "name": "Travel",
+      "definition": "Discussion of travel destinations, tips, and logistics."
+    },
+    {
+      "id": 46,
+      "name": "University of Texas",
+      "definition": "Discussion relevant to the University of Texas community."
+    },
+    {
+      "id": 47,
+      "name": "Vegetarianism",
+      "definition": "Discussion of vegetarian diet, ethics, and lifestyle."
+    },
+    {
+      "id": 48,
+      "name": "Writing",
+      "definition": "Discussion of the writing craft, prompts, and publishing."
+    },
+    {
+      "id": 49,
+      "name": "Yoga",
+      "definition": "Discussion of yoga practice, poses, and philosophy."
+    }
+  ]
+}

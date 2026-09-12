@@ -1,0 +1,47 @@
+{
+  "bench": "snips",
+  "run": 10,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music Playback",
+      "definition": "User wants to play audio content such as songs, albums, artists, genres, or from a specific platform."
+    },
+    {
+      "id": 2,
+      "name": "Music Playlist Management",
+      "definition": "User wants to add or manage items within a music playlist or album."
+    },
+    {
+      "id": 3,
+      "name": "Content Rating",
+      "definition": "User wants to assign a rating or review to a creative work such as a book, movie, album, essay, or series."
+    },
+    {
+      "id": 4,
+      "name": "Restaurant Reservation",
+      "definition": "User wants to book a table or make a reservation at an eating establishment like a restaurant, bar, or gastropub."
+    },
+    {
+      "id": 5,
+      "name": "Weather Information",
+      "definition": "User wants to retrieve current weather conditions or a forecast for a specific location, time, or weather attribute."
+    },
+    {
+      "id": 6,
+      "name": "Movie TV Show Showtimes",
+      "definition": "User wants to find out the schedule or playing times for movies or TV shows at a cinema or venue."
+    },
+    {
+      "id": 7,
+      "name": "Movie TV Show Playback",
+      "definition": "User wants to watch or stream a specific movie or TV show, or find where it can be watched."
+    },
+    {
+      "id": 8,
+      "name": "Content Search",
+      "definition": "User wants to find information about or locate a specific creative work such as a book, game, painting, movie title, TV show title, trailer, or saga, without the intent to play it, watch it, or get showtimes."
+    }
+  ]
+}

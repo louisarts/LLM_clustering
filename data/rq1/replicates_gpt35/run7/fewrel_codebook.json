@@ -1,0 +1,60 @@
+{
+  "bench": "fewrel",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Location",
+      "definition": "The relation between two places or geographical entities."
+    },
+    {
+      "id": 2,
+      "name": "Person",
+      "definition": "The relation between two individuals."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "The relation between two organizations or groups."
+    },
+    {
+      "id": 4,
+      "name": "Work of Art",
+      "definition": "The relation between two works of art or creative pieces."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "The relation between two events or incidents."
+    },
+    {
+      "id": 6,
+      "name": "Product",
+      "definition": "The relation between two products or commercial items."
+    },
+    {
+      "id": 7,
+      "name": "Animal",
+      "definition": "The relation between two animals or species."
+    },
+    {
+      "id": 8,
+      "name": "Music",
+      "definition": "The relation between two music compositions or musical entities."
+    },
+    {
+      "id": 9,
+      "name": "Film",
+      "definition": "The relation between two films or cinematic works."
+    },
+    {
+      "id": 10,
+      "name": "Literature",
+      "definition": "The relation between two literary works or written pieces."
+    }
+  ]
+}

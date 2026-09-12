@@ -1,0 +1,50 @@
+{
+  "bench": "dbpedia",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "Individual human beings"
+    },
+    {
+      "id": 2,
+      "name": "Organization",
+      "definition": "Companies, governmental organizations, non-profit organizations, etc."
+    },
+    {
+      "id": 3,
+      "name": "Place",
+      "definition": "Locations on Earth"
+    },
+    {
+      "id": 4,
+      "name": "Species",
+      "definition": "Biological organisms"
+    },
+    {
+      "id": 5,
+      "name": "Publication",
+      "definition": "Books, magazines, journals, etc."
+    },
+    {
+      "id": 6,
+      "name": "Film",
+      "definition": "Movies and films"
+    },
+    {
+      "id": 7,
+      "name": "Album",
+      "definition": "Musical albums"
+    },
+    {
+      "id": 8,
+      "name": "School",
+      "definition": "Educational institutions"
+    }
+  ]
+}

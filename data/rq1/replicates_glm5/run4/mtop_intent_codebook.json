@@ -1,0 +1,124 @@
+{
+  "bench": "mtop_intent",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm_Set",
+      "definition": "Create a new alarm for a specific time or relative duration."
+    },
+    {
+      "id": 2,
+      "name": "Alarm_Manage",
+      "definition": "View, modify, or delete existing alarms."
+    },
+    {
+      "id": 3,
+      "name": "Calendar_Event",
+      "definition": "Search for or retrieve scheduled events and calendar entries."
+    },
+    {
+      "id": 4,
+      "name": "Call_Disconnect",
+      "definition": "End or decline the current phone or video call."
+    },
+    {
+      "id": 5,
+      "name": "Call_Initiate",
+      "definition": "Start a new phone call, video call, or call a specific contact."
+    },
+    {
+      "id": 6,
+      "name": "Call_Manage",
+      "definition": "Modify an ongoing call by adding, removing, or adjusting participants."
+    },
+    {
+      "id": 7,
+      "name": "Call_Status",
+      "definition": "Check call history, logs, or answer incoming calls."
+    },
+    {
+      "id": 8,
+      "name": "Cooking",
+      "definition": "Request recipes, cooking instructions, or food preparation details."
+    },
+    {
+      "id": 9,
+      "name": "Event_Finder",
+      "definition": "Search for local events, concerts, or activities happening in a specific area."
+    },
+    {
+      "id": 10,
+      "name": "Messaging",
+      "definition": "Send, retrieve, or reply to text or video messages."
+    },
+    {
+      "id": 11,
+      "name": "Music_Discovery",
+      "definition": "Identify the current song, artist, or album playing."
+    },
+    {
+      "id": 12,
+      "name": "Music_Playback",
+      "definition": "Control music playback such as playing, skipping, shuffling, or repeating songs."
+    },
+    {
+      "id": 13,
+      "name": "News",
+      "definition": "Request news headlines, updates, or articles on specific topics."
+    },
+    {
+      "id": 14,
+      "name": "Reminder_Set",
+      "definition": "Create a new reminder for a specific task or time."
+    },
+    {
+      "id": 15,
+      "name": "Reminder_Manage",
+      "definition": "View, modify, or delete existing reminders."
+    },
+    {
+      "id": 16,
+      "name": "Settings",
+      "definition": "Change device settings, preferences, or default applications."
+    },
+    {
+      "id": 17,
+      "name": "Timer",
+      "definition": "Set, check, modify, or control a countdown timer."
+    },
+    {
+      "id": 18,
+      "name": "Weather",
+      "definition": "Request weather forecasts, temperatures, or atmospheric conditions."
+    },
+    {
+      "id": 19,
+      "name": "Contact_Info",
+      "definition": "Query personal contacts for information like location, workplace, or relationships."
+    },
+    {
+      "id": 20,
+      "name": "General_Knowledge",
+      "definition": "Ask general factual questions or how-to queries not covered by other categories."
+    },
+    {
+      "id": 21,
+      "name": "Social_Status",
+      "definition": "Check the online status or availability of contacts."
+    },
+    {
+      "id": 22,
+      "name": "Time_Date",
+      "definition": "Request specific information regarding times for sunrise, sunset, or dawn."
+    },
+    {
+      "id": 23,
+      "name": "Session_End",
+      "definition": "Terminate the current interaction or conversation with the assistant."
+    }
+  ]
+}

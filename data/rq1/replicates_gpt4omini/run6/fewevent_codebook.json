@@ -1,0 +1,260 @@
+{
+  "bench": "fewevent",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Wife",
+      "definition": "Denotes a marital relationship or title of a female spouse."
+    },
+    {
+      "id": 2,
+      "name": "Husband",
+      "definition": "Denotes a marital relationship or title of a male spouse."
+    },
+    {
+      "id": 3,
+      "name": "Soldier",
+      "definition": "Denotes a member of the military or armed forces."
+    },
+    {
+      "id": 4,
+      "name": "Musician",
+      "definition": "Denotes a person who plays a musical instrument or is involved in music."
+    },
+    {
+      "id": 5,
+      "name": "Singer",
+      "definition": "Denotes a person who sings, especially professionally."
+    },
+    {
+      "id": 6,
+      "name": "Professor",
+      "definition": "Denotes a teacher of the highest rank in a college or university."
+    },
+    {
+      "id": 7,
+      "name": "Director",
+      "definition": "Denotes a person who is in charge of an organization or activity."
+    },
+    {
+      "id": 8,
+      "name": "Chairman",
+      "definition": "Denotes the person in charge of a meeting or organization."
+    },
+    {
+      "id": 9,
+      "name": "Graduate",
+      "definition": "Denotes a person who has completed a degree or course of study."
+    },
+    {
+      "id": 10,
+      "name": "Winner",
+      "definition": "Denotes a person who has won a competition or award."
+    },
+    {
+      "id": 11,
+      "name": "Medal",
+      "definition": "Denotes an award or honor, typically in the form of a metal disc."
+    },
+    {
+      "id": 12,
+      "name": "Competition",
+      "definition": "Denotes an event in which individuals or teams compete against each other."
+    },
+    {
+      "id": 13,
+      "name": "Protests",
+      "definition": "Denotes a public demonstration expressing strong objection to something."
+    },
+    {
+      "id": 14,
+      "name": "Command",
+      "definition": "Denotes the authority to direct or control."
+    },
+    {
+      "id": 15,
+      "name": "Instruction",
+      "definition": "Denotes the act of teaching or providing guidance."
+    },
+    {
+      "id": 16,
+      "name": "Work",
+      "definition": "Denotes the act of performing tasks or duties."
+    },
+    {
+      "id": 17,
+      "name": "Education",
+      "definition": "Denotes the process of receiving or giving systematic instruction."
+    },
+    {
+      "id": 18,
+      "name": "Live",
+      "definition": "Denotes a performance or event occurring in real-time."
+    },
+    {
+      "id": 19,
+      "name": "Arrived",
+      "definition": "Denotes the act of reaching a destination."
+    },
+    {
+      "id": 20,
+      "name": "Make",
+      "definition": "Denotes the act of creating or producing something."
+    },
+    {
+      "id": 21,
+      "name": "Drive",
+      "definition": "Denotes the act of operating a vehicle."
+    },
+    {
+      "id": 22,
+      "name": "Compete",
+      "definition": "Denotes the act of striving to gain or win something by defeating others."
+    },
+    {
+      "id": 23,
+      "name": "Sign",
+      "definition": "Denotes the act of writing one's name or marking a document."
+    },
+    {
+      "id": 24,
+      "name": "Call",
+      "definition": "Denotes the act of communicating with someone by phone."
+    },
+    {
+      "id": 25,
+      "name": "Statements",
+      "definition": "Denotes a formal account or declaration."
+    },
+    {
+      "id": 26,
+      "name": "Murderers",
+      "definition": "Denotes individuals who have committed murder."
+    },
+    {
+      "id": 27,
+      "name": "Killing",
+      "definition": "Denotes the act of causing death."
+    },
+    {
+      "id": 28,
+      "name": "Donated",
+      "definition": "Denotes the act of giving something, especially for charitable purposes."
+    },
+    {
+      "id": 29,
+      "name": "Strikes",
+      "definition": "Denotes a work stoppage initiated by employees to express grievances."
+    },
+    {
+      "id": 30,
+      "name": "Fighting",
+      "definition": "Denotes engaging in a violent confrontation."
+    },
+    {
+      "id": 31,
+      "name": "Appeared",
+      "definition": "Denotes the act of coming into sight or being visible."
+    },
+    {
+      "id": 32,
+      "name": "Head",
+      "definition": "Denotes the leader or person in charge of an organization."
+    },
+    {
+      "id": 33,
+      "name": "Running",
+      "definition": "Denotes the act of moving swiftly on foot."
+    },
+    {
+      "id": 34,
+      "name": "Hired",
+      "definition": "Denotes the act of employing someone for work."
+    },
+    {
+      "id": 35,
+      "name": "Driving",
+      "definition": "Denotes the act of operating a vehicle."
+    },
+    {
+      "id": 36,
+      "name": "Moving",
+      "definition": "Denotes the act of changing position or location."
+    },
+    {
+      "id": 37,
+      "name": "Teaching",
+      "definition": "Denotes the act of imparting knowledge or skills."
+    },
+    {
+      "id": 38,
+      "name": "Resigned",
+      "definition": "Denotes the act of voluntarily leaving a job or position."
+    },
+    {
+      "id": 39,
+      "name": "Appearing",
+      "definition": "Denotes the act of coming into view or being seen."
+    },
+    {
+      "id": 40,
+      "name": "Companions",
+      "definition": "Denotes individuals who accompany or associate with another."
+    },
+    {
+      "id": 41,
+      "name": "Statements",
+      "definition": "Denotes a formal account or declaration."
+    },
+    {
+      "id": 42,
+      "name": "Orders",
+      "definition": "Denotes commands or directives given by an authority."
+    },
+    {
+      "id": 43,
+      "name": "Orders",
+      "definition": "Denotes commands or directives given by an authority."
+    },
+    {
+      "id": 44,
+      "name": "Demonstrations",
+      "definition": "Denotes public displays of group opinion or protest."
+    },
+    {
+      "id": 45,
+      "name": "Statements",
+      "definition": "Denotes a formal account or declaration."
+    },
+    {
+      "id": 46,
+      "name": "Statements",
+      "definition": "Denotes a formal account or declaration."
+    },
+    {
+      "id": 47,
+      "name": "Statements",
+      "definition": "Denotes a formal account or declaration."
+    },
+    {
+      "id": 48,
+      "name": "Statements",
+      "definition": "Denotes a formal account or declaration."
+    },
+    {
+      "id": 49,
+      "name": "Statements",
+      "definition": "Denotes a formal account or declaration."
+    },
+    {
+      "id": 50,
+      "name": "Statements",
+      "definition": "Denotes a formal account or declaration."
+    }
+  ]
+}

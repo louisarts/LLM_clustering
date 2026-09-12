@@ -1,0 +1,92 @@
+[
+ {
+  "id": 1,
+  "name": "Transportation",
+  "definition": "Requesting or managing rides, taxis, or travel bookings."
+ },
+ {
+  "id": 2,
+  "name": "Calendar_Scheduling",
+  "definition": "Creating, querying, or modifying calendar events, meetings, and schedules."
+ },
+ {
+  "id": 3,
+  "name": "News",
+  "definition": "Requesting current news, headlines, or updates on specific topics."
+ },
+ {
+  "id": 4,
+  "name": "Reminders",
+  "definition": "Setting, managing, or querying reminders and alerts."
+ },
+ {
+  "id": 5,
+  "name": "Weather",
+  "definition": "Querying current or future weather conditions and forecasts."
+ },
+ {
+  "id": 6,
+  "name": "Social_Media",
+  "definition": "Posting, viewing, or interacting with content on social media platforms."
+ },
+ {
+  "id": 7,
+  "name": "Email",
+  "definition": "Reading, composing, checking, or managing email communications."
+ },
+ {
+  "id": 8,
+  "name": "Local_Businesses",
+  "definition": "Finding nearby shops, businesses, or points of interest."
+ },
+ {
+  "id": 9,
+  "name": "Audio_Playback",
+  "definition": "Controlling music, radio, podcasts, or other audio media playback."
+ },
+ {
+  "id": 10,
+  "name": "Alarms",
+  "definition": "Setting, checking, or managing wake-up alarms."
+ },
+ {
+  "id": 11,
+  "name": "Sports",
+  "definition": "Querying sports scores, schedules, or game times."
+ },
+ {
+  "id": 12,
+  "name": "Time",
+  "definition": "Querying the current time or dates."
+ },
+ {
+  "id": 13,
+  "name": "Lists",
+  "definition": "Creating, adding to, or managing shopping or to-do lists."
+ },
+ {
+  "id": 14,
+  "name": "TV_Movies",
+  "definition": "Querying information about television shows or movies."
+ },
+ {
+  "id": 15,
+  "name": "Finance",
+  "definition": "Querying financial information such as currency exchange rates or stock prices."
+ },
+ {
+  "id": 16,
+  "name": "General_Knowledge",
+  "definition": "Asking factual questions or seeking information about people, places, or things."
+ },
+ {
+  "id": 17,
+  "name": "Smart_Home",
+  "definition": "Controlling smart home devices like lights, thermostats, or appliances."
+ },
+ {
+  "id": 18,
+  "name": "Entertainment_Games",
+  "definition": "Playing games or requesting jokes and entertainment."
+ }
+]

@@ -1,0 +1,60 @@
+{
+  "bench": "massive_domain",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Restaurant Recommendations",
+      "definition": "Utterances related to asking for recommendations for restaurants or food establishments."
+    },
+    {
+      "id": 2,
+      "name": "Alarm and Reminder Management",
+      "definition": "Utterances related to setting, removing, or managing alarms and reminders."
+    },
+    {
+      "id": 3,
+      "name": "Information Inquiry",
+      "definition": "Utterances related to asking for information such as news, weather, definitions, or general knowledge."
+    },
+    {
+      "id": 4,
+      "name": "Music and Podcast Playback",
+      "definition": "Utterances related to playing music, songs, playlists, or podcasts."
+    },
+    {
+      "id": 5,
+      "name": "Calendar and Event Management",
+      "definition": "Utterances related to scheduling, modifying, or managing calendar events and appointments."
+    },
+    {
+      "id": 6,
+      "name": "Weather Inquiry",
+      "definition": "Utterances related to asking for current or forecasted weather information."
+    },
+    {
+      "id": 7,
+      "name": "Lighting and Home Automation Control",
+      "definition": "Utterances related to controlling lights, smart home devices, or home automation systems."
+    },
+    {
+      "id": 8,
+      "name": "Email and Communication Management",
+      "definition": "Utterances related to sending, receiving, or managing emails or communication tasks."
+    },
+    {
+      "id": 9,
+      "name": "Travel and Transportation Assistance",
+      "definition": "Utterances related to booking tickets, ordering transportation services, or inquiring about travel-related information."
+    },
+    {
+      "id": 10,
+      "name": "Social Media and Online Interaction",
+      "definition": "Utterances related to posting, interacting, or engaging with social media platforms or online services."
+    }
+  ]
+}

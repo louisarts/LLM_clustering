@@ -1,0 +1,260 @@
+{
+  "bench": "fewevent",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "medal",
+      "definition": "An award or decoration given for achievement in a competition or event."
+    },
+    {
+      "id": 2,
+      "name": "purchase",
+      "definition": "The act of buying or acquiring something."
+    },
+    {
+      "id": 3,
+      "name": "violence",
+      "definition": "The use of physical force to harm someone or something."
+    },
+    {
+      "id": 4,
+      "name": "marriage",
+      "definition": "The legally or formally recognized union of two people as partners in a personal relationship."
+    },
+    {
+      "id": 5,
+      "name": "military service",
+      "definition": "Serving in the armed forces."
+    },
+    {
+      "id": 6,
+      "name": "partnership",
+      "definition": "A relationship between individuals or groups that is characterized by mutual cooperation and responsibility."
+    },
+    {
+      "id": 7,
+      "name": "work",
+      "definition": "The act of performing a task or job, often for payment."
+    },
+    {
+      "id": 8,
+      "name": "education",
+      "definition": "The process of receiving or giving systematic instruction, especially at a school or university."
+    },
+    {
+      "id": 9,
+      "name": "position",
+      "definition": "A role or job held by someone, often within an organization."
+    },
+    {
+      "id": 10,
+      "name": "film",
+      "definition": "A motion picture or movie."
+    },
+    {
+      "id": 11,
+      "name": "command",
+      "definition": "The act of leading or directing a group, especially in a military context."
+    },
+    {
+      "id": 12,
+      "name": "membership",
+      "definition": "The state of being a member of a group or organization."
+    },
+    {
+      "id": 13,
+      "name": "award",
+      "definition": "A prize or other mark of recognition given in honor of an achievement."
+    },
+    {
+      "id": 14,
+      "name": "leadership",
+      "definition": "The action of leading a group of people or an organization."
+    },
+    {
+      "id": 15,
+      "name": "study",
+      "definition": "The act of learning or examining a subject in detail."
+    },
+    {
+      "id": 16,
+      "name": "residence",
+      "definition": "The place where someone lives."
+    },
+    {
+      "id": 17,
+      "name": "transportation",
+      "definition": "The act of moving people or goods from one place to another."
+    },
+    {
+      "id": 18,
+      "name": "retirement",
+      "definition": "The action of leaving one's job and ceasing to work."
+    },
+    {
+      "id": 19,
+      "name": "employment",
+      "definition": "The state of having paid work."
+    },
+    {
+      "id": 20,
+      "name": "release",
+      "definition": "The act of making something available to the public."
+    },
+    {
+      "id": 21,
+      "name": "music",
+      "definition": "Vocal or instrumental sounds combined to produce harmony and expression of emotion."
+    },
+    {
+      "id": 22,
+      "name": "sailing",
+      "definition": "The sport or activity of traveling in a boat with sails."
+    },
+    {
+      "id": 23,
+      "name": "coaching",
+      "definition": "The act of training or instructing a team or individual."
+    },
+    {
+      "id": 24,
+      "name": "presidency",
+      "definition": "The office or position of being the president of a country or organization."
+    },
+    {
+      "id": 25,
+      "name": "graduation",
+      "definition": "The act of receiving a degree or diploma after completing a course of study."
+    },
+    {
+      "id": 26,
+      "name": "competition",
+      "definition": "An event in which people compete to win."
+    },
+    {
+      "id": 27,
+      "name": "command",
+      "definition": "The act of leading or directing a group, especially in a military context."
+    },
+    {
+      "id": 28,
+      "name": "residence",
+      "definition": "The place where someone lives."
+    },
+    {
+      "id": 29,
+      "name": "transportation",
+      "definition": "The act of moving people or goods from one place to another."
+    },
+    {
+      "id": 30,
+      "name": "retirement",
+      "definition": "The action of leaving one's job and ceasing to work."
+    },
+    {
+      "id": 31,
+      "name": "employment",
+      "definition": "The state of having paid work."
+    },
+    {
+      "id": 32,
+      "name": "release",
+      "definition": "The act of making something available to the public."
+    },
+    {
+      "id": 33,
+      "name": "music",
+      "definition": "Vocal or instrumental sounds combined to produce harmony and expression of emotion."
+    },
+    {
+      "id": 34,
+      "name": "sailing",
+      "definition": "The sport or activity of traveling in a boat with sails."
+    },
+    {
+      "id": 35,
+      "name": "coaching",
+      "definition": "The act of training or instructing a team or individual."
+    },
+    {
+      "id": 36,
+      "name": "presidency",
+      "definition": "The office or position of being the president of a country or organization."
+    },
+    {
+      "id": 37,
+      "name": "graduation",
+      "definition": "The act of receiving a degree or diploma after completing a course of study."
+    },
+    {
+      "id": 38,
+      "name": "competition",
+      "definition": "An event in which people compete to win."
+    },
+    {
+      "id": 39,
+      "name": "command",
+      "definition": "The act of leading or directing a group, especially in a military context."
+    },
+    {
+      "id": 40,
+      "name": "residence",
+      "definition": "The place where someone lives."
+    },
+    {
+      "id": 41,
+      "name": "transportation",
+      "definition": "The act of moving people or goods from one place to another."
+    },
+    {
+      "id": 42,
+      "name": "retirement",
+      "definition": "The action of leaving one's job and ceasing to work."
+    },
+    {
+      "id": 43,
+      "name": "employment",
+      "definition": "The state of having paid work."
+    },
+    {
+      "id": 44,
+      "name": "release",
+      "definition": "The act of making something available to the public."
+    },
+    {
+      "id": 45,
+      "name": "music",
+      "definition": "Vocal or instrumental sounds combined to produce harmony and expression of emotion."
+    },
+    {
+      "id": 46,
+      "name": "sailing",
+      "definition": "The sport or activity of traveling in a boat with sails."
+    },
+    {
+      "id": 47,
+      "name": "coaching",
+      "definition": "The act of training or instructing a team or individual."
+    },
+    {
+      "id": 48,
+      "name": "presidency",
+      "definition": "The office or position of being the president of a country or organization."
+    },
+    {
+      "id": 49,
+      "name": "graduation",
+      "definition": "The act of receiving a degree or diploma after completing a course of study."
+    },
+    {
+      "id": 50,
+      "name": "competition",
+      "definition": "An event in which people compete to win."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "bench": "clinc150",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Management",
+      "definition": "Requests related to managing bank or financial accounts."
+    },
+    {
+      "id": 2,
+      "name": "Travel Assistance",
+      "definition": "Inquiries and requests related to travel plans, alerts, and reservations."
+    },
+    {
+      "id": 3,
+      "name": "Recipe and Cooking",
+      "definition": "Requests for recipes, cooking instructions, and nutritional information."
+    },
+    {
+      "id": 4,
+      "name": "Health and Wellness",
+      "definition": "Questions and requests related to health, medical advice, and wellness."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment and Media",
+      "definition": "Requests for information about movies, music, and other forms of entertainment."
+    },
+    {
+      "id": 6,
+      "name": "Task Management",
+      "definition": "Requests to manage tasks, reminders, and to-do lists."
+    },
+    {
+      "id": 7,
+      "name": "Shopping and Purchases",
+      "definition": "Inquiries and requests related to shopping, product information, and orders."
+    },
+    {
+      "id": 8,
+      "name": "Job and Career Assistance",
+      "definition": "Requests for job searching, career advice, and professional development."
+    },
+    {
+      "id": 9,
+      "name": "Technical Support",
+      "definition": "Requests for help with technology, devices, and software."
+    },
+    {
+      "id": 10,
+      "name": "Personal Information Management",
+      "definition": "Requests related to personal data, settings, and preferences."
+    },
+    {
+      "id": 11,
+      "name": "Financial Information",
+      "definition": "Inquiries about financial products, rates, and transactions."
+    },
+    {
+      "id": 12,
+      "name": "Social Interaction",
+      "definition": "Requests for jokes, trivia, and casual conversation."
+    },
+    {
+      "id": 13,
+      "name": "Home and Lifestyle",
+      "definition": "Requests related to home management, chores, and lifestyle choices."
+    },
+    {
+      "id": 14,
+      "name": "Education and Learning",
+      "definition": "Requests for information, definitions, and educational resources."
+    },
+    {
+      "id": 15,
+      "name": "Event Management",
+      "definition": "Requests to schedule, confirm, or cancel events and appointments."
+    }
+  ]
+}

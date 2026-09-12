@@ -1,0 +1,110 @@
+{
+  "bench": "fewrel",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Location",
+      "definition": "The relation between two places or geographical entities."
+    },
+    {
+      "id": 2,
+      "name": "Person - Profession",
+      "definition": "The relation between a person and their profession or occupation."
+    },
+    {
+      "id": 3,
+      "name": "Band - Album",
+      "definition": "The relation between a musical band and one of their albums."
+    },
+    {
+      "id": 4,
+      "name": "Event - Year",
+      "definition": "The relation between an event and the year it occurred."
+    },
+    {
+      "id": 5,
+      "name": "Organization - Location",
+      "definition": "The relation between an organization and its location."
+    },
+    {
+      "id": 6,
+      "name": "Person - Nationality",
+      "definition": "The relation between a person and their nationality."
+    },
+    {
+      "id": 7,
+      "name": "Event - Location",
+      "definition": "The relation between an event and the location where it took place."
+    },
+    {
+      "id": 8,
+      "name": "Person - Family",
+      "definition": "The relation between a person and their family members."
+    },
+    {
+      "id": 9,
+      "name": "Organization - Product",
+      "definition": "The relation between an organization and one of its products."
+    },
+    {
+      "id": 10,
+      "name": "Organization - Industry",
+      "definition": "The relation between an organization and the industry it operates in."
+    },
+    {
+      "id": 11,
+      "name": "Person - Event",
+      "definition": "The relation between a person and an event they were involved in."
+    },
+    {
+      "id": 12,
+      "name": "Organization - Event",
+      "definition": "The relation between an organization and an event it participated in."
+    },
+    {
+      "id": 13,
+      "name": "Person - Birthplace",
+      "definition": "The relation between a person and the place where they were born."
+    },
+    {
+      "id": 14,
+      "name": "Organization - Founder",
+      "definition": "The relation between an organization and its founder."
+    },
+    {
+      "id": 15,
+      "name": "Person - Award",
+      "definition": "The relation between a person and an award they received."
+    },
+    {
+      "id": 16,
+      "name": "Organization - Headquarters",
+      "definition": "The relation between an organization and the location of its headquarters."
+    },
+    {
+      "id": 17,
+      "name": "Person - Residence",
+      "definition": "The relation between a person and their place of residence."
+    },
+    {
+      "id": 18,
+      "name": "Organization - Division",
+      "definition": "The relation between an organization and one of its divisions."
+    },
+    {
+      "id": 19,
+      "name": "Person - Education",
+      "definition": "The relation between a person and their educational institution."
+    },
+    {
+      "id": 20,
+      "name": "Organization - Acquisition",
+      "definition": "The relation between an organization and another entity it acquired."
+    }
+  ]
+}

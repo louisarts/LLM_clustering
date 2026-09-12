@@ -1,0 +1,97 @@
+{
+  "bench": "fewevent",
+  "run": 8,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Profession or Role",
+      "definition": "A person's occupation, title, or designated function."
+    },
+    {
+      "id": 2,
+      "name": "Activity or Occupation",
+      "definition": "An action or period of engagement in a task, study, or work."
+    },
+    {
+      "id": 3,
+      "name": "Achievement or Outcome",
+      "definition": "The result of an effort, competition, or process, often indicating success or recognition."
+    },
+    {
+      "id": 4,
+      "name": "Movement or Change of Position",
+      "definition": "An act of changing location or physical arrangement."
+    },
+    {
+      "id": 5,
+      "name": "Creative Work or Product",
+      "definition": "An artistic or intellectual creation."
+    },
+    {
+      "id": 6,
+      "name": "Relationship or Association",
+      "definition": "A connection or bond between people or entities."
+    },
+    {
+      "id": 7,
+      "name": "Communication Event",
+      "definition": "An act of conveying information or expressing thoughts."
+    },
+    {
+      "id": 8,
+      "name": "Legal or Administrative Event",
+      "definition": "An action or process related to law, government, or formal procedures."
+    },
+    {
+      "id": 9,
+      "name": "Life Event",
+      "definition": "A significant occurrence in a person's life."
+    },
+    {
+      "id": 10,
+      "name": "Conflict or Violence",
+      "definition": "An act of aggression, dispute, or physical harm."
+    },
+    {
+      "id": 11,
+      "name": "Location or Residence",
+      "definition": "A specific place, building, or state of dwelling."
+    },
+    {
+      "id": 12,
+      "name": "State or Condition",
+      "definition": "The particular way someone or something is."
+    },
+    {
+      "id": 13,
+      "name": "Leadership or Control",
+      "definition": "The act of guiding, directing, or exercising authority over something or someone."
+    },
+    {
+      "id": 14,
+      "name": "Political Event",
+      "definition": "An occurrence related to politics or governance."
+    },
+    {
+      "id": 15,
+      "name": "Group or Entity",
+      "definition": "A collection of individuals or an organized body."
+    },
+    {
+      "id": 16,
+      "name": "Abstract Concept",
+      "definition": "An idea or notion not associated with any specific object."
+    },
+    {
+      "id": 17,
+      "name": "Political Entity",
+      "definition": "A governmental or political body or jurisdiction."
+    },
+    {
+      "id": 18,
+      "name": "Performance Event",
+      "definition": "A public presentation or display."
+    }
+  ]
+}

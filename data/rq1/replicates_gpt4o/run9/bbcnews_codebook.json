@@ -1,0 +1,75 @@
+{
+  "bench": "bbcnews",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics",
+      "definition": "Articles related to political events, campaigns, and government actions."
+    },
+    {
+      "id": 2,
+      "name": "Economy",
+      "definition": "Articles discussing economic conditions, financial markets, and business activities."
+    },
+    {
+      "id": 3,
+      "name": "Arts and Culture",
+      "definition": "Articles covering topics related to art, music, film, and cultural events."
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "definition": "Articles about sporting events, athletes, and sports organizations."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "Articles focused on technological advancements, companies, and digital trends."
+    },
+    {
+      "id": 6,
+      "name": "Business",
+      "definition": "Articles about corporate activities, mergers, acquisitions, and market strategies."
+    },
+    {
+      "id": 7,
+      "name": "Entertainment",
+      "definition": "Articles related to celebrities, television, movies, and entertainment industry news."
+    },
+    {
+      "id": 8,
+      "name": "Science and Health",
+      "definition": "Articles discussing scientific discoveries, health issues, and medical research."
+    },
+    {
+      "id": 9,
+      "name": "Crime and Law",
+      "definition": "Articles about criminal activities, legal cases, and law enforcement."
+    },
+    {
+      "id": 10,
+      "name": "International Relations",
+      "definition": "Articles covering diplomatic relations, international conflicts, and global cooperation."
+    },
+    {
+      "id": 11,
+      "name": "Environment",
+      "definition": "Articles related to environmental issues, climate change, and conservation efforts."
+    },
+    {
+      "id": 12,
+      "name": "Education",
+      "definition": "Articles about educational policies, institutions, and academic achievements."
+    },
+    {
+      "id": 13,
+      "name": "Social Issues",
+      "definition": "Articles discussing societal challenges, cultural dynamics, and community matters."
+    }
+  ]
+}

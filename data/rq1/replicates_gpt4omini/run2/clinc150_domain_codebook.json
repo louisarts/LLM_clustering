@@ -1,0 +1,85 @@
+{
+  "bench": "clinc150_domain",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Automotive",
+      "definition": "Inquiries and requests related to vehicles, maintenance, and driving."
+    },
+    {
+      "id": 2,
+      "name": "Finance",
+      "definition": "Questions and requests regarding banking, credit cards, loans, and financial transactions."
+    },
+    {
+      "id": 3,
+      "name": "Travel",
+      "definition": "Requests and inquiries related to travel arrangements, reservations, and visas."
+    },
+    {
+      "id": 4,
+      "name": "Food and Cooking",
+      "definition": "Questions and requests about recipes, cooking times, and food-related inquiries."
+    },
+    {
+      "id": 5,
+      "name": "Health and Insurance",
+      "definition": "Inquiries related to health plans, insurance policies, and medical information."
+    },
+    {
+      "id": 6,
+      "name": "Entertainment",
+      "definition": "Requests for jokes, trivia, and general entertainment inquiries."
+    },
+    {
+      "id": 7,
+      "name": "Technology",
+      "definition": "Questions and requests related to devices, apps, and technical assistance."
+    },
+    {
+      "id": 8,
+      "name": "Time and Date",
+      "definition": "Inquiries about current time, dates, and scheduling."
+    },
+    {
+      "id": 9,
+      "name": "Reservations",
+      "definition": "Requests for making, modifying, or canceling reservations."
+    },
+    {
+      "id": 10,
+      "name": "Location Services",
+      "definition": "Requests for location tracking, sharing, and navigation assistance."
+    },
+    {
+      "id": 11,
+      "name": "Shopping and Lists",
+      "definition": "Inquiries related to shopping lists, grocery items, and purchases."
+    },
+    {
+      "id": 12,
+      "name": "Personalization",
+      "definition": "Requests for changing settings, names, and personal preferences."
+    },
+    {
+      "id": 13,
+      "name": "General Knowledge",
+      "definition": "Questions seeking information or definitions on various topics."
+    },
+    {
+      "id": 14,
+      "name": "Communication",
+      "definition": "Requests for sending messages, making calls, or communicating with others."
+    },
+    {
+      "id": 15,
+      "name": "Utilities",
+      "definition": "Inquiries related to utility bills, payments, and account management."
+    }
+  ]
+}

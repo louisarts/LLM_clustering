@@ -1,0 +1,107 @@
+[
+ {
+  "id": 1,
+  "name": "Person",
+  "definition": "An individual human being."
+ },
+ {
+  "id": 2,
+  "name": "Geographical Entity",
+  "definition": "A natural or man-made place or landform, including countries, cities, regions, landmarks, bodies of water, and natural formations."
+ },
+ {
+  "id": 3,
+  "name": "Organization",
+  "definition": "A group of people with a particular purpose, such as companies, government agencies, political parties, sports leagues, educational institutions, religious bodies, military units, or legislative bodies."
+ },
+ {
+  "id": 4,
+  "name": "Sports Team",
+  "definition": "A group of athletes competing together under a common name."
+ },
+ {
+  "id": 5,
+  "name": "Vehicle",
+  "definition": "A specific type, model, or named instance of a conveyance."
+ },
+ {
+  "id": 6,
+  "name": "Creative Work/Publication",
+  "definition": "A book, article, film, song, or other artistic or informational work."
+ },
+ {
+  "id": 7,
+  "name": "Event",
+  "definition": "A specific occurrence or happening, such as a historical conflict, sports competition, or ceremony."
+ },
+ {
+  "id": 8,
+  "name": "Chemical/Biological Entity",
+  "definition": "A specific chemical substance, biological molecule, or scientific classification group for living organisms."
+ },
+ {
+  "id": 9,
+  "name": "Award/Title",
+  "definition": "A prize, honor, or formal designation given for achievement."
+ },
+ {
+  "id": 10,
+  "name": "Infrastructure",
+  "definition": "Man-made structures that support a system or area, such as roads, bridges, canals, or railway lines."
+ },
+ {
+  "id": 11,
+  "name": "Group of People",
+  "definition": "A collection of individuals sharing common characteristics, affiliations, or purposes, including demographic, social, or religious groups."
+ },
+ {
+  "id": 12,
+  "name": "Language",
+  "definition": "A system of communication."
+ },
+ {
+  "id": 13,
+  "name": "Product/Brand",
+  "definition": "A commercial product, brand name, or branded system."
+ },
+ {
+  "id": 14,
+  "name": "Currency/Symbol",
+  "definition": "A system of money or a symbol representing a unit of money."
+ },
+ {
+  "id": 15,
+  "name": "Building/Structure",
+  "definition": "A specific man-made construction, such as a hotel, theater, arena, hospital, or fortress."
+ },
+ {
+  "id": 16,
+  "name": "Disease",
+  "definition": "A particular disorder of structure or function in an organism."
+ },
+ {
+  "id": 17,
+  "name": "Abstract Concept/Term",
+  "definition": "An idea, principle, metric, or descriptive phrase rather than a concrete entity."
+ },
+ {
+  "id": 18,
+  "name": "Weapon Model",
+  "definition": "A specific type or model of a weapon."
+ },
+ {
+  "id": 19,
+  "name": "Political Concept/Affiliation",
+  "definition": "A political belief system, party membership, or descriptive term related to politics."
+ },
+ {
+  "id": 20,
+  "name": "Nickname",
+  "definition": "A familiar or humorous name given to a person or thing."
+ },
+ {
+  "id": 21,
+  "name": "Fictional Entity",
+  "definition": "A character, place, or object that exists only in a work of fiction."
+ }
+]

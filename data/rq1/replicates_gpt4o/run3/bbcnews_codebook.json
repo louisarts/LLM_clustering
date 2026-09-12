@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Economy",
+      "definition": "Articles discussing economic growth, trade, and financial markets."
+    },
+    {
+      "id": 2,
+      "name": "Sports",
+      "definition": "Articles covering sports events, teams, and athletes."
+    },
+    {
+      "id": 3,
+      "name": "Music and Entertainment",
+      "definition": "Articles about music, films, awards, and entertainment industry news."
+    },
+    {
+      "id": 4,
+      "name": "Politics",
+      "definition": "Articles related to political events, elections, and government policies."
+    },
+    {
+      "id": 5,
+      "name": "Business",
+      "definition": "Articles about corporate news, mergers, acquisitions, and business strategies."
+    },
+    {
+      "id": 6,
+      "name": "Technology",
+      "definition": "Articles discussing technological advancements, gadgets, and digital trends."
+    },
+    {
+      "id": 7,
+      "name": "Health",
+      "definition": "Articles related to health issues, medical research, and public health policies."
+    },
+    {
+      "id": 8,
+      "name": "Education",
+      "definition": "Articles about educational policies, schools, and academic achievements."
+    },
+    {
+      "id": 9,
+      "name": "Crime and Legal",
+      "definition": "Articles covering crime incidents, legal cases, and law enforcement."
+    },
+    {
+      "id": 10,
+      "name": "Social Issues",
+      "definition": "Articles discussing social challenges, community issues, and cultural topics."
+    },
+    {
+      "id": 11,
+      "name": "Science and Environment",
+      "definition": "Articles about scientific discoveries, environmental issues, and climate change."
+    },
+    {
+      "id": 12,
+      "name": "International Relations",
+      "definition": "Articles on diplomatic relations, international conflicts, and global cooperation."
+    },
+    {
+      "id": 13,
+      "name": "Real Estate",
+      "definition": "Articles discussing housing markets, property prices, and real estate trends."
+    },
+    {
+      "id": 14,
+      "name": "Transportation",
+      "definition": "Articles about transportation systems, infrastructure, and travel."
+    },
+    {
+      "id": 15,
+      "name": "Fashion",
+      "definition": "Articles related to fashion industry news, designers, and trends."
+    }
+  ]
+}

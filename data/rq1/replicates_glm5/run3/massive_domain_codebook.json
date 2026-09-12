@@ -1,0 +1,94 @@
+{
+  "bench": "massive_domain",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music & Audio",
+      "definition": "Playing, controlling, or identifying music, podcasts, audiobooks, and radio."
+    },
+    {
+      "id": 2,
+      "name": "Email",
+      "definition": "Sending, reading, checking, and managing emails."
+    },
+    {
+      "id": 3,
+      "name": "Calendar & Scheduling",
+      "definition": "Creating, checking, and managing events, meetings, and calendar entries."
+    },
+    {
+      "id": 4,
+      "name": "Reminders & Alarms",
+      "definition": "Setting, managing, and checking alarms and task reminders."
+    },
+    {
+      "id": 5,
+      "name": "Weather",
+      "definition": "Checking current conditions, forecasts, and weather-related queries."
+    },
+    {
+      "id": 6,
+      "name": "Smart Home & IoT",
+      "definition": "Controlling smart home devices like lights, appliances, and power."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Requesting news headlines, updates, and specific news topics."
+    },
+    {
+      "id": 8,
+      "name": "General Information & Q&A",
+      "definition": "Asking factual questions, definitions, and general knowledge queries."
+    },
+    {
+      "id": 9,
+      "name": "Lists & Notes",
+      "definition": "Creating, viewing, and managing to-do lists, shopping lists, and notes."
+    },
+    {
+      "id": 10,
+      "name": "Social Media",
+      "definition": "Posting to social media platforms and checking social activity."
+    },
+    {
+      "id": 11,
+      "name": "Travel & Transportation",
+      "definition": "Booking tickets, checking schedules for trains, and asking for directions."
+    },
+    {
+      "id": 12,
+      "name": "Finance & Stocks",
+      "definition": "Checking stock prices, exchange rates, and financial information."
+    },
+    {
+      "id": 13,
+      "name": "Food & Recipes",
+      "definition": "Ordering food and finding recipes or cooking instructions."
+    },
+    {
+      "id": 14,
+      "name": "Device Control & Settings",
+      "definition": "Adjusting device settings like volume and power, or opening apps."
+    },
+    {
+      "id": 15,
+      "name": "Time & Date",
+      "definition": "Checking the current time, date, or time zone differences."
+    },
+    {
+      "id": 16,
+      "name": "Personal Assistant Meta",
+      "definition": "Questions about the assistant itself, its capabilities, or personal opinions."
+    },
+    {
+      "id": 17,
+      "name": "Traffic & Navigation",
+      "definition": "Checking traffic conditions and navigation routes."
+    }
+  ]
+}

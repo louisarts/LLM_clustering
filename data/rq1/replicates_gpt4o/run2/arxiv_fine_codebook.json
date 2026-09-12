@@ -1,0 +1,1510 @@
+{
+  "bench": "arxiv_fine",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cond-mat.mtrl-sci",
+      "definition": "Materials Science in Condensed Matter Physics"
+    },
+    {
+      "id": 2,
+      "name": "cs.LG",
+      "definition": "Machine Learning in Computer Science"
+    },
+    {
+      "id": 3,
+      "name": "physics.plasm-ph",
+      "definition": "Plasma Physics"
+    },
+    {
+      "id": 4,
+      "name": "q-fin.MF",
+      "definition": "Mathematical Finance"
+    },
+    {
+      "id": 5,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 6,
+      "name": "cs.NA",
+      "definition": "Numerical Analysis in Computer Science"
+    },
+    {
+      "id": 7,
+      "name": "q-bio.MN",
+      "definition": "Molecular Networks in Quantitative Biology"
+    },
+    {
+      "id": 8,
+      "name": "cs.RO",
+      "definition": "Robotics in Computer Science"
+    },
+    {
+      "id": 9,
+      "name": "cs.CL",
+      "definition": "Computation and Language in Computer Science"
+    },
+    {
+      "id": 10,
+      "name": "stat.ML",
+      "definition": "Machine Learning in Statistics"
+    },
+    {
+      "id": 11,
+      "name": "q-fin.PR",
+      "definition": "Pricing of Securities in Quantitative Finance"
+    },
+    {
+      "id": 12,
+      "name": "math.AG",
+      "definition": "Algebraic Geometry"
+    },
+    {
+      "id": 13,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence in Computer Science"
+    },
+    {
+      "id": 14,
+      "name": "math.QA",
+      "definition": "Quantum Algebra"
+    },
+    {
+      "id": 15,
+      "name": "cond-mat.soft",
+      "definition": "Soft Condensed Matter"
+    },
+    {
+      "id": 16,
+      "name": "physics.ins-det",
+      "definition": "Instrumentation and Detectors in Physics"
+    },
+    {
+      "id": 17,
+      "name": "astro-ph.GA",
+      "definition": "Astrophysics of Galaxies"
+    },
+    {
+      "id": 18,
+      "name": "cs.SD",
+      "definition": "Sound in Computer Science"
+    },
+    {
+      "id": 19,
+      "name": "math.AP",
+      "definition": "Analysis of PDEs"
+    },
+    {
+      "id": 20,
+      "name": "physics.soc-ph",
+      "definition": "Physics and Society"
+    },
+    {
+      "id": 21,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 22,
+      "name": "q-bio.PE",
+      "definition": "Populations and Evolution in Quantitative Biology"
+    },
+    {
+      "id": 23,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 24,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 25,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 26,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 27,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 28,
+      "name": "cond-mat.str-el",
+      "definition": "Strongly Correlated Electrons"
+    },
+    {
+      "id": 29,
+      "name": "cs.CR",
+      "definition": "Cryptography and Security in Computer Science"
+    },
+    {
+      "id": 30,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 31,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 32,
+      "name": "cs.IT",
+      "definition": "Information Theory in Computer Science"
+    },
+    {
+      "id": 33,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 34,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 35,
+      "name": "math.LO",
+      "definition": "Logic"
+    },
+    {
+      "id": 36,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 37,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 38,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 39,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 40,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 41,
+      "name": "math.KT",
+      "definition": "K-Theory and Homology"
+    },
+    {
+      "id": 42,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 43,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 44,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 45,
+      "name": "math.HO",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 46,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 47,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 48,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 49,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 50,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 51,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 52,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 53,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 54,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 55,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 56,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 57,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 58,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 59,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 60,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 61,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 62,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 63,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 64,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 65,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 66,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 67,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 68,
+      "name": "math.KT",
+      "definition": "K-Theory and Homology"
+    },
+    {
+      "id": 69,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 70,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 71,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 72,
+      "name": "math.HO",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 73,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 74,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 75,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 76,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 77,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 78,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 79,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 80,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 81,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 82,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 83,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 84,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 85,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 86,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 87,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 88,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 89,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 90,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 91,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 92,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 93,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 94,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 95,
+      "name": "math.KT",
+      "definition": "K-Theory and Homology"
+    },
+    {
+      "id": 96,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 97,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 98,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 99,
+      "name": "math.HO",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 100,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 101,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 102,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 103,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 104,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 105,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 106,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 107,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 108,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 109,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 110,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 111,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 112,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 113,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 114,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 115,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 116,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 117,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 118,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 119,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 120,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 121,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 122,
+      "name": "math.KT",
+      "definition": "K-Theory and Homology"
+    },
+    {
+      "id": 123,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 124,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 125,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 126,
+      "name": "math.HO",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 127,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 128,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 129,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 130,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 131,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 132,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 133,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 134,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 135,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 136,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 137,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 138,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 139,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 140,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 141,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 142,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 143,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 144,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 145,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 146,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 147,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 148,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 149,
+      "name": "math.KT",
+      "definition": "K-Theory and Homology"
+    },
+    {
+      "id": 150,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 151,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 152,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 153,
+      "name": "math.HO",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 154,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 155,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 156,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 157,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 158,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 159,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 160,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 161,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 162,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 163,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 164,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 165,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 166,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 167,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 168,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 169,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 170,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 171,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 172,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 173,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 174,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 175,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 176,
+      "name": "math.KT",
+      "definition": "K-Theory and Homology"
+    },
+    {
+      "id": 177,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 178,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 179,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 180,
+      "name": "math.HO",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 181,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 182,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 183,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 184,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 185,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 186,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 187,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 188,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 189,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 190,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 191,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 192,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 193,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 194,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 195,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 196,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 197,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 198,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 199,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 200,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 201,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 202,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 203,
+      "name": "math.KT",
+      "definition": "K-Theory and Homology"
+    },
+    {
+      "id": 204,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 205,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 206,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 207,
+      "name": "math.HO",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 208,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 209,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 210,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 211,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 212,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 213,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 214,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 215,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 216,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 217,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 218,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 219,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 220,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 221,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 222,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 223,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 224,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 225,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 226,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 227,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 228,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 229,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 230,
+      "name": "math.KT",
+      "definition": "K-Theory and Homology"
+    },
+    {
+      "id": 231,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 232,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 233,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 234,
+      "name": "math.HO",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 235,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 236,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 237,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 238,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 239,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 240,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 241,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 242,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 243,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 244,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 245,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 246,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 247,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 248,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 249,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 250,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 251,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 252,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 253,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 254,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 255,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 256,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 257,
+      "name": "math.KT",
+      "definition": "K-Theory and Homology"
+    },
+    {
+      "id": 258,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 259,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 260,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 261,
+      "name": "math.HO",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 262,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 263,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 264,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 265,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 266,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 267,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 268,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 269,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 270,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 271,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 272,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 273,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 274,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 275,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 276,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 277,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 278,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 279,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 280,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 281,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 282,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 283,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 284,
+      "name": "math.KT",
+      "definition": "K-Theory and Homology"
+    },
+    {
+      "id": 285,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 286,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 287,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 288,
+      "name": "math.HO",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 289,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 290,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 291,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 292,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 293,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 294,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 295,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 296,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 297,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 298,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 299,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 300,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    }
+  ]
+}

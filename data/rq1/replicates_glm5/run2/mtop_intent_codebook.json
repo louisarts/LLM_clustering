@@ -1,0 +1,144 @@
+{
+  "bench": "mtop_intent",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm_Set",
+      "definition": "Create or configure a new alarm or a repeating alarm schedule."
+    },
+    {
+      "id": 2,
+      "name": "Alarm_Query",
+      "definition": "Check existing alarm status, list alarms, or ask for the next alarm time."
+    },
+    {
+      "id": 3,
+      "name": "Alarm_Control",
+      "definition": "Modify, delete, snooze, or turn on/off existing alarms."
+    },
+    {
+      "id": 4,
+      "name": "Reminder_Set",
+      "definition": "Create a new reminder for a specific task or time."
+    },
+    {
+      "id": 5,
+      "name": "Reminder_Query",
+      "definition": "Check, list, or read existing reminders."
+    },
+    {
+      "id": 6,
+      "name": "Reminder_Control",
+      "definition": "Modify, delete, or cancel existing reminders."
+    },
+    {
+      "id": 7,
+      "name": "Timer_Set",
+      "definition": "Start, set, or create a new countdown timer."
+    },
+    {
+      "id": 8,
+      "name": "Timer_Query",
+      "definition": "Check the status, time remaining, or name of a running timer."
+    },
+    {
+      "id": 9,
+      "name": "Timer_Control",
+      "definition": "Pause, resume, reset, stop, or adjust a running timer."
+    },
+    {
+      "id": 10,
+      "name": "Call_Make",
+      "definition": "Initiate a voice or video call to a contact or group."
+    },
+    {
+      "id": 11,
+      "name": "Call_Manage",
+      "definition": "Control an active call by adding participants, hanging up, or blocking."
+    },
+    {
+      "id": 12,
+      "name": "Call_Query",
+      "definition": "Check call history, logs, or specific call details."
+    },
+    {
+      "id": 13,
+      "name": "Message_Send",
+      "definition": "Send a text or video message to a contact or group."
+    },
+    {
+      "id": 14,
+      "name": "Message_Query",
+      "definition": "Check for, retrieve, or read incoming messages."
+    },
+    {
+      "id": 15,
+      "name": "Music_Play",
+      "definition": "Play music by artist, genre, playlist, or specific song."
+    },
+    {
+      "id": 16,
+      "name": "Music_Control",
+      "definition": "Control music playback such as repeating, skipping, or pausing."
+    },
+    {
+      "id": 17,
+      "name": "Music_Query",
+      "definition": "Identify the current song or request information about music."
+    },
+    {
+      "id": 18,
+      "name": "Weather_Query",
+      "definition": "Request current weather conditions, forecasts, or specific weather data."
+    },
+    {
+      "id": 19,
+      "name": "News_Query",
+      "definition": "Request news updates, headlines, or stories on specific topics."
+    },
+    {
+      "id": 20,
+      "name": "Calendar_Query",
+      "definition": "Check calendar events, schedules, or meeting details."
+    },
+    {
+      "id": 21,
+      "name": "Calendar_Control",
+      "definition": "Create, modify, or delete calendar events or RSVP to invitations."
+    },
+    {
+      "id": 22,
+      "name": "Contact_Query",
+      "definition": "Request information about a contact's location, work, or relationships."
+    },
+    {
+      "id": 23,
+      "name": "Recipe_Query",
+      "definition": "Search for recipes, cooking instructions, or food preparation advice."
+    },
+    {
+      "id": 24,
+      "name": "Nutrition_Query",
+      "definition": "Request nutritional information such as calories or fat content."
+    },
+    {
+      "id": 25,
+      "name": "Events_Query",
+      "definition": "Find local events, activities, or things to do in a specific area."
+    },
+    {
+      "id": 26,
+      "name": "Knowledge_Query",
+      "definition": "Ask general factual questions or definitions not covered by other categories."
+    },
+    {
+      "id": 27,
+      "name": "Status_Set",
+      "definition": "Set or change the user's availability or status."
+    }
+  ]
+}

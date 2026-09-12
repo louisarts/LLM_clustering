@@ -1,0 +1,284 @@
+{
+  "bench": "tweet89",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "News and reactions regarding advertisements aired during the Super Bowl, including specific brands like Chrysler, Doritos, and Volkswagen."
+    },
+    {
+      "id": 2,
+      "name": "Egypt Protests and Journalist Safety",
+      "definition": "Reports on anti-government protests in Egypt, the targeting of journalists, and the political situation during the uprising."
+    },
+    {
+      "id": 3,
+      "name": "Australian Open Tennis",
+      "definition": "Coverage of the Australian Open tournament, focusing on matches, players like Novak Djokovic and Andy Murray, and final results."
+    },
+    {
+      "id": 4,
+      "name": "Academy Award Nominations",
+      "definition": "Announcements and discussions regarding the Oscar nominations, specifically focusing on films like The King's Speech and Black Swan."
+    },
+    {
+      "id": 5,
+      "name": "Christina Aguilera National Anthem Performance",
+      "definition": "News and commentary specifically regarding Christina Aguilera's performance and lyrical error during the Super Bowl national anthem."
+    },
+    {
+      "id": 6,
+      "name": "Yemeni Political Protests",
+      "definition": "Reports on anti-government demonstrations, rallies, and political developments in Yemen."
+    },
+    {
+      "id": 7,
+      "name": "US Healthcare Reform Legislation",
+      "definition": "Judicial rulings and legal challenges regarding President Obama's healthcare reform law and the individual mandate."
+    },
+    {
+      "id": 8,
+      "name": "Rahm Emanuel Chicago Mayoral Campaign",
+      "definition": "Legal proceedings and ballot eligibility disputes regarding Rahm Emanuel's run for Mayor of Chicago."
+    },
+    {
+      "id": 9,
+      "name": "Taco Bell Lawsuit",
+      "definition": "News regarding the lawsuit questioning the meat content and filling percentage of Taco Bell products."
+    },
+    {
+      "id": 10,
+      "name": "Starbucks Trenta Size Launch",
+      "definition": "Discussions regarding the introduction and capacity of the new Trenta cup size at Starbucks."
+    },
+    {
+      "id": 11,
+      "name": "Acai Berry Diet Trends",
+      "definition": "Promotional content and articles discussing acai berry supplements for weight loss and related diet plans."
+    },
+    {
+      "id": 12,
+      "name": "Moscow Airport Bombing",
+      "definition": "Reports on the terrorist attack and explosion at Domodedovo Airport in Moscow."
+    },
+    {
+      "id": 13,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates on the medical condition and rehabilitation of Representative Gabrielle Giffords following the shooting."
+    },
+    {
+      "id": 14,
+      "name": "Sundance Film Festival",
+      "definition": "Coverage of the Sundance Film Festival, including celebrity sightings and film promotions."
+    },
+    {
+      "id": 15,
+      "name": "Australian Flooding",
+      "definition": "Reports on the severe flooding and weather crisis in Australia."
+    },
+    {
+      "id": 16,
+      "name": "Facebook Privacy Settings",
+      "definition": "Discussions and warnings regarding Facebook privacy settings, user data, and location features."
+    },
+    {
+      "id": 17,
+      "name": "Verizon iPhone Release",
+      "definition": "News regarding the availability and sale of the iPhone on the Verizon network at retailers like Best Buy."
+    },
+    {
+      "id": 18,
+      "name": "Dutch Relations with Iran",
+      "definition": "Diplomatic actions by the Dutch government regarding Iran, specifically freezing contacts after an execution."
+    },
+    {
+      "id": 19,
+      "name": "US Economic Indicators",
+      "definition": "Reports on US stock markets, employment rates, and federal budget proposals."
+    },
+    {
+      "id": 20,
+      "name": "Concussions in Sports",
+      "definition": "Discussions on the risks of concussions and head injuries for student and professional athletes."
+    },
+    {
+      "id": 21,
+      "name": "Fishing Reports and Tips",
+      "definition": "Articles sharing fishing tips, reports, and guides for various fish species and locations."
+    },
+    {
+      "id": 22,
+      "name": "Chicken Recipes",
+      "definition": "Posts sharing various recipes for cooking chicken dishes."
+    },
+    {
+      "id": 23,
+      "name": "College Scholarships and Financial Aid",
+      "definition": "Information and advice regarding college scholarships, grants, and financial aid for students."
+    },
+    {
+      "id": 24,
+      "name": "TSA Screening Procedures",
+      "definition": "News regarding TSA security screening technologies, body scanners, and related lawsuits."
+    },
+    {
+      "id": 25,
+      "name": "Anti-Bullying Initiatives",
+      "definition": "Events and campaigns aimed at raising awareness and preventing bullying in schools."
+    },
+    {
+      "id": 26,
+      "name": "Distracted Driving Campaigns",
+      "definition": "Public service messages and campaigns, often linked to TV shows, warning against texting while driving."
+    },
+    {
+      "id": 27,
+      "name": "Belarus Sanctions",
+      "definition": "News regarding European Union sanctions imposed on Belarus."
+    },
+    {
+      "id": 28,
+      "name": "Venezuelan Politics",
+      "definition": "Statements and actions by Venezuelan President Hugo Chavez regarding nationalization and politics."
+    },
+    {
+      "id": 29,
+      "name": "Piracy and Naval Operations",
+      "definition": "Reports on naval actions against pirates, specifically involving the Indian Navy."
+    },
+    {
+      "id": 30,
+      "name": "Identity Theft Prevention",
+      "definition": "Tips and news regarding the prevention of identity theft and online security."
+    },
+    {
+      "id": 31,
+      "name": "Keith Olbermann Media Career",
+      "definition": "News regarding television host Keith Olbermann's career moves, specifically joining Current TV."
+    },
+    {
+      "id": 32,
+      "name": "Immigration Policy Debates",
+      "definition": "Discussions and legislative news regarding illegal immigration and immigrant rights in the US."
+    },
+    {
+      "id": 33,
+      "name": "Steve Jobs Health",
+      "definition": "News regarding Apple CEO Steve Jobs' medical leave and health condition."
+    },
+    {
+      "id": 34,
+      "name": "Wikileaks Nobel Nomination",
+      "definition": "Reports regarding the nomination of Wikileaks for the Nobel Peace Prize."
+    },
+    {
+      "id": 35,
+      "name": "New York State Budget",
+      "definition": "Reports on New York Governor Cuomo's budget proposals and spending cuts."
+    },
+    {
+      "id": 36,
+      "name": "Kardashian Family",
+      "definition": "Tweets regarding the lives and activities of the Kardashian family members."
+    },
+    {
+      "id": 37,
+      "name": "Samsung Sales",
+      "definition": "Reports on sales performance of Samsung smartphones and tablets."
+    },
+    {
+      "id": 38,
+      "name": "Tunisia Unrest",
+      "definition": "Mentions of political unrest in Tunisia, often linked to regional protests."
+    },
+    {
+      "id": 39,
+      "name": "FDA Drug Approvals",
+      "definition": "News regarding the FDA approval of specific pharmaceutical drugs."
+    },
+    {
+      "id": 40,
+      "name": "School Lunch Programs",
+      "definition": "News regarding school lunch programs and initiatives like Let's Move."
+    },
+    {
+      "id": 41,
+      "name": "Fish Stock Depletion",
+      "definition": "Reports on the status of global fish stocks and depletion risks."
+    },
+    {
+      "id": 42,
+      "name": "NCIS Television Show",
+      "definition": "Fan reactions and comments regarding the television show NCIS."
+    },
+    {
+      "id": 43,
+      "name": "Oprah Winfrey Family Secret",
+      "definition": "News regarding a family secret revealed by Oprah Winfrey."
+    },
+    {
+      "id": 44,
+      "name": "Gasland Documentary",
+      "definition": "News regarding the documentary Gasland and its Oscar nomination or environmental impact."
+    },
+    {
+      "id": 45,
+      "name": "Michelle Obama Public Appearances",
+      "definition": "Reports on First Lady Michelle Obama's visits and public initiatives."
+    },
+    {
+      "id": 46,
+      "name": "Best Buy Trade-in Program",
+      "definition": "News regarding Best Buy's electronics trade-in program."
+    },
+    {
+      "id": 47,
+      "name": "White Stripes Band News",
+      "definition": "News regarding the band The White Stripes."
+    },
+    {
+      "id": 48,
+      "name": "Obama Birth Certificate",
+      "definition": "News regarding efforts to address conspiracy theories about President Obama's birth certificate."
+    },
+    {
+      "id": 49,
+      "name": "Glenn Beck and Frances Fox Piven",
+      "definition": "Controversy involving Glenn Beck and professor Frances Fox Piven."
+    },
+    {
+      "id": 50,
+      "name": "NHL Concussions",
+      "definition": "Reports on the rise of concussions in the National Hockey League."
+    },
+    {
+      "id": 51,
+      "name": "Fashion Week",
+      "definition": "News regarding Fashion Week events in New York."
+    },
+    {
+      "id": 52,
+      "name": "James Franco Sundance Appearance",
+      "definition": "Specific mentions of actor James Franco at the Sundance Film Festival."
+    },
+    {
+      "id": 53,
+      "name": "US Political Polling",
+      "definition": "Studies and reports on the use of social media by political parties."
+    },
+    {
+      "id": 54,
+      "name": "Chinese President Visit",
+      "definition": "News regarding the visit of the Chinese President."
+    },
+    {
+      "id": 55,
+      "name": "Super Bowl Game Result",
+      "definition": "News regarding the outcome of the Super Bowl game itself."
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "bench": "tweet89",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets discussing commercials aired during the Super Bowl."
+    },
+    {
+      "id": 2,
+      "name": "Christina Aguilera National Anthem Flub",
+      "definition": "Tweets about Christina Aguilera's mistake during the national anthem at the Super Bowl."
+    },
+    {
+      "id": 3,
+      "name": "Egyptian Protests and Journalist Targeting",
+      "definition": "Tweets about the Egyptian protests and the targeting of journalists."
+    },
+    {
+      "id": 4,
+      "name": "Yemen Protests and Political Developments",
+      "definition": "Tweets about protests and political changes in Yemen."
+    },
+    {
+      "id": 5,
+      "name": "Arizona Immigration Law",
+      "definition": "Tweets about Arizona's immigration law and related legal actions."
+    },
+    {
+      "id": 6,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Tweets discussing the lawsuit claiming Taco Bell's beef is not real beef."
+    },
+    {
+      "id": 7,
+      "name": "King's Speech and Oscars",
+      "definition": "Tweets about the film 'The King's Speech' and its Oscar nominations and awards."
+    },
+    {
+      "id": 8,
+      "name": "Rahm Emanuel Chicago Mayoral Race",
+      "definition": "Tweets about Rahm Emanuel's eligibility and participation in the Chicago mayoral race."
+    },
+    {
+      "id": 9,
+      "name": "Health Care Reform Law Rulings",
+      "definition": "Tweets about judicial rulings on the health care reform law."
+    },
+    {
+      "id": 10,
+      "name": "Somali Pirates and Naval Actions",
+      "definition": "Tweets about Somali pirates and related naval actions."
+    },
+    {
+      "id": 11,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 12,
+      "name": "Volkswagen Super Bowl Commercial",
+      "definition": "Tweets specifically about Volkswagen's Star Wars-themed Super Bowl commercial."
+    },
+    {
+      "id": 13,
+      "name": "Debt and Financial Advice",
+      "definition": "Tweets offering advice or discussing debt consolidation and financial management."
+    },
+    {
+      "id": 14,
+      "name": "Acai Berry and Weight Loss",
+      "definition": "Tweets discussing acai berry products and their use in weight loss."
+    },
+    {
+      "id": 15,
+      "name": "Charlie Sheen's Personal Issues",
+      "definition": "Tweets about Charlie Sheen's personal and health issues."
+    },
+    {
+      "id": 16,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Tweets about fishing, fishing events, and outdoor activities."
+    },
+    {
+      "id": 17,
+      "name": "Bullying Prevention",
+      "definition": "Tweets offering tips and advice on preventing bullying."
+    },
+    {
+      "id": 18,
+      "name": "Facebook Privacy Concerns",
+      "definition": "Tweets discussing privacy settings and concerns on Facebook."
+    },
+    {
+      "id": 19,
+      "name": "Super Bowl Recipes",
+      "definition": "Tweets sharing recipes for Super Bowl parties."
+    },
+    {
+      "id": 20,
+      "name": "Giffords Health Updates",
+      "definition": "Tweets providing updates on the health of Congresswoman Gabrielle Giffords."
+    },
+    {
+      "id": 21,
+      "name": "Sundance Film Festival",
+      "definition": "Tweets about events and celebrity sightings at the Sundance Film Festival."
+    },
+    {
+      "id": 22,
+      "name": "Iran Sanctions and Nuclear Program",
+      "definition": "Tweets discussing sanctions on Iran and its nuclear program."
+    },
+    {
+      "id": 23,
+      "name": "Starbucks Trenta Cup",
+      "definition": "Tweets about the new Starbucks Trenta cup size."
+    },
+    {
+      "id": 24,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 25,
+      "name": "Myanmar Sanctions",
+      "definition": "Tweets about international sanctions on Myanmar."
+    },
+    {
+      "id": 26,
+      "name": "Supreme Court Privacy Rulings",
+      "definition": "Tweets about Supreme Court rulings related to privacy."
+    },
+    {
+      "id": 27,
+      "name": "Kardashians",
+      "definition": "Tweets discussing the Kardashian family."
+    },
+    {
+      "id": 28,
+      "name": "Super Bowl Recipes",
+      "definition": "Tweets sharing recipes for Super Bowl parties."
+    },
+    {
+      "id": 29,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 30,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 31,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 32,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 33,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 34,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 35,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 36,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 37,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 38,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 39,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 40,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 41,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 42,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 43,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 44,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 45,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 46,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 47,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 48,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 49,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 50,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 51,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 52,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 53,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 54,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 55,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 56,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 57,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 58,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 59,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 60,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 61,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 62,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 63,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 64,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 65,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 66,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 67,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 68,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 69,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 70,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 71,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 72,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 73,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 74,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 75,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 76,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 77,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 78,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 79,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 80,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 81,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 82,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 83,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 84,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 85,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 86,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 87,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 88,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 89,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 90,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 91,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 92,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 93,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 94,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 95,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 96,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 97,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 98,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 99,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    },
+    {
+      "id": 100,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates."
+    }
+  ]
+}

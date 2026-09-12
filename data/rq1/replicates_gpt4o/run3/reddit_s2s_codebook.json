@@ -1,0 +1,100 @@
+{
+  "bench": "reddit_s2s",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "definition": "Posts related to technology, gadgets, and software."
+    },
+    {
+      "id": 2,
+      "name": "Local News and Events",
+      "definition": "Posts about local news, events, and places."
+    },
+    {
+      "id": 3,
+      "name": "Advice and Personal Questions",
+      "definition": "Posts seeking advice or asking personal questions."
+    },
+    {
+      "id": 4,
+      "name": "Collectibles and Identification",
+      "definition": "Posts about identifying or discussing collectibles and items."
+    },
+    {
+      "id": 5,
+      "name": "Art and Design",
+      "definition": "Posts related to art, design, and creative works."
+    },
+    {
+      "id": 6,
+      "name": "Science and Education",
+      "definition": "Posts about scientific topics and educational content."
+    },
+    {
+      "id": 7,
+      "name": "Entertainment and Media",
+      "definition": "Posts about movies, TV shows, music, and other entertainment media."
+    },
+    {
+      "id": 8,
+      "name": "Politics and Society",
+      "definition": "Posts discussing political topics and societal issues."
+    },
+    {
+      "id": 9,
+      "name": "Animals and Pets",
+      "definition": "Posts about animals, pets, and related topics."
+    },
+    {
+      "id": 10,
+      "name": "Food and Drink",
+      "definition": "Posts about food, beverages, and related experiences."
+    },
+    {
+      "id": 11,
+      "name": "Travel and Places",
+      "definition": "Posts about travel experiences and locations."
+    },
+    {
+      "id": 12,
+      "name": "Health and Wellness",
+      "definition": "Posts about health, wellness, and medical topics."
+    },
+    {
+      "id": 13,
+      "name": "Finance and Business",
+      "definition": "Posts related to finance, business, and economics."
+    },
+    {
+      "id": 14,
+      "name": "Sports",
+      "definition": "Posts about sports events, teams, and athletes."
+    },
+    {
+      "id": 15,
+      "name": "Gaming",
+      "definition": "Posts related to video games and gaming culture."
+    },
+    {
+      "id": 16,
+      "name": "Fashion and Style",
+      "definition": "Posts about fashion, clothing, and style trends."
+    },
+    {
+      "id": 17,
+      "name": "Automotive",
+      "definition": "Posts about cars, vehicles, and automotive topics."
+    },
+    {
+      "id": 18,
+      "name": "Miscellaneous",
+      "definition": "Posts that do not fit into any other category."
+    }
+  ]
+}

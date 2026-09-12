@@ -1,0 +1,60 @@
+{
+  "bench": "arxiv_fine",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "astro-ph",
+      "definition": "Papers related to astrophysics and cosmology"
+    },
+    {
+      "id": 2,
+      "name": "cs",
+      "definition": "Papers related to computer science and information theory"
+    },
+    {
+      "id": 3,
+      "name": "math",
+      "definition": "Papers related to mathematics and mathematical physics"
+    },
+    {
+      "id": 4,
+      "name": "q-bio",
+      "definition": "Papers related to quantitative biology and bioinformatics"
+    },
+    {
+      "id": 5,
+      "name": "stat",
+      "definition": "Papers related to statistics and machine learning"
+    },
+    {
+      "id": 6,
+      "name": "cond-mat",
+      "definition": "Papers related to condensed matter physics and materials science"
+    },
+    {
+      "id": 7,
+      "name": "quant-ph",
+      "definition": "Papers related to quantum physics and quantum computing"
+    },
+    {
+      "id": 8,
+      "name": "hep-th",
+      "definition": "Papers related to high energy physics and theoretical physics"
+    },
+    {
+      "id": 9,
+      "name": "econ",
+      "definition": "Papers related to economics and financial markets"
+    },
+    {
+      "id": 10,
+      "name": "q-fin",
+      "definition": "Papers related to quantitative finance and trading strategies"
+    }
+  ]
+}

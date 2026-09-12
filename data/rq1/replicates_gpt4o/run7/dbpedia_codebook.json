@@ -1,0 +1,110 @@
+{
+  "bench": "dbpedia",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Buildings and Structures",
+      "definition": "Articles describing physical constructions such as towers, schools, and bridges."
+    },
+    {
+      "id": 2,
+      "name": "Vehicles and Transportation",
+      "definition": "Articles about modes of transport including ships, cars, and aircraft."
+    },
+    {
+      "id": 3,
+      "name": "People",
+      "definition": "Articles about individuals including politicians, athletes, and artists."
+    },
+    {
+      "id": 4,
+      "name": "Music and Albums",
+      "definition": "Articles about musical works, albums, and musicians."
+    },
+    {
+      "id": 5,
+      "name": "Animals and Plants",
+      "definition": "Articles about species of animals and plants."
+    },
+    {
+      "id": 6,
+      "name": "Educational Institutions",
+      "definition": "Articles about schools, colleges, and universities."
+    },
+    {
+      "id": 7,
+      "name": "Books and Literature",
+      "definition": "Articles about written works including novels and poetry."
+    },
+    {
+      "id": 8,
+      "name": "Geographical Locations",
+      "definition": "Articles about specific places such as cities, villages, and natural features."
+    },
+    {
+      "id": 9,
+      "name": "Organizations and Companies",
+      "definition": "Articles about businesses, non-profits, and other organized groups."
+    },
+    {
+      "id": 10,
+      "name": "Films and Television",
+      "definition": "Articles about movies and TV shows."
+    },
+    {
+      "id": 11,
+      "name": "Historical Events and Figures",
+      "definition": "Articles about past events and historical personalities."
+    },
+    {
+      "id": 12,
+      "name": "Science and Technology",
+      "definition": "Articles about scientific concepts, journals, and technological advancements."
+    },
+    {
+      "id": 13,
+      "name": "Sports and Games",
+      "definition": "Articles about sports, athletes, and sporting events."
+    },
+    {
+      "id": 14,
+      "name": "Art and Culture",
+      "definition": "Articles about cultural works and artistic movements."
+    },
+    {
+      "id": 15,
+      "name": "Government and Politics",
+      "definition": "Articles about political entities, figures, and events."
+    },
+    {
+      "id": 16,
+      "name": "Religion and Spirituality",
+      "definition": "Articles about religious beliefs, practices, and institutions."
+    },
+    {
+      "id": 17,
+      "name": "Economics and Business",
+      "definition": "Articles about economic concepts, businesses, and financial markets."
+    },
+    {
+      "id": 18,
+      "name": "Military and Warfare",
+      "definition": "Articles about military entities, equipment, and conflicts."
+    },
+    {
+      "id": 19,
+      "name": "Media and Publishing",
+      "definition": "Articles about newspapers, magazines, and publishing companies."
+    },
+    {
+      "id": 20,
+      "name": "Food and Drink",
+      "definition": "Articles about culinary items and beverages."
+    }
+  ]
+}

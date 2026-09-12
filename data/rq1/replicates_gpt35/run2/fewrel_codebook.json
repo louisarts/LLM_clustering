@@ -1,0 +1,110 @@
+{
+  "bench": "fewrel",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Time Sequence",
+      "definition": "Events or entities that occur in chronological order"
+    },
+    {
+      "id": 2,
+      "name": "Geographical Location",
+      "definition": "Places or regions where events or entities are located"
+    },
+    {
+      "id": 3,
+      "name": "Professional Relationships",
+      "definition": "Connections between individuals in a professional context"
+    },
+    {
+      "id": 4,
+      "name": "Creative Works",
+      "definition": "Artistic or creative works produced by individuals or groups"
+    },
+    {
+      "id": 5,
+      "name": "Sports Achievements",
+      "definition": "Accomplishments in the field of sports or athletics"
+    },
+    {
+      "id": 6,
+      "name": "Musical Contributions",
+      "definition": "Involvement in music composition, performance, or influence"
+    },
+    {
+      "id": 7,
+      "name": "Architectural Projects",
+      "definition": "Involvement in the design or construction of architectural structures"
+    },
+    {
+      "id": 8,
+      "name": "Entertainment Industry",
+      "definition": "Engagement in the entertainment industry, including films, music, and television"
+    },
+    {
+      "id": 9,
+      "name": "Historical Events",
+      "definition": "Participation in or impact on historical events"
+    },
+    {
+      "id": 10,
+      "name": "Literary Works",
+      "definition": "Creation or association with literary works or authors"
+    },
+    {
+      "id": 11,
+      "name": "Political Roles",
+      "definition": "Involvement in political activities or positions"
+    },
+    {
+      "id": 12,
+      "name": "Scientific Contributions",
+      "definition": "Contributions to scientific fields or disciplines"
+    },
+    {
+      "id": 13,
+      "name": "Awards and Recognitions",
+      "definition": "Achievements or honors received by individuals or groups"
+    },
+    {
+      "id": 14,
+      "name": "Cinematic Releases",
+      "definition": "Involvement in the production or release of films or movies"
+    },
+    {
+      "id": 15,
+      "name": "Botanical Classifications",
+      "definition": "Categorization of plant species or families"
+    },
+    {
+      "id": 16,
+      "name": "Video Game Development",
+      "definition": "Participation in the creation or development of video games"
+    },
+    {
+      "id": 17,
+      "name": "Sports Performance",
+      "definition": "Achievements or statistics related to sports performance"
+    },
+    {
+      "id": 18,
+      "name": "Music Bands and Artists",
+      "definition": "Involvement with music bands, artists, or compositions"
+    },
+    {
+      "id": 19,
+      "name": "Railway Systems",
+      "definition": "Connections to railway transportation systems"
+    },
+    {
+      "id": 20,
+      "name": "Historical Figures",
+      "definition": "Association with historical figures or personalities"
+    }
+  ]
+}

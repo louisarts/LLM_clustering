@@ -1,0 +1,182 @@
+{
+  "bench": "tweet89",
+  "run": 8,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl XLV and Commercials",
+      "definition": "Discussions and reactions related to the 2011 Super Bowl game, its advertisements, and Christina Aguilera's national anthem performance."
+    },
+    {
+      "id": 2,
+      "name": "Egypt Protests",
+      "definition": "News and commentary regarding the anti-government protests and political unrest in Egypt during the Arab Spring."
+    },
+    {
+      "id": 3,
+      "name": "Sundance Film Festival 2011",
+      "definition": "Mentions of celebrity appearances, film promotions, and general activities at the 2011 Sundance Film Festival."
+    },
+    {
+      "id": 4,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates and discussions about Congresswoman Gabrielle Giffords' medical condition and recovery following her shooting."
+    },
+    {
+      "id": 5,
+      "name": "2011 Academy Awards and Nominations",
+      "definition": "News, predictions, and reactions concerning the 2011 Oscar nominations, particularly for films like The King's Speech and Black Swan, and related awards like the SAG Awards."
+    },
+    {
+      "id": 6,
+      "name": "2011 Australian Open Men's Final",
+      "definition": "Discussions about the men's singles final at the 2011 Australian Open, featuring Novak Djokovic and Andy Murray."
+    },
+    {
+      "id": 7,
+      "name": "Moscow Domodedovo Airport Bombing",
+      "definition": "News reports and reactions to the terrorist attack at Moscow's Domodedovo Airport in January 2011."
+    },
+    {
+      "id": 8,
+      "name": "Yemen Protests",
+      "definition": "News and commentary regarding the anti-government protests and political unrest in Yemen during the Arab Spring."
+    },
+    {
+      "id": 9,
+      "name": "Rahm Emanuel Chicago Mayoral Candidacy",
+      "definition": "Discussions about Rahm Emanuel's campaign for Mayor of Chicago and legal challenges to his ballot eligibility."
+    },
+    {
+      "id": 10,
+      "name": "Taco Bell Fake Meat Lawsuit",
+      "definition": "News and reactions concerning the lawsuit alleging that Taco Bell's seasoned beef filling does not contain enough actual beef."
+    },
+    {
+      "id": 11,
+      "name": "Starbucks Trenta Size Launch",
+      "definition": "Mentions and reactions to Starbucks introducing its new, larger Trenta-sized beverage cup."
+    },
+    {
+      "id": 12,
+      "name": "Michelle Obama Anti-Obesity Campaign",
+      "definition": "Discussions related to First Lady Michelle Obama's initiatives to combat childhood obesity, including school lunch programs."
+    },
+    {
+      "id": 13,
+      "name": "TSA Full Body Scanners Controversy",
+      "definition": "Debates, lawsuits, and news regarding the use and testing of full-body scanners by the Transportation Security Administration."
+    },
+    {
+      "id": 14,
+      "name": "US Health Care Reform Law Challenges",
+      "definition": "News and legal rulings concerning challenges to the Affordable Care Act (Obamacare) in US courts."
+    },
+    {
+      "id": 15,
+      "name": "Acai Berry Diet Claims",
+      "definition": "Discussions about the effectiveness, scams, and health claims associated with acai berry weight loss products."
+    },
+    {
+      "id": 16,
+      "name": "Facebook Privacy Settings Concerns",
+      "definition": "User discussions and news articles about privacy settings, data harvesting, and security on Facebook."
+    },
+    {
+      "id": 17,
+      "name": "Venezuelan President Hugo Chavez Policies",
+      "definition": "News and commentary on Venezuelan President Hugo Chavez's political actions, including nationalization threats and re-election bids."
+    },
+    {
+      "id": 18,
+      "name": "2011 Australia Floods",
+      "definition": "News and updates on the severe flooding affecting large parts of Australia in early 2011."
+    },
+    {
+      "id": 19,
+      "name": "Dutch-Iran Diplomatic Freeze",
+      "definition": "Reports on the Netherlands freezing diplomatic contact with Iran following the execution of a Dutch-Iranian woman."
+    },
+    {
+      "id": 20,
+      "name": "Bullying Awareness and Concussion Safety",
+      "definition": "Discussions about anti-bullying initiatives, school conferences, and awareness campaigns for concussion risks in sports."
+    },
+    {
+      "id": 21,
+      "name": "Wikileaks and Julian Assange",
+      "definition": "Mentions of Wikileaks, Julian Assange, and related controversies, including Nobel Peace Prize nominations."
+    },
+    {
+      "id": 22,
+      "name": "Best Buy Electronics Buy Back Program",
+      "definition": "News about Best Buy's program allowing customers to trade in old electronics for store credit."
+    },
+    {
+      "id": 23,
+      "name": "College Scholarships and Financial Aid",
+      "definition": "Information and discussions about applying for, finding, and receiving college scholarships and financial assistance."
+    },
+    {
+      "id": 24,
+      "name": "Don't Text and Drive Campaign",
+      "definition": "Public awareness messages and pledges related to the dangers of texting while driving."
+    },
+    {
+      "id": 25,
+      "name": "Keith Olbermann Joins Current TV",
+      "definition": "News and reactions concerning political commentator Keith Olbermann's move to Current TV."
+    },
+    {
+      "id": 26,
+      "name": "Kardashian Family Celebrity Gossip",
+      "definition": "General discussions and fan reactions related to the Kardashian family members."
+    },
+    {
+      "id": 27,
+      "name": "New York State Budget and Governor Cuomo",
+      "definition": "News and commentary on New York's state budget issues and Governor Andrew Cuomo's proposals."
+    },
+    {
+      "id": 28,
+      "name": "General Fishing News and Tips",
+      "definition": "Discussions, tips, and reports related to various types of fishing, fish species, and fishing gear."
+    },
+    {
+      "id": 29,
+      "name": "General Cooking and Recipes",
+      "definition": "Sharing and discussing various food recipes and cooking techniques."
+    },
+    {
+      "id": 30,
+      "name": "Stock Market and Economy News",
+      "definition": "Updates and analysis on stock market performance, economic indicators, and employment rates."
+    },
+    {
+      "id": 31,
+      "name": "Tech Industry News",
+      "definition": "News related to major technology companies like Apple and Samsung, including product launches and executive health."
+    },
+    {
+      "id": 32,
+      "name": "Somali Piracy Incidents",
+      "definition": "Reports on naval actions against pirates in the Indian Ocean and off the coast of Somalia."
+    },
+    {
+      "id": 33,
+      "name": "US Immigration Policy and Laws",
+      "definition": "Discussions and news about proposed legislation, court rulings, and issues related to immigration in the United States."
+    },
+    {
+      "id": 34,
+      "name": "Whale Conservation Efforts",
+      "definition": "News and discussions about efforts to protect whales, including research tactics and entanglement issues."
+    },
+    {
+      "id": 35,
+      "name": "Identity Theft and Data Security",
+      "definition": "Information and concerns regarding identity theft, data privacy, and online security."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "bench": "massive_domain",
+  "run": 1,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "rq3_cached",
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm & Time",
+      "definition": "Setting alarms and checking the current time or date."
+    },
+    {
+      "id": 2,
+      "name": "Calendar",
+      "definition": "Managing and querying calendar events and meetings."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "Sending and managing emails, contacts, and social media posts."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Finding movies, books, videos, games, and jokes."
+    },
+    {
+      "id": 5,
+      "name": "Finance",
+      "definition": "Checking stock prices and currency exchange rates."
+    },
+    {
+      "id": 6,
+      "name": "General Knowledge",
+      "definition": "Answering factual questions, definitions, calculations, and recipes."
+    },
+    {
+      "id": 7,
+      "name": "Lists",
+      "definition": "Creating and managing shopping or to-do lists."
+    },
+    {
+      "id": 8,
+      "name": "Music & Audio",
+      "definition": "Playing and controlling music, radio, podcasts, and audiobooks."
+    },
+    {
+      "id": 9,
+      "name": "News",
+      "definition": "Retrieving news headlines and updates on current events."
+    },
+    {
+      "id": 10,
+      "name": "Reminders",
+      "definition": "Setting reminders for tasks or events."
+    },
+    {
+      "id": 11,
+      "name": "Smart Home",
+      "definition": "Controlling smart home devices like lights, appliances, and volume."
+    },
+    {
+      "id": 12,
+      "name": "Travel & Local",
+      "definition": "Booking transport, checking navigation, and finding local businesses or events."
+    },
+    {
+      "id": 13,
+      "name": "Weather",
+      "definition": "Checking weather conditions and forecasts."
+    },
+    {
+      "id": 14,
+      "name": "Assistant Persona & Chat",
+      "definition": "Greetings, personal questions to the assistant, and meta-queries."
+    }
+  ]
+}

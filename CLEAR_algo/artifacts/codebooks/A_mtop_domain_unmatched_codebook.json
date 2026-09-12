@@ -1,0 +1,57 @@
+[
+ {
+  "id": 1,
+  "name": "Weather",
+  "definition": "Requests for weather forecasts, conditions, or temperature."
+ },
+ {
+  "id": 2,
+  "name": "News",
+  "definition": "Requests for news stories, headlines, or updates on current events."
+ },
+ {
+  "id": 3,
+  "name": "Messaging",
+  "definition": "Sending, reading, or managing text messages, video messages, and social posts."
+ },
+ {
+  "id": 4,
+  "name": "Calling",
+  "definition": "Initiating, managing, or ending voice and video calls."
+ },
+ {
+  "id": 5,
+  "name": "Music",
+  "definition": "Playing, controlling, or identifying music and audio content."
+ },
+ {
+  "id": 6,
+  "name": "Reminders",
+  "definition": "Creating, viewing, modifying, or deleting task reminders."
+ },
+ {
+  "id": 7,
+  "name": "Alarms",
+  "definition": "Setting, modifying, or querying alarms for specific times."
+ },
+ {
+  "id": 8,
+  "name": "Timers",
+  "definition": "Setting, pausing, or checking countdown timers."
+ },
+ {
+  "id": 9,
+  "name": "Recipes",
+  "definition": "Finding recipes, ingredients, cooking instructions, and nutritional data."
+ },
+ {
+  "id": 10,
+  "name": "People",
+  "definition": "Querying information about individuals, relationships, employment, and contact details."
+ },
+ {
+  "id": 11,
+  "name": "Events",
+  "definition": "Finding and managing local events, activities, and things to do."
+ }
+]

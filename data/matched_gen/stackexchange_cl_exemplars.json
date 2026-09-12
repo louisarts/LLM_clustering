@@ -1,0 +1,758 @@
+{
+ "2": [
+  "1. \"How can I improve my signal strength on my amateur radio setup?\"",
+  "2. \"What are the steps to obtaining an amateur radio license in the US?\"",
+  "3. \"Is it possible to use a handheld transceiver for satellite communication in amateur radio?\"",
+  "4. \"What are some recommended resources for learning about antenna design in amateur radio?\"",
+  "5. \"Can I operate my amateur radio station while traveling internationally?\""
+ ],
+ "7": [
+  "1. \"What is the difference between a comet and an asteroid?\" - Astronomy StackExchange",
+  "2. \"How do astronomers calculate the distance to a star?\" - Astronomy StackExchange",
+  "3. \"Can black holes merge together?\" - Astronomy StackExchange",
+  "4. \"What causes the different phases of the moon?\" - Astronomy StackExchange",
+  "5. \"Are there any planets outside of our solar system that could support life?\" - Astronomy StackExchange"
+ ],
+ "10": [
+  "1. \"How can I securely store my Bitcoin on a hardware wallet?\"",
+  "2. \"What are the advantages of using blockchain technology for financial transactions?\"",
+  "3. \"Is it possible to mine Bitcoin using a regular computer, or do I need specialized equipment?\"",
+  "4. \"What are the potential risks of investing in cryptocurrencies like Bitcoin?\"",
+  "5. \"How can I track the price of Bitcoin in real-time?\""
+ ],
+ "4": [
+  "1. \"How do I defeat the final boss in Dark Souls III?\"",
+  "2. \"What are the best strategies for building a successful city in Cities: Skylines?\"",
+  "3. \"Is there a way to level up quickly in World of Warcraft?\"",
+  "4. \"What are some tips for improving my aim in Overwatch?\"",
+  "5. \"Can someone explain the crafting system in Minecraft to me?\""
+ ],
+ "6": [
+  "1. \"How to install Ubuntu alongside Windows 10 on a dual-boot system?\"",
+  "2. \"Why is my Ubuntu system running slow after the latest update?\"",
+  "3. \"What is the best way to backup my files on Ubuntu?\"",
+  "4. \"How to fix 'No Wi-Fi Adapter Found' error on Ubuntu 20.04?\"",
+  "5. \"Is it possible to run Windows software on Ubuntu using Wine?\""
+ ],
+ "1": [
+  "1. \"How can I effectively manage my time as a graduate student juggling coursework and research?\"",
+  "2. \"What are some strategies for dealing with imposter syndrome in academia?\"",
+  "3. \"Is it common for professors to collaborate with undergraduate students on research projects?\"",
+  "4. \"What are the best practices for writing a literature review for a research paper?\"",
+  "5. \"How can I improve my academic writing skills to publish in reputable journals?\""
+ ],
+ "5": [
+  "1. \"What are the current trends in natural language processing algorithms?\"",
+  "2. \"How can machine learning be used to improve medical diagnosis accuracy?\"",
+  "3. \"What are the ethical implications of using AI in autonomous vehicles?\"",
+  "4. \"Can reinforcement learning be applied to optimize supply chain management?\"",
+  "5. \"What are the limitations of deep learning models in image recognition tasks?\""
+ ],
+ "9": [
+  "1. \"How does photosynthesis work in plants?\" - Biology StackExchange",
+  "2. \"What is the difference between mitosis and meiosis?\" - Biology StackExchange",
+  "3. \"Can viruses be considered living organisms?\" - Biology StackExchange",
+  "4. \"What are the benefits of biodiversity in an ecosystem?\" - Biology StackExchange",
+  "5. \"How do antibiotics work to kill bacteria?\" - Biology StackExchange"
+ ],
+ "8": [
+  "1. How do different interpretations of the creation story in Genesis affect our understanding of the origins of the universe?",
+  "2. What is the significance of the number seven in the book of Revelation?",
+  "3. Can you explain the cultural context behind the parable of the Good Samaritan in Luke 10:25-37?",
+  "4. How do scholars reconcile the differing accounts of Jesus' resurrection in the four Gospels?",
+  "5. What is the symbolism behind the use of water in the story of Jesus walking on water in Matthew 14:22-33?"
+ ],
+ "3": [
+  "1. \"How can I fix the 'Unfortunately, Google Play Services has stopped' error on my Samsung Galaxy S9?\"",
+  "2. \"What are the best apps for tracking my daily water intake on my Google Pixel 4?\"",
+  "3. \"Is it possible to transfer WhatsApp messages from an iPhone to a Samsung Galaxy Note 10+?\"",
+  "4. \"Why does my OnePlus 7 Pro keep restarting on its own after the latest software update?\"",
+  "5. \"What are the steps to enable developer options on a Huawei P30 Pro?\""
+ ],
+ "11": [
+  "1. \"What is the difference between traditional and simplified Chinese characters?\"",
+  "2. \"How do you say 'hello' in Mandarin Chinese?\"",
+  "3. \"Can someone help me with the pronunciation of this Chinese character?\"",
+  "4. \"What are some common Chinese idioms and their meanings?\"",
+  "5. \"How can I improve my Chinese writing skills?\""
+ ],
+ "12": [
+  "1. \"What is the significance of baptism in the Christian faith?\"",
+  "2. \"How do different denominations interpret the concept of original sin?\"",
+  "3. \"Can a person be both Christian and believe in evolution?\"",
+  "4. \"What are the key differences between Catholicism and Protestantism?\"",
+  "5. \"How does the concept of forgiveness play a role in Christian teachings?\""
+ ],
+ "14": [
+  "1. \"What is the time complexity of the quicksort algorithm?\"",
+  "2. \"How can I optimize my code to reduce its space complexity?\"",
+  "3. \"What is the difference between dynamic programming and greedy algorithms?\"",
+  "4. \"Can someone explain the concept of NP-completeness to me?\"",
+  "5. \"How can I implement Dijkstra's algorithm in Python for finding the shortest path in a graph?\""
+ ],
+ "17": [
+  "1. \"How can I create a custom module in Drupal 8?\"",
+  "2. \"What are the best practices for optimizing a Drupal website for performance?\"",
+  "3. \"Is it possible to integrate a third-party API with Drupal?\"",
+  "4. \"How can I troubleshoot and fix errors in my Drupal theme?\"",
+  "5. \"What are the differences between Drupal 7 and Drupal 8 in terms of features and functionality?\""
+ ],
+ "15": [
+  "1. \"How to choose the right statistical test for my data analysis?\" - Cross Validated",
+  "2. \"What is the difference between overfitting and underfitting in machine learning?\" - Cross Validated",
+  "3. \"How can I interpret the p-value in hypothesis testing?\" - Cross Validated",
+  "4. \"What are some common techniques for feature selection in data analysis?\" - Cross Validated",
+  "5. \"Can someone explain the concept of bias-variance tradeoff in machine learning?\" - Cross Validated"
+ ],
+ "18": [
+  "1. \"How does supply and demand affect the price of goods in a competitive market?\"",
+  "2. \"What are the key differences between fiscal and monetary policy in managing the economy?\"",
+  "3. \"Can you explain the concept of opportunity cost and how it influences decision-making?\"",
+  "4. \"What are the main factors that contribute to economic growth in developing countries?\"",
+  "5. \"How do externalities impact market efficiency and what are some potential solutions to address them?\""
+ ],
+ "16": [
+  "1. \"How can I use machine learning algorithms to predict customer churn in my business?\"",
+  "2. \"What are the best tools for cleaning and preprocessing messy data sets?\"",
+  "3. \"Is there a way to automate the process of feature selection in a machine learning model?\"",
+  "4. \"What are some popular open-source libraries for performing data analysis in Python?\"",
+  "5. \"How can I effectively visualize high-dimensional data for better insights?\""
+ ],
+ "13": [
+  "1. \"How can I implement a ray tracing algorithm in C++ for realistic lighting effects?\"",
+  "2. \"What are the best practices for optimizing a shader program for real-time rendering?\"",
+  "3. \"Is there a way to achieve a watercolor effect in OpenGL without using external libraries?\"",
+  "4. \"What are the differences between rasterization and ray tracing in terms of rendering quality and performance?\"",
+  "5. \"How can I create a realistic fur texture for a 3D model using procedural generation techniques?\""
+ ],
+ "19": [
+  "1. \"What is the difference between 'affect' and 'effect' in English grammar?\"",
+  "2. \"Can someone explain the origin of the phrase 'barking up the wrong tree'?\"",
+  "3. \"Is it grammatically correct to end a sentence with a preposition?\"",
+  "4. \"How do you use the word 'whom' correctly in a sentence?\"",
+  "5. \"What is the proper way to use semicolons in writing?\""
+ ],
+ "20": [
+  "1. \"How can I create a smart contract on the Ethereum blockchain?\"",
+  "2. \"What are the advantages of using Ethereum for decentralized applications?\"",
+  "3. \"Is it possible to mine Ethereum using a regular computer?\"",
+  "4. \"What are some popular decentralized applications built on the Ethereum platform?\"",
+  "5. \"How can I securely store my Ethereum tokens in a hardware wallet?\""
+ ],
+ "21": [
+  "1. \"Can I work remotely for a US company while living in Spain on a student visa?\"",
+  "2. \"What are the requirements for obtaining permanent residency in Canada as an expatriate?\"",
+  "3. \"How can I transfer my work visa from the UK to Australia?\"",
+  "4. \"Is it possible to bring my spouse and children with me on a work assignment in Japan?\"",
+  "5. \"What are the best countries for expatriates to retire in for tax purposes?\""
+ ],
+ "25": [
+  "1. \"How often should I water my succulents in the winter?\" - Gardening & Landscaping",
+  "2. \"What are some low-maintenance plants for a beginner gardener?\" - Gardening & Landscaping",
+  "3. \"How can I prevent pests from destroying my vegetable garden?\" - Gardening & Landscaping",
+  "4. \"What are the best flowers to plant for a colorful spring garden?\" - Gardening & Landscaping",
+  "5. \"What is the best way to improve the soil quality in my backyard?\" - Gardening & Landscaping"
+ ],
+ "27": [
+  "1. \"What is the difference between 'sehr' and 'viel' in German?\"",
+  "2. \"How do you conjugate the verb 'sprechen' in the past tense?\"",
+  "3. \"Can someone explain the use of the dative case in German?\"",
+  "4. \"What are some common false friends between English and German?\"",
+  "5. \"How do you form the plural of compound nouns in German?\""
+ ],
+ "23": [
+  "1. \"What is the difference between 'c'est' and 'il est' in French?\"",
+  "2. \"How do you conjugate the verb 'aller' in the past tense?\"",
+  "3. \"Can someone explain the use of the subjunctive mood in French?\"",
+  "4. \"What are some common French idioms and their meanings?\"",
+  "5. \"How do you pronounce the letter 'r' in French?\""
+ ],
+ "26": [
+  "1. \"How can I find information about my great-grandfather's military service during World War II?\"",
+  "2. \"What are the best online resources for researching my family's immigration records?\"",
+  "3. \"I'm trying to track down living relatives in Italy - any tips on how to find them?\"",
+  "4. \"What is the best way to organize and document my family tree for future generations?\"",
+  "5. \"Has anyone had success using DNA testing for genealogical research?\""
+ ],
+ "30": [
+  "1. \"What impact did the Industrial Revolution have on society in the 19th century?\"",
+  "2. \"Who were the key players in the American Civil Rights Movement?\"",
+  "3. \"How did the fall of the Roman Empire affect Europe in the Middle Ages?\"",
+  "4. \"What were the causes of World War I and how did it change the world?\"",
+  "5. \"What role did women play in the French Revolution?\""
+ ],
+ "29": [
+  "1. Best graphics card for gaming on a budget?",
+  "2. Recommended laptop for graphic design work?",
+  "3. Looking for a reliable external hard drive for backing up files.",
+  "4. Need suggestions for a high-quality webcam for video conferencing.",
+  "5. What is the best printer for home office use?"
+ ],
+ "24": [
+  "1. \"How can I optimize my game's performance in Unity?\" - Game Development Stack Exchange",
+  "2. \"What are some best practices for designing a mobile game interface?\" - Game Development Stack Exchange",
+  "3. \"Is it better to use a pre-built game engine or create one from scratch?\" - Game Development Stack Exchange",
+  "4. \"How can I implement multiplayer functionality in my game using Unreal Engine?\" - Game Development Stack Exchange",
+  "5. \"What are some common pitfalls to avoid when developing a game for VR?\" - Game Development Stack Exchange"
+ ],
+ "22": [
+  "1. \"How can I create a custom template in ExpressionEngine?\"",
+  "2. \"What are the best add-ons for SEO in ExpressionEngine?\"",
+  "3. \"Is it possible to integrate a third-party plugin with ExpressionEngine?\"",
+  "4. \"How can I optimize my ExpressionEngine website for speed?\"",
+  "5. \"What are the differences between ExpressionEngine and other CMS platforms like WordPress?\""
+ ],
+ "28": [
+  "1. \"How can I create a visually appealing logo for my new business?\"",
+  "2. \"What are some common mistakes to avoid when designing a website layout?\"",
+  "3. \"Can anyone recommend a good software for creating infographics?\"",
+  "4. \"What are some tips for choosing the right font pairings for a project?\"",
+  "5. \"How can I improve the readability of my designs for people with visual impairments?\""
+ ],
+ "33": [
+  "1. \"What are the main teachings of the Bhagavad Gita?\"",
+  "2. \"How do Hindus celebrate Diwali in different parts of India?\"",
+  "3. \"Can someone explain the concept of karma in Hinduism?\"",
+  "4. \"What are the different forms of worship in Hinduism?\"",
+  "5. \"Is it necessary to follow a specific diet in Hinduism?\""
+ ],
+ "31": [
+  "1. \"What were the key contributions of ancient Greek mathematicians to the field of geometry?\"",
+  "2. \"How did the Scientific Revolution in the 16th and 17th centuries impact the development of modern science?\"",
+  "3. \"Who were some influential female scientists in history and what were their contributions to the field?\"",
+  "4. \"What role did Islamic scholars play in preserving and advancing knowledge in mathematics and science during the Middle Ages?\"",
+  "5. \"How did the discovery of the heliocentric model of the solar system by Copernicus challenge existing beliefs in the 16th century?\""
+ ],
+ "32": [
+  "1. \"How can I improve the clarity of my homebrewed cider?\"",
+  "2. \"What is the best way to store homemade mead for long-term aging?\"",
+  "3. \"Looking for recommendations on a beginner-friendly beer brewing kit.\"",
+  "4. \"What are some common mistakes to avoid when making homemade kombucha?\"",
+  "5. \"Seeking advice on how to adjust the bitterness level in my IPA recipe.\""
+ ],
+ "34": [
+  "1. \"How can I protect my personal data from hackers when using public Wi-Fi networks?\"",
+  "2. \"What are the best practices for securing a company's internal network from external threats?\"",
+  "3. \"Is it safe to use a password manager to store all of my login credentials?\"",
+  "4. \"What steps should I take to prevent phishing attacks on my email account?\"",
+  "5. \"How can I test the security of my website to ensure it is protected against potential cyber attacks?\""
+ ],
+ "36": [
+  "1. \"What are the five pillars of Islam and why are they important?\"",
+  "2. \"Can women lead prayers in Islam?\"",
+  "3. \"Is it permissible to listen to music in Islam?\"",
+  "4. \"What is the significance of fasting during Ramadan in Islam?\"",
+  "5. \"How does Islamic law address issues of inheritance and property rights?\""
+ ],
+ "35": [
+  "1. How can I politely decline a social invitation without hurting someone's feelings?",
+  "2. What are some strategies for dealing with a difficult coworker in a professional manner?",
+  "3. How can I improve my active listening skills in conversations with friends and family?",
+  "4. What is the best way to approach a friend who is constantly interrupting me during conversations?",
+  "5. How can I set boundaries with a family member who is always asking for favors?"
+ ],
+ "39": [
+  "1. \"How can I customize the template in Joomla to match my brand's colors?\"",
+  "2. \"What are the best plugins for SEO optimization in Joomla?\"",
+  "3. \"Is it possible to integrate a payment gateway into a Joomla website?\"",
+  "4. \"How can I create a multilingual website using Joomla?\"",
+  "5. \"What are the steps to migrate a website from WordPress to Joomla?\""
+ ],
+ "40": [
+  "1. \"What is the significance of the mezuzah in Jewish homes?\"",
+  "2. \"Can someone explain the concept of tikkun olam in Judaism?\"",
+  "3. \"How do Jews observe the Sabbath in modern times?\"",
+  "4. \"What are the dietary restrictions in traditional Jewish law?\"",
+  "5. \"Why is the Passover Seder meal so important in Jewish tradition?\""
+ ],
+ "37": [
+  "1. \"What is the difference between 'tu' and 'lei' in Italian?\"",
+  "2. \"How do you conjugate the verb 'essere' in the past tense?\"",
+  "3. \"Can someone explain the use of the subjunctive mood in Italian?\"",
+  "4. \"What are some common Italian idioms and their meanings?\"",
+  "5. \"How do you pronounce the letter 'c' in Italian?\""
+ ],
+ "43": [
+  "1. \"Can a landlord evict a tenant without proper notice in California?\"",
+  "2. \"What are the legal requirements for forming a business partnership in the UK?\"",
+  "3. \"How can I dispute a traffic ticket in New York City?\"",
+  "4. \"What are the consequences of copyright infringement in Australia?\"",
+  "5. \"Is it legal to record a conversation without consent in Canada?\""
+ ],
+ "42": [
+  "1. \"What is the difference between 'amo' and 'diligo' in Latin?\"",
+  "2. \"How do you conjugate the verb 'sum' in the present tense?\"",
+  "3. \"Can someone explain the use of the ablative case in Latin sentences?\"",
+  "4. \"What are some common Latin phrases used in legal documents?\"",
+  "5. \"How do you translate the phrase 'carpe diem' into English?\""
+ ],
+ "41": [
+  "1. \"What are the most effective strategies for memorizing vocabulary in a new language?\"",
+  "2. \"How can I improve my pronunciation in Spanish without a tutor?\"",
+  "3. \"Are language exchange programs a good way to practice speaking skills?\"",
+  "4. \"What are some online resources for learning grammar in French?\"",
+  "5. \"How can I stay motivated while learning a new language on my own?\""
+ ],
+ "38": [
+  "1. \"What is the difference between \u306f and \u304c in Japanese grammar?\"",
+  "2. \"How do you say 'I love you' in Japanese?\"",
+  "3. \"Can someone explain the use of particles in Japanese sentences?\"",
+  "4. \"What is the correct way to address someone in Japanese?\"",
+  "5. \"How do you conjugate verbs in Japanese for past tense?\""
+ ],
+ "44": [
+  "1. \"What is the difference between syntax and semantics in linguistics?\"",
+  "2. \"How do linguists determine the origins of a language?\"",
+  "3. \"Can sign language be considered a true language in linguistics?\"",
+  "4. \"What role does phonetics play in the study of linguistics?\"",
+  "5. \"Are there universal grammar rules that apply to all languages in linguistics?\""
+ ],
+ "45": [
+  "1. \"How do I find the derivative of e^x using the chain rule?\" - Mathematics Stack Exchange",
+  "2. \"What is the difference between a prime number and a composite number?\" - MathOverflow",
+  "3. \"Can someone explain the concept of limits in calculus to me?\" - Mathematics Educators Stack Exchange",
+  "4. \"What is the Pythagorean theorem and how is it used in geometry?\" - Math Stack Exchange",
+  "5. \"How can I solve a system of linear equations using matrices?\" - Cross Validated"
+ ],
+ "46": [
+  "1. \"How can I incorporate real-world examples into my algebra lessons to make them more engaging for students?\"",
+  "2. \"What are some effective ways to assess student understanding of geometric concepts in a middle school classroom?\"",
+  "3. \"What are the benefits of using manipulatives in teaching fractions to elementary school students?\"",
+  "4. \"How can I differentiate instruction for students with varying levels of mathematical proficiency in a high school calculus class?\"",
+  "5. \"What are some strategies for promoting a growth mindset in students who struggle with math anxiety?\""
+ ],
+ "47": [
+  "1. \"Can stress cause physical symptoms like headaches and stomach pain?\"",
+  "2. \"What are the most effective treatments for chronic back pain?\"",
+  "3. \"Is it safe to take herbal supplements while pregnant?\"",
+  "4. \"How can I improve my sleep quality without medication?\"",
+  "5. \"What are the early warning signs of a heart attack?\""
+ ],
+ "49": [
+  "1. \"What are some must-watch movies for fans of science fiction?\" - Movies & TV",
+  "2. \"Can anyone recommend a good mystery TV series to binge-watch?\" - Movies & TV",
+  "3. \"How accurate is the portrayal of hacking in the TV show Mr. Robot?\" - Movies & TV",
+  "4. \"What are some underrated indie films that deserve more recognition?\" - Movies & TV",
+  "5. \"Is it worth watching the extended edition of The Lord of the Rings trilogy?\" - Movies & TV"
+ ],
+ "48": [
+  "1. \"How do I change the oil in my Toyota Camry?\" - Motor Vehicle Maintenance & Repair",
+  "2. \"Why is my car making a strange noise when I accelerate?\" - Motor Vehicle Maintenance & Repair",
+  "3. \"What is the best way to clean and polish my car's headlights?\" - Motor Vehicle Maintenance & Repair",
+  "4. \"How can I fix a flat tire on my bicycle?\" - Motor Vehicle Maintenance & Repair",
+  "5. \"What are the signs that my car's brakes need to be replaced?\" - Motor Vehicle Maintenance & Repair"
+ ],
+ "50": [
+  "1. \"What was the inspiration behind The Beatles' iconic album 'Sgt. Pepper's Lonely Hearts Club Band'?\"",
+  "2. \"Can anyone recommend some lesser-known indie rock bands similar to Arctic Monkeys?\"",
+  "3. \"What are some essential jazz albums every music fan should listen to?\"",
+  "4. \"Who are some up-and-coming female hip-hop artists making waves in the industry?\"",
+  "5. \"What are the origins of reggae music and its influence on popular culture?\""
+ ],
+ "51": [
+  "1. \"How can I improve my sight-reading skills on the piano?\"",
+  "2. \"What are some tips for composing a catchy melody?\"",
+  "3. \"Can someone explain the concept of harmonic analysis in music theory?\"",
+  "4. \"What are the best exercises for improving finger dexterity on the guitar?\"",
+  "5. \"How can I effectively practice scales on the violin to improve my technique?\""
+ ],
+ "52": [
+  "1. \"What is the significance of the phoenix in Greek mythology?\"",
+  "2. \"Are there any Norse myths that involve shape-shifting animals?\"",
+  "3. \"Can someone explain the story of the Monkey King in Chinese folklore?\"",
+  "4. \"What are some common themes found in Native American creation myths?\"",
+  "5. \"How do different cultures interpret the legend of the Loch Ness Monster?\""
+ ],
+ "54": [
+  "1. \"Where can I find open data sets on global climate change for my research project?\"",
+  "2. \"What are the best practices for cleaning and preparing open data for analysis?\"",
+  "3. \"How can I contribute my own open data sets to a public repository?\"",
+  "4. \"Are there any tools or platforms available for visualizing open data in interactive maps?\"",
+  "5. \"What are the legal implications of using open data for commercial purposes?\""
+ ],
+ "55": [
+  "1. \"What are the key differences between the GPL and Apache licenses?\"",
+  "2. \"How can I contribute to an open source project on GitHub?\"",
+  "3. \"What are some popular open source alternatives to Microsoft Office?\"",
+  "4. \"How can I ensure my project complies with open source licensing requirements?\"",
+  "5. \"What are the benefits of using open source software for a small business?\""
+ ],
+ "53": [
+  "1. \"How can I optimize my network for better performance and reliability?\"",
+  "2. \"What are the best practices for securing a wireless network?\"",
+  "3. \"How do I troubleshoot network latency issues in my office?\"",
+  "4. \"What is the difference between TCP and UDP protocols?\"",
+  "5. \"Can someone explain the concept of VLANs and how they work in a network environment?\""
+ ],
+ "56": [
+  "1. \"How can I encourage my toddler to eat more vegetables?\"",
+  "2. \"What are some effective strategies for managing sibling rivalry?\"",
+  "3. \"Is it normal for my teenager to be experiencing mood swings?\"",
+  "4. \"What are some age-appropriate chores for my 8-year-old?\"",
+  "5. \"How can I help my child cope with the stress of starting a new school?\""
+ ],
+ "60": [
+  "1. \"What is the difference between deductive and inductive reasoning in philosophy?\"",
+  "2. \"Can someone explain the concept of existentialism in simple terms?\"",
+  "3. \"How did Aristotle's philosophy influence Western thought?\"",
+  "4. \"Is it possible to prove the existence of God through logical arguments?\"",
+  "5. \"What are some key differences between Eastern and Western philosophical traditions?\""
+ ],
+ "61": [
+  "1. \"What is the best camera for beginner photographers on a budget?\"",
+  "2. \"How can I achieve a bokeh effect in my portraits?\"",
+  "3. \"What are the advantages of shooting in RAW format versus JPEG?\"",
+  "4. \"How do I properly clean and maintain my camera lenses?\"",
+  "5. \"What are some tips for capturing stunning landscape photos?\""
+ ],
+ "57": [
+  "1. \"Can I patent a software algorithm that I developed for my startup?\"",
+  "2. \"What is the process for filing a patent for a new medical device?\"",
+  "3. \"How can I protect my invention from being copied by competitors without a patent?\"",
+  "4. \"Are there any alternatives to obtaining a patent for my new product idea?\"",
+  "5. \"What are the potential consequences of infringing on someone else's patent?\""
+ ],
+ "62": [
+  "1. \"What are the best exercises for building muscle mass?\" - Physical Fitness StackExchange",
+  "2. \"How can I improve my running endurance?\" - Physical Fitness StackExchange",
+  "3. \"Is it better to do cardio before or after weightlifting?\" - Physical Fitness StackExchange",
+  "4. \"What are some effective core strengthening exercises?\" - Physical Fitness StackExchange",
+  "5. \"How often should I be stretching to improve flexibility?\" - Physical Fitness StackExchange"
+ ],
+ "58": [
+  "1. \"How can I create a budget that works for me and helps me save money?\"",
+  "2. \"What are some good investment options for someone just starting out in the stock market?\"",
+  "3. \"I'm thinking about buying a house - what are some tips for getting a mortgage with a low interest rate?\"",
+  "4. \"What are the best ways to pay off student loans quickly and efficiently?\"",
+  "5. \"How can I protect my credit score and improve my financial health in the long term?\""
+ ],
+ "59": [
+  "1. \"How can I train my dog to stop barking at strangers?\" - Pets StackExchange",
+  "2. \"Is it safe to give my cat tuna as a treat?\" - Pets StackExchange",
+  "3. \"What are some ways to help my aging hamster stay comfortable?\" - Pets StackExchange",
+  "4. \"My rabbit keeps chewing on electrical cords, how can I stop this behavior?\" - Pets StackExchange",
+  "5. \"What are the best toys for keeping my energetic puppy entertained?\" - Pets StackExchange"
+ ],
+ "66": [
+  "1. \"What are the key differences between Agile and Waterfall project management methodologies?\"",
+  "2. \"How can I effectively track and manage project tasks using a Gantt chart?\"",
+  "3. \"What are some best practices for conducting project status meetings with stakeholders?\"",
+  "4. \"How can I improve team communication and collaboration in a remote project management setting?\"",
+  "5. \"What are the benefits of using project management software like Asana or Trello for small businesses?\""
+ ],
+ "64": [
+  "1. \"What is the best starting hand in Texas Hold'em poker?\"",
+  "2. \"Can you explain the concept of pot odds in poker?\"",
+  "3. \"How do you calculate your expected value in a poker hand?\"",
+  "4. \"What is the difference between a cash game and a tournament in poker?\"",
+  "5. \"Can you recommend any resources for improving my poker game online?\""
+ ],
+ "67": [
+  "1. \"How can I solve the famous Monty Hall problem?\"",
+  "2. \"What is the next number in this sequence: 1, 4, 9, 16, __?\"",
+  "3. \"Can you help me crack this cryptic crossword clue?\"",
+  "4. \"What is the missing piece in this jigsaw puzzle?\"",
+  "5. \"Looking for tips on how to solve a Rubik's Cube faster.\""
+ ],
+ "63": [
+  "1. \"Can someone explain the concept of quantum entanglement in simple terms?\"",
+  "2. \"What are the practical applications of Newton's laws of motion in everyday life?\"",
+  "3. \"How does the theory of relativity explain the bending of light around massive objects?\"",
+  "4. \"What is the difference between kinetic and potential energy in a system?\"",
+  "5. \"How does the Doppler effect affect the perception of sound waves in different mediums?\""
+ ],
+ "68": [
+  "1. \"How can I calculate the value at risk for my portfolio using historical simulation?\"",
+  "2. \"What are the key differences between Black-Scholes and binomial option pricing models?\"",
+  "3. \"How can I implement a Monte Carlo simulation to price a complex derivative product?\"",
+  "4. \"What are the best practices for backtesting a trading strategy using historical data?\"",
+  "5. \"How can I use machine learning algorithms to predict stock price movements?\""
+ ],
+ "69": [
+  "1. \"How can I implement a quantum teleportation algorithm in Qiskit?\"",
+  "2. \"What are the advantages of using quantum annealing for optimization problems?\"",
+  "3. \"Can quantum computers solve NP-complete problems in polynomial time?\"",
+  "4. \"How does quantum entanglement enable faster communication?\"",
+  "5. \"What are the limitations of current quantum computing hardware?\""
+ ],
+ "70": [
+  "1. \"How can I set up a VPN server on my Raspberry Pi?\"",
+  "2. \"What is the best operating system for running a media server on Raspberry Pi?\"",
+  "3. \"Is it possible to use a Raspberry Pi as a home automation hub?\"",
+  "4. \"Troubleshooting guide for Raspberry Pi not booting up.\"",
+  "5. \"Recommendations for beginner projects to try on Raspberry Pi.\""
+ ],
+ "71": [
+  "1. \"How can I restore my old Commodore 64 to its former glory?\"",
+  "2. \"What was the first commercially available personal computer?\"",
+  "3. \"Looking for recommendations on where to find vintage software for my Apple IIe.\"",
+  "4. \"What are some common issues to look out for when buying a vintage computer online?\"",
+  "5. \"Discussing the impact of the IBM PC on the history of computing.\""
+ ],
+ "65": [
+  "1. \"What are the main differences between socialism and communism?\"",
+  "2. \"How does the electoral college system work in the United States?\"",
+  "3. \"What impact does gerrymandering have on the fairness of elections?\"",
+  "4. \"What are the key factors influencing voter turnout in elections?\"",
+  "5. \"How has the rise of populism affected global politics in recent years?\""
+ ],
+ "72": [
+  "1. \"How can I reverse engineer a proprietary file format in a software application?\"",
+  "2. \"What tools can I use to reverse engineer a firmware update for a device?\"",
+  "3. \"Is it legal to reverse engineer a software program for research purposes?\"",
+  "4. \"Can someone explain the process of reverse engineering a network protocol?\"",
+  "5. \"What are the ethical considerations when reverse engineering a competitor's product?\""
+ ],
+ "75": [
+  "1. \"What is the difference between '\u0431\u044b\u043b' and '\u0431\u044b\u043b\u043e' in Russian grammar?\"",
+  "2. \"How do you conjugate the verb '\u0438\u0434\u0442\u0438' in the past tense?\"",
+  "3. \"Can someone explain the use of the genitive case in Russian?\"",
+  "4. \"What are some common mistakes English speakers make when learning Russian?\"",
+  "5. \"How do you pronounce the letter '\u044b' in Russian?\""
+ ],
+ "73": [
+  "1. \"How can I improve the accuracy of my robot arm's movements?\"",
+  "2. \"What are the best sensors to use for obstacle detection in a mobile robot?\"",
+  "3. \"Is it possible to program a robot to learn from its mistakes?\"",
+  "4. \"What are the key considerations when designing a robot for underwater exploration?\"",
+  "5. \"How can I optimize the path planning algorithm for my autonomous drone?\""
+ ],
+ "74": [
+  "1. \"How do I handle a player who constantly tries to derail the campaign in my Dungeons and Dragons game?\"",
+  "2. \"What are some tips for creating a compelling backstory for my character in a Call of Cthulhu campaign?\"",
+  "3. \"Can someone explain the differences between the various editions of Pathfinder and which one is best for beginners?\"",
+  "4. \"What are some creative ways to incorporate puzzles into a Vampire: The Masquerade session?\"",
+  "5. \"Is it possible to run a successful one-shot adventure in Savage Worlds without a lot of prep work?\""
+ ],
+ "76": [
+  "1. \"What is the significance of the red wedding in Game of Thrones?\"",
+  "2. \"Can anyone help me identify this book about a group of teenagers with superpowers?\"",
+  "3. \"How does time travel work in the Harry Potter universe?\"",
+  "4. \"What are some must-read science fiction novels for beginners?\"",
+  "5. \"Why do some fans believe that Darth Vader is a tragic hero in Star Wars?\""
+ ],
+ "77": [
+  "1. \"How can I implement a parallel algorithm for solving large linear systems in Python?\" - StackOverflow",
+  "2. \"What are the advantages of using finite element methods for solving partial differential equations?\" - Computational Science",
+  "3. \"How can I optimize my code for solving eigenvalue problems using the Lanczos algorithm?\" - MathOverflow",
+  "4. \"What are the best practices for numerical integration in MATLAB?\" - Computational Science",
+  "5. \"How can I efficiently solve large-scale optimization problems using gradient descent methods?\" - Cross Validated"
+ ],
+ "78": [
+  "1. \"How to troubleshoot network connectivity issues on a Windows server?\"",
+  "2. \"Best practices for securing a Linux server against cyber attacks.\"",
+  "3. \"Recommendations for setting up a backup solution for a small business server.\"",
+  "4. \"How to optimize server performance for a high-traffic website.\"",
+  "5. \"Dealing with disk space issues on a server running out of storage.\""
+ ],
+ "79": [
+  "1. \"How can I create a custom workflow in SharePoint Online?\"",
+  "2. \"What are the best practices for managing permissions in SharePoint?\"",
+  "3. \"Is it possible to integrate SharePoint with other Microsoft products like Teams?\"",
+  "4. \"What are some tips for improving search functionality in SharePoint?\"",
+  "5. \"How can I troubleshoot performance issues in my SharePoint site?\""
+ ],
+ "80": [
+  "1. \"How can I create a custom workflow in Sitecore?\"",
+  "2. \"What is the best way to integrate Sitecore with Salesforce?\"",
+  "3. \"Troubleshooting slow performance in Sitecore Experience Editor.\"",
+  "4. \"Recommendations for optimizing Sitecore for mobile devices.\"",
+  "5. \"How to set up personalization rules in Sitecore for targeted content delivery?\""
+ ],
+ "81": [
+  "1. \"Is it true that drinking coffee can stunt your growth?\"",
+  "2. \"Can wearing a copper bracelet really help with arthritis pain?\"",
+  "3. \"Do detox diets actually remove toxins from the body?\"",
+  "4. \"Is it possible to cure a cold by taking high doses of vitamin C?\"",
+  "5. \"Are organic foods really healthier than conventionally grown foods?\""
+ ],
+ "83": [
+  "1. \"What is the difference between 'ser' and 'estar' in Spanish?\"",
+  "2. \"How do you conjugate the verb 'hablar' in the present tense?\"",
+  "3. \"Can someone explain the use of the subjunctive mood in Spanish?\"",
+  "4. \"What are some common false cognates in Spanish?\"",
+  "5. \"How do you say 'I love you' in Spanish?\""
+ ],
+ "82": [
+  "1. \"Looking for a reliable project management software for a small team of 5 people.\"",
+  "2. \"Best video editing software for beginners on a budget?\"",
+  "3. \"Recommendations for a user-friendly CRM software for a startup business.\"",
+  "4. \"Need a secure password manager app for both desktop and mobile devices.\"",
+  "5. \"Seeking recommendations for a time tracking software with invoicing capabilities.\""
+ ],
+ "86": [
+  "1. \"How can I efficiently sort a large dataset in Python?\" - Stack Overflow",
+  "2. \"What is the best way to handle errors in JavaScript?\" - Stack Overflow",
+  "3. \"How do I implement a responsive design using CSS Grid?\" - Stack Overflow",
+  "4. \"What are the benefits of using a framework like React for web development?\" - Stack Overflow",
+  "5. \"How can I optimize my SQL queries for better performance?\" - Stack Overflow"
+ ],
+ "84": [
+  "1. \"What are the main challenges of sending humans to Mars?\" - Space Exploration",
+  "2. \"How do spacecraft navigate in deep space without GPS?\" - Space Exploration",
+  "3. \"What advancements in propulsion technology are being developed for interstellar travel?\" - Space Exploration",
+  "4. \"How do scientists plan and execute missions to study asteroids and comets?\" - Space Exploration",
+  "5. \"What are the potential benefits of establishing a permanent human presence on the Moon?\" - Space Exploration"
+ ],
+ "85": [
+  "1. \"What are the basic rules of basketball and how can I improve my shooting technique?\"",
+  "2. \"How do I properly grip a tennis racket and what are the different types of serves in tennis?\"",
+  "3. \"Can someone explain the offside rule in soccer and how it is enforced by referees?\"",
+  "4. \"What are the key differences between a road bike and a mountain bike, and how do I choose the right one for my needs?\"",
+  "5. \"How do I properly throw a spiral in football and what are the different positions on a football team?\""
+ ],
+ "87": [
+  "1. Python\u306e\u30ea\u30b9\u30c8\u304b\u3089\u91cd\u8907\u3059\u308b\u8981\u7d20\u3092\u524a\u9664\u3059\u308b\u65b9\u6cd5\u306f\uff1f",
+  "2. JavaScript\u3067\u914d\u5217\u3092\u30b7\u30e3\u30c3\u30d5\u30eb\u3059\u308b\u65b9\u6cd5\u306f\uff1f",
+  "3. SQL\u30af\u30a8\u30ea\u3067\u8907\u6570\u306e\u30c6\u30fc\u30d6\u30eb\u3092\u7d50\u5408\u3059\u308b\u65b9\u6cd5\u306f\uff1f",
+  "4. Ruby\u3067\u6587\u5b57\u5217\u3092\u9006\u9806\u306b\u3059\u308b\u65b9\u6cd5\u306f\uff1f",
+  "5. C++\u3067\u30d5\u30a1\u30a4\u30eb\u304b\u3089\u30c7\u30fc\u30bf\u3092\u8aad\u307f\u8fbc\u3080\u65b9\u6cd5\u306f\uff1f"
+ ],
+ "89": [
+  "1. \u041a\u0430\u043a \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u0446\u0438\u043a\u043b \u0432 Python \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u0431\u043e\u0440\u0430 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u043e\u0432 \u0441\u043f\u0438\u0441\u043a\u0430?",
+  "2. \u041a\u0430\u043a \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043d\u043e\u0432\u044b\u0439 \u0441\u0442\u043e\u043b\u0431\u0435\u0446 \u0432 pandas DataFrame?",
+  "3. \u041a\u0430\u043a \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0443 NumPy \u0432 Jupyter Notebook?",
+  "4. \u041a\u0430\u043a \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0446\u0432\u0435\u0442 \u0442\u0435\u043a\u0441\u0442\u0430 \u0432 Tkinter?",
+  "5. \u041a\u0430\u043a \u0440\u0435\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0443 \u0441\u043f\u0438\u0441\u043a\u0430 \u043f\u043e \u0434\u043b\u0438\u043d\u0435 \u0441\u0442\u0440\u043e\u043a \u0432 Python?"
+ ],
+ "90": [
+  "1. \u00bfC\u00f3mo puedo resolver un error de sintaxis en mi c\u00f3digo de Python?",
+  "2. \u00bfCu\u00e1l es la mejor manera de optimizar el rendimiento de una aplicaci\u00f3n web en Django?",
+  "3. \u00bfC\u00f3mo puedo implementar un algoritmo de b\u00fasqueda binaria en C++?",
+  "4. \u00bfQu\u00e9 es la programaci\u00f3n orientada a objetos y c\u00f3mo puedo aplicarla en Java?",
+  "5. \u00bfCu\u00e1l es la diferencia entre un bucle for y un bucle while en JavaScript?"
+ ],
+ "91": [
+  "1. \"How can I create a new asset on the Stellar network?\"",
+  "2. \"What are the advantages of using Stellar for cross-border payments?\"",
+  "3. \"Is it possible to integrate Stellar into an existing payment system?\"",
+  "4. \"How does Stellar's consensus mechanism differ from other blockchain platforms?\"",
+  "5. \"What are some best practices for securing Stellar wallets?\""
+ ],
+ "93": [
+  "1. \"How can I reduce my carbon footprint while still enjoying a comfortable lifestyle?\"",
+  "2. \"What are some sustainable alternatives to single-use plastics in everyday life?\"",
+  "3. \"Is it worth investing in solar panels for my home to reduce my energy consumption?\"",
+  "4. \"What are some easy ways to incorporate sustainable practices into my daily routine?\"",
+  "5. \"How can I support local farmers and reduce food waste in my community?\""
+ ],
+ "94": [
+  "1. \"How can I create a custom title page in LaTeX?\"",
+  "2. \"What is the best way to include graphics in a TeX document?\"",
+  "3. \"How do I change the font size in my LaTeX document?\"",
+  "4. \"Is there a way to automatically generate a table of contents in TeX?\"",
+  "5. \"What is the difference between TeX and LaTeX?\""
+ ],
+ "95": [
+  "1. \"Best lightweight backpacking tent recommendations for solo hikers?\"",
+  "2. \"Tips for staying safe while rock climbing in remote areas?\"",
+  "3. \"What are the best camping spots in the Pacific Northwest for fall foliage?\"",
+  "4. \"How to properly store food to prevent bear encounters while camping?\"",
+  "5. \"Recommended gear for winter hiking in the Rocky Mountains?\""
+ ],
+ "96": [
+  "1. \"How can I address a coworker who constantly interrupts me during meetings?\"",
+  "2. \"What is the best way to negotiate a salary increase with my employer?\"",
+  "3. \"How do I handle a difficult boss who is constantly micromanaging my work?\"",
+  "4. \"What are some strategies for dealing with workplace gossip and rumors?\"",
+  "5. \"How can I navigate office politics and build strong relationships with my colleagues?\""
+ ],
+ "92": [
+  "1. \"How do I fix a corrupted hard drive on Windows 10?\"",
+  "2. \"What is the best antivirus software for Mac computers?\"",
+  "3. \"How can I speed up my slow laptop running Windows 7?\"",
+  "4. \"Is it possible to upgrade the RAM on a MacBook Pro?\"",
+  "5. \"What is the difference between a solid state drive and a hard disk drive?\""
+ ],
+ "99": [
+  "1. \"How to create a custom page template in Tridion 2013 SP1?\"",
+  "2. \"Troubleshooting publishing failures in Tridion 9.5\"",
+  "3. \"Best practices for managing multimedia components in Tridion\"",
+  "4. \"Integration options for Tridion with third-party systems\"",
+  "5. \"Tips for optimizing performance in Tridion websites\""
+ ],
+ "97": [
+  "1. \"How can I configure Tor to work with my VPN for extra security?\"",
+  "2. \"Is it safe to use Tor for accessing sensitive information like online banking?\"",
+  "3. \"What are the potential risks of using Tor for browsing the dark web?\"",
+  "4. \"Can Tor be used on mobile devices like smartphones and tablets?\"",
+  "5. \"How can I set up a Tor relay to help support the network?\""
+ ],
+ "100": [
+  "1. \"What is the difference between the nominative and accusative cases in Ukrainian?\"",
+  "2. \"Can someone explain the rules for conjugating verbs in Ukrainian?\"",
+  "3. \"How do you say 'hello' in formal Ukrainian?\"",
+  "4. \"What are some common mistakes English speakers make when learning Ukrainian?\"",
+  "5. \"Are there any online resources for practicing Ukrainian pronunciation?\""
+ ],
+ "88": [
+  "1. Como posso resolver um erro de sintaxe no meu c\u00f3digo Python?",
+  "2. Qual \u00e9 a melhor maneira de implementar um algoritmo de ordena\u00e7\u00e3o em C++?",
+  "3. Estou tendo problemas ao integrar uma API em meu aplicativo Android, algu\u00e9m pode me ajudar?",
+  "4. Existe alguma biblioteca em JavaScript para manipula\u00e7\u00e3o de datas?",
+  "5. Como posso otimizar o desempenho do meu site feito em PHP?"
+ ],
+ "98": [
+  "1. \"Best way to travel from Paris to Rome on a budget?\"",
+  "2. \"Do I need a visa to visit Japan as a US citizen?\"",
+  "3. \"What are the must-see attractions in New York City for first-time visitors?\"",
+  "4. \"Tips for traveling solo in Southeast Asia as a female traveler?\"",
+  "5. \"How to plan a backpacking trip through Europe on a tight budget?\""
+ ],
+ "102": [
+  "1. \"Best software for color grading in Adobe Premiere Pro?\"",
+  "2. \"Recommendations for a budget-friendly DSLR camera for shooting short films?\"",
+  "3. \"Tips for creating smooth transitions in Final Cut Pro?\"",
+  "4. \"How to properly light a green screen for chroma keying?\"",
+  "5. \"Advice on recording high-quality audio for video interviews?\""
+ ],
+ "103": [
+  "1. \"How can I search and replace text in multiple files in Vim?\"",
+  "2. \"What are some useful plugins for improving productivity in Vim?\"",
+  "3. \"Is there a way to automatically indent code in Vim?\"",
+  "4. \"How can I customize my Vim color scheme?\"",
+  "5. \"What are some tips for navigating large files in Vim efficiently?\""
+ ],
+ "101": [
+  "1. \"How can I improve the navigation on my website to make it more user-friendly?\"",
+  "2. \"What are some best practices for conducting user testing on a mobile app?\"",
+  "3. \"Is it better to use a dropdown menu or a sidebar navigation for a website?\"",
+  "4. \"What are some common pitfalls to avoid when designing a user interface for an e-commerce site?\"",
+  "5. \"How can I gather feedback from users to improve the overall user experience of my product?\""
+ ],
+ "106": [
+  "1. \"How do I transfer photos from my Windows Phone to my computer?\"",
+  "2. \"Is there a way to customize the start screen on a Windows Phone?\"",
+  "3. \"What are some must-have apps for a Windows Phone user?\"",
+  "4. \"Why is my Windows Phone battery draining so quickly?\"",
+  "5. \"Can I sync my Windows Phone with my Outlook calendar?\""
+ ],
+ "104": [
+  "1. \"How can I schedule recurring emails in Gmail?\"",
+  "2. \"What is the best way to organize tasks in Trello for a team project?\"",
+  "3. \"Is there a way to export my Evernote notes to Google Drive?\"",
+  "4. \"How do I set up filters in Outlook to automatically sort my emails?\"",
+  "5. \"What are some tips for using Slack effectively for remote team communication?\""
+ ],
+ "105": [
+  "1. \"How can I improve my website's loading speed for better SEO rankings?\"",
+  "2. \"What are the best practices for setting up 301 redirects on my website?\"",
+  "3. \"Is it necessary to have a SSL certificate for my website's security?\"",
+  "4. \"What are the key factors to consider when choosing a web hosting provider?\"",
+  "5. \"How can I optimize my website for mobile devices to improve user experience?\""
+ ],
+ "107": [
+  "1. \"How can I create a realistic magic system for my fantasy world?\"",
+  "2. \"What are some key elements to consider when designing a futuristic society?\"",
+  "3. \"How can I develop a unique alien species for my science fiction novel?\"",
+  "4. \"What factors should I consider when designing a new political system for my world?\"",
+  "5. \"How can I create a believable map for my fictional world?\""
+ ],
+ "108": [
+  "1. \"How can I improve my dialogue writing skills in my novel?\"",
+  "2. \"What are some effective strategies for self-editing a manuscript?\"",
+  "3. \"Is it better to traditionally publish or self-publish a book in today's market?\"",
+  "4. \"What are some common pitfalls to avoid when writing a query letter to literary agents?\"",
+  "5. \"How can I develop a consistent writing routine to increase my productivity?\""
+ ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "massive_intent",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Request",
+      "definition": "Requests for information or definitions about various topics."
+    },
+    {
+      "id": 2,
+      "name": "Email Management",
+      "definition": "Commands related to sending, receiving, or managing emails."
+    },
+    {
+      "id": 3,
+      "name": "Calendar Management",
+      "definition": "Commands for scheduling, modifying, or deleting calendar events."
+    },
+    {
+      "id": 4,
+      "name": "Reminders",
+      "definition": "Requests to set, modify, or delete reminders."
+    },
+    {
+      "id": 5,
+      "name": "Music and Media Playback",
+      "definition": "Commands to play, pause, or manage music and media content."
+    },
+    {
+      "id": 6,
+      "name": "Home Automation",
+      "definition": "Commands to control smart home devices such as lights and plugs."
+    },
+    {
+      "id": 7,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or forecasted weather information."
+    },
+    {
+      "id": 8,
+      "name": "Travel and Transportation",
+      "definition": "Commands related to booking travel or transportation services."
+    },
+    {
+      "id": 9,
+      "name": "Task Management",
+      "definition": "Commands for creating, modifying, or deleting tasks and to-do lists."
+    },
+    {
+      "id": 10,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions or recipes."
+    },
+    {
+      "id": 11,
+      "name": "Health and Fitness",
+      "definition": "Requests for health tips or fitness-related information."
+    },
+    {
+      "id": 12,
+      "name": "Social Media Management",
+      "definition": "Commands related to posting or managing content on social media platforms."
+    },
+    {
+      "id": 13,
+      "name": "News Updates",
+      "definition": "Requests for the latest news or specific news topics."
+    },
+    {
+      "id": 14,
+      "name": "Shopping and Purchases",
+      "definition": "Commands related to shopping, including adding items to lists or making purchases."
+    },
+    {
+      "id": 15,
+      "name": "General Assistance",
+      "definition": "Miscellaneous requests for assistance or general inquiries."
+    },
+    {
+      "id": 16,
+      "name": "Entertainment Recommendations",
+      "definition": "Requests for suggestions on movies, shows, or other entertainment."
+    },
+    {
+      "id": 17,
+      "name": "Traffic and Navigation",
+      "definition": "Requests for traffic conditions or navigation assistance."
+    },
+    {
+      "id": 18,
+      "name": "Device Control",
+      "definition": "Commands to control or manage electronic devices."
+    },
+    {
+      "id": 19,
+      "name": "Personalization",
+      "definition": "Requests to customize settings or preferences."
+    },
+    {
+      "id": 20,
+      "name": "Feedback and Complaints",
+      "definition": "Commands related to providing feedback or lodging complaints."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "bench": "massive_intent",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar_Management",
+      "definition": "Creating, deleting, or modifying events and reminders on a calendar or to-do list."
+    },
+    {
+      "id": 2,
+      "name": "Communication_Email",
+      "definition": "Sending, checking, or managing emails and email contacts."
+    },
+    {
+      "id": 3,
+      "name": "Communication_Social",
+      "definition": "Posting status updates or sending messages via social media platforms like Twitter or Facebook."
+    },
+    {
+      "id": 4,
+      "name": "Device_Control",
+      "definition": "Controlling smart home devices, appliances, or system settings like lights, speakers, and plugs."
+    },
+    {
+      "id": 5,
+      "name": "Information_Factual",
+      "definition": "Requesting specific facts, definitions, calculations, or general knowledge about people, places, or things."
+    },
+    {
+      "id": 6,
+      "name": "Information_News",
+      "definition": "Requesting current news headlines, specific news topics, or updates on current events."
+    },
+    {
+      "id": 7,
+      "name": "Information_Weather",
+      "definition": "Requesting weather forecasts, current conditions, or climate-related information."
+    },
+    {
+      "id": 8,
+      "name": "List_Management",
+      "definition": "Creating, viewing, modifying, or deleting specific lists such as shopping or to-do lists."
+    },
+    {
+      "id": 9,
+      "name": "Media_Music",
+      "definition": "Playing, controlling, or requesting specific songs, artists, playlists, or music genres."
+    },
+    {
+      "id": 10,
+      "name": "Media_Other",
+      "definition": "Playing or controlling non-music media such as podcasts, audiobooks, or radio stations."
+    },
+    {
+      "id": 11,
+      "name": "Navigation_Transport",
+      "definition": "Requesting directions, traffic information, or booking transportation like taxis and trains."
+    },
+    {
+      "id": 12,
+      "name": "Alarm_Time",
+      "definition": "Setting, checking, or modifying alarms and timers, or requesting the current time or date."
+    },
+    {
+      "id": 13,
+      "name": "App_Task_Management",
+      "definition": "Opening specific applications or performing general task management operations not covered by other categories."
+    },
+    {
+      "id": 14,
+      "name": "Contact_Management",
+      "definition": "Creating, viewing, or modifying entries in a contact list or address book."
+    },
+    {
+      "id": 15,
+      "name": "Recipe_Food",
+      "definition": "Requesting recipes, cooking instructions, or food-related information."
+    },
+    {
+      "id": 16,
+      "name": "Entertainment_Humor",
+      "definition": "Requesting jokes or other humorous content."
+    },
+    {
+      "id": 17,
+      "name": "Personal_Social",
+      "definition": "Engaging in casual conversation, sharing personal feelings, or asking for personal advice."
+    }
+  ]
+}

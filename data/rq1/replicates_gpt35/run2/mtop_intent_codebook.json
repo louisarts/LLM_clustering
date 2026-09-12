@@ -1,0 +1,160 @@
+{
+  "bench": "mtop_intent",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "User wants to set an alarm for a specific time."
+    },
+    {
+      "id": 2,
+      "name": "Set Reminder",
+      "definition": "User wants to set a reminder for a specific task or event."
+    },
+    {
+      "id": 3,
+      "name": "Check Weather",
+      "definition": "User wants to know the current or forecasted weather conditions."
+    },
+    {
+      "id": 4,
+      "name": "Call/Message Contact",
+      "definition": "User wants to call or message a specific contact."
+    },
+    {
+      "id": 5,
+      "name": "Get News Update",
+      "definition": "User wants to receive updates on news or current events."
+    },
+    {
+      "id": 6,
+      "name": "Play Music",
+      "definition": "User wants to play music or a specific song."
+    },
+    {
+      "id": 7,
+      "name": "Cooking Instructions",
+      "definition": "User wants cooking instructions or recipes."
+    },
+    {
+      "id": 8,
+      "name": "Check Calendar/Events",
+      "definition": "User wants to check upcoming events or calendar entries."
+    },
+    {
+      "id": 9,
+      "name": "Check Location/Address",
+      "definition": "User wants to know a specific location or address."
+    },
+    {
+      "id": 10,
+      "name": "Timer Functions",
+      "definition": "User wants to set, pause, or modify a timer."
+    },
+    {
+      "id": 11,
+      "name": "Delete Reminder/Alarm",
+      "definition": "User wants to delete a previously set reminder or alarm."
+    },
+    {
+      "id": 12,
+      "name": "Check Contact Information",
+      "definition": "User wants to know contact information for a specific person."
+    },
+    {
+      "id": 13,
+      "name": "Check News Headlines",
+      "definition": "User wants to know the latest news headlines."
+    },
+    {
+      "id": 14,
+      "name": "Check Dietary Information",
+      "definition": "User wants to know nutritional information about food items."
+    },
+    {
+      "id": 15,
+      "name": "Check Work Information",
+      "definition": "User wants to know about a person's current workplace."
+    },
+    {
+      "id": 16,
+      "name": "Check School Information",
+      "definition": "User wants to know about a person's education or school."
+    },
+    {
+      "id": 17,
+      "name": "Check Relationship Information",
+      "definition": "User wants to know about a person's relationships or friends."
+    },
+    {
+      "id": 18,
+      "name": "Check Event Information",
+      "definition": "User wants to know about upcoming events or activities."
+    },
+    {
+      "id": 19,
+      "name": "Check Travel Information",
+      "definition": "User wants to know about travel plans or destinations."
+    },
+    {
+      "id": 20,
+      "name": "Check Health Information",
+      "definition": "User wants to know about health-related topics."
+    },
+    {
+      "id": 21,
+      "name": "Check Legal Information",
+      "definition": "User wants to know about legal matters or news."
+    },
+    {
+      "id": 22,
+      "name": "Check Music Information",
+      "definition": "User wants to know about music artists or albums."
+    },
+    {
+      "id": 23,
+      "name": "Check Social Media Information",
+      "definition": "User wants to know about social media contacts or messages."
+    },
+    {
+      "id": 24,
+      "name": "Check Sports Information",
+      "definition": "User wants to know about sports events or news."
+    },
+    {
+      "id": 25,
+      "name": "Check Tech Information",
+      "definition": "User wants to know about technology-related topics."
+    },
+    {
+      "id": 26,
+      "name": "Check Entertainment Information",
+      "definition": "User wants to know about entertainment events or news."
+    },
+    {
+      "id": 27,
+      "name": "Check Traffic Information",
+      "definition": "User wants to know about traffic conditions or road effects."
+    },
+    {
+      "id": 28,
+      "name": "Check Crime Information",
+      "definition": "User wants to know about crime reports or incidents."
+    },
+    {
+      "id": 29,
+      "name": "Check Language Information",
+      "definition": "User wants to know about language-related topics."
+    },
+    {
+      "id": 30,
+      "name": "Check Business Information",
+      "definition": "User wants to know about business news or updates."
+    }
+  ]
+}

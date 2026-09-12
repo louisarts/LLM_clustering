@@ -1,0 +1,89 @@
+{
+  "bench": "clinc150",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar_Management",
+      "definition": "User wants to check, schedule, or modify events and appointments on their personal calendar."
+    },
+    {
+      "id": 2,
+      "name": "Communication",
+      "definition": "User wants to send messages, make calls, or share information with other people."
+    },
+    {
+      "id": 3,
+      "name": "Device_Control",
+      "definition": "User wants to control smart home devices, hardware settings, or connected appliances."
+    },
+    {
+      "id": 4,
+      "name": "Finance_Banking",
+      "definition": "User wants to manage bank accounts, credit cards, transactions, or report fraud."
+    },
+    {
+      "id": 5,
+      "name": "Food_Recipe",
+      "definition": "User wants recipes, nutritional information, or cooking instructions."
+    },
+    {
+      "id": 6,
+      "name": "General_Knowledge",
+      "definition": "User wants facts, definitions, or answers to general trivia questions."
+    },
+    {
+      "id": 7,
+      "name": "Identity_Personalization",
+      "definition": "User wants to know about the assistant's identity or customize how the assistant behaves or addresses them."
+    },
+    {
+      "id": 8,
+      "name": "Lists_Shopping",
+      "definition": "User wants to manage shopping lists, to-do lists, or check list contents."
+    },
+    {
+      "id": 9,
+      "name": "Location_Navigation",
+      "definition": "User wants to find their current location, locate specific places, or get directions."
+    },
+    {
+      "id": 10,
+      "name": "Media_Music",
+      "definition": "User wants to play, control, or identify music and other media content."
+    },
+    {
+      "id": 11,
+      "name": "Meta_Confirmation",
+      "definition": "User is providing a response to a previous prompt, such as confirming, denying, or saying goodbye."
+    },
+    {
+      "id": 12,
+      "name": "News_Weather",
+      "definition": "User wants current news headlines, weather forecasts, or breaking updates."
+    },
+    {
+      "id": 13,
+      "name": "Shopping_Commerce",
+      "definition": "User wants to purchase items, find products, or compare prices."
+    },
+    {
+      "id": 14,
+      "name": "Travel_Booking",
+      "definition": "User wants to book or research flights, hotels, rental cars, or travel logistics."
+    },
+    {
+      "id": 15,
+      "name": "Vehicle_Maintenance",
+      "definition": "User wants information regarding car maintenance, specifications, or service history."
+    },
+    {
+      "id": 16,
+      "name": "Work_HR",
+      "definition": "User wants to check work-related details like pay, time off, or schedule meetings."
+    }
+  ]
+}

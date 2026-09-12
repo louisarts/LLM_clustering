@@ -1,0 +1,110 @@
+{
+  "bench": "reddit_s2s",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Astrology",
+      "definition": "Posts related to astrological discussions, reports, and interpretations."
+    },
+    {
+      "id": 2,
+      "name": "Anime",
+      "definition": "Discussions, recommendations, and reviews related to anime and manga."
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "definition": "Posts discussing technology trends, gadgets, and software."
+    },
+    {
+      "id": 4,
+      "name": "Health",
+      "definition": "Topics related to health, wellness, and medical advice."
+    },
+    {
+      "id": 5,
+      "name": "Food and Drink",
+      "definition": "Discussions about food, recipes, and beverages."
+    },
+    {
+      "id": 6,
+      "name": "Travel",
+      "definition": "Posts about travel experiences, tips, and recommendations."
+    },
+    {
+      "id": 7,
+      "name": "Pets",
+      "definition": "Discussions and advice related to pets and animal care."
+    },
+    {
+      "id": 8,
+      "name": "Education",
+      "definition": "Topics related to academic advice, research, and learning resources."
+    },
+    {
+      "id": 9,
+      "name": "Finance",
+      "definition": "Discussions about personal finance, investments, and economic trends."
+    },
+    {
+      "id": 10,
+      "name": "Art and Design",
+      "definition": "Posts related to visual arts, design, and creative processes."
+    },
+    {
+      "id": 11,
+      "name": "Politics",
+      "definition": "Discussions about political events, opinions, and news."
+    },
+    {
+      "id": 12,
+      "name": "Local Community",
+      "definition": "Posts related to local events, news, and community issues."
+    },
+    {
+      "id": 13,
+      "name": "Relationships",
+      "definition": "Advice and discussions about personal relationships and dating."
+    },
+    {
+      "id": 14,
+      "name": "Science",
+      "definition": "Topics related to scientific discoveries, research, and discussions."
+    },
+    {
+      "id": 15,
+      "name": "Entertainment",
+      "definition": "Discussions about movies, TV shows, and other forms of entertainment."
+    },
+    {
+      "id": 16,
+      "name": "Sports",
+      "definition": "Posts related to sports events, teams, and discussions."
+    },
+    {
+      "id": 17,
+      "name": "DIY and Crafts",
+      "definition": "Posts about do-it-yourself projects and crafting."
+    },
+    {
+      "id": 18,
+      "name": "Fashion",
+      "definition": "Discussions about fashion trends, styles, and advice."
+    },
+    {
+      "id": 19,
+      "name": "Gaming",
+      "definition": "Posts related to video games, board games, and gaming culture."
+    },
+    {
+      "id": 20,
+      "name": "Social Issues",
+      "definition": "Discussions about social justice, activism, and community concerns."
+    }
+  ]
+}

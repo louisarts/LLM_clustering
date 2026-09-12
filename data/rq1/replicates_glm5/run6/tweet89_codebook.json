@@ -1,0 +1,309 @@
+{
+  "bench": "tweet89",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "News and discussions regarding advertisements aired during the Super Bowl."
+    },
+    {
+      "id": 2,
+      "name": "Christina Aguilera National Anthem Performance",
+      "definition": "Coverage of Christina Aguilera's performance and mistake during the national anthem at the Super Bowl."
+    },
+    {
+      "id": 3,
+      "name": "Protests in Yemen",
+      "definition": "Reports on anti-government protests and political concessions in Yemen."
+    },
+    {
+      "id": 4,
+      "name": "Fishing Tips and Reports",
+      "definition": "Documents sharing advice, reports, and equipment details for fishing activities."
+    },
+    {
+      "id": 5,
+      "name": "Acai Berry Diet",
+      "definition": "Promotional content and discussions regarding acai berry weight loss diets."
+    },
+    {
+      "id": 6,
+      "name": "Academic Scholarships",
+      "definition": "Announcements and information regarding university and college scholarship opportunities."
+    },
+    {
+      "id": 7,
+      "name": "The King's Speech Film Awards",
+      "definition": "News about the film The King's Speech receiving award nominations and wins."
+    },
+    {
+      "id": 8,
+      "name": "Australian Open Tennis Final",
+      "definition": "Coverage of the Australian Open final match between Novak Djokovic and Andy Murray."
+    },
+    {
+      "id": 9,
+      "name": "Moscow Airport Bombing",
+      "definition": "Reports on the terrorist attack and explosion at Domodedovo Airport in Moscow."
+    },
+    {
+      "id": 10,
+      "name": "Egyptian Museum Protection",
+      "definition": "Stories about protesters forming human chains to protect the Egyptian Museum in Cairo."
+    },
+    {
+      "id": 11,
+      "name": "US Health Care Reform Ruling",
+      "definition": "News regarding federal court rulings on the constitutionality of US health care reform."
+    },
+    {
+      "id": 12,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Coverage of the lawsuit questioning the beef content of Taco Bell products."
+    },
+    {
+      "id": 13,
+      "name": "Protests in Jordan",
+      "definition": "Reports on political protests and demands for reform in Jordan."
+    },
+    {
+      "id": 14,
+      "name": "Robert Kubica Rally Accident",
+      "definition": "News about Formula One driver Robert Kubica's injury in a rally car accident."
+    },
+    {
+      "id": 15,
+      "name": "Rahm Emanuel Mayoral Ballot",
+      "definition": "Legal rulings and news regarding Rahm Emanuel's eligibility for the Chicago mayoral ballot."
+    },
+    {
+      "id": 16,
+      "name": "Distracted Driving Campaigns",
+      "definition": "Public service messages and campaigns warning against texting while driving."
+    },
+    {
+      "id": 17,
+      "name": "Sundance Film Festival",
+      "definition": "Updates on films, celebrities, and events occurring at the Sundance Film Festival."
+    },
+    {
+      "id": 18,
+      "name": "Somali Piracy",
+      "definition": "Reports on naval operations and incidents involving Somali pirates and hijacked ships."
+    },
+    {
+      "id": 19,
+      "name": "Facebook Security",
+      "definition": "News regarding Facebook security features, hacks, and encryption updates."
+    },
+    {
+      "id": 20,
+      "name": "Immigration Raids and Laws",
+      "definition": "Coverage of immigration laws, enforcement raids, and related political debates."
+    },
+    {
+      "id": 21,
+      "name": "Recipes and Cooking",
+      "definition": "Documents sharing recipes and cooking instructions for various meals."
+    },
+    {
+      "id": 22,
+      "name": "Keith Olbermann Media Move",
+      "definition": "News about Keith Olbermann leaving MSNBC and joining Current TV."
+    },
+    {
+      "id": 23,
+      "name": "Apple Corporate News",
+      "definition": "Reports on Apple's stock, succession plans, and Steve Jobs's health."
+    },
+    {
+      "id": 24,
+      "name": "Australia Floods",
+      "definition": "News regarding the severe flooding crisis in Australia."
+    },
+    {
+      "id": 25,
+      "name": "Oprah Winfrey Family Secret",
+      "definition": "Reports on Oprah Winfrey revealing a family secret."
+    },
+    {
+      "id": 26,
+      "name": "Jesse Ventura TSA Lawsuit",
+      "definition": "News about Jesse Ventura's lawsuit against the TSA."
+    },
+    {
+      "id": 27,
+      "name": "White House Press Secretary Change",
+      "definition": "Announcement of Jay Carney as the new White House Press Secretary."
+    },
+    {
+      "id": 28,
+      "name": "News Corp Tablet Launch",
+      "definition": "The launch of The Daily, a tablet-only news publication by News Corp."
+    },
+    {
+      "id": 29,
+      "name": "Bed Bug Summit",
+      "definition": "News regarding the National Bed Bug Summit."
+    },
+    {
+      "id": 30,
+      "name": "Charlie Sheen Television Show",
+      "definition": "News regarding Charlie Sheen and the show Two and a Half Men."
+    },
+    {
+      "id": 31,
+      "name": "US Winter Storm",
+      "definition": "Reports on severe winter storms and blizzards affecting US cities."
+    },
+    {
+      "id": 32,
+      "name": "Iranian Execution",
+      "definition": "Reports on the execution of an Iranian-Dutch woman in Iran."
+    },
+    {
+      "id": 33,
+      "name": "Ivory Coast Political Crisis",
+      "definition": "News regarding the political and economic crisis in Ivory Coast."
+    },
+    {
+      "id": 34,
+      "name": "Starbucks Trenta Size",
+      "definition": "News about Starbucks introducing the new Trenta drink size."
+    },
+    {
+      "id": 35,
+      "name": "Venezuelan Politics",
+      "definition": "News regarding President Hugo Chavez and politics in Venezuela."
+    },
+    {
+      "id": 36,
+      "name": "US Budget Cuts",
+      "definition": "Reports on proposed budget cuts for schools and Medicaid in New York."
+    },
+    {
+      "id": 37,
+      "name": "Climate Change Update",
+      "definition": "Reports on bizarre weather patterns and climate change impacts."
+    },
+    {
+      "id": 38,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates on the medical recovery of Congresswoman Gabrielle Giffords."
+    },
+    {
+      "id": 39,
+      "name": "Amtrak Rail Tunnel Plan",
+      "definition": "News regarding the Amtrak rail tunnel plan for New York and New Jersey."
+    },
+    {
+      "id": 40,
+      "name": "Identity Theft",
+      "definition": "Information and infographics regarding identity theft risks and costs."
+    },
+    {
+      "id": 41,
+      "name": "Black Swan Film",
+      "definition": "Reviews and discussions of the film Black Swan."
+    },
+    {
+      "id": 42,
+      "name": "Debt Consolidation",
+      "definition": "Advice and services related to consolidating credit card and consumer debt."
+    },
+    {
+      "id": 43,
+      "name": "Job Market Report",
+      "definition": "News reports on employment rates and job market speed."
+    },
+    {
+      "id": 44,
+      "name": "Supreme Court Privacy Ruling",
+      "definition": "Reports on a Supreme Court ruling regarding personal privacy."
+    },
+    {
+      "id": 45,
+      "name": "Wikileaks Nobel Prize Nomination",
+      "definition": "News about Wikileaks being nominated for the Nobel Peace Prize."
+    },
+    {
+      "id": 46,
+      "name": "Gasland Oscar Nomination",
+      "definition": "Discussion of the documentary Gasland receiving an Oscar nomination."
+    },
+    {
+      "id": 47,
+      "name": "Autism and Bullying",
+      "definition": "News and awareness regarding autism and bullying in schools."
+    },
+    {
+      "id": 48,
+      "name": "White Stripes Breakup",
+      "definition": "News about the band The White Stripes ending their career."
+    },
+    {
+      "id": 49,
+      "name": "Best Buy Gadget Repurchase",
+      "definition": "News about Best Buy offering a free gadget repurchase program."
+    },
+    {
+      "id": 50,
+      "name": "FDA Drug Approval",
+      "definition": "News regarding FDA approval of drugs such as Rituxan for lymphoma."
+    },
+    {
+      "id": 51,
+      "name": "Vincent Tabak Court Appearance",
+      "definition": "News regarding Vincent Tabak appearing in court charged with murder."
+    },
+    {
+      "id": 52,
+      "name": "Horse Wagering Legalization",
+      "definition": "News regarding the legalization of horse wagering in specific locales."
+    },
+    {
+      "id": 53,
+      "name": "Mobile Service Launch",
+      "definition": "Announcements regarding the launch of mobile services."
+    },
+    {
+      "id": 54,
+      "name": "Stuxnet Security Warning",
+      "definition": "Security expert warnings regarding the Stuxnet computer worm."
+    },
+    {
+      "id": 55,
+      "name": "Supreme Court Retaliation Lawsuit",
+      "definition": "Reports on a Supreme Court ruling allowing suits against firms for retaliation."
+    },
+    {
+      "id": 56,
+      "name": "Glenn Beck Controversy",
+      "definition": "News regarding Glenn Beck and controversies surrounding his show."
+    },
+    {
+      "id": 57,
+      "name": "Teen Concussion Safety",
+      "definition": "News regarding schools tackling cuts and teen concussion safety."
+    },
+    {
+      "id": 58,
+      "name": "Kardashian TV Show",
+      "definition": "Tweets regarding watching the reality show Keeping Up with the Kardashians."
+    },
+    {
+      "id": 59,
+      "name": "Corporate Merger News",
+      "definition": "Reports on stock market activity related to corporate mergers."
+    },
+    {
+      "id": 60,
+      "name": "Miscellaneous",
+      "definition": "Documents that do not fit into other specific news categories."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "bench": "fewnerd",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Award",
+      "definition": "A recognition given for achievements in various fields."
+    },
+    {
+      "id": 2,
+      "name": "Event",
+      "definition": "A planned public or social occasion."
+    },
+    {
+      "id": 3,
+      "name": "City",
+      "definition": "A large human settlement, typically with a significant population and infrastructure."
+    },
+    {
+      "id": 4,
+      "name": "Theatre",
+      "definition": "A building or outdoor area where plays and performances are presented."
+    },
+    {
+      "id": 5,
+      "name": "Sport League",
+      "definition": "An organization of sports teams that compete against each other."
+    },
+    {
+      "id": 6,
+      "name": "Political Entity",
+      "definition": "A recognized organization or group that governs or represents a specific area or community."
+    },
+    {
+      "id": 7,
+      "name": "Geographical Feature",
+      "definition": "A natural formation or feature of the Earth's surface."
+    },
+    {
+      "id": 8,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 9,
+      "name": "Religion",
+      "definition": "A system of beliefs, practices, and values often centered around spiritual beliefs."
+    },
+    {
+      "id": 10,
+      "name": "Historical Figure",
+      "definition": "A person who has had a significant impact on history."
+    },
+    {
+      "id": 11,
+      "name": "Institution",
+      "definition": "An organization founded for a specific purpose, often educational or cultural."
+    },
+    {
+      "id": 12,
+      "name": "Company",
+      "definition": "A business organization that sells goods or services."
+    },
+    {
+      "id": 13,
+      "name": "Film",
+      "definition": "A motion picture or movie."
+    },
+    {
+      "id": 14,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages bound together."
+    },
+    {
+      "id": 15,
+      "name": "Language",
+      "definition": "A system of communication used by a particular community or country."
+    },
+    {
+      "id": 16,
+      "name": "Animal",
+      "definition": "A living organism that is not a plant and is typically capable of movement."
+    },
+    {
+      "id": 17,
+      "name": "Disease",
+      "definition": "A disorder of structure or function in a human, animal, or plant."
+    },
+    {
+      "id": 18,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 19,
+      "name": "Political Party",
+      "definition": "An organized group of people who share similar political beliefs and work to influence government policy."
+    },
+    {
+      "id": 20,
+      "name": "Military",
+      "definition": "The armed forces of a country."
+    },
+    {
+      "id": 21,
+      "name": "University",
+      "definition": "An institution of higher education and research which awards academic degrees."
+    },
+    {
+      "id": 22,
+      "name": "Festival",
+      "definition": "A day or period of celebration, typically for religious reasons."
+    },
+    {
+      "id": 23,
+      "name": "Transportation",
+      "definition": "The action of transporting someone or something or the process of being transported."
+    },
+    {
+      "id": 24,
+      "name": "Historical Event",
+      "definition": "A significant occurrence in history."
+    },
+    {
+      "id": 25,
+      "name": "Television Show",
+      "definition": "A series of episodes broadcast on television."
+    },
+    {
+      "id": 26,
+      "name": "Scientific Concept",
+      "definition": "An idea or principle that is based on scientific understanding."
+    },
+    {
+      "id": 27,
+      "name": "Political Document",
+      "definition": "A formal written statement or record related to governance or policy."
+    },
+    {
+      "id": 28,
+      "name": "Cultural Artifact",
+      "definition": "An object made by a human being that reflects the culture of a society."
+    },
+    {
+      "id": 29,
+      "name": "Natural Disaster",
+      "definition": "A catastrophic event caused by natural processes of the Earth."
+    },
+    {
+      "id": 30,
+      "name": "Sport",
+      "definition": "An activity involving physical exertion and skill in which an individual or team competes against another or others."
+    }
+  ]
+}

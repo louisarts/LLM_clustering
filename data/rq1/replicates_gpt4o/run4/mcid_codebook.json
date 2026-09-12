@@ -1,0 +1,70 @@
+{
+  "bench": "mcid",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Donation Inquiries",
+      "definition": "Requests for information on how to donate or where to send donations related to COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Myths and Misinformation",
+      "definition": "Questions about myths, misinformation, or debunked information related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Transmission and Spread",
+      "definition": "Inquiries about how COVID-19 spreads, including surfaces, animals, and person-to-person transmission."
+    },
+    {
+      "id": 4,
+      "name": "Symptoms and Health Concerns",
+      "definition": "Questions about symptoms of COVID-19 and related health concerns."
+    },
+    {
+      "id": 5,
+      "name": "Treatment and Remedies",
+      "definition": "Inquiries about treatments, remedies, or cures for COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Prevention and Safety Measures",
+      "definition": "Questions about how to prevent COVID-19 infection and stay safe."
+    },
+    {
+      "id": 7,
+      "name": "Travel and Transportation",
+      "definition": "Inquiries about travel restrictions, transportation safety, and related concerns during the pandemic."
+    },
+    {
+      "id": 8,
+      "name": "Statistics and Updates",
+      "definition": "Requests for the latest statistics, updates, or news about COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "General Information",
+      "definition": "Requests for general information or definitions related to COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "Sharing and Communication",
+      "definition": "Requests to share information or communicate about COVID-19 with others."
+    },
+    {
+      "id": 11,
+      "name": "Expressions of Gratitude",
+      "definition": "Expressions of thanks or appreciation for COVID-19-related information or assistance."
+    },
+    {
+      "id": 12,
+      "name": "Miscellaneous Greetings and Comments",
+      "definition": "General greetings, comments, or non-specific interactions with a COVID-19 bot or service."
+    }
+  ]
+}

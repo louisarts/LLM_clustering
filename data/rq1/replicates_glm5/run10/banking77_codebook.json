@@ -1,0 +1,124 @@
+{
+  "bench": "banking77",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Not Working",
+      "definition": "Queries regarding a card being declined, failing to work at terminals or ATMs, or general malfunction not related to pending status."
+    },
+    {
+      "id": 2,
+      "name": "Card Delivery Status",
+      "definition": "Queries about the shipping status, arrival time, or non-arrival of a physical card."
+    },
+    {
+      "id": 3,
+      "name": "Card Management",
+      "definition": "Requests to order new cards, replace expiring cards, report lost or stolen cards, or inquiries about card types and limits."
+    },
+    {
+      "id": 4,
+      "name": "PIN Issues",
+      "definition": "Queries regarding forgotten PINs, blocked PINs, changing PINs, or PIN entry errors."
+    },
+    {
+      "id": 5,
+      "name": "Contactless Payments",
+      "definition": "Queries specifically regarding the setup, usage, or troubleshooting of contactless (NFC) payments."
+    },
+    {
+      "id": 6,
+      "name": "Virtual Card",
+      "definition": "Questions about the availability, usage, or functionality of virtual or disposable cards."
+    },
+    {
+      "id": 7,
+      "name": "Card Activation",
+      "definition": "Queries regarding the process or status of activating a new card."
+    },
+    {
+      "id": 8,
+      "name": "Card Usage Locations",
+      "definition": "Inquiries about where a card is accepted, supported countries, or finding compatible ATMs."
+    },
+    {
+      "id": 9,
+      "name": "Transaction Dispute",
+      "definition": "Reports of unauthorized transactions, fraud, or requests to dispute specific charges."
+    },
+    {
+      "id": 10,
+      "name": "Refund Issues",
+      "definition": "Queries regarding the status, processing, or non-appearance of expected refunds from merchants."
+    },
+    {
+      "id": 11,
+      "name": "Duplicate or Incorrect Charge",
+      "definition": "Reports of being charged multiple times for the same transaction or charged an incorrect amount."
+    },
+    {
+      "id": 12,
+      "name": "ATM Withdrawal Issues",
+      "definition": "Reports of ATM errors such as cash not dispensed, wrong amount dispensed, or card retained by the machine."
+    },
+    {
+      "id": 13,
+      "name": "Transaction Status",
+      "definition": "Queries asking why a specific transaction is pending, taking too long, or has not updated."
+    },
+    {
+      "id": 14,
+      "name": "Transfer Issues",
+      "definition": "Queries regarding failed, declined, or stuck incoming or outgoing bank transfers."
+    },
+    {
+      "id": 15,
+      "name": "Transfer Fees and Limits",
+      "definition": "Questions about the costs, limits, or delivery times associated with money transfers."
+    },
+    {
+      "id": 16,
+      "name": "Top-up Issues",
+      "definition": "Queries regarding failed, reverted, or missing top-ups, or issues with specific top-up methods like cash deposits."
+    },
+    {
+      "id": 17,
+      "name": "Top-up Fees and Limits",
+      "definition": "Questions about the costs, limits, or processing times for topping up the account balance."
+    },
+    {
+      "id": 18,
+      "name": "Exchange Rate and Currency",
+      "definition": "Questions about exchange rates, currency conversion fees, or holding multiple currencies."
+    },
+    {
+      "id": 19,
+      "name": "Fees Inquiry",
+      "definition": "General questions about service fees, account fees, or charges not covered by specific categories like transfers or top-ups."
+    },
+    {
+      "id": 20,
+      "name": "Account Access",
+      "definition": "Issues logging into the app, resetting passcodes, or account security concerns like freezing access."
+    },
+    {
+      "id": 21,
+      "name": "Identity Verification",
+      "definition": "Queries regarding the identity verification process, document requirements, or verification failures."
+    },
+    {
+      "id": 22,
+      "name": "Source of Funds Verification",
+      "definition": "Queries specifically regarding the verification of the source of funds or wealth."
+    },
+    {
+      "id": 23,
+      "name": "Account Management",
+      "definition": "Requests to close an account, update personal details, or eligibility questions regarding age or location."
+    }
+  ]
+}

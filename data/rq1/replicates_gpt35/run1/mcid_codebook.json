@@ -1,0 +1,85 @@
+{
+  "bench": "mcid",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information Inquiry",
+      "definition": "Questions seeking general information about COVID-19, such as symptoms, transmission, and prevention measures."
+    },
+    {
+      "id": 2,
+      "name": "Travel Concerns",
+      "definition": "Queries related to travel safety, restrictions, and risks during the COVID-19 pandemic."
+    },
+    {
+      "id": 3,
+      "name": "Medical Advice Request",
+      "definition": "Requests for medical advice or treatment options for COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "News Updates",
+      "definition": "Requests for the latest news and updates on COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Myth Debunking",
+      "definition": "Inquiries about myths, misconceptions, and conspiracy theories related to COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Donation Information",
+      "definition": "Queries about donating to COVID-19 relief efforts or organizations."
+    },
+    {
+      "id": 7,
+      "name": "Personal Safety Measures",
+      "definition": "Questions about how to protect oneself and others from COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Symptom Inquiry",
+      "definition": "Inquiries about COVID-19 symptoms and their implications."
+    },
+    {
+      "id": 9,
+      "name": "High-Risk Area Concerns",
+      "definition": "Queries related to high-risk areas, protocols, and precautions for COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "Animal Related Concerns",
+      "definition": "Questions about the transmission of COVID-19 from or to animals."
+    },
+    {
+      "id": 11,
+      "name": "Community Spread Prevention",
+      "definition": "Inquiries about preventing community spread of COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "Treatment Options Inquiry",
+      "definition": "Requests for information on treatment options for COVID-19."
+    },
+    {
+      "id": 13,
+      "name": "Surface Contamination Inquiry",
+      "definition": "Questions about the survival of COVID-19 on surfaces and how to clean them."
+    },
+    {
+      "id": 14,
+      "name": "Economic Impact Inquiry",
+      "definition": "Queries about the economic impact of COVID-19."
+    },
+    {
+      "id": 15,
+      "name": "Vaccine Inquiry",
+      "definition": "Inquiries about the development and availability of a vaccine for COVID-19."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "bench": "fewevent",
+  "run": 9,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Professional Roles, Titles & Command",
+      "definition": "A word denoting a specific professional position, title, leadership role, or the act of leading/controlling."
+    },
+    {
+      "id": 2,
+      "name": "Personal Relationships & Status",
+      "definition": "A word describing a personal relationship or a general status/occupation of an individual."
+    },
+    {
+      "id": 3,
+      "name": "Achievements & Outcomes",
+      "definition": "A word indicating a successful result, award, or conclusion of an effort."
+    },
+    {
+      "id": 4,
+      "name": "Employment & Work-related Actions",
+      "definition": "A word describing an action or state related to employment, tasks, or professional activities."
+    },
+    {
+      "id": 5,
+      "name": "Movement & Travel",
+      "definition": "A word indicating physical relocation, journey, or arrival/departure."
+    },
+    {
+      "id": 6,
+      "name": "Social & Personal Events",
+      "definition": "A word describing an event related to personal life, social gatherings, or ceremonies."
+    },
+    {
+      "id": 7,
+      "name": "Communication & Interaction",
+      "definition": "A word indicating an act of conveying information, asking, or engaging in dialogue."
+    },
+    {
+      "id": 8,
+      "name": "Conflict & Negative Events",
+      "definition": "A word describing a dispute, violent act, or an undesirable occurrence."
+    },
+    {
+      "id": 9,
+      "name": "Business & Transactional Actions",
+      "definition": "A word indicating an act of buying, selling, or managing financial resources."
+    },
+    {
+      "id": 10,
+      "name": "General Actions & States",
+      "definition": "A word describing a general action or state that does not fit into more specific categories."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "bench": "mtop_intent",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Requests to set an alarm for a specific time or date."
+    },
+    {
+      "id": 2,
+      "name": "Set Reminder",
+      "definition": "Requests to set a reminder for a specific task or event."
+    },
+    {
+      "id": 3,
+      "name": "Delete Reminder",
+      "definition": "Requests to delete an existing reminder."
+    },
+    {
+      "id": 4,
+      "name": "Modify Reminder",
+      "definition": "Requests to change details of an existing reminder."
+    },
+    {
+      "id": 5,
+      "name": "Set Timer",
+      "definition": "Requests to set a timer for a specific duration."
+    },
+    {
+      "id": 6,
+      "name": "Modify Timer",
+      "definition": "Requests to modify an existing timer, such as pausing or restarting."
+    },
+    {
+      "id": 7,
+      "name": "Weather Inquiry",
+      "definition": "Requests for weather information or forecasts."
+    },
+    {
+      "id": 8,
+      "name": "News Inquiry",
+      "definition": "Requests for news updates or specific news stories."
+    },
+    {
+      "id": 9,
+      "name": "Play Music",
+      "definition": "Requests to play music or specific songs."
+    },
+    {
+      "id": 10,
+      "name": "Modify Music Playback",
+      "definition": "Requests to change music playback, such as skipping or repeating a song."
+    },
+    {
+      "id": 11,
+      "name": "Call Contact",
+      "definition": "Requests to initiate a phone call with a specific contact."
+    },
+    {
+      "id": 12,
+      "name": "Send Message",
+      "definition": "Requests to send a text or video message to a contact."
+    },
+    {
+      "id": 13,
+      "name": "Modify Call",
+      "definition": "Requests to modify an ongoing call, such as adding participants or ending the call."
+    },
+    {
+      "id": 14,
+      "name": "Recipe Inquiry",
+      "definition": "Requests for cooking recipes or cooking instructions."
+    },
+    {
+      "id": 15,
+      "name": "Calorie Inquiry",
+      "definition": "Requests for calorie information of specific foods."
+    },
+    {
+      "id": 16,
+      "name": "Location Inquiry",
+      "definition": "Requests for information about a person's location or residence."
+    },
+    {
+      "id": 17,
+      "name": "Event Inquiry",
+      "definition": "Requests for information about events happening at a specific time or location."
+    },
+    {
+      "id": 18,
+      "name": "Contact Information Inquiry",
+      "definition": "Requests for information about a contact's details or relationships."
+    },
+    {
+      "id": 19,
+      "name": "Modify Alarm",
+      "definition": "Requests to change details of an existing alarm."
+    },
+    {
+      "id": 20,
+      "name": "Delete Alarm",
+      "definition": "Requests to delete an existing alarm."
+    },
+    {
+      "id": 21,
+      "name": "General Inquiry",
+      "definition": "Requests for general information not covered by other categories."
+    },
+    {
+      "id": 22,
+      "name": "Mark Availability",
+      "definition": "Requests to mark the user's availability status."
+    }
+  ]
+}

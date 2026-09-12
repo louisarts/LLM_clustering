@@ -1,0 +1,90 @@
+{
+  "bench": "banking77",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Issues",
+      "definition": "Queries related to card functionality, activation, expiration, or replacement."
+    },
+    {
+      "id": 2,
+      "name": "Unauthorized Transactions",
+      "definition": "Concerns about transactions made without the customer's consent."
+    },
+    {
+      "id": 3,
+      "name": "Transfer Issues",
+      "definition": "Problems or questions regarding money transfers, including delays and failures."
+    },
+    {
+      "id": 4,
+      "name": "Top-Up Issues",
+      "definition": "Issues related to adding funds to an account or card."
+    },
+    {
+      "id": 5,
+      "name": "Identity Verification",
+      "definition": "Questions or problems related to verifying identity or source of funds."
+    },
+    {
+      "id": 6,
+      "name": "Fees and Charges",
+      "definition": "Inquiries about fees associated with transactions, cards, or services."
+    },
+    {
+      "id": 7,
+      "name": "Exchange Rates",
+      "definition": "Questions about currency exchange rates and related fees."
+    },
+    {
+      "id": 8,
+      "name": "Account Closure",
+      "definition": "Requests to close or delete an account."
+    },
+    {
+      "id": 9,
+      "name": "Refunds and Disputes",
+      "definition": "Requests for refunds or disputes over transactions."
+    },
+    {
+      "id": 10,
+      "name": "PIN Issues",
+      "definition": "Problems related to PIN usage, blocking, or resetting."
+    },
+    {
+      "id": 11,
+      "name": "ATM Issues",
+      "definition": "Problems encountered when using ATMs, such as card retention or incorrect cash dispensed."
+    },
+    {
+      "id": 12,
+      "name": "Virtual Card Issues",
+      "definition": "Questions or problems related to virtual or disposable cards."
+    },
+    {
+      "id": 13,
+      "name": "Account Management",
+      "definition": "Inquiries about updating personal details or managing account settings."
+    },
+    {
+      "id": 14,
+      "name": "Service Availability",
+      "definition": "Questions about the availability of services or products in different regions."
+    },
+    {
+      "id": 15,
+      "name": "Payment Declines",
+      "definition": "Issues related to declined payments or transactions."
+    },
+    {
+      "id": 16,
+      "name": "App and Technical Support",
+      "definition": "Technical issues or questions related to using the banking app or website."
+    }
+  ]
+}

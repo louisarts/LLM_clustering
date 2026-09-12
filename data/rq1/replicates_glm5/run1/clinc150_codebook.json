@@ -1,0 +1,69 @@
+{
+  "bench": "clinc150",
+  "run": 1,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "rq3_cached",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking & Finance",
+      "definition": "Managing bank accounts, credit cards, transactions, payments, and financial inquiries."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Reminders",
+      "definition": "Managing schedules, events, alarms, timers, and to-do lists."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "Making calls, sending messages, and sharing information with contacts."
+    },
+    {
+      "id": 4,
+      "name": "Device Settings",
+      "definition": "Configuring device preferences, voice settings, and system options."
+    },
+    {
+      "id": 5,
+      "name": "Food & Dining",
+      "definition": "Finding recipes, nutritional info, restaurant suggestions, and dining reservations."
+    },
+    {
+      "id": 6,
+      "name": "General Information",
+      "definition": "Answering questions about facts, definitions, calculations, weather, time, and general knowledge."
+    },
+    {
+      "id": 7,
+      "name": "Media & Music",
+      "definition": "Playing music, managing playlists, and identifying songs."
+    },
+    {
+      "id": 8,
+      "name": "Navigation & Travel",
+      "definition": "Finding locations, booking transportation, checking travel status, and navigation assistance."
+    },
+    {
+      "id": 9,
+      "name": "Recommendations & Lifestyle",
+      "definition": "Providing advice on gifts, outfits, games, and personal interests."
+    },
+    {
+      "id": 10,
+      "name": "Shopping & Services",
+      "definition": "Purchasing items, checking order status, and booking services."
+    },
+    {
+      "id": 11,
+      "name": "Smart Home & Vehicle",
+      "definition": "Controlling smart home devices, vehicle diagnostics, and appliance settings."
+    },
+    {
+      "id": 12,
+      "name": "Social & Entertainment",
+      "definition": "Engaging in small talk, persona questions, games, jokes, stories, and conversational statements."
+    }
+  ]
+}

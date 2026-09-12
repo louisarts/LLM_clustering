@@ -1,0 +1,85 @@
+{
+  "bench": "massive_domain",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "News",
+      "definition": "Utterances related to receiving or asking for news updates"
+    },
+    {
+      "id": 2,
+      "name": "Weather",
+      "definition": "Utterances related to checking or asking about the weather forecast"
+    },
+    {
+      "id": 3,
+      "name": "Travel",
+      "definition": "Utterances related to booking tickets, calling cabs, or asking about train schedules"
+    },
+    {
+      "id": 4,
+      "name": "Home Automation",
+      "definition": "Utterances related to controlling smart home devices like lights, vacuum cleaners, and sockets"
+    },
+    {
+      "id": 5,
+      "name": "Calendar and Reminders",
+      "definition": "Utterances related to setting, checking, or deleting calendar events and reminders"
+    },
+    {
+      "id": 6,
+      "name": "Music and Podcasts",
+      "definition": "Utterances related to playing music, podcasts, or audiobooks"
+    },
+    {
+      "id": 7,
+      "name": "General Knowledge",
+      "definition": "Utterances related to asking general knowledge questions or definitions"
+    },
+    {
+      "id": 8,
+      "name": "Social Media",
+      "definition": "Utterances related to posting on social media platforms or checking social media updates"
+    },
+    {
+      "id": 9,
+      "name": "Email and Messaging",
+      "definition": "Utterances related to composing, sending, or checking emails and messages"
+    },
+    {
+      "id": 10,
+      "name": "Shopping and Lists",
+      "definition": "Utterances related to adding, removing, or checking items on shopping lists or calendars"
+    },
+    {
+      "id": 11,
+      "name": "Entertainment",
+      "definition": "Utterances related to playing games, movies, or TV shows"
+    },
+    {
+      "id": 12,
+      "name": "Currency Exchange",
+      "definition": "Utterances related to checking or asking about currency exchange rates"
+    },
+    {
+      "id": 13,
+      "name": "Time and Alarms",
+      "definition": "Utterances related to checking the time, setting alarms, or asking about events at specific times"
+    },
+    {
+      "id": 14,
+      "name": "Location and Directions",
+      "definition": "Utterances related to asking for directions, locations of places, or nearby attractions"
+    },
+    {
+      "id": 15,
+      "name": "Cooking and Recipes",
+      "definition": "Utterances related to asking for recipes, cooking instructions, or meal suggestions"
+    }
+  ]
+}

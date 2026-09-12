@@ -1,0 +1,47 @@
+{
+  "bench": "clinc150_domain",
+  "run": 5,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Financial Management",
+      "definition": "Managing personal financial accounts, transactions, bills, credit, and related inquiries."
+    },
+    {
+      "id": 2,
+      "name": "Travel & Navigation",
+      "definition": "Planning trips, booking transportation, getting directions, or asking about travel requirements and local points of interest."
+    },
+    {
+      "id": 3,
+      "name": "Scheduling & Reminders",
+      "definition": "Managing personal schedules, appointments, lists, alarms, and reminders."
+    },
+    {
+      "id": 4,
+      "name": "General Knowledge & Recommendations",
+      "definition": "Seeking factual information, definitions, general knowledge, or recommendations on various topics."
+    },
+    {
+      "id": 5,
+      "name": "Device & Assistant Control",
+      "definition": "Interacting with the assistant about its own identity, capabilities, or adjusting its operational settings, conversational style, or controlling linked devices."
+    },
+    {
+      "id": 6,
+      "name": "Communication",
+      "definition": "Initiating calls, sending text messages, or sharing information with contacts."
+    },
+    {
+      "id": 7,
+      "name": "Media Playback",
+      "definition": "Playing, pausing, skipping, or managing music and other media."
+    },
+    {
+      "id": 8,
+      "name": "Vehicle Management",
+      "definition": "Asking about vehicle maintenance, status, or troubleshooting car-related issues."
+    }
+  ]
+}

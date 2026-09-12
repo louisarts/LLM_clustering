@@ -1,0 +1,90 @@
+{
+  "bench": "fewrel",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person-Event",
+      "definition": "The relation between a person and an event."
+    },
+    {
+      "id": 2,
+      "name": "Person-Organization",
+      "definition": "The relation between a person and an organization."
+    },
+    {
+      "id": 3,
+      "name": "Person-Person",
+      "definition": "The relation between two persons."
+    },
+    {
+      "id": 4,
+      "name": "Person-Place",
+      "definition": "The relation between a person and a place."
+    },
+    {
+      "id": 5,
+      "name": "Person-Product",
+      "definition": "The relation between a person and a product."
+    },
+    {
+      "id": 6,
+      "name": "Person-Work",
+      "definition": "The relation between a person and a work."
+    },
+    {
+      "id": 7,
+      "name": "Organization-Organization",
+      "definition": "The relation between two organizations."
+    },
+    {
+      "id": 8,
+      "name": "Organization-Product",
+      "definition": "The relation between an organization and a product."
+    },
+    {
+      "id": 9,
+      "name": "Organization-Work",
+      "definition": "The relation between an organization and a work."
+    },
+    {
+      "id": 10,
+      "name": "Place-Organization",
+      "definition": "The relation between a place and an organization."
+    },
+    {
+      "id": 11,
+      "name": "Place-Person",
+      "definition": "The relation between a place and a person."
+    },
+    {
+      "id": 12,
+      "name": "Product-Organization",
+      "definition": "The relation between a product and an organization."
+    },
+    {
+      "id": 13,
+      "name": "Product-Person",
+      "definition": "The relation between a product and a person."
+    },
+    {
+      "id": 14,
+      "name": "Product-Work",
+      "definition": "The relation between a product and a work."
+    },
+    {
+      "id": 15,
+      "name": "Work-Organization",
+      "definition": "The relation between a work and an organization."
+    },
+    {
+      "id": 16,
+      "name": "Work-Person",
+      "definition": "The relation between a work and a person."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "bench": "clinc150_domain",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking",
+      "definition": "Managing bank accounts, credit cards, loans, transactions, and related financial services."
+    },
+    {
+      "id": 2,
+      "name": "Calendar",
+      "definition": "Viewing, scheduling, or modifying events and appointments in a personal calendar."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "Sending messages, making calls, or managing contacts and notifications."
+    },
+    {
+      "id": 4,
+      "name": "Device Control",
+      "definition": "Adjusting device settings, hardware, or voice assistant configuration."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment",
+      "definition": "Playing, controlling, or organizing music, videos, and other media."
+    },
+    {
+      "id": 6,
+      "name": "Food and Dining",
+      "definition": "Finding restaurants, making reservations, or seeking information about food and nutrition."
+    },
+    {
+      "id": 7,
+      "name": "General Knowledge",
+      "definition": "Answering questions about facts, definitions, translations, or general information."
+    },
+    {
+      "id": 8,
+      "name": "Home and Shopping",
+      "definition": "Managing shopping lists, household chores, or home maintenance."
+    },
+    {
+      "id": 9,
+      "name": "Personal Assistant",
+      "definition": "Managing personal reminders, alarms, timers, and to-do lists."
+    },
+    {
+      "id": 10,
+      "name": "Small Talk",
+      "definition": "Engaging in casual conversation, jokes, or questions about the assistant's identity."
+    },
+    {
+      "id": 11,
+      "name": "Transportation",
+      "definition": "Booking or managing car rentals, ride services, or vehicle maintenance."
+    },
+    {
+      "id": 12,
+      "name": "Travel",
+      "definition": "Planning trips, booking flights, checking visa requirements, or travel alerts."
+    },
+    {
+      "id": 13,
+      "name": "Utilities and Bills",
+      "definition": "Checking or paying bills for utilities, insurance, and other recurring services."
+    },
+    {
+      "id": 14,
+      "name": "Weather",
+      "definition": "Checking weather forecasts or current conditions."
+    },
+    {
+      "id": 15,
+      "name": "Work and HR",
+      "definition": "Managing employment tasks such as payroll, time off, benefits, or workplace requests."
+    }
+  ]
+}

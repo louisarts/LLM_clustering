@@ -1,0 +1,145 @@
+{
+  "bench": "massive_domain",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music",
+      "definition": "Utterances related to playing music or podcasts."
+    },
+    {
+      "id": 2,
+      "name": "Email",
+      "definition": "Utterances related to sending, receiving, or managing emails."
+    },
+    {
+      "id": 3,
+      "name": "Calendar",
+      "definition": "Utterances related to setting, managing, or checking calendar events."
+    },
+    {
+      "id": 4,
+      "name": "Weather",
+      "definition": "Utterances related to checking or receiving weather forecasts."
+    },
+    {
+      "id": 5,
+      "name": "Alarm/Reminder",
+      "definition": "Utterances related to setting alarms or reminders."
+    },
+    {
+      "id": 6,
+      "name": "News",
+      "definition": "Utterances related to checking or receiving news updates."
+    },
+    {
+      "id": 7,
+      "name": "Navigation",
+      "definition": "Utterances related to getting directions or locations."
+    },
+    {
+      "id": 8,
+      "name": "Finance",
+      "definition": "Utterances related to checking stocks, exchange rates, or financial information."
+    },
+    {
+      "id": 9,
+      "name": "Entertainment",
+      "definition": "Utterances related to movies, TV shows, books, or entertainment recommendations."
+    },
+    {
+      "id": 10,
+      "name": "Shopping List",
+      "definition": "Utterances related to adding or removing items from a shopping list."
+    },
+    {
+      "id": 11,
+      "name": "General Knowledge",
+      "definition": "Utterances related to general knowledge questions or information seeking."
+    },
+    {
+      "id": 12,
+      "name": "Social Media",
+      "definition": "Utterances related to posting on social media platforms."
+    },
+    {
+      "id": 13,
+      "name": "Health",
+      "definition": "Utterances related to health, fitness, or medical queries."
+    },
+    {
+      "id": 14,
+      "name": "Home Automation",
+      "definition": "Utterances related to controlling lights, appliances, or home automation devices."
+    },
+    {
+      "id": 15,
+      "name": "Travel",
+      "definition": "Utterances related to booking tickets, checking train schedules, or travel information."
+    },
+    {
+      "id": 16,
+      "name": "Language/Definition",
+      "definition": "Utterances related to language translation, word meanings, or definitions."
+    },
+    {
+      "id": 17,
+      "name": "Social Events",
+      "definition": "Utterances related to social events, meetings, or gatherings."
+    },
+    {
+      "id": 18,
+      "name": "Food/Recipes",
+      "definition": "Utterances related to cooking, recipes, or food ordering."
+    },
+    {
+      "id": 19,
+      "name": "Education",
+      "definition": "Utterances related to learning, education, or academic queries."
+    },
+    {
+      "id": 20,
+      "name": "Traffic",
+      "definition": "Utterances related to checking traffic conditions or travel time."
+    },
+    {
+      "id": 21,
+      "name": "Mathematics",
+      "definition": "Utterances related to math calculations or problem-solving."
+    },
+    {
+      "id": 22,
+      "name": "Personal Information",
+      "definition": "Utterances related to personal details, contacts, or specific individuals."
+    },
+    {
+      "id": 23,
+      "name": "Social Interactions",
+      "definition": "Utterances related to social interactions, conversations, or communication."
+    },
+    {
+      "id": 24,
+      "name": "Home Environment",
+      "definition": "Utterances related to controlling home environment settings."
+    },
+    {
+      "id": 25,
+      "name": "Tourism",
+      "definition": "Utterances related to tourist destinations, travel recommendations, or sightseeing."
+    },
+    {
+      "id": 26,
+      "name": "Philosophical/Existential",
+      "definition": "Utterances related to philosophical questions, existential queries, or abstract topics."
+    },
+    {
+      "id": 27,
+      "name": "Customer Service",
+      "definition": "Utterances related to complaints, feedback, or customer service interactions."
+    }
+  ]
+}

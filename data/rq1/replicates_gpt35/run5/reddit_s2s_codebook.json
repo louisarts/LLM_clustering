@@ -1,0 +1,60 @@
+{
+  "bench": "reddit_s2s",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Anime",
+      "definition": "Posts related to anime series, characters, or discussions"
+    },
+    {
+      "id": 2,
+      "name": "Books",
+      "definition": "Posts discussing books, recommendations, or reviews"
+    },
+    {
+      "id": 3,
+      "name": "Music",
+      "definition": "Posts about music, artists, songs, or performances"
+    },
+    {
+      "id": 4,
+      "name": "Science",
+      "definition": "Posts related to scientific discoveries, theories, or discussions"
+    },
+    {
+      "id": 5,
+      "name": "Health",
+      "definition": "Posts related to health, medical conditions, or treatments"
+    },
+    {
+      "id": 6,
+      "name": "Technology",
+      "definition": "Posts about technology, gadgets, or software"
+    },
+    {
+      "id": 7,
+      "name": "Travel",
+      "definition": "Posts about travel destinations, tips, or experiences"
+    },
+    {
+      "id": 8,
+      "name": "Art",
+      "definition": "Posts related to art, artists, or creative works"
+    },
+    {
+      "id": 9,
+      "name": "Sports",
+      "definition": "Posts about sports events, teams, or players"
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "Posts related to education, courses, or learning experiences"
+    }
+  ]
+}

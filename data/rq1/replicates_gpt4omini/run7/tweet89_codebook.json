@@ -1,0 +1,110 @@
+{
+  "bench": "tweet89",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets related to advertisements aired during the Super Bowl."
+    },
+    {
+      "id": 2,
+      "name": "Healthcare Reform",
+      "definition": "Tweets discussing laws, rulings, or events related to healthcare reform."
+    },
+    {
+      "id": 3,
+      "name": "Concussions in Sports",
+      "definition": "Tweets addressing issues related to concussions in sports, particularly in the NBA and NFL."
+    },
+    {
+      "id": 4,
+      "name": "Celebrity News",
+      "definition": "Tweets about events or controversies involving celebrities."
+    },
+    {
+      "id": 5,
+      "name": "Protests and Civil Unrest",
+      "definition": "Tweets covering protests, demonstrations, or civil unrest in various regions."
+    },
+    {
+      "id": 6,
+      "name": "Terrorism and Attacks",
+      "definition": "Tweets related to terrorist attacks or violent incidents."
+    },
+    {
+      "id": 7,
+      "name": "Oscar Nominations and Awards",
+      "definition": "Tweets discussing nominations, winners, or events related to the Oscars."
+    },
+    {
+      "id": 8,
+      "name": "Food and Recipes",
+      "definition": "Tweets sharing recipes or discussing food-related topics."
+    },
+    {
+      "id": 9,
+      "name": "Fishing",
+      "definition": "Tweets related to fishing techniques, reports, or events."
+    },
+    {
+      "id": 10,
+      "name": "Identity Theft and Online Security",
+      "definition": "Tweets discussing issues related to identity theft and online security."
+    },
+    {
+      "id": 11,
+      "name": "Immigration Reform",
+      "definition": "Tweets addressing laws, proposals, or events related to immigration."
+    },
+    {
+      "id": 12,
+      "name": "Political News",
+      "definition": "Tweets covering political events, decisions, or controversies."
+    },
+    {
+      "id": 13,
+      "name": "Environmental Issues",
+      "definition": "Tweets discussing climate change, environmental policies, or related events."
+    },
+    {
+      "id": 14,
+      "name": "Social Media Trends",
+      "definition": "Tweets about trends, discussions, or events occurring on social media platforms."
+    },
+    {
+      "id": 15,
+      "name": "Texting and Driving",
+      "definition": "Tweets addressing the dangers of texting while driving."
+    },
+    {
+      "id": 16,
+      "name": "Sports Events",
+      "definition": "Tweets related to significant sports events or competitions."
+    },
+    {
+      "id": 17,
+      "name": "Cultural Events",
+      "definition": "Tweets discussing cultural events such as film festivals or art exhibitions."
+    },
+    {
+      "id": 18,
+      "name": "Legal Cases and Rulings",
+      "definition": "Tweets covering significant legal cases, rulings, or judicial decisions."
+    },
+    {
+      "id": 19,
+      "name": "Consumer Products and Advertisements",
+      "definition": "Tweets discussing consumer products, advertisements, or marketing campaigns."
+    },
+    {
+      "id": 20,
+      "name": "Childhood and Parenting Issues",
+      "definition": "Tweets addressing issues related to childhood, parenting, or child welfare."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "mtop_intent",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Reminder",
+      "definition": "Create a reminder for a future task or event."
+    },
+    {
+      "id": 2,
+      "name": "Manage Reminder",
+      "definition": "Modify, delete, or inquire about existing reminders."
+    },
+    {
+      "id": 3,
+      "name": "Set Alarm",
+      "definition": "Create an alarm to go off at a specified time."
+    },
+    {
+      "id": 4,
+      "name": "Manage Alarm",
+      "definition": "Modify, delete, or inquire about existing alarms."
+    },
+    {
+      "id": 5,
+      "name": "Set Timer",
+      "definition": "Create a countdown timer for a specified duration."
+    },
+    {
+      "id": 6,
+      "name": "Manage Timer",
+      "definition": "Modify, delete, or inquire about existing timers."
+    },
+    {
+      "id": 7,
+      "name": "Make Call",
+      "definition": "Initiate an audio or video call to a contact."
+    },
+    {
+      "id": 8,
+      "name": "Manage Call",
+      "definition": "Modify or end an ongoing call."
+    },
+    {
+      "id": 9,
+      "name": "Send Message",
+      "definition": "Send a text or multimedia message to a contact or group."
+    },
+    {
+      "id": 10,
+      "name": "Manage Message",
+      "definition": "Read, reply to, or inquire about existing messages."
+    },
+    {
+      "id": 11,
+      "name": "Play Music",
+      "definition": "Play a specific song, album, or genre of music."
+    },
+    {
+      "id": 12,
+      "name": "Manage Music",
+      "definition": "Control playback of music, such as pausing or skipping tracks."
+    },
+    {
+      "id": 13,
+      "name": "Weather Inquiry",
+      "definition": "Request information about current or future weather conditions."
+    },
+    {
+      "id": 14,
+      "name": "News Inquiry",
+      "definition": "Request information about current news or headlines."
+    },
+    {
+      "id": 15,
+      "name": "Event Inquiry",
+      "definition": "Request information about events happening in a specific location."
+    },
+    {
+      "id": 16,
+      "name": "Recipe Inquiry",
+      "definition": "Request information about recipes or cooking instructions."
+    },
+    {
+      "id": 17,
+      "name": "Nutritional Inquiry",
+      "definition": "Request information about the nutritional content of food."
+    },
+    {
+      "id": 18,
+      "name": "Contact Information Inquiry",
+      "definition": "Request information about a contact's details, such as address or employer."
+    },
+    {
+      "id": 19,
+      "name": "Social Connection Inquiry",
+      "definition": "Request information about social connections or online status of contacts."
+    },
+    {
+      "id": 20,
+      "name": "General Inquiry",
+      "definition": "Request general information or answers to questions not covered by other categories."
+    }
+  ]
+}

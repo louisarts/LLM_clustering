@@ -1,0 +1,387 @@
+[
+ {
+  "id": 1,
+  "name": "Card_Not_Received",
+  "definition": "Customer is inquiring about the status, delay, or tracking of a new or replacement card that has not yet arrived."
+ },
+ {
+  "id": 2,
+  "name": "Card_Lost_Stolen",
+  "definition": "Customer reports that their card has been lost or stolen and needs assistance blocking or replacing it."
+ },
+ {
+  "id": 3,
+  "name": "Card_Activation",
+  "definition": "Customer needs help activating a new card or retrieving a passcode/PIN for activation."
+ },
+ {
+  "id": 4,
+  "name": "Card_Acceptance",
+  "definition": "Customer asks where their card is accepted or which ATMs support their card."
+ },
+ {
+  "id": 5,
+  "name": "Card_Retrieval",
+  "definition": "Customer has physically lost their card inside an ATM or card machine."
+ },
+ {
+  "id": 6,
+  "name": "Card_Expiry",
+  "definition": "Customer has a query regarding an expiring or expired card."
+ },
+ {
+  "id": 7,
+  "name": "Card_Disposable_Limits",
+  "definition": "Customer asks about limits regarding the creation or usage of disposable or virtual cards."
+ },
+ {
+  "id": 8,
+  "name": "Contactless_Payments",
+  "definition": "Customer has questions about using contactless features or troubleshooting contactless payment failures."
+ },
+ {
+  "id": 9,
+  "name": "Top_Up_General",
+  "definition": "General inquiries about topping up the account, including limits, methods, and international cards."
+ },
+ {
+  "id": 10,
+  "name": "Top_Up_Status",
+  "definition": "Issues regarding the status of a top-up, including reverted, pending, or failed transactions."
+ },
+ {
+  "id": 11,
+  "name": "Auto_Top_Up",
+  "definition": "Customer requests assistance with setting up or managing automatic top-ups."
+ },
+ {
+  "id": 12,
+  "name": "ATM_Withdrawal_Issue",
+  "definition": "Customer reports an error with an ATM withdrawal, such as not receiving cash or the machine malfunctioning."
+ },
+ {
+  "id": 13,
+  "name": "ATM_Limits_Locations",
+  "definition": "Customer asks about ATM withdrawal limits, fees, or finding specific ATM locations."
+ },
+ {
+  "id": 14,
+  "name": "ATM_PIN_Services",
+  "definition": "Customer inquires about changing or retrieving their PIN at an ATM."
+ },
+ {
+  "id": 15,
+  "name": "Transfer_Issues",
+  "definition": "Customer reports that a money transfer to another person has failed, is pending, or is missing from the balance."
+ },
+ {
+  "id": 16,
+  "name": "Incoming_Transfers",
+  "definition": "Customer asks how to receive money from others."
+ },
+ {
+  "id": 17,
+  "name": "Fraud_Unrecognized_Transaction",
+  "definition": "Customer suspects fraudulent activity, unauthorized use of their card, or sees transactions they do not recognize."
+ },
+ {
+  "id": 18,
+  "name": "Identity_Verification",
+  "definition": "Customer asks about the requirements or process to verify their identity for the account."
+ },
+ {
+  "id": 19,
+  "name": "Currency_Exchange",
+  "definition": "Customer asks about exchanging currencies (e.g., GBP to USD) or available currency options."
+ },
+ {
+  "id": 20,
+  "name": "Account_Closure",
+  "definition": "Customer requests to delete or terminate their account."
+ },
+ {
+  "id": 21,
+  "name": "Payment_Declined",
+  "definition": "Customer reports that a card payment was declined by the merchant or bank."
+ },
+ {
+  "id": 22,
+  "name": "Payment_Pending",
+  "definition": "Customer inquires why a card payment is stuck in a pending state."
+ },
+ {
+  "id": 23,
+  "name": "Refund_Request",
+  "definition": "Customer asks how to process a refund for a purchase made with the card."
+ },
+ {
+  "id": 24,
+  "name": "Card_Link",
+  "definition": "Customer asks how to link their card to the account or app."
+ },
+ {
+  "id": 25,
+  "name": "Crypto_Compliance",
+  "definition": "Queries regarding the ability to buy cryptocurrency or policy restrictions on crypto transactions."
+ },
+ {
+  "id": 26,
+  "name": "App_Login_Issues",
+  "definition": "Queries regarding difficulties logging into the mobile app or online banking system."
+ },
+ {
+  "id": 27,
+  "name": "Virtual_Card_Request",
+  "definition": "Queries regarding the creation, retrieval, or usage of disposable or virtual cards."
+ },
+ {
+  "id": 28,
+  "name": "Card_Unblock",
+  "definition": "Queries regarding unblocking a card that has been blocked or frozen, or reversing a freeze status."
+ },
+ {
+  "id": 29,
+  "name": "Card_Freeze",
+  "definition": "Queries requesting to temporarily freeze or block a card or account due to security concerns or loss."
+ },
+ {
+  "id": 30,
+  "name": "Card_Damaged",
+  "definition": "Queries reporting a physically damaged, broken, or unusable card."
+ },
+ {
+  "id": 31,
+  "name": "Card_Replacement",
+  "definition": "Queries regarding the process for replacing a card that is damaged, lost, or expiring."
+ },
+ {
+  "id": 32,
+  "name": "Card_Type_Info",
+  "definition": "Queries asking about the types of cards available (e.g., Visa vs Mastercard) or card network details."
+ },
+ {
+  "id": 33,
+  "name": "Passcode_Reset",
+  "definition": "Queries regarding resetting or recovering the app passcode or login PIN."
+ },
+ {
+  "id": 34,
+  "name": "Top_Up_Methods",
+  "definition": "Queries regarding the specific methods (e.g., American Express, external banks) available to top up an account."
+ },
+ {
+  "id": 35,
+  "name": "Balance_Update_Issue",
+  "definition": "Queries reporting that an account balance has not updated correctly after a transaction."
+ },
+ {
+  "id": 36,
+  "name": "Exchange_Rates",
+  "definition": "Queries asking about current exchange rates, how they are calculated, or specific rate details."
+ },
+ {
+  "id": 37,
+  "name": "Fees_General",
+  "definition": "Queries asking why a specific fee was charged or explaining general fee structures."
+ },
+ {
+  "id": 38,
+  "name": "Transfer_Fees",
+  "definition": "Queries specifically regarding fees applied to money transfers."
+ },
+ {
+  "id": 39,
+  "name": "Purchase_Cancel",
+  "definition": "Queries regarding cancelling a purchase or stopping a payment after it has been made."
+ },
+ {
+  "id": 40,
+  "name": "Card_Status_Check",
+  "definition": "Queries asking to verify if a card is active, working, or valid for use."
+ },
+ {
+  "id": 41,
+  "name": "Direct_Debit_Dispute",
+  "definition": "Queries reporting unauthorized or unrecognized direct debit payments."
+ },
+ {
+  "id": 42,
+  "name": "Top_Up_Limits",
+  "definition": "Queries regarding the maximum limits for topping up an account."
+ },
+ {
+  "id": 43,
+  "name": "Transfer_Methods",
+  "definition": "Queries asking how to transfer money into an account or initiate a transfer."
+ },
+ {
+  "id": 44,
+  "name": "ATM_Cash_Discrepancy",
+  "definition": "Queries reporting that the cash received from an ATM differs from the amount requested."
+ },
+ {
+  "id": 45,
+  "name": "Location_Services",
+  "definition": "Queries asking about the bank's physical locations, branches, or supported regions."
+ },
+ {
+  "id": 46,
+  "name": "Source_of_Funds_Verification",
+  "definition": "Queries regarding the requirement to validate or prove the source of funds."
+ },
+ {
+  "id": 47,
+  "name": "Update_Personal_Details",
+  "definition": "Customer needs to update personal information such as address, name, or contact details."
+ },
+ {
+  "id": 48,
+  "name": "Transfer_Rules_Beneficiary",
+  "definition": "Inquiries regarding the rules, limits, or requirements for transferring money to a beneficiary."
+ },
+ {
+  "id": 49,
+  "name": "Transaction_Reversal",
+  "definition": "Customer requests to reverse or undo a specific transaction that has already been processed."
+ },
+ {
+  "id": 50,
+  "name": "PIN_Unblock",
+  "definition": "Customer needs to unblock a PIN that has been locked due to incorrect attempts."
+ },
+ {
+  "id": 51,
+  "name": "Transfer_Timeframe",
+  "definition": "Questions regarding how long a transfer takes to process or arrive at the destination."
+ },
+ {
+  "id": 52,
+  "name": "Duplicate_Transaction",
+  "definition": "Customer reports being charged twice for the same transaction or seeing duplicate charges."
+ },
+ {
+  "id": 53,
+  "name": "Card_Delivery",
+  "definition": "Questions regarding the shipping status, delivery timeframes, or delivery location of a card."
+ },
+ {
+  "id": 54,
+  "name": "Salary_Deposit",
+  "definition": "Customer inquires about how to receive salary payments into their account."
+ },
+ {
+  "id": 55,
+  "name": "Card_Order",
+  "definition": "Customer wants to order or request a new physical card."
+ },
+ {
+  "id": 56,
+  "name": "ATM_Card_Retention",
+  "definition": "Customer reports that an ATM has retained or swallowed their card."
+ },
+ {
+  "id": 57,
+  "name": "Direct_Debit_Unrecognized",
+  "definition": "Customer disputes or does not recognize a direct debit transaction on their account."
+ },
+ {
+  "id": 58,
+  "name": "Card_Cancellation",
+  "definition": "Customer requests to cancel their card permanently."
+ },
+ {
+  "id": 59,
+  "name": "Card_Spare_Request",
+  "definition": "Customer wants to order additional or spare cards for their account."
+ },
+ {
+  "id": 60,
+  "name": "Top_Up_Verification",
+  "definition": "Questions regarding the verification process required for topping up an account."
+ },
+ {
+  "id": 61,
+  "name": "Top_Up_Supported_Currencies",
+  "definition": "Inquiries about which currencies are supported for adding money to the account."
+ },
+ {
+  "id": 62,
+  "name": "Top_Up_Digital_Wallet",
+  "definition": "Customer wants to top up their account using a digital wallet service like Google Pay or Apple Pay."
+ },
+ {
+  "id": 63,
+  "name": "ATM_Withdrawal_Fee",
+  "definition": "Questions or disputes regarding fees charged specifically for ATM cash withdrawals."
+ },
+ {
+  "id": 64,
+  "name": "Exchange_Fee_Inquiry",
+  "definition": "Questions regarding the fees applied to currency exchange transactions."
+ },
+ {
+  "id": 65,
+  "name": "Account_Access_Device_Lost",
+  "definition": "Customer has lost their phone or device and needs help accessing their account."
+ },
+ {
+  "id": 66,
+  "name": "Identity_Verification_Alternative",
+  "definition": "Customer asks if they can use the account without verifying identity or needs an alternative verification method."
+ },
+ {
+  "id": 67,
+  "name": "Incoming_Transfer_Methods",
+  "definition": "Customer asks how someone else can send money to their account."
+ },
+ {
+  "id": 68,
+  "name": "Virtual_Card_Issues",
+  "definition": "Queries regarding non-physical cards not working, usage issues, or generation limits."
+ },
+ {
+  "id": 69,
+  "name": "Card_Delivery_Eligibility",
+  "definition": "Questions regarding eligibility for card delivery based on location or region (e.g., outside UK)."
+ },
+ {
+  "id": 70,
+  "name": "Password_Reset",
+  "definition": "Issues related to resetting passwords or login credentials not being accepted."
+ },
+ {
+  "id": 71,
+  "name": "Cheque_Deposit",
+  "definition": "Inquiries about adding money to the account via cheque."
+ },
+ {
+  "id": 72,
+  "name": "Transfer_Eligibility",
+  "definition": "Questions regarding requirements or eligibility to make transfers (e.g., currency requirements)."
+ },
+ {
+  "id": 73,
+  "name": "Verification_Code_Info",
+  "definition": "Requests for information about verification codes (e.g., SMS codes, OTPs)."
+ },
+ {
+  "id": 74,
+  "name": "Age_Eligibility",
+  "definition": "Inquiries regarding the minimum age requirement to hold an account."
+ },
+ {
+  "id": 75,
+  "name": "Card_Reactivation",
+  "definition": "Requests to add a previously lost, blocked, or old card back into the system."
+ },
+ {
+  "id": 76,
+  "name": "Region_Support",
+  "definition": "Inquiries about supported regions or countries for banking services (e.g., EU support)."
+ },
+ {
+  "id": 77,
+  "name": "Physical_Card_Request",
+  "definition": "Requests specifically for a physical card."
+ }
+]

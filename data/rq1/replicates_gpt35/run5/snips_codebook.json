@@ -1,0 +1,60 @@
+{
+  "bench": "snips",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Book a reservation",
+      "definition": "User wants to make a reservation at a restaurant or table."
+    },
+    {
+      "id": 2,
+      "name": "Weather forecast",
+      "definition": "User wants to know the weather forecast for a specific location and time."
+    },
+    {
+      "id": 3,
+      "name": "Find movie schedules",
+      "definition": "User wants to find schedules for movies playing at nearby theaters."
+    },
+    {
+      "id": 4,
+      "name": "Play music or playlist",
+      "definition": "User wants to play music, songs, or playlists."
+    },
+    {
+      "id": 5,
+      "name": "Rate a book, movie, or album",
+      "definition": "User wants to provide a rating for a book, movie, or album."
+    },
+    {
+      "id": 6,
+      "name": "Find a specific creative work",
+      "definition": "User wants to find a specific book, movie, TV show, or painting."
+    },
+    {
+      "id": 7,
+      "name": "Search for a specific item",
+      "definition": "User wants to search for a specific item such as a book, album, or picture."
+    },
+    {
+      "id": 8,
+      "name": "Book a reservation for multiple people",
+      "definition": "User wants to make a reservation for a specific number of people at a restaurant or table."
+    },
+    {
+      "id": 9,
+      "name": "Play music from a specific era or artist",
+      "definition": "User wants to play music from a specific era or by a specific artist."
+    },
+    {
+      "id": 10,
+      "name": "Find a specific TV series",
+      "definition": "User wants to find a specific TV series to watch."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "bench": "massive_intent",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Request",
+      "definition": "Requests for information or clarification on various topics."
+    },
+    {
+      "id": 2,
+      "name": "Reminder/Notification",
+      "definition": "Requests to set reminders or notifications for future events."
+    },
+    {
+      "id": 3,
+      "name": "Email Management",
+      "definition": "Commands related to sending, replying, or checking emails."
+    },
+    {
+      "id": 4,
+      "name": "Calendar Management",
+      "definition": "Commands for adding, deleting, or modifying calendar events."
+    },
+    {
+      "id": 5,
+      "name": "Music/Audio Control",
+      "definition": "Commands to play, pause, or manage music and audio content."
+    },
+    {
+      "id": 6,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 7,
+      "name": "Task Management",
+      "definition": "Commands to add, delete, or manage tasks and lists."
+    },
+    {
+      "id": 8,
+      "name": "Travel/Navigation",
+      "definition": "Requests related to travel arrangements or navigation."
+    },
+    {
+      "id": 9,
+      "name": "Device Control",
+      "definition": "Commands to control smart home devices or appliances."
+    },
+    {
+      "id": 10,
+      "name": "Social Media Interaction",
+      "definition": "Commands related to posting or interacting on social media platforms."
+    },
+    {
+      "id": 11,
+      "name": "Recipe/Meal Preparation",
+      "definition": "Requests for recipes or meal preparation instructions."
+    },
+    {
+      "id": 12,
+      "name": "Shopping/Ordering",
+      "definition": "Commands to order food or manage shopping lists."
+    },
+    {
+      "id": 13,
+      "name": "General Chit Chat",
+      "definition": "Casual conversation or idle chit chat."
+    },
+    {
+      "id": 14,
+      "name": "News Inquiry",
+      "definition": "Requests for current news or updates on specific topics."
+    },
+    {
+      "id": 15,
+      "name": "Math/Calculations",
+      "definition": "Requests for mathematical calculations or conversions."
+    },
+    {
+      "id": 16,
+      "name": "Personal Assistance",
+      "definition": "Commands for personal assistance tasks, such as reminders or scheduling."
+    }
+  ]
+}

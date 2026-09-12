@@ -1,0 +1,60 @@
+{
+  "bench": "clinc150",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Lost Item Assistance",
+      "definition": "User needs help finding a lost item"
+    },
+    {
+      "id": 2,
+      "name": "Travel Information",
+      "definition": "User seeks information related to travel plans"
+    },
+    {
+      "id": 3,
+      "name": "Financial Inquiry",
+      "definition": "User has a question related to finances or accounts"
+    },
+    {
+      "id": 4,
+      "name": "Task Assistance",
+      "definition": "User requests help with completing a task"
+    },
+    {
+      "id": 5,
+      "name": "Information Request",
+      "definition": "User seeks general information or details"
+    },
+    {
+      "id": 6,
+      "name": "Appointment Scheduling",
+      "definition": "User wants to schedule or confirm an appointment"
+    },
+    {
+      "id": 7,
+      "name": "Health Inquiry",
+      "definition": "User has a health-related question or concern"
+    },
+    {
+      "id": 8,
+      "name": "Entertainment Request",
+      "definition": "User requests entertainment-related information or content"
+    },
+    {
+      "id": 9,
+      "name": "Language Preference",
+      "definition": "User specifies a language preference for communication"
+    },
+    {
+      "id": 10,
+      "name": "Shopping Assistance",
+      "definition": "User needs help with shopping or purchasing items"
+    }
+  ]
+}

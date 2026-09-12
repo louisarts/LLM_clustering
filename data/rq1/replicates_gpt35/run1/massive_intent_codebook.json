@@ -1,0 +1,70 @@
+{
+  "bench": "massive_intent",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Media",
+      "definition": "User wants to play music, podcast, audiobook, or radio station."
+    },
+    {
+      "id": 2,
+      "name": "Set Reminder",
+      "definition": "User wants to set a reminder for a specific event or task."
+    },
+    {
+      "id": 3,
+      "name": "Get Information",
+      "definition": "User wants to get information about weather, time, stock prices, definitions, etc."
+    },
+    {
+      "id": 4,
+      "name": "Send Communication",
+      "definition": "User wants to send an email, tweet, or message."
+    },
+    {
+      "id": 5,
+      "name": "Schedule Event",
+      "definition": "User wants to schedule a meeting, appointment, or event."
+    },
+    {
+      "id": 6,
+      "name": "Control Smart Home",
+      "definition": "User wants to control lights, alarms, or other smart home devices."
+    },
+    {
+      "id": 7,
+      "name": "Check Notifications",
+      "definition": "User wants to check notifications, emails, or reminders."
+    },
+    {
+      "id": 8,
+      "name": "Get Directions",
+      "definition": "User wants to get directions, find routes, or book transportation."
+    },
+    {
+      "id": 9,
+      "name": "Get Recommendations",
+      "definition": "User wants recommendations for music, news, recipes, etc."
+    },
+    {
+      "id": 10,
+      "name": "Perform Calculation",
+      "definition": "User wants to perform a calculation or math operation."
+    },
+    {
+      "id": 11,
+      "name": "Delete/Remove",
+      "definition": "User wants to delete or remove an item from a list, calendar, or device."
+    },
+    {
+      "id": 12,
+      "name": "General Inquiry",
+      "definition": "User has a general question or inquiry."
+    }
+  ]
+}

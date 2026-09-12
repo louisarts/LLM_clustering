@@ -1,0 +1,134 @@
+{
+  "bench": "stackoverflow20",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ajax",
+      "definition": "Questions about asynchronous JavaScript and XML technologies, including the XMLHttpRequest object and client-side interaction with servers."
+    },
+    {
+      "id": 2,
+      "name": "Apache",
+      "definition": "Questions about the Apache HTTP Server, including configuration, modules like mod_rewrite, and virtual hosts."
+    },
+    {
+      "id": 3,
+      "name": "Bash",
+      "definition": "Questions about the Bash shell, shell scripting, and command-line operations in Unix-like environments."
+    },
+    {
+      "id": 4,
+      "name": "Cocoa",
+      "definition": "Questions about the Cocoa application programming interface (API) for the macOS operating system, including Objective-C development."
+    },
+    {
+      "id": 5,
+      "name": "Drupal",
+      "definition": "Questions about the Drupal content management system, including modules, theming, and configuration."
+    },
+    {
+      "id": 6,
+      "name": "Excel",
+      "definition": "Questions about Microsoft Excel, including formulas, VBA macros, and spreadsheet manipulation."
+    },
+    {
+      "id": 7,
+      "name": "Git",
+      "definition": "Questions about the Git version control system and source code management."
+    },
+    {
+      "id": 8,
+      "name": "Haskell",
+      "definition": "Questions about the Haskell functional programming language and its tools like GHC and Cabal."
+    },
+    {
+      "id": 9,
+      "name": "Hibernate",
+      "definition": "Questions about the Hibernate object-relational mapping (ORM) library for Java."
+    },
+    {
+      "id": 10,
+      "name": "Java",
+      "definition": "Questions about the Java programming language, excluding specific frameworks like Spring or Hibernate that have their own categories."
+    },
+    {
+      "id": 11,
+      "name": "LINQ",
+      "definition": "Questions about Language Integrated Query (LINQ) in the .NET framework for querying data sources."
+    },
+    {
+      "id": 12,
+      "name": "MacOS",
+      "definition": "Questions about the macOS operating system, including system administration, installation, and OS-level features."
+    },
+    {
+      "id": 13,
+      "name": "Magento",
+      "definition": "Questions about the Magento e-commerce platform, including configuration, theming, and development."
+    },
+    {
+      "id": 14,
+      "name": "Matlab",
+      "definition": "Questions about MATLAB, the numerical computing environment and programming language."
+    },
+    {
+      "id": 15,
+      "name": "Oracle",
+      "definition": "Questions about Oracle Database, including SQL queries, PL/SQL, and database administration."
+    },
+    {
+      "id": 16,
+      "name": "PHP",
+      "definition": "Questions about the PHP programming language, excluding specific CMSs like WordPress or Drupal that have their own categories."
+    },
+    {
+      "id": 17,
+      "name": "Qt",
+      "definition": "Questions about the Qt cross-platform application framework for C++."
+    },
+    {
+      "id": 18,
+      "name": "RSS",
+      "definition": "Questions about Really Simple Syndication (RSS) feeds and feed aggregation."
+    },
+    {
+      "id": 19,
+      "name": "Scala",
+      "definition": "Questions about the Scala programming language."
+    },
+    {
+      "id": 20,
+      "name": "SharePoint",
+      "definition": "Questions about Microsoft SharePoint, including site administration, workflows, and web parts."
+    },
+    {
+      "id": 21,
+      "name": "Spring",
+      "definition": "Questions about the Spring application framework for Java, including Spring MVC and Spring Security."
+    },
+    {
+      "id": 22,
+      "name": "Subversion",
+      "definition": "Questions about the Subversion (SVN) version control system."
+    },
+    {
+      "id": 23,
+      "name": "Visual Studio",
+      "definition": "Questions about the Microsoft Visual Studio integrated development environment (IDE) and its features."
+    },
+    {
+      "id": 24,
+      "name": "WordPress",
+      "definition": "Questions about the WordPress content management system, including plugins, themes, and core functions."
+    },
+    {
+      "id": 25,
+      "name": "Xcode",
+      "definition": "Questions about the Xcode integrated development environment (IDE) for macOS development."
+    }
+  ]
+}

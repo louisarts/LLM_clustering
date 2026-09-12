@@ -1,0 +1,142 @@
+{
+  "bench": "tweet89",
+  "run": 4,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Egypt Protests and Aftermath",
+      "definition": "Documents discussing the Egyptian protests, the targeting of journalists, the security of the Egyptian Museum, and related events."
+    },
+    {
+      "id": 2,
+      "name": "Yemen Protests",
+      "definition": "Documents related to anti-government protests, 'Day of Rage' events, and political instability in Yemen."
+    },
+    {
+      "id": 3,
+      "name": "Super Bowl Commercials and Halftime Show",
+      "definition": "Documents discussing various Super Bowl advertisements and Christina Aguilera's national anthem performance."
+    },
+    {
+      "id": 4,
+      "name": "The King's Speech Film Awards",
+      "definition": "Documents about the film The King's Speech receiving nominations and awards, including Oscars and SAG Awards."
+    },
+    {
+      "id": 5,
+      "name": "Health Care Reform Law Debate",
+      "definition": "Documents discussing legal challenges, rulings, and public opinion regarding the US health care reform law (Obamacare)."
+    },
+    {
+      "id": 6,
+      "name": "Moscow Airport Bombing",
+      "definition": "Documents reporting on the terrorist bombing at Domodedovo Airport in Moscow and its casualties."
+    },
+    {
+      "id": 7,
+      "name": "Taco Bell Meat Lawsuit",
+      "definition": "Documents discussing the lawsuit and controversy surrounding the meat content in Taco Bell's products."
+    },
+    {
+      "id": 8,
+      "name": "Texting While Driving Awareness",
+      "definition": "Documents promoting awareness campaigns and personal stories against texting while driving."
+    },
+    {
+      "id": 9,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Documents providing updates on Representative Gabrielle Giffords' health and rehabilitation after being shot."
+    },
+    {
+      "id": 10,
+      "name": "Australian Open Tennis",
+      "definition": "Documents discussing the Australian Open tennis tournament, particularly the men's final between Djokovic and Murray."
+    },
+    {
+      "id": 11,
+      "name": "Acai Berry Health Claims",
+      "definition": "Documents discussing the health benefits, weight loss claims, and scams related to acai berry products."
+    },
+    {
+      "id": 12,
+      "name": "Facebook Privacy Settings",
+      "definition": "Documents discussing changes or concerns regarding Facebook's privacy settings and user data."
+    },
+    {
+      "id": 13,
+      "name": "New York Governor Cuomo's Budget Cuts",
+      "definition": "Documents discussing Governor Cuomo's proposed budget cuts affecting various state programs in New York."
+    },
+    {
+      "id": 14,
+      "name": "TSA Security Procedures",
+      "definition": "Documents discussing controversies, lawsuits, and public opinion regarding TSA airport security measures like body scanners."
+    },
+    {
+      "id": 15,
+      "name": "Steve Jobs Health and Apple",
+      "definition": "Documents discussing Steve Jobs' health status and its implications for Apple."
+    },
+    {
+      "id": 16,
+      "name": "Immigration Policy Debates",
+      "definition": "Documents discussing legislative efforts and debates related to illegal immigration, particularly in Arizona and South Dakota."
+    },
+    {
+      "id": 17,
+      "name": "Kardashians Public Perception",
+      "definition": "Documents expressing opinions or observations about the Kardashian family's public image or perceived intelligence."
+    },
+    {
+      "id": 18,
+      "name": "Venezuelan Politics and Hugo Chavez",
+      "definition": "Documents discussing Hugo Chavez's political power and re-election in Venezuela."
+    },
+    {
+      "id": 19,
+      "name": "Jordan Protests",
+      "definition": "Documents discussing protests in Jordan demanding political reforms."
+    },
+    {
+      "id": 20,
+      "name": "RNC Chairman Michael Steele Resignation",
+      "definition": "Documents reporting on Michael Steele's resignation as chairman of the Republican National Committee."
+    },
+    {
+      "id": 21,
+      "name": "Sundance Film Festival",
+      "definition": "Documents discussing celebrity sightings and breakout stars at the Sundance Film Festival."
+    },
+    {
+      "id": 22,
+      "name": "Korean Navy Somali Pirate Rescue",
+      "definition": "Documents reporting on the South Korean navy's rescue of a hijacked crew and killing of pirates."
+    },
+    {
+      "id": 23,
+      "name": "Concussion Risks in Athletes",
+      "definition": "Documents discussing the health risks of multiple concussions in teen athletes and new detection methods."
+    },
+    {
+      "id": 24,
+      "name": "Forestry Commission Spending Cuts",
+      "definition": "Documents discussing government spending cuts affecting the Forestry Commission in the UK."
+    },
+    {
+      "id": 25,
+      "name": "Cyclone Yasi in Queensland",
+      "definition": "Documents discussing the impact and comparison of Cyclone Yasi to previous floods in Queensland, Australia."
+    },
+    {
+      "id": 26,
+      "name": "Stuxnet Malware Concerns",
+      "definition": "Documents discussing concerns about the Stuxnet malware, particularly its impact on Iranian health ministry systems."
+    },
+    {
+      "id": 27,
+      "name": "Charlie Sheen Two and a Half Men",
+      "definition": "Documents discussing the television network CBS writing Charlie Sheen out of the show Two and a Half Men."
+    }
+  ]
+}

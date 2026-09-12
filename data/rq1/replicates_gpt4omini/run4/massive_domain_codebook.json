@@ -1,0 +1,85 @@
+{
+  "bench": "massive_domain",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "News and Information",
+      "definition": "Requests for news updates, current events, or general information."
+    },
+    {
+      "id": 2,
+      "name": "Weather",
+      "definition": "Inquiries about current or forecasted weather conditions."
+    },
+    {
+      "id": 3,
+      "name": "Transportation",
+      "definition": "Requests related to travel arrangements, such as booking tickets or finding routes."
+    },
+    {
+      "id": 4,
+      "name": "Home Automation",
+      "definition": "Commands for controlling smart home devices like lights, vacuum cleaners, and appliances."
+    },
+    {
+      "id": 5,
+      "name": "Calendar and Reminders",
+      "definition": "Requests to manage calendar events, reminders, and notifications."
+    },
+    {
+      "id": 6,
+      "name": "Communication",
+      "definition": "Tasks related to sending or composing emails, messages, or social media posts."
+    },
+    {
+      "id": 7,
+      "name": "Entertainment",
+      "definition": "Requests for playing music, podcasts, audiobooks, or games."
+    },
+    {
+      "id": 8,
+      "name": "Food and Dining",
+      "definition": "Inquiries about food options, recipes, or ordering food."
+    },
+    {
+      "id": 9,
+      "name": "Finance and Economy",
+      "definition": "Requests for financial information, such as exchange rates or stock market updates."
+    },
+    {
+      "id": 10,
+      "name": "Personal Assistance",
+      "definition": "General inquiries or requests for assistance in daily tasks."
+    },
+    {
+      "id": 11,
+      "name": "Health and Wellness",
+      "definition": "Requests related to health, such as medication reminders or wellness tips."
+    },
+    {
+      "id": 12,
+      "name": "Education and Learning",
+      "definition": "Inquiries for educational content, explanations, or instructions."
+    },
+    {
+      "id": 13,
+      "name": "Events and Activities",
+      "definition": "Requests for information about local events, activities, or entertainment options."
+    },
+    {
+      "id": 14,
+      "name": "Shopping and Grocery",
+      "definition": "Requests related to shopping lists, grocery management, or product inquiries."
+    },
+    {
+      "id": 15,
+      "name": "Time Management",
+      "definition": "Inquiries about time, alarms, and scheduling."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "bench": "bbcnews",
+  "criterion": "which news topic area the article covers",
+  "n_discovery_docs": 300,
+  "n_samples": 1,
+  "discovery_seed": 0,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics",
+      "definition": "Covers news about government, elections, political parties, public policy, and domestic legal or constitutional matters."
+    },
+    {
+      "id": 2,
+      "name": "Business",
+      "definition": "Covers news about economics, finance, companies, industries, markets, trade, employment, and corporate activities."
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "definition": "Covers news about computing, internet, software, hardware, telecommunications, digital media, and technological innovation."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Covers news about film, music, television, theatre, celebrity, awards, and festivals."
+    },
+    {
+      "id": 5,
+      "name": "Sport",
+      "definition": "Covers news about professional and amateur sports, including matches, results, player news, and club management."
+    },
+    {
+      "id": 6,
+      "name": "Social Issues",
+      "definition": "Covers news about societal concerns such as public health, education, poverty, human rights, demographics, and community affairs."
+    },
+    {
+      "id": 7,
+      "name": "International Relations",
+      "definition": "Covers news about diplomacy, foreign policy, international organizations, cross-border conflicts, and global cooperation."
+    },
+    {
+      "id": 8,
+      "name": "Environment",
+      "definition": "Covers news about climate change, pollution, conservation, environmental policy, and the impact of human activity on nature."
+    },
+    {
+      "id": 9,
+      "name": "Science",
+      "definition": "Covers news about scientific research, discoveries, academic studies, and scientific advancements."
+    },
+    {
+      "id": 10,
+      "name": "Culture",
+      "definition": "Covers news about arts (excluding mainstream entertainment), literature, heritage, and broader cultural trends."
+    },
+    {
+      "id": 11,
+      "name": "Disaster",
+      "definition": "Covers news about natural catastrophes and their immediate human and physical impact."
+    },
+    {
+      "id": 12,
+      "name": "Crime",
+      "definition": "Covers news about illegal activities, law enforcement, and judicial processes."
+    }
+  ]
+}

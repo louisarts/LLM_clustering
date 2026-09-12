@@ -1,0 +1,212 @@
+[
+ {
+  "id": 1,
+  "name": "Financial Inquiry",
+  "definition": "Requesting information about financial transactions, balances, account details, fees, interest rates, credit limits, earnings, PTO balance, debt management, 401k transfers, reward points, or credit ca"
+ },
+ {
+  "id": 2,
+  "name": "Technical Support",
+  "definition": "Seeking assistance or troubleshooting for a product or service."
+ },
+ {
+  "id": 3,
+  "name": "Recipe Modification/Request",
+  "definition": "Asking for alternative ingredients, adjustments to a recipe, or requesting recipes for specific dishes or ingredients."
+ },
+ {
+  "id": 4,
+  "name": "Voice Control",
+  "definition": "Requesting a change in the assistant's voice output, including gender, volume, speech speed, or language."
+ },
+ {
+  "id": 5,
+  "name": "Bill Payment",
+  "definition": "Instructing the assistant to pay a bill."
+ },
+ {
+  "id": 6,
+  "name": "General Knowledge",
+  "definition": "Asking for factual information on a wide range of topics."
+ },
+ {
+  "id": 7,
+  "name": "Time and Date",
+  "definition": "Requesting the current date, time, duration, or time in a specific location."
+ },
+ {
+  "id": 8,
+  "name": "Location",
+  "definition": "Asking for the user's current location or directions."
+ },
+ {
+  "id": 9,
+  "name": "Travel",
+  "definition": "Inquiring about travel-related information, such as flight status, vacation policies, required vaccinations, travel adapters, or travel notifications."
+ },
+ {
+  "id": 10,
+  "name": "Calendar",
+  "definition": "Requesting to view, confirm, or manage calendar events, including reminders and time off."
+ },
+ {
+  "id": 11,
+  "name": "App Recommendation",
+  "definition": "Requesting suggestions for applications or software."
+ },
+ {
+  "id": 12,
+  "name": "Health and Wellness",
+  "definition": "Seeking advice on health-related topics, such as stain removal, CPR instructions, nutrition information, water quality, stretching, or  first aid."
+ },
+ {
+  "id": 13,
+  "name": "Home and Lifestyle",
+  "definition": "Requesting guidance on household tasks, such as cleaning ceiling fans, oven temperature settings, makeup application, or home energy conservation."
+ },
+ {
+  "id": 14,
+  "name": "Entertainment",
+  "definition": "Asking for song identification, outfit recommendations, restaurant wait times, fun facts, movie recommendations, concert tour details, or dice rolling."
+ },
+ {
+  "id": 15,
+  "name": "Personal Assistance",
+  "definition": "Seeking help with personal tasks, including reminders, nickname settings, grocery ordering, event planning, or task list management."
+ },
+ {
+  "id": 16,
+  "name": "Account Management",
+  "definition": "Requesting assistance with managing an account, including resetting settings, reporting issues, or closing a bank account."
+ },
+ {
+  "id": 17,
+  "name": "Other",
+  "definition": "Requests that do not fit into the other categories, such as mathematical explanations, philosophical inquiries, object manipulation, trivia, or random events."
+ },
+ {
+  "id": 18,
+  "name": "Device",
+  "definition": "Giving commands to control a physical device or managing device syncing."
+ },
+ {
+  "id": 19,
+  "name": "Alarm",
+  "definition": "Requesting the assistant to set an alarm for a specific time."
+ },
+ {
+  "id": 20,
+  "name": "Meeting",
+  "definition": "Requesting information about a scheduled meeting, including time and date."
+ },
+ {
+  "id": 21,
+  "name": "Phone Call",
+  "definition": "Asking the assistant to make a phone call to a specific contact."
+ },
+ {
+  "id": 22,
+  "name": "PTO",
+  "definition": "Informing the assistant about a planned absence from work and requesting approval."
+ },
+ {
+  "id": 23,
+  "name": "Insurance",
+  "definition": "Asking about insurance policies, coverage, or claims."
+ },
+ {
+  "id": 24,
+  "name": "Clothing Alteration",
+  "definition": "Requesting assistance with clothing alterations, like hemming."
+ },
+ {
+  "id": 25,
+  "name": "Gift Recommendation",
+  "definition": "Asking for suggestions on appropriate gifts for a specific occasion or person."
+ },
+ {
+  "id": 26,
+  "name": "W2",
+  "definition": "Requesting information about where to find a W2 form."
+ },
+ {
+  "id": 27,
+  "name": "Music",
+  "definition": "Requesting the playback of music, often with a specific genre or mood."
+ },
+ {
+  "id": 28,
+  "name": "Ride Hailing",
+  "definition": "Requesting a ride from a ride-hailing service like Uber."
+ },
+ {
+  "id": 29,
+  "name": "Appointment Scheduling",
+  "definition": "Booking an appointment for a service like an oil change."
+ },
+ {
+  "id": 30,
+  "name": "Order Tracking",
+  "definition": "Checking the status or location of an order."
+ },
+ {
+  "id": 31,
+  "name": "Timer",
+  "definition": "Requesting the assistant to set a timer for a specific duration."
+ },
+ {
+  "id": 32,
+  "name": "Entertainment & Leisure",
+  "definition": "Requesting entertainment or leisure-related information, including music playback control, movie recommendations, concert tour details, and dice rolling."
+ },
+ {
+  "id": 33,
+  "name": "Education & Knowledge",
+  "definition": "Seeking factual information or definitions, such as word meanings, sports statistics, historical events, and foreign language phrases."
+ },
+ {
+  "id": 34,
+  "name": "Technology",
+  "definition": "Requesting assistance with technology or devices, including website access, screen brightness control, and device-specific inquiries."
+ },
+ {
+  "id": 35,
+  "name": "Shopping",
+  "definition": "Inquiring about products or services for purchase, including product recommendations, shopping list modifications, and service reservations."
+ },
+ {
+  "id": 36,
+  "name": "Automotive",
+  "definition": "Asking for information or guidance related to vehicles, such as car maintenance, fuel efficiency, and tire maintenance."
+ },
+ {
+  "id": 37,
+  "name": "Home & Utilities",
+  "definition": "Requesting information or assistance with home-related matters, including cleaning product recommendations, home appliance instructions, and package tracking."
+ },
+ {
+  "id": 38,
+  "name": "Legal & Professional",
+  "definition": "Seeking legal or professional advice, including referrals to professionals and information about specific services."
+ },
+ {
+  "id": 39,
+  "name": "Communication",
+  "definition": "Requesting assistance with communication, such as sending messages, checking order status, or managing contacts."
+ },
+ {
+  "id": 40,
+  "name": "Knowledge",
+  "definition": "Questions seeking definitions, factual information, or explanations about various topics, including natural disasters and mathematical concepts."
+ },
+ {
+  "id": 41,
+  "name": "Help & Instructions",
+  "definition": "Requests for guidance on tasks, troubleshooting, or general advice."
+ },
+ {
+  "id": 42,
+  "name": "Miscellaneous",
+  "definition": "Other requests that do not fit into the above categories, such as weather forecasts, ETA calculations, or AI self-description."
+ }
+]

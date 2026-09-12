@@ -1,0 +1,60 @@
+{
+  "bench": "banking77",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Security",
+      "definition": "Concerns about card security, including freezing, blocking, or reporting unauthorized use."
+    },
+    {
+      "id": 2,
+      "name": "Money Transfer Issue",
+      "definition": "Issues related to money transfers, including delays, missing transfers, and refunds."
+    },
+    {
+      "id": 3,
+      "name": "Identity Verification",
+      "definition": "Questions or concerns about verifying identity for account security."
+    },
+    {
+      "id": 4,
+      "name": "ATM Troubleshooting",
+      "definition": "Problems or questions related to ATM usage, such as stuck cards or incorrect withdrawals."
+    },
+    {
+      "id": 5,
+      "name": "Payment Issues",
+      "definition": "Issues with payments, including extra charges, refunds, and declined transactions."
+    },
+    {
+      "id": 6,
+      "name": "Card Activation/Replacement",
+      "definition": "Questions or requests regarding card activation, replacement, or delivery."
+    },
+    {
+      "id": 7,
+      "name": "Top-Up Queries",
+      "definition": "Questions about topping up accounts, including methods, fees, and limits."
+    },
+    {
+      "id": 8,
+      "name": "Exchange Rate Inquiries",
+      "definition": "Inquiries about exchange rates, currency exchanges, and fees."
+    },
+    {
+      "id": 9,
+      "name": "Account Management",
+      "definition": "Questions related to account details, changes, and restrictions."
+    },
+    {
+      "id": 10,
+      "name": "Virtual Card Assistance",
+      "definition": "Issues or questions related to virtual cards, including usage, limits, and troubleshooting."
+    }
+  ]
+}

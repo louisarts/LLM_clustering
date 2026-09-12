@@ -1,0 +1,132 @@
+{
+  "bench": "stackoverflow20",
+  "run": 7,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Drupal",
+      "definition": "Questions specifically about the Drupal Content Management System."
+    },
+    {
+      "id": 2,
+      "name": "Magento",
+      "definition": "Questions specifically about the Magento e-commerce platform."
+    },
+    {
+      "id": 3,
+      "name": "Wordpress",
+      "definition": "Questions specifically about the Wordpress Content Management System."
+    },
+    {
+      "id": 4,
+      "name": "SharePoint",
+      "definition": "Questions specifically about Microsoft SharePoint."
+    },
+    {
+      "id": 5,
+      "name": "Excel and VBA",
+      "definition": "Questions about Microsoft Excel, including its Visual Basic for Applications (VBA) scripting."
+    },
+    {
+      "id": 6,
+      "name": "Visual Studio",
+      "definition": "Questions about the Microsoft Visual Studio Integrated Development Environment (IDE)."
+    },
+    {
+      "id": 7,
+      "name": "Haskell",
+      "definition": "Questions about the Haskell programming language."
+    },
+    {
+      "id": 8,
+      "name": "Scala",
+      "definition": "Questions about the Scala programming language."
+    },
+    {
+      "id": 9,
+      "name": "Spring Framework",
+      "definition": "Questions about the Spring Framework for Java applications."
+    },
+    {
+      "id": 10,
+      "name": "Hibernate",
+      "definition": "Questions about the Hibernate Object-Relational Mapping (ORM) framework for Java."
+    },
+    {
+      "id": 11,
+      "name": "LINQ",
+      "definition": "Questions about Language Integrated Query in the .NET framework."
+    },
+    {
+      "id": 12,
+      "name": "Qt",
+      "definition": "Questions about the Qt cross-platform application development framework."
+    },
+    {
+      "id": 13,
+      "name": "AJAX",
+      "definition": "Questions about the Asynchronous JavaScript and XML web development technique."
+    },
+    {
+      "id": 14,
+      "name": "Javascript and jQuery",
+      "definition": "Questions about the JavaScript programming language and the jQuery library."
+    },
+    {
+      "id": 15,
+      "name": "PHP",
+      "definition": "Questions about the PHP programming language."
+    },
+    {
+      "id": 16,
+      "name": "Matlab",
+      "definition": "Questions about the Matlab numerical computing environment and programming language."
+    },
+    {
+      "id": 17,
+      "name": "C++",
+      "definition": "Questions about the C++ programming language itself, not specific frameworks built on it."
+    },
+    {
+      "id": 18,
+      "name": ".NET Platform",
+      "definition": "Questions about the broader Microsoft .NET ecosystem, including C# and ASP.NET, when not covered by more specific categories."
+    },
+    {
+      "id": 19,
+      "name": "Mac OS X and iOS Development",
+      "definition": "Questions about developing applications for Apple's macOS or iOS platforms, including Objective-C and Cocoa APIs."
+    },
+    {
+      "id": 20,
+      "name": "Bash and Shell Scripting",
+      "definition": "Questions about Unix/Linux command-line interfaces, shell scripting, and utilities like Bash."
+    },
+    {
+      "id": 21,
+      "name": "Apache HTTP Server",
+      "definition": "Questions about the Apache HTTP Server, including configuration and modules like mod_rewrite."
+    },
+    {
+      "id": 22,
+      "name": "Oracle Database",
+      "definition": "Questions specifically about the Oracle Relational Database Management System."
+    },
+    {
+      "id": 23,
+      "name": "Other Databases",
+      "definition": "Questions about database systems other than Oracle (e.g., MySQL, SQLite, DB2) or general database concepts."
+    },
+    {
+      "id": 24,
+      "name": "SVN (Subversion)",
+      "definition": "Questions about the Subversion version control system and its clients."
+    },
+    {
+      "id": 25,
+      "name": "Java Ecosystem",
+      "definition": "Questions about general Java development, the Java Virtual Machine (JVM), and related tools like Tomcat, not covered by Spring or Hibernate."
+    }
+  ]
+}

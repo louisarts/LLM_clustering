@@ -1,0 +1,60 @@
+{
+  "bench": "mtop_domain",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Personal Reminders",
+      "definition": "Requests to set, modify, or delete personal reminders and alarms."
+    },
+    {
+      "id": 2,
+      "name": "Music Playback",
+      "definition": "Requests related to playing, skipping, or managing music tracks."
+    },
+    {
+      "id": 3,
+      "name": "Weather Information",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 4,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions, recipes, or ingredient information."
+    },
+    {
+      "id": 5,
+      "name": "News and Events",
+      "definition": "Requests for news updates or information about local events."
+    },
+    {
+      "id": 6,
+      "name": "Communication",
+      "definition": "Requests to make calls, send messages, or manage communication settings."
+    },
+    {
+      "id": 7,
+      "name": "Timers",
+      "definition": "Requests to set, modify, or delete timers."
+    },
+    {
+      "id": 8,
+      "name": "Social Connections",
+      "definition": "Requests related to friends, family, or social interactions."
+    },
+    {
+      "id": 9,
+      "name": "General Knowledge",
+      "definition": "Requests for factual information or general inquiries."
+    },
+    {
+      "id": 10,
+      "name": "Video Calls",
+      "definition": "Requests to initiate or manage video calls."
+    }
+  ]
+}

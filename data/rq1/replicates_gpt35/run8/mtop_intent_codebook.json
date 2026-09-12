@@ -1,0 +1,145 @@
+{
+  "bench": "mtop_intent",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Call",
+      "definition": "User wants to make a phone call."
+    },
+    {
+      "id": 2,
+      "name": "Delete",
+      "definition": "User wants to delete something from the system."
+    },
+    {
+      "id": 3,
+      "name": "Remind",
+      "definition": "User wants to set a reminder for a specific task or event."
+    },
+    {
+      "id": 4,
+      "name": "Set Alarm",
+      "definition": "User wants to set an alarm for a specific time."
+    },
+    {
+      "id": 5,
+      "name": "Get Information",
+      "definition": "User wants to get information about a specific topic."
+    },
+    {
+      "id": 6,
+      "name": "Check Status",
+      "definition": "User wants to check the status of something."
+    },
+    {
+      "id": 7,
+      "name": "Increase/Decrease",
+      "definition": "User wants to increase or decrease a value or time."
+    },
+    {
+      "id": 8,
+      "name": "Find",
+      "definition": "User wants to find information about a specific person or topic."
+    },
+    {
+      "id": 9,
+      "name": "Change Setting",
+      "definition": "User wants to change a setting or status."
+    },
+    {
+      "id": 10,
+      "name": "Play Music",
+      "definition": "User wants to play music or a specific song."
+    },
+    {
+      "id": 11,
+      "name": "Check Weather",
+      "definition": "User wants to check the weather forecast for a specific location and time."
+    },
+    {
+      "id": 12,
+      "name": "Check Availability",
+      "definition": "User wants to check the availability of a person or group."
+    },
+    {
+      "id": 13,
+      "name": "Send Message",
+      "definition": "User wants to send a message to a specific person or group."
+    },
+    {
+      "id": 14,
+      "name": "Check Calendar",
+      "definition": "User wants to check their calendar for upcoming events or reminders."
+    },
+    {
+      "id": 15,
+      "name": "Search",
+      "definition": "User wants to search for specific information or events."
+    },
+    {
+      "id": 16,
+      "name": "Cancel",
+      "definition": "User wants to cancel a reminder, alarm, or ongoing task."
+    },
+    {
+      "id": 17,
+      "name": "Check Timer",
+      "definition": "User wants to check the status or duration of a timer."
+    },
+    {
+      "id": 18,
+      "name": "Create",
+      "definition": "User wants to create a new reminder, alarm, or timer."
+    },
+    {
+      "id": 19,
+      "name": "Skip/Repeat",
+      "definition": "User wants to skip or repeat a song or task."
+    },
+    {
+      "id": 20,
+      "name": "Cooking Instructions",
+      "definition": "User wants to know cooking instructions or recipes."
+    },
+    {
+      "id": 21,
+      "name": "Check News",
+      "definition": "User wants to check the latest news headlines or stories."
+    },
+    {
+      "id": 22,
+      "name": "Check Location",
+      "definition": "User wants to check the location or origin of a person."
+    },
+    {
+      "id": 23,
+      "name": "Check Calories",
+      "definition": "User wants to check the calorie count of a specific food item."
+    },
+    {
+      "id": 24,
+      "name": "Check Work Schedule",
+      "definition": "User wants to check their work schedule or appointments."
+    },
+    {
+      "id": 25,
+      "name": "Check Sports Events",
+      "definition": "User wants to check sports events or matches."
+    },
+    {
+      "id": 26,
+      "name": "Check Traffic",
+      "definition": "User wants to check traffic conditions or directions."
+    },
+    {
+      "id": 27,
+      "name": "Check Birthdays",
+      "definition": "User wants to check upcoming birthdays of friends or family members."
+    }
+  ]
+}

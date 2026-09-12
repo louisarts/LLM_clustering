@@ -1,0 +1,110 @@
+{
+  "bench": "clinc150",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information Inquiry",
+      "definition": "Requests for general knowledge or factual information."
+    },
+    {
+      "id": 2,
+      "name": "Personal Information Inquiry",
+      "definition": "Requests for personal data or account-related information."
+    },
+    {
+      "id": 3,
+      "name": "Financial Inquiry",
+      "definition": "Requests related to financial information, transactions, or account management."
+    },
+    {
+      "id": 4,
+      "name": "Travel and Reservation",
+      "definition": "Requests to book, cancel, or inquire about travel and reservations."
+    },
+    {
+      "id": 5,
+      "name": "Calendar and Reminders",
+      "definition": "Requests to manage calendar events or reminders."
+    },
+    {
+      "id": 6,
+      "name": "Device and System Settings",
+      "definition": "Requests to change or inquire about device or system settings."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "Requests to send messages or make calls."
+    },
+    {
+      "id": 8,
+      "name": "Entertainment",
+      "definition": "Requests related to music, videos, or other forms of entertainment."
+    },
+    {
+      "id": 9,
+      "name": "Shopping and Orders",
+      "definition": "Requests to purchase items or inquire about orders."
+    },
+    {
+      "id": 10,
+      "name": "Navigation and Location",
+      "definition": "Requests for directions, location information, or finding places."
+    },
+    {
+      "id": 11,
+      "name": "Health and Nutrition",
+      "definition": "Requests related to health, nutrition, or fitness information."
+    },
+    {
+      "id": 12,
+      "name": "Technical Support",
+      "definition": "Requests for help with technical issues or troubleshooting."
+    },
+    {
+      "id": 13,
+      "name": "Weather Inquiry",
+      "definition": "Requests for weather information."
+    },
+    {
+      "id": 14,
+      "name": "Jokes and Fun Facts",
+      "definition": "Requests for jokes, fun facts, or light-hearted content."
+    },
+    {
+      "id": 15,
+      "name": "Language and Translation",
+      "definition": "Requests for language translation or spelling assistance."
+    },
+    {
+      "id": 16,
+      "name": "Cooking and Recipes",
+      "definition": "Requests related to cooking, recipes, or food substitutions."
+    },
+    {
+      "id": 17,
+      "name": "Home and Maintenance",
+      "definition": "Requests related to home maintenance or improvement."
+    },
+    {
+      "id": 18,
+      "name": "Legal and Safety",
+      "definition": "Requests related to legal information or personal safety."
+    },
+    {
+      "id": 19,
+      "name": "Feedback and Interaction",
+      "definition": "Requests for feedback or interaction with the assistant."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous",
+      "definition": "Requests that do not fit into other categories."
+    }
+  ]
+}

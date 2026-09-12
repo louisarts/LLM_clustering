@@ -1,0 +1,110 @@
+{
+  "bench": "fewevent",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Combat",
+      "definition": "Events involving violence or conflict, including attacks, fights, and killings."
+    },
+    {
+      "id": 2,
+      "name": "Purchasing",
+      "definition": "Events related to buying or acquiring items."
+    },
+    {
+      "id": 3,
+      "name": "Education",
+      "definition": "Events related to learning, teaching, or academic institutions."
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "definition": "Events related to athletic competitions, including winning medals."
+    },
+    {
+      "id": 5,
+      "name": "Employment",
+      "definition": "Events related to job positions, hiring, or employment status."
+    },
+    {
+      "id": 6,
+      "name": "Leadership",
+      "definition": "Events involving leadership roles, such as presidents, directors, and commanders."
+    },
+    {
+      "id": 7,
+      "name": "Marriage",
+      "definition": "Events related to the act of marrying or being married."
+    },
+    {
+      "id": 8,
+      "name": "Protests",
+      "definition": "Events involving public demonstrations or expressions of dissent."
+    },
+    {
+      "id": 9,
+      "name": "Art and Culture",
+      "definition": "Events related to artistic performances, films, and cultural contributions."
+    },
+    {
+      "id": 10,
+      "name": "Travel",
+      "definition": "Events involving movement from one place to another."
+    },
+    {
+      "id": 11,
+      "name": "Reports and Publications",
+      "definition": "Events related to reporting, publishing, or disseminating information."
+    },
+    {
+      "id": 12,
+      "name": "Legal Actions",
+      "definition": "Events involving legal proceedings, charges, or arrests."
+    },
+    {
+      "id": 13,
+      "name": "Community and Social Roles",
+      "definition": "Events related to community involvement, social roles, or familial relationships."
+    },
+    {
+      "id": 14,
+      "name": "Military Service",
+      "definition": "Events related to military roles, service, or actions."
+    },
+    {
+      "id": 15,
+      "name": "Research and Academia",
+      "definition": "Events related to academic research, studies, or scholarly work."
+    },
+    {
+      "id": 16,
+      "name": "Health and Medical",
+      "definition": "Events related to health, medical services, or health-related actions."
+    },
+    {
+      "id": 17,
+      "name": "Political Actions",
+      "definition": "Events related to political maneuvers, elections, or governance."
+    },
+    {
+      "id": 18,
+      "name": "Family Relationships",
+      "definition": "Events related to familial ties, such as parenthood or sibling relationships."
+    },
+    {
+      "id": 19,
+      "name": "Community Service",
+      "definition": "Events involving volunteer work or community assistance."
+    },
+    {
+      "id": 20,
+      "name": "Cultural Heritage",
+      "definition": "Events related to historical or cultural significance."
+    }
+  ]
+}

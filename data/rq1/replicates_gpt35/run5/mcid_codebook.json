@@ -1,0 +1,130 @@
+{
+  "bench": "mcid",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sharing Information",
+      "definition": "Utterances related to sharing COVID-19 information on social media or with others."
+    },
+    {
+      "id": 2,
+      "name": "Myth Debunking",
+      "definition": "Utterances related to debunking myths or misinformation about COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Conspiracy Theories",
+      "definition": "Utterances related to conspiracy theories about COVID-19 origins or motives."
+    },
+    {
+      "id": 4,
+      "name": "Vaccine Inquiry",
+      "definition": "Utterances related to inquiries about the development and availability of a COVID-19 vaccine."
+    },
+    {
+      "id": 5,
+      "name": "Symptom Inquiry",
+      "definition": "Utterances related to inquiring about COVID-19 symptoms."
+    },
+    {
+      "id": 6,
+      "name": "Treatment Inquiry",
+      "definition": "Utterances related to inquiring about treatments or remedies for COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Preventive Measures",
+      "definition": "Utterances related to seeking information on preventive measures to stay safe from COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Update Request",
+      "definition": "Utterances requesting the latest updates or information on COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Gratitude",
+      "definition": "Utterances expressing gratitude for assistance or information provided."
+    },
+    {
+      "id": 10,
+      "name": "Personal Risk Inquiry",
+      "definition": "Utterances related to inquiring about personal risk factors or high-risk areas for COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Transmission Inquiry",
+      "definition": "Utterances related to inquiring about the transmission of COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "Animal Transmission Inquiry",
+      "definition": "Utterances related to inquiring about the transmission of COVID-19 from animals."
+    },
+    {
+      "id": 13,
+      "name": "Hygiene Practices",
+      "definition": "Utterances related to hygiene practices and precautions to prevent the spread of COVID-19."
+    },
+    {
+      "id": 14,
+      "name": "Travel Inquiry",
+      "definition": "Utterances related to inquiries about travel safety and restrictions during the pandemic."
+    },
+    {
+      "id": 15,
+      "name": "Donation Inquiry",
+      "definition": "Utterances related to inquiring about donating to COVID-19 relief efforts."
+    },
+    {
+      "id": 16,
+      "name": "Misinformation Inquiry",
+      "definition": "Utterances seeking clarification on COVID-19 misinformation or myths."
+    },
+    {
+      "id": 17,
+      "name": "Healthcare Worker Inquiry",
+      "definition": "Utterances related to inquiries about the responsibilities and precautions for healthcare workers."
+    },
+    {
+      "id": 18,
+      "name": "Economic Impact Inquiry",
+      "definition": "Utterances related to inquiries about the economic impact of COVID-19."
+    },
+    {
+      "id": 19,
+      "name": "Environmental Transmission Inquiry",
+      "definition": "Utterances related to inquiring about environmental transmission of COVID-19."
+    },
+    {
+      "id": 20,
+      "name": "Government Response Inquiry",
+      "definition": "Utterances related to inquiries about government responses and protocols for COVID-19."
+    },
+    {
+      "id": 21,
+      "name": "Personal Protection Inquiry",
+      "definition": "Utterances related to inquiring about personal protective measures against COVID-19."
+    },
+    {
+      "id": 22,
+      "name": "Recovery Inquiry",
+      "definition": "Utterances related to inquiring about recovery rates and outcomes from COVID-19."
+    },
+    {
+      "id": 23,
+      "name": "Community Support Inquiry",
+      "definition": "Utterances related to inquiring about supporting local communities affected by COVID-19."
+    },
+    {
+      "id": 24,
+      "name": "Medical Treatment Inquiry",
+      "definition": "Utterances related to inquiring about medical treatments and interventions for COVID-19."
+    }
+  ]
+}

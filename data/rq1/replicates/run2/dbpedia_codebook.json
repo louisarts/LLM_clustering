@@ -1,0 +1,62 @@
+{
+  "bench": "dbpedia",
+  "run": 2,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 2,
+      "name": "Creative Work",
+      "definition": "A distinct artistic or intellectual creation, such as a film, album, book, or publication."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "A group of people with a particular purpose, such as a company, institution, or association."
+    },
+    {
+      "id": 4,
+      "name": "Populated Place",
+      "definition": "A named geographical location with a permanent or semi-permanent human settlement."
+    },
+    {
+      "id": 5,
+      "name": "Building or Structure",
+      "definition": "A constructed edifice or a significant man-made construction."
+    },
+    {
+      "id": 6,
+      "name": "Organism",
+      "definition": "A living being, including animals, plants, fungi, and microorganisms, or a taxonomic group thereof."
+    },
+    {
+      "id": 7,
+      "name": "Geographical Feature",
+      "definition": "A natural or artificial landform or body of water."
+    },
+    {
+      "id": 8,
+      "name": "Vehicle",
+      "definition": "A machine used for transporting people or goods."
+    },
+    {
+      "id": 9,
+      "name": "Educational Institution",
+      "definition": "An establishment providing education, such as a school, college, or university."
+    },
+    {
+      "id": 10,
+      "name": "Infrastructure",
+      "definition": "Fundamental facilities and systems serving a country, city, or area, such as transportation, communication, power, and water systems."
+    },
+    {
+      "id": 11,
+      "name": "Historic Site",
+      "definition": "A location or area designated for preservation due to its historical significance."
+    }
+  ]
+}

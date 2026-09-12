@@ -1,0 +1,110 @@
+{
+  "bench": "mtop_intent",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Create or modify an alarm for a specific time."
+    },
+    {
+      "id": 2,
+      "name": "Set Timer",
+      "definition": "Create or modify a timer for a specific duration."
+    },
+    {
+      "id": 3,
+      "name": "Set Reminder",
+      "definition": "Create or modify a reminder for a specific task or event."
+    },
+    {
+      "id": 4,
+      "name": "Weather Inquiry",
+      "definition": "Ask for current or forecasted weather conditions."
+    },
+    {
+      "id": 5,
+      "name": "News Inquiry",
+      "definition": "Request current news headlines or updates."
+    },
+    {
+      "id": 6,
+      "name": "Recipe Inquiry",
+      "definition": "Request for cooking recipes or ingredient information."
+    },
+    {
+      "id": 7,
+      "name": "Call",
+      "definition": "Initiate a phone or video call to a specific contact."
+    },
+    {
+      "id": 8,
+      "name": "Message",
+      "definition": "Send a text or video message to a specific contact."
+    },
+    {
+      "id": 9,
+      "name": "Music Playback",
+      "definition": "Request to play specific music or playlists."
+    },
+    {
+      "id": 10,
+      "name": "Status Update",
+      "definition": "Change or inquire about availability or status."
+    },
+    {
+      "id": 11,
+      "name": "Information Request",
+      "definition": "Request specific information about people, places, or events."
+    },
+    {
+      "id": 12,
+      "name": "Delete Reminder",
+      "definition": "Remove a previously set reminder."
+    },
+    {
+      "id": 13,
+      "name": "Snooze",
+      "definition": "Temporarily delay an alarm or reminder."
+    },
+    {
+      "id": 14,
+      "name": "Cancel Alarm/Reminder",
+      "definition": "Cancel a previously set alarm or reminder."
+    },
+    {
+      "id": 15,
+      "name": "Event Inquiry",
+      "definition": "Ask about upcoming events or activities."
+    },
+    {
+      "id": 16,
+      "name": "Timer Management",
+      "definition": "Manage or inquire about existing timers."
+    },
+    {
+      "id": 17,
+      "name": "Contact Inquiry",
+      "definition": "Request information about contacts or their details."
+    },
+    {
+      "id": 18,
+      "name": "Cooking Inquiry",
+      "definition": "Ask for cooking times, temperatures, or methods."
+    },
+    {
+      "id": 19,
+      "name": "Group Management",
+      "definition": "Add or remove contacts from a call or group."
+    },
+    {
+      "id": 20,
+      "name": "Task Management",
+      "definition": "Request to manage tasks or to-do lists."
+    }
+  ]
+}

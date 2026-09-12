@@ -1,0 +1,85 @@
+{
+  "bench": "banking77",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Management",
+      "definition": "Inquiries related to account creation, closure, and personal information updates."
+    },
+    {
+      "id": 2,
+      "name": "Transaction Issues",
+      "definition": "Questions regarding problems with transactions, including failed, pending, or unauthorized transactions."
+    },
+    {
+      "id": 3,
+      "name": "Card Services",
+      "definition": "Requests for information or assistance related to physical or virtual cards, including ordering, activating, and reactivating cards."
+    },
+    {
+      "id": 4,
+      "name": "Identity Verification",
+      "definition": "Inquiries about the process and requirements for verifying identity."
+    },
+    {
+      "id": 5,
+      "name": "Refunds",
+      "definition": "Requests for information or assistance regarding refunds for transactions or purchases."
+    },
+    {
+      "id": 6,
+      "name": "Fees and Charges",
+      "definition": "Questions about fees associated with transactions, card usage, or account services."
+    },
+    {
+      "id": 7,
+      "name": "Transfer Services",
+      "definition": "Inquiries related to sending or receiving money, including transfer methods and statuses."
+    },
+    {
+      "id": 8,
+      "name": "Technical Issues",
+      "definition": "Problems related to the functionality of the banking app or services, including login issues and payment failures."
+    },
+    {
+      "id": 9,
+      "name": "Security Concerns",
+      "definition": "Reports of lost or stolen cards, unauthorized transactions, or account security issues."
+    },
+    {
+      "id": 10,
+      "name": "Currency Exchange",
+      "definition": "Questions regarding currency exchange rates, fees, and processes."
+    },
+    {
+      "id": 11,
+      "name": "ATM Services",
+      "definition": "Inquiries related to ATM usage, including locations, issues, and transactions."
+    },
+    {
+      "id": 12,
+      "name": "Contactless Payments",
+      "definition": "Questions or issues related to the use of contactless payment methods."
+    },
+    {
+      "id": 13,
+      "name": "Top-Up Services",
+      "definition": "Inquiries about adding funds to accounts, including methods and limits."
+    },
+    {
+      "id": 14,
+      "name": "Product Information",
+      "definition": "Requests for information about banking products, including cards and services."
+    },
+    {
+      "id": 15,
+      "name": "Customer Feedback",
+      "definition": "Expressions of dissatisfaction or requests for service improvements."
+    }
+  ]
+}

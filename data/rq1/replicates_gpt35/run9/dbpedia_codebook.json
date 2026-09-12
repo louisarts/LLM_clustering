@@ -1,0 +1,110 @@
+{
+  "bench": "dbpedia",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Company",
+      "definition": "An organization or business entity"
+    },
+    {
+      "id": 2,
+      "name": "Educational Institution",
+      "definition": "An establishment providing education"
+    },
+    {
+      "id": 3,
+      "name": "Government Building",
+      "definition": "A building used for government purposes"
+    },
+    {
+      "id": 4,
+      "name": "Geographical Location",
+      "definition": "A specific place on Earth"
+    },
+    {
+      "id": 5,
+      "name": "Musical Album",
+      "definition": "A collection of music tracks"
+    },
+    {
+      "id": 6,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages"
+    },
+    {
+      "id": 7,
+      "name": "Genus",
+      "definition": "A taxonomic rank used in biological classification"
+    },
+    {
+      "id": 8,
+      "name": "Mountain",
+      "definition": "A large landform that rises above the surrounding land"
+    },
+    {
+      "id": 9,
+      "name": "Village",
+      "definition": "A small community or group of houses in a rural area"
+    },
+    {
+      "id": 10,
+      "name": "University",
+      "definition": "An institution of higher education and research"
+    },
+    {
+      "id": 11,
+      "name": "Film",
+      "definition": "A motion picture"
+    },
+    {
+      "id": 12,
+      "name": "Politician",
+      "definition": "A person actively involved in politics"
+    },
+    {
+      "id": 13,
+      "name": "Historic Building",
+      "definition": "A building with historical significance"
+    },
+    {
+      "id": 14,
+      "name": "Artist",
+      "definition": "A person who creates art"
+    },
+    {
+      "id": 15,
+      "name": "Magazine",
+      "definition": "A periodical publication containing articles"
+    },
+    {
+      "id": 16,
+      "name": "Aircraft",
+      "definition": "A vehicle that can fly"
+    },
+    {
+      "id": 17,
+      "name": "Record Label",
+      "definition": "A brand that markets and distributes music recordings"
+    },
+    {
+      "id": 18,
+      "name": "Cemetery",
+      "definition": "A burial ground"
+    },
+    {
+      "id": 19,
+      "name": "Cruise Ship",
+      "definition": "A passenger ship used for pleasure voyages"
+    },
+    {
+      "id": 20,
+      "name": "Historical Figure",
+      "definition": "A person who played a significant role in history"
+    }
+  ]
+}

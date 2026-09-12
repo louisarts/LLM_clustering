@@ -1,0 +1,47 @@
+{
+  "bench": "snips",
+  "run": 5,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Book Restaurant Reservation",
+      "definition": "Book a table or make a reservation at a dining establishment."
+    },
+    {
+      "id": 2,
+      "name": "Get Weather Information",
+      "definition": "Request current or forecasted weather conditions for a specific location or time."
+    },
+    {
+      "id": 3,
+      "name": "Get Movie Showtimes",
+      "definition": "Inquire about movie schedules, showtimes, or what films are currently playing at a cinema."
+    },
+    {
+      "id": 4,
+      "name": "Play Media",
+      "definition": "Initiate playback of music, audio, video, or launch a media application."
+    },
+    {
+      "id": 5,
+      "name": "Add to Playlist",
+      "definition": "Add a specific media item or artist to a designated playlist."
+    },
+    {
+      "id": 6,
+      "name": "Rate Media Content",
+      "definition": "Assign a rating or review to a piece of media or content."
+    },
+    {
+      "id": 7,
+      "name": "Find Media",
+      "definition": "Search for or retrieve information about a specific book, album, movie, TV show, game, or other creative work."
+    },
+    {
+      "id": 8,
+      "name": "Query Media Status",
+      "definition": "Inquire about the status or information related to a media item, such as cancellation or availability."
+    }
+  ]
+}

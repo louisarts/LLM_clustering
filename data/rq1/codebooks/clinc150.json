@@ -1,0 +1,104 @@
+{
+  "bench": "clinc150",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "n_discovery_docs": 300,
+  "n_samples": 1,
+  "discovery_seed": 0,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Query - General",
+      "definition": "User asks for factual information, definitions, explanations, or general knowledge not specific to their personal accounts or tasks."
+    },
+    {
+      "id": 2,
+      "name": "Information Query - Personal",
+      "definition": "User asks for information specific to their personal accounts, status, or data, excluding scheduled items."
+    },
+    {
+      "id": 3,
+      "name": "Time and Date Query",
+      "definition": "User asks for the current time or date."
+    },
+    {
+      "id": 4,
+      "name": "Calculations",
+      "definition": "User requests mathematical calculations or conversions."
+    },
+    {
+      "id": 5,
+      "name": "Assistant Configuration",
+      "definition": "User requests changes to the assistant's own settings, voice, language, or personal identification."
+    },
+    {
+      "id": 6,
+      "name": "Financial Transaction",
+      "definition": "User requests to initiate, inquire about, or manage financial transactions, payments, or money transfers."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "User requests to make a call, send a message, or share information with others."
+    },
+    {
+      "id": 8,
+      "name": "Scheduling and Reminders",
+      "definition": "User requests to set, modify, or query alarms, timers, reminders, or calendar events."
+    },
+    {
+      "id": 9,
+      "name": "Device Control",
+      "definition": "User requests to control or locate a smart device."
+    },
+    {
+      "id": 10,
+      "name": "Travel and Booking",
+      "definition": "User requests to book travel, accommodation, transportation, or make reservations."
+    },
+    {
+      "id": 11,
+      "name": "Media Playback",
+      "definition": "User requests to play, manage, or inquire about music or other media."
+    },
+    {
+      "id": 12,
+      "name": "List Management",
+      "definition": "User requests to create, modify, or query items on a list, such as a shopping list or to-do list."
+    },
+    {
+      "id": 13,
+      "name": "Account Management",
+      "definition": "User requests to create, modify, or take actions related to their personal accounts, such as bank accounts or online profiles."
+    },
+    {
+      "id": 14,
+      "name": "Assistant Self-Inquiry",
+      "definition": "User asks questions about the assistant's identity, capabilities, or origin."
+    },
+    {
+      "id": 15,
+      "name": "Affirmation/Acknowledgement",
+      "definition": "User provides positive confirmation, agreement, or acknowledgement."
+    },
+    {
+      "id": 16,
+      "name": "Problem Reporting/Troubleshooting",
+      "definition": "User reports an issue, error, or seeks help with a problem."
+    },
+    {
+      "id": 17,
+      "name": "Entertainment/Engagement",
+      "definition": "User requests jokes, stories, fun facts, or playful interactions."
+    },
+    {
+      "id": 18,
+      "name": "Registration/Enrollment",
+      "definition": "User requests to sign up or enroll in a service, class, or program."
+    },
+    {
+      "id": 19,
+      "name": "Conversational/Statement",
+      "definition": "User makes a statement or engages in general conversation without a clear command or query intent."
+    }
+  ]
+}

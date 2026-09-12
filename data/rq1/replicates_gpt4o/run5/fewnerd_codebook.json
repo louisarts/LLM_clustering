@@ -1,0 +1,135 @@
+{
+  "bench": "fewnerd",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Company",
+      "definition": "A business or corporation, including subsidiaries and brands."
+    },
+    {
+      "id": 2,
+      "name": "Geopolitical Entity",
+      "definition": "A country, state, region, or city."
+    },
+    {
+      "id": 3,
+      "name": "Person",
+      "definition": "An individual human being, including historical figures."
+    },
+    {
+      "id": 4,
+      "name": "Organization",
+      "definition": "An organized group of people with a particular purpose, such as a government body, non-profit, or educational institution."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "A significant occurrence or happening, often historical or cultural."
+    },
+    {
+      "id": 6,
+      "name": "Award",
+      "definition": "A prize or recognition given for achievement."
+    },
+    {
+      "id": 7,
+      "name": "Location",
+      "definition": "A specific place or site, such as a building, landmark, or natural feature."
+    },
+    {
+      "id": 8,
+      "name": "Product",
+      "definition": "A manufactured or created item, including food, technology, and media."
+    },
+    {
+      "id": 9,
+      "name": "Animal",
+      "definition": "A living organism that is not a human, including specific species or breeds."
+    },
+    {
+      "id": 10,
+      "name": "Disease",
+      "definition": "A disorder or illness affecting humans or animals."
+    },
+    {
+      "id": 11,
+      "name": "Chemical",
+      "definition": "A substance with a distinct molecular composition, including elements and compounds."
+    },
+    {
+      "id": 12,
+      "name": "Vehicle",
+      "definition": "A means of transportation, including cars, planes, and ships."
+    },
+    {
+      "id": 13,
+      "name": "Language",
+      "definition": "A system of communication used by a particular community or country."
+    },
+    {
+      "id": 14,
+      "name": "Artistic Work",
+      "definition": "A creation in the fields of literature, music, or visual arts."
+    },
+    {
+      "id": 15,
+      "name": "Sport",
+      "definition": "An athletic activity or competition."
+    },
+    {
+      "id": 16,
+      "name": "Technology",
+      "definition": "A tool or system used for practical purposes, often involving electronics or machinery."
+    },
+    {
+      "id": 17,
+      "name": "Mythological or Fictional Entity",
+      "definition": "A character or being from mythology or fiction."
+    },
+    {
+      "id": 18,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 19,
+      "name": "Food",
+      "definition": "Any nutritious substance that people or animals eat or drink."
+    },
+    {
+      "id": 20,
+      "name": "Plant",
+      "definition": "A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses."
+    },
+    {
+      "id": 21,
+      "name": "Military Equipment",
+      "definition": "Tools or machinery used by armed forces."
+    },
+    {
+      "id": 22,
+      "name": "Religious Entity",
+      "definition": "A group or concept related to religious beliefs or practices."
+    },
+    {
+      "id": 23,
+      "name": "Natural Phenomenon",
+      "definition": "A naturally occurring event or process."
+    },
+    {
+      "id": 24,
+      "name": "Historical Period",
+      "definition": "A specific time frame in history."
+    },
+    {
+      "id": 25,
+      "name": "Legal Entity",
+      "definition": "A recognized subject of legal rights and duties, such as a corporation or government."
+    }
+  ]
+}

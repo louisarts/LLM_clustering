@@ -1,0 +1,105 @@
+{
+  "bench": "clinc150",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Request",
+      "definition": "User seeks specific information or clarification."
+    },
+    {
+      "id": 2,
+      "name": "Task Execution",
+      "definition": "User requests the assistant to perform a specific task."
+    },
+    {
+      "id": 3,
+      "name": "Reminder/Notification",
+      "definition": "User asks for reminders or notifications about future events."
+    },
+    {
+      "id": 4,
+      "name": "Booking/Reservation",
+      "definition": "User requests assistance with making or managing bookings and reservations."
+    },
+    {
+      "id": 5,
+      "name": "Financial Inquiry",
+      "definition": "User seeks information related to financial accounts or transactions."
+    },
+    {
+      "id": 6,
+      "name": "Travel Assistance",
+      "definition": "User requests help with travel-related inquiries or arrangements."
+    },
+    {
+      "id": 7,
+      "name": "Health Inquiry",
+      "definition": "User seeks information or advice related to health or medical topics."
+    },
+    {
+      "id": 8,
+      "name": "Cooking/Recipe Inquiry",
+      "definition": "User requests recipes or cooking-related information."
+    },
+    {
+      "id": 9,
+      "name": "Technical Support",
+      "definition": "User seeks assistance with technical issues or device settings."
+    },
+    {
+      "id": 10,
+      "name": "Social Interaction",
+      "definition": "User engages in casual conversation or social interaction."
+    },
+    {
+      "id": 11,
+      "name": "Entertainment Request",
+      "definition": "User requests entertainment options such as music or games."
+    },
+    {
+      "id": 12,
+      "name": "Shopping Assistance",
+      "definition": "User seeks help with shopping-related inquiries or tasks."
+    },
+    {
+      "id": 13,
+      "name": "Calendar Management",
+      "definition": "User requests assistance with managing calendar events."
+    },
+    {
+      "id": 14,
+      "name": "Language Translation",
+      "definition": "User requests translation or language-related assistance."
+    },
+    {
+      "id": 15,
+      "name": "Feedback/Correction",
+      "definition": "User provides feedback or requests corrections to previous interactions."
+    },
+    {
+      "id": 16,
+      "name": "Personalization",
+      "definition": "User requests changes to the assistant's settings or preferences."
+    },
+    {
+      "id": 17,
+      "name": "Data Management",
+      "definition": "User requests to manage or organize personal data or lists."
+    },
+    {
+      "id": 18,
+      "name": "Emergency Assistance",
+      "definition": "User seeks urgent help or information in emergency situations."
+    },
+    {
+      "id": 19,
+      "name": "Miscellaneous Requests",
+      "definition": "User makes requests that do not fit into other categories."
+    }
+  ]
+}

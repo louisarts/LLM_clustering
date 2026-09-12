@@ -1,0 +1,60 @@
+{
+  "bench": "fewevent",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "coach",
+      "definition": "Documents related to individuals coaching sports teams."
+    },
+    {
+      "id": 2,
+      "name": "president",
+      "definition": "Documents related to individuals holding the position of president in organizations."
+    },
+    {
+      "id": 3,
+      "name": "battle",
+      "definition": "Documents related to battles or conflicts between groups or nations."
+    },
+    {
+      "id": 4,
+      "name": "together",
+      "definition": "Documents related to actions or events done together by multiple individuals."
+    },
+    {
+      "id": 5,
+      "name": "soldier",
+      "definition": "Documents related to individuals serving in the military."
+    },
+    {
+      "id": 6,
+      "name": "work",
+      "definition": "Documents related to professional work or projects."
+    },
+    {
+      "id": 7,
+      "name": "acquired",
+      "definition": "Documents related to acquisitions or takeovers of organizations."
+    },
+    {
+      "id": 8,
+      "name": "singer",
+      "definition": "Documents related to individuals who sing or perform music vocally."
+    },
+    {
+      "id": 9,
+      "name": "medal",
+      "definition": "Documents related to the awarding or winning of medals in competitions."
+    },
+    {
+      "id": 10,
+      "name": "film",
+      "definition": "Documents related to movies or films."
+    }
+  ]
+}

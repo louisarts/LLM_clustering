@@ -1,0 +1,105 @@
+{
+  "bench": "massive_intent",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Status/Preferences",
+      "definition": "User wants to set a status or preference on a platform or device."
+    },
+    {
+      "id": 2,
+      "name": "Change Settings",
+      "definition": "User wants to change settings on a device or platform."
+    },
+    {
+      "id": 3,
+      "name": "Get Information",
+      "definition": "User wants to get information such as time, currency exchange rates, definitions, etc."
+    },
+    {
+      "id": 4,
+      "name": "Set Reminders/Notifications",
+      "definition": "User wants to set reminders or notifications for specific events or tasks."
+    },
+    {
+      "id": 5,
+      "name": "Play Music/Media",
+      "definition": "User wants to play music, podcasts, or media content."
+    },
+    {
+      "id": 6,
+      "name": "Control Lights/Appliances",
+      "definition": "User wants to control lights or appliances in their home."
+    },
+    {
+      "id": 7,
+      "name": "Check Emails/Communicate",
+      "definition": "User wants to check emails, send messages, or communicate with others."
+    },
+    {
+      "id": 8,
+      "name": "Get Directions/Travel Information",
+      "definition": "User wants to get directions or travel information."
+    },
+    {
+      "id": 9,
+      "name": "Check News/Weather",
+      "definition": "User wants to check news headlines or weather updates."
+    },
+    {
+      "id": 10,
+      "name": "Create Lists/Reminders",
+      "definition": "User wants to create lists or reminders for various tasks."
+    },
+    {
+      "id": 11,
+      "name": "Entertainment/Leisure",
+      "definition": "User wants entertainment or leisure activities such as playing games, watching movies, etc."
+    },
+    {
+      "id": 12,
+      "name": "Check Stock Prices/Financial Information",
+      "definition": "User wants to check stock prices or financial information."
+    },
+    {
+      "id": 13,
+      "name": "Get Recommendations",
+      "definition": "User wants recommendations based on preferences or past activities."
+    },
+    {
+      "id": 14,
+      "name": "Check Events/Calendar",
+      "definition": "User wants to check events, appointments, or calendar schedules."
+    },
+    {
+      "id": 15,
+      "name": "Social Media Interaction",
+      "definition": "User wants to interact with social media platforms."
+    },
+    {
+      "id": 16,
+      "name": "Home Cleaning Tasks",
+      "definition": "User wants to perform home cleaning tasks such as vacuuming, hoovering, etc."
+    },
+    {
+      "id": 17,
+      "name": "General Queries",
+      "definition": "User has general queries or questions."
+    },
+    {
+      "id": 18,
+      "name": "Food/Recipe Related",
+      "definition": "User has queries related to food, recipes, or restaurants."
+    },
+    {
+      "id": 19,
+      "name": "Miscellaneous",
+      "definition": "Utterances that do not fit into any other category."
+    }
+  ]
+}

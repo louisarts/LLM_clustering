@@ -1,0 +1,52 @@
+[
+ {
+  "id": 1,
+  "name": "Weather Inquiry",
+  "definition": "Utterances related to asking about the weather in a specific location or time period."
+ },
+ {
+  "id": 2,
+  "name": "News Inquiry",
+  "definition": "Utterances related to asking for news updates or information on a specific topic."
+ },
+ {
+  "id": 3,
+  "name": "Messaging Inquiry",
+  "definition": "Utterances related to asking about recent messages or communication from a specific person."
+ },
+ {
+  "id": 4,
+  "name": "Reminder Setting",
+  "definition": "Utterances related to setting reminders for specific tasks or events."
+ },
+ {
+  "id": 5,
+  "name": "Employee Information Inquiry",
+  "definition": "Utterances related to asking for information about employees at a specific organization."
+ },
+ {
+  "id": 6,
+  "name": "Recipe Search",
+  "definition": "Utterances related to searching for recipes for specific dishes or ingredients."
+ },
+ {
+  "id": 7,
+  "name": "News Search",
+  "definition": "Utterances related to searching for news stories or updates on specific topics or events."
+ },
+ {
+  "id": 8,
+  "name": "Flood Risk Inquiry",
+  "definition": "Utterances related to asking about the likelihood of flooding in a specific location."
+ },
+ {
+  "id": 9,
+  "name": "Music Playback Request",
+  "definition": "Utterances related to requesting to play specific music tracks or playlists."
+ },
+ {
+  "id": 10,
+  "name": "Prescription Reminder",
+  "definition": "Utterances related to setting reminders to pick up prescriptions or medication."
+ }
+]

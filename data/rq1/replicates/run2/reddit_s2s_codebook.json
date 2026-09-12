@@ -1,0 +1,147 @@
+{
+  "bench": "reddit_s2s",
+  "run": 2,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Local Community",
+      "definition": "Posts specific to a city, region, or country, often seeking local information, discussing local news, events, or services."
+    },
+    {
+      "id": 2,
+      "name": "Politics and Current Events",
+      "definition": "Discussions about government, elections, international relations, social issues, political philosophy, and general news."
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "definition": "Discussions about hardware, software, operating systems, mobile devices, internet services, electronics, programming, and tech support."
+    },
+    {
+      "id": 4,
+      "name": "Science and Academia",
+      "definition": "Discussions about scientific fields (e.g., chemistry, astronomy, biology, physics), research, academic questions, and educational topics like assignments."
+    },
+    {
+      "id": 5,
+      "name": "Automotive",
+      "definition": "Discussions about cars, motorcycles, specific models, maintenance, racing, and related topics."
+    },
+    {
+      "id": 6,
+      "name": "Cycling",
+      "definition": "Discussions about bicycles, cycling gear, rides, and cycling events."
+    },
+    {
+      "id": 7,
+      "name": "Aviation",
+      "definition": "Discussions about airplanes, airports, flying, and related topics."
+    },
+    {
+      "id": 8,
+      "name": "Firearms and Airsoft",
+      "definition": "Discussions about guns, optics, airsoft equipment, and related hobbies."
+    },
+    {
+      "id": 9,
+      "name": "Music",
+      "definition": "Discussions about musical artists, genres, concerts, classical compositions, and music theory."
+    },
+    {
+      "id": 10,
+      "name": "Anime and Manga",
+      "definition": "Discussions about Japanese animation, comics, specific series, and related pop culture."
+    },
+    {
+      "id": 11,
+      "name": "Comics and Pop Culture",
+      "definition": "Discussions about comic books, superheroes, movies, TV shows, celebrities, and general pop culture phenomena."
+    },
+    {
+      "id": 12,
+      "name": "Art and Design",
+      "definition": "Discussions about visual arts, digital art, traditional art, architecture, graphic design, fashion, and creative projects."
+    },
+    {
+      "id": 13,
+      "name": "Food and Drink",
+      "definition": "Discussions about cooking, recipes, restaurants, specific food items, coffee, and alcoholic beverages."
+    },
+    {
+      "id": 14,
+      "name": "Animals and Pets",
+      "definition": "Discussions about pets, wildlife, animal welfare, and animal-related news."
+    },
+    {
+      "id": 15,
+      "name": "Spirituality and Beliefs",
+      "definition": "Discussions about religion, philosophy, astrology, personal beliefs, and spiritual practices."
+    },
+    {
+      "id": 16,
+      "name": "Sports",
+      "definition": "Discussions about professional or amateur sports, teams, athletes, and events."
+    },
+    {
+      "id": 17,
+      "name": "Travel",
+      "definition": "Discussions about destinations, travel planning, and personal travel experiences."
+    },
+    {
+      "id": 18,
+      "name": "Books and Literature",
+      "definition": "Discussions about books, authors, reading, and literary topics."
+    },
+    {
+      "id": 19,
+      "name": "Video Games",
+      "definition": "Discussions about video games, gaming platforms, and gaming culture."
+    },
+    {
+      "id": 20,
+      "name": "Collectibles and Hobbies",
+      "definition": "Discussions about collecting items (e.g., coins, antiques), general hobbies, and niche interests not covered by more specific categories."
+    },
+    {
+      "id": 21,
+      "name": "Personal Advice and Relationships",
+      "definition": "Posts seeking or offering advice on personal issues, relationships, and life choices."
+    },
+    {
+      "id": 22,
+      "name": "Business and Marketing",
+      "definition": "Discussions about entrepreneurship, business strategies, marketing, advertising, market analysis, and finance."
+    },
+    {
+      "id": 23,
+      "name": "Health",
+      "definition": "Discussions about medical conditions, health advice, and personal health experiences."
+    },
+    {
+      "id": 24,
+      "name": "Casual and Humor",
+      "definition": "Lighthearted posts, jokes, memes, personal anecdotes, and general observations."
+    },
+    {
+      "id": 25,
+      "name": "Adult Services",
+      "definition": "Posts explicitly advertising or discussing adult-oriented services."
+    },
+    {
+      "id": 26,
+      "name": "Amazon",
+      "definition": "Discussions specifically related to Amazon's services, products, orders, or policies."
+    },
+    {
+      "id": 27,
+      "name": "Education and Career",
+      "definition": "Discussions about academic studies, college applications, career advice, and professional development."
+    },
+    {
+      "id": 28,
+      "name": "Community Meta",
+      "definition": "Posts about the subreddit itself, seeking feedback, or related to community-specific events or rules."
+    }
+  ]
+}

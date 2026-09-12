@@ -1,0 +1,1510 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sustainability",
+      "definition": "Questions related to sustainable practices and environmental impact."
+    },
+    {
+      "id": 2,
+      "name": "Pets",
+      "definition": "Questions about pet care and behavior."
+    },
+    {
+      "id": 3,
+      "name": "Mathematics",
+      "definition": "Questions related to mathematical concepts and problems."
+    },
+    {
+      "id": 4,
+      "name": "Physics",
+      "definition": "Questions related to physical principles and phenomena."
+    },
+    {
+      "id": 5,
+      "name": "Chemistry",
+      "definition": "Questions related to chemical reactions and properties."
+    },
+    {
+      "id": 6,
+      "name": "Biology",
+      "definition": "Questions related to biological processes and organisms."
+    },
+    {
+      "id": 7,
+      "name": "Computer Science",
+      "definition": "Questions related to programming, algorithms, and computer systems."
+    },
+    {
+      "id": 8,
+      "name": "Web Development",
+      "definition": "Questions related to building and maintaining websites."
+    },
+    {
+      "id": 9,
+      "name": "Travel",
+      "definition": "Questions related to travel logistics and experiences."
+    },
+    {
+      "id": 10,
+      "name": "Language",
+      "definition": "Questions related to language learning and usage."
+    },
+    {
+      "id": 11,
+      "name": "History",
+      "definition": "Questions related to historical events and figures."
+    },
+    {
+      "id": 12,
+      "name": "Literature",
+      "definition": "Questions related to literary works and analysis."
+    },
+    {
+      "id": 13,
+      "name": "Philosophy",
+      "definition": "Questions related to philosophical theories and thinkers."
+    },
+    {
+      "id": 14,
+      "name": "Religion",
+      "definition": "Questions related to religious beliefs and practices."
+    },
+    {
+      "id": 15,
+      "name": "Cooking",
+      "definition": "Questions related to food preparation and recipes."
+    },
+    {
+      "id": 16,
+      "name": "Music",
+      "definition": "Questions related to music theory and performance."
+    },
+    {
+      "id": 17,
+      "name": "Movies & TV",
+      "definition": "Questions related to films and television shows."
+    },
+    {
+      "id": 18,
+      "name": "Gaming",
+      "definition": "Questions related to video games and gaming culture."
+    },
+    {
+      "id": 19,
+      "name": "Sports",
+      "definition": "Questions related to sports and athletic activities."
+    },
+    {
+      "id": 20,
+      "name": "Automotive",
+      "definition": "Questions related to vehicles and automotive maintenance."
+    },
+    {
+      "id": 21,
+      "name": "Home Improvement",
+      "definition": "Questions related to home repair and improvement projects."
+    },
+    {
+      "id": 22,
+      "name": "Parenting",
+      "definition": "Questions related to raising and caring for children."
+    },
+    {
+      "id": 23,
+      "name": "Health",
+      "definition": "Questions related to health and wellness."
+    },
+    {
+      "id": 24,
+      "name": "Finance",
+      "definition": "Questions related to financial planning and management."
+    },
+    {
+      "id": 25,
+      "name": "Law",
+      "definition": "Questions related to legal principles and cases."
+    },
+    {
+      "id": 26,
+      "name": "Education",
+      "definition": "Questions related to teaching and learning methods."
+    },
+    {
+      "id": 27,
+      "name": "Art",
+      "definition": "Questions related to visual arts and artistic techniques."
+    },
+    {
+      "id": 28,
+      "name": "Fashion",
+      "definition": "Questions related to clothing and fashion trends."
+    },
+    {
+      "id": 29,
+      "name": "Electronics",
+      "definition": "Questions related to electronic devices and technology."
+    },
+    {
+      "id": 30,
+      "name": "DIY",
+      "definition": "Questions related to do-it-yourself projects and crafts."
+    },
+    {
+      "id": 31,
+      "name": "Gardening",
+      "definition": "Questions related to plant care and gardening techniques."
+    },
+    {
+      "id": 32,
+      "name": "Business",
+      "definition": "Questions related to business operations and entrepreneurship."
+    },
+    {
+      "id": 33,
+      "name": "Politics",
+      "definition": "Questions related to political systems and policies."
+    },
+    {
+      "id": 34,
+      "name": "Psychology",
+      "definition": "Questions related to psychological theories and practices."
+    },
+    {
+      "id": 35,
+      "name": "Economics",
+      "definition": "Questions related to economic theories and markets."
+    },
+    {
+      "id": 36,
+      "name": "Astronomy",
+      "definition": "Questions related to celestial objects and space exploration."
+    },
+    {
+      "id": 37,
+      "name": "Geography",
+      "definition": "Questions related to geographical features and locations."
+    },
+    {
+      "id": 38,
+      "name": "Engineering",
+      "definition": "Questions related to engineering principles and projects."
+    },
+    {
+      "id": 39,
+      "name": "Architecture",
+      "definition": "Questions related to building design and architecture."
+    },
+    {
+      "id": 40,
+      "name": "Photography",
+      "definition": "Questions related to photographic techniques and equipment."
+    },
+    {
+      "id": 41,
+      "name": "Writing",
+      "definition": "Questions related to writing techniques and publishing."
+    },
+    {
+      "id": 42,
+      "name": "Board Games",
+      "definition": "Questions related to board games and tabletop gaming."
+    },
+    {
+      "id": 43,
+      "name": "Role-playing Games",
+      "definition": "Questions related to role-playing games and systems."
+    },
+    {
+      "id": 44,
+      "name": "Cryptocurrency",
+      "definition": "Questions related to digital currencies and blockchain technology."
+    },
+    {
+      "id": 45,
+      "name": "Security",
+      "definition": "Questions related to cybersecurity and data protection."
+    },
+    {
+      "id": 46,
+      "name": "Networking",
+      "definition": "Questions related to computer networks and communication."
+    },
+    {
+      "id": 47,
+      "name": "Hardware",
+      "definition": "Questions related to computer hardware and components."
+    },
+    {
+      "id": 48,
+      "name": "Software",
+      "definition": "Questions related to software applications and development."
+    },
+    {
+      "id": 49,
+      "name": "Data Science",
+      "definition": "Questions related to data analysis and machine learning."
+    },
+    {
+      "id": 50,
+      "name": "Machine Learning",
+      "definition": "Questions related to algorithms and models in machine learning."
+    },
+    {
+      "id": 51,
+      "name": "Artificial Intelligence",
+      "definition": "Questions related to AI technologies and applications."
+    },
+    {
+      "id": 52,
+      "name": "Blockchain",
+      "definition": "Questions related to blockchain technology and applications."
+    },
+    {
+      "id": 53,
+      "name": "Cloud Computing",
+      "definition": "Questions related to cloud services and infrastructure."
+    },
+    {
+      "id": 54,
+      "name": "DevOps",
+      "definition": "Questions related to development and operations practices."
+    },
+    {
+      "id": 55,
+      "name": "Agile",
+      "definition": "Questions related to agile methodologies and practices."
+    },
+    {
+      "id": 56,
+      "name": "Project Management",
+      "definition": "Questions related to managing projects and teams."
+    },
+    {
+      "id": 57,
+      "name": "Career Development",
+      "definition": "Questions related to career growth and job searching."
+    },
+    {
+      "id": 58,
+      "name": "Interpersonal Skills",
+      "definition": "Questions related to communication and social skills."
+    },
+    {
+      "id": 59,
+      "name": "Productivity",
+      "definition": "Questions related to improving efficiency and productivity."
+    },
+    {
+      "id": 60,
+      "name": "Mindfulness",
+      "definition": "Questions related to mindfulness and meditation practices."
+    },
+    {
+      "id": 61,
+      "name": "Fitness",
+      "definition": "Questions related to exercise and physical fitness."
+    },
+    {
+      "id": 62,
+      "name": "Nutrition",
+      "definition": "Questions related to diet and nutrition."
+    },
+    {
+      "id": 63,
+      "name": "Mental Health",
+      "definition": "Questions related to mental health and well-being."
+    },
+    {
+      "id": 64,
+      "name": "Self-improvement",
+      "definition": "Questions related to personal development and self-help."
+    },
+    {
+      "id": 65,
+      "name": "Relationships",
+      "definition": "Questions related to personal and professional relationships."
+    },
+    {
+      "id": 66,
+      "name": "Hobbies",
+      "definition": "Questions related to hobbies and leisure activities."
+    },
+    {
+      "id": 67,
+      "name": "Lifestyle",
+      "definition": "Questions related to lifestyle choices and habits."
+    },
+    {
+      "id": 68,
+      "name": "Culture",
+      "definition": "Questions related to cultural practices and traditions."
+    },
+    {
+      "id": 69,
+      "name": "Society",
+      "definition": "Questions related to societal issues and dynamics."
+    },
+    {
+      "id": 70,
+      "name": "Ethics",
+      "definition": "Questions related to ethical dilemmas and moral philosophy."
+    },
+    {
+      "id": 71,
+      "name": "Law Enforcement",
+      "definition": "Questions related to policing and law enforcement practices."
+    },
+    {
+      "id": 72,
+      "name": "Military",
+      "definition": "Questions related to military operations and history."
+    },
+    {
+      "id": 73,
+      "name": "Aviation",
+      "definition": "Questions related to aircraft and aviation industry."
+    },
+    {
+      "id": 74,
+      "name": "Space Exploration",
+      "definition": "Questions related to space missions and exploration."
+    },
+    {
+      "id": 75,
+      "name": "Marine Biology",
+      "definition": "Questions related to marine life and ecosystems."
+    },
+    {
+      "id": 76,
+      "name": "Zoology",
+      "definition": "Questions related to animal biology and behavior."
+    },
+    {
+      "id": 77,
+      "name": "Botany",
+      "definition": "Questions related to plant biology and ecology."
+    },
+    {
+      "id": 78,
+      "name": "Geology",
+      "definition": "Questions related to earth sciences and geology."
+    },
+    {
+      "id": 79,
+      "name": "Meteorology",
+      "definition": "Questions related to weather and atmospheric sciences."
+    },
+    {
+      "id": 80,
+      "name": "Oceanography",
+      "definition": "Questions related to ocean sciences and marine environments."
+    },
+    {
+      "id": 81,
+      "name": "Paleontology",
+      "definition": "Questions related to fossils and prehistoric life."
+    },
+    {
+      "id": 82,
+      "name": "Archaeology",
+      "definition": "Questions related to ancient cultures and archaeological findings."
+    },
+    {
+      "id": 83,
+      "name": "Anthropology",
+      "definition": "Questions related to human societies and cultural anthropology."
+    },
+    {
+      "id": 84,
+      "name": "Sociology",
+      "definition": "Questions related to social behavior and institutions."
+    },
+    {
+      "id": 85,
+      "name": "Linguistics",
+      "definition": "Questions related to language structure and linguistics."
+    },
+    {
+      "id": 86,
+      "name": "Psychiatry",
+      "definition": "Questions related to mental disorders and psychiatric treatment."
+    },
+    {
+      "id": 87,
+      "name": "Neurology",
+      "definition": "Questions related to the nervous system and neurological disorders."
+    },
+    {
+      "id": 88,
+      "name": "Cardiology",
+      "definition": "Questions related to heart health and cardiology."
+    },
+    {
+      "id": 89,
+      "name": "Oncology",
+      "definition": "Questions related to cancer and oncology treatment."
+    },
+    {
+      "id": 90,
+      "name": "Dermatology",
+      "definition": "Questions related to skin health and dermatology."
+    },
+    {
+      "id": 91,
+      "name": "Ophthalmology",
+      "definition": "Questions related to eye health and ophthalmology."
+    },
+    {
+      "id": 92,
+      "name": "Dentistry",
+      "definition": "Questions related to dental health and dentistry."
+    },
+    {
+      "id": 93,
+      "name": "Veterinary Medicine",
+      "definition": "Questions related to animal health and veterinary practices."
+    },
+    {
+      "id": 94,
+      "name": "Pharmacology",
+      "definition": "Questions related to drug interactions and pharmacology."
+    },
+    {
+      "id": 95,
+      "name": "Toxicology",
+      "definition": "Questions related to toxins and toxicology."
+    },
+    {
+      "id": 96,
+      "name": "Immunology",
+      "definition": "Questions related to the immune system and immunology."
+    },
+    {
+      "id": 97,
+      "name": "Genetics",
+      "definition": "Questions related to genetic inheritance and genomics."
+    },
+    {
+      "id": 98,
+      "name": "Biotechnology",
+      "definition": "Questions related to biotechnological applications and research."
+    },
+    {
+      "id": 99,
+      "name": "Nanotechnology",
+      "definition": "Questions related to nanoscale technology and applications."
+    },
+    {
+      "id": 100,
+      "name": "Robotics",
+      "definition": "Questions related to robot design and robotics technology."
+    },
+    {
+      "id": 101,
+      "name": "Quantum Computing",
+      "definition": "Questions related to quantum computing and quantum mechanics."
+    },
+    {
+      "id": 102,
+      "name": "Astrophysics",
+      "definition": "Questions related to the physics of the universe and celestial bodies."
+    },
+    {
+      "id": 103,
+      "name": "Theoretical Physics",
+      "definition": "Questions related to theoretical models and physics concepts."
+    },
+    {
+      "id": 104,
+      "name": "Experimental Physics",
+      "definition": "Questions related to experimental methods and physics research."
+    },
+    {
+      "id": 105,
+      "name": "Condensed Matter Physics",
+      "definition": "Questions related to the properties of condensed phases of matter."
+    },
+    {
+      "id": 106,
+      "name": "Particle Physics",
+      "definition": "Questions related to subatomic particles and particle interactions."
+    },
+    {
+      "id": 107,
+      "name": "Nuclear Physics",
+      "definition": "Questions related to atomic nuclei and nuclear reactions."
+    },
+    {
+      "id": 108,
+      "name": "Optics",
+      "definition": "Questions related to light and optical systems."
+    },
+    {
+      "id": 109,
+      "name": "Acoustics",
+      "definition": "Questions related to sound and acoustic phenomena."
+    },
+    {
+      "id": 110,
+      "name": "Thermodynamics",
+      "definition": "Questions related to heat, energy, and thermodynamic processes."
+    },
+    {
+      "id": 111,
+      "name": "Fluid Dynamics",
+      "definition": "Questions related to the behavior of fluids in motion."
+    },
+    {
+      "id": 112,
+      "name": "Electromagnetism",
+      "definition": "Questions related to electric and magnetic fields and forces."
+    },
+    {
+      "id": 113,
+      "name": "Classical Mechanics",
+      "definition": "Questions related to the motion of bodies under the influence of forces."
+    },
+    {
+      "id": 114,
+      "name": "Relativity",
+      "definition": "Questions related to the theory of relativity and its implications."
+    },
+    {
+      "id": 115,
+      "name": "Chaos Theory",
+      "definition": "Questions related to chaotic systems and nonlinear dynamics."
+    },
+    {
+      "id": 116,
+      "name": "Complex Systems",
+      "definition": "Questions related to the study of complex and adaptive systems."
+    },
+    {
+      "id": 117,
+      "name": "Systems Biology",
+      "definition": "Questions related to the study of biological systems and networks."
+    },
+    {
+      "id": 118,
+      "name": "Synthetic Biology",
+      "definition": "Questions related to the design and construction of new biological parts."
+    },
+    {
+      "id": 119,
+      "name": "Ecology",
+      "definition": "Questions related to ecosystems and environmental interactions."
+    },
+    {
+      "id": 120,
+      "name": "Conservation Biology",
+      "definition": "Questions related to the preservation of biodiversity and ecosystems."
+    },
+    {
+      "id": 121,
+      "name": "Evolutionary Biology",
+      "definition": "Questions related to the processes of evolution and natural selection."
+    },
+    {
+      "id": 122,
+      "name": "Developmental Biology",
+      "definition": "Questions related to the growth and development of organisms."
+    },
+    {
+      "id": 123,
+      "name": "Cell Biology",
+      "definition": "Questions related to the structure and function of cells."
+    },
+    {
+      "id": 124,
+      "name": "Molecular Biology",
+      "definition": "Questions related to the molecular basis of biological activity."
+    },
+    {
+      "id": 125,
+      "name": "Microbiology",
+      "definition": "Questions related to microorganisms and their interactions."
+    },
+    {
+      "id": 126,
+      "name": "Virology",
+      "definition": "Questions related to viruses and viral infections."
+    },
+    {
+      "id": 127,
+      "name": "Parasitology",
+      "definition": "Questions related to parasites and parasitic diseases."
+    },
+    {
+      "id": 128,
+      "name": "Mycology",
+      "definition": "Questions related to fungi and fungal biology."
+    },
+    {
+      "id": 129,
+      "name": "Entomology",
+      "definition": "Questions related to insects and their biology."
+    },
+    {
+      "id": 130,
+      "name": "Ornithology",
+      "definition": "Questions related to birds and avian biology."
+    },
+    {
+      "id": 131,
+      "name": "Herpetology",
+      "definition": "Questions related to reptiles and amphibians."
+    },
+    {
+      "id": 132,
+      "name": "Ichthyology",
+      "definition": "Questions related to fish and aquatic life."
+    },
+    {
+      "id": 133,
+      "name": "Mammalogy",
+      "definition": "Questions related to mammals and their biology."
+    },
+    {
+      "id": 134,
+      "name": "Primatology",
+      "definition": "Questions related to primates and their behavior."
+    },
+    {
+      "id": 135,
+      "name": "Ethology",
+      "definition": "Questions related to animal behavior and communication."
+    },
+    {
+      "id": 136,
+      "name": "Sociobiology",
+      "definition": "Questions related to the biological basis of social behavior."
+    },
+    {
+      "id": 137,
+      "name": "Behavioral Ecology",
+      "definition": "Questions related to the ecological and evolutionary basis of behavior."
+    },
+    {
+      "id": 138,
+      "name": "Human Biology",
+      "definition": "Questions related to human anatomy and physiology."
+    },
+    {
+      "id": 139,
+      "name": "Anatomy",
+      "definition": "Questions related to the structure of organisms and their parts."
+    },
+    {
+      "id": 140,
+      "name": "Physiology",
+      "definition": "Questions related to the functions and processes of living organisms."
+    },
+    {
+      "id": 141,
+      "name": "Biochemistry",
+      "definition": "Questions related to the chemical processes within living organisms."
+    },
+    {
+      "id": 142,
+      "name": "Biophysics",
+      "definition": "Questions related to the application of physics to biological systems."
+    },
+    {
+      "id": 143,
+      "name": "Structural Biology",
+      "definition": "Questions related to the molecular structure of biological macromolecules."
+    },
+    {
+      "id": 144,
+      "name": "Computational Biology",
+      "definition": "Questions related to the use of computational techniques in biology."
+    },
+    {
+      "id": 145,
+      "name": "Bioinformatics",
+      "definition": "Questions related to the analysis of biological data using computational tools."
+    },
+    {
+      "id": 146,
+      "name": "Systems Medicine",
+      "definition": "Questions related to the application of systems biology to medical research."
+    },
+    {
+      "id": 147,
+      "name": "Translational Medicine",
+      "definition": "Questions related to the translation of research findings into clinical applications."
+    },
+    {
+      "id": 148,
+      "name": "Regenerative Medicine",
+      "definition": "Questions related to the regeneration of tissues and organs."
+    },
+    {
+      "id": 149,
+      "name": "Stem Cell Research",
+      "definition": "Questions related to the study and application of stem cells."
+    },
+    {
+      "id": 150,
+      "name": "Gene Therapy",
+      "definition": "Questions related to the treatment of diseases through genetic modification."
+    },
+    {
+      "id": 151,
+      "name": "Personalized Medicine",
+      "definition": "Questions related to tailoring medical treatment to individual patients."
+    },
+    {
+      "id": 152,
+      "name": "Precision Medicine",
+      "definition": "Questions related to the use of genetic information to guide medical decisions."
+    },
+    {
+      "id": 153,
+      "name": "Pharmacogenomics",
+      "definition": "Questions related to the study of how genes affect drug response."
+    },
+    {
+      "id": 154,
+      "name": "Nutrigenomics",
+      "definition": "Questions related to the interaction between nutrition and genes."
+    },
+    {
+      "id": 155,
+      "name": "Epigenetics",
+      "definition": "Questions related to changes in gene expression without altering DNA sequence."
+    },
+    {
+      "id": 156,
+      "name": "Proteomics",
+      "definition": "Questions related to the study of proteins and their functions."
+    },
+    {
+      "id": 157,
+      "name": "Metabolomics",
+      "definition": "Questions related to the study of metabolites and metabolic pathways."
+    },
+    {
+      "id": 158,
+      "name": "Lipidomics",
+      "definition": "Questions related to the study of lipids and their roles in biology."
+    },
+    {
+      "id": 159,
+      "name": "Glycomics",
+      "definition": "Questions related to the study of carbohydrates and glycosylation."
+    },
+    {
+      "id": 160,
+      "name": "Microbiome",
+      "definition": "Questions related to the study of microbial communities and their interactions."
+    },
+    {
+      "id": 161,
+      "name": "Synthetic Chemistry",
+      "definition": "Questions related to the design and synthesis of chemical compounds."
+    },
+    {
+      "id": 162,
+      "name": "Analytical Chemistry",
+      "definition": "Questions related to the analysis of chemical substances and processes."
+    },
+    {
+      "id": 163,
+      "name": "Physical Chemistry",
+      "definition": "Questions related to the physical properties and behavior of chemical systems."
+    },
+    {
+      "id": 164,
+      "name": "Inorganic Chemistry",
+      "definition": "Questions related to the chemistry of inorganic compounds."
+    },
+    {
+      "id": 165,
+      "name": "Organic Chemistry",
+      "definition": "Questions related to the chemistry of carbon-containing compounds."
+    },
+    {
+      "id": 166,
+      "name": "Materials Science",
+      "definition": "Questions related to the properties and applications of materials."
+    },
+    {
+      "id": 167,
+      "name": "Nanomaterials",
+      "definition": "Questions related to materials with nanoscale dimensions."
+    },
+    {
+      "id": 168,
+      "name": "Polymer Science",
+      "definition": "Questions related to the study of polymers and their properties."
+    },
+    {
+      "id": 169,
+      "name": "Catalysis",
+      "definition": "Questions related to the acceleration of chemical reactions by catalysts."
+    },
+    {
+      "id": 170,
+      "name": "Surface Chemistry",
+      "definition": "Questions related to the study of chemical reactions at surfaces."
+    },
+    {
+      "id": 171,
+      "name": "Electrochemistry",
+      "definition": "Questions related to the study of chemical processes involving electricity."
+    },
+    {
+      "id": 172,
+      "name": "Photochemistry",
+      "definition": "Questions related to the study of chemical reactions involving light."
+    },
+    {
+      "id": 173,
+      "name": "Environmental Chemistry",
+      "definition": "Questions related to the chemical processes in the environment."
+    },
+    {
+      "id": 174,
+      "name": "Green Chemistry",
+      "definition": "Questions related to the design of environmentally friendly chemical processes."
+    },
+    {
+      "id": 175,
+      "name": "Forensic Chemistry",
+      "definition": "Questions related to the application of chemistry to criminal investigations."
+    },
+    {
+      "id": 176,
+      "name": "Medicinal Chemistry",
+      "definition": "Questions related to the design and development of pharmaceutical agents."
+    },
+    {
+      "id": 177,
+      "name": "Pharmaceutical Chemistry",
+      "definition": "Questions related to the chemistry of drug development and formulation."
+    },
+    {
+      "id": 178,
+      "name": "Chemical Engineering",
+      "definition": "Questions related to the application of chemistry to industrial processes."
+    },
+    {
+      "id": 179,
+      "name": "Process Engineering",
+      "definition": "Questions related to the design and optimization of chemical processes."
+    },
+    {
+      "id": 180,
+      "name": "Bioprocess Engineering",
+      "definition": "Questions related to the design of processes involving biological materials."
+    },
+    {
+      "id": 181,
+      "name": "Food Chemistry",
+      "definition": "Questions related to the chemical composition and properties of food."
+    },
+    {
+      "id": 182,
+      "name": "Flavor Chemistry",
+      "definition": "Questions related to the chemistry of flavors and aromas."
+    },
+    {
+      "id": 183,
+      "name": "Cosmetic Chemistry",
+      "definition": "Questions related to the formulation and properties of cosmetic products."
+    },
+    {
+      "id": 184,
+      "name": "Textile Chemistry",
+      "definition": "Questions related to the chemistry of fibers and textiles."
+    },
+    {
+      "id": 185,
+      "name": "Dye Chemistry",
+      "definition": "Questions related to the chemistry of dyes and pigments."
+    },
+    {
+      "id": 186,
+      "name": "Pesticide Chemistry",
+      "definition": "Questions related to the chemistry of pesticides and their effects."
+    },
+    {
+      "id": 187,
+      "name": "Explosives Chemistry",
+      "definition": "Questions related to the chemistry of explosive materials."
+    },
+    {
+      "id": 188,
+      "name": "Nuclear Chemistry",
+      "definition": "Questions related to the chemistry of radioactive substances."
+    },
+    {
+      "id": 189,
+      "name": "Radiochemistry",
+      "definition": "Questions related to the study of radioactive elements and isotopes."
+    },
+    {
+      "id": 190,
+      "name": "Astrochemistry",
+      "definition": "Questions related to the chemistry of astronomical objects and phenomena."
+    },
+    {
+      "id": 191,
+      "name": "Geochemistry",
+      "definition": "Questions related to the chemical composition of the Earth and its processes."
+    },
+    {
+      "id": 192,
+      "name": "Petrochemistry",
+      "definition": "Questions related to the chemistry of petroleum and its derivatives."
+    },
+    {
+      "id": 193,
+      "name": "Industrial Chemistry",
+      "definition": "Questions related to the chemical processes used in industry."
+    },
+    {
+      "id": 194,
+      "name": "Chemical Safety",
+      "definition": "Questions related to the safe handling and use of chemicals."
+    },
+    {
+      "id": 195,
+      "name": "Chemical Education",
+      "definition": "Questions related to the teaching and learning of chemistry."
+    },
+    {
+      "id": 196,
+      "name": "Chemical History",
+      "definition": "Questions related to the historical development of chemistry."
+    },
+    {
+      "id": 197,
+      "name": "Chemical Nomenclature",
+      "definition": "Questions related to the naming of chemical compounds."
+    },
+    {
+      "id": 198,
+      "name": "Chemical Analysis",
+      "definition": "Questions related to the techniques used to analyze chemical substances."
+    },
+    {
+      "id": 199,
+      "name": "Chemical Synthesis",
+      "definition": "Questions related to the methods used to synthesize chemical compounds."
+    },
+    {
+      "id": 200,
+      "name": "Chemical Bonding",
+      "definition": "Questions related to the interactions between atoms and molecules."
+    },
+    {
+      "id": 201,
+      "name": "Chemical Thermodynamics",
+      "definition": "Questions related to the energy changes in chemical reactions."
+    },
+    {
+      "id": 202,
+      "name": "Chemical Kinetics",
+      "definition": "Questions related to the rates of chemical reactions."
+    },
+    {
+      "id": 203,
+      "name": "Chemical Equilibrium",
+      "definition": "Questions related to the balance of reactants and products in a reaction."
+    },
+    {
+      "id": 204,
+      "name": "Chemical Dynamics",
+      "definition": "Questions related to the study of chemical reaction mechanisms."
+    },
+    {
+      "id": 205,
+      "name": "Chemical Spectroscopy",
+      "definition": "Questions related to the use of spectroscopy to study chemical substances."
+    },
+    {
+      "id": 206,
+      "name": "Chemical Crystallography",
+      "definition": "Questions related to the study of crystal structures and properties."
+    },
+    {
+      "id": 207,
+      "name": "Chemical Modeling",
+      "definition": "Questions related to the use of models to predict chemical behavior."
+    },
+    {
+      "id": 208,
+      "name": "Chemical Informatics",
+      "definition": "Questions related to the use of informatics in chemical research."
+    },
+    {
+      "id": 209,
+      "name": "Chemical Patents",
+      "definition": "Questions related to the patenting of chemical inventions."
+    },
+    {
+      "id": 210,
+      "name": "Chemical Industry",
+      "definition": "Questions related to the business and economics of the chemical industry."
+    },
+    {
+      "id": 211,
+      "name": "Chemical Regulations",
+      "definition": "Questions related to the laws and regulations governing chemical use."
+    },
+    {
+      "id": 212,
+      "name": "Chemical Ethics",
+      "definition": "Questions related to the ethical considerations in chemical research."
+    },
+    {
+      "id": 213,
+      "name": "Chemical Communication",
+      "definition": "Questions related to the dissemination of chemical knowledge."
+    },
+    {
+      "id": 214,
+      "name": "Chemical Society",
+      "definition": "Questions related to professional organizations in chemistry."
+    },
+    {
+      "id": 215,
+      "name": "Chemical Conferences",
+      "definition": "Questions related to conferences and meetings in chemistry."
+    },
+    {
+      "id": 216,
+      "name": "Chemical Journals",
+      "definition": "Questions related to scientific journals in chemistry."
+    },
+    {
+      "id": 217,
+      "name": "Chemical Awards",
+      "definition": "Questions related to awards and honors in chemistry."
+    },
+    {
+      "id": 218,
+      "name": "Chemical Careers",
+      "definition": "Questions related to career opportunities in chemistry."
+    },
+    {
+      "id": 219,
+      "name": "Chemical Networking",
+      "definition": "Questions related to networking in the chemical community."
+    },
+    {
+      "id": 220,
+      "name": "Chemical Outreach",
+      "definition": "Questions related to outreach and education in chemistry."
+    },
+    {
+      "id": 221,
+      "name": "Chemical Advocacy",
+      "definition": "Questions related to advocacy for the chemical sciences."
+    },
+    {
+      "id": 222,
+      "name": "Chemical Policy",
+      "definition": "Questions related to policy issues in the chemical sciences."
+    },
+    {
+      "id": 223,
+      "name": "Chemical Diplomacy",
+      "definition": "Questions related to international relations in chemistry."
+    },
+    {
+      "id": 224,
+      "name": "Chemical History",
+      "definition": "Questions related to the history of chemistry and its impact."
+    },
+    {
+      "id": 225,
+      "name": "Chemical Education",
+      "definition": "Questions related to the education and training of chemists."
+    },
+    {
+      "id": 226,
+      "name": "Chemical Research",
+      "definition": "Questions related to research and development in chemistry."
+    },
+    {
+      "id": 227,
+      "name": "Chemical Innovation",
+      "definition": "Questions related to innovation and discovery in chemistry."
+    },
+    {
+      "id": 228,
+      "name": "Chemical Collaboration",
+      "definition": "Questions related to collaboration in chemical research."
+    },
+    {
+      "id": 229,
+      "name": "Chemical Funding",
+      "definition": "Questions related to funding opportunities in chemistry."
+    },
+    {
+      "id": 230,
+      "name": "Chemical Publishing",
+      "definition": "Questions related to publishing in the chemical sciences."
+    },
+    {
+      "id": 231,
+      "name": "Chemical Communication",
+      "definition": "Questions related to communication in the chemical sciences."
+    },
+    {
+      "id": 232,
+      "name": "Chemical Outreach",
+      "definition": "Questions related to outreach and public engagement in chemistry."
+    },
+    {
+      "id": 233,
+      "name": "Chemical Advocacy",
+      "definition": "Questions related to advocacy for the chemical sciences."
+    },
+    {
+      "id": 234,
+      "name": "Chemical Policy",
+      "definition": "Questions related to policy issues in the chemical sciences."
+    },
+    {
+      "id": 235,
+      "name": "Chemical Diplomacy",
+      "definition": "Questions related to international relations in chemistry."
+    },
+    {
+      "id": 236,
+      "name": "Chemical History",
+      "definition": "Questions related to the history of chemistry and its impact."
+    },
+    {
+      "id": 237,
+      "name": "Chemical Education",
+      "definition": "Questions related to the education and training of chemists."
+    },
+    {
+      "id": 238,
+      "name": "Chemical Research",
+      "definition": "Questions related to research and development in chemistry."
+    },
+    {
+      "id": 239,
+      "name": "Chemical Innovation",
+      "definition": "Questions related to innovation and discovery in chemistry."
+    },
+    {
+      "id": 240,
+      "name": "Chemical Collaboration",
+      "definition": "Questions related to collaboration in chemical research."
+    },
+    {
+      "id": 241,
+      "name": "Chemical Funding",
+      "definition": "Questions related to funding opportunities in chemistry."
+    },
+    {
+      "id": 242,
+      "name": "Chemical Publishing",
+      "definition": "Questions related to publishing in the chemical sciences."
+    },
+    {
+      "id": 243,
+      "name": "Chemical Communication",
+      "definition": "Questions related to communication in the chemical sciences."
+    },
+    {
+      "id": 244,
+      "name": "Chemical Outreach",
+      "definition": "Questions related to outreach and public engagement in chemistry."
+    },
+    {
+      "id": 245,
+      "name": "Chemical Advocacy",
+      "definition": "Questions related to advocacy for the chemical sciences."
+    },
+    {
+      "id": 246,
+      "name": "Chemical Policy",
+      "definition": "Questions related to policy issues in the chemical sciences."
+    },
+    {
+      "id": 247,
+      "name": "Chemical Diplomacy",
+      "definition": "Questions related to international relations in chemistry."
+    },
+    {
+      "id": 248,
+      "name": "Chemical History",
+      "definition": "Questions related to the history of chemistry and its impact."
+    },
+    {
+      "id": 249,
+      "name": "Chemical Education",
+      "definition": "Questions related to the education and training of chemists."
+    },
+    {
+      "id": 250,
+      "name": "Chemical Research",
+      "definition": "Questions related to research and development in chemistry."
+    },
+    {
+      "id": 251,
+      "name": "Chemical Innovation",
+      "definition": "Questions related to innovation and discovery in chemistry."
+    },
+    {
+      "id": 252,
+      "name": "Chemical Collaboration",
+      "definition": "Questions related to collaboration in chemical research."
+    },
+    {
+      "id": 253,
+      "name": "Chemical Funding",
+      "definition": "Questions related to funding opportunities in chemistry."
+    },
+    {
+      "id": 254,
+      "name": "Chemical Publishing",
+      "definition": "Questions related to publishing in the chemical sciences."
+    },
+    {
+      "id": 255,
+      "name": "Chemical Communication",
+      "definition": "Questions related to communication in the chemical sciences."
+    },
+    {
+      "id": 256,
+      "name": "Chemical Outreach",
+      "definition": "Questions related to outreach and public engagement in chemistry."
+    },
+    {
+      "id": 257,
+      "name": "Chemical Advocacy",
+      "definition": "Questions related to advocacy for the chemical sciences."
+    },
+    {
+      "id": 258,
+      "name": "Chemical Policy",
+      "definition": "Questions related to policy issues in the chemical sciences."
+    },
+    {
+      "id": 259,
+      "name": "Chemical Diplomacy",
+      "definition": "Questions related to international relations in chemistry."
+    },
+    {
+      "id": 260,
+      "name": "Chemical History",
+      "definition": "Questions related to the history of chemistry and its impact."
+    },
+    {
+      "id": 261,
+      "name": "Chemical Education",
+      "definition": "Questions related to the education and training of chemists."
+    },
+    {
+      "id": 262,
+      "name": "Chemical Research",
+      "definition": "Questions related to research and development in chemistry."
+    },
+    {
+      "id": 263,
+      "name": "Chemical Innovation",
+      "definition": "Questions related to innovation and discovery in chemistry."
+    },
+    {
+      "id": 264,
+      "name": "Chemical Collaboration",
+      "definition": "Questions related to collaboration in chemical research."
+    },
+    {
+      "id": 265,
+      "name": "Chemical Funding",
+      "definition": "Questions related to funding opportunities in chemistry."
+    },
+    {
+      "id": 266,
+      "name": "Chemical Publishing",
+      "definition": "Questions related to publishing in the chemical sciences."
+    },
+    {
+      "id": 267,
+      "name": "Chemical Communication",
+      "definition": "Questions related to communication in the chemical sciences."
+    },
+    {
+      "id": 268,
+      "name": "Chemical Outreach",
+      "definition": "Questions related to outreach and public engagement in chemistry."
+    },
+    {
+      "id": 269,
+      "name": "Chemical Advocacy",
+      "definition": "Questions related to advocacy for the chemical sciences."
+    },
+    {
+      "id": 270,
+      "name": "Chemical Policy",
+      "definition": "Questions related to policy issues in the chemical sciences."
+    },
+    {
+      "id": 271,
+      "name": "Chemical Diplomacy",
+      "definition": "Questions related to international relations in chemistry."
+    },
+    {
+      "id": 272,
+      "name": "Chemical History",
+      "definition": "Questions related to the history of chemistry and its impact."
+    },
+    {
+      "id": 273,
+      "name": "Chemical Education",
+      "definition": "Questions related to the education and training of chemists."
+    },
+    {
+      "id": 274,
+      "name": "Chemical Research",
+      "definition": "Questions related to research and development in chemistry."
+    },
+    {
+      "id": 275,
+      "name": "Chemical Innovation",
+      "definition": "Questions related to innovation and discovery in chemistry."
+    },
+    {
+      "id": 276,
+      "name": "Chemical Collaboration",
+      "definition": "Questions related to collaboration in chemical research."
+    },
+    {
+      "id": 277,
+      "name": "Chemical Funding",
+      "definition": "Questions related to funding opportunities in chemistry."
+    },
+    {
+      "id": 278,
+      "name": "Chemical Publishing",
+      "definition": "Questions related to publishing in the chemical sciences."
+    },
+    {
+      "id": 279,
+      "name": "Chemical Communication",
+      "definition": "Questions related to communication in the chemical sciences."
+    },
+    {
+      "id": 280,
+      "name": "Chemical Outreach",
+      "definition": "Questions related to outreach and public engagement in chemistry."
+    },
+    {
+      "id": 281,
+      "name": "Chemical Advocacy",
+      "definition": "Questions related to advocacy for the chemical sciences."
+    },
+    {
+      "id": 282,
+      "name": "Chemical Policy",
+      "definition": "Questions related to policy issues in the chemical sciences."
+    },
+    {
+      "id": 283,
+      "name": "Chemical Diplomacy",
+      "definition": "Questions related to international relations in chemistry."
+    },
+    {
+      "id": 284,
+      "name": "Chemical History",
+      "definition": "Questions related to the history of chemistry and its impact."
+    },
+    {
+      "id": 285,
+      "name": "Chemical Education",
+      "definition": "Questions related to the education and training of chemists."
+    },
+    {
+      "id": 286,
+      "name": "Chemical Research",
+      "definition": "Questions related to research and development in chemistry."
+    },
+    {
+      "id": 287,
+      "name": "Chemical Innovation",
+      "definition": "Questions related to innovation and discovery in chemistry."
+    },
+    {
+      "id": 288,
+      "name": "Chemical Collaboration",
+      "definition": "Questions related to collaboration in chemical research."
+    },
+    {
+      "id": 289,
+      "name": "Chemical Funding",
+      "definition": "Questions related to funding opportunities in chemistry."
+    },
+    {
+      "id": 290,
+      "name": "Chemical Publishing",
+      "definition": "Questions related to publishing in the chemical sciences."
+    },
+    {
+      "id": 291,
+      "name": "Chemical Communication",
+      "definition": "Questions related to communication in the chemical sciences."
+    },
+    {
+      "id": 292,
+      "name": "Chemical Outreach",
+      "definition": "Questions related to outreach and public engagement in chemistry."
+    },
+    {
+      "id": 293,
+      "name": "Chemical Advocacy",
+      "definition": "Questions related to advocacy for the chemical sciences."
+    },
+    {
+      "id": 294,
+      "name": "Chemical Policy",
+      "definition": "Questions related to policy issues in the chemical sciences."
+    },
+    {
+      "id": 295,
+      "name": "Chemical Diplomacy",
+      "definition": "Questions related to international relations in chemistry."
+    },
+    {
+      "id": 296,
+      "name": "Chemical History",
+      "definition": "Questions related to the history of chemistry and its impact."
+    },
+    {
+      "id": 297,
+      "name": "Chemical Education",
+      "definition": "Questions related to the education and training of chemists."
+    },
+    {
+      "id": 298,
+      "name": "Chemical Research",
+      "definition": "Questions related to research and development in chemistry."
+    },
+    {
+      "id": 299,
+      "name": "Chemical Innovation",
+      "definition": "Questions related to innovation and discovery in chemistry."
+    },
+    {
+      "id": 300,
+      "name": "Chemical Collaboration",
+      "definition": "Questions related to collaboration in chemical research."
+    }
+  ]
+}

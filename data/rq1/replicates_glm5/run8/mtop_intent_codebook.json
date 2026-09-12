@@ -1,0 +1,74 @@
+{
+  "bench": "mtop_intent",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm",
+      "definition": "Create, modify, delete, or manage alerts intended to wake the user or signal a specific time."
+    },
+    {
+      "id": 2,
+      "name": "Calling",
+      "definition": "Initiate, manage, or end voice or video connections with other people or groups."
+    },
+    {
+      "id": 3,
+      "name": "Messaging",
+      "definition": "Send, read, or manage text or video communications with contacts."
+    },
+    {
+      "id": 4,
+      "name": "Music",
+      "definition": "Play, control, or identify songs, artists, albums, or music stations."
+    },
+    {
+      "id": 5,
+      "name": "Reminder",
+      "definition": "Create, modify, delete, or view notifications for tasks or events at a future time."
+    },
+    {
+      "id": 6,
+      "name": "Timer",
+      "definition": "Start, stop, adjust, or check a countdown timer for a specific duration."
+    },
+    {
+      "id": 7,
+      "name": "Weather",
+      "definition": "Request current conditions, forecasts, or specific meteorological data."
+    },
+    {
+      "id": 8,
+      "name": "Cooking",
+      "definition": "Request recipes, cooking instructions, or ingredient information for food preparation."
+    },
+    {
+      "id": 9,
+      "name": "Events",
+      "definition": "Find or get recommendations for local activities, concerts, or public events."
+    },
+    {
+      "id": 10,
+      "name": "News",
+      "definition": "Request current news headlines, stories, or updates on specific topics."
+    },
+    {
+      "id": 11,
+      "name": "People",
+      "definition": "Find information about specific individuals, their relationships, locations, or employment."
+    },
+    {
+      "id": 12,
+      "name": "Nutrition",
+      "definition": "Request calorie counts or nutritional information for food and drink items."
+    },
+    {
+      "id": 13,
+      "name": "Availability",
+      "definition": "Check which contacts are currently online or set the user's own online status."
+    }
+  ]
+}

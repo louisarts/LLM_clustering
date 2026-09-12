@@ -1,0 +1,157 @@
+{
+  "bench": "reddit_s2s",
+  "run": 10,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology & Gadgets",
+      "definition": "Discussions about consumer electronics, software, internet services, and general technology."
+    },
+    {
+      "id": 2,
+      "name": "Automotive",
+      "definition": "Discussions about cars, motorcycles, repairs, and related topics."
+    },
+    {
+      "id": 3,
+      "name": "Local Community",
+      "definition": "Discussions, news, events, and services specific to a particular city or region."
+    },
+    {
+      "id": 4,
+      "name": "Finance & Business",
+      "definition": "Discussions about economics, investments, personal finance, and business operations or marketing."
+    },
+    {
+      "id": 5,
+      "name": "Health & Medicine",
+      "definition": "Discussions about physical and mental health, medical conditions, and well-being."
+    },
+    {
+      "id": 6,
+      "name": "Education & Academia",
+      "definition": "Discussions about schooling, universities, study resources, and academic pursuits."
+    },
+    {
+      "id": 7,
+      "name": "Pets & Animals",
+      "definition": "Discussions about pets, animal care, animal behavior, and wildlife."
+    },
+    {
+      "id": 8,
+      "name": "Books & Literature",
+      "definition": "Discussions about books, authors, genres, reading, and literary reviews."
+    },
+    {
+      "id": 9,
+      "name": "Spirituality & Religion",
+      "definition": "Discussions about religious beliefs, spiritual practices, philosophy, and astrology."
+    },
+    {
+      "id": 10,
+      "name": "Sports & Fitness",
+      "definition": "Discussions about various sports, athletes, physical activities, and fitness."
+    },
+    {
+      "id": 11,
+      "name": "Gaming & Anime",
+      "definition": "Discussions about video games, anime series, manga, and related media."
+    },
+    {
+      "id": 12,
+      "name": "Home & DIY",
+      "definition": "Discussions about home improvement, renovation, interior design, and do-it-yourself projects."
+    },
+    {
+      "id": 13,
+      "name": "Science & Nature",
+      "definition": "Discussions about scientific discoveries, natural phenomena, biology, astronomy, and environmental topics."
+    },
+    {
+      "id": 14,
+      "name": "Politics & Social Issues",
+      "definition": "Discussions about government, elections, social justice, and current events with political or societal implications."
+    },
+    {
+      "id": 15,
+      "name": "Relationships & Dating",
+      "definition": "Discussions about personal relationships, dating advice, and social interactions."
+    },
+    {
+      "id": 16,
+      "name": "Consumer Advice & Shopping",
+      "definition": "Discussions about products, purchasing decisions, online shopping, and consumer rights."
+    },
+    {
+      "id": 17,
+      "name": "Aviation & Travel",
+      "definition": "Discussions about air travel, airlines, aircraft, moving, and general travel experiences."
+    },
+    {
+      "id": 18,
+      "name": "Art & Design",
+      "definition": "Discussions about visual arts, photography, graphic design, and creative expression."
+    },
+    {
+      "id": 19,
+      "name": "Food & Drink",
+      "definition": "Discussions about food, recipes, beverages, and culinary experiences."
+    },
+    {
+      "id": 20,
+      "name": "Internet Culture",
+      "definition": "Discussions about online trends, memes, Reddit-specific topics, and general internet phenomena."
+    },
+    {
+      "id": 21,
+      "name": "Spam & Scams",
+      "definition": "Posts that are unsolicited advertisements, phishing attempts, or fraudulent content."
+    },
+    {
+      "id": 22,
+      "name": "Crime & Legal",
+      "definition": "Discussions about criminal activities, legal matters, and law enforcement."
+    },
+    {
+      "id": 23,
+      "name": "Music & Performing Arts",
+      "definition": "Discussions about music, musicians, concerts, and other performing arts."
+    },
+    {
+      "id": 24,
+      "name": "Hobbies & Collectibles",
+      "definition": "Discussions about various hobbies, collecting items, and related interests like amateur radio or airsoft."
+    },
+    {
+      "id": 25,
+      "name": "Architecture & Urban Planning",
+      "definition": "Discussions about building design, city development, real estate, and infrastructure."
+    },
+    {
+      "id": 26,
+      "name": "News & Current Events",
+      "definition": "General news stories and discussions about recent happenings that are not strictly local or political."
+    },
+    {
+      "id": 27,
+      "name": "Personal Stories & Advice",
+      "definition": "Personal anecdotes, requests for general life advice, or sharing individual experiences."
+    },
+    {
+      "id": 28,
+      "name": "Humor & Satire",
+      "definition": "Posts intended for comedic effect, jokes, or satirical content."
+    },
+    {
+      "id": 29,
+      "name": "Career Advice",
+      "definition": "Discussions about job searching, career development, and professional guidance."
+    },
+    {
+      "id": 30,
+      "name": "History",
+      "definition": "Discussions about past events, historical figures, and historical research."
+    }
+  ]
+}

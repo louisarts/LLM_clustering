@@ -1,0 +1,100 @@
+{
+  "bench": "mtop_domain",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Reminders",
+      "definition": "Requests to create, modify, or inquire about reminders."
+    },
+    {
+      "id": 2,
+      "name": "Calls",
+      "definition": "Requests to initiate, manage, or inquire about phone or video calls."
+    },
+    {
+      "id": 3,
+      "name": "Alarms",
+      "definition": "Requests to set, modify, or inquire about alarms."
+    },
+    {
+      "id": 4,
+      "name": "Timers",
+      "definition": "Requests to set, modify, or inquire about timers."
+    },
+    {
+      "id": 5,
+      "name": "Music",
+      "definition": "Requests to play, pause, or manage music tracks or playlists."
+    },
+    {
+      "id": 6,
+      "name": "Weather",
+      "definition": "Requests for current or forecasted weather information."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Requests for current news or headlines."
+    },
+    {
+      "id": 8,
+      "name": "Recipes",
+      "definition": "Requests for cooking recipes or ingredient information."
+    },
+    {
+      "id": 9,
+      "name": "Messages",
+      "definition": "Requests to send, read, or manage messages."
+    },
+    {
+      "id": 10,
+      "name": "Events",
+      "definition": "Requests for information about events or to manage event reminders."
+    },
+    {
+      "id": 11,
+      "name": "Contacts",
+      "definition": "Requests for information about contacts or to manage contact-related tasks."
+    },
+    {
+      "id": 12,
+      "name": "General Inquiries",
+      "definition": "Requests for general information or knowledge-based questions."
+    },
+    {
+      "id": 13,
+      "name": "Status Updates",
+      "definition": "Requests to change or inquire about status updates on social platforms."
+    },
+    {
+      "id": 14,
+      "name": "Cooking Times",
+      "definition": "Requests for cooking times or methods for specific foods."
+    },
+    {
+      "id": 15,
+      "name": "Health Reminders",
+      "definition": "Requests related to health appointments or reminders."
+    },
+    {
+      "id": 16,
+      "name": "Social Media",
+      "definition": "Requests related to social media interactions or information."
+    },
+    {
+      "id": 17,
+      "name": "Travel Arrangements",
+      "definition": "Requests related to travel plans or arrangements."
+    },
+    {
+      "id": 18,
+      "name": "Miscellaneous",
+      "definition": "Requests that do not fit into other defined categories."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "bench": "arxiv_fine",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 2,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 3,
+      "name": "cs.SD",
+      "definition": "Software Development"
+    },
+    {
+      "id": 4,
+      "name": "math.AP",
+      "definition": "Analysis of PDEs"
+    },
+    {
+      "id": 5,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 6,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 7,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 8,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 9,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 10,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 11,
+      "name": "math.ST",
+      "definition": "Statistics"
+    },
+    {
+      "id": 12,
+      "name": "physics.optics",
+      "definition": "Optics"
+    },
+    {
+      "id": 13,
+      "name": "q-bio.NC",
+      "definition": "Neurons and Cognition"
+    }
+  ]
+}

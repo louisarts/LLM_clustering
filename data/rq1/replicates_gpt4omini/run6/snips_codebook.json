@@ -1,0 +1,80 @@
+{
+  "bench": "snips",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or future weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Music Playback",
+      "definition": "Requests to play specific songs, albums, or playlists."
+    },
+    {
+      "id": 3,
+      "name": "Music Rating",
+      "definition": "Requests to rate songs, albums, or music-related content."
+    },
+    {
+      "id": 4,
+      "name": "Movie Search",
+      "definition": "Requests to find specific movies or TV shows."
+    },
+    {
+      "id": 5,
+      "name": "Movie Schedule Inquiry",
+      "definition": "Requests for movie schedules or showtimes."
+    },
+    {
+      "id": 6,
+      "name": "Restaurant Reservation",
+      "definition": "Requests to book tables at restaurants."
+    },
+    {
+      "id": 7,
+      "name": "Artwork Search",
+      "definition": "Requests to find specific artworks or photographs."
+    },
+    {
+      "id": 8,
+      "name": "Playlist Management",
+      "definition": "Requests to add or modify tracks in playlists."
+    },
+    {
+      "id": 9,
+      "name": "Book Rating",
+      "definition": "Requests to rate books or literary works."
+    },
+    {
+      "id": 10,
+      "name": "Game Search",
+      "definition": "Requests to find specific video games."
+    },
+    {
+      "id": 11,
+      "name": "General Inquiry",
+      "definition": "Requests for general information or assistance."
+    },
+    {
+      "id": 12,
+      "name": "Film Rating",
+      "definition": "Requests to rate films or cinematic works."
+    },
+    {
+      "id": 13,
+      "name": "Television Show Search",
+      "definition": "Requests to find specific television shows."
+    },
+    {
+      "id": 14,
+      "name": "Event Inquiry",
+      "definition": "Requests for information about events or activities."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+[
+ {
+  "id": 1,
+  "name": "Alarm",
+  "definition": "Set, query, delete, or manage alarms and wake-up calls."
+ },
+ {
+  "id": 2,
+  "name": "Audio_Playback",
+  "definition": "Play, pause, resume, or control music, radio, podcasts, or audiobooks."
+ },
+ {
+  "id": 3,
+  "name": "Audio_Settings",
+  "definition": "Adjust volume, mute audio, or manage sound output settings."
+ },
+ {
+  "id": 4,
+  "name": "Calculation",
+  "definition": "Perform mathematical calculations or unit conversions."
+ },
+ {
+  "id": 5,
+  "name": "Calendar",
+  "definition": "Create, query, modify, or delete calendar events and meetings."
+ },
+ {
+  "id": 6,
+  "name": "Contacts",
+  "definition": "Add, retrieve, or manage contact information."
+ },
+ {
+  "id": 7,
+  "name": "Conversation",
+  "definition": "Engage in small talk, greetings, jokes, or open-domain chat."
+ },
+ {
+  "id": 8,
+  "name": "Email",
+  "definition": "Send, read, check, or manage emails."
+ },
+ {
+  "id": 9,
+  "name": "Events",
+  "definition": "Find information about local events, concerts, exhibitions, or sports games."
+ },
+ {
+  "id": 10,
+  "name": "Finance",
+  "definition": "Query stock prices, currency exchange rates, or financial market data."
+ },
+ {
+  "id": 11,
+  "name": "Games",
+  "definition": "Launch or play games."
+ },
+ {
+  "id": 12,
+  "name": "General_Knowledge",
+  "definition": "Answer factual questions, definitions, or general queries not covered by specific domains."
+ },
+ {
+  "id": 13,
+  "name": "Lists",
+  "definition": "Create, add to, delete, or query to-do lists and shopping lists."
+ },
+ {
+  "id": 14,
+  "name": "Local_Business",
+  "definition": "Find nearby restaurants, shops, services, or businesses."
+ },
+ {
+  "id": 15,
+  "name": "Media_Recommendation",
+  "definition": "Find, recommend, or search for movies, videos, or books."
+ },
+ {
+  "id": 16,
+  "name": "Music_Info",
+  "definition": "Query metadata about songs, artists, albums, or genres."
+ },
+ {
+  "id": 17,
+  "name": "Navigation",
+  "definition": "Get directions, check traffic conditions, or calculate travel distance and time."
+ },
+ {
+  "id": 18,
+  "name": "News",
+  "definition": "Retrieve news headlines, articles, or updates on current events."
+ },
+ {
+  "id": 19,
+  "name": "Reminder",
+  "definition": "Set, query, or manage personal reminders for tasks or activities."
+ },
+ {
+  "id": 20,
+  "name": "Smart_Home",
+  "definition": "Control smart home devices such as lights, appliances, or sockets."
+ },
+ {
+  "id": 21,
+  "name": "Social_Media",
+  "definition": "Post messages, tweets, or updates to social media platforms."
+ },
+ {
+  "id": 22,
+  "name": "Time_Date",
+  "definition": "Query the current time or date in specific locations."
+ },
+ {
+  "id": 23,
+  "name": "Transportation",
+  "definition": "Book rides, check public transit schedules, or manage train and taxi bookings."
+ },
+ {
+  "id": 24,
+  "name": "Travel",
+  "definition": "Search for flights, book airline tickets, or find vacation destinations."
+ },
+ {
+  "id": 25,
+  "name": "Weather",
+  "definition": "Query weather conditions, forecasts, or climate information."
+ }
+]

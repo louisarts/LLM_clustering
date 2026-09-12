@@ -1,0 +1,40 @@
+{
+  "bench": "bbcnews",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "definition": "Articles about gadgets, gaming consoles, software, and tech companies."
+    },
+    {
+      "id": 2,
+      "name": "Sports",
+      "definition": "Articles about sports events, matches, players, and teams."
+    },
+    {
+      "id": 3,
+      "name": "Entertainment",
+      "definition": "Articles about movies, music, awards, celebrities, and TV shows."
+    },
+    {
+      "id": 4,
+      "name": "Business",
+      "definition": "Articles about companies, stocks, mergers, acquisitions, and financial news."
+    },
+    {
+      "id": 5,
+      "name": "Politics",
+      "definition": "Articles about political figures, elections, government policies, and international relations."
+    },
+    {
+      "id": 6,
+      "name": "Economy",
+      "definition": "Articles about economic indicators, trade, market trends, and financial reports."
+    }
+  ]
+}

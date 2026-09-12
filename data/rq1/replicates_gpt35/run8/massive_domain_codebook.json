@@ -1,0 +1,120 @@
+{
+  "bench": "massive_domain",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm",
+      "definition": "Utterances related to setting, checking, or modifying alarms or reminders."
+    },
+    {
+      "id": 2,
+      "name": "Calendar",
+      "definition": "Utterances related to scheduling, checking, or modifying events on a calendar."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "Utterances related to sending, receiving, or composing emails, messages, tweets, or posts."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Utterances related to playing music, podcasts, radio, or games."
+    },
+    {
+      "id": 5,
+      "name": "Information",
+      "definition": "Utterances related to seeking information such as news, weather, definitions, or facts."
+    },
+    {
+      "id": 6,
+      "name": "Navigation",
+      "definition": "Utterances related to finding directions, train times, or locations."
+    },
+    {
+      "id": 7,
+      "name": "Shopping",
+      "definition": "Utterances related to adding items to lists, checking prices, or ordering products."
+    },
+    {
+      "id": 8,
+      "name": "Smart Home",
+      "definition": "Utterances related to controlling lights, alarms, plugs, or appliances in the home."
+    },
+    {
+      "id": 9,
+      "name": "Social Media",
+      "definition": "Utterances related to posting, tweeting, or checking social media updates."
+    },
+    {
+      "id": 10,
+      "name": "Weather",
+      "definition": "Utterances related to checking or forecasting the weather."
+    },
+    {
+      "id": 11,
+      "name": "Cooking",
+      "definition": "Utterances related to finding recipes, cooking instructions, or food-related queries."
+    },
+    {
+      "id": 12,
+      "name": "Music Preferences",
+      "definition": "Utterances related to specifying music genres, artists, or playlists."
+    },
+    {
+      "id": 13,
+      "name": "General Knowledge",
+      "definition": "Utterances related to seeking general knowledge, definitions, or facts."
+    },
+    {
+      "id": 14,
+      "name": "Travel",
+      "definition": "Utterances related to booking tickets, finding train times, or planning trips."
+    },
+    {
+      "id": 15,
+      "name": "Health and Fitness",
+      "definition": "Utterances related to diet, exercise, health queries, or fitness goals."
+    },
+    {
+      "id": 16,
+      "name": "Education",
+      "definition": "Utterances related to learning, definitions, or educational queries."
+    },
+    {
+      "id": 17,
+      "name": "Vehicle",
+      "definition": "Utterances related to car-related queries, services, or directions."
+    },
+    {
+      "id": 18,
+      "name": "Mathematics",
+      "definition": "Utterances related to math calculations or queries."
+    },
+    {
+      "id": 19,
+      "name": "Color Preferences",
+      "definition": "Utterances related to adjusting or specifying colors for lights or displays."
+    },
+    {
+      "id": 20,
+      "name": "Podcasts",
+      "definition": "Utterances related to playing, searching, or managing podcasts."
+    },
+    {
+      "id": 21,
+      "name": "Currency Conversion",
+      "definition": "Utterances related to converting currency rates or values."
+    },
+    {
+      "id": 22,
+      "name": "Social Events",
+      "definition": "Utterances related to planning, scheduling, or remembering social events or gatherings."
+    }
+  ]
+}

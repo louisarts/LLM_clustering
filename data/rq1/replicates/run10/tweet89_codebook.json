@@ -1,0 +1,257 @@
+{
+  "bench": "tweet89",
+  "run": 10,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Christina Aguilera's Super Bowl National Anthem Performance",
+      "definition": "News and reactions to Christina Aguilera's flub during the US national anthem at Super Bowl XLV."
+    },
+    {
+      "id": 2,
+      "name": "Super Bowl XLV Commercials",
+      "definition": "Discussions, reviews, and rankings of advertisements aired during Super Bowl XLV."
+    },
+    {
+      "id": 3,
+      "name": "Yemen Protests and President Saleh",
+      "definition": "Reports on anti-government demonstrations in Yemen and President Ali Abdullah Saleh's political future."
+    },
+    {
+      "id": 4,
+      "name": "Legal Challenges to the Affordable Care Act",
+      "definition": "News and court rulings related to the constitutionality of the US healthcare reform law."
+    },
+    {
+      "id": 5,
+      "name": "Moscow Domodedovo Airport Bombing",
+      "definition": "Coverage of the terrorist attack at Moscow's Domodedovo Airport in January 2011."
+    },
+    {
+      "id": 6,
+      "name": "Egyptian Protests and Attacks on Journalists",
+      "definition": "Reports on the 2011 Egyptian revolution, including the detention and assault of journalists."
+    },
+    {
+      "id": 7,
+      "name": "Egyptian Museum Artifacts Security",
+      "definition": "Concerns and reports regarding the safety and looting of artifacts during the Egyptian protests."
+    },
+    {
+      "id": 8,
+      "name": "Sundance Film Festival 2011",
+      "definition": "News, celebrity appearances, and film discussions from the 2011 Sundance Film Festival."
+    },
+    {
+      "id": 9,
+      "name": "Oscar Nominations and Awards 2011",
+      "definition": "Announcements and discussions surrounding the 83rd Academy Awards, particularly for nominated films."
+    },
+    {
+      "id": 10,
+      "name": "Somali Piracy Incidents",
+      "definition": "News about pirate attacks, naval interventions, and legal actions against Somali pirates."
+    },
+    {
+      "id": 11,
+      "name": "Gabrielle Giffords' Recovery",
+      "definition": "Updates on the health status and recovery of US Congresswoman Gabrielle Giffords after being shot."
+    },
+    {
+      "id": 12,
+      "name": "Texting While Driving Awareness Campaigns",
+      "definition": "Public safety initiatives and discussions highlighting the dangers of texting while driving."
+    },
+    {
+      "id": 13,
+      "name": "Taco Bell Beef Controversy",
+      "definition": "Allegations and company responses regarding the meat content in Taco Bell's products."
+    },
+    {
+      "id": 14,
+      "name": "Stuxnet and Iran's Nuclear Program",
+      "definition": "Discussions about the Stuxnet computer worm and its impact on Iran's nuclear facilities."
+    },
+    {
+      "id": 15,
+      "name": "Australian Open 2011 Men's Final",
+      "definition": "Coverage of the tennis tournament's men's singles final between Novak Djokovic and Andy Murray."
+    },
+    {
+      "id": 16,
+      "name": "TSA Body Scanners and Privacy Concerns",
+      "definition": "Debates and news regarding airport security procedures, body scanners, and passenger privacy."
+    },
+    {
+      "id": 17,
+      "name": "Starbucks Trenta Cup Launch",
+      "definition": "Social media buzz and discussions surrounding the introduction of Starbucks' large Trenta beverage cup."
+    },
+    {
+      "id": 18,
+      "name": "Charlie Sheen's Personal Issues",
+      "definition": "News and speculation regarding actor Charlie Sheen's hospitalization and public behavior."
+    },
+    {
+      "id": 19,
+      "name": "White Stripes Breakup",
+      "definition": "News of the American rock duo The White Stripes announcing their disbandment."
+    },
+    {
+      "id": 20,
+      "name": "Iran's Execution of Sahra Bahrami",
+      "definition": "Reports on the execution of an Iranian-Dutch woman in Iran on drug charges."
+    },
+    {
+      "id": 21,
+      "name": "Keith Olbermann's Move to Current TV",
+      "definition": "News about TV personality Keith Olbermann joining Current TV after leaving MSNBC."
+    },
+    {
+      "id": 22,
+      "name": "Concussion Risks in Sports",
+      "definition": "Discussions and warnings about the long-term health risks of concussions in athletes, particularly in football."
+    },
+    {
+      "id": 23,
+      "name": "The Rite Movie Release",
+      "definition": "Discussions, reviews, and promotional content related to the horror film The Rite."
+    },
+    {
+      "id": 24,
+      "name": "Facebook Privacy Settings Changes/Concerns",
+      "definition": "Ongoing discussions and user reactions to Facebook's privacy policies and settings."
+    },
+    {
+      "id": 25,
+      "name": "Acai Berry Diet Trend",
+      "definition": "Discussions, claims, and side effects related to acai berry products marketed for weight loss."
+    },
+    {
+      "id": 26,
+      "name": "Kardashian Family Celebrity News",
+      "definition": "General news and discussions about the celebrity family, often related to their reality TV show."
+    },
+    {
+      "id": 27,
+      "name": "Chicago Blizzard 2011",
+      "definition": "Reports and impacts of a major winter storm affecting Chicago in early 2011."
+    },
+    {
+      "id": 28,
+      "name": "Hu Jintao's US Visit 2011",
+      "definition": "Coverage of Chinese President Hu Jintao's state visit to the United States in January 2011."
+    },
+    {
+      "id": 29,
+      "name": "Birther Controversy (Obama's Birth Certificate)",
+      "definition": "Ongoing political debate and demands for President Obama's long-form birth certificate."
+    },
+    {
+      "id": 30,
+      "name": "New York Medicaid Budget Cuts",
+      "definition": "Governor Andrew Cuomo's proposals and efforts to reduce Medicaid spending in New York State."
+    },
+    {
+      "id": 31,
+      "name": "Myanmar Sanctions Debate",
+      "definition": "Discussions and calls for maintaining or lifting international sanctions on Myanmar (Burma)."
+    },
+    {
+      "id": 32,
+      "name": "Illegal Ice Fishing Busts",
+      "definition": "Reports on arrests and legal actions taken against individuals for illegal ice fishing."
+    },
+    {
+      "id": 33,
+      "name": "Chipotle Immigration Inspection",
+      "definition": "News about immigration-related inspections and audits at Chipotle Mexican Grill restaurants."
+    },
+    {
+      "id": 34,
+      "name": "RNC Chairman Michael Steele's Resignation",
+      "definition": "News regarding Michael Steele's decision not to seek re-election as chairman of the Republican National Committee."
+    },
+    {
+      "id": 35,
+      "name": "Gasland Documentary and Fracking",
+      "definition": "Discussions related to the documentary Gasland and the environmental concerns surrounding hydraulic fracturing."
+    },
+    {
+      "id": 36,
+      "name": "Bedbug Infestation and Control",
+      "definition": "News and discussions about the increasing prevalence of bedbugs and methods for their control."
+    },
+    {
+      "id": 37,
+      "name": "Jordan Protests 2011",
+      "definition": "Reports on anti-government demonstrations and political unrest in Jordan."
+    },
+    {
+      "id": 38,
+      "name": "US Supreme Court Rulings",
+      "definition": "News and analysis of specific decisions made by the United States Supreme Court."
+    },
+    {
+      "id": 39,
+      "name": "Best Buy Verizon iPhone Launch",
+      "definition": "Business news related to the launch of the iPhone on Verizon and its impact on retailers like Best Buy."
+    },
+    {
+      "id": 40,
+      "name": "Iran Uranium Deal Negotiations",
+      "definition": "Diplomatic discussions and Iran's position regarding a proposed uranium exchange deal."
+    },
+    {
+      "id": 41,
+      "name": "Climate Change and Crop Impacts",
+      "definition": "News linking climate change to extreme weather events and their effects on agricultural crops."
+    },
+    {
+      "id": 42,
+      "name": "Bullying Prevention Campaigns",
+      "definition": "Initiatives and discussions aimed at raising awareness and preventing bullying in schools and communities."
+    },
+    {
+      "id": 43,
+      "name": "Chicago Mayoral Race 2011",
+      "definition": "News and developments related to the mayoral election in Chicago."
+    },
+    {
+      "id": 44,
+      "name": "England Fishing Community Issues",
+      "definition": "Discussions about challenges and management systems affecting the fishing industry in England."
+    },
+    {
+      "id": 45,
+      "name": "Obama Administration Fishing Regulation Dispute",
+      "definition": "A specific dispute involving fishing regulations and a request for President Obama's intervention."
+    },
+    {
+      "id": 46,
+      "name": "Political Use of Social Media",
+      "definition": "Discussions and observations about how political parties and figures utilize social media platforms."
+    },
+    {
+      "id": 47,
+      "name": "US Economic Reports",
+      "definition": "News and data releases concerning the US economy, such as employment rates and job growth."
+    },
+    {
+      "id": 48,
+      "name": "Lady Army Health Initiative",
+      "definition": "News about a specific health and fitness initiative for military women."
+    },
+    {
+      "id": 49,
+      "name": "Horse Racing Events",
+      "definition": "News and betting information related to specific horse racing events."
+    },
+    {
+      "id": 50,
+      "name": "International Incident: Unspecified Explosion",
+      "definition": "Reports of an explosion abroad, with details of the location or cause not specified."
+    }
+  ]
+}

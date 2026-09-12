@@ -1,0 +1,210 @@
+{
+  "bench": "stackoverflow20",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Spring",
+      "definition": "Framework for building Java applications."
+    },
+    {
+      "id": 2,
+      "name": "Hibernate",
+      "definition": "Object-relational mapping framework for Java."
+    },
+    {
+      "id": 3,
+      "name": "LINQ",
+      "definition": "Language Integrated Query for .NET languages."
+    },
+    {
+      "id": 4,
+      "name": "WordPress",
+      "definition": "Content management system for building websites."
+    },
+    {
+      "id": 5,
+      "name": "Drupal",
+      "definition": "Open-source content management framework."
+    },
+    {
+      "id": 6,
+      "name": "Magento",
+      "definition": "E-commerce platform for online stores."
+    },
+    {
+      "id": 7,
+      "name": "Cocoa",
+      "definition": "Apple's native object-oriented API for macOS."
+    },
+    {
+      "id": 8,
+      "name": "Visual Studio",
+      "definition": "Integrated development environment from Microsoft."
+    },
+    {
+      "id": 9,
+      "name": "Bash",
+      "definition": "Unix shell and command language."
+    },
+    {
+      "id": 10,
+      "name": "PHP",
+      "definition": "Server-side scripting language for web development."
+    },
+    {
+      "id": 11,
+      "name": "Oracle",
+      "definition": "Relational database management system."
+    },
+    {
+      "id": 12,
+      "name": "MATLAB",
+      "definition": "High-level programming language for numerical computing."
+    },
+    {
+      "id": 13,
+      "name": "Scala",
+      "definition": "Programming language that combines object-oriented and functional programming."
+    },
+    {
+      "id": 14,
+      "name": "Haskell",
+      "definition": "Functional programming language known for its strong static typing."
+    },
+    {
+      "id": 15,
+      "name": "AJAX",
+      "definition": "Asynchronous JavaScript and XML for creating dynamic web applications."
+    },
+    {
+      "id": 16,
+      "name": "Excel VBA",
+      "definition": "Visual Basic for Applications used for automation in Microsoft Excel."
+    },
+    {
+      "id": 17,
+      "name": "ASP.NET",
+      "definition": "Web framework for building web applications using .NET."
+    },
+    {
+      "id": 18,
+      "name": "Subversion (SVN)",
+      "definition": "Version control system for tracking changes in files."
+    },
+    {
+      "id": 19,
+      "name": "SharePoint",
+      "definition": "Web-based collaboration platform from Microsoft."
+    },
+    {
+      "id": 20,
+      "name": "Qt",
+      "definition": "Cross-platform application framework for GUI development."
+    },
+    {
+      "id": 21,
+      "name": "GWT",
+      "definition": "Google Web Toolkit for building complex web applications in Java."
+    },
+    {
+      "id": 22,
+      "name": "Entity Framework",
+      "definition": "Object-relational mapper for .NET applications."
+    },
+    {
+      "id": 23,
+      "name": "ClearCase",
+      "definition": "Version control system for software development."
+    },
+    {
+      "id": 24,
+      "name": "Apache",
+      "definition": "Open-source web server software."
+    },
+    {
+      "id": 25,
+      "name": "Objective-C",
+      "definition": "Programming language used for macOS and iOS development."
+    },
+    {
+      "id": 26,
+      "name": "Java",
+      "definition": "High-level programming language used for building applications."
+    },
+    {
+      "id": 27,
+      "name": "C++",
+      "definition": "General-purpose programming language with object-oriented features."
+    },
+    {
+      "id": 28,
+      "name": "Ruby",
+      "definition": "Dynamic, open-source programming language with a focus on simplicity."
+    },
+    {
+      "id": 29,
+      "name": "JavaScript",
+      "definition": "High-level programming language for web development."
+    },
+    {
+      "id": 30,
+      "name": "XML",
+      "definition": "Markup language for encoding documents in a format that is both human-readable and machine-readable."
+    },
+    {
+      "id": 31,
+      "name": "CSS",
+      "definition": "Style sheet language used for describing the presentation of a document written in HTML or XML."
+    },
+    {
+      "id": 32,
+      "name": "SQL",
+      "definition": "Structured Query Language for managing and manipulating databases."
+    },
+    {
+      "id": 33,
+      "name": "C#",
+      "definition": "Object-oriented programming language developed by Microsoft."
+    },
+    {
+      "id": 34,
+      "name": "Python",
+      "definition": "High-level programming language known for its readability and versatility."
+    },
+    {
+      "id": 35,
+      "name": "R",
+      "definition": "Programming language and software environment for statistical computing."
+    },
+    {
+      "id": 36,
+      "name": "Go",
+      "definition": "Statically typed programming language designed for simplicity and efficiency."
+    },
+    {
+      "id": 37,
+      "name": "Rust",
+      "definition": "Systems programming language focused on safety and performance."
+    },
+    {
+      "id": 38,
+      "name": "Django",
+      "definition": "High-level Python web framework that encourages rapid development."
+    },
+    {
+      "id": 39,
+      "name": "Flask",
+      "definition": "Micro web framework for Python based on Werkzeug and Jinja2."
+    },
+    {
+      "id": 40,
+      "name": "Node.js",
+      "definition": "JavaScript runtime built on Chrome's V8 JavaScript engine."
+    }
+  ]
+}

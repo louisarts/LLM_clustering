@@ -1,0 +1,110 @@
+{
+  "bench": "banking77",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Payment Issue",
+      "definition": "Queries related to issues with card payments, such as being charged extra, payment not going through, or card not being accepted."
+    },
+    {
+      "id": 2,
+      "name": "Account Management",
+      "definition": "Questions about managing accounts, such as changing personal details, opening accounts for children, or reporting address changes."
+    },
+    {
+      "id": 3,
+      "name": "Transaction Discrepancy",
+      "definition": "Concerns about discrepancies in transactions, such as being charged multiple times for the same transaction or not receiving the correct amount."
+    },
+    {
+      "id": 4,
+      "name": "Card Activation/Replacement",
+      "definition": "Queries related to activating new cards, ordering replacements for lost or stolen cards, or cancelling transactions."
+    },
+    {
+      "id": 5,
+      "name": "Top-Up Issues",
+      "definition": "Issues related to topping up accounts, such as pending top-ups, verification codes missing, or top-ups not working."
+    },
+    {
+      "id": 6,
+      "name": "Identity Verification",
+      "definition": "Questions about verifying identity for account security purposes."
+    },
+    {
+      "id": 7,
+      "name": "Transfer Troubleshooting",
+      "definition": "Queries related to troubleshooting transfers, such as transfers not going through, delays in transfers, or incorrect recipient details."
+    },
+    {
+      "id": 8,
+      "name": "Currency Exchange",
+      "definition": "Questions about currency exchange rates, fees, and options for holding different currencies."
+    },
+    {
+      "id": 9,
+      "name": "Card Delivery",
+      "definition": "Queries related to card delivery, such as tracking card shipments, delivery times, or delays in receiving cards."
+    },
+    {
+      "id": 10,
+      "name": "Contactless Payment Issue",
+      "definition": "Concerns about contactless payment not working or being declined."
+    },
+    {
+      "id": 11,
+      "name": "ATM Troubleshooting",
+      "definition": "Issues related to ATM transactions, such as incorrect amounts dispensed, fees charged, or PIN changes."
+    },
+    {
+      "id": 12,
+      "name": "Virtual Card Inquiry",
+      "definition": "Questions about virtual cards, such as limits on usage, activation, or obtaining disposable virtual cards."
+    },
+    {
+      "id": 13,
+      "name": "Refund Request",
+      "definition": "Requests for refunds due to unauthorized transactions, duplicate charges, or incorrect amounts."
+    },
+    {
+      "id": 14,
+      "name": "Account Closure",
+      "definition": "Requests to close accounts due to dissatisfaction with services or other reasons."
+    },
+    {
+      "id": 15,
+      "name": "Payment Decline",
+      "definition": "Queries about declined payments, reasons for payment cancellations, or pending payments."
+    },
+    {
+      "id": 16,
+      "name": "Cash Withdrawal Issue",
+      "definition": "Concerns related to cash withdrawals, such as incorrect amounts received, fees charged, or pending withdrawals."
+    },
+    {
+      "id": 17,
+      "name": "Card Security",
+      "definition": "Queries related to card security, such as blocking cards, unblocking PINs, or reporting lost or stolen cards."
+    },
+    {
+      "id": 18,
+      "name": "International Transactions",
+      "definition": "Questions about international transactions, fees, exchange rates, and card usage abroad."
+    },
+    {
+      "id": 19,
+      "name": "Child Account Inquiry",
+      "definition": "Inquiries about opening accounts for children, age requirements, and account management for minors."
+    },
+    {
+      "id": 20,
+      "name": "Payment Verification",
+      "definition": "Queries about verifying payments, sources of funds, or identity for security purposes."
+    }
+  ]
+}

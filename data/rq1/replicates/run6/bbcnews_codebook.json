@@ -1,0 +1,172 @@
+{
+  "bench": "bbcnews",
+  "run": 6,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sports - Football",
+      "definition": "News and updates related to football (soccer) clubs, matches, players, and leagues."
+    },
+    {
+      "id": 2,
+      "name": "Sports - Rugby",
+      "definition": "News and updates related to rugby clubs, international matches, players, and tournaments."
+    },
+    {
+      "id": 3,
+      "name": "Sports - Tennis",
+      "definition": "News and updates related to tennis tournaments, players, and rankings."
+    },
+    {
+      "id": 4,
+      "name": "Sports - Athletics",
+      "definition": "News and updates related to track and field events, marathon running, and athletes."
+    },
+    {
+      "id": 5,
+      "name": "Business - Company News",
+      "definition": "Financial results, mergers, acquisitions, leadership changes, and other corporate developments."
+    },
+    {
+      "id": 6,
+      "name": "Business - UK Economy",
+      "definition": "Economic indicators, government fiscal policy, and market trends specific to the United Kingdom."
+    },
+    {
+      "id": 7,
+      "name": "Business - US Economy",
+      "definition": "Economic indicators, government fiscal policy, and market trends specific to the United States."
+    },
+    {
+      "id": 8,
+      "name": "Business - European Economy",
+      "definition": "Economic indicators, government fiscal policy, and market trends specific to European countries or the EU."
+    },
+    {
+      "id": 9,
+      "name": "Business - Asian Economy",
+      "definition": "Economic indicators, government fiscal policy, and market trends specific to Asian countries, including the Middle East."
+    },
+    {
+      "id": 10,
+      "name": "Business - Global Economy & Markets",
+      "definition": "International trade, currency markets, global financial trends, and international economic policy."
+    },
+    {
+      "id": 11,
+      "name": "Business - Auto Industry",
+      "definition": "News and developments related to car manufacturers, sales, and industry trends."
+    },
+    {
+      "id": 12,
+      "name": "Business - Personal Finance",
+      "definition": "Advice, trends, and news related to individual financial management, investments, and consumer banking."
+    },
+    {
+      "id": 13,
+      "name": "Business - African Economy",
+      "definition": "Economic indicators, government fiscal policy, and market trends specific to African countries."
+    },
+    {
+      "id": 14,
+      "name": "Politics - UK Domestic",
+      "definition": "News and analysis of UK government policy, elections, parliamentary affairs, and public administration."
+    },
+    {
+      "id": 15,
+      "name": "Politics - International Relations",
+      "definition": "Diplomatic relations, foreign policy, international conflicts, and global political events."
+    },
+    {
+      "id": 16,
+      "name": "Technology - Internet",
+      "definition": "Developments in internet infrastructure, services, usage, and online trends, including security and cybercrime."
+    },
+    {
+      "id": 17,
+      "name": "Technology - Gaming",
+      "definition": "News about video games, gaming hardware, e-sports, and the gaming industry."
+    },
+    {
+      "id": 18,
+      "name": "Technology - Computing",
+      "definition": "News about computer hardware, software, operating systems, and IT research."
+    },
+    {
+      "id": 19,
+      "name": "Technology - Mobile & Gadgets",
+      "definition": "News about mobile phones, portable electronic devices, and consumer electronics trends."
+    },
+    {
+      "id": 20,
+      "name": "Technology - Telecommunications",
+      "definition": "News about communication networks, services, and infrastructure beyond just mobile phones."
+    },
+    {
+      "id": 21,
+      "name": "Technology - Consumer Electronics",
+      "definition": "News about home entertainment systems, audio-visual equipment, and other consumer-focused electronic devices."
+    },
+    {
+      "id": 22,
+      "name": "Technology - General",
+      "definition": "Broader technological advancements, research, and their societal impact not covered by more specific tech categories."
+    },
+    {
+      "id": 23,
+      "name": "Arts & Culture - Film",
+      "definition": "News about movies, film festivals, box office, actors, and the film industry."
+    },
+    {
+      "id": 24,
+      "name": "Arts & Culture - Music",
+      "definition": "News about musicians, bands, albums, concerts, music awards, and the music industry."
+    },
+    {
+      "id": 25,
+      "name": "Arts & Culture - Television",
+      "definition": "News about TV shows, networks, broadcasting, and the television industry."
+    },
+    {
+      "id": 26,
+      "name": "Arts & Culture - Theatre",
+      "definition": "News about stage productions, plays, musicals, and the performing arts."
+    },
+    {
+      "id": 27,
+      "name": "Arts & Culture - Books",
+      "definition": "News about authors, literature, book releases, and literary awards."
+    },
+    {
+      "id": 28,
+      "name": "Arts & Culture - Visual Arts",
+      "definition": "News about art exhibitions, museums, artists, and the visual arts world."
+    },
+    {
+      "id": 29,
+      "name": "Arts & Culture - Celebrity",
+      "definition": "General news and gossip about public figures and entertainers."
+    },
+    {
+      "id": 30,
+      "name": "Education",
+      "definition": "News and policy related to schools, universities, educational methods, and learning."
+    },
+    {
+      "id": 31,
+      "name": "Legal Issues",
+      "definition": "News about court cases, legislation, legal reforms, and the justice system."
+    },
+    {
+      "id": 32,
+      "name": "Social Issues",
+      "definition": "News about societal trends, public welfare, demographics, and community concerns."
+    },
+    {
+      "id": 33,
+      "name": "Environment",
+      "definition": "News about environmental policy, conservation, climate change, and ecological issues."
+    }
+  ]
+}

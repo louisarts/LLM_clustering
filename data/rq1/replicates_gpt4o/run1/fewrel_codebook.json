@@ -1,0 +1,110 @@
+{
+  "bench": "fewrel",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Location",
+      "definition": "One entity is a geographical location or administrative region related to the other."
+    },
+    {
+      "id": 2,
+      "name": "Person-Role",
+      "definition": "One entity is a person and the other is a role or title they hold."
+    },
+    {
+      "id": 3,
+      "name": "Person-Organization",
+      "definition": "One entity is a person and the other is an organization or group they are associated with."
+    },
+    {
+      "id": 4,
+      "name": "Event-Participant",
+      "definition": "One entity is an event and the other is a participant or associated entity."
+    },
+    {
+      "id": 5,
+      "name": "Product-Producer",
+      "definition": "One entity is a product or creation and the other is the producer or creator."
+    },
+    {
+      "id": 6,
+      "name": "Organization-Location",
+      "definition": "One entity is an organization and the other is a location where it operates or is based."
+    },
+    {
+      "id": 7,
+      "name": "Family",
+      "definition": "Both entities are people related by family ties."
+    },
+    {
+      "id": 8,
+      "name": "Object-Attribute",
+      "definition": "One entity is an object and the other is an attribute or characteristic of it."
+    },
+    {
+      "id": 9,
+      "name": "Entity-Entity",
+      "definition": "Both entities are of the same type and are related in a non-specific way."
+    },
+    {
+      "id": 10,
+      "name": "Event-Location",
+      "definition": "One entity is an event and the other is a location where it took place."
+    },
+    {
+      "id": 11,
+      "name": "Organization-Organization",
+      "definition": "Both entities are organizations that are related or associated."
+    },
+    {
+      "id": 12,
+      "name": "Person-Location",
+      "definition": "One entity is a person and the other is a location they are associated with."
+    },
+    {
+      "id": 13,
+      "name": "Event-Time",
+      "definition": "One entity is an event and the other is a time or date related to it."
+    },
+    {
+      "id": 14,
+      "name": "Object-Object",
+      "definition": "Both entities are objects that are related or associated."
+    },
+    {
+      "id": 15,
+      "name": "Person-Person",
+      "definition": "Both entities are people who are related or associated."
+    },
+    {
+      "id": 16,
+      "name": "Event-Event",
+      "definition": "Both entities are events that are related or associated."
+    },
+    {
+      "id": 17,
+      "name": "Product-Product",
+      "definition": "Both entities are products that are related or associated."
+    },
+    {
+      "id": 18,
+      "name": "Language-Region",
+      "definition": "One entity is a language and the other is a region where it is spoken."
+    },
+    {
+      "id": 19,
+      "name": "Title-Work",
+      "definition": "One entity is a title and the other is a work or creation associated with it."
+    },
+    {
+      "id": 20,
+      "name": "Person-Work",
+      "definition": "One entity is a person and the other is a work or creation they are associated with."
+    }
+  ]
+}

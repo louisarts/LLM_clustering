@@ -1,0 +1,192 @@
+[
+ {
+  "id": 1,
+  "name": "Weather Forecast",
+  "definition": "Requesting information about current or future weather conditions in a specific location."
+ },
+ {
+  "id": 2,
+  "name": "News Search",
+  "definition": "Asking for news articles or updates on a particular topic or event."
+ },
+ {
+  "id": 3,
+  "name": "Contact Information",
+  "definition": "Seeking details about individuals or organizations, such as names, addresses, or phone numbers."
+ },
+ {
+  "id": 4,
+  "name": "Reminder Setting",
+  "definition": "Requesting the assistant to create a reminder for a specific task or event at a designated time."
+ },
+ {
+  "id": 5,
+  "name": "Recipe Search",
+  "definition": "Looking for recipes for specific dishes or ingredients."
+ },
+ {
+  "id": 6,
+  "name": "Entertainment Playback",
+  "definition": "Instructing the assistant to play a specific song, album, or game."
+ },
+ {
+  "id": 7,
+  "name": "Task Completion",
+  "definition": "Directing the assistant to perform a specific action, such as adding an item to a shopping list or sending a message."
+ },
+ {
+  "id": 8,
+  "name": "Music Playback",
+  "definition": "Playing music from a specific artist, song, genre, or station."
+ },
+ {
+  "id": 9,
+  "name": "Call Management",
+  "definition": "Managing incoming calls, such as answering or screening."
+ },
+ {
+  "id": 10,
+  "name": "Location Information",
+  "definition": "Requesting information about a specific location, such as weather, events, or who works there."
+ },
+ {
+  "id": 11,
+  "name": "Alarm Management",
+  "definition": "Setting, viewing, or managing alarms."
+ },
+ {
+  "id": 12,
+  "name": "Social Event Planning",
+  "definition": "Planning or managing social events, such as sending invitations."
+ },
+ {
+  "id": 13,
+  "name": "Clothing Advice",
+  "definition": "Requests fashion or clothing-related guidance."
+ },
+ {
+  "id": 14,
+  "name": "Genealogy",
+  "definition": "Seeks information about family history or ancestry."
+ },
+ {
+  "id": 15,
+  "name": "Video Message Inquiry",
+  "definition": "Asks about received video messages."
+ },
+ {
+  "id": 16,
+  "name": "Text Messaging",
+  "definition": "Instructs the assistant to send a text message."
+ },
+ {
+  "id": 17,
+  "name": "Work Location Inquiry",
+  "definition": "Asks about the employment location of a person."
+ },
+ {
+  "id": 18,
+  "name": "Concert Information",
+  "definition": "Requests details about upcoming musical concerts."
+ },
+ {
+  "id": 19,
+  "name": "Nutrition Information",
+  "definition": "Requesting dietary information about a food item."
+ },
+ {
+  "id": 20,
+  "name": "Timer Setting",
+  "definition": "Requesting the assistant to set a timer for a specific duration."
+ },
+ {
+  "id": 21,
+  "name": "Video Sending",
+  "definition": "Requesting the assistant to send a video to a specified recipient."
+ },
+ {
+  "id": 22,
+  "name": "Reminder Deletion",
+  "definition": "Requesting the assistant to delete an existing reminder."
+ },
+ {
+  "id": 23,
+  "name": "Music Playback Platform",
+  "definition": "Specifying the desired music streaming platform for playback."
+ },
+ {
+  "id": 24,
+  "name": "International Relations Inquiry",
+  "definition": "Asking for information about international relations or geopolitical events."
+ },
+ {
+  "id": 25,
+  "name": "Call Participant Management",
+  "definition": "Requesting the assistant to add or remove participants from an ongoing call."
+ },
+ {
+  "id": 26,
+  "name": "Social Network Inquiry",
+  "definition": "Requesting information about a user's social connections or activity on a platform."
+ },
+ {
+  "id": 27,
+  "name": "Timer Management",
+  "definition": "Controlling the duration or actions related to timers."
+ },
+ {
+  "id": 28,
+  "name": "Employee Information",
+  "definition": "Seeking details about employees of a specific organization."
+ },
+ {
+  "id": 29,
+  "name": "Event Response",
+  "definition": "Responding to an invitation or declining an event."
+ },
+ {
+  "id": 30,
+  "name": "Music Genre Preference",
+  "definition": "Specifying a desired music genre for playback."
+ },
+ {
+  "id": 31,
+  "name": "Local Event Information",
+  "definition": "Requesting information about events happening in a specific location."
+ },
+ {
+  "id": 32,
+  "name": "Song Information",
+  "definition": "Asking for information about a song, such as the artist or lyrics."
+ },
+ {
+  "id": 33,
+  "name": "Family Contact Management",
+  "definition": "Requesting assistance with connecting with family members."
+ },
+ {
+  "id": 34,
+  "name": "Group Reminder",
+  "definition": "Setting a reminder for a group of people."
+ },
+ {
+  "id": 35,
+  "name": "Cooking Instruction",
+  "definition": "Seeking guidance on cooking a specific dish."
+ },
+ {
+  "id": 36,
+  "name": "Pet Grooming Appointment",
+  "definition": "Scheduling or inquiring about an appointment for pet grooming services."
+ },
+ {
+  "id": 37,
+  "name": "Video Message Playback",
+  "definition": "Requesting to view previously sent video messages."
+ },
+ {
+  "id": 38,
+  "name": "Live TV Channel Playback",
+  "definition": "Requesting to watch a specific live TV channel."
+ }
+]

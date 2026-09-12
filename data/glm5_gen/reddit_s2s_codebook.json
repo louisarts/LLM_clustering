@@ -1,0 +1,237 @@
+[
+ {
+  "id": 1,
+  "name": "Airsoft",
+  "definition": "Discussion of airsoft guns, equipment, upgrades, and gameplay."
+ },
+ {
+  "id": 2,
+  "name": "Architecture",
+  "definition": "Posts regarding architectural design, projects, visualization, and industry news."
+ },
+ {
+  "id": 3,
+  "name": "Austin",
+  "definition": "Local news, events, recommendations, and discussion specific to Austin, Texas."
+ },
+ {
+  "id": 4,
+  "name": "Australia",
+  "definition": "News, sports, culture, and discussion specific to Australia."
+ },
+ {
+  "id": 5,
+  "name": "Amazon",
+  "definition": "Discussion of Amazon products, services, marketplace issues, and customer support."
+ },
+ {
+  "id": 6,
+  "name": "Anime",
+  "definition": "Discussion of anime series, movies, manga, and related industry news."
+ },
+ {
+  "id": 7,
+  "name": "Art",
+  "definition": "Showcasing artwork, photography, and discussions on artistic techniques."
+ },
+ {
+  "id": 8,
+  "name": "Astronomy",
+  "definition": "Posts about celestial events, stargazing, space science, and telescopes."
+ },
+ {
+  "id": 9,
+  "name": "Baltimore",
+  "definition": "Local news, events, crime reports, and discussion specific to Baltimore, Maryland."
+ },
+ {
+  "id": 10,
+  "name": "Beer",
+  "definition": "Discussion of beer styles, brewing, industry news, and recommendations."
+ },
+ {
+  "id": 11,
+  "name": "Belgium",
+  "definition": "News, politics, culture, and local questions specific to Belgium."
+ },
+ {
+  "id": 12,
+  "name": "Blogging",
+  "definition": "Advice, tools, and discussion regarding the creation and management of blogs."
+ },
+ {
+  "id": 13,
+  "name": "Blender",
+  "definition": "Tutorials, showcases, and help for the Blender 3D creation software."
+ },
+ {
+  "id": 14,
+  "name": "Buddhism",
+  "definition": "Discussion of Buddhist philosophy, meditation practices, and texts."
+ },
+ {
+  "id": 15,
+  "name": "Cancer",
+  "definition": "Support, personal stories, and information regarding cancer diagnosis and treatment."
+ },
+ {
+  "id": 16,
+  "name": "Cars",
+  "definition": "Discussion of automobiles, maintenance, purchasing advice, and the automotive industry."
+ },
+ {
+  "id": 17,
+  "name": "Chemistry",
+  "definition": "Academic and industry discussion regarding chemical sciences, reactions, and education."
+ },
+ {
+  "id": 18,
+  "name": "Chicago",
+  "definition": "Local news, politics, events, and discussion specific to Chicago, Illinois."
+ },
+ {
+  "id": 19,
+  "name": "Coffee",
+  "definition": "Discussion of coffee brewing methods, beans, equipment, and industry news."
+ },
+ {
+  "id": 20,
+  "name": "Coins",
+  "definition": "Numismatics, coin identification, and collecting advice."
+ },
+ {
+  "id": 21,
+  "name": "College",
+  "definition": "Discussion of college applications, academics, and student life."
+ },
+ {
+  "id": 22,
+  "name": "Comic Books",
+  "definition": "Discussion of comic books, graphic novels, and related media adaptations."
+ },
+ {
+  "id": 23,
+  "name": "Consumer Advice",
+  "definition": "Questions and warnings regarding consumer rights, scams, and customer service."
+ },
+ {
+  "id": 24,
+  "name": "Cycling",
+  "definition": "Discussion of bicycles, cycling gear, infrastructure, and racing."
+ },
+ {
+  "id": 25,
+  "name": "Dogs",
+  "definition": "Discussion of dog behavior, care, training, and appreciation."
+ },
+ {
+  "id": 26,
+  "name": "China",
+  "definition": "News, culture, travel, and discussion specific to China."
+ },
+ {
+  "id": 27,
+  "name": "Cats",
+  "definition": "Discussion of cat behavior, care, and sharing photos of cats."
+ },
+ {
+  "id": 28,
+  "name": "Apple",
+  "definition": "Discussion of Apple hardware, software, and services including iPhone and Mac."
+ },
+ {
+  "id": 29,
+  "name": "Amateur Radio",
+  "definition": "Discussion of ham radio operations, equipment, and contests."
+ },
+ {
+  "id": 30,
+  "name": "Aviation",
+  "definition": "Discussion of aircraft, airlines, piloting, and aviation news."
+ },
+ {
+  "id": 31,
+  "name": "Books",
+  "definition": "Discussion of literature, book recommendations, and reading habits."
+ },
+ {
+  "id": 32,
+  "name": "Canada",
+  "definition": "News, politics, and discussion specific to Canada."
+ },
+ {
+  "id": 33,
+  "name": "Classical Music",
+  "definition": "Discussion of classical music compositions, performances, and recordings."
+ },
+ {
+  "id": 34,
+  "name": "Documentaries",
+  "definition": "Discussion and recommendations of documentary films and series."
+ },
+ {
+  "id": 35,
+  "name": "Movies & TV",
+  "definition": "Discussion of films, television shows, streaming media, and celebrity news."
+ },
+ {
+  "id": 36,
+  "name": "Science",
+  "definition": "General scientific news, discoveries, and academic discussion."
+ },
+ {
+  "id": 37,
+  "name": "Spam/Promotional",
+  "definition": "Unsolicited advertisements, SEO spam, betting scams, and irrelevant content."
+ },
+ {
+  "id": 38,
+  "name": "Mental Health",
+  "definition": "Discussion of mental health issues, support, and personal struggles."
+ },
+ {
+  "id": 39,
+  "name": "Disney",
+  "definition": "Discussion of Disney movies, parks, and media."
+ },
+ {
+  "id": 40,
+  "name": "Travel",
+  "definition": "Discussion of travel destinations, planning, and advice."
+ },
+ {
+  "id": 41,
+  "name": "Astrology",
+  "definition": "Discussion of horoscopes, zodiac signs, and astrological predictions."
+ },
+ {
+  "id": 42,
+  "name": "Christianity",
+  "definition": "Discussion of the Christian faith, theology, and worship."
+ },
+ {
+  "id": 43,
+  "name": "General Discussion & Humor",
+  "definition": "Open-ended questions, jokes, and casual conversation for a broad audience."
+ },
+ {
+  "id": 44,
+  "name": "Sneakers",
+  "definition": "Discussion of sneaker releases, fashion, and brands like Yeezy and Vans."
+ },
+ {
+  "id": 45,
+  "name": "News",
+  "definition": "General world news and current events not specific to a local subreddit."
+ },
+ {
+  "id": 46,
+  "name": "Legal Advice",
+  "definition": "Questions and discussion regarding legal matters and court procedures."
+ },
+ {
+  "id": 47,
+  "name": "General Advice",
+  "definition": "Broad life advice and questions not fitting other specific categories."
+ }
+]

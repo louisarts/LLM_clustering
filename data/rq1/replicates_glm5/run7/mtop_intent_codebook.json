@@ -1,0 +1,104 @@
+{
+  "bench": "mtop_intent",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm_Set",
+      "definition": "Create a new alarm or configure an alarm to sound at a specific time."
+    },
+    {
+      "id": 2,
+      "name": "Alarm_Manage",
+      "definition": "Modify, delete, snooze, or check the status of existing alarms."
+    },
+    {
+      "id": 3,
+      "name": "Timer_Set",
+      "definition": "Start a new countdown timer for a specified duration."
+    },
+    {
+      "id": 4,
+      "name": "Timer_Manage",
+      "definition": "Pause, resume, adjust, or stop an active countdown timer."
+    },
+    {
+      "id": 5,
+      "name": "Reminder_Set",
+      "definition": "Create a new reminder for a specific task or event."
+    },
+    {
+      "id": 6,
+      "name": "Reminder_Manage",
+      "definition": "Delete, modify, or check existing reminders."
+    },
+    {
+      "id": 7,
+      "name": "Weather_Query",
+      "definition": "Request current conditions or a forecast for a specific location and time."
+    },
+    {
+      "id": 8,
+      "name": "News_Query",
+      "definition": "Request news headlines, updates, or stories on specific topics or from specific sources."
+    },
+    {
+      "id": 9,
+      "name": "Music_Playback",
+      "definition": "Play, shuffle, or request specific songs, artists, or playlists on a media service."
+    },
+    {
+      "id": 10,
+      "name": "Music_Manage",
+      "definition": "Control music playback by pausing, skipping, repeating, or adjusting the volume."
+    },
+    {
+      "id": 11,
+      "name": "Call_Initiate",
+      "definition": "Start a new voice or video call with a specific contact or group."
+    },
+    {
+      "id": 12,
+      "name": "Call_Manage",
+      "definition": "Control an active call by ending it, adding participants, or switching modes."
+    },
+    {
+      "id": 13,
+      "name": "Messaging_Send",
+      "definition": "Send a text or video message to a specific contact or group."
+    },
+    {
+      "id": 14,
+      "name": "Messaging_Check",
+      "definition": "Check for, read, or display incoming messages or conversation history."
+    },
+    {
+      "id": 15,
+      "name": "Contact_Query",
+      "definition": "Find information about a contact's identity, relationships, location, or workplace."
+    },
+    {
+      "id": 16,
+      "name": "Recipe_Query",
+      "definition": "Search for recipes or ask questions about cooking methods and ingredients."
+    },
+    {
+      "id": 17,
+      "name": "Event_Query",
+      "definition": "Search for local events, concerts, or activities happening in a specific area."
+    },
+    {
+      "id": 18,
+      "name": "Settings_Configuration",
+      "definition": "Change device settings, user preferences, or default application providers."
+    },
+    {
+      "id": 19,
+      "name": "General_Knowledge_Query",
+      "definition": "Ask factual questions or seek information not covered by other specific categories."
+    }
+  ]
+}

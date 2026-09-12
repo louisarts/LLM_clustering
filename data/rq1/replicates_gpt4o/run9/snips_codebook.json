@@ -1,0 +1,45 @@
+{
+  "bench": "snips",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Add to Playlist",
+      "definition": "Add a song, artist, or album to a specified playlist."
+    },
+    {
+      "id": 2,
+      "name": "Play Music",
+      "definition": "Play a song, album, or artist on a specified platform or generally."
+    },
+    {
+      "id": 3,
+      "name": "Rate Content",
+      "definition": "Provide a rating for a book, album, saga, or other creative work."
+    },
+    {
+      "id": 4,
+      "name": "Show Movie Schedule",
+      "definition": "Display the schedule or showtimes for movies at a specified or nearby theater."
+    },
+    {
+      "id": 5,
+      "name": "Find Creative Work",
+      "definition": "Locate a novel, saga, TV show, or other creative work."
+    },
+    {
+      "id": 6,
+      "name": "Weather Forecast",
+      "definition": "Provide the weather forecast for a specified location and time."
+    },
+    {
+      "id": 7,
+      "name": "Book Reservation",
+      "definition": "Make a reservation at a restaurant, bar, or similar venue."
+    }
+  ]
+}

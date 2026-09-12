@@ -1,0 +1,512 @@
+[
+ {
+  "id": 1,
+  "name": "GetWeather",
+  "definition": "User asks for current weather conditions, forecasts, or temperature information for a specific location or time."
+ },
+ {
+  "id": 2,
+  "name": "GetNews",
+  "definition": "User requests news stories, headlines, or updates on general or specific topics (e.g., politics, celebrities, international)."
+ },
+ {
+  "id": 3,
+  "name": "CheckMessages",
+  "definition": "User inquires about the existence or status of messages, videos, or communications from specific contacts or in general."
+ },
+ {
+  "id": 4,
+  "name": "FindRecipes",
+  "definition": "User searches for recipes, cooking instructions, or ingredient lists for specific dishes or cuisines."
+ },
+ {
+  "id": 5,
+  "name": "CreateReminder",
+  "definition": "User requests to set, add, or schedule a reminder for a specific task, time, or event."
+ },
+ {
+  "id": 6,
+  "name": "ViewReminders",
+  "definition": "User asks to see, list, or check existing reminders or alarms."
+ },
+ {
+  "id": 7,
+  "name": "PlayMusic",
+  "definition": "User commands the assistant to play music, a specific song, an artist, a playlist, or a radio station on a specific platform."
+ },
+ {
+  "id": 8,
+  "name": "GetContactInfo",
+  "definition": "User asks for information regarding where someone lives or works, or demographic details about a person."
+ },
+ {
+  "id": 9,
+  "name": "SendMessage",
+  "definition": "User dictates a message or text to be sent to a specific contact or group."
+ },
+ {
+  "id": 10,
+  "name": "MakeCall",
+  "definition": "User initiates a phone call to a contact or group."
+ },
+ {
+  "id": 11,
+  "name": "ManageTimer",
+  "definition": "User sets, checks, or manages a timer for a specific duration or activity."
+ },
+ {
+  "id": 12,
+  "name": "ManageAlarm",
+  "definition": "User sets, creates, or queries alarms (distinct from reminders, often for waking up)."
+ },
+ {
+  "id": 13,
+  "name": "ControlMedia",
+  "definition": "User issues commands to control media playback, such as repeating or answering calls."
+ },
+ {
+  "id": 14,
+  "name": "FindEvents",
+  "definition": "User searches for events, such as political gatherings or concerts, happening at a specific time."
+ },
+ {
+  "id": 15,
+  "name": "CheckAvailability",
+  "definition": "User asks who is free or available."
+ },
+ {
+  "id": 16,
+  "name": "GetNutritionalInfo",
+  "definition": "Requests for calorie counts, nutritional values, or dietary information about food items."
+ },
+ {
+  "id": 17,
+  "name": "GetCookingInstructions",
+  "definition": "Requests for cooking temperatures, times, methods, or instructions on how to prepare a specific dish."
+ },
+ {
+  "id": 18,
+  "name": "SendMedia",
+  "definition": "Requests to send photos, videos, or other media files to a contact."
+ },
+ {
+  "id": 19,
+  "name": "ModifyReminder",
+  "definition": "Requests to change, edit, or reschedule an existing reminder."
+ },
+ {
+  "id": 20,
+  "name": "SnoozeAlarm",
+  "definition": "Requests to temporarily silence or delay an active alarm for a short period."
+ },
+ {
+  "id": 21,
+  "name": "SendTextMessage",
+  "definition": "Requests to send a text message or SMS to a contact or group."
+ },
+ {
+  "id": 22,
+  "name": "DeleteReminder",
+  "definition": "Requests to remove or cancel a specific reminder."
+ },
+ {
+  "id": 23,
+  "name": "PlayMedia",
+  "definition": "Requests to play specific songs, genres, or media content on a specific platform or service."
+ },
+ {
+  "id": 24,
+  "name": "GetGeneralKnowledge",
+  "definition": "Requests for factual information, general knowledge, or answers to questions not covered by other specific intents."
+ },
+ {
+  "id": 25,
+  "name": "RemoveCallParticipant",
+  "definition": "Requests to remove or drop a specific participant from an ongoing call."
+ },
+ {
+  "id": 26,
+  "name": "ViewContacts",
+  "definition": "Requests to view, show, or list contacts or friends."
+ },
+ {
+  "id": 27,
+  "name": "CheckTimer",
+  "definition": "Requests to check the status, time remaining, or list of active timers."
+ },
+ {
+  "id": 28,
+  "name": "ModifyTimer",
+  "definition": "Requests to adjust, increase, or change the duration of an existing timer."
+ },
+ {
+  "id": 29,
+  "name": "GetMusicInfo",
+  "definition": "Requests for information about songs, artists, or music releases."
+ },
+ {
+  "id": 30,
+  "name": "FindBusiness",
+  "definition": "Requests to find information about local businesses, including employees or services."
+ },
+ {
+  "id": 31,
+  "name": "GetEvents",
+  "definition": "Requests for information about local events, activities, or 'what is happening' in a specific area."
+ },
+ {
+  "id": 32,
+  "name": "GetPersonInfo",
+  "definition": "Requests for biographical or professional information about specific people."
+ },
+ {
+  "id": 33,
+  "name": "GetCookingTime",
+  "definition": "The user wants to know how long a specific food item should be cooked."
+ },
+ {
+  "id": 34,
+  "name": "GetPersonDescription",
+  "definition": "The user wants general information or a description of a specific person."
+ },
+ {
+  "id": 35,
+  "name": "GetRecipe",
+  "definition": "The user wants to find instructions or ingredients for preparing a specific dish."
+ },
+ {
+  "id": 36,
+  "name": "PlayTVChannel",
+  "definition": "The user wants to watch a specific television channel or live broadcast."
+ },
+ {
+  "id": 37,
+  "name": "ViewVideoMessages",
+  "definition": "The user wants to see or listen to video messages received from contacts."
+ },
+ {
+  "id": 38,
+  "name": "VideoCall",
+  "definition": "The user wants to initiate or convert a communication to a video call."
+ },
+ {
+  "id": 39,
+  "name": "ModifyAlarm",
+  "definition": "The user wants to change the settings of an existing alarm, such as the time or frequency."
+ },
+ {
+  "id": 40,
+  "name": "AddCallParticipant",
+  "definition": "The user wants to add a participant to an ongoing phone call."
+ },
+ {
+  "id": 41,
+  "name": "EndCall",
+  "definition": "The user wants to terminate or hang up the current phone call."
+ },
+ {
+  "id": 42,
+  "name": "SendVideoMessage",
+  "definition": "The user wants to send a message in video format to a contact."
+ },
+ {
+  "id": 43,
+  "name": "GetOrganizationInfo",
+  "definition": "The user wants information about a specific company or organization, such as employees or structure."
+ },
+ {
+  "id": 44,
+  "name": "SetStatus",
+  "definition": "The user wants to update their availability status or presence (e.g., available, unavailable)."
+ },
+ {
+  "id": 45,
+  "name": "GetSocialConnectionInfo",
+  "definition": "The user wants to know about the social connections or relationships of a specific person."
+ },
+ {
+  "id": 46,
+  "name": "GetCalendarEvents",
+  "definition": "The user wants to know about scheduled events or appointments on their calendar."
+ },
+ {
+  "id": 47,
+  "name": "GetContactRelationship",
+  "definition": "The user wants to know the relationship between two people or identify who a specific relation is (e.g., 'Who is Tracy?')."
+ },
+ {
+  "id": 48,
+  "name": "GetFoodQuantity",
+  "definition": "The user wants to know the amount of ingredients or portions needed for cooking."
+ },
+ {
+  "id": 49,
+  "name": "GetContactOnlineStatus",
+  "definition": "The user wants to check if specific contacts are currently active or online."
+ },
+ {
+  "id": 50,
+  "name": "DeleteAlarm",
+  "definition": "The user wants to remove an existing alarm."
+ },
+ {
+  "id": 51,
+  "name": "CreateAlarm",
+  "definition": "Create, set, or add a new alarm."
+ },
+ {
+  "id": 52,
+  "name": "ViewMessages",
+  "definition": "View, read, or check text messages or chat history."
+ },
+ {
+  "id": 53,
+  "name": "ShareContent",
+  "definition": "Share specific content, such as weather or news, with others."
+ },
+ {
+  "id": 54,
+  "name": "GetBirthdayInfo",
+  "definition": "Find information about birthdays, such as dates or whose birthday it is."
+ },
+ {
+  "id": 55,
+  "name": "RecordMessage",
+  "definition": "Record a video or voice message."
+ },
+ {
+  "id": 56,
+  "name": "CheckCallerIdentity",
+  "definition": "Identify the person calling or check caller ID."
+ },
+ {
+  "id": 57,
+  "name": "GetWeatherTemperature",
+  "definition": "Get the current or specific temperature or heat index for a location."
+ },
+ {
+  "id": 58,
+  "name": "GetWeatherForecast",
+  "definition": "Get the weather forecast or conditions for a future time."
+ },
+ {
+  "id": 59,
+  "name": "GetRecipeIngredients",
+  "definition": "Retrieve the list of ingredients required for a specific recipe or dish."
+ },
+ {
+  "id": 60,
+  "name": "ViewAlarm",
+  "definition": "View, check, or reveal details about existing alarms or alarm notifications."
+ },
+ {
+  "id": 61,
+  "name": "GetEmploymentInfo",
+  "definition": "Get information about where a person works, their job history, or hiring dates."
+ },
+ {
+  "id": 62,
+  "name": "GetNewsTopic",
+  "definition": "Get news updates or articles regarding a specific topic, person, or event."
+ },
+ {
+  "id": 63,
+  "name": "DeclineEvent",
+  "definition": "Mark an event on the calendar as not attending or decline an invitation."
+ },
+ {
+  "id": 64,
+  "name": "SendReminder",
+  "definition": "Send a reminder message to another person or group, often involving specific timing."
+ },
+ {
+  "id": 65,
+  "name": "GetResidenceInfo",
+  "definition": "Find out where a person lives or who lives in a specific location."
+ },
+ {
+  "id": 66,
+  "name": "GetCivicInfo",
+  "definition": "Find information regarding civic duties or locations, such as voting details."
+ },
+ {
+  "id": 67,
+  "name": "GetTimeUntilAlarm",
+  "definition": "Check the remaining duration or time left before the next alarm sounds."
+ },
+ {
+  "id": 68,
+  "name": "GetNewsHeadlines",
+  "definition": "Get a general summary or list of current top news headlines."
+ },
+ {
+  "id": 69,
+  "name": "GetEventsLocal",
+  "definition": "Find local events, activities, or things to do in a specific area."
+ },
+ {
+  "id": 70,
+  "name": "SendMessageDirect",
+  "definition": "Send a specific message or directive to a contact, often phrased as 'Tell [Name] [Message]'."
+ },
+ {
+  "id": 71,
+  "name": "PostSocialUpdate",
+  "definition": "Post a status update, message, or content to a social media platform or feed."
+ },
+ {
+  "id": 72,
+  "name": "GetWeatherAttribute",
+  "definition": "Get specific weather attributes or conditions like dew point, humidity, wind speed, or UV index."
+ },
+ {
+  "id": 73,
+  "name": "GetNewsDetails",
+  "definition": "Get specific details or in-depth information about a particular news event or topic."
+ },
+ {
+  "id": 74,
+  "name": "GetSocialConnectionLocation",
+  "definition": "Find out if a contact or person known to the user lives in or is located in a specific place."
+ },
+ {
+  "id": 75,
+  "name": "SwitchCallMode",
+  "definition": "Switch the mode of an ongoing call, such as upgrading a voice call to a video call."
+ },
+ {
+  "id": 76,
+  "name": "LogTime",
+  "definition": "Record or log working hours, such as clocking in or clocking out at a specific time."
+ },
+ {
+  "id": 77,
+  "name": "GetWeatherRecord",
+  "definition": "The user wants to know about historical, record-breaking, or extreme weather statistics (e.g., record low temperatures) rather than the current or forecast conditions."
+ },
+ {
+  "id": 78,
+  "name": "RSVP_Event",
+  "definition": "The user wants to respond to an event invitation or set their attendance status (e.g., mark as interested)."
+ },
+ {
+  "id": 79,
+  "name": "SwitchCall",
+  "definition": "The user wants to switch between calls, hold a call, or merge calls."
+ },
+ {
+  "id": 80,
+  "name": "IdentifyMusic",
+  "definition": "Identify a song or piece of music currently playing or hummed by the user."
+ },
+ {
+  "id": 81,
+  "name": "SetDefaultService",
+  "definition": "Configure a specific service or provider as the default for a certain type of action (e.g., music, shopping)."
+ },
+ {
+  "id": 82,
+  "name": "GetCookingEquipment",
+  "definition": "Inquire about the necessary cookware, tools, or equipment required for a specific recipe or cooking method."
+ },
+ {
+  "id": 83,
+  "name": "GetSunriseSunset",
+  "definition": "Request the time of sunrise, sunset, dusk, or dawn for a specific location."
+ },
+ {
+  "id": 84,
+  "name": "CreateRecurringAlarm",
+  "definition": "Set an alarm to repeat at specific intervals (e.g., every day, every Friday)."
+ },
+ {
+  "id": 85,
+  "name": "CallEmergency",
+  "definition": "Initiate a call to emergency services."
+ },
+ {
+  "id": 86,
+  "name": "CreateNamedTimer",
+  "definition": "Create a timer with a specific label or name (e.g., 'Drink water timer')."
+ },
+ {
+  "id": 87,
+  "name": "AcceptCall",
+  "definition": "Answer an incoming call or manage call waiting features."
+ },
+ {
+  "id": 88,
+  "name": "AdjustTimer",
+  "definition": "Modify the duration of an existing timer (e.g., add or reduce time)."
+ },
+ {
+  "id": 89,
+  "name": "GetSocialConnectionEmployer",
+  "definition": "Find contacts or friends who work at a specific company or organization."
+ },
+ {
+  "id": 90,
+  "name": "GetEducationalInfo",
+  "definition": "Retrieve information regarding education history, graduation dates, or school attendance."
+ },
+ {
+  "id": 91,
+  "name": "EnableDevice",
+  "definition": "Turn on a specific device, setting, or mode (e.g., turn on work alarm)."
+ },
+ {
+  "id": 92,
+  "name": "GetNewsTrending",
+  "definition": "Get information about major, breaking, or currently popular news stories."
+ },
+ {
+  "id": 93,
+  "name": "SkipContent",
+  "definition": "Skip the current media track, news item, or message being played or displayed."
+ },
+ {
+  "id": 94,
+  "name": "GetCallLog",
+  "definition": "View a history or list of incoming, outgoing, or missed phone calls."
+ },
+ {
+  "id": 95,
+  "name": "GetReminderLocation",
+  "definition": "Retrieve the location information associated with a specific reminder."
+ },
+ {
+  "id": 96,
+  "name": "GetClothingRecommendation",
+  "definition": "Get a suggestion on what to wear based on the current or forecasted weather."
+ },
+ {
+  "id": 97,
+  "name": "GetCivicDetails",
+  "definition": "Retrieve specific details or facts about a city, town, or locality."
+ },
+ {
+  "id": 98,
+  "name": "GetVideoCallLog",
+  "definition": "View a history or list of video calls or video chats."
+ },
+ {
+  "id": 99,
+  "name": "QuestionAnswering",
+  "definition": "Answer a general question or provide advice that does not fall under specific factual knowledge categories."
+ },
+ {
+  "id": 100,
+  "name": "GetNewsSource",
+  "definition": "Retrieve news specifically from a named publication, broadcaster, or media outlet."
+ },
+ {
+  "id": 101,
+  "name": "GetFoodStorageInfo",
+  "definition": "Retrieve information regarding how to store or preserve food items."
+ },
+ {
+  "id": 102,
+  "name": "GetDirections",
+  "definition": "The user wants navigational instructions or directions to guide someone to a location."
+ }
+]

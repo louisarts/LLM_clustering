@@ -1,0 +1,159 @@
+{
+  "bench": "fewnerd",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "Named individuals, including historical figures, celebrities, athletes, and fictional characters."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "Geographical entities such as countries, cities, towns, mountains, bodies of water, and addresses."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "Formal groups, associations, companies, institutions, government bodies, and sports teams."
+    },
+    {
+      "id": 4,
+      "name": "Creative Work",
+      "definition": "Titles of artistic or intellectual productions such as films, books, plays, songs, and television shows."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "Named occurrences, incidents, competitions, and battles that take place at a specific time."
+    },
+    {
+      "id": 6,
+      "name": "Product",
+      "definition": "Manufactured goods, vehicle models, software, food items, and commercial brand names."
+    },
+    {
+      "id": 7,
+      "name": "Award",
+      "definition": "Prizes, honors, and decorations given for achievement."
+    },
+    {
+      "id": 8,
+      "name": "Language",
+      "definition": "Specific human languages or dialects."
+    },
+    {
+      "id": 9,
+      "name": "Ethnicity or Nationality",
+      "definition": "Terms denoting a group of people sharing a common national or cultural identity."
+    },
+    {
+      "id": 10,
+      "name": "Biological Taxon",
+      "definition": "Scientific names of biological species, genera, or families."
+    },
+    {
+      "id": 11,
+      "name": "Disease or Medical Condition",
+      "definition": "Specific illnesses, disorders, or medical syndromes."
+    },
+    {
+      "id": 12,
+      "name": "Chemical Substance",
+      "definition": "Specific chemical compounds, elements, or drugs."
+    },
+    {
+      "id": 13,
+      "name": "Title or Position",
+      "definition": "Formal titles, ranks, or specific job roles held by an individual."
+    },
+    {
+      "id": 14,
+      "name": "Transportation Route",
+      "definition": "Named roads, streets, highways, railway lines, and flight routes."
+    },
+    {
+      "id": 15,
+      "name": "Facility or Infrastructure",
+      "definition": "Physical structures such as airports, stadiums, bridges, and power plants."
+    },
+    {
+      "id": 16,
+      "name": "Currency",
+      "definition": "Monetary units and currency codes."
+    },
+    {
+      "id": 17,
+      "name": "Religion",
+      "definition": "Specific religious systems, denominations, or sects."
+    },
+    {
+      "id": 18,
+      "name": "Vehicle",
+      "definition": "Specific named instances of vehicles, typically ships or aircraft."
+    },
+    {
+      "id": 19,
+      "name": "Legislation",
+      "definition": "Specific laws, acts, or statutes."
+    },
+    {
+      "id": 20,
+      "name": "Software",
+      "definition": "Specific computer programs, operating systems, or software versions."
+    },
+    {
+      "id": 21,
+      "name": "Geographical Feature",
+      "definition": "Natural physical features of the earth, such as mountains, valleys, and capes."
+    },
+    {
+      "id": 22,
+      "name": "Celestial Object",
+      "definition": "Named features on planets or moons, such as craters or ridges."
+    },
+    {
+      "id": 23,
+      "name": "Animal",
+      "definition": "Specific types or species of animals, distinct from scientific taxa."
+    },
+    {
+      "id": 24,
+      "name": "Literary or Artwork Component",
+      "definition": "Specific named parts of larger works, such as chapters, articles, or movements."
+    },
+    {
+      "id": 25,
+      "name": "Political Party",
+      "definition": "Specific political organizations or alliances."
+    },
+    {
+      "id": 26,
+      "name": "Sports League",
+      "definition": "Specific organized groups of sports teams or competitions."
+    },
+    {
+      "id": 27,
+      "name": "Educational Institution",
+      "definition": "Schools, colleges, and universities."
+    },
+    {
+      "id": 28,
+      "name": "Military Equipment",
+      "definition": "Specific models of weapons, vehicles, or machinery used in warfare."
+    },
+    {
+      "id": 29,
+      "name": "Time Period",
+      "definition": "Named historical eras or periods."
+    },
+    {
+      "id": 30,
+      "name": "Concept",
+      "definition": "Abstract ideas, theories, or general terms not fitting other categories."
+    }
+  ]
+}

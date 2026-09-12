@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "definition": "Articles about gadgets, software, and technological advancements."
+    },
+    {
+      "id": 2,
+      "name": "Sports",
+      "definition": "Coverage of sporting events, teams, and athletes."
+    },
+    {
+      "id": 3,
+      "name": "Business",
+      "definition": "News related to corporate activities, mergers, and market trends."
+    },
+    {
+      "id": 4,
+      "name": "Politics",
+      "definition": "Articles about political events, elections, and government policies."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment",
+      "definition": "News about movies, music, celebrities, and cultural events."
+    },
+    {
+      "id": 6,
+      "name": "Economy",
+      "definition": "Articles discussing economic indicators, financial markets, and economic policies."
+    },
+    {
+      "id": 7,
+      "name": "Health",
+      "definition": "Coverage of health-related topics, medical advancements, and public health issues."
+    },
+    {
+      "id": 8,
+      "name": "Science",
+      "definition": "Articles about scientific discoveries and research."
+    },
+    {
+      "id": 9,
+      "name": "Environment",
+      "definition": "News related to environmental issues and climate change."
+    },
+    {
+      "id": 10,
+      "name": "Crime and Law",
+      "definition": "Coverage of legal cases, crime reports, and law enforcement."
+    },
+    {
+      "id": 11,
+      "name": "Education",
+      "definition": "Articles about educational policies, institutions, and academic achievements."
+    },
+    {
+      "id": 12,
+      "name": "International Relations",
+      "definition": "News about diplomatic relations and international conflicts."
+    },
+    {
+      "id": 13,
+      "name": "Finance",
+      "definition": "Articles about banking, investments, and financial services."
+    },
+    {
+      "id": 14,
+      "name": "Social Issues",
+      "definition": "Coverage of societal challenges and community affairs."
+    },
+    {
+      "id": 15,
+      "name": "Travel",
+      "definition": "News about travel destinations, tourism, and transportation."
+    }
+  ]
+}

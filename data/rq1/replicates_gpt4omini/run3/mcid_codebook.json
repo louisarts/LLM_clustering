@@ -1,0 +1,85 @@
+{
+  "bench": "mcid",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Seeking",
+      "definition": "Requests for information about COVID-19, including symptoms, transmission, and treatment."
+    },
+    {
+      "id": 2,
+      "name": "Safety Precautions",
+      "definition": "Inquiries about measures to protect oneself or others from COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Travel Concerns",
+      "definition": "Questions regarding travel safety, restrictions, and guidelines related to COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "Myth Busting",
+      "definition": "Requests for clarification or debunking of myths and misinformation about COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Health Symptoms",
+      "definition": "Questions about symptoms associated with COVID-19 and related health concerns."
+    },
+    {
+      "id": 6,
+      "name": "Vaccination Inquiries",
+      "definition": "Questions regarding the availability, efficacy, and recommendations for COVID-19 vaccines."
+    },
+    {
+      "id": 7,
+      "name": "Community Support",
+      "definition": "Requests for information on how to support others or donate during the pandemic."
+    },
+    {
+      "id": 8,
+      "name": "Updates and Statistics",
+      "definition": "Requests for the latest news, statistics, and updates on COVID-19 cases and developments."
+    },
+    {
+      "id": 9,
+      "name": "Animal Concerns",
+      "definition": "Questions about the impact of COVID-19 on animals and potential transmission from animals to humans."
+    },
+    {
+      "id": 10,
+      "name": "Personal Experiences",
+      "definition": "Expressions of personal feelings or experiences related to COVID-19, including fear and anxiety."
+    },
+    {
+      "id": 11,
+      "name": "Treatment Options",
+      "definition": "Inquiries about available treatments and medical advice for COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "Public Health Guidelines",
+      "definition": "Requests for official guidelines and recommendations from health authorities."
+    },
+    {
+      "id": 13,
+      "name": "Social Sharing",
+      "definition": "Requests to share information or articles related to COVID-19 with others."
+    },
+    {
+      "id": 14,
+      "name": "Quarantine and Isolation",
+      "definition": "Questions about self-isolation, quarantine measures, and their implications."
+    },
+    {
+      "id": 15,
+      "name": "Economic Impact",
+      "definition": "Inquiries about the economic effects of COVID-19 and support for affected individuals."
+    }
+  ]
+}

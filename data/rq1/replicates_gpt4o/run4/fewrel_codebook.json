@@ -1,0 +1,110 @@
+{
+  "bench": "fewrel",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Participation",
+      "definition": "One entity is involved in or part of an event, organization, or activity related to the other entity."
+    },
+    {
+      "id": 2,
+      "name": "Creation",
+      "definition": "One entity is the creator, designer, or originator of the other entity."
+    },
+    {
+      "id": 3,
+      "name": "Location",
+      "definition": "One entity is a geographical location or place associated with the other entity."
+    },
+    {
+      "id": 4,
+      "name": "Authorship",
+      "definition": "One entity is the author or writer of the other entity, typically a written work."
+    },
+    {
+      "id": 5,
+      "name": "Ownership",
+      "definition": "One entity owns, possesses, or has a controlling interest in the other entity."
+    },
+    {
+      "id": 6,
+      "name": "Representation",
+      "definition": "One entity represents or is a symbol of the other entity."
+    },
+    {
+      "id": 7,
+      "name": "Membership",
+      "definition": "One entity is a member or part of the other entity, typically an organization or group."
+    },
+    {
+      "id": 8,
+      "name": "Naming",
+      "definition": "One entity is named after or shares a name with the other entity."
+    },
+    {
+      "id": 9,
+      "name": "Family",
+      "definition": "One entity is a family member or relative of the other entity."
+    },
+    {
+      "id": 10,
+      "name": "Employment",
+      "definition": "One entity is employed by or works for the other entity."
+    },
+    {
+      "id": 11,
+      "name": "Competition",
+      "definition": "One entity competes against or is a competitor of the other entity."
+    },
+    {
+      "id": 12,
+      "name": "Award",
+      "definition": "One entity is an award or recognition received by the other entity."
+    },
+    {
+      "id": 13,
+      "name": "Education",
+      "definition": "One entity is an educational institution attended by the other entity."
+    },
+    {
+      "id": 14,
+      "name": "Influence",
+      "definition": "One entity influences or inspires the creation or development of the other entity."
+    },
+    {
+      "id": 15,
+      "name": "Historical Event",
+      "definition": "One entity is a historical event or period associated with the other entity."
+    },
+    {
+      "id": 16,
+      "name": "Product",
+      "definition": "One entity is a product or result of the other entity."
+    },
+    {
+      "id": 17,
+      "name": "Collaboration",
+      "definition": "One entity collaborates or works together with the other entity."
+    },
+    {
+      "id": 18,
+      "name": "Publication",
+      "definition": "One entity is a publication or media outlet that features or is associated with the other entity."
+    },
+    {
+      "id": 19,
+      "name": "Performance",
+      "definition": "One entity performs or is featured in a performance related to the other entity."
+    },
+    {
+      "id": 20,
+      "name": "Cultural",
+      "definition": "One entity is culturally or traditionally associated with the other entity."
+    }
+  ]
+}

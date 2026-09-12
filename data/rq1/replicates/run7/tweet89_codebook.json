@@ -1,0 +1,242 @@
+{
+  "bench": "tweet89",
+  "run": 7,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Acai Berry Diet Controversy",
+      "definition": "Discussion and claims surrounding acai berry products for weight loss and health benefits."
+    },
+    {
+      "id": 2,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets discussing specific commercials aired during the Super Bowl and their reception."
+    },
+    {
+      "id": 3,
+      "name": "Healthcare Reform Law Challenge",
+      "definition": "Legal challenges and court rulings regarding the US healthcare reform law (Affordable Care Act)."
+    },
+    {
+      "id": 4,
+      "name": "Starbucks Trenta Cup",
+      "definition": "Discussion and jokes about the large size of Starbucks' Trenta cup."
+    },
+    {
+      "id": 5,
+      "name": "Sundance Film Festival",
+      "definition": "News and social buzz surrounding the annual Sundance Film Festival."
+    },
+    {
+      "id": 6,
+      "name": "White Stripes Breakup",
+      "definition": "News regarding the official breakup of the band The White Stripes."
+    },
+    {
+      "id": 7,
+      "name": "Australian Open Men's Final",
+      "definition": "Coverage and discussion of the men's final match at the Australian Open, featuring Novak Djokovic and Andy Murray."
+    },
+    {
+      "id": 8,
+      "name": "King's Speech Oscar Buzz",
+      "definition": "News and discussion surrounding The King's Speech film, its Oscar nominations, and awards."
+    },
+    {
+      "id": 9,
+      "name": "Texting While Driving Campaign",
+      "definition": "Public awareness campaigns and pledges against texting while driving."
+    },
+    {
+      "id": 10,
+      "name": "Christina Aguilera Super Bowl Anthem Flub",
+      "definition": "Discussion and criticism of Christina Aguilera's flubbed performance of the national anthem at the Super Bowl."
+    },
+    {
+      "id": 11,
+      "name": "Moscow Airport Bombing",
+      "definition": "News and updates about the terrorist bombing at Domodedovo International Airport in Moscow."
+    },
+    {
+      "id": 12,
+      "name": "Rahm Emanuel Mayoral Eligibility",
+      "definition": "Legal challenges and court rulings regarding Rahm Emanuel's eligibility to run for Mayor of Chicago."
+    },
+    {
+      "id": 13,
+      "name": "Yemen Protests",
+      "definition": "Anti-government protests and political unrest occurring in Yemen."
+    },
+    {
+      "id": 14,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Lawsuit and controversy regarding Taco Bell's beef filling and false advertising claims."
+    },
+    {
+      "id": 15,
+      "name": "Keeping Up With The Kardashians",
+      "definition": "Discussion and fan reactions related to the reality television show Keeping Up With The Kardashians."
+    },
+    {
+      "id": 16,
+      "name": "Jesse Ventura TSA Lawsuit",
+      "definition": "Jesse Ventura's lawsuit against the Transportation Security Administration (TSA) over pat-downs."
+    },
+    {
+      "id": 17,
+      "name": "Egypt Protests & Journalist Treatment",
+      "definition": "Protests in Egypt, including the treatment, arrests, and attacks on journalists covering the events."
+    },
+    {
+      "id": 18,
+      "name": "Gasland Oscar Nomination",
+      "definition": "Discussion surrounding the documentary Gasland's Oscar nomination and the controversy over fracking."
+    },
+    {
+      "id": 19,
+      "name": "Keith Olbermann Joins Current TV",
+      "definition": "News about political commentator Keith Olbermann joining Current TV."
+    },
+    {
+      "id": 20,
+      "name": "Best Buy Electronics Buyback Program",
+      "definition": "Best Buy's announcement and launch of an electronics buyback program."
+    },
+    {
+      "id": 21,
+      "name": "Jay Carney White House Press Secretary",
+      "definition": "News regarding the appointment of Jay Carney as the White House Press Secretary."
+    },
+    {
+      "id": 22,
+      "name": "Somali Pirate Activity",
+      "definition": "Reports on Somali pirate attacks and international rescue operations."
+    },
+    {
+      "id": 23,
+      "name": "Chicago Blizzard",
+      "definition": "News and impact of a major blizzard affecting Chicago."
+    },
+    {
+      "id": 24,
+      "name": "Jordan Protests",
+      "definition": "Anti-government protests and demands for political reform in Jordan."
+    },
+    {
+      "id": 25,
+      "name": "Facebook Privacy Settings",
+      "definition": "Discussions and concerns about Facebook's privacy settings and user data."
+    },
+    {
+      "id": 26,
+      "name": "Sidney Crosby Concussion",
+      "definition": "News about Sidney Crosby's concussion and the resulting debate on player safety in hockey."
+    },
+    {
+      "id": 27,
+      "name": "Steve Jobs Health & Apple Succession",
+      "definition": "Concerns and speculation regarding Steve Jobs' health and Apple's succession plans."
+    },
+    {
+      "id": 28,
+      "name": "Birther Controversy",
+      "definition": "Ongoing controversy and legislative efforts challenging President Obama's birth certificate."
+    },
+    {
+      "id": 29,
+      "name": "The Rite Movie Release",
+      "definition": "Discussion and reviews surrounding the release of the horror film The Rite."
+    },
+    {
+      "id": 30,
+      "name": "Oprah Winfrey Family Secret",
+      "definition": "Oprah Winfrey's public revelation of a newly discovered family secret."
+    },
+    {
+      "id": 31,
+      "name": "Charlie Sheen Controversy",
+      "definition": "News and discussion surrounding Charlie Sheen's personal issues, including alleged abuse and rehab."
+    },
+    {
+      "id": 32,
+      "name": "Hugo Chavez Political News",
+      "definition": "News and political commentary related to Venezuelan President Hugo Chavez."
+    },
+    {
+      "id": 33,
+      "name": "Stuxnet Cyberattack",
+      "definition": "Reports and analysis of the Stuxnet computer worm and its impact on Iran's nuclear program."
+    },
+    {
+      "id": 34,
+      "name": "Chipotle Immigration Raid",
+      "definition": "News about an immigration raid affecting Chipotle restaurants and its employees."
+    },
+    {
+      "id": 35,
+      "name": "Immigration Policy Debate",
+      "definition": "Discussions and proposed legislation concerning immigration policy and enforcement in the US."
+    },
+    {
+      "id": 36,
+      "name": "BBC Service Cuts",
+      "definition": "News regarding proposed service cuts and staff reductions at the BBC."
+    },
+    {
+      "id": 37,
+      "name": "Climate Change & Extreme Weather",
+      "definition": "Discussions about climate change, its impact on weather patterns, and related economic concerns."
+    },
+    {
+      "id": 38,
+      "name": "Unemployment Statistics",
+      "definition": "Reports and analysis of unemployment rates and economic trends."
+    },
+    {
+      "id": 39,
+      "name": "Sony Ericsson Xperia Play Launch",
+      "definition": "News and anticipation surrounding the launch of the Sony Ericsson Xperia Play smartphone."
+    },
+    {
+      "id": 40,
+      "name": "Australia Floods",
+      "definition": "News and impact of severe flooding in Southeast Australia."
+    },
+    {
+      "id": 41,
+      "name": "Belarus EU Sanctions",
+      "definition": "Reports on the European Union imposing sanctions on Belarus and Belarus's response."
+    },
+    {
+      "id": 42,
+      "name": "Fashion Week",
+      "definition": "Coverage of Fashion Week events and emerging trends."
+    },
+    {
+      "id": 43,
+      "name": "Arizona Immigration Legislation",
+      "definition": "Proposed and enacted legislation in Arizona related to illegal immigration and citizenship."
+    },
+    {
+      "id": 44,
+      "name": "Budget Plans & Cuts",
+      "definition": "Discussions and proposals regarding government budget plans and spending cuts."
+    },
+    {
+      "id": 45,
+      "name": "Bedbug Infestation Response",
+      "definition": "News and public health responses related to bedbug infestations."
+    },
+    {
+      "id": 46,
+      "name": "WikiLeaks Nobel Peace Prize",
+      "definition": "Discussion surrounding WikiLeaks' nomination for the Nobel Peace Prize."
+    },
+    {
+      "id": 47,
+      "name": "Donald Rumsfeld Memoir",
+      "definition": "News about Donald Rumsfeld's reflections and writing of his memoir."
+    }
+  ]
+}

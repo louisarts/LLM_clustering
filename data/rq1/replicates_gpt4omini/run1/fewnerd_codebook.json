@@ -1,0 +1,110 @@
+{
+  "bench": "fewnerd",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Geographical Locations",
+      "definition": "Entities that refer to specific places, regions, or geographical features."
+    },
+    {
+      "id": 2,
+      "name": "Organizations",
+      "definition": "Entities that refer to groups, institutions, or companies."
+    },
+    {
+      "id": 3,
+      "name": "People",
+      "definition": "Entities that refer to individuals or groups of individuals."
+    },
+    {
+      "id": 4,
+      "name": "Events",
+      "definition": "Entities that refer to specific occurrences or happenings."
+    },
+    {
+      "id": 5,
+      "name": "Awards",
+      "definition": "Entities that refer to recognitions or honors given for achievements."
+    },
+    {
+      "id": 6,
+      "name": "Legislation",
+      "definition": "Entities that refer to laws, acts, or legal documents."
+    },
+    {
+      "id": 7,
+      "name": "Species",
+      "definition": "Entities that refer to biological classifications of living organisms."
+    },
+    {
+      "id": 8,
+      "name": "Cultural Works",
+      "definition": "Entities that refer to artistic or literary creations."
+    },
+    {
+      "id": 9,
+      "name": "Currencies",
+      "definition": "Entities that refer to systems of money in general use."
+    },
+    {
+      "id": 10,
+      "name": "Medical Terms",
+      "definition": "Entities that refer to medical conditions, treatments, or terminologies."
+    },
+    {
+      "id": 11,
+      "name": "Educational Institutions",
+      "definition": "Entities that refer to schools, colleges, or universities."
+    },
+    {
+      "id": 12,
+      "name": "Political Parties",
+      "definition": "Entities that refer to organized groups of people with similar political aims."
+    },
+    {
+      "id": 13,
+      "name": "Sports Teams",
+      "definition": "Entities that refer to organized groups of athletes competing in sports."
+    },
+    {
+      "id": 14,
+      "name": "Technological Terms",
+      "definition": "Entities that refer to specific technologies or technological concepts."
+    },
+    {
+      "id": 15,
+      "name": "Historical Events",
+      "definition": "Entities that refer to significant occurrences in history."
+    },
+    {
+      "id": 16,
+      "name": "Food and Drink",
+      "definition": "Entities that refer to specific types of food or beverages."
+    },
+    {
+      "id": 17,
+      "name": "Natural Phenomena",
+      "definition": "Entities that refer to occurrences in nature."
+    },
+    {
+      "id": 18,
+      "name": "Legal Terms",
+      "definition": "Entities that refer to specific legal concepts or terminologies."
+    },
+    {
+      "id": 19,
+      "name": "Transportation",
+      "definition": "Entities that refer to modes or systems of transport."
+    },
+    {
+      "id": 20,
+      "name": "Scientific Terms",
+      "definition": "Entities that refer to scientific concepts or terminologies."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+ {
+  "id": 1,
+  "name": "Add to Playlist",
+  "definition": "Add tracks, albums, or artists to a music playlist"
+ },
+ {
+  "id": 2,
+  "name": "Play Music",
+  "definition": "Play music, songs, playlists, or artists"
+ },
+ {
+  "id": 3,
+  "name": "Rate",
+  "definition": "Rate or score books, albums, movies, or other items"
+ },
+ {
+  "id": 4,
+  "name": "Book Restaurant",
+  "definition": "Make a reservation at a restaurant, pub, or similar venue"
+ },
+ {
+  "id": 5,
+  "name": "Get Weather",
+  "definition": "Get weather forecast or conditions for a location"
+ },
+ {
+  "id": 6,
+  "name": "Find Movie",
+  "definition": "Find a movie or where a movie is playing"
+ },
+ {
+  "id": 7,
+  "name": "Find Showtime",
+  "definition": "Find movie or TV show times, schedules, or showtimes"
+ },
+ {
+  "id": 8,
+  "name": "Show Trailer",
+  "definition": "Show a movie trailer"
+ },
+ {
+  "id": 9,
+  "name": "Watch Media",
+  "definition": "Watch a movie or television show"
+ },
+ {
+  "id": 10,
+  "name": "Find Book",
+  "definition": "Find, search for, or get information about books, novels, or sagas"
+ },
+ {
+  "id": 11,
+  "name": "Find Media",
+  "definition": "Find other media such as games, artwork, soundtracks, or shows"
+ }
+]

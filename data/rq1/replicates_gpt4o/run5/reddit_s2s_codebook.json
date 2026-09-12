@@ -1,0 +1,140 @@
+{
+  "bench": "reddit_s2s",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "News",
+      "definition": "Posts related to current events, politics, and global news."
+    },
+    {
+      "id": 2,
+      "name": "Anime",
+      "definition": "Posts discussing anime series, recommendations, and related content."
+    },
+    {
+      "id": 3,
+      "name": "Catholicism",
+      "definition": "Posts discussing Catholic beliefs, practices, and related topics."
+    },
+    {
+      "id": 4,
+      "name": "Science and Technology",
+      "definition": "Posts about scientific discoveries, technology, and related discussions."
+    },
+    {
+      "id": 5,
+      "name": "Automotive",
+      "definition": "Posts related to cars, automotive news, and vehicle maintenance."
+    },
+    {
+      "id": 6,
+      "name": "Real Estate and Urban Planning",
+      "definition": "Posts discussing housing, real estate, and urban development."
+    },
+    {
+      "id": 7,
+      "name": "Personal Finance and Economy",
+      "definition": "Posts about financial advice, economic trends, and personal finance."
+    },
+    {
+      "id": 8,
+      "name": "Travel and Geography",
+      "definition": "Posts about travel experiences, destinations, and geographical discussions."
+    },
+    {
+      "id": 9,
+      "name": "Health and Medicine",
+      "definition": "Posts discussing health issues, medical treatments, and wellness."
+    },
+    {
+      "id": 10,
+      "name": "Food and Cooking",
+      "definition": "Posts about food, recipes, and culinary experiences."
+    },
+    {
+      "id": 11,
+      "name": "Music",
+      "definition": "Posts discussing music, artists, and musical events."
+    },
+    {
+      "id": 12,
+      "name": "Art and Design",
+      "definition": "Posts about art, design, and creative projects."
+    },
+    {
+      "id": 13,
+      "name": "Sports",
+      "definition": "Posts related to sports events, teams, and athletic activities."
+    },
+    {
+      "id": 14,
+      "name": "Lifestyle and Personal Development",
+      "definition": "Posts about lifestyle choices, personal growth, and self-improvement."
+    },
+    {
+      "id": 15,
+      "name": "Entertainment",
+      "definition": "Posts about movies, TV shows, and general entertainment."
+    },
+    {
+      "id": 16,
+      "name": "History",
+      "definition": "Posts discussing historical events, figures, and research."
+    },
+    {
+      "id": 17,
+      "name": "Language and Linguistics",
+      "definition": "Posts about languages, dialects, and linguistic studies."
+    },
+    {
+      "id": 18,
+      "name": "Religion and Spirituality",
+      "definition": "Posts discussing religious beliefs, practices, and spiritual topics."
+    },
+    {
+      "id": 19,
+      "name": "Education and Academia",
+      "definition": "Posts about educational programs, academic research, and learning resources."
+    },
+    {
+      "id": 20,
+      "name": "Fashion and Beauty",
+      "definition": "Posts about fashion trends, beauty tips, and related topics."
+    },
+    {
+      "id": 21,
+      "name": "Gaming",
+      "definition": "Posts discussing video games, gaming culture, and related content."
+    },
+    {
+      "id": 22,
+      "name": "Pets and Animals",
+      "definition": "Posts about pets, animal behavior, and wildlife."
+    },
+    {
+      "id": 23,
+      "name": "Business and Marketing",
+      "definition": "Posts about business strategies, marketing, and entrepreneurship."
+    },
+    {
+      "id": 24,
+      "name": "Home and Garden",
+      "definition": "Posts about home improvement, gardening, and interior design."
+    },
+    {
+      "id": 25,
+      "name": "Social Media and Internet",
+      "definition": "Posts discussing social media platforms, internet culture, and online trends."
+    },
+    {
+      "id": 26,
+      "name": "Miscellaneous",
+      "definition": "Posts that do not fit into any specific category."
+    }
+  ]
+}

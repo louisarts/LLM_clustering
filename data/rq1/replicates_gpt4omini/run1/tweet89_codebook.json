@@ -1,0 +1,110 @@
+{
+  "bench": "tweet89",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Immigration and Customs",
+      "definition": "Documents related to immigration laws, enforcement actions, and customs inspections."
+    },
+    {
+      "id": 2,
+      "name": "Health Care Legislation",
+      "definition": "Documents discussing health care laws, reforms, and judicial rulings related to health care."
+    },
+    {
+      "id": 3,
+      "name": "Awards and Nominations",
+      "definition": "Documents related to film and television awards, nominations, and winners."
+    },
+    {
+      "id": 4,
+      "name": "Protests and Civil Unrest",
+      "definition": "Documents discussing protests, civil unrest, and political demonstrations."
+    },
+    {
+      "id": 5,
+      "name": "Social Media and Privacy",
+      "definition": "Documents discussing issues related to social media platforms, privacy settings, and user data."
+    },
+    {
+      "id": 6,
+      "name": "Sports Events",
+      "definition": "Documents related to major sports events, including the Super Bowl and tennis tournaments."
+    },
+    {
+      "id": 7,
+      "name": "Food and Recipes",
+      "definition": "Documents discussing food recipes, cooking tips, and food-related news."
+    },
+    {
+      "id": 8,
+      "name": "Corporate Mergers and Financial News",
+      "definition": "Documents discussing corporate mergers, stock market news, and financial advice."
+    },
+    {
+      "id": 9,
+      "name": "Identity Theft and Fraud",
+      "definition": "Documents discussing issues related to identity theft, online fraud, and scams."
+    },
+    {
+      "id": 10,
+      "name": "Film Festivals",
+      "definition": "Documents related to film festivals, celebrity sightings, and film industry news."
+    },
+    {
+      "id": 11,
+      "name": "Environmental Issues",
+      "definition": "Documents discussing environmental concerns, climate change, and related legislation."
+    },
+    {
+      "id": 12,
+      "name": "International Relations",
+      "definition": "Documents discussing diplomatic relations, international agreements, and geopolitical events."
+    },
+    {
+      "id": 13,
+      "name": "Technology and Innovation",
+      "definition": "Documents discussing technological advancements, innovations, and related news."
+    },
+    {
+      "id": 14,
+      "name": "Legal Issues and Court Rulings",
+      "definition": "Documents discussing legal cases, court rulings, and judicial decisions."
+    },
+    {
+      "id": 15,
+      "name": "Celebrity News",
+      "definition": "Documents discussing news related to celebrities, their activities, and public appearances."
+    },
+    {
+      "id": 16,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Documents discussing fishing reports, techniques, and outdoor recreational activities."
+    },
+    {
+      "id": 17,
+      "name": "Consumer Products and Advertising",
+      "definition": "Documents discussing consumer products, advertisements, and marketing campaigns."
+    },
+    {
+      "id": 18,
+      "name": "Political Campaigns and Elections",
+      "definition": "Documents discussing political campaigns, elections, and related political news."
+    },
+    {
+      "id": 19,
+      "name": "Public Health and Safety",
+      "definition": "Documents discussing public health initiatives, safety campaigns, and health-related news."
+    },
+    {
+      "id": 20,
+      "name": "Cultural Events",
+      "definition": "Documents discussing cultural events, festivals, and community activities."
+    }
+  ]
+}

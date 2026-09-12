@@ -1,0 +1,109 @@
+{
+  "bench": "fewrel",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Part-Whole",
+      "definition": "One entity is a component, member, or subset of the other entity."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "One entity is located in, at, or on the other entity."
+    },
+    {
+      "id": 3,
+      "name": "Creator-Creation",
+      "definition": "One entity is the originator, author, designer, or producer of the other entity."
+    },
+    {
+      "id": 4,
+      "name": "Agent-Role",
+      "definition": "One entity holds a specific professional title, position, or role associated with the other entity."
+    },
+    {
+      "id": 5,
+      "name": "Origin",
+      "definition": "One entity originates from, is based in, or is a national of the other entity."
+    },
+    {
+      "id": 6,
+      "name": "Event-Participant",
+      "definition": "One entity participates in, competes at, or is associated with the other entity as an event."
+    },
+    {
+      "id": 7,
+      "name": "Product-Platform",
+      "definition": "One entity is a product, software, or game released for or compatible with the other entity as a platform."
+    },
+    {
+      "id": 8,
+      "name": "Publisher-Distributor",
+      "definition": "One entity is the publisher, distributor, or label for the other entity."
+    },
+    {
+      "id": 9,
+      "name": "Parent-Subsidiary",
+      "definition": "One entity owns, controls, or is the parent organization of the other entity."
+    },
+    {
+      "id": 10,
+      "name": "Geographical-Feature",
+      "definition": "One entity is a natural feature, such as a river or mountain, related to the other entity."
+    },
+    {
+      "id": 11,
+      "name": "Family-Relation",
+      "definition": "One entity is related to the other entity by blood, marriage, or lineage."
+    },
+    {
+      "id": 12,
+      "name": "Award-Nomination",
+      "definition": "One entity is nominated for or receives the other entity as an award or honor."
+    },
+    {
+      "id": 13,
+      "name": "Synonymy",
+      "definition": "The two entities are synonyms, translations, or alternative names for the same concept."
+    },
+    {
+      "id": 14,
+      "name": "Hyponymy",
+      "definition": "One entity is a specific type, kind, or instance of the other entity."
+    },
+    {
+      "id": 15,
+      "name": "Predecessor-Successor",
+      "definition": "One entity precedes or succeeds the other entity in a sequence, series, or timeline."
+    },
+    {
+      "id": 16,
+      "name": "Adaptation-Source",
+      "definition": "One entity is an adaptation, remake, or derivative work based on the other entity."
+    },
+    {
+      "id": 17,
+      "name": "Employer-Employee",
+      "definition": "One entity employs, hires, or appoints the other entity."
+    },
+    {
+      "id": 18,
+      "name": "Agent-Affiliation",
+      "definition": "One entity is affiliated with, represents, or is a member of the other entity."
+    },
+    {
+      "id": 19,
+      "name": "Instrument-Musician",
+      "definition": "One entity is a musical instrument played by the other entity."
+    },
+    {
+      "id": 20,
+      "name": "Subject-Field",
+      "definition": "One entity is a subject, field of study, or genre associated with the other entity."
+    }
+  ]
+}

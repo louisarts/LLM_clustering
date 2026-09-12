@@ -1,0 +1,260 @@
+{
+  "bench": "arxiv_fine",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "astro-ph",
+      "definition": "Astrophysics and cosmology research."
+    },
+    {
+      "id": 2,
+      "name": "cs.AI",
+      "definition": "Artificial intelligence and machine learning."
+    },
+    {
+      "id": 3,
+      "name": "cs.CV",
+      "definition": "Computer vision and image processing."
+    },
+    {
+      "id": 4,
+      "name": "cs.LG",
+      "definition": "Machine learning and data mining."
+    },
+    {
+      "id": 5,
+      "name": "math.AG",
+      "definition": "Algebraic geometry."
+    },
+    {
+      "id": 6,
+      "name": "math.DS",
+      "definition": "Dynamical systems and differential equations."
+    },
+    {
+      "id": 7,
+      "name": "math.ST",
+      "definition": "Statistics and probability."
+    },
+    {
+      "id": 8,
+      "name": "math.NT",
+      "definition": "Number theory."
+    },
+    {
+      "id": 9,
+      "name": "math.MG",
+      "definition": "Metric geometry."
+    },
+    {
+      "id": 10,
+      "name": "math.PR",
+      "definition": "Probability and stochastic processes."
+    },
+    {
+      "id": 11,
+      "name": "cond-mat",
+      "definition": "Condensed matter physics."
+    },
+    {
+      "id": 12,
+      "name": "hep-th",
+      "definition": "Theoretical high energy physics."
+    },
+    {
+      "id": 13,
+      "name": "quant-ph",
+      "definition": "Quantum physics and quantum information."
+    },
+    {
+      "id": 14,
+      "name": "stat.ML",
+      "definition": "Statistical machine learning."
+    },
+    {
+      "id": 15,
+      "name": "econ.GN",
+      "definition": "General economics and finance."
+    },
+    {
+      "id": 16,
+      "name": "cs.SI",
+      "definition": "Social and information networks."
+    },
+    {
+      "id": 17,
+      "name": "bio.Ph",
+      "definition": "Biophysics and biological physics."
+    },
+    {
+      "id": 18,
+      "name": "bio.ME",
+      "definition": "Medical and health-related biology."
+    },
+    {
+      "id": 19,
+      "name": "bio.CB",
+      "definition": "Computational biology."
+    },
+    {
+      "id": 20,
+      "name": "cs.NE",
+      "definition": "Neural networks and deep learning."
+    },
+    {
+      "id": 21,
+      "name": "cs.DC",
+      "definition": "Distributed computing."
+    },
+    {
+      "id": 22,
+      "name": "cs.HC",
+      "definition": "Human-computer interaction."
+    },
+    {
+      "id": 23,
+      "name": "cs.SE",
+      "definition": "Software engineering."
+    },
+    {
+      "id": 24,
+      "name": "cs.SY",
+      "definition": "Systems and control."
+    },
+    {
+      "id": 25,
+      "name": "math.OC",
+      "definition": "Optimization and control."
+    },
+    {
+      "id": 26,
+      "name": "math.FA",
+      "definition": "Functional analysis."
+    },
+    {
+      "id": 27,
+      "name": "math.CA",
+      "definition": "Complex analysis."
+    },
+    {
+      "id": 28,
+      "name": "math.GT",
+      "definition": "Geometric topology."
+    },
+    {
+      "id": 29,
+      "name": "math.RA",
+      "definition": "Rings and algebras."
+    },
+    {
+      "id": 30,
+      "name": "math.CV",
+      "definition": "Convex geometry."
+    },
+    {
+      "id": 31,
+      "name": "math.HO",
+      "definition": "History and overview of mathematics."
+    },
+    {
+      "id": 32,
+      "name": "math.QA",
+      "definition": "Quantum algebra."
+    },
+    {
+      "id": 33,
+      "name": "math.SG",
+      "definition": "Singularities and geometry."
+    },
+    {
+      "id": 34,
+      "name": "math.CA",
+      "definition": "Commutative algebra."
+    },
+    {
+      "id": 35,
+      "name": "math.DG",
+      "definition": "Differential geometry."
+    },
+    {
+      "id": 36,
+      "name": "math.CT",
+      "definition": "Category theory."
+    },
+    {
+      "id": 37,
+      "name": "math.LG",
+      "definition": "Logic and foundations."
+    },
+    {
+      "id": 38,
+      "name": "math.CA",
+      "definition": "Combinatorial algebra."
+    },
+    {
+      "id": 39,
+      "name": "math.CV",
+      "definition": "Convex analysis."
+    },
+    {
+      "id": 40,
+      "name": "math.MP",
+      "definition": "Mathematical physics."
+    },
+    {
+      "id": 41,
+      "name": "math.AC",
+      "definition": "Algebraic combinatorics."
+    },
+    {
+      "id": 42,
+      "name": "math.CA",
+      "definition": "Computational algebra."
+    },
+    {
+      "id": 43,
+      "name": "math.NA",
+      "definition": "Numerical analysis."
+    },
+    {
+      "id": 44,
+      "name": "math.CA",
+      "definition": "Combinatorial analysis."
+    },
+    {
+      "id": 45,
+      "name": "math.CA",
+      "definition": "Combinatorial optimization."
+    },
+    {
+      "id": 46,
+      "name": "math.CA",
+      "definition": "Combinatorial geometry."
+    },
+    {
+      "id": 47,
+      "name": "math.CA",
+      "definition": "Combinatorial number theory."
+    },
+    {
+      "id": 48,
+      "name": "math.CA",
+      "definition": "Combinatorial topology."
+    },
+    {
+      "id": 49,
+      "name": "math.CA",
+      "definition": "Combinatorial algebraic geometry."
+    },
+    {
+      "id": 50,
+      "name": "math.CA",
+      "definition": "Combinatorial group theory."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "bench": "fewrel",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Geographical Relation",
+      "definition": "A relation where one entity is a geographical location or feature related to another."
+    },
+    {
+      "id": 2,
+      "name": "Organizational Relation",
+      "definition": "A relation where one entity is an organization or institution related to another."
+    },
+    {
+      "id": 3,
+      "name": "Cultural Relation",
+      "definition": "A relation where one entity is a cultural artifact, movement, or concept related to another."
+    },
+    {
+      "id": 4,
+      "name": "Political Relation",
+      "definition": "A relation where one entity is a political figure, party, or event related to another."
+    },
+    {
+      "id": 5,
+      "name": "Artistic Relation",
+      "definition": "A relation where one entity is an artist, artwork, or artistic movement related to another."
+    },
+    {
+      "id": 6,
+      "name": "Historical Relation",
+      "definition": "A relation where one entity is a historical event or figure related to another."
+    },
+    {
+      "id": 7,
+      "name": "Sports Relation",
+      "definition": "A relation where one entity is a sports team, event, or athlete related to another."
+    },
+    {
+      "id": 8,
+      "name": "Literary Relation",
+      "definition": "A relation where one entity is a literary work or author related to another."
+    },
+    {
+      "id": 9,
+      "name": "Scientific Relation",
+      "definition": "A relation where one entity is a scientific concept, theory, or figure related to another."
+    },
+    {
+      "id": 10,
+      "name": "Musical Relation",
+      "definition": "A relation where one entity is a music piece, artist, or genre related to another."
+    },
+    {
+      "id": 11,
+      "name": "Technological Relation",
+      "definition": "A relation where one entity is a technology, device, or software related to another."
+    },
+    {
+      "id": 12,
+      "name": "Film Relation",
+      "definition": "A relation where one entity is a film, actor, or film-related concept related to another."
+    },
+    {
+      "id": 13,
+      "name": "Economic Relation",
+      "definition": "A relation where one entity is an economic concept, organization, or event related to another."
+    },
+    {
+      "id": 14,
+      "name": "Religious Relation",
+      "definition": "A relation where one entity is a religious figure, concept, or institution related to another."
+    },
+    {
+      "id": 15,
+      "name": "Educational Relation",
+      "definition": "A relation where one entity is an educational institution or concept related to another."
+    }
+  ]
+}

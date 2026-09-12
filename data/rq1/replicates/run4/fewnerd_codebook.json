@@ -1,0 +1,132 @@
+{
+  "bench": "fewnerd",
+  "run": 4,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 2,
+      "name": "Location - Geographic Feature",
+      "definition": "A natural landform, body of water, or celestial body (e.g., mountain, island, sea, galaxy, star)."
+    },
+    {
+      "id": 3,
+      "name": "Location - Administrative Division",
+      "definition": "A defined political or administrative area (e.g., city, country, state, region, district)."
+    },
+    {
+      "id": 4,
+      "name": "Organization - Commercial",
+      "definition": "A business entity (e.g., company, airline, record label, stock exchange)."
+    },
+    {
+      "id": 5,
+      "name": "Organization - Government/Public",
+      "definition": "An official group, assembly, or agency that makes laws, governs, or provides public services (e.g., legislature, library, research institution)."
+    },
+    {
+      "id": 6,
+      "name": "Organization - Educational",
+      "definition": "An institution dedicated to education (e.g., university, school)."
+    },
+    {
+      "id": 7,
+      "name": "Organization - Religious",
+      "definition": "An organization or group dedicated to religious purposes (e.g., church, religious group)."
+    },
+    {
+      "id": 8,
+      "name": "Organization - Political",
+      "definition": "A group that seeks to achieve and maintain political power (e.g., political party)."
+    },
+    {
+      "id": 9,
+      "name": "Organization - Military",
+      "definition": "A structured group within an armed force (e.g., military unit)."
+    },
+    {
+      "id": 10,
+      "name": "Organization - Sports",
+      "definition": "An organized group of athletes competing in a sport, or a league/division (e.g., sports team, sports league)."
+    },
+    {
+      "id": 11,
+      "name": "Organization - Media/Entertainment",
+      "definition": "A group or entity involved in music, film, television, or other forms of entertainment (e.g., music group, TV channel)."
+    },
+    {
+      "id": 12,
+      "name": "Event - Sports",
+      "definition": "An organized contest or series of contests in a sport (e.g., championship, marathon)."
+    },
+    {
+      "id": 13,
+      "name": "Event - Historical/Political",
+      "definition": "A significant occurrence in the past, often a political process or military conflict (e.g., election, battle)."
+    },
+    {
+      "id": 14,
+      "name": "Product - Vehicle/Machine",
+      "definition": "A specific type or design of a vehicle or machine (e.g., aircraft, car, missile system)."
+    },
+    {
+      "id": 15,
+      "name": "Product - Software/Digital",
+      "definition": "A program, website, or digital game (e.g., game engine, programming language, video game)."
+    },
+    {
+      "id": 16,
+      "name": "Product - Media/Artistic Work",
+      "definition": "A film, book, album, song, TV show, or other artistic creation (e.g., movie, novel, musical album)."
+    },
+    {
+      "id": 17,
+      "name": "Product - Chemical/Biological Entity",
+      "definition": "A chemical compound, molecule, drug, or biological entity (e.g., gene, protein, plant species, animal species)."
+    },
+    {
+      "id": 18,
+      "name": "Product - Food/Beverage",
+      "definition": "A specific type of food or drink (e.g., grape variety, alcoholic drink)."
+    },
+    {
+      "id": 19,
+      "name": "Product - Other Manufactured Good",
+      "definition": "Any other manufactured item not covered by other product categories (e.g., computer hardware)."
+    },
+    {
+      "id": 20,
+      "name": "Infrastructure",
+      "definition": "A large-scale public system or structure (e.g., road, railway line, airport, tunnel)."
+    },
+    {
+      "id": 21,
+      "name": "Building/Venue",
+      "definition": "A specific named structure or place where events are held (e.g., hotel, theatre, hospital, amusement park)."
+    },
+    {
+      "id": 22,
+      "name": "Concept - Abstract",
+      "definition": "A general idea, category, or academic concept (e.g., award category, academic degree, legal act)."
+    },
+    {
+      "id": 23,
+      "name": "Concept - Fictional/Mythological",
+      "definition": "A character, idea, or entity originating from a work of fiction or mythology (e.g., fictional character, deity)."
+    },
+    {
+      "id": 24,
+      "name": "Concept - Linguistic/Cultural",
+      "definition": "A language, currency, or term referring to nationality/ethnicity (e.g., language, currency code, nationality)."
+    },
+    {
+      "id": 25,
+      "name": "Medical Condition/Disease",
+      "definition": "An abnormal condition affecting an organism."
+    }
+  ]
+}

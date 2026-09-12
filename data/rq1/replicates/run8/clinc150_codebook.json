@@ -1,0 +1,87 @@
+{
+  "bench": "clinc150",
+  "run": 8,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Personal Account Information",
+      "definition": "Requests for information about personal accounts, finances, bills, or application statuses."
+    },
+    {
+      "id": 2,
+      "name": "Personal Account Management",
+      "definition": "Requests to perform an action related to personal accounts, finances, or applications, including disputes or service requests."
+    },
+    {
+      "id": 3,
+      "name": "Scheduling & Reminders",
+      "definition": "Requests to set, check, or manage alarms, timers, reminders, or calendar events and lists."
+    },
+    {
+      "id": 4,
+      "name": "Navigation & Transportation",
+      "definition": "Requests for directions, estimated travel times, traffic information, ride-hailing, or to share/find location."
+    },
+    {
+      "id": 5,
+      "name": "Media & Entertainment",
+      "definition": "Requests to play music or video, identify songs, tell jokes, or provide general entertainment."
+    },
+    {
+      "id": 6,
+      "name": "General Knowledge & Facts",
+      "definition": "Requests for factual information, definitions, conversions, or general questions not related to personal accounts or specific actions."
+    },
+    {
+      "id": 7,
+      "name": "How-To & Troubleshooting",
+      "definition": "Requests for instructions, troubleshooting steps, or advice on how to perform a task or solve a problem."
+    },
+    {
+      "id": 8,
+      "name": "Assistant Settings & Information",
+      "definition": "Questions about the assistant itself, its capabilities, or requests to change its settings or behavior."
+    },
+    {
+      "id": 9,
+      "name": "Shopping & Product Information",
+      "definition": "Requests for product recommendations, where to buy, pricing, product details, or order tracking."
+    },
+    {
+      "id": 10,
+      "name": "Food & Recipes",
+      "definition": "Requests for meal ideas, recipes, ingredients, cooking instructions, or restaurant suggestions."
+    },
+    {
+      "id": 11,
+      "name": "Reservations & Availability",
+      "definition": "Requests to check availability, make, confirm, or cancel reservations for places, services, or meeting rooms."
+    },
+    {
+      "id": 12,
+      "name": "Device & System Control",
+      "definition": "Requests to control device functions, smart home devices, or system processes."
+    },
+    {
+      "id": 13,
+      "name": "Communication",
+      "definition": "Requests to send messages, make calls, or dictate text."
+    },
+    {
+      "id": 14,
+      "name": "Travel Planning & Logistics",
+      "definition": "Requests for travel-specific information like flight details, travel advisories, or booking arrangements."
+    },
+    {
+      "id": 15,
+      "name": "Social & Feedback",
+      "definition": "General social greetings, expressions of gratitude, or feedback about the assistant's performance or a previous action."
+    },
+    {
+      "id": 16,
+      "name": "Utility & Games",
+      "definition": "Requests for simple interactive tools like coin flips, dice rolls, or other basic games."
+    }
+  ]
+}

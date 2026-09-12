@@ -1,0 +1,110 @@
+{
+  "bench": "dbpedia",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 2,
+      "name": "Musical Artist",
+      "definition": "A person who creates, performs, or releases music."
+    },
+    {
+      "id": 3,
+      "name": "Film",
+      "definition": "A motion picture."
+    },
+    {
+      "id": 4,
+      "name": "Military Vehicle",
+      "definition": "A vehicle used by the military."
+    },
+    {
+      "id": 5,
+      "name": "Geographical Location",
+      "definition": "A specific point or area on the Earth's surface."
+    },
+    {
+      "id": 6,
+      "name": "Academic Journal",
+      "definition": "A periodical publication focused on a particular academic discipline."
+    },
+    {
+      "id": 7,
+      "name": "Comic Book Series",
+      "definition": "A series of comic books with related characters or themes."
+    },
+    {
+      "id": 8,
+      "name": "Mountain Range",
+      "definition": "A series of mountains or hills ranged in a line and connected by high ground."
+    },
+    {
+      "id": 9,
+      "name": "Plant Species",
+      "definition": "A group of living organisms capable of photosynthesis."
+    },
+    {
+      "id": 10,
+      "name": "Historic Building",
+      "definition": "A building with historical significance or architectural value."
+    },
+    {
+      "id": 11,
+      "name": "Professional Basketball Player",
+      "definition": "An individual who plays basketball as a profession."
+    },
+    {
+      "id": 12,
+      "name": "Politician",
+      "definition": "A person actively involved in politics, especially as a holder of an elected office."
+    },
+    {
+      "id": 13,
+      "name": "Scientific Journal",
+      "definition": "A periodical publication focused on scientific research and developments."
+    },
+    {
+      "id": 14,
+      "name": "Athlete",
+      "definition": "A person proficient in sports and other forms of physical exercise."
+    },
+    {
+      "id": 15,
+      "name": "Historic Church",
+      "definition": "A church with historical significance or architectural value."
+    },
+    {
+      "id": 16,
+      "name": "Village",
+      "definition": "A small community or group of houses in a rural area."
+    },
+    {
+      "id": 17,
+      "name": "River",
+      "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another river."
+    },
+    {
+      "id": 18,
+      "name": "Historic House",
+      "definition": "A house with historical significance or architectural value."
+    },
+    {
+      "id": 19,
+      "name": "Professional Football Player",
+      "definition": "An individual who plays football as a profession."
+    },
+    {
+      "id": 20,
+      "name": "Record Label",
+      "definition": "A brand or trademark associated with the marketing of music recordings and music videos."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "bench": "banking77",
+  "run": 3,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Unauthorized Transactions & Fraud",
+      "definition": "Queries about unrecognized charges, suspicious activity, or needing to freeze a card due to fraudulent use."
+    },
+    {
+      "id": 2,
+      "name": "Card Functionality Issues",
+      "definition": "Problems with a card not working, being declined, contactless issues, or general card malfunctions."
+    },
+    {
+      "id": 3,
+      "name": "Transfer Issues",
+      "definition": "Problems with sending or receiving money, including failed, blocked, pending, missing transfers, incorrect amounts, or transfer cancellation/correction."
+    },
+    {
+      "id": 4,
+      "name": "Account Information Update",
+      "definition": "Requests to change personal details, contact information, or other account-related settings."
+    },
+    {
+      "id": 5,
+      "name": "Card Ordering & Delivery",
+      "definition": "Inquiries about ordering new physical, virtual, or disposable cards, checking delivery status, or questions about card types."
+    },
+    {
+      "id": 6,
+      "name": "Identity Verification",
+      "definition": "Questions about the identity verification process, required documents, or issues encountered during verification."
+    },
+    {
+      "id": 7,
+      "name": "Fees & Charges Inquiry",
+      "definition": "Questions about specific fees, unexpected charges, or general pricing for any banking service."
+    },
+    {
+      "id": 8,
+      "name": "Top-up Issues & Inquiries",
+      "definition": "Questions about adding money to an account, top-up methods, limits, verification, or problems with top-ups."
+    },
+    {
+      "id": 9,
+      "name": "Refunds",
+      "definition": "Inquiries about missing refunds or requests for refunds on purchases or products."
+    },
+    {
+      "id": 10,
+      "name": "Account Closure",
+      "definition": "Explicit requests to close, delete, or terminate an account."
+    },
+    {
+      "id": 11,
+      "name": "PIN Management",
+      "definition": "Issues or inquiries related to a card's PIN, such as changing, resetting, unblocking, or delivery."
+    },
+    {
+      "id": 12,
+      "name": "Transaction Status & History",
+      "definition": "Questions about the status of a known transaction (pending, completed), understanding statement entries, or general inquiries about transaction details."
+    },
+    {
+      "id": 13,
+      "name": "Lost or Stolen Card/Phone",
+      "definition": "Reporting a lost or stolen physical card or phone, and related actions like card reactivation after being found."
+    },
+    {
+      "id": 14,
+      "name": "ATM & Card Usage Locations",
+      "definition": "Inquiries about where a card can be used, ATM locations, or specific ATM functionalities (e.g., card retained by ATM, incorrect cash dispensed)."
+    },
+    {
+      "id": 15,
+      "name": "Exchange Rates & Currency",
+      "definition": "Questions about currency exchange rates, fees related to exchange, or supported currencies."
+    },
+    {
+      "id": 16,
+      "name": "Account Eligibility & General Information",
+      "definition": "Questions about who can open an account, age limits, adding family members, or general service availability."
+    },
+    {
+      "id": 17,
+      "name": "App & Login Issues",
+      "definition": "Problems accessing the account through the app or website, or password resets."
+    },
+    {
+      "id": 18,
+      "name": "Missing Deposits",
+      "definition": "Inquiries about cash or cheque deposits not appearing in the account balance."
+    }
+  ]
+}

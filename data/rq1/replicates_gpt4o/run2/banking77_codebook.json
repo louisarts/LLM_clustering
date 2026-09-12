@@ -1,0 +1,85 @@
+{
+  "bench": "banking77",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Issues",
+      "definition": "Queries related to problems with card usage, acceptance, or functionality."
+    },
+    {
+      "id": 2,
+      "name": "Fraud and Unauthorized Transactions",
+      "definition": "Concerns about unauthorized charges or potential fraud on the account."
+    },
+    {
+      "id": 3,
+      "name": "Account Management",
+      "definition": "Requests for changes or updates to account details or settings."
+    },
+    {
+      "id": 4,
+      "name": "Identity Verification",
+      "definition": "Questions about the process or requirements for verifying identity."
+    },
+    {
+      "id": 5,
+      "name": "Card Delivery and Activation",
+      "definition": "Inquiries about the status of card delivery or how to activate a new card."
+    },
+    {
+      "id": 6,
+      "name": "Fees and Charges",
+      "definition": "Questions about fees or charges applied to transactions or account activities."
+    },
+    {
+      "id": 7,
+      "name": "Currency and Exchange Rates",
+      "definition": "Queries about currency options, exchange rates, and related fees."
+    },
+    {
+      "id": 8,
+      "name": "Transfers and Payments",
+      "definition": "Issues or questions related to transferring money or making payments."
+    },
+    {
+      "id": 9,
+      "name": "Top-Up Issues",
+      "definition": "Problems or questions about adding funds to the account."
+    },
+    {
+      "id": 10,
+      "name": "Account Closure",
+      "definition": "Requests to close or delete an account."
+    },
+    {
+      "id": 11,
+      "name": "Virtual and Disposable Cards",
+      "definition": "Inquiries about obtaining or using virtual or disposable cards."
+    },
+    {
+      "id": 12,
+      "name": "ATM and Cash Withdrawal Issues",
+      "definition": "Problems or questions related to ATM usage or cash withdrawals."
+    },
+    {
+      "id": 13,
+      "name": "Refunds and Disputes",
+      "definition": "Requests for refunds or disputes over transactions."
+    },
+    {
+      "id": 14,
+      "name": "Account Access Issues",
+      "definition": "Problems accessing the account or app, including login issues."
+    },
+    {
+      "id": 15,
+      "name": "General Information",
+      "definition": "Requests for general information about services, policies, or procedures."
+    }
+  ]
+}

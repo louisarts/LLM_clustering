@@ -1,0 +1,197 @@
+{
+  "bench": "fewnerd",
+  "run": 2,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Award",
+      "definition": "A prize or honor given for achievement."
+    },
+    {
+      "id": 2,
+      "name": "Biological Classification",
+      "definition": "A taxonomic group or category of living organisms, including animals, viruses, and genera."
+    },
+    {
+      "id": 3,
+      "name": "Chemical/Biological Substance",
+      "definition": "A specific chemical compound, drug, or biological molecule."
+    },
+    {
+      "id": 4,
+      "name": "Concept/Theory",
+      "definition": "An abstract idea, principle, or general concept."
+    },
+    {
+      "id": 5,
+      "name": "Creative Work",
+      "definition": "A book, film, song, play, story, or other artistic or intellectual creation."
+    },
+    {
+      "id": 6,
+      "name": "Currency",
+      "definition": "A medium of exchange, such as money or a monetary unit."
+    },
+    {
+      "id": 7,
+      "name": "Event",
+      "definition": "A planned or unplanned occurrence, such as a competition, conflict, election, or historical operation."
+    },
+    {
+      "id": 8,
+      "name": "Fictional Entity",
+      "definition": "A character, object, or organization that exists only in a work of fiction."
+    },
+    {
+      "id": 9,
+      "name": "Food Item",
+      "definition": "A specific type of food or a named food product."
+    },
+    {
+      "id": 10,
+      "name": "Government Agency",
+      "definition": "A permanent or semi-permanent organization in the machinery of government responsible for the oversight and administration of specific functions."
+    },
+    {
+      "id": 11,
+      "name": "Government Body",
+      "definition": "A legislative, administrative, or advisory organization that is part of a government structure."
+    },
+    {
+      "id": 12,
+      "name": "Historical Political Entity",
+      "definition": "A past state, empire, kingdom, colony, or city-state."
+    },
+    {
+      "id": 13,
+      "name": "Infrastructure",
+      "definition": "A fundamental facility or system serving a country, city, or area, such as a road project."
+    },
+    {
+      "id": 14,
+      "name": "Language",
+      "definition": "A system of communication used by a particular country or community."
+    },
+    {
+      "id": 15,
+      "name": "Location - Airport",
+      "definition": "A place where aircraft regularly take off and land, with facilities for passengers and cargo."
+    },
+    {
+      "id": 16,
+      "name": "Location - Astronomical Feature",
+      "definition": "A natural formation or object in space, such as a lunar rille."
+    },
+    {
+      "id": 17,
+      "name": "Location - Building/Venue",
+      "definition": "A structure or place where events are held or services are provided, such as a theater, library, or hospital."
+    },
+    {
+      "id": 18,
+      "name": "Location - City/Town",
+      "definition": "A densely populated urban area, including cities, towns, villages, and suburbs."
+    },
+    {
+      "id": 19,
+      "name": "Location - Country",
+      "definition": "A nation or state, including its territory and government."
+    },
+    {
+      "id": 20,
+      "name": "Location - Geographical Feature",
+      "definition": "A natural landform or body of water, such as a river, mountain, or cape."
+    },
+    {
+      "id": 21,
+      "name": "Location - Park/Location",
+      "definition": "A designated area of natural, semi-natural, or planted space set aside for human recreation or for the protection of wildlife or natural habitats."
+    },
+    {
+      "id": 22,
+      "name": "Location - State/Region",
+      "definition": "A major administrative division of a country, such as a state, province, or county, or a broader geographical area like a continent."
+    },
+    {
+      "id": 23,
+      "name": "Location - Street/Road",
+      "definition": "A public way for vehicles and pedestrians in a city or town, or a longer route connecting places."
+    },
+    {
+      "id": 24,
+      "name": "Medical Condition",
+      "definition": "A disease, illness, or health problem."
+    },
+    {
+      "id": 25,
+      "name": "Medical Test/Procedure",
+      "definition": "A diagnostic examination or treatment performed to assess health or diagnose disease."
+    },
+    {
+      "id": 26,
+      "name": "Music Group",
+      "definition": "A group of musicians who perform together."
+    },
+    {
+      "id": 27,
+      "name": "Nationality/Demonym",
+      "definition": "An adjective or noun referring to a person or thing from a particular country, region, or ethnic group."
+    },
+    {
+      "id": 28,
+      "name": "Organization",
+      "definition": "A company, institution, association, or other structured group with a particular purpose."
+    },
+    {
+      "id": 29,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 30,
+      "name": "Political Party",
+      "definition": "An organization that seeks to achieve and maintain political power."
+    },
+    {
+      "id": 31,
+      "name": "Product/Model",
+      "definition": "A manufactured item, software, or specific design of a product."
+    },
+    {
+      "id": 32,
+      "name": "Religion/Belief System",
+      "definition": "A particular system of faith and worship."
+    },
+    {
+      "id": 33,
+      "name": "Role/Title",
+      "definition": "A designated position, function, or honorific."
+    },
+    {
+      "id": 34,
+      "name": "School (K-12)",
+      "definition": "An institution for educating children from kindergarten through twelfth grade."
+    },
+    {
+      "id": 35,
+      "name": "Sports League",
+      "definition": "An organized group of sports teams that compete against each other."
+    },
+    {
+      "id": 36,
+      "name": "Sports Team",
+      "definition": "A group of athletes who play together in a sport."
+    },
+    {
+      "id": 37,
+      "name": "Transportation Line",
+      "definition": "A designated route for public transport, such as a railway or streetcar line."
+    },
+    {
+      "id": 38,
+      "name": "University/Academic Institution",
+      "definition": "An institution of higher education and research."
+    }
+  ]
+}

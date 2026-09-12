@@ -1,0 +1,117 @@
+{
+  "bench": "fewrel",
+  "run": 3,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Geographical/Administrative Containment",
+      "definition": "The first entity is physically situated within, or is an administrative division of, the second entity."
+    },
+    {
+      "id": 2,
+      "name": "Organizational Membership",
+      "definition": "The first entity is part of, or officially associated with, the second entity, which is an organized group, institution, or competition."
+    },
+    {
+      "id": 3,
+      "name": "Creator and Creation",
+      "definition": "One entity is the individual or organization responsible for originating or producing the other entity, which is a specific work, product, or design."
+    },
+    {
+      "id": 4,
+      "name": "Role/Title/Occupation",
+      "definition": "The first entity possesses a specific professional title or role, or is categorized by the occupation described by the second entity."
+    },
+    {
+      "id": 5,
+      "name": "Event Participation",
+      "definition": "The first entity takes part in the second entity, which is a specific event, competition, or historical occurrence."
+    },
+    {
+      "id": 6,
+      "name": "Classification/Type/Genre",
+      "definition": "The first entity is a subcategory, genre, or specific classification within the broader category of the second entity."
+    },
+    {
+      "id": 7,
+      "name": "Family Relation",
+      "definition": "The first and second entities are related by blood, marriage, or adoption."
+    },
+    {
+      "id": 8,
+      "name": "Award/Nomination",
+      "definition": "The first entity was recognized with or considered for the second entity, which is an honor or prize."
+    },
+    {
+      "id": 9,
+      "name": "Language",
+      "definition": "The first entity specifies the language used for the second entity."
+    },
+    {
+      "id": 10,
+      "name": "Musical Instrumentalist",
+      "definition": "The first entity is an individual whose primary musical role involves playing the second entity, a musical instrument."
+    },
+    {
+      "id": 11,
+      "name": "Political Affiliation",
+      "definition": "The first entity is officially associated with the second entity, which is a political party."
+    },
+    {
+      "id": 12,
+      "name": "Political Entity Leadership",
+      "definition": "The first entity holds the highest position of authority within the second entity, which is a political or governmental body."
+    },
+    {
+      "id": 13,
+      "name": "Nationality/Origin",
+      "definition": "The first entity's national identity or place of origin is specified by the second entity."
+    },
+    {
+      "id": 14,
+      "name": "Predecessor/Successor",
+      "definition": "The first entity is an earlier or later version, model, or iteration in a sequence related to the second entity."
+    },
+    {
+      "id": 15,
+      "name": "Source/Inspiration",
+      "definition": "The first entity draws its creative or conceptual foundation from the second entity."
+    },
+    {
+      "id": 16,
+      "name": "Jurisdiction",
+      "definition": "The first entity has legal authority or control over the second entity."
+    },
+    {
+      "id": 17,
+      "name": "Art Movement Affiliation",
+      "definition": "The first entity is an artist or work connected to the second entity, which is a recognized art movement or style."
+    },
+    {
+      "id": 18,
+      "name": "Concept/Discovery",
+      "definition": "The first entity is a scientific concept, theory, or discovery attributed to the second entity."
+    },
+    {
+      "id": 19,
+      "name": "Issued By",
+      "definition": "The first entity is an official document or item provided by the second entity."
+    },
+    {
+      "id": 20,
+      "name": "Platform",
+      "definition": "The first entity is a software or hardware environment that supports or hosts the second entity."
+    },
+    {
+      "id": 21,
+      "name": "Character/Part of Work",
+      "definition": "The first entity is a fictional character or a distinct component that exists within the second entity, which is a larger creative work."
+    },
+    {
+      "id": 22,
+      "name": "Ownership/Management",
+      "definition": "The first entity owns, manages, publishes, or distributes the second entity."
+    }
+  ]
+}

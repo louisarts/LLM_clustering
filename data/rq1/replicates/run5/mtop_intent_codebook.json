@@ -1,0 +1,97 @@
+{
+  "bench": "mtop_intent",
+  "run": 5,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Create a new alarm with specified time, date, or label."
+    },
+    {
+      "id": 2,
+      "name": "Manage Alarm",
+      "definition": "View, modify, delete, or inquire about existing alarms."
+    },
+    {
+      "id": 3,
+      "name": "Set Reminder",
+      "definition": "Create a new reminder with specified content, time, or recipient."
+    },
+    {
+      "id": 4,
+      "name": "Manage Reminder",
+      "definition": "View, modify, delete, or inquire about existing reminders."
+    },
+    {
+      "id": 5,
+      "name": "Set Timer",
+      "definition": "Create a new timer with a specified duration."
+    },
+    {
+      "id": 6,
+      "name": "Manage Timer",
+      "definition": "View, modify, delete, or inquire about existing timers."
+    },
+    {
+      "id": 7,
+      "name": "Play Music",
+      "definition": "Initiate music, radio, or audio playback."
+    },
+    {
+      "id": 8,
+      "name": "Control Music Playback",
+      "definition": "Interact with currently playing music or audio (e.g., skip, repeat, identify)."
+    },
+    {
+      "id": 9,
+      "name": "Initiate Call",
+      "definition": "Start a voice or video call to a contact or number."
+    },
+    {
+      "id": 10,
+      "name": "Manage Call",
+      "definition": "Control an active call (e.g., answer, hang up, hold)."
+    },
+    {
+      "id": 11,
+      "name": "Send Message",
+      "definition": "Send a text or video message to a contact or group."
+    },
+    {
+      "id": 12,
+      "name": "Retrieve Communication History",
+      "definition": "Inquire about past calls or messages."
+    },
+    {
+      "id": 13,
+      "name": "Get General Information",
+      "definition": "Ask for facts, definitions, recipes, or how-to instructions."
+    },
+    {
+      "id": 14,
+      "name": "Get Weather Information",
+      "definition": "Ask for current or future weather conditions."
+    },
+    {
+      "id": 15,
+      "name": "Get News Information",
+      "definition": "Ask for current news headlines or details on specific topics."
+    },
+    {
+      "id": 16,
+      "name": "Get Contact/Social Information",
+      "definition": "Inquire about or manage contacts, their attributes, or social connections."
+    },
+    {
+      "id": 17,
+      "name": "Event Management",
+      "definition": "Inquire about, RSVP to, or manage events and activities."
+    },
+    {
+      "id": 18,
+      "name": "Set Assistant Status",
+      "definition": "Change the assistant's or user's operational status or mode."
+    }
+  ]
+}

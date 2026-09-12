@@ -1,0 +1,1510 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sitecore",
+      "definition": "Questions related to Sitecore development and configuration."
+    },
+    {
+      "id": 2,
+      "name": "Music Theory",
+      "definition": "Questions about music theory, notation, and terminology."
+    },
+    {
+      "id": 3,
+      "name": "Interpersonal Skills",
+      "definition": "Questions about interpersonal relationships and communication."
+    },
+    {
+      "id": 4,
+      "name": "Hinduism",
+      "definition": "Questions related to Hindu beliefs, practices, and deities."
+    },
+    {
+      "id": 5,
+      "name": "English Language & Usage",
+      "definition": "Questions about English language usage and vocabulary."
+    },
+    {
+      "id": 6,
+      "name": "SharePoint",
+      "definition": "Questions about SharePoint development and administration."
+    },
+    {
+      "id": 7,
+      "name": "Career Development",
+      "definition": "Questions about career planning and professional growth."
+    },
+    {
+      "id": 8,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 9,
+      "name": "Space Exploration",
+      "definition": "Questions about spacecraft, space missions, and related technologies."
+    },
+    {
+      "id": 10,
+      "name": "Stack Overflow en espa\u00f1ol",
+      "definition": "Programming questions asked in Spanish."
+    },
+    {
+      "id": 11,
+      "name": "Geographic Information Systems",
+      "definition": "Questions about GIS software and spatial data analysis."
+    },
+    {
+      "id": 12,
+      "name": "Java Programming",
+      "definition": "Questions about Java programming and related technologies."
+    },
+    {
+      "id": 13,
+      "name": "Project Management",
+      "definition": "Questions about project management methodologies and practices."
+    },
+    {
+      "id": 14,
+      "name": "Biology",
+      "definition": "Questions about biological processes and organisms."
+    },
+    {
+      "id": 15,
+      "name": "Travel",
+      "definition": "Questions about travel logistics and experiences."
+    },
+    {
+      "id": 16,
+      "name": "Latin Language",
+      "definition": "Questions about Latin language and translation."
+    },
+    {
+      "id": 17,
+      "name": "Intellectual Property",
+      "definition": "Questions about patents and intellectual property rights."
+    },
+    {
+      "id": 18,
+      "name": "Ruby Programming",
+      "definition": "Questions about Ruby programming and related technologies."
+    },
+    {
+      "id": 19,
+      "name": "Mathematics",
+      "definition": "Questions about mathematical concepts and problem-solving."
+    },
+    {
+      "id": 20,
+      "name": "French Language",
+      "definition": "Questions about French language and translation."
+    },
+    {
+      "id": 21,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 22,
+      "name": "Windows Phone",
+      "definition": "Questions about Windows Phone devices and software."
+    },
+    {
+      "id": 23,
+      "name": "Typography",
+      "definition": "Questions about fonts and typographic design."
+    },
+    {
+      "id": 24,
+      "name": "Ukrainian Language",
+      "definition": "Questions about Ukrainian language and translation."
+    },
+    {
+      "id": 25,
+      "name": "History",
+      "definition": "Questions about historical events and figures."
+    },
+    {
+      "id": 26,
+      "name": "Islam",
+      "definition": "Questions about Islamic beliefs, practices, and jurisprudence."
+    },
+    {
+      "id": 27,
+      "name": "Parenting",
+      "definition": "Questions about parenting and child-rearing."
+    },
+    {
+      "id": 28,
+      "name": "Photography",
+      "definition": "Questions about photography techniques and equipment."
+    },
+    {
+      "id": 29,
+      "name": "JavaScript",
+      "definition": "Questions about JavaScript programming and web development."
+    },
+    {
+      "id": 30,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 31,
+      "name": "Video Games",
+      "definition": "Questions about video games and gaming strategies."
+    },
+    {
+      "id": 32,
+      "name": "Music",
+      "definition": "Questions about music performance and industry."
+    },
+    {
+      "id": 33,
+      "name": "German Language",
+      "definition": "Questions about German language and translation."
+    },
+    {
+      "id": 34,
+      "name": "Automotive",
+      "definition": "Questions about car maintenance and repair."
+    },
+    {
+      "id": 35,
+      "name": "Anxiety",
+      "definition": "Questions about managing anxiety and mental health."
+    },
+    {
+      "id": 36,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 37,
+      "name": "Software Recommendations",
+      "definition": "Questions seeking recommendations for software tools."
+    },
+    {
+      "id": 38,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 39,
+      "name": "Gaming",
+      "definition": "Questions about video games and gaming strategies."
+    },
+    {
+      "id": 40,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 41,
+      "name": "Economics",
+      "definition": "Questions about economic theories and practices."
+    },
+    {
+      "id": 42,
+      "name": "Guild Wars",
+      "definition": "Questions about the Guild Wars video game series."
+    },
+    {
+      "id": 43,
+      "name": "Board Games",
+      "definition": "Questions about board games and strategies."
+    },
+    {
+      "id": 44,
+      "name": "Canon Cameras",
+      "definition": "Questions about Canon camera equipment and usage."
+    },
+    {
+      "id": 45,
+      "name": "Travel",
+      "definition": "Questions about travel logistics and experiences."
+    },
+    {
+      "id": 46,
+      "name": "Magento",
+      "definition": "Questions about Magento e-commerce platform development."
+    },
+    {
+      "id": 47,
+      "name": "Materials Science",
+      "definition": "Questions about materials properties and applications."
+    },
+    {
+      "id": 48,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 49,
+      "name": "Movies",
+      "definition": "Questions about film narratives and production."
+    },
+    {
+      "id": 50,
+      "name": "Latin Language",
+      "definition": "Questions about Latin language and translation."
+    },
+    {
+      "id": 51,
+      "name": "Pets",
+      "definition": "Questions about pet care and behavior."
+    },
+    {
+      "id": 52,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 53,
+      "name": "Mathematics",
+      "definition": "Questions about mathematical concepts and problem-solving."
+    },
+    {
+      "id": 54,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 55,
+      "name": "Game Development",
+      "definition": "Questions about game development techniques and tools."
+    },
+    {
+      "id": 56,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 57,
+      "name": "Patent Law",
+      "definition": "Questions about patent law and intellectual property."
+    },
+    {
+      "id": 58,
+      "name": "Workplace",
+      "definition": "Questions about workplace dynamics and etiquette."
+    },
+    {
+      "id": 59,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 60,
+      "name": "Fitness",
+      "definition": "Questions about fitness routines and health."
+    },
+    {
+      "id": 61,
+      "name": "French Language",
+      "definition": "Questions about French language and translation."
+    },
+    {
+      "id": 62,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 63,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 64,
+      "name": "Pets",
+      "definition": "Questions about pet care and behavior."
+    },
+    {
+      "id": 65,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 66,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 67,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 68,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 69,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 70,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 71,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 72,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 73,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 74,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 75,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 76,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 77,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 78,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 79,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 80,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 81,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 82,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 83,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 84,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 85,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 86,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 87,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 88,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 89,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 90,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 91,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 92,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 93,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 94,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 95,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 96,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 97,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 98,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 99,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 100,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 101,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 102,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 103,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 104,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 105,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 106,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 107,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 108,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 109,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 110,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 111,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 112,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 113,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 114,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 115,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 116,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 117,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 118,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 119,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 120,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 121,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 122,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 123,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 124,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 125,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 126,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 127,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 128,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 129,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 130,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 131,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 132,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 133,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 134,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 135,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 136,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 137,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 138,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 139,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 140,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 141,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 142,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 143,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 144,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 145,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 146,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 147,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 148,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 149,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 150,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 151,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 152,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 153,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 154,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 155,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 156,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 157,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 158,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 159,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 160,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 161,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 162,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 163,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 164,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 165,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 166,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 167,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 168,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 169,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 170,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 171,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 172,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 173,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 174,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 175,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 176,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 177,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 178,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 179,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 180,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 181,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 182,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 183,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 184,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 185,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 186,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 187,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 188,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 189,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 190,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 191,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 192,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 193,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 194,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 195,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 196,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 197,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 198,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 199,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 200,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 201,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 202,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 203,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 204,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 205,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 206,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 207,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 208,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 209,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 210,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 211,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 212,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 213,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 214,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 215,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 216,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 217,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 218,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 219,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 220,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 221,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 222,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 223,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 224,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 225,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 226,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 227,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 228,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 229,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 230,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 231,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 232,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 233,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 234,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 235,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 236,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 237,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 238,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 239,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 240,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 241,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 242,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 243,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 244,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 245,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 246,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 247,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 248,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 249,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 250,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 251,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 252,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 253,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 254,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 255,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 256,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 257,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 258,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 259,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 260,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 261,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 262,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 263,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 264,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 265,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 266,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 267,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 268,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 269,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 270,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 271,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 272,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 273,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 274,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 275,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 276,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 277,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 278,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 279,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 280,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 281,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 282,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 283,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    },
+    {
+      "id": 284,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 285,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 286,
+      "name": "Finance",
+      "definition": "Questions about financial markets and investment strategies."
+    },
+    {
+      "id": 287,
+      "name": "Computer Hardware",
+      "definition": "Questions about computer hardware and peripherals."
+    },
+    {
+      "id": 288,
+      "name": "Physics",
+      "definition": "Questions about physical principles and phenomena."
+    },
+    {
+      "id": 289,
+      "name": "Networking",
+      "definition": "Questions about computer networking and protocols."
+    },
+    {
+      "id": 290,
+      "name": "Italian Language",
+      "definition": "Questions about Italian language and translation."
+    },
+    {
+      "id": 291,
+      "name": "Linux",
+      "definition": "Questions about Linux operating systems and software."
+    },
+    {
+      "id": 292,
+      "name": "LaTeX",
+      "definition": "Questions about LaTeX typesetting and document preparation."
+    },
+    {
+      "id": 293,
+      "name": "Cryptocurrency",
+      "definition": "Questions about cryptocurrency technologies and networks."
+    },
+    {
+      "id": 294,
+      "name": "Security",
+      "definition": "Questions about computer and network security."
+    },
+    {
+      "id": 295,
+      "name": "Sports",
+      "definition": "Questions about sports events and statistics."
+    },
+    {
+      "id": 296,
+      "name": "Marketing",
+      "definition": "Questions about marketing strategies and consumer behavior."
+    },
+    {
+      "id": 297,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical theories and thinkers."
+    },
+    {
+      "id": 298,
+      "name": "Russian Language",
+      "definition": "Questions about Russian language and translation."
+    },
+    {
+      "id": 299,
+      "name": "Business",
+      "definition": "Questions about business practices and management."
+    },
+    {
+      "id": 300,
+      "name": "Spanish Language",
+      "definition": "Questions about Spanish language and translation."
+    }
+  ]
+}

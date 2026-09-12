@@ -1,0 +1,297 @@
+[
+ {
+  "id": 1,
+  "name": "RideBooking",
+  "definition": "User wants to book a taxi, cab, or ride service (e.g., Uber)."
+ },
+ {
+  "id": 2,
+  "name": "MeetingSchedule",
+  "definition": "User wants to schedule a meeting or event with specific details."
+ },
+ {
+  "id": 3,
+  "name": "NewsQuery",
+  "definition": "User wants to hear current news or news on specific topics."
+ },
+ {
+  "id": 4,
+  "name": "ReminderSet",
+  "definition": "User wants to set a reminder for a specific task or time."
+ },
+ {
+  "id": 5,
+  "name": "WeatherQuery",
+  "definition": "User wants to know the weather forecast or conditions."
+ },
+ {
+  "id": 6,
+  "name": "SocialPost",
+  "definition": "User wants to post a message or tweet to a social media platform."
+ },
+ {
+  "id": 7,
+  "name": "AppOpen",
+  "definition": "User wants to open or launch a specific application."
+ },
+ {
+  "id": 8,
+  "name": "BusinessSearch",
+  "definition": "User wants to find nearby businesses, shops, or locations."
+ },
+ {
+  "id": 9,
+  "name": "VolumeControl",
+  "definition": "User wants to adjust volume or mute the device."
+ },
+ {
+  "id": 10,
+  "name": "CalendarQuery",
+  "definition": "User wants to check their schedule or details of upcoming events."
+ },
+ {
+  "id": 11,
+  "name": "TravelTime",
+  "definition": "User wants to know when to leave for an event to arrive on time."
+ },
+ {
+  "id": 12,
+  "name": "ListManage",
+  "definition": "User wants to add items to a list, create a list, or delete a list."
+ },
+ {
+  "id": 13,
+  "name": "NewsAlert",
+  "definition": "User wants to be notified when specific news breaks."
+ },
+ {
+  "id": 14,
+  "name": "MusicPlay",
+  "definition": "User wants to play music, radio, or specific songs/artists."
+ },
+ {
+  "id": 15,
+  "name": "AlarmCheck",
+  "definition": "User wants to verify if an alarm is currently set."
+ },
+ {
+  "id": 16,
+  "name": "SportsQuery",
+  "definition": "User wants to know sports schedules or game times."
+ },
+ {
+  "id": 17,
+  "name": "AlarmSet",
+  "definition": "User wants to set a new alarm."
+ },
+ {
+  "id": 18,
+  "name": "EmailCheck",
+  "definition": "User wants to check for or have new emails read."
+ },
+ {
+  "id": 19,
+  "name": "MediaInfo",
+  "definition": "User wants information about TV shows, movies, or entertainment."
+ },
+ {
+  "id": 20,
+  "name": "CurrencyExchange",
+  "definition": "User wants to know the exchange rate between currencies."
+ },
+ {
+  "id": 21,
+  "name": "EntityInfo",
+  "definition": "User wants general factual information about a person, place, or thing."
+ },
+ {
+  "id": 22,
+  "name": "DeviceControl",
+  "definition": "User wants to control smart home devices like lights."
+ },
+ {
+  "id": 23,
+  "name": "DateQuery",
+  "definition": "User wants to know the date or day of the week."
+ },
+ {
+  "id": 24,
+  "name": "EventSearch",
+  "definition": "User wants to find local events happening in a specific area."
+ },
+ {
+  "id": 25,
+  "name": "TimeQuery",
+  "definition": "User wants to know the current time in a specific location."
+ },
+ {
+  "id": 26,
+  "name": "JokeRequest",
+  "definition": "User wants the assistant to tell a joke."
+ },
+ {
+  "id": 27,
+  "name": "AvailabilityCheck",
+  "definition": "User wants to check if they are free at a specific time."
+ },
+ {
+  "id": 28,
+  "name": "GamePlay",
+  "definition": "User wants to play a game."
+ },
+ {
+  "id": 29,
+  "name": "EmailReply",
+  "definition": "User wants to reply to a received email."
+ },
+ {
+  "id": 30,
+  "name": "PhoneQuery",
+  "definition": "User wants to find a phone number."
+ },
+ {
+  "id": 31,
+  "name": "CalendarStatus",
+  "definition": "User wants to mark themselves as busy or update event status."
+ },
+ {
+  "id": 32,
+  "name": "PodcastControl",
+  "definition": "User wants to control podcast playback (e.g., skip episode)."
+ },
+ {
+  "id": 33,
+  "name": "CalendarDelete",
+  "definition": "Delete an event or item from the calendar."
+ },
+ {
+  "id": 34,
+  "name": "TransportQuery",
+  "definition": "Query schedules, times, or availability for public transportation like trains or buses."
+ },
+ {
+  "id": 35,
+  "name": "RadioPlay",
+  "definition": "Play radio stations or radio content."
+ },
+ {
+  "id": 36,
+  "name": "TimezoneQuery",
+  "definition": "Query the current time in a specific timezone or relative time zone."
+ },
+ {
+  "id": 37,
+  "name": "UsageStatistics",
+  "definition": "Request statistics or history regarding the user's past interactions or habits."
+ },
+ {
+  "id": 38,
+  "name": "TrafficQuery",
+  "definition": "Query traffic conditions or status for a specific route or location."
+ },
+ {
+  "id": 39,
+  "name": "Navigation",
+  "definition": "Request directions or navigation instructions to a destination."
+ },
+ {
+  "id": 40,
+  "name": "ReminderModify",
+  "definition": "Modify an existing reminder or set a reminder relative to a specific event."
+ },
+ {
+  "id": 41,
+  "name": "EmailSend",
+  "definition": "Send an email to a recipient."
+ },
+ {
+  "id": 42,
+  "name": "FlightQuery",
+  "definition": "Search for flight information, fares, or status."
+ },
+ {
+  "id": 43,
+  "name": "StockQuery",
+  "definition": "Query stock prices or market performance for a specific company."
+ },
+ {
+  "id": 44,
+  "name": "AlarmDelete",
+  "definition": "Delete or remove a specific alarm."
+ },
+ {
+  "id": 45,
+  "name": "ApplianceControl",
+  "definition": "Control smart home appliances like coffee machines or robot vacuums."
+ },
+ {
+  "id": 46,
+  "name": "MusicShuffle",
+  "definition": "Shuffle music tracks or playlists."
+ },
+ {
+  "id": 47,
+  "name": "PhilosophicalQuery",
+  "definition": "Ask hypothetical, philosophical, or opinion-based questions."
+ },
+ {
+  "id": 48,
+  "name": "MusicInfo",
+  "definition": "Request information about music tracks, such as the artist or genre."
+ },
+ {
+  "id": 49,
+  "name": "EventInfo",
+  "definition": "Search for information about live events like concerts or shows."
+ },
+ {
+  "id": 50,
+  "name": "PodcastManage",
+  "definition": "Manage podcast content, such as adding to playlists or specific playback controls."
+ },
+ {
+  "id": 51,
+  "name": "ContactManage",
+  "definition": "Add, edit, or manage contacts in the user's address book."
+ },
+ {
+  "id": 52,
+  "name": "MusicSave",
+  "definition": "Save music, songs, or playlists to a library."
+ },
+ {
+  "id": 53,
+  "name": "RealEstateQuery",
+  "definition": "Query housing prices or real estate information."
+ },
+ {
+  "id": 54,
+  "name": "NewsFilter",
+  "definition": "Query news specifically filtered by time or topic."
+ },
+ {
+  "id": 55,
+  "name": "EmailFilter",
+  "definition": "Check for emails based on specific criteria like sender, time, or subject."
+ },
+ {
+  "id": 56,
+  "name": "AudiobookPlay",
+  "definition": "The user wants to play an audiobook or specific audiobook content."
+ },
+ {
+  "id": 57,
+  "name": "MovieRecommendation",
+  "definition": "The user wants a recommendation for a movie to watch."
+ },
+ {
+  "id": 58,
+  "name": "TrainBooking",
+  "definition": "The user wants to book a ticket for train travel."
+ },
+ {
+  "id": 59,
+  "name": "ListQuery",
+  "definition": "The user wants to retrieve or hear the contents of a specific list."
+ }
+]

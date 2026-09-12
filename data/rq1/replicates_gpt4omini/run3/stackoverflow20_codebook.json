@@ -1,0 +1,160 @@
+{
+  "bench": "stackoverflow20",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apache",
+      "definition": "Questions related to the Apache web server and its configurations."
+    },
+    {
+      "id": 2,
+      "name": "SharePoint",
+      "definition": "Questions regarding SharePoint development, libraries, and permissions."
+    },
+    {
+      "id": 3,
+      "name": "Hibernate",
+      "definition": "Questions about Hibernate ORM and its usage in Java applications."
+    },
+    {
+      "id": 4,
+      "name": "LINQ",
+      "definition": "Questions related to Language Integrated Query in .NET."
+    },
+    {
+      "id": 5,
+      "name": "Qt",
+      "definition": "Questions about the Qt framework for C++ development."
+    },
+    {
+      "id": 6,
+      "name": "Excel",
+      "definition": "Questions regarding Microsoft Excel, including VBA and Excel Add-ins."
+    },
+    {
+      "id": 7,
+      "name": "Drupal",
+      "definition": "Questions related to Drupal CMS development and theming."
+    },
+    {
+      "id": 8,
+      "name": "Magento",
+      "definition": "Questions about Magento eCommerce platform development and customization."
+    },
+    {
+      "id": 9,
+      "name": "Bash",
+      "definition": "Questions related to Bash scripting and command line usage."
+    },
+    {
+      "id": 10,
+      "name": "Visual Studio",
+      "definition": "Questions regarding the Visual Studio IDE and its features."
+    },
+    {
+      "id": 11,
+      "name": "Scala",
+      "definition": "Questions related to Scala programming language and its libraries."
+    },
+    {
+      "id": 12,
+      "name": "JavaScript",
+      "definition": "Questions about JavaScript, including frameworks like jQuery and AJAX."
+    },
+    {
+      "id": 13,
+      "name": "Subversion (SVN)",
+      "definition": "Questions related to Subversion version control system."
+    },
+    {
+      "id": 14,
+      "name": "Haskell",
+      "definition": "Questions regarding the Haskell programming language."
+    },
+    {
+      "id": 15,
+      "name": "Cocoa",
+      "definition": "Questions related to Cocoa development on macOS."
+    },
+    {
+      "id": 16,
+      "name": "PHP",
+      "definition": "Questions regarding PHP programming and web development."
+    },
+    {
+      "id": 17,
+      "name": "MySQL",
+      "definition": "Questions related to MySQL database management and queries."
+    },
+    {
+      "id": 18,
+      "name": "Oracle",
+      "definition": "Questions regarding Oracle database and its features."
+    },
+    {
+      "id": 19,
+      "name": "VBA",
+      "definition": "Questions related to Visual Basic for Applications in Microsoft Office."
+    },
+    {
+      "id": 20,
+      "name": "C#",
+      "definition": "Questions regarding C# programming language and .NET framework."
+    },
+    {
+      "id": 21,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML."
+    },
+    {
+      "id": 22,
+      "name": "Excel Formulas",
+      "definition": "Questions specifically about creating and using formulas in Excel."
+    },
+    {
+      "id": 23,
+      "name": "Objective-C",
+      "definition": "Questions related to Objective-C programming language."
+    },
+    {
+      "id": 24,
+      "name": "JSON",
+      "definition": "Questions regarding JSON data format and its manipulation."
+    },
+    {
+      "id": 25,
+      "name": "C++",
+      "definition": "Questions related to C++ programming language."
+    },
+    {
+      "id": 26,
+      "name": "Excel VBA Macros",
+      "definition": "Questions specifically about writing and using macros in Excel VBA."
+    },
+    {
+      "id": 27,
+      "name": "Spring Framework",
+      "definition": "Questions related to Spring Framework and its components."
+    },
+    {
+      "id": 28,
+      "name": "Unit Testing",
+      "definition": "Questions regarding unit testing practices and frameworks."
+    },
+    {
+      "id": 29,
+      "name": "Data Structures",
+      "definition": "Questions related to data structures in programming."
+    },
+    {
+      "id": 30,
+      "name": "Web Development",
+      "definition": "General questions related to web development practices and technologies."
+    }
+  ]
+}

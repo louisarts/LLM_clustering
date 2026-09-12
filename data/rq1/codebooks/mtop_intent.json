@@ -1,0 +1,84 @@
+{
+  "bench": "mtop_intent",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "n_discovery_docs": 300,
+  "n_samples": 1,
+  "discovery_seed": 0,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Information",
+      "definition": "Queries about current, future, or past weather conditions, temperature, precipitation, or related environmental factors."
+    },
+    {
+      "id": 2,
+      "name": "News Information",
+      "definition": "Queries about current events, headlines, specific news topics, or general updates."
+    },
+    {
+      "id": 3,
+      "name": "Reminder Management",
+      "definition": "Creating, modifying, deleting, or querying reminders for tasks, events, or specific times."
+    },
+    {
+      "id": 4,
+      "name": "Alarm Management",
+      "definition": "Setting, modifying, deleting, querying, or snoozing alarms."
+    },
+    {
+      "id": 5,
+      "name": "Timer Management",
+      "definition": "Setting, modifying, deleting, querying, pausing, or resuming timers."
+    },
+    {
+      "id": 6,
+      "name": "Music Playback Control",
+      "definition": "Playing music, changing stations, skipping tracks, stopping playback, or querying music information."
+    },
+    {
+      "id": 7,
+      "name": "Messaging",
+      "definition": "Sending, replying to, or querying text or video messages."
+    },
+    {
+      "id": 8,
+      "name": "Calling",
+      "definition": "Initiating, answering, ending, or managing voice or video calls."
+    },
+    {
+      "id": 9,
+      "name": "Recipe & Nutrition Information",
+      "definition": "Queries about recipes, ingredients, cooking instructions, or nutritional information."
+    },
+    {
+      "id": 10,
+      "name": "People & Organization Information",
+      "definition": "Queries about individuals or organizations, including their roles, relationships, locations, or online status."
+    },
+    {
+      "id": 11,
+      "name": "Event & Activity Information",
+      "definition": "Queries about specific events, activities, or things to do."
+    },
+    {
+      "id": 12,
+      "name": "Status Management",
+      "definition": "Setting or querying one's own status or availability."
+    },
+    {
+      "id": 13,
+      "name": "External Query",
+      "definition": "Requesting the assistant to ask another person or external service for specific information."
+    },
+    {
+      "id": 14,
+      "name": "Media Playback (Non-Music)",
+      "definition": "Playing or controlling non-music media, such as TV channels or recorded video messages."
+    },
+    {
+      "id": 15,
+      "name": "General Factual Information",
+      "definition": "Queries for specific facts or details that do not fit into other specialized information categories."
+    }
+  ]
+}

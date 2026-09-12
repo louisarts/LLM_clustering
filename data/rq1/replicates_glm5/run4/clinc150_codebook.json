@@ -1,0 +1,234 @@
+{
+  "bench": "clinc150",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar_Management",
+      "definition": "User wants to view, create, modify, or delete events and reminders on a personal calendar or to-do list."
+    },
+    {
+      "id": 2,
+      "name": "Banking_Account_Management",
+      "definition": "User wants to perform administrative actions on bank accounts such as freezing, changing details, ordering checks, or setting up direct deposit."
+    },
+    {
+      "id": 3,
+      "name": "Banking_Balance_Inquiry",
+      "definition": "User wants to check monetary balances, interest rates, spending limits, or transaction history."
+    },
+    {
+      "id": 4,
+      "name": "Credit_Card_Management",
+      "definition": "User wants to manage credit card specific tasks like reporting loss, checking status, requesting replacements, or modifying account details."
+    },
+    {
+      "id": 5,
+      "name": "Credit_Card_Inquiry",
+      "definition": "User wants to check credit card specific information such as rewards, APR, expiration dates, or fees."
+    },
+    {
+      "id": 6,
+      "name": "Credit_Score_Inquiry",
+      "definition": "User wants to check, understand, or improve their credit score."
+    },
+    {
+      "id": 7,
+      "name": "Loan_Management",
+      "definition": "User wants to manage or inquire about loans, mortgages, or retirement accounts like 401k."
+    },
+    {
+      "id": 8,
+      "name": "Bill_Payment",
+      "definition": "User wants assistance with paying bills such as utilities or gas."
+    },
+    {
+      "id": 9,
+      "name": "Travel_Visa_Requirements",
+      "definition": "User wants to know visa requirements for international travel."
+    },
+    {
+      "id": 10,
+      "name": "Travel_Notification",
+      "definition": "User wants to set a travel notice or inform their bank about upcoming travel."
+    },
+    {
+      "id": 11,
+      "name": "Flight_Booking",
+      "definition": "User wants to search for or book flights."
+    },
+    {
+      "id": 12,
+      "name": "Accommodation_Restaurant_Booking",
+      "definition": "User wants to book, cancel, or check availability for restaurants, hotels, or car rentals."
+    },
+    {
+      "id": 13,
+      "name": "Navigation_Directions",
+      "definition": "User wants directions, location sharing, or traffic estimates."
+    },
+    {
+      "id": 14,
+      "name": "Ride_Booking",
+      "definition": "User wants to book a ride service like Uber or Lyft."
+    },
+    {
+      "id": 15,
+      "name": "Vehicle_Maintenance_Info",
+      "definition": "User wants instructions or information regarding vehicle maintenance like jump starting or oil changes."
+    },
+    {
+      "id": 16,
+      "name": "Vehicle_Status_Inquiry",
+      "definition": "User wants to check vehicle status details like fuel type, tire pressure, or mileage."
+    },
+    {
+      "id": 17,
+      "name": "Device_Settings",
+      "definition": "User wants to change device settings such as volume, voice, battery mode, or app management."
+    },
+    {
+      "id": 18,
+      "name": "Communication_Messaging",
+      "definition": "User wants to send messages, make calls, or check call logs."
+    },
+    {
+      "id": 19,
+      "name": "Contact_Management",
+      "definition": "User wants to add, delete, or modify contacts."
+    },
+    {
+      "id": 20,
+      "name": "Music_Audio_Control",
+      "definition": "User wants to play, identify, or manage music and audio."
+    },
+    {
+      "id": 21,
+      "name": "Weather_Inquiry",
+      "definition": "User wants to check current or future weather conditions."
+    },
+    {
+      "id": 22,
+      "name": "Time_Date_Inquiry",
+      "definition": "User wants to know the time, date, time zone, or calculate date differences."
+    },
+    {
+      "id": 23,
+      "name": "Timer_Alert_Setup",
+      "definition": "User wants to set a timer, alarm, or reminder."
+    },
+    {
+      "id": 24,
+      "name": "Shopping_List_Management",
+      "definition": "User wants to view, add, or iterate over items on a shopping list."
+    },
+    {
+      "id": 25,
+      "name": "Order_Tracking",
+      "definition": "User wants to track the status of a delivery or order."
+    },
+    {
+      "id": 26,
+      "name": "Insurance_Inquiry",
+      "definition": "User wants to check insurance coverage, benefits, or find insurance providers."
+    },
+    {
+      "id": 27,
+      "name": "Employment_HR_Inquiry",
+      "definition": "User wants to check employment details like PTO, benefits, or job openings."
+    },
+    {
+      "id": 28,
+      "name": "Medical_Health_Inquiry",
+      "definition": "User wants medical advice, health information, or to check medical records."
+    },
+    {
+      "id": 29,
+      "name": "Recipe_Food_Inquiry",
+      "definition": "User wants recipes, ingredient lists, or cooking instructions."
+    },
+    {
+      "id": 30,
+      "name": "Ingredient_Substitution",
+      "definition": "User wants to know if one ingredient can be substituted for another."
+    },
+    {
+      "id": 31,
+      "name": "General_Knowledge_QA",
+      "definition": "User wants factual information, definitions, or answers to general questions."
+    },
+    {
+      "id": 32,
+      "name": "Spelling_Vocabulary",
+      "definition": "User wants to know the spelling, meaning, or translation of a word."
+    },
+    {
+      "id": 33,
+      "name": "Math_Calculation",
+      "definition": "User wants to perform a mathematical calculation or conversion."
+    },
+    {
+      "id": 34,
+      "name": "Random_Generation",
+      "definition": "User wants to generate a random result like a coin flip or dice roll."
+    },
+    {
+      "id": 35,
+      "name": "Task_Automation",
+      "definition": "User wants the assistant to perform a complex task or execute a command not covered by other categories."
+    },
+    {
+      "id": 36,
+      "name": "System_Command",
+      "definition": "User wants to stop, cancel, or repeat an ongoing interaction or process."
+    },
+    {
+      "id": 37,
+      "name": "User_Feedback",
+      "definition": "User provides confirmation, correction, or gratitude regarding the assistant's performance."
+    },
+    {
+      "id": 38,
+      "name": "Assistant_Personality_Inquiry",
+      "definition": "User asks about the assistant's nature, origin, name, or hobbies."
+    },
+    {
+      "id": 39,
+      "name": "Capability_Inquiry",
+      "definition": "User wants to know what tasks the assistant is capable of performing."
+    },
+    {
+      "id": 40,
+      "name": "Travel_Advisory",
+      "definition": "User wants to know safety information or vaccination requirements for travel."
+    },
+    {
+      "id": 41,
+      "name": "Luggage_Services",
+      "definition": "User wants to locate or inquire about lost luggage."
+    },
+    {
+      "id": 42,
+      "name": "Local_Business_Search",
+      "definition": "User wants to find local businesses, services, or professionals like lawyers or repair shops."
+    },
+    {
+      "id": 43,
+      "name": "News_Media_Search",
+      "definition": "User wants to search for news headlines, movies, or social media content."
+    },
+    {
+      "id": 44,
+      "name": "Web_Search",
+      "definition": "User wants to search the web for specific information or websites."
+    },
+    {
+      "id": 45,
+      "name": "Phone_Locator",
+      "definition": "User wants to locate a lost or misplaced phone."
+    }
+  ]
+}

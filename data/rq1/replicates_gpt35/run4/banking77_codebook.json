@@ -1,0 +1,160 @@
+{
+  "bench": "banking77",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Issue",
+      "definition": "Queries related to obtaining, replacing, or activating physical or virtual cards."
+    },
+    {
+      "id": 2,
+      "name": "Unauthorized Use",
+      "definition": "Concerns about unauthorized transactions or stolen cards."
+    },
+    {
+      "id": 3,
+      "name": "Transaction Dispute",
+      "definition": "Requests to investigate or dispute specific transactions."
+    },
+    {
+      "id": 4,
+      "name": "Transfer Issue",
+      "definition": "Problems with fund transfers between accounts or banks."
+    },
+    {
+      "id": 5,
+      "name": "Top-Up Problem",
+      "definition": "Issues related to adding funds or topping up accounts."
+    },
+    {
+      "id": 6,
+      "name": "PIN Assistance",
+      "definition": "Requests for assistance with PIN-related problems."
+    },
+    {
+      "id": 7,
+      "name": "Identity Verification",
+      "definition": "Queries regarding identity verification procedures."
+    },
+    {
+      "id": 8,
+      "name": "Refund Request",
+      "definition": "Requests for refunds for purchases or transactions."
+    },
+    {
+      "id": 9,
+      "name": "Account Closure",
+      "definition": "Requests or statements about closing or deleting accounts."
+    },
+    {
+      "id": 10,
+      "name": "Exchange Rate Inquiry",
+      "definition": "Questions about exchange rates for currency conversions."
+    },
+    {
+      "id": 11,
+      "name": "Fee Inquiry",
+      "definition": "Questions about fees associated with transactions or services."
+    },
+    {
+      "id": 12,
+      "name": "Card Delivery",
+      "definition": "Inquiries about the delivery status of physical cards."
+    },
+    {
+      "id": 13,
+      "name": "Card Activation",
+      "definition": "Queries related to activating new or replacement cards."
+    },
+    {
+      "id": 14,
+      "name": "Card Decline",
+      "definition": "Concerns about card payments being declined."
+    },
+    {
+      "id": 15,
+      "name": "ATM Issue",
+      "definition": "Issues related to ATM transactions or card retention."
+    },
+    {
+      "id": 16,
+      "name": "Account Linking",
+      "definition": "Questions about linking cards or accounts."
+    },
+    {
+      "id": 17,
+      "name": "Account Security",
+      "definition": "Concerns about account security or unauthorized access."
+    },
+    {
+      "id": 18,
+      "name": "Account Verification",
+      "definition": "Queries related to verifying account details or identity."
+    },
+    {
+      "id": 19,
+      "name": "Duplicate Charge",
+      "definition": "Concerns about duplicate or incorrect charges on accounts."
+    },
+    {
+      "id": 20,
+      "name": "Payment Dispute",
+      "definition": "Disputes or questions regarding payments or charges."
+    },
+    {
+      "id": 21,
+      "name": "Card Replacement",
+      "definition": "Requests for replacing lost, stolen, or expired cards."
+    },
+    {
+      "id": 22,
+      "name": "Transfer Delay",
+      "definition": "Inquiries about delays in fund transfers."
+    },
+    {
+      "id": 23,
+      "name": "Card Functionality",
+      "definition": "Issues related to card functionality or usage."
+    },
+    {
+      "id": 24,
+      "name": "Currency Exchange",
+      "definition": "Queries about currency exchange services or rates."
+    },
+    {
+      "id": 25,
+      "name": "Account Limit",
+      "definition": "Questions about account limits or restrictions."
+    },
+    {
+      "id": 26,
+      "name": "Card Freeze",
+      "definition": "Requests to freeze or unfreeze card functionality."
+    },
+    {
+      "id": 27,
+      "name": "Card Dispute",
+      "definition": "Disputes or inquiries about specific card transactions."
+    },
+    {
+      "id": 28,
+      "name": "Card Activation",
+      "definition": "Queries related to activating new or replacement cards."
+    },
+    {
+      "id": 29,
+      "name": "Card Replacement",
+      "definition": "Requests for replacing lost, stolen, or expired cards."
+    },
+    {
+      "id": 30,
+      "name": "Card Functionality",
+      "definition": "Issues related to card functionality or usage."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "bench": "fewevent",
+  "run": 6,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person (Role or Relationship)",
+      "definition": "A word denoting an individual or group based on their occupation, social role, or personal relationship."
+    },
+    {
+      "id": 2,
+      "name": "Action or Activity",
+      "definition": "A word denoting a specific task, process, or general action."
+    },
+    {
+      "id": 3,
+      "name": "Award or Achievement",
+      "definition": "A word denoting a recognition, prize, or successful outcome."
+    },
+    {
+      "id": 4,
+      "name": "Social or Political Event",
+      "definition": "A word denoting an event related to public affairs, governance, or collective action."
+    },
+    {
+      "id": 5,
+      "name": "Conflict or Crime",
+      "definition": "A word denoting an act of violence, illegal activity, or hostile encounter."
+    },
+    {
+      "id": 6,
+      "name": "Creative Work or Media",
+      "definition": "A word denoting an artistic production or form of media."
+    },
+    {
+      "id": 7,
+      "name": "Financial or Economic Term",
+      "definition": "A word denoting a concept or event related to money, costs, or resources."
+    },
+    {
+      "id": 8,
+      "name": "Movement or Travel",
+      "definition": "A word denoting physical relocation or a change in position."
+    },
+    {
+      "id": 9,
+      "name": "Communication Act",
+      "definition": "A word denoting an act of conveying information or expressing an opinion."
+    },
+    {
+      "id": 10,
+      "name": "Status Change",
+      "definition": "A word denoting a change in a person's or entity's condition or state."
+    },
+    {
+      "id": 11,
+      "name": "Authority or Control",
+      "definition": "A word denoting power, governance, or a directive."
+    },
+    {
+      "id": 12,
+      "name": "Location or Institution",
+      "definition": "A word denoting a physical place, building, or formal organization."
+    },
+    {
+      "id": 13,
+      "name": "Object or Entity",
+      "definition": "A word denoting a tangible item or an abstract organizational body."
+    },
+    {
+      "id": 14,
+      "name": "Abstract Reference/Situation",
+      "definition": "A pronoun or generic term referring to an unspecified situation, context, or concept."
+    }
+  ]
+}

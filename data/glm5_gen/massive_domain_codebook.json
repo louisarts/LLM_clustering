@@ -1,0 +1,102 @@
+[
+ {
+  "id": 1,
+  "name": "Alarm",
+  "definition": "Setting, checking, or managing device alarms for waking up or specific times."
+ },
+ {
+  "id": 2,
+  "name": "Calendar",
+  "definition": "Managing events, meetings, and checking personal schedules."
+ },
+ {
+  "id": 3,
+  "name": "Contacts",
+  "definition": "Managing contact lists and retrieving contact information."
+ },
+ {
+  "id": 4,
+  "name": "Email",
+  "definition": "Sending, reading, and managing emails."
+ },
+ {
+  "id": 5,
+  "name": "Events",
+  "definition": "Finding information about local events, concerts, exhibitions, and happenings."
+ },
+ {
+  "id": 6,
+  "name": "Finance",
+  "definition": "Checking stock prices, currency exchange rates, and financial market data."
+ },
+ {
+  "id": 7,
+  "name": "Gaming",
+  "definition": "Playing games or launching gaming applications."
+ },
+ {
+  "id": 8,
+  "name": "General Knowledge",
+  "definition": "Asking factual questions, definitions, calculations, recipes, and how-to guides."
+ },
+ {
+  "id": 9,
+  "name": "Lists",
+  "definition": "Creating and managing shopping lists and to-do lists."
+ },
+ {
+  "id": 10,
+  "name": "Local Business",
+  "definition": "Finding nearby businesses, restaurants, services, and places."
+ },
+ {
+  "id": 11,
+  "name": "Movies & TV",
+  "definition": "Finding movies, TV shows, and entertainment recommendations."
+ },
+ {
+  "id": 12,
+  "name": "Music & Audio",
+  "definition": "Playing and controlling music, radio, podcasts, and audiobooks."
+ },
+ {
+  "id": 13,
+  "name": "Navigation",
+  "definition": "Getting directions and checking traffic conditions."
+ },
+ {
+  "id": 14,
+  "name": "News",
+  "definition": "Requesting news headlines, articles, and current affairs."
+ },
+ {
+  "id": 15,
+  "name": "Reminders",
+  "definition": "Setting prompts to remember tasks, events, or time-based actions."
+ },
+ {
+  "id": 16,
+  "name": "Smart Home",
+  "definition": "Controlling smart home devices such as lights, appliances, and sockets."
+ },
+ {
+  "id": 17,
+  "name": "Small Talk",
+  "definition": "Engaging in greetings, jokes, personal questions, and conversational chit-chat."
+ },
+ {
+  "id": 18,
+  "name": "Social Media",
+  "definition": "Posting messages or interacting with social media platforms."
+ },
+ {
+  "id": 19,
+  "name": "Transportation",
+  "definition": "Booking rides and tickets, and checking schedules for trains, flights, and taxis."
+ },
+ {
+  "id": 20,
+  "name": "Weather",
+  "definition": "Querying weather forecasts and atmospheric conditions."
+ }
+]

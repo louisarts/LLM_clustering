@@ -1,0 +1,70 @@
+{
+  "bench": "mtop_domain",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm",
+      "definition": "Utterances related to setting, cancelling, or modifying alarms or reminders."
+    },
+    {
+      "id": 2,
+      "name": "Call",
+      "definition": "Utterances related to making phone calls or video calls."
+    },
+    {
+      "id": 3,
+      "name": "Weather",
+      "definition": "Utterances related to checking the weather forecast for specific locations."
+    },
+    {
+      "id": 4,
+      "name": "Timer",
+      "definition": "Utterances related to setting, stopping, or modifying timers."
+    },
+    {
+      "id": 5,
+      "name": "Music",
+      "definition": "Utterances related to playing music or specific songs."
+    },
+    {
+      "id": 6,
+      "name": "Recipe",
+      "definition": "Utterances related to finding or asking for recipes."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Utterances related to checking news headlines or updates."
+    },
+    {
+      "id": 8,
+      "name": "Messaging",
+      "definition": "Utterances related to sending messages via text, video, or chat applications."
+    },
+    {
+      "id": 9,
+      "name": "Location",
+      "definition": "Utterances related to checking or finding locations of people or places."
+    },
+    {
+      "id": 10,
+      "name": "Calendar",
+      "definition": "Utterances related to scheduling events, appointments, or meetings."
+    },
+    {
+      "id": 11,
+      "name": "Cooking",
+      "definition": "Utterances related to cooking instructions, temperatures, or recipes."
+    },
+    {
+      "id": 12,
+      "name": "Social Media",
+      "definition": "Utterances related to checking or accessing social media platforms or accounts."
+    }
+  ]
+}

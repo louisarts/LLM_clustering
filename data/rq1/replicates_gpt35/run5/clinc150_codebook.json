@@ -1,0 +1,60 @@
+{
+  "bench": "clinc150",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Inquiry",
+      "definition": "User seeks information or answers to questions."
+    },
+    {
+      "id": 2,
+      "name": "Task Assistance",
+      "definition": "User requests help with completing a specific task or action."
+    },
+    {
+      "id": 3,
+      "name": "Reservation/Booking",
+      "definition": "User wants to make or confirm a reservation or booking."
+    },
+    {
+      "id": 4,
+      "name": "Account Management",
+      "definition": "User needs assistance with managing their accounts or finances."
+    },
+    {
+      "id": 5,
+      "name": "Location Services",
+      "definition": "User requests information or assistance related to location or directions."
+    },
+    {
+      "id": 6,
+      "name": "Reminder/Calendar Management",
+      "definition": "User asks for reminders or assistance with managing their calendar."
+    },
+    {
+      "id": 7,
+      "name": "Technical Support",
+      "definition": "User seeks technical assistance or troubleshooting help."
+    },
+    {
+      "id": 8,
+      "name": "Health/Wellness Inquiry",
+      "definition": "User asks for health-related information or advice."
+    },
+    {
+      "id": 9,
+      "name": "Food/Recipe Inquiry",
+      "definition": "User seeks information or recipes related to food."
+    },
+    {
+      "id": 10,
+      "name": "Entertainment Inquiry",
+      "definition": "User requests information related to entertainment or leisure activities."
+    }
+  ]
+}

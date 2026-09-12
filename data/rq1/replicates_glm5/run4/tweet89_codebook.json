@@ -1,0 +1,309 @@
+{
+  "bench": "tweet89",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "News and opinions regarding advertisements aired during the Super Bowl, including specific brands like Volkswagen, Doritos, and Chrysler."
+    },
+    {
+      "id": 2,
+      "name": "Academy Award Nominations",
+      "definition": "Announcements and analysis of the nominees for the Academy Awards, with specific focus on the film The King's Speech."
+    },
+    {
+      "id": 3,
+      "name": "Egyptian Crisis and Protests",
+      "definition": "Reports on the 2011 political unrest in Egypt, including attacks on journalists, protection of museums, and anti-government demonstrations."
+    },
+    {
+      "id": 4,
+      "name": "Moscow Airport Bombing",
+      "definition": "Coverage of the terrorist bombing at Domodedovo Airport in Moscow, including casualties and international reactions."
+    },
+    {
+      "id": 5,
+      "name": "US Healthcare Reform Ruling",
+      "definition": "Judicial rulings and political reactions regarding the constitutionality of the Affordable Care Act and the individual mandate."
+    },
+    {
+      "id": 6,
+      "name": "Yemeni Political Protests",
+      "definition": "Demonstrations and political developments in Yemen calling for President Saleh to step down."
+    },
+    {
+      "id": 7,
+      "name": "Christina Aguilera National Anthem Performance",
+      "definition": "Reactions to Christina Aguilera's performance and lyrical error while singing the national anthem at the Super Bowl."
+    },
+    {
+      "id": 8,
+      "name": "Australian Open Tennis",
+      "definition": "Results and matches from the Australian Open tennis tournament, focusing on Novak Djokovic and Andy Murray."
+    },
+    {
+      "id": 9,
+      "name": "Taco Bell Lawsuit",
+      "definition": "News regarding the lawsuit questioning the beef content of Taco Bell's meat filling."
+    },
+    {
+      "id": 10,
+      "name": "Texting While Driving Awareness",
+      "definition": "Public service messages and news stories highlighting the dangers of texting while driving."
+    },
+    {
+      "id": 11,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates on the medical condition and rehabilitation of Congresswoman Gabrielle Giffords following the shooting."
+    },
+    {
+      "id": 12,
+      "name": "New York State Budget Proposal",
+      "definition": "Governor Andrew Cuomo's proposed budget cuts affecting schools and Medicaid in New York."
+    },
+    {
+      "id": 13,
+      "name": "Venezuelan Politics",
+      "definition": "News concerning President Hugo Chavez, including his reelection and judiciary policies."
+    },
+    {
+      "id": 14,
+      "name": "Acai Berry Diet Trends",
+      "definition": "Articles and promotions regarding the use of acai berries for weight loss and health."
+    },
+    {
+      "id": 15,
+      "name": "Fishing Reports and Techniques",
+      "definition": "Guides, personal reports, and tips regarding various types of fishing and fishing conditions."
+    },
+    {
+      "id": 16,
+      "name": "Facebook Privacy Settings",
+      "definition": "User guides and discussions concerning privacy settings on the Facebook social media platform."
+    },
+    {
+      "id": 17,
+      "name": "Smartphone Market Share",
+      "definition": "Reports on market competition and profit shares among smartphone manufacturers like Apple and Android."
+    },
+    {
+      "id": 18,
+      "name": "Financial Aid and Scholarships",
+      "definition": "Information regarding student financial aid processes like FAFSA and scholarship opportunities."
+    },
+    {
+      "id": 19,
+      "name": "Chicken Recipes",
+      "definition": "Various recipes and cooking tips for preparing chicken dishes."
+    },
+    {
+      "id": 20,
+      "name": "Identity Theft Prevention",
+      "definition": "Tips and news reports regarding the prevention and impact of identity theft and online fraud."
+    },
+    {
+      "id": 21,
+      "name": "Michael Steele RNC Resignation",
+      "definition": "News regarding the resignation of Michael Steele as chairman of the Republican National Committee."
+    },
+    {
+      "id": 22,
+      "name": "Keith Olbermann Media Move",
+      "definition": "Reports on Keith Olbermann leaving MSNBC to join Current TV."
+    },
+    {
+      "id": 23,
+      "name": "Starbucks Trenta Cup Size",
+      "definition": "Discussions regarding the introduction of the large Trenta cup size at Starbucks."
+    },
+    {
+      "id": 24,
+      "name": "Teen Concussion Safety",
+      "definition": "Medical news and safety protocols regarding sports-related concussions in teenage athletes."
+    },
+    {
+      "id": 25,
+      "name": "Michelle Obama Health Initiatives",
+      "definition": "News regarding First Lady Michelle Obama's campaigns for healthy eating and fitness."
+    },
+    {
+      "id": 26,
+      "name": "Jordanian Protests",
+      "definition": "Political demonstrations in Jordan demanding the prime minister step down."
+    },
+    {
+      "id": 27,
+      "name": "Iranian Execution",
+      "definition": "Reports on the execution of an Iranian-Dutch woman in Iran."
+    },
+    {
+      "id": 28,
+      "name": "Kardashian Family News",
+      "definition": "General news, opinions, and media appearances related to the Kardashian family."
+    },
+    {
+      "id": 29,
+      "name": "Sundance Film Festival",
+      "definition": "News and sightings from the Sundance Film Festival, including breakout stars like Elizabeth Olsen."
+    },
+    {
+      "id": 30,
+      "name": "Climate and Weather Events",
+      "definition": "Reports on unusual weather events, including Cyclone Yasi and climate change updates."
+    },
+    {
+      "id": 31,
+      "name": "TSA Security Controversy",
+      "definition": "News regarding lawsuits and public concerns over TSA security measures and body scanners."
+    },
+    {
+      "id": 32,
+      "name": "Donald Rumsfeld Memoir",
+      "definition": "Coverage of Donald Rumsfeld's memoir and his reflections on his political career."
+    },
+    {
+      "id": 33,
+      "name": "US Immigration Legislation",
+      "definition": "State-level bills and political debates regarding illegal immigration and citizenship."
+    },
+    {
+      "id": 34,
+      "name": "Supreme Court Rulings",
+      "definition": "Decisions and hearings by the US Supreme Court unrelated to healthcare reform."
+    },
+    {
+      "id": 35,
+      "name": "Korean Navy Rescue",
+      "definition": "News about the South Korean navy rescuing a hijacked crew and killing pirates."
+    },
+    {
+      "id": 36,
+      "name": "Robert Kubica Injury",
+      "definition": "Reports on Formula One driver Robert Kubica's injury and its impact on his racing season."
+    },
+    {
+      "id": 37,
+      "name": "Kendrick Perkins NBA Trade",
+      "definition": "News regarding NBA player Kendrick Perkins' knee surgery and team debut."
+    },
+    {
+      "id": 38,
+      "name": "White Stripes Band Split",
+      "definition": "Announcement that the band The White Stripes has disbanded."
+    },
+    {
+      "id": 39,
+      "name": "US Employment Report",
+      "definition": "News regarding the unemployment rate and job market growth in the US."
+    },
+    {
+      "id": 40,
+      "name": "Bottega Veneta Fragrance",
+      "definition": "Launch news for a new fragrance by the brand Bottega Veneta."
+    },
+    {
+      "id": 41,
+      "name": "Myanmar Sanctions",
+      "definition": "International pressure to impose or review sanctions on Myanmar."
+    },
+    {
+      "id": 42,
+      "name": "Jay Carney Press Secretary",
+      "definition": "Appointment of Jay Carney as the new White House Press Secretary."
+    },
+    {
+      "id": 43,
+      "name": "US Forestry Commission Cuts",
+      "definition": "Government spending cuts affecting the Forestry Commission in the UK."
+    },
+    {
+      "id": 44,
+      "name": "Stuxnet Computer Worm",
+      "definition": "Concerns regarding the Stuxnet computer worm and its health or security impacts."
+    },
+    {
+      "id": 45,
+      "name": "FDA Drug Approval",
+      "definition": "News that the FDA approved a drug to prevent preterm birth."
+    },
+    {
+      "id": 46,
+      "name": "Chicago Mayoral Ballot",
+      "definition": "Illinois Supreme Court ruling regarding Rahm Emanuel's eligibility for the Chicago mayoral ballot."
+    },
+    {
+      "id": 47,
+      "name": "Obama Birth Certificate Legislation",
+      "definition": "State-level bills requiring presidential candidates to prove natural-born citizenship."
+    },
+    {
+      "id": 48,
+      "name": "Anti-Bullying Initiatives",
+      "definition": "Programs and advice aimed at preventing bullying in schools."
+    },
+    {
+      "id": 49,
+      "name": "Stock Market Updates",
+      "definition": "Daily analysis and reports on stock market performance."
+    },
+    {
+      "id": 50,
+      "name": "Television Programming",
+      "definition": "Viewer reactions to specific TV shows like NCIS and Extreme Makeover."
+    },
+    {
+      "id": 51,
+      "name": "Consumer Debt Consolidation",
+      "definition": "Advice and services regarding the consolidation of consumer debt."
+    },
+    {
+      "id": 52,
+      "name": "Illegal Ice Fishing Bust",
+      "definition": "News of arrests for illegal ice fishing in Vancouver."
+    },
+    {
+      "id": 53,
+      "name": "Chicago School Closures",
+      "definition": "Mayor's decision to close Chicago public schools."
+    },
+    {
+      "id": 54,
+      "name": "Obama Social Media Strategy",
+      "definition": "News regarding the Obama campaign's use of social media."
+    },
+    {
+      "id": 55,
+      "name": "Fox News Frances Fox Piven",
+      "definition": "Controversy involving Glenn Beck, Fox News, and professor Frances Fox Piven."
+    },
+    {
+      "id": 56,
+      "name": "Tea Party Caucus",
+      "definition": "Senators avoiding or joining the Tea Party Caucus."
+    },
+    {
+      "id": 57,
+      "name": "Chinese President US Visit",
+      "definition": "Coverage of the Chinese President's visit and meetings with US leaders."
+    },
+    {
+      "id": 58,
+      "name": "Best Buy Target Promotion",
+      "definition": "Launch of electronics offers by Best Buy and Target."
+    },
+    {
+      "id": 59,
+      "name": "James Franco Sundance Appearance",
+      "definition": "James Franco's activities and appearance at the Sundance film festival."
+    },
+    {
+      "id": 60,
+      "name": "Charlie Sheen Television Episode",
+      "definition": "Network decisions regarding episodes of the show Two and a Half Men involving Charlie Sheen."
+    }
+  ]
+}

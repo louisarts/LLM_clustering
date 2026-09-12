@@ -1,0 +1,110 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Programming",
+      "definition": "Questions related to coding, software development, and programming languages."
+    },
+    {
+      "id": 2,
+      "name": "Mathematics",
+      "definition": "Questions involving mathematical concepts, theories, and problem-solving."
+    },
+    {
+      "id": 3,
+      "name": "Science",
+      "definition": "Questions pertaining to scientific principles, experiments, and theories."
+    },
+    {
+      "id": 4,
+      "name": "Health",
+      "definition": "Questions related to medical, psychological, and wellness topics."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "Questions about technological devices, software, and innovations."
+    },
+    {
+      "id": 6,
+      "name": "History",
+      "definition": "Questions regarding historical events, figures, and contexts."
+    },
+    {
+      "id": 7,
+      "name": "Language",
+      "definition": "Questions about linguistics, grammar, and language learning."
+    },
+    {
+      "id": 8,
+      "name": "Arts & Crafts",
+      "definition": "Questions related to creative arts, crafts, and design."
+    },
+    {
+      "id": 9,
+      "name": "Finance",
+      "definition": "Questions about financial concepts, investments, and economic principles."
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "Questions related to teaching, learning, and educational systems."
+    },
+    {
+      "id": 11,
+      "name": "Food & Cooking",
+      "definition": "Questions about culinary techniques, recipes, and food science."
+    },
+    {
+      "id": 12,
+      "name": "Travel",
+      "definition": "Questions regarding travel advice, destinations, and experiences."
+    },
+    {
+      "id": 13,
+      "name": "Parenting",
+      "definition": "Questions related to child-rearing, family dynamics, and parenting advice."
+    },
+    {
+      "id": 14,
+      "name": "Legal",
+      "definition": "Questions about laws, regulations, and legal advice."
+    },
+    {
+      "id": 15,
+      "name": "Gaming",
+      "definition": "Questions related to video games, board games, and gaming culture."
+    },
+    {
+      "id": 16,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical concepts, theories, and discussions."
+    },
+    {
+      "id": 17,
+      "name": "Sports",
+      "definition": "Questions related to sports, athletic activities, and competitions."
+    },
+    {
+      "id": 18,
+      "name": "Home Improvement",
+      "definition": "Questions about DIY projects, home repairs, and renovations."
+    },
+    {
+      "id": 19,
+      "name": "Pets",
+      "definition": "Questions regarding pet care, training, and animal behavior."
+    },
+    {
+      "id": 20,
+      "name": "Social Issues",
+      "definition": "Questions about societal challenges, cultural discussions, and community matters."
+    }
+  ]
+}

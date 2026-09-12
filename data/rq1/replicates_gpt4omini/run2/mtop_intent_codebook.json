@@ -1,0 +1,110 @@
+{
+  "bench": "mtop_intent",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "User requests to set an alarm for a specific time or day."
+    },
+    {
+      "id": 2,
+      "name": "Set Reminder",
+      "definition": "User requests to set a reminder for a specific task or event."
+    },
+    {
+      "id": 3,
+      "name": "Get Information",
+      "definition": "User asks for factual information or data."
+    },
+    {
+      "id": 4,
+      "name": "Make Call",
+      "definition": "User requests to initiate a phone call to a specific contact."
+    },
+    {
+      "id": 5,
+      "name": "Send Message",
+      "definition": "User requests to send a message to a specific contact."
+    },
+    {
+      "id": 6,
+      "name": "Play Music",
+      "definition": "User requests to play a specific song, artist, or genre."
+    },
+    {
+      "id": 7,
+      "name": "Set Timer",
+      "definition": "User requests to set a timer for a specific duration."
+    },
+    {
+      "id": 8,
+      "name": "Manage Reminders",
+      "definition": "User requests to delete, change, or view reminders."
+    },
+    {
+      "id": 9,
+      "name": "Video Call",
+      "definition": "User requests to initiate a video call with a specific group or contact."
+    },
+    {
+      "id": 10,
+      "name": "Weather Inquiry",
+      "definition": "User asks for weather forecasts or current weather conditions."
+    },
+    {
+      "id": 11,
+      "name": "Event Inquiry",
+      "definition": "User asks about events happening in a specific location or time."
+    },
+    {
+      "id": 12,
+      "name": "Recipe Inquiry",
+      "definition": "User asks for cooking recipes or instructions."
+    },
+    {
+      "id": 13,
+      "name": "News Inquiry",
+      "definition": "User requests news updates or specific news topics."
+    },
+    {
+      "id": 14,
+      "name": "Personal Information Inquiry",
+      "definition": "User asks about personal contacts or relationships."
+    },
+    {
+      "id": 15,
+      "name": "Task Management",
+      "definition": "User requests to manage tasks or appointments."
+    },
+    {
+      "id": 16,
+      "name": "Call Management",
+      "definition": "User requests to manage ongoing calls, including pausing or ending."
+    },
+    {
+      "id": 17,
+      "name": "Social Media Interaction",
+      "definition": "User requests to interact with social media, such as posting or messaging."
+    },
+    {
+      "id": 18,
+      "name": "Timer Management",
+      "definition": "User requests to manage timers, including starting, pausing, or resetting."
+    },
+    {
+      "id": 19,
+      "name": "Availability Status",
+      "definition": "User requests to set or inquire about their availability status."
+    },
+    {
+      "id": 20,
+      "name": "General Inquiry",
+      "definition": "User asks general questions that do not fit into other categories."
+    }
+  ]
+}

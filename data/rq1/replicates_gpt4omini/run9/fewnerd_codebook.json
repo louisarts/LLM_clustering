@@ -1,0 +1,90 @@
+{
+  "bench": "fewnerd",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Geographical Locations",
+      "definition": "Entities that refer to specific places, regions, or countries."
+    },
+    {
+      "id": 2,
+      "name": "Organizations",
+      "definition": "Entities that refer to groups, institutions, or companies."
+    },
+    {
+      "id": 3,
+      "name": "People",
+      "definition": "Entities that refer to individuals or groups of individuals."
+    },
+    {
+      "id": 4,
+      "name": "Events",
+      "definition": "Entities that refer to specific occurrences or happenings."
+    },
+    {
+      "id": 5,
+      "name": "Cultural Works",
+      "definition": "Entities that refer to artistic or literary creations."
+    },
+    {
+      "id": 6,
+      "name": "Biological Entities",
+      "definition": "Entities that refer to species, organisms, or biological classifications."
+    },
+    {
+      "id": 7,
+      "name": "Political Entities",
+      "definition": "Entities that refer to political groups, movements, or ideologies."
+    },
+    {
+      "id": 8,
+      "name": "Scientific Concepts",
+      "definition": "Entities that refer to scientific theories, principles, or phenomena."
+    },
+    {
+      "id": 9,
+      "name": "Historical Figures",
+      "definition": "Entities that refer to notable individuals from history."
+    },
+    {
+      "id": 10,
+      "name": "Awards and Honors",
+      "definition": "Entities that refer to recognitions or accolades given for achievements."
+    },
+    {
+      "id": 11,
+      "name": "Sports Teams",
+      "definition": "Entities that refer to organized groups that compete in sports."
+    },
+    {
+      "id": 12,
+      "name": "Transportation Entities",
+      "definition": "Entities that refer to vehicles, transport systems, or infrastructure."
+    },
+    {
+      "id": 13,
+      "name": "Legal and Governmental Entities",
+      "definition": "Entities that refer to legal systems, governmental bodies, or laws."
+    },
+    {
+      "id": 14,
+      "name": "Technological Entities",
+      "definition": "Entities that refer to technological products, systems, or innovations."
+    },
+    {
+      "id": 15,
+      "name": "Religious Entities",
+      "definition": "Entities that refer to religious groups, beliefs, or practices."
+    },
+    {
+      "id": 16,
+      "name": "Economic Entities",
+      "definition": "Entities that refer to economic systems, markets, or financial instruments."
+    }
+  ]
+}

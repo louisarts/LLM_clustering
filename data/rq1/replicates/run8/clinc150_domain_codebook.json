@@ -1,0 +1,72 @@
+{
+  "bench": "clinc150_domain",
+  "run": 8,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Travel & Navigation",
+      "definition": "Planning trips, asking about destinations, travel advisories, flight status, directions, local points of interest, transportation, finding hotels, or current location awareness."
+    },
+    {
+      "id": 2,
+      "name": "Finance & Banking",
+      "definition": "Managing bank accounts, credit cards, loans, bills, payments, financial information, fraud, and related inquiries."
+    },
+    {
+      "id": 3,
+      "name": "Personal Organization & Scheduling",
+      "definition": "Managing personal calendars, reminders, to-do lists, appointments, and personal reservations."
+    },
+    {
+      "id": 4,
+      "name": "General Information & Knowledge",
+      "definition": "Asking factual questions, definitions, conversions, recipes, trivia, weather, general advice, or how-to instructions."
+    },
+    {
+      "id": 5,
+      "name": "Device & Assistant Settings",
+      "definition": "Changing the assistant's voice, language, volume, modes, or resetting its configuration, or connecting to other devices."
+    },
+    {
+      "id": 6,
+      "name": "Assistant Self-Referential",
+      "definition": "Questions about the assistant's identity, capabilities, origin, or personal attributes."
+    },
+    {
+      "id": 7,
+      "name": "Shopping & Purchases",
+      "definition": "Creating shopping lists, asking about items to buy, making direct purchases, or checking shipping status."
+    },
+    {
+      "id": 8,
+      "name": "Media & Entertainment",
+      "definition": "Playing music, identifying songs, asking for jokes, or general entertainment content."
+    },
+    {
+      "id": 9,
+      "name": "Communication",
+      "definition": "Making calls, sending messages, or sharing location with others."
+    },
+    {
+      "id": 10,
+      "name": "Home Automation & Smart Devices",
+      "definition": "Controlling smart home devices or appliances."
+    },
+    {
+      "id": 11,
+      "name": "Customer Service & General Reservations",
+      "definition": "Asking about wait times, reviews, or making reservations for non-personal entities like restaurants or businesses."
+    },
+    {
+      "id": 12,
+      "name": "Finding Lost Items",
+      "definition": "Locating personal items like phones or luggage."
+    },
+    {
+      "id": 13,
+      "name": "General Interaction/Conversational",
+      "definition": "Utterances that are conversational fillers, acknowledgements, simple requests for repetition, greetings, or non-task-specific responses."
+    }
+  ]
+}

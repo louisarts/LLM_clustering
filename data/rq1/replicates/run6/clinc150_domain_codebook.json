@@ -1,0 +1,72 @@
+{
+  "bench": "clinc150_domain",
+  "run": 6,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking & Finance",
+      "definition": "Managing personal financial accounts, credit, payments, loans, taxes, and related inquiries."
+    },
+    {
+      "id": 2,
+      "name": "Travel & Accommodation",
+      "definition": "Planning, booking, or inquiring about travel, transportation, and lodging."
+    },
+    {
+      "id": 3,
+      "name": "Scheduling & Reminders",
+      "definition": "Setting alarms, timers, managing personal to-do lists, and scheduling events or appointments."
+    },
+    {
+      "id": 4,
+      "name": "Information Retrieval & General Knowledge",
+      "definition": "Seeking factual information, definitions, conversions, recipes, weather, general knowledge, simple calculations, or random outcomes."
+    },
+    {
+      "id": 5,
+      "name": "Device & Assistant Control",
+      "definition": "Adjusting assistant settings (voice, language, volume) or controlling general device functions (e.g., smart home, ending processes)."
+    },
+    {
+      "id": 6,
+      "name": "Media & Entertainment",
+      "definition": "Controlling media playback, identifying songs, or managing playlists."
+    },
+    {
+      "id": 7,
+      "name": "Automotive & Vehicle Maintenance",
+      "definition": "Inquiries or actions related to vehicle status, maintenance, or operation."
+    },
+    {
+      "id": 8,
+      "name": "Personal Assistant Interaction",
+      "definition": "Inquiries or commands related to the assistant's identity, capabilities, or personal preferences, or setting user preferences for the assistant."
+    },
+    {
+      "id": 9,
+      "name": "Shopping & Ordering",
+      "definition": "Initiating purchases, managing shopping lists, or tracking orders for goods or services."
+    },
+    {
+      "id": 10,
+      "name": "Location & Navigation",
+      "definition": "Determining current location, sharing location, or seeking directions or nearby places."
+    },
+    {
+      "id": 11,
+      "name": "Ride Hailing",
+      "definition": "Requesting a ride-sharing service."
+    },
+    {
+      "id": 12,
+      "name": "Communication",
+      "definition": "Initiating or managing calls, texts, or other direct communication with contacts."
+    },
+    {
+      "id": 13,
+      "name": "General Interaction",
+      "definition": "Simple greetings, acknowledgements, or non-specific conversational responses that do not fit other categories."
+    }
+  ]
+}

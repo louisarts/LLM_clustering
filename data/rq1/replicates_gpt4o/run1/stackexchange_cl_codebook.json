@@ -1,0 +1,1510 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Stack Overflow",
+      "definition": "Questions related to programming, software development, and coding issues."
+    },
+    {
+      "id": 2,
+      "name": "Super User",
+      "definition": "Questions about computer software and hardware for power users."
+    },
+    {
+      "id": 3,
+      "name": "Server Fault",
+      "definition": "Questions about managing servers, networks, and IT infrastructure."
+    },
+    {
+      "id": 4,
+      "name": "Ask Ubuntu",
+      "definition": "Questions specifically about Ubuntu operating system."
+    },
+    {
+      "id": 5,
+      "name": "Unix & Linux",
+      "definition": "Questions about Unix, Linux, and other Unix-like operating systems."
+    },
+    {
+      "id": 6,
+      "name": "TeX - LaTeX",
+      "definition": "Questions about TeX, LaTeX, and related typesetting systems."
+    },
+    {
+      "id": 7,
+      "name": "Database Administrators",
+      "definition": "Questions about database management and administration."
+    },
+    {
+      "id": 8,
+      "name": "Webmasters",
+      "definition": "Questions about managing websites and web servers."
+    },
+    {
+      "id": 9,
+      "name": "Game Development",
+      "definition": "Questions about developing video games."
+    },
+    {
+      "id": 10,
+      "name": "Graphic Design",
+      "definition": "Questions about graphic design techniques and tools."
+    },
+    {
+      "id": 11,
+      "name": "Photography",
+      "definition": "Questions about photography techniques and equipment."
+    },
+    {
+      "id": 12,
+      "name": "Music: Practice & Theory",
+      "definition": "Questions about music theory, practice, and performance."
+    },
+    {
+      "id": 13,
+      "name": "English Language & Usage",
+      "definition": "Questions about English language, grammar, and usage."
+    },
+    {
+      "id": 14,
+      "name": "History",
+      "definition": "Questions about historical events and figures."
+    },
+    {
+      "id": 15,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical concepts and theories."
+    },
+    {
+      "id": 16,
+      "name": "Mathematics",
+      "definition": "Questions about mathematical concepts and problems."
+    },
+    {
+      "id": 17,
+      "name": "Physics",
+      "definition": "Questions about physical phenomena and theories."
+    },
+    {
+      "id": 18,
+      "name": "Chemistry",
+      "definition": "Questions about chemical substances and reactions."
+    },
+    {
+      "id": 19,
+      "name": "Biology",
+      "definition": "Questions about biological organisms and processes."
+    },
+    {
+      "id": 20,
+      "name": "Earth Science",
+      "definition": "Questions about geology, meteorology, and other earth sciences."
+    },
+    {
+      "id": 21,
+      "name": "Astronomy",
+      "definition": "Questions about celestial objects and space phenomena."
+    },
+    {
+      "id": 22,
+      "name": "Economics",
+      "definition": "Questions about economic theories and practices."
+    },
+    {
+      "id": 23,
+      "name": "Personal Finance & Money",
+      "definition": "Questions about managing personal finances and investments."
+    },
+    {
+      "id": 24,
+      "name": "Law",
+      "definition": "Questions about legal concepts and issues."
+    },
+    {
+      "id": 25,
+      "name": "Politics",
+      "definition": "Questions about political systems and events."
+    },
+    {
+      "id": 26,
+      "name": "Worldbuilding",
+      "definition": "Questions about creating fictional worlds and settings."
+    },
+    {
+      "id": 27,
+      "name": "Role-playing Games",
+      "definition": "Questions about playing and designing role-playing games."
+    },
+    {
+      "id": 28,
+      "name": "Board & Card Games",
+      "definition": "Questions about playing and designing board and card games."
+    },
+    {
+      "id": 29,
+      "name": "Poker",
+      "definition": "Questions about playing and strategies for poker."
+    },
+    {
+      "id": 30,
+      "name": "Chess",
+      "definition": "Questions about playing and strategies for chess."
+    },
+    {
+      "id": 31,
+      "name": "Sports",
+      "definition": "Questions about playing and understanding sports."
+    },
+    {
+      "id": 32,
+      "name": "Fitness",
+      "definition": "Questions about physical fitness and exercise."
+    },
+    {
+      "id": 33,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 34,
+      "name": "Home Improvement",
+      "definition": "Questions about home repair and improvement projects."
+    },
+    {
+      "id": 35,
+      "name": "Gardening & Landscaping",
+      "definition": "Questions about gardening and landscaping techniques."
+    },
+    {
+      "id": 36,
+      "name": "Parenting",
+      "definition": "Questions about raising and caring for children."
+    },
+    {
+      "id": 37,
+      "name": "Pets",
+      "definition": "Questions about caring for and training pets."
+    },
+    {
+      "id": 38,
+      "name": "Travel",
+      "definition": "Questions about travel destinations and tips."
+    },
+    {
+      "id": 39,
+      "name": "Interpersonal Skills",
+      "definition": "Questions about communication and social skills."
+    },
+    {
+      "id": 40,
+      "name": "Workplace",
+      "definition": "Questions about workplace dynamics and career advice."
+    },
+    {
+      "id": 41,
+      "name": "Academia",
+      "definition": "Questions about academic life and research."
+    },
+    {
+      "id": 42,
+      "name": "Language Learning",
+      "definition": "Questions about learning and teaching languages."
+    },
+    {
+      "id": 43,
+      "name": "Japanese Language",
+      "definition": "Questions about the Japanese language and usage."
+    },
+    {
+      "id": 44,
+      "name": "Spanish Language",
+      "definition": "Questions about the Spanish language and usage."
+    },
+    {
+      "id": 45,
+      "name": "French Language",
+      "definition": "Questions about the French language and usage."
+    },
+    {
+      "id": 46,
+      "name": "Russian Language",
+      "definition": "Questions about the Russian language and usage."
+    },
+    {
+      "id": 47,
+      "name": "German Language",
+      "definition": "Questions about the German language and usage."
+    },
+    {
+      "id": 48,
+      "name": "Portuguese Language",
+      "definition": "Questions about the Portuguese language and usage."
+    },
+    {
+      "id": 49,
+      "name": "Esperanto Language",
+      "definition": "Questions about the Esperanto language and usage."
+    },
+    {
+      "id": 50,
+      "name": "Biblical Hermeneutics",
+      "definition": "Questions about interpreting biblical texts."
+    },
+    {
+      "id": 51,
+      "name": "Judaism",
+      "definition": "Questions about Jewish religion and culture."
+    },
+    {
+      "id": 52,
+      "name": "Islam",
+      "definition": "Questions about Islamic religion and culture."
+    },
+    {
+      "id": 53,
+      "name": "Hinduism",
+      "definition": "Questions about Hindu religion and culture."
+    },
+    {
+      "id": 54,
+      "name": "Buddhism",
+      "definition": "Questions about Buddhist religion and culture."
+    },
+    {
+      "id": 55,
+      "name": "Skeptics",
+      "definition": "Questions about scientific skepticism and critical thinking."
+    },
+    {
+      "id": 56,
+      "name": "Philosophy of Science",
+      "definition": "Questions about the philosophy and methodology of science."
+    },
+    {
+      "id": 57,
+      "name": "Cognitive Sciences",
+      "definition": "Questions about psychology, neuroscience, and cognitive science."
+    },
+    {
+      "id": 58,
+      "name": "Health",
+      "definition": "Questions about health, medicine, and wellness."
+    },
+    {
+      "id": 59,
+      "name": "Medical Sciences",
+      "definition": "Questions about medical research and practice."
+    },
+    {
+      "id": 60,
+      "name": "Biology",
+      "definition": "Questions about biological sciences and organisms."
+    },
+    {
+      "id": 61,
+      "name": "Earth Sciences",
+      "definition": "Questions about geology, meteorology, and earth sciences."
+    },
+    {
+      "id": 62,
+      "name": "Astronomy",
+      "definition": "Questions about astronomy and space sciences."
+    },
+    {
+      "id": 63,
+      "name": "Economics",
+      "definition": "Questions about economic theories and practices."
+    },
+    {
+      "id": 64,
+      "name": "Personal Finance & Money",
+      "definition": "Questions about managing personal finances and investments."
+    },
+    {
+      "id": 65,
+      "name": "Law",
+      "definition": "Questions about legal concepts and issues."
+    },
+    {
+      "id": 66,
+      "name": "Politics",
+      "definition": "Questions about political systems and events."
+    },
+    {
+      "id": 67,
+      "name": "Worldbuilding",
+      "definition": "Questions about creating fictional worlds and settings."
+    },
+    {
+      "id": 68,
+      "name": "Role-playing Games",
+      "definition": "Questions about playing and designing role-playing games."
+    },
+    {
+      "id": 69,
+      "name": "Board & Card Games",
+      "definition": "Questions about playing and designing board and card games."
+    },
+    {
+      "id": 70,
+      "name": "Poker",
+      "definition": "Questions about playing and strategies for poker."
+    },
+    {
+      "id": 71,
+      "name": "Chess",
+      "definition": "Questions about playing and strategies for chess."
+    },
+    {
+      "id": 72,
+      "name": "Sports",
+      "definition": "Questions about playing and understanding sports."
+    },
+    {
+      "id": 73,
+      "name": "Fitness",
+      "definition": "Questions about physical fitness and exercise."
+    },
+    {
+      "id": 74,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 75,
+      "name": "Home Improvement",
+      "definition": "Questions about home repair and improvement projects."
+    },
+    {
+      "id": 76,
+      "name": "Gardening & Landscaping",
+      "definition": "Questions about gardening and landscaping techniques."
+    },
+    {
+      "id": 77,
+      "name": "Parenting",
+      "definition": "Questions about raising and caring for children."
+    },
+    {
+      "id": 78,
+      "name": "Pets",
+      "definition": "Questions about caring for and training pets."
+    },
+    {
+      "id": 79,
+      "name": "Travel",
+      "definition": "Questions about travel destinations and tips."
+    },
+    {
+      "id": 80,
+      "name": "Interpersonal Skills",
+      "definition": "Questions about communication and social skills."
+    },
+    {
+      "id": 81,
+      "name": "Workplace",
+      "definition": "Questions about workplace dynamics and career advice."
+    },
+    {
+      "id": 82,
+      "name": "Academia",
+      "definition": "Questions about academic life and research."
+    },
+    {
+      "id": 83,
+      "name": "Language Learning",
+      "definition": "Questions about learning and teaching languages."
+    },
+    {
+      "id": 84,
+      "name": "Japanese Language",
+      "definition": "Questions about the Japanese language and usage."
+    },
+    {
+      "id": 85,
+      "name": "Spanish Language",
+      "definition": "Questions about the Spanish language and usage."
+    },
+    {
+      "id": 86,
+      "name": "French Language",
+      "definition": "Questions about the French language and usage."
+    },
+    {
+      "id": 87,
+      "name": "Russian Language",
+      "definition": "Questions about the Russian language and usage."
+    },
+    {
+      "id": 88,
+      "name": "German Language",
+      "definition": "Questions about the German language and usage."
+    },
+    {
+      "id": 89,
+      "name": "Portuguese Language",
+      "definition": "Questions about the Portuguese language and usage."
+    },
+    {
+      "id": 90,
+      "name": "Esperanto Language",
+      "definition": "Questions about the Esperanto language and usage."
+    },
+    {
+      "id": 91,
+      "name": "Biblical Hermeneutics",
+      "definition": "Questions about interpreting biblical texts."
+    },
+    {
+      "id": 92,
+      "name": "Judaism",
+      "definition": "Questions about Jewish religion and culture."
+    },
+    {
+      "id": 93,
+      "name": "Islam",
+      "definition": "Questions about Islamic religion and culture."
+    },
+    {
+      "id": 94,
+      "name": "Hinduism",
+      "definition": "Questions about Hindu religion and culture."
+    },
+    {
+      "id": 95,
+      "name": "Buddhism",
+      "definition": "Questions about Buddhist religion and culture."
+    },
+    {
+      "id": 96,
+      "name": "Skeptics",
+      "definition": "Questions about scientific skepticism and critical thinking."
+    },
+    {
+      "id": 97,
+      "name": "Philosophy of Science",
+      "definition": "Questions about the philosophy and methodology of science."
+    },
+    {
+      "id": 98,
+      "name": "Cognitive Sciences",
+      "definition": "Questions about psychology, neuroscience, and cognitive science."
+    },
+    {
+      "id": 99,
+      "name": "Health",
+      "definition": "Questions about health, medicine, and wellness."
+    },
+    {
+      "id": 100,
+      "name": "Medical Sciences",
+      "definition": "Questions about medical research and practice."
+    },
+    {
+      "id": 101,
+      "name": "Biology",
+      "definition": "Questions about biological sciences and organisms."
+    },
+    {
+      "id": 102,
+      "name": "Earth Sciences",
+      "definition": "Questions about geology, meteorology, and earth sciences."
+    },
+    {
+      "id": 103,
+      "name": "Astronomy",
+      "definition": "Questions about astronomy and space sciences."
+    },
+    {
+      "id": 104,
+      "name": "Economics",
+      "definition": "Questions about economic theories and practices."
+    },
+    {
+      "id": 105,
+      "name": "Personal Finance & Money",
+      "definition": "Questions about managing personal finances and investments."
+    },
+    {
+      "id": 106,
+      "name": "Law",
+      "definition": "Questions about legal concepts and issues."
+    },
+    {
+      "id": 107,
+      "name": "Politics",
+      "definition": "Questions about political systems and events."
+    },
+    {
+      "id": 108,
+      "name": "Worldbuilding",
+      "definition": "Questions about creating fictional worlds and settings."
+    },
+    {
+      "id": 109,
+      "name": "Role-playing Games",
+      "definition": "Questions about playing and designing role-playing games."
+    },
+    {
+      "id": 110,
+      "name": "Board & Card Games",
+      "definition": "Questions about playing and designing board and card games."
+    },
+    {
+      "id": 111,
+      "name": "Poker",
+      "definition": "Questions about playing and strategies for poker."
+    },
+    {
+      "id": 112,
+      "name": "Chess",
+      "definition": "Questions about playing and strategies for chess."
+    },
+    {
+      "id": 113,
+      "name": "Sports",
+      "definition": "Questions about playing and understanding sports."
+    },
+    {
+      "id": 114,
+      "name": "Fitness",
+      "definition": "Questions about physical fitness and exercise."
+    },
+    {
+      "id": 115,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 116,
+      "name": "Home Improvement",
+      "definition": "Questions about home repair and improvement projects."
+    },
+    {
+      "id": 117,
+      "name": "Gardening & Landscaping",
+      "definition": "Questions about gardening and landscaping techniques."
+    },
+    {
+      "id": 118,
+      "name": "Parenting",
+      "definition": "Questions about raising and caring for children."
+    },
+    {
+      "id": 119,
+      "name": "Pets",
+      "definition": "Questions about caring for and training pets."
+    },
+    {
+      "id": 120,
+      "name": "Travel",
+      "definition": "Questions about travel destinations and tips."
+    },
+    {
+      "id": 121,
+      "name": "Interpersonal Skills",
+      "definition": "Questions about communication and social skills."
+    },
+    {
+      "id": 122,
+      "name": "Workplace",
+      "definition": "Questions about workplace dynamics and career advice."
+    },
+    {
+      "id": 123,
+      "name": "Academia",
+      "definition": "Questions about academic life and research."
+    },
+    {
+      "id": 124,
+      "name": "Language Learning",
+      "definition": "Questions about learning and teaching languages."
+    },
+    {
+      "id": 125,
+      "name": "Japanese Language",
+      "definition": "Questions about the Japanese language and usage."
+    },
+    {
+      "id": 126,
+      "name": "Spanish Language",
+      "definition": "Questions about the Spanish language and usage."
+    },
+    {
+      "id": 127,
+      "name": "French Language",
+      "definition": "Questions about the French language and usage."
+    },
+    {
+      "id": 128,
+      "name": "Russian Language",
+      "definition": "Questions about the Russian language and usage."
+    },
+    {
+      "id": 129,
+      "name": "German Language",
+      "definition": "Questions about the German language and usage."
+    },
+    {
+      "id": 130,
+      "name": "Portuguese Language",
+      "definition": "Questions about the Portuguese language and usage."
+    },
+    {
+      "id": 131,
+      "name": "Esperanto Language",
+      "definition": "Questions about the Esperanto language and usage."
+    },
+    {
+      "id": 132,
+      "name": "Biblical Hermeneutics",
+      "definition": "Questions about interpreting biblical texts."
+    },
+    {
+      "id": 133,
+      "name": "Judaism",
+      "definition": "Questions about Jewish religion and culture."
+    },
+    {
+      "id": 134,
+      "name": "Islam",
+      "definition": "Questions about Islamic religion and culture."
+    },
+    {
+      "id": 135,
+      "name": "Hinduism",
+      "definition": "Questions about Hindu religion and culture."
+    },
+    {
+      "id": 136,
+      "name": "Buddhism",
+      "definition": "Questions about Buddhist religion and culture."
+    },
+    {
+      "id": 137,
+      "name": "Skeptics",
+      "definition": "Questions about scientific skepticism and critical thinking."
+    },
+    {
+      "id": 138,
+      "name": "Philosophy of Science",
+      "definition": "Questions about the philosophy and methodology of science."
+    },
+    {
+      "id": 139,
+      "name": "Cognitive Sciences",
+      "definition": "Questions about psychology, neuroscience, and cognitive science."
+    },
+    {
+      "id": 140,
+      "name": "Health",
+      "definition": "Questions about health, medicine, and wellness."
+    },
+    {
+      "id": 141,
+      "name": "Medical Sciences",
+      "definition": "Questions about medical research and practice."
+    },
+    {
+      "id": 142,
+      "name": "Biology",
+      "definition": "Questions about biological sciences and organisms."
+    },
+    {
+      "id": 143,
+      "name": "Earth Sciences",
+      "definition": "Questions about geology, meteorology, and earth sciences."
+    },
+    {
+      "id": 144,
+      "name": "Astronomy",
+      "definition": "Questions about astronomy and space sciences."
+    },
+    {
+      "id": 145,
+      "name": "Economics",
+      "definition": "Questions about economic theories and practices."
+    },
+    {
+      "id": 146,
+      "name": "Personal Finance & Money",
+      "definition": "Questions about managing personal finances and investments."
+    },
+    {
+      "id": 147,
+      "name": "Law",
+      "definition": "Questions about legal concepts and issues."
+    },
+    {
+      "id": 148,
+      "name": "Politics",
+      "definition": "Questions about political systems and events."
+    },
+    {
+      "id": 149,
+      "name": "Worldbuilding",
+      "definition": "Questions about creating fictional worlds and settings."
+    },
+    {
+      "id": 150,
+      "name": "Role-playing Games",
+      "definition": "Questions about playing and designing role-playing games."
+    },
+    {
+      "id": 151,
+      "name": "Board & Card Games",
+      "definition": "Questions about playing and designing board and card games."
+    },
+    {
+      "id": 152,
+      "name": "Poker",
+      "definition": "Questions about playing and strategies for poker."
+    },
+    {
+      "id": 153,
+      "name": "Chess",
+      "definition": "Questions about playing and strategies for chess."
+    },
+    {
+      "id": 154,
+      "name": "Sports",
+      "definition": "Questions about playing and understanding sports."
+    },
+    {
+      "id": 155,
+      "name": "Fitness",
+      "definition": "Questions about physical fitness and exercise."
+    },
+    {
+      "id": 156,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 157,
+      "name": "Home Improvement",
+      "definition": "Questions about home repair and improvement projects."
+    },
+    {
+      "id": 158,
+      "name": "Gardening & Landscaping",
+      "definition": "Questions about gardening and landscaping techniques."
+    },
+    {
+      "id": 159,
+      "name": "Parenting",
+      "definition": "Questions about raising and caring for children."
+    },
+    {
+      "id": 160,
+      "name": "Pets",
+      "definition": "Questions about caring for and training pets."
+    },
+    {
+      "id": 161,
+      "name": "Travel",
+      "definition": "Questions about travel destinations and tips."
+    },
+    {
+      "id": 162,
+      "name": "Interpersonal Skills",
+      "definition": "Questions about communication and social skills."
+    },
+    {
+      "id": 163,
+      "name": "Workplace",
+      "definition": "Questions about workplace dynamics and career advice."
+    },
+    {
+      "id": 164,
+      "name": "Academia",
+      "definition": "Questions about academic life and research."
+    },
+    {
+      "id": 165,
+      "name": "Language Learning",
+      "definition": "Questions about learning and teaching languages."
+    },
+    {
+      "id": 166,
+      "name": "Japanese Language",
+      "definition": "Questions about the Japanese language and usage."
+    },
+    {
+      "id": 167,
+      "name": "Spanish Language",
+      "definition": "Questions about the Spanish language and usage."
+    },
+    {
+      "id": 168,
+      "name": "French Language",
+      "definition": "Questions about the French language and usage."
+    },
+    {
+      "id": 169,
+      "name": "Russian Language",
+      "definition": "Questions about the Russian language and usage."
+    },
+    {
+      "id": 170,
+      "name": "German Language",
+      "definition": "Questions about the German language and usage."
+    },
+    {
+      "id": 171,
+      "name": "Portuguese Language",
+      "definition": "Questions about the Portuguese language and usage."
+    },
+    {
+      "id": 172,
+      "name": "Esperanto Language",
+      "definition": "Questions about the Esperanto language and usage."
+    },
+    {
+      "id": 173,
+      "name": "Biblical Hermeneutics",
+      "definition": "Questions about interpreting biblical texts."
+    },
+    {
+      "id": 174,
+      "name": "Judaism",
+      "definition": "Questions about Jewish religion and culture."
+    },
+    {
+      "id": 175,
+      "name": "Islam",
+      "definition": "Questions about Islamic religion and culture."
+    },
+    {
+      "id": 176,
+      "name": "Hinduism",
+      "definition": "Questions about Hindu religion and culture."
+    },
+    {
+      "id": 177,
+      "name": "Buddhism",
+      "definition": "Questions about Buddhist religion and culture."
+    },
+    {
+      "id": 178,
+      "name": "Skeptics",
+      "definition": "Questions about scientific skepticism and critical thinking."
+    },
+    {
+      "id": 179,
+      "name": "Philosophy of Science",
+      "definition": "Questions about the philosophy and methodology of science."
+    },
+    {
+      "id": 180,
+      "name": "Cognitive Sciences",
+      "definition": "Questions about psychology, neuroscience, and cognitive science."
+    },
+    {
+      "id": 181,
+      "name": "Health",
+      "definition": "Questions about health, medicine, and wellness."
+    },
+    {
+      "id": 182,
+      "name": "Medical Sciences",
+      "definition": "Questions about medical research and practice."
+    },
+    {
+      "id": 183,
+      "name": "Biology",
+      "definition": "Questions about biological sciences and organisms."
+    },
+    {
+      "id": 184,
+      "name": "Earth Sciences",
+      "definition": "Questions about geology, meteorology, and earth sciences."
+    },
+    {
+      "id": 185,
+      "name": "Astronomy",
+      "definition": "Questions about astronomy and space sciences."
+    },
+    {
+      "id": 186,
+      "name": "Economics",
+      "definition": "Questions about economic theories and practices."
+    },
+    {
+      "id": 187,
+      "name": "Personal Finance & Money",
+      "definition": "Questions about managing personal finances and investments."
+    },
+    {
+      "id": 188,
+      "name": "Law",
+      "definition": "Questions about legal concepts and issues."
+    },
+    {
+      "id": 189,
+      "name": "Politics",
+      "definition": "Questions about political systems and events."
+    },
+    {
+      "id": 190,
+      "name": "Worldbuilding",
+      "definition": "Questions about creating fictional worlds and settings."
+    },
+    {
+      "id": 191,
+      "name": "Role-playing Games",
+      "definition": "Questions about playing and designing role-playing games."
+    },
+    {
+      "id": 192,
+      "name": "Board & Card Games",
+      "definition": "Questions about playing and designing board and card games."
+    },
+    {
+      "id": 193,
+      "name": "Poker",
+      "definition": "Questions about playing and strategies for poker."
+    },
+    {
+      "id": 194,
+      "name": "Chess",
+      "definition": "Questions about playing and strategies for chess."
+    },
+    {
+      "id": 195,
+      "name": "Sports",
+      "definition": "Questions about playing and understanding sports."
+    },
+    {
+      "id": 196,
+      "name": "Fitness",
+      "definition": "Questions about physical fitness and exercise."
+    },
+    {
+      "id": 197,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 198,
+      "name": "Home Improvement",
+      "definition": "Questions about home repair and improvement projects."
+    },
+    {
+      "id": 199,
+      "name": "Gardening & Landscaping",
+      "definition": "Questions about gardening and landscaping techniques."
+    },
+    {
+      "id": 200,
+      "name": "Parenting",
+      "definition": "Questions about raising and caring for children."
+    },
+    {
+      "id": 201,
+      "name": "Pets",
+      "definition": "Questions about caring for and training pets."
+    },
+    {
+      "id": 202,
+      "name": "Travel",
+      "definition": "Questions about travel destinations and tips."
+    },
+    {
+      "id": 203,
+      "name": "Interpersonal Skills",
+      "definition": "Questions about communication and social skills."
+    },
+    {
+      "id": 204,
+      "name": "Workplace",
+      "definition": "Questions about workplace dynamics and career advice."
+    },
+    {
+      "id": 205,
+      "name": "Academia",
+      "definition": "Questions about academic life and research."
+    },
+    {
+      "id": 206,
+      "name": "Language Learning",
+      "definition": "Questions about learning and teaching languages."
+    },
+    {
+      "id": 207,
+      "name": "Japanese Language",
+      "definition": "Questions about the Japanese language and usage."
+    },
+    {
+      "id": 208,
+      "name": "Spanish Language",
+      "definition": "Questions about the Spanish language and usage."
+    },
+    {
+      "id": 209,
+      "name": "French Language",
+      "definition": "Questions about the French language and usage."
+    },
+    {
+      "id": 210,
+      "name": "Russian Language",
+      "definition": "Questions about the Russian language and usage."
+    },
+    {
+      "id": 211,
+      "name": "German Language",
+      "definition": "Questions about the German language and usage."
+    },
+    {
+      "id": 212,
+      "name": "Portuguese Language",
+      "definition": "Questions about the Portuguese language and usage."
+    },
+    {
+      "id": 213,
+      "name": "Esperanto Language",
+      "definition": "Questions about the Esperanto language and usage."
+    },
+    {
+      "id": 214,
+      "name": "Biblical Hermeneutics",
+      "definition": "Questions about interpreting biblical texts."
+    },
+    {
+      "id": 215,
+      "name": "Judaism",
+      "definition": "Questions about Jewish religion and culture."
+    },
+    {
+      "id": 216,
+      "name": "Islam",
+      "definition": "Questions about Islamic religion and culture."
+    },
+    {
+      "id": 217,
+      "name": "Hinduism",
+      "definition": "Questions about Hindu religion and culture."
+    },
+    {
+      "id": 218,
+      "name": "Buddhism",
+      "definition": "Questions about Buddhist religion and culture."
+    },
+    {
+      "id": 219,
+      "name": "Skeptics",
+      "definition": "Questions about scientific skepticism and critical thinking."
+    },
+    {
+      "id": 220,
+      "name": "Philosophy of Science",
+      "definition": "Questions about the philosophy and methodology of science."
+    },
+    {
+      "id": 221,
+      "name": "Cognitive Sciences",
+      "definition": "Questions about psychology, neuroscience, and cognitive science."
+    },
+    {
+      "id": 222,
+      "name": "Health",
+      "definition": "Questions about health, medicine, and wellness."
+    },
+    {
+      "id": 223,
+      "name": "Medical Sciences",
+      "definition": "Questions about medical research and practice."
+    },
+    {
+      "id": 224,
+      "name": "Biology",
+      "definition": "Questions about biological sciences and organisms."
+    },
+    {
+      "id": 225,
+      "name": "Earth Sciences",
+      "definition": "Questions about geology, meteorology, and earth sciences."
+    },
+    {
+      "id": 226,
+      "name": "Astronomy",
+      "definition": "Questions about astronomy and space sciences."
+    },
+    {
+      "id": 227,
+      "name": "Economics",
+      "definition": "Questions about economic theories and practices."
+    },
+    {
+      "id": 228,
+      "name": "Personal Finance & Money",
+      "definition": "Questions about managing personal finances and investments."
+    },
+    {
+      "id": 229,
+      "name": "Law",
+      "definition": "Questions about legal concepts and issues."
+    },
+    {
+      "id": 230,
+      "name": "Politics",
+      "definition": "Questions about political systems and events."
+    },
+    {
+      "id": 231,
+      "name": "Worldbuilding",
+      "definition": "Questions about creating fictional worlds and settings."
+    },
+    {
+      "id": 232,
+      "name": "Role-playing Games",
+      "definition": "Questions about playing and designing role-playing games."
+    },
+    {
+      "id": 233,
+      "name": "Board & Card Games",
+      "definition": "Questions about playing and designing board and card games."
+    },
+    {
+      "id": 234,
+      "name": "Poker",
+      "definition": "Questions about playing and strategies for poker."
+    },
+    {
+      "id": 235,
+      "name": "Chess",
+      "definition": "Questions about playing and strategies for chess."
+    },
+    {
+      "id": 236,
+      "name": "Sports",
+      "definition": "Questions about playing and understanding sports."
+    },
+    {
+      "id": 237,
+      "name": "Fitness",
+      "definition": "Questions about physical fitness and exercise."
+    },
+    {
+      "id": 238,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 239,
+      "name": "Home Improvement",
+      "definition": "Questions about home repair and improvement projects."
+    },
+    {
+      "id": 240,
+      "name": "Gardening & Landscaping",
+      "definition": "Questions about gardening and landscaping techniques."
+    },
+    {
+      "id": 241,
+      "name": "Parenting",
+      "definition": "Questions about raising and caring for children."
+    },
+    {
+      "id": 242,
+      "name": "Pets",
+      "definition": "Questions about caring for and training pets."
+    },
+    {
+      "id": 243,
+      "name": "Travel",
+      "definition": "Questions about travel destinations and tips."
+    },
+    {
+      "id": 244,
+      "name": "Interpersonal Skills",
+      "definition": "Questions about communication and social skills."
+    },
+    {
+      "id": 245,
+      "name": "Workplace",
+      "definition": "Questions about workplace dynamics and career advice."
+    },
+    {
+      "id": 246,
+      "name": "Academia",
+      "definition": "Questions about academic life and research."
+    },
+    {
+      "id": 247,
+      "name": "Language Learning",
+      "definition": "Questions about learning and teaching languages."
+    },
+    {
+      "id": 248,
+      "name": "Japanese Language",
+      "definition": "Questions about the Japanese language and usage."
+    },
+    {
+      "id": 249,
+      "name": "Spanish Language",
+      "definition": "Questions about the Spanish language and usage."
+    },
+    {
+      "id": 250,
+      "name": "French Language",
+      "definition": "Questions about the French language and usage."
+    },
+    {
+      "id": 251,
+      "name": "Russian Language",
+      "definition": "Questions about the Russian language and usage."
+    },
+    {
+      "id": 252,
+      "name": "German Language",
+      "definition": "Questions about the German language and usage."
+    },
+    {
+      "id": 253,
+      "name": "Portuguese Language",
+      "definition": "Questions about the Portuguese language and usage."
+    },
+    {
+      "id": 254,
+      "name": "Esperanto Language",
+      "definition": "Questions about the Esperanto language and usage."
+    },
+    {
+      "id": 255,
+      "name": "Biblical Hermeneutics",
+      "definition": "Questions about interpreting biblical texts."
+    },
+    {
+      "id": 256,
+      "name": "Judaism",
+      "definition": "Questions about Jewish religion and culture."
+    },
+    {
+      "id": 257,
+      "name": "Islam",
+      "definition": "Questions about Islamic religion and culture."
+    },
+    {
+      "id": 258,
+      "name": "Hinduism",
+      "definition": "Questions about Hindu religion and culture."
+    },
+    {
+      "id": 259,
+      "name": "Buddhism",
+      "definition": "Questions about Buddhist religion and culture."
+    },
+    {
+      "id": 260,
+      "name": "Skeptics",
+      "definition": "Questions about scientific skepticism and critical thinking."
+    },
+    {
+      "id": 261,
+      "name": "Philosophy of Science",
+      "definition": "Questions about the philosophy and methodology of science."
+    },
+    {
+      "id": 262,
+      "name": "Cognitive Sciences",
+      "definition": "Questions about psychology, neuroscience, and cognitive science."
+    },
+    {
+      "id": 263,
+      "name": "Health",
+      "definition": "Questions about health, medicine, and wellness."
+    },
+    {
+      "id": 264,
+      "name": "Medical Sciences",
+      "definition": "Questions about medical research and practice."
+    },
+    {
+      "id": 265,
+      "name": "Biology",
+      "definition": "Questions about biological sciences and organisms."
+    },
+    {
+      "id": 266,
+      "name": "Earth Sciences",
+      "definition": "Questions about geology, meteorology, and earth sciences."
+    },
+    {
+      "id": 267,
+      "name": "Astronomy",
+      "definition": "Questions about astronomy and space sciences."
+    },
+    {
+      "id": 268,
+      "name": "Economics",
+      "definition": "Questions about economic theories and practices."
+    },
+    {
+      "id": 269,
+      "name": "Personal Finance & Money",
+      "definition": "Questions about managing personal finances and investments."
+    },
+    {
+      "id": 270,
+      "name": "Law",
+      "definition": "Questions about legal concepts and issues."
+    },
+    {
+      "id": 271,
+      "name": "Politics",
+      "definition": "Questions about political systems and events."
+    },
+    {
+      "id": 272,
+      "name": "Worldbuilding",
+      "definition": "Questions about creating fictional worlds and settings."
+    },
+    {
+      "id": 273,
+      "name": "Role-playing Games",
+      "definition": "Questions about playing and designing role-playing games."
+    },
+    {
+      "id": 274,
+      "name": "Board & Card Games",
+      "definition": "Questions about playing and designing board and card games."
+    },
+    {
+      "id": 275,
+      "name": "Poker",
+      "definition": "Questions about playing and strategies for poker."
+    },
+    {
+      "id": 276,
+      "name": "Chess",
+      "definition": "Questions about playing and strategies for chess."
+    },
+    {
+      "id": 277,
+      "name": "Sports",
+      "definition": "Questions about playing and understanding sports."
+    },
+    {
+      "id": 278,
+      "name": "Fitness",
+      "definition": "Questions about physical fitness and exercise."
+    },
+    {
+      "id": 279,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques and recipes."
+    },
+    {
+      "id": 280,
+      "name": "Home Improvement",
+      "definition": "Questions about home repair and improvement projects."
+    },
+    {
+      "id": 281,
+      "name": "Gardening & Landscaping",
+      "definition": "Questions about gardening and landscaping techniques."
+    },
+    {
+      "id": 282,
+      "name": "Parenting",
+      "definition": "Questions about raising and caring for children."
+    },
+    {
+      "id": 283,
+      "name": "Pets",
+      "definition": "Questions about caring for and training pets."
+    },
+    {
+      "id": 284,
+      "name": "Travel",
+      "definition": "Questions about travel destinations and tips."
+    },
+    {
+      "id": 285,
+      "name": "Interpersonal Skills",
+      "definition": "Questions about communication and social skills."
+    },
+    {
+      "id": 286,
+      "name": "Workplace",
+      "definition": "Questions about workplace dynamics and career advice."
+    },
+    {
+      "id": 287,
+      "name": "Academia",
+      "definition": "Questions about academic life and research."
+    },
+    {
+      "id": 288,
+      "name": "Language Learning",
+      "definition": "Questions about learning and teaching languages."
+    },
+    {
+      "id": 289,
+      "name": "Japanese Language",
+      "definition": "Questions about the Japanese language and usage."
+    },
+    {
+      "id": 290,
+      "name": "Spanish Language",
+      "definition": "Questions about the Spanish language and usage."
+    },
+    {
+      "id": 291,
+      "name": "French Language",
+      "definition": "Questions about the French language and usage."
+    },
+    {
+      "id": 292,
+      "name": "Russian Language",
+      "definition": "Questions about the Russian language and usage."
+    },
+    {
+      "id": 293,
+      "name": "German Language",
+      "definition": "Questions about the German language and usage."
+    },
+    {
+      "id": 294,
+      "name": "Portuguese Language",
+      "definition": "Questions about the Portuguese language and usage."
+    },
+    {
+      "id": 295,
+      "name": "Esperanto Language",
+      "definition": "Questions about the Esperanto language and usage."
+    },
+    {
+      "id": 296,
+      "name": "Biblical Hermeneutics",
+      "definition": "Questions about interpreting biblical texts."
+    },
+    {
+      "id": 297,
+      "name": "Judaism",
+      "definition": "Questions about Jewish religion and culture."
+    },
+    {
+      "id": 298,
+      "name": "Islam",
+      "definition": "Questions about Islamic religion and culture."
+    },
+    {
+      "id": 299,
+      "name": "Hinduism",
+      "definition": "Questions about Hindu religion and culture."
+    },
+    {
+      "id": 300,
+      "name": "Buddhism",
+      "definition": "Questions about Buddhist religion and culture."
+    }
+  ]
+}

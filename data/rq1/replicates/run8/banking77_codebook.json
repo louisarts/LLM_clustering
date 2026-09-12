@@ -1,0 +1,77 @@
+{
+  "bench": "banking77",
+  "run": 8,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Usage & Acceptance",
+      "definition": "Queries about where and how a card can be used, including contactless payments."
+    },
+    {
+      "id": 2,
+      "name": "Card Order & Delivery",
+      "definition": "Queries about obtaining a new card, virtual card, additional cards, or the delivery status of a card."
+    },
+    {
+      "id": 3,
+      "name": "Card Management",
+      "definition": "Queries about managing an existing card, including activation, PIN, expiry, replacement, or freezing."
+    },
+    {
+      "id": 4,
+      "name": "Lost or Stolen Card/Device",
+      "definition": "Queries about a lost or stolen card or device and related security actions."
+    },
+    {
+      "id": 5,
+      "name": "Account Management",
+      "definition": "Queries about opening, closing, updating personal details, identity verification, or general account security."
+    },
+    {
+      "id": 6,
+      "name": "Add Funds (Top-up/Deposit)",
+      "definition": "Queries about adding money to an account or card, including methods, limits, and issues with deposits."
+    },
+    {
+      "id": 7,
+      "name": "Money Transfers",
+      "definition": "Queries about sending or receiving money transfers, their status, issues, or cancellation."
+    },
+    {
+      "id": 8,
+      "name": "Payments & Refunds",
+      "definition": "Queries about general payments, declined payments, unauthorized transactions, direct debits, or requesting refunds."
+    },
+    {
+      "id": 9,
+      "name": "Fees & Charges",
+      "definition": "Queries about understanding or disputing specific fees or charges on an account or transaction."
+    },
+    {
+      "id": 10,
+      "name": "Cash Withdrawal & ATM Issues",
+      "definition": "Queries about withdrawing cash from ATMs, issues with the amount received, or ATM functionality."
+    },
+    {
+      "id": 11,
+      "name": "Currency Exchange",
+      "definition": "Queries about exchanging currencies, exchange rates, or supported currencies."
+    },
+    {
+      "id": 12,
+      "name": "Card Malfunction",
+      "definition": "Queries about a card not working or being declined due to a technical issue, not related to usage limits or fraud."
+    },
+    {
+      "id": 13,
+      "name": "App & Login Issues",
+      "definition": "Queries about problems accessing the app or account, including password resets."
+    },
+    {
+      "id": 14,
+      "name": "General Product Information",
+      "definition": "Queries seeking general information about how a product or feature works."
+    }
+  ]
+}

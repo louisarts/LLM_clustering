@@ -1,0 +1,74 @@
+{
+  "bench": "mcid",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Greetings and Social Pleasantries",
+      "definition": "User initiates contact, greets the bot, or expresses gratitude without asking for specific information."
+    },
+    {
+      "id": 2,
+      "name": "Virus Definition and General Explanation",
+      "definition": "User asks for a definition, summary, or general explanation of what COVID-19 is."
+    },
+    {
+      "id": 3,
+      "name": "Symptoms and Diagnosis",
+      "definition": "User inquires about symptoms of the virus, checks if specific sensations indicate infection, or asks how to identify the disease in oneself or others."
+    },
+    {
+      "id": 4,
+      "name": "Transmission and Contagion",
+      "definition": "User asks how the virus spreads, whether specific activities or animals can transmit it, or questions the origin of the virus."
+    },
+    {
+      "id": 5,
+      "name": "Prevention and Safety Precautions",
+      "definition": "User seeks advice on how to stay safe, prevent infection, or inquire about the efficacy of specific protective measures like masks, gloves, or cleaning products."
+    },
+    {
+      "id": 6,
+      "name": "Treatment and Cure",
+      "definition": "User asks about the existence of a cure, vaccines, or medical treatments and remedies for COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Statistics and Data",
+      "definition": "User requests specific numbers regarding cases, deaths, recovery rates, or other quantitative data related to the pandemic."
+    },
+    {
+      "id": 8,
+      "name": "News and Current Updates",
+      "definition": "User asks for the latest news, recent developments, press releases, or general updates regarding the pandemic situation."
+    },
+    {
+      "id": 9,
+      "name": "Travel Advice and Restrictions",
+      "definition": "User inquires about the safety of traveling, specific travel restrictions, or transportation advice related to COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "Animals and Pets",
+      "definition": "User specifically asks about the risk of COVID-19 regarding pets, wild animals, or transmission between animals and humans."
+    },
+    {
+      "id": 11,
+      "name": "Myths and Misinformation",
+      "definition": "User asks to verify the truth of specific claims, asks about debunked myths, or inquires about misinformation regarding the virus."
+    },
+    {
+      "id": 12,
+      "name": "Donations and Charitable Giving",
+      "definition": "User expresses a desire to donate money, goods, or asks for information on how to contribute to relief efforts."
+    },
+    {
+      "id": 13,
+      "name": "Sharing and Forwarding Information",
+      "definition": "User requests to share the bot, specific reports, or information with friends, family, or on social media."
+    }
+  ]
+}

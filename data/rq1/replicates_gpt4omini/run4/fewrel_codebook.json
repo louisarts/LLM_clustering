@@ -1,0 +1,110 @@
+{
+  "bench": "fewrel",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Event Participation",
+      "definition": "One entity participates in or is involved in a specific event."
+    },
+    {
+      "id": 2,
+      "name": "Creation/Production",
+      "definition": "One entity creates or produces another entity, such as a work of art, product, or media."
+    },
+    {
+      "id": 3,
+      "name": "Historical Relationship",
+      "definition": "Entities are connected through historical events or figures."
+    },
+    {
+      "id": 4,
+      "name": "Membership/Association",
+      "definition": "One entity is a member of or associated with another entity, such as an organization or group."
+    },
+    {
+      "id": 5,
+      "name": "Geographical Location",
+      "definition": "One entity is located in or is a part of a geographical area or region."
+    },
+    {
+      "id": 6,
+      "name": "Influence/Impact",
+      "definition": "One entity influences or impacts another entity in a significant way."
+    },
+    {
+      "id": 7,
+      "name": "Family Relationship",
+      "definition": "Entities are related through familial ties."
+    },
+    {
+      "id": 8,
+      "name": "Professional Relationship",
+      "definition": "Entities are connected through professional roles or collaborations."
+    },
+    {
+      "id": 9,
+      "name": "Cultural Connection",
+      "definition": "Entities are linked through cultural aspects, such as language, art, or traditions."
+    },
+    {
+      "id": 10,
+      "name": "Competition",
+      "definition": "Entities are in competition with each other in a specific context."
+    },
+    {
+      "id": 11,
+      "name": "Historical Significance",
+      "definition": "One entity holds historical significance for another entity."
+    },
+    {
+      "id": 12,
+      "name": "Legal/Political Relationship",
+      "definition": "Entities are connected through legal or political frameworks."
+    },
+    {
+      "id": 13,
+      "name": "Artistic Collaboration",
+      "definition": "Entities collaborate in the creation of artistic works."
+    },
+    {
+      "id": 14,
+      "name": "Scientific Contribution",
+      "definition": "One entity contributes to the scientific understanding or advancement of another."
+    },
+    {
+      "id": 15,
+      "name": "Technological Development",
+      "definition": "One entity is involved in the development or advancement of technology related to another."
+    },
+    {
+      "id": 16,
+      "name": "Religious Connection",
+      "definition": "Entities are connected through religious beliefs or practices."
+    },
+    {
+      "id": 17,
+      "name": "Educational Relationship",
+      "definition": "One entity is involved in the education or training of another."
+    },
+    {
+      "id": 18,
+      "name": "Economic Relationship",
+      "definition": "Entities are connected through economic transactions or relationships."
+    },
+    {
+      "id": 19,
+      "name": "Symbolic Relationship",
+      "definition": "One entity symbolizes or represents another entity."
+    },
+    {
+      "id": 20,
+      "name": "Environmental Relationship",
+      "definition": "Entities are connected through environmental factors or ecological relationships."
+    }
+  ]
+}

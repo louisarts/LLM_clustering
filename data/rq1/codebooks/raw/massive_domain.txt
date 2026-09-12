@@ -1,0 +1,136 @@
+```json
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar and Scheduling",
+      "definition": "Managing personal or shared schedules, appointments, and events."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Setting, checking, or managing notifications for future actions or events."
+    },
+    {
+      "id": 3,
+      "name": "Alarms and Timers",
+      "definition": "Setting, checking, or managing alarms and timers."
+    },
+    {
+      "id": 4,
+      "name": "Lists and Tasks",
+      "definition": "Creating, managing, or retrieving various types of lists or tasks."
+    },
+    {
+      "id": 5,
+      "name": "Email and Messaging",
+      "definition": "Sending, receiving, checking, or managing emails and messages."
+    },
+    {
+      "id": 6,
+      "name": "Contacts",
+      "definition": "Managing or retrieving contact information."
+    },
+    {
+      "id": 7,
+      "name": "Social Media",
+      "definition": "Posting or interacting on social media platforms."
+    },
+    {
+      "id": 8,
+      "name": "Phone Calls",
+      "definition": "Initiating a phone call."
+    },
+    {
+      "id": 9,
+      "name": "Media Playback",
+      "definition": "Controlling the playback of music, podcasts, audiobooks, or radio."
+    },
+    {
+      "id": 10,
+      "name": "Media Information",
+      "definition": "Retrieving information about media content currently playing or previously played."
+    },
+    {
+      "id": 11,
+      "name": "Entertainment Discovery",
+      "definition": "Discovering or getting information about movies, TV shows, music, sports, or local events."
+    },
+    {
+      "id": 12,
+      "name": "General Knowledge",
+      "definition": "Retrieving factual information, definitions, or general knowledge."
+    },
+    {
+      "id": 13,
+      "name": "Weather",
+      "definition": "Getting current or forecasted weather information."
+    },
+    {
+      "id": 14,
+      "name": "News",
+      "definition": "Retrieving current events, headlines, or general news."
+    },
+    {
+      "id": 15,
+      "name": "Financial Information",
+      "definition": "Retrieving financial data such as stock prices or exchange rates."
+    },
+    {
+      "id": 16,
+      "name": "Calculations",
+      "definition": "Performing mathematical calculations."
+    },
+    {
+      "id": 17,
+      "name": "Date and Time",
+      "definition": "Retrieving current date or time information, including time zones."
+    },
+    {
+      "id": 18,
+      "name": "Smart Home Control",
+      "definition": "Controlling smart home devices or settings."
+    },
+    {
+      "id": 19,
+      "name": "Device Settings",
+      "definition": "Adjusting device-specific settings like volume or sound."
+    },
+    {
+      "id": 20,
+      "name": "App Control",
+      "definition": "Opening or launching applications."
+    },
+    {
+      "id": 21,
+      "name": "Navigation and Traffic",
+      "definition": "Getting directions, travel times, or traffic information."
+    },
+    {
+      "id": 22,
+      "name": "Local Search",
+      "definition": "Finding nearby places or services."
+    },
+    {
+      "id": 23,
+      "name": "Travel and Transportation",
+      "definition": "Booking or inquiring about travel arrangements, public transportation schedules, or travel destinations."
+    },
+    {
+      "id": 24,
+      "name": "Games",
+      "definition": "Initiating or playing games."
+    },
+    {
+      "id": 25,
+      "name": "General Conversation",
+      "definition": "Engaging in casual conversation, expressing opinions, or making non-task-oriented statements."
+    },
+    {
+      "id": 26,
+      "name": "Assistant Management",
+      "definition": "Inquiring about or managing the assistant's own performance, usage statistics, or settings."
+    }
+  ]
+}
+```

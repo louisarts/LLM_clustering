@@ -1,0 +1,70 @@
+{
+  "bench": "banking77",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Issues",
+      "definition": "Queries related to problems with physical or virtual cards, including activation, expiration, and malfunction."
+    },
+    {
+      "id": 2,
+      "name": "Fraud and Unauthorized Transactions",
+      "definition": "Concerns about unauthorized use of cards or accounts, including suspected fraud and requests to freeze accounts."
+    },
+    {
+      "id": 3,
+      "name": "Identity Verification",
+      "definition": "Questions and issues related to verifying identity for account access or transactions."
+    },
+    {
+      "id": 4,
+      "name": "Transfers and Payments",
+      "definition": "Inquiries about money transfers, including pending transfers, declined transactions, and transfer fees."
+    },
+    {
+      "id": 5,
+      "name": "Refunds and Chargebacks",
+      "definition": "Requests and issues related to obtaining refunds or disputing charges."
+    },
+    {
+      "id": 6,
+      "name": "Top-Up and Account Funding",
+      "definition": "Questions about adding funds to accounts, including methods, limits, and fees."
+    },
+    {
+      "id": 7,
+      "name": "ATM and Cash Withdrawals",
+      "definition": "Issues and questions related to using ATMs, including fees, incorrect amounts, and card retention."
+    },
+    {
+      "id": 8,
+      "name": "Fees and Charges",
+      "definition": "Inquiries about fees associated with various banking services, including card payments and withdrawals."
+    },
+    {
+      "id": 9,
+      "name": "Exchange Rates and Currency",
+      "definition": "Questions about currency exchange rates and the ability to exchange currencies."
+    },
+    {
+      "id": 10,
+      "name": "Account Management",
+      "definition": "Requests and issues related to managing account details, including name changes and account deletion."
+    },
+    {
+      "id": 11,
+      "name": "PIN and Security",
+      "definition": "Concerns and questions about PIN codes, including resetting and blocking."
+    },
+    {
+      "id": 12,
+      "name": "Service Availability and Locations",
+      "definition": "Inquiries about the availability of services in different locations and supported countries."
+    }
+  ]
+}

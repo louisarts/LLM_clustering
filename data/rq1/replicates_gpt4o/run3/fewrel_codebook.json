@@ -1,0 +1,160 @@
+{
+  "bench": "fewrel",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Geographical Location",
+      "definition": "One entity is a geographical location within or related to the other."
+    },
+    {
+      "id": 2,
+      "name": "Organizational Membership",
+      "definition": "One entity is a member or part of the other organization or group."
+    },
+    {
+      "id": 3,
+      "name": "Artistic or Cultural Influence",
+      "definition": "One entity is influenced by or related to the artistic or cultural style of the other."
+    },
+    {
+      "id": 4,
+      "name": "Event Participation",
+      "definition": "One entity participated in or is associated with an event related to the other."
+    },
+    {
+      "id": 5,
+      "name": "Family or Personal Relationship",
+      "definition": "One entity is a family member or has a personal relationship with the other."
+    },
+    {
+      "id": 6,
+      "name": "Professional Role or Title",
+      "definition": "One entity holds a professional role or title related to the other."
+    },
+    {
+      "id": 7,
+      "name": "Historical or Political Event",
+      "definition": "One entity is involved in or related to a historical or political event involving the other."
+    },
+    {
+      "id": 8,
+      "name": "Product or Creation",
+      "definition": "One entity is a product or creation of the other."
+    },
+    {
+      "id": 9,
+      "name": "Award or Recognition",
+      "definition": "One entity received an award or recognition related to the other."
+    },
+    {
+      "id": 10,
+      "name": "Scientific or Academic Contribution",
+      "definition": "One entity contributed to or is associated with a scientific or academic field related to the other."
+    },
+    {
+      "id": 11,
+      "name": "Corporate or Business Relationship",
+      "definition": "One entity is a business or corporate entity related to the other."
+    },
+    {
+      "id": 12,
+      "name": "Language or Linguistic Relation",
+      "definition": "One entity is a language or linguistic form related to the other."
+    },
+    {
+      "id": 13,
+      "name": "Fictional or Literary Relation",
+      "definition": "One entity is a fictional or literary work related to the other."
+    },
+    {
+      "id": 14,
+      "name": "Sports or Competition",
+      "definition": "One entity is involved in a sport or competition related to the other."
+    },
+    {
+      "id": 15,
+      "name": "Infrastructure or Construction",
+      "definition": "One entity is an infrastructure or construction project related to the other."
+    },
+    {
+      "id": 16,
+      "name": "Musical or Artistic Performance",
+      "definition": "One entity is a musical or artistic performance related to the other."
+    },
+    {
+      "id": 17,
+      "name": "Military or Defense",
+      "definition": "One entity is involved in military or defense activities related to the other."
+    },
+    {
+      "id": 18,
+      "name": "Religious or Spiritual Relation",
+      "definition": "One entity is related to a religious or spiritual aspect of the other."
+    },
+    {
+      "id": 19,
+      "name": "Media or Broadcasting",
+      "definition": "One entity is involved in media or broadcasting related to the other."
+    },
+    {
+      "id": 20,
+      "name": "Legal or Governmental Relation",
+      "definition": "One entity is involved in legal or governmental activities related to the other."
+    },
+    {
+      "id": 21,
+      "name": "Transportation or Travel",
+      "definition": "One entity is involved in transportation or travel related to the other."
+    },
+    {
+      "id": 22,
+      "name": "Scientific or Technological Development",
+      "definition": "One entity is involved in scientific or technological development related to the other."
+    },
+    {
+      "id": 23,
+      "name": "Cultural or Heritage Site",
+      "definition": "One entity is a cultural or heritage site related to the other."
+    },
+    {
+      "id": 24,
+      "name": "Educational or Academic Institution",
+      "definition": "One entity is an educational or academic institution related to the other."
+    },
+    {
+      "id": 25,
+      "name": "Political or Governmental Position",
+      "definition": "One entity holds a political or governmental position related to the other."
+    },
+    {
+      "id": 26,
+      "name": "Biological or Taxonomic Classification",
+      "definition": "One entity is a biological or taxonomic classification related to the other."
+    },
+    {
+      "id": 27,
+      "name": "Historical or Cultural Artifact",
+      "definition": "One entity is a historical or cultural artifact related to the other."
+    },
+    {
+      "id": 28,
+      "name": "Economic or Financial Relation",
+      "definition": "One entity is involved in economic or financial activities related to the other."
+    },
+    {
+      "id": 29,
+      "name": "Entertainment or Performance",
+      "definition": "One entity is involved in entertainment or performance related to the other."
+    },
+    {
+      "id": 30,
+      "name": "Natural or Environmental Feature",
+      "definition": "One entity is a natural or environmental feature related to the other."
+    }
+  ]
+}

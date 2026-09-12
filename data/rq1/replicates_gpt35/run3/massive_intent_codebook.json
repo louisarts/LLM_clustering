@@ -1,0 +1,110 @@
+{
+  "bench": "massive_intent",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Media",
+      "definition": "User wants to play music, podcast, audiobook, radio, or specific songs."
+    },
+    {
+      "id": 2,
+      "name": "Check Information",
+      "definition": "User wants to check information such as weather, stocks, exchange rates, definitions, news, or schedules."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "User wants to send, reply to, or check emails, tweets, or messages."
+    },
+    {
+      "id": 4,
+      "name": "Set Reminders/Alarms",
+      "definition": "User wants to set, cancel, or check reminders, alarms, or events in the calendar."
+    },
+    {
+      "id": 5,
+      "name": "Navigation/Directions",
+      "definition": "User wants directions, locations, or travel information."
+    },
+    {
+      "id": 6,
+      "name": "Shopping/Ordering",
+      "definition": "User wants to add items to a list, order food, or make purchases."
+    },
+    {
+      "id": 7,
+      "name": "General Knowledge",
+      "definition": "User wants to know general knowledge facts, definitions, or information."
+    },
+    {
+      "id": 8,
+      "name": "Entertainment Recommendations",
+      "definition": "User wants recommendations for movies, books, music, or activities."
+    },
+    {
+      "id": 9,
+      "name": "Home Automation",
+      "definition": "User wants to control lights, appliances, or home devices."
+    },
+    {
+      "id": 10,
+      "name": "Social Media Interaction",
+      "definition": "User wants to interact with social media platforms like Twitter or Facebook."
+    },
+    {
+      "id": 11,
+      "name": "Health/Wellness",
+      "definition": "User wants health-related information or assistance."
+    },
+    {
+      "id": 12,
+      "name": "Cancel/Delete",
+      "definition": "User wants to cancel, delete, or remove items, events, or alarms."
+    },
+    {
+      "id": 13,
+      "name": "Weather Inquiries",
+      "definition": "User wants to know current, future, or weekly weather forecasts."
+    },
+    {
+      "id": 14,
+      "name": "Event Planning",
+      "definition": "User wants to plan, schedule, or inquire about events, meetings, or activities."
+    },
+    {
+      "id": 15,
+      "name": "Travel Planning",
+      "definition": "User wants to plan, book, or inquire about travel arrangements like train tickets or destinations."
+    },
+    {
+      "id": 16,
+      "name": "Mathematical Queries",
+      "definition": "User wants to perform mathematical calculations or ask math-related questions."
+    },
+    {
+      "id": 17,
+      "name": "Food/Recipe Assistance",
+      "definition": "User wants recipes, food recommendations, or assistance with meal planning."
+    },
+    {
+      "id": 18,
+      "name": "Personal Assistance",
+      "definition": "User wants personal assistance, reminders, or help with daily tasks."
+    },
+    {
+      "id": 19,
+      "name": "News Updates",
+      "definition": "User wants to receive the latest news updates from various sources."
+    },
+    {
+      "id": 20,
+      "name": "Language/Definition Queries",
+      "definition": "User wants to know definitions, meanings, or translations of words or phrases."
+    }
+  ]
+}

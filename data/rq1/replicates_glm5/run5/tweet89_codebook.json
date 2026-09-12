@@ -1,0 +1,359 @@
+{
+  "bench": "tweet89",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Gabrielle Giffords Shooting Recovery",
+      "definition": "News regarding the medical condition and recovery of US Representative Gabrielle Giffords."
+    },
+    {
+      "id": 2,
+      "name": "Acai Berry Weight Loss Trend",
+      "definition": "Posts promoting acai berry diets, detox products, and weight loss plans."
+    },
+    {
+      "id": 3,
+      "name": "Super Bowl Commercials",
+      "definition": "Discussion and reviews of advertisements aired during the Super Bowl."
+    },
+    {
+      "id": 4,
+      "name": "US Healthcare Reform Rulings",
+      "definition": "Federal court decisions regarding the constitutionality of the Affordable Care Act."
+    },
+    {
+      "id": 5,
+      "name": "Sports Injury Updates",
+      "definition": "Injury reports and physical condition updates for professional athletes."
+    },
+    {
+      "id": 6,
+      "name": "Christina Aguilera National Anthem Performance",
+      "definition": "Reactions to Christina Aguilera's performance of the national anthem at the Super Bowl."
+    },
+    {
+      "id": 7,
+      "name": "Academy Award Nominations",
+      "definition": "Announcements and lists of nominees for the annual Academy Awards."
+    },
+    {
+      "id": 8,
+      "name": "Michelle Obama Fitness Campaign",
+      "definition": "News regarding Michelle Obama's initiatives for fitness and nutrition."
+    },
+    {
+      "id": 9,
+      "name": "Healthy Recipes",
+      "definition": "Posts sharing recipes for healthy meals, weight loss, and cooking."
+    },
+    {
+      "id": 10,
+      "name": "Facebook Privacy Settings",
+      "definition": "Updates and user concerns regarding privacy settings on the Facebook platform."
+    },
+    {
+      "id": 11,
+      "name": "US Supreme Court Rulings",
+      "definition": "Decisions and actions taken by the US Supreme Court on various cases."
+    },
+    {
+      "id": 12,
+      "name": "Sundance Film Festival",
+      "definition": "News, celebrity sightings, and film premieres from the Sundance Film Festival."
+    },
+    {
+      "id": 13,
+      "name": "US Employment Reports",
+      "definition": "Reports on unemployment rates and job market statistics in the United States."
+    },
+    {
+      "id": 14,
+      "name": "Yemeni Protests",
+      "definition": "Anti-government protests and political developments in Yemen."
+    },
+    {
+      "id": 15,
+      "name": "Fishing Reports and Tips",
+      "definition": "Angling reports, tips, and discussions related to fishing."
+    },
+    {
+      "id": 16,
+      "name": "FDA Drug Approvals",
+      "definition": "Announcements of FDA approvals for new pharmaceutical drugs."
+    },
+    {
+      "id": 17,
+      "name": "Starbucks Trenta Cup",
+      "definition": "Discussion regarding the size and capacity of the Starbucks Trenta cup."
+    },
+    {
+      "id": 18,
+      "name": "The King's Speech Film Awards",
+      "definition": "Awards and nominations received by the film The King's Speech."
+    },
+    {
+      "id": 19,
+      "name": "Birmingham City Council Cuts",
+      "definition": "Protests regarding budget cuts by the Birmingham City Council."
+    },
+    {
+      "id": 20,
+      "name": "Student Financial Aid",
+      "definition": "Information regarding scholarships, grants, and financial aid applications for students."
+    },
+    {
+      "id": 21,
+      "name": "New York State Budget",
+      "definition": "Governor Cuomo's budget proposals and related political process in New York."
+    },
+    {
+      "id": 22,
+      "name": "Ivory Coast Political Crisis",
+      "definition": "Economic and political developments regarding the Gbagbo administration in Ivory Coast."
+    },
+    {
+      "id": 23,
+      "name": "Identity Theft Prevention",
+      "definition": "Tips and news regarding the prevention of identity theft and online fraud."
+    },
+    {
+      "id": 24,
+      "name": "Egyptian Crisis and Journalist Safety",
+      "definition": "The Egyptian political unrest and specific reports of journalists being attacked or detained."
+    },
+    {
+      "id": 25,
+      "name": "Teen Athlete Concussions",
+      "definition": "Health risks and safety protocols regarding concussions in student athletes."
+    },
+    {
+      "id": 26,
+      "name": "Texting While Driving Dangers",
+      "definition": "Campaigns and warnings regarding the dangers of texting while driving."
+    },
+    {
+      "id": 27,
+      "name": "Directors Guild Awards",
+      "definition": "Winners and news from the Directors Guild of America awards."
+    },
+    {
+      "id": 28,
+      "name": "Iranian Pirate Incident",
+      "definition": "News regarding an Iranian oil tanker escaping a pirate attack."
+    },
+    {
+      "id": 29,
+      "name": "Moscow Airport Bombing",
+      "definition": "Reports on the terrorist attack and explosion at a Moscow airport."
+    },
+    {
+      "id": 30,
+      "name": "Rahm Emanuel Mayoral Eligibility",
+      "definition": "Court rulings regarding the eligibility of Rahm Emanuel to run for Mayor of Chicago."
+    },
+    {
+      "id": 31,
+      "name": "Jordanian Protests",
+      "definition": "Political protests and reform demands in Jordan."
+    },
+    {
+      "id": 32,
+      "name": "Fast Food Immigration Raids",
+      "definition": "Reports of immigration enforcement actions targeting fast food restaurants."
+    },
+    {
+      "id": 33,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Legal proceedings and news regarding the murder of Joanna Yeates."
+    },
+    {
+      "id": 34,
+      "name": "Ronald Reagan Centennial",
+      "definition": "Events and fundraising marking the 100th birthday of Ronald Reagan."
+    },
+    {
+      "id": 35,
+      "name": "Australian Open Tennis",
+      "definition": "Results and updates from the Australian Open tennis tournament."
+    },
+    {
+      "id": 36,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "News regarding the lawsuit questioning the beef content of Taco Bell products."
+    },
+    {
+      "id": 37,
+      "name": "Gasland Documentary Nomination",
+      "definition": "News regarding the film Gasland receiving an Oscar nomination."
+    },
+    {
+      "id": 38,
+      "name": "Bullying Prevention",
+      "definition": "Conferences and programs aimed at preventing bullying in schools."
+    },
+    {
+      "id": 39,
+      "name": "Charlie Sheen Hospitalization",
+      "definition": "News regarding actor Charlie Sheen's hospitalization and medical issues."
+    },
+    {
+      "id": 40,
+      "name": "EU Fishing Policy",
+      "definition": "Calls for an overhaul of the European Union's fishing policies."
+    },
+    {
+      "id": 41,
+      "name": "Stuxnet Computer Worm",
+      "definition": "Reports on the Stuxnet computer worm and its potential origins or effects."
+    },
+    {
+      "id": 42,
+      "name": "Iranian Execution",
+      "definition": "News regarding the execution of an Iranian-Dutch woman in Iran."
+    },
+    {
+      "id": 43,
+      "name": "White Stripes Breakup",
+      "definition": "Announcement that the band The White Stripes has disbanded."
+    },
+    {
+      "id": 44,
+      "name": "Venezuela Golf Controversy",
+      "definition": "Comments by President Hugo Chavez regarding the sport of golf in Venezuela."
+    },
+    {
+      "id": 45,
+      "name": "Samsung Mobile Boost",
+      "definition": "News regarding Samsung's performance in the Android smartphone market."
+    },
+    {
+      "id": 46,
+      "name": "Climate Change Update",
+      "definition": "Reports on bizarre weather patterns and their relation to climate change."
+    },
+    {
+      "id": 47,
+      "name": "US Hockey Safety",
+      "definition": "Proposals to increase safety in the sport of hockey in the USA."
+    },
+    {
+      "id": 48,
+      "name": "Australian Floods",
+      "definition": "News regarding severe flooding in Australia."
+    },
+    {
+      "id": 49,
+      "name": "Chinese Electronics Tax",
+      "definition": "Reports that China will halve import taxes on consumer electronics."
+    },
+    {
+      "id": 50,
+      "name": "Indian Navy Pirate Rescue",
+      "definition": "News regarding the Indian Navy rescuing a Thai vessel from pirates."
+    },
+    {
+      "id": 51,
+      "name": "Debt Consolidation Advice",
+      "definition": "Financial advice and services regarding debt consolidation and relief."
+    },
+    {
+      "id": 52,
+      "name": "The Rite Film Release",
+      "definition": "Reviews and release information for the film The Rite."
+    },
+    {
+      "id": 53,
+      "name": "Credit Card Debt Management",
+      "definition": "Tips and strategies for lowering and managing credit card debt."
+    },
+    {
+      "id": 54,
+      "name": "Social Media in Politics",
+      "definition": "Discussion of how social media is used by political activists and parties."
+    },
+    {
+      "id": 55,
+      "name": "Extreme Makeover: Home Edition",
+      "definition": "Discussion of episodes and messages from the TV show Extreme Makeover: Home Edition."
+    },
+    {
+      "id": 56,
+      "name": "Kardashian Reality TV",
+      "definition": "Comments and opinions regarding the Kardashian family reality shows."
+    },
+    {
+      "id": 57,
+      "name": "Best Buy Trade-In Program",
+      "definition": "News regarding Best Buy's electronics trade-in and upgrade programs."
+    },
+    {
+      "id": 58,
+      "name": "Apple Succession Plan",
+      "definition": "Shareholder demands for a succession plan at Apple regarding Steve Jobs."
+    },
+    {
+      "id": 59,
+      "name": "SAG Awards",
+      "definition": "Winners and highlights from the Screen Actors Guild awards."
+    },
+    {
+      "id": 60,
+      "name": "Jay Carney Press Secretary",
+      "definition": "Appointment of Jay Carney as White House Press Secretary."
+    },
+    {
+      "id": 61,
+      "name": "Wikileaks Peace Prize Nomination",
+      "definition": "News regarding Wikileaks being nominated for the Nobel Peace Prize."
+    },
+    {
+      "id": 62,
+      "name": "Chicago Lake Shore Drive Closure",
+      "definition": "News regarding the closure of Lake Shore Drive in Chicago."
+    },
+    {
+      "id": 63,
+      "name": "Frances Fox Piven Threats",
+      "definition": "Reports regarding death threats against academic Frances Fox Piven."
+    },
+    {
+      "id": 64,
+      "name": "James Franco Sundance Appearance",
+      "definition": "News regarding James Franco's presence and activities at Sundance."
+    },
+    {
+      "id": 65,
+      "name": "Laptop Theft Protection",
+      "definition": "Tips and advice for protecting laptops from theft."
+    },
+    {
+      "id": 66,
+      "name": "Energy Saving Tips",
+      "definition": "Advice and tips for saving energy and money in the home."
+    },
+    {
+      "id": 67,
+      "name": "NBA Trade Rumors",
+      "definition": "Rumors and news regarding trades in the National Basketball Association."
+    },
+    {
+      "id": 68,
+      "name": "Platypus Death",
+      "definition": "News regarding a platypus found dead in an illegal fishing net."
+    },
+    {
+      "id": 69,
+      "name": "NCIS TV Show",
+      "definition": "Fan appreciation and discussion of the TV show NCIS."
+    },
+    {
+      "id": 70,
+      "name": "Kourtney and Khloe Take New York",
+      "definition": "Discussion of the reality TV show Kourtney and Khloe Take New York."
+    }
+  ]
+}

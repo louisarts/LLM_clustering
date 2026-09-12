@@ -1,0 +1,60 @@
+{
+  "bench": "mcid",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information Inquiry",
+      "definition": "Seeking general information or updates about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Prevention Measures Inquiry",
+      "definition": "Inquiring about preventive measures or best practices to stay safe from COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Symptoms Inquiry",
+      "definition": "Seeking information about symptoms of COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "Transmission Inquiry",
+      "definition": "Inquiring about how COVID-19 spreads or transmits."
+    },
+    {
+      "id": 5,
+      "name": "Treatment Inquiry",
+      "definition": "Seeking information about treatment options for COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Myth Debunking",
+      "definition": "Seeking clarification on myths or misinformation related to COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Travel Advice Inquiry",
+      "definition": "Seeking advice or information related to travel during the COVID-19 pandemic."
+    },
+    {
+      "id": 8,
+      "name": "Donation Inquiry",
+      "definition": "Inquiring about ways to donate or support COVID-19 relief efforts."
+    },
+    {
+      "id": 9,
+      "name": "Animal Related Inquiry",
+      "definition": "Seeking information about pets or animals in relation to COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "Personal Protection Inquiry",
+      "definition": "Inquiring about personal protective measures or equipment against COVID-19."
+    }
+  ]
+}

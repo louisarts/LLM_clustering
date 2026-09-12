@@ -1,0 +1,192 @@
+{
+  "bench": "fewnerd",
+  "run": 10,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "A specific individual."
+    },
+    {
+      "id": 2,
+      "name": "City, Town, or Village",
+      "definition": "A populated human settlement."
+    },
+    {
+      "id": 3,
+      "name": "Country",
+      "definition": "A sovereign state or nation."
+    },
+    {
+      "id": 4,
+      "name": "Administrative Division",
+      "definition": "A sub-national political or geographical division (e.g., state, province, county, borough)."
+    },
+    {
+      "id": 5,
+      "name": "Region or Continent",
+      "definition": "A large geographical area, larger than a country or administrative division."
+    },
+    {
+      "id": 6,
+      "name": "Geographic Feature",
+      "definition": "A natural or artificial landform or body of water (e.g., mountain, river, lake, bay, ocean, sound, park, island, glen)."
+    },
+    {
+      "id": 7,
+      "name": "Road or Highway",
+      "definition": "A public way for the passage of vehicles."
+    },
+    {
+      "id": 8,
+      "name": "Building or Structure",
+      "definition": "A permanent construction (e.g., theatre, hotel, hospital, academy, tunnel, military base, sports venue, amusement park, library)."
+    },
+    {
+      "id": 9,
+      "name": "Organization or Company",
+      "definition": "A group of people with a particular purpose, a commercial enterprise, or a brand."
+    },
+    {
+      "id": 10,
+      "name": "University or Educational Institution",
+      "definition": "An institution for higher education or a school."
+    },
+    {
+      "id": 11,
+      "name": "Sports Team",
+      "definition": "A group of athletes competing together in a sport."
+    },
+    {
+      "id": 12,
+      "name": "Sports Competition or League",
+      "definition": "An organized series of athletic contests or a governing body for a sport."
+    },
+    {
+      "id": 13,
+      "name": "Vehicle Model",
+      "definition": "A specific model of a car, aircraft, train, ship, or other vehicle."
+    },
+    {
+      "id": 14,
+      "name": "Weapon Model",
+      "definition": "A specific model of a weapon."
+    },
+    {
+      "id": 15,
+      "name": "Abbreviation or Acronym",
+      "definition": "A shortened form of a word or phrase."
+    },
+    {
+      "id": 16,
+      "name": "Nationality or Ethnicity",
+      "definition": "A group of people sharing a common origin or culture."
+    },
+    {
+      "id": 17,
+      "name": "Language or Dialect",
+      "definition": "A system of communication used by a particular country or community."
+    },
+    {
+      "id": 18,
+      "name": "Publication",
+      "definition": "A newspaper, magazine, or journal."
+    },
+    {
+      "id": 19,
+      "name": "Broadcasting Channel or Network",
+      "definition": "A television or radio channel or network."
+    },
+    {
+      "id": 20,
+      "name": "Historical Event or Period",
+      "definition": "A significant occurrence or span of time in history."
+    },
+    {
+      "id": 21,
+      "name": "Award",
+      "definition": "A prize or honor bestowed."
+    },
+    {
+      "id": 22,
+      "name": "Disease or Medical Condition",
+      "definition": "An illness or health problem."
+    },
+    {
+      "id": 23,
+      "name": "Chemical or Biological Entity",
+      "definition": "A chemical compound, protein, gene, enzyme, hormone, or virus component."
+    },
+    {
+      "id": 24,
+      "name": "Fictional Entity",
+      "definition": "A character, location, organization, or event from a work of fiction."
+    },
+    {
+      "id": 25,
+      "name": "Title of Work",
+      "definition": "The name of an album, film, song, or TV series."
+    },
+    {
+      "id": 26,
+      "name": "Animal Species",
+      "definition": "A group of living organisms consisting of similar individuals."
+    },
+    {
+      "id": 27,
+      "name": "Plant Species or Group",
+      "definition": "A group of living organisms consisting of similar individuals (plants)."
+    },
+    {
+      "id": 28,
+      "name": "Religious Concept or Text",
+      "definition": "A belief, practice, or sacred writing in a religion."
+    },
+    {
+      "id": 29,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 30,
+      "name": "Number or Identifier",
+      "definition": "A numerical or alphanumeric label or code."
+    },
+    {
+      "id": 31,
+      "name": "Law or Act Section",
+      "definition": "A specific part of a legal document."
+    },
+    {
+      "id": 32,
+      "name": "Operating System",
+      "definition": "Software that manages computer hardware and software resources."
+    },
+    {
+      "id": 33,
+      "name": "Software or Game Component",
+      "definition": "A part of a computer program or game."
+    },
+    {
+      "id": 34,
+      "name": "Government Body",
+      "definition": "An organization that is part of a government."
+    },
+    {
+      "id": 35,
+      "name": "Celestial Body",
+      "definition": "A natural object in space, such as a star or planet."
+    },
+    {
+      "id": 36,
+      "name": "Food Item",
+      "definition": "A specific type of food or dish."
+    },
+    {
+      "id": 37,
+      "name": "Academic Degree",
+      "definition": "A qualification awarded by a college or university."
+    }
+  ]
+}

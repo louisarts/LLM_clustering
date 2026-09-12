@@ -1,0 +1,47 @@
+{
+  "bench": "snips",
+  "run": 3,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Restaurant Reservation",
+      "definition": "Book a table or find a restaurant for a meal or drink."
+    },
+    {
+      "id": 2,
+      "name": "Music Playback",
+      "definition": "Play music, a song, album, artist, genre, or playlist, potentially specifying an app."
+    },
+    {
+      "id": 3,
+      "name": "Music Playlist Management",
+      "definition": "Add a song, artist, or album to an existing playlist."
+    },
+    {
+      "id": 4,
+      "name": "Weather Information",
+      "definition": "Retrieve weather forecast or current conditions for a specific location and/or time."
+    },
+    {
+      "id": 5,
+      "name": "Movie/TV Show Search & Showtimes",
+      "definition": "Find movies, TV shows, trailers, or retrieve showtimes and cinema locations."
+    },
+    {
+      "id": 6,
+      "name": "Content Rating",
+      "definition": "Rate a book, movie, TV show, album, essay, or series with a numerical score or stars."
+    },
+    {
+      "id": 7,
+      "name": "General Search",
+      "definition": "Find information about a book, video game, product, soundtrack, or other general creative work or item."
+    },
+    {
+      "id": 8,
+      "name": "App Launch",
+      "definition": "Open or launch a specific application."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+ {
+  "id": 1,
+  "name": "Agent Persona",
+  "definition": "Handle greetings, small talk, and questions regarding the assistant's identity, capabilities, or preferences."
+ },
+ {
+  "id": 2,
+  "name": "Banking & Finance",
+  "definition": "Manage bank accounts, credit cards, loans, transfers, and financial queries."
+ },
+ {
+  "id": 3,
+  "name": "Calendar & Reminders",
+  "definition": "Manage schedules, events, to-do lists, reminders, and check resource availability."
+ },
+ {
+  "id": 4,
+  "name": "Communication",
+  "definition": "Initiate phone calls, send messages, or share information with contacts."
+ },
+ {
+  "id": 5,
+  "name": "Device & Settings",
+  "definition": "Configure device settings, control smart home appliances, or locate linked devices."
+ },
+ {
+  "id": 6,
+  "name": "Entertainment",
+  "definition": "Play music, manage playlists, or request creative content such as stories and jokes."
+ },
+ {
+  "id": 7,
+  "name": "Food & Dining",
+  "definition": "Find recipes, nutritional information, restaurant suggestions, or make dining reservations."
+ },
+ {
+  "id": 8,
+  "name": "General Knowledge",
+  "definition": "Answer factual questions, provide definitions, explain concepts, or retrieve general information like weather and trivia."
+ },
+ {
+  "id": 9,
+  "name": "Shopping & Services",
+  "definition": "Find products, compare prices, track orders, seek deals, or enroll in services."
+ },
+ {
+  "id": 10,
+  "name": "Travel & Navigation",
+  "definition": "Manage travel plans, bookings, navigation, location tracking, and transportation."
+ },
+ {
+  "id": 11,
+  "name": "Utility",
+  "definition": "Perform calculations, conversions, translations, spelling checks, set timers, or roll dice."
+ },
+ {
+  "id": 12,
+  "name": "Vehicle",
+  "definition": "Query or manage vehicle status, maintenance, specifications, and fuel economy."
+ }
+]

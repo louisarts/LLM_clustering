@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sports",
+      "definition": "Articles covering events, news, and personalities related to various sports."
+    },
+    {
+      "id": 2,
+      "name": "Politics",
+      "definition": "Articles discussing political events, government actions, and political figures."
+    },
+    {
+      "id": 3,
+      "name": "Economy",
+      "definition": "Articles related to economic conditions, financial markets, and economic policies."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Articles covering movies, music, television, and celebrity news."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "Articles discussing advancements, trends, and issues in technology and computing."
+    },
+    {
+      "id": 6,
+      "name": "Health",
+      "definition": "Articles related to health issues, medical advancements, and public health policies."
+    },
+    {
+      "id": 7,
+      "name": "Environment",
+      "definition": "Articles discussing environmental issues, climate change, and conservation efforts."
+    },
+    {
+      "id": 8,
+      "name": "International Relations",
+      "definition": "Articles covering diplomatic relations, conflicts, and international agreements."
+    },
+    {
+      "id": 9,
+      "name": "Culture",
+      "definition": "Articles discussing cultural events, trends, and societal issues."
+    },
+    {
+      "id": 10,
+      "name": "Crime and Law",
+      "definition": "Articles related to criminal activities, legal cases, and law enforcement."
+    },
+    {
+      "id": 11,
+      "name": "Business",
+      "definition": "Articles covering corporate news, business strategies, and market trends."
+    },
+    {
+      "id": 12,
+      "name": "Education",
+      "definition": "Articles discussing educational policies, institutions, and issues affecting education."
+    },
+    {
+      "id": 13,
+      "name": "Science",
+      "definition": "Articles related to scientific discoveries, research, and advancements."
+    },
+    {
+      "id": 14,
+      "name": "Travel",
+      "definition": "Articles covering travel destinations, tourism trends, and travel advisories."
+    },
+    {
+      "id": 15,
+      "name": "Social Issues",
+      "definition": "Articles discussing social justice, inequality, and community concerns."
+    }
+  ]
+}

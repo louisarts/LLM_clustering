@@ -1,0 +1,379 @@
+{
+  "bench": "tweet89",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates on the medical condition and rehabilitation of US Representative Gabrielle Giffords following the shooting."
+    },
+    {
+      "id": 2,
+      "name": "Acai Berry Diet Trends",
+      "definition": "Discussions, advertisements, and articles regarding the use of acai berries for weight loss and health benefits."
+    },
+    {
+      "id": 3,
+      "name": "Anti-Bullying Initiatives",
+      "definition": "Articles and tips concerning the prevention of bullying in schools and cyberbullying awareness."
+    },
+    {
+      "id": 4,
+      "name": "Piracy Operations",
+      "definition": "Reports on naval operations, arrests, and trials related to piracy off the coast of Somalia and in the Arabian Sea."
+    },
+    {
+      "id": 5,
+      "name": "Sports Concussion Safety",
+      "definition": "News regarding concussion protocols, helmet standards, and safety concerns in sports like football."
+    },
+    {
+      "id": 6,
+      "name": "Journalist Detentions in Egypt",
+      "definition": "Reports on the arrest, beating, or detention of journalists and confiscation of equipment during the Egyptian uprising."
+    },
+    {
+      "id": 7,
+      "name": "Super Bowl Commercials",
+      "definition": "Reviews, rankings, and discussions of advertisements aired during the Super Bowl."
+    },
+    {
+      "id": 8,
+      "name": "Christina Aguilera Anthem Performance",
+      "definition": "Coverage of Christina Aguilera's performance and lyric error during the singing of the National Anthem at the Super Bowl."
+    },
+    {
+      "id": 9,
+      "name": "Fishing Reports and Tips",
+      "definition": "Guides, forecasts, and personal reports regarding freshwater and saltwater fishing activities."
+    },
+    {
+      "id": 10,
+      "name": "New York State Budget Cuts",
+      "definition": "News regarding Governor Andrew Cuomo's budget proposals and spending cuts affecting schools and services."
+    },
+    {
+      "id": 11,
+      "name": "Sundance Film Festival",
+      "definition": "Coverage of films, celebrities, and events occurring at the Sundance Film Festival."
+    },
+    {
+      "id": 12,
+      "name": "International Scholarship Listings",
+      "definition": "Announcements and listings of scholarship opportunities for international students."
+    },
+    {
+      "id": 13,
+      "name": "Kim Kardashian Personal Life",
+      "definition": "Tweets regarding the relationship status and personal life of celebrity Kim Kardashian."
+    },
+    {
+      "id": 14,
+      "name": "Myanmar Sanctions",
+      "definition": "Reports on international pressure and political developments regarding sanctions against Myanmar."
+    },
+    {
+      "id": 15,
+      "name": "Justin Bieber Media Appearance",
+      "definition": "Mentions of Justin Bieber's appearances or role exchanges in media, such as with Jon Stewart."
+    },
+    {
+      "id": 16,
+      "name": "Distracted Driving Awareness",
+      "definition": "Warnings and discussions regarding the dangers of texting while driving."
+    },
+    {
+      "id": 17,
+      "name": "Moscow Airport Bombing",
+      "definition": "Reports on the explosion, casualties, and terrorist attack at the international arrivals hall in Moscow's Domodedovo Airport."
+    },
+    {
+      "id": 18,
+      "name": "US Healthcare Law Ruling",
+      "definition": "Coverage of federal judges ruling on the constitutionality of the Affordable Care Act, specifically regarding the individual mandate."
+    },
+    {
+      "id": 19,
+      "name": "Australian Open Tennis",
+      "definition": "Results and commentary from the Australian Open tennis tournament."
+    },
+    {
+      "id": 20,
+      "name": "Immigration Law Enforcement",
+      "definition": "Reports on the enforcement, blocking, or rejection of immigration laws, such as Arizona's SB 1070."
+    },
+    {
+      "id": 21,
+      "name": "FDA Drug Approvals",
+      "definition": "Announcements of FDA approvals for drugs treating conditions such as lymphoma, shingles, and preterm birth."
+    },
+    {
+      "id": 22,
+      "name": "Protests in Yemen",
+      "definition": "Reports on anti-government protests demanding political change and the response of President Saleh in Yemen."
+    },
+    {
+      "id": 23,
+      "name": "Oscar Nominations",
+      "definition": "Announcements and analysis of the nominations for the Academy Awards."
+    },
+    {
+      "id": 24,
+      "name": "Jesse Ventura TSA Lawsuit",
+      "definition": "News regarding former Governor Jesse Ventura's lawsuit against the Transportation Security Administration."
+    },
+    {
+      "id": 25,
+      "name": "Identity Theft Prevention",
+      "definition": "Tips and reports regarding the prevention and impact of identity theft."
+    },
+    {
+      "id": 26,
+      "name": "Film Releases and Reviews",
+      "definition": "Reviews, trailers, and discussions of specific films such as The Rite and Black Swan."
+    },
+    {
+      "id": 27,
+      "name": "Keith Olbermann Career Move",
+      "definition": "News regarding journalist Keith Olbermann joining Current TV."
+    },
+    {
+      "id": 28,
+      "name": "Robert Kubica Rally Accident",
+      "definition": "Reports on Formula One driver Robert Kubica's injury in a rally car accident."
+    },
+    {
+      "id": 29,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Reports on the arrest and court proceedings related to the murder of Joanna Yeates."
+    },
+    {
+      "id": 30,
+      "name": "Steve Jobs Medical Leave",
+      "definition": "News regarding Apple CEO Steve Jobs' medical leave of absence."
+    },
+    {
+      "id": 31,
+      "name": "Egyptian Museum Security",
+      "definition": "Reports on the Egyptian army securing the museum and the theft of artifacts during the unrest."
+    },
+    {
+      "id": 32,
+      "name": "Taco Bell Lawsuit",
+      "definition": "News regarding the lawsuit questioning the beef content of Taco Bell's filling."
+    },
+    {
+      "id": 33,
+      "name": "Obama Birth Certificate Release",
+      "definition": "News regarding the release of President Obama's birth records and the 'birther' controversy."
+    },
+    {
+      "id": 34,
+      "name": "Iranian Execution",
+      "definition": "Reports on the hanging of an Iranian-Dutch woman in Iran on drug smuggling charges."
+    },
+    {
+      "id": 35,
+      "name": "TSA Body Scanners",
+      "definition": "Discussions and reports regarding TSA body scanner technology and privacy concerns."
+    },
+    {
+      "id": 36,
+      "name": "Ivory Coast Political Crisis",
+      "definition": "Reports on the political standoff and economic situation in Ivory Coast involving Laurent Gbagbo."
+    },
+    {
+      "id": 37,
+      "name": "White Stripes Breakup",
+      "definition": "Announcements and reactions to the band The White Stripes officially disbanding."
+    },
+    {
+      "id": 38,
+      "name": "Charlie Sheen Personal Life",
+      "definition": "Gossip and news regarding actor Charlie Sheen's personal troubles."
+    },
+    {
+      "id": 39,
+      "name": "Hugo Chavez Presidency",
+      "definition": "News regarding Venezuelan President Hugo Chavez's policies and reelection."
+    },
+    {
+      "id": 40,
+      "name": "Michelle Obama Fitness Campaign",
+      "definition": "Coverage of Michelle Obama's 'Let's Move' campaign focused on fitness and nutrition."
+    },
+    {
+      "id": 41,
+      "name": "Facebook Privacy Settings",
+      "definition": "Updates and discussions regarding privacy settings on the Facebook platform."
+    },
+    {
+      "id": 42,
+      "name": "Queensland Floods",
+      "definition": "Reports on the flooding and impact in Queensland, Australia."
+    },
+    {
+      "id": 43,
+      "name": "Wikileaks Nobel Nomination",
+      "definition": "News regarding the nomination of Wikileaks founder Julian Assange for the Nobel Peace Prize."
+    },
+    {
+      "id": 44,
+      "name": "Tea Party Caucus",
+      "definition": "Reports on the formation and activities of the Tea Party Caucus in the US Senate."
+    },
+    {
+      "id": 45,
+      "name": "BBC Service Cuts",
+      "definition": "News regarding budget cuts and service reductions at the British Broadcasting Corporation."
+    },
+    {
+      "id": 46,
+      "name": "US Unemployment Rate",
+      "definition": "Reports on the unemployment rate figures in the United States."
+    },
+    {
+      "id": 47,
+      "name": "Antonin Scalia Tea Party Meeting",
+      "definition": "News regarding Supreme Court Justice Antonin Scalia addressing the Tea Party caucus."
+    },
+    {
+      "id": 48,
+      "name": "Forestry Commission Cuts",
+      "definition": "News regarding government spending cuts affecting the Forestry Commission."
+    },
+    {
+      "id": 49,
+      "name": "Red Light Camera Industry",
+      "definition": "Reports on the manipulation of the red light photo industry by financial institutions."
+    },
+    {
+      "id": 50,
+      "name": "Kardashian Reality TV",
+      "definition": "General comments and viewership regarding the Kardashian family reality TV show."
+    },
+    {
+      "id": 51,
+      "name": "Protests in Jordan",
+      "definition": "Reports on protests in Jordan demanding the Prime Minister step down."
+    },
+    {
+      "id": 52,
+      "name": "Iran Sanctions",
+      "definition": "Reports on opposition and political developments regarding sanctions against Iran."
+    },
+    {
+      "id": 53,
+      "name": "College Financial Aid",
+      "definition": "Information and advice regarding FAFSA and financing for college students."
+    },
+    {
+      "id": 54,
+      "name": "US Midterm Election Gains",
+      "definition": "Analysis of Republican gains in social media usage during the US midterm elections."
+    },
+    {
+      "id": 55,
+      "name": "White House Press Secretary",
+      "definition": "Announcements regarding the appointment of Jay Carney as White House Press Secretary."
+    },
+    {
+      "id": 56,
+      "name": "Social Media in Middle East Protests",
+      "definition": "Analysis of the role of Facebook, Twitter, and YouTube in organizing anti-government protests."
+    },
+    {
+      "id": 57,
+      "name": "TV Crime Dramas",
+      "definition": "Viewer comments and discussions regarding television shows like NCIS and CSI."
+    },
+    {
+      "id": 58,
+      "name": "Healthy School Food",
+      "definition": "Discussions regarding the quality and cost of food provided in schools."
+    },
+    {
+      "id": 59,
+      "name": "Energy Conservation Tips",
+      "definition": "Advice and tips for reducing energy consumption and saving on electricity bills."
+    },
+    {
+      "id": 60,
+      "name": "Chicken Recipes",
+      "definition": "Sharing and discussion of recipes involving chicken."
+    },
+    {
+      "id": 61,
+      "name": "Aquarium Fish Keeping",
+      "definition": "Tips and discussions regarding the care and keeping of aquarium fish."
+    },
+    {
+      "id": 62,
+      "name": "Horse Racing Betting",
+      "definition": "Tips and factors to consider when betting on horse races."
+    },
+    {
+      "id": 63,
+      "name": "Mobile Technology Launches",
+      "definition": "News regarding the launch of mobile services and devices."
+    },
+    {
+      "id": 64,
+      "name": "Bedbug Phobia",
+      "definition": "Discussions regarding clinophobia, the fear of going to bed, linked to bedbugs."
+    },
+    {
+      "id": 65,
+      "name": "Chicago Snow Storm",
+      "definition": "Reports on the heavy snow storm affecting the city of Chicago."
+    },
+    {
+      "id": 66,
+      "name": "GOP Citizenship Amendment",
+      "definition": "News regarding Republican senators seeking to change laws regarding birthright citizenship."
+    },
+    {
+      "id": 67,
+      "name": "Supreme Court Judicial Bias",
+      "definition": "Reports on the Supreme Court ruling regarding third-party bias protection."
+    },
+    {
+      "id": 68,
+      "name": "Stuxnet Cyber Warfare",
+      "definition": "Discussions by author William Gibson regarding the Stuxnet computer worm."
+    },
+    {
+      "id": 69,
+      "name": "NYC Fashion Week",
+      "definition": "Events and networking opportunities related to New York City Fashion Week."
+    },
+    {
+      "id": 70,
+      "name": "Illegal Fishing Seizure",
+      "definition": "Reports on authorities seizing fish caught illegally, such as striped bass."
+    },
+    {
+      "id": 71,
+      "name": "Super Bowl Prediction",
+      "definition": "Predictions and commentary regarding the outcome of the Super Bowl game."
+    },
+    {
+      "id": 72,
+      "name": "Workplace Bullying",
+      "definition": "Articles and advice regarding dealing with bullying in the workplace."
+    },
+    {
+      "id": 73,
+      "name": "Global Warming Commentary",
+      "definition": "Commentary regarding global warming in the context of extreme weather events."
+    },
+    {
+      "id": 74,
+      "name": "US Senate Healthcare Hearing",
+      "definition": "News regarding Senate hearings on the US healthcare law."
+    }
+  ]
+}

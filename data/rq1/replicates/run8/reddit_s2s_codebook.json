@@ -1,0 +1,162 @@
+{
+  "bench": "reddit_s2s",
+  "run": 8,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "definition": "Posts about consumer electronics, software, internet, and general tech discussions."
+    },
+    {
+      "id": 2,
+      "name": "Gaming",
+      "definition": "Posts about video games, specific titles, gaming hardware, and related fan content."
+    },
+    {
+      "id": 3,
+      "name": "Automotive",
+      "definition": "Posts about cars, car buying, maintenance, and related topics."
+    },
+    {
+      "id": 4,
+      "name": "Science & Engineering",
+      "definition": "Posts about natural sciences, engineering, and environmental science."
+    },
+    {
+      "id": 5,
+      "name": "Art & Design",
+      "definition": "Posts about visual arts, architecture, and 3D modeling."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Posts about musical artists, genres, concerts, instruments, and music education."
+    },
+    {
+      "id": 7,
+      "name": "Books & Literature",
+      "definition": "Posts about books, authors, reading, and literary discussions."
+    },
+    {
+      "id": 8,
+      "name": "Movies & Television",
+      "definition": "Posts about films, TV shows, actors, and related media."
+    },
+    {
+      "id": 9,
+      "name": "Sports",
+      "definition": "Posts about professional or amateur sports, teams, and athletes."
+    },
+    {
+      "id": 10,
+      "name": "Health & Wellness",
+      "definition": "Posts about physical and mental health, medical conditions, and personal well-being."
+    },
+    {
+      "id": 11,
+      "name": "Relationships & Personal Advice",
+      "definition": "Posts seeking or offering advice on personal relationships, life choices, or ethical dilemmas."
+    },
+    {
+      "id": 12,
+      "name": "News & Politics",
+      "definition": "Posts about current events, political discussions, and social issues at a national or international level."
+    },
+    {
+      "id": 13,
+      "name": "Local Community - Austin",
+      "definition": "Posts specifically related to the city of Austin, Texas."
+    },
+    {
+      "id": 14,
+      "name": "Local Community - Chicago",
+      "definition": "Posts specifically related to the city of Chicago, Illinois."
+    },
+    {
+      "id": 15,
+      "name": "Local Community - Belgium",
+      "definition": "Posts specifically related to Belgium, its culture, news, or cities within it."
+    },
+    {
+      "id": 16,
+      "name": "Local Community - Baltimore",
+      "definition": "Posts specifically related to the city of Baltimore, Maryland."
+    },
+    {
+      "id": 17,
+      "name": "Local Community - Canada",
+      "definition": "Posts specifically related to Canada, its politics, news, or cities within it."
+    },
+    {
+      "id": 18,
+      "name": "Local Community - Atlanta",
+      "definition": "Posts specifically related to the city of Atlanta, Georgia."
+    },
+    {
+      "id": 19,
+      "name": "Local Community - Boston",
+      "definition": "Posts specifically related to the city of Boston, Massachusetts."
+    },
+    {
+      "id": 20,
+      "name": "Local Community - General",
+      "definition": "Posts about local issues or services without specifying a city or country with its own category."
+    },
+    {
+      "id": 21,
+      "name": "Online Shopping & E-commerce",
+      "definition": "Posts about buying or selling online, specific platforms, and related issues."
+    },
+    {
+      "id": 22,
+      "name": "Hobbies & Crafts",
+      "definition": "Posts about various hobbies, DIY projects, and general crafting."
+    },
+    {
+      "id": 23,
+      "name": "Pets & Animals",
+      "definition": "Posts about pets, animal welfare, and general animal discussions."
+    },
+    {
+      "id": 24,
+      "name": "Food & Drink",
+      "definition": "Posts about coffee, beer, cooking, restaurants, and culinary topics."
+    },
+    {
+      "id": 25,
+      "name": "Religion & Philosophy",
+      "definition": "Posts about religious beliefs, spirituality, philosophical concepts, and ethics."
+    },
+    {
+      "id": 26,
+      "name": "Humor & Entertainment",
+      "definition": "Posts intended to be funny, comedy sketches, memes, and general entertainment."
+    },
+    {
+      "id": 27,
+      "name": "Business & Finance",
+      "definition": "Posts about careers, personal finance, economics, marketing, and business operations."
+    },
+    {
+      "id": 28,
+      "name": "Education",
+      "definition": "Posts about academic studies, schools, universities, and learning."
+    },
+    {
+      "id": 29,
+      "name": "Fashion & Home",
+      "definition": "Posts about clothing, style, interior design, and home goods."
+    },
+    {
+      "id": 30,
+      "name": "Aviation & Travel",
+      "definition": "Posts about aviation, airlines, airports, and general travel experiences."
+    },
+    {
+      "id": 31,
+      "name": "Spam",
+      "definition": "Posts that are unsolicited advertisements, scams, or foreign language promotional content."
+    }
+  ]
+}

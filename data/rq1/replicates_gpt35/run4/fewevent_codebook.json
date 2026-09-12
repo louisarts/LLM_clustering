@@ -1,0 +1,110 @@
+{
+  "bench": "fewevent",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "sings",
+      "definition": "The trigger word denotes singing."
+    },
+    {
+      "id": 2,
+      "name": "marries",
+      "definition": "The trigger word denotes marriage."
+    },
+    {
+      "id": 3,
+      "name": "stays",
+      "definition": "The trigger word denotes staying."
+    },
+    {
+      "id": 4,
+      "name": "coaches",
+      "definition": "The trigger word denotes coaching."
+    },
+    {
+      "id": 5,
+      "name": "works",
+      "definition": "The trigger word denotes work."
+    },
+    {
+      "id": 6,
+      "name": "arrives",
+      "definition": "The trigger word denotes arrival."
+    },
+    {
+      "id": 7,
+      "name": "faces",
+      "definition": "The trigger word denotes facing."
+    },
+    {
+      "id": 8,
+      "name": "protests",
+      "definition": "The trigger word denotes protesting."
+    },
+    {
+      "id": 9,
+      "name": "leaves",
+      "definition": "The trigger word denotes leaving."
+    },
+    {
+      "id": 10,
+      "name": "films",
+      "definition": "The trigger word denotes filming."
+    },
+    {
+      "id": 11,
+      "name": "coaches",
+      "definition": "The trigger word denotes coaching."
+    },
+    {
+      "id": 12,
+      "name": "graduates",
+      "definition": "The trigger word denotes graduation."
+    },
+    {
+      "id": 13,
+      "name": "roommates",
+      "definition": "The trigger word denotes roommates."
+    },
+    {
+      "id": 14,
+      "name": "positions",
+      "definition": "The trigger word denotes a position."
+    },
+    {
+      "id": 15,
+      "name": "loses",
+      "definition": "The trigger word denotes loss."
+    },
+    {
+      "id": 16,
+      "name": "comments",
+      "definition": "The trigger word denotes commenting."
+    },
+    {
+      "id": 17,
+      "name": "singers",
+      "definition": "The trigger word denotes singing."
+    },
+    {
+      "id": 18,
+      "name": "films",
+      "definition": "The trigger word denotes filming."
+    },
+    {
+      "id": 19,
+      "name": "singers",
+      "definition": "The trigger word denotes singing."
+    },
+    {
+      "id": 20,
+      "name": "singers",
+      "definition": "The trigger word denotes singing."
+    }
+  ]
+}

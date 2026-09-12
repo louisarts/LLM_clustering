@@ -1,0 +1,95 @@
+{
+  "bench": "clinc150",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Request",
+      "definition": "Requests for factual information or clarification."
+    },
+    {
+      "id": 2,
+      "name": "Reminder/Notification",
+      "definition": "Requests to set reminders or notifications for future events."
+    },
+    {
+      "id": 3,
+      "name": "Reservation Management",
+      "definition": "Requests to make, modify, or cancel reservations."
+    },
+    {
+      "id": 4,
+      "name": "Task Management",
+      "definition": "Requests to manage tasks, to-do lists, or calendar entries."
+    },
+    {
+      "id": 5,
+      "name": "Communication",
+      "definition": "Requests to send messages or make calls."
+    },
+    {
+      "id": 6,
+      "name": "Travel Arrangements",
+      "definition": "Requests related to booking travel, including flights and car rentals."
+    },
+    {
+      "id": 7,
+      "name": "Financial Inquiry",
+      "definition": "Requests for information regarding financial accounts, transactions, or credit."
+    },
+    {
+      "id": 8,
+      "name": "Voice/Audio Control",
+      "definition": "Requests to change voice settings or control audio playback."
+    },
+    {
+      "id": 9,
+      "name": "Device Management",
+      "definition": "Requests to manage or troubleshoot devices and applications."
+    },
+    {
+      "id": 10,
+      "name": "Health and Safety Inquiry",
+      "definition": "Requests for health-related information or safety advice."
+    },
+    {
+      "id": 11,
+      "name": "Cooking and Recipe Assistance",
+      "definition": "Requests for cooking advice, recipe modifications, or ingredient substitutions."
+    },
+    {
+      "id": 12,
+      "name": "Personal Assistance",
+      "definition": "Requests for help with personal tasks or errands."
+    },
+    {
+      "id": 13,
+      "name": "Entertainment Inquiry",
+      "definition": "Requests for information about shows, music, or games."
+    },
+    {
+      "id": 14,
+      "name": "Jokes and Fun Facts",
+      "definition": "Requests for jokes, trivia, or fun facts."
+    },
+    {
+      "id": 15,
+      "name": "Feedback and Interaction",
+      "definition": "Requests for feedback or interaction with the assistant."
+    },
+    {
+      "id": 16,
+      "name": "Legal and Compliance Inquiry",
+      "definition": "Requests for information regarding legal matters or compliance."
+    },
+    {
+      "id": 17,
+      "name": "Miscellaneous",
+      "definition": "Requests that do not fit into other categories."
+    }
+  ]
+}

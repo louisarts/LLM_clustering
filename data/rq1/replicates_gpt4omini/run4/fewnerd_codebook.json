@@ -1,0 +1,110 @@
+{
+  "bench": "fewnerd",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Geographical Location",
+      "definition": "A specific place or area, such as a city, country, or region."
+    },
+    {
+      "id": 2,
+      "name": "Person",
+      "definition": "An individual human being, often identified by name."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "A group of people organized for a particular purpose, such as a company, institution, or club."
+    },
+    {
+      "id": 4,
+      "name": "Event",
+      "definition": "A significant occurrence or happening, often with a specific date or context."
+    },
+    {
+      "id": 5,
+      "name": "Product",
+      "definition": "An item or service produced for sale or use."
+    },
+    {
+      "id": 6,
+      "name": "Cultural Work",
+      "definition": "A creative work such as a book, film, or piece of music."
+    },
+    {
+      "id": 7,
+      "name": "Scientific Concept",
+      "definition": "A term or idea related to scientific theories or principles."
+    },
+    {
+      "id": 8,
+      "name": "Biological Entity",
+      "definition": "A living organism or biological classification."
+    },
+    {
+      "id": 9,
+      "name": "Political Entity",
+      "definition": "A recognized political unit, such as a country or state."
+    },
+    {
+      "id": 10,
+      "name": "Historical Figure",
+      "definition": "A person known for their impact on history."
+    },
+    {
+      "id": 11,
+      "name": "Sporting Event",
+      "definition": "An organized competition or match in sports."
+    },
+    {
+      "id": 12,
+      "name": "Transportation",
+      "definition": "A means or system for moving people or goods."
+    },
+    {
+      "id": 13,
+      "name": "Religious Entity",
+      "definition": "An organization or concept related to a religion."
+    },
+    {
+      "id": 14,
+      "name": "Legal Document",
+      "definition": "A formal document that has legal significance."
+    },
+    {
+      "id": 15,
+      "name": "Natural Feature",
+      "definition": "A physical feature of the earth's surface, such as mountains, rivers, or lakes."
+    },
+    {
+      "id": 16,
+      "name": "Artistic Work",
+      "definition": "A creation in the field of art, such as a painting or sculpture."
+    },
+    {
+      "id": 17,
+      "name": "Educational Institution",
+      "definition": "An organization that provides education, such as a school or university."
+    },
+    {
+      "id": 18,
+      "name": "Media Outlet",
+      "definition": "An organization that disseminates news or information."
+    },
+    {
+      "id": 19,
+      "name": "Historical Event",
+      "definition": "A significant occurrence in history that has lasting impact."
+    },
+    {
+      "id": 20,
+      "name": "Legislative Body",
+      "definition": "An assembly or group responsible for making laws."
+    }
+  ]
+}

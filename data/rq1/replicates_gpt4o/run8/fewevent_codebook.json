@@ -1,0 +1,310 @@
+{
+  "bench": "fewevent",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Military Command",
+      "definition": "Events involving taking or holding a military command position."
+    },
+    {
+      "id": 2,
+      "name": "Marriage",
+      "definition": "Events involving marriage or being a spouse."
+    },
+    {
+      "id": 3,
+      "name": "Medal",
+      "definition": "Events involving winning or receiving a medal."
+    },
+    {
+      "id": 4,
+      "name": "Musician",
+      "definition": "Events involving being a musician or related to music."
+    },
+    {
+      "id": 5,
+      "name": "President",
+      "definition": "Events involving being a president of an organization or country."
+    },
+    {
+      "id": 6,
+      "name": "Coach",
+      "definition": "Events involving being a coach or related to coaching."
+    },
+    {
+      "id": 7,
+      "name": "Film",
+      "definition": "Events involving films or related to filmmaking."
+    },
+    {
+      "id": 8,
+      "name": "Soldier",
+      "definition": "Events involving being a soldier or related to military service."
+    },
+    {
+      "id": 9,
+      "name": "Sailor",
+      "definition": "Events involving being a sailor or related to naval service."
+    },
+    {
+      "id": 10,
+      "name": "Singer",
+      "definition": "Events involving being a singer or related to singing."
+    },
+    {
+      "id": 11,
+      "name": "Governor",
+      "definition": "Events involving being a governor or related to governance."
+    },
+    {
+      "id": 12,
+      "name": "Professor",
+      "definition": "Events involving being a professor or related to academia."
+    },
+    {
+      "id": 13,
+      "name": "Director",
+      "definition": "Events involving being a director or related to directing."
+    },
+    {
+      "id": 14,
+      "name": "Chairman",
+      "definition": "Events involving being a chairman or related to chairing."
+    },
+    {
+      "id": 15,
+      "name": "Leader",
+      "definition": "Events involving being a leader or related to leadership."
+    },
+    {
+      "id": 16,
+      "name": "Coach",
+      "definition": "Events involving being a coach or related to coaching."
+    },
+    {
+      "id": 17,
+      "name": "Work",
+      "definition": "Events involving work or employment."
+    },
+    {
+      "id": 18,
+      "name": "Win",
+      "definition": "Events involving winning a competition or contest."
+    },
+    {
+      "id": 19,
+      "name": "Hire",
+      "definition": "Events involving hiring or employment."
+    },
+    {
+      "id": 20,
+      "name": "Push",
+      "definition": "Events involving physical or metaphorical pushing."
+    },
+    {
+      "id": 21,
+      "name": "Build",
+      "definition": "Events involving construction or building."
+    },
+    {
+      "id": 22,
+      "name": "Move",
+      "definition": "Events involving moving or relocation."
+    },
+    {
+      "id": 23,
+      "name": "Flood",
+      "definition": "Events involving flooding or inundation."
+    },
+    {
+      "id": 24,
+      "name": "Protest",
+      "definition": "Events involving protests or demonstrations."
+    },
+    {
+      "id": 25,
+      "name": "Administration",
+      "definition": "Events involving administration or management."
+    },
+    {
+      "id": 26,
+      "name": "Punch",
+      "definition": "Events involving punching or physical assault."
+    },
+    {
+      "id": 27,
+      "name": "Sign",
+      "definition": "Events involving signing or agreements."
+    },
+    {
+      "id": 28,
+      "name": "Call",
+      "definition": "Events involving calling or communication."
+    },
+    {
+      "id": 29,
+      "name": "Order",
+      "definition": "Events involving orders or directives."
+    },
+    {
+      "id": 30,
+      "name": "Session",
+      "definition": "Events involving sessions or meetings."
+    },
+    {
+      "id": 31,
+      "name": "Couple",
+      "definition": "Events involving couples or partnerships."
+    },
+    {
+      "id": 32,
+      "name": "Power",
+      "definition": "Events involving power or authority."
+    },
+    {
+      "id": 33,
+      "name": "Exit",
+      "definition": "Events involving exiting or leaving."
+    },
+    {
+      "id": 34,
+      "name": "Engagement",
+      "definition": "Events involving engagements or commitments."
+    },
+    {
+      "id": 35,
+      "name": "Oust",
+      "definition": "Events involving ousting or removal from position."
+    },
+    {
+      "id": 36,
+      "name": "Clash",
+      "definition": "Events involving clashes or conflicts."
+    },
+    {
+      "id": 37,
+      "name": "Tutor",
+      "definition": "Events involving tutoring or education."
+    },
+    {
+      "id": 38,
+      "name": "Education",
+      "definition": "Events involving education or learning."
+    },
+    {
+      "id": 39,
+      "name": "Election",
+      "definition": "Events involving elections or voting."
+    },
+    {
+      "id": 40,
+      "name": "Training",
+      "definition": "Events involving training or preparation."
+    },
+    {
+      "id": 41,
+      "name": "Produce",
+      "definition": "Events involving production or creation."
+    },
+    {
+      "id": 42,
+      "name": "Terrorism",
+      "definition": "Events involving terrorism or terrorist acts."
+    },
+    {
+      "id": 43,
+      "name": "Unemployment",
+      "definition": "Events involving unemployment or joblessness."
+    },
+    {
+      "id": 44,
+      "name": "Performance",
+      "definition": "Events involving performances or shows."
+    },
+    {
+      "id": 45,
+      "name": "Part",
+      "definition": "Events involving participation or being part of something."
+    },
+    {
+      "id": 46,
+      "name": "Return",
+      "definition": "Events involving returning or coming back."
+    },
+    {
+      "id": 47,
+      "name": "Service",
+      "definition": "Events involving service or serving."
+    },
+    {
+      "id": 48,
+      "name": "Fly",
+      "definition": "Events involving flying or aviation."
+    },
+    {
+      "id": 49,
+      "name": "Room",
+      "definition": "Events involving rooms or spaces."
+    },
+    {
+      "id": 50,
+      "name": "Enter",
+      "definition": "Events involving entering or going into."
+    },
+    {
+      "id": 51,
+      "name": "Divorce",
+      "definition": "Events involving divorce or separation."
+    },
+    {
+      "id": 52,
+      "name": "Reader",
+      "definition": "Events involving reading or being a reader."
+    },
+    {
+      "id": 53,
+      "name": "Chair",
+      "definition": "Events involving chairing or leading a meeting."
+    },
+    {
+      "id": 54,
+      "name": "Stint",
+      "definition": "Events involving a stint or short period of work."
+    },
+    {
+      "id": 55,
+      "name": "Coming",
+      "definition": "Events involving coming or arrival."
+    },
+    {
+      "id": 56,
+      "name": "Patrol",
+      "definition": "Events involving patrolling or surveillance."
+    },
+    {
+      "id": 57,
+      "name": "Ship",
+      "definition": "Events involving shipping or transportation."
+    },
+    {
+      "id": 58,
+      "name": "Victory",
+      "definition": "Events involving victory or success."
+    },
+    {
+      "id": 59,
+      "name": "Represent",
+      "definition": "Events involving representation or acting on behalf of."
+    },
+    {
+      "id": 60,
+      "name": "Reintroduce",
+      "definition": "Events involving reintroduction or bringing back."
+    }
+  ]
+}

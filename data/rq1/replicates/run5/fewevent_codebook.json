@@ -1,0 +1,82 @@
+{
+  "bench": "fewevent",
+  "run": 5,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Role or Status",
+      "definition": "A person's position, occupation, or social standing."
+    },
+    {
+      "id": 2,
+      "name": "Award or Achievement",
+      "definition": "A recognition, prize, or successful accomplishment."
+    },
+    {
+      "id": 3,
+      "name": "Relationship",
+      "definition": "A connection or association between individuals, including familial, romantic, or competitive bonds."
+    },
+    {
+      "id": 4,
+      "name": "Action or Process",
+      "definition": "A specific activity, operation, or sequence of events, including changes of state or formal actions."
+    },
+    {
+      "id": 5,
+      "name": "Communication",
+      "definition": "An act of conveying information, expressing thoughts, or artistic expression through words or sound."
+    },
+    {
+      "id": 6,
+      "name": "Legal or Criminal Event",
+      "definition": "An act related to law, crime, or enforcement."
+    },
+    {
+      "id": 7,
+      "name": "Art or Entertainment",
+      "definition": "A form or product of creative expression."
+    },
+    {
+      "id": 8,
+      "name": "Organization or Institution",
+      "definition": "A structured group, establishment, or governing body."
+    },
+    {
+      "id": 9,
+      "name": "Concept or Idea",
+      "definition": "An abstract notion, proposal, or area of study."
+    },
+    {
+      "id": 10,
+      "name": "Location or Facility",
+      "definition": "A specific place, building, or physical space."
+    },
+    {
+      "id": 11,
+      "name": "Event or Outcome",
+      "definition": "A happening, occurrence, or the result of an action."
+    },
+    {
+      "id": 12,
+      "name": "Abstract Reference",
+      "definition": "A general or unspecified subject, often referring to a preceding statement or situation."
+    },
+    {
+      "id": 13,
+      "name": "Transaction or Financial Event",
+      "definition": "An exchange, purchase, sale, or financial activity."
+    },
+    {
+      "id": 14,
+      "name": "State or Condition",
+      "definition": "A particular mode of being, existence, or interaction."
+    },
+    {
+      "id": 15,
+      "name": "Group or Collective",
+      "definition": "A collection of individuals or things."
+    }
+  ]
+}

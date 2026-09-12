@@ -1,0 +1,100 @@
+{
+  "bench": "banking77",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Issues",
+      "definition": "Inquiries related to problems with physical or virtual cards, including activation, reactivation, and functionality."
+    },
+    {
+      "id": 2,
+      "name": "Transfer Issues",
+      "definition": "Questions or concerns regarding the status, completion, or cancellation of money transfers."
+    },
+    {
+      "id": 3,
+      "name": "Account Management",
+      "definition": "Requests related to account creation, deletion, or modification of personal details."
+    },
+    {
+      "id": 4,
+      "name": "Fees and Charges",
+      "definition": "Inquiries about fees associated with transactions, card usage, or account services."
+    },
+    {
+      "id": 5,
+      "name": "Identity Verification",
+      "definition": "Questions regarding the process and requirements for verifying identity for account access or transactions."
+    },
+    {
+      "id": 6,
+      "name": "Top-Up Issues",
+      "definition": "Concerns related to adding funds to accounts, including failed top-ups and limits."
+    },
+    {
+      "id": 7,
+      "name": "Currency Exchange",
+      "definition": "Inquiries about exchanging currencies, including rates and supported currencies."
+    },
+    {
+      "id": 8,
+      "name": "ATM Issues",
+      "definition": "Problems encountered while using ATMs, including card retention and incorrect cash dispensation."
+    },
+    {
+      "id": 9,
+      "name": "Fraud and Security",
+      "definition": "Concerns about unauthorized transactions, lost or stolen cards, and potential fraud."
+    },
+    {
+      "id": 10,
+      "name": "Payment Declines",
+      "definition": "Questions regarding declined payments, including reasons and resolutions."
+    },
+    {
+      "id": 11,
+      "name": "Delivery Issues",
+      "definition": "Inquiries about the delivery status of cards or other banking materials."
+    },
+    {
+      "id": 12,
+      "name": "Technical Issues",
+      "definition": "Problems related to the banking app or website functionality."
+    },
+    {
+      "id": 13,
+      "name": "Cash Withdrawal Issues",
+      "definition": "Concerns regarding cash withdrawals, including amounts dispensed and transaction statuses."
+    },
+    {
+      "id": 14,
+      "name": "Contactless Payment Issues",
+      "definition": "Questions related to the use and functionality of contactless payment methods."
+    },
+    {
+      "id": 15,
+      "name": "Account Limits",
+      "definition": "Inquiries about limits on transactions, withdrawals, or account balances."
+    },
+    {
+      "id": 16,
+      "name": "Document Requirements",
+      "definition": "Questions about necessary documentation for various banking processes."
+    },
+    {
+      "id": 17,
+      "name": "Disputes and Refunds",
+      "definition": "Requests for information on disputing charges or obtaining refunds."
+    },
+    {
+      "id": 18,
+      "name": "Miscellaneous Inquiries",
+      "definition": "General questions that do not fit into the other specified categories."
+    }
+  ]
+}

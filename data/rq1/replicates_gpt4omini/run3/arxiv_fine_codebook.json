@@ -1,0 +1,260 @@
+{
+  "bench": "arxiv_fine",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "quant-ph",
+      "definition": "Quantum physics and related phenomena."
+    },
+    {
+      "id": 2,
+      "name": "astro-ph",
+      "definition": "Astrophysics and cosmology."
+    },
+    {
+      "id": 3,
+      "name": "math",
+      "definition": "Mathematics and its applications."
+    },
+    {
+      "id": 4,
+      "name": "cs",
+      "definition": "Computer science and its applications."
+    },
+    {
+      "id": 5,
+      "name": "stat",
+      "definition": "Statistics and probability theory."
+    },
+    {
+      "id": 6,
+      "name": "econ",
+      "definition": "Economics and finance."
+    },
+    {
+      "id": 7,
+      "name": "bio",
+      "definition": "Biology and life sciences."
+    },
+    {
+      "id": 8,
+      "name": "eng",
+      "definition": "Engineering and technology."
+    },
+    {
+      "id": 9,
+      "name": "stat.ML",
+      "definition": "Statistical machine learning."
+    },
+    {
+      "id": 10,
+      "name": "cond-mat",
+      "definition": "Condensed matter physics."
+    },
+    {
+      "id": 11,
+      "name": "cs.AI",
+      "definition": "Artificial intelligence and machine learning."
+    },
+    {
+      "id": 12,
+      "name": "cs.LG",
+      "definition": "Machine learning and data mining."
+    },
+    {
+      "id": 13,
+      "name": "cs.CV",
+      "definition": "Computer vision and image processing."
+    },
+    {
+      "id": 14,
+      "name": "cs.NE",
+      "definition": "Neural and evolutionary computing."
+    },
+    {
+      "id": 15,
+      "name": "math.ST",
+      "definition": "Statistics and stochastic processes."
+    },
+    {
+      "id": 16,
+      "name": "math.GT",
+      "definition": "Geometry and topology."
+    },
+    {
+      "id": 17,
+      "name": "math.AP",
+      "definition": "Analysis and partial differential equations."
+    },
+    {
+      "id": 18,
+      "name": "math.PR",
+      "definition": "Probability theory and stochastic processes."
+    },
+    {
+      "id": 19,
+      "name": "math.MG",
+      "definition": "Mathematical physics and geometry."
+    },
+    {
+      "id": 20,
+      "name": "math.OC",
+      "definition": "Optimization and control theory."
+    },
+    {
+      "id": 21,
+      "name": "math.DS",
+      "definition": "Dynamical systems and differential equations."
+    },
+    {
+      "id": 22,
+      "name": "math.NT",
+      "definition": "Number theory."
+    },
+    {
+      "id": 23,
+      "name": "math.CA",
+      "definition": "Commutative algebra."
+    },
+    {
+      "id": 24,
+      "name": "math.FA",
+      "definition": "Functional analysis."
+    },
+    {
+      "id": 25,
+      "name": "math.CV",
+      "definition": "Convex geometry."
+    },
+    {
+      "id": 26,
+      "name": "math.SG",
+      "definition": "Singularities and geometry."
+    },
+    {
+      "id": 27,
+      "name": "math.HO",
+      "definition": "History and philosophy of mathematics."
+    },
+    {
+      "id": 28,
+      "name": "cs.DS",
+      "definition": "Data structures and algorithms."
+    },
+    {
+      "id": 29,
+      "name": "cs.SE",
+      "definition": "Software engineering."
+    },
+    {
+      "id": 30,
+      "name": "cs.SY",
+      "definition": "Systems and control."
+    },
+    {
+      "id": 31,
+      "name": "cs.HC",
+      "definition": "Human-computer interaction."
+    },
+    {
+      "id": 32,
+      "name": "cs.NI",
+      "definition": "Networking and internet."
+    },
+    {
+      "id": 33,
+      "name": "cs.SI",
+      "definition": "Social and information networks."
+    },
+    {
+      "id": 34,
+      "name": "cs.LG",
+      "definition": "Machine learning."
+    },
+    {
+      "id": 35,
+      "name": "cs.CY",
+      "definition": "Cryptography and security."
+    },
+    {
+      "id": 36,
+      "name": "cs.MA",
+      "definition": "Mathematical aspects of computer science."
+    },
+    {
+      "id": 37,
+      "name": "cs.NE",
+      "definition": "Neural networks."
+    },
+    {
+      "id": 38,
+      "name": "cs.RO",
+      "definition": "Robotics."
+    },
+    {
+      "id": 39,
+      "name": "cs.SD",
+      "definition": "Software development."
+    },
+    {
+      "id": 40,
+      "name": "cs.ET",
+      "definition": "Embedded systems and real-time computing."
+    },
+    {
+      "id": 41,
+      "name": "cs.MA",
+      "definition": "Mathematical aspects of computer science."
+    },
+    {
+      "id": 42,
+      "name": "cs.CG",
+      "definition": "Computer graphics."
+    },
+    {
+      "id": 43,
+      "name": "cs.HC",
+      "definition": "Human-computer interaction."
+    },
+    {
+      "id": 44,
+      "name": "cs.SY",
+      "definition": "Systems and control."
+    },
+    {
+      "id": 45,
+      "name": "cs.NI",
+      "definition": "Networking and internet."
+    },
+    {
+      "id": 46,
+      "name": "cs.SI",
+      "definition": "Social and information networks."
+    },
+    {
+      "id": 47,
+      "name": "cs.CY",
+      "definition": "Cryptography and security."
+    },
+    {
+      "id": 48,
+      "name": "cs.MA",
+      "definition": "Mathematical aspects of computer science."
+    },
+    {
+      "id": 49,
+      "name": "cs.RO",
+      "definition": "Robotics."
+    },
+    {
+      "id": 50,
+      "name": "cs.ET",
+      "definition": "Embedded systems and real-time computing."
+    }
+  ]
+}

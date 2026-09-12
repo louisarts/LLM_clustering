@@ -1,0 +1,110 @@
+{
+  "bench": "clinc150",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Request",
+      "definition": "Requests for factual information or explanations."
+    },
+    {
+      "id": 2,
+      "name": "Account Management",
+      "definition": "Commands related to managing personal accounts or financial information."
+    },
+    {
+      "id": 3,
+      "name": "Travel Arrangements",
+      "definition": "Requests for booking or managing travel plans."
+    },
+    {
+      "id": 4,
+      "name": "Reminders and Notifications",
+      "definition": "Commands to set reminders or notifications for future tasks."
+    },
+    {
+      "id": 5,
+      "name": "Task Management",
+      "definition": "Requests to add, remove, or inquire about tasks or to-do lists."
+    },
+    {
+      "id": 6,
+      "name": "Health and Wellness",
+      "definition": "Requests for health-related information or advice."
+    },
+    {
+      "id": 7,
+      "name": "Shopping and Recommendations",
+      "definition": "Requests for product recommendations or shopping assistance."
+    },
+    {
+      "id": 8,
+      "name": "Communication",
+      "definition": "Commands to send messages or make calls."
+    },
+    {
+      "id": 9,
+      "name": "Calendar Management",
+      "definition": "Requests to manage calendar events or appointments."
+    },
+    {
+      "id": 10,
+      "name": "Technical Support",
+      "definition": "Requests for assistance with technical issues or device settings."
+    },
+    {
+      "id": 11,
+      "name": "Learning and Education",
+      "definition": "Requests for learning new information or skills."
+    },
+    {
+      "id": 12,
+      "name": "Entertainment",
+      "definition": "Requests related to music, movies, or other forms of entertainment."
+    },
+    {
+      "id": 13,
+      "name": "Financial Transactions",
+      "definition": "Requests related to financial transactions or inquiries."
+    },
+    {
+      "id": 14,
+      "name": "Personal Assistance",
+      "definition": "General requests for assistance with personal tasks."
+    },
+    {
+      "id": 15,
+      "name": "Legal and Compliance",
+      "definition": "Requests for information regarding legal matters or compliance."
+    },
+    {
+      "id": 16,
+      "name": "Social Interaction",
+      "definition": "Requests for social engagement or interaction."
+    },
+    {
+      "id": 17,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions or recipes."
+    },
+    {
+      "id": 18,
+      "name": "Weather Updates",
+      "definition": "Requests for current weather information."
+    },
+    {
+      "id": 19,
+      "name": "Language Translation",
+      "definition": "Requests for translation or language assistance."
+    },
+    {
+      "id": 20,
+      "name": "Event Planning",
+      "definition": "Requests for assistance in planning events or gatherings."
+    }
+  ]
+}

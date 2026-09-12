@@ -1,0 +1,52 @@
+[
+ {
+  "id": 1,
+  "name": "Life",
+  "definition": "Events related to personal relationships, family status, and living arrangements."
+ },
+ {
+  "id": 2,
+  "name": "Conflict",
+  "definition": "Events related to war, violence, crime, legal actions, and protests."
+ },
+ {
+  "id": 3,
+  "name": "Transaction",
+  "definition": "Events related to commercial exchange, financial activities, and employment."
+ },
+ {
+  "id": 4,
+  "name": "Movement",
+  "definition": "Events related to physical travel, transportation, and displacement."
+ },
+ {
+  "id": 5,
+  "name": "Arts_Entertainment",
+  "definition": "Events related to artistic creation, performance, media, and entertainment."
+ },
+ {
+  "id": 6,
+  "name": "Sports",
+  "definition": "Events related to athletic competitions, games, and sports awards."
+ },
+ {
+  "id": 7,
+  "name": "Politics",
+  "definition": "Events related to government, elections, and civic leadership."
+ },
+ {
+  "id": 8,
+  "name": "Education",
+  "definition": "Events related to academic institutions, learning, and scholarship."
+ },
+ {
+  "id": 9,
+  "name": "Communication",
+  "definition": "Events related to speech, correspondence, and information exchange."
+ },
+ {
+  "id": 10,
+  "name": "Miscellaneous",
+  "definition": "Triggers that are abstract, referential, or do not fit other categories."
+ }
+]

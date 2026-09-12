@@ -1,0 +1,135 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fitness & Health",
+      "definition": "Questions related to fitness strategies, health concerns, and well-being"
+    },
+    {
+      "id": 2,
+      "name": "Physics & Mathematics",
+      "definition": "Questions related to physics concepts and mathematical equations"
+    },
+    {
+      "id": 3,
+      "name": "Travel & Immigration",
+      "definition": "Questions related to dual citizenship, passport issues, and travel regulations"
+    },
+    {
+      "id": 4,
+      "name": "Electronics & Circuitry",
+      "definition": "Questions related to resistors, breadboards, and electronic components"
+    },
+    {
+      "id": 5,
+      "name": "Philosophy & Ethics",
+      "definition": "Questions related to logical consistency, ethical dilemmas, and philosophical concepts"
+    },
+    {
+      "id": 6,
+      "name": "Programming & Development",
+      "definition": "Questions related to coding, software development, and programming languages"
+    },
+    {
+      "id": 7,
+      "name": "Entertainment & Streaming",
+      "definition": "Questions related to Netflix, movie descriptions, and entertainment industry"
+    },
+    {
+      "id": 8,
+      "name": "Charity & Donations",
+      "definition": "Questions related to charitable giving, donations, and philanthropy"
+    },
+    {
+      "id": 9,
+      "name": "Religion & Culture",
+      "definition": "Questions related to Jewish cemeteries, religious translations, and cultural practices"
+    },
+    {
+      "id": 10,
+      "name": "Internet & Browsing",
+      "definition": "Questions related to browser extensions, online access issues, and web security"
+    },
+    {
+      "id": 11,
+      "name": "Language & Translation",
+      "definition": "Questions related to word meanings, translations, and linguistic inquiries"
+    },
+    {
+      "id": 12,
+      "name": "Art & Design",
+      "definition": "Questions related to email attachments, graphic renderings, and creative software usage"
+    },
+    {
+      "id": 13,
+      "name": "Technology & Gadgets",
+      "definition": "Questions related to computer hardware, software applications, and technical troubleshooting"
+    },
+    {
+      "id": 14,
+      "name": "Finance & Mortgage",
+      "definition": "Questions related to refinancing, mortgage rates, and financial decisions"
+    },
+    {
+      "id": 15,
+      "name": "History & Literature",
+      "definition": "Questions related to historical figures, literary works, and cultural references"
+    },
+    {
+      "id": 16,
+      "name": "Networking & Communication",
+      "definition": "Questions related to XMPP, VPN setups, and server configurations"
+    },
+    {
+      "id": 17,
+      "name": "Education & Learning",
+      "definition": "Questions related to academic subjects, learning resources, and educational tools"
+    },
+    {
+      "id": 18,
+      "name": "Legal & Ethics",
+      "definition": "Questions related to legal defenses, rights of way, and ethical considerations"
+    },
+    {
+      "id": 19,
+      "name": "Science & Research",
+      "definition": "Questions related to gear mechanisms, torque calculations, and scientific hypotheses"
+    },
+    {
+      "id": 20,
+      "name": "Geography & Maps",
+      "definition": "Questions related to basemaps, GIS systems, and geographical data"
+    },
+    {
+      "id": 21,
+      "name": "Food & Cooking",
+      "definition": "Questions related to food identification, recipe safety, and culinary practices"
+    },
+    {
+      "id": 22,
+      "name": "Social Media & Networking",
+      "definition": "Questions related to Reddit protocols, social media etiquette, and online interactions"
+    },
+    {
+      "id": 23,
+      "name": "Math & Calculations",
+      "definition": "Questions related to graphing calculators, mathematical operations, and numerical analysis"
+    },
+    {
+      "id": 24,
+      "name": "Woodworking & Carpentry",
+      "definition": "Questions related to lumber distressing, furniture construction, and woodworking techniques"
+    },
+    {
+      "id": 25,
+      "name": "Engineering & Technology",
+      "definition": "Questions related to connector quality, hardware specifications, and engineering principles"
+    }
+  ]
+}

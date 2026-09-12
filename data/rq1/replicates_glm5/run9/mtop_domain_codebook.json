@@ -1,0 +1,69 @@
+{
+  "bench": "mtop_domain",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms",
+      "definition": "Setting, modifying, or querying clock-based alerts intended to wake the user or signal a specific time of day."
+    },
+    {
+      "id": 2,
+      "name": "Calling",
+      "definition": "Initiating, managing, or querying real-time voice or video connections with other individuals."
+    },
+    {
+      "id": 3,
+      "name": "Cooking",
+      "definition": "Requesting recipes, cooking instructions, ingredient ratios, or food preparation advice."
+    },
+    {
+      "id": 4,
+      "name": "Events",
+      "definition": "Finding local activities, concerts, or things to do in a specific location and time."
+    },
+    {
+      "id": 5,
+      "name": "Messaging",
+      "definition": "Composing, sending, or replying to text or video messages via communication platforms."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Playing, controlling playback of, or requesting information about songs, artists, and albums."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Requesting current events, headlines, or specific news topics from media sources."
+    },
+    {
+      "id": 8,
+      "name": "Nutrition",
+      "definition": "Querying the calorie content or nutritional value of food items."
+    },
+    {
+      "id": 9,
+      "name": "People",
+      "definition": "Querying the user's social graph for information about friends, family, colleagues, or their locations and histories."
+    },
+    {
+      "id": 10,
+      "name": "Reminders",
+      "definition": "Creating, modifying, or querying task-based notifications intended to remind the user to do something."
+    },
+    {
+      "id": 11,
+      "name": "Timers",
+      "definition": "Setting, modifying, or querying countdown timers for tracking duration."
+    },
+    {
+      "id": 12,
+      "name": "Weather",
+      "definition": "Requesting forecasts, current conditions, or weather-related warnings for specific locations and times."
+    }
+  ]
+}

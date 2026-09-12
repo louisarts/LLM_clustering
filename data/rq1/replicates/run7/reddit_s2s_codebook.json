@@ -1,0 +1,177 @@
+{
+  "bench": "reddit_s2s",
+  "run": 7,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Australian Rules Football",
+      "definition": "Posts related to the sport of Australian Rules Football (AFL)."
+    },
+    {
+      "id": 2,
+      "name": "Ham Radio",
+      "definition": "Posts about amateur radio, equipment, and related technical discussions."
+    },
+    {
+      "id": 3,
+      "name": "Comics and Graphic Novels",
+      "definition": "Posts discussing comic books, graphic novels, characters, and related news."
+    },
+    {
+      "id": 4,
+      "name": "Spam and Unsolicited Content",
+      "definition": "Posts that are clearly unsolicited advertisements, scams, or sexually explicit content, often in non-English languages."
+    },
+    {
+      "id": 5,
+      "name": "Classical Music",
+      "definition": "Posts about classical music, composers, performances, and instruments."
+    },
+    {
+      "id": 6,
+      "name": "Local Community - Baltimore",
+      "definition": "Posts specifically about news, events, or discussions related to Baltimore, Maryland."
+    },
+    {
+      "id": 7,
+      "name": "Astrology",
+      "definition": "Posts related to horoscopes, zodiac signs, and astrological interpretations."
+    },
+    {
+      "id": 8,
+      "name": "Automotive",
+      "definition": "Posts about cars, car models, buying advice, maintenance, and repair."
+    },
+    {
+      "id": 9,
+      "name": "Anime, Manga, and Asian Drama",
+      "definition": "Posts discussing anime series, manga, Asian dramas, characters, and related media."
+    },
+    {
+      "id": 10,
+      "name": "Coin Collecting",
+      "definition": "Posts about collecting coins, identification, grading, and value."
+    },
+    {
+      "id": 11,
+      "name": "Buddhism and Spirituality",
+      "definition": "Posts discussing Buddhist practices, philosophy, and general spiritual topics."
+    },
+    {
+      "id": 12,
+      "name": "Health and Medical",
+      "definition": "Posts about medical conditions, treatments, health advice, and related news."
+    },
+    {
+      "id": 13,
+      "name": "Art and Visual Design",
+      "definition": "Posts showcasing art, discussing artistic techniques, or related to visual design principles including digital art and 3D graphics."
+    },
+    {
+      "id": 14,
+      "name": "Apple Ecosystem",
+      "definition": "Posts specifically about Apple products (iPhone, Mac, Apple Music) and related tech support or news."
+    },
+    {
+      "id": 15,
+      "name": "Science and Academia",
+      "definition": "Posts about scientific discoveries, research, specific scientific fields (biology, chemistry, astronomy), scientific questions, and academic life."
+    },
+    {
+      "id": 16,
+      "name": "Politics and Current Events",
+      "definition": "Posts discussing national or international politics, elections, government policies, and major news events."
+    },
+    {
+      "id": 17,
+      "name": "Relationships and Personal Advice",
+      "definition": "Posts seeking or offering advice on personal relationships, social interactions, or self-improvement."
+    },
+    {
+      "id": 18,
+      "name": "General Tech Support and Software",
+      "definition": "Posts seeking help with general technology issues, software, or hardware, not specific to Apple."
+    },
+    {
+      "id": 19,
+      "name": "Cycling",
+      "definition": "Posts about bicycles, cycling gear, riding, and related topics."
+    },
+    {
+      "id": 20,
+      "name": "Food and Drink",
+      "definition": "Posts about cooking, recipes, specific food items, coffee, and general culinary discussions."
+    },
+    {
+      "id": 21,
+      "name": "Beer and Brewing",
+      "definition": "Posts specifically about beer, homebrewing, tasting, and related culture."
+    },
+    {
+      "id": 22,
+      "name": "Architecture and Home Improvement",
+      "definition": "Posts about building design, home renovation, DIY projects, and related topics."
+    },
+    {
+      "id": 23,
+      "name": "Animals and Pets",
+      "definition": "Posts about animals, pet care, identification, and animal-related stories."
+    },
+    {
+      "id": 24,
+      "name": "Books and Literature",
+      "definition": "Posts discussing books, authors, genres, reading, and literary analysis."
+    },
+    {
+      "id": 25,
+      "name": "Travel and Aviation",
+      "definition": "Posts about travel destinations, experiences, logistics, and general aviation topics."
+    },
+    {
+      "id": 26,
+      "name": "Local Community - Austin",
+      "definition": "Posts specifically about news, events, or discussions related to Austin, Texas."
+    },
+    {
+      "id": 27,
+      "name": "Business and Finance",
+      "definition": "Posts about business news, market trends, finance, and economic discussions."
+    },
+    {
+      "id": 28,
+      "name": "Airsoft and Firearms",
+      "definition": "Posts about airsoft equipment, firearms, and related discussions."
+    },
+    {
+      "id": 29,
+      "name": "Humor and Comedy",
+      "definition": "Posts intended for humor, jokes, or lighthearted content, including comedy shows and videos."
+    },
+    {
+      "id": 30,
+      "name": "Shopping and Consumer Advice",
+      "definition": "Posts about online shopping, deals, product inquiries, and consumer experiences."
+    },
+    {
+      "id": 31,
+      "name": "Military",
+      "definition": "Posts specifically about military topics, equipment, and personnel, not related to travel or general aviation."
+    },
+    {
+      "id": 32,
+      "name": "Local Community - General",
+      "definition": "Posts about local issues, events, or discussions that are not specific to a named city but imply a local context."
+    },
+    {
+      "id": 33,
+      "name": "General Discussion and Personal Reflection",
+      "definition": "Posts that are broad, open-ended questions, or personal reflections that do not fit into a specific niche."
+    },
+    {
+      "id": 34,
+      "name": "Blogging and Marketing",
+      "definition": "Posts about blogging, SEO, public relations, and digital marketing strategies."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "bench": "stackoverflow20",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Drupal",
+      "definition": "Questions about the Drupal content management framework, including modules, theming, and configuration."
+    },
+    {
+      "id": 2,
+      "name": "WordPress",
+      "definition": "Questions about the WordPress content management system, including plugins, themes, and core functions."
+    },
+    {
+      "id": 3,
+      "name": "Scala",
+      "definition": "Questions about the Scala programming language, its syntax, standard library, and related tools."
+    },
+    {
+      "id": 4,
+      "name": "Excel & VBA",
+      "definition": "Questions about Microsoft Excel spreadsheets, formulas, and VBA (Visual Basic for Applications) programming."
+    },
+    {
+      "id": 5,
+      "name": "MATLAB",
+      "definition": "Questions about the MATLAB numerical computing environment and programming language."
+    },
+    {
+      "id": 6,
+      "name": "Qt",
+      "definition": "Questions about the Qt cross-platform application framework and widgets."
+    },
+    {
+      "id": 7,
+      "name": "Hibernate",
+      "definition": "Questions about the Hibernate object-relational mapping tool for Java."
+    },
+    {
+      "id": 8,
+      "name": "Magento",
+      "definition": "Questions about the Magento e-commerce platform, including development, theming, and configuration."
+    },
+    {
+      "id": 9,
+      "name": "Visual Studio",
+      "definition": "Questions about the Microsoft Visual Studio integrated development environment (IDE) and its features."
+    },
+    {
+      "id": 10,
+      "name": "Apache",
+      "definition": "Questions about the Apache HTTP Server, including configuration, modules, and .htaccess files."
+    },
+    {
+      "id": 11,
+      "name": "LINQ",
+      "definition": "Questions about Language Integrated Query (LINQ) in the .NET framework."
+    },
+    {
+      "id": 12,
+      "name": "SharePoint",
+      "definition": "Questions about Microsoft SharePoint, including web parts, lists, and site administration."
+    },
+    {
+      "id": 13,
+      "name": "Spring Framework",
+      "definition": "Questions about the Spring programming framework for Java, including dependency injection and MVC."
+    },
+    {
+      "id": 14,
+      "name": "Subversion",
+      "definition": "Questions about the Subversion (SVN) version control system."
+    },
+    {
+      "id": 15,
+      "name": "Cocoa & Objective-C",
+      "definition": "Questions about the Cocoa API and Objective-C programming for macOS development."
+    },
+    {
+      "id": 16,
+      "name": "Oracle & PL/SQL",
+      "definition": "Questions about the Oracle database and the PL/SQL procedural language."
+    },
+    {
+      "id": 17,
+      "name": "Haskell",
+      "definition": "Questions about the Haskell functional programming language."
+    },
+    {
+      "id": 18,
+      "name": "Bash & Shell Scripting",
+      "definition": "Questions about Bash and other Unix shell scripting languages."
+    },
+    {
+      "id": 19,
+      "name": "ASP.NET",
+      "definition": "Questions about the ASP.NET web framework, including Web Forms and MVC."
+    },
+    {
+      "id": 20,
+      "name": "AJAX & JavaScript",
+      "definition": "Questions about client-side JavaScript programming and Asynchronous JavaScript and XML (AJAX)."
+    }
+  ]
+}

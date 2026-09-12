@@ -1,0 +1,154 @@
+{
+  "bench": "massive_intent",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music_Playback",
+      "definition": "Play, resume, or control music, songs, playlists, or radio stations."
+    },
+    {
+      "id": 2,
+      "name": "Calendar_Management",
+      "definition": "Create, view, modify, or delete events and meetings in a calendar."
+    },
+    {
+      "id": 3,
+      "name": "Weather_Query",
+      "definition": "Request weather forecasts, current conditions, or weather-related advice."
+    },
+    {
+      "id": 4,
+      "name": "Alarm_Management",
+      "definition": "Set, delete, enable, or disable alarms and wake-up calls."
+    },
+    {
+      "id": 5,
+      "name": "General_Knowledge",
+      "definition": "Ask factual questions, definitions, or seek information about people, places, and things."
+    },
+    {
+      "id": 6,
+      "name": "Smart_Home_Control",
+      "definition": "Control smart home devices like lights, plugs, or request device status changes."
+    },
+    {
+      "id": 7,
+      "name": "Reminder_Management",
+      "definition": "Set, view, or manage reminders for tasks or specific times."
+    },
+    {
+      "id": 8,
+      "name": "Email_Management",
+      "definition": "Send, read, check, or search for emails."
+    },
+    {
+      "id": 9,
+      "name": "Podcast_Playback",
+      "definition": "Play, resume, or navigate episodes of podcasts."
+    },
+    {
+      "id": 10,
+      "name": "Local_Business_Search",
+      "definition": "Find nearby restaurants, shops, or local businesses."
+    },
+    {
+      "id": 11,
+      "name": "Transportation_Booking",
+      "definition": "Book a ride, taxi, or check transportation schedules."
+    },
+    {
+      "id": 12,
+      "name": "News_Query",
+      "definition": "Request news updates, specific news sources, or current events."
+    },
+    {
+      "id": 13,
+      "name": "Time_Query",
+      "definition": "Ask for the current time or time in a specific location."
+    },
+    {
+      "id": 14,
+      "name": "Traffic_Query",
+      "definition": "Check traffic conditions or commute times."
+    },
+    {
+      "id": 15,
+      "name": "Social_Media",
+      "definition": "Post, tweet, or check notifications on social media platforms."
+    },
+    {
+      "id": 16,
+      "name": "Food_Ordering",
+      "definition": "Order food or drinks from restaurants or delivery services."
+    },
+    {
+      "id": 17,
+      "name": "Audiobook_Playback",
+      "definition": "Play or resume audiobooks."
+    },
+    {
+      "id": 18,
+      "name": "Gaming",
+      "definition": "Launch or play video games or interactive games."
+    },
+    {
+      "id": 19,
+      "name": "Device_Control",
+      "definition": "Control device settings like volume, mute, or hardware buttons."
+    },
+    {
+      "id": 20,
+      "name": "List_Management",
+      "definition": "Create, view, or modify to-do or shopping lists."
+    },
+    {
+      "id": 21,
+      "name": "Recipe_Query",
+      "definition": "Request cooking instructions, recipes, or food preparation advice."
+    },
+    {
+      "id": 22,
+      "name": "Currency_Exchange",
+      "definition": "Check currency exchange rates or monetary conversions."
+    },
+    {
+      "id": 23,
+      "name": "Contact_Management",
+      "definition": "Find, view, or add contact information."
+    },
+    {
+      "id": 24,
+      "name": "Navigation",
+      "definition": "Request directions or search for locations on a map."
+    },
+    {
+      "id": 25,
+      "name": "Event_Search",
+      "definition": "Find local events, movies, or activities happening nearby."
+    },
+    {
+      "id": 26,
+      "name": "Sports_Update",
+      "definition": "Request sports scores, game times, or sports news."
+    },
+    {
+      "id": 27,
+      "name": "Home_Appliance_Control",
+      "definition": "Control home appliances like vacuums or coffee makers."
+    },
+    {
+      "id": 28,
+      "name": "Joke_Request",
+      "definition": "Ask the assistant to tell a joke."
+    },
+    {
+      "id": 29,
+      "name": "Order_Status",
+      "definition": "Check the status of a placed order."
+    }
+  ]
+}

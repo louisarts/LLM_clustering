@@ -1,0 +1,52 @@
+{
+  "bench": "mtop_domain",
+  "run": 8,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Communication",
+      "definition": "Initiating, managing, and ending calls or messages, including video calls."
+    },
+    {
+      "id": 2,
+      "name": "Contact Management",
+      "definition": "Retrieving information about contacts, searching for contacts, or checking their status."
+    },
+    {
+      "id": 3,
+      "name": "Time Management",
+      "definition": "Setting, modifying, deleting, or querying alarms, timers, or reminders."
+    },
+    {
+      "id": 4,
+      "name": "General Information",
+      "definition": "Retrieving facts, definitions, recipes, or other general knowledge."
+    },
+    {
+      "id": 5,
+      "name": "Weather",
+      "definition": "Providing current weather conditions, forecasts, or weather-related advice."
+    },
+    {
+      "id": 6,
+      "name": "News",
+      "definition": "Retrieving current events, headlines, or specific news articles."
+    },
+    {
+      "id": 7,
+      "name": "Media Playback",
+      "definition": "Playing, controlling, or querying information about music, videos, or other media."
+    },
+    {
+      "id": 8,
+      "name": "Event and Local Search",
+      "definition": "Finding events, activities, or places of interest based on location or time, including RSVPs."
+    },
+    {
+      "id": 9,
+      "name": "Availability Management",
+      "definition": "Setting or querying the user's availability status."
+    }
+  ]
+}

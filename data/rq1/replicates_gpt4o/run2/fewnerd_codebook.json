@@ -1,0 +1,155 @@
+{
+  "bench": "fewnerd",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Award",
+      "definition": "A recognition or prize given for achievement."
+    },
+    {
+      "id": 2,
+      "name": "Event",
+      "definition": "An occurrence or happening, often of significance."
+    },
+    {
+      "id": 3,
+      "name": "Location",
+      "definition": "A specific place or area, such as a city, town, or geographical feature."
+    },
+    {
+      "id": 4,
+      "name": "Building or Structure",
+      "definition": "A man-made construction, such as a theater, airport, or stadium."
+    },
+    {
+      "id": 5,
+      "name": "Organization",
+      "definition": "A group or entity formed for a specific purpose, such as a company, government, or association."
+    },
+    {
+      "id": 6,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 7,
+      "name": "Ethnicity or Nationality",
+      "definition": "A group of people identified by shared culture, language, or national origin."
+    },
+    {
+      "id": 8,
+      "name": "Language",
+      "definition": "A system of communication used by a particular community or country."
+    },
+    {
+      "id": 9,
+      "name": "Title or Position",
+      "definition": "A designation or role held by a person, such as a job title or rank."
+    },
+    {
+      "id": 10,
+      "name": "Product or Brand",
+      "definition": "A manufactured item or a name under which products are sold."
+    },
+    {
+      "id": 11,
+      "name": "Art or Literature",
+      "definition": "A work of creative expression, such as a book, painting, or film."
+    },
+    {
+      "id": 12,
+      "name": "Animal",
+      "definition": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system."
+    },
+    {
+      "id": 13,
+      "name": "Historical Period",
+      "definition": "A specific time frame in history characterized by particular events or developments."
+    },
+    {
+      "id": 14,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 15,
+      "name": "Disease or Medical Condition",
+      "definition": "A disorder or illness affecting the body or mind."
+    },
+    {
+      "id": 16,
+      "name": "Chemical or Substance",
+      "definition": "A form of matter with constant chemical composition and characteristic properties."
+    },
+    {
+      "id": 17,
+      "name": "Sport or Competition",
+      "definition": "An athletic activity requiring skill or physical prowess, often competitive."
+    },
+    {
+      "id": 18,
+      "name": "Vehicle or Transportation",
+      "definition": "A means of conveyance or travel, such as a car, train, or airplane."
+    },
+    {
+      "id": 19,
+      "name": "Food or Drink",
+      "definition": "Substances consumed for nutritional support or pleasure."
+    },
+    {
+      "id": 20,
+      "name": "Technology or Software",
+      "definition": "Tools, systems, or programs used for practical purposes, especially in industry."
+    },
+    {
+      "id": 21,
+      "name": "Mythology or Religion",
+      "definition": "A collection of myths or a system of religious beliefs."
+    },
+    {
+      "id": 22,
+      "name": "Military or Warfare",
+      "definition": "Related to armed forces or conflict."
+    },
+    {
+      "id": 23,
+      "name": "Natural Feature",
+      "definition": "A naturally occurring geographical or biological entity."
+    },
+    {
+      "id": 24,
+      "name": "Political Entity",
+      "definition": "A region or group with political governance or significance."
+    },
+    {
+      "id": 25,
+      "name": "Media or Entertainment",
+      "definition": "Content produced for entertainment or information, such as TV shows, music, or games."
+    },
+    {
+      "id": 26,
+      "name": "Scientific or Academic",
+      "definition": "Related to science or scholarly study."
+    },
+    {
+      "id": 27,
+      "name": "Legal or Governmental",
+      "definition": "Pertaining to law, governance, or public administration."
+    },
+    {
+      "id": 28,
+      "name": "Business or Economy",
+      "definition": "Related to commerce, trade, or financial systems."
+    },
+    {
+      "id": 29,
+      "name": "Cultural or Social",
+      "definition": "Pertaining to the customs, arts, social institutions, and achievements of a particular nation, people, or other social group."
+    }
+  ]
+}

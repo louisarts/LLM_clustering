@@ -1,0 +1,69 @@
+{
+  "bench": "dbpedia",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Plants",
+      "definition": "Members of the biological kingdom Plantae, including flowering plants, shrubs, trees, ferns, and aquatic vegetation."
+    },
+    {
+      "id": 2,
+      "name": "People",
+      "definition": "Individual human beings, including politicians, athletes, artists, writers, and other public figures."
+    },
+    {
+      "id": 3,
+      "name": "Animals",
+      "definition": "Members of the biological kingdom Animalia, including insects, birds, mammals, fish, and other fauna, excluding humans."
+    },
+    {
+      "id": 4,
+      "name": "Geographic Features",
+      "definition": "Natural physical formations on Earth such as mountains, rivers, lakes, and capes."
+    },
+    {
+      "id": 5,
+      "name": "Settlements",
+      "definition": "Human residential areas including cities, towns, villages, and suburbs."
+    },
+    {
+      "id": 6,
+      "name": "Albums",
+      "definition": "Collections of audio recordings issued as a single item, typically by a musician or band."
+    },
+    {
+      "id": 7,
+      "name": "Films",
+      "definition": "Motion pictures, including feature films, documentaries, and short films."
+    },
+    {
+      "id": 8,
+      "name": "Books",
+      "definition": "Written or printed works consisting of pages bound together, including novels, non-fiction, and poetry collections."
+    },
+    {
+      "id": 9,
+      "name": "Vehicles",
+      "definition": "Machines for transporting passengers or cargo, including automobiles, ships, aircraft, and trains."
+    },
+    {
+      "id": 10,
+      "name": "Buildings and Structures",
+      "definition": "Man-made constructions including religious buildings, schools, historic houses, and infrastructure like bridges or towers."
+    },
+    {
+      "id": 11,
+      "name": "Organizations",
+      "definition": "Formal groups of people with a shared purpose, including companies, political parties, and non-profit institutions."
+    },
+    {
+      "id": 12,
+      "name": "Periodicals",
+      "definition": "Publications issued at regular intervals, such as newspapers, journals, and magazines."
+    }
+  ]
+}

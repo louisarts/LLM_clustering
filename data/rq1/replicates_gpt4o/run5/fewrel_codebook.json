@@ -1,0 +1,260 @@
+{
+  "bench": "fewrel",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Artistic Influence",
+      "definition": "One entity is an artistic influence or inspiration for the other."
+    },
+    {
+      "id": 2,
+      "name": "Political Role",
+      "definition": "One entity holds a political position or role in relation to the other."
+    },
+    {
+      "id": 3,
+      "name": "Temporal Event",
+      "definition": "One entity is a time period or date related to an event involving the other."
+    },
+    {
+      "id": 4,
+      "name": "Software Compatibility",
+      "definition": "One entity is software that is compatible with or available on the other."
+    },
+    {
+      "id": 5,
+      "name": "Language and Culture",
+      "definition": "One entity is a language or cultural aspect related to the other."
+    },
+    {
+      "id": 6,
+      "name": "Geographical Location",
+      "definition": "One entity is a geographical location related to the other."
+    },
+    {
+      "id": 7,
+      "name": "Product and Manufacturer",
+      "definition": "One entity is a product or service provided by the other."
+    },
+    {
+      "id": 8,
+      "name": "Historical Event",
+      "definition": "One entity is a historical event involving the other."
+    },
+    {
+      "id": 9,
+      "name": "Family Relation",
+      "definition": "One entity is a family member or relative of the other."
+    },
+    {
+      "id": 10,
+      "name": "Organizational Role",
+      "definition": "One entity holds a position or role within the organization of the other."
+    },
+    {
+      "id": 11,
+      "name": "Scientific Classification",
+      "definition": "One entity is a scientific classification or category of the other."
+    },
+    {
+      "id": 12,
+      "name": "Literary Work",
+      "definition": "One entity is a literary work authored by the other."
+    },
+    {
+      "id": 13,
+      "name": "Musical Work",
+      "definition": "One entity is a musical work created or performed by the other."
+    },
+    {
+      "id": 14,
+      "name": "Film and Director",
+      "definition": "One entity is a film directed by the other."
+    },
+    {
+      "id": 15,
+      "name": "Sports Event",
+      "definition": "One entity is a sports event or competition involving the other."
+    },
+    {
+      "id": 16,
+      "name": "Corporate Acquisition",
+      "definition": "One entity is acquired or merged with the other."
+    },
+    {
+      "id": 17,
+      "name": "Broadcasting",
+      "definition": "One entity is a broadcasting station or network related to the other."
+    },
+    {
+      "id": 18,
+      "name": "Military Service",
+      "definition": "One entity is a military service or rank held by the other."
+    },
+    {
+      "id": 19,
+      "name": "Architectural Design",
+      "definition": "One entity is an architectural design or structure created by the other."
+    },
+    {
+      "id": 20,
+      "name": "Religious Affiliation",
+      "definition": "One entity is a religious affiliation or denomination of the other."
+    },
+    {
+      "id": 21,
+      "name": "Transportation",
+      "definition": "One entity is a transportation hub or service related to the other."
+    },
+    {
+      "id": 22,
+      "name": "Business Partnership",
+      "definition": "One entity is in a business partnership or collaboration with the other."
+    },
+    {
+      "id": 23,
+      "name": "Media Appearance",
+      "definition": "One entity appears in or is featured in the media work of the other."
+    },
+    {
+      "id": 24,
+      "name": "Educational Institution",
+      "definition": "One entity is an educational institution attended by the other."
+    },
+    {
+      "id": 25,
+      "name": "Cultural Heritage",
+      "definition": "One entity is a cultural heritage or tradition associated with the other."
+    },
+    {
+      "id": 26,
+      "name": "Legal Status",
+      "definition": "One entity is a legal status or designation of the other."
+    },
+    {
+      "id": 27,
+      "name": "Scientific Contribution",
+      "definition": "One entity is a scientific contribution or discovery made by the other."
+    },
+    {
+      "id": 28,
+      "name": "Economic Activity",
+      "definition": "One entity is an economic activity or industry related to the other."
+    },
+    {
+      "id": 29,
+      "name": "Sports Team",
+      "definition": "One entity is a sports team or club associated with the other."
+    },
+    {
+      "id": 30,
+      "name": "Historical Figure",
+      "definition": "One entity is a historical figure related to the other."
+    },
+    {
+      "id": 31,
+      "name": "Cinematic Work",
+      "definition": "One entity is a cinematic work produced or written by the other."
+    },
+    {
+      "id": 32,
+      "name": "Musical Genre",
+      "definition": "One entity is a musical genre or style associated with the other."
+    },
+    {
+      "id": 33,
+      "name": "Government Role",
+      "definition": "One entity holds a government position or role in relation to the other."
+    },
+    {
+      "id": 34,
+      "name": "Cultural Event",
+      "definition": "One entity is a cultural event or festival involving the other."
+    },
+    {
+      "id": 35,
+      "name": "Scientific Research",
+      "definition": "One entity is a scientific research or study conducted by the other."
+    },
+    {
+      "id": 36,
+      "name": "Literary Genre",
+      "definition": "One entity is a literary genre or style associated with the other."
+    },
+    {
+      "id": 37,
+      "name": "Artistic Work",
+      "definition": "One entity is an artistic work created by the other."
+    },
+    {
+      "id": 38,
+      "name": "Political Affiliation",
+      "definition": "One entity is a political affiliation or party associated with the other."
+    },
+    {
+      "id": 39,
+      "name": "Cultural Influence",
+      "definition": "One entity is a cultural influence or impact on the other."
+    },
+    {
+      "id": 40,
+      "name": "Geographical Feature",
+      "definition": "One entity is a geographical feature or landmark related to the other."
+    },
+    {
+      "id": 41,
+      "name": "Historical Landmark",
+      "definition": "One entity is a historical landmark or site associated with the other."
+    },
+    {
+      "id": 42,
+      "name": "Cinematic Genre",
+      "definition": "One entity is a cinematic genre or style associated with the other."
+    },
+    {
+      "id": 43,
+      "name": "Cultural Role",
+      "definition": "One entity holds a cultural role or position in relation to the other."
+    },
+    {
+      "id": 44,
+      "name": "Scientific Field",
+      "definition": "One entity is a scientific field or discipline related to the other."
+    },
+    {
+      "id": 45,
+      "name": "Cultural Tradition",
+      "definition": "One entity is a cultural tradition or practice associated with the other."
+    },
+    {
+      "id": 46,
+      "name": "Economic Sector",
+      "definition": "One entity is an economic sector or industry related to the other."
+    },
+    {
+      "id": 47,
+      "name": "Cinematic Influence",
+      "definition": "One entity is a cinematic influence or inspiration for the other."
+    },
+    {
+      "id": 48,
+      "name": "Cultural Heritage Site",
+      "definition": "One entity is a cultural heritage site or monument associated with the other."
+    },
+    {
+      "id": 49,
+      "name": "Cinematic Role",
+      "definition": "One entity holds a cinematic role or position in relation to the other."
+    },
+    {
+      "id": 50,
+      "name": "Cultural Institution",
+      "definition": "One entity is a cultural institution or organization related to the other."
+    }
+  ]
+}

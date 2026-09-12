@@ -1,0 +1,85 @@
+{
+  "bench": "banking77",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Management",
+      "definition": "Inquiries related to opening, closing, or managing bank accounts."
+    },
+    {
+      "id": 2,
+      "name": "Card Issues",
+      "definition": "Questions or problems regarding physical or virtual cards, including activation, replacement, and usage."
+    },
+    {
+      "id": 3,
+      "name": "Transaction Disputes",
+      "definition": "Concerns about unauthorized transactions, duplicate charges, or transaction errors."
+    },
+    {
+      "id": 4,
+      "name": "Funds Transfer",
+      "definition": "Inquiries about transferring money between accounts or to other individuals."
+    },
+    {
+      "id": 5,
+      "name": "Top-Up Issues",
+      "definition": "Problems or questions related to adding funds to an account or card."
+    },
+    {
+      "id": 6,
+      "name": "Fees and Charges",
+      "definition": "Questions regarding fees associated with transactions, account maintenance, or services."
+    },
+    {
+      "id": 7,
+      "name": "Identity Verification",
+      "definition": "Inquiries about the process and requirements for verifying identity."
+    },
+    {
+      "id": 8,
+      "name": "Security Concerns",
+      "definition": "Reports of lost or stolen cards, unauthorized access, or suspicious activity."
+    },
+    {
+      "id": 9,
+      "name": "Technical Issues",
+      "definition": "Problems related to the banking app or website functionality."
+    },
+    {
+      "id": 10,
+      "name": "Currency Exchange",
+      "definition": "Questions about currency conversion rates, fees, and processes."
+    },
+    {
+      "id": 11,
+      "name": "PIN Management",
+      "definition": "Inquiries about setting, changing, or recovering PINs for accounts or cards."
+    },
+    {
+      "id": 12,
+      "name": "Refund Requests",
+      "definition": "Requests for refunds on transactions or inquiries about the refund process."
+    },
+    {
+      "id": 13,
+      "name": "ATM Issues",
+      "definition": "Problems encountered while using ATMs, including cash withdrawals and card retrieval."
+    },
+    {
+      "id": 14,
+      "name": "Account Security",
+      "definition": "Concerns about account security measures and how to enhance them."
+    },
+    {
+      "id": 15,
+      "name": "Customer Feedback",
+      "definition": "Comments or complaints regarding customer service or banking experience."
+    }
+  ]
+}

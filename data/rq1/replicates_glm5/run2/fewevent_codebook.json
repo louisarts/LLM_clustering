@@ -1,0 +1,89 @@
+{
+  "bench": "fewevent",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Personnel_Role",
+      "definition": "A professional role, title, occupation, or position held by an individual."
+    },
+    {
+      "id": 2,
+      "name": "Family_Relationship",
+      "definition": "A familial connection or role such as wife, husband, or daughter."
+    },
+    {
+      "id": 3,
+      "name": "Military_Command",
+      "definition": "The authority or act of directing military personnel, operations, or units."
+    },
+    {
+      "id": 4,
+      "name": "Competition_Award",
+      "definition": "A prize, medal, or victory won in a sporting or competitive event."
+    },
+    {
+      "id": 5,
+      "name": "Academic_Activity",
+      "definition": "Activities related to education, such as studying, teaching, or graduating."
+    },
+    {
+      "id": 6,
+      "name": "Marriage",
+      "definition": "The act, event, or state of being married or the marriage ceremony itself."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "The act of conveying information through speech, writing, or electronic means."
+    },
+    {
+      "id": 8,
+      "name": "Conflict_Violence",
+      "definition": "Acts of physical aggression, war, battle, or violent crime."
+    },
+    {
+      "id": 9,
+      "name": "Movement_Transport",
+      "definition": "The act of traveling, moving, or transporting people or goods from one place to another."
+    },
+    {
+      "id": 10,
+      "name": "Arts_Media",
+      "definition": "Creative works, productions, or formats such as films, music, or albums."
+    },
+    {
+      "id": 11,
+      "name": "Political_Administrative",
+      "definition": "Actions, processes, or entities related to governance, elections, or public administration."
+    },
+    {
+      "id": 12,
+      "name": "Business_Transaction",
+      "definition": "Commercial activities, financial transactions, or employment terms."
+    },
+    {
+      "id": 13,
+      "name": "Social_Association",
+      "definition": "Non-familial relationships, partnerships, or group affiliations."
+    },
+    {
+      "id": 14,
+      "name": "Legal_Action",
+      "definition": "Proceedings, sentences, or actions related to the law or justice system."
+    },
+    {
+      "id": 15,
+      "name": "Residence",
+      "definition": "The act or state of living, staying, or being located in a specific place."
+    },
+    {
+      "id": 16,
+      "name": "Cognitive_Activity",
+      "definition": "Mental processes or expressions such as thinking, suggesting, or defining."
+    }
+  ]
+}

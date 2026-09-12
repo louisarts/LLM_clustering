@@ -1,0 +1,60 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Artificial Intelligence",
+      "definition": "Questions related to AI, machine learning, and deep learning"
+    },
+    {
+      "id": 2,
+      "name": "Computer Science",
+      "definition": "Questions related to programming, software development, and computer technology"
+    },
+    {
+      "id": 3,
+      "name": "Data Science",
+      "definition": "Questions related to data analysis, statistics, and data visualization"
+    },
+    {
+      "id": 4,
+      "name": "Language Learning",
+      "definition": "Questions related to learning foreign languages and language proficiency"
+    },
+    {
+      "id": 5,
+      "name": "Mathematics",
+      "definition": "Questions related to mathematical concepts, equations, and problem-solving"
+    },
+    {
+      "id": 6,
+      "name": "Physics",
+      "definition": "Questions related to physics, mechanics, and scientific principles"
+    },
+    {
+      "id": 7,
+      "name": "Psychology",
+      "definition": "Questions related to human behavior, emotions, and mental health"
+    },
+    {
+      "id": 8,
+      "name": "Travel",
+      "definition": "Questions related to travel destinations, transportation, and accommodations"
+    },
+    {
+      "id": 9,
+      "name": "Health & Fitness",
+      "definition": "Questions related to physical health, exercise, and nutrition"
+    },
+    {
+      "id": 10,
+      "name": "History",
+      "definition": "Questions related to historical events, figures, and civilizations"
+    }
+  ]
+}

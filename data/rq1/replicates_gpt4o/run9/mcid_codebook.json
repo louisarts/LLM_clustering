@@ -1,0 +1,70 @@
+{
+  "bench": "mcid",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information Request",
+      "definition": "Requests for general information about COVID-19, including what it is and how it spreads."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Health Concerns",
+      "definition": "Inquiries about symptoms, health concerns, and personal health situations related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Prevention and Safety Measures",
+      "definition": "Questions about how to prevent COVID-19 and stay safe, including hygiene practices and social distancing."
+    },
+    {
+      "id": 4,
+      "name": "Treatment and Cure",
+      "definition": "Requests for information about treatments, cures, and vaccines for COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Transmission and Risk Factors",
+      "definition": "Inquiries about how COVID-19 is transmitted and what factors increase risk."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Transportation",
+      "definition": "Questions about travel restrictions, safety of travel, and transportation-related concerns."
+    },
+    {
+      "id": 7,
+      "name": "News and Updates",
+      "definition": "Requests for the latest news, updates, and statistics about COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Myths and Misinformation",
+      "definition": "Inquiries about myths, misinformation, and debunked claims related to COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Donations and Support",
+      "definition": "Requests for information on how to donate or support COVID-19 relief efforts."
+    },
+    {
+      "id": 10,
+      "name": "Sharing Information",
+      "definition": "Requests to share information, reports, or services related to COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Greetings and Gratitude",
+      "definition": "Expressions of greetings, gratitude, or appreciation towards the service or bot."
+    },
+    {
+      "id": 12,
+      "name": "Miscellaneous",
+      "definition": "Other inquiries or statements that do not fit into the above categories."
+    }
+  ]
+}

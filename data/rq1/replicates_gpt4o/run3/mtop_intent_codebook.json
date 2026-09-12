@@ -1,0 +1,70 @@
+{
+  "bench": "mtop_intent",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Create or modify an alarm for a specific time or schedule."
+    },
+    {
+      "id": 2,
+      "name": "Set Timer",
+      "definition": "Start, stop, or modify a countdown timer."
+    },
+    {
+      "id": 3,
+      "name": "Send Message",
+      "definition": "Send a text or video message to a contact via various platforms."
+    },
+    {
+      "id": 4,
+      "name": "Make Call",
+      "definition": "Initiate or manage a phone call with a contact."
+    },
+    {
+      "id": 5,
+      "name": "Weather Inquiry",
+      "definition": "Request information about current or future weather conditions."
+    },
+    {
+      "id": 6,
+      "name": "News Inquiry",
+      "definition": "Request the latest news or specific news stories."
+    },
+    {
+      "id": 7,
+      "name": "Reminder Management",
+      "definition": "Create, modify, or delete reminders for future tasks or events."
+    },
+    {
+      "id": 8,
+      "name": "Music Control",
+      "definition": "Play, pause, or change music tracks or stations."
+    },
+    {
+      "id": 9,
+      "name": "Recipe Inquiry",
+      "definition": "Request recipes or cooking instructions for specific dishes."
+    },
+    {
+      "id": 10,
+      "name": "Event Inquiry",
+      "definition": "Request information about events happening in a specific location."
+    },
+    {
+      "id": 11,
+      "name": "Contact Information Inquiry",
+      "definition": "Request information about a person's work or location."
+    },
+    {
+      "id": 12,
+      "name": "General Inquiry",
+      "definition": "Request general information or answers to questions not covered by other categories."
+    }
+  ]
+}

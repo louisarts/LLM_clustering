@@ -1,0 +1,90 @@
+{
+  "bench": "reddit_s2s",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Architecture",
+      "definition": "Posts related to futuristic architecture, design, and construction"
+    },
+    {
+      "id": 2,
+      "name": "Education",
+      "definition": "Posts related to education, courses, and academic inquiries"
+    },
+    {
+      "id": 3,
+      "name": "Cooking",
+      "definition": "Posts related to recipes, cooking techniques, and food preparation"
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "Posts related to gadgets, software, and tech support"
+    },
+    {
+      "id": 5,
+      "name": "Photography",
+      "definition": "Posts related to photography, cameras, and visual arts"
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Posts related to music, concerts, and musical instruments"
+    },
+    {
+      "id": 7,
+      "name": "Politics",
+      "definition": "Posts related to political events, policies, and government actions"
+    },
+    {
+      "id": 8,
+      "name": "Law Enforcement",
+      "definition": "Posts related to law enforcement, crime, and legal issues"
+    },
+    {
+      "id": 9,
+      "name": "Health",
+      "definition": "Posts related to health, medical conditions, and wellness"
+    },
+    {
+      "id": 10,
+      "name": "Entertainment",
+      "definition": "Posts related to movies, TV shows, and pop culture"
+    },
+    {
+      "id": 11,
+      "name": "Sports",
+      "definition": "Posts related to sports events, teams, and athletes"
+    },
+    {
+      "id": 12,
+      "name": "Business",
+      "definition": "Posts related to business, finance, and entrepreneurship"
+    },
+    {
+      "id": 13,
+      "name": "Travel",
+      "definition": "Posts related to travel destinations, tips, and experiences"
+    },
+    {
+      "id": 14,
+      "name": "Art",
+      "definition": "Posts related to art, paintings, and artistic creations"
+    },
+    {
+      "id": 15,
+      "name": "Science",
+      "definition": "Posts related to scientific discoveries, experiments, and theories"
+    },
+    {
+      "id": 16,
+      "name": "Social Issues",
+      "definition": "Posts related to social justice, activism, and community concerns"
+    }
+  ]
+}

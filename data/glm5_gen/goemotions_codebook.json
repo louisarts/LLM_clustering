@@ -1,0 +1,67 @@
+[
+ {
+  "id": 1,
+  "name": "Joy/Excitement",
+  "definition": "Expressions of happiness, love, admiration, enthusiasm, or positive anticipation."
+ },
+ {
+  "id": 2,
+  "name": "Sadness/Disappointment",
+  "definition": "Expressions of sorrow, grief, discouragement, or feeling let down."
+ },
+ {
+  "id": 3,
+  "name": "Anger/Disgust",
+  "definition": "Expressions of hostility, rage, hate, contempt, or strong repulsion."
+ },
+ {
+  "id": 4,
+  "name": "Fear/Anxiety",
+  "definition": "Expressions of worry, nervousness, panic, or concern about potential harm."
+ },
+ {
+  "id": 5,
+  "name": "Surprise",
+  "definition": "Expressions of shock, disbelief, or reaction to the unexpected."
+ },
+ {
+  "id": 6,
+  "name": "Amusement",
+  "definition": "Expressions of humor, playfulness, or finding something funny or entertaining."
+ },
+ {
+  "id": 7,
+  "name": "Agreement/Support",
+  "definition": "Expressions of concurrence, validation, endorsement, or praise."
+ },
+ {
+  "id": 8,
+  "name": "Disagreement/Criticism",
+  "definition": "Expressions of dissent, rejection, disapproval, or negative judgment."
+ },
+ {
+  "id": 9,
+  "name": "Curiosity/Confusion",
+  "definition": "Expressions of inquiry, questioning, or a lack of understanding."
+ },
+ {
+  "id": 10,
+  "name": "Frustration/Annoyance",
+  "definition": "Expressions of irritation, exasperation, or impatience regarding a specific situation."
+ },
+ {
+  "id": 11,
+  "name": "Regret/Apology",
+  "definition": "Expressions of remorse, guilt, or apologizing for an action or situation."
+ },
+ {
+  "id": 12,
+  "name": "Sarcasm/Mockery",
+  "definition": "Expressions of irony, ridicule, or satire where the literal meaning contrasts with the intent."
+ },
+ {
+  "id": 13,
+  "name": "Neutral/Informational",
+  "definition": "Factual statements, objective observations, or communications lacking strong emotional valence."
+ }
+]

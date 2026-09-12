@@ -1,0 +1,394 @@
+{
+  "bench": "reddit_s2s",
+  "run": 1,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "rq3_cached",
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "r/AFL",
+      "definition": "A community for discussing the Australian Football League and Australian rules football."
+    },
+    {
+      "id": 2,
+      "name": "r/AskReddit",
+      "definition": "A subreddit for asking and answering thought-provoking questions."
+    },
+    {
+      "id": 3,
+      "name": "r/Art",
+      "definition": "A community for sharing and discussing visual art including paintings, drawings, and sculpture."
+    },
+    {
+      "id": 4,
+      "name": "r/Austin",
+      "definition": "A subreddit for residents and visitors of Austin, Texas to discuss local news and events."
+    },
+    {
+      "id": 5,
+      "name": "r/Astronomy",
+      "definition": "A community for discussing the scientific study of celestial objects and phenomena."
+    },
+    {
+      "id": 6,
+      "name": "r/Amazon",
+      "definition": "A subreddit for discussing Amazon as a company, marketplace, and employer."
+    },
+    {
+      "id": 7,
+      "name": "r/Christianity",
+      "definition": "A community for discussing Christianity and Christian life."
+    },
+    {
+      "id": 8,
+      "name": "r/DIY",
+      "definition": "A community for sharing and discussing do-it-yourself projects."
+    },
+    {
+      "id": 9,
+      "name": "r/MakingAMurderer",
+      "definition": "A subreddit for discussing the documentary series Making a Murderer."
+    },
+    {
+      "id": 10,
+      "name": "r/Music",
+      "definition": "A community for sharing and discussing music of all genres."
+    },
+    {
+      "id": 11,
+      "name": "r/News",
+      "definition": "A subreddit for breaking news stories primarily focused on the US."
+    },
+    {
+      "id": 12,
+      "name": "r/StarWars",
+      "definition": "A community for discussing the Star Wars franchise."
+    },
+    {
+      "id": 13,
+      "name": "r/Technology",
+      "definition": "A subreddit for discussing technological news, innovations, and trends."
+    },
+    {
+      "id": 14,
+      "name": "r/WorldNews",
+      "definition": "A subreddit for major news from around the world, excluding US internal news."
+    },
+    {
+      "id": 15,
+      "name": "r/airsoft",
+      "definition": "A community for discussing airsoft guns, gear, and gameplay."
+    },
+    {
+      "id": 16,
+      "name": "r/amateurradio",
+      "definition": "A subreddit for licensed amateur radio operators (hams) to discuss the hobby."
+    },
+    {
+      "id": 17,
+      "name": "r/anime",
+      "definition": "A community for discussing Japanese animation (anime) and manga."
+    },
+    {
+      "id": 18,
+      "name": "r/apple",
+      "definition": "A community for discussing Apple products, software, and services."
+    },
+    {
+      "id": 19,
+      "name": "r/architecture",
+      "definition": "A community for discussing architectural design, projects, and theory."
+    },
+    {
+      "id": 20,
+      "name": "r/astrology",
+      "definition": "A subreddit for discussing astrological signs, horoscopes, and predictions."
+    },
+    {
+      "id": 21,
+      "name": "r/australia",
+      "definition": "A subreddit for news and discussion related to Australia."
+    },
+    {
+      "id": 22,
+      "name": "r/aviation",
+      "definition": "A community for discussing aircraft, piloting, and the aviation industry."
+    },
+    {
+      "id": 23,
+      "name": "r/baltimore",
+      "definition": "A subreddit for the Baltimore, Maryland community to discuss local topics."
+    },
+    {
+      "id": 24,
+      "name": "r/beer",
+      "definition": "A community for discussion and news about beer and brewing."
+    },
+    {
+      "id": 25,
+      "name": "r/belgium",
+      "definition": "A subreddit for news and discussion about Belgium."
+    },
+    {
+      "id": 26,
+      "name": "r/biology",
+      "definition": "A community for discussing the biological sciences."
+    },
+    {
+      "id": 27,
+      "name": "r/blender",
+      "definition": "A community for users of the Blender 3D creation software."
+    },
+    {
+      "id": 28,
+      "name": "r/blogging",
+      "definition": "A subreddit for bloggers to discuss strategy, design, and growth."
+    },
+    {
+      "id": 29,
+      "name": "r/books",
+      "definition": "A community for book lovers to discuss literature and recommendations."
+    },
+    {
+      "id": 30,
+      "name": "r/brazil",
+      "definition": "A subreddit for news and discussion about Brazil."
+    },
+    {
+      "id": 31,
+      "name": "r/cancer",
+      "definition": "A support community for patients and families affected by cancer."
+    },
+    {
+      "id": 32,
+      "name": "r/cars",
+      "definition": "A subreddit for car enthusiasts to discuss vehicles and the automotive industry."
+    },
+    {
+      "id": 33,
+      "name": "r/cats",
+      "definition": "A community for sharing pictures and stories about cats."
+    },
+    {
+      "id": 34,
+      "name": "r/chemistry",
+      "definition": "A community for discussing chemistry news, science, and education."
+    },
+    {
+      "id": 35,
+      "name": "r/chicago",
+      "definition": "A subreddit for residents and visitors of Chicago, Illinois to discuss local news and events."
+    },
+    {
+      "id": 36,
+      "name": "r/china",
+      "definition": "A subreddit for discussing news and life in China."
+    },
+    {
+      "id": 37,
+      "name": "r/classicalmusic",
+      "definition": "A community for discussing classical music and composers."
+    },
+    {
+      "id": 38,
+      "name": "r/coins",
+      "definition": "A community for numismatists to discuss coin collecting."
+    },
+    {
+      "id": 39,
+      "name": "r/college",
+      "definition": "A community for discussing college life, admissions, and academics."
+    },
+    {
+      "id": 40,
+      "name": "r/comicbooks",
+      "definition": "A subreddit for comic book enthusiasts to discuss stories and industry news."
+    },
+    {
+      "id": 41,
+      "name": "r/cycling",
+      "definition": "A community for cyclists to discuss bikes, gear, and riding."
+    },
+    {
+      "id": 42,
+      "name": "r/depression",
+      "definition": "A support community for individuals struggling with depression."
+    },
+    {
+      "id": 43,
+      "name": "r/dogs",
+      "definition": "A community for sharing pictures and advice about dogs."
+    },
+    {
+      "id": 44,
+      "name": "r/documentaries",
+      "definition": "A subreddit for discussing documentary films and series."
+    },
+    {
+      "id": 45,
+      "name": "r/education",
+      "definition": "A subreddit for discussing education policy, teaching, and school news."
+    },
+    {
+      "id": 46,
+      "name": "r/environment",
+      "definition": "A community for discussing environmental news and issues."
+    },
+    {
+      "id": 47,
+      "name": "r/fitness",
+      "definition": "A community for discussing physical fitness and exercise."
+    },
+    {
+      "id": 48,
+      "name": "r/gaming",
+      "definition": "A subreddit for discussing video games and gaming culture."
+    },
+    {
+      "id": 49,
+      "name": "r/health",
+      "definition": "A subreddit for discussing health news and medical topics."
+    },
+    {
+      "id": 50,
+      "name": "r/history",
+      "definition": "A community for discussing historical events and figures."
+    },
+    {
+      "id": 51,
+      "name": "r/india",
+      "definition": "A subreddit for news and discussion about India."
+    },
+    {
+      "id": 52,
+      "name": "r/investing",
+      "definition": "A community for discussing investment strategies and financial markets."
+    },
+    {
+      "id": 53,
+      "name": "r/islam",
+      "definition": "A community for discussing Islam and Muslim life."
+    },
+    {
+      "id": 54,
+      "name": "r/jokes",
+      "definition": "A community for sharing jokes and humor."
+    },
+    {
+      "id": 55,
+      "name": "r/legaladvice",
+      "definition": "A subreddit for asking simple legal questions and receiving guidance."
+    },
+    {
+      "id": 56,
+      "name": "r/marketing",
+      "definition": "A community for discussing marketing strategies and industry news."
+    },
+    {
+      "id": 57,
+      "name": "r/meditation",
+      "definition": "A community for discussing meditation practices and benefits."
+    },
+    {
+      "id": 58,
+      "name": "r/movies",
+      "definition": "A subreddit for discussing films and the film industry."
+    },
+    {
+      "id": 59,
+      "name": "r/ottawa",
+      "definition": "A subreddit for the Ottawa, Ontario community."
+    },
+    {
+      "id": 60,
+      "name": "r/pakistan",
+      "definition": "A subreddit for news and discussion about Pakistan."
+    },
+    {
+      "id": 61,
+      "name": "r/philosophy",
+      "definition": "A community for discussing philosophical ideas and questions."
+    },
+    {
+      "id": 62,
+      "name": "r/photography",
+      "definition": "A community for photographers to share work and discuss techniques."
+    },
+    {
+      "id": 63,
+      "name": "r/politics",
+      "definition": "A subreddit for political news and discussion, primarily US-focused."
+    },
+    {
+      "id": 64,
+      "name": "r/relationships",
+      "definition": "A subreddit for seeking advice on interpersonal relationships."
+    },
+    {
+      "id": 65,
+      "name": "r/scams",
+      "definition": "A community for discussing, exposing, and seeking advice about scams."
+    },
+    {
+      "id": 66,
+      "name": "r/science",
+      "definition": "A subreddit for discussing scientific discoveries and research."
+    },
+    {
+      "id": 67,
+      "name": "r/soccer",
+      "definition": "A subreddit for discussing association football (soccer)."
+    },
+    {
+      "id": 68,
+      "name": "r/space",
+      "definition": "A community for discussing space exploration, science, and industry."
+    },
+    {
+      "id": 69,
+      "name": "r/sports",
+      "definition": "A subreddit for discussing general sports news and highlights."
+    },
+    {
+      "id": 70,
+      "name": "r/startups",
+      "definition": "A community for entrepreneurs to discuss startup ventures."
+    },
+    {
+      "id": 71,
+      "name": "r/television",
+      "definition": "A subreddit for discussing TV shows and the television industry."
+    },
+    {
+      "id": 72,
+      "name": "r/travel",
+      "definition": "A community for discussing travel destinations and advice."
+    },
+    {
+      "id": 73,
+      "name": "r/whatisthisthing",
+      "definition": "A community for identifying unknown objects found in the real world."
+    },
+    {
+      "id": 74,
+      "name": "r/writing",
+      "definition": "A community for writers to discuss the craft and business of writing."
+    },
+    {
+      "id": 75,
+      "name": "r/canada",
+      "definition": "A subreddit for news and discussion related to Canada."
+    },
+    {
+      "id": 76,
+      "name": "r/Atlanta",
+      "definition": "A subreddit for the Atlanta, Georgia community."
+    },
+    {
+      "id": 77,
+      "name": "r/coffee",
+      "definition": "A community for coffee enthusiasts to discuss brewing methods, beans, and equipment."
+    }
+  ]
+}

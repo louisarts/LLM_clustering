@@ -1,0 +1,64 @@
+{
+  "bench": "mcid",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Greetings and Gratitude",
+      "definition": "Utterances expressing thanks, greetings, or general social pleasantries towards the bot or assistant."
+    },
+    {
+      "id": 2,
+      "name": "Transmission and Contamination",
+      "definition": "Questions regarding how the virus spreads, survival on surfaces, or transmission risks from animals, food, and specific activities."
+    },
+    {
+      "id": 3,
+      "name": "Case Statistics and News",
+      "definition": "Requests for quantitative data on cases, deaths, and recoveries, or general news updates and situation reports."
+    },
+    {
+      "id": 4,
+      "name": "Treatment and Cure",
+      "definition": "Questions about medical treatments, cures, home remedies, vaccines, or medication for COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Symptoms and Diagnosis",
+      "definition": "Questions identifying symptoms of the virus or asking if specific physical sensations indicate an infection."
+    },
+    {
+      "id": 6,
+      "name": "Prevention and Safety Measures",
+      "definition": "Requests for advice on protective actions, hygiene practices, cleaning protocols, and safety equipment to avoid infection."
+    },
+    {
+      "id": 7,
+      "name": "Travel and Movement Restrictions",
+      "definition": "Questions about the safety or permissibility of travel, commuting, and movement under current restrictions."
+    },
+    {
+      "id": 8,
+      "name": "General Information and Explanation",
+      "definition": "Broad requests for information about what the virus is, how it works, or general educational content."
+    },
+    {
+      "id": 9,
+      "name": "Sharing and Functionality",
+      "definition": "Commands or questions regarding the technical operation of the bot, such as sharing content or links."
+    },
+    {
+      "id": 10,
+      "name": "Donations and Financial Aid",
+      "definition": "Requests to contribute money or support to relief efforts, charities, or specific groups affected by the pandemic."
+    },
+    {
+      "id": 11,
+      "name": "Myths and Misconceptions",
+      "definition": "Questions seeking to verify or debunk specific rumors, conspiracy theories, or misinformation about COVID-19."
+    }
+  ]
+}

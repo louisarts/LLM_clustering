@@ -1,0 +1,42 @@
+{
+  "bench": "snips",
+  "run": 6,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Music",
+      "definition": "User wants to initiate playback of audio content."
+    },
+    {
+      "id": 2,
+      "name": "Add Music to Playlist",
+      "definition": "User wants to add a music item (song, artist, album) to a specified playlist."
+    },
+    {
+      "id": 3,
+      "name": "Rate Content",
+      "definition": "User wants to assign a rating or review to a piece of media or creative work."
+    },
+    {
+      "id": 4,
+      "name": "Get Weather Information",
+      "definition": "User wants to retrieve current or forecasted weather conditions for a location and/or time."
+    },
+    {
+      "id": 5,
+      "name": "Find Movie/TV Show Information",
+      "definition": "User wants to find details about movies or TV shows, including titles, schedules, showtimes, or where they are playing."
+    },
+    {
+      "id": 6,
+      "name": "Book Restaurant Reservation",
+      "definition": "User wants to make a reservation at a restaurant or similar dining establishment."
+    },
+    {
+      "id": 7,
+      "name": "Search for Information/Content",
+      "definition": "User wants to find information about or locate a specific item that is not music to play, a movie/TV show, or a restaurant reservation. This includes books, games, photographs, paintings, general creative works, products, or non-media schedules."
+    }
+  ]
+}

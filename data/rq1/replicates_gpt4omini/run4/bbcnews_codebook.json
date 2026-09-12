@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Entertainment",
+      "definition": "Articles covering movies, music, television, and other forms of entertainment."
+    },
+    {
+      "id": 2,
+      "name": "Business",
+      "definition": "Articles related to corporate news, financial markets, and economic trends."
+    },
+    {
+      "id": 3,
+      "name": "Politics",
+      "definition": "Articles discussing political events, government actions, and political parties."
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "Articles focused on technological advancements, gadgets, and software."
+    },
+    {
+      "id": 5,
+      "name": "Health",
+      "definition": "Articles related to health issues, medical advancements, and public health policies."
+    },
+    {
+      "id": 6,
+      "name": "Sports",
+      "definition": "Articles covering sports events, athlete performances, and sports management."
+    },
+    {
+      "id": 7,
+      "name": "Environment",
+      "definition": "Articles discussing environmental issues, climate change, and sustainability."
+    },
+    {
+      "id": 8,
+      "name": "International News",
+      "definition": "Articles covering global events, international relations, and foreign affairs."
+    },
+    {
+      "id": 9,
+      "name": "Legal",
+      "definition": "Articles related to legal cases, law enforcement, and judicial matters."
+    },
+    {
+      "id": 10,
+      "name": "Social Issues",
+      "definition": "Articles discussing societal challenges, community concerns, and cultural topics."
+    },
+    {
+      "id": 11,
+      "name": "Travel",
+      "definition": "Articles related to travel, tourism, and cultural exploration."
+    },
+    {
+      "id": 12,
+      "name": "Education",
+      "definition": "Articles covering educational policies, institutions, and learning methods."
+    },
+    {
+      "id": 13,
+      "name": "Finance",
+      "definition": "Articles focused on personal finance, investments, and economic policies."
+    },
+    {
+      "id": 14,
+      "name": "Crime",
+      "definition": "Articles discussing criminal activities, law enforcement, and crime prevention."
+    },
+    {
+      "id": 15,
+      "name": "Consumer Affairs",
+      "definition": "Articles related to consumer rights, product reviews, and market trends."
+    }
+  ]
+}

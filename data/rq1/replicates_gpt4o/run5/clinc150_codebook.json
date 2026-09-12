@@ -1,0 +1,100 @@
+{
+  "bench": "clinc150",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Inquiry",
+      "definition": "Questions seeking general information or trivia."
+    },
+    {
+      "id": 2,
+      "name": "Financial Inquiry",
+      "definition": "Questions related to financial accounts, transactions, or services."
+    },
+    {
+      "id": 3,
+      "name": "Travel and Transportation",
+      "definition": "Requests or inquiries related to travel, flights, or transportation services."
+    },
+    {
+      "id": 4,
+      "name": "Calendar and Scheduling",
+      "definition": "Requests to manage or inquire about calendar events and schedules."
+    },
+    {
+      "id": 5,
+      "name": "Food and Dining",
+      "definition": "Requests or inquiries related to food, recipes, or dining options."
+    },
+    {
+      "id": 6,
+      "name": "Shopping and Orders",
+      "definition": "Requests to purchase items or inquire about shopping options."
+    },
+    {
+      "id": 7,
+      "name": "Weather and Environment",
+      "definition": "Requests for weather updates or environmental conditions."
+    },
+    {
+      "id": 8,
+      "name": "Health and Wellness",
+      "definition": "Inquiries related to health, wellness, or medical advice."
+    },
+    {
+      "id": 9,
+      "name": "Technology and Devices",
+      "definition": "Requests related to technology, devices, or connectivity issues."
+    },
+    {
+      "id": 10,
+      "name": "Music and Entertainment",
+      "definition": "Requests related to music playback or entertainment options."
+    },
+    {
+      "id": 11,
+      "name": "Communication",
+      "definition": "Requests to send messages or make calls."
+    },
+    {
+      "id": 12,
+      "name": "Home and Utilities",
+      "definition": "Requests related to home management or utility services."
+    },
+    {
+      "id": 13,
+      "name": "Personal Information",
+      "definition": "Inquiries about personal data or preferences."
+    },
+    {
+      "id": 14,
+      "name": "Assistance and Help",
+      "definition": "Requests for help or assistance with various tasks."
+    },
+    {
+      "id": 15,
+      "name": "Conversion and Calculation",
+      "definition": "Requests for unit conversions or mathematical calculations."
+    },
+    {
+      "id": 16,
+      "name": "Location and Navigation",
+      "definition": "Requests for location information or navigation assistance."
+    },
+    {
+      "id": 17,
+      "name": "Account Management",
+      "definition": "Requests to manage or inquire about user accounts."
+    },
+    {
+      "id": 18,
+      "name": "Miscellaneous",
+      "definition": "Requests or inquiries that do not fit into other categories."
+    }
+  ]
+}

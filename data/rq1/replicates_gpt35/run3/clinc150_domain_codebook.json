@@ -1,0 +1,155 @@
+{
+  "bench": "clinc150_domain",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar Management",
+      "definition": "Utterances related to scheduling, managing, or clearing events on a calendar."
+    },
+    {
+      "id": 2,
+      "name": "Travel Planning",
+      "definition": "Utterances related to booking flights, hotels, rental cars, or asking about travel visas."
+    },
+    {
+      "id": 3,
+      "name": "Financial Inquiries",
+      "definition": "Utterances related to checking balances, transactions, interest rates, credit limits, or setting up direct deposit."
+    },
+    {
+      "id": 4,
+      "name": "Task Management",
+      "definition": "Utterances related to creating, deleting, or checking reminders, todos, or shopping lists."
+    },
+    {
+      "id": 5,
+      "name": "Language and Spelling",
+      "definition": "Utterances related to spelling words, defining terms, or changing language settings."
+    },
+    {
+      "id": 6,
+      "name": "Health and Nutrition",
+      "definition": "Utterances related to health benefits, ingredients for recipes, nutrition facts, or health plan inquiries."
+    },
+    {
+      "id": 7,
+      "name": "Entertainment and Trivia",
+      "definition": "Utterances related to playing music, telling jokes, sharing trivia, or finding fun activities."
+    },
+    {
+      "id": 8,
+      "name": "Technical Support",
+      "definition": "Utterances related to reporting lost or damaged cards, setting up direct deposit, changing oil, or troubleshooting issues."
+    },
+    {
+      "id": 9,
+      "name": "Personal Information",
+      "definition": "Utterances related to changing names, preferences, voices, or asking personal questions."
+    },
+    {
+      "id": 10,
+      "name": "General Inquiries",
+      "definition": "Utterances that do not fit into specific categories and involve asking questions or seeking information."
+    },
+    {
+      "id": 11,
+      "name": "Voice and Volume Control",
+      "definition": "Utterances related to changing voice settings, volume levels, or speech speed."
+    },
+    {
+      "id": 12,
+      "name": "Location Services",
+      "definition": "Utterances related to finding current location, getting directions, or checking traffic conditions."
+    },
+    {
+      "id": 13,
+      "name": "Credit Score Improvement",
+      "definition": "Utterances related to increasing credit score, obtaining credit reports, or applying for new credit cards."
+    },
+    {
+      "id": 14,
+      "name": "Food and Restaurant Recommendations",
+      "definition": "Utterances related to finding restaurants, recipes, ingredients, or nutrition information."
+    },
+    {
+      "id": 15,
+      "name": "Banking and Financial Services",
+      "definition": "Utterances related to banking services, account management, bill payments, or financial planning."
+    },
+    {
+      "id": 16,
+      "name": "Travel Alerts and Visa Requirements",
+      "definition": "Utterances related to travel alerts, visa requirements, travel insurance, or travel reservations."
+    },
+    {
+      "id": 17,
+      "name": "Vehicle Maintenance",
+      "definition": "Utterances related to checking fuel levels, tire pressure, oil changes, or car maintenance."
+    },
+    {
+      "id": 18,
+      "name": "Language Preferences",
+      "definition": "Utterances related to changing language settings, voice options, or language translations."
+    },
+    {
+      "id": 19,
+      "name": "Weather Information",
+      "definition": "Utterances related to checking weather conditions, forecasts, or current weather updates."
+    },
+    {
+      "id": 20,
+      "name": "Timer and Alarm Settings",
+      "definition": "Utterances related to setting timers, alarms, reminders, or checking dates and times."
+    },
+    {
+      "id": 21,
+      "name": "Voice Recognition and Interaction",
+      "definition": "Utterances related to voice commands, responses, interactions, or voice-controlled actions."
+    },
+    {
+      "id": 22,
+      "name": "Pet-related Inquiries",
+      "definition": "Utterances related to pets, pet care, pet types, or pet-related questions."
+    },
+    {
+      "id": 23,
+      "name": "Calendar Events and Appointments",
+      "definition": "Utterances related to checking, scheduling, or managing calendar events, appointments, or meetings."
+    },
+    {
+      "id": 24,
+      "name": "Music and Playlist Management",
+      "definition": "Utterances related to playing music, adding songs to playlists, changing music settings, or music preferences."
+    },
+    {
+      "id": 25,
+      "name": "Currency Exchange Rates",
+      "definition": "Utterances related to checking currency exchange rates, conversions, or international transactions."
+    },
+    {
+      "id": 26,
+      "name": "Voice Mode and Settings",
+      "definition": "Utterances related to changing voice modes, whisper mode, voice speed, or voice tone."
+    },
+    {
+      "id": 27,
+      "name": "Insurance Plan Inquiries",
+      "definition": "Utterances related to insurance plans, coverage details, policy changes, or insurance inquiries."
+    },
+    {
+      "id": 28,
+      "name": "Tax-related Questions",
+      "definition": "Utterances related to tax forms, tax filing, tax deductions, or tax-related inquiries."
+    },
+    {
+      "id": 29,
+      "name": "Random Questions and Responses",
+      "definition": "Utterances that involve random questions, responses, comments, or general interactions."
+    }
+  ]
+}

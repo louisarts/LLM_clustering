@@ -1,0 +1,160 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Stack Overflow",
+      "definition": "Questions related to programming, software development, and technical issues."
+    },
+    {
+      "id": 2,
+      "name": "Super User",
+      "definition": "Questions about computer hardware and software, including troubleshooting and configuration."
+    },
+    {
+      "id": 3,
+      "name": "Ask Ubuntu",
+      "definition": "Questions specifically about the Ubuntu operating system and its applications."
+    },
+    {
+      "id": 4,
+      "name": "Server Fault",
+      "definition": "Questions related to server administration and IT infrastructure."
+    },
+    {
+      "id": 5,
+      "name": "Web Applications",
+      "definition": "Questions about web applications, including development and usage."
+    },
+    {
+      "id": 6,
+      "name": "Game Development",
+      "definition": "Questions related to game design, development, and programming."
+    },
+    {
+      "id": 7,
+      "name": "Science Fiction & Fantasy",
+      "definition": "Questions about science fiction and fantasy topics, including literature and media."
+    },
+    {
+      "id": 8,
+      "name": "English Language & Usage",
+      "definition": "Questions about the English language, grammar, and usage."
+    },
+    {
+      "id": 9,
+      "name": "Language Learning",
+      "definition": "Questions about learning languages and language acquisition."
+    },
+    {
+      "id": 10,
+      "name": "Health",
+      "definition": "Questions related to health, wellness, and medical issues."
+    },
+    {
+      "id": 11,
+      "name": "Cooking",
+      "definition": "Questions about cooking techniques, recipes, and food preparation."
+    },
+    {
+      "id": 12,
+      "name": "Personal Finance & Money",
+      "definition": "Questions about personal finance, budgeting, and financial planning."
+    },
+    {
+      "id": 13,
+      "name": "Travel",
+      "definition": "Questions related to travel, including tips and advice."
+    },
+    {
+      "id": 14,
+      "name": "Parenting",
+      "definition": "Questions about parenting, child-rearing, and family issues."
+    },
+    {
+      "id": 15,
+      "name": "Philosophy",
+      "definition": "Questions related to philosophical concepts and discussions."
+    },
+    {
+      "id": 16,
+      "name": "History",
+      "definition": "Questions about historical events, figures, and contexts."
+    },
+    {
+      "id": 17,
+      "name": "Music",
+      "definition": "Questions about music theory, composition, and performance."
+    },
+    {
+      "id": 18,
+      "name": "Photography",
+      "definition": "Questions about photography techniques, equipment, and editing."
+    },
+    {
+      "id": 19,
+      "name": "Graphic Design",
+      "definition": "Questions about graphic design principles, software, and techniques."
+    },
+    {
+      "id": 20,
+      "name": "Mathematics",
+      "definition": "Questions related to mathematical concepts, problems, and theories."
+    },
+    {
+      "id": 21,
+      "name": "Physics",
+      "definition": "Questions about physical principles, theories, and applications."
+    },
+    {
+      "id": 22,
+      "name": "Chemistry",
+      "definition": "Questions related to chemical principles, reactions, and compounds."
+    },
+    {
+      "id": 23,
+      "name": "Biology",
+      "definition": "Questions about biological concepts, organisms, and ecosystems."
+    },
+    {
+      "id": 24,
+      "name": "Engineering",
+      "definition": "Questions related to engineering principles, practices, and technologies."
+    },
+    {
+      "id": 25,
+      "name": "Legal",
+      "definition": "Questions about legal issues, rights, and regulations."
+    },
+    {
+      "id": 26,
+      "name": "Education",
+      "definition": "Questions about educational practices, theories, and systems."
+    },
+    {
+      "id": 27,
+      "name": "Social Sciences",
+      "definition": "Questions related to social sciences, including sociology and psychology."
+    },
+    {
+      "id": 28,
+      "name": "Art",
+      "definition": "Questions about art techniques, history, and appreciation."
+    },
+    {
+      "id": 29,
+      "name": "Sports",
+      "definition": "Questions about sports, including rules, techniques, and events."
+    },
+    {
+      "id": 30,
+      "name": "Hobbies",
+      "definition": "Questions about various hobbies and leisure activities."
+    }
+  ]
+}

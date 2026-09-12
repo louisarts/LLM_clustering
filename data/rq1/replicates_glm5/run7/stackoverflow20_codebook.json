@@ -1,0 +1,104 @@
+{
+  "bench": "stackoverflow20",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ajax",
+      "definition": "Questions about asynchronous web request techniques, often involving JavaScript, XML, or JSON."
+    },
+    {
+      "id": 2,
+      "name": "Apache",
+      "definition": "Questions regarding the Apache HTTP Server, including configuration, modules, and URL rewriting."
+    },
+    {
+      "id": 3,
+      "name": "Bash",
+      "definition": "Questions about the Bash shell, shell scripting, and Unix command-line utilities."
+    },
+    {
+      "id": 4,
+      "name": "Drupal",
+      "definition": "Questions about the Drupal content management system, modules, theming, and configuration."
+    },
+    {
+      "id": 5,
+      "name": "Excel",
+      "definition": "Questions about Microsoft Excel, including formulas, VBA macros, and spreadsheet functionality."
+    },
+    {
+      "id": 6,
+      "name": "Haskell",
+      "definition": "Questions about the Haskell programming language, functional programming concepts, and libraries."
+    },
+    {
+      "id": 7,
+      "name": "Hibernate",
+      "definition": "Questions about the Hibernate ORM framework for Java, including mapping, sessions, and queries."
+    },
+    {
+      "id": 8,
+      "name": "LINQ",
+      "definition": "Questions about Language Integrated Query in .NET, covering LINQ to Objects, XML, and SQL."
+    },
+    {
+      "id": 9,
+      "name": "Magento",
+      "definition": "Questions about the Magento e-commerce platform, including product management, theming, and extensions."
+    },
+    {
+      "id": 10,
+      "name": "Matlab",
+      "definition": "Questions about MATLAB, including data analysis, matrix manipulation, and simulation."
+    },
+    {
+      "id": 11,
+      "name": "Oracle",
+      "definition": "Questions about Oracle Database, including SQL queries, PL/SQL, and database administration."
+    },
+    {
+      "id": 12,
+      "name": "Qt",
+      "definition": "Questions about the Qt application framework, including GUI widgets, signals, and cross-platform C++ development."
+    },
+    {
+      "id": 13,
+      "name": "Scala",
+      "definition": "Questions about the Scala programming language, including its syntax, actors, and Java interoperability."
+    },
+    {
+      "id": 14,
+      "name": "SharePoint",
+      "definition": "Questions about Microsoft SharePoint, including web parts, lists, workflows, and site administration."
+    },
+    {
+      "id": 15,
+      "name": "Spring",
+      "definition": "Questions about the Spring Framework for Java, including dependency injection, security, and MVC."
+    },
+    {
+      "id": 16,
+      "name": "Subversion",
+      "definition": "Questions about the Subversion version control system, including commands, branching, and clients."
+    },
+    {
+      "id": 17,
+      "name": "Visual Studio",
+      "definition": "Questions about the Microsoft Visual Studio IDE, including debugging, build configuration, and editor features."
+    },
+    {
+      "id": 18,
+      "name": "WordPress",
+      "definition": "Questions about the WordPress content management system, including plugins, themes, and configuration."
+    },
+    {
+      "id": 19,
+      "name": "Mac OS X",
+      "definition": "Questions about software development specifically for the Mac OS X operating system or its APIs."
+    }
+  ]
+}

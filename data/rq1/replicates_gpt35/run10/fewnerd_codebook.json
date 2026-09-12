@@ -1,0 +1,60 @@
+{
+  "bench": "fewnerd",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Media Outlets",
+      "definition": "Entities that cover news and information, such as CBS, NBC, ABC, Washington Post, New York Times, Chicago Sun Times, AP, UPI, ESPN, ESPN2, ESPN Classic, Travel Channel"
+    },
+    {
+      "id": 2,
+      "name": "Countries",
+      "definition": "Nations such as USA, Japan, United States, Italy, France, Kuwait, New Zealand, China, India, Russia, Canada, England, Scotland, Brazil, Germany, Australia, Spain, Mexico, Israel, Armenia, Ireland, Sweden, Belgium, South Africa, Japan, Egypt, Greece, Argentina, Turkey, Iran, Iraq, Indonesia, Malaysia, Thailand, Vietnam, Philippines, Singapore, South Korea, Australia, New Zealand, Fiji, Tonga, Samoa, Papua New Guinea, Solomon Islands, Vanuatu, Kiribati, Tuvalu, Nauru, Palau, Marshall Islands, Micronesia, and the Maldives"
+    },
+    {
+      "id": 3,
+      "name": "Transportation",
+      "definition": "Entities related to transportation, such as British Rail, Federal Air, Tseung Kwan O \u2013 Lam Tin Tunnel, Ryde, Shanklin, Stockton Street, Messerschmitt, London Underground, Gatwick Airport, and the Detroit Music Awards"
+    },
+    {
+      "id": 4,
+      "name": "Education",
+      "definition": "Entities related to education, such as University of Texas at Brownsville, St. Luke's International Hospital, Rush Medical College, Vrije Universiteit, Domus Academy, Kyungsung University, and Howard University School of Law"
+    },
+    {
+      "id": 5,
+      "name": "Music & Entertainment",
+      "definition": "Entities related to music and entertainment, such as The Black Crowes, Jersey Boys, Gershwin's Porgy and Bess, The Four Seasons, Thriller \u2013 Live, and Captain Fantastic"
+    },
+    {
+      "id": 6,
+      "name": "Sports",
+      "definition": "Entities related to sports, such as MG34, Baltimore Ravens, Rogers Masters, NHL, Kentucky Derby, FIFA, World Wrestling Championships, and NASCAR"
+    },
+    {
+      "id": 7,
+      "name": "Military",
+      "definition": "Entities related to the military, such as MG42, DRG, DRB, DRB Class 52 Kriegslokomotive, and International Police"
+    },
+    {
+      "id": 8,
+      "name": "Technology",
+      "definition": "Entities related to technology, such as Sinclair QL computer, DRG and DRB standard steam locomotive, DRG and DRB Class 52 Kriegslokomotive, and Warcraft III World Editor"
+    },
+    {
+      "id": 9,
+      "name": "Literature",
+      "definition": "Entities related to literature, such as Seasons of a Woman\u2019s Life, The Riot Act, and September 11: Trauma and Human Bonds"
+    },
+    {
+      "id": 10,
+      "name": "Politics",
+      "definition": "Entities related to politics, such as MI5, MI6, Naa Bangaaru Talli, and the Political Parties, Elections and Referendums Act 2000"
+    }
+  ]
+}

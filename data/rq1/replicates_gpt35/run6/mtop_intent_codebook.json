@@ -1,0 +1,110 @@
+{
+  "bench": "mtop_intent",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Check Weather",
+      "definition": "User wants to know the weather forecast for a specific location and time."
+    },
+    {
+      "id": 2,
+      "name": "Set Reminder",
+      "definition": "User wants to set a reminder for a specific task or event."
+    },
+    {
+      "id": 3,
+      "name": "Make Call",
+      "definition": "User wants to make a phone call to a specific person or group."
+    },
+    {
+      "id": 4,
+      "name": "Get News Updates",
+      "definition": "User wants to receive news updates or headlines."
+    },
+    {
+      "id": 5,
+      "name": "Play Music",
+      "definition": "User wants to play music or a specific song."
+    },
+    {
+      "id": 6,
+      "name": "Timer/Alarm",
+      "definition": "User wants to set a timer or alarm for a specific time."
+    },
+    {
+      "id": 7,
+      "name": "Recipe Search",
+      "definition": "User wants to find a recipe for a specific dish."
+    },
+    {
+      "id": 8,
+      "name": "Check Location",
+      "definition": "User wants to know about a specific location or address."
+    },
+    {
+      "id": 9,
+      "name": "Message Contact",
+      "definition": "User wants to send a message to a specific contact."
+    },
+    {
+      "id": 10,
+      "name": "Cancel Reminder/Timer",
+      "definition": "User wants to cancel or delete a previously set reminder or timer."
+    },
+    {
+      "id": 11,
+      "name": "Check Calendar",
+      "definition": "User wants to know about upcoming events or appointments."
+    },
+    {
+      "id": 12,
+      "name": "Search Calories/Nutrition",
+      "definition": "User wants to know the nutritional information or calorie count of a specific food item."
+    },
+    {
+      "id": 13,
+      "name": "Check Work Status",
+      "definition": "User wants to know the availability or status of a specific person."
+    },
+    {
+      "id": 14,
+      "name": "Search Recipe Ingredients",
+      "definition": "User wants to know the ingredients required for a specific recipe."
+    },
+    {
+      "id": 15,
+      "name": "Check News Headlines",
+      "definition": "User wants to know the latest news headlines."
+    },
+    {
+      "id": 16,
+      "name": "Check Event Schedule",
+      "definition": "User wants to know about upcoming events or activities."
+    },
+    {
+      "id": 17,
+      "name": "Search Music Events",
+      "definition": "User wants to find music events happening in a specific location."
+    },
+    {
+      "id": 18,
+      "name": "Check Sports Updates",
+      "definition": "User wants to know about sports updates or scores."
+    },
+    {
+      "id": 19,
+      "name": "Search Cooking Instructions",
+      "definition": "User wants to know the cooking instructions for a specific dish."
+    },
+    {
+      "id": 20,
+      "name": "Check Contact Information",
+      "definition": "User wants to know the contact information of a specific person."
+    }
+  ]
+}

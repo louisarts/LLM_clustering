@@ -1,0 +1,72 @@
+[
+ {
+  "id": 1,
+  "name": "Alarm",
+  "definition": "Setting, checking, snoozing, or managing wake-up alarms."
+ },
+ {
+  "id": 2,
+  "name": "Calling",
+  "definition": "Initiating, managing, or ending voice or video calls."
+ },
+ {
+  "id": 3,
+  "name": "Communication_Check",
+  "definition": "Checking for incoming messages, calls, or contact online status."
+ },
+ {
+  "id": 4,
+  "name": "Events_Activities",
+  "definition": "Finding local events, activities, or checking availability of things to do."
+ },
+ {
+  "id": 5,
+  "name": "Messaging",
+  "definition": "Sending messages, texts, emails, or questions to contacts."
+ },
+ {
+  "id": 6,
+  "name": "Music_Audio",
+  "definition": "Playing, controlling, or identifying music and audio content."
+ },
+ {
+  "id": 7,
+  "name": "News",
+  "definition": "Requests for news updates, headlines, or stories about specific topics."
+ },
+ {
+  "id": 8,
+  "name": "People_Info",
+  "definition": "Querying information about people, relationships, employment, or contact details."
+ },
+ {
+  "id": 9,
+  "name": "Recipe_Food",
+  "definition": "Finding recipes, cooking instructions, ingredients, or nutritional information."
+ },
+ {
+  "id": 10,
+  "name": "Reminder_Create",
+  "definition": "Creating, setting, or adding new reminders for the user."
+ },
+ {
+  "id": 11,
+  "name": "Reminder_Manage",
+  "definition": "Viewing, editing, deleting, or querying existing reminders."
+ },
+ {
+  "id": 12,
+  "name": "Timer",
+  "definition": "Setting, checking, pausing, or adjusting countdown timers."
+ },
+ {
+  "id": 13,
+  "name": "User_Status",
+  "definition": "Managing the user's own availability, status, or calendar settings."
+ },
+ {
+  "id": 14,
+  "name": "Weather",
+  "definition": "Requests for weather forecasts, temperatures, or specific weather conditions."
+ }
+]

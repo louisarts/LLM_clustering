@@ -1,0 +1,607 @@
+[
+ {
+  "id": 1,
+  "name": "Music: Practice & Theory",
+  "definition": "Questions about musical practice, theory, history, and instrumentation."
+ },
+ {
+  "id": 2,
+  "name": "Stack Overflow",
+  "definition": "Questions about programming, software development, and coding tasks."
+ },
+ {
+  "id": 3,
+  "name": "Security",
+  "definition": "Questions about information security, cryptography, and system safety."
+ },
+ {
+  "id": 4,
+  "name": "Open Data",
+  "definition": "Questions about open data sets, data licensing, and data standards."
+ },
+ {
+  "id": 5,
+  "name": "Spanish Language",
+  "definition": "Questions about the Spanish language, grammar, and usage."
+ },
+ {
+  "id": 6,
+  "name": "Space Exploration",
+  "definition": "Questions about space missions, spacecraft, and astronautics."
+ },
+ {
+  "id": 7,
+  "name": "The Workplace",
+  "definition": "Questions about employment, professional conduct, and workplace environments."
+ },
+ {
+  "id": 8,
+  "name": "Cross Validated",
+  "definition": "Questions about statistics, machine learning, and data analysis."
+ },
+ {
+  "id": 9,
+  "name": "Russian Language",
+  "definition": "Questions about the Russian language, grammar, and usage."
+ },
+ {
+  "id": 10,
+  "name": "Video Production",
+  "definition": "Questions about video recording, editing, and production techniques."
+ },
+ {
+  "id": 11,
+  "name": "Science Fiction & Fantasy",
+  "definition": "Questions about science fiction and fantasy media, tropes, and canon."
+ },
+ {
+  "id": 12,
+  "name": "Mathematics",
+  "definition": "Questions about pure mathematics, mathematical proofs, and theory."
+ },
+ {
+  "id": 13,
+  "name": "Webmasters",
+  "definition": "Questions about website management, SEO, and web hosting."
+ },
+ {
+  "id": 14,
+  "name": "Mechanics",
+  "definition": "Questions about vehicle maintenance and repair."
+ },
+ {
+  "id": 15,
+  "name": "Database Administrators",
+  "definition": "Questions about database management systems, SQL, and administration."
+ },
+ {
+  "id": 16,
+  "name": "Gaming",
+  "definition": "Questions about video games, game mechanics, and walkthroughs."
+ },
+ {
+  "id": 17,
+  "name": "Italian Language",
+  "definition": "Questions about the Italian language, grammar, and usage."
+ },
+ {
+  "id": 18,
+  "name": "Web Applications",
+  "definition": "Questions about web-based applications like Gmail, Facebook, etc."
+ },
+ {
+  "id": 19,
+  "name": "English Language & Usage",
+  "definition": "Questions about English grammar, etymology, and usage."
+ },
+ {
+  "id": 20,
+  "name": "Law",
+  "definition": "Questions about legal concepts, contracts, and intellectual property."
+ },
+ {
+  "id": 21,
+  "name": "Physics",
+  "definition": "Questions about physics concepts, theories, and experiments."
+ },
+ {
+  "id": 22,
+  "name": "Puzzling",
+  "definition": "Questions about riddles, logic puzzles, and brain teasers."
+ },
+ {
+  "id": 23,
+  "name": "Tor",
+  "definition": "Questions about the Tor network, anonymity, and privacy software."
+ },
+ {
+  "id": 24,
+  "name": "Parenting",
+  "definition": "Questions about parenting, child development, and family life."
+ },
+ {
+  "id": 25,
+  "name": "Poker",
+  "definition": "Questions about poker rules, strategy, and probability."
+ },
+ {
+  "id": 26,
+  "name": "Ethereum",
+  "definition": "Questions about the Ethereum blockchain, smart contracts, and Solidity."
+ },
+ {
+  "id": 27,
+  "name": "Homebrewing",
+  "definition": "Questions about brewing beer, fermentation, and equipment."
+ },
+ {
+  "id": 28,
+  "name": "Sustainability",
+  "definition": "Questions about environmental issues, recycling, and sustainable living."
+ },
+ {
+  "id": 29,
+  "name": "Data Science",
+  "definition": "Questions about data mining, machine learning, and neural networks."
+ },
+ {
+  "id": 30,
+  "name": "Role-playing Games",
+  "definition": "Questions about tabletop RPGs, rules, and game mechanics."
+ },
+ {
+  "id": 31,
+  "name": "Islam",
+  "definition": "Questions about Islamic doctrine, practices, and history."
+ },
+ {
+  "id": 32,
+  "name": "Travel",
+  "definition": "Questions about travel logistics, destinations, and customs."
+ },
+ {
+  "id": 33,
+  "name": "Network Engineering",
+  "definition": "Questions about network infrastructure, routing, and configuration."
+ },
+ {
+  "id": 34,
+  "name": "Literature",
+  "definition": "Questions about literary analysis, authors, and book identification."
+ },
+ {
+  "id": 35,
+  "name": "English Language Learners",
+  "definition": "Questions about learning the English language for non-native speakers."
+ },
+ {
+  "id": 36,
+  "name": "Mythology & Folklore",
+  "definition": "Questions about myths, legends, and religious stories."
+ },
+ {
+  "id": 37,
+  "name": "Ukrainian Language",
+  "definition": "Questions about the Ukrainian language, grammar, and usage."
+ },
+ {
+  "id": 38,
+  "name": "Hinduism",
+  "definition": "Questions about Hindu religious practices, scriptures, deities, and philosophy."
+ },
+ {
+  "id": 39,
+  "name": "Ask Ubuntu",
+  "definition": "Questions about using and configuring the Ubuntu operating system."
+ },
+ {
+  "id": 40,
+  "name": "Bitcoin",
+  "definition": "Questions about Bitcoin cryptocurrency, protocols, and related technology."
+ },
+ {
+  "id": 41,
+  "name": "TeX - LaTeX",
+  "definition": "Questions about the TeX and LaTeX typesetting systems."
+ },
+ {
+  "id": 42,
+  "name": "Bicycles",
+  "definition": "Questions about bicycles, maintenance, and riding techniques."
+ },
+ {
+  "id": 43,
+  "name": "Worldbuilding",
+  "definition": "Questions about creating fictional worlds, settings, and geographies."
+ },
+ {
+  "id": 44,
+  "name": "Philosophy",
+  "definition": "Questions about philosophical concepts, history of philosophy, and logic."
+ },
+ {
+  "id": 45,
+  "name": "Arqade",
+  "definition": "Questions about video games, gameplay mechanics, and game storylines."
+ },
+ {
+  "id": 46,
+  "name": "Genealogy & Family History",
+  "definition": "Questions about tracing family history, genealogical research, and records."
+ },
+ {
+  "id": 47,
+  "name": "SharePoint",
+  "definition": "Questions about the Microsoft SharePoint platform and development."
+ },
+ {
+  "id": 48,
+  "name": "Mi Yodeya",
+  "definition": "Questions about Judaism, Jewish law, and tradition."
+ },
+ {
+  "id": 49,
+  "name": "Japanese Language",
+  "definition": "Questions about the Japanese language, grammar, and usage."
+ },
+ {
+  "id": 50,
+  "name": "The Great Outdoors",
+  "definition": "Questions about outdoor activities like hiking, camping, and survival."
+ },
+ {
+  "id": 51,
+  "name": "German Language",
+  "definition": "Questions about the German language, grammar, and usage."
+ },
+ {
+  "id": 52,
+  "name": "Graphic Design",
+  "definition": "Questions about graphic design, typography, and visual communication."
+ },
+ {
+  "id": 53,
+  "name": "Motor Vehicle Maintenance & Repair",
+  "definition": "Questions about car maintenance, repair, and troubleshooting."
+ },
+ {
+  "id": 54,
+  "name": "Physical Fitness",
+  "definition": "Questions about exercise, nutrition, and physical training."
+ },
+ {
+  "id": 55,
+  "name": "Salesforce",
+  "definition": "Questions about the Salesforce platform and development."
+ },
+ {
+  "id": 56,
+  "name": "Stellar",
+  "definition": "Questions about the Stellar network and distributed ledger technology."
+ },
+ {
+  "id": 57,
+  "name": "Retrocomputing",
+  "definition": "Questions about vintage computer hardware, software, and history."
+ },
+ {
+  "id": 58,
+  "name": "Mathematica",
+  "definition": "Questions about the Mathematica software and the Wolfram Language."
+ },
+ {
+  "id": 59,
+  "name": "Joomla",
+  "definition": "Questions about the Joomla content management system."
+ },
+ {
+  "id": 60,
+  "name": "Latin Language",
+  "definition": "Questions about the Latin language, grammar, and classical usage."
+ },
+ {
+  "id": 61,
+  "name": "Signal Processing",
+  "definition": "Questions about signal processing, image processing, and algorithms."
+ },
+ {
+  "id": 62,
+  "name": "Reverse Engineering",
+  "definition": "Questions about analyzing hardware or software to understand its design."
+ },
+ {
+  "id": 63,
+  "name": "Scientific Computation",
+  "definition": "Questions about numerical methods, simulation, and computational science."
+ },
+ {
+  "id": 64,
+  "name": "Sexuality",
+  "definition": "Questions about human sexuality, sexual health, and relationships."
+ },
+ {
+  "id": 65,
+  "name": "Expatriates",
+  "definition": "Questions about living and working abroad, visas, and residency."
+ },
+ {
+  "id": 66,
+  "name": "Photography",
+  "definition": "Questions about photography equipment, techniques, and processing."
+ },
+ {
+  "id": 67,
+  "name": "Photoshop",
+  "definition": "Questions about using Adobe Photoshop for image editing."
+ },
+ {
+  "id": 68,
+  "name": "Aviation",
+  "definition": "Questions about aviation, aircraft, and flight operations."
+ },
+ {
+  "id": 69,
+  "name": "Drones",
+  "definition": "Questions about unmanned aerial vehicles (drones) and quadcopters."
+ },
+ {
+  "id": 70,
+  "name": "Politics",
+  "definition": "Questions about political systems, processes, and policies."
+ },
+ {
+  "id": 71,
+  "name": "History",
+  "definition": "Questions about historical events, figures, and periods."
+ },
+ {
+  "id": 72,
+  "name": "Biblical Hermeneutics",
+  "definition": "Questions about the interpretation of biblical texts."
+ },
+ {
+  "id": 73,
+  "name": "Interpersonal Skills",
+  "definition": "Questions about navigating social interactions and relationships."
+ },
+ {
+  "id": 74,
+  "name": "Personal Finance & Money",
+  "definition": "Q&A for people who want to be financially literate."
+ },
+ {
+  "id": 75,
+  "name": "French Language",
+  "definition": "Q&A for students, teachers, and linguists wanting to discuss the finer points of the French language."
+ },
+ {
+  "id": 76,
+  "name": "Raspberry Pi",
+  "definition": "Q&A for users and developers of hardware and software for Raspberry Pi."
+ },
+ {
+  "id": 77,
+  "name": "Music Fans",
+  "definition": "Q&A for music enthusiasts, historians, and critics."
+ },
+ {
+  "id": 78,
+  "name": "Astronomy",
+  "definition": "Q&A for astronomers and astrophysicists."
+ },
+ {
+  "id": 79,
+  "name": "Information Security",
+  "definition": "Q&A for information security professionals."
+ },
+ {
+  "id": 80,
+  "name": "Linguistics",
+  "definition": "Q&A for professional linguists and others with an interest in linguistic research and theory."
+ },
+ {
+  "id": 81,
+  "name": "Azure",
+  "definition": "Q&A for those involved in the design, implementation, and deployment of Microsoft Azure services."
+ },
+ {
+  "id": 82,
+  "name": "Portuguese Language",
+  "definition": "Q&A for linguists, teachers and learners wanting to discuss the finer points of the Portuguese language."
+ },
+ {
+  "id": 83,
+  "name": "User Experience",
+  "definition": "Q&A for user experience researchers and experts."
+ },
+ {
+  "id": 84,
+  "name": "Quantitative Finance",
+  "definition": "Q&A for finance professionals and academics."
+ },
+ {
+  "id": 85,
+  "name": "Biology",
+  "definition": "Q&A for biology researchers, academics, and students."
+ },
+ {
+  "id": 86,
+  "name": "Super User",
+  "definition": "Q&A for computer enthusiasts and power users."
+ },
+ {
+  "id": 87,
+  "name": "Sports",
+  "definition": "Q&A for participants in team and individual sport activities."
+ },
+ {
+  "id": 88,
+  "name": "User Interface",
+  "definition": "Q&A for user experience researchers and experts."
+ },
+ {
+  "id": 89,
+  "name": "Project Management",
+  "definition": "Q&A for project managers."
+ },
+ {
+  "id": 90,
+  "name": "Android Enthusiasts",
+  "definition": "Q&A for enthusiasts and power users of the Android operating system."
+ },
+ {
+  "id": 91,
+  "name": "Windows Phone",
+  "definition": "Q&A for enthusiasts and power users of Windows Phone OS."
+ },
+ {
+  "id": 92,
+  "name": "Chinese Language",
+  "definition": "Questions about the Chinese language and usage."
+ },
+ {
+  "id": 93,
+  "name": "Writing",
+  "definition": "Q&A for authors, editors, reviewers, professional writers, and aspiring writers."
+ },
+ {
+  "id": 94,
+  "name": "Skeptics",
+  "definition": "Q&A for scientific skepticism."
+ },
+ {
+  "id": 95,
+  "name": "Unix & Linux",
+  "definition": "Q&A for users of Linux, FreeBSD and other Un*x-like operating systems."
+ },
+ {
+  "id": 96,
+  "name": "Movies & TV",
+  "definition": "Q&A for movie and tv enthusiasts."
+ },
+ {
+  "id": 97,
+  "name": "Software Engineering",
+  "definition": "Q&A for professionals, academics, and students working within the systems development life cycle."
+ },
+ {
+  "id": 98,
+  "name": "Server Fault",
+  "definition": "Q&A for system and network administrators."
+ },
+ {
+  "id": 99,
+  "name": "Mathematics Educators",
+  "definition": "Questions about teaching mathematics, curriculum design, and pedagogical techniques."
+ },
+ {
+  "id": 100,
+  "name": "Vi and Vim",
+  "definition": "Questions about the Vi and Vim text editors, including commands and configuration."
+ },
+ {
+  "id": 101,
+  "name": "Woodworking",
+  "definition": "Questions about carpentry, joinery, and woodworking techniques."
+ },
+ {
+  "id": 102,
+  "name": "Iota",
+  "definition": "Questions about the IOTA distributed ledger and cryptocurrency."
+ },
+ {
+  "id": 103,
+  "name": "Quantum Computing",
+  "definition": "Questions about quantum algorithms, quantum gates, and quantum mechanics in computing."
+ },
+ {
+  "id": 104,
+  "name": "Medical Sciences",
+  "definition": "Questions about medicine, medical conditions, and diagnosis."
+ },
+ {
+  "id": 105,
+  "name": "History of Science and Mathematics",
+  "definition": "Questions about the historical development of scientific and mathematical concepts."
+ },
+ {
+  "id": 106,
+  "name": "Amateur Radio",
+  "definition": "Questions about amateur radio operations, equipment, and regulations."
+ },
+ {
+  "id": 107,
+  "name": "Pathfinder",
+  "definition": "Questions about the Pathfinder role-playing game."
+ },
+ {
+  "id": 108,
+  "name": "Earth Science",
+  "definition": "Questions about the earth sciences, including geology, meteorology, and oceanography."
+ },
+ {
+  "id": 109,
+  "name": "Software Quality Assurance & Testing",
+  "definition": "Questions about software quality assurance and testing, covering automated testing, manual testing, and QA processes."
+ },
+ {
+  "id": 110,
+  "name": "Open Source",
+  "definition": "Questions about the practice of open source software development, including licensing and community management."
+ },
+ {
+  "id": 111,
+  "name": "Home Improvement",
+  "definition": "Questions for contractors and DIYers about home improvement and construction."
+ },
+ {
+  "id": 112,
+  "name": "Patents",
+  "definition": "Questions about patents and intellectual property, covering filing, prior art, and patent law."
+ },
+ {
+  "id": 113,
+  "name": "Robotics",
+  "definition": "Questions about robotics, covering design, construction, and programming of robots."
+ },
+ {
+  "id": 114,
+  "name": "Psychology & Neuroscience",
+  "definition": "Questions about psychology and neuroscience, covering cognition, behavior, and the brain."
+ },
+ {
+  "id": 115,
+  "name": "Sound Design",
+  "definition": "Questions about sound design, covering audio production, synthesis, and acoustics."
+ },
+ {
+  "id": 116,
+  "name": "Tridion",
+  "definition": "Questions about the SDL Tridion content management system, including implementation and development."
+ },
+ {
+  "id": 117,
+  "name": "WordPress Development",
+  "definition": "Questions about the WordPress content management system."
+ },
+ {
+  "id": 118,
+  "name": "Lifehacks",
+  "definition": "Questions about unconventional solutions to everyday problems."
+ },
+ {
+  "id": 119,
+  "name": "Magento",
+  "definition": "Questions about the Magento e-commerce platform."
+ },
+ {
+  "id": 120,
+  "name": "Pets",
+  "definition": "Questions about pet care, behavior, and training."
+ },
+ {
+  "id": 121,
+  "name": "Geographic Information Systems",
+  "definition": "Questions about GIS software, data, and spatial analysis."
+ }
+]

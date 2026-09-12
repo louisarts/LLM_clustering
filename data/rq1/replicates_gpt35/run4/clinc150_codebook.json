@@ -1,0 +1,155 @@
+{
+  "bench": "clinc150",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Reminder",
+      "definition": "User wants to be reminded of a task or event."
+    },
+    {
+      "id": 2,
+      "name": "Travel Inquiry",
+      "definition": "User seeks information related to travel plans or requirements."
+    },
+    {
+      "id": 3,
+      "name": "Legal Inquiry",
+      "definition": "User asks about legal consequences or regulations."
+    },
+    {
+      "id": 4,
+      "name": "Recipe Substitution",
+      "definition": "User asks about substituting ingredients in a recipe."
+    },
+    {
+      "id": 5,
+      "name": "Programming Help",
+      "definition": "User seeks assistance with programming or coding."
+    },
+    {
+      "id": 6,
+      "name": "Fashion Inquiry",
+      "definition": "User asks about current fashion trends or styles."
+    },
+    {
+      "id": 7,
+      "name": "Financial Inquiry",
+      "definition": "User seeks information related to finances or accounts."
+    },
+    {
+      "id": 8,
+      "name": "Vehicle Assistance",
+      "definition": "User needs help with a vehicle-related issue."
+    },
+    {
+      "id": 9,
+      "name": "Language Inquiry",
+      "definition": "User asks about languages or translations."
+    },
+    {
+      "id": 10,
+      "name": "Account Management",
+      "definition": "User requests actions related to account management."
+    },
+    {
+      "id": 11,
+      "name": "Technical Support",
+      "definition": "User seeks technical assistance or troubleshooting."
+    },
+    {
+      "id": 12,
+      "name": "Entertainment Inquiry",
+      "definition": "User asks about entertainment options or preferences."
+    },
+    {
+      "id": 13,
+      "name": "Health Inquiry",
+      "definition": "User seeks information related to health or medical issues."
+    },
+    {
+      "id": 14,
+      "name": "Communication Request",
+      "definition": "User asks to communicate with someone or send a message."
+    },
+    {
+      "id": 15,
+      "name": "Location Inquiry",
+      "definition": "User asks for information about locations or directions."
+    },
+    {
+      "id": 16,
+      "name": "Task Management",
+      "definition": "User requests assistance with task organization or completion."
+    },
+    {
+      "id": 17,
+      "name": "Personalization Request",
+      "definition": "User asks to personalize settings or preferences."
+    },
+    {
+      "id": 18,
+      "name": "Information Retrieval",
+      "definition": "User seeks specific information or data."
+    },
+    {
+      "id": 19,
+      "name": "Appointment Scheduling",
+      "definition": "User requests assistance with scheduling appointments or reservations."
+    },
+    {
+      "id": 20,
+      "name": "Educational Inquiry",
+      "definition": "User seeks information related to education or learning."
+    },
+    {
+      "id": 21,
+      "name": "Utility Bill Payment",
+      "definition": "User needs help with paying utility bills or expenses."
+    },
+    {
+      "id": 22,
+      "name": "Shopping Assistance",
+      "definition": "User requests help with shopping or product recommendations."
+    },
+    {
+      "id": 23,
+      "name": "Weather Inquiry",
+      "definition": "User asks about current or forecasted weather conditions."
+    },
+    {
+      "id": 24,
+      "name": "Calendar Management",
+      "definition": "User requests actions related to calendar events or schedules."
+    },
+    {
+      "id": 25,
+      "name": "Personal Finance Inquiry",
+      "definition": "User seeks information related to personal finances or accounts."
+    },
+    {
+      "id": 26,
+      "name": "Social Media Interaction",
+      "definition": "User requests actions related to social media platforms."
+    },
+    {
+      "id": 27,
+      "name": "Coin Flip",
+      "definition": "User asks for a random decision to be made through a coin flip."
+    },
+    {
+      "id": 28,
+      "name": "General Assistance",
+      "definition": "User seeks general assistance or information."
+    },
+    {
+      "id": 29,
+      "name": "Miscellaneous",
+      "definition": "Uncategorized requests or inquiries."
+    }
+  ]
+}

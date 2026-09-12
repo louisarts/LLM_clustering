@@ -1,0 +1,110 @@
+{
+  "bench": "fewnerd",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 2,
+      "name": "Organization",
+      "definition": "A group of people organized for a particular purpose."
+    },
+    {
+      "id": 3,
+      "name": "Location",
+      "definition": "A specific place or position."
+    },
+    {
+      "id": 4,
+      "name": "Event",
+      "definition": "A significant occurrence or happening."
+    },
+    {
+      "id": 5,
+      "name": "Film",
+      "definition": "A motion picture or movie."
+    },
+    {
+      "id": 6,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages bound together."
+    },
+    {
+      "id": 7,
+      "name": "Award",
+      "definition": "A prize or recognition given for achievement."
+    },
+    {
+      "id": 8,
+      "name": "Sport",
+      "definition": "An activity involving physical exertion and skill."
+    },
+    {
+      "id": 9,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 10,
+      "name": "Political Party",
+      "definition": "An organized group of people with similar political aims and opinions."
+    },
+    {
+      "id": 11,
+      "name": "Scientific Concept",
+      "definition": "A principle or idea that is based on scientific understanding."
+    },
+    {
+      "id": 12,
+      "name": "Historical Figure",
+      "definition": "A person who has had a significant impact on history."
+    },
+    {
+      "id": 13,
+      "name": "Geographical Feature",
+      "definition": "A natural feature of the Earth's surface."
+    },
+    {
+      "id": 14,
+      "name": "Theater",
+      "definition": "A building or outdoor area where plays and other performances are presented."
+    },
+    {
+      "id": 15,
+      "name": "University",
+      "definition": "An institution of higher education and research."
+    },
+    {
+      "id": 16,
+      "name": "Television Show",
+      "definition": "A program broadcast on television."
+    },
+    {
+      "id": 17,
+      "name": "Musical Work",
+      "definition": "A composition or performance of music."
+    },
+    {
+      "id": 18,
+      "name": "Dietary Supplement",
+      "definition": "A product taken orally that contains dietary ingredients."
+    },
+    {
+      "id": 19,
+      "name": "Technology",
+      "definition": "The application of scientific knowledge for practical purposes."
+    },
+    {
+      "id": 20,
+      "name": "Cultural Concept",
+      "definition": "An idea or practice that is characteristic of a particular culture."
+    }
+  ]
+}

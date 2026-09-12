@@ -1,0 +1,87 @@
+{
+  "bench": "reddit_s2s",
+  "run": 6,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "definition": "Discussions, news, and advice related to computers, software, smartphones, gadgets, and general electronics."
+    },
+    {
+      "id": 2,
+      "name": "Science",
+      "definition": "Topics related to chemistry, biology, physics, astronomy, space exploration, and scientific research."
+    },
+    {
+      "id": 3,
+      "name": "Hobbies & Crafts",
+      "definition": "Activities and interests such as cycling, airsoft, photography, DIY projects, collectibles, and ham radio."
+    },
+    {
+      "id": 4,
+      "name": "Pop Culture & Media",
+      "definition": "Discussions about movies, TV shows, anime, manga, comics, music, books (fiction), and general entertainment."
+    },
+    {
+      "id": 5,
+      "name": "News & Current Events",
+      "definition": "Reporting and discussion of recent events, politics, social issues, and international affairs."
+    },
+    {
+      "id": 6,
+      "name": "Local Community",
+      "definition": "Information, events, and discussions specific to a particular city or region."
+    },
+    {
+      "id": 7,
+      "name": "Advice & Personal Support",
+      "definition": "Requests for guidance on personal matters, relationships, career, self-improvement, and expressions of personal experiences."
+    },
+    {
+      "id": 8,
+      "name": "Automotive",
+      "definition": "Discussions, news, and advice related to cars, trucks, motorcycles, and other vehicles."
+    },
+    {
+      "id": 9,
+      "name": "Food & Drink",
+      "definition": "Topics related to cooking, recipes, restaurants, specific food items, and beverages."
+    },
+    {
+      "id": 10,
+      "name": "Animals & Pets",
+      "definition": "Discussions, news, and stories about domestic animals, wildlife, and animal welfare."
+    },
+    {
+      "id": 11,
+      "name": "Business & Marketing",
+      "definition": "Topics related to commerce, advertising, entrepreneurship, e-commerce, and professional finance."
+    },
+    {
+      "id": 12,
+      "name": "Travel & Aviation",
+      "definition": "Discussions about travel destinations, experiences, aviation, and related logistics."
+    },
+    {
+      "id": 13,
+      "name": "Religion & Spirituality",
+      "definition": "Discussions about religious beliefs, practices, astrology, and spiritual topics."
+    },
+    {
+      "id": 14,
+      "name": "Art & Design",
+      "definition": "Creation, appreciation, and discussion of visual arts, architecture, and graphic design as creative fields."
+    },
+    {
+      "id": 15,
+      "name": "Education & Career",
+      "definition": "Topics related to schooling, academic pursuits, job market, and professional development."
+    },
+    {
+      "id": 16,
+      "name": "Spam",
+      "definition": "Unsolicited commercial content, adult content, or irrelevant foreign language posts."
+    }
+  ]
+}

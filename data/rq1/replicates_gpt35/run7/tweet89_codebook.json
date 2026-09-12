@@ -1,0 +1,60 @@
+{
+  "bench": "tweet89",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets related to commercials aired during the Super Bowl"
+    },
+    {
+      "id": 2,
+      "name": "Healthcare Reform Law",
+      "definition": "Tweets discussing the judge's ruling on the healthcare reform law"
+    },
+    {
+      "id": 3,
+      "name": "Acai Berry Diet",
+      "definition": "Tweets related to the acai berry diet and its effects"
+    },
+    {
+      "id": 4,
+      "name": "Sundance Film Festival",
+      "definition": "Tweets about events, celebrities, and films at the Sundance Film Festival"
+    },
+    {
+      "id": 5,
+      "name": "Moscow Airport Attack",
+      "definition": "Tweets about the terrorist attack at Moscow airport"
+    },
+    {
+      "id": 6,
+      "name": "Texting and Driving",
+      "definition": "Tweets warning against or discussing the dangers of texting and driving"
+    },
+    {
+      "id": 7,
+      "name": "National Anthem Flub",
+      "definition": "Tweets about Christina Aguilera's flubbing of the national anthem at the Super Bowl"
+    },
+    {
+      "id": 8,
+      "name": "Yemen Protests",
+      "definition": "Tweets about protests and political unrest in Yemen"
+    },
+    {
+      "id": 9,
+      "name": "TSA Lawsuit",
+      "definition": "Tweets discussing lawsuits against the TSA and airport security measures"
+    },
+    {
+      "id": 10,
+      "name": "Oscar Nominations",
+      "definition": "Tweets about the Academy Award nominations and nominees"
+    }
+  ]
+}

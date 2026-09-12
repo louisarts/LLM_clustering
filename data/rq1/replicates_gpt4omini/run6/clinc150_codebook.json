@@ -1,0 +1,100 @@
+{
+  "bench": "clinc150",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Request",
+      "definition": "Requests for information or clarification on various topics."
+    },
+    {
+      "id": 2,
+      "name": "Account Management",
+      "definition": "Commands related to managing bank or credit accounts."
+    },
+    {
+      "id": 3,
+      "name": "Travel Arrangements",
+      "definition": "Requests for booking or inquiring about travel-related services."
+    },
+    {
+      "id": 4,
+      "name": "Food and Cooking",
+      "definition": "Commands related to food preparation, recipes, and nutritional information."
+    },
+    {
+      "id": 5,
+      "name": "Task Management",
+      "definition": "Commands for managing to-do lists, reminders, and appointments."
+    },
+    {
+      "id": 6,
+      "name": "Technical Assistance",
+      "definition": "Requests for help with technology, devices, or software."
+    },
+    {
+      "id": 7,
+      "name": "Health and Safety",
+      "definition": "Inquiries related to health, safety, and medical advice."
+    },
+    {
+      "id": 8,
+      "name": "Fraud and Security",
+      "definition": "Requests to report or inquire about fraudulent activities or security issues."
+    },
+    {
+      "id": 9,
+      "name": "Language and Communication",
+      "definition": "Commands related to language translation or communication preferences."
+    },
+    {
+      "id": 10,
+      "name": "Entertainment and Leisure",
+      "definition": "Requests for entertainment options, such as music, movies, or games."
+    },
+    {
+      "id": 11,
+      "name": "Personalization",
+      "definition": "Commands to customize or change personal settings or preferences."
+    },
+    {
+      "id": 12,
+      "name": "Financial Inquiry",
+      "definition": "Requests for information regarding financial status, transactions, or budgeting."
+    },
+    {
+      "id": 13,
+      "name": "Emergency Assistance",
+      "definition": "Requests for urgent help or assistance in critical situations."
+    },
+    {
+      "id": 14,
+      "name": "Product Orders",
+      "definition": "Commands to order products or services."
+    },
+    {
+      "id": 15,
+      "name": "Calendar Management",
+      "definition": "Commands related to managing calendar events and scheduling."
+    },
+    {
+      "id": 16,
+      "name": "Social Interaction",
+      "definition": "Requests for social engagement or casual conversation."
+    },
+    {
+      "id": 17,
+      "name": "Learning and Education",
+      "definition": "Requests for educational content or explanations on various subjects."
+    },
+    {
+      "id": 18,
+      "name": "Miscellaneous",
+      "definition": "Commands that do not fit into other specific categories."
+    }
+  ]
+}

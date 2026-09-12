@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics",
+      "definition": "Articles covering political events, elections, and government actions."
+    },
+    {
+      "id": 2,
+      "name": "Economy",
+      "definition": "Articles discussing economic conditions, forecasts, and financial markets."
+    },
+    {
+      "id": 3,
+      "name": "Entertainment",
+      "definition": "Articles related to movies, music, television, and celebrity news."
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "definition": "Articles covering sports events, athletes, and related controversies."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "Articles discussing advancements in technology, software, and internet trends."
+    },
+    {
+      "id": 6,
+      "name": "Health",
+      "definition": "Articles related to health issues, medical advancements, and public health policies."
+    },
+    {
+      "id": 7,
+      "name": "Environment",
+      "definition": "Articles discussing environmental issues, climate change, and sustainability."
+    },
+    {
+      "id": 8,
+      "name": "International Affairs",
+      "definition": "Articles covering global events, international relations, and conflicts."
+    },
+    {
+      "id": 9,
+      "name": "Crime and Law",
+      "definition": "Articles related to criminal cases, legal issues, and law enforcement."
+    },
+    {
+      "id": 10,
+      "name": "Social Issues",
+      "definition": "Articles discussing societal challenges, movements, and cultural topics."
+    },
+    {
+      "id": 11,
+      "name": "Business",
+      "definition": "Articles covering corporate news, market trends, and business strategies."
+    },
+    {
+      "id": 12,
+      "name": "Education",
+      "definition": "Articles related to educational policies, institutions, and reforms."
+    },
+    {
+      "id": 13,
+      "name": "Travel",
+      "definition": "Articles discussing travel destinations, tourism trends, and travel advisories."
+    },
+    {
+      "id": 14,
+      "name": "Science",
+      "definition": "Articles covering scientific discoveries, research, and innovations."
+    },
+    {
+      "id": 15,
+      "name": "Finance",
+      "definition": "Articles discussing personal finance, investments, and banking."
+    }
+  ]
+}

@@ -1,0 +1,757 @@
+[
+ {
+  "id": 1,
+  "name": "CheckTransactionFees",
+  "definition": "Inquire about transaction fees associated with using a specific card in a particular location."
+ },
+ {
+  "id": 2,
+  "name": "GetCreditCardDetails",
+  "definition": "Request information about a credit card, such as processing time for a new card."
+ },
+ {
+  "id": 3,
+  "name": "GetMilkExpiration",
+  "definition": "Ask for the shelf life of milk in a refrigerator."
+ },
+ {
+  "id": 4,
+  "name": "GetPaycheckDate",
+  "definition": "Inquire about the date of the next paycheck."
+ },
+ {
+  "id": 5,
+  "name": "GetVoiceSettings",
+  "definition": "Request to change the voice of the assistant."
+ },
+ {
+  "id": 6,
+  "name": "GetBusinessCardCost",
+  "definition": "Ask for the price of printing a business card."
+ },
+ {
+  "id": 7,
+  "name": "SubstituteIngredient",
+  "definition": "Ask if a specific ingredient can be substituted for another in a recipe."
+ },
+ {
+  "id": 8,
+  "name": "CheckCardSecurity",
+  "definition": "Inquire about the security features of different bank vaults."
+ },
+ {
+  "id": 9,
+  "name": "GetSpendingSummary",
+  "definition": "Request a summary of spending for a specific time period."
+ },
+ {
+  "id": 10,
+  "name": "GetCarFuelType",
+  "definition": "Ask what type of fuel a vehicle uses."
+ },
+ {
+  "id": 11,
+  "name": "GetMapLocation",
+  "definition": "Request the current location on a map."
+ },
+ {
+  "id": 12,
+  "name": "GetSpeed",
+  "definition": "Ask for the current speed of a vehicle."
+ },
+ {
+  "id": 13,
+  "name": "GetBitcoinDefinition",
+  "definition": "Request a definition of Bitcoin."
+ },
+ {
+  "id": 14,
+  "name": "GetColor",
+  "definition": "Ask for the color of an object."
+ },
+ {
+  "id": 15,
+  "name": "GetDate",
+  "definition": "Request the current date."
+ },
+ {
+  "id": 16,
+  "name": "GetCardDeclineReason",
+  "definition": "Inquire about the reason for a declined credit card transaction."
+ },
+ {
+  "id": 17,
+  "name": "CheckCreditScore",
+  "definition": "Request a check of one's credit score."
+ },
+ {
+  "id": 18,
+  "name": "PayBill",
+  "definition": "Request to pay a specific bill, such as a utility bill."
+ },
+ {
+  "id": 19,
+  "name": "ExpressUncertainty",
+  "definition": "Indicate a lack of knowledge or certainty."
+ },
+ {
+  "id": 20,
+  "name": "OrderCheckbooks",
+  "definition": "Requesting additional checkbooks."
+ },
+ {
+  "id": 21,
+  "name": "SetVolume",
+  "definition": "Adjusting the volume level."
+ },
+ {
+  "id": 22,
+  "name": "CallUsingPhone",
+  "definition": "Initiating a phone call using the device's phone functionality."
+ },
+ {
+  "id": 23,
+  "name": "OutfitRecommendation",
+  "definition": "Seeking suggestions for an appropriate outfit."
+ },
+ {
+  "id": 24,
+  "name": "EstimateWaitTime",
+  "definition": "Inquiring about the estimated waiting time at a specific location."
+ },
+ {
+  "id": 25,
+  "name": "IdentifySong",
+  "definition": "Requesting the title of a currently playing song."
+ },
+ {
+  "id": 26,
+  "name": "TransferFunds",
+  "definition": "Requesting assistance with transferring money between accounts."
+ },
+ {
+  "id": 27,
+  "name": "ResolveCardDecline",
+  "definition": "Seeking help in addressing a declined card transaction."
+ },
+ {
+  "id": 28,
+  "name": "StainRemoval",
+  "definition": "Asking for advice on removing a stain."
+ },
+ {
+  "id": 29,
+  "name": "CheckMeetingRoomAvailability",
+  "definition": "Inquiring about the availability of meeting rooms during a specific time frame."
+ },
+ {
+  "id": 30,
+  "name": "CookingInstructions",
+  "definition": "Requesting guidance on how to cook a particular dish."
+ },
+ {
+  "id": 31,
+  "name": "ConfirmCalendarEvent",
+  "definition": "Verifying the presence of a specific event on a calendar."
+ },
+ {
+  "id": 32,
+  "name": "TireReplacementAdvice",
+  "definition": "Seeking advice on whether tires need to be replaced based on their age."
+ },
+ {
+  "id": 33,
+  "name": "CheckIncome",
+  "definition": "Requesting information about one's earnings."
+ },
+ {
+  "id": 34,
+  "name": "NatureOfAssistant",
+  "definition": "Inquiring about the nature of the assistant (human or computer)."
+ },
+ {
+  "id": 35,
+  "name": "TravelAdapterRequirement",
+  "definition": "Asking if a plug converter is needed for a specific destination."
+ },
+ {
+  "id": 36,
+  "name": "ViewTransactions",
+  "definition": "Requesting to see a list of recent transactions."
+ },
+ {
+  "id": 37,
+  "name": "RecipeRequest",
+  "definition": "Seeking recipes for a specific ingredient or dish."
+ },
+ {
+  "id": 38,
+  "name": "SetOvenTemperature",
+  "definition": "Setting the temperature of an oven."
+ },
+ {
+  "id": 39,
+  "name": "OriginOfAssistant",
+  "definition": "Asking about the origin or development of the assistant."
+ },
+ {
+  "id": 40,
+  "name": "FindGames",
+  "definition": "The user wants recommendations for games on a specific platform (e.g., Android)."
+ },
+ {
+  "id": 41,
+  "name": "IncreaseCreditLimit",
+  "definition": "The user wants to know how to increase their credit limit on a specific card."
+ },
+ {
+  "id": 42,
+  "name": "SetVoiceGender",
+  "definition": "The user wants to change the assistant's voice to male or female."
+ },
+ {
+  "id": 43,
+  "name": "ResetSettings",
+  "definition": "The user wants the assistant to revert to its default settings."
+ },
+ {
+  "id": 44,
+  "name": "FindTravelAdapter",
+  "definition": "The user wants to know which type of plug adapter is needed for a specific country."
+ },
+ {
+  "id": 45,
+  "name": "CheckForeignTransactionFees",
+  "definition": "The user wants to know if using a specific card in a foreign country will incur transaction fees."
+ },
+ {
+  "id": 46,
+  "name": "GetFuelEconomy",
+  "definition": "The user wants to know the fuel efficiency of a specific car."
+ },
+ {
+  "id": 47,
+  "name": "GetNutritionInfo",
+  "definition": "The user wants nutritional information about a specific food item."
+ },
+ {
+  "id": 48,
+  "name": "CheckCardExpiration",
+  "definition": "The user wants to know when their credit card will expire."
+ },
+ {
+  "id": 49,
+  "name": "MakePhoneCall",
+  "definition": "The user wants the assistant to make a phone call to a specific person."
+ },
+ {
+  "id": 50,
+  "name": "ViewReminders",
+  "definition": "The user wants to see their list of reminders."
+ },
+ {
+  "id": 51,
+  "name": "ExplainMathematicalConcept",
+  "definition": "The user wants an explanation of a mathematical concept."
+ },
+ {
+  "id": 52,
+  "name": "ViewRecentTransactions",
+  "definition": "The user wants to see their recent transactions from a specific account."
+ },
+ {
+  "id": 53,
+  "name": "GetCPRInstructions",
+  "definition": "The user wants instructions on how to perform CPR."
+ },
+ {
+  "id": 54,
+  "name": "CheckPTOBalance",
+  "definition": "The user wants to know their remaining paid time off (PTO) days."
+ },
+ {
+  "id": 55,
+  "name": "GetDebtReductionAdvice",
+  "definition": "The user wants advice on how to reduce their debt."
+ },
+ {
+  "id": 56,
+  "name": "CalculateMathProblem",
+  "definition": "The user wants the assistant to solve a simple math problem."
+ },
+ {
+  "id": 57,
+  "name": "DiscussMeaningOfLife",
+  "definition": "The user wants to engage in a philosophical discussion about the meaning of life."
+ },
+ {
+  "id": 58,
+  "name": "GetCDInterestRate",
+  "definition": "Requesting the interest rate on a Certificate of Deposit (CD) from a specific bank."
+ },
+ {
+  "id": 59,
+  "name": "GetStateTaxInformation",
+  "definition": "Asking for details about state taxes, such as rates or filing requirements."
+ },
+ {
+  "id": 60,
+  "name": "RenameAssistant",
+  "definition": "Requesting to change the name of the assistant."
+ },
+ {
+  "id": 61,
+  "name": "GetProductPrice",
+  "definition": "Inquiring about the price of a specific product."
+ },
+ {
+  "id": 62,
+  "name": "TransferFundsBetweenAccounts",
+  "definition": "Requesting a transfer of funds between two bank accounts."
+ },
+ {
+  "id": 63,
+  "name": "GetJobAdvancementTips",
+  "definition": "Seeking advice or information on how to improve job prospects or advance in a career."
+ },
+ {
+  "id": 64,
+  "name": "GetTravelVaccinationRequirements",
+  "definition": "Asking for information about necessary vaccinations for a specific travel destination."
+ },
+ {
+  "id": 65,
+  "name": "GetLocalWaterQuality",
+  "definition": "Requesting information about the quality of local water, such as particulate matter levels."
+ },
+ {
+  "id": 66,
+  "name": "GetAssistantAge",
+  "definition": "Asking for the age or creation date of the assistant."
+ },
+ {
+  "id": 67,
+  "name": "GetFunFact",
+  "definition": "Requesting a random or interesting fact."
+ },
+ {
+  "id": 68,
+  "name": "UnsyncFromPhone",
+  "definition": "Requesting to disconnect the assistant from the user's phone."
+ },
+ {
+  "id": 69,
+  "name": "GetAirlineCarryOnPolicy",
+  "definition": "Asking for the rules and regulations regarding carry-on luggage for a specific airline."
+ },
+ {
+  "id": 70,
+  "name": "RecallReminder",
+  "definition": "Requesting the assistant to remind the user of a previously set reminder."
+ },
+ {
+  "id": 71,
+  "name": "GetIncomeAmount",
+  "definition": "Asking for the user's current income amount."
+ },
+ {
+  "id": 72,
+  "name": "GetTimeOffWaitPeriod",
+  "definition": "Requesting information about the waiting period before the next day off."
+ },
+ {
+  "id": 73,
+  "name": "GetRestaurantRecommendation",
+  "definition": "Asking for a suggestion for a restaurant of a specific cuisine."
+ },
+ {
+  "id": 74,
+  "name": "ViewCalendarEvent",
+  "definition": "Requesting to see details about a specific event on the user's calendar."
+ },
+ {
+  "id": 75,
+  "name": "PlayReminders",
+  "definition": "Asking the assistant to play a list of saved reminders."
+ },
+ {
+  "id": 76,
+  "name": "GetMakeupApplicationTips",
+  "definition": "Seeking advice or information on how to apply makeup, such as foundation."
+ },
+ {
+  "id": 77,
+  "name": "GetPaymentAmount",
+  "definition": "Asking about the amount of a payment, such as a bill or salary."
+ },
+ {
+  "id": 78,
+  "name": "GetTravelAdapterType",
+  "definition": "Inquiring about the type of travel adapter needed for a specific destination."
+ },
+ {
+  "id": 79,
+  "name": "ConvertUnits",
+  "definition": "Requesting a conversion between units of measurement, such as kilos to pounds."
+ },
+ {
+  "id": 80,
+  "name": "CheckAPR",
+  "definition": "Inquiring about the Annual Percentage Rate (APR) on a credit card or loan."
+ },
+ {
+  "id": 81,
+  "name": "CheckBusinessHours",
+  "definition": "Inquiring about the operating hours of a business, such as a restaurant."
+ },
+ {
+  "id": 82,
+  "name": "RequestVacationTime",
+  "definition": "Asking to set up a vacation request."
+ },
+ {
+  "id": 83,
+  "name": "CheckRemainingVacationDays",
+  "definition": "Asking about the number of vacation days remaining."
+ },
+ {
+  "id": 84,
+  "name": "GetWaterPurificationMethod",
+  "definition": "Asking about how pollutants are removed from bottled water."
+ },
+ {
+  "id": 85,
+  "name": "BookRentalCar",
+  "definition": "Requesting a car rental for a specific period and location."
+ },
+ {
+  "id": 86,
+  "name": "SpellWord",
+  "definition": "Asking for the spelling of a word."
+ },
+ {
+  "id": 87,
+  "name": "CheckCarryOnRestrictions",
+  "definition": "Inquiring about restrictions on bringing items in a carry-on bag."
+ },
+ {
+  "id": 88,
+  "name": "GetCleaningInstructions",
+  "definition": "Asking for advice on how to clean a specific item or surface."
+ },
+ {
+  "id": 89,
+  "name": "GetWeatherForecast",
+  "definition": "Requesting the weather forecast for a specific location."
+ },
+ {
+  "id": 90,
+  "name": "GetMicrobeControlMethod",
+  "definition": "Asking about methods for killing microbes."
+ },
+ {
+  "id": 91,
+  "name": "ListCapabilities",
+  "definition": "Asking about the assistant's capabilities."
+ },
+ {
+  "id": 92,
+  "name": "Get401kTransferAdvice",
+  "definition": "Seeking advice on transferring a 401k account."
+ },
+ {
+  "id": 93,
+  "name": "GetToDoList",
+  "definition": "Requesting to see the user's to-do list for the current day."
+ },
+ {
+  "id": 94,
+  "name": "CheckFlightStatus",
+  "definition": "Asking for the current status of a specific flight."
+ },
+ {
+  "id": 95,
+  "name": "SetNickname",
+  "definition": "Instructing the assistant to use a specific nickname when addressing the user."
+ },
+ {
+  "id": 96,
+  "name": "TranslatePhrase",
+  "definition": "Requesting a translation of a phrase into another language."
+ },
+ {
+  "id": 97,
+  "name": "ExplainSlang",
+  "definition": "Asking for the meaning of a slang term or phrase."
+ },
+ {
+  "id": 98,
+  "name": "DescribeSelf",
+  "definition": "Asking the assistant to describe its nature (e.g., computer vs. human)."
+ },
+ {
+  "id": 99,
+  "name": "DisputeTransaction",
+  "definition": "Reporting a potentially fraudulent or incorrect transaction."
+ },
+ {
+  "id": 100,
+  "name": "SimulateAction",
+  "definition": "Requesting the assistant to simulate a physical action."
+ },
+ {
+  "id": 101,
+  "name": "GetLocation",
+  "definition": "Asking for the user's current location."
+ },
+ {
+  "id": 102,
+  "name": "GetTrivia",
+  "definition": "Requesting a trivia question on a specific topic."
+ },
+ {
+  "id": 103,
+  "name": "FindParking",
+  "definition": "Asking for information about nearby parking locations."
+ },
+ {
+  "id": 104,
+  "name": "GetTimeZone",
+  "definition": "Requesting the time zone for a specific location."
+ },
+ {
+  "id": 105,
+  "name": "AdjustSpeechRate",
+  "definition": "Requesting the assistant to speak at a slower pace."
+ },
+ {
+  "id": 106,
+  "name": "ConfirmAction",
+  "definition": "Seeking confirmation or agreement before proceeding with an action."
+ },
+ {
+  "id": 107,
+  "name": "GetStarRating",
+  "definition": "Asking for the star rating of a specific business or entity."
+ },
+ {
+  "id": 108,
+  "name": "FillCreditCardDetails",
+  "definition": "Requesting the assistant to fill in credit card details on a form."
+ },
+ {
+  "id": 109,
+  "name": "RecommendRestaurant",
+  "definition": "Asking for a recommendation for a restaurant of a specific cuisine."
+ },
+ {
+  "id": 110,
+  "name": "FindCuisine",
+  "definition": "Requesting information about restaurants serving a specific type of cuisine."
+ },
+ {
+  "id": 111,
+  "name": "GetBankProcedure",
+  "definition": "Asking for information about a specific procedure at a bank."
+ },
+ {
+  "id": 112,
+  "name": "GetSportsScore",
+  "definition": "Asking for the result of a recent sporting event."
+ },
+ {
+  "id": 113,
+  "name": "CheckRecentPurchases",
+  "definition": "Retrieving information about past purchases, specifically fast food in this case."
+ },
+ {
+  "id": 114,
+  "name": "BankLogout",
+  "definition": "Signing out of a user's bank account."
+ },
+ {
+  "id": 115,
+  "name": "PlayMusicPlaylist",
+  "definition": "Playing a specific music playlist."
+ },
+ {
+  "id": 116,
+  "name": "BookAccommodation",
+  "definition": "Making a reservation for a place to stay."
+ },
+ {
+  "id": 117,
+  "name": "RecallPersonalGoal",
+  "definition": "Retrieving a user-defined personal goal."
+ },
+ {
+  "id": 118,
+  "name": "CheckToDoList",
+  "definition": "Verifying if a specific task is on the user's to-do list."
+ },
+ {
+  "id": 119,
+  "name": "CheckCalendarEvent",
+  "definition": "Confirming the existence of a specific event on the user's calendar."
+ },
+ {
+  "id": 120,
+  "name": "GetHomeConservationTips",
+  "definition": "Requesting advice on energy-saving practices at home."
+ },
+ {
+  "id": 121,
+  "name": "CheckTirePressure",
+  "definition": "Retrieving the current tire pressure of a vehicle."
+ },
+ {
+  "id": 122,
+  "name": "RecallPastService",
+  "definition": "Remembering the date of a past service performed on a vehicle."
+ },
+ {
+  "id": 123,
+  "name": "FindBestDeals",
+  "definition": "Locating stores with the most attractive deals."
+ },
+ {
+  "id": 124,
+  "name": "Transfer401k",
+  "definition": "Getting information on transferring a 401k to a new provider."
+ },
+ {
+  "id": 125,
+  "name": "ChangeLanguage",
+  "definition": "Requesting the assistant to switch to a different language."
+ },
+ {
+  "id": 126,
+  "name": "ShareLocation",
+  "definition": "Sharing the user's current location with specific individuals."
+ },
+ {
+  "id": 127,
+  "name": "TellStory",
+  "definition": "Requesting the assistant to tell a story, in this case, a scary one."
+ },
+ {
+  "id": 128,
+  "name": "AddAccountMember",
+  "definition": "Adding another person to a user's account."
+ },
+ {
+  "id": 129,
+  "name": "CheckAssistantWellbeing",
+  "definition": "Inquiring about the assistant's status or well-being."
+ },
+ {
+  "id": 130,
+  "name": "SetDirectDeposit",
+  "definition": "Getting instructions on how to set up direct deposit."
+ },
+ {
+  "id": 131,
+  "name": "GetMeetingTime",
+  "definition": "Requesting the time of a scheduled meeting."
+ },
+ {
+  "id": 132,
+  "name": "CurrencyConversion",
+  "definition": "Asking for the exchange rate between two currencies."
+ },
+ {
+  "id": 133,
+  "name": "GetTravelAlerts",
+  "definition": "Inquiring about travel advisories for specific countries."
+ },
+ {
+  "id": 134,
+  "name": "ControlDevice",
+  "definition": "Giving a command to control a physical device (e.g., power on/off)."
+ },
+ {
+  "id": 135,
+  "name": "SetAlarm",
+  "definition": "Requesting the assistant to set an alarm for a specific time."
+ },
+ {
+  "id": 136,
+  "name": "PhilosophicalQuestion",
+  "definition": "Asking a question about abstract concepts or life's meaning."
+ },
+ {
+  "id": 137,
+  "name": "SimulateDiceRoll",
+  "definition": "Requesting the assistant to simulate a random dice roll."
+ },
+ {
+  "id": 138,
+  "name": "UnsyncDevice",
+  "definition": "Requesting to disconnect a device from the assistant's service."
+ },
+ {
+  "id": 139,
+  "name": "RequestPTO",
+  "definition": "Requesting time off work."
+ },
+ {
+  "id": 140,
+  "name": "CreditCardDelivery",
+  "definition": "Inquiring about the process of expedited credit card delivery."
+ },
+ {
+  "id": 141,
+  "name": "GetDIYInstructions",
+  "definition": "Requesting instructions on how to perform a DIY task."
+ },
+ {
+  "id": 142,
+  "name": "AddChore",
+  "definition": "Adding a task to a to-do list or chore list."
+ },
+ {
+  "id": 143,
+  "name": "GetEssayLength",
+  "definition": "Asking for guidance on the appropriate length of an essay."
+ },
+ {
+  "id": 144,
+  "name": "ReportLostCard",
+  "definition": "Informing the assistant about a lost card."
+ },
+ {
+  "id": 145,
+  "name": "GetVisaRequirement",
+  "definition": "Inquiring about visa requirements for a specific country."
+ },
+ {
+  "id": 146,
+  "name": "DeleteCalendarEvent",
+  "definition": "Requesting to remove a specific event from the calendar."
+ },
+ {
+  "id": 147,
+  "name": "GetBillDueDate",
+  "definition": "Asking for the due date of a specific bill."
+ },
+ {
+  "id": 148,
+  "name": "GetEarthquakeInformation",
+  "definition": "Requesting information about recent earthquakes."
+ },
+ {
+  "id": 149,
+  "name": "GetNewsHeadline",
+  "definition": "Asking for the latest news headline from a specific source."
+ },
+ {
+  "id": 150,
+  "name": "GetTimeInLocation",
+  "definition": "Requesting the current time in a specific location."
+ },
+ {
+  "id": 151,
+  "name": "InformBankOfTravel",
+  "definition": "Notifying the bank about upcoming travel plans."
+ }
+]

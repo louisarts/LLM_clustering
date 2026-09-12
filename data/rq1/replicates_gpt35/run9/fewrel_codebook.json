@@ -1,0 +1,110 @@
+{
+  "bench": "fewrel",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person - Occupation",
+      "definition": "The relation between a person and their occupation."
+    },
+    {
+      "id": 2,
+      "name": "TV Show - Season",
+      "definition": "The relation between a TV show and its season."
+    },
+    {
+      "id": 3,
+      "name": "Character - Movie/TV Show",
+      "definition": "The relation between a character and the movie/TV show they appear in."
+    },
+    {
+      "id": 4,
+      "name": "River - Tributary",
+      "definition": "The relation between a river and its tributary."
+    },
+    {
+      "id": 5,
+      "name": "Book - Author",
+      "definition": "The relation between a book and its author."
+    },
+    {
+      "id": 6,
+      "name": "Date - Event",
+      "definition": "The relation between a date and an event."
+    },
+    {
+      "id": 7,
+      "name": "Band - Music Genre",
+      "definition": "The relation between a band and the music genre they belong to."
+    },
+    {
+      "id": 8,
+      "name": "School - Location",
+      "definition": "The relation between a school and its location."
+    },
+    {
+      "id": 9,
+      "name": "Family Member - Family Member",
+      "definition": "The relation between two family members."
+    },
+    {
+      "id": 10,
+      "name": "Newspaper - Country",
+      "definition": "The relation between a newspaper and the country it is published in."
+    },
+    {
+      "id": 11,
+      "name": "Mountain - River",
+      "definition": "The relation between a mountain and a river."
+    },
+    {
+      "id": 12,
+      "name": "Actor - Movie",
+      "definition": "The relation between an actor and a movie they starred in."
+    },
+    {
+      "id": 13,
+      "name": "Military Person - Military Branch",
+      "definition": "The relation between a military person and the military branch they served in."
+    },
+    {
+      "id": 14,
+      "name": "Historical Event - Year",
+      "definition": "The relation between a historical event and the year it occurred."
+    },
+    {
+      "id": 15,
+      "name": "Artist - Artwork",
+      "definition": "The relation between an artist and an artwork they created."
+    },
+    {
+      "id": 16,
+      "name": "Airport - City",
+      "definition": "The relation between an airport and the city it serves."
+    },
+    {
+      "id": 17,
+      "name": "Politician - Political Party",
+      "definition": "The relation between a politician and the political party they belong to."
+    },
+    {
+      "id": 18,
+      "name": "Musician - Instrument",
+      "definition": "The relation between a musician and the instrument they play."
+    },
+    {
+      "id": 19,
+      "name": "University - Year",
+      "definition": "The relation between a university and the year it was founded."
+    },
+    {
+      "id": 20,
+      "name": "Country - Language",
+      "definition": "The relation between a country and the language spoken there."
+    }
+  ]
+}

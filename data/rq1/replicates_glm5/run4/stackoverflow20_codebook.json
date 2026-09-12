@@ -1,0 +1,109 @@
+{
+  "bench": "stackoverflow20",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Scala",
+      "definition": "Questions about the Scala programming language, its syntax, standard library, or specific frameworks like Lift."
+    },
+    {
+      "id": 2,
+      "name": "SharePoint",
+      "definition": "Questions regarding Microsoft SharePoint development, configuration, web parts, and integration."
+    },
+    {
+      "id": 3,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel usage, formulas, VBA macros, and automation."
+    },
+    {
+      "id": 4,
+      "name": "Drupal",
+      "definition": "Questions concerning the Drupal content management system, modules, theming, and API."
+    },
+    {
+      "id": 5,
+      "name": "Spring",
+      "definition": "Questions about the Spring Framework for Java, including configuration, MVC, and AOP."
+    },
+    {
+      "id": 6,
+      "name": "Cocoa",
+      "definition": "Questions about the Cocoa API and frameworks for macOS application development."
+    },
+    {
+      "id": 7,
+      "name": "Hibernate",
+      "definition": "Questions regarding the Hibernate ORM for Java, including mapping, caching, and queries."
+    },
+    {
+      "id": 8,
+      "name": "Qt",
+      "definition": "Questions about the Qt C++ framework for cross-platform application development."
+    },
+    {
+      "id": 9,
+      "name": "WordPress",
+      "definition": "Questions about the WordPress content management system, plugins, themes, and configuration."
+    },
+    {
+      "id": 10,
+      "name": "Apache",
+      "definition": "Questions regarding the Apache HTTP Server, including configuration, modules, and URL rewriting."
+    },
+    {
+      "id": 11,
+      "name": "Subversion",
+      "definition": "Questions about the Subversion version control system, including commands and hooks."
+    },
+    {
+      "id": 12,
+      "name": "Magento",
+      "definition": "Questions concerning the Magento e-commerce platform, including theming, modules, and configuration."
+    },
+    {
+      "id": 13,
+      "name": "Visual Studio",
+      "definition": "Questions about the Visual Studio IDE, including project setup, debugging, and tooling."
+    },
+    {
+      "id": 14,
+      "name": "Haskell",
+      "definition": "Questions about the Haskell programming language, syntax, and standard libraries."
+    },
+    {
+      "id": 15,
+      "name": "Oracle",
+      "definition": "Questions regarding Oracle database administration, SQL queries, and PL/SQL."
+    },
+    {
+      "id": 16,
+      "name": "MATLAB",
+      "definition": "Questions about the MATLAB numerical computing environment and programming language."
+    },
+    {
+      "id": 17,
+      "name": "Bash",
+      "definition": "Questions about the Bash shell, scripting, and command-line utilities in Unix/Linux."
+    },
+    {
+      "id": 18,
+      "name": "LINQ",
+      "definition": "Questions about Language Integrated Query in .NET for data querying."
+    },
+    {
+      "id": 19,
+      "name": "Ajax",
+      "definition": "Questions about Asynchronous JavaScript and XML techniques for web development."
+    },
+    {
+      "id": 20,
+      "name": "Mac OS X",
+      "definition": "Questions about macOS system administration, scripting, and OS-level features."
+    }
+  ]
+}

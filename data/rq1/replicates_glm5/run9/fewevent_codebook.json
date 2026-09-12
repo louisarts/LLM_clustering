@@ -1,0 +1,84 @@
+{
+  "bench": "fewevent",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Marriage",
+      "definition": "The act, state, or fact of being married, including weddings, spouses, and annulments."
+    },
+    {
+      "id": 2,
+      "name": "Military_Command",
+      "definition": "The exercise of authority or direction by a military officer over forces or operations."
+    },
+    {
+      "id": 3,
+      "name": "Sports_Medal",
+      "definition": "The act of winning or receiving a medal in a sporting competition, such as the Olympics."
+    },
+    {
+      "id": 4,
+      "name": "Occupation",
+      "definition": "A person's job, profession, or role, often indicated by titles like soldier, singer, or professor."
+    },
+    {
+      "id": 5,
+      "name": "Leadership_Position",
+      "definition": "A role involving the head of an organization, institution, or political body, such as president or leader."
+    },
+    {
+      "id": 6,
+      "name": "Artistic_Work",
+      "definition": "A creative product or performance, such as a film, book, song, or musical composition."
+    },
+    {
+      "id": 7,
+      "name": "Travel_Movement",
+      "definition": "The act of moving from one place to another, including traveling, coming, or leaving."
+    },
+    {
+      "id": 8,
+      "name": "Conflict_Violence",
+      "definition": "Physical confrontations, attacks, clashes, or violent acts between opposing forces or individuals."
+    },
+    {
+      "id": 9,
+      "name": "Business_Transaction",
+      "definition": "Commercial activities involving the exchange of goods, services, or money, such as buying, hiring, or signing."
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "Activities related to learning, teaching, or attending an educational institution."
+    },
+    {
+      "id": 11,
+      "name": "Competition_Victory",
+      "definition": "The act of winning or achieving victory in a contest or competition, excluding specific medal events."
+    },
+    {
+      "id": 12,
+      "name": "Communication",
+      "definition": "The act of conveying information through speech, writing, or broadcast."
+    },
+    {
+      "id": 13,
+      "name": "Government_Administration",
+      "definition": "Political acts, institutions, or policies, including the formation of governments and official statements."
+    },
+    {
+      "id": 14,
+      "name": "Personal_Life",
+      "definition": "Events concerning an individual's private life, such as residence, family relationships, or death."
+    },
+    {
+      "id": 15,
+      "name": "General_Action",
+      "definition": "Common actions or states not covered by other specific categories, such as working, living, or general activities."
+    }
+  ]
+}

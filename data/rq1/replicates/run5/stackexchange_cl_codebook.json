@@ -1,0 +1,97 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 5,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Software Development",
+      "definition": "Questions about programming languages, algorithms, software engineering, development tools, and general software creation."
+    },
+    {
+      "id": 2,
+      "name": "Web Development",
+      "definition": "Questions related to web technologies, frameworks, content management systems, e-commerce platforms, and web design."
+    },
+    {
+      "id": 3,
+      "name": "Information Technology",
+      "definition": "Questions about operating systems, networking, hardware, system administration, security, and enterprise software."
+    },
+    {
+      "id": 4,
+      "name": "Mathematics & Statistics",
+      "definition": "Questions about pure mathematics, applied mathematics, statistics, probability, and optimization."
+    },
+    {
+      "id": 5,
+      "name": "Physics & Astronomy",
+      "definition": "Questions about physics principles, astronomy, space exploration, and related scientific fields."
+    },
+    {
+      "id": 6,
+      "name": "Biology & Health",
+      "definition": "Questions about biological sciences, ecology, human health, nutrition, fitness, and veterinary topics."
+    },
+    {
+      "id": 7,
+      "name": "Language & Linguistics",
+      "definition": "Questions about specific natural languages, grammar, vocabulary, etymology, translation, and general linguistic concepts."
+    },
+    {
+      "id": 8,
+      "name": "History & Social Sciences",
+      "definition": "Questions about historical events, archaeology, political science, economics, sociology, and philosophy."
+    },
+    {
+      "id": 9,
+      "name": "Life & Personal Skills",
+      "definition": "Questions about interpersonal relationships, workplace issues, parenting, etiquette, personal finance, and career advice."
+    },
+    {
+      "id": 10,
+      "name": "Home & Garden",
+      "definition": "Questions about home improvement, DIY projects, gardening, cooking, food safety, and pet care."
+    },
+    {
+      "id": 11,
+      "name": "Travel & Outdoors",
+      "definition": "Questions about travel, public transport, outdoor activities, wilderness survival, and non-competitive sports."
+    },
+    {
+      "id": 12,
+      "name": "Gaming",
+      "definition": "Questions about video games, role-playing games, board games, and game design."
+    },
+    {
+      "id": 13,
+      "name": "Arts & Design",
+      "definition": "Questions about graphic design, typography, photography, video editing, creative writing, literature, and music."
+    },
+    {
+      "id": 14,
+      "name": "Law & Government",
+      "definition": "Questions about legal matters, patents, immigration, government policies, and regulations."
+    },
+    {
+      "id": 15,
+      "name": "Religion & Spirituality",
+      "definition": "Questions about specific religions, mythology, theology, and spiritual practices."
+    },
+    {
+      "id": 16,
+      "name": "Blockchain & Cryptocurrency",
+      "definition": "Questions about blockchain technology, cryptocurrencies, smart contracts, and related digital assets."
+    },
+    {
+      "id": 17,
+      "name": "User Experience & Design",
+      "definition": "Questions about user interface, user experience, usability, and interaction design principles."
+    },
+    {
+      "id": 18,
+      "name": "Stack Exchange Meta",
+      "definition": "Questions specifically about the Stack Exchange network, its sites, policies, or features."
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+ "9": [
+  "Application of the Hamilton-Jacobi theory to solve non-linear partial differential equations in classical mechanics.",
+  "Inverse scattering transform methods for solving the Korteweg-de Vries equation in dispersive wave systems.",
+  "Spectral analysis of Schr\u00f6dinger operators on L2 spaces to determine bound states in quantum systems.",
+  "Stability analysis of soliton solutions in non-linear field theories using variational methods.",
+  "Reconstruction algorithms for inverse boundary value problems using Tikhonov regularization techniques."
+ ],
+ "6": [
+  "Direct numerical simulation of isotropic turbulence reveals scaling laws for the energy cascade in high Reynolds number flows.",
+  "Aerodynamic optimization of airfoil geometry significantly reduces drag coefficients at transonic Mach numbers.",
+  "Magnetohydrodynamic simulations model the stability of plasma confinement in toroidal fusion reactors.",
+  "Experimental analysis of boundary layer transition identifies key mechanisms for turbulent spot formation on flat plates.",
+  "Nonlinear dynamics of drift-wave turbulence are investigated in the context of anomalous transport in magnetized plasmas."
+ ],
+ "10": [
+  "We present a novel proof regarding the classification of finite simple groups and their associated representation theory.",
+  "This paper explores the intersection of algebraic geometry and number theory through the study of elliptic curves over global fields.",
+  "New bounds are established for the distribution of prime gaps utilizing methods derived from analytic number theory.",
+  "The study examines the structural properties of Galois groups in the context of field extensions and solvability by radicals.",
+  "We investigate the cohomology of algebraic varieties to determine invariants under specific birational transformations."
+ ],
+ "1": [
+  "We compute the two-loop correction to the anomalous magnetic moment in N=4 supersymmetric Yang-Mills theory.",
+  "A new AdS/CFT correspondence is proposed for a specific non-conformal field theory in three dimensions.",
+  "We derive the exact S-matrix for an integrable deformation of the principal chiral model via the quantum inverse scattering method.",
+  "This paper explores the swampland conjectures regarding the stability of anti-de Sitter vacua in string theory.",
+  "The holographic entanglement entropy is calculated for a strongly coupled plasma undergoing rapid expansion."
+ ],
+ "3": [
+  "Observations of distant Type Ia supernovae indicate the expansion of the universe is accelerating due to dark energy.",
+  "Gravitational wave signals detected by LIGO confirm the existence of binary black hole mergers in distant galaxies.",
+  "Analysis of the cosmic microwave background radiation provides precise measurements of the universe's geometry and age.",
+  "Spectroscopic studies reveal the chemical composition and temperature profiles of exoplanet atmospheres.",
+  "Simulations of large-scale structure formation model the distribution of dark matter halos across cosmic time."
+ ],
+ "2": [
+  "Measurement of the W boson mass using proton-proton collisions at sqrt(s) = 13 TeV with the ATLAS detector.",
+  "Development of a novel silicon pixel sensor for the CMS Phase-2 upgrade to withstand high radiation fluences.",
+  "Search for supersymmetry in final states with tau leptons and missing transverse momentum at the LHC.",
+  "Constraints on the Higgs boson self-coupling using double Higgs production cross-section measurements.",
+  "Phenomenological study of dark matter production in association with bottom quarks at hadron colliders."
+ ],
+ "7": [
+  "Measurement of the neutron capture cross-section for s-process nucleosynthesis models.",
+  "Observation of a shape coexistence phenomenon in neutron-deficient Se-72 isotopes.",
+  "Systematic analysis of elliptic flow in heavy-ion collisions at RHIC energies.",
+  "Determination of the nuclear matter equation of state from isoscalar giant monopole resonance.",
+  "Alpha decay half-life calculations for superheavy elements using a coupled-channels approach."
+ ],
+ "4": [
+  "High-temperature superconductivity was observed in the newly synthesized iron-based chalcogenide single crystals.",
+  "X-ray diffraction analysis confirms the structural phase transition of the perovskite oxide at 400 Kelvin.",
+  "The magnetic hysteresis loop indicates a strong ferromagnetic ordering in the cobalt-doped nanocrystalline thin films.",
+  "Measurement of the electrical resistivity reveals a metal-to-insulator transition in the disordered two-dimensional electron system.",
+  "Raman spectroscopy was utilized to characterize the lattice vibrational modes of the chemical vapor deposition grown graphene."
+ ],
+ "5": [
+  "Researchers demonstrated quantum entanglement between two electrons separated by a distance of two kilometers.",
+  "A new quantum algorithm significantly reduces the computational resources required for factoring large integers.",
+  "The study observes Bose-Einstein condensation in a dilute gas of ultracold atoms trapped by magnetic fields.",
+  "Scientists successfully implemented a quantum error correction code that extends the lifetime of qubit memory.",
+  "Experiments reveal coherent control over individual photons in a cavity, advancing the field of quantum optics."
+ ],
+ "8": [
+  "The Einstein field equations are solved for a rotating perfect fluid interior matching the external Kerr metric.",
+  "Hawking radiation emission rates are calculated for asymptotically anti-de Sitter black holes using the tunneling method.",
+  "We investigate the stability of the Cauchy horizon inside charged black holes under scalar perturbations.",
+  "Gravitational lensing by a Schwarzschild black hole is analyzed to determine the separation of relativistic images.",
+  "A new class of exact solutions representing gravitational waves in an expanding universe is presented."
+ ],
+ "20": [
+  "Adaptive noise cancellation techniques were applied to raw electroencephalogram data to improve signal-to-noise ratio.",
+  "A PID controller was tuned to regulate the temperature of the chemical reactor with minimal overshoot.",
+  "This study presents a novel algorithm for real-time frequency analysis of vibrating mechanical structures.",
+  "The stability of the feedback loop was verified using Bode plot analysis under varying load conditions.",
+  "Digital filters were designed to suppress high-frequency noise in the sensor transmission lines."
+ ],
+ "13": [
+  "This paper presents a novel proof for the strong law of large numbers under weakened dependence assumptions.",
+  "We propose a new estimator for high-dimensional covariance matrices that achieves minimax optimal convergence rates.",
+  "The study analyzes the long-run behavior of Markov chains with applications to queueing theory models.",
+  "A Bayesian hierarchical model is developed to account for spatial correlation in environmental monitoring data.",
+  "We derive the asymptotic distribution of the maximum likelihood estimator for parameters in a diffusion process."
+ ],
+ "14": [
+  "We present a new upper bound on the Ramsey number R(5, 5) using computational verification of subgraphs.",
+  "This paper proposes a polynomial-time algorithm for the traveling salesman problem on metric spaces using minimum spanning trees.",
+  "A novel construction for error-correcting codes based on finite projective planes is described, improving data transmission efficiency.",
+  "We characterize the properties of Hamiltonian cycles in random regular graphs with high probability.",
+  "The chromatic polynomial is analyzed for families of planar graphs derived from triangular lattices."
+ ],
+ "16": [
+  "A novel convolutional neural network architecture is proposed for real-time object detection in autonomous driving scenarios.",
+  "This paper presents an improved algorithm for 3D human pose estimation from monocular video sequences using depth estimation.",
+  "We introduce a robust image segmentation technique for identifying tumors in medical MRI scans with limited training data.",
+  "A new method for unsupervised visual domain adaptation reduces the need for labeled data in cross-domain recognition tasks.",
+  "Experimental results demonstrate significant improvements in facial recognition accuracy under varying lighting conditions."
+ ],
+ "17": [
+  "A new transformer model achieves state-of-the-art results in machine translation for low-resource languages.",
+  "Researchers propose a novel attention mechanism to improve the accuracy of sentiment analysis on social media data.",
+  "This study explores unsupervised methods for multi-document summarization of scientific literature.",
+  "We present a system for named entity recognition that utilizes contextual string embeddings for better performance.",
+  "The paper investigates cross-lingual transfer learning to enhance part-of-speech tagging in morphologically rich languages."
+ ],
+ "12": [
+  "We prove that any closed, simply-connected 4-manifold admitting a symplectic structure must satisfy the Noether inequality.",
+  "This paper introduces a new invariant for hyperbolic 3-manifolds derived from the volume of ideal tetrahedra in hyperbolic space.",
+  "We characterize the conditions under which a smooth embedding of a sphere in Euclidean space is isotopic to the standard unknot.",
+  "A complete classification of compact K\u00e4hler manifolds with vanishing first Chern class is presented using Calabi-Yau geometry.",
+  "The homotopy groups of the stable mapping class genus are computed, revealing new connections to modular forms."
+ ],
+ "15": [
+  "A novel convolutional neural network architecture is proposed to enhance image segmentation accuracy in medical diagnosis.",
+  "This study presents a reinforcement learning algorithm that enables autonomous agents to navigate complex dynamic environments.",
+  "We demonstrate that transformer-based models significantly outperform traditional recurrent neural networks in natural language understanding tasks.",
+  "The paper introduces a computational model of human concept learning that adapts efficiently to sparse data inputs.",
+  "Experimental results show that ensemble methods improve the robustness of predictive models against adversarial attacks."
+ ],
+ "19": [
+  "We prove that the proposed approximation algorithm achieves a polynomial time complexity for the NP-hard optimization problem.",
+  "This paper establishes a tighter lower bound on the query complexity of quantum search algorithms in high-dimensional spaces.",
+  "We introduce a novel rewriting system for linear logic and demonstrate its strong normalization property.",
+  "The study classifies the computational complexity of counting solutions for various constraint satisfaction problems.",
+  "A new automata-theoretic approach is presented for verifying the safety and liveness properties of infinite-state systems."
+ ],
+ "18": [
+  "A novel routing algorithm is proposed to minimize packet loss and latency in software-defined wide area networks.",
+  "This paper presents a secure hardware architecture for preventing side-channel attacks in embedded computing systems.",
+  "We evaluate the performance overhead of virtualization technologies in cloud computing data centers.",
+  "A new intrusion detection system utilizes machine learning to identify malicious traffic patterns in real-time.",
+  "The design of a low-power cache coherence protocol improves energy efficiency in multi-core processors."
+ ],
+ "11": [
+  "We prove the existence and uniqueness of solutions for a class of nonlinear parabolic partial differential equations using the Schauder fixed point theorem.",
+  "This paper establishes new Sobolev embedding theorems for fractional order spaces on irregular domains.",
+  "Convergence rates for the numerical approximation of stochastic differential equations are derived via the It\u00f4 calculus framework.",
+  "We investigate the spectral properties of unbounded operators on Hilbert spaces arising from singular Sturm-Liouville problems.",
+  "A new maximum principle is presented for weak solutions of elliptic systems with discontinuous coefficients."
+ ],
+ "24": [
+  "The synthesis of silver nanoparticles was confirmed using UV-Vis spectroscopy and transmission electron microscopy.",
+  "Spectroscopic analysis reveals the reaction kinetics of the catalytic breakdown of methane on platinum surfaces.",
+  "A novel metal-organic framework demonstrates high surface area and selectivity for carbon dioxide capture applications.",
+  "The thermodynamic stability of the liquid crystal phase was determined through differential scanning calorimetry.",
+  "Density functional theory calculations predict the HOMO-LUMO gap for the newly synthesized organic semiconductor."
+ ],
+ "22": [
+  "Machine learning models accurately predict protein structure from amino acid sequences.",
+  "A comparative genomic analysis identifies conserved regulatory elements across mammalian species.",
+  "Novel algorithm improves the alignment speed of large-scale next-generation sequencing data.",
+  "Network analysis reveals key hub genes associated with chemotherapy resistance in cancer.",
+  "Deep learning classifies tumor subtypes using multi-omics data integration techniques."
+ ],
+ "21": [
+  "A low-noise amplifier design using 65nm CMOS technology for 5G wireless receiver applications.",
+  "Performance analysis of a microstrip patch antenna with enhanced bandwidth for satellite communication.",
+  "Implementation of a high-efficiency DC-DC buck converter for portable electronic devices.",
+  "Optimization of massive MIMO systems for improved spectral efficiency in urban environments.",
+  "A novel approach to reducing power consumption in VLSI digital circuit design."
+ ],
+ "25": [
+  "This study evaluates the impact of flipped classroom models on student engagement in introductory mechanics courses.",
+  "We investigate the effectiveness of peer instruction techniques in correcting persistent misconceptions about electromagnetic fields.",
+  "A comparative analysis of virtual reality simulations versus traditional laboratory experiments for teaching optical phenomena is presented.",
+  "The research examines the correlation between mathematics anxiety and performance in undergraduate quantum physics modules.",
+  "Results from a longitudinal study demonstrate how structured problem-solving frameworks improve conceptual understanding of thermodynamics."
+ ],
+ "23": [
+  "Magnetic tweezers were used to investigate the force-dependent unfolding kinetics of individual titin protein domains.",
+  "Neutron scattering experiments reveal the hierarchical structure of hydration layers surrounding lysozyme molecules in solution.",
+  "A theoretical model predicts the stochastic stepping motion of kinesin motor proteins along cytoskeletal microtubules.",
+  "Cryo-electron microscopy structures elucidate the conformational changes of ion channels during voltage-gated activation.",
+  "The viscoelastic properties of the cytoplasm significantly influence the diffusion rates of intracellular organelles."
+ ],
+ "26": [
+  "We derive a closed-form solution for pricing European options under stochastic volatility models using partial differential equations.",
+  "This paper applies machine learning algorithms to predict stock market movements based on high-frequency trading data.",
+  "A copula-based approach is utilized to model the dependency structure between assets in a diversified portfolio.",
+  "The study examines the impact of parameter uncertainty on Value at Risk (VaR) estimation using Monte Carlo simulations.",
+  "We propose a mean-variance optimization framework for portfolio allocation that accounts for transaction costs."
+ ],
+ "27": [
+  "Analysis of citation networks reveals patterns of interdisciplinary collaboration between computer science and sociology departments.",
+  "Machine learning models trained on court case transcripts successfully predict judicial decisions based on legal precedent features.",
+  "A graph-theoretic approach identifies key influence nodes within online social networks during political election cycles.",
+  "Digital humanities project utilizes natural language processing to track the evolution of gender roles in 19th-century novels.",
+  "Simulated agent-based models demonstrate how misinformation propagates through social media platforms with varying moderation policies."
+ ]
+}

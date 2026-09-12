@@ -1,0 +1,110 @@
+{
+  "bench": "reddit_s2s",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Education",
+      "definition": "Posts related to academic resources, study tips, and educational advice."
+    },
+    {
+      "id": 2,
+      "name": "Local News",
+      "definition": "Posts discussing local events, incidents, and community news."
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "definition": "Posts about gadgets, software, and technological advancements."
+    },
+    {
+      "id": 4,
+      "name": "Health and Wellness",
+      "definition": "Posts related to health advice, medical conditions, and wellness practices."
+    },
+    {
+      "id": 5,
+      "name": "Personal Finance",
+      "definition": "Posts discussing financial advice, budgeting, and economic news."
+    },
+    {
+      "id": 6,
+      "name": "Entertainment",
+      "definition": "Posts about movies, music, games, and other forms of entertainment."
+    },
+    {
+      "id": 7,
+      "name": "Travel",
+      "definition": "Posts related to travel experiences, tips, and destination recommendations."
+    },
+    {
+      "id": 8,
+      "name": "Food and Drink",
+      "definition": "Posts discussing recipes, food reviews, and culinary experiences."
+    },
+    {
+      "id": 9,
+      "name": "Relationships",
+      "definition": "Posts seeking advice or sharing experiences related to personal relationships."
+    },
+    {
+      "id": 10,
+      "name": "Hobbies and Interests",
+      "definition": "Posts about various hobbies, crafts, and personal interests."
+    },
+    {
+      "id": 11,
+      "name": "Politics",
+      "definition": "Posts discussing political events, opinions, and news."
+    },
+    {
+      "id": 12,
+      "name": "Science",
+      "definition": "Posts related to scientific discoveries, research, and discussions."
+    },
+    {
+      "id": 13,
+      "name": "Pets and Animals",
+      "definition": "Posts about pets, animal care, and wildlife."
+    },
+    {
+      "id": 14,
+      "name": "Fashion and Beauty",
+      "definition": "Posts discussing fashion trends, beauty tips, and personal style."
+    },
+    {
+      "id": 15,
+      "name": "Home and Garden",
+      "definition": "Posts related to home improvement, gardening, and DIY projects."
+    },
+    {
+      "id": 16,
+      "name": "Sports",
+      "definition": "Posts discussing sports events, teams, and athletic activities."
+    },
+    {
+      "id": 17,
+      "name": "Social Issues",
+      "definition": "Posts addressing social justice, community issues, and activism."
+    },
+    {
+      "id": 18,
+      "name": "Art and Literature",
+      "definition": "Posts discussing artistic works, literature, and creative writing."
+    },
+    {
+      "id": 19,
+      "name": "Gaming",
+      "definition": "Posts related to video games, gaming culture, and gaming news."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous",
+      "definition": "Posts that do not fit into other categories or are off-topic."
+    }
+  ]
+}

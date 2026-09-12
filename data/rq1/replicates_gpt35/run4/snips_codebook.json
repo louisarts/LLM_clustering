@@ -1,0 +1,75 @@
+{
+  "bench": "snips",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Find",
+      "definition": "User wants to locate a specific item or information."
+    },
+    {
+      "id": 2,
+      "name": "Reserve",
+      "definition": "User wants to make a reservation for a specific service or event."
+    },
+    {
+      "id": 3,
+      "name": "Play",
+      "definition": "User wants to play or listen to music, movies, or other media content."
+    },
+    {
+      "id": 4,
+      "name": "Rate",
+      "definition": "User wants to provide a rating or review for a specific item."
+    },
+    {
+      "id": 5,
+      "name": "Weather",
+      "definition": "User wants to know the weather forecast for a specific location and time."
+    },
+    {
+      "id": 6,
+      "name": "Add to Playlist",
+      "definition": "User wants to add a specific item to a playlist or collection."
+    },
+    {
+      "id": 7,
+      "name": "Book",
+      "definition": "User wants to book a reservation or appointment at a specific location."
+    },
+    {
+      "id": 8,
+      "name": "Showtimes",
+      "definition": "User wants to know the showtimes for movies or events at a specific venue."
+    },
+    {
+      "id": 9,
+      "name": "Forecast",
+      "definition": "User wants to know the weather forecast for a specific location and time."
+    },
+    {
+      "id": 10,
+      "name": "List",
+      "definition": "User wants to see a list of items or information."
+    },
+    {
+      "id": 11,
+      "name": "Rate Textbook",
+      "definition": "User wants to provide a rating or review for a specific textbook."
+    },
+    {
+      "id": 12,
+      "name": "Play Soundtrack",
+      "definition": "User wants to play a specific soundtrack or music album."
+    },
+    {
+      "id": 13,
+      "name": "Add Artist to Playlist",
+      "definition": "User wants to add a specific artist to a playlist or collection."
+    }
+  ]
+}

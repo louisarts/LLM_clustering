@@ -1,0 +1,100 @@
+{
+  "bench": "dbpedia",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Buildings",
+      "definition": "Structures designed for human use, including residential, commercial, and institutional buildings."
+    },
+    {
+      "id": 2,
+      "name": "Vehicles",
+      "definition": "Means of transportation, including cars, ships, and aircraft."
+    },
+    {
+      "id": 3,
+      "name": "Music Albums",
+      "definition": "Collections of audio recordings released as a single item, including studio, live, and compilation albums."
+    },
+    {
+      "id": 4,
+      "name": "Educational Institutions",
+      "definition": "Organizations that provide instruction or education, including schools, colleges, and universities."
+    },
+    {
+      "id": 5,
+      "name": "Species of Plants",
+      "definition": "Types of flowering plants, trees, and other flora."
+    },
+    {
+      "id": 6,
+      "name": "Species of Animals",
+      "definition": "Types of animals, including mammals, birds, fish, and insects."
+    },
+    {
+      "id": 7,
+      "name": "Political Figures",
+      "definition": "Individuals who hold or have held positions of authority in government or political organizations."
+    },
+    {
+      "id": 8,
+      "name": "Films",
+      "definition": "Motion pictures or movies, including feature films and documentaries."
+    },
+    {
+      "id": 9,
+      "name": "Books",
+      "definition": "Written works, including novels, non-fiction, and academic texts."
+    },
+    {
+      "id": 10,
+      "name": "Historical Sites",
+      "definition": "Locations of historical significance, including landmarks and ruins."
+    },
+    {
+      "id": 11,
+      "name": "Journals",
+      "definition": "Periodicals that publish scholarly articles and research findings."
+    },
+    {
+      "id": 12,
+      "name": "Companies",
+      "definition": "Business entities engaged in commercial, industrial, or professional activities."
+    },
+    {
+      "id": 13,
+      "name": "Television Shows",
+      "definition": "Serialized programs broadcast on television."
+    },
+    {
+      "id": 14,
+      "name": "Theatrical Productions",
+      "definition": "Live performances of plays, musicals, or other dramatic works."
+    },
+    {
+      "id": 15,
+      "name": "Crater and Geological Features",
+      "definition": "Natural formations on celestial bodies, including craters and mountains."
+    },
+    {
+      "id": 16,
+      "name": "Cultural Institutions",
+      "definition": "Organizations that promote cultural activities, including museums and galleries."
+    },
+    {
+      "id": 17,
+      "name": "Sports",
+      "definition": "Activities involving physical exertion and skill, often competitive in nature."
+    },
+    {
+      "id": 18,
+      "name": "Villages and Towns",
+      "definition": "Small human settlements, typically smaller than cities."
+    }
+  ]
+}

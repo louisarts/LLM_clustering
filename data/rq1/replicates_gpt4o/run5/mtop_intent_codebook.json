@@ -1,0 +1,75 @@
+{
+  "bench": "mtop_intent",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "Requests for weather information or forecasts."
+    },
+    {
+      "id": 2,
+      "name": "Alarm Management",
+      "definition": "Commands to set, cancel, or modify alarms."
+    },
+    {
+      "id": 3,
+      "name": "Timer Management",
+      "definition": "Commands to set, cancel, or modify timers."
+    },
+    {
+      "id": 4,
+      "name": "Reminder Management",
+      "definition": "Commands to set, cancel, or modify reminders."
+    },
+    {
+      "id": 5,
+      "name": "Music Playback",
+      "definition": "Requests to play, skip, or repeat music tracks."
+    },
+    {
+      "id": 6,
+      "name": "News Inquiry",
+      "definition": "Requests for news updates or specific news topics."
+    },
+    {
+      "id": 7,
+      "name": "Recipe Inquiry",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 8,
+      "name": "Nutritional Information",
+      "definition": "Requests for nutritional information about food items."
+    },
+    {
+      "id": 9,
+      "name": "Contact Inquiry",
+      "definition": "Requests for information about contacts or people."
+    },
+    {
+      "id": 10,
+      "name": "Call Management",
+      "definition": "Commands to initiate, end, or manage phone or video calls."
+    },
+    {
+      "id": 11,
+      "name": "Messaging",
+      "definition": "Commands to send or manage text or video messages."
+    },
+    {
+      "id": 12,
+      "name": "Event Inquiry",
+      "definition": "Requests for information about events or activities."
+    },
+    {
+      "id": 13,
+      "name": "General Inquiry",
+      "definition": "Requests for general information not covered by other categories."
+    }
+  ]
+}

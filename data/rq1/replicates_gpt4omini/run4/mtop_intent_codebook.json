@@ -1,0 +1,85 @@
+{
+  "bench": "mtop_intent",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cooking Instructions",
+      "definition": "Requests for recipes or cooking methods."
+    },
+    {
+      "id": 2,
+      "name": "Weather Queries",
+      "definition": "Inquiries about current or future weather conditions."
+    },
+    {
+      "id": 3,
+      "name": "Reminders and Alarms",
+      "definition": "Requests to set, modify, or delete reminders and alarms."
+    },
+    {
+      "id": 4,
+      "name": "Communication Requests",
+      "definition": "Requests to send messages, make calls, or connect with others."
+    },
+    {
+      "id": 5,
+      "name": "Event Information",
+      "definition": "Inquiries about events, concerts, or activities."
+    },
+    {
+      "id": 6,
+      "name": "News Updates",
+      "definition": "Requests for current news or headlines."
+    },
+    {
+      "id": 7,
+      "name": "Timer Management",
+      "definition": "Requests to set, modify, or check timers."
+    },
+    {
+      "id": 8,
+      "name": "Personal Information Queries",
+      "definition": "Inquiries about people, relationships, or personal details."
+    },
+    {
+      "id": 9,
+      "name": "Music Playback",
+      "definition": "Requests to play, skip, or identify music."
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge Queries",
+      "definition": "Inquiries seeking factual information or explanations."
+    },
+    {
+      "id": 11,
+      "name": "Task Management",
+      "definition": "Requests to manage tasks, including adding or deleting tasks."
+    },
+    {
+      "id": 12,
+      "name": "Group Management",
+      "definition": "Requests to manage group calls or group messages."
+    },
+    {
+      "id": 13,
+      "name": "Health and Safety Queries",
+      "definition": "Inquiries related to health, safety, or dietary information."
+    },
+    {
+      "id": 14,
+      "name": "Time Management",
+      "definition": "Requests related to time, including scheduling and duration."
+    },
+    {
+      "id": 15,
+      "name": "Miscellaneous Requests",
+      "definition": "Other requests that do not fit into the above categories."
+    }
+  ]
+}

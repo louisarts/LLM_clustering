@@ -1,0 +1,80 @@
+{
+  "bench": "banking77",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Issuance and Delivery",
+      "definition": "Queries about obtaining, replacing, or the delivery status of physical or virtual cards."
+    },
+    {
+      "id": 2,
+      "name": "Card Usage and Acceptance",
+      "definition": "Questions regarding where and how cards can be used, including issues with card acceptance."
+    },
+    {
+      "id": 3,
+      "name": "Card Security and Fraud",
+      "definition": "Concerns about unauthorized transactions, lost or stolen cards, and account security."
+    },
+    {
+      "id": 4,
+      "name": "Card Fees and Charges",
+      "definition": "Inquiries about fees associated with card usage, including withdrawals and transactions."
+    },
+    {
+      "id": 5,
+      "name": "Account Closure",
+      "definition": "Requests to close or delete accounts."
+    },
+    {
+      "id": 6,
+      "name": "Identity Verification",
+      "definition": "Questions about the process and requirements for verifying identity."
+    },
+    {
+      "id": 7,
+      "name": "Currency Exchange",
+      "definition": "Queries about exchanging currencies and related fees."
+    },
+    {
+      "id": 8,
+      "name": "Top-Up Issues",
+      "definition": "Problems and questions related to adding funds to an account or card."
+    },
+    {
+      "id": 9,
+      "name": "Transfer Issues",
+      "definition": "Concerns about money transfers, including delays, failures, and fees."
+    },
+    {
+      "id": 10,
+      "name": "PIN and Password Management",
+      "definition": "Requests for help with PIN or password setup, changes, or recovery."
+    },
+    {
+      "id": 11,
+      "name": "Account Information Update",
+      "definition": "Requests to update personal or account information."
+    },
+    {
+      "id": 12,
+      "name": "Refunds and Disputes",
+      "definition": "Inquiries about obtaining refunds or disputing transactions."
+    },
+    {
+      "id": 13,
+      "name": "Direct Debit Issues",
+      "definition": "Concerns about unauthorized or incorrect direct debit transactions."
+    },
+    {
+      "id": 14,
+      "name": "App Functionality",
+      "definition": "Questions about using the app, including troubleshooting and features."
+    }
+  ]
+}

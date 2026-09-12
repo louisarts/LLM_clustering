@@ -1,0 +1,97 @@
+{
+  "bench": "dbpedia",
+  "run": 9,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Company",
+      "definition": "A business entity or commercial enterprise."
+    },
+    {
+      "id": 2,
+      "name": "Biological Classification",
+      "definition": "A taxonomic group above the species level, such as a genus, family, or order."
+    },
+    {
+      "id": 3,
+      "name": "Animal Species",
+      "definition": "A specific type of animal."
+    },
+    {
+      "id": 4,
+      "name": "Plant Species",
+      "definition": "A specific type of plant."
+    },
+    {
+      "id": 5,
+      "name": "Vehicle",
+      "definition": "A machine used for transporting people or goods, including specific models or classes of cars, ships, aircraft, or rockets."
+    },
+    {
+      "id": 6,
+      "name": "Educational Institution",
+      "definition": "An organization dedicated to education, such as a school, college, or university."
+    },
+    {
+      "id": 7,
+      "name": "Geographical Feature",
+      "definition": "A natural or artificial landform or body of water, such as a lake, mountain, river, or crater."
+    },
+    {
+      "id": 8,
+      "name": "Book",
+      "definition": "A long written work published as a single volume or series, typically fiction or non-fiction."
+    },
+    {
+      "id": 9,
+      "name": "Album",
+      "definition": "A collection of musical recordings released together."
+    },
+    {
+      "id": 10,
+      "name": "Populated Place",
+      "definition": "A city, town, village, or other human settlement."
+    },
+    {
+      "id": 11,
+      "name": "Film",
+      "definition": "A motion picture, including short films, animated films, and documentaries."
+    },
+    {
+      "id": 12,
+      "name": "Organization",
+      "definition": "A structured group of people with a particular purpose, typically non-commercial or non-governmental."
+    },
+    {
+      "id": 13,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 14,
+      "name": "Building",
+      "definition": "A structure with a roof and walls, such as a house, factory, church, or monument."
+    },
+    {
+      "id": 15,
+      "name": "Media Franchise",
+      "definition": "A collection of related media works, such as an anime or manga series."
+    },
+    {
+      "id": 16,
+      "name": "Play",
+      "definition": "A dramatic work written for performance on stage."
+    },
+    {
+      "id": 17,
+      "name": "Publication",
+      "definition": "A periodical or regularly issued printed or digital work, such as a journal, newspaper, magazine, or newsletter."
+    },
+    {
+      "id": 18,
+      "name": "Professional Designation",
+      "definition": "A title or qualification indicating a specific professional status or achievement."
+    }
+  ]
+}

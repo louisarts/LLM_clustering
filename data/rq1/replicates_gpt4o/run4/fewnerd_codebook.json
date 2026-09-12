@@ -1,0 +1,510 @@
+{
+  "bench": "fewnerd",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "City",
+      "definition": "A large human settlement generally with extensive systems for housing, transportation, sanitation, utilities, and communication."
+    },
+    {
+      "id": 2,
+      "name": "Company",
+      "definition": "A commercial business or organization that provides goods or services."
+    },
+    {
+      "id": 3,
+      "name": "Music Group",
+      "definition": "A band or ensemble of musicians that perform together."
+    },
+    {
+      "id": 4,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 5,
+      "name": "Astronomical Object",
+      "definition": "A naturally occurring physical entity, association, or structure that exists in the observable universe."
+    },
+    {
+      "id": 6,
+      "name": "Geographical Feature",
+      "definition": "A natural or artificial feature of the Earth's surface, such as a river, mountain, or valley."
+    },
+    {
+      "id": 7,
+      "name": "Record Label",
+      "definition": "A brand or trademark associated with the marketing of music recordings and music videos."
+    },
+    {
+      "id": 8,
+      "name": "Municipality",
+      "definition": "A town or district that has local government."
+    },
+    {
+      "id": 9,
+      "name": "Aircraft",
+      "definition": "A vehicle capable of atmospheric flight due to interaction with the air, such as airplanes and helicopters."
+    },
+    {
+      "id": 10,
+      "name": "Historical Figure",
+      "definition": "A person who has had a significant impact on history."
+    },
+    {
+      "id": 11,
+      "name": "Automobile",
+      "definition": "A wheeled motor vehicle used for transportation."
+    },
+    {
+      "id": 12,
+      "name": "Sports Team",
+      "definition": "A group of individuals who compete in a sport together."
+    },
+    {
+      "id": 13,
+      "name": "Chemical Element",
+      "definition": "A species of atoms having the same number of protons in their atomic nuclei."
+    },
+    {
+      "id": 14,
+      "name": "Island",
+      "definition": "A piece of land surrounded by water."
+    },
+    {
+      "id": 15,
+      "name": "Religious Organization",
+      "definition": "An organization dedicated to the practice and promotion of religious beliefs."
+    },
+    {
+      "id": 16,
+      "name": "Royalty",
+      "definition": "A member of a royal family, such as a king or queen."
+    },
+    {
+      "id": 17,
+      "name": "Sports Event",
+      "definition": "An organized competitive event involving physical exertion and skill."
+    },
+    {
+      "id": 18,
+      "name": "Street",
+      "definition": "A public road in a city or town, typically with houses and buildings on one or both sides."
+    },
+    {
+      "id": 19,
+      "name": "Body of Water",
+      "definition": "A significant accumulation of water, generally on a planet's surface, such as a sea, ocean, or lake."
+    },
+    {
+      "id": 20,
+      "name": "Family",
+      "definition": "A group of related biological organisms, often used in taxonomy."
+    },
+    {
+      "id": 21,
+      "name": "Fictional Character",
+      "definition": "A character created for a fictional narrative."
+    },
+    {
+      "id": 22,
+      "name": "Country",
+      "definition": "A nation with its own government, occupying a particular territory."
+    },
+    {
+      "id": 23,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers."
+    },
+    {
+      "id": 24,
+      "name": "Animal",
+      "definition": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system."
+    },
+    {
+      "id": 25,
+      "name": "Film",
+      "definition": "A motion picture or movie."
+    },
+    {
+      "id": 26,
+      "name": "Deity",
+      "definition": "A god or goddess in a polytheistic religion."
+    },
+    {
+      "id": 27,
+      "name": "Language",
+      "definition": "A system of communication used by a particular country or community."
+    },
+    {
+      "id": 28,
+      "name": "Newspaper",
+      "definition": "A printed publication (usually issued daily or weekly) consisting of folded unstapled sheets and containing news, articles, advertisements, and correspondence."
+    },
+    {
+      "id": 29,
+      "name": "University",
+      "definition": "An institution of higher education and research, which awards academic degrees in various academic disciplines."
+    },
+    {
+      "id": 30,
+      "name": "Event",
+      "definition": "An occurrence, especially one of some importance."
+    },
+    {
+      "id": 31,
+      "name": "Railway Line",
+      "definition": "A set of tracks made of steel rails along which trains run."
+    },
+    {
+      "id": 32,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 33,
+      "name": "Highway",
+      "definition": "A main road, especially one connecting major towns or cities."
+    },
+    {
+      "id": 34,
+      "name": "Medication",
+      "definition": "A drug used to diagnose, cure, treat, or prevent disease."
+    },
+    {
+      "id": 35,
+      "name": "Law",
+      "definition": "A system of rules that are created and enforced through social or governmental institutions to regulate behavior."
+    },
+    {
+      "id": 36,
+      "name": "Protein",
+      "definition": "A molecule composed of amino acids that performs a vast array of functions within organisms."
+    },
+    {
+      "id": 37,
+      "name": "Park",
+      "definition": "A large public green area in a town, used for recreation."
+    },
+    {
+      "id": 38,
+      "name": "Food",
+      "definition": "Any nutritious substance that people or animals eat or drink or that plants absorb in order to maintain life and growth."
+    },
+    {
+      "id": 39,
+      "name": "Festival",
+      "definition": "A day or period of celebration, typically for religious reasons."
+    },
+    {
+      "id": 40,
+      "name": "Plant",
+      "definition": "A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses, typically growing in a permanent site, absorbing water and inorganic substances through its roots, and synthesizing nutrients in its leaves by photosynthesis using the green pigment chlorophyll."
+    },
+    {
+      "id": 41,
+      "name": "Region",
+      "definition": "An area, especially part of a country or the world having definable characteristics but not always fixed boundaries."
+    },
+    {
+      "id": 42,
+      "name": "Building",
+      "definition": "A structure with a roof and walls, such as a house, school, store, or factory."
+    },
+    {
+      "id": 43,
+      "name": "Organization",
+      "definition": "An organized group of people with a particular purpose, such as a business or government department."
+    },
+    {
+      "id": 44,
+      "name": "Sport",
+      "definition": "An activity involving physical exertion and skill in which an individual or team competes against another or others for entertainment."
+    },
+    {
+      "id": 45,
+      "name": "Vehicle",
+      "definition": "A thing used for transporting people or goods, especially on land, such as a car, truck, or cart."
+    },
+    {
+      "id": 46,
+      "name": "Theater",
+      "definition": "A building or outdoor area in which plays and other dramatic performances are given."
+    },
+    {
+      "id": 47,
+      "name": "Publication",
+      "definition": "The preparation and issuing of a book, journal, or piece of music for public sale."
+    },
+    {
+      "id": 48,
+      "name": "Art",
+      "definition": "The expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture, producing works to be appreciated primarily for their beauty or emotional power."
+    },
+    {
+      "id": 49,
+      "name": "Religion",
+      "definition": "A particular system of faith and worship."
+    },
+    {
+      "id": 50,
+      "name": "Mythological Figure",
+      "definition": "A character from a myth, which is a traditional story, especially one concerning the early history of a people or explaining a natural or social phenomenon, and typically involving supernatural beings or events."
+    },
+    {
+      "id": 51,
+      "name": "Software",
+      "definition": "The programs and other operating information used by a computer."
+    },
+    {
+      "id": 52,
+      "name": "Festival",
+      "definition": "A day or period of celebration, typically for religious reasons."
+    },
+    {
+      "id": 53,
+      "name": "Railway",
+      "definition": "A track made of steel rails along which trains run."
+    },
+    {
+      "id": 54,
+      "name": "Sporting Event",
+      "definition": "An organized competitive event involving physical exertion and skill."
+    },
+    {
+      "id": 55,
+      "name": "Government",
+      "definition": "The governing body of a nation, state, or community."
+    },
+    {
+      "id": 56,
+      "name": "Historical Event",
+      "definition": "An event that has had a significant impact on history."
+    },
+    {
+      "id": 57,
+      "name": "Publication",
+      "definition": "The preparation and issuing of a book, journal, or piece of music for public sale."
+    },
+    {
+      "id": 58,
+      "name": "Mythological Figure",
+      "definition": "A character from a myth, which is a traditional story, especially one concerning the early history of a people or explaining a natural or social phenomenon, and typically involving supernatural beings or events."
+    },
+    {
+      "id": 59,
+      "name": "Software",
+      "definition": "The programs and other operating information used by a computer."
+    },
+    {
+      "id": 60,
+      "name": "Festival",
+      "definition": "A day or period of celebration, typically for religious reasons."
+    },
+    {
+      "id": 61,
+      "name": "Railway",
+      "definition": "A track made of steel rails along which trains run."
+    },
+    {
+      "id": 62,
+      "name": "Sporting Event",
+      "definition": "An organized competitive event involving physical exertion and skill."
+    },
+    {
+      "id": 63,
+      "name": "Government",
+      "definition": "The governing body of a nation, state, or community."
+    },
+    {
+      "id": 64,
+      "name": "Historical Event",
+      "definition": "An event that has had a significant impact on history."
+    },
+    {
+      "id": 65,
+      "name": "Publication",
+      "definition": "The preparation and issuing of a book, journal, or piece of music for public sale."
+    },
+    {
+      "id": 66,
+      "name": "Mythological Figure",
+      "definition": "A character from a myth, which is a traditional story, especially one concerning the early history of a people or explaining a natural or social phenomenon, and typically involving supernatural beings or events."
+    },
+    {
+      "id": 67,
+      "name": "Software",
+      "definition": "The programs and other operating information used by a computer."
+    },
+    {
+      "id": 68,
+      "name": "Festival",
+      "definition": "A day or period of celebration, typically for religious reasons."
+    },
+    {
+      "id": 69,
+      "name": "Railway",
+      "definition": "A track made of steel rails along which trains run."
+    },
+    {
+      "id": 70,
+      "name": "Sporting Event",
+      "definition": "An organized competitive event involving physical exertion and skill."
+    },
+    {
+      "id": 71,
+      "name": "Government",
+      "definition": "The governing body of a nation, state, or community."
+    },
+    {
+      "id": 72,
+      "name": "Historical Event",
+      "definition": "An event that has had a significant impact on history."
+    },
+    {
+      "id": 73,
+      "name": "Publication",
+      "definition": "The preparation and issuing of a book, journal, or piece of music for public sale."
+    },
+    {
+      "id": 74,
+      "name": "Mythological Figure",
+      "definition": "A character from a myth, which is a traditional story, especially one concerning the early history of a people or explaining a natural or social phenomenon, and typically involving supernatural beings or events."
+    },
+    {
+      "id": 75,
+      "name": "Software",
+      "definition": "The programs and other operating information used by a computer."
+    },
+    {
+      "id": 76,
+      "name": "Festival",
+      "definition": "A day or period of celebration, typically for religious reasons."
+    },
+    {
+      "id": 77,
+      "name": "Railway",
+      "definition": "A track made of steel rails along which trains run."
+    },
+    {
+      "id": 78,
+      "name": "Sporting Event",
+      "definition": "An organized competitive event involving physical exertion and skill."
+    },
+    {
+      "id": 79,
+      "name": "Government",
+      "definition": "The governing body of a nation, state, or community."
+    },
+    {
+      "id": 80,
+      "name": "Historical Event",
+      "definition": "An event that has had a significant impact on history."
+    },
+    {
+      "id": 81,
+      "name": "Publication",
+      "definition": "The preparation and issuing of a book, journal, or piece of music for public sale."
+    },
+    {
+      "id": 82,
+      "name": "Mythological Figure",
+      "definition": "A character from a myth, which is a traditional story, especially one concerning the early history of a people or explaining a natural or social phenomenon, and typically involving supernatural beings or events."
+    },
+    {
+      "id": 83,
+      "name": "Software",
+      "definition": "The programs and other operating information used by a computer."
+    },
+    {
+      "id": 84,
+      "name": "Festival",
+      "definition": "A day or period of celebration, typically for religious reasons."
+    },
+    {
+      "id": 85,
+      "name": "Railway",
+      "definition": "A track made of steel rails along which trains run."
+    },
+    {
+      "id": 86,
+      "name": "Sporting Event",
+      "definition": "An organized competitive event involving physical exertion and skill."
+    },
+    {
+      "id": 87,
+      "name": "Government",
+      "definition": "The governing body of a nation, state, or community."
+    },
+    {
+      "id": 88,
+      "name": "Historical Event",
+      "definition": "An event that has had a significant impact on history."
+    },
+    {
+      "id": 89,
+      "name": "Publication",
+      "definition": "The preparation and issuing of a book, journal, or piece of music for public sale."
+    },
+    {
+      "id": 90,
+      "name": "Mythological Figure",
+      "definition": "A character from a myth, which is a traditional story, especially one concerning the early history of a people or explaining a natural or social phenomenon, and typically involving supernatural beings or events."
+    },
+    {
+      "id": 91,
+      "name": "Software",
+      "definition": "The programs and other operating information used by a computer."
+    },
+    {
+      "id": 92,
+      "name": "Festival",
+      "definition": "A day or period of celebration, typically for religious reasons."
+    },
+    {
+      "id": 93,
+      "name": "Railway",
+      "definition": "A track made of steel rails along which trains run."
+    },
+    {
+      "id": 94,
+      "name": "Sporting Event",
+      "definition": "An organized competitive event involving physical exertion and skill."
+    },
+    {
+      "id": 95,
+      "name": "Government",
+      "definition": "The governing body of a nation, state, or community."
+    },
+    {
+      "id": 96,
+      "name": "Historical Event",
+      "definition": "An event that has had a significant impact on history."
+    },
+    {
+      "id": 97,
+      "name": "Publication",
+      "definition": "The preparation and issuing of a book, journal, or piece of music for public sale."
+    },
+    {
+      "id": 98,
+      "name": "Mythological Figure",
+      "definition": "A character from a myth, which is a traditional story, especially one concerning the early history of a people or explaining a natural or social phenomenon, and typically involving supernatural beings or events."
+    },
+    {
+      "id": 99,
+      "name": "Software",
+      "definition": "The programs and other operating information used by a computer."
+    },
+    {
+      "id": 100,
+      "name": "Festival",
+      "definition": "A day or period of celebration, typically for religious reasons."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+ "banking77": {
+  "method": "k-LLMmeans",
+  "embedder": "text-embedding-3-small",
+  "llm": "gpt-4o",
+  "note": ""
+ },
+ "massive_domain": {
+  "method": "k-LLMmeans",
+  "embedder": "text-embedding-3-small",
+  "llm": "gpt-4o",
+  "note": ""
+ },
+ "massive_intent": {
+  "method": "SPILL",
+  "embedder": "gemma-2-9b-it-embed",
+  "llm": "gemma-2-9b-it",
+  "note": ""
+ },
+ "mtop_domain": {
+  "method": "ClusterLLM-I",
+  "embedder": "instructor-large",
+  "llm": "gpt-3.5-turbo",
+  "note": ""
+ },
+ "arxiv_fine": {
+  "method": "ClusterLLM-E-iter",
+  "embedder": "e5-large-v2",
+  "llm": "gpt-3.5-turbo",
+  "note": ""
+ },
+ "stackexchange_cl": {
+  "method": "ClusterLLM-I-iter",
+  "embedder": "instructor-large",
+  "llm": "gpt-3.5-turbo",
+  "note": ""
+ },
+ "clinc150": {
+  "method": "LUMI",
+  "embedder": "instructor-large",
+  "llm": "gemma-2-9b-it",
+  "note": ""
+ },
+ "clinc150_domain": {
+  "method": "LLMEdgeRefine",
+  "embedder": "instructor-large",
+  "llm": "gpt-3.5-turbo",
+  "note": ""
+ },
+ "mtop_intent": {
+  "method": "LUMI",
+  "embedder": "instructor-large",
+  "llm": "gemma-2-9b-it",
+  "note": "re-matched to current holder"
+ },
+ "fewrel": {
+  "method": "ClusterLLM-E-iter",
+  "embedder": "e5-large-v2",
+  "llm": "gpt-3.5-turbo",
+  "note": ""
+ },
+ "fewevent": {
+  "method": "ClusterLLM-I-iter",
+  "embedder": "instructor-large",
+  "llm": "gpt-3.5-turbo",
+  "note": ""
+ },
+ "stackoverflow20": {
+  "method": "IDAS",
+  "embedder": "paraphrase-mpnet",
+  "llm": "gpt-3.5-turbo",
+  "note": "encoder proxied; original LLM retired"
+ },
+ "tweet89": {
+  "method": "Cequel",
+  "embedder": "instructor-large",
+  "llm": "gpt-4o-mini",
+  "note": ""
+ },
+ "bbcnews": {
+  "method": "Cequel",
+  "embedder": "instructor-large",
+  "llm": "gpt-4o-mini",
+  "note": ""
+ },
+ "reddit_s2s": {
+  "method": "Cequel",
+  "embedder": "instructor-large",
+  "llm": "gpt-4o-mini",
+  "note": "re-matched to current holder"
+ },
+ "mcid": {
+  "method": "NILC",
+  "embedder": "instructor-large",
+  "llm": "gpt-4o-mini",
+  "note": "encoder proxied"
+ },
+ "snips": {
+  "method": "NILC",
+  "embedder": "instructor-large",
+  "llm": "gpt-4o-mini",
+  "note": "encoder proxied"
+ },
+ "dbpedia": {
+  "method": "NILC",
+  "embedder": "instructor-large",
+  "llm": "gpt-4o-mini",
+  "note": "encoder proxied"
+ },
+ "fewnerd": {
+  "method": "LLM-MemCluster",
+  "embedder": "gemini-embedding-001",
+  "llm": "gpt-4.1-mini",
+  "note": "holder uses no encoder"
+ }
+}

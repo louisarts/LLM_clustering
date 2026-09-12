@@ -1,0 +1,90 @@
+{
+  "bench": "banking77",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Unauthorized Transactions",
+      "definition": "Queries about transactions that the customer did not authorize or recognize."
+    },
+    {
+      "id": 2,
+      "name": "Card Issues",
+      "definition": "Queries related to problems with using, receiving, or activating cards."
+    },
+    {
+      "id": 3,
+      "name": "Account Closure",
+      "definition": "Requests to close or delete an account."
+    },
+    {
+      "id": 4,
+      "name": "Identity Verification",
+      "definition": "Queries about the process or requirements for verifying identity."
+    },
+    {
+      "id": 5,
+      "name": "Refunds",
+      "definition": "Queries about receiving refunds for transactions or purchases."
+    },
+    {
+      "id": 6,
+      "name": "Transfers",
+      "definition": "Queries about making, receiving, or issues with money transfers."
+    },
+    {
+      "id": 7,
+      "name": "Fees and Charges",
+      "definition": "Queries about fees or charges applied to transactions or accounts."
+    },
+    {
+      "id": 8,
+      "name": "ATM and Cash Withdrawal",
+      "definition": "Queries related to using ATMs or issues with cash withdrawals."
+    },
+    {
+      "id": 9,
+      "name": "Top-Up Issues",
+      "definition": "Queries about adding funds to an account or issues with top-ups."
+    },
+    {
+      "id": 10,
+      "name": "Contactless Payment Issues",
+      "definition": "Queries about problems with using contactless payments."
+    },
+    {
+      "id": 11,
+      "name": "PIN and Security",
+      "definition": "Queries about PIN issues, security concerns, or resetting passwords."
+    },
+    {
+      "id": 12,
+      "name": "Currency Exchange",
+      "definition": "Queries about exchanging currencies or related fees."
+    },
+    {
+      "id": 13,
+      "name": "Account Information Update",
+      "definition": "Queries about changing personal information or account details."
+    },
+    {
+      "id": 14,
+      "name": "Virtual and Disposable Cards",
+      "definition": "Queries about obtaining or using virtual or disposable cards."
+    },
+    {
+      "id": 15,
+      "name": "Delivery and Shipping",
+      "definition": "Queries about the delivery or shipping of cards or documents."
+    },
+    {
+      "id": 16,
+      "name": "General Product Information",
+      "definition": "Queries about general information on products or services offered."
+    }
+  ]
+}

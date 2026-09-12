@@ -1,0 +1,160 @@
+{
+  "bench": "fewevent",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "soldier",
+      "definition": "Documents related to individuals who served in the military"
+    },
+    {
+      "id": 2,
+      "name": "filmmaker",
+      "definition": "Documents related to individuals involved in filmmaking and documentaries"
+    },
+    {
+      "id": 3,
+      "name": "hack",
+      "definition": "Documents related to hacking incidents"
+    },
+    {
+      "id": 4,
+      "name": "graduation",
+      "definition": "Documents related to academic graduations"
+    },
+    {
+      "id": 5,
+      "name": "court case",
+      "definition": "Documents related to legal court cases"
+    },
+    {
+      "id": 6,
+      "name": "wedding",
+      "definition": "Documents related to wedding events"
+    },
+    {
+      "id": 7,
+      "name": "election",
+      "definition": "Documents related to election processes"
+    },
+    {
+      "id": 8,
+      "name": "president",
+      "definition": "Documents related to individuals holding presidential positions"
+    },
+    {
+      "id": 9,
+      "name": "leader",
+      "definition": "Documents related to individuals in leadership roles"
+    },
+    {
+      "id": 10,
+      "name": "marriage",
+      "definition": "Documents related to marriage events"
+    },
+    {
+      "id": 11,
+      "name": "return",
+      "definition": "Documents related to returning items"
+    },
+    {
+      "id": 12,
+      "name": "take",
+      "definition": "Documents related to taking someone or something"
+    },
+    {
+      "id": 13,
+      "name": "professor",
+      "definition": "Documents related to individuals in professorial roles"
+    },
+    {
+      "id": 14,
+      "name": "film",
+      "definition": "Documents related to films and documentaries"
+    },
+    {
+      "id": 15,
+      "name": "chairperson",
+      "definition": "Documents related to individuals holding chairperson positions"
+    },
+    {
+      "id": 16,
+      "name": "retirement",
+      "definition": "Documents related to retirement processes"
+    },
+    {
+      "id": 17,
+      "name": "manufacturing",
+      "definition": "Documents related to manufacturing processes"
+    },
+    {
+      "id": 18,
+      "name": "teacher",
+      "definition": "Documents related to teaching roles"
+    },
+    {
+      "id": 19,
+      "name": "work",
+      "definition": "Documents related to work activities"
+    },
+    {
+      "id": 20,
+      "name": "call",
+      "definition": "Documents related to phone calls"
+    },
+    {
+      "id": 21,
+      "name": "move",
+      "definition": "Documents related to relocation or movement"
+    },
+    {
+      "id": 22,
+      "name": "gold",
+      "definition": "Documents related to gold medals"
+    },
+    {
+      "id": 23,
+      "name": "chairman",
+      "definition": "Documents related to individuals holding chairman positions"
+    },
+    {
+      "id": 24,
+      "name": "singer",
+      "definition": "Documents related to individuals involved in singing"
+    },
+    {
+      "id": 25,
+      "name": "professor",
+      "definition": "Documents related to individuals in professorial roles"
+    },
+    {
+      "id": 26,
+      "name": "medal",
+      "definition": "Documents related to winning medals"
+    },
+    {
+      "id": 27,
+      "name": "command",
+      "definition": "Documents related to commanding roles"
+    },
+    {
+      "id": 28,
+      "name": "faces",
+      "definition": "Documents related to facing charges"
+    },
+    {
+      "id": 29,
+      "name": "sentence",
+      "definition": "Documents related to sentencing processes"
+    },
+    {
+      "id": 30,
+      "name": "push",
+      "definition": "Documents related to pushing actions"
+    }
+  ]
+}

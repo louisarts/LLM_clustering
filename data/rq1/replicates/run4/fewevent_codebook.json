@@ -1,0 +1,57 @@
+{
+  "bench": "fewevent",
+  "run": 4,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Personal Status & Relationships",
+      "definition": "Events or states related to personal relationships and marital status."
+    },
+    {
+      "id": 2,
+      "name": "Professional & Organizational Roles",
+      "definition": "Describes a person's occupation, official title, or group affiliation."
+    },
+    {
+      "id": 3,
+      "name": "Achievements & Competitions",
+      "definition": "Denotes success, recognition, or participation in contests."
+    },
+    {
+      "id": 4,
+      "name": "Work & Administrative Activities",
+      "definition": "Pertains to tasks, responsibilities, or functions within an organization or system."
+    },
+    {
+      "id": 5,
+      "name": "Public & Cultural Events",
+      "definition": "Refers to collective public expressions, cultural presentations, or commercial activities."
+    },
+    {
+      "id": 6,
+      "name": "Movement & Location",
+      "definition": "Indicates a change in physical location, presence, or the act of transporting."
+    },
+    {
+      "id": 7,
+      "name": "Communication & Expression",
+      "definition": "Involves verbal, written, or artistic communication."
+    },
+    {
+      "id": 8,
+      "name": "Legal & Conflict Events",
+      "definition": "Describes legal proceedings, criminal acts, or violent encounters."
+    },
+    {
+      "id": 9,
+      "name": "Financial & Commercial Transactions",
+      "definition": "Relates to monetary transactions, acquisition, or financial outcomes."
+    },
+    {
+      "id": 10,
+      "name": "General Actions & States",
+      "definition": "Describes a general action, state of being, or inclusion not covered by other categories."
+    }
+  ]
+}

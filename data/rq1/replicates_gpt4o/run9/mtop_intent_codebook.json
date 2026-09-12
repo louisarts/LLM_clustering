@@ -1,0 +1,85 @@
+{
+  "bench": "mtop_intent",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Requests to set an alarm for a specific time or recurring schedule."
+    },
+    {
+      "id": 2,
+      "name": "Set Timer",
+      "definition": "Requests to set, adjust, or inquire about a countdown timer."
+    },
+    {
+      "id": 3,
+      "name": "Send Message",
+      "definition": "Requests to send a text or video message to a contact."
+    },
+    {
+      "id": 4,
+      "name": "Make Call",
+      "definition": "Requests to initiate a phone or video call with a contact."
+    },
+    {
+      "id": 5,
+      "name": "Manage Reminders",
+      "definition": "Requests to create, update, or delete reminders."
+    },
+    {
+      "id": 6,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or forecasted weather information."
+    },
+    {
+      "id": 7,
+      "name": "Play Music",
+      "definition": "Requests to play, change, or repeat music tracks or playlists."
+    },
+    {
+      "id": 8,
+      "name": "News Inquiry",
+      "definition": "Requests for the latest news or specific news topics."
+    },
+    {
+      "id": 9,
+      "name": "Recipe Inquiry",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 10,
+      "name": "Contact Inquiry",
+      "definition": "Requests for information about contacts or their availability."
+    },
+    {
+      "id": 11,
+      "name": "Event Inquiry",
+      "definition": "Requests for information about events or activities."
+    },
+    {
+      "id": 12,
+      "name": "Timer Inquiry",
+      "definition": "Requests to check the remaining time on a timer."
+    },
+    {
+      "id": 13,
+      "name": "Alarm Inquiry",
+      "definition": "Requests to check existing alarms."
+    },
+    {
+      "id": 14,
+      "name": "Status Update",
+      "definition": "Requests to change or update the user's status or visibility."
+    },
+    {
+      "id": 15,
+      "name": "General Inquiry",
+      "definition": "Requests for general information not covered by other categories."
+    }
+  ]
+}

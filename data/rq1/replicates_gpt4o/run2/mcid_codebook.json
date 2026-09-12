@@ -1,0 +1,65 @@
+{
+  "bench": "mcid",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General COVID-19 Information",
+      "definition": "Requests for general information about COVID-19, including what it is and how it spreads."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Diagnosis",
+      "definition": "Inquiries about symptoms of COVID-19 and how to determine if one has the virus."
+    },
+    {
+      "id": 3,
+      "name": "Prevention and Safety Measures",
+      "definition": "Questions about how to prevent COVID-19 infection and stay safe."
+    },
+    {
+      "id": 4,
+      "name": "Treatment and Cure",
+      "definition": "Requests for information on treatments and cures for COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Travel and Restrictions",
+      "definition": "Inquiries about travel safety and restrictions related to COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Myths and Misinformation",
+      "definition": "Questions about myths and misinformation surrounding COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Statistics and Updates",
+      "definition": "Requests for statistics and updates on COVID-19 cases and news."
+    },
+    {
+      "id": 8,
+      "name": "Animal and Environmental Concerns",
+      "definition": "Questions about COVID-19's impact on animals and the environment."
+    },
+    {
+      "id": 9,
+      "name": "Donations and Support",
+      "definition": "Requests for information on how to donate or support COVID-19-related causes."
+    },
+    {
+      "id": 10,
+      "name": "Gratitude and Greetings",
+      "definition": "Expressions of gratitude or greetings to the bot or doctor."
+    },
+    {
+      "id": 11,
+      "name": "Sharing Information",
+      "definition": "Requests to share information or services with others."
+    }
+  ]
+}

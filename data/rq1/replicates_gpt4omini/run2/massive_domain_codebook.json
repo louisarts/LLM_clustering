@@ -1,0 +1,100 @@
+{
+  "bench": "massive_domain",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music",
+      "definition": "Requests related to playing, pausing, or managing music."
+    },
+    {
+      "id": 2,
+      "name": "Weather",
+      "definition": "Inquiries about current or forecasted weather conditions."
+    },
+    {
+      "id": 3,
+      "name": "Calendar Management",
+      "definition": "Requests for scheduling, rescheduling, or managing calendar events."
+    },
+    {
+      "id": 4,
+      "name": "Email Management",
+      "definition": "Requests related to sending, composing, or managing emails."
+    },
+    {
+      "id": 5,
+      "name": "Reminders",
+      "definition": "Requests to set reminders for events or tasks."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Transportation",
+      "definition": "Requests related to booking travel, checking routes, or transportation services."
+    },
+    {
+      "id": 7,
+      "name": "Food and Cooking",
+      "definition": "Requests for recipes, cooking instructions, or food-related tasks."
+    },
+    {
+      "id": 8,
+      "name": "Social Media",
+      "definition": "Requests related to checking or managing social media accounts."
+    },
+    {
+      "id": 9,
+      "name": "News and Information",
+      "definition": "Inquiries about current events, news updates, or general information."
+    },
+    {
+      "id": 10,
+      "name": "Definitions and Explanations",
+      "definition": "Requests for definitions or explanations of terms and concepts."
+    },
+    {
+      "id": 11,
+      "name": "Home Automation",
+      "definition": "Requests to control smart home devices or settings."
+    },
+    {
+      "id": 12,
+      "name": "Shopping and Lists",
+      "definition": "Requests related to creating or managing shopping lists."
+    },
+    {
+      "id": 13,
+      "name": "Games and Entertainment",
+      "definition": "Requests related to playing games or accessing entertainment content."
+    },
+    {
+      "id": 14,
+      "name": "Personal Assistance",
+      "definition": "General inquiries or requests for assistance in daily tasks."
+    },
+    {
+      "id": 15,
+      "name": "Health and Fitness",
+      "definition": "Requests related to health, fitness, or wellness information."
+    },
+    {
+      "id": 16,
+      "name": "Finance",
+      "definition": "Requests related to financial information, such as currency exchange rates."
+    },
+    {
+      "id": 17,
+      "name": "Transportation Services",
+      "definition": "Requests for ride-sharing or taxi services."
+    },
+    {
+      "id": 18,
+      "name": "Miscellaneous",
+      "definition": "Requests that do not fit into other defined categories."
+    }
+  ]
+}

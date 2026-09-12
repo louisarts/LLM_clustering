@@ -1,0 +1,305 @@
+{
+  "bench": "clinc150_domain",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Meeting Scheduling",
+      "definition": "Utterances related to scheduling or attending meetings."
+    },
+    {
+      "id": 2,
+      "name": "Banking Assistance",
+      "definition": "Utterances related to banking services or inquiries."
+    },
+    {
+      "id": 3,
+      "name": "Currency Conversion",
+      "definition": "Utterances related to converting currencies."
+    },
+    {
+      "id": 4,
+      "name": "Unit Conversion",
+      "definition": "Utterances related to converting units of measurement."
+    },
+    {
+      "id": 5,
+      "name": "Travel Information",
+      "definition": "Utterances related to travel inquiries or planning."
+    },
+    {
+      "id": 6,
+      "name": "Vehicle Assistance",
+      "definition": "Utterances related to vehicle-related inquiries or assistance."
+    },
+    {
+      "id": 7,
+      "name": "Utility Bill Inquiries",
+      "definition": "Utterances related to inquiries about utility bills."
+    },
+    {
+      "id": 8,
+      "name": "Credit Card Assistance",
+      "definition": "Utterances related to credit card services or inquiries."
+    },
+    {
+      "id": 9,
+      "name": "Calendar Management",
+      "definition": "Utterances related to managing or checking calendar events."
+    },
+    {
+      "id": 10,
+      "name": "Mathematical Calculations",
+      "definition": "Utterances related to mathematical calculations or operations."
+    },
+    {
+      "id": 11,
+      "name": "Appointment Scheduling",
+      "definition": "Utterances related to scheduling appointments or services."
+    },
+    {
+      "id": 12,
+      "name": "Personal Information Inquiry",
+      "definition": "Utterances related to inquiring about personal information."
+    },
+    {
+      "id": 13,
+      "name": "Music Playback",
+      "definition": "Utterances related to playing music or songs."
+    },
+    {
+      "id": 14,
+      "name": "Language Translation",
+      "definition": "Utterances related to translating languages or words."
+    },
+    {
+      "id": 15,
+      "name": "Restaurant Reservations",
+      "definition": "Utterances related to making reservations at restaurants."
+    },
+    {
+      "id": 16,
+      "name": "General Knowledge Inquiry",
+      "definition": "Utterances related to general knowledge or trivia questions."
+    },
+    {
+      "id": 17,
+      "name": "Insurance Inquiries",
+      "definition": "Utterances related to insurance policies or inquiries."
+    },
+    {
+      "id": 18,
+      "name": "Alarm Setting",
+      "definition": "Utterances related to setting alarms or reminders."
+    },
+    {
+      "id": 19,
+      "name": "Location Sharing",
+      "definition": "Utterances related to sharing or checking locations."
+    },
+    {
+      "id": 20,
+      "name": "Shopping List Management",
+      "definition": "Utterances related to managing or updating shopping lists."
+    },
+    {
+      "id": 21,
+      "name": "Device Connectivity",
+      "definition": "Utterances related to connecting or disconnecting devices."
+    },
+    {
+      "id": 22,
+      "name": "Volume Control",
+      "definition": "Utterances related to adjusting volume settings."
+    },
+    {
+      "id": 23,
+      "name": "Language Preference",
+      "definition": "Utterances related to changing language preferences."
+    },
+    {
+      "id": 24,
+      "name": "Weather Information",
+      "definition": "Utterances related to checking or inquiring about weather conditions."
+    },
+    {
+      "id": 25,
+      "name": "Healthcare Inquiries",
+      "definition": "Utterances related to healthcare inquiries or information."
+    },
+    {
+      "id": 26,
+      "name": "Pet Related Inquiries",
+      "definition": "Utterances related to pets or animals."
+    },
+    {
+      "id": 27,
+      "name": "Entertainment Recommendations",
+      "definition": "Utterances related to seeking entertainment recommendations."
+    },
+    {
+      "id": 28,
+      "name": "Cooking Instructions",
+      "definition": "Utterances related to cooking instructions or recipes."
+    },
+    {
+      "id": 29,
+      "name": "Language Learning",
+      "definition": "Utterances related to learning or translating languages."
+    },
+    {
+      "id": 30,
+      "name": "Vehicle Maintenance",
+      "definition": "Utterances related to vehicle maintenance or inquiries."
+    },
+    {
+      "id": 31,
+      "name": "Lost or Stolen Card Assistance",
+      "definition": "Utterances related to lost or stolen card assistance."
+    },
+    {
+      "id": 32,
+      "name": "Luggage Tracking",
+      "definition": "Utterances related to tracking lost or delayed luggage."
+    },
+    {
+      "id": 33,
+      "name": "Music Identification",
+      "definition": "Utterances related to identifying songs or music."
+    },
+    {
+      "id": 34,
+      "name": "Payment Assistance",
+      "definition": "Utterances related to making payments or bill inquiries."
+    },
+    {
+      "id": 35,
+      "name": "Device Settings Adjustment",
+      "definition": "Utterances related to adjusting device settings."
+    },
+    {
+      "id": 36,
+      "name": "Travel Visa Inquiries",
+      "definition": "Utterances related to travel visa requirements or inquiries."
+    },
+    {
+      "id": 37,
+      "name": "Recipe Search",
+      "definition": "Utterances related to searching for recipes or cooking instructions."
+    },
+    {
+      "id": 38,
+      "name": "Health and Wellness Inquiries",
+      "definition": "Utterances related to health and wellness inquiries."
+    },
+    {
+      "id": 39,
+      "name": "Personal Finance Inquiries",
+      "definition": "Utterances related to personal finance or banking inquiries."
+    },
+    {
+      "id": 40,
+      "name": "Language Preferences",
+      "definition": "Utterances related to changing language preferences."
+    },
+    {
+      "id": 41,
+      "name": "Device Connectivity",
+      "definition": "Utterances related to connecting or disconnecting devices."
+    },
+    {
+      "id": 42,
+      "name": "Volume Control",
+      "definition": "Utterances related to adjusting volume settings."
+    },
+    {
+      "id": 43,
+      "name": "Language Preference",
+      "definition": "Utterances related to changing language preferences."
+    },
+    {
+      "id": 44,
+      "name": "Weather Information",
+      "definition": "Utterances related to checking or inquiring about weather conditions."
+    },
+    {
+      "id": 45,
+      "name": "Healthcare Inquiries",
+      "definition": "Utterances related to healthcare inquiries or information."
+    },
+    {
+      "id": 46,
+      "name": "Pet Related Inquiries",
+      "definition": "Utterances related to pets or animals."
+    },
+    {
+      "id": 47,
+      "name": "Entertainment Recommendations",
+      "definition": "Utterances related to seeking entertainment recommendations."
+    },
+    {
+      "id": 48,
+      "name": "Cooking Instructions",
+      "definition": "Utterances related to cooking instructions or recipes."
+    },
+    {
+      "id": 49,
+      "name": "Language Learning",
+      "definition": "Utterances related to learning or translating languages."
+    },
+    {
+      "id": 50,
+      "name": "Vehicle Maintenance",
+      "definition": "Utterances related to vehicle maintenance or inquiries."
+    },
+    {
+      "id": 51,
+      "name": "Lost or Stolen Card Assistance",
+      "definition": "Utterances related to lost or stolen card assistance."
+    },
+    {
+      "id": 52,
+      "name": "Luggage Tracking",
+      "definition": "Utterances related to tracking lost or delayed luggage."
+    },
+    {
+      "id": 53,
+      "name": "Music Identification",
+      "definition": "Utterances related to identifying songs or music."
+    },
+    {
+      "id": 54,
+      "name": "Payment Assistance",
+      "definition": "Utterances related to making payments or bill inquiries."
+    },
+    {
+      "id": 55,
+      "name": "Device Settings Adjustment",
+      "definition": "Utterances related to adjusting device settings."
+    },
+    {
+      "id": 56,
+      "name": "Travel Visa Inquiries",
+      "definition": "Utterances related to travel visa requirements or inquiries."
+    },
+    {
+      "id": 57,
+      "name": "Recipe Search",
+      "definition": "Utterances related to searching for recipes or cooking instructions."
+    },
+    {
+      "id": 58,
+      "name": "Health and Wellness Inquiries",
+      "definition": "Utterances related to health and wellness inquiries."
+    },
+    {
+      "id": 59,
+      "name": "Personal Finance Inquiries",
+      "definition": "Utterances related to personal finance or banking inquiries."
+    }
+  ]
+}

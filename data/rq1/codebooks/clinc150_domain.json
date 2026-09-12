@@ -1,0 +1,119 @@
+{
+  "bench": "clinc150_domain",
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "n_discovery_docs": 300,
+  "n_samples": 1,
+  "discovery_seed": 0,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Finance",
+      "definition": "Managing personal financial accounts, transactions, bills, credit, and related inquiries."
+    },
+    {
+      "id": 2,
+      "name": "Information & Knowledge",
+      "definition": "Retrieving general facts, definitions, spellings, or other non-personal knowledge."
+    },
+    {
+      "id": 3,
+      "name": "Assistant Persona",
+      "definition": "Inquiries about the assistant's identity, origin, or personal attributes."
+    },
+    {
+      "id": 4,
+      "name": "Assistant Control",
+      "definition": "Commands to manage the assistant's current operation or interaction flow."
+    },
+    {
+      "id": 5,
+      "name": "Media & Entertainment",
+      "definition": "Controlling media playback, identifying content, or requesting entertainment like jokes."
+    },
+    {
+      "id": 6,
+      "name": "Cooking & Food",
+      "definition": "Inquiries related to recipes, cooking instructions, food preparation, or food safety."
+    },
+    {
+      "id": 7,
+      "name": "Travel & Transportation",
+      "definition": "Planning or managing travel, requesting transportation services, or seeking travel-related information."
+    },
+    {
+      "id": 8,
+      "name": "Vehicle Management",
+      "definition": "Inquiries or instructions related to personal vehicle status, maintenance, or operation."
+    },
+    {
+      "id": 9,
+      "name": "Lists & Reminders",
+      "definition": "Managing shopping lists, to-do lists, or personal reminders."
+    },
+    {
+      "id": 10,
+      "name": "Time & Date",
+      "definition": "Inquiries about current time/date, time zones, or setting time-based utilities like alarms and timers."
+    },
+    {
+      "id": 11,
+      "name": "Location & Navigation",
+      "definition": "Finding places, determining current location, getting directions, or sharing location."
+    },
+    {
+      "id": 12,
+      "name": "Communication",
+      "definition": "Initiating or managing direct communication with others."
+    },
+    {
+      "id": 13,
+      "name": "Work & HR",
+      "definition": "Inquiries or requests related to employment, such as vacation time or work documents."
+    },
+    {
+      "id": 14,
+      "name": "Reservations & Bookings",
+      "definition": "Creating, modifying, or checking the status of reservations for services or venues."
+    },
+    {
+      "id": 15,
+      "name": "Assistant Settings",
+      "definition": "Modifying the assistant's operational settings or personal preferences."
+    },
+    {
+      "id": 16,
+      "name": "Smart Home Control",
+      "definition": "Issuing commands to control connected smart home devices."
+    },
+    {
+      "id": 17,
+      "name": "Calculations & Conversions",
+      "definition": "Performing mathematical operations or converting units of measurement."
+    },
+    {
+      "id": 18,
+      "name": "Calendar & Scheduling",
+      "definition": "Managing personal or shared calendar events and schedules."
+    },
+    {
+      "id": 19,
+      "name": "Shopping & Order Management",
+      "definition": "Initiating purchases or tracking the status of existing orders."
+    },
+    {
+      "id": 20,
+      "name": "Device Management",
+      "definition": "Managing personal electronic devices, such as locating a lost phone or connecting devices."
+    },
+    {
+      "id": 21,
+      "name": "Games & Randomness",
+      "definition": "Requesting random outcomes or playing simple games."
+    },
+    {
+      "id": 22,
+      "name": "Personal Records",
+      "definition": "Retrieving or managing personal documents or records not covered by other categories."
+    }
+  ]
+}

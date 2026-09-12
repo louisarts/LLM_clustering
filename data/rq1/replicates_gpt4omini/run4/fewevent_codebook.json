@@ -1,0 +1,110 @@
+{
+  "bench": "fewevent",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Artistic Performance",
+      "definition": "Events related to singing, acting, or other forms of artistic expression."
+    },
+    {
+      "id": 2,
+      "name": "Sports Achievement",
+      "definition": "Events related to winning medals or achieving notable success in sports."
+    },
+    {
+      "id": 3,
+      "name": "Military Command",
+      "definition": "Events involving the command or leadership of military forces."
+    },
+    {
+      "id": 4,
+      "name": "Marriage",
+      "definition": "Events related to the act of marrying or being married."
+    },
+    {
+      "id": 5,
+      "name": "Education",
+      "definition": "Events related to academic pursuits, such as studying or teaching."
+    },
+    {
+      "id": 6,
+      "name": "Political Leadership",
+      "definition": "Events involving individuals in positions of political authority or influence."
+    },
+    {
+      "id": 7,
+      "name": "Legal Actions",
+      "definition": "Events related to legal proceedings, such as arrests or fines."
+    },
+    {
+      "id": 8,
+      "name": "Travel",
+      "definition": "Events involving movement from one place to another."
+    },
+    {
+      "id": 9,
+      "name": "Protests and Demonstrations",
+      "definition": "Events involving public gatherings to express dissent or support for a cause."
+    },
+    {
+      "id": 10,
+      "name": "Employment",
+      "definition": "Events related to job positions, hiring, or work activities."
+    },
+    {
+      "id": 11,
+      "name": "Sales and Transactions",
+      "definition": "Events related to the buying and selling of goods or services."
+    },
+    {
+      "id": 12,
+      "name": "Social Relationships",
+      "definition": "Events involving personal relationships, such as friendships or partnerships."
+    },
+    {
+      "id": 13,
+      "name": "Public Statements",
+      "definition": "Events involving declarations or comments made by individuals."
+    },
+    {
+      "id": 14,
+      "name": "Cultural Events",
+      "definition": "Events related to cultural activities, such as concerts or performances."
+    },
+    {
+      "id": 15,
+      "name": "Scientific and Academic Work",
+      "definition": "Events related to research, teaching, or academic contributions."
+    },
+    {
+      "id": 16,
+      "name": "Criminal Activity",
+      "definition": "Events involving illegal actions or accusations."
+    },
+    {
+      "id": 17,
+      "name": "Community Engagement",
+      "definition": "Events involving participation in community activities or initiatives."
+    },
+    {
+      "id": 18,
+      "name": "Health and Medical Events",
+      "definition": "Events related to health issues, medical conditions, or treatments."
+    },
+    {
+      "id": 19,
+      "name": "Historical Events",
+      "definition": "Events that are significant in a historical context."
+    },
+    {
+      "id": 20,
+      "name": "Media and Communication",
+      "definition": "Events related to the dissemination of information through various media."
+    }
+  ]
+}

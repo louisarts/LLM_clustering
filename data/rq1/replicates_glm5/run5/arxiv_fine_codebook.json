@@ -1,0 +1,99 @@
+{
+  "bench": "arxiv_fine",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "astro-ph",
+      "definition": "Papers concerning astrophysics, cosmology, stellar and planetary science, and astronomical observations."
+    },
+    {
+      "id": 2,
+      "name": "cond-mat",
+      "definition": "Papers on condensed matter physics, including materials science, quantum matter, and statistical mechanics of solids."
+    },
+    {
+      "id": 3,
+      "name": "gr-qc",
+      "definition": "Papers on general relativity, quantum cosmology, and gravitational physics."
+    },
+    {
+      "id": 4,
+      "name": "hep-ex",
+      "definition": "Papers on high-energy physics experiments, particle detectors, and accelerator physics."
+    },
+    {
+      "id": 5,
+      "name": "hep-th",
+      "definition": "Papers on high-energy physics theory, including quantum field theory and string theory."
+    },
+    {
+      "id": 6,
+      "name": "math",
+      "definition": "Papers on pure and applied mathematics, including algebra, geometry, analysis, and topology."
+    },
+    {
+      "id": 7,
+      "name": "nlin",
+      "definition": "Papers on nonlinear sciences, including chaotic dynamics, pattern formation, and cellular automata."
+    },
+    {
+      "id": 8,
+      "name": "nucl-ex",
+      "definition": "Papers on nuclear physics experiments."
+    },
+    {
+      "id": 9,
+      "name": "nucl-th",
+      "definition": "Papers on nuclear theory."
+    },
+    {
+      "id": 10,
+      "name": "physics",
+      "definition": "Papers on general physics, including fluid dynamics, optics, plasma physics, and geophysics."
+    },
+    {
+      "id": 11,
+      "name": "quant-ph",
+      "definition": "Papers on quantum physics, quantum information, and quantum computation."
+    },
+    {
+      "id": 12,
+      "name": "cs",
+      "definition": "Papers on computer science, including machine learning, software engineering, systems, and theory."
+    },
+    {
+      "id": 13,
+      "name": "math-ph",
+      "definition": "Papers on mathematical physics, focusing on the mathematical methods used in physics."
+    },
+    {
+      "id": 14,
+      "name": "q-bio",
+      "definition": "Papers on quantitative biology, including computational and mathematical biology."
+    },
+    {
+      "id": 15,
+      "name": "q-fin",
+      "definition": "Papers on quantitative finance, including mathematical finance, risk management, and portfolio management."
+    },
+    {
+      "id": 16,
+      "name": "stat",
+      "definition": "Papers on statistics, including machine learning applications in statistics and methodology."
+    },
+    {
+      "id": 17,
+      "name": "eess",
+      "definition": "Papers on electrical engineering and systems science, including signal processing and control systems."
+    },
+    {
+      "id": 18,
+      "name": "econ",
+      "definition": "Papers on economics, including theoretical and applied econometrics."
+    }
+  ]
+}

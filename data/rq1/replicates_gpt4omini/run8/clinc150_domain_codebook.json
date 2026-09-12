@@ -1,0 +1,90 @@
+{
+  "bench": "clinc150_domain",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking and Finance",
+      "definition": "Inquiries and actions related to bank accounts, transactions, credit cards, and financial services."
+    },
+    {
+      "id": 2,
+      "name": "Travel and Transportation",
+      "definition": "Questions and requests regarding travel plans, transportation options, and travel advisories."
+    },
+    {
+      "id": 3,
+      "name": "Food and Cooking",
+      "definition": "Requests for recipes, meal suggestions, and food-related inquiries."
+    },
+    {
+      "id": 4,
+      "name": "Health and Wellness",
+      "definition": "Inquiries related to health plans, medical advice, and wellness information."
+    },
+    {
+      "id": 5,
+      "name": "Weather",
+      "definition": "Requests for current weather conditions and forecasts."
+    },
+    {
+      "id": 6,
+      "name": "Reminders and To-Do Lists",
+      "definition": "Management of reminders, tasks, and to-do lists."
+    },
+    {
+      "id": 7,
+      "name": "Technical Support",
+      "definition": "Requests for assistance with devices, software, and technical issues."
+    },
+    {
+      "id": 8,
+      "name": "Language and Communication",
+      "definition": "Inquiries about language translation, communication styles, and accents."
+    },
+    {
+      "id": 9,
+      "name": "Shopping and Purchases",
+      "definition": "Requests related to shopping lists, product inquiries, and purchase actions."
+    },
+    {
+      "id": 10,
+      "name": "Entertainment",
+      "definition": "Inquiries about music, movies, jokes, and other forms of entertainment."
+    },
+    {
+      "id": 11,
+      "name": "Personal Information",
+      "definition": "Requests for personal data, account details, and identity verification."
+    },
+    {
+      "id": 12,
+      "name": "Home and Maintenance",
+      "definition": "Inquiries related to home maintenance, repairs, and household tasks."
+    },
+    {
+      "id": 13,
+      "name": "Education and Learning",
+      "definition": "Requests for information on educational topics, learning resources, and study assistance."
+    },
+    {
+      "id": 14,
+      "name": "Reservations and Appointments",
+      "definition": "Requests for making, modifying, or canceling reservations and appointments."
+    },
+    {
+      "id": 15,
+      "name": "Travel Documentation",
+      "definition": "Inquiries about visas, travel documents, and related requirements."
+    },
+    {
+      "id": 16,
+      "name": "Miscellaneous",
+      "definition": "General inquiries that do not fit into other specific categories."
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "bench": "fewrel",
+  "run": 6,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "CreatorOf",
+      "definition": "One entity is the creator, author, designer, developer, composer, or producer of the other."
+    },
+    {
+      "id": 2,
+      "name": "LocatedIn",
+      "definition": "One entity is physically situated within the geographical area of the other."
+    },
+    {
+      "id": 3,
+      "name": "MemberOfGroup",
+      "definition": "One entity is a person, team, or smaller unit that belongs to or participates in a larger group, organization, or event."
+    },
+    {
+      "id": 4,
+      "name": "AwardRecipient",
+      "definition": "One entity has received or been nominated for an award or title represented by the other."
+    },
+    {
+      "id": 5,
+      "name": "PlatformFor",
+      "definition": "One entity is a software or content and the other is the hardware or operating system it runs on or is compatible with."
+    },
+    {
+      "id": 6,
+      "name": "ProfessionOrRole",
+      "definition": "One entity describes the profession, official role, or field of study of the other."
+    },
+    {
+      "id": 7,
+      "name": "VariantOrAlias",
+      "definition": "One entity is an alternative name, translation, or variant form of the other."
+    },
+    {
+      "id": 8,
+      "name": "PublisherOrDistributor",
+      "definition": "One entity is a creative work (e.g., film, album, book) and the other is the company that publishes, broadcasts, or distributes it."
+    },
+    {
+      "id": 9,
+      "name": "ParentOrganizationOf",
+      "definition": "One entity is a larger organization that owns, governs, or contains the other."
+    },
+    {
+      "id": 10,
+      "name": "FamilyRelation",
+      "definition": "One entity is related to the other by family ties (e.g., parent, child, sibling)."
+    },
+    {
+      "id": 11,
+      "name": "TributaryOf",
+      "definition": "One entity is a river or stream that flows into the other."
+    },
+    {
+      "id": 12,
+      "name": "InstanceOf",
+      "definition": "One entity is an example or specific type of the broader category represented by the other."
+    },
+    {
+      "id": 13,
+      "name": "ListedOn",
+      "definition": "One entity is officially recorded or designated on a list or register represented by the other."
+    },
+    {
+      "id": 14,
+      "name": "LanguageOf",
+      "definition": "One entity is written, spoken, or performed in the language of the other."
+    },
+    {
+      "id": 15,
+      "name": "TemporalSuccession",
+      "definition": "One entity precedes, succeeds, or is a version/part of the other in time."
+    },
+    {
+      "id": 16,
+      "name": "PoliticalAffiliation",
+      "definition": "One entity is a person and the other is their political party or ideology."
+    },
+    {
+      "id": 17,
+      "name": "NationalityOrOrigin",
+      "definition": "One entity is a person, group, or product, and the other is their country or region of origin or citizenship."
+    },
+    {
+      "id": 18,
+      "name": "HomeGroundOrVenue",
+      "definition": "One entity is a sports team or event, and the other is its primary venue or location."
+    },
+    {
+      "id": 19,
+      "name": "CharacterIn",
+      "definition": "One entity is a fictional character and the other is the work they appear in."
+    },
+    {
+      "id": 20,
+      "name": "PlaysInstrument",
+      "definition": "One entity is a person and the other is the musical instrument they play."
+    },
+    {
+      "id": 21,
+      "name": "AssociatedWithFieldOrStyle",
+      "definition": "One entity is a person, concept, or work associated with a particular field, movement, or artistic style."
+    },
+    {
+      "id": 22,
+      "name": "OwnerOf",
+      "definition": "One entity legally possesses or controls the other."
+    },
+    {
+      "id": 23,
+      "name": "FlowsInto",
+      "definition": "One entity is a body of water that empties into another."
+    },
+    {
+      "id": 24,
+      "name": "GeopoliticalRelation",
+      "definition": "Describes a spatial or political relationship between two geographical or political entities, such as annexation or being located between."
+    },
+    {
+      "id": 25,
+      "name": "PartiallyComposedOf",
+      "definition": "One entity is a component or subdivision of the other."
+    },
+    {
+      "id": 26,
+      "name": "Co-occurrence",
+      "definition": "Two entities are mentioned together as examples of a similar type or context, without a direct hierarchical or causal link."
+    },
+    {
+      "id": 27,
+      "name": "AgentOfAction",
+      "definition": "One entity is an action or event, and the other is the person or group performing that action."
+    },
+    {
+      "id": 28,
+      "name": "ServesLocation",
+      "definition": "One entity provides a service to or is designated for a specific location."
+    },
+    {
+      "id": 29,
+      "name": "AssociatedWithTime",
+      "definition": "One entity is a person or event, and the other is a specific year or period of time with which they are directly associated."
+    },
+    {
+      "id": 30,
+      "name": "ServiceProvidedBy",
+      "definition": "One entity is a location or facility, and the other is the service provider that operates or serves it."
+    }
+  ]
+}

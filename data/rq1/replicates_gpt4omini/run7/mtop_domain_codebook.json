@@ -1,0 +1,85 @@
+{
+  "bench": "mtop_domain",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm Management",
+      "definition": "Setting, modifying, or canceling alarms."
+    },
+    {
+      "id": 2,
+      "name": "Reminder Management",
+      "definition": "Creating, modifying, or canceling reminders."
+    },
+    {
+      "id": 3,
+      "name": "Timer Management",
+      "definition": "Setting, modifying, or canceling timers."
+    },
+    {
+      "id": 4,
+      "name": "Weather Inquiry",
+      "definition": "Asking for current or forecasted weather conditions."
+    },
+    {
+      "id": 5,
+      "name": "News Inquiry",
+      "definition": "Requesting updates or information about current events or news."
+    },
+    {
+      "id": 6,
+      "name": "Recipe Inquiry",
+      "definition": "Asking for cooking recipes or food preparation instructions."
+    },
+    {
+      "id": 7,
+      "name": "Music Playback",
+      "definition": "Commands related to playing, pausing, or changing music tracks."
+    },
+    {
+      "id": 8,
+      "name": "Communication Management",
+      "definition": "Making calls, sending messages, or managing contacts."
+    },
+    {
+      "id": 9,
+      "name": "Event Management",
+      "definition": "Inquiries or commands related to scheduling or managing events."
+    },
+    {
+      "id": 10,
+      "name": "Personal Information Inquiry",
+      "definition": "Asking for information about individuals or personal connections."
+    },
+    {
+      "id": 11,
+      "name": "Cooking Inquiry",
+      "definition": "Questions related to cooking times, methods, or ingredients."
+    },
+    {
+      "id": 12,
+      "name": "Social Media Interaction",
+      "definition": "Commands related to messaging or interacting on social media platforms."
+    },
+    {
+      "id": 13,
+      "name": "Location Inquiry",
+      "definition": "Asking for information about specific locations or addresses."
+    },
+    {
+      "id": 14,
+      "name": "Health and Safety Inquiry",
+      "definition": "Questions related to health, safety, or weather-related precautions."
+    },
+    {
+      "id": 15,
+      "name": "Task Management",
+      "definition": "Commands related to managing tasks or to-do lists."
+    }
+  ]
+}

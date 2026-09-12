@@ -1,0 +1,132 @@
+{
+  "bench": "fewnerd",
+  "run": 3,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 2,
+      "name": "Location (City/Town/Village)",
+      "definition": "A specific named urban or rural settlement."
+    },
+    {
+      "id": 3,
+      "name": "Location (Country)",
+      "definition": "A sovereign state or nation."
+    },
+    {
+      "id": 4,
+      "name": "Location (State/Province/Region)",
+      "definition": "A major administrative division within a country, or a broader geographical area."
+    },
+    {
+      "id": 5,
+      "name": "Geographic Feature",
+      "definition": "A natural or artificial physical feature of the earth's surface or an astronomical body."
+    },
+    {
+      "id": 6,
+      "name": "Organization",
+      "definition": "A formal group of people with a particular purpose, such as a business, institution, political party, sports team, or government agency."
+    },
+    {
+      "id": 7,
+      "name": "Event",
+      "definition": "A significant occurrence or happening, including historical conflicts, sporting competitions, or other notable incidents."
+    },
+    {
+      "id": 8,
+      "name": "Vehicle Model",
+      "definition": "A specific model or class of a mode of transport."
+    },
+    {
+      "id": 9,
+      "name": "Creative Work",
+      "definition": "A named artistic or literary creation, such as a book, film, song, or artwork."
+    },
+    {
+      "id": 10,
+      "name": "Nationality/Demonym",
+      "definition": "A term referring to the people of a particular nation, country, or region, or their origin."
+    },
+    {
+      "id": 11,
+      "name": "Chemical/Substance",
+      "definition": "A specific chemical compound, element, or biological substance."
+    },
+    {
+      "id": 12,
+      "name": "Organism",
+      "definition": "A specific biological species, genus, or group of living things."
+    },
+    {
+      "id": 13,
+      "name": "Publication",
+      "definition": "A printed or electronic work issued for public distribution, such as a newspaper or magazine."
+    },
+    {
+      "id": 14,
+      "name": "Award",
+      "definition": "A prize or honor given in recognition of achievement."
+    },
+    {
+      "id": 15,
+      "name": "Structure",
+      "definition": "A constructed building, facility, or piece of infrastructure."
+    },
+    {
+      "id": 16,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 17,
+      "name": "Language",
+      "definition": "A system of communication used by a particular country or community."
+    },
+    {
+      "id": 18,
+      "name": "Programming Language",
+      "definition": "A formal language used to write computer programs."
+    },
+    {
+      "id": 19,
+      "name": "Astronomical Object",
+      "definition": "A natural celestial body or system."
+    },
+    {
+      "id": 20,
+      "name": "Software/System",
+      "definition": "A set of computer programs, procedures, and associated documentation concerned with the operation of a computer system."
+    },
+    {
+      "id": 21,
+      "name": "Medical Condition or Syndrome",
+      "definition": "A specific disease, illness, or set of symptoms."
+    },
+    {
+      "id": 22,
+      "name": "Academic Field or Degree",
+      "definition": "A subject area of academic study or a qualification awarded by a university."
+    },
+    {
+      "id": 23,
+      "name": "Ideology or Movement",
+      "definition": "A system of ideas and ideals, especially one which forms the basis of economic, political, or religious theory and policy."
+    },
+    {
+      "id": 24,
+      "name": "Weapon Model",
+      "definition": "A specific model of a device used for fighting or hunting."
+    },
+    {
+      "id": 25,
+      "name": "Title",
+      "definition": "A formal designation of a person's position, rank, or status."
+    }
+  ]
+}

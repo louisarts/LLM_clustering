@@ -1,0 +1,85 @@
+{
+  "bench": "mtop_intent",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Reminders",
+      "definition": "Requests to create, modify, or delete reminders for various tasks or events."
+    },
+    {
+      "id": 2,
+      "name": "Calls",
+      "definition": "Requests to initiate, manage, or modify phone or video calls."
+    },
+    {
+      "id": 3,
+      "name": "Alarms",
+      "definition": "Requests to set, modify, or cancel alarms for specific times or events."
+    },
+    {
+      "id": 4,
+      "name": "Timers",
+      "definition": "Requests to set, modify, or cancel timers for specific durations."
+    },
+    {
+      "id": 5,
+      "name": "Music Playback",
+      "definition": "Requests to play, pause, or change music tracks or playlists."
+    },
+    {
+      "id": 6,
+      "name": "Weather Information",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 7,
+      "name": "News Updates",
+      "definition": "Requests for current news headlines or updates."
+    },
+    {
+      "id": 8,
+      "name": "Messages",
+      "definition": "Requests to send, read, or manage messages."
+    },
+    {
+      "id": 9,
+      "name": "Information Queries",
+      "definition": "Requests for information or answers to specific questions."
+    },
+    {
+      "id": 10,
+      "name": "Event Management",
+      "definition": "Requests related to managing or inquiring about events."
+    },
+    {
+      "id": 11,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions, recipes, or food-related information."
+    },
+    {
+      "id": 12,
+      "name": "Social Media Management",
+      "definition": "Requests to manage or inquire about social media interactions."
+    },
+    {
+      "id": 13,
+      "name": "Status Updates",
+      "definition": "Requests to change or inquire about status on social platforms."
+    },
+    {
+      "id": 14,
+      "name": "Task Management",
+      "definition": "Requests to manage tasks, including adding or removing tasks."
+    },
+    {
+      "id": 15,
+      "name": "Miscellaneous Actions",
+      "definition": "Requests that do not fit into other specific categories."
+    }
+  ]
+}

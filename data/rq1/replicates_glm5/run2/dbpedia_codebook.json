@@ -1,0 +1,1509 @@
+{
+  "bench": "dbpedia",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Educational Institution",
+      "definition": "Schools, colleges, universities, and other institutions dedicated to teaching and learning."
+    },
+    {
+      "id": 2,
+      "name": "Politician",
+      "definition": "Individuals who hold or have held elected or appointed office in government."
+    },
+    {
+      "id": 3,
+      "name": "Film",
+      "definition": "Motion pictures, including feature films, short films, and documentaries."
+    },
+    {
+      "id": 4,
+      "name": "Building",
+      "definition": "Man-made structures, including skyscrapers, hospitals, hotels, and historic buildings."
+    },
+    {
+      "id": 5,
+      "name": "Company",
+      "definition": "Business entities, firms, and corporations established for commercial purposes."
+    },
+    {
+      "id": 6,
+      "name": "Village",
+      "definition": "Small settlements or rural communities, typically with a defined administrative boundary."
+    },
+    {
+      "id": 7,
+      "name": "Album",
+      "definition": "Collections of audio recordings, including studio albums, live albums, and compilations."
+    },
+    {
+      "id": 8,
+      "name": "Athlete",
+      "definition": "Individuals who participate in competitive sports, including players and managers."
+    },
+    {
+      "id": 9,
+      "name": "Shopping Mall",
+      "definition": "Enclosed retail complexes containing various stores and restaurants."
+    },
+    {
+      "id": 10,
+      "name": "Novel",
+      "definition": "Book-length works of fiction."
+    },
+    {
+      "id": 11,
+      "name": "Plant",
+      "definition": "Members of the biological kingdom Plantae, including trees, shrubs, flowers, and grasses."
+    },
+    {
+      "id": 12,
+      "name": "Animal",
+      "definition": "Members of the biological kingdom Animalia, including mammals, birds, reptiles, insects, and marine life."
+    },
+    {
+      "id": 13,
+      "name": "Ship",
+      "definition": "Vessels capable of floating on water, including naval ships, submarines, and merchant vessels."
+    },
+    {
+      "id": 14,
+      "name": "Writer",
+      "definition": "Individuals known for creating written works such as books, poetry, and plays."
+    },
+    {
+      "id": 15,
+      "name": "Journalist",
+      "definition": "Individuals involved in the profession of reporting news or writing for publications."
+    },
+    {
+      "id": 16,
+      "name": "Locomotive",
+      "definition": "Rail transport vehicles used for pulling trains."
+    },
+    {
+      "id": 17,
+      "name": "Automobile",
+      "definition": "Road vehicles, typically with four wheels, powered by an internal combustion engine."
+    },
+    {
+      "id": 18,
+      "name": "Aircraft",
+      "definition": "Vehicles capable of atmospheric flight."
+    },
+    {
+      "id": 19,
+      "name": "IT Company",
+      "definition": "Companies specializing in software, information technology, and electronics manufacturing."
+    },
+    {
+      "id": 20,
+      "name": "Video Game Developer",
+      "definition": "Companies that create video games."
+    },
+    {
+      "id": 21,
+      "name": "Non-fiction Book",
+      "definition": "Books based on facts, real events, and real people, such as memoirs, treatises, and autobiographies."
+    },
+    {
+      "id": 22,
+      "name": "Church",
+      "definition": "Buildings used for public Christian worship."
+    },
+    {
+      "id": 23,
+      "name": "University",
+      "definition": "Institutions of higher education and research which grant academic degrees."
+    },
+    {
+      "id": 24,
+      "name": "Newspaper",
+      "definition": "Scheduled publications containing news, current events, and other informative articles."
+    },
+    {
+      "id": 25,
+      "name": "Journal",
+      "definition": "Academic or professional periodicals focusing on a specific field of study."
+    },
+    {
+      "id": 26,
+      "name": "Mountain",
+      "definition": "Large natural elevations of the earth's surface rising abruptly from the surrounding level."
+    },
+    {
+      "id": 27,
+      "name": "Glacier",
+      "definition": "Slow-moving masses of ice formed by accumulated snow."
+    },
+    {
+      "id": 28,
+      "name": "Lake",
+      "definition": "Large bodies of water surrounded by land."
+    },
+    {
+      "id": 29,
+      "name": "River",
+      "definition": "Large natural streams of water flowing in a channel to the sea, a lake, or another river."
+    },
+    {
+      "id": 30,
+      "name": "Mountain Range",
+      "definition": "A series of mountains or hills ranged in a line and connected by high ground."
+    },
+    {
+      "id": 31,
+      "name": "Bay",
+      "definition": "Bodies of water partially enclosed by land."
+    },
+    {
+      "id": 32,
+      "name": "Musician",
+      "definition": "Individuals who compose, conduct, or perform music."
+    },
+    {
+      "id": 33,
+      "name": "Record Label",
+      "definition": "Companies that manage brands and trademarks of music recordings and music videos."
+    },
+    {
+      "id": 34,
+      "name": "Magazine",
+      "definition": "Periodical publications containing articles and illustrations, often covering a specific topic."
+    },
+    {
+      "id": 35,
+      "name": "Museum",
+      "definition": "Institutions that conserve and display objects of artistic, cultural, historical, or scientific importance."
+    },
+    {
+      "id": 36,
+      "name": "Historic District",
+      "definition": "Defined geographic areas with a high concentration of historic buildings or sites."
+    },
+    {
+      "id": 37,
+      "name": "Monastic House",
+      "definition": "Buildings or complexes historically used by communities of monks or nuns."
+    },
+    {
+      "id": 38,
+      "name": "Bus",
+      "definition": "Large motor vehicles designed to carry passengers by road."
+    },
+    {
+      "id": 39,
+      "name": "Synagogue",
+      "definition": "Buildings used for Jewish worship and religious assembly."
+    },
+    {
+      "id": 40,
+      "name": "Village Development Committee",
+      "definition": "Local administrative bodies in Nepal responsible for village-level governance."
+    },
+    {
+      "id": 41,
+      "name": "Hospital",
+      "definition": "Institutions providing medical and surgical treatment and nursing care for sick or injured people."
+    },
+    {
+      "id": 42,
+      "name": "School District",
+      "definition": "Administrative units responsible for managing public schools in a defined area."
+    },
+    {
+      "id": 43,
+      "name": "Play",
+      "definition": "Dramatic works intended for stage performance."
+    },
+    {
+      "id": 44,
+      "name": "Judge",
+      "definition": "Public officials appointed to decide cases in a court of law."
+    },
+    {
+      "id": 45,
+      "name": "Bus Company",
+      "definition": "Companies that operate bus transportation services."
+    },
+    {
+      "id": 46,
+      "name": "Special School",
+      "definition": "Schools designed to meet the needs of students with special educational requirements."
+    },
+    {
+      "id": 47,
+      "name": "Research Vessel",
+      "definition": "Ships designed and equipped to carry out research at sea."
+    },
+    {
+      "id": 48,
+      "name": "Poet",
+      "definition": "Individuals who write poetry."
+    },
+    {
+      "id": 49,
+      "name": "Helicopter",
+      "definition": "Rotorcraft in which rotors supply lift and thrust."
+    },
+    {
+      "id": 50,
+      "name": "Racehorse",
+      "definition": "Horses bred or kept for racing."
+    },
+    {
+      "id": 51,
+      "name": "Airline",
+      "definition": "Companies that provide air transport services for traveling passengers and freight."
+    },
+    {
+      "id": 52,
+      "name": "Painter",
+      "definition": "Artists who create pictures using paint."
+    },
+    {
+      "id": 53,
+      "name": "Schooner",
+      "definition": "Sailing vessels with fore-and-aft sails on two or more masts."
+    },
+    {
+      "id": 54,
+      "name": "Beetle",
+      "definition": "Insects of the order Coleoptera."
+    },
+    {
+      "id": 55,
+      "name": "Cricket Umpire",
+      "definition": "Officials who preside over cricket matches."
+    },
+    {
+      "id": 56,
+      "name": "Tanker",
+      "definition": "Ships designed to transport liquids or gases in bulk."
+    },
+    {
+      "id": 57,
+      "name": "Rower",
+      "definition": "Athletes who propel a boat using oars."
+    },
+    {
+      "id": 58,
+      "name": "Moth",
+      "definition": "Insects of the order Lepidoptera, typically nocturnal."
+    },
+    {
+      "id": 59,
+      "name": "Spider",
+      "definition": "Arachnids having eight legs and fangs that inject venom."
+    },
+    {
+      "id": 60,
+      "name": "Snail",
+      "definition": "Shelled gastropods."
+    },
+    {
+      "id": 61,
+      "name": "Grass",
+      "definition": "Plants of the family Poaceae."
+    },
+    {
+      "id": 62,
+      "name": "Shrub",
+      "definition": "Woody plants smaller than a tree, having several stems arising from the base."
+    },
+    {
+      "id": 63,
+      "name": "Tree",
+      "definition": "Tall, woody plants with a single main stem or trunk."
+    },
+    {
+      "id": 64,
+      "name": "Fish",
+      "definition": "Limbed vertebrate animals living in water and breathing with gills."
+    },
+    {
+      "id": 65,
+      "name": "Bird",
+      "definition": "Warm-blooded vertebrates distinguished by having feathers, wings, and beaks."
+    },
+    {
+      "id": 66,
+      "name": "Snake",
+      "definition": "Long, limbless reptiles."
+    },
+    {
+      "id": 67,
+      "name": "Scorpion",
+      "definition": "Arachnids with a pair of grasping pincers and a segmented tail ending in a venomous stinger."
+    },
+    {
+      "id": 68,
+      "name": "Shark",
+      "definition": "Cartilaginous fish with five to seven gill slits on the sides of the head."
+    },
+    {
+      "id": 69,
+      "name": "Sea Snail",
+      "definition": "Snails that live in marine habitats."
+    },
+    {
+      "id": 70,
+      "name": "Sea Grass",
+      "definition": "Flowering plants that grow in marine environments."
+    },
+    {
+      "id": 71,
+      "name": "Extinct Animal",
+      "definition": "Species of animals that have ceased to exist."
+    },
+    {
+      "id": 72,
+      "name": "Extinct Plant",
+      "definition": "Species of plants that have ceased to exist."
+    },
+    {
+      "id": 73,
+      "name": "Political Strategist",
+      "definition": "Individuals who advise and plan political campaigns."
+    },
+    {
+      "id": 74,
+      "name": "Law Firm",
+      "definition": "Business entities formed by one or more lawyers to engage in the practice of law."
+    },
+    {
+      "id": 75,
+      "name": "Film Serial",
+      "definition": "Short episodic films originally shown in movie theaters."
+    },
+    {
+      "id": 76,
+      "name": "Lawyer",
+      "definition": "Individuals who practice or study law."
+    },
+    {
+      "id": 77,
+      "name": "Political Activist",
+      "definition": "Individuals who campaign to bring about political or social change."
+    },
+    {
+      "id": 78,
+      "name": "Compilation Album",
+      "definition": "Albums consisting of previously released tracks by one or more artists."
+    },
+    {
+      "id": 79,
+      "name": "EP",
+      "definition": "Musical recordings containing more tracks than a single but fewer than an album."
+    },
+    {
+      "id": 80,
+      "name": "Split Album",
+      "definition": "Music releases containing tracks by two or more separate artists."
+    },
+    {
+      "id": 81,
+      "name": "Live Album",
+      "definition": "Recordings of a live musical performance."
+    },
+    {
+      "id": 82,
+      "name": "Studio Album",
+      "definition": "Albums recorded in a recording studio."
+    },
+    {
+      "id": 83,
+      "name": "Soundtrack Album",
+      "definition": "Albums containing music recorded for a film or television show."
+    },
+    {
+      "id": 84,
+      "name": "Tribute Album",
+      "definition": "Collections of cover versions of songs originally performed by a specific artist."
+    },
+    {
+      "id": 85,
+      "name": "Autobiography",
+      "definition": "Self-written accounts of the life of a person."
+    },
+    {
+      "id": 86,
+      "name": "Anthology",
+      "definition": "Collections of literary works chosen by a compiler."
+    },
+    {
+      "id": 87,
+      "name": "Short Film",
+      "definition": "Motion pictures not long enough to be considered a feature film."
+    },
+    {
+      "id": 88,
+      "name": "Silent Film",
+      "definition": "Films with no synchronized recorded sound."
+    },
+    {
+      "id": 89,
+      "name": "Documentary Film",
+      "definition": "Non-fiction motion pictures intended to document reality."
+    },
+    {
+      "id": 90,
+      "name": "Television Film",
+      "definition": "Feature-length motion pictures made for television broadcast."
+    },
+    {
+      "id": 91,
+      "name": "Sportsplane",
+      "definition": "Light aircraft designed for recreational flying."
+    },
+    {
+      "id": 92,
+      "name": "Escort Ship",
+      "definition": "Naval vessels used to protect other ships, particularly convoys."
+    },
+    {
+      "id": 93,
+      "name": "Battleship",
+      "definition": "Large armored warships with a main battery consisting of heavy caliber guns."
+    },
+    {
+      "id": 94,
+      "name": "Cruiser",
+      "definition": "Warships of various sizes, typically smaller than a battleship and larger than a destroyer."
+    },
+    {
+      "id": 95,
+      "name": "Submarine",
+      "definition": "Watercraft capable of independent operation underwater."
+    },
+    {
+      "id": 96,
+      "name": "Frigate",
+      "definition": "Warships of various sizes, typically used for escort and patrol duties."
+    },
+    {
+      "id": 97,
+      "name": "Aircraft Carrier",
+      "definition": "Warships that serve as a seagoing airbase, equipped with a flight deck."
+    },
+    {
+      "id": 98,
+      "name": "Landing Ship",
+      "definition": "Naval vessels used to transport troops and vehicles onto a shore."
+    },
+    {
+      "id": 99,
+      "name": "Patrol Boat",
+      "definition": "Small naval vessels generally designed for coastal defense duties."
+    },
+    {
+      "id": 100,
+      "name": "Convoy Ship",
+      "definition": "Historical naval vessels used to protect merchant shipping."
+    },
+    {
+      "id": 101,
+      "name": "Whaler",
+      "definition": "Ships designed for hunting whales."
+    },
+    {
+      "id": 102,
+      "name": "Freighter",
+      "definition": "Large ships used for carrying cargo."
+    },
+    {
+      "id": 103,
+      "name": "Passenger Ship",
+      "definition": "Ships whose primary function is to carry passengers."
+    },
+    {
+      "id": 104,
+      "name": "Sailing Ship",
+      "definition": "Ships propelled by sails."
+    },
+    {
+      "id": 105,
+      "name": "Locomotive Class",
+      "definition": "A specific design or class of locomotive."
+    },
+    {
+      "id": 106,
+      "name": "Automobile Model",
+      "definition": "Specific models or lines of cars."
+    },
+    {
+      "id": 107,
+      "name": "Automobile Brand",
+      "definition": "Brands or makes of cars."
+    },
+    {
+      "id": 108,
+      "name": "Truck Brand",
+      "definition": "Brands or makes of trucks."
+    },
+    {
+      "id": 109,
+      "name": "Avionics Manufacturer",
+      "definition": "Companies that manufacture aircraft electronics."
+    },
+    {
+      "id": 110,
+      "name": "Aircraft Manufacturer",
+      "definition": "Companies that manufacture aircraft."
+    },
+    {
+      "id": 111,
+      "name": "Helicopter Manufacturer",
+      "definition": "Companies that manufacture helicopters."
+    },
+    {
+      "id": 112,
+      "name": "Video Game",
+      "definition": "Electronic games that involve interaction with a user interface to generate visual feedback."
+    },
+    {
+      "id": 113,
+      "name": "Religious Organization",
+      "definition": "Organizations formed for religious purposes."
+    },
+    {
+      "id": 114,
+      "name": "School Building",
+      "definition": "Buildings specifically designed to house educational institutions."
+    },
+    {
+      "id": 115,
+      "name": "Library",
+      "definition": "Buildings or rooms containing collections of books and other materials."
+    },
+    {
+      "id": 116,
+      "name": "Reservoir",
+      "definition": "Large natural or artificial lakes used as a source of water supply."
+    },
+    {
+      "id": 117,
+      "name": "Aqueduct",
+      "definition": "Artificial channels for conveying water."
+    },
+    {
+      "id": 118,
+      "name": "Lock and Dam",
+      "definition": "Engineering structures used to raise and lower boats between stretches of water."
+    },
+    {
+      "id": 119,
+      "name": "Round Barn",
+      "definition": "Barns with a circular architectural design."
+    },
+    {
+      "id": 120,
+      "name": "Cure Cottage",
+      "definition": "Buildings designed for the treatment of tuberculosis."
+    },
+    {
+      "id": 121,
+      "name": "Historic House",
+      "definition": "Buildings that are historically significant and often preserved."
+    },
+    {
+      "id": 122,
+      "name": "Monastery",
+      "definition": "Buildings occupied by a community of monks living under religious vows."
+    },
+    {
+      "id": 123,
+      "name": "School",
+      "definition": "Educational institutions, typically at the primary or secondary level."
+    },
+    {
+      "id": 124,
+      "name": "College",
+      "definition": "Educational institutions providing higher education or specialized professional training."
+    },
+    {
+      "id": 125,
+      "name": "Community College",
+      "definition": "Two-year colleges that offer associate degrees and certificate programs."
+    },
+    {
+      "id": 126,
+      "name": "Bible College",
+      "definition": "Institutions of higher education that specialize in biblical studies."
+    },
+    {
+      "id": 127,
+      "name": "Art Director",
+      "definition": "Professionals responsible for the visual style and images in media."
+    },
+    {
+      "id": 128,
+      "name": "Governor",
+      "definition": "Public officials appointed to govern a major political unit."
+    },
+    {
+      "id": 129,
+      "name": "Political Party",
+      "definition": "Organized groups of people with similar political aims and opinions."
+    },
+    {
+      "id": 130,
+      "name": "Political Coalition",
+      "definition": "Alliances formed by political parties to achieve a common goal."
+    },
+    {
+      "id": 131,
+      "name": "Political Term",
+      "definition": "A specific period of time in office."
+    },
+    {
+      "id": 132,
+      "name": "Political District",
+      "definition": "Divisions of a territory established for the purpose of administration or representation."
+    },
+    {
+      "id": 133,
+      "name": "Political Position",
+      "definition": "Specific roles or offices within a government."
+    },
+    {
+      "id": 134,
+      "name": "Political Ideology",
+      "definition": "Sets of ethical ideals, principles, doctrines, myths, or symbols of a social movement."
+    },
+    {
+      "id": 135,
+      "name": "Political Event",
+      "definition": "Significant occurrences related to politics or government."
+    },
+    {
+      "id": 136,
+      "name": "Political Scandal",
+      "definition": "Actions or events regarded as morally or legally wrong and causing public outrage."
+    },
+    {
+      "id": 137,
+      "name": "Political Reform",
+      "definition": "Movements aimed at changing political institutions or policies."
+    },
+    {
+      "id": 138,
+      "name": "Political Theory",
+      "definition": "The study of the nature of politics and political ideas."
+    },
+    {
+      "id": 139,
+      "name": "Political Philosophy",
+      "definition": "The study of topics such as politics, liberty, justice, property, rights, law, and the enforcement of laws."
+    },
+    {
+      "id": 140,
+      "name": "Political Science",
+      "definition": "The scientific study of politics."
+    },
+    {
+      "id": 141,
+      "name": "Political History",
+      "definition": "The narrative and analysis of political events, ideas, movements, and leaders."
+    },
+    {
+      "id": 142,
+      "name": "Political Geography",
+      "definition": "The study of the relationship between politics and geography."
+    },
+    {
+      "id": 143,
+      "name": "Political Economy",
+      "definition": "The study of production and trade and their relations with law, custom, and government."
+    },
+    {
+      "id": 144,
+      "name": "Political Sociology",
+      "definition": "The study of the relationship between the state and society."
+    },
+    {
+      "id": 145,
+      "name": "Political Anthropology",
+      "definition": "The study of the political systems of different societies."
+    },
+    {
+      "id": 146,
+      "name": "Political Psychology",
+      "definition": "The study of the psychological basis of political behavior."
+    },
+    {
+      "id": 147,
+      "name": "Political Communication",
+      "definition": "The study of how information spreads and influences politics."
+    },
+    {
+      "id": 148,
+      "name": "Political Marketing",
+      "definition": "The use of marketing techniques in political campaigns."
+    },
+    {
+      "id": 149,
+      "name": "Political Journalism",
+      "definition": "The coverage of politics by the media."
+    },
+    {
+      "id": 150,
+      "name": "Political Satire",
+      "definition": "The use of humor to criticize politics."
+    },
+    {
+      "id": 151,
+      "name": "Political Fiction",
+      "definition": "Fictional works that deal with political themes."
+    },
+    {
+      "id": 152,
+      "name": "Political Poetry",
+      "definition": "Poetry that deals with political themes."
+    },
+    {
+      "id": 153,
+      "name": "Political Music",
+      "definition": "Music that deals with political themes."
+    },
+    {
+      "id": 154,
+      "name": "Political Art",
+      "definition": "Art that deals with political themes."
+    },
+    {
+      "id": 155,
+      "name": "Political Film",
+      "definition": "Films that deal with political themes."
+    },
+    {
+      "id": 156,
+      "name": "Political Documentary",
+      "definition": "Documentaries that deal with political themes."
+    },
+    {
+      "id": 157,
+      "name": "Political Photography",
+      "definition": "Photography that deals with political themes."
+    },
+    {
+      "id": 158,
+      "name": "Political Cartoon",
+      "definition": "Cartoons that deal with political themes."
+    },
+    {
+      "id": 159,
+      "name": "Political Poster",
+      "definition": "Posters used for political purposes."
+    },
+    {
+      "id": 160,
+      "name": "Political Slogan",
+      "definition": "Memorable phrases used in political campaigns."
+    },
+    {
+      "id": 161,
+      "name": "Political Symbol",
+      "definition": "Symbols used to represent political ideas or movements."
+    },
+    {
+      "id": 162,
+      "name": "Political Flag",
+      "definition": "Flags used to represent political entities."
+    },
+    {
+      "id": 163,
+      "name": "Political Anthem",
+      "definition": "Songs adopted by political movements."
+    },
+    {
+      "id": 164,
+      "name": "Political Monument",
+      "definition": "Structures built to commemorate political events or figures."
+    },
+    {
+      "id": 165,
+      "name": "Political Memorial",
+      "definition": "Structures or events created to remember political figures."
+    },
+    {
+      "id": 166,
+      "name": "Political Museum",
+      "definition": "Museums dedicated to political history."
+    },
+    {
+      "id": 167,
+      "name": "Political Library",
+      "definition": "Libraries specializing in political literature."
+    },
+    {
+      "id": 168,
+      "name": "Political Archive",
+      "definition": "Collections of historical political records."
+    },
+    {
+      "id": 169,
+      "name": "Political Database",
+      "definition": "Digital collections of political information."
+    },
+    {
+      "id": 170,
+      "name": "Political Website",
+      "definition": "Websites dedicated to political information."
+    },
+    {
+      "id": 171,
+      "name": "Political Blog",
+      "definition": "Blogs that focus on political commentary."
+    },
+    {
+      "id": 172,
+      "name": "Political Podcast",
+      "definition": "Audio programs that focus on political topics."
+    },
+    {
+      "id": 173,
+      "name": "Political Vlog",
+      "definition": "Video blogs that focus on political topics."
+    },
+    {
+      "id": 174,
+      "name": "Political Social Media",
+      "definition": "Social media accounts used for political purposes."
+    },
+    {
+      "id": 175,
+      "name": "Political Forum",
+      "definition": "Online discussion sites focused on politics."
+    },
+    {
+      "id": 176,
+      "name": "Political Wiki",
+      "definition": "Collaborative websites for political information."
+    },
+    {
+      "id": 177,
+      "name": "Political Game",
+      "definition": "Games that simulate political processes."
+    },
+    {
+      "id": 178,
+      "name": "Political Simulation",
+      "definition": "Simulations of political systems."
+    },
+    {
+      "id": 179,
+      "name": "Political Model",
+      "definition": "Theoretical representations of political systems."
+    },
+    {
+      "id": 180,
+      "name": "Political Theory",
+      "definition": "The study of the nature of politics and political ideas."
+    },
+    {
+      "id": 181,
+      "name": "Political Concept",
+      "definition": "Abstract ideas central to political thought."
+    },
+    {
+      "id": 182,
+      "name": "Political Term",
+      "definition": "Words or phrases with specific meanings in politics."
+    },
+    {
+      "id": 183,
+      "name": "Political Jargon",
+      "definition": "Specialized vocabulary used in politics."
+    },
+    {
+      "id": 184,
+      "name": "Political Slang",
+      "definition": "Informal language used in political contexts."
+    },
+    {
+      "id": 185,
+      "name": "Political Euphemism",
+      "definition": "Mild expressions used in place of harsher political realities."
+    },
+    {
+      "id": 186,
+      "name": "Political Doublespeak",
+      "definition": "Language used to deceive or confuse in politics."
+    },
+    {
+      "id": 187,
+      "name": "Political Rhetoric",
+      "definition": "The art of effective or persuasive speaking in politics."
+    },
+    {
+      "id": 188,
+      "name": "Political Discourse",
+      "definition": "The exchange of ideas on political topics."
+    },
+    {
+      "id": 189,
+      "name": "Political Debate",
+      "definition": "Formal discussions on political issues."
+    },
+    {
+      "id": 190,
+      "name": "Political Argument",
+      "definition": "Reasons given for or against a political position."
+    },
+    {
+      "id": 191,
+      "name": "Political Controversy",
+      "definition": "Disagreements on political matters."
+    },
+    {
+      "id": 192,
+      "name": "Political Conflict",
+      "definition": "Clashes between opposing political forces."
+    },
+    {
+      "id": 193,
+      "name": "Political Crisis",
+      "definition": "Difficult or dangerous situations in politics."
+    },
+    {
+      "id": 194,
+      "name": "Political Scandal",
+      "definition": "Actions or events regarded as morally or legally wrong and causing public outrage."
+    },
+    {
+      "id": 195,
+      "name": "Political Corruption",
+      "definition": "Dishonest or fraudulent conduct by those in power."
+    },
+    {
+      "id": 196,
+      "name": "Political Violence",
+      "definition": "Violence used to achieve political goals."
+    },
+    {
+      "id": 197,
+      "name": "Political Terrorism",
+      "definition": "The use of violence and intimidation in the pursuit of political aims."
+    },
+    {
+      "id": 198,
+      "name": "Political War",
+      "definition": "Armed conflicts between political entities."
+    },
+    {
+      "id": 199,
+      "name": "Political Revolution",
+      "definition": "Forcible overthrow of a government or social order."
+    },
+    {
+      "id": 200,
+      "name": "Political Coup",
+      "definition": "Sudden, violent, and illegal seizure of power from a government."
+    },
+    {
+      "id": 201,
+      "name": "Political Assassination",
+      "definition": "The murder of a prominent person for political reasons."
+    },
+    {
+      "id": 202,
+      "name": "Political Protest",
+      "definition": "Public demonstrations against political actions."
+    },
+    {
+      "id": 203,
+      "name": "Political Strike",
+      "definition": "Work stoppages for political reasons."
+    },
+    {
+      "id": 204,
+      "name": "Political Boycott",
+      "definition": "Refusal to deal with a country or organization for political reasons."
+    },
+    {
+      "id": 205,
+      "name": "Political Embargo",
+      "definition": "Official bans on trade or other commercial activity with a particular country."
+    },
+    {
+      "id": 206,
+      "name": "Political Sanction",
+      "definition": "Penalties imposed by one country on another."
+    },
+    {
+      "id": 207,
+      "name": "Political Treaty",
+      "definition": "Formal agreements between countries."
+    },
+    {
+      "id": 208,
+      "name": "Political Alliance",
+      "definition": "Agreements between political groups to work together."
+    },
+    {
+      "id": 209,
+      "name": "Political Union",
+      "definition": "Groups of states or countries joined together."
+    },
+    {
+      "id": 210,
+      "name": "Political Federation",
+      "definition": "Groups of states with a central government."
+    },
+    {
+      "id": 211,
+      "name": "Political Confederation",
+      "definition": "Groups of states united for common purposes."
+    },
+    {
+      "id": 212,
+      "name": "Political League",
+      "definition": "Alliances of states or nations."
+    },
+    {
+      "id": 213,
+      "name": "Political Pact",
+      "definition": "Formal agreements between individuals or groups."
+    },
+    {
+      "id": 214,
+      "name": "Political Accord",
+      "definition": "Official agreements or treaties."
+    },
+    {
+      "id": 215,
+      "name": "Political Agreement",
+      "definition": "Arrangements between political parties or nations."
+    },
+    {
+      "id": 216,
+      "name": "Political Deal",
+      "definition": "Business transactions in a political context."
+    },
+    {
+      "id": 217,
+      "name": "Political Bargain",
+      "definition": "Negotiations in politics."
+    },
+    {
+      "id": 218,
+      "name": "Political Compromise",
+      "definition": "Settlements of differences by mutual concessions."
+    },
+    {
+      "id": 219,
+      "name": "Political Consensus",
+      "definition": "General agreement among political actors."
+    },
+    {
+      "id": 220,
+      "name": "Political Cooperation",
+      "definition": "Working together for political ends."
+    },
+    {
+      "id": 221,
+      "name": "Political Collaboration",
+      "definition": "Working with an enemy or opposing force."
+    },
+    {
+      "id": 222,
+      "name": "Political Partnership",
+      "definition": "Associations between political entities."
+    },
+    {
+      "id": 223,
+      "name": "Political Relationship",
+      "definition": "Connections between political actors."
+    },
+    {
+      "id": 224,
+      "name": "Political Network",
+      "definition": "Groups of people with shared political interests."
+    },
+    {
+      "id": 225,
+      "name": "Political Community",
+      "definition": "Groups of people with shared political values."
+    },
+    {
+      "id": 226,
+      "name": "Political Society",
+      "definition": "Organized groups of people with political structures."
+    },
+    {
+      "id": 227,
+      "name": "Political Culture",
+      "definition": "Shared attitudes and beliefs about politics."
+    },
+    {
+      "id": 228,
+      "name": "Political Identity",
+      "definition": "Sense of belonging to a political group."
+    },
+    {
+      "id": 229,
+      "name": "Political Belonging",
+      "definition": "Feeling of being part of a political community."
+    },
+    {
+      "id": 230,
+      "name": "Political Loyalty",
+      "definition": "Faithfulness to a political cause or leader."
+    },
+    {
+      "id": 231,
+      "name": "Political Allegiance",
+      "definition": "Loyalty or commitment to a political superior."
+    },
+    {
+      "id": 232,
+      "name": "Political Faith",
+      "definition": "Strong belief in political principles."
+    },
+    {
+      "id": 233,
+      "name": "Political Trust",
+      "definition": "Confidence in political institutions."
+    },
+    {
+      "id": 234,
+      "name": "Political Confidence",
+      "definition": "Belief in the reliability of political actors."
+    },
+    {
+      "id": 235,
+      "name": "Political Hope",
+      "definition": "Expectations for positive political outcomes."
+    },
+    {
+      "id": 236,
+      "name": "Political Fear",
+      "definition": "Anxiety about political events."
+    },
+    {
+      "id": 237,
+      "name": "Political Anger",
+      "definition": "Strong feelings of displeasure about politics."
+    },
+    {
+      "id": 238,
+      "name": "Political Apathy",
+      "definition": "Lack of interest in politics."
+    },
+    {
+      "id": 239,
+      "name": "Political Cynicism",
+      "definition": "Distrust of political motives."
+    },
+    {
+      "id": 240,
+      "name": "Political Skepticism",
+      "definition": "Doubt about political claims."
+    },
+    {
+      "id": 241,
+      "name": "Political Criticism",
+      "definition": "Expression of disapproval of politics."
+    },
+    {
+      "id": 242,
+      "name": "Political Opposition",
+      "definition": "Resistance to a political regime."
+    },
+    {
+      "id": 243,
+      "name": "Political Dissent",
+      "definition": "Expression of opinions at variance with those held by the political majority."
+    },
+    {
+      "id": 244,
+      "name": "Political Resistance",
+      "definition": "Refusal to accept political authority."
+    },
+    {
+      "id": 245,
+      "name": "Political Rebellion",
+      "definition": "Open resistance to an established government."
+    },
+    {
+      "id": 246,
+      "name": "Political Insurgency",
+      "definition": "Active revolt against political authority."
+    },
+    {
+      "id": 247,
+      "name": "Political Uprising",
+      "definition": "Popular revolts against governments."
+    },
+    {
+      "id": 248,
+      "name": "Political Mutiny",
+      "definition": "Rebellions against authority, especially by sailors."
+    },
+    {
+      "id": 249,
+      "name": "Political Sedition",
+      "definition": "Conduct or speech inciting people to rebel against authority."
+    },
+    {
+      "id": 250,
+      "name": "Political Treason",
+      "definition": "The crime of betraying one's country."
+    },
+    {
+      "id": 251,
+      "name": "Political Espionage",
+      "definition": "The practice of spying or using spies to obtain political information."
+    },
+    {
+      "id": 252,
+      "name": "Political Intelligence",
+      "definition": "Information of political value."
+    },
+    {
+      "id": 253,
+      "name": "Political Surveillance",
+      "definition": "Close observation of political actors."
+    },
+    {
+      "id": 254,
+      "name": "Political Security",
+      "definition": "Protection of political systems."
+    },
+    {
+      "id": 255,
+      "name": "Political Defense",
+      "definition": "Measures taken to protect a country from attack."
+    },
+    {
+      "id": 256,
+      "name": "Political Offense",
+      "definition": "Crimes against the state."
+    },
+    {
+      "id": 257,
+      "name": "Political Crime",
+      "definition": "Crimes motivated by political beliefs."
+    },
+    {
+      "id": 258,
+      "name": "Political Prisoner",
+      "definition": "People imprisoned for their political beliefs."
+    },
+    {
+      "id": 259,
+      "name": "Political Exile",
+      "definition": "People forced to leave their country for political reasons."
+    },
+    {
+      "id": 260,
+      "name": "Political Refugee",
+      "definition": "People forced to leave their country due to political persecution."
+    },
+    {
+      "id": 261,
+      "name": "Political Asylum",
+      "definition": "Protection granted to political refugees."
+    },
+    {
+      "id": 262,
+      "name": "Political Immunity",
+      "definition": "Exemption from legal prosecution for political figures."
+    },
+    {
+      "id": 263,
+      "name": "Political Privilege",
+      "definition": "Special rights granted to political actors."
+    },
+    {
+      "id": 264,
+      "name": "Political Power",
+      "definition": "The ability to influence political behavior."
+    },
+    {
+      "id": 265,
+      "name": "Political Authority",
+      "definition": "The right to exercise political power."
+    },
+    {
+      "id": 266,
+      "name": "Political Legitimacy",
+      "definition": "The acceptance of political authority."
+    },
+    {
+      "id": 267,
+      "name": "Political Sovereignty",
+      "definition": "Supreme authority within a territory."
+    },
+    {
+      "id": 268,
+      "name": "Political Autonomy",
+      "definition": "Self-government in political matters."
+    },
+    {
+      "id": 269,
+      "name": "Political Independence",
+      "definition": "Freedom from control by another state."
+    },
+    {
+      "id": 270,
+      "name": "Political Freedom",
+      "definition": "The right to participate in politics."
+    },
+    {
+      "id": 271,
+      "name": "Political Right",
+      "definition": "Entitlements of citizens in a political system."
+    },
+    {
+      "id": 272,
+      "name": "Political Liberty",
+      "definition": "Freedom from arbitrary rule."
+    },
+    {
+      "id": 273,
+      "name": "Political Justice",
+      "definition": "Fairness in the administration of political power."
+    },
+    {
+      "id": 274,
+      "name": "Political Equality",
+      "definition": "Equal rights and opportunities in politics."
+    },
+    {
+      "id": 275,
+      "name": "Political Democracy",
+      "definition": "Systems of government by the whole population."
+    },
+    {
+      "id": 276,
+      "name": "Political Republic",
+      "definition": "States where supreme power is held by the people and their elected representatives."
+    },
+    {
+      "id": 277,
+      "name": "Political Monarchy",
+      "definition": "Forms of government with a monarch as head of state."
+    },
+    {
+      "id": 278,
+      "name": "Political Dictatorship",
+      "definition": "Forms of government where power is concentrated in a dictator."
+    },
+    {
+      "id": 279,
+      "name": "Political Tyranny",
+      "definition": "Cruel and oppressive government or rule."
+    },
+    {
+      "id": 280,
+      "name": "Political Oligarchy",
+      "definition": "Small groups of people having control of a country."
+    },
+    {
+      "id": 281,
+      "name": "Political Aristocracy",
+      "definition": "Forms of government by a privileged class."
+    },
+    {
+      "id": 282,
+      "name": "Political Plutocracy",
+      "definition": "Societies ruled by the wealthy."
+    },
+    {
+      "id": 283,
+      "name": "Political Theocracy",
+      "definition": "Systems of government in which priests rule in the name of God."
+    },
+    {
+      "id": 284,
+      "name": "Political Anarchy",
+      "definition": "State of disorder due to absence of government."
+    },
+    {
+      "id": 285,
+      "name": "Political Fascism",
+      "definition": "Authoritarian nationalist political ideologies."
+    },
+    {
+      "id": 286,
+      "name": "Political Communism",
+      "definition": "Political theories derived from Karl Marx."
+    },
+    {
+      "id": 287,
+      "name": "Political Socialism",
+      "definition": "Political and economic theories of social organization."
+    },
+    {
+      "id": 288,
+      "name": "Political Capitalism",
+      "definition": "Economic systems based on private ownership."
+    },
+    {
+      "id": 289,
+      "name": "Political Liberalism",
+      "definition": "Political philosophies based on liberty and equality."
+    },
+    {
+      "id": 290,
+      "name": "Political Conservatism",
+      "definition": "Political philosophies promoting traditional institutions."
+    },
+    {
+      "id": 291,
+      "name": "Political Nationalism",
+      "definition": "Political movements for national independence."
+    },
+    {
+      "id": 292,
+      "name": "Political Globalism",
+      "definition": "Political ideologies that advocate for global cooperation."
+    },
+    {
+      "id": 293,
+      "name": "Political Environmentalism",
+      "definition": "Political movements concerned with the environment."
+    },
+    {
+      "id": 294,
+      "name": "Political Feminism",
+      "definition": "Political movements for women's rights."
+    },
+    {
+      "id": 295,
+      "name": "Political Pacifism",
+      "definition": "Opposition to war and violence."
+    },
+    {
+      "id": 296,
+      "name": "Political Activism",
+      "definition": "Action to bring about political change."
+    },
+    {
+      "id": 297,
+      "name": "Political Advocacy",
+      "definition": "Public support for political causes."
+    },
+    {
+      "id": 298,
+      "name": "Political Lobbying",
+      "definition": "Seeking to influence political decisions."
+    },
+    {
+      "id": 299,
+      "name": "Political Campaigning",
+      "definition": "Organized efforts to influence political decisions."
+    },
+    {
+      "id": 300,
+      "name": "Political Fundraising",
+      "definition": "Raising money for political purposes."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sustainability",
+      "definition": "Questions related to sustainable practices and disposal methods"
+    },
+    {
+      "id": 2,
+      "name": "Aquariums",
+      "definition": "Questions related to repurposing habitats for aquatic life"
+    },
+    {
+      "id": 3,
+      "name": "Gaming",
+      "definition": "Questions related to specific game elements or levels"
+    },
+    {
+      "id": 4,
+      "name": "Automotive",
+      "definition": "Questions related to vehicle maintenance or diagnostics"
+    },
+    {
+      "id": 5,
+      "name": "Web Development",
+      "definition": "Questions related to web hosting or scripting issues"
+    },
+    {
+      "id": 6,
+      "name": "Software Development",
+      "definition": "Questions related to software development processes or tools"
+    },
+    {
+      "id": 7,
+      "name": "Programming Languages",
+      "definition": "Questions related to specific programming languages or editors"
+    },
+    {
+      "id": 8,
+      "name": "Mathematics",
+      "definition": "Questions related to mathematical concepts or problem-solving"
+    },
+    {
+      "id": 9,
+      "name": "Language Learning",
+      "definition": "Questions related to language translation or grammar"
+    },
+    {
+      "id": 10,
+      "name": "Animal Care",
+      "definition": "Questions related to pet care or behavior"
+    },
+    {
+      "id": 11,
+      "name": "Visas and Immigration",
+      "definition": "Questions related to visa status or travel restrictions"
+    },
+    {
+      "id": 12,
+      "name": "Parenting",
+      "definition": "Questions related to childcare or family dynamics"
+    },
+    {
+      "id": 13,
+      "name": "Linguistics",
+      "definition": "Questions related to language structure or grammar rules"
+    },
+    {
+      "id": 14,
+      "name": "Movies and TV Shows",
+      "definition": "Questions related to film or television plot points"
+    },
+    {
+      "id": 15,
+      "name": "Design and Ranking",
+      "definition": "Questions related to design principles or ranking algorithms"
+    },
+    {
+      "id": 16,
+      "name": "Technology",
+      "definition": "Questions related to tech devices or software applications"
+    },
+    {
+      "id": 17,
+      "name": "Literature",
+      "definition": "Questions related to literary terms or book analysis"
+    },
+    {
+      "id": 18,
+      "name": "Physics",
+      "definition": "Questions related to physical concepts or calculations"
+    },
+    {
+      "id": 19,
+      "name": "Culinary Arts",
+      "definition": "Questions related to cooking techniques or ingredients"
+    },
+    {
+      "id": 20,
+      "name": "Health and Fitness",
+      "definition": "Questions related to exercise routines or health goals"
+    },
+    {
+      "id": 21,
+      "name": "History",
+      "definition": "Questions related to historical events or figures"
+    },
+    {
+      "id": 22,
+      "name": "Religion and Philosophy",
+      "definition": "Questions related to religious beliefs or philosophical concepts"
+    },
+    {
+      "id": 23,
+      "name": "Crafts and DIY",
+      "definition": "Questions related to crafting projects or DIY solutions"
+    },
+    {
+      "id": 24,
+      "name": "Music and Audio",
+      "definition": "Questions related to sound editing or music production"
+    },
+    {
+      "id": 25,
+      "name": "Algorithms and Data Structures",
+      "definition": "Questions related to algorithm design or data manipulation"
+    },
+    {
+      "id": 26,
+      "name": "Networking and Security",
+      "definition": "Questions related to network configurations or security protocols"
+    },
+    {
+      "id": 27,
+      "name": "Business and Finance",
+      "definition": "Questions related to financial strategies or investment decisions"
+    },
+    {
+      "id": 28,
+      "name": "Space and Astronomy",
+      "definition": "Questions related to celestial bodies or space exploration"
+    },
+    {
+      "id": 29,
+      "name": "Art and Design",
+      "definition": "Questions related to artistic techniques or design principles"
+    }
+  ]
+}

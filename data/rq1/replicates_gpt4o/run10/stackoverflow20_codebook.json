@@ -1,0 +1,1510 @@
+{
+  "bench": "stackoverflow20",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Visual Studio",
+      "definition": "Questions related to the Visual Studio IDE and its extensions."
+    },
+    {
+      "id": 2,
+      "name": "LINQ",
+      "definition": "Questions about Language Integrated Query (LINQ) in .NET."
+    },
+    {
+      "id": 3,
+      "name": "Qt",
+      "definition": "Questions about the Qt framework for cross-platform application development."
+    },
+    {
+      "id": 4,
+      "name": "Hibernate",
+      "definition": "Questions related to the Hibernate ORM framework."
+    },
+    {
+      "id": 5,
+      "name": "Spring",
+      "definition": "Questions about the Spring framework for Java."
+    },
+    {
+      "id": 6,
+      "name": "Excel",
+      "definition": "Questions about Microsoft Excel and its functionalities."
+    },
+    {
+      "id": 7,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 8,
+      "name": "WordPress",
+      "definition": "Questions about the WordPress content management system."
+    },
+    {
+      "id": 9,
+      "name": "JavaScript",
+      "definition": "Questions about JavaScript programming language and its core functions."
+    },
+    {
+      "id": 10,
+      "name": "Bash",
+      "definition": "Questions related to Bash scripting and shell commands."
+    },
+    {
+      "id": 11,
+      "name": "Apache",
+      "definition": "Questions about the Apache HTTP Server and its configurations."
+    },
+    {
+      "id": 12,
+      "name": "SharePoint",
+      "definition": "Questions related to Microsoft SharePoint and its features."
+    },
+    {
+      "id": 13,
+      "name": "Haskell",
+      "definition": "Questions about the Haskell programming language."
+    },
+    {
+      "id": 14,
+      "name": "Objective-C",
+      "definition": "Questions about the Objective-C programming language."
+    },
+    {
+      "id": 15,
+      "name": "Scala",
+      "definition": "Questions about the Scala programming language."
+    },
+    {
+      "id": 16,
+      "name": "Oracle",
+      "definition": "Questions related to Oracle databases and SQL."
+    },
+    {
+      "id": 17,
+      "name": "Drupal",
+      "definition": "Questions about the Drupal content management framework."
+    },
+    {
+      "id": 18,
+      "name": "Subversion (SVN)",
+      "definition": "Questions about the Subversion version control system."
+    },
+    {
+      "id": 19,
+      "name": "Cocoa",
+      "definition": "Questions related to the Cocoa API for macOS development."
+    },
+    {
+      "id": 20,
+      "name": "MATLAB",
+      "definition": "Questions about MATLAB software and its toolboxes."
+    },
+    {
+      "id": 21,
+      "name": "AJAX",
+      "definition": "Questions about Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 22,
+      "name": "Ruby on Rails",
+      "definition": "Questions about the Ruby on Rails web application framework."
+    },
+    {
+      "id": 23,
+      "name": "PHP",
+      "definition": "Questions about the PHP programming language."
+    },
+    {
+      "id": 24,
+      "name": "Apache Ant/Ivy",
+      "definition": "Questions about Apache Ant and Ivy build tools."
+    },
+    {
+      "id": 25,
+      "name": "Cabal",
+      "definition": "Questions about the Cabal build system for Haskell."
+    },
+    {
+      "id": 26,
+      "name": "Grails",
+      "definition": "Questions about the Grails web application framework."
+    },
+    {
+      "id": 27,
+      "name": "LightTPD",
+      "definition": "Questions about the LightTPD web server."
+    },
+    {
+      "id": 28,
+      "name": "Nginx",
+      "definition": "Questions about the Nginx web server."
+    },
+    {
+      "id": 29,
+      "name": "Emacs",
+      "definition": "Questions about the Emacs text editor."
+    },
+    {
+      "id": 30,
+      "name": "InfoPath",
+      "definition": "Questions about Microsoft InfoPath."
+    },
+    {
+      "id": 31,
+      "name": "TortoiseSVN",
+      "definition": "Questions about the TortoiseSVN client for Subversion."
+    },
+    {
+      "id": 32,
+      "name": "XCode",
+      "definition": "Questions about the XCode IDE for macOS development."
+    },
+    {
+      "id": 33,
+      "name": "Apache Tomcat",
+      "definition": "Questions about the Apache Tomcat server."
+    },
+    {
+      "id": 34,
+      "name": "AspectJ",
+      "definition": "Questions about the AspectJ aspect-oriented programming extension for Java."
+    },
+    {
+      "id": 35,
+      "name": "JPA",
+      "definition": "Questions about the Java Persistence API (JPA)."
+    },
+    {
+      "id": 36,
+      "name": "C#",
+      "definition": "Questions about the C# programming language."
+    },
+    {
+      "id": 37,
+      "name": "RMI",
+      "definition": "Questions about Java Remote Method Invocation (RMI)."
+    },
+    {
+      "id": 38,
+      "name": "Maven",
+      "definition": "Questions about the Apache Maven build automation tool."
+    },
+    {
+      "id": 39,
+      "name": "IntelliJ IDEA",
+      "definition": "Questions about the IntelliJ IDEA IDE."
+    },
+    {
+      "id": 40,
+      "name": "Simulink",
+      "definition": "Questions about Simulink, a MATLAB-based simulation tool."
+    },
+    {
+      "id": 41,
+      "name": "Yesod",
+      "definition": "Questions about the Yesod web framework for Haskell."
+    },
+    {
+      "id": 42,
+      "name": "Lightweight Directory Access Protocol (LDAP)",
+      "definition": "Questions about LDAP."
+    },
+    {
+      "id": 43,
+      "name": "WebSphere",
+      "definition": "Questions about IBM WebSphere software."
+    },
+    {
+      "id": 44,
+      "name": "SOAP",
+      "definition": "Questions about the SOAP protocol for web services."
+    },
+    {
+      "id": 45,
+      "name": "JSON",
+      "definition": "Questions about JavaScript Object Notation (JSON)."
+    },
+    {
+      "id": 46,
+      "name": "SSL/TLS",
+      "definition": "Questions about Secure Sockets Layer (SSL) and Transport Layer Security (TLS)."
+    },
+    {
+      "id": 47,
+      "name": "Cocoa Touch",
+      "definition": "Questions about the Cocoa Touch framework for iOS development."
+    },
+    {
+      "id": 48,
+      "name": "Google Checkout",
+      "definition": "Questions about Google Checkout payment processing."
+    },
+    {
+      "id": 49,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 50,
+      "name": "NSButtonCell",
+      "definition": "Questions about the NSButtonCell class in Cocoa."
+    },
+    {
+      "id": 51,
+      "name": "NSDecimalNumber",
+      "definition": "Questions about the NSDecimalNumber class in Cocoa."
+    },
+    {
+      "id": 52,
+      "name": "NSView",
+      "definition": "Questions about the NSView class in Cocoa."
+    },
+    {
+      "id": 53,
+      "name": "NSApplication",
+      "definition": "Questions about the NSApplication class in Cocoa."
+    },
+    {
+      "id": 54,
+      "name": "NSWindow",
+      "definition": "Questions about the NSWindow class in Cocoa."
+    },
+    {
+      "id": 55,
+      "name": "NSMenu",
+      "definition": "Questions about the NSMenu class in Cocoa."
+    },
+    {
+      "id": 56,
+      "name": "NSFileManager",
+      "definition": "Questions about the NSFileManager class in Cocoa."
+    },
+    {
+      "id": 57,
+      "name": "NSTextField",
+      "definition": "Questions about the NSTextField class in Cocoa."
+    },
+    {
+      "id": 58,
+      "name": "NSImage",
+      "definition": "Questions about the NSImage class in Cocoa."
+    },
+    {
+      "id": 59,
+      "name": "NSColor",
+      "definition": "Questions about the NSColor class in Cocoa."
+    },
+    {
+      "id": 60,
+      "name": "NSBezierPath",
+      "definition": "Questions about the NSBezierPath class in Cocoa."
+    },
+    {
+      "id": 61,
+      "name": "NSAttributedString",
+      "definition": "Questions about the NSAttributedString class in Cocoa."
+    },
+    {
+      "id": 62,
+      "name": "NSFont",
+      "definition": "Questions about the NSFont class in Cocoa."
+    },
+    {
+      "id": 63,
+      "name": "NSLayoutManager",
+      "definition": "Questions about the NSLayoutManager class in Cocoa."
+    },
+    {
+      "id": 64,
+      "name": "NSTextStorage",
+      "definition": "Questions about the NSTextStorage class in Cocoa."
+    },
+    {
+      "id": 65,
+      "name": "NSTextContainer",
+      "definition": "Questions about the NSTextContainer class in Cocoa."
+    },
+    {
+      "id": 66,
+      "name": "NSTextView",
+      "definition": "Questions about the NSTextView class in Cocoa."
+    },
+    {
+      "id": 67,
+      "name": "NSScrollView",
+      "definition": "Questions about the NSScrollView class in Cocoa."
+    },
+    {
+      "id": 68,
+      "name": "NSClipView",
+      "definition": "Questions about the NSClipView class in Cocoa."
+    },
+    {
+      "id": 69,
+      "name": "NSRulerView",
+      "definition": "Questions about the NSRulerView class in Cocoa."
+    },
+    {
+      "id": 70,
+      "name": "NSLayoutConstraint",
+      "definition": "Questions about the NSLayoutConstraint class in Cocoa."
+    },
+    {
+      "id": 71,
+      "name": "NSStackView",
+      "definition": "Questions about the NSStackView class in Cocoa."
+    },
+    {
+      "id": 72,
+      "name": "NSGridView",
+      "definition": "Questions about the NSGridView class in Cocoa."
+    },
+    {
+      "id": 73,
+      "name": "NSCollectionView",
+      "definition": "Questions about the NSCollectionView class in Cocoa."
+    },
+    {
+      "id": 74,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 75,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 76,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 77,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 78,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 79,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 80,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 81,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 82,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 83,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 84,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 85,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 86,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 87,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 88,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 89,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 90,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 91,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 92,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 93,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 94,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 95,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 96,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 97,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 98,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 99,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 100,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 101,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 102,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 103,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 104,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 105,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 106,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 107,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 108,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 109,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 110,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 111,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 112,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 113,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 114,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 115,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 116,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 117,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 118,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 119,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 120,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 121,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 122,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 123,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 124,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 125,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 126,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 127,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 128,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 129,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 130,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 131,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 132,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 133,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 134,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 135,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 136,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 137,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 138,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 139,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 140,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 141,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 142,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 143,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 144,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 145,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 146,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 147,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 148,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 149,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 150,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 151,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 152,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 153,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 154,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 155,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 156,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 157,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 158,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 159,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 160,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 161,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 162,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 163,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 164,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 165,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 166,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 167,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 168,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 169,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 170,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 171,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 172,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 173,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 174,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 175,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 176,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 177,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 178,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 179,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 180,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 181,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 182,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 183,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 184,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 185,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 186,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 187,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 188,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 189,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 190,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 191,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 192,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 193,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 194,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 195,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 196,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 197,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 198,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 199,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 200,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 201,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 202,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 203,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 204,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 205,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 206,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 207,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 208,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 209,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 210,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 211,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 212,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 213,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 214,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 215,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 216,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 217,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 218,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 219,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 220,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 221,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 222,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 223,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 224,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 225,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 226,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 227,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 228,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 229,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 230,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 231,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 232,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 233,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 234,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 235,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 236,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 237,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 238,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 239,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 240,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 241,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 242,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 243,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 244,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 245,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 246,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 247,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 248,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 249,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 250,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 251,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 252,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 253,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 254,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 255,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 256,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 257,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 258,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 259,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 260,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 261,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 262,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 263,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 264,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 265,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 266,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 267,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 268,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 269,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 270,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 271,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 272,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 273,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 274,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 275,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 276,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 277,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 278,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 279,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 280,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 281,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 282,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 283,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 284,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 285,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 286,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 287,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 288,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 289,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 290,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 291,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 292,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 293,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 294,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 295,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 296,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 297,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    },
+    {
+      "id": 298,
+      "name": "NSOutlineView",
+      "definition": "Questions about the NSOutlineView class in Cocoa."
+    },
+    {
+      "id": 299,
+      "name": "NSOutlineViewDataSource",
+      "definition": "Questions about the NSOutlineViewDataSource protocol in Cocoa."
+    },
+    {
+      "id": 300,
+      "name": "NSOutlineViewDelegate",
+      "definition": "Questions about the NSOutlineViewDelegate protocol in Cocoa."
+    }
+  ]
+}

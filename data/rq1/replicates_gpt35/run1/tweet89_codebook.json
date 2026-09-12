@@ -1,0 +1,60 @@
+{
+  "bench": "tweet89",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Immigration Enforcement",
+      "definition": "Documents related to immigration enforcement and inspections"
+    },
+    {
+      "id": 2,
+      "name": "Anti-Immigrant Laws",
+      "definition": "Documents discussing anti-immigrant laws at local and state levels"
+    },
+    {
+      "id": 3,
+      "name": "Entertainment Awards",
+      "definition": "Documents related to entertainment awards like Oscars"
+    },
+    {
+      "id": 4,
+      "name": "Food and Cooking",
+      "definition": "Documents related to recipes, cooking techniques, and food reviews"
+    },
+    {
+      "id": 5,
+      "name": "Healthcare Reform",
+      "definition": "Documents discussing healthcare reform laws and rulings"
+    },
+    {
+      "id": 6,
+      "name": "Scholarships and Financial Aid",
+      "definition": "Documents related to scholarships, financial aid, and education funding"
+    },
+    {
+      "id": 7,
+      "name": "International Relations",
+      "definition": "Documents discussing international relations and diplomatic events"
+    },
+    {
+      "id": 8,
+      "name": "Social Media and Technology",
+      "definition": "Documents related to social media platforms and technological advancements"
+    },
+    {
+      "id": 9,
+      "name": "Sports Events",
+      "definition": "Documents discussing sports events and competitions"
+    },
+    {
+      "id": 10,
+      "name": "Environmental Issues",
+      "definition": "Documents related to environmental concerns and climate change"
+    }
+  ]
+}

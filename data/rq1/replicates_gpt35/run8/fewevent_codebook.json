@@ -1,0 +1,60 @@
+{
+  "bench": "fewevent",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "sports",
+      "definition": "Events related to sports, competitions, and athletic achievements."
+    },
+    {
+      "id": 2,
+      "name": "music",
+      "definition": "Events related to music, musicians, performances, and albums."
+    },
+    {
+      "id": 3,
+      "name": "politics",
+      "definition": "Events related to political figures, elections, policies, and government actions."
+    },
+    {
+      "id": 4,
+      "name": "film",
+      "definition": "Events related to films, movies, directors, actors, and screenings."
+    },
+    {
+      "id": 5,
+      "name": "death",
+      "definition": "Events related to the death of individuals."
+    },
+    {
+      "id": 6,
+      "name": "education",
+      "definition": "Events related to education, schools, universities, and academic achievements."
+    },
+    {
+      "id": 7,
+      "name": "marriage",
+      "definition": "Events related to marriages, weddings, and spouses."
+    },
+    {
+      "id": 8,
+      "name": "protests",
+      "definition": "Events related to protests, demonstrations, and civil disobedience."
+    },
+    {
+      "id": 9,
+      "name": "business",
+      "definition": "Events related to businesses, entrepreneurs, investments, and deals."
+    },
+    {
+      "id": 10,
+      "name": "war",
+      "definition": "Events related to wars, battles, military actions, and armed conflicts."
+    }
+  ]
+}

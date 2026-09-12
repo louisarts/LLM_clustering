@@ -1,0 +1,660 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Stack Overflow",
+      "definition": "Questions related to programming and software development."
+    },
+    {
+      "id": 2,
+      "name": "Super User",
+      "definition": "Questions about computer software and hardware for power users."
+    },
+    {
+      "id": 3,
+      "name": "Server Fault",
+      "definition": "Questions about managing information technology systems in a business environment."
+    },
+    {
+      "id": 4,
+      "name": "Ask Ubuntu",
+      "definition": "Questions specific to Ubuntu operating system."
+    },
+    {
+      "id": 5,
+      "name": "Unix & Linux",
+      "definition": "Questions about Unix, Linux, and other Unix-like operating systems."
+    },
+    {
+      "id": 6,
+      "name": "Database Administrators",
+      "definition": "Questions about database administration and management."
+    },
+    {
+      "id": 7,
+      "name": "Webmasters",
+      "definition": "Questions about managing websites and web servers."
+    },
+    {
+      "id": 8,
+      "name": "Web Applications",
+      "definition": "Questions about using web applications."
+    },
+    {
+      "id": 9,
+      "name": "WordPress Development",
+      "definition": "Questions about developing for WordPress."
+    },
+    {
+      "id": 10,
+      "name": "Information Security",
+      "definition": "Questions about information security and related topics."
+    },
+    {
+      "id": 11,
+      "name": "Cryptography",
+      "definition": "Questions about cryptography and encryption."
+    },
+    {
+      "id": 12,
+      "name": "Mathematics",
+      "definition": "Questions about mathematics and mathematical concepts."
+    },
+    {
+      "id": 13,
+      "name": "Physics",
+      "definition": "Questions about physics and physical phenomena."
+    },
+    {
+      "id": 14,
+      "name": "Chemistry",
+      "definition": "Questions about chemistry and chemical processes."
+    },
+    {
+      "id": 15,
+      "name": "Biology",
+      "definition": "Questions about biology and biological sciences."
+    },
+    {
+      "id": 16,
+      "name": "History",
+      "definition": "Questions about historical events and contexts."
+    },
+    {
+      "id": 17,
+      "name": "Philosophy",
+      "definition": "Questions about philosophical concepts and theories."
+    },
+    {
+      "id": 18,
+      "name": "Linguistics",
+      "definition": "Questions about language and linguistics."
+    },
+    {
+      "id": 19,
+      "name": "English Language & Usage",
+      "definition": "Questions about English language and its usage."
+    },
+    {
+      "id": 20,
+      "name": "French Language",
+      "definition": "Questions about the French language and its usage."
+    },
+    {
+      "id": 21,
+      "name": "Spanish Language",
+      "definition": "Questions about the Spanish language and its usage."
+    },
+    {
+      "id": 22,
+      "name": "Russian Language",
+      "definition": "Questions about the Russian language and its usage."
+    },
+    {
+      "id": 23,
+      "name": "Japanese Language",
+      "definition": "Questions about the Japanese language and its usage."
+    },
+    {
+      "id": 24,
+      "name": "Islam",
+      "definition": "Questions about Islam and Islamic practices."
+    },
+    {
+      "id": 25,
+      "name": "Judaism",
+      "definition": "Questions about Judaism and Jewish practices."
+    },
+    {
+      "id": 26,
+      "name": "Christianity",
+      "definition": "Questions about Christianity and Christian practices."
+    },
+    {
+      "id": 27,
+      "name": "Buddhism",
+      "definition": "Questions about Buddhism and Buddhist practices."
+    },
+    {
+      "id": 28,
+      "name": "Hinduism",
+      "definition": "Questions about Hinduism and Hindu practices."
+    },
+    {
+      "id": 29,
+      "name": "Travel",
+      "definition": "Questions about travel and traveling."
+    },
+    {
+      "id": 30,
+      "name": "Personal Finance & Money",
+      "definition": "Questions about personal finance and money management."
+    },
+    {
+      "id": 31,
+      "name": "Parenting",
+      "definition": "Questions about parenting and child-rearing."
+    },
+    {
+      "id": 32,
+      "name": "Pets",
+      "definition": "Questions about pet care and pet-related topics."
+    },
+    {
+      "id": 33,
+      "name": "Gardening & Landscaping",
+      "definition": "Questions about gardening and landscaping."
+    },
+    {
+      "id": 34,
+      "name": "Home Improvement",
+      "definition": "Questions about home improvement and DIY projects."
+    },
+    {
+      "id": 35,
+      "name": "Cooking",
+      "definition": "Questions about cooking and food preparation."
+    },
+    {
+      "id": 36,
+      "name": "Bicycles",
+      "definition": "Questions about bicycles and cycling."
+    },
+    {
+      "id": 37,
+      "name": "Motor Vehicle Maintenance & Repair",
+      "definition": "Questions about maintaining and repairing motor vehicles."
+    },
+    {
+      "id": 38,
+      "name": "Sports",
+      "definition": "Questions about sports and athletic activities."
+    },
+    {
+      "id": 39,
+      "name": "Poker",
+      "definition": "Questions about poker and poker strategies."
+    },
+    {
+      "id": 40,
+      "name": "Board & Card Games",
+      "definition": "Questions about board games and card games."
+    },
+    {
+      "id": 41,
+      "name": "Role-playing Games",
+      "definition": "Questions about role-playing games and related topics."
+    },
+    {
+      "id": 42,
+      "name": "Science Fiction & Fantasy",
+      "definition": "Questions about science fiction and fantasy genres."
+    },
+    {
+      "id": 43,
+      "name": "Movies & TV",
+      "definition": "Questions about movies and television shows."
+    },
+    {
+      "id": 44,
+      "name": "Music: Practice & Theory",
+      "definition": "Questions about music practice and theory."
+    },
+    {
+      "id": 45,
+      "name": "Writing",
+      "definition": "Questions about writing and authorship."
+    },
+    {
+      "id": 46,
+      "name": "Graphic Design",
+      "definition": "Questions about graphic design and visual communication."
+    },
+    {
+      "id": 47,
+      "name": "Photography",
+      "definition": "Questions about photography and photographic techniques."
+    },
+    {
+      "id": 48,
+      "name": "Video Production",
+      "definition": "Questions about video production and editing."
+    },
+    {
+      "id": 49,
+      "name": "3D Printing",
+      "definition": "Questions about 3D printing and related technologies."
+    },
+    {
+      "id": 50,
+      "name": "Woodworking",
+      "definition": "Questions about woodworking and carpentry."
+    },
+    {
+      "id": 51,
+      "name": "Law",
+      "definition": "Questions about legal issues and law."
+    },
+    {
+      "id": 52,
+      "name": "Politics",
+      "definition": "Questions about political systems and political issues."
+    },
+    {
+      "id": 53,
+      "name": "Economics",
+      "definition": "Questions about economics and economic theories."
+    },
+    {
+      "id": 54,
+      "name": "Academia",
+      "definition": "Questions about academic life and research."
+    },
+    {
+      "id": 55,
+      "name": "The Workplace",
+      "definition": "Questions about workplace issues and career advice."
+    },
+    {
+      "id": 56,
+      "name": "Interpersonal Skills",
+      "definition": "Questions about interpersonal skills and relationships."
+    },
+    {
+      "id": 57,
+      "name": "Lifehacks",
+      "definition": "Questions about life hacks and practical tips."
+    },
+    {
+      "id": 58,
+      "name": "Skeptics",
+      "definition": "Questions about skepticism and critical thinking."
+    },
+    {
+      "id": 59,
+      "name": "Health",
+      "definition": "Questions about health and wellness."
+    },
+    {
+      "id": 60,
+      "name": "Fitness",
+      "definition": "Questions about fitness and exercise."
+    },
+    {
+      "id": 61,
+      "name": "Medical Sciences",
+      "definition": "Questions about medical sciences and healthcare."
+    },
+    {
+      "id": 62,
+      "name": "Psychology & Neuroscience",
+      "definition": "Questions about psychology and neuroscience."
+    },
+    {
+      "id": 63,
+      "name": "Cognitive Sciences",
+      "definition": "Questions about cognitive sciences and related fields."
+    },
+    {
+      "id": 64,
+      "name": "Astronomy",
+      "definition": "Questions about astronomy and celestial phenomena."
+    },
+    {
+      "id": 65,
+      "name": "Earth Science",
+      "definition": "Questions about earth sciences and geology."
+    },
+    {
+      "id": 66,
+      "name": "Space Exploration",
+      "definition": "Questions about space exploration and space missions."
+    },
+    {
+      "id": 67,
+      "name": "Robotics",
+      "definition": "Questions about robotics and robotic systems."
+    },
+    {
+      "id": 68,
+      "name": "Artificial Intelligence",
+      "definition": "Questions about artificial intelligence and machine learning."
+    },
+    {
+      "id": 69,
+      "name": "Data Science",
+      "definition": "Questions about data science and data analysis."
+    },
+    {
+      "id": 70,
+      "name": "Machine Learning",
+      "definition": "Questions about machine learning and related algorithms."
+    },
+    {
+      "id": 71,
+      "name": "Computer Graphics",
+      "definition": "Questions about computer graphics and visualization."
+    },
+    {
+      "id": 72,
+      "name": "Game Development",
+      "definition": "Questions about game development and design."
+    },
+    {
+      "id": 73,
+      "name": "Software Engineering",
+      "definition": "Questions about software engineering and development practices."
+    },
+    {
+      "id": 74,
+      "name": "Hardware Recommendations",
+      "definition": "Questions about hardware recommendations and specifications."
+    },
+    {
+      "id": 75,
+      "name": "Electronics",
+      "definition": "Questions about electronics and electronic circuits."
+    },
+    {
+      "id": 76,
+      "name": "Electrical Engineering",
+      "definition": "Questions about electrical engineering and related topics."
+    },
+    {
+      "id": 77,
+      "name": "Mechanical Engineering",
+      "definition": "Questions about mechanical engineering and mechanics."
+    },
+    {
+      "id": 78,
+      "name": "Engineering",
+      "definition": "Questions about engineering and technical disciplines."
+    },
+    {
+      "id": 79,
+      "name": "Homebrewing",
+      "definition": "Questions about homebrewing and brewing techniques."
+    },
+    {
+      "id": 80,
+      "name": "Beer, Wine & Spirits",
+      "definition": "Questions about beer, wine, and spirits."
+    },
+    {
+      "id": 81,
+      "name": "Coffee",
+      "definition": "Questions about coffee and coffee preparation."
+    },
+    {
+      "id": 82,
+      "name": "Tea",
+      "definition": "Questions about tea and tea preparation."
+    },
+    {
+      "id": 83,
+      "name": "Gardening",
+      "definition": "Questions about gardening and plant care."
+    },
+    {
+      "id": 84,
+      "name": "Sustainable Living",
+      "definition": "Questions about sustainable living and eco-friendly practices."
+    },
+    {
+      "id": 85,
+      "name": "Crafts",
+      "definition": "Questions about crafts and crafting techniques."
+    },
+    {
+      "id": 86,
+      "name": "DIY",
+      "definition": "Questions about do-it-yourself projects and techniques."
+    },
+    {
+      "id": 87,
+      "name": "Pets & Animals",
+      "definition": "Questions about pets and animal care."
+    },
+    {
+      "id": 88,
+      "name": "Birds",
+      "definition": "Questions about birds and birdwatching."
+    },
+    {
+      "id": 89,
+      "name": "Fish & Aquariums",
+      "definition": "Questions about fish and aquarium care."
+    },
+    {
+      "id": 90,
+      "name": "Reptiles & Amphibians",
+      "definition": "Questions about reptiles and amphibians."
+    },
+    {
+      "id": 91,
+      "name": "Insects & Arachnids",
+      "definition": "Questions about insects and arachnids."
+    },
+    {
+      "id": 92,
+      "name": "Wildlife",
+      "definition": "Questions about wildlife and conservation."
+    },
+    {
+      "id": 93,
+      "name": "Zoology",
+      "definition": "Questions about zoology and animal biology."
+    },
+    {
+      "id": 94,
+      "name": "Veterinary Medicine",
+      "definition": "Questions about veterinary medicine and animal health."
+    },
+    {
+      "id": 95,
+      "name": "Animal Behavior",
+      "definition": "Questions about animal behavior and ethology."
+    },
+    {
+      "id": 96,
+      "name": "Animal Welfare",
+      "definition": "Questions about animal welfare and ethics."
+    },
+    {
+      "id": 97,
+      "name": "Animal Rights",
+      "definition": "Questions about animal rights and advocacy."
+    },
+    {
+      "id": 98,
+      "name": "Animal Husbandry",
+      "definition": "Questions about animal husbandry and livestock management."
+    },
+    {
+      "id": 99,
+      "name": "Animal Breeding",
+      "definition": "Questions about animal breeding and genetics."
+    },
+    {
+      "id": 100,
+      "name": "Animal Nutrition",
+      "definition": "Questions about animal nutrition and diet."
+    },
+    {
+      "id": 101,
+      "name": "Animal Health",
+      "definition": "Questions about animal health and veterinary care."
+    },
+    {
+      "id": 102,
+      "name": "Animal Training",
+      "definition": "Questions about animal training and behavior modification."
+    },
+    {
+      "id": 103,
+      "name": "Animal Rescue",
+      "definition": "Questions about animal rescue and rehabilitation."
+    },
+    {
+      "id": 104,
+      "name": "Animal Adoption",
+      "definition": "Questions about animal adoption and fostering."
+    },
+    {
+      "id": 105,
+      "name": "Animal Shelters",
+      "definition": "Questions about animal shelters and rescue organizations."
+    },
+    {
+      "id": 106,
+      "name": "Animal Sanctuaries",
+      "definition": "Questions about animal sanctuaries and wildlife refuges."
+    },
+    {
+      "id": 107,
+      "name": "Animal Conservation",
+      "definition": "Questions about animal conservation and biodiversity."
+    },
+    {
+      "id": 108,
+      "name": "Animal Ecology",
+      "definition": "Questions about animal ecology and ecosystems."
+    },
+    {
+      "id": 109,
+      "name": "Animal Physiology",
+      "definition": "Questions about animal physiology and anatomy."
+    },
+    {
+      "id": 110,
+      "name": "Animal Genetics",
+      "definition": "Questions about animal genetics and heredity."
+    },
+    {
+      "id": 111,
+      "name": "Animal Evolution",
+      "definition": "Questions about animal evolution and phylogeny."
+    },
+    {
+      "id": 112,
+      "name": "Animal Taxonomy",
+      "definition": "Questions about animal taxonomy and classification."
+    },
+    {
+      "id": 113,
+      "name": "Animal Behavior",
+      "definition": "Questions about animal behavior and ethology."
+    },
+    {
+      "id": 114,
+      "name": "Animal Welfare",
+      "definition": "Questions about animal welfare and ethics."
+    },
+    {
+      "id": 115,
+      "name": "Animal Rights",
+      "definition": "Questions about animal rights and advocacy."
+    },
+    {
+      "id": 116,
+      "name": "Animal Husbandry",
+      "definition": "Questions about animal husbandry and livestock management."
+    },
+    {
+      "id": 117,
+      "name": "Animal Breeding",
+      "definition": "Questions about animal breeding and genetics."
+    },
+    {
+      "id": 118,
+      "name": "Animal Nutrition",
+      "definition": "Questions about animal nutrition and diet."
+    },
+    {
+      "id": 119,
+      "name": "Animal Health",
+      "definition": "Questions about animal health and veterinary care."
+    },
+    {
+      "id": 120,
+      "name": "Animal Training",
+      "definition": "Questions about animal training and behavior modification."
+    },
+    {
+      "id": 121,
+      "name": "Animal Rescue",
+      "definition": "Questions about animal rescue and rehabilitation."
+    },
+    {
+      "id": 122,
+      "name": "Animal Adoption",
+      "definition": "Questions about animal adoption and fostering."
+    },
+    {
+      "id": 123,
+      "name": "Animal Shelters",
+      "definition": "Questions about animal shelters and rescue organizations."
+    },
+    {
+      "id": 124,
+      "name": "Animal Sanctuaries",
+      "definition": "Questions about animal sanctuaries and wildlife refuges."
+    },
+    {
+      "id": 125,
+      "name": "Animal Conservation",
+      "definition": "Questions about animal conservation and biodiversity."
+    },
+    {
+      "id": 126,
+      "name": "Animal Ecology",
+      "definition": "Questions about animal ecology and ecosystems."
+    },
+    {
+      "id": 127,
+      "name": "Animal Physiology",
+      "definition": "Questions about animal physiology and anatomy."
+    },
+    {
+      "id": 128,
+      "name": "Animal Genetics",
+      "definition": "Questions about animal genetics and heredity."
+    },
+    {
+      "id": 129,
+      "name": "Animal Evolution",
+      "definition": "Questions about animal evolution and phylogeny."
+    },
+    {
+      "id": 130,
+      "name": "Animal Taxonomy",
+      "definition": "Questions about animal taxonomy and classification."
+    }
+  ]
+}

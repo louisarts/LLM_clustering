@@ -1,0 +1,109 @@
+{
+  "bench": "fewrel",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Part-Whole",
+      "definition": "One entity is a component, member, or subdivision of the other entity."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "One entity is located in, at, or on the other entity."
+    },
+    {
+      "id": 3,
+      "name": "Creator-Creation",
+      "definition": "One entity created, authored, designed, or developed the other entity."
+    },
+    {
+      "id": 4,
+      "name": "Affiliation",
+      "definition": "One entity is affiliated with, works for, or represents the other entity."
+    },
+    {
+      "id": 5,
+      "name": "Origin",
+      "definition": "One entity originates from, was born in, or is a native of the other entity."
+    },
+    {
+      "id": 6,
+      "name": "Award-Nominee-Winner",
+      "definition": "One entity is an award for which the other entity was nominated or won."
+    },
+    {
+      "id": 7,
+      "name": "Event-Participant",
+      "definition": "One entity participated in, competed at, or was involved in the other entity."
+    },
+    {
+      "id": 8,
+      "name": "Family",
+      "definition": "One entity is related to the other entity by blood, marriage, or lineage."
+    },
+    {
+      "id": 9,
+      "name": "Genre-Style-Movement",
+      "definition": "One entity belongs to, is associated with, or is an example of the artistic style, genre, or movement of the other entity."
+    },
+    {
+      "id": 10,
+      "name": "Product-Producer",
+      "definition": "One entity is a product, model, or item produced, manufactured, or published by the other entity."
+    },
+    {
+      "id": 11,
+      "name": "Geographical-Feature",
+      "definition": "One entity is a geographical feature contained by, adjacent to, or flowing into the other entity."
+    },
+    {
+      "id": 12,
+      "name": "Character-Creator",
+      "definition": "One entity is a fictional character appearing in or created for the work of the other entity."
+    },
+    {
+      "id": 13,
+      "name": "Instrument-Musician",
+      "definition": "One entity is a musical instrument played by the other entity."
+    },
+    {
+      "id": 14,
+      "name": "Adaptation-Source",
+      "definition": "One entity is an adaptation, translation, or derivative work based on the other entity."
+    },
+    {
+      "id": 15,
+      "name": "Name-Relation",
+      "definition": "One entity is a name, title, or linguistic variant of the other entity."
+    },
+    {
+      "id": 16,
+      "name": "Successor",
+      "definition": "One entity succeeds, replaces, or follows the other entity in a sequence or role."
+    },
+    {
+      "id": 17,
+      "name": "Subject",
+      "definition": "One entity is the subject, topic, or content of the other entity."
+    },
+    {
+      "id": 18,
+      "name": "Owner-Possessor",
+      "definition": "One entity owns, possesses, or holds the other entity."
+    },
+    {
+      "id": 19,
+      "name": "Employer-Employee",
+      "definition": "One entity employs, manages, or is the superior of the other entity."
+    },
+    {
+      "id": 20,
+      "name": "Alliance-Group",
+      "definition": "One entity is a member of or allied with the other entity within a group or coalition."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "StackOverflow",
+      "definition": "Questions related to programming, software development, and technology"
+    },
+    {
+      "id": 2,
+      "name": "Physics",
+      "definition": "Questions related to physics concepts, theories, and applications"
+    },
+    {
+      "id": 3,
+      "name": "Russian Language",
+      "definition": "Questions related to the Russian language and its usage"
+    },
+    {
+      "id": 4,
+      "name": "Photography",
+      "definition": "Questions related to photography techniques, equipment, and editing"
+    },
+    {
+      "id": 5,
+      "name": "Apple",
+      "definition": "Questions related to Apple products, software, and services"
+    },
+    {
+      "id": 6,
+      "name": "Mathematics",
+      "definition": "Questions related to mathematical concepts, problems, and solutions"
+    },
+    {
+      "id": 7,
+      "name": "Parenting",
+      "definition": "Questions related to parenting, child care, and family dynamics"
+    },
+    {
+      "id": 8,
+      "name": "Cooking",
+      "definition": "Questions related to cooking, recipes, and kitchen techniques"
+    },
+    {
+      "id": 9,
+      "name": "History",
+      "definition": "Questions related to historical events, figures, and civilizations"
+    },
+    {
+      "id": 10,
+      "name": "SharePoint",
+      "definition": "Questions related to SharePoint development, customization, and administration"
+    }
+  ]
+}

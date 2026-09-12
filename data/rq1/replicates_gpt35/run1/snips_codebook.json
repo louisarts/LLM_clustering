@@ -1,0 +1,60 @@
+{
+  "bench": "snips",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "fresh",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Music",
+      "definition": "User wants to listen to music or a specific song/artist/genre."
+    },
+    {
+      "id": 2,
+      "name": "Rate Content",
+      "definition": "User wants to provide a rating or review for a book, movie, album, etc."
+    },
+    {
+      "id": 3,
+      "name": "Get Weather Forecast",
+      "definition": "User wants to know the weather forecast for a specific location and time."
+    },
+    {
+      "id": 4,
+      "name": "Book Reservation",
+      "definition": "User wants to make a reservation at a restaurant or other establishment."
+    },
+    {
+      "id": 5,
+      "name": "Find Content",
+      "definition": "User wants to find a specific movie, TV show, game, or other content."
+    },
+    {
+      "id": 6,
+      "name": "Add to Playlist",
+      "definition": "User wants to add a song, album, or artist to a specific playlist."
+    },
+    {
+      "id": 7,
+      "name": "Get Movie Schedule",
+      "definition": "User wants to know the schedule of movies playing at a specific theatre."
+    },
+    {
+      "id": 8,
+      "name": "Get Game Information",
+      "definition": "User wants information about a specific video game."
+    },
+    {
+      "id": 9,
+      "name": "Get Album Information",
+      "definition": "User wants information about a specific album."
+    },
+    {
+      "id": 10,
+      "name": "Get TV Show Information",
+      "definition": "User wants information about a specific TV show."
+    }
+  ]
+}

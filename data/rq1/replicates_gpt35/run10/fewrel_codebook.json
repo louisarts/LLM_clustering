@@ -1,0 +1,90 @@
+{
+  "bench": "fewrel",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ownership",
+      "definition": "The legal possession of a property or asset by an individual, group, or organization."
+    },
+    {
+      "id": 2,
+      "name": "Education",
+      "definition": "The process of receiving or giving systematic instruction, especially at a school or university."
+    },
+    {
+      "id": 3,
+      "name": "Location",
+      "definition": "A particular place or position."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Activities that provide amusement or enjoyment."
+    },
+    {
+      "id": 5,
+      "name": "Documentary",
+      "definition": "A factual film or television program about real events, people, or issues."
+    },
+    {
+      "id": 6,
+      "name": "Geography",
+      "definition": "The study of the physical features of the earth and its atmosphere."
+    },
+    {
+      "id": 7,
+      "name": "Music",
+      "definition": "Vocal or instrumental sounds combined in such a way as to produce beauty of form, harmony, and expression."
+    },
+    {
+      "id": 8,
+      "name": "Politics",
+      "definition": "The activities associated with the governance of a country or area, especially the debate between parties having power."
+    },
+    {
+      "id": 9,
+      "name": "Sports",
+      "definition": "Activities involving physical exertion and skill in which an individual or team competes against another or others for entertainment."
+    },
+    {
+      "id": 10,
+      "name": "History",
+      "definition": "The study of past events, particularly in human affairs."
+    },
+    {
+      "id": 11,
+      "name": "Business",
+      "definition": "The practice of making one's living by engaging in commerce."
+    },
+    {
+      "id": 12,
+      "name": "Film",
+      "definition": "A story or event recorded by a camera as a set of moving images and shown in a theater or on television; a motion picture."
+    },
+    {
+      "id": 13,
+      "name": "Literature",
+      "definition": "Written works, especially those considered of superior or lasting artistic merit."
+    },
+    {
+      "id": 14,
+      "name": "Military",
+      "definition": "Relating to or characteristic of soldiers or armed forces."
+    },
+    {
+      "id": 15,
+      "name": "Science",
+      "definition": "The intellectual and practical activity encompassing the systematic study of the structure and behavior of the physical and natural world through observation and experiment."
+    },
+    {
+      "id": 16,
+      "name": "Technology",
+      "definition": "The application of scientific knowledge for practical purposes, especially in industry."
+    }
+  ]
+}

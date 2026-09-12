@@ -1,0 +1,64 @@
+{
+  "bench": "mtop_domain",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms",
+      "definition": "Setting, editing, or querying clock-based alerts intended to wake the user or signal a specific time."
+    },
+    {
+      "id": 2,
+      "name": "Calling",
+      "definition": "Initiating, managing, or querying real-time voice or video connections with contacts or phone numbers."
+    },
+    {
+      "id": 3,
+      "name": "Events",
+      "definition": "Finding or requesting information about local activities, performances, or public gatherings."
+    },
+    {
+      "id": 4,
+      "name": "Friends",
+      "definition": "Querying personal social connections, including where people work, where they live, or relationship details."
+    },
+    {
+      "id": 5,
+      "name": "Media",
+      "definition": "Controlling playback, selecting content, or managing settings related to music or audio entertainment."
+    },
+    {
+      "id": 6,
+      "name": "Messaging",
+      "definition": "Composing, sending, or retrieving text or video messages to or from contacts."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Requesting current events, headlines, or specific information updates about public affairs."
+    },
+    {
+      "id": 8,
+      "name": "Recipes",
+      "definition": "Requesting instructions, ingredients, or details regarding the preparation of food and drinks."
+    },
+    {
+      "id": 9,
+      "name": "Reminders",
+      "definition": "Creating, editing, deleting, or querying task-based notifications intended to prompt the user."
+    },
+    {
+      "id": 10,
+      "name": "Timers",
+      "definition": "Setting, adjusting, or querying countdowns used to track the duration of an activity."
+    },
+    {
+      "id": 11,
+      "name": "Weather",
+      "definition": "Requesting forecasts, temperatures, or atmospheric conditions for specific locations and times."
+    }
+  ]
+}

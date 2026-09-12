@@ -1,0 +1,110 @@
+{
+  "bench": "mtop_intent",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Call",
+      "definition": "Initiating a phone call to a specified contact."
+    },
+    {
+      "id": 2,
+      "name": "Message",
+      "definition": "Sending a text or message to a specified contact."
+    },
+    {
+      "id": 3,
+      "name": "Reminder",
+      "definition": "Setting a reminder for a specific task or event."
+    },
+    {
+      "id": 4,
+      "name": "Alarm",
+      "definition": "Creating or modifying an alarm for a specific time."
+    },
+    {
+      "id": 5,
+      "name": "Timer",
+      "definition": "Setting or modifying a timer for a specific duration."
+    },
+    {
+      "id": 6,
+      "name": "Weather Inquiry",
+      "definition": "Asking for current or forecasted weather conditions."
+    },
+    {
+      "id": 7,
+      "name": "Music Playback",
+      "definition": "Playing a specific song, artist, or genre of music."
+    },
+    {
+      "id": 8,
+      "name": "Video Call",
+      "definition": "Initiating a video call with a specified contact."
+    },
+    {
+      "id": 9,
+      "name": "Information Request",
+      "definition": "Requesting information about a specific topic or person."
+    },
+    {
+      "id": 10,
+      "name": "Recipe Inquiry",
+      "definition": "Asking for a recipe or cooking instructions."
+    },
+    {
+      "id": 11,
+      "name": "Event Inquiry",
+      "definition": "Inquiring about events or activities in a specific location."
+    },
+    {
+      "id": 12,
+      "name": "Status Update",
+      "definition": "Changing or checking the status of availability."
+    },
+    {
+      "id": 13,
+      "name": "Delete Reminder",
+      "definition": "Removing a previously set reminder."
+    },
+    {
+      "id": 14,
+      "name": "Cancel Alarm/Timer",
+      "definition": "Stopping or canceling an alarm or timer."
+    },
+    {
+      "id": 15,
+      "name": "Recurring Alarm",
+      "definition": "Setting an alarm to repeat on specified days."
+    },
+    {
+      "id": 16,
+      "name": "Video Message",
+      "definition": "Creating or sending a video message."
+    },
+    {
+      "id": 17,
+      "name": "Group Call",
+      "definition": "Initiating a call with multiple participants."
+    },
+    {
+      "id": 18,
+      "name": "Personal Reminder",
+      "definition": "Setting a reminder for personal tasks or events."
+    },
+    {
+      "id": 19,
+      "name": "Search Inquiry",
+      "definition": "Searching for specific information or content."
+    },
+    {
+      "id": 20,
+      "name": "Cancel Reminder",
+      "definition": "Removing all upcoming reminders."
+    }
+  ]
+}

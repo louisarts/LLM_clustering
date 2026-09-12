@@ -1,0 +1,90 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Language and Linguistics",
+      "definition": "Questions related to language, translation, grammar, and linguistics."
+    },
+    {
+      "id": 2,
+      "name": "Programming and Software Development",
+      "definition": "Questions about programming languages, software development, and related technologies."
+    },
+    {
+      "id": 3,
+      "name": "Health and Fitness",
+      "definition": "Questions regarding health, fitness, nutrition, and wellness."
+    },
+    {
+      "id": 4,
+      "name": "Science and Mathematics",
+      "definition": "Questions related to scientific concepts, mathematical theories, and research."
+    },
+    {
+      "id": 5,
+      "name": "Technology and Gadgets",
+      "definition": "Questions about technology, gadgets, and electronic devices."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Geography",
+      "definition": "Questions related to travel, geography, and cultural experiences."
+    },
+    {
+      "id": 7,
+      "name": "Arts and Entertainment",
+      "definition": "Questions about art, music, movies, and entertainment."
+    },
+    {
+      "id": 8,
+      "name": "Business and Finance",
+      "definition": "Questions related to business practices, finance, and economics."
+    },
+    {
+      "id": 9,
+      "name": "Education and Learning",
+      "definition": "Questions about educational methods, learning resources, and academic subjects."
+    },
+    {
+      "id": 10,
+      "name": "Home and Garden",
+      "definition": "Questions related to home improvement, gardening, and domestic life."
+    },
+    {
+      "id": 11,
+      "name": "Food and Cooking",
+      "definition": "Questions about food preparation, cooking techniques, and recipes."
+    },
+    {
+      "id": 12,
+      "name": "Legal and Ethical Issues",
+      "definition": "Questions regarding legal matters, ethics, and moral dilemmas."
+    },
+    {
+      "id": 13,
+      "name": "History and Culture",
+      "definition": "Questions about historical events, cultural practices, and societal norms."
+    },
+    {
+      "id": 14,
+      "name": "Parenting and Family",
+      "definition": "Questions related to parenting, family dynamics, and child development."
+    },
+    {
+      "id": 15,
+      "name": "Gaming",
+      "definition": "Questions about video games, board games, and gaming culture."
+    },
+    {
+      "id": 16,
+      "name": "Miscellaneous",
+      "definition": "Questions that do not fit into the other specified categories."
+    }
+  ]
+}

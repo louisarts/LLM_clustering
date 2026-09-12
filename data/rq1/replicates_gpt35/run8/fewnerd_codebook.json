@@ -1,0 +1,30 @@
+{
+  "bench": "fewnerd",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "A human being"
+    },
+    {
+      "id": 2,
+      "name": "Organization",
+      "definition": "A group of people working together towards common goals"
+    },
+    {
+      "id": 3,
+      "name": "Location",
+      "definition": "A specific point or area on the Earth's surface"
+    },
+    {
+      "id": 4,
+      "name": "Species",
+      "definition": "A group of living organisms consisting of similar individuals"
+    }
+  ]
+}

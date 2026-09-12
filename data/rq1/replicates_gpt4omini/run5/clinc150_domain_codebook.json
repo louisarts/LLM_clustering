@@ -1,0 +1,85 @@
+{
+  "bench": "clinc150_domain",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Financial Transactions",
+      "definition": "Requests related to banking, payments, and financial account management."
+    },
+    {
+      "id": 2,
+      "name": "Travel and Transportation",
+      "definition": "Inquiries and requests regarding travel arrangements, transportation, and related services."
+    },
+    {
+      "id": 3,
+      "name": "Food and Dining",
+      "definition": "Questions and requests related to food, recipes, dining options, and grocery lists."
+    },
+    {
+      "id": 4,
+      "name": "Health and Safety",
+      "definition": "Inquiries about health, safety, vaccinations, and medical information."
+    },
+    {
+      "id": 5,
+      "name": "Personal Assistance",
+      "definition": "Requests for help with personal tasks, reminders, and scheduling."
+    },
+    {
+      "id": 6,
+      "name": "Entertainment and Leisure",
+      "definition": "Requests related to music, jokes, hobbies, and leisure activities."
+    },
+    {
+      "id": 7,
+      "name": "Utilities and Bills",
+      "definition": "Inquiries about utility services, bills, and payment information."
+    },
+    {
+      "id": 8,
+      "name": "Insurance and Benefits",
+      "definition": "Questions regarding insurance plans, benefits, and related inquiries."
+    },
+    {
+      "id": 9,
+      "name": "Education and Learning",
+      "definition": "Requests for definitions, explanations, and educational content."
+    },
+    {
+      "id": 10,
+      "name": "Technical Support",
+      "definition": "Inquiries related to technical issues, device support, and troubleshooting."
+    },
+    {
+      "id": 11,
+      "name": "Calendar and Scheduling",
+      "definition": "Requests for managing calendar events, appointments, and reminders."
+    },
+    {
+      "id": 12,
+      "name": "Communication",
+      "definition": "Requests for sending messages, making calls, and other forms of communication."
+    },
+    {
+      "id": 13,
+      "name": "General Knowledge",
+      "definition": "Inquiries seeking general information or facts."
+    },
+    {
+      "id": 14,
+      "name": "Personalization",
+      "definition": "Requests related to changing settings, preferences, or personal information."
+    },
+    {
+      "id": 15,
+      "name": "Travel Documentation",
+      "definition": "Questions regarding travel documents, visas, and requirements."
+    }
+  ]
+}

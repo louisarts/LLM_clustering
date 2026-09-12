@@ -1,0 +1,85 @@
+{
+  "bench": "massive_domain",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Communication",
+      "definition": "Utterances related to sending, receiving, or managing messages and emails."
+    },
+    {
+      "id": 2,
+      "name": "Scheduling",
+      "definition": "Utterances that involve setting, modifying, or querying events and reminders."
+    },
+    {
+      "id": 3,
+      "name": "Weather",
+      "definition": "Utterances that inquire about or provide weather forecasts and conditions."
+    },
+    {
+      "id": 4,
+      "name": "Music and Media",
+      "definition": "Utterances related to playing, managing, or querying music, podcasts, and videos."
+    },
+    {
+      "id": 5,
+      "name": "Home Automation",
+      "definition": "Utterances that involve controlling smart home devices and settings."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Navigation",
+      "definition": "Utterances related to travel arrangements, directions, and transportation."
+    },
+    {
+      "id": 7,
+      "name": "Finance and Economy",
+      "definition": "Utterances that inquire about or manage financial information, including currency exchange rates."
+    },
+    {
+      "id": 8,
+      "name": "Health and Wellness",
+      "definition": "Utterances that provide or request health-related information and tips."
+    },
+    {
+      "id": 9,
+      "name": "Food and Cooking",
+      "definition": "Utterances related to meal preparation, recipes, and food ordering."
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge",
+      "definition": "Utterances that seek definitions, explanations, or general information."
+    },
+    {
+      "id": 11,
+      "name": "Social Media",
+      "definition": "Utterances that involve posting, tweeting, or managing social media content."
+    },
+    {
+      "id": 12,
+      "name": "Tasks and To-Do Lists",
+      "definition": "Utterances related to creating, managing, or deleting tasks and lists."
+    },
+    {
+      "id": 13,
+      "name": "News and Updates",
+      "definition": "Utterances that inquire about or provide news and current events."
+    },
+    {
+      "id": 14,
+      "name": "Entertainment",
+      "definition": "Utterances related to leisure activities, including movies, games, and shows."
+    },
+    {
+      "id": 15,
+      "name": "Personal Assistance",
+      "definition": "Utterances that involve personal inquiries or requests for assistance."
+    }
+  ]
+}

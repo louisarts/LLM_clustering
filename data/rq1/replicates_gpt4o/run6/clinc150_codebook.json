@@ -1,0 +1,120 @@
+{
+  "bench": "clinc150",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Management",
+      "definition": "Requests related to managing bank or credit card accounts, such as checking balances, transferring money, or reporting fraud."
+    },
+    {
+      "id": 2,
+      "name": "Travel Information",
+      "definition": "Inquiries about travel plans, such as flight status, visa requirements, or travel alerts."
+    },
+    {
+      "id": 3,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or future weather conditions."
+    },
+    {
+      "id": 4,
+      "name": "Calendar and Scheduling",
+      "definition": "Requests to check, add, or modify calendar events or reminders."
+    },
+    {
+      "id": 5,
+      "name": "Shopping and Orders",
+      "definition": "Requests to purchase items, check order status, or add items to a shopping list."
+    },
+    {
+      "id": 6,
+      "name": "Music and Media Control",
+      "definition": "Commands to play, skip, or add songs to playlists."
+    },
+    {
+      "id": 7,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes, cooking times, or ingredient substitutions."
+    },
+    {
+      "id": 8,
+      "name": "Language and Translation",
+      "definition": "Requests for translations or language-related inquiries."
+    },
+    {
+      "id": 9,
+      "name": "General Knowledge",
+      "definition": "Inquiries about facts, definitions, or general information."
+    },
+    {
+      "id": 10,
+      "name": "Device and System Settings",
+      "definition": "Commands to change device settings, such as volume or language."
+    },
+    {
+      "id": 11,
+      "name": "Transportation and Navigation",
+      "definition": "Requests for directions, traffic updates, or public transportation information."
+    },
+    {
+      "id": 12,
+      "name": "Health and Safety",
+      "definition": "Inquiries about health precautions or safety information."
+    },
+    {
+      "id": 13,
+      "name": "Financial Information",
+      "definition": "Requests for financial details, such as credit scores or transaction fees."
+    },
+    {
+      "id": 14,
+      "name": "Personal Information",
+      "definition": "Requests for personal data, such as vacation days or salary information."
+    },
+    {
+      "id": 15,
+      "name": "Entertainment and Leisure",
+      "definition": "Inquiries about movies, shows, or fun facts."
+    },
+    {
+      "id": 16,
+      "name": "Technical Support",
+      "definition": "Requests for help with technical issues or device troubleshooting."
+    },
+    {
+      "id": 17,
+      "name": "Communication Preferences",
+      "definition": "Commands to change how the assistant addresses the user or speaks."
+    },
+    {
+      "id": 18,
+      "name": "Games and Simulations",
+      "definition": "Requests to simulate games or perform random actions like rolling dice."
+    },
+    {
+      "id": 19,
+      "name": "Food and Nutrition",
+      "definition": "Inquiries about nutritional information or food safety."
+    },
+    {
+      "id": 20,
+      "name": "Automobile Maintenance",
+      "definition": "Requests related to car maintenance, such as oil changes or tire checks."
+    },
+    {
+      "id": 21,
+      "name": "Banking and Finance",
+      "definition": "Requests related to banking transactions or financial planning."
+    },
+    {
+      "id": 22,
+      "name": "Miscellaneous",
+      "definition": "Requests that do not fit into other categories, such as jokes or casual conversation."
+    }
+  ]
+}

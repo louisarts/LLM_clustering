@@ -1,0 +1,69 @@
+{
+  "bench": "mtop_domain",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms",
+      "definition": "Setting, querying, modifying, or canceling time-based alerts intended to wake the user or signal a specific time."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Creating, querying, modifying, or deleting tasks or notifications intended to remind the user to perform a specific action."
+    },
+    {
+      "id": 3,
+      "name": "Timers",
+      "definition": "Starting, stopping, adjusting, or querying countdown timers that track the passage of time."
+    },
+    {
+      "id": 4,
+      "name": "Messaging",
+      "definition": "Sending, reading, or managing text or video messages to contacts or groups."
+    },
+    {
+      "id": 5,
+      "name": "Calling",
+      "definition": "Initiating, managing, or ending voice or video calls with contacts."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Playing, controlling playback of, or querying information about songs, albums, artists, or radio stations."
+    },
+    {
+      "id": 7,
+      "name": "Weather",
+      "definition": "Querying current conditions, forecasts, or specific weather attributes like temperature or precipitation."
+    },
+    {
+      "id": 8,
+      "name": "News",
+      "definition": "Requesting news updates, headlines, or specific information regarding current events."
+    },
+    {
+      "id": 9,
+      "name": "Events",
+      "definition": "Finding, querying, or managing attendance for local events, concerts, or festivals."
+    },
+    {
+      "id": 10,
+      "name": "Recipes",
+      "definition": "Finding recipes or querying cooking instructions, ingredients, temperatures, or techniques."
+    },
+    {
+      "id": 11,
+      "name": "Nutrition",
+      "definition": "Querying nutritional information such as calories or nutrient content in food items."
+    },
+    {
+      "id": 12,
+      "name": "Contacts",
+      "definition": "Querying information about contacts, such as where they live, where they work, or their relationships to the user."
+    }
+  ]
+}

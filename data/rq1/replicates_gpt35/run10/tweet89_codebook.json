@@ -1,0 +1,180 @@
+{
+  "bench": "tweet89",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Obama Birth Certificate Controversy",
+      "definition": "Documents related to the controversy surrounding Barack Obama's birth certificate"
+    },
+    {
+      "id": 2,
+      "name": "Republican Party Debt",
+      "definition": "Documents related to the debt issues of the Republican Party"
+    },
+    {
+      "id": 3,
+      "name": "Health and Fitness Initiatives",
+      "definition": "Documents related to health and fitness initiatives"
+    },
+    {
+      "id": 4,
+      "name": "Weather Events",
+      "definition": "Documents related to weather events such as blizzards and storms"
+    },
+    {
+      "id": 5,
+      "name": "Credit Card Debt Consolidation",
+      "definition": "Documents related to credit card debt consolidation"
+    },
+    {
+      "id": 6,
+      "name": "Bedbug Infestation",
+      "definition": "Documents related to bedbug infestation and control"
+    },
+    {
+      "id": 7,
+      "name": "Food Controversies",
+      "definition": "Documents related to controversies surrounding food products"
+    },
+    {
+      "id": 8,
+      "name": "Celebrity Performances",
+      "definition": "Documents related to performances by celebrities"
+    },
+    {
+      "id": 9,
+      "name": "Social Networking Platforms",
+      "definition": "Documents related to social networking platforms like Twitter and Facebook"
+    },
+    {
+      "id": 10,
+      "name": "Film Festivals",
+      "definition": "Documents related to film festivals like Sundance"
+    },
+    {
+      "id": 11,
+      "name": "Fishing Reports",
+      "definition": "Documents related to fishing reports and activities"
+    },
+    {
+      "id": 12,
+      "name": "Cybersecurity Threats",
+      "definition": "Documents related to cybersecurity threats like Stuxnet"
+    },
+    {
+      "id": 13,
+      "name": "Marine Life Conservation",
+      "definition": "Documents related to marine life conservation efforts"
+    },
+    {
+      "id": 14,
+      "name": "Super Bowl Commercials",
+      "definition": "Documents related to commercials aired during the Super Bowl"
+    },
+    {
+      "id": 15,
+      "name": "Terrorist Attacks",
+      "definition": "Documents related to terrorist attacks and bombings"
+    },
+    {
+      "id": 16,
+      "name": "Political Controversies",
+      "definition": "Documents related to political controversies and disputes"
+    },
+    {
+      "id": 17,
+      "name": "Scholarship Opportunities",
+      "definition": "Documents related to scholarship opportunities and programs"
+    },
+    {
+      "id": 18,
+      "name": "Identity Theft Prevention",
+      "definition": "Documents related to preventing identity theft"
+    },
+    {
+      "id": 19,
+      "name": "Journalist Safety Concerns",
+      "definition": "Documents related to threats and attacks on journalists"
+    },
+    {
+      "id": 20,
+      "name": "Economic News",
+      "definition": "Documents related to economic news and updates"
+    },
+    {
+      "id": 21,
+      "name": "Social Media Polls",
+      "definition": "Documents related to polls conducted on social media platforms"
+    },
+    {
+      "id": 22,
+      "name": "Healthcare Law Rulings",
+      "definition": "Documents related to rulings on healthcare laws"
+    },
+    {
+      "id": 23,
+      "name": "Texting While Driving",
+      "definition": "Documents related to the dangers of texting while driving"
+    },
+    {
+      "id": 24,
+      "name": "Environmental Conservation Efforts",
+      "definition": "Documents related to environmental conservation efforts"
+    },
+    {
+      "id": 25,
+      "name": "Presidential Elections",
+      "definition": "Documents related to presidential elections and campaigns"
+    },
+    {
+      "id": 26,
+      "name": "Foreign Policy Issues",
+      "definition": "Documents related to foreign policy issues and conflicts"
+    },
+    {
+      "id": 27,
+      "name": "Debt Settlement Programs",
+      "definition": "Documents related to debt settlement programs and laws"
+    },
+    {
+      "id": 28,
+      "name": "Energy Saving Tips",
+      "definition": "Documents related to tips for saving energy and money"
+    },
+    {
+      "id": 29,
+      "name": "Fashion Week Events",
+      "definition": "Documents related to fashion week events and shows"
+    },
+    {
+      "id": 30,
+      "name": "Bullying Prevention",
+      "definition": "Documents related to initiatives and tips for preventing bullying"
+    },
+    {
+      "id": 31,
+      "name": "Film Reviews",
+      "definition": "Documents related to reviews of films and movies"
+    },
+    {
+      "id": 32,
+      "name": "Privacy Concerns on Social Media",
+      "definition": "Documents related to privacy concerns on social media platforms"
+    },
+    {
+      "id": 33,
+      "name": "Cyber Attacks",
+      "definition": "Documents related to cyber attacks and security breaches"
+    },
+    {
+      "id": 34,
+      "name": "Academy Award Nominations",
+      "definition": "Documents related to nominations for the Academy Awards"
+    }
+  ]
+}

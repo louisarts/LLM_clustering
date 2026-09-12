@@ -1,0 +1,135 @@
+{
+  "bench": "fewrel",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person - Occupation",
+      "definition": "The relation between a person and their occupation."
+    },
+    {
+      "id": 2,
+      "name": "Person - Family",
+      "definition": "The relation between family members."
+    },
+    {
+      "id": 3,
+      "name": "Person - Birthplace",
+      "definition": "The relation between a person and their place of birth."
+    },
+    {
+      "id": 4,
+      "name": "Person - Nationality",
+      "definition": "The relation between a person and their nationality."
+    },
+    {
+      "id": 5,
+      "name": "Person - Accomplishments",
+      "definition": "The relation between a person and their accomplishments."
+    },
+    {
+      "id": 6,
+      "name": "Person - Collaborations",
+      "definition": "The relation between individuals who have collaborated."
+    },
+    {
+      "id": 7,
+      "name": "Person - Events",
+      "definition": "The relation between a person and events they were involved in."
+    },
+    {
+      "id": 8,
+      "name": "Person - Awards",
+      "definition": "The relation between a person and awards or nominations they have received."
+    },
+    {
+      "id": 9,
+      "name": "Person - Works",
+      "definition": "The relation between a person and their works or creations."
+    },
+    {
+      "id": 10,
+      "name": "Person - Education",
+      "definition": "The relation between a person and their educational background."
+    },
+    {
+      "id": 11,
+      "name": "Person - Residence",
+      "definition": "The relation between a person and their place of residence."
+    },
+    {
+      "id": 12,
+      "name": "Organization - Location",
+      "definition": "The relation between an organization and its location."
+    },
+    {
+      "id": 13,
+      "name": "Organization - Product",
+      "definition": "The relation between an organization and its products."
+    },
+    {
+      "id": 14,
+      "name": "Organization - Events",
+      "definition": "The relation between an organization and events they have hosted or participated in."
+    },
+    {
+      "id": 15,
+      "name": "Organization - Ownership",
+      "definition": "The relation between an organization and its ownership details."
+    },
+    {
+      "id": 16,
+      "name": "Organization - Collaborations",
+      "definition": "The relation between organizations that have collaborated."
+    },
+    {
+      "id": 17,
+      "name": "Organization - Recognition",
+      "definition": "The relation between an organization and awards or recognition received."
+    },
+    {
+      "id": 18,
+      "name": "Location - Geography",
+      "definition": "The relation between a location and its geographical features."
+    },
+    {
+      "id": 19,
+      "name": "Location - Facilities",
+      "definition": "The relation between a location and its facilities or landmarks."
+    },
+    {
+      "id": 20,
+      "name": "Location - Events",
+      "definition": "The relation between a location and events that have taken place there."
+    },
+    {
+      "id": 21,
+      "name": "Location - History",
+      "definition": "The relation between a location and its historical significance."
+    },
+    {
+      "id": 22,
+      "name": "Location - Administration",
+      "definition": "The relation between a location and its administrative divisions."
+    },
+    {
+      "id": 23,
+      "name": "Location - Culture",
+      "definition": "The relation between a location and its cultural aspects."
+    },
+    {
+      "id": 24,
+      "name": "Location - Tourism",
+      "definition": "The relation between a location and its tourism attractions."
+    },
+    {
+      "id": 25,
+      "name": "Location - Connectivity",
+      "definition": "The relation between a location and its transportation or connectivity options."
+    }
+  ]
+}

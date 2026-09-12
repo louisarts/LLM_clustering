@@ -1,0 +1,60 @@
+{
+  "bench": "mcid",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Health Concerns",
+      "definition": "Inquiries about symptoms, treatment, and health implications related to COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Travel Information",
+      "definition": "Questions regarding travel safety, restrictions, and guidelines during the pandemic."
+    },
+    {
+      "id": 3,
+      "name": "Preventive Measures",
+      "definition": "Requests for information on how to protect oneself and others from COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "Vaccination and Treatment",
+      "definition": "Inquiries about vaccines, treatments, and medical recommendations for COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Myths and Misconceptions",
+      "definition": "Questions or requests for clarification on common myths and misinformation about COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Statistics and Updates",
+      "definition": "Requests for the latest statistics, news, and updates regarding COVID-19 cases and impacts."
+    },
+    {
+      "id": 7,
+      "name": "Community Support and Donations",
+      "definition": "Inquiries about how to support local communities or donate during the pandemic."
+    },
+    {
+      "id": 8,
+      "name": "Animal Concerns",
+      "definition": "Questions regarding the transmission of COVID-19 between animals and humans."
+    },
+    {
+      "id": 9,
+      "name": "Cleaning and Hygiene",
+      "definition": "Requests for information on cleaning practices and hygiene to prevent virus spread."
+    },
+    {
+      "id": 10,
+      "name": "General Information",
+      "definition": "Broad inquiries seeking general knowledge about COVID-19."
+    }
+  ]
+}

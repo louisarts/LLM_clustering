@@ -1,0 +1,110 @@
+{
+  "bench": "mtop_domain",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm",
+      "definition": "Utterances related to setting, managing, or cancelling alarms or reminders."
+    },
+    {
+      "id": 2,
+      "name": "Call",
+      "definition": "Utterances related to making phone calls or video calls."
+    },
+    {
+      "id": 3,
+      "name": "Weather",
+      "definition": "Utterances related to checking or receiving weather forecasts."
+    },
+    {
+      "id": 4,
+      "name": "Music",
+      "definition": "Utterances related to playing music or music streaming services."
+    },
+    {
+      "id": 5,
+      "name": "Timer",
+      "definition": "Utterances related to setting, managing, or cancelling timers."
+    },
+    {
+      "id": 6,
+      "name": "News",
+      "definition": "Utterances related to checking or receiving news updates."
+    },
+    {
+      "id": 7,
+      "name": "Messaging",
+      "definition": "Utterances related to sending or receiving messages via various platforms."
+    },
+    {
+      "id": 8,
+      "name": "Recipe",
+      "definition": "Utterances related to finding or sharing recipes."
+    },
+    {
+      "id": 9,
+      "name": "Calendar",
+      "definition": "Utterances related to checking or managing calendar events or appointments."
+    },
+    {
+      "id": 10,
+      "name": "Online Status",
+      "definition": "Utterances related to checking the online status of contacts."
+    },
+    {
+      "id": 11,
+      "name": "Location",
+      "definition": "Utterances related to checking or sharing location information."
+    },
+    {
+      "id": 12,
+      "name": "Cancel",
+      "definition": "Utterances related to cancelling alarms, reminders, or events."
+    },
+    {
+      "id": 13,
+      "name": "Settings",
+      "definition": "Utterances related to changing or setting default settings for various functions."
+    },
+    {
+      "id": 14,
+      "name": "Cooking",
+      "definition": "Utterances related to cooking instructions, recipes, or food preparation."
+    },
+    {
+      "id": 15,
+      "name": "Social Media",
+      "definition": "Utterances related to social media platforms or sharing content on social media."
+    },
+    {
+      "id": 16,
+      "name": "Entertainment",
+      "definition": "Utterances related to finding events, shows, or entertainment options."
+    },
+    {
+      "id": 17,
+      "name": "Health",
+      "definition": "Utterances related to health information, such as calories, ingredients, or cooking times."
+    },
+    {
+      "id": 18,
+      "name": "Contact Information",
+      "definition": "Utterances related to finding or sharing contact information."
+    },
+    {
+      "id": 19,
+      "name": "Relationships",
+      "definition": "Utterances related to checking or managing relationships with contacts."
+    },
+    {
+      "id": 20,
+      "name": "Location-Specific",
+      "definition": "Utterances related to location-specific weather forecasts or events."
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 3,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Stack Overflow",
+      "definition": "Questions about programming, software development, web development, mobile development, databases, algorithms, scripting, APIs, software engineering, and troubleshooting code."
+    },
+    {
+      "id": 2,
+      "name": "SharePoint",
+      "definition": "Questions about Microsoft SharePoint technologies, development, and administration."
+    },
+    {
+      "id": 3,
+      "name": "Sitecore",
+      "definition": "Questions about Sitecore CMS development, configuration, and usage."
+    },
+    {
+      "id": 4,
+      "name": "WordPress Development",
+      "definition": "Questions about developing for or extending WordPress, including themes, plugins, and core functionality."
+    },
+    {
+      "id": 5,
+      "name": "Vim",
+      "definition": "Questions about using and configuring the Vim text editor."
+    },
+    {
+      "id": 6,
+      "name": "Information Security",
+      "definition": "Questions about computer and network security, cryptography, vulnerabilities, and secure practices."
+    },
+    {
+      "id": 7,
+      "name": "Mathematics",
+      "definition": "Questions about mathematical concepts, theorems, proofs, and problem-solving."
+    },
+    {
+      "id": 8,
+      "name": "Physics",
+      "definition": "Questions about physical phenomena, theories, laws, and their applications."
+    },
+    {
+      "id": 9,
+      "name": "Engineering",
+      "definition": "Questions about the design, construction, and maintenance of systems, structures, and machines, including electrical, mechanical, and civil engineering."
+    },
+    {
+      "id": 10,
+      "name": "Health",
+      "definition": "Questions about human health, medical conditions, treatments, and well-being."
+    },
+    {
+      "id": 11,
+      "name": "English Language & Usage",
+      "definition": "Questions about the English language, grammar, vocabulary, and etymology."
+    },
+    {
+      "id": 12,
+      "name": "German Language",
+      "definition": "Questions about the German language, grammar, vocabulary, and culture."
+    },
+    {
+      "id": 13,
+      "name": "Spanish Language",
+      "definition": "Questions about the Spanish language, grammar, vocabulary, and culture."
+    },
+    {
+      "id": 14,
+      "name": "French Language",
+      "definition": "Questions about the French language, grammar, vocabulary, and culture."
+    },
+    {
+      "id": 15,
+      "name": "Russian Language",
+      "definition": "Questions about the Russian language, grammar, vocabulary, and culture."
+    },
+    {
+      "id": 16,
+      "name": "Italian Language",
+      "definition": "Questions about the Italian language, grammar, vocabulary, and culture."
+    },
+    {
+      "id": 17,
+      "name": "Ukrainian Language",
+      "definition": "Questions about the Ukrainian language, grammar, vocabulary, and culture."
+    },
+    {
+      "id": 18,
+      "name": "Japanese Language",
+      "definition": "Questions about the Japanese language, grammar, vocabulary, and culture."
+    },
+    {
+      "id": 19,
+      "name": "Esperanto Language",
+      "definition": "Questions about the Esperanto language, grammar, vocabulary, and culture."
+    },
+    {
+      "id": 20,
+      "name": "Linguistics",
+      "definition": "Questions about the scientific study of language, its structure, meaning, and context."
+    },
+    {
+      "id": 21,
+      "name": "History",
+      "definition": "Questions about past events, people, and societies."
+    },
+    {
+      "id": 22,
+      "name": "Philosophy",
+      "definition": "Questions about fundamental questions concerning existence, knowledge, values, reason, mind, and language."
+    },
+    {
+      "id": 23,
+      "name": "Religion",
+      "definition": "Questions about religious beliefs, practices, texts, and traditions, including specific faiths."
+    },
+    {
+      "id": 24,
+      "name": "Politics",
+      "definition": "Questions about government, public affairs, political systems, and policy."
+    },
+    {
+      "id": 25,
+      "name": "Law",
+      "definition": "Questions about legal systems, statutes, regulations, and legal advice."
+    },
+    {
+      "id": 26,
+      "name": "Quantitative Finance",
+      "definition": "Questions about mathematical and statistical methods applied to financial markets and risk management."
+    },
+    {
+      "id": 27,
+      "name": "Economics",
+      "definition": "Questions about the production, distribution, and consumption of goods and services, and economic theory."
+    },
+    {
+      "id": 28,
+      "name": "Writing",
+      "definition": "Questions about the craft of writing, style, and literary techniques."
+    },
+    {
+      "id": 29,
+      "name": "Project Management",
+      "definition": "Questions about planning, executing, and closing projects, including methodologies like Agile and Scrum."
+    },
+    {
+      "id": 30,
+      "name": "Parenting",
+      "definition": "Questions about raising children, child development, and family life."
+    },
+    {
+      "id": 31,
+      "name": "Pets",
+      "definition": "Questions about the care, behavior, and health of domestic animals."
+    },
+    {
+      "id": 32,
+      "name": "Cooking & Food Science",
+      "definition": "Questions about culinary techniques, recipes, food preparation, and the science of food."
+    },
+    {
+      "id": 33,
+      "name": "Home Improvement",
+      "definition": "Questions about maintaining, repairing, or enhancing a home or property."
+    },
+    {
+      "id": 34,
+      "name": "Automotive",
+      "definition": "Questions about cars, trucks, motorcycles, their maintenance, repair, and related technologies."
+    },
+    {
+      "id": 35,
+      "name": "Fitness & Exercise",
+      "definition": "Questions about physical training, exercise routines, sports techniques, and human physiology related to fitness."
+    },
+    {
+      "id": 36,
+      "name": "Sports",
+      "definition": "Questions about rules, history, statistics, and general aspects of competitive sports."
+    },
+    {
+      "id": 37,
+      "name": "Music",
+      "definition": "Questions about musical instruments, theory, composition, performance, and history."
+    },
+    {
+      "id": 38,
+      "name": "Photography",
+      "definition": "Questions about photographic techniques, equipment, and image processing."
+    },
+    {
+      "id": 39,
+      "name": "Outdoors",
+      "definition": "Questions about outdoor activities, recreation, and survival skills."
+    },
+    {
+      "id": 40,
+      "name": "Puzzles",
+      "definition": "Questions about riddles, brain teasers, and logic puzzles."
+    },
+    {
+      "id": 41,
+      "name": "Gardening & Landscaping",
+      "definition": "Questions about cultivating plants, garden design, and outdoor spaces."
+    },
+    {
+      "id": 42,
+      "name": "Travel",
+      "definition": "Questions about destinations, planning trips, and travel experiences."
+    },
+    {
+      "id": 43,
+      "name": "Personal Finance",
+      "definition": "Questions about managing personal money, investments, credit, and budgeting."
+    },
+    {
+      "id": 44,
+      "name": "Etiquette",
+      "definition": "Questions about social customs, manners, and appropriate behavior."
+    },
+    {
+      "id": 45,
+      "name": "Hardware",
+      "definition": "Questions about computer components, electronic circuits, and physical devices."
+    },
+    {
+      "id": 46,
+      "name": "Networking",
+      "definition": "Questions about computer networks, protocols, internet connectivity, and network administration."
+    },
+    {
+      "id": 47,
+      "name": "Operating Systems",
+      "definition": "Questions about the functionality, configuration, and troubleshooting of operating systems like Linux, Windows, and macOS."
+    },
+    {
+      "id": 48,
+      "name": "Mobile Devices",
+      "definition": "Questions about smartphones, tablets, and other portable electronic devices."
+    },
+    {
+      "id": 49,
+      "name": "Cloud Computing",
+      "definition": "Questions about cloud platforms, services, and infrastructure."
+    },
+    {
+      "id": 50,
+      "name": "Geographic Information Systems (GIS)",
+      "definition": "Questions about geographic data, mapping, and GIS software."
+    },
+    {
+      "id": 51,
+      "name": "Retrocomputing",
+      "definition": "Questions about vintage computers, software, and hardware."
+    },
+    {
+      "id": 52,
+      "name": "Amateur Radio",
+      "definition": "Questions about ham radio, radio communication, and related electronics."
+    },
+    {
+      "id": 53,
+      "name": "Science Fiction & Fantasy",
+      "definition": "Questions about fictional worlds, characters, and lore from science fiction and fantasy media."
+    },
+    {
+      "id": 54,
+      "name": "Movies & TV",
+      "definition": "Questions about films, television shows, actors, and the entertainment industry."
+    },
+    {
+      "id": 55,
+      "name": "Gaming",
+      "definition": "Questions about video games, board games, game mechanics, and gaming platforms."
+    },
+    {
+      "id": 56,
+      "name": "User Experience",
+      "definition": "Questions about designing user-friendly interfaces, usability, and interaction design."
+    },
+    {
+      "id": 57,
+      "name": "Web Marketing",
+      "definition": "Questions about search engine optimization (SEO), online advertising, and digital marketing strategies."
+    },
+    {
+      "id": 58,
+      "name": "Software Recommendations",
+      "definition": "Questions seeking advice on specific software tools or applications."
+    },
+    {
+      "id": 59,
+      "name": "Workplace",
+      "definition": "Questions about career development, workplace dynamics, and professional conduct."
+    },
+    {
+      "id": 60,
+      "name": "Meta Stack Exchange",
+      "definition": "Questions about the Stack Exchange network itself, its sites, policies, and community."
+    }
+  ]
+}

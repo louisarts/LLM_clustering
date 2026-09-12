@@ -1,0 +1,1252 @@
+[
+ {
+  "id": 1,
+  "name": "Language Understanding",
+  "definition": "Categories related to understanding and interpreting language in various contexts."
+ },
+ {
+  "id": 2,
+  "name": "Navigation Assistance",
+  "definition": "Categories related to providing directions, locations, and navigation support."
+ },
+ {
+  "id": 3,
+  "name": "Music Control",
+  "definition": "Categories related to controlling music playback and preferences."
+ },
+ {
+  "id": 4,
+  "name": "Financial Assistance",
+  "definition": "Categories related to banking, credit cards, currency conversion, and financial queries."
+ },
+ {
+  "id": 5,
+  "name": "Timer Management",
+  "definition": "Categories related to setting and managing timers for various tasks."
+ },
+ {
+  "id": 6,
+  "name": "Travel Assistance",
+  "definition": "Categories related to travel safety, travel booking, and travel conditions."
+ },
+ {
+  "id": 7,
+  "name": "Personalization",
+  "definition": "Categories related to personalizing the interaction with the assistant."
+ },
+ {
+  "id": 8,
+  "name": "Recipe Assistance",
+  "definition": "Categories related to finding recipes or cooking instructions."
+ },
+ {
+  "id": 9,
+  "name": "Reservation Management",
+  "definition": "Categories related to managing reservations or bookings."
+ },
+ {
+  "id": 10,
+  "name": "Philosophical Inquiry",
+  "definition": "Categories related to philosophical or existential questions."
+ },
+ {
+  "id": 11,
+  "name": "Location Sharing",
+  "definition": "Categories related to sharing location information."
+ },
+ {
+  "id": 12,
+  "name": "Points Inquiry",
+  "definition": "Categories related to checking points or rewards accumulated with a debit card."
+ },
+ {
+  "id": 13,
+  "name": "Restaurant Assistance",
+  "definition": "Categories related to finding a place to eat, restaurant recommendations, and reviews."
+ },
+ {
+  "id": 14,
+  "name": "Account Assistance",
+  "definition": "Categories related to checking account balances, account declines, and account freezes."
+ },
+ {
+  "id": 15,
+  "name": "Pet Information",
+  "definition": "Categories related to providing information about pets."
+ },
+ {
+  "id": 16,
+  "name": "Song Identification",
+  "definition": "Categories related to identifying songs."
+ },
+ {
+  "id": 17,
+  "name": "Business Assistance",
+  "definition": "Categories related to business wait times and order placements."
+ },
+ {
+  "id": 18,
+  "name": "Fun Facts",
+  "definition": "Categories related to providing fun facts."
+ },
+ {
+  "id": 19,
+  "name": "Vacation Days Inquiry",
+  "definition": "Categories related to checking available vacation days."
+ },
+ {
+  "id": 20,
+  "name": "Hobby Sharing",
+  "definition": "Categories related to sharing information about hobbies."
+ },
+ {
+  "id": 21,
+  "name": "Order Assistance",
+  "definition": "Categories related to placing orders and tracking order statuses."
+ },
+ {
+  "id": 22,
+  "name": "Phone Assistance",
+  "definition": "Categories related to phone location tracking and making phone calls."
+ },
+ {
+  "id": 23,
+  "name": "Mileage Tracking",
+  "definition": "Categories related to calculating and tracking vehicle mileage."
+ },
+ {
+  "id": 24,
+  "name": "Correction Request",
+  "definition": "Categories related to correcting information provided."
+ },
+ {
+  "id": 25,
+  "name": "Joke Request",
+  "definition": "Categories related to providing jokes."
+ },
+ {
+  "id": 26,
+  "name": "Tax Inquiry",
+  "definition": "Categories related to inquiring about taxes owed."
+ },
+ {
+  "id": 27,
+  "name": "Reminder Setting",
+  "definition": "Categories related to setting reminders for events or tasks."
+ },
+ {
+  "id": 28,
+  "name": "Ingredient Substitution Inquiry",
+  "definition": "Categories related to inquiring about ingredient substitutions in recipes."
+ },
+ {
+  "id": 29,
+  "name": "Forget Task",
+  "definition": "Categories related to forgetting previously assigned tasks."
+ },
+ {
+  "id": 30,
+  "name": "Unauthorized Access Inquiry",
+  "definition": "Categories related to inquiring about unauthorized access to accounts."
+ },
+ {
+  "id": 31,
+  "name": "Hospital Location Inquiry",
+  "definition": "Categories related to seeking information about hospital locations."
+ },
+ {
+  "id": 32,
+  "name": "Annoyance Expression",
+  "definition": "Categories related to expressing annoyance or frustration."
+ },
+ {
+  "id": 33,
+  "name": "Reminder Confirmation Request",
+  "definition": "Categories related to requesting confirmation of reminders."
+ },
+ {
+  "id": 34,
+  "name": "Nickname Request",
+  "definition": "Categories related to requesting specific nicknames."
+ },
+ {
+  "id": 35,
+  "name": "Subject Preference Inquiry",
+  "definition": "Categories related to inquiring about preferred subjects or topics."
+ },
+ {
+  "id": 36,
+  "name": "PTO Hours Inquiry",
+  "definition": "Categories related to inquiring about paid time off hours used."
+ },
+ {
+  "id": 37,
+  "name": "Fuel Range Inquiry",
+  "definition": "Categories related to inquiring about fuel range for specific destinations."
+ },
+ {
+  "id": 38,
+  "name": "APR Rate Inquiry",
+  "definition": "Categories related to inquiring about APR rates on financial accounts."
+ },
+ {
+  "id": 39,
+  "name": "Oil Change Inquiry",
+  "definition": "Categories related to inquiring about oil change procedures."
+ },
+ {
+  "id": 40,
+  "name": "401k Transfer Inquiry",
+  "definition": "Categories related to inquiring about transferring 401k accounts."
+ },
+ {
+  "id": 41,
+  "name": "Car Loan Payment Deadline Inquiry",
+  "definition": "Categories related to inquiring about car loan payment deadlines."
+ },
+ {
+  "id": 42,
+  "name": "Flight Status Inquiry",
+  "definition": "Categories related to inquiring about flight statuses."
+ },
+ {
+  "id": 43,
+  "name": "Lost Luggage Procedure Inquiry",
+  "definition": "Categories related to inquiring about lost luggage procedures."
+ },
+ {
+  "id": 44,
+  "name": "Card Usage Fee Inquiry",
+  "definition": "Categories related to inquiring about credit card usage fees."
+ },
+ {
+  "id": 45,
+  "name": "Car Gas Type Inquiry",
+  "definition": "Categories related to inquiring about gas types for cars."
+ },
+ {
+  "id": 46,
+  "name": "Spelling Assistance",
+  "definition": "Categories related to providing help with spelling words."
+ },
+ {
+  "id": 47,
+  "name": "Cooking Time Inquiry",
+  "definition": "Categories related to inquiring about cooking times for dishes."
+ },
+ {
+  "id": 48,
+  "name": "Minimum Bill Payment Inquiry",
+  "definition": "Categories related to inquiring about minimum bill payment amounts."
+ },
+ {
+  "id": 49,
+  "name": "Direct Deposit Setup Assistance",
+  "definition": "Categories related to providing guidance on setting up direct deposit."
+ },
+ {
+  "id": 50,
+  "name": "Volume Conversion Inquiry",
+  "definition": "Categories related to inquiring about converting volume measurements."
+ },
+ {
+  "id": 51,
+  "name": "Car Mileage Inquiry",
+  "definition": "Categories related to inquiring about car mileage."
+ },
+ {
+  "id": 52,
+  "name": "Reminder Content Inquiry",
+  "definition": "Categories related to inquiring about reminder types."
+ },
+ {
+  "id": 53,
+  "name": "Phone Call Request",
+  "definition": "Categories related to requesting to make phone calls."
+ },
+ {
+  "id": 54,
+  "name": "Credit Card Reward Points Redemption Inquiry",
+  "definition": "Categories related to inquiring about redeeming credit card reward points."
+ },
+ {
+  "id": 55,
+  "name": "Bank Account Balance Inquiry",
+  "definition": "Categories related to inquiring about bank account balances."
+ },
+ {
+  "id": 56,
+  "name": "Visa Points Redemption Inquiry",
+  "definition": "Categories related to inquiring about redeeming Visa reward points."
+ },
+ {
+  "id": 57,
+  "name": "Car Rental Booking",
+  "definition": "Categories related to booking car rentals."
+ },
+ {
+  "id": 58,
+  "name": "Shopping List Management",
+  "definition": "Categories related to managing shopping lists."
+ },
+ {
+  "id": 59,
+  "name": "Assistant's Free Time Activities",
+  "definition": "Categories related to learning about the assistant's free time activities."
+ },
+ {
+  "id": 60,
+  "name": "Italian Food Recommendation",
+  "definition": "Categories related to recommending Italian food options."
+ },
+ {
+  "id": 61,
+  "name": "Bank Travel Notification",
+  "definition": "Categories related to notifying banks about travel plans."
+ },
+ {
+  "id": 62,
+  "name": "Order Placement",
+  "definition": "Categories related to placing orders."
+ },
+ {
+  "id": 63,
+  "name": "Credit Card Replacement Status Inquiry",
+  "definition": "Categories related to inquiring about replacement credit card statuses."
+ },
+ {
+  "id": 64,
+  "name": "Travel Destination Recommendation",
+  "definition": "Categories related to recommending travel destinations."
+ },
+ {
+  "id": 65,
+  "name": "Travel Conditions Inquiry",
+  "definition": "Categories related to inquiring about travel conditions."
+ },
+ {
+  "id": 66,
+  "name": "Credit Card Replacement Time",
+  "definition": "Categories related to determining the time it takes to get a new credit card sent."
+ },
+ {
+  "id": 67,
+  "name": "Business Wait Time Inquiry",
+  "definition": "Categories related to inquiring about average wait times at businesses."
+ },
+ {
+  "id": 68,
+  "name": "Fun Fact Inquiry",
+  "definition": "Categories related to inquiring about fun facts."
+ },
+ {
+  "id": 69,
+  "name": "Restaurant Review Inquiry",
+  "definition": "Categories related to inquiring about restaurant reviews."
+ },
+ {
+  "id": 70,
+  "name": "Pet Ownership Inquiry",
+  "definition": "Categories related to inquiring about pet ownership."
+ },
+ {
+  "id": 71,
+  "name": "Order Status Tracking",
+  "definition": "Categories related to tracking order statuses."
+ },
+ {
+  "id": 72,
+  "name": "Credit Points Redemption",
+  "definition": "Categories related to understanding how to use credit points."
+ },
+ {
+  "id": 73,
+  "name": "Phone Location Tracking",
+  "definition": "Categories related to tracking phone locations."
+ },
+ {
+  "id": 74,
+  "name": "Lost Card Reporting",
+  "definition": "Requests for information on how to report a lost card."
+ },
+ {
+  "id": 75,
+  "name": "Bill Payment Assistance",
+  "definition": "Requests for help in paying a bill."
+ },
+ {
+  "id": 76,
+  "name": "Car Maintenance Inquiry",
+  "definition": "Questions or requests related to car maintenance, such as jump starting a car or checking the date of the last oil change."
+ },
+ {
+  "id": 77,
+  "name": "Location Inquiry",
+  "definition": "Requests for information about the current location on a map."
+ },
+ {
+  "id": 78,
+  "name": "Gas Tank Level Inquiry",
+  "definition": "Questions about the amount of gas in a vehicle's tank."
+ },
+ {
+  "id": 79,
+  "name": "Repeat Request",
+  "definition": "Requests to repeat a previous action or information."
+ },
+ {
+  "id": 80,
+  "name": "Dice Rolling Request",
+  "definition": "Requests to roll a dice with a specific number of sides."
+ },
+ {
+  "id": 81,
+  "name": "Credit Card Charge History Inquiry",
+  "definition": "Inquiries about the recent charges on a credit card."
+ },
+ {
+  "id": 82,
+  "name": "Programmer Inquiry",
+  "definition": "Requests for information about the individual or team who developed the assistant."
+ },
+ {
+  "id": 83,
+  "name": "Brownie Recipe Ingredients Inquiry",
+  "definition": "Questions about the ingredients needed to make brownies."
+ },
+ {
+  "id": 84,
+  "name": "Savings Account Interest Rate Inquiry",
+  "definition": "Request for information on the interest rate of a savings account."
+ },
+ {
+  "id": 85,
+  "name": "Task Cancellation Request",
+  "definition": "Request to cancel a task or item on a to-do list."
+ },
+ {
+  "id": 86,
+  "name": "Electricity Comparison Inquiry",
+  "definition": "Inquiry about the differences in electricity between locations, such as countries."
+ },
+ {
+  "id": 87,
+  "name": "Checking Account PIN Inquiry",
+  "definition": "Request for the personal identification number (PIN) of a checking account."
+ },
+ {
+  "id": 88,
+  "name": "Verizon Bill Payment Inquiry",
+  "definition": "Request for information on the minimum payment amount for a Verizon bill."
+ },
+ {
+  "id": 89,
+  "name": "Personal Loan Interest Rate Inquiry",
+  "definition": "Request for information on the interest rate of a personal loan."
+ },
+ {
+  "id": 90,
+  "name": "Credit Card Application Status Inquiry",
+  "definition": "Request for information on the status of a credit card application."
+ },
+ {
+  "id": 91,
+  "name": "Oil Change Procedure Inquiry",
+  "definition": "Request for guidance on how to change the oil in a car."
+ },
+ {
+  "id": 92,
+  "name": "Loan Interest Rate Display Inquiry",
+  "definition": "Request for information on where the interest rate of a personal loan is displayed."
+ },
+ {
+  "id": 93,
+  "name": "HSBC Card Approval Status Inquiry",
+  "definition": "Request for information on the approval status of an HSBC credit card application."
+ },
+ {
+  "id": 94,
+  "name": "Expiration Date Inquiry",
+  "definition": "Request for the expiration date of a product or item."
+ },
+ {
+  "id": 95,
+  "name": "Language Communication Request",
+  "definition": "Request to communicate in a specific language."
+ },
+ {
+  "id": 96,
+  "name": "Shopping List Check Request",
+  "definition": "Request to check if a specific item is already on a shopping list."
+ },
+ {
+  "id": 97,
+  "name": "Playlist Management",
+  "definition": "Assistance with creating, editing, or managing playlists for music or other media content"
+ },
+ {
+  "id": 98,
+  "name": "Account Access Issue",
+  "definition": "Assistance with accessing or using a specific account or financial service"
+ },
+ {
+  "id": 99,
+  "name": "Assistant Origin Inquiry",
+  "definition": "Inquiry about the origin or manufacturer of the virtual assistant"
+ },
+ {
+  "id": 100,
+  "name": "Process Interruption",
+  "definition": "Request to stop or interrupt a current process or activity"
+ },
+ {
+  "id": 101,
+  "name": "Travel Visa Inquiry",
+  "definition": "Inquiry about the need for a travel visa to a specific destination"
+ },
+ {
+  "id": 102,
+  "name": "Food Recommendation",
+  "definition": "Request for recommendations on specific types of food or cuisine"
+ },
+ {
+  "id": 103,
+  "name": "Personal Well-being Inquiry",
+  "definition": "Inquiry about the well-being or status of the virtual assistant"
+ },
+ {
+  "id": 104,
+  "name": "Bank Balance Inquiry",
+  "definition": "Inquiry about the current balance of a bank account"
+ },
+ {
+  "id": 105,
+  "name": "Nutritional Information Inquiry",
+  "definition": "Inquiry about the nutritional content of a specific food item"
+ },
+ {
+  "id": 106,
+  "name": "Document Loss Report",
+  "definition": "Report or inquiry about the loss or theft of a specific document"
+ },
+ {
+  "id": 107,
+  "name": "Vehicle Efficiency Inquiry",
+  "definition": "Inquiry about the fuel efficiency or mileage of a vehicle"
+ },
+ {
+  "id": 108,
+  "name": "Task Feasibility Inquiry",
+  "definition": "Inquiry about the feasibility or completion of a specific task"
+ },
+ {
+  "id": 109,
+  "name": "Time Zone Inquiry",
+  "definition": "Inquiry about the time zone of a specific location"
+ },
+ {
+  "id": 110,
+  "name": "Financial Transfer Request",
+  "definition": "Request to transfer a specific amount of money between accounts"
+ },
+ {
+  "id": 111,
+  "name": "Weather Inquiry",
+  "definition": "Requests for current weather information"
+ },
+ {
+  "id": 112,
+  "name": "Food Wait Time Inquiry",
+  "definition": "Inquiries about the typical wait time at a specific restaurant, such as Mr. Joe's Pizza"
+ },
+ {
+  "id": 113,
+  "name": "Voice Mode Change Request",
+  "definition": "Requests to change the assistant's voice mode, such as from whisper mode to normal mode"
+ },
+ {
+  "id": 114,
+  "name": "Bill Due Date Inquiry",
+  "definition": "Requests for the due date of bills, such as an electric bill"
+ },
+ {
+  "id": 115,
+  "name": "Card Replacement Status Inquiry",
+  "definition": "Requests for information on the status of a replacement card, such as a credit card replacement"
+ },
+ {
+  "id": 116,
+  "name": "Flight Carry-On Rules Inquiry",
+  "definition": "Requests for information about carry-on rules for a specific flight"
+ },
+ {
+  "id": 117,
+  "name": "Local Activities Recommendation",
+  "definition": "Assistance in finding things to do in a specific location"
+ },
+ {
+  "id": 118,
+  "name": "Age Inquiry",
+  "definition": "Assistance in determining the age of the user or the assistant itself"
+ },
+ {
+  "id": 119,
+  "name": "Weather Conditions Inquiry",
+  "definition": "Assistance in providing information about the weather in a specific location"
+ },
+ {
+  "id": 120,
+  "name": "Meeting Reminder Setting",
+  "definition": "Assistance in setting reminders for upcoming meetings"
+ },
+ {
+  "id": 121,
+  "name": "Alarm Setting",
+  "definition": "Assistance in setting alarms for specific times"
+ },
+ {
+  "id": 122,
+  "name": "Ride Sharing Service Booking",
+  "definition": "Assistance in booking rides through services like Uber or Lyft"
+ },
+ {
+  "id": 123,
+  "name": "Calendar Update Inquiry",
+  "definition": "Assistance in checking if a specific event has been added to the calendar"
+ },
+ {
+  "id": 124,
+  "name": "Day Off Request Status Inquiry",
+  "definition": "Assistance in checking the status of a day off request"
+ },
+ {
+  "id": 125,
+  "name": "Birthday Inquiry",
+  "definition": "Assistance in determining the birthday of the assistant or the user"
+ },
+ {
+  "id": 126,
+  "name": "Location-based Restaurant Inquiry",
+  "definition": "Assistance in finding specific restaurants in a location"
+ },
+ {
+  "id": 127,
+  "name": "Order Status Update Inquiry",
+  "definition": "Assistance in providing updates on the status of an order"
+ },
+ {
+  "id": 128,
+  "name": "Unit Conversion Inquiry",
+  "definition": "Assistance in converting units of measurement"
+ },
+ {
+  "id": 129,
+  "name": "Review Inquiry",
+  "definition": "Assistance in finding reviews for specific places or products"
+ },
+ {
+  "id": 130,
+  "name": "Calendar Event Removal Request",
+  "definition": "Assistance in removing specific events from the calendar"
+ },
+ {
+  "id": 131,
+  "name": "Credit Limit Increase Request",
+  "definition": "Assistance in requesting an increase in credit limit"
+ },
+ {
+  "id": 132,
+  "name": "Traffic Information Inquiry",
+  "definition": "Assistance in providing information about traffic conditions"
+ },
+ {
+  "id": 133,
+  "name": "Check Order Request",
+  "definition": "Assistance in ordering more checks for a bank account"
+ },
+ {
+  "id": 134,
+  "name": "Tire Change Inquiry",
+  "definition": "Assistance in determining when tires should be changed"
+ },
+ {
+  "id": 135,
+  "name": "Points Redemption on Gas",
+  "definition": "Assistance with redeeming points for gas purchases"
+ },
+ {
+  "id": 136,
+  "name": "Card Damage Reporting",
+  "definition": "Assistance with reporting a damaged card"
+ },
+ {
+  "id": 137,
+  "name": "Calorie Content Inquiry",
+  "definition": "Request for the calorie content of a specific food item"
+ },
+ {
+  "id": 138,
+  "name": "Freezing Food Inquiry",
+  "definition": "Inquiry about how long a specific food item can be left in the freezer before it needs to be discarded"
+ },
+ {
+  "id": 139,
+  "name": "Pet Categorization Inquiry",
+  "definition": "Inquiry about how pets are categorized"
+ },
+ {
+  "id": 140,
+  "name": "Carry-On Baggage Inquiry",
+  "definition": "Inquiry about the number of bags allowed for carry-on during travel"
+ },
+ {
+  "id": 141,
+  "name": "Control Inquiry",
+  "definition": "Inquiry about who controls the assistant"
+ },
+ {
+  "id": 142,
+  "name": "Home Time Inquiry",
+  "definition": "Inquiry about the current time at home"
+ },
+ {
+  "id": 143,
+  "name": "Shop Visit Inquiry",
+  "definition": "Inquiry about the last visit to a shop"
+ },
+ {
+  "id": 144,
+  "name": "Visa Requirement Inquiry",
+  "definition": "Inquiry about visa requirements for a specific destination"
+ },
+ {
+  "id": 145,
+  "name": "Document Location Inquiry",
+  "definition": "Requests for the location or retrieval of specific documents, such as the W2 form"
+ },
+ {
+  "id": 146,
+  "name": "Vacation Request Process Inquiry",
+  "definition": "Questions about the process of requesting vacation time or days off"
+ },
+ {
+  "id": 147,
+  "name": "Socket Type Inquiry",
+  "definition": "Inquiries about the type of socket used in a specific country and the need for a converter"
+ },
+ {
+  "id": 148,
+  "name": "Timer Start Request",
+  "definition": "Requests to start a timer for a specific duration"
+ },
+ {
+  "id": 149,
+  "name": "Temperature Inquiry",
+  "definition": "Inquiries about the temperature at a specific location, such as AC"
+ },
+ {
+  "id": 150,
+  "name": "Traffic Conditions Inquiry",
+  "definition": "Questions about the traffic conditions on a specific route or location"
+ },
+ {
+  "id": 151,
+  "name": "Todo List Retrieval",
+  "definition": "Requests to retrieve or display the user's to-do list or tasks"
+ },
+ {
+  "id": 152,
+  "name": "Music Playback Control",
+  "definition": "Requests to play the next song or control the music playback."
+ },
+ {
+  "id": 153,
+  "name": "Bank Card Transaction History Inquiry",
+  "definition": "Questions about the amount spent on a bank card since the last bill payment."
+ },
+ {
+  "id": 154,
+  "name": "401k Rollover Inquiry",
+  "definition": "Inquiries about the process of rolling over a 401k retirement account."
+ },
+ {
+  "id": 155,
+  "name": "Vacation Time Inquiry",
+  "definition": "Requests to know the amount of vacation time or days off available to the user."
+ },
+ {
+  "id": 156,
+  "name": "Package Location Inquiry",
+  "definition": "Assistance in locating a package or parcel."
+ },
+ {
+  "id": 157,
+  "name": "Insurance Benefits Inquiry",
+  "definition": "Assistance in understanding the benefits of a specific insurance policy."
+ },
+ {
+  "id": 158,
+  "name": "Next Day Off Inquiry",
+  "definition": "Assistance in determining the next scheduled day off."
+ },
+ {
+  "id": 159,
+  "name": "Tire Inspection Location Inquiry",
+  "definition": "Assistance in finding a location to have tires inspected."
+ },
+ {
+  "id": 160,
+  "name": "Oil Change Schedule Inquiry",
+  "definition": "Assistance in determining the next recommended oil change date."
+ },
+ {
+  "id": 161,
+  "name": "Calendar Clearing Request",
+  "definition": "Assistance in clearing a specific date on the calendar."
+ },
+ {
+  "id": 162,
+  "name": "To-Do List Item Removal Request",
+  "definition": "Assistance in removing an item from a to-do list."
+ },
+ {
+  "id": 163,
+  "name": "Credit Score Inquiry",
+  "definition": "Assistance in checking one's credit score."
+ },
+ {
+  "id": 164,
+  "name": "Phone Pairing Request",
+  "definition": "Assistance in pairing a device to a phone."
+ },
+ {
+  "id": 165,
+  "name": "Car Maintenance History Inquiry",
+  "definition": "Assistance in determining the date of the last car maintenance check."
+ },
+ {
+  "id": 166,
+  "name": "Plug Adapter Inquiry",
+  "definition": "Assistance in understanding how to plug electronic devices in a specific country."
+ },
+ {
+  "id": 167,
+  "name": "Purchase Confirmation Inquiry",
+  "definition": "Assistance in confirming a purchase that the user does not remember making"
+ },
+ {
+  "id": 168,
+  "name": "Reservation Confirmation Inquiry",
+  "definition": "Assistance in confirming a reservation for a specific date and time"
+ },
+ {
+  "id": 169,
+  "name": "Restaurant Reservation Inquiry",
+  "definition": "Assistance in making a reservation at a specific restaurant"
+ },
+ {
+  "id": 170,
+  "name": "Task Addition Request",
+  "definition": "Assistance in adding a task to the user's list of chores or to-dos"
+ },
+ {
+  "id": 171,
+  "name": "Battery Dead Assistance",
+  "definition": "Assistance in dealing with a dead battery in a device or vehicle"
+ },
+ {
+  "id": 172,
+  "name": "Credit Card Points Inquiry",
+  "definition": "Assistance in checking the number of points earned with a specific credit card"
+ },
+ {
+  "id": 173,
+  "name": "General Assistance Inquiry",
+  "definition": "Assistance in understanding how the assistant can help the user"
+ },
+ {
+  "id": 174,
+  "name": "Bank Account Issue Inquiry",
+  "definition": "Assistance in resolving issues with the user's checking account"
+ },
+ {
+  "id": 175,
+  "name": "401k Transfer Process Inquiry",
+  "definition": "Assistance in understanding the process of transferring a 401k account"
+ },
+ {
+  "id": 176,
+  "name": "Subscription Due Date Inquiry",
+  "definition": "Assistance in determining the due date for a subscription service"
+ },
+ {
+  "id": 177,
+  "name": "Tire Change Reminder Inquiry",
+  "definition": "Assistance in knowing when to change the tires on the user's car"
+ },
+ {
+  "id": 178,
+  "name": "Meeting Schedule Inquiry",
+  "definition": "Assistance in checking if the user has a scheduled meeting on a specific day"
+ },
+ {
+  "id": 179,
+  "name": "User Identification Inquiry",
+  "definition": "Utterances related to the user's identity or preferences, such as name, voice preference, or gender preference."
+ },
+ {
+  "id": 180,
+  "name": "Date Inquiry",
+  "definition": "Utterances requesting the current date."
+ },
+ {
+  "id": 181,
+  "name": "Earnings Inquiry",
+  "definition": "Utterances inquiring about the user's earnings or income."
+ },
+ {
+  "id": 182,
+  "name": "Car Jump Start Request",
+  "definition": "Utterances requesting assistance with jump-starting a car."
+ },
+ {
+  "id": 183,
+  "name": "Employer Inquiry",
+  "definition": "Utterances inquiring about the assistant's employer."
+ },
+ {
+  "id": 184,
+  "name": "Bank Routing Number Inquiry",
+  "definition": "Utterances inquiring about the location of a bank's routing number."
+ },
+ {
+  "id": 185,
+  "name": "Shopping List Update Request",
+  "definition": "Utterances requesting updates or additions to a shopping list."
+ },
+ {
+  "id": 186,
+  "name": "Math Calculation Inquiry",
+  "definition": "Utterances requesting mathematical calculations."
+ },
+ {
+  "id": 187,
+  "name": "Phone Location Inquiry",
+  "definition": "Utterances inquiring about the location of the user's phone."
+ },
+ {
+  "id": 188,
+  "name": "Carry-On Baggage Rules Inquiry",
+  "definition": "Utterances inquiring about the size limits for carry-on bags."
+ },
+ {
+  "id": 189,
+  "name": "Time Inquiry",
+  "definition": "Utterances requesting the current time or time in a specific timezone."
+ },
+ {
+  "id": 190,
+  "name": "Assistant Reference Inquiry",
+  "definition": "Utterances inquiring about how to refer to the assistant."
+ },
+ {
+  "id": 191,
+  "name": "PTO Days Inquiry",
+  "definition": "Inquiry about the number of paid time off days remaining"
+ },
+ {
+  "id": 192,
+  "name": "Shopping List Content Inquiry",
+  "definition": "Inquiry about the items contained in a shopping list"
+ },
+ {
+  "id": 193,
+  "name": "Bank Account Hold Inquiry",
+  "definition": "Inquiry about the reason for a hold on a bank account"
+ },
+ {
+  "id": 194,
+  "name": "Voice Mode Reversion Request",
+  "definition": "Request to revert from whisper mode to normal mode"
+ },
+ {
+  "id": 195,
+  "name": "False Charge Inquiry",
+  "definition": "Inquiry about a false charge on an account"
+ },
+ {
+  "id": 196,
+  "name": "Travel Notification",
+  "definition": "Notification to the bank about travel plans"
+ },
+ {
+  "id": 197,
+  "name": "Bill Inquiry",
+  "definition": "Inquiry about the amount due on a bill"
+ },
+ {
+  "id": 198,
+  "name": "Name Preference Inquiry",
+  "definition": "Inquiry about the name the assistant should use when addressing the user"
+ },
+ {
+  "id": 199,
+  "name": "Math Problem Assistance Request",
+  "definition": "Request for assistance with a math problem"
+ },
+ {
+  "id": 200,
+  "name": "Credit Card Application Impact Inquiry",
+  "definition": "Inquiry about the impact of opening multiple credit cards on credit rating"
+ },
+ {
+  "id": 201,
+  "name": "Language Preference Setting",
+  "definition": "Setting the default language to Swedish"
+ },
+ {
+  "id": 202,
+  "name": "TV Activation Request",
+  "definition": "Request to turn on the TV"
+ },
+ {
+  "id": 203,
+  "name": "Minimum Payment Inquiry",
+  "definition": "Inquiry about the minimum payment due on a bill"
+ },
+ {
+  "id": 204,
+  "name": "Account Block Inquiry",
+  "definition": "Assistance in checking the reason for an account being blocked"
+ },
+ {
+  "id": 205,
+  "name": "Car Gas Mileage Inquiry",
+  "definition": "Assistance in determining the gas mileage of a car"
+ },
+ {
+  "id": 206,
+  "name": "Paycheck Inquiry",
+  "definition": "Assistance in determining the date of the next paycheck"
+ },
+ {
+  "id": 207,
+  "name": "Conversation Acknowledgement",
+  "definition": "Acknowledging the end of a conversation"
+ },
+ {
+  "id": 208,
+  "name": "Music Playlist Request",
+  "definition": "Requesting a specific music playlist to be played"
+ },
+ {
+  "id": 209,
+  "name": "Spending Inquiry",
+  "definition": "Assistance in determining if there has been overspending on a specific item"
+ },
+ {
+  "id": 210,
+  "name": "Name Change Request",
+  "definition": "Requesting to be called by a different name"
+ },
+ {
+  "id": 211,
+  "name": "Insurance Plan Inquiry",
+  "definition": "Assistance in determining the type of insurance plan one is enrolled in"
+ },
+ {
+  "id": 212,
+  "name": "Transaction History Inquiry",
+  "definition": "Assistance in viewing recent transactions from a specific account"
+ },
+ {
+  "id": 213,
+  "name": "Vacation Request",
+  "definition": "Requesting time off for a vacation"
+ },
+ {
+  "id": 214,
+  "name": "Credit Card Decline Inquiry",
+  "definition": "Assistance with resolving issues related to a declined credit card payment."
+ },
+ {
+  "id": 215,
+  "name": "Tax Document Retrieval",
+  "definition": "Assistance with obtaining tax-related documents such as a W2 form."
+ },
+ {
+  "id": 216,
+  "name": "Human-like Interaction Request",
+  "definition": "Request for a more human-like interaction with the assistant."
+ },
+ {
+  "id": 217,
+  "name": "Salary Collection Inquiry",
+  "definition": "Inquiry about the last time salary was collected."
+ },
+ {
+  "id": 218,
+  "name": "Checkbook Request",
+  "definition": "Request for additional checkbooks to be mailed."
+ },
+ {
+  "id": 219,
+  "name": "Text Message Notification Request",
+  "definition": "Request to send a text message to a specific person."
+ },
+ {
+  "id": 220,
+  "name": "Timer Setting Request",
+  "definition": "Request to set a timer for a specific duration."
+ },
+ {
+  "id": 221,
+  "name": "Assistant Control Inquiry",
+  "definition": "Utterances related to controlling or managing the assistant itself."
+ },
+ {
+  "id": 222,
+  "name": "Tax Rate Inquiry",
+  "definition": "Utterances inquiring about tax rates or amounts."
+ },
+ {
+  "id": 223,
+  "name": "Location Sharing Confirmation",
+  "definition": "Utterances confirming or requesting information about sharing location."
+ },
+ {
+  "id": 224,
+  "name": "Billing Cycle Inquiry",
+  "definition": "Utterances inquiring about billing cycle details."
+ },
+ {
+  "id": 225,
+  "name": "Credit Card Upgrade Request",
+  "definition": "Utterances requesting information or assistance with upgrading a credit card."
+ },
+ {
+  "id": 226,
+  "name": "Lost Luggage Report",
+  "definition": "Utterances reporting lost luggage or items."
+ },
+ {
+  "id": 227,
+  "name": "Assistant Preference Inquiry",
+  "definition": "Utterances inquiring about the assistant's preferences or likes."
+ },
+ {
+  "id": 228,
+  "name": "Gas Type Inquiry",
+  "definition": "Assistance in determining the appropriate type of gas to use for a specific car."
+ },
+ {
+  "id": 229,
+  "name": "Car Maintenance Scheduling",
+  "definition": "Assistance in scheduling maintenance for a car."
+ },
+ {
+  "id": 230,
+  "name": "Location Sharing with Specific Individuals",
+  "definition": "Assistance in sharing location information with specific individuals."
+ },
+ {
+  "id": 231,
+  "name": "Tax Payment Inquiry",
+  "definition": "Assistance in determining the amount of state taxes owed."
+ },
+ {
+  "id": 232,
+  "name": "Addressing Inquiry",
+  "definition": "Assistance in understanding how to address a specific name."
+ },
+ {
+  "id": 233,
+  "name": "Meeting Summary Request",
+  "definition": "Assistance in providing a summary of today's meetings."
+ },
+ {
+  "id": 234,
+  "name": "Currency Conversion Inquiry",
+  "definition": "Assistance in converting currency from one type to another."
+ },
+ {
+  "id": 235,
+  "name": "Location Sharing with Specific Individual",
+  "definition": "Assistance in sharing location information with a specific individual."
+ },
+ {
+  "id": 236,
+  "name": "Car MPG Inquiry",
+  "definition": "Assistance in determining the miles per gallon of a specific car."
+ },
+ {
+  "id": 237,
+  "name": "Vacation Purchase Inquiry",
+  "definition": "Assistance in purchasing a vacation package."
+ },
+ {
+  "id": 238,
+  "name": "Meaning of Life Inquiry",
+  "definition": "Utterances requesting information or discussion about the meaning of life."
+ },
+ {
+  "id": 239,
+  "name": "Appointment Inquiry",
+  "definition": "Utterances asking about upcoming appointments or events on a specific date."
+ },
+ {
+  "id": 240,
+  "name": "Chinese Food Recommendation",
+  "definition": "Utterances seeking recommendations for Chinese cuisine in the area."
+ },
+ {
+  "id": 241,
+  "name": "Card Decline Explanation",
+  "definition": "Utterances asking for reasons why a credit card transaction was declined."
+ },
+ {
+  "id": 242,
+  "name": "Card Damage Report",
+  "definition": "Utterances reporting that a credit card has been damaged and cannot be used."
+ },
+ {
+  "id": 243,
+  "name": "Current Time Inquiry",
+  "definition": "Utterances asking for the current time."
+ },
+ {
+  "id": 244,
+  "name": "Oil Change History Inquiry",
+  "definition": "Utterances asking about the history of recent oil changes for a vehicle."
+ },
+ {
+  "id": 245,
+  "name": "Unauthorized Card Use Report",
+  "definition": "Utterances reporting unauthorized use of a credit card."
+ },
+ {
+  "id": 246,
+  "name": "Interest Rate Inquiry",
+  "definition": "Utterances asking about the interest rates associated with a financial institution or service."
+ },
+ {
+  "id": 247,
+  "name": "Calendar Reading Request",
+  "definition": "Utterances requesting the reading of calendar events for a specific date."
+ },
+ {
+  "id": 248,
+  "name": "Historical Fun Fact Request",
+  "definition": "Utterances requesting a humorous or interesting fact about history."
+ },
+ {
+  "id": 249,
+  "name": "Travel Research Request",
+  "definition": "Utterances asking for information or recommendations about travel destinations."
+ },
+ {
+  "id": 250,
+  "name": "Insurance Protocol Inquiry",
+  "definition": "Utterances inquiring about the process for obtaining new insurance coverage."
+ }
+]

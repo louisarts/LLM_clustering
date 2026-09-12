@@ -1,0 +1,95 @@
+{
+  "bench": "fewnerd",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 2,
+      "name": "Organization",
+      "definition": "A group of people with a particular purpose, such as a business or government department."
+    },
+    {
+      "id": 3,
+      "name": "Location",
+      "definition": "A particular place or position."
+    },
+    {
+      "id": 4,
+      "name": "Event",
+      "definition": "An occurrence or happening, especially one of significance."
+    },
+    {
+      "id": 5,
+      "name": "Work of Art",
+      "definition": "A creation in the fields of literature, music, or visual arts."
+    },
+    {
+      "id": 6,
+      "name": "Product",
+      "definition": "An item or substance manufactured or refined for sale."
+    },
+    {
+      "id": 7,
+      "name": "Animal",
+      "definition": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system."
+    },
+    {
+      "id": 8,
+      "name": "Concept",
+      "definition": "An abstract idea or a general notion."
+    },
+    {
+      "id": 9,
+      "name": "Natural Phenomenon",
+      "definition": "A naturally occurring event or process."
+    },
+    {
+      "id": 10,
+      "name": "Language",
+      "definition": "A system of communication used by a particular community or country."
+    },
+    {
+      "id": 11,
+      "name": "Chemical Element or Compound",
+      "definition": "A substance consisting of atoms or molecules."
+    },
+    {
+      "id": 12,
+      "name": "Vehicle",
+      "definition": "A means of transporting goods or people."
+    },
+    {
+      "id": 13,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 14,
+      "name": "Sport",
+      "definition": "An activity involving physical exertion and skill in which an individual or team competes against another or others."
+    },
+    {
+      "id": 15,
+      "name": "Food or Drink",
+      "definition": "Substances consumed to provide nutritional support for an organism."
+    },
+    {
+      "id": 16,
+      "name": "Plant",
+      "definition": "A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses."
+    },
+    {
+      "id": 17,
+      "name": "Mythological Entity",
+      "definition": "A being or creature from mythology or folklore."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "mcid",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Sharing",
+      "definition": "Utterances expressing a desire to share COVID-19 related information on social media or with others."
+    },
+    {
+      "id": 2,
+      "name": "Seeking Information",
+      "definition": "Utterances seeking information or updates about COVID-19, such as news, symptoms, prevention, or treatment options."
+    },
+    {
+      "id": 3,
+      "name": "Travel Concerns",
+      "definition": "Utterances related to travel safety, restrictions, and concerns during the COVID-19 outbreak."
+    },
+    {
+      "id": 4,
+      "name": "Myth Debunking",
+      "definition": "Utterances seeking clarification or debunking of myths or misinformation related to COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Donations and Support",
+      "definition": "Utterances related to donating money, supplies, or support to COVID-19 relief efforts or affected areas."
+    },
+    {
+      "id": 6,
+      "name": "Symptom Inquiry",
+      "definition": "Utterances inquiring about COVID-19 symptoms, transmission, or effects on different surfaces or animals."
+    },
+    {
+      "id": 7,
+      "name": "Prevention Measures",
+      "definition": "Utterances seeking information on preventive measures, such as wearing masks, hand hygiene, social distancing, and cleaning practices."
+    },
+    {
+      "id": 8,
+      "name": "Vaccine Inquiry",
+      "definition": "Utterances inquiring about the development, availability, or safety of a COVID-19 vaccine."
+    },
+    {
+      "id": 9,
+      "name": "Treatment Options",
+      "definition": "Utterances seeking information on treatment options, medications, or remedies for COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "Community Spread Concerns",
+      "definition": "Utterances expressing concerns about community spread, infection rates, and transmission of COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Animal Related Inquiries",
+      "definition": "Utterances inquiring about the transmission, risks, or effects of COVID-19 on animals."
+    },
+    {
+      "id": 12,
+      "name": "Government Regulations",
+      "definition": "Utterances seeking information on government regulations, restrictions, or guidelines related to COVID-19."
+    },
+    {
+      "id": 13,
+      "name": "Appreciation and Feedback",
+      "definition": "Utterances expressing gratitude, appreciation, or feedback for COVID-19 related information or services."
+    },
+    {
+      "id": 14,
+      "name": "Fear and Anxiety",
+      "definition": "Utterances expressing fear, anxiety, or emotional distress related to COVID-19."
+    },
+    {
+      "id": 15,
+      "name": "Misinformation Concerns",
+      "definition": "Utterances expressing concerns about misinformation, fake news, or myths related to COVID-19."
+    },
+    {
+      "id": 16,
+      "name": "Workplace Safety",
+      "definition": "Utterances seeking information on workplace safety, protocols, or precautions during the COVID-19 outbreak."
+    },
+    {
+      "id": 17,
+      "name": "Global Statistics Inquiry",
+      "definition": "Utterances seeking information on global COVID-19 statistics, case counts, recovery rates, or outbreaks."
+    },
+    {
+      "id": 18,
+      "name": "Household Cleaning Practices",
+      "definition": "Utterances seeking information on cleaning practices, disinfection, or sanitization of household items and surfaces."
+    },
+    {
+      "id": 19,
+      "name": "Social Distancing Guidelines",
+      "definition": "Utterances seeking information on social distancing guidelines, practices, or recommendations."
+    },
+    {
+      "id": 20,
+      "name": "Healthcare Worker Concerns",
+      "definition": "Utterances expressing concerns or seeking guidance for healthcare workers, essential workers, or frontline workers during the COVID-19 outbreak."
+    }
+  ]
+}

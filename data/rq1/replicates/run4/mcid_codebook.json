@@ -1,0 +1,72 @@
+{
+  "bench": "mcid",
+  "run": 4,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General COVID-19 Information",
+      "definition": "User seeks basic understanding, definitions, or general facts about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms & Testing",
+      "definition": "User asks about COVID-19 symptoms, self-diagnosis, or testing recommendations."
+    },
+    {
+      "id": 3,
+      "name": "Prevention & Safety Measures",
+      "definition": "User seeks advice on how to prevent infection, protect themselves, or specific safety protocols."
+    },
+    {
+      "id": 4,
+      "name": "Transmission & Contagion",
+      "definition": "User asks how COVID-19 spreads, its viability on surfaces, or specific transmission vectors."
+    },
+    {
+      "id": 5,
+      "name": "Treatment, Cure & Vaccine",
+      "definition": "User inquires about available treatments, potential cures, or vaccine development status."
+    },
+    {
+      "id": 6,
+      "name": "Myths & Misinformation",
+      "definition": "User asks to debunk common myths, identify misinformation, or clarify false claims about COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Statistics & Updates",
+      "definition": "User requests current data, news, or recent developments related to the pandemic."
+    },
+    {
+      "id": 8,
+      "name": "Impact on Animals & Pets",
+      "definition": "User asks about COVID-19's effect on animals, pet transmission, or pet-related safety."
+    },
+    {
+      "id": 9,
+      "name": "Travel & Restrictions",
+      "definition": "User seeks information on travel advisories, restrictions, or safety related to transportation."
+    },
+    {
+      "id": 10,
+      "name": "Donation & Support",
+      "definition": "User expresses intent to donate money, goods, or support COVID-19 relief efforts."
+    },
+    {
+      "id": 11,
+      "name": "Bot Interaction & Gratitude",
+      "definition": "User greets the bot, expresses thanks, or engages in general conversational pleasantries."
+    },
+    {
+      "id": 12,
+      "name": "Sharing Information (Bot/Content)",
+      "definition": "User expresses intent to share the bot, its content, or related articles with others."
+    },
+    {
+      "id": 13,
+      "name": "Personal Risk Assessment & Specific Scenarios",
+      "definition": "User describes a personal situation or specific scenario and asks for advice or risk assessment."
+    }
+  ]
+}

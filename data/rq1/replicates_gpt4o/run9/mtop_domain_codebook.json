@@ -1,0 +1,60 @@
+{
+  "bench": "mtop_domain",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music Control",
+      "definition": "Requests to play, pause, or manage music or playlists."
+    },
+    {
+      "id": 2,
+      "name": "Alarm Management",
+      "definition": "Requests to set, change, or cancel alarms."
+    },
+    {
+      "id": 3,
+      "name": "Timer Management",
+      "definition": "Requests to set, change, or cancel timers."
+    },
+    {
+      "id": 4,
+      "name": "Reminder Management",
+      "definition": "Requests to set, change, or cancel reminders."
+    },
+    {
+      "id": 5,
+      "name": "Weather Information",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 6,
+      "name": "News and Information",
+      "definition": "Requests for news updates or specific information about events."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "Requests to send messages, make calls, or manage communication status."
+    },
+    {
+      "id": 8,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 9,
+      "name": "Social and Events",
+      "definition": "Requests for information about events or social activities."
+    },
+    {
+      "id": 10,
+      "name": "Contact and Employment Information",
+      "definition": "Requests for information about people, their locations, or employment."
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "bench": "arxiv_fine",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.LG",
+      "definition": "Machine Learning and related algorithms"
+    },
+    {
+      "id": 2,
+      "name": "physics.acc-ph",
+      "definition": "Accelerator Physics"
+    },
+    {
+      "id": 3,
+      "name": "astro-ph.GA",
+      "definition": "Astrophysics of Galaxies"
+    },
+    {
+      "id": 4,
+      "name": "cs.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 5,
+      "name": "physics.bio-ph",
+      "definition": "Biological Physics"
+    },
+    {
+      "id": 6,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 7,
+      "name": "physics.atom-ph",
+      "definition": "Atomic Physics"
+    },
+    {
+      "id": 8,
+      "name": "cs.AR",
+      "definition": "Hardware Architecture"
+    },
+    {
+      "id": 9,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 10,
+      "name": "astro-ph.CO",
+      "definition": "Cosmology and Nongalactic Astrophysics"
+    },
+    {
+      "id": 11,
+      "name": "eess.SP",
+      "definition": "Signal Processing"
+    },
+    {
+      "id": 12,
+      "name": "cond-mat.quant-gas",
+      "definition": "Quantum Gases"
+    },
+    {
+      "id": 13,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 14,
+      "name": "q-fin.PR",
+      "definition": "Pricing of Securities"
+    },
+    {
+      "id": 15,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 16,
+      "name": "physics.plasm-ph",
+      "definition": "Plasma Physics"
+    },
+    {
+      "id": 17,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 18,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 19,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 20,
+      "name": "cs.CL",
+      "definition": "Computation and Language"
+    },
+    {
+      "id": 21,
+      "name": "cond-mat.mtrl-sci",
+      "definition": "Materials Science"
+    },
+    {
+      "id": 22,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 23,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 24,
+      "name": "cond-mat.mes-hall",
+      "definition": "Mesoscale and Nanoscale Physics"
+    },
+    {
+      "id": 25,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence"
+    },
+    {
+      "id": 26,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 27,
+      "name": "physics.optics",
+      "definition": "Optics"
+    },
+    {
+      "id": 28,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 29,
+      "name": "cs.CR",
+      "definition": "Cryptography and Security"
+    },
+    {
+      "id": 30,
+      "name": "q-bio.MN",
+      "definition": "Molecular Networks"
+    },
+    {
+      "id": 31,
+      "name": "math.AG",
+      "definition": "Algebraic Geometry"
+    },
+    {
+      "id": 32,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 33,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 34,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 35,
+      "name": "math.AP",
+      "definition": "Analysis of PDEs"
+    },
+    {
+      "id": 36,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 37,
+      "name": "cond-mat.stat-mech",
+      "definition": "Statistical Mechanics"
+    },
+    {
+      "id": 38,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 39,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 40,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 41,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 42,
+      "name": "cs.LO",
+      "definition": "Logic in Computer Science"
+    },
+    {
+      "id": 43,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 44,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 45,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 46,
+      "name": "cs.DB",
+      "definition": "Databases"
+    },
+    {
+      "id": 47,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 48,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 49,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 50,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    }
+  ]
+}

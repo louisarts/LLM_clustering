@@ -1,0 +1,62 @@
+{
+  "bench": "mcid",
+  "run": 8,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "COVID-19 General Information",
+      "definition": "User seeks basic understanding, definitions, or clarification on common beliefs/myths about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms & Diagnosis",
+      "definition": "User asks about specific symptoms, how to identify them, or how to know if they have/had the virus."
+    },
+    {
+      "id": 3,
+      "name": "Transmission & Persistence",
+      "definition": "User asks how the virus spreads, how long it survives on surfaces, or if animals can transmit/contract it."
+    },
+    {
+      "id": 4,
+      "name": "Prevention & Personal Protection",
+      "definition": "User seeks advice on measures to prevent infection for themselves or others, including cleaning, masks, and social distancing."
+    },
+    {
+      "id": 5,
+      "name": "Travel & Public Safety",
+      "definition": "User asks about safety of travel, current restrictions, or risks associated with specific locations or public activities."
+    },
+    {
+      "id": 6,
+      "name": "Treatment & Vaccine Information",
+      "definition": "User asks about available treatments, cures, or vaccine development and availability."
+    },
+    {
+      "id": 7,
+      "name": "Statistics & Latest Updates",
+      "definition": "User seeks current data, news, or official statements regarding the pandemic."
+    },
+    {
+      "id": 8,
+      "name": "Sharing & Social Engagement",
+      "definition": "User expresses intent to share information, the bot, or engage socially with the platform."
+    },
+    {
+      "id": 9,
+      "name": "Donation & Support",
+      "definition": "User expresses intent to donate money or resources, or asks how to support relief efforts."
+    },
+    {
+      "id": 10,
+      "name": "Greetings & Gratitude",
+      "definition": "User expresses a greeting, thanks, or general positive sentiment towards the bot."
+    },
+    {
+      "id": 11,
+      "name": "Emotional & Personal Concern",
+      "definition": "User expresses fear, anxiety, or a general sense of helplessness related to the pandemic."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "bench": "fewrel",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Part of",
+      "definition": "Entity X is a component, member, or subset of the larger entity Y."
+    },
+    {
+      "id": 2,
+      "name": "Located in",
+      "definition": "Entity X is geographically situated within the boundaries of place Y."
+    },
+    {
+      "id": 3,
+      "name": "Creator",
+      "definition": "Entity X is the author, artist, director, or originator of the creative work Y."
+    },
+    {
+      "id": 4,
+      "name": "Publisher",
+      "definition": "Entity X released, distributed, or produced the work, product, or entity Y."
+    },
+    {
+      "id": 5,
+      "name": "Occupation",
+      "definition": "Entity X is the professional role, job title, or career field of person Y."
+    },
+    {
+      "id": 6,
+      "name": "Affiliation",
+      "definition": "Entity X is an organization, team, or group that person Y is associated with."
+    },
+    {
+      "id": 7,
+      "name": "Event participation",
+      "definition": "Entity X is an event, competition, or tournament in which entity Y participated."
+    },
+    {
+      "id": 8,
+      "name": "Family",
+      "definition": "Entity X is a relative (parent, sibling, spouse, etc.) of entity Y."
+    },
+    {
+      "id": 9,
+      "name": "Award nomination",
+      "definition": "Entity X is an award or prize for which entity Y was nominated or won."
+    },
+    {
+      "id": 10,
+      "name": "Tributary",
+      "definition": "Entity X is a river or stream that flows into the larger river or body of water Y."
+    },
+    {
+      "id": 11,
+      "name": "Nationality",
+      "definition": "Entity X is the country of origin, citizenship, or ethnic identity associated with entity Y."
+    },
+    {
+      "id": 12,
+      "name": "Adaptation source",
+      "definition": "Entity X is the original work, story, or person that inspired the adaptation Y."
+    },
+    {
+      "id": 13,
+      "name": "Genre",
+      "definition": "Entity X is the artistic style, category, or genre to which work Y belongs."
+    },
+    {
+      "id": 14,
+      "name": "Owner",
+      "definition": "Entity X is the owner, parent company, or acquirer of entity Y."
+    },
+    {
+      "id": 15,
+      "name": "Administrative division",
+      "definition": "Entity X is a geographical region or district that governs or contains entity Y."
+    },
+    {
+      "id": 16,
+      "name": "Language",
+      "definition": "Entity X is the language used in, spoken in, or associated with entity Y."
+    },
+    {
+      "id": 17,
+      "name": "Synonym",
+      "definition": "Entity X and entity Y are different names or terms referring to the same concept or entity."
+    },
+    {
+      "id": 18,
+      "name": "Platform",
+      "definition": "Entity X is the hardware, operating system, or platform on which software Y runs."
+    },
+    {
+      "id": 19,
+      "name": "Character",
+      "definition": "Entity X is a fictional character appearing in the creative work Y."
+    },
+    {
+      "id": 20,
+      "name": "Position held",
+      "definition": "Entity X is a political office, title, or position held by person Y."
+    },
+    {
+      "id": 21,
+      "name": "Time of event",
+      "definition": "Entity X is a specific date, year, or time period when the event Y occurred."
+    },
+    {
+      "id": 22,
+      "name": "Taxonomic rank",
+      "definition": "Entity X is the biological classification rank (e.g., family, order) of organism Y."
+    },
+    {
+      "id": 23,
+      "name": "Serves",
+      "definition": "Entity X is a facility or service that supports or provides access to the location Y."
+    },
+    {
+      "id": 24,
+      "name": "Named after",
+      "definition": "Entity X was named in honor of or to reference entity Y."
+    },
+    {
+      "id": 25,
+      "name": "Variant",
+      "definition": "Entity X is a variation, version, or derivative of entity Y."
+    }
+  ]
+}

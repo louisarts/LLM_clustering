@@ -1,0 +1,758 @@
+{
+ "7": [
+  "Why is the Moon receding from the Earth at a rate of 3.8 cm per year?",
+  "How do astronomers determine the surface temperature of a star using its spectral class?",
+  "Is it possible to see the Andromeda galaxy with the naked eye from a dark sky site?",
+  "What causes the spiral arms of the Milky Way to maintain their shape over time?",
+  "What is the difference between a Type Ia and a Type II supernova?"
+ ],
+ "10": [
+  "How can I recover my Bitcoin wallet if I lost my private key?",
+  "What is the difference between a full node and a SPV client?",
+  "Why has my transaction been unconfirmed for over 24 hours?",
+  "Is it possible to send Bitcoin with a very low fee during high congestion?",
+  "How do I verify that a transaction on the blockchain is valid?"
+ ],
+ "2": [
+  "How do I calculate the length of a dipole antenna for the 20 meter band?",
+  "What is the proper way to ground a base station antenna to prevent lightning damage?",
+  "Can I use a standard VHF radio to communicate with NOAA weather satellites?",
+  "What are the differences between the Technician and General class amateur radio licenses?",
+  "Why is there a high SWR on my HF transceiver only when I transmit on 40 meters?"
+ ],
+ "8": [
+  "What is the significance of the word 'fulfill' in Matthew 5:17 regarding the law?",
+  "How should we understand the 'us' in Genesis 1:26 during the creation of man?",
+  "Does the context of Isaiah 53 suggest a singular suffering servant or the nation of Israel?",
+  "Why does the author of Hebrews quote Jeremiah regarding the new covenant?",
+  "What is the meaning of the term 'Logos' in the prologue of John's Gospel?"
+ ],
+ "1": [
+  "How should I list a publication on my CV that is currently under review?",
+  "Is it ethical to decline a PhD offer after already accepting another one?",
+  "What is the appropriate way to email a professor to ask for a research position?",
+  "My advisor is taking credit for my work in a grant proposal, what should I do?",
+  "How many papers should I aim to publish during a master's degree?"
+ ],
+ "9": [
+  "Why do some viruses have DNA and others have RNA as their genetic material?",
+  "What is the evolutionary advantage of aging and eventual death in organisms?",
+  "How do plants decide when to start flowering based on day length?",
+  "Is it possible for two species to produce fertile offspring together?",
+  "What causes the left side of the brain to control the right side of the body?"
+ ],
+ "3": [
+  "How do I bypass the \"Unfortunately, Settings has stopped\" error loop on a Samsung Galaxy S7?",
+  "Is it possible to unlock the bootloader of a Verizon branded Pixel without waiting the mandatory 7 days?",
+  "My phone is stuck in a bootloop after flashing a custom ROM, how can I access recovery mode to wipe the cache?",
+  "Why does my battery drain so fast after the latest Android 12 update even when the phone is idle?",
+  "Can I move installed apps to the SD card on Android 10 without rooting my device?"
+ ],
+ "6": [
+  "How do I fix the \"System program problem detected\" error on startup?",
+  "What is the difference between apt-get update and apt-get upgrade?",
+  "Ubuntu 22.04 freezes after login, only mouse cursor moves.",
+  "How can I create a bootable USB drive on Windows to install Ubuntu?",
+  "Wireless network adapter not recognized after installing Ubuntu on my laptop."
+ ],
+ "5": [
+  "Artificial Intelligence\tWhat is the difference between a generative and a discriminative model?",
+  "Artificial Intelligence\tHow does the backpropagation algorithm actually work in a neural network?",
+  "Artificial Intelligence\tCan someone explain the concept of the 'vanishing gradient' problem?",
+  "Artificial Intelligence\tIs Prolog still used for modern AI development or is it obsolete?",
+  "Artificial Intelligence\tWhat are the ethical implications of using AI for autonomous weapons?"
+ ],
+ "4": [
+  "How do I defeat the Ender Dragon in Minecraft without using a bow?",
+  "What is the exact formula for calculating damage critical hits in Fallout 4?",
+  "Is it possible to transfer my saved game data from PS4 to PS5 for Cyberpunk 2077?",
+  "Why does my game keep crashing every time I enter the city of Whiterun in Skyrim?",
+  "In Stardew Valley, do scarecrows protect crops planted inside the greenhouse?"
+ ],
+ "19": [
+  "What is the difference between \"affect\" and \"effect\"?",
+  "Is \"they\" acceptable as a singular pronoun in formal writing?",
+  "What is the etymology of the word \"serendipity\"?",
+  "When should I use a semicolon instead of a comma?",
+  "Is \"irregardless\" considered a valid word in standard English?"
+ ],
+ "12": [
+  "What is the difference between justification and sanctification?",
+  "Why do many Protestant churches not observe Lent?",
+  "Is the doctrine of the Trinity explicitly taught in the Bible?",
+  "What is the historical significance of the Council of Nicaea?",
+  "Do all Christian denominations believe in the real presence of the Eucharist?"
+ ],
+ "13": [
+  "How do I implement the Phong reflection model in a fragment shader?",
+  "What is the difference between orthographic and perspective projection matrices?",
+  "Why does my ray tracing algorithm produce inverted normals on sphere intersections?",
+  "Is there a way to reduce aliasing artifacts when downsampling a render texture?",
+  "How can I convert a quaternion rotation to a 4x4 matrix for skinning?"
+ ],
+ "15": [
+  "Cross Validated: What is the difference between Type I and Type II errors in hypothesis testing?",
+  "Cross Validated: How do I interpret the coefficients of a logistic regression model?",
+  "Cross Validated: Can someone explain the intuition behind the bias-variance tradeoff?",
+  "Cross Validated: When should I choose ARIMA over Exponential Smoothing for time series forecasting?",
+  "Cross Validated: Is it necessary to standardize features before applying Principal Component Analysis?"
+ ],
+ "18": [
+  "How does the concept of price elasticity of demand apply to luxury goods compared to essential goods?",
+  "What are the primary differences between Keynesian and Monetarist views on the causes of inflation?",
+  "Can someone explain the relationship between the Phillips curve and stagflation in the 1970s?",
+  "How do externalities lead to market failure in the context of environmental pollution?",
+  "What is the difference between the substitution effect and the income effect when the price of a good rises?"
+ ],
+ "20": [
+  "How can I estimate the gas cost for deploying a large smart contract on the mainnet?",
+  "What is the difference between using `call` and `transfer` for sending Ether in Solidity?",
+  "I am trying to connect Metamask to my local Hardhat node, but it says the chain ID is invalid.",
+  "Why is my ERC-20 token transaction pending for so long despite high gas fees?",
+  "How do I interact with a deployed contract using web3.js in a React application?"
+ ],
+ "11": [
+  "What is the difference between \u60f3 and \u8981 when expressing desire?",
+  "How do I properly use the particle \u4e86 to indicate a completed action?",
+  "Why is the character \u9a6c used in the word \u9a6c\u4e0a meaning \"immediately\"?",
+  "Is there a rule for determining the stroke order of complex characters like \u9f9f?",
+  "What are the different meanings of the measure word \u6761 when counting objects?"
+ ],
+ "16": [
+  "site:Data Science\tquestion:What is the best way to handle imbalanced classes in a classification problem?",
+  "site:Data Science\tquestion:How do I interpret the feature importance scores from a Random Forest model?",
+  "site:Data Science\tquestion:Can someone recommend a good dataset for practicing sentiment analysis?",
+  "site:Data Science\tquestion:What are the main differences between Keras and PyTorch for beginners?",
+  "site:Data Science\tquestion:Why does my validation loss increase while my training loss decreases?"
+ ],
+ "14": [
+  "Is there a polynomial-time algorithm to determine if a graph has a Hamiltonian cycle?",
+  "What is the difference between a language being decidable and recursively enumerable?",
+  "How do I prove that the traveling salesman problem is NP-hard using a reduction from Hamiltonian cycle?",
+  "Can someone explain the concept of amortized analysis with a simple example like a dynamic array?",
+  "Why is the halting problem considered unsolvable even though we can analyze specific programs?"
+ ],
+ "17": [
+  "site:drupal.stackexchange.com\tHow do I programmatically delete orphaned taxonomy terms in Drupal 8?",
+  "site:drupal.stackexchange.com\tViews exposed filter is not updating results after AJAX reload.",
+  "site:drupal.stackexchange.com\tWhat is the correct way to override the node template for a specific content type?",
+  "site:drupal.stackexchange.com\tDrush command terminated abnormally due to a fatal error in the bootstrap process.",
+  "site:drupal.stackexchange.com\tHow can I render a block inside a custom twig template file?"
+ ],
+ "30": [
+  "Why did the Roman Empire fall? | History",
+  "How accurate is the movie Gladiator? | History",
+  "What were the main causes of the French Revolution? | History",
+  "Who was the first President of the United States? | History",
+  "What weapons were used in the Middle Ages? | History"
+ ],
+ "25": [
+  "Why are the leaves on my tomato plants turning yellow at the bottom?",
+  "How do I get rid of aphids on my rose bushes without using harsh chemicals?",
+  "What is the best time of year to prune a hydrangea bush in zone 6?",
+  "Can I lay new sod over existing grass, or do I need to remove the old lawn first?",
+  "My pepper seedlings are tall and skinny; are they not getting enough light?"
+ ],
+ "29": [
+  "What is a good laptop for running CAD software under $1500?",
+  "Looking for a quiet mechanical keyboard with tactile switches for office work.",
+  "Need recommendations for a budget 4K monitor with accurate color reproduction.",
+  "Which budget router can handle over 50 simultaneous Wi-Fi devices?",
+  "Best external hard drive for backing up a large media server?"
+ ],
+ "28": [
+  "How do I convert a PNG to a vector format in Illustrator?",
+  "What is the difference between kerning and tracking?",
+  "Best software for creating UI mockups on Linux?",
+  "How can I recreate this paper cutout effect in Photoshop?",
+  "Why does my printed color not match what I see on my monitor?"
+ ],
+ "21": [
+  "Can I enter the UK on a tourist visa while my spouse visa application is pending?",
+  "How long can I stay in the Schengen area as a US citizen before I have to leave?",
+  "Do I need to translate my birth certificate into French for my long-stay visa application?",
+  "Is it possible to open a bank account in Germany without a registered address?",
+  "What are the tax implications for a US citizen working remotely while living in Portugal?"
+ ],
+ "23": [
+  "Why do we say \"pas de probl\u00e8me\" instead of \"pas un probl\u00e8me\"?",
+  "What is the difference between \"bon\" and \"bien\" when describing a person?",
+  "Is the 's' in \"ils sont\" pronounced the same as the 's' in \"ils ont\"?",
+  "When should I use the subjunctive mood after \"bien que\"?",
+  "How do you translate \"to miss\" correctly, is it \"manquer\" or \"rater\"?"
+ ],
+ "24": [
+  "How do I implement A* pathfinding for a 2D tilemap in Unity?",
+  "What is the best workflow for exporting animated characters from Blender to Unreal Engine?",
+  "Why does my character controller keep falling through the terrain collider?",
+  "Is it better to use an ECS or inheritance for a large RPG inventory system?",
+  "How can I add local multiplayer support to my Godot project?"
+ ],
+ "22": [
+  "site: ExpressionEngine | title: How do I enable template debugging to troubleshoot parse order issues?",
+  "site: ExpressionEngine | title: Best way to structure multiple environments for staging and production?",
+  "site: ExpressionEngine | title: Channel entries tag not returning results after upgrading to version 6.",
+  "site: ExpressionEngine | title: How to pass dynamic parameters inside an embed template?",
+  "site: ExpressionEngine | title: Configuring Redis caching for high traffic ExpressionEngine sites."
+ ],
+ "27": [
+  "Why is the noun \"M\u00e4dchen\" grammatically neutral despite referring to a female person?",
+  "What is the difference in usage between \"kennen\" and \"wissen\"?",
+  "Can someone explain the rules for the order of words in a subordinate clause?",
+  "Is there a trick to remembering which prepositions take the dative case?",
+  "How do you pronounce the \"ch\" sound correctly in words like \"ich\" versus \"ach\"?"
+ ],
+ "26": [
+  "How can I find passenger lists for immigrants arriving in New York in the late 1800s?",
+  "What is the best way to locate a birth certificate for someone born in Ireland in 1920?",
+  "I cannot read the handwriting on this 19th-century marriage record; does anyone recognize this surname?",
+  "Are there any alternative sources for the 1890 US census records that were destroyed by fire?",
+  "How do I interpret the \"relationship to head of household\" column on the 1911 UK census?"
+ ],
+ "32": [
+  "What is the ideal temperature range for fermenting a lager versus an ale?",
+  "How much priming sugar should I use to carbonate a 5-gallon batch of stout?",
+  "My airlock hasn't bubbled in 24 hours, is my yeast dead or just dormant?",
+  "Can I use bread yeast to make homemade hard cider or will it taste bad?",
+  "Do I need to sanitize my equipment with iodophor or is Star San better?"
+ ],
+ "31": [
+  "When did the concept of imaginary numbers become widely accepted by the mathematical community?",
+  "What were the primary differences between the Ptolemaic and Copernican models of the solar system?",
+  "Did Newton's alchemical research influence his development of the theory of gravitation?",
+  "Who was the first person to formally prove the existence of the vacuum?",
+  "Why did the ancient Greeks develop geometry so extensively while lacking a formal algebra?"
+ ],
+ "34": [
+  "How do I configure iptables to block all incoming traffic except SSH on port 22?",
+  "Is it possible to retrieve plaintext passwords from the SAM database in Windows 10?",
+  "What are the security implications of enabling SSL stripping in a penetration testing scenario?",
+  "Does using a VPN actually hide my browsing history from my ISP, or is that a myth?",
+  "Why is it recommended to use Argon2 over bcrypt for hashing passwords in 2024?"
+ ],
+ "33": [
+  "Why is the Bhagavad Gita considered the most important scripture in Hinduism?",
+  "What are the differences between Dvaita and Advaita Vedanta philosophies?",
+  "Can someone explain the significance of the number 108 in Hindu prayers?",
+  "Is it necessary to visit a temple daily to be a practicing Hindu?",
+  "What does the concept of Karma imply about free will in our lives?"
+ ],
+ "40": [
+  "Why do we eat dairy foods on Shavuot?",
+  "Is it permissible to use electricity on Shabbat?",
+  "What is the significance of breaking a glass at a Jewish wedding?",
+  "How long should one wait between eating meat and dairy?",
+  "Can a Cohen enter a cemetery for a funeral?"
+ ],
+ "35": [
+  "Interpersonal Skills: How do I politely tell my coworker to stop chewing gum so loudly during meetings?",
+  "Interpersonal Skills: My friend always cancels plans at the last minute; how can I address this without ruining our friendship?",
+  "Interpersonal Skills: Is it rude to decline a wedding invitation because I wasn't allowed to bring a plus one?",
+  "Interpersonal Skills: How do I explain to my parents that I don't want them to visit for the holidays this year?",
+  "Interpersonal Skills: What is the best way to ask a stranger to move their bag so I can sit down on the bus?"
+ ],
+ "38": [
+  "What is the difference between the particles \"wa\" and \"ga\"?",
+  "How do I conjugate the verb \"taberu\" into te-form?",
+  "Is it natural to say \"yoroshiku onegaishimasu\" when introducing myself?",
+  "Why is \"wo\" used in \"wo aruku\" instead of \"de\"?",
+  "Can someone explain the usage of \"you ni suru\" vs. \"you ni naru\"?"
+ ],
+ "39": [
+  "[Site: Joomla] How can I override the layout of the login module without modifying the core files?",
+  "[Site: Joomla] My site returns a blank white screen after upgrading to the latest version, how do I debug this?",
+  "[Site: Joomla] What is the correct way to create a search plugin for a custom component?",
+  "[Site: Joomla] Is it possible to run multiple domains off a single Joomla installation using multisites?",
+  "[Site: Joomla] How do I move my Joomla site from a local XAMPP server to a live web host?"
+ ],
+ "37": [
+  "Usage of the subjunctive mood after the phrase \"penso che\" | Italian Language",
+  "Difference between the prepositions \"di\" and \"da\" | Italian Language",
+  "Is it necessary to capitalize nationalities like \"italiano\" in Italian? | Italian Language",
+  "Translation nuances of \"giocare\" versus \"suonare\" for musical instruments | Italian Language",
+  "Understanding the placement of object pronouns in infinitive verbs | Italian Language"
+ ],
+ "45": [
+  "How do I calculate the determinant of a 3x3 matrix using cofactor expansion?",
+  "What is the difference between a vector space and a subspace?",
+  "Proof that the square root of 2 is an irrational number.",
+  "Can someone explain the concept of a limit in calculus?",
+  "Solving differential equations using the method of separation of variables."
+ ],
+ "41": [
+  "How effective is the Pimsleur method for reaching conversational fluency in Japanese?",
+  "What are the best strategies for memorizing grammatical gender in German nouns?",
+  "Is it better to learn vocabulary through spaced repetition apps or by reading books?",
+  "How long does it usually take to achieve a B2 level in Spanish with daily study?",
+  "Can watching movies without subtitles actually help improve my listening comprehension skills?"
+ ],
+ "42": [
+  "How do you translate \"carpe diem\" in the context of Horace's Odes?",
+  "What is the difference between the indicative and subjunctive mood in indirect questions?",
+  "Why is the ablative case used instead of the accusative for \"Roma\" in the phrase \"Romae sum\"?",
+  "Is the gerundive in the phrase \"Carthago delenda est\" considered a future passive participle?",
+  "Looking for resources to practice reading Ecclesiastical Latin as a beginner."
+ ],
+ "44": [
+  "What is the difference between a phoneme and an allophone in minimal pairs?",
+  "How do linguists distinguish between derivational and inflectional morphology?",
+  "Can someone explain the concept of Universal Grammar in relation to second language acquisition?",
+  "What are the defining syntactic characteristics of a pro-drop language?",
+  "Is it accurate to describe the Sapir-Whorf hypothesis as linguistic determinism?"
+ ],
+ "48": [
+  "Why does my car make a squealing noise when I start it in the morning?",
+  "How do I bleed the brakes on a 2005 Honda Civic after replacing the calipers?",
+  "My check engine light is flashing and the car is shaking, what could be the cause?",
+  "What is the correct torque specification for the lug nuts on a 2018 Ford F-150?",
+  "Is it safe to drive with a cracked serpentine belt until I can get it replaced?"
+ ],
+ "49": [
+  "Why did Walter White leave Gray Matter in Breaking Bad?",
+  "Is the Joker's origin story in the 2019 movie based on any specific comic book?",
+  "What is the significance of the spinning top at the end of Inception?",
+  "Are the events of Better Call Saul happening before, during, or after Breaking Bad?",
+  "How were the battle scenes in The Lord of the Rings filmed without heavy CGI?"
+ ],
+ "47": [
+  "Why do I have a sharp pain in my left side when I take a deep breath?",
+  "Is it normal to have a low-grade fever for several days after surgery?",
+  "What is the difference between a viral and bacterial sinus infection?",
+  "How long does it typically take for a broken metatarsal bone to fully heal?",
+  "Can high blood pressure cause persistent headaches or vision problems?"
+ ],
+ "43": [
+  "Can a landlord legally evict a tenant for having an unauthorized pet in a no-pet building?",
+  "What constitutes \"fair use\" when quoting large sections of a book in a blog post?",
+  "Is it legal to record a conversation without the other person's consent in a one-party consent state?",
+  "How does the statute of limitations for filing a personal injury lawsuit vary by state?",
+  "What are the legal implications of creating a non-compete agreement for independent contractors?"
+ ],
+ "52": [
+  "Why did Orpheus look back if he knew the consequences?",
+  "What are the origins of the Norse wolf Fenrir?",
+  "Are there any historical basis for King Arthur?",
+  "What is the difference between a banshee and a wraith in Celtic folklore?",
+  "How do vampires reflect cultural anxieties about death?"
+ ],
+ "51": [
+  "Why do we call the interval from C to E a major third?",
+  "What is the correct hand position for playing octaves on the piano?",
+  "How do I identify the key signature of a piece with five flats?",
+  "Is there a standard notation for indicating a gradual tempo acceleration?",
+  "What are the functional differences between a dominant seventh and a major seventh chord?"
+ ],
+ "55": [
+  "How do I choose between the GPL and MIT licenses for my new JavaScript library?",
+  "Is it legally required to credit the original author if I fork a repository under the BSD license?",
+  "Can I use an LGPL library in my proprietary mobile application without open sourcing my own code?",
+  "What are the best practices for maintaining a healthy community around a small open source project?",
+  "Why was my issue closed immediately after I reported a bug on a popular open source repository?"
+ ],
+ "54": [
+  "[opendata.se] Where can I find historical weather data for the city of Chicago?",
+  "[opendata.se] Is there an API available for accessing the World Bank's GDP datasets?",
+  "[opendata.se] Looking for a CSV file containing the boundaries of all US congressional districts.",
+  "[opendata.se] What is the best format to share a large geospatial dataset under an open license?",
+  "[opendata.se] Does the European Union provide a SPARQL endpoint for querying public procurement data?"
+ ],
+ "57": [
+  "Can I patent a software algorithm that simply automates a manual business process?",
+  "What is the difference between a provisional and a non-provisional patent application?",
+  "Do I need a working prototype before filing a patent with the USPTO?",
+  "How long does patent pending status last after filing the initial application?",
+  "Is it possible to restore a patent after the maintenance fee payment deadline has passed?"
+ ],
+ "56": [
+  "How do I get my toddler to stay in bed without screaming for hours every night?",
+  "At what age should I start talking to my child about the birds and the bees?",
+  "My six-year-old is having frequent tantrums at school; how can I help him regulate his emotions?",
+  "Is it normal for siblings to fight constantly, or is there a deeper issue I'm missing?",
+  "What are the pros and cons of giving an allowance for household chores?"
+ ],
+ "53": [
+  "How do I configure BGP on a Cisco router to prefer one ISP over another for inbound traffic?",
+  "What is the maximum cable length for a 10GBASE-T connection between two switches in the same rack?",
+  "Can I use a /31 subnet for a point-to-point link on Cisco IOS, or do I need a /30?",
+  "My OSPF adjacency is stuck in the Init state; how can I troubleshoot the hello packet exchange?",
+  "What are the best practices for designing a redundant spine-leaf topology for a small data center?"
+ ],
+ "58": [
+  "How do I prioritize paying off student loans versus saving for a down payment on a house?",
+  "What is the difference between a Traditional IRA and a Roth IRA for early retirees?",
+  "Is it possible to negotiate a lower interest rate on my credit card debt with the bank?",
+  "How much of my emergency fund should be kept in a high-yield savings account versus a checking account?",
+  "Are capital gains from selling stocks taxed differently if I reinvest them immediately?"
+ ],
+ "59": [
+  "Why does my cat knead the blanket before going to sleep?",
+  "How often should I take my golden retriever to the vet for checkups?",
+  "Is it safe to feed my rabbit iceberg lettuce as a daily treat?",
+  "My parakeet keeps plucking feathers from his chest, what could be the cause?",
+  "Best way to introduce a new kitten to a resident adult cat?"
+ ],
+ "60": [
+  "What are the strongest arguments against Cartesian dualism?",
+  "Is there a logical flaw in the problem of the criterion?",
+  "How does Nietzsche define the concept of eternal recurrence?",
+  "Can free will exist if the universe is deterministic?",
+  "What distinguishes analytic philosophy from continental philosophy?"
+ ],
+ "63": [
+  "Why does a moving charge produce a magnetic field?",
+  "Calculating the escape velocity of a rocket leaving Earth.",
+  "What is the difference between special and general relativity?",
+  "How do I determine the tension in a rope during a tug of war?",
+  "Does the double-slit experiment prove that reality is probabilistic?"
+ ],
+ "64": [
+  "What is the correct ruling when a player acts out of turn in a no-limit game?",
+  "How do I calculate pot odds and expected value for a flush draw on the flop?",
+  "Can the big blind raise if everyone else just calls pre-flop?",
+  "What is the difference between a straddle and a standard blind raise?",
+  "Is it better to shove all-in with AK suited late in a tournament?"
+ ],
+ "61": [
+  "What settings should I use to capture sharp images of the night sky?",
+  "Is there a significant difference in image quality between full frame and crop sensor cameras?",
+  "How can I effectively remove sensor dust spots from my RAW files in Lightroom?",
+  "What is the best budget telephoto lens for wildlife photography on an entry-level DSLR?",
+  "Can someone explain the relationship between aperture, shutter speed, and ISO?"
+ ],
+ "62": [
+  "How many days of rest should I take between heavy deadlift sessions?",
+  "Is it better to do cardio before or after weight training for fat loss?",
+  "What are the most effective exercises for building stronger glutes at home?",
+  "Why do my knees crack loudly when I perform bodyweight squats?",
+  "Can I build significant muscle mass using only resistance bands?"
+ ],
+ "65": [
+  "Why hasn't the US ratified the UN Convention on the Rights of the Child?",
+  "What are the main differences between Social Democracy and Democratic Socialism?",
+  "How does the process of a vote of no confidence work in the UK Parliament?",
+  "What are the arguments for and against term limits for Supreme Court Justices?",
+  "Can a sitting President be indicted for a crime, or must they be impeached first?"
+ ],
+ "66": [
+  "What is the best way to handle scope creep when a client constantly requests new features?",
+  "Can someone explain the practical differences between Scrum and Kanban for a small marketing team?",
+  "I am looking for recommendations on lightweight Gantt chart software for a solo freelancer.",
+  "How do you calculate the critical path for a project with multiple dependencies?",
+  "Is a PMP certification worth the investment for someone transitioning into a tech lead role?"
+ ],
+ "68": [
+  "How do I implement the Heston model for option pricing in Python?",
+  "What is the difference between historical volatility and implied volatility?",
+  "Can someone explain the derivation of the Black-Scholes partial differential equation?",
+  "How do you calculate the Value at Risk (VaR) for a portfolio of derivatives?",
+  "What are the best libraries in R for performing time series analysis on stock prices?"
+ ],
+ "67": [
+  "What word begins and ends with an 'e' but only contains one letter?",
+  "Three switches outside a windowless room control three light bulbs inside.",
+  "A man pushes his car to a hotel and tells the owner he's bankrupt.",
+  "I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?",
+  "How can you cut a round cake into eight equal pieces with only three straight cuts?"
+ ],
+ "69": [
+  "How do I construct a Bell state using Qiskit?",
+  "What is the difference between a quantum gate and a classical logic gate?",
+  "Can someone explain the physical meaning of a Hamiltonian?",
+  "Why is error correction necessary for fault-tolerant quantum computing?",
+  "How does Shor's algorithm factor integers faster than classical methods?"
+ ],
+ "72": [
+  "How can I extract the firmware from a router using a UART connection?",
+  "What is the purpose of the anti-debugging technique in this crackme challenge?",
+  "Decompiling a .NET application to retrieve lost source code.",
+  "Understanding the structure of a proprietary game archive format.",
+  "How do I identify the encryption algorithm used in this network protocol?"
+ ],
+ "70": [
+  "How do I enable SSH on a fresh Raspberry Pi OS installation without a monitor?",
+  "My Raspberry Pi 4 is overheating and showing the thermometer icon, what heatsink do you recommend?",
+  "Can I use a 5V 2.5A phone charger to power my Raspberry Pi 3 Model B safely?",
+  "What is the difference between a Raspberry Pi Zero W and a Raspberry Pi Zero 2 W?",
+  "I am getting a rainbow screen on boot, is my SD card corrupted or is it a power issue?"
+ ],
+ "71": [
+  "How do I transfer files from an Apple IIe to a modern Mac using a serial cable?",
+  "What is the maximum RAM capacity for a Commodore 64 with a standard expansion port?",
+  "My IBM 5150 emits six short beeps on startup; what does this error code signify?",
+  "Is it possible to replace the electrolytic capacitors in a 1980s monitor to fix a wavy display?",
+  "Why does my floppy disk drive make a knocking sound during seek operations on a TRS-80?"
+ ],
+ "75": [
+  "Why is the letter '\u0451' often replaced by '\u0435' in written Russian?",
+  "What is the difference in usage between \"\u0442\u043e\u0436\u0435\" and \"\u0442\u0430\u043a\u0436\u0435\"?",
+  "How do I decline Russian surnames ending in -\u043a\u043e?",
+  "When should I use the prepositions \"\u0438\u0437\" and \"\u043e\u0442\" to mean \"from\"?",
+  "What is the difference between \"\u0443\u0447\u0438\u0442\u044c\u0441\u044f\" and \"\u0437\u0430\u043d\u0438\u043c\u0430\u0442\u044c\u0441\u044f\"?"
+ ],
+ "74": [
+  "How do grappling rules work when a character is already restrained in D&D 5e?",
+  "What are the differences between Pathfinder 2e and D&D 5e in terms of action economy?",
+  "Can a Warforged character be healed by normal magical means in Eberron?",
+  "Is it possible to cast two cantrips in a single turn using Action Surge?",
+  "What is the lore explanation for the Weave in the Forgotten Realms setting?"
+ ],
+ "73": [
+  "How do I tune the PID gains for the balance controller on a two-wheeled self-balancing robot?",
+  "What is the best way to interface a Raspberry Pi with an Arduino for high-speed motor control?",
+  "ROS2 node not publishing odometry data when launched via launch file on Ubuntu 22.04.",
+  "Calculating the required torque for a 6-DOF robotic arm to lift a 5kg payload at full extension.",
+  "Can I use a standard hobby servo for steering on an outdoor rover or do I need an IP67 rated metal gear servo?"
+ ],
+ "78": [
+  "site: Server Fault, title: Why does my reverse DNS lookup fail after changing the ISP?",
+  "site: Server Fault, title: How to configure Nginx as a reverse proxy for a Node.js application?",
+  "site: Server Fault, title: Windows Server 2019 takes a long time to boot after installing updates.",
+  "site: Server Fault, title: Best practices for setting up a DMZ for a small business network.",
+  "site: Server Fault, title: Postfix mail queue is stuck, how can I flush it safely?"
+ ],
+ "76": [
+  "Identify this book about a boy who travels to a alien planet through his closet.",
+  "Why did the Doctor use a screwdriver instead of a more versatile tool?",
+  "Looking for a short story where a man creates a machine that stops time.",
+  "Can Muggles see Dementors in the Harry Potter universe?",
+  "What is the explanation for the lack of seatbelts on the Enterprise bridge?"
+ ],
+ "79": [
+  "site:SharePoint\tHow to create a column that calculates the number of days between two dates?",
+  "site:SharePoint\tIs it possible to change the \"New Item\" text on a SharePoint list form button?",
+  "site:SharePoint\tWhy am I getting \"Access Denied\" when trying to run a PowerShell script for SharePoint Online?",
+  "site:SharePoint\tJSON formatting to change row color based on status column value.",
+  "site:SharePoint\tDifference between SharePoint Online and OneDrive for Business file sync limits."
+ ],
+ "77": [
+  "scicomp: How to parallelize a for loop in OpenMP for matrix multiplication?",
+  "scicomp: What is the best sparse matrix solver for large-scale linear systems?",
+  "scicomp: Why does my Runge-Kutta 4 implementation diverge for stiff ODEs?",
+  "scicomp: Efficient ways to compute the Fast Fourier Transform on GPU?",
+  "scicomp: How to handle boundary conditions in finite difference methods for PDEs?"
+ ],
+ "80": [
+  "Sitecore 9.3 installation fails with SQL access denied error during the SIF configuration step.",
+  "How to configure the Sitecore Content Search to index PDF attachments within the Media Library?",
+  "Best practice for setting up a multisite solution with shared templates in Sitecore Helix architecture.",
+  "GlassMapper throws an exception when trying to map a custom template field in Sitecore 10.",
+  "Experience Editor is not loading correctly due to a JavaScript conflict with a custom rendering."
+ ],
+ "83": [
+  "Why does \"mucho gusto\" translate to \"nice to meet you\" if gusto means pleasure?",
+  "Is there a difference in usage between \"t\u00fa\" and \"usted\" in Spain versus Latin America?",
+  "How do I know when to use the subjunctive mood after the word \"esperar\"?",
+  "What is the rule for placing adjectives before or after the noun in Spanish?",
+  "Can someone explain the difference between the verbs \"ser\" and \"estar\"?"
+ ],
+ "86": [
+  "Stack Overflow\tHow to fix 'IndexError: list index out of range' in a Python for loop?",
+  "Stack Overflow\tWhy does my Java program throw a NullPointerException when parsing JSON?",
+  "Stack Overflow\tReact useEffect hook running twice on initial render with strict mode.",
+  "Stack Overflow\tBest way to concatenate strings in C++ without using std::string.",
+  "Stack Overflow\tGit fatal: refusing to merge unrelated histories after pulling from remote."
+ ],
+ "82": [
+  "Looking for a lightweight PDF editor that can merge files and add page numbers without a subscription.",
+  "Need an open-source alternative to Photoshop that runs smoothly on older Linux hardware.",
+  "What is a good Windows application for automatically organizing thousands of untagged MP3 files?",
+  "Recommend a password manager that supports local offline storage and family sharing.",
+  "Seeking a free Android app to track daily water intake with widget support and no ads."
+ ],
+ "84": [
+  "How much delta-v is required to transition from LEO to a geostationary transfer orbit?",
+  "What are the specific challenges preventing a helicopter-style landing on Mars like the one planned for Mars 2020?",
+  "Why was the Space Shuttle's thermal protection system designed with different types of tiles rather than a single material?",
+  "Is it theoretically possible to use a mass driver on the Moon to launch payloads directly to Earth?",
+  "What causes the distinct color difference between the exhaust plumes of the RS-25 and the Merlin engines?"
+ ],
+ "87": [
+  "\u3010Python\u3011pandas\u306e\u30c7\u30fc\u30bf\u30d5\u30ec\u30fc\u30e0\u304b\u3089\u7279\u5b9a\u306e\u5217\u3092\u524a\u9664\u3059\u308b\u65b9\u6cd5\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002",
+  "Android Studio\u3067\u300cCannot resolve symbol\u300d\u3068\u3044\u3046\u30a8\u30e9\u30fc\u304c\u51fa\u308b\u6642\u306e\u5bfe\u51e6\u6cd5\u3002",
+  "JavaScript\u3067\u914d\u5217\u3092\u6587\u5b57\u5217\u306b\u5909\u63db\u3059\u308b\u306b\u306f\u3069\u3046\u3059\u308c\u3070\u3044\u3044\u3067\u3059\u304b\uff1f",
+  "Git\u3067\u9593\u9055\u3048\u3066commit\u3057\u3066\u3057\u307e\u3063\u305f\u30d5\u30a1\u30a4\u30eb\u3092\u53d6\u308a\u6d88\u3059\u65b9\u6cd5\u3002",
+  "Ruby on Rails\u306e\u30de\u30a4\u30b0\u30ec\u30fc\u30b7\u30e7\u30f3\u3067\u30a8\u30e9\u30fc\u304c\u767a\u751f\u3057\u3066\u56f0\u3063\u3066\u3044\u307e\u3059\u3002"
+ ],
+ "50": [
+  "Why did The Beatles stop touring in 1966?",
+  "Who are the most influential artists in the Delta blues genre?",
+  "What is the origin of the term \"heavy metal\" for the music genre?",
+  "Was the rivalry between The Beatles and The Rolling Stones real?",
+  "Which album should I listen to first if I want to get into David Bowie?"
+ ],
+ "89": [
+  "\u041a\u0430\u043a \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u043f\u0438\u0441\u043e\u043a \u0432 \u0441\u0442\u0440\u043e\u043a\u0443 \u0432 Python?",
+  "\u041e\u0448\u0438\u0431\u043a\u0430 'NoneType' object has no attribute 'split' \u043f\u0440\u0438 \u043f\u0430\u0440\u0441\u0438\u043d\u0433\u0435 \u0434\u0430\u043d\u043d\u044b\u0445.",
+  "\u041a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e \u043d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u044c CORS \u0432 Spring Boot \u0434\u043b\u044f \u0444\u0440\u043e\u043d\u0442\u0435\u043d\u0434\u0430?",
+  "\u0427\u0435\u043c \u043e\u0442\u043b\u0438\u0447\u0430\u0435\u0442\u0441\u044f const \u043e\u0442 let \u0432 JavaScript?",
+  "Git \u043d\u0435 \u0432\u0438\u0434\u0438\u0442 \u0443\u0434\u0430\u043b\u0451\u043d\u043d\u0443\u044e \u0432\u0435\u0442\u043a\u0443 \u043f\u043e\u0441\u043b\u0435 fetch."
+ ],
+ "81": [
+  "Was the 2020 US Presidential Election stolen via widespread voter fraud?",
+  "Did NASA land humans on the Moon in 1969, or was it filmed on a sound stage?",
+  "Does drinking warm milk before bed actually help you fall asleep faster?",
+  "Is it true that Bill Gates is planning to use vaccines to implant microchips in people?",
+  "Did the ancient Romans effectively use lead pipes for their water supply?"
+ ],
+ "91": [
+  "How do I set up a Stellar Core validator on the testnet?",
+  "What is the difference between a managed asset and a simple issuer on Stellar?",
+  "Transaction failed with op_underfunded error even though I have enough XLM.",
+  "Can I use StellarGuard to protect my StellarTerm wallet from unauthorized access?",
+  "How do I implement a payment channel using the Stellar SDK in Python?"
+ ],
+ "88": [
+  "Como centralizar uma div dentro de outra usando CSS Flexbox?",
+  "Erro ao conectar ao banco de dados MySQL com Python e SQLAlchemy.",
+  "Qual \u00e9 a diferen\u00e7a entre os m\u00e9todos __init__ e __new__ em Python?",
+  "Como instalar e configurar o Java JDK no Ubuntu 20.04?",
+  "Melhor maneira de validar CPF em uma aplica\u00e7\u00e3o Java?"
+ ],
+ "92": [
+  "Super User: My Windows 10 computer keeps freezing randomly, how can I check if it's a driver issue?",
+  "Super User: Is there a keyboard shortcut to switch between open windows of the same application?",
+  "Super User: How do I completely wipe a hard drive before selling my laptop?",
+  "Super User: I accidentally deleted a partition using Disk Management, is there any way to recover the data?",
+  "Super User: Why does my monitor keep going black for a second and then coming back on?"
+ ],
+ "90": [
+  "\u00bfC\u00f3mo puedo centrar un div horizontalmente usando CSS?",
+  "Error al intentar conectar con la base de datos MySQL en Python.",
+  "\u00bfCu\u00e1l es la diferencia entre == y === en JavaScript?",
+  "Necesito ayuda para instalar Node.js en Ubuntu 20.04.",
+  "\u00bfC\u00f3mo recorro un array de objetos en Java?"
+ ],
+ "85": [
+  "site:Sports\tHow is the offside rule applied during a corner kick?",
+  "site:Sports\tWhat is the correct string tension for a beginner tennis racket?",
+  "site:Sports\tDoes a basketball travel violation count if the player hasn't dribbled yet?",
+  "site:Sports\tIs it legal to use a baseball bat with a corked center in professional leagues?",
+  "site:Sports\tWhat is the proper form for a marathon runner's foot strike?"
+ ],
+ "36": [
+  "Why do we pray five times a day specifically?",
+  "Is it permissible to eat meat slaughtered by People of the Book?",
+  "What are the conditions for a valid wudu according to the Hanafi school?",
+  "Can a woman lead other women in prayer?",
+  "What is the significance of Laylatul Qadr during Ramadan?"
+ ],
+ "97": [
+  "How can I configure Tor Browser to use a specific exit node for my connection?",
+  "Is it safe to run a Tor relay and a hidden service on the same machine?",
+  "What are the risks of logging into my personal accounts while using the Tor network?",
+  "Why does my connection constantly fail at the 'Loading relay descriptors' stage?",
+  "Can I use the Tails operating system to access Tor on a public library computer?"
+ ],
+ "98": [
+  "Can I enter the UK with a Schengen visa?\tTravel",
+  "What is the best way to get from JFK airport to Manhattan?\tTravel",
+  "Do I need a transit visa for a layover in Dubai?\tTravel",
+  "How much cash in USD can I bring into the European Union?\tTravel",
+  "Is it safe to drink tap water in Mexico City?\tTravel"
+ ],
+ "46": [
+  "How can I explain the concept of limits to high school students without using formal epsilon-delta definitions?",
+  "What are some effective real-world examples to help students understand the difference between mean, median, and mode?",
+  "Strategies for dealing with math anxiety in adult learners returning to education after a long break.",
+  "Is it better to teach integration by parts using the LIATE rule or by strictly following the product rule derivation?",
+  "How do I handle a student who consistently argues that \"they will never use algebra in real life\"?"
+ ],
+ "93": [
+  "What are the most cost-effective methods for retrofitting an older home to improve insulation and reduce heating costs?",
+  "How do I properly recycle or dispose of worn-out solar panels that are no longer efficient?",
+  "Is it more environmentally friendly to use a dishwasher by hand or should I wash dishes manually to save water?",
+  "Can I use shredded paper from a standard office shredder as effective compost in my garden?",
+  "What are the pros and cons of installing a greywater recycling system for residential irrigation?"
+ ],
+ "95": [
+  "How do I safely hang a bear bag when there are no suitable trees nearby?",
+  "What is the difference between a three-season and a four-season tent?",
+  "Can I use regular hiking boots for a beginner snowshoeing trip?",
+  "How much water should I carry for a 10-mile day hike in hot weather?",
+  "Is it safe to drink water from a fast-moving stream without filtering?"
+ ],
+ "100": [
+  "What is the difference in usage between \"\u0432\" and \"\u0443\" when indicating location in Ukrainian?",
+  "How do I form the vocative case for names ending in a soft sign like \"\u041e\u043b\u044c\u0433\u0430\"?",
+  "Is there a strict rule for choosing between the imperfective and perfective aspects in the past tense?",
+  "Can someone explain the correct pronunciation of the letter \"\u0433\" compared to the English \"h\" or \"g\"?",
+  "Are the prepositions \"\u0447\u0435\u0440\u0435\u0437\" and \"\u0441\u043a\u0440\u0456\u0437\u044c\" interchangeable when expressing the meaning \"through\"?"
+ ],
+ "99": [
+  "site:Tridion\tHow do I configure the Content Deployer to connect to a remote database?",
+  "site:Tridion\tWhat is the difference between a Component Template and a Page Template?",
+  "site:Tridion\tWhy is my publishing queue stuck in the \"Waiting for Publish\" state?",
+  "site:Tridion\tCan I use Dreamweaver templates within the Tridion UI?",
+  "site:Tridion\tHow to resolve a \"Target Type not found\" error during deployment?"
+ ],
+ "102": [
+  "What is the best budget green screen setup for a small home studio?",
+  "How do I properly light a scene for a high contrast noir look?",
+  "DaVinci Resolve keeps crashing when I add Fusion effects, any fixes?",
+  "Should I buy a shotgun mic or a lavalier for outdoor interviews?",
+  "What are the correct export settings for Instagram Reels to avoid compression artifacts?"
+ ],
+ "101": [
+  "How can I design a form that minimizes user frustration on mobile devices?",
+  "What are the best practices for conducting remote usability testing during a pandemic?",
+  "Is a hamburger menu still an effective navigation pattern for modern web applications?",
+  "At what point does a dark mode UI actually cause more eye strain than a light theme?",
+  "How do I convince stakeholders to invest more resources into accessibility research?"
+ ],
+ "94": [
+  "site: TeX - LaTeX | title: How to center a figure inside a float environment?",
+  "site: TeX - LaTeX | title: BibTeX isn't sorting my citations alphabetically.",
+  "site: TeX - LaTeX | title: Changing the font size of footnotes in Beamer presentations.",
+  "site: TeX - LaTeX | title: What is the difference between \\newline and \\linebreak?",
+  "site: TeX - LaTeX | title: Missing $ inserted error when using underscores in text mode."
+ ],
+ "104": [
+  "webapps: How can I download all my photos from Google Photos to an external hard drive?",
+  "webapps: Is there a way to merge duplicate contacts in Google Contacts automatically?",
+  "webapps: Why do my sent emails in Gmail appear in my inbox as well?",
+  "webapps: Can I recover a deleted Google Sheet that is no longer in the trash folder?",
+  "webapps: How do I block a specific user from viewing my public Twitter profile?"
+ ],
+ "103": [
+  "site:Vi and Vim | How do I exit the Vim editor without saving my changes?",
+  "site:Vi and Vim | What is the difference between the dot (.) command and the @: command?",
+  "site:Vi and Vim | How can I indent multiple lines quickly in normal mode?",
+  "site:Vi and Vim | Is there a way to search and replace across all open buffers?",
+  "site:Vi and Vim | My backspace key is not working in insert mode, how do I fix it?"
+ ],
+ "96": [
+  "How do I professionally handle a coworker who constantly takes credit for my ideas during team meetings?",
+  "Is it considered unprofessional to refuse a promotion that comes with significantly more responsibility but no pay raise?",
+  "My boss wants me to come into the office on weekends for \"team building,\" can I legally say no?",
+  "What is the best way to explain a six-month employment gap on my resume due to personal health reasons?",
+  "I accidentally hit \"reply all\" on a confidential email to the whole department, how can I recover from this mistake?"
+ ],
+ "105": [
+  "How do I set up a 301 redirect from www to non-www using .htaccess files?",
+  "Why is Google Search Console showing a sudden drop in indexed pages?",
+  "What are the best DNS practices for improving site speed and reliability?",
+  "Can I host multiple websites on a single Apache server with virtual hosts?",
+  "Is it better to buy a domain name through a registrar or my hosting provider?"
+ ],
+ "106": [
+  "How do I transfer contacts from an Android phone to a Windows Phone?",
+  "My Lumia 1020 camera button is stuck and won't focus, any fixes?",
+  "Is it possible to install Google Maps on Windows Phone 8.1?",
+  "Why does my phone keep disconnecting from Wi-Fi when the screen locks?",
+  "How can I update my Lumia 950 to the latest Windows 10 Mobile build?"
+ ],
+ "107": [
+  "How would the gravitational pull of two suns affect the tides on a planet with three moons?",
+  "What is a realistic biological explanation for a species that has four arms but only two legs?",
+  "Can a medieval society develop gunpowder without discovering the wheel?",
+  "What economic system would best suit a civilization that communicates solely through telepathy?",
+  "How do I justify a dense asteroid field that poses a significant navigation hazard to starships?"
+ ],
+ "108": [
+  "How do I effectively convey a character's internal monologue without disrupting the flow of the narrative?",
+  "Is it considered poor form to use sentence fragments for dramatic effect in a third-person limited point of view?",
+  "What are the standard industry guidelines for formatting a manuscript before submitting it to a literary agent?",
+  "I am struggling to write believable dialogue for a child character; how can I make it sound authentic?",
+  "Does anyone have tips for overcoming writer's block when you are stuck in the middle of the second act?"
+ ]
+}

@@ -1,0 +1,21 @@
+```json
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person: Role or Status",
+      "definition": "Describes a person's designated function, occupation, or social/familial relationship."
+    },
+    {
+      "id": 2,
+      "name": "Action or Activity",
+      "definition": "Describes a specific verb, a gerund, or an ongoing process performed by an agent."
+    },
+    {
+      "id": 3,
+      "name": "Event or Condition",
+      "definition": "Describes a specific occurrence, a state of being, a tangible outcome, or an entity that is the focus of the event."
+    }
+  ]
+}
+```

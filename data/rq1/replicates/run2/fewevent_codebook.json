@@ -1,0 +1,47 @@
+{
+  "bench": "fewevent",
+  "run": 2,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Human Roles & Titles",
+      "definition": "Denotes a specific position, occupation, or formal title held by an individual, or a general status."
+    },
+    {
+      "id": 2,
+      "name": "Actions & Events",
+      "definition": "Describes a specific activity, occurrence, process, or a change of state, excluding creative or intellectual endeavors."
+    },
+    {
+      "id": 3,
+      "name": "Awards & Achievements",
+      "definition": "Recognition for success, performance, or a significant accomplishment."
+    },
+    {
+      "id": 4,
+      "name": "Relationships & Family Status",
+      "definition": "A personal connection, marital status, or familial role, including related events."
+    },
+    {
+      "id": 5,
+      "name": "Institutions & Organizations",
+      "definition": "A formal body, established group, or educational facility."
+    },
+    {
+      "id": 6,
+      "name": "Creative Works & Intellectual Endeavors",
+      "definition": "A tangible or intangible product of creative or intellectual effort, or the process of creating or developing such."
+    },
+    {
+      "id": 7,
+      "name": "Locations & Facilities",
+      "definition": "A physical place, structure, or designated area."
+    },
+    {
+      "id": 8,
+      "name": "Authority & Responsibility",
+      "definition": "The power to give orders, make decisions, or the state of being accountable for something."
+    }
+  ]
+}

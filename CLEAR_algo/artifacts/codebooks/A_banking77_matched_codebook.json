@@ -1,0 +1,92 @@
+[
+ {
+  "id": 1,
+  "name": "Card Delivery and Replacement",
+  "definition": "Queries about the delivery status, replacement, or ordering of physical or virtual cards."
+ },
+ {
+  "id": 2,
+  "name": "Card Activation and Deactivation",
+  "definition": "Requests for assistance with activating or deactivating cards."
+ },
+ {
+  "id": 3,
+  "name": "Card Usage and Acceptance",
+  "definition": "Questions about where and how cards can be used, including contactless payments and ATM usage."
+ },
+ {
+  "id": 4,
+  "name": "Card Declines and Issues",
+  "definition": "Inquiries about why a card was declined or issues with card transactions."
+ },
+ {
+  "id": 5,
+  "name": "Lost or Stolen Cards",
+  "definition": "Reports of lost or stolen cards and requests for account freezing."
+ },
+ {
+  "id": 6,
+  "name": "Unauthorized Transactions",
+  "definition": "Concerns about transactions that were not authorized by the account holder."
+ },
+ {
+  "id": 7,
+  "name": "Top-Up Issues",
+  "definition": "Problems related to topping up accounts, including failed or pending top-ups."
+ },
+ {
+  "id": 8,
+  "name": "Transfers and Payments",
+  "definition": "Issues and questions about money transfers, including delays, fees, and cancellations."
+ },
+ {
+  "id": 9,
+  "name": "Identity Verification",
+  "definition": "Questions and issues related to verifying identity for account access or transactions."
+ },
+ {
+  "id": 10,
+  "name": "Account Closure",
+  "definition": "Requests to close or delete accounts."
+ },
+ {
+  "id": 11,
+  "name": "Currency Exchange",
+  "definition": "Inquiries about currency exchange rates and options."
+ },
+ {
+  "id": 12,
+  "name": "Fees and Charges",
+  "definition": "Questions about fees or charges applied to transactions or accounts."
+ },
+ {
+  "id": 13,
+  "name": "Refunds and Reversals",
+  "definition": "Requests for refunds or reversals of transactions."
+ },
+ {
+  "id": 14,
+  "name": "Account Details Update",
+  "definition": "Requests to update personal or account details."
+ },
+ {
+  "id": 15,
+  "name": "Security and Fraud",
+  "definition": "Concerns about account security or potential fraud."
+ },
+ {
+  "id": 16,
+  "name": "PIN and Passcode Issues",
+  "definition": "Requests for assistance with PIN or passcode issues, including resets and unblocking."
+ },
+ {
+  "id": 17,
+  "name": "App and Online Access",
+  "definition": "Issues related to accessing the app or online account."
+ },
+ {
+  "id": 18,
+  "name": "Miscellaneous",
+  "definition": "Queries that do not fit into other categories."
+ }
+]

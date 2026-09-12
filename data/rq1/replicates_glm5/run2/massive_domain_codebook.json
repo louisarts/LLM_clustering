@@ -1,0 +1,109 @@
+{
+  "bench": "massive_domain",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music & Audio",
+      "definition": "Requests to play, pause, resume, or identify specific songs, playlists, radio stations, podcasts, or adjust audio volume."
+    },
+    {
+      "id": 2,
+      "name": "Weather",
+      "definition": "Queries regarding current conditions, forecasts, temperature, or precipitation for specific locations and times."
+    },
+    {
+      "id": 3,
+      "name": "Calendar & Scheduling",
+      "definition": "Interactions to create, view, modify, or cancel events, meetings, and reminders, or check the schedule for a specific date."
+    },
+    {
+      "id": 4,
+      "name": "Email",
+      "definition": "Actions to compose, send, read, reply to, search for, or check for new emails."
+    },
+    {
+      "id": 5,
+      "name": "General Information & FAQ",
+      "definition": "Questions seeking facts, definitions, trivia, explanations, or general knowledge about the world."
+    },
+    {
+      "id": 6,
+      "name": "Time & Date",
+      "definition": "Queries asking for the current time, date, day of the week, or time zone conversions."
+    },
+    {
+      "id": 7,
+      "name": "Smart Home & IoT",
+      "definition": "Commands to control smart home devices including lights, plugs, switches, coffee machines, and robot vacuums."
+    },
+    {
+      "id": 8,
+      "name": "News",
+      "definition": "Requests for current news headlines, updates on specific topics, or articles from specific sources."
+    },
+    {
+      "id": 9,
+      "name": "Alarms & Timers",
+      "definition": "Requests to set, cancel, modify, or check specific alarms or timer settings."
+    },
+    {
+      "id": 10,
+      "name": "Navigation & Transport",
+      "definition": "Requests for directions, traffic conditions, or booking transportation services like taxis, trains, or rideshares."
+    },
+    {
+      "id": 11,
+      "name": "Lists & Notes",
+      "definition": "Management of shopping lists, to-do lists, or notes, including adding, removing, or viewing items."
+    },
+    {
+      "id": 12,
+      "name": "Food & Cooking",
+      "definition": "Requests for recipes, cooking instructions, food preparation, or menu planning."
+    },
+    {
+      "id": 13,
+      "name": "Social Media",
+      "definition": "Interactions with social media platforms to post content, check notifications, or view activity."
+    },
+    {
+      "id": 14,
+      "name": "Finance & Currency",
+      "definition": "Queries regarding stock prices, currency exchange rates, or financial conversions."
+    },
+    {
+      "id": 15,
+      "name": "Sports",
+      "definition": "Requests for sports scores, match highlights, or game schedules."
+    },
+    {
+      "id": 16,
+      "name": "App Control",
+      "definition": "Commands to open, launch, or start specific software applications or games."
+    },
+    {
+      "id": 17,
+      "name": "Movies & Entertainment",
+      "definition": "Queries about movies, cinema showtimes, or general entertainment recommendations."
+    },
+    {
+      "id": 18,
+      "name": "Local Businesses & Places",
+      "definition": "Queries to locate nearby shops, restaurants, services, or find information about local businesses."
+    },
+    {
+      "id": 19,
+      "name": "Customer Service",
+      "definition": "Requests to file complaints, contact customer support, or provide feedback to companies."
+    },
+    {
+      "id": 20,
+      "name": "Small Talk & Personal",
+      "definition": "Casual conversation, greetings, personal questions directed at the assistant, or jokes."
+    }
+  ]
+}

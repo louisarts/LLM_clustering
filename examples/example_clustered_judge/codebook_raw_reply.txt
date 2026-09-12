@@ -1,0 +1,46 @@
+```json
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Add to Collection or Playlist",
+      "definition": "User wants to add a track, album, artist, or other content to a personal collection or playlist."
+    },
+    {
+      "id": 2,
+      "name": "Rate Item",
+      "definition": "User wants to assign a rating or score to an item."
+    },
+    {
+      "id": 3,
+      "name": "Play Media",
+      "definition": "User wants to play music, a playlist, or other audio/visual content."
+    },
+    {
+      "id": 4,
+      "name": "Book Reservation",
+      "definition": "User wants to book a table, room, or other reservation at a venue."
+    },
+    {
+      "id": 5,
+      "name": "Find Media Content",
+      "definition": "User wants to locate a specific movie, show, book, soundtrack, or picture."
+    },
+    {
+      "id": 6,
+      "name": "Get Weather Information",
+      "definition": "User wants to know the weather forecast or current conditions."
+    },
+    {
+      "id": 7,
+      "name": "Find Venue or Event",
+      "definition": "User wants to locate a specific type of venue or an event."
+    },
+    {
+      "id": 8,
+      "name": "Get Item Information",
+      "definition": "User wants to find specific details about an item."
+    }
+  ]
+}
+```

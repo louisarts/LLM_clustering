@@ -1,0 +1,155 @@
+{
+  "bench": "tweet89",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl",
+      "definition": "Tweets related to the Super Bowl event, commercials, or halftime show."
+    },
+    {
+      "id": 2,
+      "name": "Christina Aguilera National Anthem",
+      "definition": "Tweets specifically mentioning Christina Aguilera's performance of the National Anthem at the Super Bowl."
+    },
+    {
+      "id": 3,
+      "name": "Legal News",
+      "definition": "Tweets related to legal news, court rulings, or laws."
+    },
+    {
+      "id": 4,
+      "name": "Immigration",
+      "definition": "Tweets related to immigration laws, policies, or issues."
+    },
+    {
+      "id": 5,
+      "name": "Celebrity News",
+      "definition": "Tweets related to celebrities, their activities, or events."
+    },
+    {
+      "id": 6,
+      "name": "Egypt Protests",
+      "definition": "Tweets related to protests, violence, or political events in Egypt."
+    },
+    {
+      "id": 7,
+      "name": "Healthcare Reform",
+      "definition": "Tweets related to healthcare reform laws, rulings, or debates."
+    },
+    {
+      "id": 8,
+      "name": "Academy Awards",
+      "definition": "Tweets related to the Academy Awards, nominees, winners, or predictions."
+    },
+    {
+      "id": 9,
+      "name": "Fishing",
+      "definition": "Tweets related to fishing, fishing reports, or fishing events."
+    },
+    {
+      "id": 10,
+      "name": "Debt Consolidation",
+      "definition": "Tweets related to debt consolidation, financial advice, or debt settlement."
+    },
+    {
+      "id": 11,
+      "name": "Yemen Protests",
+      "definition": "Tweets related to protests, political events, or news in Yemen."
+    },
+    {
+      "id": 12,
+      "name": "Privacy Settings",
+      "definition": "Tweets related to privacy settings on social media platforms."
+    },
+    {
+      "id": 13,
+      "name": "Taco Bell Lawsuit",
+      "definition": "Tweets related to the lawsuit against Taco Bell regarding beef content."
+    },
+    {
+      "id": 14,
+      "name": "Weight Loss Products",
+      "definition": "Tweets related to weight loss products, diets, or supplements."
+    },
+    {
+      "id": 15,
+      "name": "Charlie Sheen",
+      "definition": "Tweets related to Charlie Sheen, his health, or personal issues."
+    },
+    {
+      "id": 16,
+      "name": "Social Media",
+      "definition": "Tweets related to social media platforms, trends, or techniques."
+    },
+    {
+      "id": 17,
+      "name": "Iran Sanctions",
+      "definition": "Tweets related to sanctions against Iran or nuclear programs."
+    },
+    {
+      "id": 18,
+      "name": "College Scholarships",
+      "definition": "Tweets related to scholarships, applications, or opportunities for students."
+    },
+    {
+      "id": 19,
+      "name": "Bullying Prevention",
+      "definition": "Tweets related to bullying prevention tips, events, or awareness campaigns."
+    },
+    {
+      "id": 20,
+      "name": "Acai Berry Diet",
+      "definition": "Tweets related to the Acai Berry diet, pills, or weight loss benefits."
+    },
+    {
+      "id": 21,
+      "name": "Volkswagen Commercial",
+      "definition": "Tweets specifically mentioning Volkswagen commercials or ads."
+    },
+    {
+      "id": 22,
+      "name": "Doritos Commercial",
+      "definition": "Tweets specifically mentioning Doritos commercials or ads."
+    },
+    {
+      "id": 23,
+      "name": "Nobel War Prize",
+      "definition": "Tweets related to the Nobel War Prize, WikiLeaks, or Julian Assange."
+    },
+    {
+      "id": 24,
+      "name": "Fly Fishing",
+      "definition": "Tweets related to fly fishing, tips, techniques, or events."
+    },
+    {
+      "id": 25,
+      "name": "Giffords Health",
+      "definition": "Tweets related to Gabrielle Giffords' health condition or updates."
+    },
+    {
+      "id": 26,
+      "name": "Best Picture Oscar",
+      "definition": "Tweets related to the Best Picture category at the Oscars."
+    },
+    {
+      "id": 27,
+      "name": "TSA Body Scanners",
+      "definition": "Tweets related to TSA body scanners, privacy concerns, or security issues."
+    },
+    {
+      "id": 28,
+      "name": "Australia Swimming",
+      "definition": "Tweets related to Ian Thorpe's comeback to international swimming."
+    },
+    {
+      "id": 29,
+      "name": "Best Buy Stock",
+      "definition": "Tweets related to Best Buy stock, Verizon iPhone launch, or retail news."
+    }
+  ]
+}

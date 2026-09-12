@@ -1,0 +1,62 @@
+{
+  "bench": "mtop_domain",
+  "run": 6,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Providing current, past, or future weather conditions and forecasts for specific locations or times."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Setting, managing, or querying notifications for tasks, events, or specific information at a later time."
+    },
+    {
+      "id": 3,
+      "name": "Alarms",
+      "definition": "Setting, managing, or querying time-based alerts, including recurring wake-up calls or scheduled notifications."
+    },
+    {
+      "id": 4,
+      "name": "Timers",
+      "definition": "Setting, managing, or querying countdowns or elapsed time for specific durations or activities."
+    },
+    {
+      "id": 5,
+      "name": "Communication",
+      "definition": "Initiating, managing, or sending messages, calls, or video calls to contacts or groups."
+    },
+    {
+      "id": 6,
+      "name": "News",
+      "definition": "Retrieving current events, headlines, or detailed information on specific news topics or categories."
+    },
+    {
+      "id": 7,
+      "name": "Music Playback",
+      "definition": "Controlling, selecting, or querying information about audio content, including songs, artists, or playlists."
+    },
+    {
+      "id": 8,
+      "name": "Recipes and Cooking",
+      "definition": "Providing instructions, ingredients, or information related to food preparation and cooking."
+    },
+    {
+      "id": 9,
+      "name": "General Knowledge",
+      "definition": "Answering factual questions or providing information on a wide range of topics."
+    },
+    {
+      "id": 10,
+      "name": "Events and Local Search",
+      "definition": "Discovering or querying information about local activities, happenings, or points of interest."
+    },
+    {
+      "id": 11,
+      "name": "Social Network and Contact Information",
+      "definition": "Querying information about contacts, their status, or social network connections."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "massive_domain",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Diet and Health",
+      "definition": "Utterances related to diet planning, health advice, and fitness."
+    },
+    {
+      "id": 2,
+      "name": "Email Management",
+      "definition": "Utterances involving sending, receiving, or managing emails."
+    },
+    {
+      "id": 3,
+      "name": "Entertainment",
+      "definition": "Utterances related to movies, music, and other forms of entertainment."
+    },
+    {
+      "id": 4,
+      "name": "Travel and Transportation",
+      "definition": "Utterances concerning travel arrangements, transportation, and directions."
+    },
+    {
+      "id": 5,
+      "name": "Weather",
+      "definition": "Utterances asking for or providing weather information."
+    },
+    {
+      "id": 6,
+      "name": "News and Current Events",
+      "definition": "Utterances related to news updates and current events."
+    },
+    {
+      "id": 7,
+      "name": "Reminders and Alarms",
+      "definition": "Utterances for setting, modifying, or deleting reminders and alarms."
+    },
+    {
+      "id": 8,
+      "name": "Calendar Management",
+      "definition": "Utterances involving scheduling, viewing, or managing calendar events."
+    },
+    {
+      "id": 9,
+      "name": "Definitions and Explanations",
+      "definition": "Utterances requesting definitions or explanations of terms and concepts."
+    },
+    {
+      "id": 10,
+      "name": "Recipes and Cooking",
+      "definition": "Utterances related to cooking instructions and recipe inquiries."
+    },
+    {
+      "id": 11,
+      "name": "Social Media Management",
+      "definition": "Utterances involving posting, updating, or managing social media content."
+    },
+    {
+      "id": 12,
+      "name": "Shopping and Lists",
+      "definition": "Utterances related to creating, modifying, or checking shopping lists."
+    },
+    {
+      "id": 13,
+      "name": "Home Automation",
+      "definition": "Utterances for controlling smart home devices and settings."
+    },
+    {
+      "id": 14,
+      "name": "Traffic and Navigation",
+      "definition": "Utterances related to traffic conditions and navigation assistance."
+    },
+    {
+      "id": 15,
+      "name": "Personal Assistance",
+      "definition": "Utterances requesting personal assistance or advice."
+    },
+    {
+      "id": 16,
+      "name": "Music Playback",
+      "definition": "Utterances for playing, pausing, or managing music playback."
+    },
+    {
+      "id": 17,
+      "name": "Podcasts",
+      "definition": "Utterances related to finding, playing, or managing podcasts."
+    },
+    {
+      "id": 18,
+      "name": "General Knowledge",
+      "definition": "Utterances requesting factual information or general knowledge."
+    },
+    {
+      "id": 19,
+      "name": "Complaints and Customer Service",
+      "definition": "Utterances related to filing complaints or contacting customer service."
+    },
+    {
+      "id": 20,
+      "name": "Events and Activities",
+      "definition": "Utterances related to local events, activities, and social gatherings."
+    }
+  ]
+}

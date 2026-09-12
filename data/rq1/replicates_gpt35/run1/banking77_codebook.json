@@ -1,0 +1,110 @@
+{
+  "bench": "banking77",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "fresh",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Closure",
+      "definition": "Queries related to closing or deleting the account."
+    },
+    {
+      "id": 2,
+      "name": "Card Issues",
+      "definition": "Issues related to physical or virtual card problems."
+    },
+    {
+      "id": 3,
+      "name": "Transaction Disputes",
+      "definition": "Disputes related to transactions, charges, or refunds."
+    },
+    {
+      "id": 4,
+      "name": "PIN Management",
+      "definition": "Queries related to changing, resetting, or managing PIN."
+    },
+    {
+      "id": 5,
+      "name": "Transfer Issues",
+      "definition": "Issues related to transferring funds or payments."
+    },
+    {
+      "id": 6,
+      "name": "Identity Verification",
+      "definition": "Queries related to verifying identity for security purposes."
+    },
+    {
+      "id": 7,
+      "name": "Top-Up Problems",
+      "definition": "Issues related to topping up the account or card."
+    },
+    {
+      "id": 8,
+      "name": "Card Activation",
+      "definition": "Queries related to activating new or replacement cards."
+    },
+    {
+      "id": 9,
+      "name": "ATM Troubleshooting",
+      "definition": "Issues related to ATM transactions or card retention."
+    },
+    {
+      "id": 10,
+      "name": "Currency Exchange",
+      "definition": "Queries related to foreign currency exchange rates or fees."
+    },
+    {
+      "id": 11,
+      "name": "Delivery Inquiries",
+      "definition": "Queries related to card delivery times or locations."
+    },
+    {
+      "id": 12,
+      "name": "Payment Declines",
+      "definition": "Queries related to declined card payments or transactions."
+    },
+    {
+      "id": 13,
+      "name": "Lost or Stolen Card",
+      "definition": "Queries related to lost, stolen, or misplaced cards."
+    },
+    {
+      "id": 14,
+      "name": "Refund Assistance",
+      "definition": "Assistance with refunds for transactions or charges."
+    },
+    {
+      "id": 15,
+      "name": "Account Security",
+      "definition": "Queries related to account security, disputes, or fraud."
+    },
+    {
+      "id": 16,
+      "name": "Card Limit Inquiries",
+      "definition": "Queries related to limits on card usage or transactions."
+    },
+    {
+      "id": 17,
+      "name": "International Use",
+      "definition": "Queries related to using cards or accounts internationally."
+    },
+    {
+      "id": 18,
+      "name": "Account Verification",
+      "definition": "Queries related to verifying account details or transactions."
+    },
+    {
+      "id": 19,
+      "name": "Auto Top-Up",
+      "definition": "Queries related to automatic top-up features or settings."
+    },
+    {
+      "id": 20,
+      "name": "Card Fees",
+      "definition": "Queries related to card fees, charges, or additional costs."
+    }
+  ]
+}

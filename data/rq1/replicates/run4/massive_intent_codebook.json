@@ -1,0 +1,87 @@
+{
+  "bench": "massive_intent",
+  "run": 4,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Query General Information",
+      "definition": "Asking for facts, definitions, calculations, advice, or general knowledge."
+    },
+    {
+      "id": 2,
+      "name": "Query Current Status",
+      "definition": "Asking for dynamic, time-sensitive, or personalized information such as time, date, weather, personal schedule, or account status."
+    },
+    {
+      "id": 3,
+      "name": "Query News",
+      "definition": "Requesting current news headlines, articles, or updates on specific topics."
+    },
+    {
+      "id": 4,
+      "name": "Control Smart Device",
+      "definition": "Activating, deactivating, or adjusting settings of smart home devices, appliances, or system settings like volume or screen brightness."
+    },
+    {
+      "id": 5,
+      "name": "Manage Calendar/Reminders/Alarms",
+      "definition": "Creating, modifying, deleting, or viewing calendar events, reminders, or alarms."
+    },
+    {
+      "id": 6,
+      "name": "Manage Lists",
+      "definition": "Creating, adding items to, removing items from, or deleting shopping lists, to-do lists, or other personal lists."
+    },
+    {
+      "id": 7,
+      "name": "Communicate",
+      "definition": "Sending emails, making calls, or posting on social media."
+    },
+    {
+      "id": 8,
+      "name": "Manage Contacts",
+      "definition": "Adding, editing, or querying contact information."
+    },
+    {
+      "id": 9,
+      "name": "Play Media",
+      "definition": "Playing music, podcasts, audiobooks, or videos; controlling playback, or requesting media recommendations."
+    },
+    {
+      "id": 10,
+      "name": "Book Travel/Order Ride",
+      "definition": "Booking tickets for travel or requesting a ride service."
+    },
+    {
+      "id": 11,
+      "name": "Play Game",
+      "definition": "Initiating or playing a game."
+    },
+    {
+      "id": 12,
+      "name": "Find Recipe/Cooking Instructions",
+      "definition": "Requesting recipes or instructions for cooking."
+    },
+    {
+      "id": 13,
+      "name": "Open Application/File",
+      "definition": "Opening a specific application, folder, or file."
+    },
+    {
+      "id": 14,
+      "name": "Navigation",
+      "definition": "Requesting directions, finding points of interest, or querying location-based information."
+    },
+    {
+      "id": 15,
+      "name": "Order Food/Services",
+      "definition": "Ordering food, drinks, or other specific services, or querying service availability."
+    },
+    {
+      "id": 16,
+      "name": "Conversational/Miscellaneous",
+      "definition": "Utterances that are greetings, expressions, statements, or too vague to categorize as a specific command."
+    }
+  ]
+}

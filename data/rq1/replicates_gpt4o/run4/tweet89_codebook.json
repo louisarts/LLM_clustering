@@ -1,0 +1,185 @@
+{
+  "bench": "tweet89",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Governor Cuomo's Budget Proposal",
+      "definition": "Tweets about Governor Cuomo's budget proposal and its implications."
+    },
+    {
+      "id": 2,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets discussing various commercials aired during the Super Bowl."
+    },
+    {
+      "id": 3,
+      "name": "Oscar Nominations and Awards",
+      "definition": "Tweets about Oscar nominations and awards, including specific films and actors."
+    },
+    {
+      "id": 4,
+      "name": "Journalists in Egypt",
+      "definition": "Tweets about journalists being attacked or detained in Egypt."
+    },
+    {
+      "id": 5,
+      "name": "Rahm Emanuel Ballot Issue",
+      "definition": "Tweets about the legal issues surrounding Rahm Emanuel's eligibility for the ballot."
+    },
+    {
+      "id": 6,
+      "name": "Michelle Obama's Initiatives",
+      "definition": "Tweets about Michelle Obama's initiatives, including visits and campaigns."
+    },
+    {
+      "id": 7,
+      "name": "Michael Steele Resignation",
+      "definition": "Tweets about Michael Steele resigning from the RNC."
+    },
+    {
+      "id": 8,
+      "name": "Christina Aguilera National Anthem Flub",
+      "definition": "Tweets about Christina Aguilera's mistake during the national anthem at the Super Bowl."
+    },
+    {
+      "id": 9,
+      "name": "Texting and Driving",
+      "definition": "Tweets about the dangers and campaigns against texting while driving."
+    },
+    {
+      "id": 10,
+      "name": "TSA and Body Scanners",
+      "definition": "Tweets about TSA policies and the use of body scanners."
+    },
+    {
+      "id": 11,
+      "name": "Venezuela and Hugo Chavez",
+      "definition": "Tweets about political events and elections in Venezuela involving Hugo Chavez."
+    },
+    {
+      "id": 12,
+      "name": "Facebook Privacy Settings",
+      "definition": "Tweets discussing privacy settings and issues on Facebook."
+    },
+    {
+      "id": 13,
+      "name": "Moscow Airport Bombing",
+      "definition": "Tweets about the bombing at Moscow's Domodedovo Airport."
+    },
+    {
+      "id": 14,
+      "name": "Yemen Protests",
+      "definition": "Tweets about protests and political unrest in Yemen."
+    },
+    {
+      "id": 15,
+      "name": "Tea Party and Political Caucuses",
+      "definition": "Tweets about the Tea Party and political caucuses."
+    },
+    {
+      "id": 16,
+      "name": "Smartphone Market",
+      "definition": "Tweets about the growth and competition in the smartphone market."
+    },
+    {
+      "id": 17,
+      "name": "Supreme Court Cases",
+      "definition": "Tweets about various Supreme Court cases and decisions."
+    },
+    {
+      "id": 18,
+      "name": "Fishing Reports and Tips",
+      "definition": "Tweets about fishing conditions, tips, and reports."
+    },
+    {
+      "id": 19,
+      "name": "Taco Bell Meat Lawsuit",
+      "definition": "Tweets about the lawsuit claiming Taco Bell's meat is not as advertised."
+    },
+    {
+      "id": 20,
+      "name": "Health Care Reform Law",
+      "definition": "Tweets about legal challenges and rulings on the health care reform law."
+    },
+    {
+      "id": 21,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Tweets about the recovery and rehabilitation of Rep. Gabrielle Giffords."
+    },
+    {
+      "id": 22,
+      "name": "Australian Open",
+      "definition": "Tweets about the Australian Open tennis tournament."
+    },
+    {
+      "id": 23,
+      "name": "Egyptian Museum and Antiquities",
+      "definition": "Tweets about the protection and damage of antiquities in Egypt."
+    },
+    {
+      "id": 24,
+      "name": "Acai Berry and Health",
+      "definition": "Tweets about the health benefits and diet plans involving acai berries."
+    },
+    {
+      "id": 25,
+      "name": "Identity Theft",
+      "definition": "Tweets about identity theft and prevention tips."
+    },
+    {
+      "id": 26,
+      "name": "Chipotle and Immigration",
+      "definition": "Tweets about Chipotle's involvement in immigration issues."
+    },
+    {
+      "id": 27,
+      "name": "Cyclone Yasi",
+      "definition": "Tweets about Cyclone Yasi and its impact."
+    },
+    {
+      "id": 28,
+      "name": "Donald Rumsfeld Memoir",
+      "definition": "Tweets about Donald Rumsfeld's memoir and reflections."
+    },
+    {
+      "id": 29,
+      "name": "Starbucks Trenta Cup",
+      "definition": "Tweets about the introduction and implications of Starbucks' Trenta cup."
+    },
+    {
+      "id": 30,
+      "name": "Egyptian Protests",
+      "definition": "Tweets about the protests and political situation in Egypt."
+    },
+    {
+      "id": 31,
+      "name": "Super Bowl Performances",
+      "definition": "Tweets about performances during the Super Bowl, excluding commercials."
+    },
+    {
+      "id": 32,
+      "name": "Debt and Financial Aid",
+      "definition": "Tweets about debt consolidation and financial aid for students."
+    },
+    {
+      "id": 33,
+      "name": "Food and Recipes",
+      "definition": "Tweets sharing recipes and discussing food."
+    },
+    {
+      "id": 34,
+      "name": "Social Media and Politics",
+      "definition": "Tweets about the role of social media in political campaigns and movements."
+    },
+    {
+      "id": 35,
+      "name": "Miscellaneous",
+      "definition": "Tweets that do not fit into any other specific category."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "bench": "banking77",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Stolen or Lost",
+      "definition": "Reporting a card as lost, stolen, or stuck in an ATM, or requesting to block or freeze the card to prevent unauthorized use."
+    },
+    {
+      "id": 2,
+      "name": "Card Ordering and Delivery",
+      "definition": "Requests to order a new physical or virtual card, inquiries about card delivery status, or questions about card types and eligibility."
+    },
+    {
+      "id": 3,
+      "name": "Card Activation and Settings",
+      "definition": "Issues or inquiries regarding card activation, PIN management, contactless payments, or linking a card to the account."
+    },
+    {
+      "id": 4,
+      "name": "Card Functionality and Declines",
+      "definition": "Reports of a card not working, being declined, or general inquiries about card usage and acceptance locations."
+    },
+    {
+      "id": 5,
+      "name": "Card Fees and Limits",
+      "definition": "Questions or disputes regarding fees charged for card usage, ATM withdrawals, or inquiries about card transaction limits."
+    },
+    {
+      "id": 6,
+      "name": "Unauthorized Transactions",
+      "definition": "Reporting unrecognized, fraudulent, or duplicate transactions on the account, or disputing charges made by others."
+    },
+    {
+      "id": 7,
+      "name": "Transfer Issues",
+      "definition": "Problems with transfers failing, being declined, or pending for too long, including issues where the recipient has not received the funds."
+    },
+    {
+      "id": 8,
+      "name": "Transfer General Inquiry",
+      "definition": "General questions about how to make transfers, transfer methods, processing times, and transfer fees."
+    },
+    {
+      "id": 9,
+      "name": "Top-up Issues",
+      "definition": "Reports of failed, pending, or reverted top-ups, or issues with specific top-up methods like Apple Pay or Google Pay."
+    },
+    {
+      "id": 10,
+      "name": "Top-up General Inquiry",
+      "definition": "General questions about top-up methods, limits, fees, and verification requirements."
+    },
+    {
+      "id": 11,
+      "name": "Cash Withdrawal Issues",
+      "definition": "Problems experienced at ATMs, including cash not being dispensed, incorrect amounts, or cards being trapped."
+    },
+    {
+      "id": 12,
+      "name": "Refund Issues",
+      "definition": "Inquiries about the status of expected refunds from merchants or reporting missing refunds."
+    },
+    {
+      "id": 13,
+      "name": "Exchange Rates",
+      "definition": "Questions about current exchange rates, how rates are calculated, or disputes regarding the rate applied to a transaction."
+    },
+    {
+      "id": 14,
+      "name": "Identity Verification",
+      "definition": "Issues or questions regarding the identity verification process, document requirements, or verification failures."
+    },
+    {
+      "id": 15,
+      "name": "Account Management",
+      "definition": "Requests to change personal details, close or delete an account, or general inquiries about account eligibility and age requirements."
+    }
+  ]
+}

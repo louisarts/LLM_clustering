@@ -1,0 +1,104 @@
+{
+  "bench": "clinc150_domain",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking & Finance",
+      "definition": "Managing bank accounts, credit cards, transactions, rewards, and financial services."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Scheduling",
+      "definition": "Viewing, creating, or modifying events, meetings, and reminders on a schedule."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "Sending messages, making calls, or sharing location with contacts."
+    },
+    {
+      "id": 4,
+      "name": "Device Settings & Personalization",
+      "definition": "Configuring device hardware, software settings, voice preferences, or identity."
+    },
+    {
+      "id": 5,
+      "name": "Food & Cooking",
+      "definition": "Finding recipes, cooking instructions, ingredient information, or nutritional data."
+    },
+    {
+      "id": 6,
+      "name": "General Knowledge & Trivia",
+      "definition": "Requesting facts, trivia, definitions, translations, or general information."
+    },
+    {
+      "id": 7,
+      "name": "Mathematics",
+      "definition": "Performing arithmetic calculations, conversions, or solving math problems."
+    },
+    {
+      "id": 8,
+      "name": "Media & Entertainment",
+      "definition": "Playing, identifying, or controlling music, audio, and entertainment content."
+    },
+    {
+      "id": 9,
+      "name": "Navigation & Travel Logistics",
+      "definition": "Checking traffic, navigation, time zones, flight status, or travel requirements."
+    },
+    {
+      "id": 10,
+      "name": "Productivity & Organization",
+      "definition": "Managing lists, tasks, notes, and to-do items."
+    },
+    {
+      "id": 11,
+      "name": "Reservations & Dining",
+      "definition": "Booking, canceling, or inquiring about restaurant reservations and wait times."
+    },
+    {
+      "id": 12,
+      "name": "Shopping & Commerce",
+      "definition": "Purchasing items, tracking orders, or finding product reviews and services."
+    },
+    {
+      "id": 13,
+      "name": "Small Talk & Social",
+      "definition": "Engaging in casual conversation, greetings, or questions about the assistant's identity."
+    },
+    {
+      "id": 14,
+      "name": "Smart Home & IoT",
+      "definition": "Controlling smart home devices, appliances, or vehicle maintenance systems."
+    },
+    {
+      "id": 15,
+      "name": "System Commands",
+      "definition": "Directing the assistant to stop, cancel, or confirm an immediate action."
+    },
+    {
+      "id": 16,
+      "name": "Travel & Lodging",
+      "definition": "Booking accommodation or finding activities and places to visit."
+    },
+    {
+      "id": 17,
+      "name": "Utilities & Bills",
+      "definition": "Managing and paying for utility services like electricity."
+    },
+    {
+      "id": 18,
+      "name": "Weather",
+      "definition": "Checking weather forecasts or conditions."
+    },
+    {
+      "id": 19,
+      "name": "Work & HR",
+      "definition": "Checking work benefits, payroll, time off, or human resources details."
+    }
+  ]
+}

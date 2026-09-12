@@ -1,0 +1,60 @@
+{
+  "bench": "massive_intent",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Contact Management",
+      "definition": "Request to manage or retrieve contact information"
+    },
+    {
+      "id": 2,
+      "name": "Calendar Management",
+      "definition": "Request to manage or retrieve calendar events and reminders"
+    },
+    {
+      "id": 3,
+      "name": "Weather Information",
+      "definition": "Request for current or forecasted weather information"
+    },
+    {
+      "id": 4,
+      "name": "Music Playback",
+      "definition": "Request to play or manage music or audio content"
+    },
+    {
+      "id": 5,
+      "name": "Email Management",
+      "definition": "Request to manage or retrieve emails"
+    },
+    {
+      "id": 6,
+      "name": "Alarm and Reminder Setting",
+      "definition": "Request to set or manage alarms and reminders"
+    },
+    {
+      "id": 7,
+      "name": "News and Information Retrieval",
+      "definition": "Request for news headlines or general information retrieval"
+    },
+    {
+      "id": 8,
+      "name": "Task and To-Do List Management",
+      "definition": "Request to manage or retrieve tasks and to-do lists"
+    },
+    {
+      "id": 9,
+      "name": "Smart Home Control",
+      "definition": "Request to control smart home devices or settings"
+    },
+    {
+      "id": 10,
+      "name": "Social Media Interaction",
+      "definition": "Request to interact with social media platforms or accounts"
+    }
+  ]
+}

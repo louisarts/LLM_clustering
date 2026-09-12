@@ -1,0 +1,90 @@
+{
+  "bench": "massive_domain",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Inquiries or commands related to current or forecasted weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Time Management",
+      "definition": "Requests or commands regarding scheduling, reminders, and time-related inquiries."
+    },
+    {
+      "id": 3,
+      "name": "Email Management",
+      "definition": "Commands or inquiries related to sending, receiving, or managing emails."
+    },
+    {
+      "id": 4,
+      "name": "Music and Audio",
+      "definition": "Commands or requests for playing music, podcasts, or audio content."
+    },
+    {
+      "id": 5,
+      "name": "Shopping and Grocery",
+      "definition": "Requests related to creating or managing grocery lists and shopping tasks."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Directions",
+      "definition": "Inquiries or commands related to travel arrangements, directions, or transportation."
+    },
+    {
+      "id": 7,
+      "name": "News and Information",
+      "definition": "Requests for current news updates or general information inquiries."
+    },
+    {
+      "id": 8,
+      "name": "Cooking and Recipes",
+      "definition": "Inquiries or commands related to cooking instructions or recipe requests."
+    },
+    {
+      "id": 9,
+      "name": "Home Automation",
+      "definition": "Commands related to controlling smart home devices and settings."
+    },
+    {
+      "id": 10,
+      "name": "Social Media",
+      "definition": "Commands or inquiries related to social media interactions or updates."
+    },
+    {
+      "id": 11,
+      "name": "Meetings and Events",
+      "definition": "Requests related to scheduling, reminders, or information about meetings and events."
+    },
+    {
+      "id": 12,
+      "name": "Definitions and Explanations",
+      "definition": "Requests for definitions or explanations of terms and concepts."
+    },
+    {
+      "id": 13,
+      "name": "Tasks and To-Do Lists",
+      "definition": "Commands related to managing tasks, to-do lists, or reminders."
+    },
+    {
+      "id": 14,
+      "name": "Jokes and Entertainment",
+      "definition": "Requests for jokes or entertainment-related content."
+    },
+    {
+      "id": 15,
+      "name": "Stock Market and Finance",
+      "definition": "Inquiries related to stock prices, financial information, or economic updates."
+    },
+    {
+      "id": 16,
+      "name": "Personal Information",
+      "definition": "Requests for personal information or updates about the user."
+    }
+  ]
+}

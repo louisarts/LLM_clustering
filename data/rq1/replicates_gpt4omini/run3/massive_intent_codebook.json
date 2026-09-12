@@ -1,0 +1,105 @@
+{
+  "bench": "massive_intent",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music Playback",
+      "definition": "Commands related to playing, pausing, or resuming music or audio."
+    },
+    {
+      "id": 2,
+      "name": "Email Management",
+      "definition": "Commands for sending, replying to, or checking emails."
+    },
+    {
+      "id": 3,
+      "name": "Calendar Management",
+      "definition": "Commands for adding, removing, or checking events in a calendar."
+    },
+    {
+      "id": 4,
+      "name": "Reminders",
+      "definition": "Commands for setting, checking, or removing reminders."
+    },
+    {
+      "id": 5,
+      "name": "Weather Information",
+      "definition": "Commands for checking current or forecasted weather conditions."
+    },
+    {
+      "id": 6,
+      "name": "News Updates",
+      "definition": "Commands for retrieving the latest news or headlines."
+    },
+    {
+      "id": 7,
+      "name": "Travel and Transportation",
+      "definition": "Commands related to booking tickets or finding travel information."
+    },
+    {
+      "id": 8,
+      "name": "Shopping List Management",
+      "definition": "Commands for adding or removing items from a shopping list."
+    },
+    {
+      "id": 9,
+      "name": "Social Media Interaction",
+      "definition": "Commands for posting or interacting on social media platforms."
+    },
+    {
+      "id": 10,
+      "name": "Device Control",
+      "definition": "Commands for controlling smart home devices like lights and alarms."
+    },
+    {
+      "id": 11,
+      "name": "Information Retrieval",
+      "definition": "Commands for looking up information or answering questions."
+    },
+    {
+      "id": 12,
+      "name": "Cooking and Recipes",
+      "definition": "Commands related to cooking instructions or recipe requests."
+    },
+    {
+      "id": 13,
+      "name": "Task Management",
+      "definition": "Commands for managing tasks or to-do lists."
+    },
+    {
+      "id": 14,
+      "name": "General Queries",
+      "definition": "Commands that ask for general information or clarification."
+    },
+    {
+      "id": 15,
+      "name": "Complaints and Feedback",
+      "definition": "Commands for sending complaints or feedback to services."
+    },
+    {
+      "id": 16,
+      "name": "Entertainment Recommendations",
+      "definition": "Commands for seeking recommendations for movies, books, or music."
+    },
+    {
+      "id": 17,
+      "name": "Health and Wellness",
+      "definition": "Commands related to health information or wellness tips."
+    },
+    {
+      "id": 18,
+      "name": "Traffic Information",
+      "definition": "Commands for checking traffic conditions or directions."
+    },
+    {
+      "id": 19,
+      "name": "Miscellaneous",
+      "definition": "Commands that do not fit into other specific categories."
+    }
+  ]
+}

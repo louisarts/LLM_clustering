@@ -1,0 +1,302 @@
+{
+  "bench": "fewrel",
+  "run": 4,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "PARTICIPANT_OF_EVENT",
+      "definition": "An entity (person, team, country, or organization) took part in or was involved in an event or competition."
+    },
+    {
+      "id": 2,
+      "name": "PRODUCED_BY",
+      "definition": "A product, film, or other creative work was produced or distributed by a company or organization."
+    },
+    {
+      "id": 3,
+      "name": "ETHNICITY_OR_RELIGION",
+      "definition": "A person is identified by their ethnic group or religious belief."
+    },
+    {
+      "id": 4,
+      "name": "LIVED_IN",
+      "definition": "A person resided, worked, or was born in a specific geographical location."
+    },
+    {
+      "id": 5,
+      "name": "ALIAS",
+      "definition": "One entity is an alternative name, a common designation, or a closely associated identity for another."
+    },
+    {
+      "id": 6,
+      "name": "DEVELOPED_BY",
+      "definition": "A software, game, or franchise was created or developed by a person or company."
+    },
+    {
+      "id": 7,
+      "name": "HELD_AT",
+      "definition": "An event took place at a specific geographical location."
+    },
+    {
+      "id": 8,
+      "name": "DESIGNED_BY",
+      "definition": "A building, structure, or design was created by an architect or designer."
+    },
+    {
+      "id": 9,
+      "name": "NATIONALITY_OR_AFFILIATION",
+      "definition": "An entity (person, organization, or work) is associated with a particular country or national identity."
+    },
+    {
+      "id": 10,
+      "name": "PLATFORM_FOR",
+      "definition": "A software, game, or application is designed to run on or is available for a specific computing platform or operating system."
+    },
+    {
+      "id": 11,
+      "name": "ADAPTATION_OF_WORK",
+      "definition": "A creative work is an adaptation or is based on an earlier work by an author."
+    },
+    {
+      "id": 12,
+      "name": "RELEASED_BY",
+      "definition": "A musical work or album was released by a record label."
+    },
+    {
+      "id": 13,
+      "name": "FAMILY_RELATION",
+      "definition": "Two people share a direct familial or kinship relationship."
+    },
+    {
+      "id": 14,
+      "name": "INSTANCE_OF",
+      "definition": "One entity is an example or a specific type of a broader category or classification."
+    },
+    {
+      "id": 15,
+      "name": "OCCUPATION",
+      "definition": "A person's professional role, job, or field of expertise."
+    },
+    {
+      "id": 16,
+      "name": "SEQUEL_OR_RELATED_WORK",
+      "definition": "One creative work is a direct continuation, prequel, or closely related part of another work."
+    },
+    {
+      "id": 17,
+      "name": "PARENT_ORGANIZATION",
+      "definition": "One organization is a subsidiary, division, or component of a larger parent organization."
+    },
+    {
+      "id": 18,
+      "name": "RELATED_TO_MEDIUM",
+      "definition": "An artistic style, movement, or technique is associated with a specific artistic medium."
+    },
+    {
+      "id": 19,
+      "name": "DIRECTED_BY",
+      "definition": "A film or show was directed by a specific person."
+    },
+    {
+      "id": 20,
+      "name": "LOCATED_IN",
+      "definition": "An entity (place, facility, institution, or geographical feature) is situated within a larger geographical area or on a specific site."
+    },
+    {
+      "id": 21,
+      "name": "ASSOCIATED_WITH_STYLE",
+      "definition": "A person or creative work is identified with a particular artistic, musical, or cultural style or genre."
+    },
+    {
+      "id": 22,
+      "name": "LEADER_OF_PLACE",
+      "definition": "A person holds a leadership or official position within a government, organization, or geographical area."
+    },
+    {
+      "id": 23,
+      "name": "AUTHOR_OF_WORK",
+      "definition": "A person is the creator or writer of a specific work."
+    },
+    {
+      "id": 24,
+      "name": "MENTIONS_PERSON",
+      "definition": "A written work or document refers to or contains information about a specific person."
+    },
+    {
+      "id": 25,
+      "name": "OWNS_BRAND",
+      "definition": "A company or organization owns a specific brand or operates under it."
+    },
+    {
+      "id": 26,
+      "name": "HOSTED_BY",
+      "definition": "A country or location served as the host for an event."
+    },
+    {
+      "id": 27,
+      "name": "MEMBER_OF_ORGANIZATION",
+      "definition": "A person is formally affiliated with or serves in an organization, team, or political party."
+    },
+    {
+      "id": 28,
+      "name": "TOURED_IN",
+      "definition": "A musical group or artist performed a series of concerts in a specific geographical area."
+    },
+    {
+      "id": 29,
+      "name": "MANUFACTURED_BY",
+      "definition": "A product or item was produced or made by a specific company."
+    },
+    {
+      "id": 30,
+      "name": "ASSOCIATED_WITH_ORGANIZATION",
+      "definition": "An entity (facility, event, or item) has a direct connection or affiliation with an organization or institution."
+    },
+    {
+      "id": 31,
+      "name": "NOMINATED_FOR_AWARD",
+      "definition": "An entity (person or work) was formally proposed or considered for an award."
+    },
+    {
+      "id": 32,
+      "name": "SYMBOL_OF_PLACE",
+      "definition": "An entity serves as a recognized emblem or representation of a specific place."
+    },
+    {
+      "id": 33,
+      "name": "DEVELOPED_FOR",
+      "definition": "A company or entity created a product or service specifically for another company or platform."
+    },
+    {
+      "id": 34,
+      "name": "PERFORMED_BY",
+      "definition": "A musical piece or song was sung or played by a specific artist or group."
+    },
+    {
+      "id": 35,
+      "name": "RECEIVED_AWARD",
+      "definition": "An entity (person or work) was granted a specific award or honor."
+    },
+    {
+      "id": 36,
+      "name": "HELD_IN_YEAR",
+      "definition": "An event occurred or a person held a position during a specific year."
+    },
+    {
+      "id": 37,
+      "name": "FLOWS_INTO",
+      "definition": "A river or stream discharges its water into a larger body of water."
+    },
+    {
+      "id": 38,
+      "name": "BROADCAST_BY",
+      "definition": "A television show, film, or program was aired or distributed by a broadcasting network or platform."
+    },
+    {
+      "id": 39,
+      "name": "RELATED_WORKS",
+      "definition": "Two or more creative works or products are part of the same series, franchise, or are closely connected."
+    },
+    {
+      "id": 40,
+      "name": "POLITICAL_PARTY_IN_COUNTRY",
+      "definition": "A political party operates within a specific country."
+    },
+    {
+      "id": 41,
+      "name": "ORIGINATED_FROM",
+      "definition": "An entity (person, group, or product) has its origin or is primarily associated with a specific geographical location."
+    },
+    {
+      "id": 42,
+      "name": "STRUCTURE_ON_RIVER",
+      "definition": "A man-made structure is built upon or spans a river."
+    },
+    {
+      "id": 43,
+      "name": "CREATED_WORK",
+      "definition": "A person is the primary creator of an artistic or intellectual work."
+    },
+    {
+      "id": 44,
+      "name": "USED_IN_COUNTRY",
+      "definition": "A language is spoken or officially recognized within a specific country."
+    },
+    {
+      "id": 45,
+      "name": "OPERATED_BY",
+      "definition": "A facility or service is managed and run by a specific organization."
+    },
+    {
+      "id": 46,
+      "name": "DISTRIBUTED_BY",
+      "definition": "A creative work or product is made available or delivered to consumers by a specific platform or distributor."
+    },
+    {
+      "id": 47,
+      "name": "TRIBUTARY_OF",
+      "definition": "A river or stream flows into a larger river."
+    },
+    {
+      "id": 48,
+      "name": "OWNED_BY_GOVERNMENT",
+      "definition": "An organization or entity is owned or controlled by a government."
+    },
+    {
+      "id": 49,
+      "name": "OWNED_BY_COMPANY",
+      "definition": "A product, work, or asset is legally possessed by a company or organization."
+    },
+    {
+      "id": 50,
+      "name": "TRANSFERRED_FROM",
+      "definition": "Responsibilities or functions were moved from one government body to another."
+    },
+    {
+      "id": 51,
+      "name": "FEATURES_CHARACTER",
+      "definition": "A creative work includes a specific fictional character."
+    },
+    {
+      "id": 52,
+      "name": "SYSTEM_CONTAINS_LINE",
+      "definition": "A larger system or network includes a specific line or component."
+    },
+    {
+      "id": 53,
+      "name": "DISTRIBUTED_IN_COUNTRY",
+      "definition": "A creative work or product is made available or sold within a specific country."
+    },
+    {
+      "id": 54,
+      "name": "PLAYS_INSTRUMENT",
+      "definition": "A person is known for playing a specific musical instrument."
+    },
+    {
+      "id": 55,
+      "name": "FIELD_OF_STUDY",
+      "definition": "A person's area of academic or professional specialization."
+    },
+    {
+      "id": 56,
+      "name": "WON_EVENT",
+      "definition": "A person or team achieved victory in a specific event or competition."
+    },
+    {
+      "id": 57,
+      "name": "ACQUIRED_COMPANY",
+      "definition": "One company purchased or took over another company."
+    },
+    {
+      "id": 58,
+      "name": "CLASS_IN_NAVY",
+      "definition": "A specific class of ship belongs to a particular navy."
+    },
+    {
+      "id": 59,
+      "name": "RELATED_YEARS",
+      "definition": "Two or more years are mentioned together due to a chronological or comparative relationship."
+    }
+  ]
+}

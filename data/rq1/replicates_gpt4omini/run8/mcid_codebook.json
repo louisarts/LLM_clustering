@@ -1,0 +1,85 @@
+{
+  "bench": "mcid",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Seeking",
+      "definition": "Requests for information about COVID-19, including symptoms, transmission, and treatment."
+    },
+    {
+      "id": 2,
+      "name": "Travel Concerns",
+      "definition": "Inquiries related to travel restrictions, safety, and protocols during the pandemic."
+    },
+    {
+      "id": 3,
+      "name": "Health and Safety Precautions",
+      "definition": "Questions about protective measures, such as mask-wearing and sanitization practices."
+    },
+    {
+      "id": 4,
+      "name": "Myths and Misinformation",
+      "definition": "Discussions or inquiries about myths, hoaxes, and misinformation regarding COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Vaccination",
+      "definition": "Questions and discussions related to COVID-19 vaccines, including availability and efficacy."
+    },
+    {
+      "id": 6,
+      "name": "Donations and Support",
+      "definition": "Requests for information on how to donate or support COVID-19 relief efforts."
+    },
+    {
+      "id": 7,
+      "name": "Symptoms and Diagnosis",
+      "definition": "Inquiries about specific symptoms and how to determine if one has contracted COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Treatment Options",
+      "definition": "Questions regarding available treatments and remedies for COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Community Impact",
+      "definition": "Discussions about the broader impact of COVID-19 on communities and specific populations."
+    },
+    {
+      "id": 10,
+      "name": "Personal Experiences",
+      "definition": "Expressions of personal feelings, fears, or experiences related to COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Surface Transmission",
+      "definition": "Inquiries about the virus's survival on surfaces and related transmission risks."
+    },
+    {
+      "id": 12,
+      "name": "Animal Transmission",
+      "definition": "Questions about the potential for animals to carry or transmit COVID-19."
+    },
+    {
+      "id": 13,
+      "name": "Public Health Guidelines",
+      "definition": "Requests for information on guidelines and recommendations from health authorities."
+    },
+    {
+      "id": 14,
+      "name": "Social Sharing",
+      "definition": "Requests to share information or resources related to COVID-19 with others."
+    },
+    {
+      "id": 15,
+      "name": "Current Events",
+      "definition": "Inquiries about the latest news and statistics related to COVID-19."
+    }
+  ]
+}

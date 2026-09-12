@@ -1,0 +1,67 @@
+{
+  "bench": "clinc150_domain",
+  "run": 10,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Financial Management",
+      "definition": "Managing personal finances, including banking, credit, payments, taxes, investments, and insurance."
+    },
+    {
+      "id": 2,
+      "name": "Travel and Navigation",
+      "definition": "Planning and managing travel, finding locations, and vehicle-related information."
+    },
+    {
+      "id": 3,
+      "name": "Scheduling and Reminders",
+      "definition": "Managing personal schedules, appointments, events, and setting alarms or reminders."
+    },
+    {
+      "id": 4,
+      "name": "Food and Dining",
+      "definition": "Finding recipes, making restaurant reservations, and inquiring about food or dining options."
+    },
+    {
+      "id": 5,
+      "name": "Shopping and Lists",
+      "definition": "Creating and managing shopping lists, chore lists, and tracking purchases."
+    },
+    {
+      "id": 6,
+      "name": "Personal Information and Status",
+      "definition": "Inquiring about personal data, employment benefits, sharing personal location, or finding personal items."
+    },
+    {
+      "id": 7,
+      "name": "Assistant Settings and Device Control",
+      "definition": "Customizing assistant behavior, adjusting device settings, or managing connections."
+    },
+    {
+      "id": 8,
+      "name": "Music and Media",
+      "definition": "Playing, identifying, and controlling music or other media."
+    },
+    {
+      "id": 9,
+      "name": "Communication",
+      "definition": "Initiating calls or sending text messages to contacts."
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge and Information",
+      "definition": "Asking factual questions, definitions, conversions, trivia, or current events."
+    },
+    {
+      "id": 11,
+      "name": "Assistant Identity and Capabilities",
+      "definition": "Inquiring about the assistant's nature, origin, or what it can do."
+    },
+    {
+      "id": 12,
+      "name": "Conversational and Affirmative/Negative",
+      "definition": "Simple conversational greetings, affirmations, negations, or general non-task-specific interactions."
+    }
+  ]
+}

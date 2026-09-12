@@ -1,0 +1,95 @@
+{
+  "bench": "stackoverflow20",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML technology."
+    },
+    {
+      "id": 2,
+      "name": "Apache",
+      "definition": "Questions related to the Apache web server."
+    },
+    {
+      "id": 3,
+      "name": "Cocoa",
+      "definition": "Questions related to Cocoa framework for Mac OS X development."
+    },
+    {
+      "id": 4,
+      "name": "Drupal",
+      "definition": "Questions related to the Drupal content management system."
+    },
+    {
+      "id": 5,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel."
+    },
+    {
+      "id": 6,
+      "name": "Hibernate",
+      "definition": "Questions related to the Hibernate ORM framework."
+    },
+    {
+      "id": 7,
+      "name": "Java",
+      "definition": "Questions related to the Java programming language."
+    },
+    {
+      "id": 8,
+      "name": "LINQ",
+      "definition": "Questions related to Language Integrated Query."
+    },
+    {
+      "id": 9,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 10,
+      "name": "Matlab",
+      "definition": "Questions related to the Matlab programming language."
+    },
+    {
+      "id": 11,
+      "name": "Oracle",
+      "definition": "Questions related to the Oracle database technology."
+    },
+    {
+      "id": 12,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language."
+    },
+    {
+      "id": 13,
+      "name": "SharePoint",
+      "definition": "Questions related to the Microsoft SharePoint platform."
+    },
+    {
+      "id": 14,
+      "name": "Spring",
+      "definition": "Questions related to the Spring framework for Java development."
+    },
+    {
+      "id": 15,
+      "name": "Subversion",
+      "definition": "Questions related to the Subversion version control system."
+    },
+    {
+      "id": 16,
+      "name": "Visual Studio",
+      "definition": "Questions related to the Microsoft Visual Studio development environment."
+    },
+    {
+      "id": 17,
+      "name": "WordPress",
+      "definition": "Questions related to the WordPress content management system."
+    }
+  ]
+}

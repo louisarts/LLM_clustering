@@ -1,0 +1,52 @@
+{
+  "bench": "bbcnews",
+  "run": 10,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics",
+      "definition": "News about government, political parties, elections, and policy debates within a country."
+    },
+    {
+      "id": 2,
+      "name": "International Affairs",
+      "definition": "News concerning foreign policy, diplomacy, international organizations, and relations between countries."
+    },
+    {
+      "id": 3,
+      "name": "Business and Finance",
+      "definition": "News about companies, industries, markets, banking, investments, corporate earnings, mergers, and economic trends."
+    },
+    {
+      "id": 4,
+      "name": "Sport",
+      "definition": "News and results from various sports, including football, rugby, tennis, and athletics."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "News about computing, internet, mobile devices, software, gaming, and scientific advancements."
+    },
+    {
+      "id": 6,
+      "name": "Entertainment and Arts",
+      "definition": "News about film, music, television, theatre, books, and other cultural events or artistic expressions."
+    },
+    {
+      "id": 7,
+      "name": "Social Issues",
+      "definition": "News related to societal problems, human rights, education, health, immigration, crime, and community welfare."
+    },
+    {
+      "id": 8,
+      "name": "Disaster and Humanitarian Aid",
+      "definition": "News about natural disasters, their impact, and relief efforts."
+    },
+    {
+      "id": 9,
+      "name": "Obituaries",
+      "definition": "News reporting the death of a notable person."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "bench": "mcid",
+  "run": 7,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General COVID-19 Information",
+      "definition": "User seeks broad or introductory information about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms Information",
+      "definition": "User asks about specific symptoms, signs, or what to worry about regarding COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Transmission Information",
+      "definition": "User inquires about how COVID-19 spreads between people, animals, or through various mediums."
+    },
+    {
+      "id": 4,
+      "name": "Prevention and Protection",
+      "definition": "User seeks advice or methods to avoid contracting or spreading COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Treatment and Cure Information",
+      "definition": "User asks about available treatments, remedies, vaccines, or the possibility of a cure for COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Statistics and Data",
+      "definition": "User requests numerical data related to COVID-19, such as case counts, death rates, recovery rates, or testing numbers."
+    },
+    {
+      "id": 7,
+      "name": "News and Updates",
+      "definition": "User asks for the latest information, recent developments, or current news articles about COVID-19 in general or specific locations."
+    },
+    {
+      "id": 8,
+      "name": "Travel Information and Restrictions",
+      "definition": "User inquires about travel safety, restrictions, cancellations, or advice related to COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "COVID-19 Myths and Misinformation",
+      "definition": "User asks to confirm or debunk common myths, rumors, or false claims about COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "Personal Risk and Guidance",
+      "definition": "User seeks advice on personal actions, risk assessment for themselves or family, or specific situations related to COVID-19 exposure or vulnerability."
+    },
+    {
+      "id": 11,
+      "name": "Object and Surface Contamination",
+      "definition": "User asks about the virus's presence, survival, or cleaning methods on objects, surfaces, or in specific environments."
+    },
+    {
+      "id": 12,
+      "name": "Animal and Pet Information",
+      "definition": "User inquires about COVID-19's impact on animals, pets, or transmission from animals."
+    },
+    {
+      "id": 13,
+      "name": "Food, Drink, and Hygiene Practices",
+      "definition": "User asks about safety related to food, drink, personal hygiene, or cleaning practices to prevent COVID-19."
+    },
+    {
+      "id": 14,
+      "name": "Donation and Support",
+      "definition": "User expresses intent to donate money, goods, or support to COVID-19 related causes, organizations, or individuals."
+    },
+    {
+      "id": 15,
+      "name": "Sharing Information/Service",
+      "definition": "User expresses intent to share the current information, service, or a link with others."
+    },
+    {
+      "id": 16,
+      "name": "Social Greetings and Gratitude",
+      "definition": "User expresses thanks, appreciation, or engages in social pleasantries with the bot."
+    },
+    {
+      "id": 17,
+      "name": "Expressing Fear or Anxiety",
+      "definition": "User explicitly states feelings of fear or anxiety related to COVID-19 and may seek reassurance or guidance."
+    },
+    {
+      "id": 18,
+      "name": "Operational Request",
+      "definition": "User makes a request to the bot that is not directly seeking COVID-19 information, but rather an action for the bot to perform."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "bench": "mtop_domain",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calling",
+      "definition": "Requests to initiate, modify, or end phone or video calls."
+    },
+    {
+      "id": 2,
+      "name": "Messaging",
+      "definition": "Requests to send, modify, or inquire about text or video messages."
+    },
+    {
+      "id": 3,
+      "name": "Reminders",
+      "definition": "Requests to create, modify, or inquire about reminders."
+    },
+    {
+      "id": 4,
+      "name": "Alarms",
+      "definition": "Requests to set, modify, or inquire about alarms."
+    },
+    {
+      "id": 5,
+      "name": "Timers",
+      "definition": "Requests to set, modify, or inquire about timers."
+    },
+    {
+      "id": 6,
+      "name": "Weather",
+      "definition": "Requests for current or forecasted weather information."
+    },
+    {
+      "id": 7,
+      "name": "Music",
+      "definition": "Requests to play, modify, or inquire about music."
+    },
+    {
+      "id": 8,
+      "name": "News",
+      "definition": "Requests for news updates or specific news stories."
+    },
+    {
+      "id": 9,
+      "name": "Recipes and Cooking",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 10,
+      "name": "Events and Activities",
+      "definition": "Requests for information about events or activities."
+    },
+    {
+      "id": 11,
+      "name": "Social Connections",
+      "definition": "Requests to inquire about or interact with social connections."
+    },
+    {
+      "id": 12,
+      "name": "General Information",
+      "definition": "Requests for general knowledge or information not covered by other categories."
+    }
+  ]
+}

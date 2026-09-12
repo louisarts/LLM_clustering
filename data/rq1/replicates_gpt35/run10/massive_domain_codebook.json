@@ -1,0 +1,110 @@
+{
+  "bench": "massive_domain",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Social Media",
+      "definition": "Utterances related to social media platforms such as Facebook, Twitter, and Instagram."
+    },
+    {
+      "id": 2,
+      "name": "Entertainment",
+      "definition": "Utterances related to playing music, podcasts, movies, and games."
+    },
+    {
+      "id": 3,
+      "name": "Time and Date",
+      "definition": "Utterances related to checking the current time, date, and setting reminders."
+    },
+    {
+      "id": 4,
+      "name": "Weather",
+      "definition": "Utterances related to checking the weather conditions."
+    },
+    {
+      "id": 5,
+      "name": "Navigation",
+      "definition": "Utterances related to finding directions, booking cabs, and checking travel times."
+    },
+    {
+      "id": 6,
+      "name": "News and Information",
+      "definition": "Utterances related to checking news headlines, stock prices, and general information."
+    },
+    {
+      "id": 7,
+      "name": "Home Automation",
+      "definition": "Utterances related to controlling lights, appliances, and smart devices in the home."
+    },
+    {
+      "id": 8,
+      "name": "Email and Communication",
+      "definition": "Utterances related to sending emails, checking email status, and communication tasks."
+    },
+    {
+      "id": 9,
+      "name": "Lists and Reminders",
+      "definition": "Utterances related to creating lists, setting reminders, and managing schedules."
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge",
+      "definition": "Utterances related to general knowledge questions, definitions, and facts."
+    },
+    {
+      "id": 11,
+      "name": "Personal Preferences",
+      "definition": "Utterances related to personal preferences, recommendations, and user-specific settings."
+    },
+    {
+      "id": 12,
+      "name": "Events and Appointments",
+      "definition": "Utterances related to scheduling events, appointments, and meetings."
+    },
+    {
+      "id": 13,
+      "name": "Alarms and Notifications",
+      "definition": "Utterances related to setting alarms, checking notifications, and managing alerts."
+    },
+    {
+      "id": 14,
+      "name": "Music and Podcasts",
+      "definition": "Utterances related to playing music, podcasts, and radio stations."
+    },
+    {
+      "id": 15,
+      "name": "Shopping and Booking",
+      "definition": "Utterances related to booking tickets, ordering food, and making purchases."
+    },
+    {
+      "id": 16,
+      "name": "Trivia and Fun",
+      "definition": "Utterances related to jokes, trivia questions, and fun interactions."
+    },
+    {
+      "id": 17,
+      "name": "Education and Learning",
+      "definition": "Utterances related to definitions, explanations, and learning new information."
+    },
+    {
+      "id": 18,
+      "name": "Health and Wellness",
+      "definition": "Utterances related to health advice, food substitutions, and general well-being."
+    },
+    {
+      "id": 19,
+      "name": "Travel and Exploration",
+      "definition": "Utterances related to travel plans, tourist information, and exploring new places."
+    },
+    {
+      "id": 20,
+      "name": "Work and Productivity",
+      "definition": "Utterances related to work-related tasks, meetings, and productivity tools."
+    }
+  ]
+}

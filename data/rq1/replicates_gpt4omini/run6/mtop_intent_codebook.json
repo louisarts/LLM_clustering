@@ -1,0 +1,110 @@
+{
+  "bench": "mtop_intent",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Call Management",
+      "definition": "Requests to initiate, manage, or end phone calls."
+    },
+    {
+      "id": 3,
+      "name": "Reminder Management",
+      "definition": "Requests to set, modify, delete, or inquire about reminders."
+    },
+    {
+      "id": 4,
+      "name": "Alarm Management",
+      "definition": "Requests to set, modify, delete, or inquire about alarms."
+    },
+    {
+      "id": 5,
+      "name": "Timer Management",
+      "definition": "Requests to set, modify, delete, or inquire about timers."
+    },
+    {
+      "id": 6,
+      "name": "Recipe Inquiry",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 7,
+      "name": "Music Playback",
+      "definition": "Requests to play, pause, or manage music."
+    },
+    {
+      "id": 8,
+      "name": "News Inquiry",
+      "definition": "Requests for current news updates or specific news topics."
+    },
+    {
+      "id": 9,
+      "name": "Social Media Messaging",
+      "definition": "Requests to send messages via social media platforms."
+    },
+    {
+      "id": 10,
+      "name": "Event Inquiry",
+      "definition": "Requests for information about upcoming events or activities."
+    },
+    {
+      "id": 11,
+      "name": "Status Management",
+      "definition": "Requests to change or inquire about availability or status."
+    },
+    {
+      "id": 12,
+      "name": "Friend Inquiry",
+      "definition": "Requests for information about friends' locations or statuses."
+    },
+    {
+      "id": 13,
+      "name": "Task Management",
+      "definition": "Requests to manage tasks or chores."
+    },
+    {
+      "id": 14,
+      "name": "Information Inquiry",
+      "definition": "Requests for general information or facts."
+    },
+    {
+      "id": 15,
+      "name": "Video Call Management",
+      "definition": "Requests to initiate or manage video calls."
+    },
+    {
+      "id": 16,
+      "name": "Recipe Modification",
+      "definition": "Requests for modifying existing recipes or cooking methods."
+    },
+    {
+      "id": 17,
+      "name": "Health and Nutrition Inquiry",
+      "definition": "Requests for nutritional information or health-related questions."
+    },
+    {
+      "id": 18,
+      "name": "Document Management",
+      "definition": "Requests to manage documents or reminders related to appointments."
+    },
+    {
+      "id": 19,
+      "name": "Travel Inquiry",
+      "definition": "Requests for travel-related information or arrangements."
+    },
+    {
+      "id": 20,
+      "name": "Event Reminder",
+      "definition": "Requests to set reminders for specific events or appointments."
+    }
+  ]
+}

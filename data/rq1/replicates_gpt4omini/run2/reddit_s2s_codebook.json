@@ -1,0 +1,110 @@
+{
+  "bench": "reddit_s2s",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music",
+      "definition": "Posts related to music, artists, concerts, and musical events."
+    },
+    {
+      "id": 2,
+      "name": "Automotive",
+      "definition": "Posts discussing cars, automotive technology, and related topics."
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "definition": "Posts about technology, gadgets, software, and technical advice."
+    },
+    {
+      "id": 4,
+      "name": "Science",
+      "definition": "Posts related to scientific discoveries, research, and discussions."
+    },
+    {
+      "id": 5,
+      "name": "Health",
+      "definition": "Posts discussing health, wellness, medical issues, and personal experiences."
+    },
+    {
+      "id": 6,
+      "name": "Politics",
+      "definition": "Posts related to political discussions, news, and opinions."
+    },
+    {
+      "id": 7,
+      "name": "Education",
+      "definition": "Posts about educational topics, advice, and academic discussions."
+    },
+    {
+      "id": 8,
+      "name": "Art",
+      "definition": "Posts related to visual arts, including paintings, drawings, and exhibitions."
+    },
+    {
+      "id": 9,
+      "name": "Food",
+      "definition": "Posts discussing food, recipes, and culinary experiences."
+    },
+    {
+      "id": 10,
+      "name": "Travel",
+      "definition": "Posts about travel experiences, tips, and destination discussions."
+    },
+    {
+      "id": 11,
+      "name": "Lifestyle",
+      "definition": "Posts related to personal lifestyle choices, advice, and experiences."
+    },
+    {
+      "id": 12,
+      "name": "Gaming",
+      "definition": "Posts discussing video games, gaming culture, and related topics."
+    },
+    {
+      "id": 13,
+      "name": "Relationships",
+      "definition": "Posts about personal relationships, dating, and social interactions."
+    },
+    {
+      "id": 14,
+      "name": "Business",
+      "definition": "Posts related to business, entrepreneurship, and professional advice."
+    },
+    {
+      "id": 15,
+      "name": "Comics",
+      "definition": "Posts discussing comic books, graphic novels, and related media."
+    },
+    {
+      "id": 16,
+      "name": "Astrology",
+      "definition": "Posts related to astrology, horoscopes, and astrological discussions."
+    },
+    {
+      "id": 17,
+      "name": "Fashion",
+      "definition": "Posts discussing fashion trends, clothing, and style advice."
+    },
+    {
+      "id": 18,
+      "name": "Animals",
+      "definition": "Posts related to animals, pets, and wildlife."
+    },
+    {
+      "id": 19,
+      "name": "History",
+      "definition": "Posts discussing historical events, figures, and analysis."
+    },
+    {
+      "id": 20,
+      "name": "Humor",
+      "definition": "Posts intended for humor, jokes, and comedic content."
+    }
+  ]
+}

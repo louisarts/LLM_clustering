@@ -1,0 +1,110 @@
+{
+  "bench": "reddit_s2s",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Automotive",
+      "definition": "Posts related to cars, trucks, and other vehicles."
+    },
+    {
+      "id": 2,
+      "name": "Technology",
+      "definition": "Posts related to gadgets, software, and tech companies."
+    },
+    {
+      "id": 3,
+      "name": "Health",
+      "definition": "Posts related to medical conditions, treatments, and healthcare."
+    },
+    {
+      "id": 4,
+      "name": "Politics",
+      "definition": "Posts related to political figures, events, and policies."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment",
+      "definition": "Posts related to movies, TV shows, music, and celebrities."
+    },
+    {
+      "id": 6,
+      "name": "Education",
+      "definition": "Posts related to learning, schools, and academic topics."
+    },
+    {
+      "id": 7,
+      "name": "Pets",
+      "definition": "Posts related to animals, pet care, and rescue."
+    },
+    {
+      "id": 8,
+      "name": "Business",
+      "definition": "Posts related to companies, finance, and entrepreneurship."
+    },
+    {
+      "id": 9,
+      "name": "Science",
+      "definition": "Posts related to research, discoveries, and scientific topics."
+    },
+    {
+      "id": 10,
+      "name": "Sports",
+      "definition": "Posts related to athletic activities, teams, and competitions."
+    },
+    {
+      "id": 11,
+      "name": "Art",
+      "definition": "Posts related to visual arts, music, and creative works."
+    },
+    {
+      "id": 12,
+      "name": "Travel",
+      "definition": "Posts related to destinations, trips, and travel tips."
+    },
+    {
+      "id": 13,
+      "name": "Social Issues",
+      "definition": "Posts related to societal problems, activism, and discrimination."
+    },
+    {
+      "id": 14,
+      "name": "Food",
+      "definition": "Posts related to cooking, recipes, and dining experiences."
+    },
+    {
+      "id": 15,
+      "name": "Technology Support",
+      "definition": "Posts seeking help or advice with tech issues."
+    },
+    {
+      "id": 16,
+      "name": "Fashion",
+      "definition": "Posts related to clothing, style, and accessories."
+    },
+    {
+      "id": 17,
+      "name": "Relationships",
+      "definition": "Posts seeking advice or discussing romantic relationships."
+    },
+    {
+      "id": 18,
+      "name": "History",
+      "definition": "Posts related to past events, cultures, and historical figures."
+    },
+    {
+      "id": 19,
+      "name": "Anime",
+      "definition": "Posts related to Japanese animation and manga."
+    },
+    {
+      "id": 20,
+      "name": "Gaming",
+      "definition": "Posts related to video games, consoles, and gaming culture."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "bench": "fewevent",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "coach",
+      "definition": "Events related to the appointment, hiring, or actions of coaches in sports."
+    },
+    {
+      "id": 2,
+      "name": "protest",
+      "definition": "Events involving protests, demonstrations, or public displays of opposition."
+    },
+    {
+      "id": 3,
+      "name": "athlete",
+      "definition": "Events related to the participation, performance, or achievements of athletes in sports competitions."
+    },
+    {
+      "id": 4,
+      "name": "military",
+      "definition": "Events related to the military, including soldiers, battles, and wars."
+    },
+    {
+      "id": 5,
+      "name": "president",
+      "definition": "Events related to the appointment, election, or actions of presidents or leaders."
+    },
+    {
+      "id": 6,
+      "name": "marriage",
+      "definition": "Events related to marriages, unions, or partnerships between individuals."
+    },
+    {
+      "id": 7,
+      "name": "singer",
+      "definition": "Events related to singers, musicians, or performances in the music industry."
+    },
+    {
+      "id": 8,
+      "name": "film",
+      "definition": "Events related to films, movies, or cinematic productions."
+    },
+    {
+      "id": 9,
+      "name": "student",
+      "definition": "Events related to students, education, or academic pursuits."
+    },
+    {
+      "id": 10,
+      "name": "police",
+      "definition": "Events involving police, law enforcement, arrests, or crime."
+    }
+  ]
+}

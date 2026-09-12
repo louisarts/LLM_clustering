@@ -1,0 +1,40 @@
+{
+  "bench": "bbcnews",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Obituaries",
+      "definition": "News about the death of individuals"
+    },
+    {
+      "id": 2,
+      "name": "Politics",
+      "definition": "News related to political activities, government decisions, and elections"
+    },
+    {
+      "id": 3,
+      "name": "Sports",
+      "definition": "News about sports events, athletes, and competitions"
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "News about technological advancements, gadgets, and innovations"
+    },
+    {
+      "id": 5,
+      "name": "Economy",
+      "definition": "News related to financial markets, businesses, and economic indicators"
+    },
+    {
+      "id": 6,
+      "name": "Entertainment",
+      "definition": "News about movies, music, celebrities, and cultural events"
+    }
+  ]
+}

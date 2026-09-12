@@ -1,0 +1,85 @@
+{
+  "bench": "snips",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Add to Playlist",
+      "definition": "User wants to add a specific artist, album, or song to a playlist."
+    },
+    {
+      "id": 2,
+      "name": "Play Music",
+      "definition": "User wants to play music from a specific artist, album, or genre."
+    },
+    {
+      "id": 3,
+      "name": "Get Weather Forecast",
+      "definition": "User wants to know the weather forecast for a specific location and time."
+    },
+    {
+      "id": 4,
+      "name": "Find Movie Showtimes",
+      "definition": "User wants to find movie showtimes at a specific theatre or location."
+    },
+    {
+      "id": 5,
+      "name": "Rate Content",
+      "definition": "User wants to rate a specific book, movie, album, or other content."
+    },
+    {
+      "id": 6,
+      "name": "Book Reservation",
+      "definition": "User wants to book a reservation at a restaurant, hotel, or other establishment."
+    },
+    {
+      "id": 7,
+      "name": "Search for Content",
+      "definition": "User wants to search for a specific book, movie, TV show, or other content."
+    },
+    {
+      "id": 8,
+      "name": "Play Specific Content",
+      "definition": "User wants to play a specific song, movie, TV show, or other content."
+    },
+    {
+      "id": 9,
+      "name": "Get Information on Content",
+      "definition": "User wants to get information on a specific book, movie, TV show, or other content."
+    },
+    {
+      "id": 10,
+      "name": "Get Location-based Forecast",
+      "definition": "User wants to know the weather forecast for a specific location."
+    },
+    {
+      "id": 11,
+      "name": "Get Restaurant Recommendation",
+      "definition": "User wants a recommendation for a specific type of restaurant."
+    },
+    {
+      "id": 12,
+      "name": "Get Album Recommendation",
+      "definition": "User wants a recommendation for a specific type of music album."
+    },
+    {
+      "id": 13,
+      "name": "Get Artist Recommendation",
+      "definition": "User wants a recommendation for a specific music artist."
+    },
+    {
+      "id": 14,
+      "name": "Get Movie Recommendation",
+      "definition": "User wants a recommendation for a specific movie."
+    },
+    {
+      "id": 15,
+      "name": "Get TV Show Recommendation",
+      "definition": "User wants a recommendation for a specific TV show."
+    }
+  ]
+}

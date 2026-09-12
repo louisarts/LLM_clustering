@@ -1,0 +1,135 @@
+{
+  "bench": "arxiv_fine",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "quantum simulation",
+      "definition": "Papers related to simulating quantum systems."
+    },
+    {
+      "id": 2,
+      "name": "astronomy",
+      "definition": "Papers related to celestial objects and phenomena."
+    },
+    {
+      "id": 3,
+      "name": "mathematics",
+      "definition": "Papers related to mathematical concepts and theories."
+    },
+    {
+      "id": 4,
+      "name": "planetary formation",
+      "definition": "Papers related to the formation of planets."
+    },
+    {
+      "id": 5,
+      "name": "stochastic thermodynamics",
+      "definition": "Papers related to the thermodynamics of stochastic systems."
+    },
+    {
+      "id": 6,
+      "name": "self-organized criticality",
+      "definition": "Papers related to systems exhibiting self-organized critical behavior."
+    },
+    {
+      "id": 7,
+      "name": "topological superconductivity",
+      "definition": "Papers related to topological superconductivity."
+    },
+    {
+      "id": 8,
+      "name": "economic redistribution",
+      "definition": "Papers related to the redistribution of economic power globally."
+    },
+    {
+      "id": 9,
+      "name": "particle acceleration",
+      "definition": "Papers related to the acceleration of particles."
+    },
+    {
+      "id": 10,
+      "name": "surface adlayers",
+      "definition": "Papers related to the adsorption of layers on surfaces."
+    },
+    {
+      "id": 11,
+      "name": "bootstrap random walks",
+      "definition": "Papers related to random walks using bootstrap methods."
+    },
+    {
+      "id": 12,
+      "name": "statistical ranking",
+      "definition": "Papers related to the statistical ranking of data."
+    },
+    {
+      "id": 13,
+      "name": "speech recognition",
+      "definition": "Papers related to the recognition of speech."
+    },
+    {
+      "id": 14,
+      "name": "semigroupoid algebras",
+      "definition": "Papers related to algebras of semigroupoids."
+    },
+    {
+      "id": 15,
+      "name": "investment decision-making",
+      "definition": "Papers related to decision-making in investments."
+    },
+    {
+      "id": 16,
+      "name": "Coq formalization",
+      "definition": "Papers related to formalization using the Coq proof assistant."
+    },
+    {
+      "id": 17,
+      "name": "power law",
+      "definition": "Papers related to power law distributions."
+    },
+    {
+      "id": 18,
+      "name": "geomagnetic field",
+      "definition": "Papers related to the Earth's geomagnetic field."
+    },
+    {
+      "id": 19,
+      "name": "star formation",
+      "definition": "Papers related to the formation of stars."
+    },
+    {
+      "id": 20,
+      "name": "superconductor synthesis",
+      "definition": "Papers related to the synthesis of superconducting materials."
+    },
+    {
+      "id": 21,
+      "name": "text recognition challenge",
+      "definition": "Papers related to challenges in recognizing text."
+    },
+    {
+      "id": 22,
+      "name": "graph optimization",
+      "definition": "Papers related to optimization on graphs."
+    },
+    {
+      "id": 23,
+      "name": "Hodge modules",
+      "definition": "Papers related to mixed Hodge modules."
+    },
+    {
+      "id": 24,
+      "name": "complex manifolds",
+      "definition": "Papers related to manifolds with complex structures."
+    },
+    {
+      "id": 25,
+      "name": "Transformer-based ASR",
+      "definition": "Papers related to automatic speech recognition using Transformer models."
+    }
+  ]
+}

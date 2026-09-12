@@ -1,0 +1,72 @@
+{
+  "bench": "massive_domain",
+  "run": 6,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms & Timers",
+      "definition": "Setting, checking, and managing alarms and timers."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Reminders",
+      "definition": "Managing events, appointments, to-do lists, and reminders."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "Sending, receiving, and managing emails, messages, and social media posts."
+    },
+    {
+      "id": 4,
+      "name": "Device Control & Smart Home",
+      "definition": "Controlling smart home devices, appliances, and device settings like volume or lights."
+    },
+    {
+      "id": 5,
+      "name": "Information Retrieval",
+      "definition": "Asking for facts, definitions, general knowledge, recipes, financial data, or summaries."
+    },
+    {
+      "id": 6,
+      "name": "Media Playback & Control",
+      "definition": "Playing, pausing, resuming, and controlling music, podcasts, audiobooks, radio, and videos."
+    },
+    {
+      "id": 7,
+      "name": "Navigation & Travel",
+      "definition": "Getting directions, traffic updates, booking rides, or finding public transport information."
+    },
+    {
+      "id": 8,
+      "name": "News & Current Events",
+      "definition": "Accessing headlines, specific news topics, and current affairs."
+    },
+    {
+      "id": 9,
+      "name": "Weather",
+      "definition": "Checking current weather conditions, forecasts, and related advice."
+    },
+    {
+      "id": 10,
+      "name": "Shopping & Ordering",
+      "definition": "Finding nearby shops, ordering food or products, managing shopping lists, and checking order status."
+    },
+    {
+      "id": 11,
+      "name": "Personal Interaction & Entertainment",
+      "definition": "Engaging in casual conversation, asking personal questions to the assistant, playing games, or telling jokes."
+    },
+    {
+      "id": 12,
+      "name": "Contact Management",
+      "definition": "Storing, retrieving, and managing contact information."
+    },
+    {
+      "id": 13,
+      "name": "Customer Service & Feedback",
+      "definition": "Interacting with customer service, making complaints, or providing feedback to companies."
+    }
+  ]
+}

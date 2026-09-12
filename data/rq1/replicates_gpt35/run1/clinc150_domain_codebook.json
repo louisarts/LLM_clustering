@@ -1,0 +1,80 @@
+{
+  "bench": "clinc150_domain",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "fresh",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Mathematics",
+      "definition": "Utterances related to mathematical calculations or operations"
+    },
+    {
+      "id": 2,
+      "name": "Cooking",
+      "definition": "Utterances related to cooking or meal preparation"
+    },
+    {
+      "id": 3,
+      "name": "Personalization",
+      "definition": "Utterances related to personal preferences or names"
+    },
+    {
+      "id": 4,
+      "name": "Navigation",
+      "definition": "Utterances related to directions or location"
+    },
+    {
+      "id": 5,
+      "name": "Time",
+      "definition": "Utterances related to time or scheduling"
+    },
+    {
+      "id": 6,
+      "name": "Travel",
+      "definition": "Utterances related to travel arrangements or bookings"
+    },
+    {
+      "id": 7,
+      "name": "Entertainment",
+      "definition": "Utterances related to music, jokes, or entertainment requests"
+    },
+    {
+      "id": 8,
+      "name": "Financial",
+      "definition": "Utterances related to banking, credit cards, or financial transactions"
+    },
+    {
+      "id": 9,
+      "name": "Health",
+      "definition": "Utterances related to health, nutrition, or medical inquiries"
+    },
+    {
+      "id": 10,
+      "name": "Technology",
+      "definition": "Utterances related to technology, devices, or troubleshooting"
+    },
+    {
+      "id": 11,
+      "name": "Shopping",
+      "definition": "Utterances related to shopping, orders, or product inquiries"
+    },
+    {
+      "id": 12,
+      "name": "Communication",
+      "definition": "Utterances related to communication, calls, or messages"
+    },
+    {
+      "id": 13,
+      "name": "Transportation",
+      "definition": "Utterances related to transportation, ridesharing, or vehicle-related queries"
+    },
+    {
+      "id": 14,
+      "name": "General Inquiry",
+      "definition": "Utterances seeking general information or assistance"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "bench": "dbpedia",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Educational Institution",
+      "definition": "An organization providing educational services, such as schools and universities."
+    },
+    {
+      "id": 2,
+      "name": "Politician",
+      "definition": "An individual involved in politics, often holding or having held a political office."
+    },
+    {
+      "id": 3,
+      "name": "Film",
+      "definition": "A motion picture or movie, including documentaries and feature films."
+    },
+    {
+      "id": 4,
+      "name": "Building or Structure",
+      "definition": "A constructed edifice or facility, such as towers, churches, and historical buildings."
+    },
+    {
+      "id": 5,
+      "name": "Company or Organization",
+      "definition": "A business or non-profit entity, including corporations, firms, and associations."
+    },
+    {
+      "id": 6,
+      "name": "Village or Town",
+      "definition": "A small settlement or community, often in rural areas."
+    },
+    {
+      "id": 7,
+      "name": "Album",
+      "definition": "A collection of audio recordings issued as a single item, typically on CD, vinyl, or digital formats."
+    },
+    {
+      "id": 8,
+      "name": "Professional Athlete",
+      "definition": "An individual who competes in sports at a professional level."
+    },
+    {
+      "id": 9,
+      "name": "Species",
+      "definition": "A group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding."
+    },
+    {
+      "id": 10,
+      "name": "Book or Novel",
+      "definition": "A written or printed work consisting of pages bound together, typically a narrative or scholarly work."
+    },
+    {
+      "id": 11,
+      "name": "Musician or Band",
+      "definition": "An individual or group that performs music, either as singers or instrumentalists."
+    },
+    {
+      "id": 12,
+      "name": "Historical Event or Object",
+      "definition": "An occurrence or item of historical significance, such as battleships or historical artifacts."
+    },
+    {
+      "id": 13,
+      "name": "Journal or Magazine",
+      "definition": "A periodical publication containing articles and illustrations, often on a particular subject or aimed at a particular readership."
+    },
+    {
+      "id": 14,
+      "name": "Geographical Feature",
+      "definition": "A natural or man-made feature of the Earth's surface, such as mountains, rivers, or lakes."
+    },
+    {
+      "id": 15,
+      "name": "Cultural or Religious Site",
+      "definition": "A location of cultural or religious significance, such as temples, churches, or heritage sites."
+    },
+    {
+      "id": 16,
+      "name": "Transportation",
+      "definition": "A means or system of transporting people or goods, such as vehicles, ships, or aircraft."
+    },
+    {
+      "id": 17,
+      "name": "Art or Artist",
+      "definition": "A work of art or an individual who creates art, including painters, sculptors, and other visual artists."
+    },
+    {
+      "id": 18,
+      "name": "Government or Military Entity",
+      "definition": "An organization or unit within the government or military, such as departments, agencies, or military units."
+    },
+    {
+      "id": 19,
+      "name": "Technology or Software",
+      "definition": "A product or system related to technology or software, including hardware, applications, and IT companies."
+    },
+    {
+      "id": 20,
+      "name": "Historical Figure",
+      "definition": "An individual from history known for their contributions or significance in a particular field or event."
+    },
+    {
+      "id": 21,
+      "name": "Sporting Event or Team",
+      "definition": "An organized competition or group of athletes participating in a sport."
+    },
+    {
+      "id": 22,
+      "name": "Mythology or Fictional Character",
+      "definition": "A character from mythology or fiction, often part of a larger narrative or cultural tradition."
+    },
+    {
+      "id": 23,
+      "name": "Legal or Political Document",
+      "definition": "A formal document related to law or politics, such as treaties, constitutions, or legislative acts."
+    },
+    {
+      "id": 24,
+      "name": "Food or Beverage",
+      "definition": "An item consumed for nutritional or culinary purposes, including dishes, drinks, and ingredients."
+    },
+    {
+      "id": 25,
+      "name": "Festival or Event",
+      "definition": "A public celebration or gathering, often recurring, centered around a theme or activity."
+    }
+  ]
+}

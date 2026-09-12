@@ -1,0 +1,60 @@
+{
+  "bench": "mtop_domain",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cooking and Recipes",
+      "definition": "Utterances related to cooking methods, recipes, and food preparation."
+    },
+    {
+      "id": 2,
+      "name": "Weather Information",
+      "definition": "Utterances requesting weather forecasts, conditions, or related inquiries."
+    },
+    {
+      "id": 3,
+      "name": "Reminders and Alarms",
+      "definition": "Utterances for setting, modifying, or querying reminders and alarms."
+    },
+    {
+      "id": 4,
+      "name": "Calls and Messaging",
+      "definition": "Utterances related to making phone calls, sending messages, or managing contacts."
+    },
+    {
+      "id": 5,
+      "name": "Events and Schedules",
+      "definition": "Utterances concerning events, appointments, or scheduling inquiries."
+    },
+    {
+      "id": 6,
+      "name": "News and Current Events",
+      "definition": "Utterances requesting news updates or information on current events."
+    },
+    {
+      "id": 7,
+      "name": "Music and Entertainment",
+      "definition": "Utterances related to playing music, recommending shows, or entertainment inquiries."
+    },
+    {
+      "id": 8,
+      "name": "Personal Information",
+      "definition": "Utterances asking for information about people, relationships, or personal details."
+    },
+    {
+      "id": 9,
+      "name": "Timers",
+      "definition": "Utterances for setting, modifying, or querying timers."
+    },
+    {
+      "id": 10,
+      "name": "General Inquiries",
+      "definition": "Utterances that ask for general knowledge or information not covered by other categories."
+    }
+  ]
+}

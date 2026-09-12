@@ -1,0 +1,85 @@
+{
+  "bench": "arxiv_fine",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence"
+    },
+    {
+      "id": 2,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 3,
+      "name": "cs.CV",
+      "definition": "Computer Vision"
+    },
+    {
+      "id": 4,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 5,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 6,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 7,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 8,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 9,
+      "name": "math.AP",
+      "definition": "Analysis of PDEs"
+    },
+    {
+      "id": 10,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 11,
+      "name": "physics.optics",
+      "definition": "Optics"
+    },
+    {
+      "id": 12,
+      "name": "physics.flu-dyn",
+      "definition": "Fluid Dynamics"
+    },
+    {
+      "id": 13,
+      "name": "q-bio.NC",
+      "definition": "Neurons and Cognition"
+    },
+    {
+      "id": 14,
+      "name": "q-fin.CP",
+      "definition": "Computational Finance"
+    },
+    {
+      "id": 15,
+      "name": "q-bio.TO",
+      "definition": "Tissues and Organs"
+    }
+  ]
+}

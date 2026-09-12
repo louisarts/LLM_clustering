@@ -1,0 +1,80 @@
+{
+  "bench": "clinc150_domain",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Requests for current or future weather information."
+    },
+    {
+      "id": 2,
+      "name": "Food and Dining",
+      "definition": "Requests related to food, recipes, restaurants, and dining reservations."
+    },
+    {
+      "id": 3,
+      "name": "Travel and Transportation",
+      "definition": "Requests related to flights, travel plans, transportation, and travel advisories."
+    },
+    {
+      "id": 4,
+      "name": "Finance and Banking",
+      "definition": "Requests related to credit cards, bank accounts, transactions, and financial advice."
+    },
+    {
+      "id": 5,
+      "name": "Reminders and Calendar",
+      "definition": "Requests to set, check, or modify reminders and calendar events."
+    },
+    {
+      "id": 6,
+      "name": "Communication",
+      "definition": "Requests to send messages or make calls."
+    },
+    {
+      "id": 7,
+      "name": "Device Settings",
+      "definition": "Requests to change device settings, such as voice, volume, or factory reset."
+    },
+    {
+      "id": 8,
+      "name": "Location and Navigation",
+      "definition": "Requests for location information or navigation assistance."
+    },
+    {
+      "id": 9,
+      "name": "Entertainment",
+      "definition": "Requests related to music, jokes, or other forms of entertainment."
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge and Information",
+      "definition": "Requests for general information, definitions, or calculations."
+    },
+    {
+      "id": 11,
+      "name": "Health and Nutrition",
+      "definition": "Requests related to health, nutrition facts, or dietary advice."
+    },
+    {
+      "id": 12,
+      "name": "Utilities and Home",
+      "definition": "Requests related to home utilities, such as bills or appliance settings."
+    },
+    {
+      "id": 13,
+      "name": "Personal Information",
+      "definition": "Requests for or about personal information or identity."
+    },
+    {
+      "id": 14,
+      "name": "Technical Support",
+      "definition": "Requests for help with technical issues or device troubleshooting."
+    }
+  ]
+}

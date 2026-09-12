@@ -1,0 +1,114 @@
+{
+  "bench": "fewrel",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Agent-Creation",
+      "definition": "X is the creator, author, designer, architect, composer, or originator of the work, invention, or entity Y."
+    },
+    {
+      "id": 2,
+      "name": "Agent-Role",
+      "definition": "X is a person whose profession, role, or group affiliation is described by Y."
+    },
+    {
+      "id": 3,
+      "name": "Part-Whole",
+      "definition": "X is a component, member, subdivision, or part of the larger entity or group Y."
+    },
+    {
+      "id": 4,
+      "name": "Place-Location",
+      "definition": "X is a geographic entity, facility, or structure located within or situated in the place Y."
+    },
+    {
+      "id": 5,
+      "name": "Product-Producer",
+      "definition": "X is a product, work, or release published, manufactured, developed, or distributed by the company, label, or entity Y."
+    },
+    {
+      "id": 6,
+      "name": "Event-Participant",
+      "definition": "X is an event, competition, or occurrence in which the person, team, or entity Y participated or was involved."
+    },
+    {
+      "id": 7,
+      "name": "Event-Time",
+      "definition": "X is a specific time or year associated with the occurrence of the event Y."
+    },
+    {
+      "id": 8,
+      "name": "Geographic-Feature",
+      "definition": "X is a body of water, mountain, or landform that flows into, is a tributary of, or is part of the geographic feature Y."
+    },
+    {
+      "id": 9,
+      "name": "Administrative-Division",
+      "definition": "X is a city, state, province, or region located within or belonging to the larger administrative area Y."
+    },
+    {
+      "id": 10,
+      "name": "Taxonomic-Classification",
+      "definition": "X is a biological taxon (e.g., species, genus) classified within the higher taxonomic rank or group Y."
+    },
+    {
+      "id": 11,
+      "name": "Family-Relation",
+      "definition": "X is a person related by blood, marriage, or lineage to the person Y."
+    },
+    {
+      "id": 12,
+      "name": "Succession",
+      "definition": "X is an entity that precedes, succeeds, or replaces Y in a sequence, series, or order."
+    },
+    {
+      "id": 13,
+      "name": "Award-Nomination",
+      "definition": "X is a work, person, or entity nominated for or winning the award or honor Y."
+    },
+    {
+      "id": 14,
+      "name": "Content-Platform",
+      "definition": "X is a game, software, show, or content released on or broadcast by the platform, console, or network Y."
+    },
+    {
+      "id": 15,
+      "name": "Organization-Location",
+      "definition": "X is an organization, team, or institution based in, headquartered in, or representing the location Y."
+    },
+    {
+      "id": 16,
+      "name": "Adaptation-Source",
+      "definition": "X is a work (book, play, etc.) adapted into or serving as the source material for the work Y."
+    },
+    {
+      "id": 17,
+      "name": "Character-Creator",
+      "definition": "X is a fictional character created by or featured in the work by the author or artist Y."
+    },
+    {
+      "id": 18,
+      "name": "Name-Origin",
+      "definition": "X is a name, word, or title derived from, inspired by, or a translation of the name or entity Y."
+    },
+    {
+      "id": 19,
+      "name": "Object-User",
+      "definition": "X is an object, weapon, vehicle, or instrument used by or associated with the person or entity Y."
+    },
+    {
+      "id": 20,
+      "name": "Concept-Field",
+      "definition": "X is a concept, term, or subject defined by or belonging to the field of study or category Y."
+    },
+    {
+      "id": 21,
+      "name": "Entity-Affiliation",
+      "definition": "X is a person or entity affiliated with, employed by, or allied with the organization, group, or entity Y."
+    }
+  ]
+}

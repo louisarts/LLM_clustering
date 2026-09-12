@@ -1,0 +1,757 @@
+[
+ {
+  "id": 1,
+  "name": "check_card_decline_reason",
+  "definition": "User wants to know why a payment card was declined."
+ },
+ {
+  "id": 2,
+  "name": "check_spending",
+  "definition": "User wants to know the amount of money spent over a specific period."
+ },
+ {
+  "id": 3,
+  "name": "define_term",
+  "definition": "User wants a definition or explanation of a specific word or concept."
+ },
+ {
+  "id": 4,
+  "name": "check_vehicle_info",
+  "definition": "User wants information about their vehicle's specifications or requirements."
+ },
+ {
+  "id": 5,
+  "name": "check_speed",
+  "definition": "User wants to know their current rate of travel."
+ },
+ {
+  "id": 6,
+  "name": "get_date",
+  "definition": "User wants to know the current date."
+ },
+ {
+  "id": 7,
+  "name": "change_voice",
+  "definition": "User wants to switch the assistant's voice settings."
+ },
+ {
+  "id": 8,
+  "name": "check_processing_time",
+  "definition": "User wants to know how long a specific process or application will take."
+ },
+ {
+  "id": 9,
+  "name": "check_credit_score",
+  "definition": "User wants to know their credit score."
+ },
+ {
+  "id": 10,
+  "name": "check_location",
+  "definition": "User wants to know their current geographic location."
+ },
+ {
+  "id": 11,
+  "name": "check_recipe_substitution",
+  "definition": "User wants to know if an ingredient can be replaced with another in a recipe."
+ },
+ {
+  "id": 12,
+  "name": "check_international_fees",
+  "definition": "User wants to know about transaction fees for using cards abroad."
+ },
+ {
+  "id": 13,
+  "name": "pay_bill",
+  "definition": "User wants to make a payment on a specific bill."
+ },
+ {
+  "id": 14,
+  "name": "check_cost",
+  "definition": "User wants to know the price of a specific service or item."
+ },
+ {
+  "id": 15,
+  "name": "check_food_safety",
+  "definition": "User wants to know how long food remains safe to eat or drink."
+ },
+ {
+  "id": 16,
+  "name": "check_security_info",
+  "definition": "User wants information regarding the security features of a bank or financial institution."
+ },
+ {
+  "id": 17,
+  "name": "check_payday",
+  "definition": "User wants to know when they will receive their next paycheck."
+ },
+ {
+  "id": 18,
+  "name": "order_checkbook",
+  "definition": "User wants to order a new book of checks."
+ },
+ {
+  "id": 19,
+  "name": "set_volume",
+  "definition": "User wants to adjust the volume level."
+ },
+ {
+  "id": 20,
+  "name": "call_contact",
+  "definition": "User wants to initiate a phone call to a specific person or entity."
+ },
+ {
+  "id": 21,
+  "name": "pick_outfit",
+  "definition": "User wants assistance selecting clothing or an outfit."
+ },
+ {
+  "id": 22,
+  "name": "check_wait_time",
+  "definition": "User wants to know the estimated wait time at a business or location."
+ },
+ {
+  "id": 23,
+  "name": "identify_song",
+  "definition": "User wants to know the title or artist of the currently playing music."
+ },
+ {
+  "id": 24,
+  "name": "transfer_money",
+  "definition": "User wants to move funds between accounts."
+ },
+ {
+  "id": 25,
+  "name": "get_cleaning_advice",
+  "definition": "User wants instructions on how to remove a stain or clean an item."
+ },
+ {
+  "id": 26,
+  "name": "check_room_availability",
+  "definition": "User wants to know if a room is free during a specific time frame."
+ },
+ {
+  "id": 27,
+  "name": "get_cooking_instructions",
+  "definition": "User wants instructions on how to prepare a specific food item."
+ },
+ {
+  "id": 28,
+  "name": "check_calendar",
+  "definition": "User wants to verify if a specific event is scheduled in their calendar."
+ },
+ {
+  "id": 29,
+  "name": "check_maintenance_need",
+  "definition": "User wants advice on whether a specific item needs to be replaced or serviced."
+ },
+ {
+  "id": 30,
+  "name": "check_income",
+  "definition": "User wants to know how much money they earn."
+ },
+ {
+  "id": 31,
+  "name": "check_agent_nature",
+  "definition": "User wants to know if the assistant is a human or an AI."
+ },
+ {
+  "id": 32,
+  "name": "check_travel_requirements",
+  "definition": "User wants to know if specific adapters or plugs are needed for travel."
+ },
+ {
+  "id": 33,
+  "name": "view_transactions",
+  "definition": "User wants to see a list or history of financial transactions."
+ },
+ {
+  "id": 34,
+  "name": "find_recipes",
+  "definition": "User wants to find recipes using specific ingredients."
+ },
+ {
+  "id": 35,
+  "name": "set_appliance_setting",
+  "definition": "User wants to adjust the setting on a smart appliance."
+ },
+ {
+  "id": 36,
+  "name": "get_origin_info",
+  "definition": "User wants to know where the assistant comes from or its background."
+ },
+ {
+  "id": 37,
+  "name": "set_nickname",
+  "definition": "User wants the assistant to refer to them by a specific name."
+ },
+ {
+  "id": 38,
+  "name": "find_games",
+  "definition": "User wants recommendations for games on a specific platform."
+ },
+ {
+  "id": 39,
+  "name": "request_credit_limit_increase",
+  "definition": "User wants to increase the spending limit on a credit card."
+ },
+ {
+  "id": 40,
+  "name": "restore_settings",
+  "definition": "User wants to revert settings to a previous or default state."
+ },
+ {
+  "id": 41,
+  "name": "check_fuel_economy",
+  "definition": "User wants to know the fuel efficiency of their vehicle."
+ },
+ {
+  "id": 42,
+  "name": "check_nutrition_info",
+  "definition": "User wants nutritional information about a specific food item."
+ },
+ {
+  "id": 43,
+  "name": "check_card_expiry",
+  "definition": "User wants to know when their payment card expires."
+ },
+ {
+  "id": 44,
+  "name": "view_reminders",
+  "definition": "User wants to see a list of their reminders."
+ },
+ {
+  "id": 45,
+  "name": "explain_concept",
+  "definition": "User wants an explanation of why a specific concept is important."
+ },
+ {
+  "id": 46,
+  "name": "check_pto_balance",
+  "definition": "User wants to know their remaining paid time off balance."
+ },
+ {
+  "id": 47,
+  "name": "get_financial_advice",
+  "definition": "User wants advice on managing or reducing debt."
+ },
+ {
+  "id": 48,
+  "name": "calculate_math",
+  "definition": "User wants to solve a mathematical problem."
+ },
+ {
+  "id": 49,
+  "name": "check_interest_rate",
+  "definition": "Check the current interest rate on a financial account or product."
+ },
+ {
+  "id": 50,
+  "name": "check_tax_info",
+  "definition": "Inquire about tax amounts, forms, or status."
+ },
+ {
+  "id": 51,
+  "name": "check_price",
+  "definition": "Find the cost or price of a product or service."
+ },
+ {
+  "id": 52,
+  "name": "career_advice",
+  "definition": "Seek advice or resources regarding job placement, career advancement, or professional development."
+ },
+ {
+  "id": 53,
+  "name": "check_vaccine_requirements",
+  "definition": "Check required or recommended vaccinations for a specific destination."
+ },
+ {
+  "id": 54,
+  "name": "check_water_quality",
+  "definition": "Inquire about the quality, safety, or composition of local water."
+ },
+ {
+  "id": 55,
+  "name": "check_assistant_info",
+  "definition": "Ask about the assistant's age, nature, identity, or capabilities."
+ },
+ {
+  "id": 56,
+  "name": "get_fact",
+  "definition": "Request a random or specific fact or trivia."
+ },
+ {
+  "id": 57,
+  "name": "disable_account",
+  "definition": "Request to disable, unlink, or stop syncing an account or device."
+ },
+ {
+  "id": 58,
+  "name": "check_baggage_policy",
+  "definition": "Inquire about airline baggage policies, including carry-on and checked luggage rules."
+ },
+ {
+  "id": 59,
+  "name": "check_reminders",
+  "definition": "View or listen to the list of current reminders."
+ },
+ {
+  "id": 60,
+  "name": "check_time_off_balance",
+  "definition": "Check the remaining balance of vacation days, PTO, or time off."
+ },
+ {
+  "id": 61,
+  "name": "suggest_meal",
+  "definition": "Get a suggestion for a meal or cuisine, often specific to a region or type."
+ },
+ {
+  "id": 62,
+  "name": "affirm",
+  "definition": "Confirm a previous prompt or express agreement."
+ },
+ {
+  "id": 63,
+  "name": "search_howto",
+  "definition": "Search for instructions, tutorials, or guides on how to perform a task."
+ },
+ {
+  "id": 64,
+  "name": "check_payment_amount",
+  "definition": "Determine the amount due for a payment or bill."
+ },
+ {
+  "id": 65,
+  "name": "check_plug_type",
+  "definition": "Find out the electrical plug or voltage type used in a specific location."
+ },
+ {
+  "id": 66,
+  "name": "convert_units",
+  "definition": "Convert a value from one unit of measurement to another."
+ },
+ {
+  "id": 67,
+  "name": "check_rate_quality",
+  "definition": "Evaluate whether an interest rate or financial metric is good or bad."
+ },
+ {
+  "id": 68,
+  "name": "check_assistant_relationship",
+  "definition": "Inquire about the assistant's relationship to the user or other people."
+ },
+ {
+  "id": 69,
+  "name": "check_reservation_availability",
+  "definition": "Check if a restaurant or venue takes reservations."
+ },
+ {
+  "id": 70,
+  "name": "request_time_off",
+  "definition": "Initiate a request for vacation or time off."
+ },
+ {
+  "id": 71,
+  "name": "rent_vehicle",
+  "definition": "Book or rent a vehicle for a specific period and location."
+ },
+ {
+  "id": 72,
+  "name": "spelling",
+  "definition": "Request the spelling of a specific word."
+ },
+ {
+  "id": 73,
+  "name": "check_weather",
+  "definition": "Check the weather conditions for a specific location."
+ },
+ {
+  "id": 74,
+  "name": "get_hygiene_advice",
+  "definition": "Ask for methods or advice regarding hygiene or killing microbes."
+ },
+ {
+  "id": 75,
+  "name": "check_capabilities",
+  "definition": "Ask what the assistant is capable of doing."
+ },
+ {
+  "id": 76,
+  "name": "transfer_retirement_funds",
+  "definition": "Request assistance with transferring retirement funds like a 401k."
+ },
+ {
+  "id": 77,
+  "name": "check_todo_list",
+  "definition": "View the items on a to-do list."
+ },
+ {
+  "id": 78,
+  "name": "check_flight_status",
+  "definition": "Check the current status or schedule of a flight."
+ },
+ {
+  "id": 79,
+  "name": "translate",
+  "definition": "Translate a phrase or word into a different language."
+ },
+ {
+  "id": 80,
+  "name": "define_slang",
+  "definition": "Ask for the definition of a slang word or neologism."
+ },
+ {
+  "id": 81,
+  "name": "report_transaction_issue",
+  "definition": "Report a fraudulent, unrecognized, or problematic transaction."
+ },
+ {
+  "id": 82,
+  "name": "play_game",
+  "definition": "Initiate or play a game with the assistant."
+ },
+ {
+  "id": 83,
+  "name": "find_parking",
+  "definition": "Find parking locations near a specific destination."
+ },
+ {
+  "id": 84,
+  "name": "check_timezone",
+  "definition": "Check the timezone for a specific location."
+ },
+ {
+  "id": 85,
+  "name": "set_speech_speed",
+  "definition": "Adjust the speed of the assistant's speech."
+ },
+ {
+  "id": 86,
+  "name": "accept_prompt",
+  "definition": "Agree to proceed with a suggested action."
+ },
+ {
+  "id": 87,
+  "name": "check_rating",
+  "definition": "Check the rating or stars for a business or product."
+ },
+ {
+  "id": 88,
+  "name": "fill_form",
+  "definition": "Request the assistant to automatically fill in form fields."
+ },
+ {
+  "id": 89,
+  "name": "suggest_restaurant",
+  "definition": "Get a recommendation for a restaurant."
+ },
+ {
+  "id": 90,
+  "name": "check_procedure_difficulty",
+  "definition": "Inquire about the difficulty or complexity of a procedure, such as closing an account."
+ },
+ {
+  "id": 91,
+  "name": "check_sports_result",
+  "definition": "Find the result or winner of a specific sports game or match."
+ },
+ {
+  "id": 92,
+  "name": "check_purchase_history",
+  "definition": "Check the user's past transactions or history of purchases for specific items or categories."
+ },
+ {
+  "id": 93,
+  "name": "logout",
+  "definition": "Sign out or log out of a user account, service, or device."
+ },
+ {
+  "id": 94,
+  "name": "play_music",
+  "definition": "Play music, playlists, or songs on a connected device or service."
+ },
+ {
+  "id": 95,
+  "name": "book_accommodation",
+  "definition": "Reserve a place to stay, such as a hotel room or rental property."
+ },
+ {
+  "id": 96,
+  "name": "check_goal",
+  "definition": "Check the status, details, or existence of a personal goal set by the user."
+ },
+ {
+  "id": 97,
+  "name": "add_todo",
+  "definition": "Add a new task or item to a to-do list."
+ },
+ {
+  "id": 98,
+  "name": "check_business_hours",
+  "definition": "Check the opening, closing, or operating hours of a business or location."
+ },
+ {
+  "id": 99,
+  "name": "get_conservation_tips",
+  "definition": "Retrieve advice or tips for conserving resources like water or energy."
+ },
+ {
+  "id": 100,
+  "name": "check_vehicle_status",
+  "definition": "Check the current status or specific metrics of a vehicle, such as tire pressure or fuel level."
+ },
+ {
+  "id": 101,
+  "name": "check_vehicle_history",
+  "definition": "Check the history of maintenance, repairs, or usage for a vehicle."
+ },
+ {
+  "id": 102,
+  "name": "find_deals",
+  "definition": "Find current sales, discounts, or special offers from stores."
+ },
+ {
+  "id": 103,
+  "name": "transfer_investment",
+  "definition": "Move funds between investment accounts, such as 401k rollovers."
+ },
+ {
+  "id": 104,
+  "name": "change_language",
+  "definition": "Switch the language used by the assistant for interaction."
+ },
+ {
+  "id": 105,
+  "name": "share_location",
+  "definition": "Share the user's current geographic location with a contact or service."
+ },
+ {
+  "id": 106,
+  "name": "tell_story",
+  "definition": "Narrate a story, either specific or generic, often for entertainment."
+ },
+ {
+  "id": 107,
+  "name": "add_account_user",
+  "definition": "Add a new user or authorized person to an existing account."
+ },
+ {
+  "id": 108,
+  "name": "check_assistant_status",
+  "definition": "Inquire about the assistant's current state, well-being, or status."
+ },
+ {
+  "id": 109,
+  "name": "setup_direct_deposit",
+  "definition": "Set up or configure direct deposit for paychecks or regular payments."
+ },
+ {
+  "id": 110,
+  "name": "check_currency_exchange",
+  "definition": "Check the exchange rate between different currencies."
+ },
+ {
+  "id": 111,
+  "name": "check_travel_alerts",
+  "definition": "Check for travel warnings, alerts, or safety advisories for specific destinations."
+ },
+ {
+  "id": 112,
+  "name": "turn_on",
+  "definition": "Power on or start a specific device, appliance, or system."
+ },
+ {
+  "id": 113,
+  "name": "set_alarm",
+  "definition": "Create or set a new alarm for a specific time."
+ },
+ {
+  "id": 114,
+  "name": "roll_dice",
+  "definition": "Simulate the rolling of dice, often for games or random number generation."
+ },
+ {
+  "id": 115,
+  "name": "disable_sync",
+  "definition": "Stop or disable synchronization between devices or accounts."
+ },
+ {
+  "id": 116,
+  "name": "book_time_off",
+  "definition": "Submit a request or book paid time off (PTO) for specific dates."
+ },
+ {
+  "id": 117,
+  "name": "check_card_delivery",
+  "definition": "Check the delivery status or expedite the shipping of a credit or debit card."
+ },
+ {
+  "id": 118,
+  "name": "report_lost_card",
+  "definition": "Report a lost or stolen bank card to the financial institution."
+ },
+ {
+  "id": 119,
+  "name": "check_market_demand",
+  "definition": "Check the current demand or market trends for specific goods or commodities."
+ },
+ {
+  "id": 120,
+  "name": "check_employer",
+  "definition": "Inquire about the entity or company that employs the assistant or user."
+ },
+ {
+  "id": 121,
+  "name": "check_food_expiry",
+  "definition": "Check how long food items remain fresh or safe to eat."
+ },
+ {
+  "id": 122,
+  "name": "delete_calendar_event",
+  "definition": "Remove a specific event or appointment from the user's calendar."
+ },
+ {
+  "id": 123,
+  "name": "check_bill_due_date",
+  "definition": "Check the due date for a specific bill payment."
+ },
+ {
+  "id": 124,
+  "name": "check_earthquake_info",
+  "definition": "Check for recent seismic activity or earthquake data."
+ },
+ {
+  "id": 125,
+  "name": "get_news",
+  "definition": "Retrieve current news articles, headlines, or updates."
+ },
+ {
+  "id": 126,
+  "name": "set_travel_notice",
+  "definition": "Notify a bank or financial institution of upcoming travel plans to avoid fraud alerts."
+ },
+ {
+  "id": 127,
+  "name": "philosophical_inquiry",
+  "definition": "Ask deep, philosophical, or existential questions that often have no factual answer."
+ },
+ {
+  "id": 128,
+  "name": "political_commentary",
+  "definition": "Express an opinion or ask a question regarding political figures, decisions, or events."
+ },
+ {
+  "id": 129,
+  "name": "report_lost_item",
+  "definition": "Report an item that has been lost, stolen, or disappeared, such as luggage or a phone."
+ },
+ {
+  "id": 130,
+  "name": "check_assistant_background",
+  "definition": "Inquire about the assistant's origin, creation, or personal history."
+ },
+ {
+  "id": 131,
+  "name": "check_maintenance_schedule",
+  "definition": "Check when a specific maintenance task was last performed or when it is due next."
+ },
+ {
+  "id": 132,
+  "name": "find_phone",
+  "definition": "Locate a lost or misplaced phone."
+ },
+ {
+  "id": 133,
+  "name": "add_to_playlist",
+  "definition": "Add a specific song or currently playing media to a playlist."
+ },
+ {
+  "id": 134,
+  "name": "calculate_resistance",
+  "definition": "Calculate electrical resistance or other physics values based on specific parameters."
+ },
+ {
+  "id": 135,
+  "name": "report_card_damage",
+  "definition": "Report a damaged, ruined, or malfunctioning card."
+ },
+ {
+  "id": 136,
+  "name": "dispute_charge",
+  "definition": "Dispute a specific charge or transaction on a bill or account."
+ },
+ {
+  "id": 137,
+  "name": "check_account_status",
+  "definition": "Check the operational status or validity of a bank account."
+ },
+ {
+  "id": 138,
+  "name": "update_insurance",
+  "definition": "Request changes or upgrades to an existing insurance policy."
+ },
+ {
+  "id": 139,
+  "name": "check_apr",
+  "definition": "Check the Annual Percentage Rate (APR) on a credit card or loan."
+ },
+ {
+  "id": 140,
+  "name": "request_ride",
+  "definition": "Request a ride from a transportation service like Uber or Lyft."
+ },
+ {
+  "id": 141,
+  "name": "schedule_appointment",
+  "definition": "Find an available time slot and schedule an appointment or service."
+ },
+ {
+  "id": 142,
+  "name": "track_order",
+  "definition": "Check the current status or location of a placed order."
+ },
+ {
+  "id": 143,
+  "name": "task_not_capable",
+  "definition": "Request a physical action that the assistant is incapable of performing."
+ },
+ {
+  "id": 144,
+  "name": "check_assistant_wellbeing",
+  "definition": "Inquire about the assistant's current state, mood, or how it is doing."
+ },
+ {
+  "id": 145,
+  "name": "apply_credit_card",
+  "definition": "Seek advice or steps on how to acquire or apply for a specific credit card."
+ },
+ {
+  "id": 146,
+  "name": "suggest_gift",
+  "definition": "Get suggestions for a gift to give to someone."
+ },
+ {
+  "id": 147,
+  "name": "get_tax_form",
+  "definition": "Find out where or how to obtain a specific tax form, such as a W2."
+ },
+ {
+  "id": 148,
+  "name": "check_reward_balance",
+  "definition": "Check the number of points, miles, or rewards earned on a loyalty or credit account."
+ },
+ {
+  "id": 149,
+  "name": "get_exercise_advice",
+  "definition": "Get advice on stretches or exercises to prepare for physical activity."
+ },
+ {
+  "id": 150,
+  "name": "check_date",
+  "definition": "Check what the specific date will be on a future day."
+ },
+ {
+  "id": 151,
+  "name": "check_life_meaning",
+  "definition": "Ask philosophical questions regarding the meaning of life."
+ }
+]

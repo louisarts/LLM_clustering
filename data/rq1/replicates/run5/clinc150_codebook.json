@@ -1,0 +1,122 @@
+{
+  "bench": "clinc150",
+  "run": 5,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Retrieval",
+      "definition": "General questions seeking facts, definitions, explanations, trivia, or general recommendations not tied to personal accounts or specific local businesses."
+    },
+    {
+      "id": 2,
+      "name": "Personal Data Inquiry",
+      "definition": "Questions about the user's personal information, status of their accounts (non-financial), devices, or personal schedule."
+    },
+    {
+      "id": 3,
+      "name": "Financial Management",
+      "definition": "Requests or inquiries related to personal finances, bank accounts, credit cards, bills, taxes, and financial transactions, including reporting issues, checking balances, making payments, or requesting services."
+    },
+    {
+      "id": 4,
+      "name": "Local Search & Recommendations",
+      "definition": "Finding businesses, services, points of interest, or recommendations based on location or specific criteria."
+    },
+    {
+      "id": 5,
+      "name": "Booking & Reservations",
+      "definition": "Making, checking, confirming, or canceling reservations for events, travel, dining, or resources."
+    },
+    {
+      "id": 6,
+      "name": "Device & Assistant Control",
+      "definition": "Commands to control the assistant's settings, connected devices, or general system functions."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "Sending messages, making calls, or sharing information with others."
+    },
+    {
+      "id": 8,
+      "name": "Media Control",
+      "definition": "Commands related to playing, pausing, skipping, or identifying media."
+    },
+    {
+      "id": 9,
+      "name": "List Management",
+      "definition": "Creating, checking, or removing items from personal to-do lists, shopping lists, or reminders."
+    },
+    {
+      "id": 10,
+      "name": "Travel Information",
+      "definition": "Inquiries about flights, travel rules, traffic, or general travel advice."
+    },
+    {
+      "id": 11,
+      "name": "Utility",
+      "definition": "Simple tools like calculations, unit conversions, spelling, or random generation."
+    },
+    {
+      "id": 12,
+      "name": "Assistant Self-Referential",
+      "definition": "Questions about the assistant's identity, capabilities, or origin."
+    },
+    {
+      "id": 13,
+      "name": "General Interaction",
+      "definition": "Simple greetings, affirmations, negations, or non-command statements."
+    },
+    {
+      "id": 14,
+      "name": "Location Services",
+      "definition": "Requests related to the user's or a device's current location, or tracking items."
+    },
+    {
+      "id": 15,
+      "name": "Shopping",
+      "definition": "Inquiries or requests related to purchasing products, finding deals, or product availability."
+    },
+    {
+      "id": 16,
+      "name": "Troubleshooting",
+      "definition": "Seeking help or instructions for resolving a problem with a device, vehicle, or personal item."
+    },
+    {
+      "id": 17,
+      "name": "Document Management",
+      "definition": "Requests to retrieve, review, or manage personal documents or files."
+    },
+    {
+      "id": 18,
+      "name": "Web Search",
+      "definition": "Explicit requests to search the web or specific online sources for information, articles, or images."
+    },
+    {
+      "id": 19,
+      "name": "Ride Hailing",
+      "definition": "Requests to order a ride from a service."
+    },
+    {
+      "id": 20,
+      "name": "Alarm & Timer Management",
+      "definition": "Setting, checking, or managing alarms and timers."
+    },
+    {
+      "id": 21,
+      "name": "Weather Information",
+      "definition": "Inquiries about current weather conditions or forecasts."
+    },
+    {
+      "id": 22,
+      "name": "Calendar Management",
+      "definition": "Adding, deleting, or modifying events on a personal calendar."
+    },
+    {
+      "id": 23,
+      "name": "Account Management",
+      "definition": "Inquiries or requests related to managing personal account settings or service plans (non-financial)."
+    }
+  ]
+}

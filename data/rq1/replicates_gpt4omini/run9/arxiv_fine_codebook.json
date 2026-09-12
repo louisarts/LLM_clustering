@@ -1,0 +1,160 @@
+{
+  "bench": "arxiv_fine",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence and its applications."
+    },
+    {
+      "id": 2,
+      "name": "cs.LG",
+      "definition": "Machine Learning and related algorithms."
+    },
+    {
+      "id": 3,
+      "name": "cs.CV",
+      "definition": "Computer Vision and image processing."
+    },
+    {
+      "id": 4,
+      "name": "cs.NE",
+      "definition": "Neural Networks and deep learning."
+    },
+    {
+      "id": 5,
+      "name": "cs.DS",
+      "definition": "Data Structures and algorithms."
+    },
+    {
+      "id": 6,
+      "name": "math.ST",
+      "definition": "Statistics and probability theory."
+    },
+    {
+      "id": 7,
+      "name": "math.AP",
+      "definition": "Applied mathematics and its applications."
+    },
+    {
+      "id": 8,
+      "name": "math.DS",
+      "definition": "Dynamical Systems and differential equations."
+    },
+    {
+      "id": 9,
+      "name": "math.GT",
+      "definition": "Geometry and topology."
+    },
+    {
+      "id": 10,
+      "name": "math.CA",
+      "definition": "Commutative Algebra and related topics."
+    },
+    {
+      "id": 11,
+      "name": "math.NT",
+      "definition": "Number Theory."
+    },
+    {
+      "id": 12,
+      "name": "math.QA",
+      "definition": "Quantum Algebra and related fields."
+    },
+    {
+      "id": 13,
+      "name": "hep-th",
+      "definition": "Theoretical High Energy Physics."
+    },
+    {
+      "id": 14,
+      "name": "astro-ph",
+      "definition": "Astrophysics and cosmology."
+    },
+    {
+      "id": 15,
+      "name": "cond-mat",
+      "definition": "Condensed Matter Physics."
+    },
+    {
+      "id": 16,
+      "name": "stat.ML",
+      "definition": "Statistical Machine Learning."
+    },
+    {
+      "id": 17,
+      "name": "bio.Ph",
+      "definition": "Biophysics and biological applications."
+    },
+    {
+      "id": 18,
+      "name": "quant-ph",
+      "definition": "Quantum Physics and related topics."
+    },
+    {
+      "id": 19,
+      "name": "econ.GN",
+      "definition": "Economics and game theory."
+    },
+    {
+      "id": 20,
+      "name": "stat.AP",
+      "definition": "Applied Statistics."
+    },
+    {
+      "id": 21,
+      "name": "stat.OT",
+      "definition": "Optimal Transport and related fields."
+    },
+    {
+      "id": 22,
+      "name": "stat.ME",
+      "definition": "Mathematical Economics."
+    },
+    {
+      "id": 23,
+      "name": "bio.CB",
+      "definition": "Computational Biology."
+    },
+    {
+      "id": 24,
+      "name": "bio.ME",
+      "definition": "Medical and health-related biology."
+    },
+    {
+      "id": 25,
+      "name": "bio.OM",
+      "definition": "Omics and systems biology."
+    },
+    {
+      "id": 26,
+      "name": "bio.ET",
+      "definition": "Evolutionary Theory."
+    },
+    {
+      "id": 27,
+      "name": "bio.ES",
+      "definition": "Ecology and environmental science."
+    },
+    {
+      "id": 28,
+      "name": "bio.PH",
+      "definition": "Pharmacology and drug development."
+    },
+    {
+      "id": 29,
+      "name": "bio.CE",
+      "definition": "Cellular and molecular biology."
+    },
+    {
+      "id": 30,
+      "name": "bio.ME",
+      "definition": "Medical Engineering."
+    }
+  ]
+}

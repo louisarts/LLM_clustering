@@ -1,0 +1,260 @@
+{
+  "bench": "stackoverflow20",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Subversion (SVN)",
+      "definition": "Version control system for tracking changes in files and coordinating work on those files among multiple people."
+    },
+    {
+      "id": 2,
+      "name": "Git",
+      "definition": "Distributed version control system for tracking changes in source code during software development."
+    },
+    {
+      "id": 3,
+      "name": "Drupal",
+      "definition": "Open-source content management framework written in PHP for building websites and applications."
+    },
+    {
+      "id": 4,
+      "name": "Excel VBA",
+      "definition": "Visual Basic for Applications, a programming language for automating tasks in Microsoft Excel."
+    },
+    {
+      "id": 5,
+      "name": "Python",
+      "definition": "High-level programming language known for its readability and versatility."
+    },
+    {
+      "id": 6,
+      "name": "Django",
+      "definition": "High-level Python web framework that encourages rapid development and clean, pragmatic design."
+    },
+    {
+      "id": 7,
+      "name": "Hibernate",
+      "definition": "Object-relational mapping framework for Java, facilitating database operations."
+    },
+    {
+      "id": 8,
+      "name": "Magento",
+      "definition": "Open-source e-commerce platform written in PHP for online shopping."
+    },
+    {
+      "id": 9,
+      "name": "ASP.NET",
+      "definition": "Web framework for building web applications and services with .NET."
+    },
+    {
+      "id": 10,
+      "name": "Spring",
+      "definition": "Comprehensive framework for enterprise Java development."
+    },
+    {
+      "id": 11,
+      "name": "Cocoa",
+      "definition": "Apple's native object-oriented application programming interface for macOS."
+    },
+    {
+      "id": 12,
+      "name": "MATLAB",
+      "definition": "High-level programming language and environment for numerical computing and visualization."
+    },
+    {
+      "id": 13,
+      "name": "JavaScript",
+      "definition": "High-level, dynamic programming language commonly used for web development."
+    },
+    {
+      "id": 14,
+      "name": "C#",
+      "definition": "Object-oriented programming language developed by Microsoft as part of its .NET initiative."
+    },
+    {
+      "id": 15,
+      "name": "Scala",
+      "definition": "High-level programming language that combines functional and object-oriented programming."
+    },
+    {
+      "id": 16,
+      "name": "SharePoint",
+      "definition": "Web-based collaboration platform that integrates with Microsoft Office."
+    },
+    {
+      "id": 17,
+      "name": "Bash",
+      "definition": "Unix shell and command language for scripting and command-line interface."
+    },
+    {
+      "id": 18,
+      "name": "PL/SQL",
+      "definition": "Procedural language extension for SQL used in Oracle databases."
+    },
+    {
+      "id": 19,
+      "name": "Objective-C",
+      "definition": "General-purpose, object-oriented programming language used for macOS and iOS development."
+    },
+    {
+      "id": 20,
+      "name": "Haskell",
+      "definition": "Statically typed, purely functional programming language with type inference."
+    },
+    {
+      "id": 21,
+      "name": "OpenGL",
+      "definition": "Cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics."
+    },
+    {
+      "id": 22,
+      "name": "Ajax",
+      "definition": "Set of web development techniques using many web technologies on the client side to create asynchronous web applications."
+    },
+    {
+      "id": 23,
+      "name": "XML",
+      "definition": "Markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable."
+    },
+    {
+      "id": 24,
+      "name": "JSON",
+      "definition": "Lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate."
+    },
+    {
+      "id": 25,
+      "name": "C++",
+      "definition": "General-purpose programming language that supports object-oriented, procedural, and generic programming."
+    },
+    {
+      "id": 26,
+      "name": "Nginx",
+      "definition": "High-performance web server and reverse proxy server."
+    },
+    {
+      "id": 27,
+      "name": "WordPress",
+      "definition": "Open-source content management system based on PHP and MySQL."
+    },
+    {
+      "id": 28,
+      "name": "Qt",
+      "definition": "Free and open-source widget toolkit for creating graphical user interfaces as well as cross-platform applications."
+    },
+    {
+      "id": 29,
+      "name": "Oracle",
+      "definition": "Multinational computer technology corporation that offers software, cloud solutions, and hardware products."
+    },
+    {
+      "id": 30,
+      "name": "Visual Studio",
+      "definition": "Integrated development environment from Microsoft for developing applications and services."
+    },
+    {
+      "id": 31,
+      "name": "Apache",
+      "definition": "Open-source web server software that delivers web content."
+    },
+    {
+      "id": 32,
+      "name": "Linux",
+      "definition": "Family of open-source Unix-like operating systems based on the Linux kernel."
+    },
+    {
+      "id": 33,
+      "name": "Cabal",
+      "definition": "System for building and packaging Haskell libraries and programs."
+    },
+    {
+      "id": 34,
+      "name": "GAE (Google App Engine)",
+      "definition": "Platform as a service for developing and hosting web applications in Google-managed data centers."
+    },
+    {
+      "id": 35,
+      "name": "WxWidgets",
+      "definition": "Open-source C++ library for creating graphical user interfaces."
+    },
+    {
+      "id": 36,
+      "name": "Telligent Community Server",
+      "definition": "Community platform for building online communities and social networks."
+    },
+    {
+      "id": 37,
+      "name": "MATLAB Compiler",
+      "definition": "Tool for compiling MATLAB programs into standalone applications."
+    },
+    {
+      "id": 38,
+      "name": "Spring Webflow",
+      "definition": "Framework for building web applications with complex navigation flows."
+    },
+    {
+      "id": 39,
+      "name": "Cocoa Touch",
+      "definition": "UI framework for building software programs to run on iOS."
+    },
+    {
+      "id": 40,
+      "name": "Lift",
+      "definition": "Web framework for Scala that emphasizes functional programming."
+    },
+    {
+      "id": 41,
+      "name": "JPA (Java Persistence API)",
+      "definition": "Java specification for accessing, persisting, and managing data between Java objects and a relational database."
+    },
+    {
+      "id": 42,
+      "name": "REST",
+      "definition": "Architectural style for designing networked applications using stateless communication."
+    },
+    {
+      "id": 43,
+      "name": "C++/CLI",
+      "definition": "Language specification created by Microsoft for the Common Language Infrastructure."
+    },
+    {
+      "id": 44,
+      "name": "Xcode",
+      "definition": "Integrated development environment for macOS containing a suite of software development tools."
+    },
+    {
+      "id": 45,
+      "name": "Django REST Framework",
+      "definition": "Powerful toolkit for building Web APIs in Django."
+    },
+    {
+      "id": 46,
+      "name": "TypeScript",
+      "definition": "Superset of JavaScript that compiles to plain JavaScript."
+    },
+    {
+      "id": 47,
+      "name": "Haxe",
+      "definition": "High-level, cross-platform programming language and compiler."
+    },
+    {
+      "id": 48,
+      "name": "F#",
+      "definition": "Functional-first programming language on the .NET platform."
+    },
+    {
+      "id": 49,
+      "name": "R",
+      "definition": "Programming language and free software environment for statistical computing and graphics."
+    },
+    {
+      "id": 50,
+      "name": "SAS",
+      "definition": "Software suite developed for advanced analytics, business intelligence, data management, and predictive analytics."
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+[
+ {
+  "id": 1,
+  "name": "Book Taxi",
+  "definition": "Requesting a taxi booking service."
+ },
+ {
+  "id": 2,
+  "name": "Schedule Meeting",
+  "definition": "Requesting to schedule a meeting with a specific person at a specific time and location."
+ },
+ {
+  "id": 3,
+  "name": "Get News",
+  "definition": "Requesting the latest news updates."
+ },
+ {
+  "id": 4,
+  "name": "Set Reminder",
+  "definition": "Requesting to be reminded about a specific event or task at a later time."
+ },
+ {
+  "id": 5,
+  "name": "Add Event",
+  "definition": "Requesting to add an event to a calendar or schedule."
+ },
+ {
+  "id": 6,
+  "name": "Get Weather Forecast",
+  "definition": "Requesting the weather forecast for a specific location and time period."
+ },
+ {
+  "id": 7,
+  "name": "Tweet",
+  "definition": "Requesting to post a tweet with a specific message."
+ },
+ {
+  "id": 8,
+  "name": "Check Email",
+  "definition": "Requesting to check email for new messages."
+ },
+ {
+  "id": 9,
+  "name": "Find Nearby Businesses",
+  "definition": "Requesting to find businesses of a specific type within a certain radius."
+ },
+ {
+  "id": 10,
+  "name": "Get Alternative News Source",
+  "definition": "Requesting news from a source different from the user's usual sources."
+ },
+ {
+  "id": 11,
+  "name": "Adjust Volume",
+  "definition": "Requesting to adjust the volume of audio output."
+ },
+ {
+  "id": 12,
+  "name": "Get Contact Information",
+  "definition": "Requesting the contact information for a specific person."
+ },
+ {
+  "id": 13,
+  "name": "Silence Device",
+  "definition": "Requesting to mute or silence the device."
+ },
+ {
+  "id": 14,
+  "name": "Check Upcoming Events",
+  "definition": "Requesting to see a list of upcoming events in the user's calendar."
+ },
+ {
+  "id": 15,
+  "name": "Get Travel Time",
+  "definition": "Requesting to be informed about the optimal departure time for a scheduled event to ensure timely arrival."
+ },
+ {
+  "id": 16,
+  "name": "Add to Shopping List",
+  "definition": "Requesting to add an item to a shopping list."
+ },
+ {
+  "id": 17,
+  "name": "Set News Alert",
+  "definition": "Requesting to be notified about new information on a specific topic."
+ },
+ {
+  "id": 18,
+  "name": "Play Radio",
+  "definition": "Requesting to play radio broadcasts."
+ },
+ {
+  "id": 19,
+  "name": "Check Alarm Status",
+  "definition": "Requesting to confirm if an alarm is set."
+ },
+ {
+  "id": 20,
+  "name": "Get Sports Schedule",
+  "definition": "Requesting information about upcoming games or events for a specific sport."
+ },
+ {
+  "id": 21,
+  "name": "Set Alarm",
+  "definition": "Instructing the assistant to set an alarm for a specific time."
+ },
+ {
+  "id": 22,
+  "name": "Play Music",
+  "definition": "Commanding the assistant to start playing music."
+ },
+ {
+  "id": 23,
+  "name": "Check Email for New Messages",
+  "definition": "Asking the assistant to check for new emails and notify the user."
+ },
+ {
+  "id": 24,
+  "name": "Get TV Show Information",
+  "definition": "Requesting details about a specific TV show, such as plot summaries or episode information."
+ },
+ {
+  "id": 25,
+  "name": "Get Currency Exchange Rate",
+  "definition": "Asking for the current exchange rate between two currencies."
+ },
+ {
+  "id": 26,
+  "name": "Play Music by Artist",
+  "definition": "Requesting the assistant to play music by a specific artist."
+ },
+ {
+  "id": 27,
+  "name": "Get Local Events",
+  "definition": "Asking for information about events happening in a specific location."
+ },
+ {
+  "id": 28,
+  "name": "Get Person's Birth Year",
+  "definition": "Requesting the birth year of a specific person."
+ },
+ {
+  "id": 29,
+  "name": "Provide Legal Consultation",
+  "definition": "Seeking legal advice or information from the assistant."
+ },
+ {
+  "id": 30,
+  "name": "Delete List",
+  "definition": "Commanding the assistant to remove a previously created list."
+ },
+ {
+  "id": 31,
+  "name": "Create List",
+  "definition": "Commanding the assistant to create a new list."
+ },
+ {
+  "id": 32,
+  "name": "Go Back Episode Podcast",
+  "definition": "User wants to return to the previous episode of a podcast they are listening to."
+ },
+ {
+  "id": 33,
+  "name": "Get Time Zone",
+  "definition": "User wants to know the current time in a specific time zone."
+ },
+ {
+  "id": 34,
+  "name": "Get Current Temperature",
+  "definition": "User wants to know the current temperature."
+ },
+ {
+  "id": 35,
+  "name": "Play Music Genre",
+  "definition": "User wants to play music of a specific genre."
+ },
+ {
+  "id": 36,
+  "name": "Tell Joke",
+  "definition": "User wants to hear a joke."
+ },
+ {
+  "id": 37,
+  "name": "Check Time",
+  "definition": "User wants to know the current time."
+ },
+ {
+  "id": 38,
+  "name": "Create Event",
+  "definition": "User wants to create an event on their calendar."
+ },
+ {
+  "id": 39,
+  "name": "Play Game",
+  "definition": "User wants to play a game with the assistant."
+ },
+ {
+  "id": 40,
+  "name": "Adjust Lights",
+  "definition": "User wants to change the brightness of the lights."
+ },
+ {
+  "id": 41,
+  "name": "Respond to Email",
+  "definition": "User wants to compose a reply to an email."
+ },
+ {
+  "id": 42,
+  "name": "Schedule Event",
+  "definition": "User wants to schedule an event on their calendar."
+ },
+ {
+  "id": 43,
+  "name": "Get Person's Height",
+  "definition": "User wants to know the height of a person."
+ },
+ {
+  "id": 44,
+  "name": "Discuss Sentience",
+  "definition": "User wants to have a conversation about the concept of artificial sentience."
+ },
+ {
+  "id": 45,
+  "name": "Play Radio Station",
+  "definition": "User wants to play a specific radio station."
+ },
+ {
+  "id": 46,
+  "name": "Check New Emails",
+  "definition": "User wants to see if they have any new emails."
+ },
+ {
+  "id": 47,
+  "name": "Delete Calendar Item",
+  "definition": "Deleting a specific event from the user's calendar."
+ },
+ {
+  "id": 48,
+  "name": "Get Train Schedule",
+  "definition": "Requesting information about upcoming train departures for a specific destination."
+ },
+ {
+  "id": 49,
+  "name": "Get Current Time in Location",
+  "definition": "Asking for the current time in a specified city or region."
+ },
+ {
+  "id": 50,
+  "name": "Manage Tasks",
+  "definition": "Interacting with a task list, including adding, deleting, or viewing tasks."
+ },
+ {
+  "id": 51,
+  "name": "Get User Statistics",
+  "definition": "Requesting information about the user's past interactions or usage patterns."
+ },
+ {
+  "id": 52,
+  "name": "Get Traffic Conditions",
+  "definition": "Inquiring about current traffic conditions on a specific road or route."
+ },
+ {
+  "id": 53,
+  "name": "Show Local Events",
+  "definition": "Displaying a list of events happening in a particular location."
+ },
+ {
+  "id": 54,
+  "name": "List Contents",
+  "definition": "Requesting to see the items in a specific list."
+ },
+ {
+  "id": 55,
+  "name": "Get Directions",
+  "definition": "Asking for navigation instructions from the user's current location to a destination."
+ },
+ {
+  "id": 56,
+  "name": "Set Birthday Reminder",
+  "definition": "Creating a reminder for a specific date, such as a birthday."
+ },
+ {
+  "id": 57,
+  "name": "Send Email",
+  "definition": "Composing and sending an email message."
+ },
+ {
+  "id": 58,
+  "name": "Get Flight Information",
+  "definition": "Searching for and retrieving details about flight fares and schedules."
+ },
+ {
+  "id": 59,
+  "name": "Get Company Information",
+  "definition": "Requesting details about a particular company, such as its performance or news."
+ }
+]

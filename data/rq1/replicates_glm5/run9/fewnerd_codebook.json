@@ -1,0 +1,89 @@
+{
+  "bench": "fewnerd",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, including historical figures, fictional characters, and deities."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "A geographical entity such as a city, country, body of water, landform, or astronomical feature."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "An organized body of people with a particular purpose, including companies, institutions, sports teams, and government bodies."
+    },
+    {
+      "id": 4,
+      "name": "Creative Work",
+      "definition": "An artistic or intellectual production, such as a film, book, song, album, television series, or video game."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "A significant occurrence or happening, including battles, sports competitions, festivals, and historical incidents."
+    },
+    {
+      "id": 6,
+      "name": "Biological Entity",
+      "definition": "A living organism or biological classification, including species of animals, plants, and specific proteins or genes."
+    },
+    {
+      "id": 7,
+      "name": "Artifact",
+      "definition": "A man-made object, including vehicles, weapons, buildings, infrastructure, and products."
+    },
+    {
+      "id": 8,
+      "name": "Group",
+      "definition": "A collection of people or animals identified by a shared characteristic, nationality, ethnicity, or affiliation."
+    },
+    {
+      "id": 9,
+      "name": "Language",
+      "definition": "A system of communication used by a particular community or country."
+    },
+    {
+      "id": 10,
+      "name": "Disease",
+      "definition": "A disorder of structure or function in a human, animal, or plant."
+    },
+    {
+      "id": 11,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 12,
+      "name": "Award",
+      "definition": "A prize or other mark of recognition given in honor of an achievement."
+    },
+    {
+      "id": 13,
+      "name": "Legislation",
+      "definition": "A law or set of laws enacted by a legislative body."
+    },
+    {
+      "id": 14,
+      "name": "Chemical Substance",
+      "definition": "A distinct molecular entity or substance with a specific chemical composition."
+    },
+    {
+      "id": 15,
+      "name": "Title",
+      "definition": "A descriptive heading or caption, including honorifics, position names, and descriptive labels."
+    },
+    {
+      "id": 16,
+      "name": "Concept",
+      "definition": "An abstract idea or general notion, such as a philosophical concept, theory, or demographic."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "bench": "clinc150",
+  "run": 6,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Query: General",
+      "definition": "User asks for facts, definitions, explanations, general knowledge, recommendations, or translations on various topics."
+    },
+    {
+      "id": 2,
+      "name": "Information Query: How-To & Instructions",
+      "definition": "User asks for steps, procedures, or advice on how to perform a task or solve a problem."
+    },
+    {
+      "id": 3,
+      "name": "Information Query: Personal Data",
+      "definition": "User asks for specific personal information stored or managed by the assistant, such as financial details, time off, or schedule."
+    },
+    {
+      "id": 4,
+      "name": "Information Query: Contextual",
+      "definition": "User asks for information specific to a current context, such as weather, traffic, time, or details about their vehicle, food, or financial products."
+    },
+    {
+      "id": 5,
+      "name": "Financial Account Management",
+      "definition": "User requests actions to manage their financial accounts, such as setting up direct deposit, blocking a card, or reporting fraud."
+    },
+    {
+      "id": 6,
+      "name": "Financial Transaction",
+      "definition": "User requests to perform a financial transaction, such as transferring funds, making a payment, or rolling over an account."
+    },
+    {
+      "id": 7,
+      "name": "Scheduling & Reservations",
+      "definition": "User requests to create, check, confirm, or cancel appointments or reservations."
+    },
+    {
+      "id": 8,
+      "name": "List Management",
+      "definition": "User requests to add, remove, read, create, clear, or check items on a list."
+    },
+    {
+      "id": 9,
+      "name": "Assistant Control",
+      "definition": "User requests to change how the assistant operates, such as repeating speech, adjusting volume, or changing language."
+    },
+    {
+      "id": 10,
+      "name": "Assistant Personalization",
+      "definition": "User requests to change how the assistant refers to them or itself."
+    },
+    {
+      "id": 11,
+      "name": "Assistant Information Query",
+      "definition": "User asks questions about the assistant's identity, origin, or capabilities."
+    },
+    {
+      "id": 12,
+      "name": "Device Connection & Sync",
+      "definition": "User requests to connect, pair, or synchronize the assistant with a device, or to disconnect."
+    },
+    {
+      "id": 13,
+      "name": "Locate Item",
+      "definition": "User requests to find a lost physical item or determine the location of a person."
+    },
+    {
+      "id": 14,
+      "name": "Media Interaction",
+      "definition": "User requests to search for, play, identify, or manage media content."
+    },
+    {
+      "id": 15,
+      "name": "Shopping & Ordering",
+      "definition": "User requests to purchase an item or search for products to buy."
+    },
+    {
+      "id": 16,
+      "name": "Status Update",
+      "definition": "User asks for the current status of an ongoing process, application, order, or physical item."
+    },
+    {
+      "id": 17,
+      "name": "Travel Planning & Search",
+      "definition": "User requests to search for travel options like flights, hotels, or public transport schedules."
+    },
+    {
+      "id": 18,
+      "name": "Utility & Randomization",
+      "definition": "User requests a simple utility function or a random outcome."
+    },
+    {
+      "id": 19,
+      "name": "Web Search",
+      "definition": "User explicitly asks the assistant to perform a web search for a query."
+    },
+    {
+      "id": 20,
+      "name": "Car Problem Diagnosis",
+      "definition": "User describes a car problem and seeks initial diagnosis or advice."
+    },
+    {
+      "id": 21,
+      "name": "Device Control: Smart Home",
+      "definition": "User requests to control a smart home device or appliance."
+    },
+    {
+      "id": 22,
+      "name": "Location Sharing",
+      "definition": "User requests to share their current location with another person."
+    },
+    {
+      "id": 23,
+      "name": "Note Management",
+      "definition": "User requests to manage a note, such as marking it as important."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "bench": "clinc150_domain",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Device Control",
+      "definition": "Commands related to controlling the device or assistant settings."
+    },
+    {
+      "id": 2,
+      "name": "Calendar and Reminders",
+      "definition": "Requests related to managing calendar events and reminders."
+    },
+    {
+      "id": 3,
+      "name": "Travel and Navigation",
+      "definition": "Queries and requests related to travel, navigation, and transportation."
+    },
+    {
+      "id": 4,
+      "name": "Finance and Banking",
+      "definition": "Inquiries and actions related to financial accounts, transactions, and banking."
+    },
+    {
+      "id": 5,
+      "name": "Food and Cooking",
+      "definition": "Questions and requests related to recipes, ingredients, and dining."
+    },
+    {
+      "id": 6,
+      "name": "Health and Wellness",
+      "definition": "Inquiries related to health, wellness, and medical information."
+    },
+    {
+      "id": 7,
+      "name": "Entertainment and Media",
+      "definition": "Requests related to music, movies, and other forms of entertainment."
+    },
+    {
+      "id": 8,
+      "name": "Communication",
+      "definition": "Requests to send messages or make calls."
+    },
+    {
+      "id": 9,
+      "name": "Weather and Time",
+      "definition": "Inquiries about the current weather or time-related questions."
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge and Trivia",
+      "definition": "Questions seeking factual information or trivia."
+    },
+    {
+      "id": 11,
+      "name": "Shopping and Orders",
+      "definition": "Requests related to shopping lists, orders, and deliveries."
+    },
+    {
+      "id": 12,
+      "name": "Automotive",
+      "definition": "Inquiries related to car maintenance and specifications."
+    },
+    {
+      "id": 13,
+      "name": "Language and Spelling",
+      "definition": "Requests for spelling or language-related information."
+    },
+    {
+      "id": 14,
+      "name": "Personal Information",
+      "definition": "Questions about the assistant's identity or personal preferences."
+    },
+    {
+      "id": 15,
+      "name": "Utilities and Bills",
+      "definition": "Requests related to paying or managing utility bills."
+    },
+    {
+      "id": 16,
+      "name": "Employment and Benefits",
+      "definition": "Inquiries related to work, vacation, and employment benefits."
+    }
+  ]
+}

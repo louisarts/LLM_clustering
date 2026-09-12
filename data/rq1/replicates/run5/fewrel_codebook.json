@@ -1,0 +1,62 @@
+{
+  "bench": "fewrel",
+  "run": 5,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "PART_OF_WHOLE",
+      "definition": "One entity is a smaller, integral component or sub-division of a larger entity."
+    },
+    {
+      "id": 2,
+      "name": "LOCATED_IN",
+      "definition": "One entity is physically contained within the geographical boundaries or physical space of another entity."
+    },
+    {
+      "id": 3,
+      "name": "CREATOR_OF",
+      "definition": "One entity is the primary individual or group responsible for originating a creative work, product, or structure."
+    },
+    {
+      "id": 4,
+      "name": "OWNER_OPERATOR_MANAGER",
+      "definition": "One entity holds ownership, operational control, or management responsibility over another entity."
+    },
+    {
+      "id": 5,
+      "name": "CLASSIFICATION_TYPE",
+      "definition": "One entity describes the nature, classification, genre, or defining attribute of another entity."
+    },
+    {
+      "id": 6,
+      "name": "MEMBER_PARTICIPANT",
+      "definition": "One entity is an individual or group belonging to an organization, team, or actively involved in an event."
+    },
+    {
+      "id": 7,
+      "name": "RELATIONSHIP_ASSOCIATION",
+      "definition": "A direct personal, familial, or conceptual link exists between two entities, such as kinship, equivalence, or a strong non-hierarchical connection."
+    },
+    {
+      "id": 8,
+      "name": "WORK_INTERNAL_ELEMENT",
+      "definition": "One entity is a fictional character, a specific part, or an internal element within a creative work."
+    },
+    {
+      "id": 9,
+      "name": "AWARD_DESIGNATION",
+      "definition": "One entity is an official recognition, honor, or formal status granted to another entity."
+    },
+    {
+      "id": 10,
+      "name": "TIME_EVENT",
+      "definition": "One entity represents a specific time or duration during which an event occurred or an action took place."
+    },
+    {
+      "id": 11,
+      "name": "ACTIVITY_PERFORMED",
+      "definition": "One entity represents an action or activity that is carried out by or directly involves the other entity."
+    }
+  ]
+}

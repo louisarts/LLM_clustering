@@ -1,0 +1,82 @@
+[
+ {
+  "id": 1,
+  "name": "Risk Assessment",
+  "definition": "Queries regarding the safety or risk level of specific locations, activities, or behaviors (e.g., beaches, travel, moving around freely)."
+ },
+ {
+  "id": 2,
+  "name": "Case Statistics",
+  "definition": "Requests for quantitative data regarding COVID-19 cases, deaths, recoveries, or other stats for specific regions or globally."
+ },
+ {
+  "id": 3,
+  "name": "Donation",
+  "definition": "User intents expressing a desire to donate money or support to organizations, countries, or groups affected by the pandemic."
+ },
+ {
+  "id": 4,
+  "name": "Prevention",
+  "definition": "Queries seeking advice or methods to stay safe, avoid infection, or stop the spread (e.g., gloves, masks, tips)."
+ },
+ {
+  "id": 5,
+  "name": "Transmission",
+  "definition": "Questions about how the virus spreads, including specific vectors, materials, or interactions (e.g., kissing, surfaces, animals)."
+ },
+ {
+  "id": 6,
+  "name": "Treatments & Cures",
+  "definition": "Queries regarding medical treatments, vaccines, medicines, or procedures to cure or treat COVID-19."
+ },
+ {
+  "id": 7,
+  "name": "News Updates",
+  "definition": "Requests for current news, general updates, or headlines regarding the status of the virus."
+ },
+ {
+  "id": 8,
+  "name": "General Information",
+  "definition": "Broad questions asking for a description, definition, or general information about the coronavirus itself."
+ },
+ {
+  "id": 9,
+  "name": "Symptoms",
+  "definition": "Questions specifically asking about the symptoms of COVID-19."
+ },
+ {
+  "id": 10,
+  "name": "Animals & Pets",
+  "definition": "Questions regarding the transmission, infection, or safety of pets and animals in relation to COVID-19."
+ },
+ {
+  "id": 11,
+  "name": "Greetings & Gratitude",
+  "definition": "Utterances consisting of greetings, thanks, or appreciation directed at the bot."
+ },
+ {
+  "id": 12,
+  "name": "Bot Capability Inquiry",
+  "definition": "Questions asking what the bot knows, what information it can provide, or what services it offers."
+ },
+ {
+  "id": 13,
+  "name": "Social Sharing",
+  "definition": "Requests to share information or content on social media platforms or stories."
+ },
+ {
+  "id": 14,
+  "name": "Travel Advice",
+  "definition": "User intent regarding travel restrictions, safety of travel modes, or advice on cancelling or proceeding with trips."
+ },
+ {
+  "id": 15,
+  "name": "Misinformation",
+  "definition": "User intent to verify or ask about rumors, myths, conspiracy theories, or unverified claims regarding the virus's origin or nature."
+ },
+ {
+  "id": 16,
+  "name": "Testing",
+  "definition": "User intent to inquire about medical screening, checking for symptoms to diagnose the disease, or testing procedures."
+ }
+]

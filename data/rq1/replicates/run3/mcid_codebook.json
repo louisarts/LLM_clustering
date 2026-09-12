@@ -1,0 +1,72 @@
+{
+  "bench": "mcid",
+  "run": 3,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General COVID-19 Information",
+      "definition": "User seeks broad, foundational knowledge or general understanding about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "COVID-19 News & Updates",
+      "definition": "User requests current, time-sensitive information, daily reports, or news from specific regions or sources regarding COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "COVID-19 Symptoms & Diagnosis",
+      "definition": "User asks about symptoms, how to identify the disease, or when to be concerned about potential infection."
+    },
+    {
+      "id": 4,
+      "name": "COVID-19 Transmission",
+      "definition": "User inquires about how the virus spreads, its viability on surfaces, or specific modes of transmission."
+    },
+    {
+      "id": 5,
+      "name": "COVID-19 Prevention & Safety Measures",
+      "definition": "User asks about actions to take to prevent infection, including hygiene, personal protective equipment, and social distancing."
+    },
+    {
+      "id": 6,
+      "name": "COVID-19 Treatment & Recovery",
+      "definition": "User seeks information on available treatments, self-care options, or the recovery process for COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "COVID-19 Vaccines",
+      "definition": "User asks about the development, approval, or effectiveness of vaccines for COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "COVID-19 Myths & Misinformation",
+      "definition": "User seeks to verify or debunk common myths, hoaxes, or misconceptions about COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "COVID-19 Statistics & Data",
+      "definition": "User requests numerical data, case counts, death rates, testing figures, or other statistical information related to COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "COVID-19 Travel & Location Risk",
+      "definition": "User inquires about the safety of travel, identifies high-risk areas, or asks about local restrictions related to COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "COVID-19 & Animals/Pets",
+      "definition": "User asks about the virus's impact on animals, transmission from or to pets, or pet care during the pandemic."
+    },
+    {
+      "id": 12,
+      "name": "Donation & Support for COVID-19 Efforts",
+      "definition": "User expresses intent to offer or find ways to donate money, supplies, or support to individuals or organizations affected by COVID-19."
+    },
+    {
+      "id": 13,
+      "name": "Social Sharing",
+      "definition": "User expresses intent to share information, articles, or the bot service with others."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "bench": "dbpedia",
+  "run": 8,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person (Political/Historical Figure)",
+      "definition": "An individual notable for their role in politics, government, or historical events."
+    },
+    {
+      "id": 2,
+      "name": "Person (Athlete)",
+      "definition": "An individual notable for their achievements in sports."
+    },
+    {
+      "id": 3,
+      "name": "Person (Artist/Writer/Musician)",
+      "definition": "An individual notable for their creative works in arts, literature, or music."
+    },
+    {
+      "id": 4,
+      "name": "Geographical Feature",
+      "definition": "A natural landform, body of water, or a designated geographical area."
+    },
+    {
+      "id": 5,
+      "name": "Plant Species",
+      "definition": "A specific type of plant or a genus of plants."
+    },
+    {
+      "id": 6,
+      "name": "Populated Place",
+      "definition": "A human settlement such as a village, town, or city."
+    },
+    {
+      "id": 7,
+      "name": "Company/Organization",
+      "definition": "A business entity, institution, or group formed for a particular purpose."
+    },
+    {
+      "id": 8,
+      "name": "Book/Literary Work",
+      "definition": "A written work of fiction or non-fiction, including novels, short stories, and graphic novels."
+    },
+    {
+      "id": 9,
+      "name": "Film/TV Series",
+      "definition": "A motion picture, television program, or series."
+    },
+    {
+      "id": 10,
+      "name": "Music Album",
+      "definition": "A collection of musical recordings released together."
+    },
+    {
+      "id": 11,
+      "name": "Building/Structure",
+      "definition": "A permanent construction built for habitation, worship, industry, or other purposes."
+    },
+    {
+      "id": 12,
+      "name": "Vehicle (Land)",
+      "definition": "A machine used for transport on land, such as a car, train, or motorcycle."
+    },
+    {
+      "id": 13,
+      "name": "Vehicle (Water)",
+      "definition": "A machine used for transport on water, such as a ship, ferry, or submarine."
+    },
+    {
+      "id": 14,
+      "name": "Vehicle (Air)",
+      "definition": "A machine used for transport in the air, such as an aircraft."
+    },
+    {
+      "id": 15,
+      "name": "Animal Species",
+      "definition": "A specific type of animal or a genus of animals."
+    },
+    {
+      "id": 16,
+      "name": "Educational Institution",
+      "definition": "An organization dedicated to education, such as a school, college, or university."
+    },
+    {
+      "id": 17,
+      "name": "Publication (Periodical)",
+      "definition": "A publication issued at regular intervals, such as a journal, newspaper, or magazine."
+    },
+    {
+      "id": 18,
+      "name": "Product/Service",
+      "definition": "A commercial offering or utility provided to customers."
+    }
+  ]
+}

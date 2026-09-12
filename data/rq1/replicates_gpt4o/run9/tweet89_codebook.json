@@ -1,0 +1,160 @@
+{
+  "bench": "tweet89",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Christina Aguilera National Anthem Flub",
+      "definition": "Tweets about Christina Aguilera's mistake during the national anthem performance at the Super Bowl."
+    },
+    {
+      "id": 2,
+      "name": "Yemen Protests and Political Unrest",
+      "definition": "Tweets about protests and political developments in Yemen, including President Saleh's decisions."
+    },
+    {
+      "id": 3,
+      "name": "Chipotle Immigration Inspections",
+      "definition": "Tweets about Chipotle facing inspections by Immigration and Customs Enforcement."
+    },
+    {
+      "id": 4,
+      "name": "Dutch-Iran Relations and Execution",
+      "definition": "Tweets about the Dutch government's response to the execution of a Dutch-Iranian woman in Iran."
+    },
+    {
+      "id": 5,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets discussing various commercials aired during the Super Bowl."
+    },
+    {
+      "id": 6,
+      "name": "Rahm Emanuel Chicago Mayoral Candidacy",
+      "definition": "Tweets about Rahm Emanuel's eligibility and candidacy for Chicago mayor."
+    },
+    {
+      "id": 7,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Tweets about the lawsuit claiming Taco Bell's beef is not real beef."
+    },
+    {
+      "id": 8,
+      "name": "Egypt Protests and Journalist Safety",
+      "definition": "Tweets about protests in Egypt and the safety of journalists covering the events."
+    },
+    {
+      "id": 9,
+      "name": "King's Speech and Oscar Nominations",
+      "definition": "Tweets about the film 'The King's Speech' and its nominations for the Oscars."
+    },
+    {
+      "id": 10,
+      "name": "Facebook Privacy Concerns",
+      "definition": "Tweets discussing privacy settings and concerns related to Facebook."
+    },
+    {
+      "id": 11,
+      "name": "Acai Berry and Weight Loss",
+      "definition": "Tweets about the use of acai berry for weight loss and related diet plans."
+    },
+    {
+      "id": 12,
+      "name": "Fishing and Angling",
+      "definition": "Tweets about fishing techniques, reports, and related activities."
+    },
+    {
+      "id": 13,
+      "name": "Super Bowl Recipes",
+      "definition": "Tweets sharing recipes suitable for Super Bowl parties."
+    },
+    {
+      "id": 14,
+      "name": "Judge Strikes Down Health Care Reform",
+      "definition": "Tweets about a federal judge striking down the health care reform law."
+    },
+    {
+      "id": 15,
+      "name": "Giffords Recovery",
+      "definition": "Tweets about the recovery and condition updates of Gabrielle Giffords."
+    },
+    {
+      "id": 16,
+      "name": "Iran Nuclear Developments",
+      "definition": "Tweets about Iran's nuclear program and related international discussions."
+    },
+    {
+      "id": 17,
+      "name": "Concussion and Athlete Safety",
+      "definition": "Tweets discussing concussions in sports and athlete safety measures."
+    },
+    {
+      "id": 18,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Tweets about the murder case of Joanna Yeates and related legal proceedings."
+    },
+    {
+      "id": 19,
+      "name": "Nobel Prize and Wikileaks",
+      "definition": "Tweets discussing Wikileaks and its consideration for the Nobel Peace Prize."
+    },
+    {
+      "id": 20,
+      "name": "Texting and Driving Awareness",
+      "definition": "Tweets promoting awareness about the dangers of texting while driving."
+    },
+    {
+      "id": 21,
+      "name": "Super Bowl Event and Weather",
+      "definition": "Tweets about the Super Bowl event, including weather conditions and related logistics."
+    },
+    {
+      "id": 22,
+      "name": "Piracy and Anti-Piracy Operations",
+      "definition": "Tweets about piracy incidents and anti-piracy operations, particularly in the Gulf of Aden."
+    },
+    {
+      "id": 23,
+      "name": "FDA Approves Premature Birth Drug",
+      "definition": "Tweets about the FDA's approval of a drug to prevent premature births."
+    },
+    {
+      "id": 24,
+      "name": "Identity Theft and Online Security",
+      "definition": "Tweets discussing identity theft and measures for online security."
+    },
+    {
+      "id": 25,
+      "name": "Kardashian Family",
+      "definition": "Tweets about the Kardashian family and related media appearances."
+    },
+    {
+      "id": 26,
+      "name": "Volkswagen Super Bowl Commercial",
+      "definition": "Tweets specifically about Volkswagen's Darth Vader-themed Super Bowl commercial."
+    },
+    {
+      "id": 27,
+      "name": "Aaron Rodgers and Concussion",
+      "definition": "Tweets about Aaron Rodgers' helmet and its role in preventing concussions."
+    },
+    {
+      "id": 28,
+      "name": "Jordan Protests",
+      "definition": "Tweets about protests in Jordan demanding political changes."
+    },
+    {
+      "id": 29,
+      "name": "Iranian-Dutch Woman Execution",
+      "definition": "Tweets about the execution of an Iranian-Dutch woman and the diplomatic fallout."
+    },
+    {
+      "id": 30,
+      "name": "Super Bowl Event and Performances",
+      "definition": "Tweets about performances and events related to the Super Bowl, excluding commercials."
+    }
+  ]
+}

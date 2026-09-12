@@ -1,0 +1,110 @@
+{
+  "bench": "massive_intent",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Grocery List Management",
+      "definition": "Commands to add or remove items from a grocery list."
+    },
+    {
+      "id": 3,
+      "name": "Email Management",
+      "definition": "Requests related to checking, sending, or managing emails."
+    },
+    {
+      "id": 4,
+      "name": "Calendar Management",
+      "definition": "Commands to add, remove, or inquire about calendar events."
+    },
+    {
+      "id": 5,
+      "name": "Task Management",
+      "definition": "Requests to manage tasks or to-do lists."
+    },
+    {
+      "id": 6,
+      "name": "Music Playback",
+      "definition": "Commands to play, pause, or manage music and playlists."
+    },
+    {
+      "id": 7,
+      "name": "Podcast Management",
+      "definition": "Requests to play or manage podcasts."
+    },
+    {
+      "id": 8,
+      "name": "Alarm Management",
+      "definition": "Commands to set, remove, or inquire about alarms."
+    },
+    {
+      "id": 9,
+      "name": "Information Requests",
+      "definition": "Requests for general information or definitions."
+    },
+    {
+      "id": 10,
+      "name": "Travel and Directions",
+      "definition": "Requests for travel information or directions."
+    },
+    {
+      "id": 11,
+      "name": "Reminders",
+      "definition": "Commands to set reminders for tasks or events."
+    },
+    {
+      "id": 12,
+      "name": "Device Control",
+      "definition": "Commands to control smart home devices or appliances."
+    },
+    {
+      "id": 13,
+      "name": "Social Media Management",
+      "definition": "Requests related to posting or checking social media."
+    },
+    {
+      "id": 14,
+      "name": "Recipe Requests",
+      "definition": "Requests for cooking recipes or instructions."
+    },
+    {
+      "id": 15,
+      "name": "News Inquiry",
+      "definition": "Requests for current news or updates."
+    },
+    {
+      "id": 16,
+      "name": "Stock Information",
+      "definition": "Requests for stock prices or financial information."
+    },
+    {
+      "id": 17,
+      "name": "Joke Requests",
+      "definition": "Requests for jokes or humorous content."
+    },
+    {
+      "id": 18,
+      "name": "Meeting Management",
+      "definition": "Commands to schedule, inquire about, or manage meetings."
+    },
+    {
+      "id": 19,
+      "name": "General Conversation",
+      "definition": "Casual conversation or personal sharing."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous Commands",
+      "definition": "Commands that do not fit into other categories."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "bench": "massive_domain",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Social Media Interaction",
+      "definition": "Utterances related to posting on social media platforms or interacting with social media accounts."
+    },
+    {
+      "id": 2,
+      "name": "Mathematical Queries",
+      "definition": "Utterances involving mathematical calculations or queries."
+    },
+    {
+      "id": 3,
+      "name": "Music Playback",
+      "definition": "Utterances related to playing music or audio content."
+    },
+    {
+      "id": 4,
+      "name": "Reminder Setting",
+      "definition": "Utterances related to setting reminders or notifications."
+    },
+    {
+      "id": 5,
+      "name": "Email Management",
+      "definition": "Utterances related to sending, replying to, or managing emails."
+    },
+    {
+      "id": 6,
+      "name": "Weather Information",
+      "definition": "Utterances related to checking or receiving weather forecasts."
+    },
+    {
+      "id": 7,
+      "name": "Calendar Management",
+      "definition": "Utterances related to adding, deleting, or checking events on a calendar."
+    },
+    {
+      "id": 8,
+      "name": "Stock Market Queries",
+      "definition": "Utterances related to checking stock prices or details."
+    },
+    {
+      "id": 9,
+      "name": "General Knowledge Queries",
+      "definition": "Utterances involving general knowledge questions or queries."
+    },
+    {
+      "id": 10,
+      "name": "Navigation Assistance",
+      "definition": "Utterances related to finding routes, locations, or travel information."
+    },
+    {
+      "id": 11,
+      "name": "Home Automation",
+      "definition": "Utterances related to controlling home devices or appliances."
+    },
+    {
+      "id": 12,
+      "name": "News Updates",
+      "definition": "Utterances related to receiving news updates or headlines."
+    },
+    {
+      "id": 13,
+      "name": "Contact Information Queries",
+      "definition": "Utterances related to finding or accessing contact information."
+    },
+    {
+      "id": 14,
+      "name": "Recipe Requests",
+      "definition": "Utterances related to requesting or finding recipes."
+    },
+    {
+      "id": 15,
+      "name": "Jokes and Idle Chit Chat",
+      "definition": "Utterances involving jokes, idle conversation, or general chit chat."
+    }
+  ]
+}

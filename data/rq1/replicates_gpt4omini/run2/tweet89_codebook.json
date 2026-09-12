@@ -1,0 +1,85 @@
+{
+  "bench": "tweet89",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Health and Wellness",
+      "definition": "Topics related to health, diet, and wellness, including weight loss and medical treatments."
+    },
+    {
+      "id": 2,
+      "name": "Entertainment and Media",
+      "definition": "Discussions about movies, music, television shows, and celebrity news."
+    },
+    {
+      "id": 3,
+      "name": "Sports",
+      "definition": "Topics related to sports events, athletes, and sports-related news."
+    },
+    {
+      "id": 4,
+      "name": "Politics and Government",
+      "definition": "Discussions about political events, government actions, and political figures."
+    },
+    {
+      "id": 5,
+      "name": "Social Issues",
+      "definition": "Topics related to social justice, protests, and societal challenges."
+    },
+    {
+      "id": 6,
+      "name": "Technology",
+      "definition": "Discussions about technological advancements, gadgets, and digital media."
+    },
+    {
+      "id": 7,
+      "name": "Crime and Law",
+      "definition": "Topics related to criminal activities, legal cases, and law enforcement."
+    },
+    {
+      "id": 8,
+      "name": "Environmental Issues",
+      "definition": "Discussions about environmental concerns, climate change, and conservation."
+    },
+    {
+      "id": 9,
+      "name": "International Affairs",
+      "definition": "Topics related to global events, international relations, and foreign policy."
+    },
+    {
+      "id": 10,
+      "name": "Business and Economy",
+      "definition": "Discussions about economic issues, business news, and financial markets."
+    },
+    {
+      "id": 11,
+      "name": "Travel and Leisure",
+      "definition": "Topics related to travel, tourism, and leisure activities."
+    },
+    {
+      "id": 12,
+      "name": "Food and Recipes",
+      "definition": "Discussions about food, cooking, and recipes."
+    },
+    {
+      "id": 13,
+      "name": "Education",
+      "definition": "Topics related to education, scholarships, and academic news."
+    },
+    {
+      "id": 14,
+      "name": "Crime and Justice",
+      "definition": "Topics related to criminal justice, legal proceedings, and law enforcement actions."
+    },
+    {
+      "id": 15,
+      "name": "Cultural Events",
+      "definition": "Discussions about cultural festivals, art exhibitions, and community events."
+    }
+  ]
+}

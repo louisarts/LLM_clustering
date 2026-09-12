@@ -1,0 +1,90 @@
+{
+  "bench": "clinc150_domain",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Travel and Transportation",
+      "definition": "Requests related to booking flights, hotels, or transportation services."
+    },
+    {
+      "id": 2,
+      "name": "Banking and Finance",
+      "definition": "Inquiries and actions related to bank accounts, credit cards, and financial transactions."
+    },
+    {
+      "id": 3,
+      "name": "Cooking and Recipes",
+      "definition": "Questions and instructions related to cooking, recipes, and food preparation."
+    },
+    {
+      "id": 4,
+      "name": "Music and Entertainment",
+      "definition": "Requests to play music or provide entertainment-related content."
+    },
+    {
+      "id": 5,
+      "name": "Time and Date",
+      "definition": "Inquiries about the current time, date, or scheduling events."
+    },
+    {
+      "id": 6,
+      "name": "Personal Assistant",
+      "definition": "Tasks related to managing personal schedules, reminders, and to-do lists."
+    },
+    {
+      "id": 7,
+      "name": "General Knowledge and Information",
+      "definition": "Requests for general information, facts, or educational content."
+    },
+    {
+      "id": 8,
+      "name": "Utilities and Home Automation",
+      "definition": "Commands related to controlling home devices or utilities."
+    },
+    {
+      "id": 9,
+      "name": "Communication",
+      "definition": "Requests to send messages or share locations with others."
+    },
+    {
+      "id": 10,
+      "name": "Identity and Personalization",
+      "definition": "Requests to change or inquire about personal settings or preferences."
+    },
+    {
+      "id": 11,
+      "name": "Health and Nutrition",
+      "definition": "Inquiries about nutritional information or health-related advice."
+    },
+    {
+      "id": 12,
+      "name": "Automotive",
+      "definition": "Questions and tasks related to vehicle maintenance and specifications."
+    },
+    {
+      "id": 13,
+      "name": "Shopping and Orders",
+      "definition": "Requests related to shopping lists, orders, or product inquiries."
+    },
+    {
+      "id": 14,
+      "name": "Language and Translation",
+      "definition": "Requests for translations or language-related inquiries."
+    },
+    {
+      "id": 15,
+      "name": "Weather and Environment",
+      "definition": "Inquiries about weather conditions or environmental settings."
+    },
+    {
+      "id": 16,
+      "name": "Games and Fun",
+      "definition": "Requests to play games or engage in fun activities."
+    }
+  ]
+}

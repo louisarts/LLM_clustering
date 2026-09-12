@@ -1,0 +1,1510 @@
+{
+  "bench": "arxiv_fine",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 2,
+      "name": "math.AG",
+      "definition": "Algebraic Geometry"
+    },
+    {
+      "id": 3,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 4,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 5,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 6,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 7,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 8,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 9,
+      "name": "math.NA",
+      "definition": "Numerical Analysis"
+    },
+    {
+      "id": 10,
+      "name": "math.AP",
+      "definition": "Analysis of PDEs"
+    },
+    {
+      "id": 11,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 12,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 13,
+      "name": "math.LO",
+      "definition": "Logic"
+    },
+    {
+      "id": 14,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 15,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 16,
+      "name": "math.QA",
+      "definition": "Quantum Algebra"
+    },
+    {
+      "id": 17,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 18,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 19,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 20,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 21,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 22,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence"
+    },
+    {
+      "id": 23,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 24,
+      "name": "cs.CL",
+      "definition": "Computation and Language"
+    },
+    {
+      "id": 25,
+      "name": "cs.CR",
+      "definition": "Cryptography and Security"
+    },
+    {
+      "id": 26,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 27,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 28,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 29,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 30,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 31,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 32,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 33,
+      "name": "cs.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 34,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 35,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 36,
+      "name": "cs.LO",
+      "definition": "Logic in Computer Science"
+    },
+    {
+      "id": 37,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 38,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 39,
+      "name": "cs.DB",
+      "definition": "Databases"
+    },
+    {
+      "id": 40,
+      "name": "cs.AR",
+      "definition": "Hardware Architecture"
+    },
+    {
+      "id": 41,
+      "name": "cs.FL",
+      "definition": "Formal Languages and Automata Theory"
+    },
+    {
+      "id": 42,
+      "name": "cs.CY",
+      "definition": "Computers and Society"
+    },
+    {
+      "id": 43,
+      "name": "cs.GL",
+      "definition": "General Literature"
+    },
+    {
+      "id": 44,
+      "name": "cs.MS",
+      "definition": "Mathematical Software"
+    },
+    {
+      "id": 45,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 46,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 47,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 48,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 49,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 50,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 51,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 52,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 53,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 54,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 55,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 56,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 57,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 58,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 59,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 60,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 61,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 62,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 63,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 64,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 65,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 66,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 67,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 68,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 69,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 70,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 71,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 72,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 73,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 74,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 75,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 76,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 77,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 78,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 79,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 80,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 81,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 82,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 83,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 84,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 85,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 86,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 87,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 88,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 89,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 90,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 91,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 92,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 93,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 94,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 95,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 96,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 97,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 98,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 99,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 100,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 101,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 102,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 103,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 104,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 105,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 106,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 107,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 108,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 109,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 110,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 111,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 112,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 113,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 114,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 115,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 116,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 117,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 118,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 119,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 120,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 121,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 122,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 123,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 124,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 125,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 126,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 127,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 128,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 129,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 130,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 131,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 132,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 133,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 134,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 135,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 136,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 137,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 138,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 139,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 140,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 141,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 142,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 143,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 144,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 145,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 146,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 147,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 148,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 149,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 150,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 151,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 152,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 153,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 154,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 155,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 156,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 157,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 158,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 159,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 160,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 161,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 162,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 163,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 164,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 165,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 166,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 167,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 168,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 169,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 170,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 171,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 172,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 173,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 174,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 175,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 176,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 177,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 178,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 179,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 180,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 181,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 182,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 183,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 184,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 185,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 186,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 187,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 188,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 189,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 190,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 191,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 192,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 193,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 194,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 195,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 196,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 197,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 198,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 199,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 200,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 201,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 202,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 203,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 204,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 205,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 206,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 207,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 208,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 209,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 210,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 211,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 212,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 213,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 214,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 215,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 216,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 217,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 218,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 219,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 220,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 221,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 222,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 223,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 224,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 225,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 226,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 227,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 228,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 229,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 230,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 231,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 232,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 233,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 234,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 235,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 236,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 237,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 238,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 239,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 240,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 241,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 242,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 243,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 244,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 245,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 246,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 247,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 248,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 249,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 250,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 251,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 252,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 253,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 254,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 255,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 256,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 257,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 258,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 259,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 260,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 261,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 262,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 263,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 264,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 265,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 266,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 267,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 268,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 269,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 270,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 271,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 272,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 273,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 274,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 275,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 276,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 277,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 278,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 279,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 280,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 281,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 282,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 283,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 284,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 285,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 286,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 287,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 288,
+      "name": "cs.CG",
+      "definition": "Computational Geometry"
+    },
+    {
+      "id": 289,
+      "name": "cs.GT",
+      "definition": "Computer Science and Game Theory"
+    },
+    {
+      "id": 290,
+      "name": "cs.DM",
+      "definition": "Discrete Mathematics"
+    },
+    {
+      "id": 291,
+      "name": "cs.NE",
+      "definition": "Neural and Evolutionary Computing"
+    },
+    {
+      "id": 292,
+      "name": "cs.CC",
+      "definition": "Computational Complexity"
+    },
+    {
+      "id": 293,
+      "name": "cs.DL",
+      "definition": "Digital Libraries"
+    },
+    {
+      "id": 294,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 295,
+      "name": "cs.IR",
+      "definition": "Information Retrieval"
+    },
+    {
+      "id": 296,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 297,
+      "name": "cs.PF",
+      "definition": "Performance"
+    },
+    {
+      "id": 298,
+      "name": "cs.SD",
+      "definition": "Sound"
+    },
+    {
+      "id": 299,
+      "name": "cs.SE",
+      "definition": "Software Engineering"
+    },
+    {
+      "id": 300,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    }
+  ]
+}

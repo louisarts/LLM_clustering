@@ -1,0 +1,85 @@
+{
+  "bench": "banking77",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Management",
+      "definition": "Inquiries related to account creation, closure, and personal information updates."
+    },
+    {
+      "id": 2,
+      "name": "Card Issues",
+      "definition": "Questions regarding card functionality, loss, theft, and replacement."
+    },
+    {
+      "id": 3,
+      "name": "Transaction Inquiries",
+      "definition": "Queries about specific transactions, including charges, fees, and discrepancies."
+    },
+    {
+      "id": 4,
+      "name": "Transfer Issues",
+      "definition": "Concerns related to sending or receiving money transfers, including failures and delays."
+    },
+    {
+      "id": 5,
+      "name": "Top-Up Problems",
+      "definition": "Issues regarding adding funds to accounts or cards, including failed or pending top-ups."
+    },
+    {
+      "id": 6,
+      "name": "Identity Verification",
+      "definition": "Questions about the process and requirements for verifying identity."
+    },
+    {
+      "id": 7,
+      "name": "Currency Exchange",
+      "definition": "Inquiries about currency conversion rates, fees, and processes."
+    },
+    {
+      "id": 8,
+      "name": "Fees and Charges",
+      "definition": "Questions regarding various fees associated with transactions, cards, and services."
+    },
+    {
+      "id": 9,
+      "name": "Security Concerns",
+      "definition": "Reports of suspicious activity, unauthorized transactions, and account security."
+    },
+    {
+      "id": 10,
+      "name": "Technical Support",
+      "definition": "Requests for assistance with app functionality, payment methods, and technical issues."
+    },
+    {
+      "id": 11,
+      "name": "Virtual Cards",
+      "definition": "Inquiries specifically about virtual cards, including their use and limitations."
+    },
+    {
+      "id": 12,
+      "name": "Payment Methods",
+      "definition": "Questions about accepted payment methods for transactions and top-ups."
+    },
+    {
+      "id": 13,
+      "name": "Direct Debits",
+      "definition": "Concerns regarding unauthorized direct debits and their management."
+    },
+    {
+      "id": 14,
+      "name": "ATM Issues",
+      "definition": "Problems encountered while using ATMs, including withdrawals and card retrieval."
+    },
+    {
+      "id": 15,
+      "name": "Refund Requests",
+      "definition": "Inquiries about obtaining refunds for transactions or services."
+    }
+  ]
+}

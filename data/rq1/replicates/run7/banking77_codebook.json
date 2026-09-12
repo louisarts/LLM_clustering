@@ -1,0 +1,52 @@
+{
+  "bench": "banking77",
+  "run": 7,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Management",
+      "definition": "Queries about ordering, activating, replacing, linking, or general usage of physical or virtual cards, including PIN management, ATM interactions, and associated fees."
+    },
+    {
+      "id": 2,
+      "name": "Card Security & Fraud",
+      "definition": "Queries about lost or stolen cards, unauthorized transactions, freezing accounts due to security concerns, or reporting fraud."
+    },
+    {
+      "id": 3,
+      "name": "Transaction Issues",
+      "definition": "Queries about failed, pending, declined, reverted, or incorrect transactions such as transfers, payments, top-ups, withdrawals, or deposits, including double charges and associated fees."
+    },
+    {
+      "id": 4,
+      "name": "Refunds & Disputes",
+      "definition": "Queries about requesting refunds, disputing charges, or resolving issues with merchants or unrecognized direct debits."
+    },
+    {
+      "id": 5,
+      "name": "Currency Exchange",
+      "definition": "Queries about exchange rates, currency conversion, supported currencies, and associated fees."
+    },
+    {
+      "id": 6,
+      "name": "Account Management",
+      "definition": "Queries about opening, closing, updating personal details, or general access to an account."
+    },
+    {
+      "id": 7,
+      "name": "Identity Verification",
+      "definition": "Queries about the process, requirements, or issues related to verifying identity or source of funds."
+    },
+    {
+      "id": 8,
+      "name": "Top-up Methods",
+      "definition": "Queries about how to add money to an account, supported methods, limits, and associated fees."
+    },
+    {
+      "id": 9,
+      "name": "App/Technical Support",
+      "definition": "Queries about general application functionality issues not related to specific banking transactions or features."
+    }
+  ]
+}

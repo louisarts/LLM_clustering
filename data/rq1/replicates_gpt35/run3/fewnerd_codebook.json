@@ -1,0 +1,60 @@
+{
+  "bench": "fewnerd",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Countries",
+      "definition": "Entities that are recognized as sovereign states"
+    },
+    {
+      "id": 2,
+      "name": "Cities",
+      "definition": "Urban areas with a large population and distinct governance"
+    },
+    {
+      "id": 3,
+      "name": "People",
+      "definition": "Individuals with a distinct identity and role in society"
+    },
+    {
+      "id": 4,
+      "name": "Organizations",
+      "definition": "Groups of people working together towards a common goal"
+    },
+    {
+      "id": 5,
+      "name": "Events",
+      "definition": "Specific occurrences or incidents that take place at a particular time and place"
+    },
+    {
+      "id": 6,
+      "name": "Awards",
+      "definition": "Recognitions or prizes given to individuals or organizations for their achievements"
+    },
+    {
+      "id": 7,
+      "name": "Sports Teams",
+      "definition": "Groups of athletes competing together in various sports"
+    },
+    {
+      "id": 8,
+      "name": "Musical Works",
+      "definition": "Compositions or performances of music created by artists or groups"
+    },
+    {
+      "id": 9,
+      "name": "Artifacts",
+      "definition": "Objects or items of historical, cultural, or artistic significance"
+    },
+    {
+      "id": 10,
+      "name": "Products",
+      "definition": "Goods or items created for sale or distribution"
+    }
+  ]
+}

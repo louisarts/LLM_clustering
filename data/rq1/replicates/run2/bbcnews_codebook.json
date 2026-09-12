@@ -1,0 +1,87 @@
+{
+  "bench": "bbcnews",
+  "run": 2,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics",
+      "definition": "News concerning government, elections, political parties, public policy, and parliamentary affairs."
+    },
+    {
+      "id": 2,
+      "name": "Economy",
+      "definition": "News related to national and international economic conditions, financial markets, trade, and fiscal policy."
+    },
+    {
+      "id": 3,
+      "name": "Business",
+      "definition": "News about companies, industries, corporate activities, mergers, acquisitions, and market performance."
+    },
+    {
+      "id": 4,
+      "name": "Sport",
+      "definition": "News covering competitive athletic events, athletes, teams, and sports organizations."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "News about computing, internet, mobile devices, software, digital innovation, and related infrastructure."
+    },
+    {
+      "id": 6,
+      "name": "Film",
+      "definition": "News pertaining to movies, actors, directors, film festivals, awards, and the film industry."
+    },
+    {
+      "id": 7,
+      "name": "Music",
+      "definition": "News about musical artists, albums, concerts, awards, and the music industry."
+    },
+    {
+      "id": 8,
+      "name": "Arts & Culture",
+      "definition": "News covering theatre, literature, visual arts, and broader cultural events and institutions."
+    },
+    {
+      "id": 9,
+      "name": "International Relations",
+      "definition": "News concerning diplomacy, foreign policy, international agreements, and interactions between nations."
+    },
+    {
+      "id": 10,
+      "name": "Legal",
+      "definition": "News related to court cases, legislation, legal disputes, and the justice system."
+    },
+    {
+      "id": 11,
+      "name": "Social Issues",
+      "definition": "News addressing societal problems, public welfare, community concerns, and social trends."
+    },
+    {
+      "id": 12,
+      "name": "Disasters",
+      "definition": "News about natural catastrophes, major accidents, and humanitarian relief efforts."
+    },
+    {
+      "id": 13,
+      "name": "Security",
+      "definition": "News concerning national defense, law enforcement, terrorism, and public safety."
+    },
+    {
+      "id": 14,
+      "name": "Gaming",
+      "definition": "News specifically about video games, game consoles, and the video game industry."
+    },
+    {
+      "id": 15,
+      "name": "Environment",
+      "definition": "News related to climate change, pollution, conservation, and environmental policy."
+    },
+    {
+      "id": 16,
+      "name": "Cybercrime",
+      "definition": "News focusing on online fraud, hacking, data security breaches, and digital piracy."
+    }
+  ]
+}

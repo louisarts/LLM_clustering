@@ -1,0 +1,60 @@
+{
+  "bench": "snips",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Add to Playlist",
+      "definition": "User wants to add a specific item to a playlist."
+    },
+    {
+      "id": 2,
+      "name": "Weather Forecast",
+      "definition": "User wants to know the weather forecast for a specific location and time."
+    },
+    {
+      "id": 3,
+      "name": "Play Music",
+      "definition": "User wants to play music or a specific song."
+    },
+    {
+      "id": 4,
+      "name": "Book Reservation",
+      "definition": "User wants to book a reservation at a restaurant or venue."
+    },
+    {
+      "id": 5,
+      "name": "Find Movie Showtimes",
+      "definition": "User wants to find movie showtimes at a specific theatre."
+    },
+    {
+      "id": 6,
+      "name": "Rate Item",
+      "definition": "User wants to rate a specific item on a scale."
+    },
+    {
+      "id": 7,
+      "name": "Find Entertainment",
+      "definition": "User wants to find a specific entertainment item such as a movie, TV show, or game."
+    },
+    {
+      "id": 8,
+      "name": "Weather Inquiry",
+      "definition": "User wants to inquire about the weather at a specific location and time."
+    },
+    {
+      "id": 9,
+      "name": "Find Restaurant",
+      "definition": "User wants to find a specific type of restaurant or dining location."
+    },
+    {
+      "id": 10,
+      "name": "Search for Creative Work",
+      "definition": "User wants to search for a specific creative work such as a book, album, or photograph."
+    }
+  ]
+}

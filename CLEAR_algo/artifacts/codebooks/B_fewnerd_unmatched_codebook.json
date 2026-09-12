@@ -1,0 +1,292 @@
+[
+ {
+  "id": 1,
+  "name": "Person",
+  "definition": "An individual human being, including athletes, politicians, artists, historical figures, and other people."
+ },
+ {
+  "id": 2,
+  "name": "Location",
+  "definition": "A geographical entity such as a city, town, country, state, island, mountain, or other place."
+ },
+ {
+  "id": 3,
+  "name": "Organization",
+  "definition": "A group of people organized for a particular purpose, such as a company, government agency, sports team, political party, or non-profit."
+ },
+ {
+  "id": 4,
+  "name": "Broadcast Program",
+  "definition": "A television or radio show, series, or episode."
+ },
+ {
+  "id": 5,
+  "name": "Print Media",
+  "definition": "A newspaper, magazine, journal, or other periodical publication."
+ },
+ {
+  "id": 6,
+  "name": "Radio Station",
+  "definition": "A station broadcasting radio signals."
+ },
+ {
+  "id": 7,
+  "name": "Sports League",
+  "definition": "An alliance of sports teams or athletes that compete against each other."
+ },
+ {
+  "id": 8,
+  "name": "Sports Event",
+  "definition": "A specific athletic competition, tournament, or championship."
+ },
+ {
+  "id": 9,
+  "name": "Vehicle",
+  "definition": "A machine used for transportation, including cars, trains, aircraft, and military vehicles."
+ },
+ {
+  "id": 10,
+  "name": "Weapon",
+  "definition": "An item used for combat or defense, such as a gun, tank, or fighting vehicle."
+ },
+ {
+  "id": 11,
+  "name": "Legislation",
+  "definition": "A written law passed by a legislative body."
+ },
+ {
+  "id": 12,
+  "name": "Political Coalition",
+  "definition": "An alliance of political parties or groups formed for a specific election or purpose."
+ },
+ {
+  "id": 13,
+  "name": "Award",
+  "definition": "A prize or honor given to recognize achievement."
+ },
+ {
+  "id": 14,
+  "name": "Building",
+  "definition": "A man-made structure with a roof and walls, such as a hotel, theater, or stadium."
+ },
+ {
+  "id": 15,
+  "name": "Chemical Compound",
+  "definition": "A substance formed by the chemical combination of two or more elements."
+ },
+ {
+  "id": 16,
+  "name": "Amino Acid",
+  "definition": "An organic compound that serves as a building block of proteins."
+ },
+ {
+  "id": 17,
+  "name": "Musical Work",
+  "definition": "A piece of music, such as a song, opera, or composition."
+ },
+ {
+  "id": 18,
+  "name": "School",
+  "definition": "An educational institution."
+ },
+ {
+  "id": 19,
+  "name": "Mountain Range",
+  "definition": "A chain of mountains or hills."
+ },
+ {
+  "id": 20,
+  "name": "Ethnic Group",
+  "definition": "A social group that shares a common and distinctive culture, religion, language, or the like."
+ },
+ {
+  "id": 21,
+  "name": "Language",
+  "definition": "A system of communication used by a particular country or community."
+ },
+ {
+  "id": 22,
+  "name": "Country",
+  "definition": "A distinct territorial body or political entity."
+ },
+ {
+  "id": 23,
+  "name": "Road",
+  "definition": "A public road, highway, or interstate route identified by a number or name (e.g., I-90)."
+ },
+ {
+  "id": 24,
+  "name": "Game",
+  "definition": "A structured form of play, usually undertaken for entertainment or fun, often with defined rules and objectives (e.g., Yahtzee)."
+ },
+ {
+  "id": 25,
+  "name": "Neighborhood",
+  "definition": "A distinct local community or area within a larger city or town (e.g., Gravesend)."
+ },
+ {
+  "id": 26,
+  "name": "Biological Species",
+  "definition": "A specific type of organism, typically identified by its scientific or common name in biology (e.g., Penicillium, Chinook salmon)."
+ },
+ {
+  "id": 27,
+  "name": "Sports Team",
+  "definition": "An organized group of athletes that competes in a specific sport (e.g., Tigers, Illinois)."
+ },
+ {
+  "id": 28,
+  "name": "Product",
+  "definition": "A tangible item manufactured or produced for sale, such as a vehicle model or consumer good (e.g., Caravan)."
+ },
+ {
+  "id": 29,
+  "name": "Musical Group",
+  "definition": "An organized ensemble of musicians who perform together (e.g., Tigers, Yorkshire)."
+ },
+ {
+  "id": 30,
+  "name": "Song",
+  "definition": "A specific musical composition or track, usually recorded by an artist (e.g., Big Brown Turtle)."
+ },
+ {
+  "id": 31,
+  "name": "Company",
+  "definition": "A business entity or corporation, often involved in commercial or industrial activities (e.g., Encore Media Group)."
+ },
+ {
+  "id": 32,
+  "name": "Airport",
+  "definition": "A location where aircraft take off and land, often including facilities for passengers and cargo (e.g., Smolensk-North airport)."
+ },
+ {
+  "id": 33,
+  "name": "Written Work",
+  "definition": "A specific piece of writing, such as a book, article, or memoir (e.g., Works)."
+ },
+ {
+  "id": 34,
+  "name": "Infrastructure",
+  "definition": "Physical structures and facilities such as embankments, bridges, or walls (e.g., Albert Embankment)."
+ },
+ {
+  "id": 35,
+  "name": "Currency",
+  "definition": "A system of money in general use for a particular country or region (e.g., Canadian dollar)."
+ },
+ {
+  "id": 36,
+  "name": "Event",
+  "definition": "A planned public or social occasion or occurrence (e.g., The British Soap Awards)."
+ },
+ {
+  "id": 37,
+  "name": "Treaty",
+  "definition": "A formally concluded and ratified agreement between states (e.g., Adams-Onis Treaty)."
+ },
+ {
+  "id": 38,
+  "name": "Protein",
+  "definition": "A specific biological protein or protein complex (e.g., PRC2)."
+ },
+ {
+  "id": 39,
+  "name": "Beverage",
+  "definition": "A specific type of drink, often a branded or manufactured product (e.g., Glenfiddich)."
+ },
+ {
+  "id": 40,
+  "name": "Film",
+  "definition": "A motion picture or movie (e.g., The Incredibles)."
+ },
+ {
+  "id": 41,
+  "name": "Government Agency",
+  "definition": "A permanent or semi-permanent organization within a government responsible for the oversight or administration of specific functions (e.g., DOJ, NCAA)."
+ },
+ {
+  "id": 42,
+  "name": "Symbol",
+  "definition": "A character, glyph, or sign used to represent an object, function, or process (e.g., $)."
+ },
+ {
+  "id": 43,
+  "name": "Region",
+  "definition": "A specific administrative or geographic area, such as a state or province (e.g., Florida, California)."
+ },
+ {
+  "id": 44,
+  "name": "Disease",
+  "definition": "A particular abnormal condition that negatively affects the structure or function of all or part of an organism, and that is not due to any immediate external injury (e.g., COVID-19)."
+ },
+ {
+  "id": 45,
+  "name": "Legislature",
+  "definition": "A deliberative assembly with the authority to make laws for a political entity such as a country or city (e.g., Senate, Stortinget)."
+ },
+ {
+  "id": 46,
+  "name": "Mountain",
+  "definition": "A large landform that rises above the surrounding land in a limited area, usually in the form of a peak (e.g., Grande Rocheuse)."
+ },
+ {
+  "id": 47,
+  "name": "River",
+  "definition": "A natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river (e.g., Ortega River)."
+ },
+ {
+  "id": 48,
+  "name": "Video Game",
+  "definition": "An electronic game that involves interaction with a user interface or input device to generate visual feedback on a video display device (e.g., IPL 3 is a tournament, not a game. 'Game' is in the list"
+ },
+ {
+  "id": 49,
+  "name": "Military Conflict",
+  "definition": "A conflict between organized groups such as nations, states, or societies involving prolonged fighting (e.g., American Revolutionary War, Afghanistan 1919)."
+ },
+ {
+  "id": 50,
+  "name": "Gene",
+  "definition": "A unit of heredity which is transferred from a parent to offspring and is held to determine some characteristic of the offspring (e.g., TLR4)."
+ },
+ {
+  "id": 51,
+  "name": "Village",
+  "definition": "A small community in a rural area, larger than a hamlet and smaller than a town (e.g., Huddington)."
+ },
+ {
+  "id": 52,
+  "name": "Sports Tournament",
+  "definition": "A series of contests between a number of competitors, competing for an overall prize (e.g., IPL 3, DeHayes Insurance Group Classic)."
+ },
+ {
+  "id": 53,
+  "name": "Political Party",
+  "definition": "An organized group of people with at least roughly similar political aims and opinions, that seeks to influence public policy by getting its candidates elected to public office (e.g., SNP)."
+ },
+ {
+  "id": 54,
+  "name": "Hospital",
+  "definition": "A health care institution providing patient treatment with specialized medical and nursing staff and medical equipment (e.g., Alfred Hospital)."
+ },
+ {
+  "id": 55,
+  "name": "Library",
+  "definition": "A building or room containing collections of books, periodicals, and sometimes films and recorded music for use or borrowing by the public or a specified group (e.g., Eastwick Branch)."
+ },
+ {
+  "id": 56,
+  "name": "Scholarship",
+  "definition": "A grant or payment made to support a student's education, awarded on the basis of academic or other achievement (e.g., Singapore Olympic Scholarships)."
+ },
+ {
+  "id": 57,
+  "name": "Museum",
+  "definition": "A building or place where works of art, scientific specimens, or other objects of permanent value are kept and displayed (e.g., Sports Museum)."
+ },
+ {
+  "id": 58,
+  "name": "Animal Family",
+  "definition": "A taxonomic rank used in the classification of organisms, encompassing a group of related genera (e.g., Papilionidae)."
+ }
+]

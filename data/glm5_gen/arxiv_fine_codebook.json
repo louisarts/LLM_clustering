@@ -1,0 +1,502 @@
+[
+ {
+  "id": 1,
+  "name": "astro-ph.CO",
+  "definition": "Cosmology and extragalactic astrophysics, including cosmic microwave background and large-scale structure."
+ },
+ {
+  "id": 2,
+  "name": "astro-ph.EP",
+  "definition": "Earth and planetary astrophysics, including planets, moons, and small bodies in the solar system and exoplanets."
+ },
+ {
+  "id": 3,
+  "name": "astro-ph.GA",
+  "definition": "Astrophysics of galaxies, including the Milky Way, galactic structure, and interstellar medium."
+ },
+ {
+  "id": 4,
+  "name": "astro-ph.HE",
+  "definition": "High-energy astrophysical phenomena, including black holes, neutron stars, pulsars, and supernovae."
+ },
+ {
+  "id": 5,
+  "name": "astro-ph.IM",
+  "definition": "Instrumentation and methods for astrophysics, including telescopes, detectors, and data analysis software."
+ },
+ {
+  "id": 6,
+  "name": "astro-ph.SR",
+  "definition": "Solar and stellar astrophysics, including the Sun, stars, and stellar evolution."
+ },
+ {
+  "id": 7,
+  "name": "cond-mat.dis-nn",
+  "definition": "Disordered systems and neural networks, including spin glasses, localization, and neural network models."
+ },
+ {
+  "id": 8,
+  "name": "cond-mat.mes-hall",
+  "definition": "Mesoscale and nanoscale physics, including quantum dots, nanowires, and 2D materials like graphene."
+ },
+ {
+  "id": 9,
+  "name": "cond-mat.mtrl-sci",
+  "definition": "Materials science, including the study of material properties, synthesis, and structure."
+ },
+ {
+  "id": 10,
+  "name": "cond-mat.quant-gas",
+  "definition": "Quantum gases, including Bose-Einstein condensates and ultracold atomic systems."
+ },
+ {
+  "id": 11,
+  "name": "cond-mat.soft",
+  "definition": "Soft condensed matter, including liquids, colloids, polymers, liquid crystals, and granular materials."
+ },
+ {
+  "id": 12,
+  "name": "cond-mat.stat-mech",
+  "definition": "Statistical mechanics, including thermodynamics, phase transitions, and many-body systems."
+ },
+ {
+  "id": 13,
+  "name": "cond-mat.str-el",
+  "definition": "Strongly correlated electrons, including heavy fermions, Mott insulators, and high-temperature superconductors."
+ },
+ {
+  "id": 14,
+  "name": "cond-mat.supr-con",
+  "definition": "Superconductivity, including conventional and unconventional superconductors and the Meissner effect."
+ },
+ {
+  "id": 15,
+  "name": "cs.AI",
+  "definition": "Artificial intelligence, including knowledge representation, planning, and reasoning."
+ },
+ {
+  "id": 16,
+  "name": "cs.CC",
+  "definition": "Computational complexity, including complexity classes, proof complexity, and circuit complexity."
+ },
+ {
+  "id": 17,
+  "name": "cs.CG",
+  "definition": "Computational geometry, including algorithms for geometric problems and discrete geometry."
+ },
+ {
+  "id": 18,
+  "name": "cs.CL",
+  "definition": "Computation and language, including natural language processing, speech recognition, and machine translation."
+ },
+ {
+  "id": 19,
+  "name": "cs.CR",
+  "definition": "Cryptography and security, including encryption, privacy, and network security."
+ },
+ {
+  "id": 20,
+  "name": "cs.CV",
+  "definition": "Computer vision and pattern recognition, including image processing and visual learning."
+ },
+ {
+  "id": 21,
+  "name": "cs.DB",
+  "definition": "Databases, including data management, indexing, and query processing."
+ },
+ {
+  "id": 22,
+  "name": "cs.DC",
+  "definition": "Distributed, parallel, and cluster computing, including fault tolerance and distributed algorithms."
+ },
+ {
+  "id": 23,
+  "name": "cs.DM",
+  "definition": "Discrete mathematics, including graph theory, combinatorics, and discrete optimization."
+ },
+ {
+  "id": 24,
+  "name": "cs.DS",
+  "definition": "Data structures and algorithms, including algorithm analysis and design."
+ },
+ {
+  "id": 25,
+  "name": "cs.GT",
+  "definition": "Computer science and game theory, including mechanism design and algorithmic game theory."
+ },
+ {
+  "id": 26,
+  "name": "cs.HC",
+  "definition": "Human-computer interaction, including user interfaces, visualization, and usability."
+ },
+ {
+  "id": 27,
+  "name": "cs.IR",
+  "definition": "Information retrieval, including search engines, ranking, and recommender systems."
+ },
+ {
+  "id": 28,
+  "name": "cs.IT",
+  "definition": "Information theory, including coding theory, channel capacity, and data compression."
+ },
+ {
+  "id": 29,
+  "name": "cs.LG",
+  "definition": "Machine learning, including deep learning, reinforcement learning, and learning theory."
+ },
+ {
+  "id": 30,
+  "name": "cs.LO",
+  "definition": "Logic in computer science, including formal logic, type theory, and verification."
+ },
+ {
+  "id": 31,
+  "name": "cs.NA",
+  "definition": "Numerical analysis, focusing on computational methods for solving mathematical problems."
+ },
+ {
+  "id": 32,
+  "name": "cs.NI",
+  "definition": "Networking and internet architecture, including protocols, wireless networks, and network performance."
+ },
+ {
+  "id": 33,
+  "name": "cs.RO",
+  "definition": "Robotics, including robot control, motion planning, and human-robot interaction."
+ },
+ {
+  "id": 34,
+  "name": "cs.SE",
+  "definition": "Software engineering, including software development, testing, and maintenance."
+ },
+ {
+  "id": 35,
+  "name": "cs.SI",
+  "definition": "Social and information networks, including network analysis, social media, and graph mining."
+ },
+ {
+  "id": 36,
+  "name": "cs.SY",
+  "definition": "Systems and control, including control theory, dynamical systems, and system identification."
+ },
+ {
+  "id": 37,
+  "name": "econ.EM",
+  "definition": "Econometrics, including statistical methods for economic data and causal inference."
+ },
+ {
+  "id": 38,
+  "name": "econ.GN",
+  "definition": "General economics, including economic theory, development, and macroeconomics."
+ },
+ {
+  "id": 39,
+  "name": "econ.TH",
+  "definition": "Theoretical economics, including game theory, mechanism design, and general equilibrium."
+ },
+ {
+  "id": 40,
+  "name": "eess.AS",
+  "definition": "Audio and speech processing, including speech recognition, synthesis, and audio analysis."
+ },
+ {
+  "id": 41,
+  "name": "eess.IV",
+  "definition": "Image and video processing, including medical imaging and signal reconstruction."
+ },
+ {
+  "id": 42,
+  "name": "eess.SP",
+  "definition": "Signal processing, including filtering, estimation, and detection theory."
+ },
+ {
+  "id": 43,
+  "name": "eess.SY",
+  "definition": "Systems and control in electrical engineering, including feedback control and estimation."
+ },
+ {
+  "id": 44,
+  "name": "hep-ex",
+  "definition": "High energy physics experiments, including particle detectors and experimental results."
+ },
+ {
+  "id": 45,
+  "name": "hep-th",
+  "definition": "High energy physics theory, including string theory, quantum field theory, and particle phenomenology."
+ },
+ {
+  "id": 46,
+  "name": "math.AC",
+  "definition": "Commutative algebra, including rings, ideals, and modules."
+ },
+ {
+  "id": 47,
+  "name": "math.AG",
+  "definition": "Algebraic geometry, including varieties, schemes, and sheaves."
+ },
+ {
+  "id": 48,
+  "name": "math.AP",
+  "definition": "Analysis of partial differential equations, including existence, uniqueness, and regularity."
+ },
+ {
+  "id": 49,
+  "name": "math.AT",
+  "definition": "Algebraic topology, including homotopy theory, homology, and cohomology."
+ },
+ {
+  "id": 50,
+  "name": "math.CA",
+  "definition": "Classical analysis and ordinary differential equations, including special functions and orthogonal polynomials."
+ },
+ {
+  "id": 51,
+  "name": "math.CO",
+  "definition": "Combinatorics, including graph theory, enumeration, and discrete structures."
+ },
+ {
+  "id": 52,
+  "name": "math.CV",
+  "definition": "Complex variables, including complex analysis, Riemann surfaces, and several complex variables."
+ },
+ {
+  "id": 53,
+  "name": "math.DG",
+  "definition": "Differential geometry, including manifolds, Riemannian geometry, and connections."
+ },
+ {
+  "id": 54,
+  "name": "math.DS",
+  "definition": "Dynamical systems, including chaos, bifurcations, and ergodic theory."
+ },
+ {
+  "id": 55,
+  "name": "math.GR",
+  "definition": "Group theory, including finite groups, Lie groups, and algebraic groups."
+ },
+ {
+  "id": 56,
+  "name": "math.GT",
+  "definition": "Geometric topology, including manifolds, knots, and 3-manifolds."
+ },
+ {
+  "id": 57,
+  "name": "math.LO",
+  "definition": "Logic, including model theory, set theory, and proof theory."
+ },
+ {
+  "id": 58,
+  "name": "math.MG",
+  "definition": "Metric geometry, including convex geometry and discrete geometry."
+ },
+ {
+  "id": 59,
+  "name": "math.NA",
+  "definition": "Numerical analysis, focusing on the mathematical theory of numerical algorithms."
+ },
+ {
+  "id": 60,
+  "name": "math.NT",
+  "definition": "Number theory, including algebraic, analytic, and elementary number theory."
+ },
+ {
+  "id": 61,
+  "name": "math.OA",
+  "definition": "Operator algebras, including C*-algebras and von Neumann algebras."
+ },
+ {
+  "id": 62,
+  "name": "math.OC",
+  "definition": "Optimization and control, including convex optimization, variational analysis, and optimal control."
+ },
+ {
+  "id": 63,
+  "name": "math.PR",
+  "definition": "Probability theory, including stochastic processes and random structures."
+ },
+ {
+  "id": 64,
+  "name": "math.QA",
+  "definition": "Quantum algebra, including quantum groups and Hopf algebras."
+ },
+ {
+  "id": 65,
+  "name": "math.RT",
+  "definition": "Representation theory, including Lie algebras, algebraic groups, and invariant theory."
+ },
+ {
+  "id": 66,
+  "name": "math.SG",
+  "definition": "Symplectic geometry, including symplectic manifolds and contact geometry."
+ },
+ {
+  "id": 67,
+  "name": "math.ST",
+  "definition": "Statistics theory, including statistical inference and decision theory."
+ },
+ {
+  "id": 68,
+  "name": "math-ph",
+  "definition": "Mathematical physics, including rigorous results in quantum mechanics and statistical mechanics."
+ },
+ {
+  "id": 69,
+  "name": "physics.acc-ph",
+  "definition": "Accelerator physics, including beam dynamics and accelerator design."
+ },
+ {
+  "id": 70,
+  "name": "physics.app-ph",
+  "definition": "Applied physics, including interdisciplinary applications of physical principles."
+ },
+ {
+  "id": 71,
+  "name": "physics.atom-ph",
+  "definition": "Atomic physics, including atomic structure, collisions, and cold atoms."
+ },
+ {
+  "id": 72,
+  "name": "physics.bio-ph",
+  "definition": "Biological physics, including the application of physics to biological systems."
+ },
+ {
+  "id": 73,
+  "name": "physics.chem-ph",
+  "definition": "Chemical physics, including the physical properties of chemical systems."
+ },
+ {
+  "id": 74,
+  "name": "physics.class-ph",
+  "definition": "Classical physics, including mechanics, thermodynamics, and electromagnetism."
+ },
+ {
+  "id": 75,
+  "name": "physics.comp-ph",
+  "definition": "Computational physics, including simulations and numerical methods in physics."
+ },
+ {
+  "id": 76,
+  "name": "physics.data-an",
+  "definition": "Data analysis, including statistical methods and data processing in physics."
+ },
+ {
+  "id": 77,
+  "name": "physics.flu-dyn",
+  "definition": "Fluid dynamics, including turbulence, aerodynamics, and hydrodynamics."
+ },
+ {
+  "id": 78,
+  "name": "physics.hist-ph",
+  "definition": "History and philosophy of physics, including historical analysis of physical concepts."
+ },
+ {
+  "id": 79,
+  "name": "physics.ins-det",
+  "definition": "Instrumentation and detectors, including the design and operation of scientific instruments."
+ },
+ {
+  "id": 80,
+  "name": "physics.optics",
+  "definition": "Optics, including lasers, photonics, and optical properties of materials."
+ },
+ {
+  "id": 81,
+  "name": "physics.plasm-ph",
+  "definition": "Plasma physics, including plasma dynamics, fusion, and space plasmas."
+ },
+ {
+  "id": 82,
+  "name": "physics.soc-ph",
+  "definition": "Physics and society, including the application of physics to social systems."
+ },
+ {
+  "id": 83,
+  "name": "q-bio.BM",
+  "definition": "Biomolecules, including the structure and function of proteins and nucleic acids."
+ },
+ {
+  "id": 84,
+  "name": "q-bio.GN",
+  "definition": "Genomics, including DNA sequencing and gene expression analysis."
+ },
+ {
+  "id": 85,
+  "name": "q-bio.MN",
+  "definition": "Molecular networks, including gene regulatory networks and signaling pathways."
+ },
+ {
+  "id": 86,
+  "name": "q-bio.NC",
+  "definition": "Neurons and cognition, including neural networks and brain modeling."
+ },
+ {
+  "id": 87,
+  "name": "q-bio.PE",
+  "definition": "Populations and evolution, including evolutionary dynamics and population genetics."
+ },
+ {
+  "id": 88,
+  "name": "q-bio.QM",
+  "definition": "Quantitative methods in biology, including modeling and simulation of biological systems."
+ },
+ {
+  "id": 89,
+  "name": "q-bio.TO",
+  "definition": "Tissues and organs, including developmental biology and tissue engineering."
+ },
+ {
+  "id": 90,
+  "name": "q-fin.CP",
+  "definition": "Computational finance, including numerical methods and algorithms for finance."
+ },
+ {
+  "id": 91,
+  "name": "q-fin.EC",
+  "definition": "Economics in finance, including macro-finance and financial economics."
+ },
+ {
+  "id": 92,
+  "name": "q-fin.MF",
+  "definition": "Mathematical finance, including derivative pricing and stochastic calculus."
+ },
+ {
+  "id": 93,
+  "name": "q-fin.PM",
+  "definition": "Portfolio management, including asset allocation and investment strategies."
+ },
+ {
+  "id": 94,
+  "name": "q-fin.RM",
+  "definition": "Risk management, including credit risk, market risk, and insurance."
+ },
+ {
+  "id": 95,
+  "name": "q-fin.ST",
+  "definition": "Statistical finance, including econometrics and time series analysis of financial data."
+ },
+ {
+  "id": 96,
+  "name": "q-fin.TR",
+  "definition": "Trading and market microstructure, including algorithmic trading and liquidity."
+ },
+ {
+  "id": 97,
+  "name": "stat.AP",
+  "definition": "Statistics applications, including the application of statistical methods to specific domains."
+ },
+ {
+  "id": 98,
+  "name": "stat.CO",
+  "definition": "Computation in statistics, including Monte Carlo methods and computational algorithms."
+ },
+ {
+  "id": 99,
+  "name": "stat.ME",
+  "definition": "Methodology in statistics, including estimation, hypothesis testing, and model selection."
+ },
+ {
+  "id": 100,
+  "name": "stat.ML",
+  "definition": "Machine learning from a statistical perspective, including statistical learning theory."
+ }
+]

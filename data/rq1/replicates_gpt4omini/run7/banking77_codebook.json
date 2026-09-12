@@ -1,0 +1,85 @@
+{
+  "bench": "banking77",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Management",
+      "definition": "Inquiries related to account creation, deletion, and personal information updates."
+    },
+    {
+      "id": 2,
+      "name": "Card Issues",
+      "definition": "Questions regarding card functionality, loss, theft, or damage."
+    },
+    {
+      "id": 3,
+      "name": "Transaction Problems",
+      "definition": "Concerns about failed, pending, or erroneous transactions."
+    },
+    {
+      "id": 4,
+      "name": "Fees and Charges",
+      "definition": "Inquiries about fees associated with transactions, card usage, or services."
+    },
+    {
+      "id": 5,
+      "name": "Identity Verification",
+      "definition": "Questions regarding the process and requirements for verifying identity."
+    },
+    {
+      "id": 6,
+      "name": "Top-Up Issues",
+      "definition": "Concerns related to adding funds to accounts or cards."
+    },
+    {
+      "id": 7,
+      "name": "Exchange Rates",
+      "definition": "Inquiries about current exchange rates and related fees."
+    },
+    {
+      "id": 8,
+      "name": "Refund Requests",
+      "definition": "Requests for refunds on transactions or purchases."
+    },
+    {
+      "id": 9,
+      "name": "ATM Issues",
+      "definition": "Problems encountered while using ATMs, including card retrieval and cash withdrawal."
+    },
+    {
+      "id": 10,
+      "name": "Transfer Inquiries",
+      "definition": "Questions about sending or receiving money transfers."
+    },
+    {
+      "id": 11,
+      "name": "Virtual Card Queries",
+      "definition": "Inquiries specifically about virtual cards and their usage."
+    },
+    {
+      "id": 12,
+      "name": "Security Concerns",
+      "definition": "Reports of unauthorized transactions or compromised accounts."
+    },
+    {
+      "id": 13,
+      "name": "PIN and Passcode Issues",
+      "definition": "Questions related to PIN management and passcode recovery."
+    },
+    {
+      "id": 14,
+      "name": "Service Feedback",
+      "definition": "Customer feedback regarding dissatisfaction with services or products."
+    },
+    {
+      "id": 15,
+      "name": "General Inquiries",
+      "definition": "Miscellaneous questions that do not fit into other categories."
+    }
+  ]
+}

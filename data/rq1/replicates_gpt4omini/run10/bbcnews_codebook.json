@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Entertainment",
+      "definition": "Articles covering movies, music, television, and celebrity news."
+    },
+    {
+      "id": 2,
+      "name": "Politics",
+      "definition": "Articles related to political events, parties, and government actions."
+    },
+    {
+      "id": 3,
+      "name": "Economy and Business",
+      "definition": "Articles discussing economic trends, business performance, and financial markets."
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "definition": "Articles covering various sports events, athletes, and competitions."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "Articles related to technological advancements, gadgets, and internet trends."
+    },
+    {
+      "id": 6,
+      "name": "Health",
+      "definition": "Articles discussing health issues, medical advancements, and public health policies."
+    },
+    {
+      "id": 7,
+      "name": "Environment",
+      "definition": "Articles covering environmental issues, climate change, and sustainability."
+    },
+    {
+      "id": 8,
+      "name": "Social Issues",
+      "definition": "Articles discussing societal challenges, human rights, and community matters."
+    },
+    {
+      "id": 9,
+      "name": "International News",
+      "definition": "Articles covering global events, international relations, and foreign affairs."
+    },
+    {
+      "id": 10,
+      "name": "Crime and Law",
+      "definition": "Articles related to criminal activities, legal issues, and law enforcement."
+    },
+    {
+      "id": 11,
+      "name": "Education",
+      "definition": "Articles discussing educational policies, institutions, and student issues."
+    },
+    {
+      "id": 12,
+      "name": "Culture",
+      "definition": "Articles covering cultural events, traditions, and artistic expressions."
+    },
+    {
+      "id": 13,
+      "name": "Travel",
+      "definition": "Articles related to travel destinations, tourism trends, and travel advisories."
+    },
+    {
+      "id": 14,
+      "name": "Finance",
+      "definition": "Articles discussing personal finance, investment strategies, and financial markets."
+    },
+    {
+      "id": 15,
+      "name": "Real Estate",
+      "definition": "Articles covering property markets, housing trends, and real estate developments."
+    }
+  ]
+}

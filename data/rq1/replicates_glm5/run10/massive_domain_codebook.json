@@ -1,0 +1,89 @@
+{
+  "bench": "massive_domain",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm_Management",
+      "definition": "Setting, checking, or deleting alarms and timers."
+    },
+    {
+      "id": 2,
+      "name": "Audio_Playback",
+      "definition": "Playing, pausing, or controlling music, podcasts, or radio."
+    },
+    {
+      "id": 3,
+      "name": "Calendar_Management",
+      "definition": "Creating, checking, or deleting events on a calendar."
+    },
+    {
+      "id": 4,
+      "name": "Communication_Email",
+      "definition": "Sending, checking, or managing emails."
+    },
+    {
+      "id": 5,
+      "name": "Communication_Social",
+      "definition": "Posting to or checking social media platforms."
+    },
+    {
+      "id": 6,
+      "name": "Device_Control",
+      "definition": "Controlling smart home devices, lights, or appliances."
+    },
+    {
+      "id": 7,
+      "name": "Finance",
+      "definition": "Checking stock prices or currency exchange rates."
+    },
+    {
+      "id": 8,
+      "name": "Food_Ordering",
+      "definition": "Ordering food or finding restaurant information."
+    },
+    {
+      "id": 9,
+      "name": "General_Knowledge",
+      "definition": "Asking for facts, definitions, or general information."
+    },
+    {
+      "id": 10,
+      "name": "List_Management",
+      "definition": "Creating, viewing, or modifying to-do or shopping lists."
+    },
+    {
+      "id": 11,
+      "name": "News",
+      "definition": "Requesting news headlines or specific articles."
+    },
+    {
+      "id": 12,
+      "name": "Reminder_Management",
+      "definition": "Setting or checking reminders."
+    },
+    {
+      "id": 13,
+      "name": "Time_Date",
+      "definition": "Asking for the current time or date."
+    },
+    {
+      "id": 14,
+      "name": "Transportation",
+      "definition": "Booking taxis or checking train schedules."
+    },
+    {
+      "id": 15,
+      "name": "Travel_Weather",
+      "definition": "Checking weather forecasts or travel directions."
+    },
+    {
+      "id": 16,
+      "name": "Volume_Control",
+      "definition": "Adjusting volume or muting audio."
+    }
+  ]
+}

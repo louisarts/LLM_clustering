@@ -1,0 +1,60 @@
+{
+  "bench": "massive_domain",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm",
+      "definition": "Utterances related to setting, checking, or modifying alarms or reminders."
+    },
+    {
+      "id": 2,
+      "name": "Calendar",
+      "definition": "Utterances related to scheduling, checking, or modifying calendar events or meetings."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "Utterances related to sending, receiving, or composing emails, tweets, or messages."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Utterances related to playing music, podcasts, audiobooks, videos, or games."
+    },
+    {
+      "id": 5,
+      "name": "General Information",
+      "definition": "Utterances seeking general information like definitions, weather, time, or news."
+    },
+    {
+      "id": 6,
+      "name": "Home Automation",
+      "definition": "Utterances related to controlling lights, plugs, vacuum cleaners, or coffee machines."
+    },
+    {
+      "id": 7,
+      "name": "Navigation",
+      "definition": "Utterances related to finding locations, traffic conditions, or directions."
+    },
+    {
+      "id": 8,
+      "name": "Shopping",
+      "definition": "Utterances related to ordering food, booking tickets, or searching for products."
+    },
+    {
+      "id": 9,
+      "name": "Social Media",
+      "definition": "Utterances related to posting, retweeting, or checking social media updates."
+    },
+    {
+      "id": 10,
+      "name": "Weather",
+      "definition": "Utterances related to checking or forecasting weather conditions."
+    }
+  ]
+}

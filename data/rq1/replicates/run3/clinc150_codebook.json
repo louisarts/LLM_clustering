@@ -1,0 +1,112 @@
+{
+  "bench": "clinc150",
+  "run": 3,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information Query",
+      "definition": "User asks for factual information, definitions, or general knowledge."
+    },
+    {
+      "id": 2,
+      "name": "Personal Information Query",
+      "definition": "User asks for information specific to their accounts, status, or personal data."
+    },
+    {
+      "id": 3,
+      "name": "Assistant Self-Information Query",
+      "definition": "User asks questions about the assistant's identity, capabilities, or status."
+    },
+    {
+      "id": 4,
+      "name": "Navigation & Location",
+      "definition": "User asks for directions, location of places, or their own current location."
+    },
+    {
+      "id": 5,
+      "name": "Calculations & Conversions",
+      "definition": "User requests mathematical calculations or unit/currency conversions."
+    },
+    {
+      "id": 6,
+      "name": "Device & Settings Control",
+      "definition": "User requests to change assistant or device settings, or control device functions."
+    },
+    {
+      "id": 7,
+      "name": "Reminders & Alarms",
+      "definition": "User requests to set, modify, or query alarms, timers, or reminders."
+    },
+    {
+      "id": 8,
+      "name": "Communication",
+      "definition": "User requests to send messages or make calls."
+    },
+    {
+      "id": 9,
+      "name": "Shopping & Ordering",
+      "definition": "User requests to purchase, order, or find products/services for purchase."
+    },
+    {
+      "id": 10,
+      "name": "Financial Account Action",
+      "definition": "User requests direct actions on their financial accounts, cards, or transactions."
+    },
+    {
+      "id": 11,
+      "name": "Media Playback & Management",
+      "definition": "User requests to play, add, or manage media content."
+    },
+    {
+      "id": 12,
+      "name": "Task & List Management",
+      "definition": "User requests to manage personal tasks or lists."
+    },
+    {
+      "id": 13,
+      "name": "Creative & Generative Tasks",
+      "definition": "User requests the assistant to create, generate, or compile new content or plans."
+    },
+    {
+      "id": 14,
+      "name": "Problem Solving & How-to",
+      "definition": "User asks for instructions, advice, or solutions to a problem."
+    },
+    {
+      "id": 15,
+      "name": "System Reset & Maintenance",
+      "definition": "User requests to reset or perform maintenance on the assistant or a linked device."
+    },
+    {
+      "id": 16,
+      "name": "Search & Discovery",
+      "definition": "User requests to find specific items, services, or information from a broad search."
+    },
+    {
+      "id": 17,
+      "name": "Scheduling & Booking",
+      "definition": "User requests to schedule appointments, book travel, or reserve resources."
+    },
+    {
+      "id": 18,
+      "name": "Environmental & Smart Home Control",
+      "definition": "User requests to control smart home devices or environmental settings."
+    },
+    {
+      "id": 19,
+      "name": "Weather Query",
+      "definition": "User asks for current or forecasted weather information."
+    },
+    {
+      "id": 20,
+      "name": "Clarification & Correction",
+      "definition": "User asks the assistant to repeat, clarify, or cancel a previous request."
+    },
+    {
+      "id": 21,
+      "name": "Utility Function",
+      "definition": "User requests the assistant to perform a simple, often random or specific, utility task."
+    }
+  ]
+}

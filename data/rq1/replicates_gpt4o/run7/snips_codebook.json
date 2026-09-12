@@ -1,0 +1,55 @@
+{
+  "bench": "snips",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Media",
+      "definition": "Requests to play music, songs, albums, or other audio content."
+    },
+    {
+      "id": 2,
+      "name": "Watch Media",
+      "definition": "Requests to watch movies, TV shows, trailers, or other video content."
+    },
+    {
+      "id": 3,
+      "name": "Find Media",
+      "definition": "Requests to find or locate specific media content such as movies, TV shows, songs, or albums."
+    },
+    {
+      "id": 4,
+      "name": "Rate Media",
+      "definition": "Requests to rate books, essays, albums, or other media content."
+    },
+    {
+      "id": 5,
+      "name": "Add to Playlist",
+      "definition": "Requests to add songs, albums, or tracks to a specific playlist."
+    },
+    {
+      "id": 6,
+      "name": "Book Reservation",
+      "definition": "Requests to book a table or make a reservation at a restaurant or similar venue."
+    },
+    {
+      "id": 7,
+      "name": "Weather Forecast",
+      "definition": "Requests for weather forecasts or weather-related information."
+    },
+    {
+      "id": 8,
+      "name": "Movie Schedule",
+      "definition": "Requests for movie schedules or showtimes at cinemas or theaters."
+    },
+    {
+      "id": 9,
+      "name": "Find Location",
+      "definition": "Requests to find or locate a specific place or venue."
+    }
+  ]
+}

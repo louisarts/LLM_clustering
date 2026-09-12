@@ -1,0 +1,115 @@
+{
+  "bench": "reddit_s2s",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "definition": "Posts related to technology, gadgets, and electronics."
+    },
+    {
+      "id": 2,
+      "name": "Music",
+      "definition": "Posts discussing music, musicians, and musical events."
+    },
+    {
+      "id": 3,
+      "name": "Health and Wellness",
+      "definition": "Posts about health, wellness, and medical advice."
+    },
+    {
+      "id": 4,
+      "name": "Finance and Business",
+      "definition": "Posts related to finance, business, and economic topics."
+    },
+    {
+      "id": 5,
+      "name": "Art and Photography",
+      "definition": "Posts showcasing or discussing art and photography."
+    },
+    {
+      "id": 6,
+      "name": "Education and Learning",
+      "definition": "Posts about education, learning resources, and academic advice."
+    },
+    {
+      "id": 7,
+      "name": "Travel and Geography",
+      "definition": "Posts about travel experiences, destinations, and geographical topics."
+    },
+    {
+      "id": 8,
+      "name": "Food and Cooking",
+      "definition": "Posts related to food, cooking, and culinary experiences."
+    },
+    {
+      "id": 9,
+      "name": "Sports",
+      "definition": "Posts discussing sports, athletes, and sporting events."
+    },
+    {
+      "id": 10,
+      "name": "Entertainment",
+      "definition": "Posts about movies, TV shows, and entertainment news."
+    },
+    {
+      "id": 11,
+      "name": "Politics and News",
+      "definition": "Posts discussing political topics and current news events."
+    },
+    {
+      "id": 12,
+      "name": "Lifestyle and Relationships",
+      "definition": "Posts about lifestyle choices, relationships, and personal advice."
+    },
+    {
+      "id": 13,
+      "name": "Automotive",
+      "definition": "Posts related to cars, motorcycles, and automotive topics."
+    },
+    {
+      "id": 14,
+      "name": "Science",
+      "definition": "Posts discussing scientific topics and discoveries."
+    },
+    {
+      "id": 15,
+      "name": "Gaming",
+      "definition": "Posts about video games and gaming culture."
+    },
+    {
+      "id": 16,
+      "name": "Home and Garden",
+      "definition": "Posts about home improvement, gardening, and DIY projects."
+    },
+    {
+      "id": 17,
+      "name": "Fashion and Beauty",
+      "definition": "Posts related to fashion, beauty, and personal style."
+    },
+    {
+      "id": 18,
+      "name": "Animals and Pets",
+      "definition": "Posts about animals, pets, and wildlife."
+    },
+    {
+      "id": 19,
+      "name": "Astrology and Spirituality",
+      "definition": "Posts discussing astrology, spirituality, and related topics."
+    },
+    {
+      "id": 20,
+      "name": "Books and Literature",
+      "definition": "Posts about books, literature, and reading."
+    },
+    {
+      "id": 21,
+      "name": "Miscellaneous",
+      "definition": "Posts that do not fit into any other category."
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "bench": "stackoverflow20",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apache",
+      "definition": "Questions related to the Apache HTTP Server."
+    },
+    {
+      "id": 2,
+      "name": "SharePoint",
+      "definition": "Questions related to Microsoft SharePoint."
+    },
+    {
+      "id": 3,
+      "name": "Hibernate",
+      "definition": "Questions related to the Hibernate ORM framework."
+    },
+    {
+      "id": 4,
+      "name": "LINQ",
+      "definition": "Questions related to Language Integrated Query in .NET."
+    },
+    {
+      "id": 5,
+      "name": "Qt",
+      "definition": "Questions related to the Qt application framework."
+    },
+    {
+      "id": 6,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel, including VBA."
+    },
+    {
+      "id": 7,
+      "name": "FastCGI",
+      "definition": "Questions related to the FastCGI protocol."
+    },
+    {
+      "id": 8,
+      "name": "Bash",
+      "definition": "Questions related to the Bash shell."
+    },
+    {
+      "id": 9,
+      "name": "SQLite",
+      "definition": "Questions related to the SQLite database."
+    },
+    {
+      "id": 10,
+      "name": "PHP",
+      "definition": "Questions related to the PHP programming language."
+    },
+    {
+      "id": 11,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 12,
+      "name": "WordPress",
+      "definition": "Questions related to the WordPress content management system."
+    },
+    {
+      "id": 13,
+      "name": "Drupal",
+      "definition": "Questions related to the Drupal content management framework."
+    },
+    {
+      "id": 14,
+      "name": "Haskell",
+      "definition": "Questions related to the Haskell programming language."
+    },
+    {
+      "id": 15,
+      "name": "Visual Studio",
+      "definition": "Questions related to Microsoft Visual Studio."
+    },
+    {
+      "id": 16,
+      "name": "Matlab",
+      "definition": "Questions related to Matlab software."
+    },
+    {
+      "id": 17,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML."
+    },
+    {
+      "id": 18,
+      "name": "jQuery",
+      "definition": "Questions related to the jQuery JavaScript library."
+    },
+    {
+      "id": 19,
+      "name": "JSON",
+      "definition": "Questions related to JavaScript Object Notation."
+    },
+    {
+      "id": 20,
+      "name": "Subversion",
+      "definition": "Questions related to the Subversion version control system."
+    },
+    {
+      "id": 21,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language."
+    },
+    {
+      "id": 22,
+      "name": "Oracle",
+      "definition": "Questions related to Oracle databases and tools."
+    },
+    {
+      "id": 23,
+      "name": "Xcode",
+      "definition": "Questions related to Apple's Xcode IDE."
+    },
+    {
+      "id": 24,
+      "name": "Cocoa",
+      "definition": "Questions related to the Cocoa API for macOS."
+    },
+    {
+      "id": 25,
+      "name": "Spring Framework",
+      "definition": "Questions related to the Spring Framework for Java."
+    },
+    {
+      "id": 26,
+      "name": "SVN",
+      "definition": "Questions related to Subversion (SVN) version control."
+    },
+    {
+      "id": 27,
+      "name": "AJAX",
+      "definition": "Questions related to AJAX (Asynchronous JavaScript and XML)."
+    },
+    {
+      "id": 28,
+      "name": "Objective-C",
+      "definition": "Questions related to the Objective-C programming language."
+    },
+    {
+      "id": 29,
+      "name": "NSProgressIndicator",
+      "definition": "Questions related to NSProgressIndicator in macOS development."
+    },
+    {
+      "id": 30,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 31,
+      "name": "NSCoder",
+      "definition": "Questions related to NSCoder in macOS development."
+    },
+    {
+      "id": 32,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 33,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 34,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 35,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 36,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 37,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 38,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 39,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 40,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 41,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 42,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 43,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 44,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 45,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 46,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 47,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 48,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 49,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 50,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 51,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 52,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 53,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 54,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 55,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 56,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 57,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 58,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 59,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 60,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 61,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 62,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 63,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 64,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 65,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 66,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 67,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 68,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 69,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 70,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 71,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 72,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 73,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 74,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 75,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 76,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 77,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 78,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 79,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 80,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 81,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 82,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 83,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 84,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 85,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 86,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 87,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 88,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 89,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 90,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 91,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 92,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 93,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 94,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 95,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 96,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 97,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 98,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 99,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    },
+    {
+      "id": 100,
+      "name": "NSFileHandle",
+      "definition": "Questions related to NSFileHandle in macOS development."
+    }
+  ]
+}

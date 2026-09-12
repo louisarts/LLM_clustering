@@ -1,0 +1,90 @@
+{
+  "bench": "mtop_intent",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Request",
+      "definition": "Requests for information or knowledge about a specific topic."
+    },
+    {
+      "id": 2,
+      "name": "Alarm Management",
+      "definition": "Commands related to setting, canceling, or modifying alarms."
+    },
+    {
+      "id": 3,
+      "name": "Reminder Management",
+      "definition": "Commands for creating, deleting, or modifying reminders."
+    },
+    {
+      "id": 4,
+      "name": "Timer Management",
+      "definition": "Commands for setting, canceling, or modifying timers."
+    },
+    {
+      "id": 5,
+      "name": "Call Management",
+      "definition": "Commands related to making, receiving, or managing phone calls."
+    },
+    {
+      "id": 6,
+      "name": "Message Sending",
+      "definition": "Commands for sending text or video messages to contacts."
+    },
+    {
+      "id": 7,
+      "name": "Recipe Request",
+      "definition": "Requests for cooking recipes or instructions."
+    },
+    {
+      "id": 8,
+      "name": "Music Playback",
+      "definition": "Commands for playing, skipping, or managing music tracks."
+    },
+    {
+      "id": 9,
+      "name": "Weather Inquiry",
+      "definition": "Requests for weather forecasts or conditions."
+    },
+    {
+      "id": 10,
+      "name": "Event Inquiry",
+      "definition": "Requests for information about events or activities."
+    },
+    {
+      "id": 11,
+      "name": "Friend/Contact Inquiry",
+      "definition": "Requests for information about friends or contacts."
+    },
+    {
+      "id": 12,
+      "name": "News Inquiry",
+      "definition": "Requests for current news or updates on specific topics."
+    },
+    {
+      "id": 13,
+      "name": "Video Call Management",
+      "definition": "Commands related to initiating or managing video calls."
+    },
+    {
+      "id": 14,
+      "name": "Cooking Inquiry",
+      "definition": "Requests for cooking times, temperatures, or ingredient quantities."
+    },
+    {
+      "id": 15,
+      "name": "Status Update",
+      "definition": "Requests for updates on personal status or reminders."
+    },
+    {
+      "id": 16,
+      "name": "General Inquiry",
+      "definition": "Miscellaneous requests that do not fit into other categories."
+    }
+  ]
+}

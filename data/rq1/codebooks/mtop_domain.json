@@ -1,0 +1,59 @@
+{
+  "bench": "mtop_domain",
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "n_discovery_docs": 300,
+  "n_samples": 1,
+  "discovery_seed": 0,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Queries about current, past, or future weather conditions, forecasts, or related environmental factors."
+    },
+    {
+      "id": 2,
+      "name": "News",
+      "definition": "Requests for current events, headlines, specific news topics, or general news updates from media sources."
+    },
+    {
+      "id": 3,
+      "name": "Reminders and Alarms",
+      "definition": "Setting, modifying, querying, or deleting reminders or alarms."
+    },
+    {
+      "id": 4,
+      "name": "Recipes and Cooking",
+      "definition": "Requests for recipes, cooking instructions, ingredient information, or nutritional facts."
+    },
+    {
+      "id": 5,
+      "name": "Music and Audio Playback",
+      "definition": "Commands to play, stop, skip, or search for music, radio, or other audio content."
+    },
+    {
+      "id": 6,
+      "name": "Timers",
+      "definition": "Setting, modifying, querying, or interacting with countdown timers."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "Initiating, managing, or sending messages, calls, or video calls to individuals or groups."
+    },
+    {
+      "id": 8,
+      "name": "People and General Information",
+      "definition": "Queries about people's employment, location, relationships, birthdays, online status, or general facts about entities."
+    },
+    {
+      "id": 9,
+      "name": "Events and Activities",
+      "definition": "Queries about local happenings, things to do, or recommendations for entertainment."
+    },
+    {
+      "id": 10,
+      "name": "Status and Availability",
+      "definition": "Setting or querying one's own or others' availability or status."
+    }
+  ]
+}

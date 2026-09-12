@@ -1,0 +1,130 @@
+{
+  "bench": "dbpedia",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Animal",
+      "definition": "Articles about living organisms that are animals."
+    },
+    {
+      "id": 2,
+      "name": "Plant",
+      "definition": "Articles about living organisms that are plants."
+    },
+    {
+      "id": 3,
+      "name": "Person",
+      "definition": "Articles about individual human beings."
+    },
+    {
+      "id": 4,
+      "name": "Book",
+      "definition": "Articles about written works, including novels and anthologies."
+    },
+    {
+      "id": 5,
+      "name": "Film",
+      "definition": "Articles about motion pictures, including documentaries and feature films."
+    },
+    {
+      "id": 6,
+      "name": "Music Album",
+      "definition": "Articles about collections of recorded music tracks."
+    },
+    {
+      "id": 7,
+      "name": "Song",
+      "definition": "Articles about individual pieces of music."
+    },
+    {
+      "id": 8,
+      "name": "Vehicle",
+      "definition": "Articles about means of transportation, including cars and ships."
+    },
+    {
+      "id": 9,
+      "name": "Building",
+      "definition": "Articles about structures, including houses, schools, and churches."
+    },
+    {
+      "id": 10,
+      "name": "Company",
+      "definition": "Articles about business entities and organizations."
+    },
+    {
+      "id": 11,
+      "name": "Educational Institution",
+      "definition": "Articles about schools, colleges, and universities."
+    },
+    {
+      "id": 12,
+      "name": "Geographical Feature",
+      "definition": "Articles about natural landforms, including mountains and rivers."
+    },
+    {
+      "id": 13,
+      "name": "Political Entity",
+      "definition": "Articles about governmental or political organizations and positions."
+    },
+    {
+      "id": 14,
+      "name": "Event",
+      "definition": "Articles about occurrences or happenings, including historical events."
+    },
+    {
+      "id": 15,
+      "name": "Journal",
+      "definition": "Articles about periodicals that publish scholarly or professional content."
+    },
+    {
+      "id": 16,
+      "name": "Historical Artifact",
+      "definition": "Articles about objects of historical significance."
+    },
+    {
+      "id": 17,
+      "name": "Technology",
+      "definition": "Articles about technological devices or systems."
+    },
+    {
+      "id": 18,
+      "name": "Sport",
+      "definition": "Articles about athletic activities or competitions."
+    },
+    {
+      "id": 19,
+      "name": "Food",
+      "definition": "Articles about edible items, including fruits and dishes."
+    },
+    {
+      "id": 20,
+      "name": "Cultural Work",
+      "definition": "Articles about artistic or cultural creations, including plays and artworks."
+    },
+    {
+      "id": 21,
+      "name": "Publication",
+      "definition": "Articles about newspapers, magazines, and other periodicals."
+    },
+    {
+      "id": 22,
+      "name": "Legal Entity",
+      "definition": "Articles about legal constructs, including laws and legal systems."
+    },
+    {
+      "id": 23,
+      "name": "Species",
+      "definition": "Articles about specific species of organisms."
+    },
+    {
+      "id": 24,
+      "name": "Location",
+      "definition": "Articles about specific places, including cities, towns, and villages."
+    }
+  ]
+}

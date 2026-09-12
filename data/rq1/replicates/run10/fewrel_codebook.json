@@ -1,0 +1,187 @@
+{
+  "bench": "fewrel",
+  "run": 10,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "LocatedIn",
+      "definition": "One entity is physically situated within another geographical or structural entity, or a facility serves a location."
+    },
+    {
+      "id": 2,
+      "name": "CreatorOf",
+      "definition": "One entity is the author, director, designer, or primary creator of an artistic or intellectual work."
+    },
+    {
+      "id": 3,
+      "name": "PartOf",
+      "definition": "One entity is a component, subdivision, or structural element of a larger entity."
+    },
+    {
+      "id": 4,
+      "name": "IsA",
+      "definition": "One entity is a type or instance of a broader category or classification."
+    },
+    {
+      "id": 5,
+      "name": "HeldPosition",
+      "definition": "A person occupied a specific role, office, or title."
+    },
+    {
+      "id": 6,
+      "name": "ParticipantIn",
+      "definition": "An entity took part in an event, competition, or process."
+    },
+    {
+      "id": 7,
+      "name": "OwnedBy",
+      "definition": "One entity has legal possession, control, or ownership over another entity or asset."
+    },
+    {
+      "id": 8,
+      "name": "DevelopedBy",
+      "definition": "An entity created or engineered a product, software, or system, especially in technology."
+    },
+    {
+      "id": 9,
+      "name": "ReleasedBy",
+      "definition": "An entity is responsible for the publication, distribution, or release of a creative work or product."
+    },
+    {
+      "id": 10,
+      "name": "SynonymEquivalent",
+      "definition": "Two entities refer to the same or a very similar concept or are identified as such."
+    },
+    {
+      "id": 11,
+      "name": "Kinship",
+      "definition": "Two entities are related by family ties."
+    },
+    {
+      "id": 12,
+      "name": "PlaysInstrument",
+      "definition": "A person is associated with playing a specific musical instrument."
+    },
+    {
+      "id": 13,
+      "name": "NationalityOrigin",
+      "definition": "An entity's origin or affiliation with a country, region, or ethnic group."
+    },
+    {
+      "id": 14,
+      "name": "ListedOn",
+      "definition": "An entity is formally included in a public register, list, or database."
+    },
+    {
+      "id": 15,
+      "name": "PrecedesSucceeds",
+      "definition": "One entity comes immediately before or after another in a sequence, series, or timeline."
+    },
+    {
+      "id": 16,
+      "name": "OperatedBy",
+      "definition": "An entity manages or runs a facility, service, or vehicle."
+    },
+    {
+      "id": 17,
+      "name": "Portrays",
+      "definition": "An entity (person) plays the role of another entity (character)."
+    },
+    {
+      "id": 18,
+      "name": "SubjectOf",
+      "definition": "One entity is the topic, theme, or focus of another creative work or discussion."
+    },
+    {
+      "id": 19,
+      "name": "NominatedFor",
+      "definition": "An entity was proposed for an award, recognition, or selection."
+    },
+    {
+      "id": 20,
+      "name": "BroadcastBy",
+      "definition": "A program or content is aired or transmitted by a media organization."
+    },
+    {
+      "id": 21,
+      "name": "AssociatedWithLocation",
+      "definition": "An entity has a notable, but indirect or contextual, connection to a place."
+    },
+    {
+      "id": 22,
+      "name": "TributaryOf",
+      "definition": "A smaller stream or river flows into a larger one."
+    },
+    {
+      "id": 23,
+      "name": "OfficialSymbolOf",
+      "definition": "One entity represents another entity officially."
+    },
+    {
+      "id": 24,
+      "name": "BasedOn",
+      "definition": "A creative work draws inspiration or content directly from another source."
+    },
+    {
+      "id": 25,
+      "name": "Platform",
+      "definition": "A software or system is designed to run on a specific hardware or software environment."
+    },
+    {
+      "id": 26,
+      "name": "ManufacturedBy",
+      "definition": "An entity produced a physical product or component."
+    },
+    {
+      "id": 27,
+      "name": "SignedTo",
+      "definition": "An artist or group has a contractual agreement with a record label or similar entity."
+    },
+    {
+      "id": 28,
+      "name": "FoundedIn",
+      "definition": "An organization or entity was established in a specific location."
+    },
+    {
+      "id": 29,
+      "name": "YearOfEvent",
+      "definition": "A specific year is associated with an event or entity."
+    },
+    {
+      "id": 30,
+      "name": "WinnerOf",
+      "definition": "An entity achieved victory in a competition or award."
+    },
+    {
+      "id": 31,
+      "name": "MemberOf",
+      "definition": "A person or organization is an active affiliate of a group, party, or team."
+    },
+    {
+      "id": 32,
+      "name": "Species",
+      "definition": "An entity's biological classification or type."
+    },
+    {
+      "id": 33,
+      "name": "HostedBy",
+      "definition": "An event took place at a specific location or organization."
+    },
+    {
+      "id": 34,
+      "name": "CharacterIn",
+      "definition": "One entity is a fictional character within a creative work."
+    },
+    {
+      "id": 35,
+      "name": "RelatedWork",
+      "definition": "Two or more creative works are connected, often by the same creator or theme."
+    },
+    {
+      "id": 36,
+      "name": "AssociatedWith",
+      "definition": "An entity has a notable, but indirect, connection to another entity or concept, not primarily location-based."
+    }
+  ]
+}

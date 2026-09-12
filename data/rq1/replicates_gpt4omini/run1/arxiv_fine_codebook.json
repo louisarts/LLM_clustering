@@ -1,0 +1,160 @@
+{
+  "bench": "arxiv_fine",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.LG",
+      "definition": "Machine Learning and its applications."
+    },
+    {
+      "id": 2,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence and related methodologies."
+    },
+    {
+      "id": 3,
+      "name": "cs.CV",
+      "definition": "Computer Vision and image processing techniques."
+    },
+    {
+      "id": 4,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms."
+    },
+    {
+      "id": 5,
+      "name": "cs.NE",
+      "definition": "Neural Networks and deep learning."
+    },
+    {
+      "id": 6,
+      "name": "math.AG",
+      "definition": "Algebraic Geometry."
+    },
+    {
+      "id": 7,
+      "name": "math.DS",
+      "definition": "Dynamical Systems."
+    },
+    {
+      "id": 8,
+      "name": "math.ST",
+      "definition": "Statistics and probability theory."
+    },
+    {
+      "id": 9,
+      "name": "math.NA",
+      "definition": "Numerical Analysis."
+    },
+    {
+      "id": 10,
+      "name": "math.PR",
+      "definition": "Probability and related fields."
+    },
+    {
+      "id": 11,
+      "name": "hep-th",
+      "definition": "Theoretical High Energy Physics."
+    },
+    {
+      "id": 12,
+      "name": "cond-mat.stat-mech",
+      "definition": "Statistical Mechanics in Condensed Matter Physics."
+    },
+    {
+      "id": 13,
+      "name": "astro-ph",
+      "definition": "Astrophysics and related fields."
+    },
+    {
+      "id": 14,
+      "name": "quant-ph",
+      "definition": "Quantum Physics."
+    },
+    {
+      "id": 15,
+      "name": "stat.ML",
+      "definition": "Statistical Machine Learning."
+    },
+    {
+      "id": 16,
+      "name": "bioinformatics",
+      "definition": "Computational biology and bioinformatics."
+    },
+    {
+      "id": 17,
+      "name": "econ.GN",
+      "definition": "Game Theory and Economics."
+    },
+    {
+      "id": 18,
+      "name": "stat.AP",
+      "definition": "Applications of Statistics."
+    },
+    {
+      "id": 19,
+      "name": "math.FA",
+      "definition": "Functional Analysis."
+    },
+    {
+      "id": 20,
+      "name": "math.CT",
+      "definition": "Category Theory."
+    },
+    {
+      "id": 21,
+      "name": "math.RA",
+      "definition": "Rings and Algebras."
+    },
+    {
+      "id": 22,
+      "name": "math.CA",
+      "definition": "Complex Analysis."
+    },
+    {
+      "id": 23,
+      "name": "math.GT",
+      "definition": "Geometric Topology."
+    },
+    {
+      "id": 24,
+      "name": "math.MG",
+      "definition": "Matrix Geometry."
+    },
+    {
+      "id": 25,
+      "name": "math.OC",
+      "definition": "Optimization and Control."
+    },
+    {
+      "id": 26,
+      "name": "math.SG",
+      "definition": "Stochastic Geometry."
+    },
+    {
+      "id": 27,
+      "name": "math.CV",
+      "definition": "Convex Geometry."
+    },
+    {
+      "id": 28,
+      "name": "math.HO",
+      "definition": "History and Overview of Mathematics."
+    },
+    {
+      "id": 29,
+      "name": "math.NT",
+      "definition": "Number Theory."
+    },
+    {
+      "id": 30,
+      "name": "math.AP",
+      "definition": "Applied Mathematics."
+    }
+  ]
+}

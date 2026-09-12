@@ -1,0 +1,84 @@
+{
+  "bench": "massive_domain",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Requests for current or future weather conditions, forecasts, or temperature."
+    },
+    {
+      "id": 2,
+      "name": "Music & Audio",
+      "definition": "Commands to play, control, or search for music, podcasts, audiobooks, or radio stations."
+    },
+    {
+      "id": 3,
+      "name": "Calendar & Scheduling",
+      "definition": "Interactions regarding events, appointments, meetings, and calendar management."
+    },
+    {
+      "id": 4,
+      "name": "Reminders & Alarms",
+      "definition": "Setting, checking, or managing alarms and task reminders."
+    },
+    {
+      "id": 5,
+      "name": "Email",
+      "definition": "Reading, composing, sending, or managing emails and inbox notifications."
+    },
+    {
+      "id": 6,
+      "name": "Smart Home",
+      "definition": "Controlling smart home devices such as lights, plugs, vacuum cleaners, or appliances."
+    },
+    {
+      "id": 7,
+      "name": "Food & Ordering",
+      "definition": "Ordering food delivery, finding restaurants, or requesting recipes and cooking instructions."
+    },
+    {
+      "id": 8,
+      "name": "Lists & Notes",
+      "definition": "Managing shopping lists, to-do lists, or creating personal notes."
+    },
+    {
+      "id": 9,
+      "name": "News",
+      "definition": "Requests for current news headlines, specific news topics, or updates."
+    },
+    {
+      "id": 10,
+      "name": "Travel & Navigation",
+      "definition": "Requests for directions, taxi bookings, train schedules, or traffic information."
+    },
+    {
+      "id": 11,
+      "name": "General Knowledge & QA",
+      "definition": "Questions seeking facts, definitions, calculations, or general information."
+    },
+    {
+      "id": 12,
+      "name": "Time & Date",
+      "definition": "Requests for the current time, time zone conversions, or date inquiries."
+    },
+    {
+      "id": 13,
+      "name": "Social Media",
+      "definition": "Posting updates or checking notifications on social media platforms."
+    },
+    {
+      "id": 14,
+      "name": "Finance",
+      "definition": "Checking stock prices, currency exchange rates, or financial data."
+    },
+    {
+      "id": 15,
+      "name": "Small Talk & Personal",
+      "definition": "Casual conversation, personal updates, or questions about the assistant itself."
+    }
+  ]
+}

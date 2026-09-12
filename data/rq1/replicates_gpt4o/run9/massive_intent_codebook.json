@@ -1,0 +1,260 @@
+{
+  "bench": "massive_intent",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Reminder",
+      "definition": "Requests to set a reminder for a future event or task."
+    },
+    {
+      "id": 2,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or future weather information."
+    },
+    {
+      "id": 3,
+      "name": "Email Management",
+      "definition": "Requests to send, check, or manage emails."
+    },
+    {
+      "id": 4,
+      "name": "Calendar Management",
+      "definition": "Requests to create, modify, or delete calendar events."
+    },
+    {
+      "id": 5,
+      "name": "Music Playback",
+      "definition": "Requests to play, shuffle, or manage music tracks or playlists."
+    },
+    {
+      "id": 6,
+      "name": "Light Control",
+      "definition": "Requests to turn on, off, or adjust lighting."
+    },
+    {
+      "id": 7,
+      "name": "Travel Booking",
+      "definition": "Requests to book or inquire about travel tickets."
+    },
+    {
+      "id": 8,
+      "name": "Recipe Inquiry",
+      "definition": "Requests for cooking recipes or instructions."
+    },
+    {
+      "id": 9,
+      "name": "News Inquiry",
+      "definition": "Requests for news updates or headlines."
+    },
+    {
+      "id": 10,
+      "name": "Social Media Interaction",
+      "definition": "Requests to interact with social media platforms, such as tweeting."
+    },
+    {
+      "id": 11,
+      "name": "Device Control",
+      "definition": "Requests to control or manage electronic devices."
+    },
+    {
+      "id": 12,
+      "name": "General Information Inquiry",
+      "definition": "Requests for general knowledge or information."
+    },
+    {
+      "id": 13,
+      "name": "Event Inquiry",
+      "definition": "Requests for information about local or upcoming events."
+    },
+    {
+      "id": 14,
+      "name": "Shopping List Management",
+      "definition": "Requests to add or remove items from a shopping list."
+    },
+    {
+      "id": 15,
+      "name": "Audio/Video Playback",
+      "definition": "Requests to play or manage audio or video content."
+    },
+    {
+      "id": 16,
+      "name": "Alarm Management",
+      "definition": "Requests to set, check, or manage alarms."
+    },
+    {
+      "id": 17,
+      "name": "Currency Exchange Inquiry",
+      "definition": "Requests for currency exchange rates."
+    },
+    {
+      "id": 18,
+      "name": "Traffic Inquiry",
+      "definition": "Requests for traffic information or directions."
+    },
+    {
+      "id": 19,
+      "name": "Contact Management",
+      "definition": "Requests to manage or inquire about contacts."
+    },
+    {
+      "id": 20,
+      "name": "Podcast Management",
+      "definition": "Requests to play or manage podcast episodes."
+    },
+    {
+      "id": 21,
+      "name": "Time Inquiry",
+      "definition": "Requests for the current time or time in different locations."
+    },
+    {
+      "id": 22,
+      "name": "Definition Inquiry",
+      "definition": "Requests for definitions of words or terms."
+    },
+    {
+      "id": 23,
+      "name": "Cooking Assistance",
+      "definition": "Requests for help or instructions related to cooking."
+    },
+    {
+      "id": 24,
+      "name": "Entertainment Inquiry",
+      "definition": "Requests for entertainment options or recommendations."
+    },
+    {
+      "id": 25,
+      "name": "Financial Inquiry",
+      "definition": "Requests for financial information or updates."
+    },
+    {
+      "id": 26,
+      "name": "Home Automation",
+      "definition": "Requests to control home appliances or settings."
+    },
+    {
+      "id": 27,
+      "name": "Location Inquiry",
+      "definition": "Requests for information about locations or directions."
+    },
+    {
+      "id": 28,
+      "name": "Event Cancellation",
+      "definition": "Requests to cancel scheduled events or appointments."
+    },
+    {
+      "id": 29,
+      "name": "List Management",
+      "definition": "Requests to create, view, or manage lists."
+    },
+    {
+      "id": 30,
+      "name": "Reminder Inquiry",
+      "definition": "Requests to check or inquire about existing reminders."
+    },
+    {
+      "id": 31,
+      "name": "Radio Control",
+      "definition": "Requests to play or change radio stations."
+    },
+    {
+      "id": 32,
+      "name": "Shopping Inquiry",
+      "definition": "Requests for shopping-related information or actions."
+    },
+    {
+      "id": 33,
+      "name": "General Inquiry",
+      "definition": "Requests for general assistance or advice."
+    },
+    {
+      "id": 34,
+      "name": "Social Media Inquiry",
+      "definition": "Requests to check or inquire about social media updates."
+    },
+    {
+      "id": 35,
+      "name": "Event Scheduling",
+      "definition": "Requests to schedule new events or appointments."
+    },
+    {
+      "id": 36,
+      "name": "Media Control",
+      "definition": "Requests to control media playback settings."
+    },
+    {
+      "id": 37,
+      "name": "News Article Inquiry",
+      "definition": "Requests for specific news articles or topics."
+    },
+    {
+      "id": 38,
+      "name": "Event Notification",
+      "definition": "Requests to be notified about specific events or updates."
+    },
+    {
+      "id": 39,
+      "name": "Cooking Recipe Inquiry",
+      "definition": "Requests for specific cooking recipes."
+    },
+    {
+      "id": 40,
+      "name": "Event Planning",
+      "definition": "Requests to plan or organize events."
+    },
+    {
+      "id": 41,
+      "name": "Music Inquiry",
+      "definition": "Requests for information about music or artists."
+    },
+    {
+      "id": 42,
+      "name": "Podcast Inquiry",
+      "definition": "Requests for information about podcasts or episodes."
+    },
+    {
+      "id": 43,
+      "name": "Event Inquiry",
+      "definition": "Requests for information about specific events or activities."
+    },
+    {
+      "id": 44,
+      "name": "Device Inquiry",
+      "definition": "Requests for information about devices or settings."
+    },
+    {
+      "id": 45,
+      "name": "Social Media Posting",
+      "definition": "Requests to post or share content on social media."
+    },
+    {
+      "id": 46,
+      "name": "Event Reminder",
+      "definition": "Requests to be reminded about specific events or tasks."
+    },
+    {
+      "id": 47,
+      "name": "Media Playback",
+      "definition": "Requests to play or manage media content."
+    },
+    {
+      "id": 48,
+      "name": "Event Management",
+      "definition": "Requests to manage or organize events or appointments."
+    },
+    {
+      "id": 49,
+      "name": "General Assistance",
+      "definition": "Requests for general help or support."
+    },
+    {
+      "id": 50,
+      "name": "Social Media Management",
+      "definition": "Requests to manage or interact with social media accounts."
+    }
+  ]
+}

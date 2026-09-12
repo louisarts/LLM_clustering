@@ -1,0 +1,312 @@
+{
+  "bench": "stackoverflow20",
+  "run": 10,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Haskell",
+      "definition": "Programming language and its ecosystem, including compilers (GHC) and libraries (Parsec, GD binding)."
+    },
+    {
+      "id": 2,
+      "name": "Scala",
+      "definition": "Programming language and its ecosystem, including features like actors and mixins."
+    },
+    {
+      "id": 3,
+      "name": "Objective-C",
+      "definition": "Programming language primarily used for Apple platforms."
+    },
+    {
+      "id": 4,
+      "name": "Python",
+      "definition": "General-purpose programming language, often used for scripting and web development."
+    },
+    {
+      "id": 5,
+      "name": "PHP",
+      "definition": "Server-side scripting language for web development."
+    },
+    {
+      "id": 6,
+      "name": "JavaScript",
+      "definition": "Client-side scripting language for web development, often used for interactive web pages."
+    },
+    {
+      "id": 7,
+      "name": "C#",
+      "definition": "Multi-paradigm programming language developed by Microsoft, often used with .NET."
+    },
+    {
+      "id": 8,
+      "name": "Ruby",
+      "definition": "Dynamic, object-oriented programming language."
+    },
+    {
+      "id": 9,
+      "name": "Java",
+      "definition": "General-purpose programming language, widely used for enterprise applications."
+    },
+    {
+      "id": 10,
+      "name": "Visual Basic",
+      "definition": "Event-driven programming language, often used with Microsoft Office applications."
+    },
+    {
+      "id": 11,
+      "name": "C++",
+      "definition": "General-purpose programming language, often used for system programming and game development."
+    },
+    {
+      "id": 12,
+      "name": "Spring Framework",
+      "definition": "Comprehensive Java application framework, including Spring MVC and Spring AOP."
+    },
+    {
+      "id": 13,
+      "name": "Hibernate",
+      "definition": "Object-relational mapping (ORM) framework for Java applications, often used with JPA."
+    },
+    {
+      "id": 14,
+      "name": "LINQ",
+      "definition": ".NET component for data querying, including LINQ to SQL, LINQ to XML, and Entity Framework."
+    },
+    {
+      "id": 15,
+      "name": "Qt",
+      "definition": "Cross-platform application development framework, including Qt Creator."
+    },
+    {
+      "id": 16,
+      "name": "Cocoa",
+      "definition": "Apple's native object-oriented API for macOS and iOS application development."
+    },
+    {
+      "id": 17,
+      "name": "AJAX",
+      "definition": "Web development technique for creating asynchronous web applications."
+    },
+    {
+      "id": 18,
+      "name": "Ruby on Rails",
+      "definition": "Web application framework written in Ruby."
+    },
+    {
+      "id": 19,
+      "name": "Yesod",
+      "definition": "Haskell web framework."
+    },
+    {
+      "id": 20,
+      "name": "Sitemesh",
+      "definition": "Web page decorator framework."
+    },
+    {
+      "id": 21,
+      "name": "jQuery",
+      "definition": "Fast, small, and feature-rich JavaScript library."
+    },
+    {
+      "id": 22,
+      "name": "Prototype.js",
+      "definition": "JavaScript framework."
+    },
+    {
+      "id": 23,
+      "name": "Grails",
+      "definition": "Open-source web application framework built on Groovy and Java."
+    },
+    {
+      "id": 24,
+      "name": "AspectJ",
+      "definition": "Aspect-oriented programming (AOP) framework for Java."
+    },
+    {
+      "id": 25,
+      "name": "RMI",
+      "definition": "Java Remote Method Invocation, a mechanism for distributed computing in Java."
+    },
+    {
+      "id": 26,
+      "name": "ASP.NET MVC",
+      "definition": "Microsoft's framework for building web applications using the Model-View-Controller pattern."
+    },
+    {
+      "id": 27,
+      "name": "WordPress",
+      "definition": "Popular content management system (CMS)."
+    },
+    {
+      "id": 28,
+      "name": "Magento",
+      "definition": "Open-source e-commerce platform."
+    },
+    {
+      "id": 29,
+      "name": "Drupal",
+      "definition": "Open-source content management framework (CMF)."
+    },
+    {
+      "id": 30,
+      "name": "SharePoint",
+      "definition": "Microsoft's collaboration, document management, and web content management platform, including WSS, MOSS, InfoPath, and Search Server."
+    },
+    {
+      "id": 31,
+      "name": "OSCommerce",
+      "definition": "Open-source e-commerce solution."
+    },
+    {
+      "id": 32,
+      "name": "Oracle Database",
+      "definition": "Proprietary multi-model database management system."
+    },
+    {
+      "id": 33,
+      "name": "PostgreSQL",
+      "definition": "Powerful, open-source object-relational database system."
+    },
+    {
+      "id": 34,
+      "name": "SQLite",
+      "definition": "Self-contained, serverless, zero-configuration, transactional SQL database engine."
+    },
+    {
+      "id": 35,
+      "name": "HSQLDB",
+      "definition": "Lightweight, 100% Java relational database engine."
+    },
+    {
+      "id": 36,
+      "name": "SQL Server",
+      "definition": "Microsoft's relational database management system."
+    },
+    {
+      "id": 37,
+      "name": "DB2",
+      "definition": "IBM's family of relational database management system products."
+    },
+    {
+      "id": 38,
+      "name": "Bash",
+      "definition": "Unix shell and command language, used for shell scripting."
+    },
+    {
+      "id": 39,
+      "name": "macOS",
+      "definition": "Apple's desktop operating system, including OS X, Mac Apps, and Xcode."
+    },
+    {
+      "id": 40,
+      "name": "Windows OS",
+      "definition": "Microsoft's family of operating systems."
+    },
+    {
+      "id": 41,
+      "name": "Linux OS",
+      "definition": "Family of open-source Unix-like operating systems."
+    },
+    {
+      "id": 42,
+      "name": "Android OS",
+      "definition": "Mobile operating system developed by Google."
+    },
+    {
+      "id": 43,
+      "name": "Apache HTTP Server",
+      "definition": "Widely used open-source HTTP server."
+    },
+    {
+      "id": 44,
+      "name": "Nginx",
+      "definition": "High-performance HTTP and reverse proxy server."
+    },
+    {
+      "id": 45,
+      "name": "Lighttpd",
+      "definition": "Open-source web server optimized for speed-critical environments."
+    },
+    {
+      "id": 46,
+      "name": "Tomcat",
+      "definition": "Open-source implementation of Java Servlet and JavaServer Pages technologies."
+    },
+    {
+      "id": 47,
+      "name": "WebSphere",
+      "definition": "IBM's suite of enterprise software for web applications."
+    },
+    {
+      "id": 48,
+      "name": "Inter-Process Communication",
+      "definition": "Mechanisms for processes to communicate, including SysV, POSIX shared memory, and mmap."
+    },
+    {
+      "id": 49,
+      "name": "Visual Studio",
+      "definition": "Integrated development environment (IDE) by Microsoft, including MSVC compiler context."
+    },
+    {
+      "id": 50,
+      "name": "Subversion (SVN)",
+      "definition": "Centralized version control system, including clients like TortoiseSVN and Subclipse."
+    },
+    {
+      "id": 51,
+      "name": "Matlab",
+      "definition": "Programming language and environment for numerical computing, including Simulink."
+    },
+    {
+      "id": 52,
+      "name": "Microsoft Excel",
+      "definition": "Spreadsheet application, including VBA, Interop, and ActiveX integration."
+    },
+    {
+      "id": 53,
+      "name": "Emacs",
+      "definition": "Extensible, customizable, free/libre text editor."
+    },
+    {
+      "id": 54,
+      "name": "Ant",
+      "definition": "Java-based build tool."
+    },
+    {
+      "id": 55,
+      "name": "Ivy",
+      "definition": "Dependency manager for Ant."
+    },
+    {
+      "id": 56,
+      "name": "Cabal",
+      "definition": "Build system for Haskell projects."
+    },
+    {
+      "id": 57,
+      "name": "Maven",
+      "definition": "Build automation tool primarily for Java projects."
+    },
+    {
+      "id": 58,
+      "name": "IntelliJ IDEA",
+      "definition": "Integrated development environment for Java and other JVM languages."
+    },
+    {
+      "id": 59,
+      "name": "RockScroll",
+      "definition": "Visual Studio extension for code navigation."
+    },
+    {
+      "id": 60,
+      "name": "JasperReports",
+      "definition": "Open-source reporting library for Java."
+    },
+    {
+      "id": 61,
+      "name": "Web Browsers",
+      "definition": "Software applications for accessing information on the World Wide Web, such as Firefox, Chrome, and Internet Explorer."
+    }
+  ]
+}

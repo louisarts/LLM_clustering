@@ -1,0 +1,110 @@
+{
+  "bench": "mtop_intent",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Request to set a specific time for an alarm to go off."
+    },
+    {
+      "id": 2,
+      "name": "Find Information",
+      "definition": "Request to find specific information such as weather, news, or details about a person."
+    },
+    {
+      "id": 3,
+      "name": "Remind Task",
+      "definition": "Request to set a reminder for a specific task or event."
+    },
+    {
+      "id": 4,
+      "name": "Timer Control",
+      "definition": "Request to set, delete, or modify a timer."
+    },
+    {
+      "id": 5,
+      "name": "Call/Message Contact",
+      "definition": "Request to call or message a specific contact."
+    },
+    {
+      "id": 6,
+      "name": "Music Control",
+      "definition": "Request to play, repeat, or stop music."
+    },
+    {
+      "id": 7,
+      "name": "Recipe Search",
+      "definition": "Request to find a recipe for a specific dish."
+    },
+    {
+      "id": 8,
+      "name": "Weather Inquiry",
+      "definition": "Request to check the weather forecast for a specific location."
+    },
+    {
+      "id": 9,
+      "name": "News Update",
+      "definition": "Request to get the latest news updates."
+    },
+    {
+      "id": 10,
+      "name": "Cancel Reminder",
+      "definition": "Request to cancel a previously set reminder."
+    },
+    {
+      "id": 11,
+      "name": "Event Inquiry",
+      "definition": "Request to check for upcoming events or activities."
+    },
+    {
+      "id": 12,
+      "name": "Alarm Repeat",
+      "definition": "Request to set a recurring alarm for specific days or times."
+    },
+    {
+      "id": 13,
+      "name": "Contact Information",
+      "definition": "Request to find details about a specific person or contact."
+    },
+    {
+      "id": 14,
+      "name": "Timer Adjustment",
+      "definition": "Request to adjust the duration or settings of a timer."
+    },
+    {
+      "id": 15,
+      "name": "Music Playlist",
+      "definition": "Request to play a specific music playlist or artist."
+    },
+    {
+      "id": 16,
+      "name": "Alarm Deletion",
+      "definition": "Request to delete a previously set alarm."
+    },
+    {
+      "id": 17,
+      "name": "Call Control",
+      "definition": "Request to initiate, end, or manage phone calls."
+    },
+    {
+      "id": 18,
+      "name": "Message Sending",
+      "definition": "Request to send a message to a specific contact or group."
+    },
+    {
+      "id": 19,
+      "name": "Cooking Inquiry",
+      "definition": "Request for cooking instructions or recipe details."
+    },
+    {
+      "id": 20,
+      "name": "Alarm Snooze",
+      "definition": "Request to snooze or delay an alarm for a specific duration."
+    }
+  ]
+}

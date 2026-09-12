@@ -1,0 +1,135 @@
+{
+  "bench": "reddit_s2s",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Blogging and Writing",
+      "definition": "Posts related to blogging, writing, and literature."
+    },
+    {
+      "id": 2,
+      "name": "Architecture and Design",
+      "definition": "Posts about architecture, design, and related fields."
+    },
+    {
+      "id": 3,
+      "name": "Education and Academia",
+      "definition": "Posts concerning education, academic life, and student experiences."
+    },
+    {
+      "id": 4,
+      "name": "Cooking and Food",
+      "definition": "Posts about cooking, recipes, and food-related topics."
+    },
+    {
+      "id": 5,
+      "name": "Technology and Gadgets",
+      "definition": "Posts related to technology, gadgets, and software."
+    },
+    {
+      "id": 6,
+      "name": "Science and Mathematics",
+      "definition": "Posts about scientific topics, mathematics, and research."
+    },
+    {
+      "id": 7,
+      "name": "Social Media and Internet",
+      "definition": "Posts about social media platforms and internet culture."
+    },
+    {
+      "id": 8,
+      "name": "History and Culture",
+      "definition": "Posts related to historical events, cultural discussions, and heritage."
+    },
+    {
+      "id": 9,
+      "name": "Cycling and Outdoor Activities",
+      "definition": "Posts about cycling, outdoor sports, and related activities."
+    },
+    {
+      "id": 10,
+      "name": "Collectibles and Antiques",
+      "definition": "Posts about collectibles, antiques, and their valuation."
+    },
+    {
+      "id": 11,
+      "name": "Entertainment and Celebrities",
+      "definition": "Posts about entertainment, movies, TV shows, and celebrities."
+    },
+    {
+      "id": 12,
+      "name": "Politics and News",
+      "definition": "Posts discussing political events, news, and current affairs."
+    },
+    {
+      "id": 13,
+      "name": "Travel and Places",
+      "definition": "Posts about travel experiences, destinations, and local insights."
+    },
+    {
+      "id": 14,
+      "name": "Health and Wellness",
+      "definition": "Posts about health, wellness, and medical topics."
+    },
+    {
+      "id": 15,
+      "name": "Relationships and Personal Advice",
+      "definition": "Posts seeking or offering advice on relationships and personal issues."
+    },
+    {
+      "id": 16,
+      "name": "Music and Performing Arts",
+      "definition": "Posts about music, musicians, and performing arts."
+    },
+    {
+      "id": 17,
+      "name": "Sports and Recreation",
+      "definition": "Posts about sports, games, and recreational activities."
+    },
+    {
+      "id": 18,
+      "name": "Business and Finance",
+      "definition": "Posts related to business, finance, and economic topics."
+    },
+    {
+      "id": 19,
+      "name": "Automobiles and Transportation",
+      "definition": "Posts about cars, transportation, and related technologies."
+    },
+    {
+      "id": 20,
+      "name": "Home and Garden",
+      "definition": "Posts about home improvement, gardening, and DIY projects."
+    },
+    {
+      "id": 21,
+      "name": "Fashion and Beauty",
+      "definition": "Posts about fashion, beauty, and personal grooming."
+    },
+    {
+      "id": 22,
+      "name": "Religion and Spirituality",
+      "definition": "Posts discussing religious beliefs, spirituality, and related topics."
+    },
+    {
+      "id": 23,
+      "name": "Gaming and Virtual Reality",
+      "definition": "Posts about video games, gaming culture, and virtual reality."
+    },
+    {
+      "id": 24,
+      "name": "Legal and Law Enforcement",
+      "definition": "Posts about legal issues, law enforcement, and related topics."
+    },
+    {
+      "id": 25,
+      "name": "Miscellaneous",
+      "definition": "Posts that do not fit into any other category."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "bench": "massive_intent",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Location-Based Queries",
+      "definition": "Requests for information or services based on the user's location."
+    },
+    {
+      "id": 2,
+      "name": "Time Management",
+      "definition": "Commands related to scheduling, reminders, and alarms."
+    },
+    {
+      "id": 3,
+      "name": "Information Retrieval",
+      "definition": "Requests for factual information or general knowledge."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment Requests",
+      "definition": "Commands to play music, podcasts, or games."
+    },
+    {
+      "id": 5,
+      "name": "Communication Tasks",
+      "definition": "Requests to send, reply to, or manage emails and messages."
+    },
+    {
+      "id": 6,
+      "name": "Shopping and Ordering",
+      "definition": "Commands related to purchasing items or placing food orders."
+    },
+    {
+      "id": 7,
+      "name": "Home Automation",
+      "definition": "Commands to control smart home devices and settings."
+    },
+    {
+      "id": 8,
+      "name": "Social Media Interaction",
+      "definition": "Requests to interact with social media platforms."
+    },
+    {
+      "id": 9,
+      "name": "Task Management",
+      "definition": "Commands related to managing tasks, lists, and events."
+    },
+    {
+      "id": 10,
+      "name": "Weather Queries",
+      "definition": "Requests for current or forecasted weather information."
+    },
+    {
+      "id": 11,
+      "name": "Health and Safety Queries",
+      "definition": "Requests for health tips, safety information, or medical inquiries."
+    },
+    {
+      "id": 12,
+      "name": "Travel and Navigation",
+      "definition": "Commands related to travel arrangements and navigation."
+    },
+    {
+      "id": 13,
+      "name": "Learning and Definitions",
+      "definition": "Requests for definitions, explanations, or educational content."
+    },
+    {
+      "id": 14,
+      "name": "Event Management",
+      "definition": "Commands to create, modify, or delete calendar events."
+    },
+    {
+      "id": 15,
+      "name": "Feedback and Opinions",
+      "definition": "Requests for opinions, feedback, or personal thoughts."
+    }
+  ]
+}

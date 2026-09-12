@@ -1,0 +1,65 @@
+{
+  "bench": "dbpedia",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "Individual human being"
+    },
+    {
+      "id": 2,
+      "name": "Place",
+      "definition": "Physical location"
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "Group of people working together towards common goals"
+    },
+    {
+      "id": 4,
+      "name": "Animal",
+      "definition": "Living organism that feeds on organic matter"
+    },
+    {
+      "id": 5,
+      "name": "Plant",
+      "definition": "Living organism that produces its own food through photosynthesis"
+    },
+    {
+      "id": 6,
+      "name": "Bird",
+      "definition": "Warm-blooded egg-laying vertebrate animal with feathers"
+    },
+    {
+      "id": 7,
+      "name": "Insect",
+      "definition": "Small arthropod animal with six legs and a body divided into three parts"
+    },
+    {
+      "id": 8,
+      "name": "Fish",
+      "definition": "Aquatic animal with gills and fins"
+    },
+    {
+      "id": 9,
+      "name": "Reptile",
+      "definition": "Cold-blooded vertebrate animal with dry scaly skin"
+    },
+    {
+      "id": 10,
+      "name": "Amphibian",
+      "definition": "Cold-blooded vertebrate animal that spends its early life in water and adult life on land"
+    },
+    {
+      "id": 11,
+      "name": "Mammal",
+      "definition": "Warm-blooded vertebrate animal that feeds its young with milk"
+    }
+  ]
+}

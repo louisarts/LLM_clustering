@@ -1,0 +1,95 @@
+{
+  "bench": "massive_domain",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Requests for current or future weather information."
+    },
+    {
+      "id": 2,
+      "name": "News",
+      "definition": "Requests for news updates or headlines."
+    },
+    {
+      "id": 3,
+      "name": "Music",
+      "definition": "Requests to play, pause, or manage music or playlists."
+    },
+    {
+      "id": 4,
+      "name": "Email",
+      "definition": "Requests to send, check, or manage emails."
+    },
+    {
+      "id": 5,
+      "name": "Calendar and Reminders",
+      "definition": "Requests to create, check, or manage calendar events and reminders."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Transportation",
+      "definition": "Requests for booking or checking travel arrangements like trains or taxis."
+    },
+    {
+      "id": 7,
+      "name": "Smart Home Control",
+      "definition": "Requests to control smart home devices like lights or appliances."
+    },
+    {
+      "id": 8,
+      "name": "Social Media",
+      "definition": "Requests to post or interact with social media platforms."
+    },
+    {
+      "id": 9,
+      "name": "General Knowledge and Definitions",
+      "definition": "Requests for definitions or general knowledge questions."
+    },
+    {
+      "id": 10,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 11,
+      "name": "Finance and Currency",
+      "definition": "Requests for financial information or currency exchange rates."
+    },
+    {
+      "id": 12,
+      "name": "Entertainment and Media",
+      "definition": "Requests to play or manage non-music media like podcasts or audiobooks."
+    },
+    {
+      "id": 13,
+      "name": "Local Information",
+      "definition": "Requests for local events, activities, or places."
+    },
+    {
+      "id": 14,
+      "name": "Shopping and Orders",
+      "definition": "Requests related to shopping lists or order inquiries."
+    },
+    {
+      "id": 15,
+      "name": "Time and Date",
+      "definition": "Requests for current time, date, or time zone information."
+    },
+    {
+      "id": 16,
+      "name": "Jokes and Humor",
+      "definition": "Requests for jokes or humorous content."
+    },
+    {
+      "id": 17,
+      "name": "Math and Calculations",
+      "definition": "Requests for mathematical calculations or information."
+    }
+  ]
+}

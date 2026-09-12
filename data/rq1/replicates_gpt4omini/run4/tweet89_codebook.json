@@ -1,0 +1,80 @@
+{
+  "bench": "tweet89",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Political Events",
+      "definition": "Documents related to political actions, elections, and government decisions."
+    },
+    {
+      "id": 2,
+      "name": "Social Issues",
+      "definition": "Documents discussing social movements, protests, and societal challenges."
+    },
+    {
+      "id": 3,
+      "name": "Entertainment",
+      "definition": "Documents covering movies, music, and celebrity news."
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "definition": "Documents related to sporting events, athletes, and competitions."
+    },
+    {
+      "id": 5,
+      "name": "Health and Safety",
+      "definition": "Documents discussing health initiatives, safety campaigns, and medical news."
+    },
+    {
+      "id": 6,
+      "name": "Technology",
+      "definition": "Documents related to technological advancements, gadgets, and digital privacy."
+    },
+    {
+      "id": 7,
+      "name": "Environmental Issues",
+      "definition": "Documents discussing environmental concerns, climate change, and conservation efforts."
+    },
+    {
+      "id": 8,
+      "name": "Legal Matters",
+      "definition": "Documents related to court rulings, lawsuits, and legal controversies."
+    },
+    {
+      "id": 9,
+      "name": "Economic News",
+      "definition": "Documents covering economic trends, market updates, and financial news."
+    },
+    {
+      "id": 10,
+      "name": "Food and Recipes",
+      "definition": "Documents sharing recipes, food trends, and culinary discussions."
+    },
+    {
+      "id": 11,
+      "name": "Crime and Security",
+      "definition": "Documents discussing crime incidents, security threats, and law enforcement."
+    },
+    {
+      "id": 12,
+      "name": "Cultural Events",
+      "definition": "Documents related to cultural happenings, festivals, and community events."
+    },
+    {
+      "id": 13,
+      "name": "Travel and Tourism",
+      "definition": "Documents discussing travel destinations, tips, and tourism news."
+    },
+    {
+      "id": 14,
+      "name": "Consumer Products",
+      "definition": "Documents related to product launches, advertisements, and consumer trends."
+    }
+  ]
+}

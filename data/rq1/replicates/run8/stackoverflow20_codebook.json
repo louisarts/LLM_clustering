@@ -1,0 +1,252 @@
+{
+  "bench": "stackoverflow20",
+  "run": 8,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "ADO.NET",
+      "definition": "Microsoft's data access technology for the .NET Framework."
+    },
+    {
+      "id": 2,
+      "name": "AJAX",
+      "definition": "Asynchronous JavaScript and XML, a web development technique for creating interactive web applications."
+    },
+    {
+      "id": 3,
+      "name": "Apache",
+      "definition": "The Apache HTTP Server, a widely used open-source web server, including related modules like mod_rewrite and XAMPP."
+    },
+    {
+      "id": 4,
+      "name": "Apache Ant",
+      "definition": "A Java-based build automation tool."
+    },
+    {
+      "id": 5,
+      "name": "ASP.NET",
+      "definition": "Microsoft's open-source server-side web application framework for building dynamic websites and web services."
+    },
+    {
+      "id": 6,
+      "name": "Bash",
+      "definition": "The Bourne Again SHell, a Unix shell and command language for scripting."
+    },
+    {
+      "id": 7,
+      "name": "C/C++",
+      "definition": "General-purpose programming languages, often used together for system-level programming."
+    },
+    {
+      "id": 8,
+      "name": "C#",
+      "definition": "Microsoft's object-oriented programming language, primarily used with the .NET Framework."
+    },
+    {
+      "id": 9,
+      "name": "ClearCase",
+      "definition": "IBM's enterprise-grade version control system for software configuration management."
+    },
+    {
+      "id": 10,
+      "name": "Cocoa/macOS Development",
+      "definition": "Apple's native object-oriented API for macOS applications, including Objective-C language and macOS-specific development topics."
+    },
+    {
+      "id": 11,
+      "name": "Drupal",
+      "definition": "An open-source content management system (CMS) framework for building websites and web applications."
+    },
+    {
+      "id": 12,
+      "name": "Excel",
+      "definition": "Microsoft's spreadsheet application, including its features, formulas, and VBA scripting."
+    },
+    {
+      "id": 13,
+      "name": "Haskell",
+      "definition": "A purely functional programming language, including its ecosystem tools like Cabal and QuickCheck."
+    },
+    {
+      "id": 14,
+      "name": "Hibernate",
+      "definition": "An object-relational mapping (ORM) framework for the Java platform."
+    },
+    {
+      "id": 15,
+      "name": "InfoPath",
+      "definition": "Microsoft's application for designing, distributing, filling, and submitting electronic forms."
+    },
+    {
+      "id": 16,
+      "name": "Internet Explorer",
+      "definition": "Microsoft's proprietary web browser."
+    },
+    {
+      "id": 17,
+      "name": "Java",
+      "definition": "A widely used object-oriented programming language and computing platform, including related libraries like JDBC and Apache POI."
+    },
+    {
+      "id": 18,
+      "name": "JavaScript",
+      "definition": "A high-level, interpreted programming language primarily used for client-side web development, including libraries like jQuery."
+    },
+    {
+      "id": 19,
+      "name": "JSON",
+      "definition": "JavaScript Object Notation, a lightweight data-interchange format."
+    },
+    {
+      "id": 20,
+      "name": "Joomla",
+      "definition": "A free and open-source content management system (CMS) for publishing web content."
+    },
+    {
+      "id": 21,
+      "name": "LINQ",
+      "definition": "Language Integrated Query for .NET, providing data querying capabilities across various data sources, including LINQ to SQL and LINQ to Entities."
+    },
+    {
+      "id": 22,
+      "name": "Lift",
+      "definition": "An open-source web framework for the Scala programming language."
+    },
+    {
+      "id": 23,
+      "name": "Magento",
+      "definition": "An open-source e-commerce platform built on PHP."
+    },
+    {
+      "id": 24,
+      "name": "Markdown",
+      "definition": "A lightweight markup language for creating formatted text using a plain-text editor."
+    },
+    {
+      "id": 25,
+      "name": "Matlab",
+      "definition": "A proprietary numerical computing environment and programming language, including its toolboxes and functions like FFT."
+    },
+    {
+      "id": 26,
+      "name": "MediaWiki",
+      "definition": "Free and open-source wiki software, used to power Wikipedia and other wikis."
+    },
+    {
+      "id": 27,
+      "name": "Moodle",
+      "definition": "A free and open-source learning management system (LMS) for creating online courses."
+    },
+    {
+      "id": 28,
+      "name": "MySQL",
+      "definition": "A widely used open-source relational database management system."
+    },
+    {
+      "id": 29,
+      "name": "Nginx",
+      "definition": "A high-performance web server, reverse proxy, and load balancer."
+    },
+    {
+      "id": 30,
+      "name": "OpenID",
+      "definition": "A decentralized authentication system allowing users to log in to multiple websites with a single digital identity."
+    },
+    {
+      "id": 31,
+      "name": "Oracle Database",
+      "definition": "A multi-model database management system, including its procedural extension PL/SQL."
+    },
+    {
+      "id": 32,
+      "name": "OSCommerce",
+      "definition": "An open-source e-commerce solution for online stores."
+    },
+    {
+      "id": 33,
+      "name": "PHP",
+      "definition": "A popular server-side scripting language designed for web development."
+    },
+    {
+      "id": 34,
+      "name": "Play Framework",
+      "definition": "An open-source web application framework for Scala and Java."
+    },
+    {
+      "id": 35,
+      "name": "Python",
+      "definition": "An interpreted, high-level, general-purpose programming language."
+    },
+    {
+      "id": 36,
+      "name": "Qt",
+      "definition": "A cross-platform application development framework for GUI and non-GUI applications, including its classes like QMainWindow and QTWebKit."
+    },
+    {
+      "id": 37,
+      "name": "Ruby on Rails",
+      "definition": "A server-side web application framework written in Ruby."
+    },
+    {
+      "id": 38,
+      "name": "Safari",
+      "definition": "Apple's proprietary web browser."
+    },
+    {
+      "id": 39,
+      "name": "Scala",
+      "definition": "A multi-paradigm programming language for the JVM, combining object-oriented and functional programming features."
+    },
+    {
+      "id": 40,
+      "name": "Search Server",
+      "definition": "Microsoft's enterprise search platform."
+    },
+    {
+      "id": 41,
+      "name": "SharePoint",
+      "definition": "Microsoft's collaboration and document management platform, including Windows SharePoint Services (WSS) and CAML."
+    },
+    {
+      "id": 42,
+      "name": "Spring Framework",
+      "definition": "A comprehensive Java application framework, including modules like Spring MVC and Spring AOP."
+    },
+    {
+      "id": 43,
+      "name": "SSH",
+      "definition": "Secure Shell, a cryptographic network protocol for secure remote access and data communication."
+    },
+    {
+      "id": 44,
+      "name": "Subversion",
+      "definition": "A centralized version control system (SVN), including clients like Tortoise SVN."
+    },
+    {
+      "id": 45,
+      "name": "Telligent Community Server",
+      "definition": "A platform for building online communities, forums, and social applications."
+    },
+    {
+      "id": 46,
+      "name": "Tomcat",
+      "definition": "An open-source web server and servlet container for Java applications."
+    },
+    {
+      "id": 47,
+      "name": "Visual Studio",
+      "definition": "Microsoft's integrated development environment (IDE) for software development, including IntelliSense and Visual C++."
+    },
+    {
+      "id": 48,
+      "name": "WordPress",
+      "definition": "A free and open-source content management system (CMS) and blogging tool, including plugins like Disqus."
+    },
+    {
+      "id": 49,
+      "name": "XPath",
+      "definition": "XML Path Language, a query language for selecting nodes from an XML document."
+    }
+  ]
+}

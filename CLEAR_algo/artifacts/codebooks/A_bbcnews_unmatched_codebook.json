@@ -1,0 +1,37 @@
+[
+ {
+  "id": 1,
+  "name": "Business",
+  "definition": "Corporate news, financial markets, economic trends, and commerce."
+ },
+ {
+  "id": 2,
+  "name": "Politics",
+  "definition": "Government activities, elections, legislation, and international relations."
+ },
+ {
+  "id": 3,
+  "name": "Sport",
+  "definition": "Competitive sports events, match results, and athlete news."
+ },
+ {
+  "id": 4,
+  "name": "Technology",
+  "definition": "Computing, the internet, telecommunications, software, and electronic devices."
+ },
+ {
+  "id": 5,
+  "name": "Film",
+  "definition": "The motion picture industry, cinema releases, awards, and box office figures."
+ },
+ {
+  "id": 6,
+  "name": "Music",
+  "definition": "The recording industry, artists, concerts, charts, and music awards."
+ },
+ {
+  "id": 7,
+  "name": "Arts and Entertainment",
+  "definition": "Television, radio, theatre, literature, and the arts."
+ }
+]

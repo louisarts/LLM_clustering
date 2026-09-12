@@ -1,0 +1,270 @@
+{
+  "bench": "fewrel",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "chunked_no_target",
+  "clip_chars": 150,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Belgian representative at the 1984 Contest and Avanti la vie",
+      "definition": "Successor song to 'Rendez-vous' as the Belgian representative at the 1984 Contest"
+    },
+    {
+      "id": 2,
+      "name": "Quintet members and Tony Williams",
+      "definition": "Members of the new quintet including George Coleman, Herbie Hancock, Ron Carter, and Tony Williams"
+    },
+    {
+      "id": 3,
+      "name": "Cape Maria van Diemen and Anthony van Diemen",
+      "definition": "Cape named by Abel Tasman after the wife of Anthony van Diemen, Governor-General of the Dutch East Indies"
+    },
+    {
+      "id": 4,
+      "name": "Festival locations and Hawaii",
+      "definition": "Locations where festivals are held, including Hawaii in the United States"
+    },
+    {
+      "id": 5,
+      "name": "Logistics company and German",
+      "definition": "German logistics and transportation company known as Hamburger Hafen und Logistik AG (HHLA)"
+    },
+    {
+      "id": 6,
+      "name": "Ashram location and Rishikesh",
+      "definition": "Location where Balan arrived in the summer of 1947, by the banks of the Ganges, and made the one-mile hike to the Divine Life Society ashram"
+    },
+    {
+      "id": 7,
+      "name": "Regiment commander and Colonel Daniel Hitchcock",
+      "definition": "Commander of the regiment from Providence County named after Colonel Daniel Hitchcock"
+    },
+    {
+      "id": 8,
+      "name": "Newspaper owners and Glossop Advertiser",
+      "definition": "Owners of the Glossop Advertiser, Guardian Media Group, who sold it along with other local newspapers"
+    },
+    {
+      "id": 9,
+      "name": "Territory extent and Chetco territory",
+      "definition": "Extent of the Chetco territory along the Pacific coast from Pistol River in the north to the Winchuck River"
+    },
+    {
+      "id": 10,
+      "name": "Desktop environment developers and Oracle Corporation",
+      "definition": "Developers of the desktop environment known as Java Desktop System, initially developed by Sun Microsystems and then by Oracle Corporation"
+    },
+    {
+      "id": 11,
+      "name": "Radio station location and Hampton Roads",
+      "definition": "Location of the sports-formatted broadcast radio station WUSH-HD2, licensed to Poquoson, Virginia, serving Hampton Roads"
+    },
+    {
+      "id": 12,
+      "name": "Spouse and Ren\u00e9e of France",
+      "definition": "Spouse of Ercole d'Este II, son of Alfonso and Lucrezia Borgia, who married Ren\u00e9e of France, daughter of Louis XII of France"
+    },
+    {
+      "id": 13,
+      "name": "Navy Secretary and energy-conservation goals",
+      "definition": "Navy Secretary, Ray Mabus, who established the energy-conservation goals for the US Navy in 2009"
+    },
+    {
+      "id": 14,
+      "name": "Emulator compatibility and Xbox 360",
+      "definition": "Backward compatibility of the Xbox 360 with 'Crimson Skies: High Road to Revenge' through a downloadable emulator"
+    },
+    {
+      "id": 15,
+      "name": "Song release and MC5",
+      "definition": "Release of the song 'Kick Out the Jams' by MC5 as a single in March 1969 by Elektra Records"
+    },
+    {
+      "id": 16,
+      "name": "Film director and Safe",
+      "definition": "Film 'Safe' directed by Todd Haynes"
+    },
+    {
+      "id": 17,
+      "name": "French travel meta-search site and Jetcost",
+      "definition": "Relation between a French travel meta-search site and Jetcost"
+    },
+    {
+      "id": 18,
+      "name": "British rock band and Eye in the Sky",
+      "definition": "Relation between a British rock band and Eye in the Sky"
+    },
+    {
+      "id": 19,
+      "name": "American writer and poet and I Know Why the Caged Bird Sings",
+      "definition": "Relation between an American writer and poet and I Know Why the Caged Bird Sings"
+    },
+    {
+      "id": 20,
+      "name": "Nigel Dupree Band and Kennesaw, Georgia",
+      "definition": "The semantic relation between Nigel Dupree Band and Kennesaw, Georgia."
+    },
+    {
+      "id": 21,
+      "name": "Pueblito Viejo and Chicago",
+      "definition": "The semantic relation between Pueblito Viejo and Chicago."
+    },
+    {
+      "id": 22,
+      "name": "Hello and Record of the Year",
+      "definition": "The semantic relation between the song Hello and winning Record of the Year at the Grammys."
+    },
+    {
+      "id": 23,
+      "name": "Benfica and Vit\u00f3ria de Set\u00fabal",
+      "definition": "The semantic relation between Benfica and Vit\u00f3ria de Set\u00fabal."
+    },
+    {
+      "id": 24,
+      "name": "Levin Major Lewis and American Civil War",
+      "definition": "The semantic relation between Levin Major Lewis and his role as a Confederate States Army colonel during the American Civil War."
+    },
+    {
+      "id": 25,
+      "name": "Broadwood Stadium and Clyde",
+      "definition": "The semantic relation between Broadwood Stadium and Clyde."
+    },
+    {
+      "id": 26,
+      "name": "United Nations Headquarters and Walter Harrison",
+      "definition": "The semantic relation between the United Nations Headquarters and Walter Harrison."
+    },
+    {
+      "id": 27,
+      "name": "Baltimore General Dispensary and National Register of Historic Places",
+      "definition": "The semantic relation between Baltimore General Dispensary and being listed on the National Register of Historic Places."
+    },
+    {
+      "id": 28,
+      "name": "Alonzo Cano and National Sculpture Museum",
+      "definition": "The semantic relation between Alonzo Cano and the National Sculpture Museum."
+    },
+    {
+      "id": 29,
+      "name": "Wallace Thurman and Near North Side",
+      "definition": "The semantic relation between Wallace Thurman and the Near North Side."
+    },
+    {
+      "id": 30,
+      "name": "James Sargent Russell and United States Navy",
+      "definition": "The semantic relation between James Sargent Russell and the United States Navy."
+    },
+    {
+      "id": 31,
+      "name": "1997 and Eurovision Song Contest",
+      "definition": "The semantic relation between the year 1997 and the Eurovision Song Contest."
+    },
+    {
+      "id": 32,
+      "name": "Shine and Universal",
+      "definition": "The semantic relation between the album Shine and the record label Universal."
+    },
+    {
+      "id": 33,
+      "name": "Jonathan Spence and West Haven, Connecticut",
+      "definition": "The semantic relation between Jonathan Spence and West Haven, Connecticut."
+    },
+    {
+      "id": 34,
+      "name": "Paul Blanc and UMP",
+      "definition": "The semantic relation between Paul Blanc and the political party UMP founded by Jacques Chirac."
+    },
+    {
+      "id": 35,
+      "name": "Boezem and conceptual art",
+      "definition": "The semantic relation between Boezem and being one of the main representatives of conceptual art."
+    },
+    {
+      "id": 36,
+      "name": "Kaboom! and Larry Kaplan",
+      "definition": "The relation between the video game Kaboom! and its designer and programmer Larry Kaplan."
+    },
+    {
+      "id": 37,
+      "name": "RPG Maker 2 and RPG Maker 3",
+      "definition": "The relation between the two console versions RPG Maker 2 and RPG Maker 3."
+    },
+    {
+      "id": 38,
+      "name": "Rhett Butler and Trenholm",
+      "definition": "The relation between the character Rhett Butler from 'Gone with the Wind' and the inspiration Trenholm."
+    },
+    {
+      "id": 39,
+      "name": "Frederick Kroeber Sparrow and Mycologist",
+      "definition": "The relation between Frederick Kroeber Sparrow and his profession as a mycologist."
+    },
+    {
+      "id": 40,
+      "name": "Sagas of Conan and Conan the Liberator",
+      "definition": "The relation between the omnibus collection 'Sagas of Conan' and the book 'Conan the Liberator.'"
+    },
+    {
+      "id": 41,
+      "name": "Amazon Mechanical Turk and Ushahidi",
+      "definition": "The relation between the for-profit Amazon Mechanical Turk and the non-profit Ushahidi."
+    },
+    {
+      "id": 42,
+      "name": "George Harrison and Kamaka Ukulele",
+      "definition": "The relation between George Harrison and his fondness for playing different types of Kamaka ukuleles."
+    },
+    {
+      "id": 43,
+      "name": "1990 FIFA World Cup and Egypt National Football Team",
+      "definition": "The relation between the 1990 FIFA World Cup finals and the Egypt national football team."
+    },
+    {
+      "id": 44,
+      "name": "Chan Yui Chong and Wheelchair Fencing",
+      "definition": "The relation between Chan Yui Chong and his participation in wheelchair fencing."
+    },
+    {
+      "id": 45,
+      "name": "Densha de Go! and Taito",
+      "definition": "The relation between the video game 'Densha de Go!' and its developer Taito."
+    },
+    {
+      "id": 46,
+      "name": "Morcar and Ealdgyth",
+      "definition": "The relation between Morcar and his marriage to Ealdgyth, daughter of \u00c6lfthryth."
+    },
+    {
+      "id": 47,
+      "name": "Frost/Nixon and Best Picture",
+      "definition": "The relation between the film 'Frost/Nixon' and its nomination for Best Picture at the Academy Awards."
+    },
+    {
+      "id": 48,
+      "name": "Bundesliga and Hertha BSC",
+      "definition": "The relation between the Bundesliga and the club Hertha BSC where Holland began his career."
+    },
+    {
+      "id": 49,
+      "name": "Royal Norwegian Navy and Norwegian Armed Forces",
+      "definition": "The relation between the Royal Norwegian Navy and its responsibility within the Norwegian Armed Forces."
+    },
+    {
+      "id": 50,
+      "name": "USCAPOC and Army Reserve Command",
+      "definition": "The relation between USCAPOC and its reorganization under the Army Reserve Command."
+    },
+    {
+      "id": 51,
+      "name": "Kylesa and Kilesa Mara",
+      "definition": "The relation between the band Kylesa and the Buddhist term 'kilesa mara' from which they took their name."
+    },
+    {
+      "id": 52,
+      "name": "Sparta Prague and Czech Cup",
+      "definition": "The relation between Sparta Prague and their participation in the final of the Czech Cup."
+    }
+  ]
+}

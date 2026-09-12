@@ -1,0 +1,397 @@
+{
+  "bench": "arxiv_fine",
+  "run": 6,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.AI",
+      "definition": "General artificial intelligence, machine learning applications, multi-agent systems, explainable AI, chatbots."
+    },
+    {
+      "id": 2,
+      "name": "cs.CL",
+      "definition": "Natural language processing, speech processing, summarization, audio recognition."
+    },
+    {
+      "id": 3,
+      "name": "cs.CR",
+      "definition": "Cryptography, computer security, fault tolerance, privacy, intrusion detection, blockchain, risk management."
+    },
+    {
+      "id": 4,
+      "name": "cs.CV",
+      "definition": "Image processing, computer vision, 3D pose estimation, medical imaging, autonomous driving perception."
+    },
+    {
+      "id": 5,
+      "name": "cs.DC",
+      "definition": "Distributed systems, parallel algorithms, cloud computing, virtualized networks."
+    },
+    {
+      "id": 6,
+      "name": "cs.DS",
+      "definition": "Design and analysis of algorithms, clustering, scheduling, graph algorithms, web crawling."
+    },
+    {
+      "id": 7,
+      "name": "cs.GR",
+      "definition": "Computer graphics, visualization, augmented reality, computational methods for visual computing."
+    },
+    {
+      "id": 8,
+      "name": "cs.HC",
+      "definition": "User interfaces, interactive systems, educational technology, crowdsourcing."
+    },
+    {
+      "id": 9,
+      "name": "cs.IT",
+      "definition": "Coding theory, information theory, signal processing."
+    },
+    {
+      "id": 10,
+      "name": "cs.LG",
+      "definition": "Machine learning theory and applications, deep learning, neural networks, reinforcement learning, statistical learning methods."
+    },
+    {
+      "id": 11,
+      "name": "cs.NI",
+      "definition": "Computer networks, wireless networks, software-defined networking, IoT, communication systems."
+    },
+    {
+      "id": 12,
+      "name": "cs.PL",
+      "definition": "Theory and design of programming languages, type systems."
+    },
+    {
+      "id": 13,
+      "name": "cs.RO",
+      "definition": "Robot control, teleoperation, autonomous systems."
+    },
+    {
+      "id": 14,
+      "name": "cs.SE",
+      "definition": "Software development processes, testing, maintenance, program analysis, software tools."
+    },
+    {
+      "id": 15,
+      "name": "cs.SI",
+      "definition": "Social computing, network analysis, information retrieval, web science."
+    },
+    {
+      "id": 16,
+      "name": "cs.SY",
+      "definition": "Control theory, optimization in engineered systems, cyber-physical systems, estimation."
+    },
+    {
+      "id": 17,
+      "name": "math.AC",
+      "definition": "Rings, modules, ideals, algebraic structures, matrix algebras."
+    },
+    {
+      "id": 18,
+      "name": "math.AG",
+      "definition": "Algebraic varieties, schemes, moduli spaces, curves, singularities, algebraic groups."
+    },
+    {
+      "id": 19,
+      "name": "math.AP",
+      "definition": "Partial differential equations, evolution equations, Hamilton-Jacobi equations, fluid dynamics equations, harmonic analysis."
+    },
+    {
+      "id": 20,
+      "name": "math.CA",
+      "definition": "Ordinary differential equations, special functions, complex analysis, asymptotic analysis."
+    },
+    {
+      "id": 21,
+      "name": "math.CO",
+      "definition": "Graph theory, combinatorial designs, enumeration, discrete structures, combinatorial topology."
+    },
+    {
+      "id": 22,
+      "name": "math.CT",
+      "definition": "Categories, functors, natural transformations, exact categories."
+    },
+    {
+      "id": 23,
+      "name": "math.DG",
+      "definition": "Manifolds, Riemannian geometry, CR geometry, metric geometry."
+    },
+    {
+      "id": 24,
+      "name": "math.DS",
+      "definition": "Ergodic theory, chaos, attractors, slow manifolds, stochastic dynamical systems."
+    },
+    {
+      "id": 25,
+      "name": "math.FA",
+      "definition": "Banach spaces, Hilbert spaces, operator theory, operator algebras."
+    },
+    {
+      "id": 26,
+      "name": "math.GR",
+      "definition": "Group structures, Lie groups, representation theory of groups, linear algebra."
+    },
+    {
+      "id": 27,
+      "name": "math.GT",
+      "definition": "Manifolds, knots, low-dimensional topology, homotopy theory, differential forms."
+    },
+    {
+      "id": 28,
+      "name": "math.LO",
+      "definition": "Mathematical logic, model theory, proof theory, set theory, algebras."
+    },
+    {
+      "id": 29,
+      "name": "math.MP",
+      "definition": "Applications of mathematics to physics, e.g., supersymmetry, quantum algebra."
+    },
+    {
+      "id": 30,
+      "name": "math.NA",
+      "definition": "Numerical methods for differential equations, optimization, Monte Carlo methods, stochastic approximation."
+    },
+    {
+      "id": 31,
+      "name": "math.NT",
+      "definition": "Algebraic number theory, analytic number theory, p-adic numbers, arithmetic geometry."
+    },
+    {
+      "id": 32,
+      "name": "math.OA",
+      "definition": "C*-algebras, von Neumann algebras, free probability."
+    },
+    {
+      "id": 33,
+      "name": "math.OC",
+      "definition": "Mathematical optimization, optimal control, game theory applications."
+    },
+    {
+      "id": 34,
+      "name": "math.PR",
+      "definition": "Probability theory, stochastic processes, random variables, martingales, tail bounds."
+    },
+    {
+      "id": 35,
+      "name": "math.QA",
+      "definition": "Quantum groups, quantum cluster algebras, non-commutative algebra related to quantum physics."
+    },
+    {
+      "id": 36,
+      "name": "math.RT",
+      "definition": "Representations of groups and algebras, Lie algebras, Schur functions."
+    },
+    {
+      "id": 37,
+      "name": "math.ST",
+      "definition": "Statistical inference, Bayesian methods, regression, time series, experimental design, causal inference."
+    },
+    {
+      "id": 38,
+      "name": "math.TO",
+      "definition": "Homology, cohomology, homotopy theory, K-theory, persistent homology."
+    },
+    {
+      "id": 39,
+      "name": "astro-ph.CO",
+      "definition": "Large-scale structure, dark matter, cosmic microwave background, galaxy formation, cosmological simulations."
+    },
+    {
+      "id": 40,
+      "name": "astro-ph.GA",
+      "definition": "Galaxy structure, dynamics, active galactic nuclei, radio galaxies."
+    },
+    {
+      "id": 41,
+      "name": "astro-ph.HE",
+      "definition": "Supernovae, gamma-ray bursts, black holes, cosmic rays, self-organized criticality in astrophysics."
+    },
+    {
+      "id": 42,
+      "name": "astro-ph.IM",
+      "definition": "Astronomical instruments, data analysis methods, telescopes."
+    },
+    {
+      "id": 43,
+      "name": "astro-ph.SR",
+      "definition": "Stars, stellar evolution, solar physics, exoplanets."
+    },
+    {
+      "id": 44,
+      "name": "cond-mat.mes-hall",
+      "definition": "Nanostructures, quantum dots, topological phases, quantum point contacts."
+    },
+    {
+      "id": 45,
+      "name": "cond-mat.mtrl-sci",
+      "definition": "Properties of materials, superconductors, semiconductors, metamaterials, electronic structure."
+    },
+    {
+      "id": 46,
+      "name": "cond-mat.soft",
+      "definition": "Polymers, liquid crystals, colloids, biological matter, wetting dynamics."
+    },
+    {
+      "id": 47,
+      "name": "cond-mat.stat-mech",
+      "definition": "Phase transitions, critical phenomena, complex systems, disordered systems, statistical physics models."
+    },
+    {
+      "id": 48,
+      "name": "cond-mat.str-el",
+      "definition": "High-Tc superconductivity, magnetism, heavy fermions, Fermi-surface dynamics."
+    },
+    {
+      "id": 49,
+      "name": "gr-qc",
+      "definition": "Gravitation, black holes, spacetime, quantum gravity, relativistic objects."
+    },
+    {
+      "id": 50,
+      "name": "hep-ex",
+      "definition": "Experimental particle physics, collider physics, neutrino experiments, detector performance."
+    },
+    {
+      "id": 51,
+      "name": "physics.acc-ph",
+      "definition": "Particle accelerators, beam dynamics, detector components, channeling."
+    },
+    {
+      "id": 52,
+      "name": "physics.ao-ph",
+      "definition": "Atmospheric dynamics, oceanography, climate modeling, data assimilation."
+    },
+    {
+      "id": 53,
+      "name": "physics.app-ph",
+      "definition": "Applications of physics principles, sensors, devices, electromagnetism."
+    },
+    {
+      "id": 54,
+      "name": "physics.atom-ph",
+      "definition": "Atomic structure, interactions, quantum optics, cold atoms, ionization."
+    },
+    {
+      "id": 55,
+      "name": "physics.comp-ph",
+      "definition": "Numerical methods in physics, simulations, computational modeling."
+    },
+    {
+      "id": 56,
+      "name": "physics.flu-dyn",
+      "definition": "Fluid mechanics, turbulence, multiphase flows, hydrodynamics."
+    },
+    {
+      "id": 57,
+      "name": "physics.gen-ph",
+      "definition": "Foundational physics, philosophy of physics, interdisciplinary physics."
+    },
+    {
+      "id": 58,
+      "name": "physics.ins-det",
+      "definition": "Design and performance of scientific instruments and detectors."
+    },
+    {
+      "id": 59,
+      "name": "physics.optics",
+      "definition": "Light propagation, lasers, photonic devices, quantum optics, ultrashort pulses."
+    },
+    {
+      "id": 60,
+      "name": "physics.plasm-ph",
+      "definition": "Plasma dynamics, fusion, space plasmas, hot dense matter."
+    },
+    {
+      "id": 61,
+      "name": "physics.soc-ph",
+      "definition": "Sociophysics, physics of complex systems with societal impact, energy systems."
+    },
+    {
+      "id": 62,
+      "name": "quant-ph",
+      "definition": "Quantum mechanics, quantum information, quantum computing, quantum simulation, quantum optics."
+    },
+    {
+      "id": 63,
+      "name": "q-bio.BM",
+      "definition": "Protein folding, molecular dynamics, drug discovery, molecular mechanisms, molecular motors."
+    },
+    {
+      "id": 64,
+      "name": "q-bio.CB",
+      "definition": "Cell mechanics, adhesion, motility, signaling, tissue development, cellular contractility."
+    },
+    {
+      "id": 65,
+      "name": "q-bio.GN",
+      "definition": "Gene expression, genetic regulation, bioinformatics, genetic recombination."
+    },
+    {
+      "id": 66,
+      "name": "q-bio.PE",
+      "definition": "Population dynamics, epidemiology, evolutionary biology, ecology, phylogenetics."
+    },
+    {
+      "id": 67,
+      "name": "q-bio.QM",
+      "definition": "Mathematical and computational methods in biology, biophysics, medical informatics, physiological modeling."
+    },
+    {
+      "id": 68,
+      "name": "q-fin.CP",
+      "definition": "Numerical methods, simulations, algorithmic trading, backtesting."
+    },
+    {
+      "id": 69,
+      "name": "q-fin.EC",
+      "definition": "Economic models, game theory in finance, market behavior, financial market control."
+    },
+    {
+      "id": 70,
+      "name": "q-fin.MF",
+      "definition": "Stochastic calculus, option pricing, portfolio theory, risk-neutral pricing, arbitrage."
+    },
+    {
+      "id": 71,
+      "name": "q-fin.PM",
+      "definition": "Asset allocation, portfolio optimization, investment strategies, risk-adjusted returns."
+    },
+    {
+      "id": 72,
+      "name": "q-fin.RM",
+      "definition": "Credit risk, market risk, operational risk, default modeling, credit losses."
+    },
+    {
+      "id": 73,
+      "name": "q-fin.TR",
+      "definition": "Order books, market dynamics, high-frequency trading, inventory prediction."
+    },
+    {
+      "id": 74,
+      "name": "econ.EM",
+      "definition": "Statistical methods for economic data, forecasting, inflation dynamics."
+    },
+    {
+      "id": 75,
+      "name": "econ.GN",
+      "definition": "Economic theory, industrial organization, public economics, business economics, transportation economics."
+    },
+    {
+      "id": 76,
+      "name": "econ.TH",
+      "definition": "Game theory, microeconomic theory, mechanism design, pricing theory."
+    },
+    {
+      "id": 77,
+      "name": "soc.CR",
+      "definition": "Crime patterns, criminal behavior, law enforcement, risk analysis."
+    },
+    {
+      "id": 78,
+      "name": "soc.EP",
+      "definition": "Environmental economics, policy analysis, sustainability, resource management."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "bench": "fewevent",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Marriage",
+      "definition": "The act, state, or relationship of being married or a spouse."
+    },
+    {
+      "id": 2,
+      "name": "Military",
+      "definition": "Roles, ranks, personnel, or service within an armed force."
+    },
+    {
+      "id": 3,
+      "name": "Music",
+      "definition": "The art form, industry, or performance involving vocal or instrumental sounds."
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "definition": "Athletic competitions, events, or achievements, including the Olympics."
+    },
+    {
+      "id": 5,
+      "name": "Education",
+      "definition": "The process of learning, teaching, or attending an academic institution."
+    },
+    {
+      "id": 6,
+      "name": "Film",
+      "definition": "Motion pictures, the film industry, or specific movies."
+    },
+    {
+      "id": 7,
+      "name": "Leadership",
+      "definition": "The position, office, or role of leading an organization, government, or group."
+    },
+    {
+      "id": 8,
+      "name": "Politics",
+      "definition": "Governmental activities, civil unrest, protests, or diplomatic relations."
+    },
+    {
+      "id": 9,
+      "name": "Business",
+      "definition": "Commercial, industrial, or financial activities and transactions."
+    },
+    {
+      "id": 10,
+      "name": "Transportation",
+      "definition": "The action or means of transporting people or goods."
+    },
+    {
+      "id": 11,
+      "name": "Conflict",
+      "definition": "Hostile encounters, battles, wars, or physical violence."
+    },
+    {
+      "id": 12,
+      "name": "Arts",
+      "definition": "Creative fields outside of music and film, such as literature, visual arts, or performance."
+    },
+    {
+      "id": 13,
+      "name": "Law",
+      "definition": "The legal system, laws, or legal proceedings."
+    },
+    {
+      "id": 14,
+      "name": "Technology",
+      "definition": "Scientific or industrial tools, methods, and systems."
+    },
+    {
+      "id": 15,
+      "name": "Family",
+      "definition": "Relationships involving relatives such as parents, children, or siblings."
+    },
+    {
+      "id": 16,
+      "name": "Communication",
+      "definition": "The act of exchanging information, such as speaking or writing."
+    },
+    {
+      "id": 17,
+      "name": "Motion",
+      "definition": "Physical movement or travel from one place to another."
+    },
+    {
+      "id": 18,
+      "name": "Employment",
+      "definition": "Work, occupations, or professional roles."
+    },
+    {
+      "id": 19,
+      "name": "General",
+      "definition": "Broad terms or concepts not specific to other categories."
+    }
+  ]
+}

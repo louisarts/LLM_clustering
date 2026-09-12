@@ -1,0 +1,259 @@
+{
+  "bench": "tweet89",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "News and opinions regarding advertisements aired during the Super Bowl, including specific brands like Doritos, Volkswagen, and Chrysler."
+    },
+    {
+      "id": 2,
+      "name": "US Healthcare Reform Ruling",
+      "definition": "Judicial rulings and legal challenges regarding the constitutionality of the Patient Protection and Affordable Care Act."
+    },
+    {
+      "id": 3,
+      "name": "Acai Berry Weight Loss Products",
+      "definition": "Marketing, discussions, and side effects related to acai berry supplements used for weight loss."
+    },
+    {
+      "id": 4,
+      "name": "Starbucks Trenta Cup Size",
+      "definition": "News and reactions regarding the introduction of the 'Trenta' large cup size by Starbucks."
+    },
+    {
+      "id": 5,
+      "name": "Sundance Film Festival",
+      "definition": "Events, films, and celebrity sightings associated with the annual Sundance Film Festival."
+    },
+    {
+      "id": 6,
+      "name": "Australian Open Tennis",
+      "definition": "Matches, results, and player performance at the Australian Open tennis tournament, specifically the Men's Final."
+    },
+    {
+      "id": 7,
+      "name": "Academy Award Nominations",
+      "definition": "Announcements and analysis of the nominees for the Academy Awards, with specific focus on the film The King's Speech."
+    },
+    {
+      "id": 8,
+      "name": "Moscow Airport Bombing",
+      "definition": "The terrorist attack involving a suicide bomber at Domodedovo International Airport in Moscow."
+    },
+    {
+      "id": 9,
+      "name": "Christina Aguilera National Anthem Performance",
+      "definition": "Reactions to Christina Aguilera's performance and lyrical error while singing the US National Anthem at the Super Bowl."
+    },
+    {
+      "id": 10,
+      "name": "Rahm Emanuel Mayoral Ballot",
+      "definition": "Legal challenges and court rulings regarding Rahm Emanuel's eligibility to appear on the ballot for the Chicago mayoral election."
+    },
+    {
+      "id": 11,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "The lawsuit and controversy regarding the meat filling content used by the Taco Bell restaurant chain."
+    },
+    {
+      "id": 12,
+      "name": "Jesse Ventura TSA Lawsuit",
+      "definition": "Former Governor Jesse Ventura's lawsuit against the Transportation Security Administration regarding security procedures."
+    },
+    {
+      "id": 13,
+      "name": "Egyptian Crisis and Protests",
+      "definition": "The 2011 anti-government protests in Egypt, including attacks on journalists and the political situation."
+    },
+    {
+      "id": 14,
+      "name": "Yemeni Political Protests",
+      "definition": "Anti-government protests and political developments in Yemen, including the president's refusal to extend his term."
+    },
+    {
+      "id": 15,
+      "name": "Jordanian Political Protests",
+      "definition": "Demonstrations and political demands for government reform in Jordan."
+    },
+    {
+      "id": 16,
+      "name": "Fishing",
+      "definition": "General topics, tips, reports, and equipment related to fishing, including fly fishing and ice fishing."
+    },
+    {
+      "id": 17,
+      "name": "Distracted Driving Campaigns",
+      "definition": "Public service campaigns and advocacy efforts aimed at stopping texting while driving."
+    },
+    {
+      "id": 18,
+      "name": "Immigration Policy and Enforcement",
+      "definition": "News regarding immigration laws, enforcement actions, and policy debates in the United States."
+    },
+    {
+      "id": 19,
+      "name": "Identity Theft and Online Fraud",
+      "definition": "Reports and warnings regarding the risks and costs of identity theft and internet fraud."
+    },
+    {
+      "id": 20,
+      "name": "White Stripes Band Breakup",
+      "definition": "The official announcement that the band The White Stripes has disbanded."
+    },
+    {
+      "id": 21,
+      "name": "Amtrak Rail Tunnel Plan",
+      "definition": "Amtrak's proposal for a new rail tunnel project between New York and New Jersey."
+    },
+    {
+      "id": 22,
+      "name": "Oprah Winfrey Family Secret",
+      "definition": "The revelation of a family secret by television host Oprah Winfrey."
+    },
+    {
+      "id": 23,
+      "name": "Climate Change and Weather",
+      "definition": "Reports on unusual weather patterns and investment perspectives on climate change."
+    },
+    {
+      "id": 24,
+      "name": "Charlie Sheen Legal Issues",
+      "definition": "Reports regarding Charlie Sheen's legal troubles or rehabilitation."
+    },
+    {
+      "id": 25,
+      "name": "BBC Service Cuts",
+      "definition": "Announcements regarding budget cuts and staff reductions at the British Broadcasting Corporation."
+    },
+    {
+      "id": 26,
+      "name": "US Unemployment Rates",
+      "definition": "Reports on changes in unemployment rates across various US states."
+    },
+    {
+      "id": 27,
+      "name": "Stuxnet Computer Worm",
+      "definition": "Analysis and news regarding the Stuxnet computer worm and its implications for security."
+    },
+    {
+      "id": 28,
+      "name": "Best Buy Buyback Program",
+      "definition": "Best Buy's announcement of a new electronics trade-in program."
+    },
+    {
+      "id": 29,
+      "name": "Keith Olbermann Current TV Hiring",
+      "definition": "News regarding journalist Keith Olbermann joining the network Current TV."
+    },
+    {
+      "id": 30,
+      "name": "Somali Pirate Activities",
+      "definition": "Reports on Somali pirate attacks, tactics, and rescue operations."
+    },
+    {
+      "id": 31,
+      "name": "Hawaii Obama Birth Certificate Legislation",
+      "definition": "Legislative efforts in Hawaii regarding the release of President Obama's birth records."
+    },
+    {
+      "id": 32,
+      "name": "Gasland Documentary Oscar Nomination",
+      "definition": "The Academy Award nomination and industry reaction to the documentary Gasland."
+    },
+    {
+      "id": 33,
+      "name": "Venezuelan Politics",
+      "definition": "Political news concerning President Hugo Chavez and his administration in Venezuela."
+    },
+    {
+      "id": 34,
+      "name": "Facebook Privacy Settings",
+      "definition": "User concerns and guides regarding privacy settings on the Facebook social media platform."
+    },
+    {
+      "id": 35,
+      "name": "Chicago Blizzard",
+      "definition": "The severe winter blizzard affecting the city of Chicago."
+    },
+    {
+      "id": 36,
+      "name": "Jay Carney Press Secretary Appointment",
+      "definition": "The appointment of Jay Carney as the new White House Press Secretary."
+    },
+    {
+      "id": 37,
+      "name": "Australian Floods",
+      "definition": "News regarding the severe flooding crisis in Australia."
+    },
+    {
+      "id": 38,
+      "name": "Belarus EU Sanctions",
+      "definition": "The response of Belarus to sanctions imposed by the European Union."
+    },
+    {
+      "id": 39,
+      "name": "Recipes",
+      "definition": "Instructions and suggestions for preparing various food dishes."
+    },
+    {
+      "id": 40,
+      "name": "NBA Concussion Policy",
+      "definition": "Discussions and protocols regarding concussions in the National Basketball Association."
+    },
+    {
+      "id": 41,
+      "name": "The Rite Film Release",
+      "definition": "Reviews and news regarding the release of the film The Rite."
+    },
+    {
+      "id": 42,
+      "name": "Debt Consolidation",
+      "definition": "Tips and services related to debt consolidation and financial relief."
+    },
+    {
+      "id": 43,
+      "name": "Donald Rumsfeld Memoir",
+      "definition": "News regarding the publication of Donald Rumsfeld's memoir."
+    },
+    {
+      "id": 44,
+      "name": "Justin Bieber Jon Stewart Video",
+      "definition": "A comedic video featuring Justin Bieber and Jon Stewart."
+    },
+    {
+      "id": 45,
+      "name": "School Bullying",
+      "definition": "Resources and discussions regarding bullying in schools."
+    },
+    {
+      "id": 46,
+      "name": "Steve Jobs Apple Succession Plan",
+      "definition": "Pressure on Apple regarding a succession plan for CEO Steve Jobs."
+    },
+    {
+      "id": 47,
+      "name": "Nobel Peace Prize Wikileaks",
+      "definition": "Nominations or discussions regarding Wikileaks for the Nobel Peace Prize."
+    },
+    {
+      "id": 48,
+      "name": "Birmingham City Council Music Cuts",
+      "definition": "Protests against funding cuts for music organizations by Birmingham City Council."
+    },
+    {
+      "id": 49,
+      "name": "US State of the Union Address",
+      "definition": "News regarding the US President's State of the Union address."
+    },
+    {
+      "id": 50,
+      "name": "General Entertainment",
+      "definition": "General posts about television shows, movies, and celebrities not covered by specific event categories."
+    }
+  ]
+}

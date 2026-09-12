@@ -1,0 +1,85 @@
+{
+  "bench": "banking77",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Management",
+      "definition": "Inquiries related to managing and modifying account details."
+    },
+    {
+      "id": 2,
+      "name": "Card Issues",
+      "definition": "Questions and problems regarding physical or virtual cards."
+    },
+    {
+      "id": 3,
+      "name": "Transaction Inquiries",
+      "definition": "Questions about specific transactions, including failures and discrepancies."
+    },
+    {
+      "id": 4,
+      "name": "Fees and Charges",
+      "definition": "Inquiries regarding fees associated with services, transactions, or account usage."
+    },
+    {
+      "id": 5,
+      "name": "Transfers",
+      "definition": "Questions related to sending or receiving money between accounts."
+    },
+    {
+      "id": 6,
+      "name": "Refunds",
+      "definition": "Inquiries about the process and status of refunds for purchases."
+    },
+    {
+      "id": 7,
+      "name": "Identity Verification",
+      "definition": "Questions regarding the process of verifying identity for account access or transactions."
+    },
+    {
+      "id": 8,
+      "name": "Currency Exchange",
+      "definition": "Inquiries related to exchanging currencies and associated rates."
+    },
+    {
+      "id": 9,
+      "name": "Top-Up Issues",
+      "definition": "Questions about adding funds to an account and related problems."
+    },
+    {
+      "id": 10,
+      "name": "Security Concerns",
+      "definition": "Inquiries related to account security, including fraud and unauthorized access."
+    },
+    {
+      "id": 11,
+      "name": "Delivery and Shipping",
+      "definition": "Questions about the delivery of cards or other banking materials."
+    },
+    {
+      "id": 12,
+      "name": "Technical Issues",
+      "definition": "Problems related to the banking app or online services."
+    },
+    {
+      "id": 13,
+      "name": "Account Deletion",
+      "definition": "Requests and inquiries regarding the deletion of accounts."
+    },
+    {
+      "id": 14,
+      "name": "ATM Issues",
+      "definition": "Questions and problems related to ATM transactions and services."
+    },
+    {
+      "id": 15,
+      "name": "General Inquiries",
+      "definition": "Miscellaneous questions that do not fit into other categories."
+    }
+  ]
+}

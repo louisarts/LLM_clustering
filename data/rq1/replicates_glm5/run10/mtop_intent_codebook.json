@@ -1,0 +1,144 @@
+{
+  "bench": "mtop_intent",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarm_Set",
+      "definition": "Create a new alarm or set an existing alarm to go off at a specified time or interval."
+    },
+    {
+      "id": 2,
+      "name": "Alarm_Status",
+      "definition": "Check the status, time remaining, or schedule of existing alarms."
+    },
+    {
+      "id": 3,
+      "name": "Alarm_Cancel",
+      "definition": "Delete, turn off, or disable existing alarms."
+    },
+    {
+      "id": 4,
+      "name": "Alarm_Adjust",
+      "definition": "Modify settings of an existing alarm, such as snoozing or turning it on."
+    },
+    {
+      "id": 5,
+      "name": "Reminder_Set",
+      "definition": "Create a new reminder for a specific task or event at a future time."
+    },
+    {
+      "id": 6,
+      "name": "Reminder_Status",
+      "definition": "Query, show, or list existing reminders."
+    },
+    {
+      "id": 7,
+      "name": "Reminder_Cancel",
+      "definition": "Delete or remove existing reminders."
+    },
+    {
+      "id": 8,
+      "name": "Timer_Start",
+      "definition": "Start a new countdown timer for a specified duration."
+    },
+    {
+      "id": 9,
+      "name": "Timer_Status",
+      "definition": "Check the status, display, or remaining time of a running timer."
+    },
+    {
+      "id": 10,
+      "name": "Timer_Adjust",
+      "definition": "Modify a running timer by pausing, resuming, adding time, or stopping it."
+    },
+    {
+      "id": 11,
+      "name": "Call_Initiate",
+      "definition": "Start a new audio or video call with a specific contact or number."
+    },
+    {
+      "id": 12,
+      "name": "Call_Manage",
+      "definition": "Manage an ongoing call by adding participants, switching modes, or hanging up."
+    },
+    {
+      "id": 13,
+      "name": "Message_Send",
+      "definition": "Send a text or video message to a specific contact or group."
+    },
+    {
+      "id": 14,
+      "name": "Message_Query",
+      "definition": "Check for, read, or display received messages."
+    },
+    {
+      "id": 15,
+      "name": "Music_Play",
+      "definition": "Play music, a specific song, artist, playlist, or radio station."
+    },
+    {
+      "id": 16,
+      "name": "Music_Settings",
+      "definition": "Adjust music playback settings, skip tracks, or set default music providers."
+    },
+    {
+      "id": 17,
+      "name": "Weather_Query",
+      "definition": "Request weather conditions, forecasts, or temperatures for a specific location and time."
+    },
+    {
+      "id": 18,
+      "name": "News_Query",
+      "definition": "Request news headlines, stories, or specific information from news sources."
+    },
+    {
+      "id": 19,
+      "name": "Event_Query",
+      "definition": "Search for or list local events, activities, or happenings in a specific area."
+    },
+    {
+      "id": 20,
+      "name": "Event_RSVP",
+      "definition": "Update attendance status or RSVP to a specific event."
+    },
+    {
+      "id": 21,
+      "name": "Contact_Info_Query",
+      "definition": "Request personal details, contact information, or relationships regarding a specific contact."
+    },
+    {
+      "id": 22,
+      "name": "Contact_Network_Query",
+      "definition": "Search for contacts based on shared attributes like workplace, location, or education."
+    },
+    {
+      "id": 23,
+      "name": "Contact_Status_Query",
+      "definition": "Check the online status or availability of specific contacts."
+    },
+    {
+      "id": 24,
+      "name": "Communication_History",
+      "definition": "Query the history of past calls or messages."
+    },
+    {
+      "id": 25,
+      "name": "Food_Info_Query",
+      "definition": "Request recipes, ingredients, nutritional information, or cooking instructions."
+    },
+    {
+      "id": 26,
+      "name": "Media_Info_Query",
+      "definition": "Request information about media content, such as song identification or release dates."
+    },
+    {
+      "id": 27,
+      "name": "General_Knowledge_Query",
+      "definition": "Ask general factual questions not covered by other specific categories."
+    }
+  ]
+}

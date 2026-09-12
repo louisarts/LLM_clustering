@@ -1,0 +1,110 @@
+{
+  "bench": "massive_domain",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Requests for current or forecasted weather information."
+    },
+    {
+      "id": 2,
+      "name": "Time and Date",
+      "definition": "Requests for current time, date, or time zone information."
+    },
+    {
+      "id": 3,
+      "name": "News",
+      "definition": "Requests for news updates or specific news stories."
+    },
+    {
+      "id": 4,
+      "name": "Music and Audio",
+      "definition": "Requests to play music, podcasts, or radio stations."
+    },
+    {
+      "id": 5,
+      "name": "Calendar and Reminders",
+      "definition": "Requests to manage calendar events or set reminders."
+    },
+    {
+      "id": 6,
+      "name": "Alarms and Timers",
+      "definition": "Requests to set, modify, or cancel alarms and timers."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "Requests to send emails, messages, or make calls."
+    },
+    {
+      "id": 8,
+      "name": "Navigation and Location",
+      "definition": "Requests for directions, nearby places, or location-based information."
+    },
+    {
+      "id": 9,
+      "name": "Smart Home Control",
+      "definition": "Requests to control smart home devices like lights or plugs."
+    },
+    {
+      "id": 10,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions or recipe information."
+    },
+    {
+      "id": 11,
+      "name": "Transportation and Travel",
+      "definition": "Requests for transportation options or travel-related information."
+    },
+    {
+      "id": 12,
+      "name": "Shopping and Orders",
+      "definition": "Requests to order food, products, or manage shopping lists."
+    },
+    {
+      "id": 13,
+      "name": "Social Media",
+      "definition": "Requests to interact with social media platforms."
+    },
+    {
+      "id": 14,
+      "name": "Games and Entertainment",
+      "definition": "Requests to play games or access entertainment content."
+    },
+    {
+      "id": 15,
+      "name": "General Knowledge",
+      "definition": "Requests for factual information or definitions."
+    },
+    {
+      "id": 16,
+      "name": "Finance and Currency",
+      "definition": "Requests for financial information or currency exchange rates."
+    },
+    {
+      "id": 17,
+      "name": "Traffic and Commute",
+      "definition": "Requests for traffic updates or commute information."
+    },
+    {
+      "id": 18,
+      "name": "Health and Fitness",
+      "definition": "Requests for health tips or fitness-related information."
+    },
+    {
+      "id": 19,
+      "name": "Jokes and Humor",
+      "definition": "Requests for jokes or humorous content."
+    },
+    {
+      "id": 20,
+      "name": "Personal Assistance",
+      "definition": "Requests for personal opinions or assistance with tasks."
+    }
+  ]
+}

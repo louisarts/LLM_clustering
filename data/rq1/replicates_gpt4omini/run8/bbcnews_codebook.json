@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics",
+      "definition": "Articles covering political events, policies, and government actions."
+    },
+    {
+      "id": 2,
+      "name": "Economy",
+      "definition": "Articles discussing economic performance, financial markets, and economic policies."
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "definition": "Articles related to technological advancements, innovations, and industry news."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Articles covering movies, music, television, and celebrity news."
+    },
+    {
+      "id": 5,
+      "name": "Sports",
+      "definition": "Articles related to sporting events, athletes, and sports organizations."
+    },
+    {
+      "id": 6,
+      "name": "Health",
+      "definition": "Articles discussing health issues, medical advancements, and public health policies."
+    },
+    {
+      "id": 7,
+      "name": "Environment",
+      "definition": "Articles covering environmental issues, climate change, and conservation efforts."
+    },
+    {
+      "id": 8,
+      "name": "International Relations",
+      "definition": "Articles discussing foreign affairs, international conflicts, and diplomatic relations."
+    },
+    {
+      "id": 9,
+      "name": "Crime and Law",
+      "definition": "Articles related to criminal activities, legal cases, and law enforcement."
+    },
+    {
+      "id": 10,
+      "name": "Social Issues",
+      "definition": "Articles discussing societal challenges, cultural topics, and community concerns."
+    },
+    {
+      "id": 11,
+      "name": "Business",
+      "definition": "Articles covering corporate news, market trends, and business strategies."
+    },
+    {
+      "id": 12,
+      "name": "Education",
+      "definition": "Articles related to educational policies, institutions, and learning methods."
+    },
+    {
+      "id": 13,
+      "name": "Science",
+      "definition": "Articles discussing scientific discoveries, research, and technological applications."
+    },
+    {
+      "id": 14,
+      "name": "Transportation",
+      "definition": "Articles covering developments in transportation, infrastructure, and logistics."
+    },
+    {
+      "id": 15,
+      "name": "Consumer Affairs",
+      "definition": "Articles related to consumer rights, product reviews, and market regulations."
+    }
+  ]
+}

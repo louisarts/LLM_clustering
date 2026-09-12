@@ -1,0 +1,57 @@
+{
+  "bench": "massive_domain",
+  "run": 9,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Reminders & Calendar",
+      "definition": "Setting, checking, or canceling alarms, reminders, calendar events, and meetings."
+    },
+    {
+      "id": 2,
+      "name": "Smart Home Control",
+      "definition": "Adjusting lights, temperature, volume, or operating smart appliances like vacuums or coffee makers."
+    },
+    {
+      "id": 3,
+      "name": "Information & Knowledge",
+      "definition": "Asking for weather, time, exchange rates, definitions, biographies, movie info, restaurant details, recipes, local events, news, sports, or general facts."
+    },
+    {
+      "id": 4,
+      "name": "Media Playback & Management",
+      "definition": "Playing specific songs, artists, genres, podcasts, audiobooks, radio stations, or managing media libraries."
+    },
+    {
+      "id": 5,
+      "name": "Communication & Social",
+      "definition": "Checking, sending, or replying to emails, messages, social media posts, making calls, or retrieving contact information."
+    },
+    {
+      "id": 6,
+      "name": "Shopping & Transactions",
+      "definition": "Adding or removing items from lists, ordering food, booking tickets, managing wishlists, or tracking expenses."
+    },
+    {
+      "id": 7,
+      "name": "Navigation & Travel Planning",
+      "definition": "Requesting directions, checking public transport schedules, or finding routes to a destination."
+    },
+    {
+      "id": 8,
+      "name": "System & App Control",
+      "definition": "Adjusting device settings (e.g., screen brightness, audio settings), launching applications, or issuing general system commands."
+    },
+    {
+      "id": 9,
+      "name": "Personal Schedule & Lists",
+      "definition": "Inquiring about or viewing one's own schedule, plans, or personal lists."
+    },
+    {
+      "id": 10,
+      "name": "Conversational & General",
+      "definition": "Engaging in casual chat, asking about the assistant's personal attributes, or general open-ended questions."
+    }
+  ]
+}

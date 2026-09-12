@@ -1,0 +1,227 @@
+{
+  "bench": "tweet89",
+  "run": 5,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Acai Berry for Weight Loss",
+      "definition": "News and discussions about the use of acai berry for weight loss and health."
+    },
+    {
+      "id": 2,
+      "name": "Super Bowl Commercials",
+      "definition": "Discussions, reviews, and reactions to advertisements aired during the Super Bowl."
+    },
+    {
+      "id": 3,
+      "name": "US Healthcare Law Challenge",
+      "definition": "Legal and political challenges to the US Affordable Care Act."
+    },
+    {
+      "id": 4,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates on the health and recovery of Congresswoman Gabrielle Giffords."
+    },
+    {
+      "id": 5,
+      "name": "Film Awards Season",
+      "definition": "News, nominations, and winners from major film awards like the Oscars, SAG, DGA, and PGA."
+    },
+    {
+      "id": 6,
+      "name": "Middle East Protests Arab Spring",
+      "definition": "News and events related to the widespread protests and political unrest in the Middle East and North Africa, including journalist safety."
+    },
+    {
+      "id": 7,
+      "name": "Fishing Hobby",
+      "definition": "Discussions, tips, and reports related to recreational fishing activities."
+    },
+    {
+      "id": 8,
+      "name": "Christina Aguilera's Super Bowl Anthem Flub",
+      "definition": "News and commentary about Christina Aguilera's mistake during the National Anthem at the Super Bowl."
+    },
+    {
+      "id": 9,
+      "name": "Michelle Obama's Let's Move Campaign",
+      "definition": "News and activities related to the First Lady's initiative to combat childhood obesity."
+    },
+    {
+      "id": 10,
+      "name": "General Weight Loss and Diet Tips",
+      "definition": "Broad advice and information on losing weight and healthy eating."
+    },
+    {
+      "id": 11,
+      "name": "Facebook Privacy Settings",
+      "definition": "Discussions and concerns about privacy settings and data security on Facebook."
+    },
+    {
+      "id": 12,
+      "name": "Global Warming and Climate Change",
+      "definition": "News and legal cases related to environmental issues and climate change."
+    },
+    {
+      "id": 13,
+      "name": "Sundance Film Festival",
+      "definition": "News, celebrity sightings, and film premieres from the Sundance Film Festival."
+    },
+    {
+      "id": 14,
+      "name": "US Employment and Jobless Rate",
+      "definition": "Reports and analysis on the US job market and unemployment figures."
+    },
+    {
+      "id": 15,
+      "name": "FDA Drug Approvals",
+      "definition": "Announcements and news regarding new drug approvals by the US Food and Drug Administration."
+    },
+    {
+      "id": 16,
+      "name": "Starbucks Trenta Cup Size",
+      "definition": "Discussions and reactions to Starbucks introducing a new, larger cup size."
+    },
+    {
+      "id": 17,
+      "name": "New York State Budget",
+      "definition": "News and political discussions surrounding the New York state budget."
+    },
+    {
+      "id": 18,
+      "name": "Ivory Coast Political Crisis",
+      "definition": "News and developments related to the political conflict and unrest in Ivory Coast."
+    },
+    {
+      "id": 19,
+      "name": "Identity Theft",
+      "definition": "Information and concerns about identity theft and online fraud."
+    },
+    {
+      "id": 20,
+      "name": "Athlete Concussions and Health Risks",
+      "definition": "Discussions and news about concussions and other health risks for athletes."
+    },
+    {
+      "id": 21,
+      "name": "Bullying Awareness and Prevention",
+      "definition": "Campaigns, events, and discussions aimed at preventing bullying."
+    },
+    {
+      "id": 22,
+      "name": "Personal Finance and Debt Management",
+      "definition": "Advice and information on managing personal finances and debt."
+    },
+    {
+      "id": 23,
+      "name": "Texting While Driving Awareness",
+      "definition": "Campaigns and discussions promoting awareness about the dangers of texting while driving."
+    },
+    {
+      "id": 24,
+      "name": "Moscow Airport Bombing",
+      "definition": "News and updates about the terrorist attack at Domodedovo Airport in Moscow."
+    },
+    {
+      "id": 25,
+      "name": "Rahm Emanuel Mayoral Eligibility",
+      "definition": "Legal and political debate surrounding Rahm Emanuel's eligibility to run for mayor of Chicago."
+    },
+    {
+      "id": 26,
+      "name": "US Immigration Issues",
+      "definition": "News and discussions related to immigration policy and enforcement in the United States."
+    },
+    {
+      "id": 27,
+      "name": "Student Financial Aid",
+      "definition": "Information and resources for students seeking financial assistance for education."
+    },
+    {
+      "id": 28,
+      "name": "Jo Yeates Murder Case",
+      "definition": "News and developments in the murder investigation of Joanna Yeates in the UK."
+    },
+    {
+      "id": 29,
+      "name": "Kim Kardashian Celebrity News",
+      "definition": "Gossip and news related to Kim Kardashian and her family."
+    },
+    {
+      "id": 30,
+      "name": "Australia Floods",
+      "definition": "News and updates on the severe flooding in Australia."
+    },
+    {
+      "id": 31,
+      "name": "China-US Relations",
+      "definition": "News and events concerning diplomatic relations between China and the United States."
+    },
+    {
+      "id": 32,
+      "name": "TSA and Airport Security",
+      "definition": "News and discussions about airport security measures and the Transportation Security Administration."
+    },
+    {
+      "id": 33,
+      "name": "Extreme Makeover TV Show",
+      "definition": "Mentions of the reality television show Extreme Makeover."
+    },
+    {
+      "id": 34,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "News and legal challenges regarding the composition of Taco Bell's seasoned beef."
+    },
+    {
+      "id": 35,
+      "name": "Charlie Sheen Personal Issues",
+      "definition": "News and updates on Charlie Sheen's health and personal struggles."
+    },
+    {
+      "id": 36,
+      "name": "EU Fishing Policy",
+      "definition": "Discussions and proposed reforms related to the European Union's fishing policies."
+    },
+    {
+      "id": 37,
+      "name": "Stuxnet Cyberattack",
+      "definition": "News and analysis of the Stuxnet computer worm and its implications."
+    },
+    {
+      "id": 38,
+      "name": "Iran Human Rights",
+      "definition": "News and concerns regarding human rights issues and executions in Iran."
+    },
+    {
+      "id": 39,
+      "name": "Music Industry News",
+      "definition": "General news and announcements from the music industry."
+    },
+    {
+      "id": 40,
+      "name": "Social Media and Activism",
+      "definition": "Discussions on the role of social media in political and social movements."
+    },
+    {
+      "id": 41,
+      "name": "Recipes and Cooking",
+      "definition": "Sharing of recipes and general cooking advice."
+    },
+    {
+      "id": 42,
+      "name": "Movie Reviews The Rite",
+      "definition": "Discussions and reviews specifically about the movie The Rite."
+    },
+    {
+      "id": 43,
+      "name": "WikiLeaks",
+      "definition": "News and discussions surrounding the WikiLeaks organization and its releases."
+    },
+    {
+      "id": 44,
+      "name": "NBA News",
+      "definition": "News and updates from the National Basketball Association."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "bench": "mtop_domain",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music",
+      "definition": "Requests related to playing, finding, or managing music."
+    },
+    {
+      "id": 2,
+      "name": "Alarms and Timers",
+      "definition": "Setting, modifying, or canceling alarms and timers."
+    },
+    {
+      "id": 3,
+      "name": "Reminders",
+      "definition": "Creating, modifying, or canceling reminders for tasks or events."
+    },
+    {
+      "id": 4,
+      "name": "Weather",
+      "definition": "Inquiries about current or forecasted weather conditions."
+    },
+    {
+      "id": 5,
+      "name": "Calls",
+      "definition": "Making, managing, or inquiring about phone or video calls."
+    },
+    {
+      "id": 6,
+      "name": "Messages",
+      "definition": "Sending, receiving, or managing text or video messages."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Requests for current news updates or specific news topics."
+    },
+    {
+      "id": 8,
+      "name": "Cooking and Recipes",
+      "definition": "Inquiries about cooking methods, recipes, or food-related questions."
+    },
+    {
+      "id": 9,
+      "name": "Events and Activities",
+      "definition": "Requests for information about local events or activities."
+    },
+    {
+      "id": 10,
+      "name": "Personal Information",
+      "definition": "Inquiries about personal contacts, relationships, or history."
+    },
+    {
+      "id": 11,
+      "name": "Status and Availability",
+      "definition": "Requests related to online status or availability of contacts."
+    },
+    {
+      "id": 12,
+      "name": "General Inquiries",
+      "definition": "Miscellaneous questions that do not fit into other categories."
+    }
+  ]
+}

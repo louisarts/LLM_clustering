@@ -1,0 +1,65 @@
+{
+  "bench": "snips",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Book Restaurant",
+      "definition": "Make a reservation at a restaurant or similar dining establishment."
+    },
+    {
+      "id": 2,
+      "name": "Add to Playlist",
+      "definition": "Add a song, album, or artist to a specified music playlist."
+    },
+    {
+      "id": 3,
+      "name": "Play Music",
+      "definition": "Play a specific song, album, or music by an artist."
+    },
+    {
+      "id": 4,
+      "name": "Show Weather Forecast",
+      "definition": "Provide the weather forecast for a specified location and time."
+    },
+    {
+      "id": 5,
+      "name": "Find Movie Schedule",
+      "definition": "Locate the schedule or showtimes for movies at a cinema."
+    },
+    {
+      "id": 6,
+      "name": "Rate Media",
+      "definition": "Assign a rating to a book, album, series, or other media."
+    },
+    {
+      "id": 7,
+      "name": "Find Creative Work",
+      "definition": "Locate a book, movie, TV show, or other creative work."
+    },
+    {
+      "id": 8,
+      "name": "Find Nearest Cinema",
+      "definition": "Locate the nearest cinema showing movies."
+    },
+    {
+      "id": 9,
+      "name": "Show TV Show",
+      "definition": "Display information or play a specific TV show."
+    },
+    {
+      "id": 10,
+      "name": "Find Video Game",
+      "definition": "Locate a specific video game."
+    },
+    {
+      "id": 11,
+      "name": "Open Music Service",
+      "definition": "Open a specified music streaming service."
+    }
+  ]
+}

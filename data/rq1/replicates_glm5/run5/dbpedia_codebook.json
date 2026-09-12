@@ -1,0 +1,1009 @@
+{
+  "bench": "dbpedia",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, including politicians, athletes, artists, academics, and other public figures."
+    },
+    {
+      "id": 2,
+      "name": "Film",
+      "definition": "A motion picture or cinematic work, including feature films, documentaries, and silent movies."
+    },
+    {
+      "id": 3,
+      "name": "Album",
+      "definition": "A collection of audio recordings, such as a music album, soundtrack, or compilation, typically released as a single item."
+    },
+    {
+      "id": 4,
+      "name": "Plant",
+      "definition": "A living organism belonging to the kingdom Plantae, including species of trees, shrubs, flowering plants, grasses, and mosses."
+    },
+    {
+      "id": 5,
+      "name": "Village",
+      "definition": "A small community or settlement in a rural area, typically smaller than a town."
+    },
+    {
+      "id": 6,
+      "name": "Watercraft",
+      "definition": "A vehicle used for navigation on water, including ships, boats, and submarines."
+    },
+    {
+      "id": 7,
+      "name": "Building",
+      "definition": "A man-made structure with a roof and walls, such as a house, church, school, or historic building."
+    },
+    {
+      "id": 8,
+      "name": "Journal",
+      "definition": "A periodical academic or professional publication containing articles and research findings."
+    },
+    {
+      "id": 9,
+      "name": "Aircraft",
+      "definition": "A vehicle capable of atmospheric flight, including airplanes, helicopters, and gliders."
+    },
+    {
+      "id": 10,
+      "name": "River",
+      "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another river."
+    },
+    {
+      "id": 11,
+      "name": "Animal",
+      "definition": "A living organism belonging to the kingdom Animalia, including mammals, birds, reptiles, insects, and marine life."
+    },
+    {
+      "id": 12,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages bound together, including novels, biographies, and non-fiction."
+    },
+    {
+      "id": 13,
+      "name": "Company",
+      "definition": "A business organization that produces goods or provides services."
+    },
+    {
+      "id": 14,
+      "name": "School",
+      "definition": "An educational institution where students are taught, including primary, secondary, and higher education schools."
+    },
+    {
+      "id": 15,
+      "name": "Locomotive",
+      "definition": "A powered rail vehicle used for pulling trains."
+    },
+    {
+      "id": 16,
+      "name": "Mountain",
+      "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level."
+    },
+    {
+      "id": 17,
+      "name": "Lake",
+      "definition": "A large body of water surrounded by land."
+    },
+    {
+      "id": 18,
+      "name": "Glacier",
+      "definition": "A slowly moving mass of ice formed by accumulated snow on mountains or near the poles."
+    },
+    {
+      "id": 19,
+      "name": "Crater",
+      "definition": "A large bowl-shaped cavity in the ground or on the surface of a planet or moon."
+    },
+    {
+      "id": 20,
+      "name": "Play",
+      "definition": "A dramatic work for the stage or to be read."
+    },
+    {
+      "id": 21,
+      "name": "Comic Book",
+      "definition": "A publication consisting of comic art in the form of sequential juxtaposed panels that represent individual scenes."
+    },
+    {
+      "id": 22,
+      "name": "Mountain Range",
+      "definition": "A chain of mountains bordered by highlands or separated from other mountains by passes or valleys."
+    },
+    {
+      "id": 23,
+      "name": "Film Character",
+      "definition": "A fictional persona appearing in a motion picture."
+    },
+    {
+      "id": 24,
+      "name": "Reservoir",
+      "definition": "A large natural or artificial lake used as a source of water supply."
+    },
+    {
+      "id": 25,
+      "name": "Newspaper",
+      "definition": "A printed publication containing news, articles, advertisements, and other information."
+    },
+    {
+      "id": 26,
+      "name": "Film Series",
+      "definition": "A collection of related films that share the same fictional universe or characters."
+    },
+    {
+      "id": 27,
+      "name": "Plant Genus",
+      "definition": "A taxonomic rank used in biological classification of living organisms which is below family and above species."
+    },
+    {
+      "id": 28,
+      "name": "Animal Genus",
+      "definition": "A taxonomic rank used in biological classification of living organisms which is below family and above species."
+    },
+    {
+      "id": 29,
+      "name": "Plant Family",
+      "definition": "A taxonomic rank used in biological classification of living organisms which is below order and above genus."
+    },
+    {
+      "id": 30,
+      "name": "Vehicle Class",
+      "definition": "A specific design or model type of vehicle, typically used for military or transportation purposes."
+    },
+    {
+      "id": 31,
+      "name": "University",
+      "definition": "A high-level educational institution in which students study for degrees and academic research is done."
+    },
+    {
+      "id": 32,
+      "name": "Novel",
+      "definition": "A fictitious prose narrative of book length, typically representing character and action with some degree of realism."
+    },
+    {
+      "id": 33,
+      "name": "Automobile",
+      "definition": "A road vehicle, typically with four wheels, powered by an internal combustion engine and able to carry a small number of people."
+    },
+    {
+      "id": 34,
+      "name": "EP",
+      "definition": "A musical recording that contains more tracks than a single but fewer than an album."
+    },
+    {
+      "id": 35,
+      "name": "Compilation Album",
+      "definition": "An album consisting of tracks by one or more artists, often previously released material."
+    },
+    {
+      "id": 36,
+      "name": "Soundtrack",
+      "definition": "The recorded sound from a motion picture or television program."
+    },
+    {
+      "id": 37,
+      "name": "Concept Album",
+      "definition": "An album where all the songs contribute to a single overall theme or story."
+    },
+    {
+      "id": 38,
+      "name": "Film Director",
+      "definition": "A person who directs the making of a film."
+    },
+    {
+      "id": 39,
+      "name": "Actor",
+      "definition": "A person whose profession is acting on the stage, in movies, or on television."
+    },
+    {
+      "id": 40,
+      "name": "Politician",
+      "definition": "A person who is professionally involved in politics, especially as a holder of or a candidate for an elected office."
+    },
+    {
+      "id": 41,
+      "name": "Athlete",
+      "definition": "A person who is proficient in sports and other forms of physical exercise."
+    },
+    {
+      "id": 42,
+      "name": "Musician",
+      "definition": "A person who plays a musical instrument, especially as a profession, or is musically talented."
+    },
+    {
+      "id": 43,
+      "name": "Writer",
+      "definition": "A person who has written a particular text or who writes as an occupation."
+    },
+    {
+      "id": 44,
+      "name": "Painter",
+      "definition": "An artist who paints pictures."
+    },
+    {
+      "id": 45,
+      "name": "Academic",
+      "definition": "A teacher or scholar in a university or institute of higher education."
+    },
+    {
+      "id": 46,
+      "name": "Religious Figure",
+      "definition": "A person who is a leader or significant figure within a religious tradition."
+    },
+    {
+      "id": 47,
+      "name": "Military Unit",
+      "definition": "A subdivision of an armed force."
+    },
+    {
+      "id": 48,
+      "name": "Political Jurisdiction",
+      "definition": "An administrative region, such as a district or county, defined for governance purposes."
+    },
+    {
+      "id": 49,
+      "name": "Extinct Plant Genus",
+      "definition": "A genus of plants that no longer exists."
+    },
+    {
+      "id": 50,
+      "name": "Plant Subclass",
+      "definition": "A taxonomic rank below class and above order."
+    },
+    {
+      "id": 51,
+      "name": "Monastic House",
+      "definition": "A building or complex of buildings comprising the domestic quarters and workplaces of monastics, monks or nuns."
+    },
+    {
+      "id": 52,
+      "name": "Record Label",
+      "definition": "A company that coordinates the production, manufacture, distribution, marketing, and enforcement of copyright for sound recordings."
+    },
+    {
+      "id": 53,
+      "name": "Film Production Company",
+      "definition": "A company that produces motion pictures."
+    },
+    {
+      "id": 54,
+      "name": "Magazine",
+      "definition": "A periodical publication containing articles and illustrations, often on a particular subject or aimed at a particular readership."
+    },
+    {
+      "id": 55,
+      "name": "Hospital",
+      "definition": "An institution providing medical and surgical treatment and nursing care for sick or injured people."
+    },
+    {
+      "id": 56,
+      "name": "Church",
+      "definition": "A building used for public Christian worship."
+    },
+    {
+      "id": 57,
+      "name": "Office Building",
+      "definition": "A commercial building or structure that has offices for rent or sale."
+    },
+    {
+      "id": 58,
+      "name": "Historic House",
+      "definition": "A residence that has significant historical, architectural, or cultural value."
+    },
+    {
+      "id": 59,
+      "name": "School District",
+      "definition": "A geographical unit for the local administration of schools."
+    },
+    {
+      "id": 60,
+      "name": "Bridge",
+      "definition": "A structure built to carry a road, path, or railway across a river, road, or other obstacle."
+    },
+    {
+      "id": 61,
+      "name": "Barracks",
+      "definition": "A large building or group of buildings used to house soldiers."
+    },
+    {
+      "id": 62,
+      "name": "Museum Complex",
+      "definition": "A group of buildings or institutions dedicated to the preservation and display of objects of historical, scientific, or artistic interest."
+    },
+    {
+      "id": 63,
+      "name": "Estate",
+      "definition": "A large area of land, usually with a large house, owned by one person or family."
+    },
+    {
+      "id": 64,
+      "name": "Chateau",
+      "definition": "A large French country house or castle."
+    },
+    {
+      "id": 65,
+      "name": "Historic Site",
+      "definition": "A location where pieces of political, cultural, or military history have been preserved."
+    },
+    {
+      "id": 66,
+      "name": "Natural Site",
+      "definition": "A natural feature or physical feature that is significant."
+    },
+    {
+      "id": 67,
+      "name": "Hamlet",
+      "definition": "A small settlement, generally smaller than a village."
+    },
+    {
+      "id": 68,
+      "name": "Locomotive Class",
+      "definition": "A group of locomotives built to a common design."
+    },
+    {
+      "id": 69,
+      "name": "Automobile Model",
+      "definition": "A specific type of automobile produced by a manufacturer."
+    },
+    {
+      "id": 70,
+      "name": "Racing Car",
+      "definition": "A car designed and built for speed, racing, or competition."
+    },
+    {
+      "id": 71,
+      "name": "Aircraft Model",
+      "definition": "A specific type of aircraft produced by a manufacturer."
+    },
+    {
+      "id": 72,
+      "name": "Unmanned Aerial Vehicle",
+      "definition": "An aircraft piloted by remote control or onboard computers."
+    },
+    {
+      "id": 73,
+      "name": "Experimental Aircraft",
+      "definition": "An aircraft that has not yet been fully proven in flight."
+    },
+    {
+      "id": 74,
+      "name": "Ship Class",
+      "definition": "A group of ships built to a common design."
+    },
+    {
+      "id": 75,
+      "name": "Freighter",
+      "definition": "A ship or aircraft designed to carry cargo."
+    },
+    {
+      "id": 76,
+      "name": "Schooner",
+      "definition": "A sailing ship with two or more masts, typically with the foremast smaller than the mainmast."
+    },
+    {
+      "id": 77,
+      "name": "Steamboat",
+      "definition": "A boat powered by steam."
+    },
+    {
+      "id": 78,
+      "name": "Yacht",
+      "definition": "A medium-sized to large boat used for cruising or racing."
+    },
+    {
+      "id": 79,
+      "name": "Locomotive Manufacturer",
+      "definition": "A company that builds locomotives."
+    },
+    {
+      "id": 80,
+      "name": "Aircraft Manufacturer",
+      "definition": "A company or individual who designs and builds aircraft."
+    },
+    {
+      "id": 81,
+      "name": "Brewery",
+      "definition": "A place where beer is made commercially."
+    },
+    {
+      "id": 82,
+      "name": "Financial Services Company",
+      "definition": "A company that provides financial services to its clients."
+    },
+    {
+      "id": 83,
+      "name": "Holding Company",
+      "definition": "A company created to buy and own the shares of other companies."
+    },
+    {
+      "id": 84,
+      "name": "Broadcasting Company",
+      "definition": "A company that operates radio or television stations."
+    },
+    {
+      "id": 85,
+      "name": "Technology Company",
+      "definition": "A company that focuses on the development and manufacturing of technology products."
+    },
+    {
+      "id": 86,
+      "name": "Firearms Manufacturer",
+      "definition": "A company that manufactures firearms."
+    },
+    {
+      "id": 87,
+      "name": "Geophysical Services Company",
+      "definition": "A company that provides services related to the physical properties of the earth."
+    },
+    {
+      "id": 88,
+      "name": "Non-Profit Organization",
+      "definition": "An organization that uses its surplus revenues to further achieve its purpose rather than distributing its income to the organization's directors, members, or shareholders."
+    },
+    {
+      "id": 89,
+      "name": "College",
+      "definition": "An educational institution or a constituent part of one."
+    },
+    {
+      "id": 90,
+      "name": "Seminary",
+      "definition": "A specialized educational institution for instructing students in religion."
+    },
+    {
+      "id": 91,
+      "name": "International School",
+      "definition": "A school that promotes international education."
+    },
+    {
+      "id": 92,
+      "name": "Trade Publication",
+      "definition": "A magazine or newspaper that targets a specific industry or profession."
+    },
+    {
+      "id": 93,
+      "name": "Literary Magazine",
+      "definition": "A periodical devoted to literature in a broad sense."
+    },
+    {
+      "id": 94,
+      "name": "Scientific Journal",
+      "definition": "A periodical publication intended to further the progress of science, usually by reporting new research."
+    },
+    {
+      "id": 95,
+      "name": "Academic Journal",
+      "definition": "A peer-reviewed periodical in which scholarship relating to a particular academic discipline is published."
+    },
+    {
+      "id": 96,
+      "name": "Music Journal",
+      "definition": "A periodical publication devoted to music."
+    },
+    {
+      "id": 97,
+      "name": "Ornithological Journal",
+      "definition": "A scientific journal focusing on birds."
+    },
+    {
+      "id": 98,
+      "name": "Architecture Journal",
+      "definition": "A periodical publication focusing on architecture."
+    },
+    {
+      "id": 99,
+      "name": "Mathematics Journal",
+      "definition": "A scientific journal focusing on mathematics."
+    },
+    {
+      "id": 100,
+      "name": "Scandinavian Studies Journal",
+      "definition": "An academic journal focusing on Scandinavian studies."
+    },
+    {
+      "id": 101,
+      "name": "Corpus Linguistics Journal",
+      "definition": "An academic journal focusing on corpus linguistics."
+    },
+    {
+      "id": 102,
+      "name": "Operations Research Journal",
+      "definition": "A scientific journal focusing on operations research."
+    },
+    {
+      "id": 103,
+      "name": "Autobiography",
+      "definition": "A self-written account of the life of a person."
+    },
+    {
+      "id": 104,
+      "name": "Biographical Novel",
+      "definition": "A novel that is a fictionalized account of a real person's life."
+    },
+    {
+      "id": 105,
+      "name": "Crime Novel",
+      "definition": "A novel that deals with crimes, their detection, criminals, and their motives."
+    },
+    {
+      "id": 106,
+      "name": "Fantasy Novel",
+      "definition": "A novel set in a fictional universe, often but not always without any locations, events, or people from the real world."
+    },
+    {
+      "id": 107,
+      "name": "Children's Novel",
+      "definition": "A novel written for children."
+    },
+    {
+      "id": 108,
+      "name": "Anthology",
+      "definition": "A collection of literary works chosen by the compiler."
+    },
+    {
+      "id": 109,
+      "name": "Concert Film",
+      "definition": "A film that records a live musical performance."
+    },
+    {
+      "id": 110,
+      "name": "Documentary Film",
+      "definition": "A non-fictional motion picture intended to document some aspect of reality, primarily for the purposes of instruction, education, or maintaining a historical record."
+    },
+    {
+      "id": 111,
+      "name": "Anime Film",
+      "definition": "A film that is an animated work in the Japanese style."
+    },
+    {
+      "id": 112,
+      "name": "Horror Film",
+      "definition": "A film that seeks to elicit fear for entertainment purposes."
+    },
+    {
+      "id": 113,
+      "name": "Action Film",
+      "definition": "A film genre in which the protagonist or protagonists are thrust into a series of challenges that typically include violence, extended fighting, physical feats, and frantic chases."
+    },
+    {
+      "id": 114,
+      "name": "Romantic Comedy Film",
+      "definition": "A film with light-hearted, humorous plotlines, centered on romantic ideals."
+    },
+    {
+      "id": 115,
+      "name": "Drama Film",
+      "definition": "A film that depends mostly on in-depth character development, interaction, and highly emotional themes."
+    },
+    {
+      "id": 116,
+      "name": "Silent Film",
+      "definition": "A film with no synchronized recorded sound."
+    },
+    {
+      "id": 117,
+      "name": "Comedy Film",
+      "definition": "A film designed to make the audience laugh."
+    },
+    {
+      "id": 118,
+      "name": "Historical Film",
+      "definition": "A film in which events and characters are based on historical figures or events."
+    },
+    {
+      "id": 119,
+      "name": "Western Film",
+      "definition": "A film set in the American West that embodies the spirit, the struggle, and the demise of the new frontier."
+    },
+    {
+      "id": 120,
+      "name": "Sports Film",
+      "definition": "A film genre in which the plot is centered on a particular sport."
+    },
+    {
+      "id": 121,
+      "name": "Musical Film",
+      "definition": "A film genre in which songs sung by the characters are interwoven into the narrative."
+    },
+    {
+      "id": 122,
+      "name": "Television Film",
+      "definition": "A feature-length motion picture that is produced for and originally distributed by or to a television network."
+    },
+    {
+      "id": 123,
+      "name": "Short Film",
+      "definition": "A motion picture that is shorter than a standard feature film."
+    },
+    {
+      "id": 124,
+      "name": "Compilation Film",
+      "definition": "A film that is made up of clips from other films."
+    },
+    {
+      "id": 125,
+      "name": "Live Album",
+      "definition": "An album recorded during a live performance."
+    },
+    {
+      "id": 126,
+      "name": "Remix Album",
+      "definition": "An album consisting of remixed or altered versions of previously recorded tracks."
+    },
+    {
+      "id": 127,
+      "name": "Box Set",
+      "definition": "A collection of musical recordings, films, or other items packaged together in a box."
+    },
+    {
+      "id": 128,
+      "name": "Studio Album",
+      "definition": "An album recorded in a recording studio."
+    },
+    {
+      "id": 129,
+      "name": "Debut Album",
+      "definition": "The first album released by a musical artist."
+    },
+    {
+      "id": 130,
+      "name": "Holiday Album",
+      "definition": "An album of music themed around a holiday."
+    },
+    {
+      "id": 131,
+      "name": "Cover Album",
+      "definition": "An album consisting of cover versions of songs."
+    },
+    {
+      "id": 132,
+      "name": "Tribute Album",
+      "definition": "An album of cover versions of songs by a single artist or band."
+    },
+    {
+      "id": 133,
+      "name": "Greatest Hits Album",
+      "definition": "A compilation album of successful songs by a particular music artist or band."
+    },
+    {
+      "id": 134,
+      "name": "Soundtrack Album",
+      "definition": "An album that is the soundtrack to a film, television show, or video game."
+    },
+    {
+      "id": 135,
+      "name": "Demo Album",
+      "definition": "An album of rough recordings made to demonstrate a band's songs."
+    },
+    {
+      "id": 136,
+      "name": "Independent Album",
+      "definition": "An album released independently from a major record label."
+    },
+    {
+      "id": 137,
+      "name": "Christian Rock Album",
+      "definition": "An album of Christian rock music."
+    },
+    {
+      "id": 138,
+      "name": "Punk Rock Album",
+      "definition": "An album of punk rock music."
+    },
+    {
+      "id": 139,
+      "name": "Heavy Metal Album",
+      "definition": "An album of heavy metal music."
+    },
+    {
+      "id": 140,
+      "name": "Progressive Rock Album",
+      "definition": "An album of progressive rock music."
+    },
+    {
+      "id": 141,
+      "name": "Pop Album",
+      "definition": "An album of pop music."
+    },
+    {
+      "id": 142,
+      "name": "R&B Album",
+      "definition": "An album of R&B music."
+    },
+    {
+      "id": 143,
+      "name": "Jazz Album",
+      "definition": "An album of jazz music."
+    },
+    {
+      "id": 144,
+      "name": "Ghazal Album",
+      "definition": "An album of ghazal music."
+    },
+    {
+      "id": 145,
+      "name": "Mandopop Album",
+      "definition": "An album of Mandopop music."
+    },
+    {
+      "id": 146,
+      "name": "Fictional Character",
+      "definition": "A character in a fictional work."
+    },
+    {
+      "id": 147,
+      "name": "Fictional Location",
+      "definition": "A location in a fictional work."
+    },
+    {
+      "id": 148,
+      "name": "Fictional Object",
+      "definition": "An object in a fictional work."
+    },
+    {
+      "id": 149,
+      "name": "Fictional Event",
+      "definition": "An event in a fictional work."
+    },
+    {
+      "id": 150,
+      "name": "Fictional Organization",
+      "definition": "An organization in a fictional work."
+    },
+    {
+      "id": 151,
+      "name": "Fictional Species",
+      "definition": "A species in a fictional work."
+    },
+    {
+      "id": 152,
+      "name": "Fictional Technology",
+      "definition": "A technology in a fictional work."
+    },
+    {
+      "id": 153,
+      "name": "Fictional Language",
+      "definition": "A language in a fictional work."
+    },
+    {
+      "id": 154,
+      "name": "Fictional Religion",
+      "definition": "A religion in a fictional work."
+    },
+    {
+      "id": 155,
+      "name": "Fictional History",
+      "definition": "A history in a fictional work."
+    },
+    {
+      "id": 156,
+      "name": "Fictional Culture",
+      "definition": "A culture in a fictional work."
+    },
+    {
+      "id": 157,
+      "name": "Fictional Government",
+      "definition": "A government in a fictional work."
+    },
+    {
+      "id": 158,
+      "name": "Fictional Military",
+      "definition": "A military in a fictional work."
+    },
+    {
+      "id": 159,
+      "name": "Fictional Economy",
+      "definition": "An economy in a fictional work."
+    },
+    {
+      "id": 160,
+      "name": "Fictional Geography",
+      "definition": "A geography in a fictional work."
+    },
+    {
+      "id": 161,
+      "name": "Fictional Biology",
+      "definition": "A biology in a fictional work."
+    },
+    {
+      "id": 162,
+      "name": "Fictional Physics",
+      "definition": "A physics in a fictional work."
+    },
+    {
+      "id": 163,
+      "name": "Fictional Chemistry",
+      "definition": "A chemistry in a fictional work."
+    },
+    {
+      "id": 164,
+      "name": "Fictional Astronomy",
+      "definition": "An astronomy in a fictional work."
+    },
+    {
+      "id": 165,
+      "name": "Fictional Mathematics",
+      "definition": "A mathematics in a fictional work."
+    },
+    {
+      "id": 166,
+      "name": "Fictional Philosophy",
+      "definition": "A philosophy in a fictional work."
+    },
+    {
+      "id": 167,
+      "name": "Fictional Psychology",
+      "definition": "A psychology in a fictional work."
+    },
+    {
+      "id": 168,
+      "name": "Fictional Sociology",
+      "definition": "A sociology in a fictional work."
+    },
+    {
+      "id": 169,
+      "name": "Fictional Anthropology",
+      "definition": "An anthropology in a fictional work."
+    },
+    {
+      "id": 170,
+      "name": "Fictional History",
+      "definition": "A history in a fictional work."
+    },
+    {
+      "id": 171,
+      "name": "Fictional Law",
+      "definition": "A law in a fictional work."
+    },
+    {
+      "id": 172,
+      "name": "Fictional Politics",
+      "definition": "A politics in a fictional work."
+    },
+    {
+      "id": 173,
+      "name": "Fictional Art",
+      "definition": "An art in a fictional work."
+    },
+    {
+      "id": 174,
+      "name": "Fictional Music",
+      "definition": "A music in a fictional work."
+    },
+    {
+      "id": 175,
+      "name": "Fictional Literature",
+      "definition": "A literature in a fictional work."
+    },
+    {
+      "id": 176,
+      "name": "Fictional Film",
+      "definition": "A film in a fictional work."
+    },
+    {
+      "id": 177,
+      "name": "Fictional Television",
+      "definition": "A television in a fictional work."
+    },
+    {
+      "id": 178,
+      "name": "Fictional Radio",
+      "definition": "A radio in a fictional work."
+    },
+    {
+      "id": 179,
+      "name": "Fictional Internet",
+      "definition": "An internet in a fictional work."
+    },
+    {
+      "id": 180,
+      "name": "Fictional Video Game",
+      "definition": "A video game in a fictional work."
+    },
+    {
+      "id": 181,
+      "name": "Fictional Board Game",
+      "definition": "A board game in a fictional work."
+    },
+    {
+      "id": 182,
+      "name": "Fictional Card Game",
+      "definition": "A card game in a fictional work."
+    },
+    {
+      "id": 183,
+      "name": "Fictional Sport",
+      "definition": "A sport in a fictional work."
+    },
+    {
+      "id": 184,
+      "name": "Fictional Game",
+      "definition": "A game in a fictional work."
+    },
+    {
+      "id": 185,
+      "name": "Fictional Toy",
+      "definition": "A toy in a fictional work."
+    },
+    {
+      "id": 186,
+      "name": "Fictional Food",
+      "definition": "A food in a fictional work."
+    },
+    {
+      "id": 187,
+      "name": "Fictional Drink",
+      "definition": "A drink in a fictional work."
+    },
+    {
+      "id": 188,
+      "name": "Fictional Drug",
+      "definition": "A drug in a fictional work."
+    },
+    {
+      "id": 189,
+      "name": "Fictional Weapon",
+      "definition": "A weapon in a fictional work."
+    },
+    {
+      "id": 190,
+      "name": "Fictional Vehicle",
+      "definition": "A vehicle in a fictional work."
+    },
+    {
+      "id": 191,
+      "name": "Fictional Building",
+      "definition": "A building in a fictional work."
+    },
+    {
+      "id": 192,
+      "name": "Fictional City",
+      "definition": "A city in a fictional work."
+    },
+    {
+      "id": 193,
+      "name": "Fictional Country",
+      "definition": "A country in a fictional work."
+    },
+    {
+      "id": 194,
+      "name": "Fictional Planet",
+      "definition": "A planet in a fictional work."
+    },
+    {
+      "id": 195,
+      "name": "Fictional Star",
+      "definition": "A star in a fictional work."
+    },
+    {
+      "id": 196,
+      "name": "Fictional Galaxy",
+      "definition": "A galaxy in a fictional work."
+    },
+    {
+      "id": 197,
+      "name": "Fictional Universe",
+      "definition": "A universe in a fictional work."
+    },
+    {
+      "id": 198,
+      "name": "Fictional Dimension",
+      "definition": "A dimension in a fictional work."
+    },
+    {
+      "id": 199,
+      "name": "Fictional Time",
+      "definition": "A time in a fictional work."
+    },
+    {
+      "id": 200,
+      "name": "Fictional Reality",
+      "definition": "A reality in a fictional work."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "bench": "massive_domain",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Calendar Management",
+      "definition": "Requests related to scheduling, modifying, or querying calendar events."
+    },
+    {
+      "id": 2,
+      "name": "Email Management",
+      "definition": "Requests related to sending, receiving, or managing emails."
+    },
+    {
+      "id": 3,
+      "name": "Music and Audio Playback",
+      "definition": "Requests related to playing, pausing, or managing music, podcasts, or audiobooks."
+    },
+    {
+      "id": 4,
+      "name": "Weather Information",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 5,
+      "name": "News and Information",
+      "definition": "Requests for news updates or general information queries."
+    },
+    {
+      "id": 6,
+      "name": "Smart Home Control",
+      "definition": "Requests to control smart home devices such as lights, plugs, or appliances."
+    },
+    {
+      "id": 7,
+      "name": "Reminders and Alarms",
+      "definition": "Requests to set, modify, or query reminders and alarms."
+    },
+    {
+      "id": 8,
+      "name": "Currency and Finance",
+      "definition": "Requests related to currency exchange rates or financial information."
+    },
+    {
+      "id": 9,
+      "name": "Travel and Navigation",
+      "definition": "Requests related to booking travel, checking traffic, or navigation."
+    },
+    {
+      "id": 10,
+      "name": "Entertainment and Media",
+      "definition": "Requests for entertainment options, such as movies or TV shows."
+    },
+    {
+      "id": 11,
+      "name": "Shopping and Orders",
+      "definition": "Requests related to shopping lists or order status."
+    },
+    {
+      "id": 12,
+      "name": "Social Media",
+      "definition": "Requests related to posting or interacting on social media platforms."
+    },
+    {
+      "id": 13,
+      "name": "General Knowledge and Definitions",
+      "definition": "Requests for definitions or general knowledge questions."
+    },
+    {
+      "id": 14,
+      "name": "Jokes and Fun",
+      "definition": "Requests for jokes or light-hearted interactions."
+    },
+    {
+      "id": 15,
+      "name": "Health and Lifestyle",
+      "definition": "Requests related to health tips or lifestyle advice."
+    },
+    {
+      "id": 16,
+      "name": "Contact Information",
+      "definition": "Requests for contact details or managing contacts."
+    },
+    {
+      "id": 17,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions or recipes."
+    },
+    {
+      "id": 18,
+      "name": "Sports Updates",
+      "definition": "Requests for sports news or updates."
+    }
+  ]
+}

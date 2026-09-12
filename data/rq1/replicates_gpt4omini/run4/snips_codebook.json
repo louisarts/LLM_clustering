@@ -1,0 +1,85 @@
+{
+  "bench": "snips",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Find Item",
+      "definition": "Locate a specific item such as a book, movie, game, or song."
+    },
+    {
+      "id": 2,
+      "name": "Make Reservation",
+      "definition": "Book a table or reservation at a restaurant or venue."
+    },
+    {
+      "id": 3,
+      "name": "Rate Item",
+      "definition": "Provide a rating or score for a book, movie, album, or other media."
+    },
+    {
+      "id": 4,
+      "name": "Play Music",
+      "definition": "Request to play specific songs, albums, or playlists."
+    },
+    {
+      "id": 5,
+      "name": "Get Weather Information",
+      "definition": "Request current or forecasted weather conditions."
+    },
+    {
+      "id": 6,
+      "name": "Show Movie Schedule",
+      "definition": "Request the schedule of movies playing at a specific cinema."
+    },
+    {
+      "id": 7,
+      "name": "Find Show",
+      "definition": "Locate a specific show or performance."
+    },
+    {
+      "id": 8,
+      "name": "Add to Playlist",
+      "definition": "Request to add a song or album to a specified playlist."
+    },
+    {
+      "id": 9,
+      "name": "Look Up Information",
+      "definition": "Request information about a specific topic or item."
+    },
+    {
+      "id": 10,
+      "name": "Book Venue",
+      "definition": "Reserve a venue for an event or gathering."
+    },
+    {
+      "id": 11,
+      "name": "Find Location",
+      "definition": "Request to find a specific place or service."
+    },
+    {
+      "id": 12,
+      "name": "Check Availability",
+      "definition": "Inquire about the availability of a service or item."
+    },
+    {
+      "id": 13,
+      "name": "Request Movie Times",
+      "definition": "Ask for the showtimes of movies at a specific location."
+    },
+    {
+      "id": 14,
+      "name": "Forecast Inquiry",
+      "definition": "Request a weather forecast for a specific date or time."
+    },
+    {
+      "id": 15,
+      "name": "Find Series",
+      "definition": "Locate a specific series or saga."
+    }
+  ]
+}

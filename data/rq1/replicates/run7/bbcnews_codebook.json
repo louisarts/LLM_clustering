@@ -1,0 +1,62 @@
+{
+  "bench": "bbcnews",
+  "run": 7,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics (UK)",
+      "definition": "News related to the government, parliament, elections, parties, and domestic policy in the United Kingdom."
+    },
+    {
+      "id": 2,
+      "name": "Politics (Non-UK)",
+      "definition": "News related to governments, elections, parties, and domestic policy in countries outside the United Kingdom."
+    },
+    {
+      "id": 3,
+      "name": "International Relations",
+      "definition": "News concerning diplomatic relations, foreign policy, international agreements, and global cooperation or conflict between countries or international bodies."
+    },
+    {
+      "id": 4,
+      "name": "Economy & Business",
+      "definition": "News about economic trends, financial markets, corporate activities, trade, and specific industries."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "News about computing, software, internet, mobile devices, consumer electronics, and technological innovation."
+    },
+    {
+      "id": 6,
+      "name": "Sport",
+      "definition": "News covering various sports, athletes, competitions, and related controversies like doping."
+    },
+    {
+      "id": 7,
+      "name": "Entertainment",
+      "definition": "News about film, music, television, theatre, celebrities, and cultural awards."
+    },
+    {
+      "id": 8,
+      "name": "Social Issues",
+      "definition": "News concerning societal problems, public welfare, demographics, civil liberties, crime, education, health, and community affairs."
+    },
+    {
+      "id": 9,
+      "name": "Law & Justice",
+      "definition": "News about legal cases, court rulings, legislation, law enforcement, and judicial systems."
+    },
+    {
+      "id": 10,
+      "name": "Environment & Disasters",
+      "definition": "News related to environmental issues, climate, natural disasters, and conservation efforts."
+    },
+    {
+      "id": 11,
+      "name": "Culture & Arts",
+      "definition": "News about arts, literature, museums, heritage, religion, and cultural events not primarily focused on the entertainment industry."
+    }
+  ]
+}

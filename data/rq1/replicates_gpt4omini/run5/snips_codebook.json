@@ -1,0 +1,90 @@
+{
+  "bench": "snips",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Book a Reservation",
+      "definition": "Request to book a table or reservation at a restaurant or venue."
+    },
+    {
+      "id": 2,
+      "name": "Weather Inquiry",
+      "definition": "Request for current or forecasted weather conditions."
+    },
+    {
+      "id": 3,
+      "name": "Find Media",
+      "definition": "Request to locate a specific book, movie, TV show, or music."
+    },
+    {
+      "id": 4,
+      "name": "Play Music",
+      "definition": "Request to play a specific song, album, or playlist."
+    },
+    {
+      "id": 5,
+      "name": "Rate Media",
+      "definition": "Request to provide a rating for a book, movie, or other media."
+    },
+    {
+      "id": 6,
+      "name": "Showtimes Inquiry",
+      "definition": "Request for movie showtimes at a specific theater."
+    },
+    {
+      "id": 7,
+      "name": "Add to Playlist",
+      "definition": "Request to add a song or album to a specified playlist."
+    },
+    {
+      "id": 8,
+      "name": "Search for Information",
+      "definition": "Request to search for specific information or documents."
+    },
+    {
+      "id": 9,
+      "name": "Find Location",
+      "definition": "Request to find a location or venue for an event or activity."
+    },
+    {
+      "id": 10,
+      "name": "Play TV Show",
+      "definition": "Request to play a specific TV show or episode."
+    },
+    {
+      "id": 11,
+      "name": "Forecast Inquiry",
+      "definition": "Request for a weather forecast for a specific date or location."
+    },
+    {
+      "id": 12,
+      "name": "Book Event",
+      "definition": "Request to book a spot for an event or gathering."
+    },
+    {
+      "id": 13,
+      "name": "Find Game",
+      "definition": "Request to locate a specific video game."
+    },
+    {
+      "id": 14,
+      "name": "Find Photograph",
+      "definition": "Request to locate a specific photograph."
+    },
+    {
+      "id": 15,
+      "name": "Find Soundtrack",
+      "definition": "Request to locate a specific soundtrack."
+    },
+    {
+      "id": 16,
+      "name": "Play Trailer",
+      "definition": "Request to play a movie or show trailer."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "bench": "tweet89",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Egyptian Protests",
+      "definition": "Tweets related to protests, violence, and events in Egypt"
+    },
+    {
+      "id": 2,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets discussing or referencing commercials aired during the Super Bowl"
+    },
+    {
+      "id": 3,
+      "name": "Healthcare Law Ruling",
+      "definition": "Tweets about court rulings or decisions related to healthcare laws"
+    },
+    {
+      "id": 4,
+      "name": "Celebrity News",
+      "definition": "Tweets about celebrities, their activities, or events involving them"
+    },
+    {
+      "id": 5,
+      "name": "Fishing Tips and Reports",
+      "definition": "Tweets providing tips, reports, or discussions related to fishing"
+    },
+    {
+      "id": 6,
+      "name": "Taco Bell Lawsuit",
+      "definition": "Tweets discussing or mentioning the lawsuit against Taco Bell regarding their beef"
+    },
+    {
+      "id": 7,
+      "name": "Identity Theft and Security",
+      "definition": "Tweets related to identity theft, online security, or privacy concerns"
+    },
+    {
+      "id": 8,
+      "name": "Political Events",
+      "definition": "Tweets about political events, elections, or government actions"
+    },
+    {
+      "id": 9,
+      "name": "Sports News",
+      "definition": "Tweets related to sports events, games, or athletes"
+    },
+    {
+      "id": 10,
+      "name": "Oscar Nominations",
+      "definition": "Tweets discussing or announcing Oscar nominations or awards"
+    }
+  ]
+}

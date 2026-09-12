@@ -1,0 +1,110 @@
+{
+  "bench": "clinc150_domain",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Credit Score Inquiry",
+      "definition": "Utterances related to checking one's credit score"
+    },
+    {
+      "id": 2,
+      "name": "Spelling Assistance",
+      "definition": "Utterances related to checking correct spelling of words"
+    },
+    {
+      "id": 3,
+      "name": "General Greeting",
+      "definition": "Utterances related to general greetings and inquiries about well-being"
+    },
+    {
+      "id": 4,
+      "name": "Mathematical Calculation",
+      "definition": "Utterances related to mathematical calculations and queries"
+    },
+    {
+      "id": 5,
+      "name": "Process Control",
+      "definition": "Utterances related to stopping or controlling ongoing processes"
+    },
+    {
+      "id": 6,
+      "name": "Financial Inquiry",
+      "definition": "Utterances related to financial inquiries and advice"
+    },
+    {
+      "id": 7,
+      "name": "Music Control",
+      "definition": "Utterances related to controlling music playback"
+    },
+    {
+      "id": 8,
+      "name": "Volume Adjustment",
+      "definition": "Utterances related to adjusting volume levels"
+    },
+    {
+      "id": 9,
+      "name": "Location Inquiry",
+      "definition": "Utterances related to inquiries about locations and time zones"
+    },
+    {
+      "id": 10,
+      "name": "Direct Deposit Setup",
+      "definition": "Utterances related to setting up direct deposit for paychecks"
+    },
+    {
+      "id": 11,
+      "name": "Vehicle Maintenance Inquiry",
+      "definition": "Utterances related to vehicle maintenance schedules"
+    },
+    {
+      "id": 12,
+      "name": "Hotel Reservation Request",
+      "definition": "Utterances related to requesting hotel reservations"
+    },
+    {
+      "id": 13,
+      "name": "Recipe Request",
+      "definition": "Utterances related to requesting recipes"
+    },
+    {
+      "id": 14,
+      "name": "Upcoming Oil Change Inquiry",
+      "definition": "Utterances related to checking upcoming oil change schedules"
+    },
+    {
+      "id": 15,
+      "name": "Transaction Review Request",
+      "definition": "Utterances related to reviewing recent transactions"
+    },
+    {
+      "id": 16,
+      "name": "Time Zone Inquiry",
+      "definition": "Utterances related to checking time zones of specific locations"
+    },
+    {
+      "id": 17,
+      "name": "Credit Card Application",
+      "definition": "Utterances related to applying for credit cards"
+    },
+    {
+      "id": 18,
+      "name": "Personal Information Inquiry",
+      "definition": "Utterances related to inquiring about personal information"
+    },
+    {
+      "id": 19,
+      "name": "Confirmation Request",
+      "definition": "Utterances related to seeking confirmation or verification"
+    },
+    {
+      "id": 20,
+      "name": "Bank Account Assistance",
+      "definition": "Utterances related to bank account issues and assistance"
+    }
+  ]
+}

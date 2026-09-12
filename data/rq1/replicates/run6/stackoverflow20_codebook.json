@@ -1,0 +1,212 @@
+{
+  "bench": "stackoverflow20",
+  "run": 6,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Haskell",
+      "definition": "Questions about the Haskell programming language, its libraries, or functional programming concepts in Haskell."
+    },
+    {
+      "id": 2,
+      "name": "Scala",
+      "definition": "Questions about the Scala programming language, its libraries, or functional programming concepts in Scala."
+    },
+    {
+      "id": 3,
+      "name": "C++",
+      "definition": "Questions about the C++ programming language, its standard library, or general C++ development."
+    },
+    {
+      "id": 4,
+      "name": "Objective-C",
+      "definition": "Questions about the Objective-C programming language."
+    },
+    {
+      "id": 5,
+      "name": "VBA",
+      "definition": "Questions about Visual Basic for Applications, typically in the context of Microsoft Office applications like Excel."
+    },
+    {
+      "id": 6,
+      "name": "PHP",
+      "definition": "Questions about the PHP programming language or its standard libraries."
+    },
+    {
+      "id": 7,
+      "name": "Python",
+      "definition": "Questions about the Python programming language or its standard libraries."
+    },
+    {
+      "id": 8,
+      "name": "Spring Framework",
+      "definition": "Questions about the Spring Framework, including Spring Security, Spring Webflow, and other Spring modules."
+    },
+    {
+      "id": 9,
+      "name": "Hibernate",
+      "definition": "Questions about the Hibernate Object-Relational Mapping (ORM) framework, including HQL."
+    },
+    {
+      "id": 10,
+      "name": "JPA/JDO",
+      "definition": "Questions about the Java Persistence API (JPA) or Java Data Objects (JDO) specifications."
+    },
+    {
+      "id": 11,
+      "name": "jBPM",
+      "definition": "Questions about the jBPM business process management suite."
+    },
+    {
+      "id": 12,
+      "name": ".NET Ecosystem",
+      "definition": "Questions about the Microsoft .NET platform, C#, or general .NET development, excluding LINQ, ASP.NET, and Visual Studio specific questions."
+    },
+    {
+      "id": 13,
+      "name": "LINQ",
+      "definition": "Questions about Language Integrated Query (LINQ) for data manipulation in .NET."
+    },
+    {
+      "id": 14,
+      "name": "ASP.NET",
+      "definition": "Questions about the ASP.NET web application framework."
+    },
+    {
+      "id": 15,
+      "name": "Visual Studio",
+      "definition": "Questions about the Microsoft Visual Studio Integrated Development Environment (IDE)."
+    },
+    {
+      "id": 16,
+      "name": "Windows Development",
+      "definition": "Questions about Windows-specific APIs (e.g., Win32 API), the Windows Registry, MFC, or general Windows application development."
+    },
+    {
+      "id": 17,
+      "name": "macOS Development",
+      "definition": "Questions about macOS (formerly OS X) specific APIs, Cocoa, Core Data, Interface Builder, or general macOS application development."
+    },
+    {
+      "id": 18,
+      "name": "Wordpress",
+      "definition": "Questions about the Wordpress Content Management System (CMS), its themes, plugins, or APIs."
+    },
+    {
+      "id": 19,
+      "name": "Drupal",
+      "definition": "Questions about the Drupal Content Management System (CMS), its modules, themes, or APIs."
+    },
+    {
+      "id": 20,
+      "name": "Magento",
+      "definition": "Questions about the Magento e-commerce platform, its configuration, or development."
+    },
+    {
+      "id": 21,
+      "name": "Typo3",
+      "definition": "Questions about the Typo3 Content Management System (CMS)."
+    },
+    {
+      "id": 22,
+      "name": "Oracle Database",
+      "definition": "Questions about Oracle Database, SQL, PL/SQL, OCI, or Pro*C."
+    },
+    {
+      "id": 23,
+      "name": "MySQL",
+      "definition": "Questions about the MySQL relational database management system."
+    },
+    {
+      "id": 24,
+      "name": "Apache HTTP Server",
+      "definition": "Questions about the Apache HTTP Server, its configuration, modules (e.g., .htaccess, mod_proxy), or related issues."
+    },
+    {
+      "id": 25,
+      "name": "nginx",
+      "definition": "Questions about the nginx web server or reverse proxy."
+    },
+    {
+      "id": 26,
+      "name": "HAProxy",
+      "definition": "Questions about the HAProxy load balancer."
+    },
+    {
+      "id": 27,
+      "name": "Lighttpd",
+      "definition": "Questions about the Lighttpd web server."
+    },
+    {
+      "id": 28,
+      "name": "Subversion (SVN)",
+      "definition": "Questions about the Subversion version control system or its clients (e.g., TortoiseSVN, Subclipse)."
+    },
+    {
+      "id": 29,
+      "name": "SharePoint",
+      "definition": "Questions about Microsoft SharePoint, including WSS, CAML, InfoPath, or WebDAV in a SharePoint context."
+    },
+    {
+      "id": 30,
+      "name": "Qt Framework",
+      "definition": "Questions about the Qt cross-platform application development framework."
+    },
+    {
+      "id": 31,
+      "name": "AJAX",
+      "definition": "Questions about Asynchronous Javascript and XML (AJAX) techniques and implementation."
+    },
+    {
+      "id": 32,
+      "name": "Javascript",
+      "definition": "Questions about the Javascript programming language, including libraries like jQuery, or general client-side scripting."
+    },
+    {
+      "id": 33,
+      "name": "Web Development (General)",
+      "definition": "Questions about general web technologies, HTML, CSS, browser compatibility, XSS, or web server interactions not specific to a particular server."
+    },
+    {
+      "id": 34,
+      "name": "MATLAB",
+      "definition": "Questions about the MATLAB programming language, environment, or toolboxes."
+    },
+    {
+      "id": 35,
+      "name": "Bash Scripting",
+      "definition": "Questions about Bash shell scripting, commands, or syntax."
+    },
+    {
+      "id": 36,
+      "name": "Linux/Unix",
+      "definition": "Questions about general Linux or Unix operating system features, commands, or environment, not specific to Bash scripting."
+    },
+    {
+      "id": 37,
+      "name": "Google App Engine",
+      "definition": "Questions about the Google App Engine cloud computing platform."
+    },
+    {
+      "id": 38,
+      "name": "FastCGI",
+      "definition": "Questions about the FastCGI protocol or its implementation."
+    },
+    {
+      "id": 39,
+      "name": "ImageMagick",
+      "definition": "Questions about the ImageMagick software suite for image manipulation."
+    },
+    {
+      "id": 40,
+      "name": "XML",
+      "definition": "Questions specifically about XML parsing, structure, or related technologies, when not covered by a more specific category like AJAX or .NET."
+    },
+    {
+      "id": 41,
+      "name": "exiftool",
+      "definition": "Questions about the exiftool utility for reading and writing metadata."
+    }
+  ]
+}

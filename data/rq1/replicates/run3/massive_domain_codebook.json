@@ -1,0 +1,77 @@
+{
+  "bench": "massive_domain",
+  "run": 3,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Media Playback",
+      "definition": "Control and query of music, podcasts, audiobooks, radio, and video content."
+    },
+    {
+      "id": 2,
+      "name": "Communication",
+      "definition": "Sending, receiving, and managing emails, messages, and social media posts."
+    },
+    {
+      "id": 3,
+      "name": "Calendar and Reminders",
+      "definition": "Setting, checking, and managing alarms, reminders, and calendar events or meetings."
+    },
+    {
+      "id": 4,
+      "name": "Information Retrieval",
+      "definition": "Asking for general facts, definitions, calculations, recommendations, or current information."
+    },
+    {
+      "id": 5,
+      "name": "Weather",
+      "definition": "Querying current weather conditions or forecasts."
+    },
+    {
+      "id": 6,
+      "name": "News",
+      "definition": "Retrieving current news headlines or specific news topics."
+    },
+    {
+      "id": 7,
+      "name": "Financial Information",
+      "definition": "Querying stock prices, exchange rates, or other financial data."
+    },
+    {
+      "id": 8,
+      "name": "Smart Home Control",
+      "definition": "Controlling smart devices and appliances in a home environment, including general volume."
+    },
+    {
+      "id": 9,
+      "name": "List Management",
+      "definition": "Creating, adding to, removing from, or checking various types of lists."
+    },
+    {
+      "id": 10,
+      "name": "Travel and Transportation",
+      "definition": "Finding or booking tickets, schedules, or information related to travel."
+    },
+    {
+      "id": 11,
+      "name": "Food and Cooking",
+      "definition": "Asking for recipes, ordering food, or checking food delivery status."
+    },
+    {
+      "id": 12,
+      "name": "Local Search and Navigation",
+      "definition": "Finding places, getting directions, or checking local traffic."
+    },
+    {
+      "id": 13,
+      "name": "Assistant Capabilities and Identity",
+      "definition": "Questions about the assistant's own identity, capabilities, or general interaction."
+    },
+    {
+      "id": 14,
+      "name": "Contact Management",
+      "definition": "Retrieving or managing contact information."
+    }
+  ]
+}

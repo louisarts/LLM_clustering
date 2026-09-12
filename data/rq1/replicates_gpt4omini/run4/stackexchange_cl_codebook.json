@@ -1,0 +1,110 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Language and Linguistics",
+      "definition": "Questions related to language usage, grammar, and linguistics."
+    },
+    {
+      "id": 2,
+      "name": "Health and Medicine",
+      "definition": "Questions concerning health, medical conditions, and treatments."
+    },
+    {
+      "id": 3,
+      "name": "Technology and Software",
+      "definition": "Questions about software development, programming, and technology tools."
+    },
+    {
+      "id": 4,
+      "name": "Science and Mathematics",
+      "definition": "Questions related to scientific concepts, mathematical problems, and theories."
+    },
+    {
+      "id": 5,
+      "name": "Arts and Humanities",
+      "definition": "Questions about literature, philosophy, and cultural studies."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Geography",
+      "definition": "Questions about travel destinations, geography, and cultural experiences."
+    },
+    {
+      "id": 7,
+      "name": "Business and Finance",
+      "definition": "Questions related to business practices, finance, and economics."
+    },
+    {
+      "id": 8,
+      "name": "Food and Cooking",
+      "definition": "Questions about food preparation, recipes, and culinary techniques."
+    },
+    {
+      "id": 9,
+      "name": "Sports and Recreation",
+      "definition": "Questions about sports, games, and recreational activities."
+    },
+    {
+      "id": 10,
+      "name": "Home and Garden",
+      "definition": "Questions related to home improvement, gardening, and DIY projects."
+    },
+    {
+      "id": 11,
+      "name": "Parenting and Family",
+      "definition": "Questions about parenting, family dynamics, and child development."
+    },
+    {
+      "id": 12,
+      "name": "History and Politics",
+      "definition": "Questions about historical events, political theories, and government."
+    },
+    {
+      "id": 13,
+      "name": "Entertainment and Media",
+      "definition": "Questions about movies, music, and other forms of entertainment."
+    },
+    {
+      "id": 14,
+      "name": "Religion and Spirituality",
+      "definition": "Questions related to religious beliefs, practices, and spirituality."
+    },
+    {
+      "id": 15,
+      "name": "Education and Learning",
+      "definition": "Questions about educational methods, learning resources, and academic subjects."
+    },
+    {
+      "id": 16,
+      "name": "Computing and Networking",
+      "definition": "Questions about computer systems, networking, and internet technologies."
+    },
+    {
+      "id": 17,
+      "name": "Arts and Crafts",
+      "definition": "Questions about artistic techniques, crafts, and creative projects."
+    },
+    {
+      "id": 18,
+      "name": "Fashion and Beauty",
+      "definition": "Questions about fashion trends, beauty products, and personal grooming."
+    },
+    {
+      "id": 19,
+      "name": "Pets and Animals",
+      "definition": "Questions about pet care, animal behavior, and wildlife."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous",
+      "definition": "Questions that do not fit into the other specified categories."
+    }
+  ]
+}

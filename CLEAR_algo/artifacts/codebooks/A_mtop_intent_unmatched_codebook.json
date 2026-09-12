@@ -1,0 +1,72 @@
+[
+ {
+  "id": 1,
+  "name": "Weather",
+  "definition": "Requests for weather forecasts, conditions, or temperature."
+ },
+ {
+  "id": 2,
+  "name": "News",
+  "definition": "Requests for news, headlines, or current events information."
+ },
+ {
+  "id": 3,
+  "name": "People_Information",
+  "definition": "Queries about specific people, contacts, relationships, or availability."
+ },
+ {
+  "id": 4,
+  "name": "Recipe",
+  "definition": "Requests for recipes, ingredients, cooking instructions, or nutritional information."
+ },
+ {
+  "id": 5,
+  "name": "Events",
+  "definition": "Finding local events, activities, or things to do."
+ },
+ {
+  "id": 6,
+  "name": "Music",
+  "definition": "Playing, controlling, or querying music and audio."
+ },
+ {
+  "id": 7,
+  "name": "Messaging_Send",
+  "definition": "Sending messages, texts, or video messages to contacts."
+ },
+ {
+  "id": 8,
+  "name": "Messaging_Read",
+  "definition": "Checking for, reading, or viewing received messages."
+ },
+ {
+  "id": 9,
+  "name": "Call_Initiate",
+  "definition": "Starting a new voice or video call."
+ },
+ {
+  "id": 10,
+  "name": "Call_Manage",
+  "definition": "Managing ongoing calls, such as adding participants, hanging up, or checking caller ID."
+ },
+ {
+  "id": 11,
+  "name": "Reminder",
+  "definition": "Creating, deleting, modifying, or querying reminders."
+ },
+ {
+  "id": 12,
+  "name": "Alarm",
+  "definition": "Creating, controlling, or querying alarms."
+ },
+ {
+  "id": 13,
+  "name": "Timer",
+  "definition": "Creating, controlling, or querying timers."
+ },
+ {
+  "id": 14,
+  "name": "Calendar_Status",
+  "definition": "Checking schedule or updating user status or availability."
+ }
+]

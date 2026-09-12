@@ -1,0 +1,120 @@
+{
+  "bench": "stackoverflow20",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Spring",
+      "definition": "Questions related to the Spring framework"
+    },
+    {
+      "id": 2,
+      "name": "Oracle",
+      "definition": "Questions related to Oracle database"
+    },
+    {
+      "id": 3,
+      "name": "NSTextView",
+      "definition": "Questions related to NSTextView in Cocoa"
+    },
+    {
+      "id": 4,
+      "name": "JBoss jBPM",
+      "definition": "Questions related to JBoss jBPM"
+    },
+    {
+      "id": 5,
+      "name": "LINQ",
+      "definition": "Questions related to LINQ"
+    },
+    {
+      "id": 6,
+      "name": "WordPress",
+      "definition": "Questions related to WordPress"
+    },
+    {
+      "id": 7,
+      "name": "Hibernate",
+      "definition": "Questions related to Hibernate ORM"
+    },
+    {
+      "id": 8,
+      "name": "Ant-Ivy-Scala",
+      "definition": "Questions related to Ant, Ivy, and Scala"
+    },
+    {
+      "id": 9,
+      "name": "Subversion",
+      "definition": "Questions related to Subversion version control"
+    },
+    {
+      "id": 10,
+      "name": "Bash",
+      "definition": "Questions related to Bash scripting"
+    },
+    {
+      "id": 11,
+      "name": "Apache SSL",
+      "definition": "Questions related to Apache with SSL"
+    },
+    {
+      "id": 12,
+      "name": "Matlab",
+      "definition": "Questions related to Matlab programming"
+    },
+    {
+      "id": 13,
+      "name": "Drupal",
+      "definition": "Questions related to Drupal CMS"
+    },
+    {
+      "id": 14,
+      "name": "Scala",
+      "definition": "Questions related to Scala programming language"
+    },
+    {
+      "id": 15,
+      "name": "Objective-C",
+      "definition": "Questions related to Objective-C programming"
+    },
+    {
+      "id": 16,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel"
+    },
+    {
+      "id": 17,
+      "name": "AJAX",
+      "definition": "Questions related to AJAX technology"
+    },
+    {
+      "id": 18,
+      "name": "Cocoa",
+      "definition": "Questions related to Cocoa framework"
+    },
+    {
+      "id": 19,
+      "name": "Visual Studio",
+      "definition": "Questions related to Microsoft Visual Studio"
+    },
+    {
+      "id": 20,
+      "name": "SharePoint",
+      "definition": "Questions related to Microsoft SharePoint"
+    },
+    {
+      "id": 21,
+      "name": "GDB",
+      "definition": "Questions related to GNU Debugger"
+    },
+    {
+      "id": 22,
+      "name": "Magento",
+      "definition": "Questions related to Magento e-commerce platform"
+    }
+  ]
+}

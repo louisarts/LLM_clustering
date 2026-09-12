@@ -1,0 +1,82 @@
+{
+  "bench": "fewevent",
+  "run": 10,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Professional Role",
+      "definition": "A person's occupation, position, or title within an organization or field."
+    },
+    {
+      "id": 2,
+      "name": "Achievement/Award",
+      "definition": "Recognition for success, such as a medal, prize, or championship."
+    },
+    {
+      "id": 3,
+      "name": "Action/Process",
+      "definition": "A specific activity, event, or ongoing process."
+    },
+    {
+      "id": 4,
+      "name": "Relationship Status",
+      "definition": "A state of connection between individuals, often familial or marital."
+    },
+    {
+      "id": 5,
+      "name": "Product/Creation",
+      "definition": "A tangible item or artistic output."
+    },
+    {
+      "id": 6,
+      "name": "Location/Setting",
+      "definition": "A physical place or environment."
+    },
+    {
+      "id": 7,
+      "name": "Abstract Concept",
+      "definition": "An idea, quality, or state rather than a concrete object or action."
+    },
+    {
+      "id": 8,
+      "name": "Financial/Economic Term",
+      "definition": "Words related to money, commerce, or economic systems."
+    },
+    {
+      "id": 9,
+      "name": "Physical State/Condition",
+      "definition": "A bodily or health-related state."
+    },
+    {
+      "id": 10,
+      "name": "Communication/Expression",
+      "definition": "An act of conveying information or feelings."
+    },
+    {
+      "id": 11,
+      "name": "Group/Organization",
+      "definition": "A collection of individuals or entities working together."
+    },
+    {
+      "id": 12,
+      "name": "Departure/Cessation",
+      "definition": "The act of leaving or stopping something."
+    },
+    {
+      "id": 13,
+      "name": "Military/Command Term",
+      "definition": "Words related to military operations, leadership, or service."
+    },
+    {
+      "id": 14,
+      "name": "Legal/Political Term",
+      "definition": "Words related to law, government, or public policy."
+    },
+    {
+      "id": 15,
+      "name": "Typo/Unclear",
+      "definition": "The trigger word is a likely typo or its meaning is unclear in context."
+    }
+  ]
+}

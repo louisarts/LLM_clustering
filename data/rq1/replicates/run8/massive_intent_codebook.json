@@ -1,0 +1,107 @@
+{
+  "bench": "massive_intent",
+  "run": 8,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Get General Information",
+      "definition": "Retrieve facts, definitions, recipes, or general knowledge."
+    },
+    {
+      "id": 2,
+      "name": "Get News",
+      "definition": "Retrieve current events, headlines, or specific news topics."
+    },
+    {
+      "id": 3,
+      "name": "Get Weather Information",
+      "definition": "Retrieve current or forecasted weather conditions."
+    },
+    {
+      "id": 4,
+      "name": "Get Time or Date",
+      "definition": "Retrieve current time, date, or time zone information."
+    },
+    {
+      "id": 5,
+      "name": "Manage Calendar Events",
+      "definition": "Create, modify, delete, or inquire about personal calendar events or meetings."
+    },
+    {
+      "id": 6,
+      "name": "Manage Reminders",
+      "definition": "Set, modify, or inquire about personal reminders."
+    },
+    {
+      "id": 7,
+      "name": "Manage Alarms",
+      "definition": "Set, modify, delete, or inquire about alarms."
+    },
+    {
+      "id": 8,
+      "name": "Manage Email",
+      "definition": "Send, compose, reply to, or check emails."
+    },
+    {
+      "id": 9,
+      "name": "Manage Social Media Posts",
+      "definition": "Post, tweet, or check updates on social media platforms."
+    },
+    {
+      "id": 10,
+      "name": "Control Media Playback",
+      "definition": "Play, pause, skip, rate, or manage music, podcasts, or radio."
+    },
+    {
+      "id": 11,
+      "name": "Control Smart Devices",
+      "definition": "Turn on/off, adjust settings, or activate smart home devices."
+    },
+    {
+      "id": 12,
+      "name": "Get Navigation or Transportation",
+      "definition": "Find routes, traffic, book rides, or get public transport information."
+    },
+    {
+      "id": 13,
+      "name": "Manage Lists",
+      "definition": "Create, delete, add items to, or inquire about personal lists."
+    },
+    {
+      "id": 14,
+      "name": "Open Application or Content",
+      "definition": "Launch an application or open specific content within an app."
+    },
+    {
+      "id": 15,
+      "name": "Get Shopping or Product Information",
+      "definition": "Inquire about product prices, availability, or store information."
+    },
+    {
+      "id": 16,
+      "name": "Tell a Joke",
+      "definition": "Request a joke from the assistant."
+    },
+    {
+      "id": 17,
+      "name": "General Assistant Interaction",
+      "definition": "Utterances that are conversational, provide feedback, or ask meta-questions about the assistant's capabilities or status."
+    },
+    {
+      "id": 18,
+      "name": "Manage Contacts",
+      "definition": "Add, retrieve, or modify contact information."
+    },
+    {
+      "id": 19,
+      "name": "Perform Math Calculation",
+      "definition": "Request a mathematical calculation."
+    },
+    {
+      "id": 20,
+      "name": "File a Complaint",
+      "definition": "Express dissatisfaction or request assistance with a complaint."
+    }
+  ]
+}

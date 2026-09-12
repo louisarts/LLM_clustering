@@ -1,0 +1,117 @@
+[
+ {
+  "id": 1,
+  "name": "Alarm",
+  "definition": "Set, check, delete, or manage alarms and wake-up calls."
+ },
+ {
+  "id": 2,
+  "name": "Audio_Settings",
+  "definition": "Adjust volume, mute, or manage sound settings."
+ },
+ {
+  "id": 3,
+  "name": "Calendar",
+  "definition": "Schedule, check, modify, or delete events and meetings."
+ },
+ {
+  "id": 4,
+  "name": "Contacts",
+  "definition": "Add, find, or manage contact information."
+ },
+ {
+  "id": 5,
+  "name": "Email",
+  "definition": "Send, check, read, or manage emails."
+ },
+ {
+  "id": 6,
+  "name": "Events",
+  "definition": "Find information about local events, concerts, or exhibitions."
+ },
+ {
+  "id": 7,
+  "name": "Finance",
+  "definition": "Check stock prices, currency exchange rates, or financial data."
+ },
+ {
+  "id": 8,
+  "name": "Gaming",
+  "definition": "Launch or play games."
+ },
+ {
+  "id": 9,
+  "name": "General_Knowledge",
+  "definition": "Answer questions about facts, definitions, calculations, or general information."
+ },
+ {
+  "id": 10,
+  "name": "Jokes",
+  "definition": "Tell or find jokes."
+ },
+ {
+  "id": 11,
+  "name": "Lists",
+  "definition": "Create, add to, read, or delete to-do or shopping lists."
+ },
+ {
+  "id": 12,
+  "name": "Maps_Navigation",
+  "definition": "Find locations, get directions, check traffic, or search for nearby businesses."
+ },
+ {
+  "id": 13,
+  "name": "Movies_TV",
+  "definition": "Find information, recommendations, or details about movies and TV shows."
+ },
+ {
+  "id": 14,
+  "name": "Music_Audio",
+  "definition": "Play, control, or manage music, radio, podcasts, and audiobooks."
+ },
+ {
+  "id": 15,
+  "name": "News",
+  "definition": "Get news headlines, updates, or specific news topics."
+ },
+ {
+  "id": 16,
+  "name": "Recipes",
+  "definition": "Find recipes or cooking instructions."
+ },
+ {
+  "id": 17,
+  "name": "Reminders",
+  "definition": "Set, check, or manage reminders for tasks."
+ },
+ {
+  "id": 18,
+  "name": "Smart_Home",
+  "definition": "Control smart home devices like lights, appliances, and sockets."
+ },
+ {
+  "id": 19,
+  "name": "Small_Talk",
+  "definition": "Engage in chit-chat, greetings, or personal opinions."
+ },
+ {
+  "id": 20,
+  "name": "Social_Media",
+  "definition": "Post messages or updates to social media platforms."
+ },
+ {
+  "id": 21,
+  "name": "Time_Date",
+  "definition": "Ask for the current time or date in specific locations."
+ },
+ {
+  "id": 22,
+  "name": "Transportation",
+  "definition": "Book rides, check public transport schedules, or manage travel tickets."
+ },
+ {
+  "id": 23,
+  "name": "Weather",
+  "definition": "Check weather forecasts or conditions."
+ }
+]

@@ -1,0 +1,60 @@
+{
+  "bench": "arxiv_fine",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "quantum physics",
+      "definition": "Papers related to quantum mechanics, quantum dynamics, and quantum systems."
+    },
+    {
+      "id": 2,
+      "name": "finance",
+      "definition": "Papers related to financial markets, pricing, and derivatives."
+    },
+    {
+      "id": 3,
+      "name": "computer science",
+      "definition": "Papers related to computer science, algorithms, programming, and software development."
+    },
+    {
+      "id": 4,
+      "name": "plasma physics",
+      "definition": "Papers related to plasma physics, magneto-sonic solitons, and charged particles."
+    },
+    {
+      "id": 5,
+      "name": "materials science",
+      "definition": "Papers related to materials science, diffusion in solids, and crystal structures."
+    },
+    {
+      "id": 6,
+      "name": "machine learning",
+      "definition": "Papers related to machine learning algorithms, models, and applications."
+    },
+    {
+      "id": 7,
+      "name": "mathematics",
+      "definition": "Papers related to mathematical theories, proofs, and concepts."
+    },
+    {
+      "id": 8,
+      "name": "astronomy",
+      "definition": "Papers related to astronomy, celestial bodies, and space phenomena."
+    },
+    {
+      "id": 9,
+      "name": "networks",
+      "definition": "Papers related to network theory, analysis, and optimization."
+    },
+    {
+      "id": 10,
+      "name": "biology",
+      "definition": "Papers related to biological systems, genetics, and cellular processes."
+    }
+  ]
+}

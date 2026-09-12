@@ -1,0 +1,37 @@
+{
+  "bench": "snips",
+  "run": 8,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music Playback and Management",
+      "definition": "Requests to play music, songs, albums, artists, or genres, including adding tracks to playlists or specifying a music service."
+    },
+    {
+      "id": 2,
+      "name": "Restaurant and Dining Reservations",
+      "definition": "Requests to book a table or make a reservation at a restaurant, bar, or other dining establishment, often including details like number of people, location, or type of cuisine."
+    },
+    {
+      "id": 3,
+      "name": "Weather Information",
+      "definition": "Requests for current or future weather conditions, forecasts, or specific weather parameters like temperature or humidity, for a given location and time."
+    },
+    {
+      "id": 4,
+      "name": "Movie and TV Show Information",
+      "definition": "Requests to find information about movies or TV shows, including showtimes, schedules, trailers, or where to watch them."
+    },
+    {
+      "id": 5,
+      "name": "Content Rating",
+      "definition": "Requests to rate a piece of content such as a book, album, movie, or essay, typically on a numerical or star scale."
+    },
+    {
+      "id": 6,
+      "name": "General Search and Information Retrieval",
+      "definition": "Requests to find general information about a specific item, such as a painting, book, game, or product, without implying playback, booking, or rating."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "bench": "fewevent",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "fresh",
+  "clip_chars": 150,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Minister",
+      "definition": "Documents related to government officials holding a ministerial position."
+    },
+    {
+      "id": 2,
+      "name": "Olympics",
+      "definition": "Documents related to the Summer or Winter Olympic Games."
+    },
+    {
+      "id": 3,
+      "name": "Battle",
+      "definition": "Documents related to military battles or conflicts."
+    },
+    {
+      "id": 4,
+      "name": "Violence",
+      "definition": "Documents related to violent protests or events."
+    },
+    {
+      "id": 5,
+      "name": "Signing",
+      "definition": "Documents related to signing or sealing agreements."
+    },
+    {
+      "id": 6,
+      "name": "Director",
+      "definition": "Documents related to individuals appointed as directors."
+    },
+    {
+      "id": 7,
+      "name": "Sailor",
+      "definition": "Documents related to individuals serving in the navy."
+    },
+    {
+      "id": 8,
+      "name": "Professor",
+      "definition": "Documents related to individuals holding a professorship."
+    },
+    {
+      "id": 9,
+      "name": "Music",
+      "definition": "Documents related to music, musicians, or music videos."
+    },
+    {
+      "id": 10,
+      "name": "Husband",
+      "definition": "Documents related to individuals who are husbands."
+    },
+    {
+      "id": 11,
+      "name": "Elected",
+      "definition": "Documents related to elected officials or elections."
+    },
+    {
+      "id": 12,
+      "name": "Soldier",
+      "definition": "Documents related to individuals serving in the military."
+    },
+    {
+      "id": 13,
+      "name": "Chief",
+      "definition": "Documents related to individuals holding a chief position."
+    },
+    {
+      "id": 14,
+      "name": "Advance",
+      "definition": "Documents related to military advances or progress."
+    },
+    {
+      "id": 15,
+      "name": "Film",
+      "definition": "Documents related to movies, films, or documentaries."
+    },
+    {
+      "id": 16,
+      "name": "Sermon",
+      "definition": "Documents related to religious sermons or speeches."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "bench": "massive_intent",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or future weather information."
+    },
+    {
+      "id": 2,
+      "name": "Alarm Management",
+      "definition": "Commands to set, disable, or modify alarms."
+    },
+    {
+      "id": 3,
+      "name": "Music Playback",
+      "definition": "Requests to play, stop, or manage music tracks or playlists."
+    },
+    {
+      "id": 4,
+      "name": "Podcast Playback",
+      "definition": "Requests to play, stop, or manage podcasts."
+    },
+    {
+      "id": 5,
+      "name": "Radio Playback",
+      "definition": "Requests to play, stop, or manage radio stations."
+    },
+    {
+      "id": 6,
+      "name": "Calendar Management",
+      "definition": "Commands to add, remove, or modify calendar events."
+    },
+    {
+      "id": 7,
+      "name": "Email Management",
+      "definition": "Requests to send, read, or manage emails."
+    },
+    {
+      "id": 8,
+      "name": "Reminder Management",
+      "definition": "Commands to set, modify, or delete reminders."
+    },
+    {
+      "id": 9,
+      "name": "Lighting Control",
+      "definition": "Commands to change lighting settings or colors."
+    },
+    {
+      "id": 10,
+      "name": "News Inquiry",
+      "definition": "Requests for current news or specific news topics."
+    },
+    {
+      "id": 11,
+      "name": "Traffic Inquiry",
+      "definition": "Requests for current traffic conditions or updates."
+    },
+    {
+      "id": 12,
+      "name": "Navigation and Location",
+      "definition": "Requests for directions, nearby places, or location-based information."
+    },
+    {
+      "id": 13,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions or recipe information."
+    },
+    {
+      "id": 14,
+      "name": "Jokes and Humor",
+      "definition": "Requests for jokes or humorous content."
+    },
+    {
+      "id": 15,
+      "name": "General Knowledge Inquiry",
+      "definition": "Requests for factual information or definitions."
+    },
+    {
+      "id": 16,
+      "name": "Social Media Interaction",
+      "definition": "Commands to interact with social media platforms."
+    },
+    {
+      "id": 17,
+      "name": "Shopping and Orders",
+      "definition": "Requests to order food, products, or manage shopping lists."
+    },
+    {
+      "id": 18,
+      "name": "Time Inquiry",
+      "definition": "Requests for the current time or time in different locations."
+    },
+    {
+      "id": 19,
+      "name": "Game Interaction",
+      "definition": "Requests to play or manage games."
+    },
+    {
+      "id": 20,
+      "name": "Contact Management",
+      "definition": "Commands to add, modify, or retrieve contact information."
+    },
+    {
+      "id": 21,
+      "name": "Exchange Rate Inquiry",
+      "definition": "Requests for currency exchange rates."
+    },
+    {
+      "id": 22,
+      "name": "Event and Activity Inquiry",
+      "definition": "Requests for information about events or activities."
+    },
+    {
+      "id": 23,
+      "name": "Device Control",
+      "definition": "Commands to control smart devices or appliances."
+    },
+    {
+      "id": 24,
+      "name": "Transportation Booking",
+      "definition": "Requests to book or inquire about transportation services."
+    },
+    {
+      "id": 25,
+      "name": "Opinion and Feedback",
+      "definition": "Requests for opinions or feedback on various topics."
+    }
+  ]
+}

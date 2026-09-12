@@ -1,0 +1,60 @@
+{
+  "bench": "clinc150",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Reminders",
+      "definition": "User wants to set or receive reminders for various tasks or events"
+    },
+    {
+      "id": 2,
+      "name": "Financial Inquiries",
+      "definition": "User wants information about financial accounts, transactions, or applications"
+    },
+    {
+      "id": 3,
+      "name": "Location Services",
+      "definition": "User wants assistance with finding locations or directions"
+    },
+    {
+      "id": 4,
+      "name": "Travel Assistance",
+      "definition": "User needs help with travel-related tasks such as booking, reservations, or transportation"
+    },
+    {
+      "id": 5,
+      "name": "Information Retrieval",
+      "definition": "User seeks information on various topics or queries"
+    },
+    {
+      "id": 6,
+      "name": "Technical Support",
+      "definition": "User needs help with technical issues or troubleshooting"
+    },
+    {
+      "id": 7,
+      "name": "Entertainment Requests",
+      "definition": "User wants entertainment-related information or activities"
+    },
+    {
+      "id": 8,
+      "name": "Health and Wellness",
+      "definition": "User seeks health-related information or advice"
+    },
+    {
+      "id": 9,
+      "name": "Communication Requests",
+      "definition": "User wants to make calls, send messages, or communicate with others"
+    },
+    {
+      "id": 10,
+      "name": "Utility Management",
+      "definition": "User needs assistance with managing utilities or household tasks"
+    }
+  ]
+}

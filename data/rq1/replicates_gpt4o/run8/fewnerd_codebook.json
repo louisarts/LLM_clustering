@@ -1,0 +1,160 @@
+{
+  "bench": "fewnerd",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Family",
+      "definition": "A group of related individuals, typically sharing a common ancestor or lineage."
+    },
+    {
+      "id": 2,
+      "name": "Fictional Character",
+      "definition": "A character originating from a work of fiction, such as a book, movie, or television show."
+    },
+    {
+      "id": 3,
+      "name": "Person",
+      "definition": "An individual human being, either historical or contemporary."
+    },
+    {
+      "id": 4,
+      "name": "Organization",
+      "definition": "A group of people structured and managed to meet a need or pursue collective goals, such as companies, institutions, or associations."
+    },
+    {
+      "id": 5,
+      "name": "Location",
+      "definition": "A specific place or position, which can be a city, country, or geographical feature."
+    },
+    {
+      "id": 6,
+      "name": "Mythological Entity",
+      "definition": "A being or character from mythology or folklore."
+    },
+    {
+      "id": 7,
+      "name": "Biological Entity",
+      "definition": "A living organism or a part of a living organism, such as a species or protein."
+    },
+    {
+      "id": 8,
+      "name": "Title",
+      "definition": "A name or designation given to a work of art, literature, or media."
+    },
+    {
+      "id": 9,
+      "name": "Event",
+      "definition": "An occurrence or happening, often of historical or cultural significance."
+    },
+    {
+      "id": 10,
+      "name": "Ethnicity or Nationality",
+      "definition": "A group of people identified by shared cultural, linguistic, or ancestral traits."
+    },
+    {
+      "id": 11,
+      "name": "Product or Brand",
+      "definition": "A manufactured item or a brand name under which products are sold."
+    },
+    {
+      "id": 12,
+      "name": "Concept",
+      "definition": "An abstract idea or a general notion."
+    },
+    {
+      "id": 13,
+      "name": "Award",
+      "definition": "A recognition or honor given for achievement in a particular field."
+    },
+    {
+      "id": 14,
+      "name": "Language",
+      "definition": "A system of communication used by a particular community or country."
+    },
+    {
+      "id": 15,
+      "name": "Vehicle",
+      "definition": "A means of transportation, such as a car, aircraft, or ship."
+    },
+    {
+      "id": 16,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 17,
+      "name": "Disease",
+      "definition": "A disorder or illness affecting the body or mind."
+    },
+    {
+      "id": 18,
+      "name": "Chemical or Substance",
+      "definition": "A material with a distinct chemical composition, such as a drug or element."
+    },
+    {
+      "id": 19,
+      "name": "Sport or Competition",
+      "definition": "An athletic activity or contest involving physical exertion and skill."
+    },
+    {
+      "id": 20,
+      "name": "Historical Figure",
+      "definition": "A person who has had a significant impact on history."
+    },
+    {
+      "id": 21,
+      "name": "Media Outlet",
+      "definition": "An organization that disseminates news or entertainment content."
+    },
+    {
+      "id": 22,
+      "name": "Structure",
+      "definition": "A building or construction, such as a stadium or monument."
+    },
+    {
+      "id": 23,
+      "name": "Food or Drink",
+      "definition": "A consumable item, either solid or liquid, intended for human consumption."
+    },
+    {
+      "id": 24,
+      "name": "Natural Feature",
+      "definition": "A naturally occurring geographical or environmental feature."
+    },
+    {
+      "id": 25,
+      "name": "Political Entity",
+      "definition": "A government or political organization, such as a party or coalition."
+    },
+    {
+      "id": 26,
+      "name": "Military Unit",
+      "definition": "A group or formation within an armed force."
+    },
+    {
+      "id": 27,
+      "name": "Artistic Work",
+      "definition": "A creation in the field of art, such as a painting, sculpture, or musical composition."
+    },
+    {
+      "id": 28,
+      "name": "Technology",
+      "definition": "A tool, system, or method used to solve problems or perform tasks."
+    },
+    {
+      "id": 29,
+      "name": "Religious Entity",
+      "definition": "A group or concept associated with religious beliefs or practices."
+    },
+    {
+      "id": 30,
+      "name": "Legal Entity",
+      "definition": "An organization or individual recognized by law as having rights and responsibilities."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+[
+ {
+  "id": 1,
+  "name": "Music Playback",
+  "definition": "Requests to play specific songs, albums, or playlists."
+ },
+ {
+  "id": 2,
+  "name": "Restaurant Booking",
+  "definition": "Requests to book tables at restaurants."
+ },
+ {
+  "id": 3,
+  "name": "Weather Inquiry",
+  "definition": "Requests for current or future weather forecasts."
+ },
+ {
+  "id": 4,
+  "name": "Movie Showtimes",
+  "definition": "Requests for information about movie schedules and showtimes."
+ },
+ {
+  "id": 5,
+  "name": "Rating",
+  "definition": "Requests to rate books, movies, or other media."
+ },
+ {
+  "id": 6,
+  "name": "Find Item",
+  "definition": "Requests to locate specific items, such as books, games, or soundtracks."
+ },
+ {
+  "id": 7,
+  "name": "Add to Playlist",
+  "definition": "Requests to add songs or albums to specific playlists."
+ },
+ {
+  "id": 8,
+  "name": "Reservation Inquiry",
+  "definition": "Requests for reservations at various venues."
+ },
+ {
+  "id": 9,
+  "name": "TV Show Inquiry",
+  "definition": "Requests for information about TV shows or series."
+ },
+ {
+  "id": 10,
+  "name": "Cinema Location",
+  "definition": "Requests to find the nearest cinema or movie house."
+ },
+ {
+  "id": 11,
+  "name": "Event Scheduling",
+  "definition": "Requests to find or schedule events, such as movie times or restaurant visits."
+ },
+ {
+  "id": 12,
+  "name": "Art and Literature Inquiry",
+  "definition": "Requests to find specific artworks, books, or literary works."
+ },
+ {
+  "id": 13,
+  "name": "Game Inquiry",
+  "definition": "Requests to find or play specific games."
+ },
+ {
+  "id": 14,
+  "name": "Travel and Location Inquiry",
+  "definition": "Requests for information about travel or specific locations."
+ },
+ {
+  "id": 15,
+  "name": "Playlist Management",
+  "definition": "Requests to manage or edit playlists."
+ }
+]

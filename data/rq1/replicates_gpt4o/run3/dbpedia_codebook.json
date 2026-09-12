@@ -1,0 +1,260 @@
+{
+  "bench": "dbpedia",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, including artists, politicians, athletes, and other notable figures."
+    },
+    {
+      "id": 2,
+      "name": "Company",
+      "definition": "A business or organization that produces goods or provides services."
+    },
+    {
+      "id": 3,
+      "name": "Plant",
+      "definition": "A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses, typically growing in a permanent site."
+    },
+    {
+      "id": 4,
+      "name": "Animal",
+      "definition": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system and able to respond rapidly to stimuli."
+    },
+    {
+      "id": 5,
+      "name": "Film",
+      "definition": "A motion picture or movie, including documentaries and feature films."
+    },
+    {
+      "id": 6,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers."
+    },
+    {
+      "id": 7,
+      "name": "Music Album",
+      "definition": "A collection of audio recordings issued as a single item on CD, record, or another medium."
+    },
+    {
+      "id": 8,
+      "name": "Song",
+      "definition": "A short piece of music with words that are sung."
+    },
+    {
+      "id": 9,
+      "name": "Village",
+      "definition": "A small community or group of houses in a rural area, larger than a hamlet and usually smaller than a town."
+    },
+    {
+      "id": 10,
+      "name": "City",
+      "definition": "A large town or a significant urban area."
+    },
+    {
+      "id": 11,
+      "name": "River",
+      "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another river."
+    },
+    {
+      "id": 12,
+      "name": "Mountain",
+      "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level."
+    },
+    {
+      "id": 13,
+      "name": "Lake",
+      "definition": "A large body of water surrounded by land."
+    },
+    {
+      "id": 14,
+      "name": "Building",
+      "definition": "A structure with a roof and walls, such as a house, school, or factory."
+    },
+    {
+      "id": 15,
+      "name": "School",
+      "definition": "An institution for educating children or a place where people go to learn a particular subject."
+    },
+    {
+      "id": 16,
+      "name": "University",
+      "definition": "An institution of higher education and research which awards academic degrees in various academic disciplines."
+    },
+    {
+      "id": 17,
+      "name": "Historical Event",
+      "definition": "A significant occurrence or happening in history."
+    },
+    {
+      "id": 18,
+      "name": "Vehicle",
+      "definition": "A thing used for transporting people or goods, especially on land, such as a car, truck, or cart."
+    },
+    {
+      "id": 19,
+      "name": "Ship",
+      "definition": "A large watercraft that travels the world's oceans and other sufficiently deep waterways, carrying passengers or goods."
+    },
+    {
+      "id": 20,
+      "name": "Aircraft",
+      "definition": "A vehicle that is able to fly by gaining support from the air, or in general, the atmosphere of a planet."
+    },
+    {
+      "id": 21,
+      "name": "Organization",
+      "definition": "An organized group of people with a particular purpose, such as a business or government department."
+    },
+    {
+      "id": 22,
+      "name": "Journal",
+      "definition": "A newspaper or magazine that deals with a particular subject or professional activity."
+    },
+    {
+      "id": 23,
+      "name": "Magazine",
+      "definition": "A periodical publication containing articles and illustrations, often on a particular subject or aimed at a particular readership."
+    },
+    {
+      "id": 24,
+      "name": "Newspaper",
+      "definition": "A printed publication (usually issued daily or weekly) consisting of folded unstapled sheets and containing news, articles, advertisements, and correspondence."
+    },
+    {
+      "id": 25,
+      "name": "Sport",
+      "definition": "An activity involving physical exertion and skill in which an individual or team competes against another or others for entertainment."
+    },
+    {
+      "id": 26,
+      "name": "Game",
+      "definition": "A form of play or sport, especially a competitive one played according to rules and decided by skill, strength, or luck."
+    },
+    {
+      "id": 27,
+      "name": "Art",
+      "definition": "The expression or application of human creative skill and imagination, typically in a visual form such as painting or sculpture."
+    },
+    {
+      "id": 28,
+      "name": "Technology",
+      "definition": "The application of scientific knowledge for practical purposes, especially in industry."
+    },
+    {
+      "id": 29,
+      "name": "Government",
+      "definition": "The governing body of a nation, state, or community."
+    },
+    {
+      "id": 30,
+      "name": "Religion",
+      "definition": "A particular system of faith and worship."
+    },
+    {
+      "id": 31,
+      "name": "Mythology",
+      "definition": "A collection of myths, especially one belonging to a particular religious or cultural tradition."
+    },
+    {
+      "id": 32,
+      "name": "Science",
+      "definition": "The intellectual and practical activity encompassing the systematic study of the structure and behavior of the physical and natural world through observation and experiment."
+    },
+    {
+      "id": 33,
+      "name": "Animal Species",
+      "definition": "A group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding."
+    },
+    {
+      "id": 34,
+      "name": "Plant Species",
+      "definition": "A group of plants that are similar and can interbreed."
+    },
+    {
+      "id": 35,
+      "name": "Insect",
+      "definition": "A small arthropod animal that has six legs and generally one or two pairs of wings."
+    },
+    {
+      "id": 36,
+      "name": "Bird",
+      "definition": "A warm-blooded egg-laying vertebrate animal distinguished by the possession of feathers, wings, and a beak and (typically) by being able to fly."
+    },
+    {
+      "id": 37,
+      "name": "Reptile",
+      "definition": "A cold-blooded, egg-laying vertebrate of a class that includes snakes, lizards, crocodiles, turtles, and tortoises."
+    },
+    {
+      "id": 38,
+      "name": "Amphibian",
+      "definition": "A cold-blooded vertebrate animal of a class that comprises the frogs, toads, newts, and salamanders."
+    },
+    {
+      "id": 39,
+      "name": "Fish",
+      "definition": "A limbless cold-blooded vertebrate animal with gills and fins living wholly in water."
+    },
+    {
+      "id": 40,
+      "name": "Mammal",
+      "definition": "A warm-blooded vertebrate animal of a class that is distinguished by the possession of hair or fur, the secretion of milk by females for the nourishment of the young, and (typically) the birth of live young."
+    },
+    {
+      "id": 41,
+      "name": "Invertebrate",
+      "definition": "An animal lacking a backbone, such as an arthropod, mollusk, annelid, coelenterate, etc."
+    },
+    {
+      "id": 42,
+      "name": "Fungus",
+      "definition": "Any of a group of spore-producing organisms feeding on organic matter, including molds, yeast, mushrooms, and toadstools."
+    },
+    {
+      "id": 43,
+      "name": "Mineral",
+      "definition": "A solid inorganic substance of natural occurrence."
+    },
+    {
+      "id": 44,
+      "name": "Chemical",
+      "definition": "A compound or substance that has been purified or prepared, especially artificially."
+    },
+    {
+      "id": 45,
+      "name": "Astronomical Object",
+      "definition": "A naturally occurring physical entity, association, or structure that exists in the observable universe."
+    },
+    {
+      "id": 46,
+      "name": "Event",
+      "definition": "A thing that happens, especially one of importance."
+    },
+    {
+      "id": 47,
+      "name": "Festival",
+      "definition": "A day or period of celebration, typically for religious reasons."
+    },
+    {
+      "id": 48,
+      "name": "Holiday",
+      "definition": "A day of festivity or recreation when no work is done."
+    },
+    {
+      "id": 49,
+      "name": "Language",
+      "definition": "The method of human communication, either spoken or written, consisting of the use of words in a structured and conventional way."
+    },
+    {
+      "id": 50,
+      "name": "Cuisine",
+      "definition": "A style or method of cooking, especially as characteristic of a particular country, region, or establishment."
+    }
+  ]
+}

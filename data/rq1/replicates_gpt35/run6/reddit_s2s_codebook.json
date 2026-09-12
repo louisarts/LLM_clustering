@@ -1,0 +1,510 @@
+{
+  "bench": "reddit_s2s",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Baking",
+      "definition": "Posts related to baking, recipes, and baking techniques"
+    },
+    {
+      "id": 2,
+      "name": "Literature",
+      "definition": "Posts related to literature, authors, and book discussions"
+    },
+    {
+      "id": 3,
+      "name": "Local Information",
+      "definition": "Posts seeking or providing local information about a specific city or region"
+    },
+    {
+      "id": 4,
+      "name": "Nature",
+      "definition": "Posts related to nature, animals, and wildlife"
+    },
+    {
+      "id": 5,
+      "name": "Pets",
+      "definition": "Posts related to pets, pet care, and pet behavior"
+    },
+    {
+      "id": 6,
+      "name": "Comics",
+      "definition": "Posts related to comic books, comic characters, and crossovers"
+    },
+    {
+      "id": 7,
+      "name": "Web Development",
+      "definition": "Posts related to website development, feedback, and restructuring"
+    },
+    {
+      "id": 8,
+      "name": "Economics",
+      "definition": "Posts related to economic trends, prices, and inflation"
+    },
+    {
+      "id": 9,
+      "name": "Literature Identification",
+      "definition": "Posts seeking help in identifying or recalling literary works"
+    },
+    {
+      "id": 10,
+      "name": "Anime",
+      "definition": "Posts related to anime series, episodes, and recommendations"
+    },
+    {
+      "id": 11,
+      "name": "Astrology",
+      "definition": "Posts related to astrology, zodiac signs, and horoscopes"
+    },
+    {
+      "id": 12,
+      "name": "Education",
+      "definition": "Posts related to educational pursuits, majors, and career advice"
+    },
+    {
+      "id": 13,
+      "name": "Housing",
+      "definition": "Posts related to housing affordability, safety, and availability"
+    },
+    {
+      "id": 14,
+      "name": "Spam",
+      "definition": "Posts containing spam or irrelevant content"
+    },
+    {
+      "id": 15,
+      "name": "Cycling",
+      "definition": "Posts related to cycling, equipment, and safety measures"
+    },
+    {
+      "id": 16,
+      "name": "Community Engagement",
+      "definition": "Posts seeking input or engagement from the community"
+    },
+    {
+      "id": 17,
+      "name": "Entertainment",
+      "definition": "Posts related to entertainment, characters, and series"
+    },
+    {
+      "id": 18,
+      "name": "Travel",
+      "definition": "Posts seeking travel recommendations or information about specific locations"
+    },
+    {
+      "id": 19,
+      "name": "Business",
+      "definition": "Posts related to business practices, ROI, and marketing strategies"
+    },
+    {
+      "id": 20,
+      "name": "Chemistry",
+      "definition": "Posts related to chemical compounds, solutions, and experiments"
+    },
+    {
+      "id": 21,
+      "name": "Behavioral Issues",
+      "definition": "Posts seeking advice on dealing with behavioral problems"
+    },
+    {
+      "id": 22,
+      "name": "Technology",
+      "definition": "Posts related to technology, gadgets, and device performance"
+    },
+    {
+      "id": 23,
+      "name": "Parenting",
+      "definition": "Posts related to parenting challenges, support, and advice"
+    },
+    {
+      "id": 24,
+      "name": "Art",
+      "definition": "Posts related to art, artists, and creative works"
+    },
+    {
+      "id": 25,
+      "name": "Legal Advice",
+      "definition": "Posts seeking legal advice or information"
+    },
+    {
+      "id": 26,
+      "name": "Finance",
+      "definition": "Posts related to financial matters, investments, and fundraising"
+    },
+    {
+      "id": 27,
+      "name": "Obituary",
+      "definition": "Posts commemorating the passing of an individual"
+    },
+    {
+      "id": 28,
+      "name": "Online Shopping",
+      "definition": "Posts related to online shopping experiences and reviews"
+    },
+    {
+      "id": 29,
+      "name": "DIY",
+      "definition": "Posts related to do-it-yourself projects, tutorials, and demonstrations"
+    },
+    {
+      "id": 30,
+      "name": "Personal Story",
+      "definition": "Posts sharing personal experiences or reflections"
+    },
+    {
+      "id": 31,
+      "name": "Karma Farming",
+      "definition": "Posts seeking upvotes or karma points"
+    },
+    {
+      "id": 32,
+      "name": "Academic Help",
+      "definition": "Posts seeking assistance with academic assignments or projects"
+    },
+    {
+      "id": 33,
+      "name": "Weather",
+      "definition": "Posts related to weather conditions, phenomena, and effects"
+    },
+    {
+      "id": 34,
+      "name": "Public Transportation",
+      "definition": "Posts related to public transportation systems and experiences"
+    },
+    {
+      "id": 35,
+      "name": "Science",
+      "definition": "Posts related to scientific research, discoveries, and experiments"
+    },
+    {
+      "id": 36,
+      "name": "Writing Tips",
+      "definition": "Posts offering tips and advice on writing for public relations"
+    },
+    {
+      "id": 37,
+      "name": "Social Issues",
+      "definition": "Posts addressing social issues, refugee crises, and humanitarian concerns"
+    },
+    {
+      "id": 38,
+      "name": "Urban Development",
+      "definition": "Posts discussing urban planning, neighborhood trends, and city transformations"
+    },
+    {
+      "id": 39,
+      "name": "Legal Awareness",
+      "definition": "Posts highlighting lesser-known laws or legal implications"
+    },
+    {
+      "id": 40,
+      "name": "Mystery Solved",
+      "definition": "Posts revealing the resolution to a mystery or puzzle"
+    },
+    {
+      "id": 41,
+      "name": "Aviation",
+      "definition": "Posts related to aviation news, incidents, and aircraft operations"
+    },
+    {
+      "id": 42,
+      "name": "Cultural Analysis",
+      "definition": "Posts analyzing cultural aspects, traditions, and practices"
+    },
+    {
+      "id": 43,
+      "name": "Political Commentary",
+      "definition": "Posts offering political commentary, opinions, or critiques"
+    },
+    {
+      "id": 44,
+      "name": "Pet Appreciation",
+      "definition": "Posts celebrating pets, animals, and their endearing qualities"
+    },
+    {
+      "id": 45,
+      "name": "Personal Health",
+      "definition": "Posts seeking advice or information on personal health issues"
+    },
+    {
+      "id": 46,
+      "name": "Personal Growth",
+      "definition": "Posts seeking guidance on personal development and self-improvement"
+    },
+    {
+      "id": 47,
+      "name": "Music Promotion",
+      "definition": "Posts promoting music performances, albums, or artists"
+    },
+    {
+      "id": 48,
+      "name": "Travel Experience",
+      "definition": "Posts sharing travel experiences, recommendations, or insights"
+    },
+    {
+      "id": 49,
+      "name": "Historical Analysis",
+      "definition": "Posts analyzing historical events, figures, or policies"
+    },
+    {
+      "id": 50,
+      "name": "Food Review",
+      "definition": "Posts reviewing food products, restaurants, or culinary experiences"
+    },
+    {
+      "id": 51,
+      "name": "Labor Rights",
+      "definition": "Posts advocating for workers' rights, movements, or achievements"
+    },
+    {
+      "id": 52,
+      "name": "Law Enforcement",
+      "definition": "Posts discussing law enforcement actions, incidents, or policies"
+    },
+    {
+      "id": 53,
+      "name": "Career Advice",
+      "definition": "Posts seeking advice on career decisions, job transitions, or opportunities"
+    },
+    {
+      "id": 54,
+      "name": "Spiritual Practices",
+      "definition": "Posts related to spiritual practices, mantras, and beliefs"
+    },
+    {
+      "id": 55,
+      "name": "Fundraising",
+      "definition": "Posts seeking support or donations for specific causes or projects"
+    },
+    {
+      "id": 56,
+      "name": "Memorial",
+      "definition": "Posts commemorating the memory of a deceased individual"
+    },
+    {
+      "id": 57,
+      "name": "Art Sale",
+      "definition": "Posts promoting the sale or exhibition of artistic creations"
+    },
+    {
+      "id": 58,
+      "name": "Artistic Creation",
+      "definition": "Posts showcasing artistic creations, designs, or projects"
+    },
+    {
+      "id": 59,
+      "name": "Software Comparison",
+      "definition": "Posts comparing software programs, tools, or applications"
+    },
+    {
+      "id": 60,
+      "name": "Environmental News",
+      "definition": "Posts sharing news or updates on environmental issues or initiatives"
+    },
+    {
+      "id": 61,
+      "name": "Coffee Industry",
+      "definition": "Posts discussing coffee brewing methods, brands, and certifications"
+    },
+    {
+      "id": 62,
+      "name": "Social Media",
+      "definition": "Posts discussing social media branding, strategies, and trends"
+    },
+    {
+      "id": 63,
+      "name": "Technology Review",
+      "definition": "Posts reviewing technology products, features, or performance"
+    },
+    {
+      "id": 64,
+      "name": "Aerospace Engineering",
+      "definition": "Posts related to aerospace engineering, aircraft components, and maintenance"
+    },
+    {
+      "id": 65,
+      "name": "Online Shopping Deals",
+      "definition": "Posts sharing promotional codes, discounts, or deals for online shopping"
+    },
+    {
+      "id": 66,
+      "name": "Automotive Accessories",
+      "definition": "Posts promoting or discussing automotive accessories and parts"
+    },
+    {
+      "id": 67,
+      "name": "Personal Reflection",
+      "definition": "Posts reflecting on personal experiences, emotions, or challenges"
+    },
+    {
+      "id": 68,
+      "name": "Coin Collecting",
+      "definition": "Posts discussing coin collecting, numismatics, and rare finds"
+    },
+    {
+      "id": 69,
+      "name": "Anime Preferences",
+      "definition": "Posts seeking opinions on anime series, genres, or adaptations"
+    },
+    {
+      "id": 70,
+      "name": "Animal Care",
+      "definition": "Posts discussing animal care, rescue efforts, and rehabilitation stories"
+    },
+    {
+      "id": 71,
+      "name": "Career Change",
+      "definition": "Posts seeking advice on career transitions, job satisfaction, or professional growth"
+    },
+    {
+      "id": 72,
+      "name": "Aging Process",
+      "definition": "Posts discussing the effects of aging on physical appearance or health"
+    },
+    {
+      "id": 73,
+      "name": "College Life",
+      "definition": "Posts reflecting on college experiences, challenges, or decisions"
+    },
+    {
+      "id": 74,
+      "name": "Animal Rescue",
+      "definition": "Posts sharing stories of animal rescues, adoptions, or care initiatives"
+    },
+    {
+      "id": 75,
+      "name": "Job Market",
+      "definition": "Posts discussing companies hiring trends, job opportunities, or career fields"
+    },
+    {
+      "id": 76,
+      "name": "Internet Humor",
+      "definition": "Posts humorously personifying internet browsers or technologies"
+    },
+    {
+      "id": 77,
+      "name": "Community Suggestions",
+      "definition": "Posts suggesting new features, options, or improvements for the community"
+    },
+    {
+      "id": 78,
+      "name": "Literary Classics",
+      "definition": "Posts discussing classic literary works, authors, or genres"
+    },
+    {
+      "id": 79,
+      "name": "Astrological Beliefs",
+      "definition": "Posts sharing astrological beliefs, quotes, or interpretations"
+    },
+    {
+      "id": 80,
+      "name": "Travel Experience",
+      "definition": "Posts sharing travel experiences, recommendations, or insights"
+    },
+    {
+      "id": 81,
+      "name": "Photography",
+      "definition": "Posts sharing photography experiments, equipment tests, or results"
+    },
+    {
+      "id": 82,
+      "name": "Artistic Creation",
+      "definition": "Posts showcasing artistic creations, designs, or projects"
+    },
+    {
+      "id": 83,
+      "name": "Internet Sharing",
+      "definition": "Posts seeking or sharing internet resources, connections, or services"
+    },
+    {
+      "id": 84,
+      "name": "LGBTQ+ Events",
+      "definition": "Posts promoting LGBTQ+ events, gatherings, or celebrations"
+    },
+    {
+      "id": 85,
+      "name": "Product Review",
+      "definition": "Posts reviewing products, gadgets, or services for value and quality"
+    },
+    {
+      "id": 86,
+      "name": "Animated Films",
+      "definition": "Posts discussing animated films, series, or characters"
+    },
+    {
+      "id": 87,
+      "name": "Online Shopping Discounts",
+      "definition": "Posts sharing promotional codes, discounts, or deals for online shopping"
+    },
+    {
+      "id": 88,
+      "name": "Airsoft",
+      "definition": "Posts discussing airsoft equipment, gameplay, or community interactions"
+    },
+    {
+      "id": 89,
+      "name": "Chemical Experiments",
+      "definition": "Posts sharing chemical experiments, compounds, or reactions"
+    },
+    {
+      "id": 90,
+      "name": "Music Performance",
+      "definition": "Posts promoting or discussing music performances, concerts, or artists"
+    },
+    {
+      "id": 91,
+      "name": "Coffee Varieties",
+      "definition": "Posts discussing different coffee varieties, origins, and flavors"
+    },
+    {
+      "id": 92,
+      "name": "Family Support",
+      "definition": "Posts appreciating family members, siblings, or supportive relationships"
+    },
+    {
+      "id": 93,
+      "name": "Tailoring Services",
+      "definition": "Posts seeking or recommending tailoring services for clothing alterations"
+    },
+    {
+      "id": 94,
+      "name": "App Store Purchases",
+      "definition": "Posts discussing app store purchases, preferences, or recommendations"
+    },
+    {
+      "id": 95,
+      "name": "Internet Branding",
+      "definition": "Posts discussing internet branding strategies, trends, or success stories"
+    },
+    {
+      "id": 96,
+      "name": "Speed Art",
+      "definition": "Posts showcasing speed art creations, techniques, or tutorials"
+    },
+    {
+      "id": 97,
+      "name": "Dating Site Promotion",
+      "definition": "Posts promoting dating sites, services, or matchmaking opportunities"
+    },
+    {
+      "id": 98,
+      "name": "Professional Writers",
+      "definition": "Posts discussing the challenges faced by professional writers in the industry"
+    },
+    {
+      "id": 99,
+      "name": "Interview Questions",
+      "definition": "Posts sharing rarely asked questions or interview insights"
+    },
+    {
+      "id": 100,
+      "name": "Local Events",
+      "definition": "Posts seeking or sharing information about local events, activities, or gatherings"
+    }
+  ]
+}

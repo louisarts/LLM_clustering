@@ -1,0 +1,45 @@
+{
+  "bench": "snips",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Find Media",
+      "definition": "Locate a specific media item such as a book, movie, song, album, or show."
+    },
+    {
+      "id": 2,
+      "name": "Play Media",
+      "definition": "Play a specific song, album, or playlist on a specified platform."
+    },
+    {
+      "id": 3,
+      "name": "Add to Playlist",
+      "definition": "Add a song, album, or artist to a specified playlist."
+    },
+    {
+      "id": 4,
+      "name": "Rate Media",
+      "definition": "Provide a rating for a book, album, movie, or other media item."
+    },
+    {
+      "id": 5,
+      "name": "Book Restaurant",
+      "definition": "Make a reservation at a restaurant for a specified number of people and time."
+    },
+    {
+      "id": 6,
+      "name": "Find Movie Times",
+      "definition": "Locate movie showtimes at a specific theater or in a general area."
+    },
+    {
+      "id": 7,
+      "name": "Weather Forecast",
+      "definition": "Request weather information for a specific location and time."
+    }
+  ]
+}

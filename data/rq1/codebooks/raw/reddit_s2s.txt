@@ -1,0 +1,256 @@
+```json
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Austin Community",
+      "definition": "Discussions and news specific to Austin, Texas."
+    },
+    {
+      "id": 2,
+      "name": "Baltimore Area Community",
+      "definition": "Discussions and news specific to Baltimore, Maryland and its surrounding areas."
+    },
+    {
+      "id": 3,
+      "name": "Belgium Community",
+      "definition": "Discussions and news specific to Belgium, including Brussels."
+    },
+    {
+      "id": 4,
+      "name": "Canada Community",
+      "definition": "Discussions and news specific to Canada, its politics, economy, and local issues."
+    },
+    {
+      "id": 5,
+      "name": "Chicago Community",
+      "definition": "Discussions and news specific to Chicago, Illinois."
+    },
+    {
+      "id": 6,
+      "name": "China Community",
+      "definition": "Discussions and news specific to China, its economy, politics, and events."
+    },
+    {
+      "id": 7,
+      "name": "Australia Community",
+      "definition": "Discussions and news specific to Australia, its politics, sports, and social issues."
+    },
+    {
+      "id": 8,
+      "name": "India Community",
+      "definition": "Discussions and news specific to India, its education, business, and culture."
+    },
+    {
+      "id": 9,
+      "name": "UK & London Community",
+      "definition": "Discussions and news specific to the United Kingdom, including London."
+    },
+    {
+      "id": 10,
+      "name": "Airsoft",
+      "definition": "Discussions about airsoft guns, gear, and gameplay."
+    },
+    {
+      "id": 11,
+      "name": "Amateur Radio",
+      "definition": "Discussions about ham radio, equipment, and events."
+    },
+    {
+      "id": 12,
+      "name": "Amazon Platform",
+      "definition": "Discussions related to buying, selling, or issues on Amazon."
+    },
+    {
+      "id": 13,
+      "name": "Anime & Manga",
+      "definition": "Discussions about Japanese animation, comics, and related media."
+    },
+    {
+      "id": 14,
+      "name": "Apple Products",
+      "definition": "Discussions about Apple devices, software, and ecosystem."
+    },
+    {
+      "id": 15,
+      "name": "Architecture & Urban Planning",
+      "definition": "Discussions about building design, city planning, and related fields."
+    },
+    {
+      "id": 16,
+      "name": "Art & Creative Hobbies",
+      "definition": "Discussions about visual arts, digital art, crafts, and creative projects."
+    },
+    {
+      "id": 17,
+      "name": "Astrology & Spirituality",
+      "definition": "Discussions about astrology, meditation, Buddhism, and spiritual practices."
+    },
+    {
+      "id": 18,
+      "name": "Aviation",
+      "definition": "Discussions about aircraft, airlines, and air travel."
+    },
+    {
+      "id": 19,
+      "name": "Beer",
+      "definition": "Discussions about beer, brewing, and craft beer."
+    },
+    {
+      "id": 20,
+      "name": "Blogging",
+      "definition": "Discussions about creating, managing, and marketing blogs."
+    },
+    {
+      "id": 21,
+      "name": "Books & Literature",
+      "definition": "Discussions about books, authors, poetry, and literary topics."
+    },
+    {
+      "id": 22,
+      "name": "Business & Finance",
+      "definition": "Discussions about economics, business, investments, and personal finance."
+    },
+    {
+      "id": 23,
+      "name": "Cars",
+      "definition": "Discussions about automobiles, car maintenance, and car culture."
+    },
+    {
+      "id": 24,
+      "name": "Chemistry",
+      "definition": "Discussions about chemical science, reactions, and research."
+    },
+    {
+      "id": 25,
+      "name": "Coffee",
+      "definition": "Discussions about coffee, brewing methods, and coffee culture."
+    },
+    {
+      "id": 26,
+      "name": "Collecting",
+      "definition": "Discussions about collecting coins, stamps, or other items."
+    },
+    {
+      "id": 27,
+      "name": "Comics & Graphic Novels",
+      "definition": "Discussions about comic books, graphic novels, and related media."
+    },
+    {
+      "id": 28,
+      "name": "Consumer Advice",
+      "definition": "Seeking or giving advice on purchases, services, or consumer rights."
+    },
+    {
+      "id": 29,
+      "name": "Cycling",
+      "definition": "Discussions about bicycles, cycling gear, and the sport of cycling."
+    },
+    {
+      "id": 30,
+      "name": "DIY & Home Improvement",
+      "definition": "Discussions about do-it-yourself projects and home repairs."
+    },
+    {
+      "id": 31,
+      "name": "Education & Career",
+      "definition": "Discussions about schooling, college, career paths, and professional development."
+    },
+    {
+      "id": 32,
+      "name": "Fashion & Apparel",
+      "definition": "Discussions about clothing, accessories, and style."
+    },
+    {
+      "id": 33,
+      "name": "Firearms",
+      "definition": "Discussions about real guns, their use, and related laws."
+    },
+    {
+      "id": 34,
+      "name": "Health & Wellness",
+      "definition": "Discussions about physical and mental health, medical conditions, and well-being."
+    },
+    {
+      "id": 35,
+      "name": "Humor & Memes",
+      "definition": "Posts intended for humor, jokes, or internet memes."
+    },
+    {
+      "id": 36,
+      "name": "Korean Culture",
+      "definition": "Discussions about Korean movies, language, and general culture."
+    },
+    {
+      "id": 37,
+      "name": "Language & Linguistics",
+      "definition": "Discussions about languages, grammar, and linguistic topics."
+    },
+    {
+      "id": 38,
+      "name": "Media & Entertainment",
+      "definition": "Discussions about general media, pop culture, and celebrity news."
+    },
+    {
+      "id": 39,
+      "name": "Movies & TV Shows",
+      "definition": "Discussions about films, television series, and streaming content."
+    },
+    {
+      "id": 40,
+      "name": "Music",
+      "definition": "Discussions about various music genres, artists, instruments, and classical music."
+    },
+    {
+      "id": 41,
+      "name": "Nature & Wildlife",
+      "definition": "Discussions about animals (non-pet), plants, and outdoor activities."
+    },
+    {
+      "id": 42,
+      "name": "Pets",
+      "definition": "Discussions about domestic animals, their care, and behavior."
+    },
+    {
+      "id": 43,
+      "name": "Philosophy & Ethics",
+      "definition": "Discussions about philosophical concepts, existentialism, and moral dilemmas."
+    },
+    {
+      "id": 44,
+      "name": "Politics & Social Issues",
+      "definition": "Discussions about government, current events, human rights, and societal concerns."
+    },
+    {
+      "id": 45,
+      "name": "Reddit Meta",
+      "definition": "Discussions about Reddit itself, its features, or community moderation."
+    },
+    {
+      "id": 46,
+      "name": "Science & Research",
+      "definition": "Discussions about general science, astronomy, biology, and scientific discoveries."
+    },
+    {
+      "id": 47,
+      "name": "Spam & Adult Content",
+      "definition": "Posts that are unsolicited advertisements, scams, or explicit content."
+    },
+    {
+      "id": 48,
+      "name": "Sports",
+      "definition": "Discussions about various sports, teams, and athletes."
+    },
+    {
+      "id": 49,
+      "name": "Technology & Gadgets",
+      "definition": "Discussions about general technology, electronics, and consumer gadgets."
+    },
+    {
+      "id": 50,
+      "name": "Travel & Tourism",
+      "definition": "Discussions about travel destinations, planning, and experiences."
+    }
+  ]
+}
+```

@@ -1,0 +1,160 @@
+{
+  "bench": "stackoverflow20",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "LINQ",
+      "definition": "Language Integrated Query for .NET languages."
+    },
+    {
+      "id": 2,
+      "name": "WordPress",
+      "definition": "A content management system for building websites and blogs."
+    },
+    {
+      "id": 3,
+      "name": "SVN",
+      "definition": "Subversion, a version control system."
+    },
+    {
+      "id": 4,
+      "name": "Hibernate",
+      "definition": "An object-relational mapping framework for Java."
+    },
+    {
+      "id": 5,
+      "name": "AJAX",
+      "definition": "Asynchronous JavaScript and XML for creating dynamic web applications."
+    },
+    {
+      "id": 6,
+      "name": "Excel VBA",
+      "definition": "Visual Basic for Applications used for automation in Microsoft Excel."
+    },
+    {
+      "id": 7,
+      "name": "Spring",
+      "definition": "A framework for building Java applications."
+    },
+    {
+      "id": 8,
+      "name": "Magento",
+      "definition": "An open-source e-commerce platform."
+    },
+    {
+      "id": 9,
+      "name": "Scala",
+      "definition": "A programming language that combines object-oriented and functional programming."
+    },
+    {
+      "id": 10,
+      "name": "Drupal",
+      "definition": "A content management framework for building websites."
+    },
+    {
+      "id": 11,
+      "name": "MATLAB",
+      "definition": "A programming platform for numerical computing."
+    },
+    {
+      "id": 12,
+      "name": "Visual Studio",
+      "definition": "An integrated development environment from Microsoft."
+    },
+    {
+      "id": 13,
+      "name": "Qt",
+      "definition": "A cross-platform application framework for GUI development."
+    },
+    {
+      "id": 14,
+      "name": "Oracle",
+      "definition": "A database management system."
+    },
+    {
+      "id": 15,
+      "name": "Bash",
+      "definition": "A Unix shell and command language."
+    },
+    {
+      "id": 16,
+      "name": "Cocoa",
+      "definition": "An application framework for macOS development."
+    },
+    {
+      "id": 17,
+      "name": "ASP.NET",
+      "definition": "A web framework for building web applications using .NET."
+    },
+    {
+      "id": 18,
+      "name": "C#",
+      "definition": "A modern, object-oriented programming language developed by Microsoft."
+    },
+    {
+      "id": 19,
+      "name": "PHP",
+      "definition": "A server-side scripting language designed for web development."
+    },
+    {
+      "id": 20,
+      "name": "Haskell",
+      "definition": "A purely functional programming language."
+    },
+    {
+      "id": 21,
+      "name": "SharePoint",
+      "definition": "A web-based collaboration platform from Microsoft."
+    },
+    {
+      "id": 22,
+      "name": "Git",
+      "definition": "A distributed version control system."
+    },
+    {
+      "id": 23,
+      "name": "Objective-C",
+      "definition": "A programming language used for macOS and iOS development."
+    },
+    {
+      "id": 24,
+      "name": "SQL",
+      "definition": "Structured Query Language for managing databases."
+    },
+    {
+      "id": 25,
+      "name": "Emacs",
+      "definition": "A highly customizable text editor."
+    },
+    {
+      "id": 26,
+      "name": "Apache",
+      "definition": "A widely used web server software."
+    },
+    {
+      "id": 27,
+      "name": "C++",
+      "definition": "A general-purpose programming language with object-oriented features."
+    },
+    {
+      "id": 28,
+      "name": "Java",
+      "definition": "A high-level programming language used for building applications."
+    },
+    {
+      "id": 29,
+      "name": "R",
+      "definition": "A programming language and software environment for statistical computing."
+    },
+    {
+      "id": 30,
+      "name": "PostgreSQL",
+      "definition": "An open-source relational database management system."
+    }
+  ]
+}

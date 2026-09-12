@@ -1,0 +1,110 @@
+{
+  "bench": "fewevent",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Military Service",
+      "definition": "Events related to individuals serving in the military or armed forces."
+    },
+    {
+      "id": 2,
+      "name": "Art and Entertainment",
+      "definition": "Events related to artistic and entertainment professions, including musicians, filmmakers, and actors."
+    },
+    {
+      "id": 3,
+      "name": "Political Events",
+      "definition": "Events related to political actions, positions, or roles, including elections and government actions."
+    },
+    {
+      "id": 4,
+      "name": "Legal Proceedings",
+      "definition": "Events related to legal actions, including sentences, appeals, and trials."
+    },
+    {
+      "id": 5,
+      "name": "Ceremonial Events",
+      "definition": "Events related to ceremonies, including weddings and marriages."
+    },
+    {
+      "id": 6,
+      "name": "Academic and Professional Roles",
+      "definition": "Events related to educational and professional positions, including professors, students, and lecturers."
+    },
+    {
+      "id": 7,
+      "name": "Sports Achievements",
+      "definition": "Events related to achievements in sports, including winning medals and competitions."
+    },
+    {
+      "id": 8,
+      "name": "Business and Employment",
+      "definition": "Events related to business activities, employment, and job roles."
+    },
+    {
+      "id": 9,
+      "name": "Social Actions",
+      "definition": "Events related to social movements, protests, and public demonstrations."
+    },
+    {
+      "id": 10,
+      "name": "Communication Events",
+      "definition": "Events related to forms of communication, including calls, emails, and statements."
+    },
+    {
+      "id": 11,
+      "name": "Leadership Roles",
+      "definition": "Events related to individuals in leadership positions, including heads and chairpersons."
+    },
+    {
+      "id": 12,
+      "name": "Personal Relationships",
+      "definition": "Events related to personal relationships, including marriages and partnerships."
+    },
+    {
+      "id": 13,
+      "name": "Cultural Events",
+      "definition": "Events related to cultural expressions, including music and art."
+    },
+    {
+      "id": 14,
+      "name": "Violent Incidents",
+      "definition": "Events related to acts of violence or aggression."
+    },
+    {
+      "id": 15,
+      "name": "Travel and Relocation",
+      "definition": "Events related to moving or traveling from one place to another."
+    },
+    {
+      "id": 16,
+      "name": "Statements and Remarks",
+      "definition": "Events related to public statements or remarks made by individuals."
+    },
+    {
+      "id": 17,
+      "name": "Proposals and Plans",
+      "definition": "Events related to proposals, plans, or suggestions made in various contexts."
+    },
+    {
+      "id": 18,
+      "name": "Involvement in Incidents",
+      "definition": "Events related to individuals being involved in specific incidents or situations."
+    },
+    {
+      "id": 19,
+      "name": "Educational Activities",
+      "definition": "Events related to educational pursuits, including studies and teaching."
+    },
+    {
+      "id": 20,
+      "name": "Acquisitions and Transactions",
+      "definition": "Events related to acquiring or trading items or properties."
+    }
+  ]
+}

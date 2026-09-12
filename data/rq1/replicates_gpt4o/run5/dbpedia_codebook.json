@@ -1,0 +1,80 @@
+{
+  "bench": "dbpedia",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, including historical figures, artists, politicians, athletes, etc."
+    },
+    {
+      "id": 2,
+      "name": "Organization",
+      "definition": "An entity such as a company, institution, or group formed for a specific purpose."
+    },
+    {
+      "id": 3,
+      "name": "Event",
+      "definition": "A specific occurrence or happening, often historical or cultural, such as a concert, festival, or competition."
+    },
+    {
+      "id": 4,
+      "name": "Location",
+      "definition": "A specific place or geographic area, including cities, countries, natural features, and man-made structures."
+    },
+    {
+      "id": 5,
+      "name": "Work of Art",
+      "definition": "A creative work, including films, books, music albums, and paintings."
+    },
+    {
+      "id": 6,
+      "name": "Species",
+      "definition": "A group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding."
+    },
+    {
+      "id": 7,
+      "name": "Plant",
+      "definition": "A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses, typically growing in a permanent site."
+    },
+    {
+      "id": 8,
+      "name": "Animal",
+      "definition": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system and able to respond rapidly to stimuli."
+    },
+    {
+      "id": 9,
+      "name": "Building",
+      "definition": "A structure with a roof and walls, such as a house, school, or factory."
+    },
+    {
+      "id": 10,
+      "name": "Vehicle",
+      "definition": "A means of transporting goods or people, such as a car, ship, or aircraft."
+    },
+    {
+      "id": 11,
+      "name": "Publication",
+      "definition": "A work that is published, such as a book, journal, or newspaper."
+    },
+    {
+      "id": 12,
+      "name": "Technology",
+      "definition": "The application of scientific knowledge for practical purposes, especially in industry."
+    },
+    {
+      "id": 13,
+      "name": "Historical Period",
+      "definition": "A distinct period of time in history characterized by particular events, developments, or figures."
+    },
+    {
+      "id": 14,
+      "name": "Cultural Practice",
+      "definition": "A traditional or customary practice or activity within a culture or society."
+    }
+  ]
+}

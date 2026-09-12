@@ -1,0 +1,112 @@
+{
+  "bench": "dbpedia",
+  "run": 5,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "A human being, living or deceased."
+    },
+    {
+      "id": 2,
+      "name": "Album",
+      "definition": "A collection of musical recordings released together."
+    },
+    {
+      "id": 3,
+      "name": "Film",
+      "definition": "A motion picture, including documentaries and TV movies."
+    },
+    {
+      "id": 4,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages bound together."
+    },
+    {
+      "id": 5,
+      "name": "Play",
+      "definition": "A dramatic work for the stage."
+    },
+    {
+      "id": 6,
+      "name": "Comic Book Series",
+      "definition": "A sequence of comic books with a continuing story or characters."
+    },
+    {
+      "id": 7,
+      "name": "Animal Species",
+      "definition": "A group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding."
+    },
+    {
+      "id": 8,
+      "name": "Animal Genus",
+      "definition": "A taxonomic rank used in the biological classification of living and fossil organisms, above species and below family."
+    },
+    {
+      "id": 9,
+      "name": "Animal Family",
+      "definition": "A taxonomic rank used in the biological classification of living and fossil organisms, above genus and below order."
+    },
+    {
+      "id": 10,
+      "name": "Plant Species",
+      "definition": "A group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding."
+    },
+    {
+      "id": 11,
+      "name": "Plant Genus",
+      "definition": "A taxonomic rank used in the biological classification of living and fossil organisms, above species and below family."
+    },
+    {
+      "id": 12,
+      "name": "Plant Family",
+      "definition": "A taxonomic rank used in the biological classification of living and fossil organisms, above genus and below order."
+    },
+    {
+      "id": 13,
+      "name": "Plant Subclass",
+      "definition": "A taxonomic rank used in the biological classification of living and fossil organisms, above order and below class."
+    },
+    {
+      "id": 14,
+      "name": "Geographical Feature",
+      "definition": "A natural landform or body of water."
+    },
+    {
+      "id": 15,
+      "name": "Settlement",
+      "definition": "A community where people live."
+    },
+    {
+      "id": 16,
+      "name": "Building or Structure",
+      "definition": "A man-made construction, often with a specific purpose, including large-scale civil engineering works."
+    },
+    {
+      "id": 17,
+      "name": "Organization",
+      "definition": "A group of people with a particular purpose, such as a company, institution, or non-profit."
+    },
+    {
+      "id": 18,
+      "name": "Vehicle Model",
+      "definition": "A specific design or type of machine used for transport, representing a class or series."
+    },
+    {
+      "id": 19,
+      "name": "Specific Vehicle",
+      "definition": "A named individual machine used for transport."
+    },
+    {
+      "id": 20,
+      "name": "Publication",
+      "definition": "A work published for public distribution, such as a journal, magazine, or newspaper."
+    },
+    {
+      "id": 21,
+      "name": "Astronomical Feature",
+      "definition": "A natural object or phenomenon in space."
+    }
+  ]
+}

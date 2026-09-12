@@ -1,0 +1,105 @@
+{
+  "bench": "mtop_intent",
+  "run": 9,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music Playback",
+      "definition": "Commands related to playing, pausing, or changing music."
+    },
+    {
+      "id": 2,
+      "name": "Alarms",
+      "definition": "Commands for setting, canceling, or modifying alarms."
+    },
+    {
+      "id": 3,
+      "name": "Timers",
+      "definition": "Commands for setting, canceling, or modifying timers."
+    },
+    {
+      "id": 4,
+      "name": "Reminders",
+      "definition": "Commands for setting, canceling, or modifying reminders."
+    },
+    {
+      "id": 5,
+      "name": "Calls",
+      "definition": "Commands related to making, receiving, or managing phone calls."
+    },
+    {
+      "id": 6,
+      "name": "Messages",
+      "definition": "Commands for sending, receiving, or managing text messages."
+    },
+    {
+      "id": 7,
+      "name": "Weather Queries",
+      "definition": "Commands related to asking about current or forecasted weather."
+    },
+    {
+      "id": 8,
+      "name": "Information Requests",
+      "definition": "Commands for requesting factual information or answers to questions."
+    },
+    {
+      "id": 9,
+      "name": "Cooking and Recipes",
+      "definition": "Commands related to cooking instructions or recipe inquiries."
+    },
+    {
+      "id": 10,
+      "name": "Event Planning",
+      "definition": "Commands related to planning or inquiring about events."
+    },
+    {
+      "id": 11,
+      "name": "Status Updates",
+      "definition": "Commands for checking or updating online status."
+    },
+    {
+      "id": 12,
+      "name": "Video Messages",
+      "definition": "Commands related to sending or recording video messages."
+    },
+    {
+      "id": 13,
+      "name": "News Queries",
+      "definition": "Commands for requesting news updates or headlines."
+    },
+    {
+      "id": 14,
+      "name": "Location Queries",
+      "definition": "Commands related to inquiring about locations or directions."
+    },
+    {
+      "id": 15,
+      "name": "Group Management",
+      "definition": "Commands for managing group calls or messages."
+    },
+    {
+      "id": 16,
+      "name": "Personal Reminders",
+      "definition": "Commands for personal reminders related to tasks or appointments."
+    },
+    {
+      "id": 17,
+      "name": "Recipe Adjustments",
+      "definition": "Commands for adjusting or inquiring about recipe quantities or methods."
+    },
+    {
+      "id": 18,
+      "name": "Timer Adjustments",
+      "definition": "Commands for modifying existing timers."
+    },
+    {
+      "id": 19,
+      "name": "Miscellaneous Queries",
+      "definition": "Commands that do not fit into other categories but seek specific information."
+    }
+  ]
+}

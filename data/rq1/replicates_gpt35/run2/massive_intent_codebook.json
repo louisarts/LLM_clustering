@@ -1,0 +1,110 @@
+{
+  "bench": "massive_intent",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Media",
+      "definition": "Request to play music, radio, podcast, or specific songs."
+    },
+    {
+      "id": 2,
+      "name": "Weather Inquiry",
+      "definition": "Request for current or forecasted weather information."
+    },
+    {
+      "id": 3,
+      "name": "Send/Reply Email",
+      "definition": "Request to compose, send, or reply to an email."
+    },
+    {
+      "id": 4,
+      "name": "Alarm/Reminder",
+      "definition": "Request to set, cancel, or inquire about alarms or reminders."
+    },
+    {
+      "id": 5,
+      "name": "Calendar Management",
+      "definition": "Request to add, remove, or inquire about events on a calendar."
+    },
+    {
+      "id": 6,
+      "name": "Information Inquiry",
+      "definition": "Request for general information, definitions, or facts."
+    },
+    {
+      "id": 7,
+      "name": "Navigation Assistance",
+      "definition": "Request for directions, locations, or routes."
+    },
+    {
+      "id": 8,
+      "name": "Home Automation",
+      "definition": "Request to control lights, appliances, or home devices."
+    },
+    {
+      "id": 9,
+      "name": "Food/Recipe Inquiry",
+      "definition": "Request for recipes, food information, or restaurant details."
+    },
+    {
+      "id": 10,
+      "name": "News Updates",
+      "definition": "Request for latest news, headlines, or specific news sources."
+    },
+    {
+      "id": 11,
+      "name": "Social Media Interaction",
+      "definition": "Request to post, check, or interact with social media content."
+    },
+    {
+      "id": 12,
+      "name": "Entertainment Inquiry",
+      "definition": "Request for movie, music, or entertainment recommendations."
+    },
+    {
+      "id": 13,
+      "name": "Time Inquiry",
+      "definition": "Request for current time, time zone conversions, or specific time-related queries."
+    },
+    {
+      "id": 14,
+      "name": "Shopping List Management",
+      "definition": "Request to add, remove, or inquire about items on a shopping list."
+    },
+    {
+      "id": 15,
+      "name": "Travel Arrangements",
+      "definition": "Request to book tickets, taxis, or travel-related services."
+    },
+    {
+      "id": 16,
+      "name": "Currency/Stock Information",
+      "definition": "Request for currency exchange rates, stock prices, or financial data."
+    },
+    {
+      "id": 17,
+      "name": "Complaints/Feedback",
+      "definition": "Request to file complaints, send feedback, or express opinions."
+    },
+    {
+      "id": 18,
+      "name": "Health/Wellness Inquiry",
+      "definition": "Request for health, fitness, or wellness-related information."
+    },
+    {
+      "id": 19,
+      "name": "Sports Updates",
+      "definition": "Request for sports scores, highlights, or game schedules."
+    },
+    {
+      "id": 20,
+      "name": "Traffic Updates",
+      "definition": "Request for traffic conditions, routes, or commute information."
+    }
+  ]
+}

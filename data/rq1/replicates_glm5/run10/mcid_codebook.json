@@ -1,0 +1,74 @@
+{
+  "bench": "mcid",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Case and Death Statistics",
+      "definition": "Requests for specific numbers regarding infections, deaths, testing rates, or recovery counts in specific locations or demographics."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Diagnosis",
+      "definition": "Inquiries about specific symptoms of COVID-19, how to identify them, or how to distinguish the virus from other illnesses like the flu or allergies."
+    },
+    {
+      "id": 3,
+      "name": "Transmission and Surface Survival",
+      "definition": "Questions regarding how the virus spreads, survival time on specific surfaces, or transmission risks from animals, objects, or specific activities."
+    },
+    {
+      "id": 4,
+      "name": "Prevention and Protection",
+      "definition": "Requests for advice on protective measures, hygiene practices, or safety precautions to avoid contracting or spreading the virus."
+    },
+    {
+      "id": 5,
+      "name": "Treatment and Cure",
+      "definition": "Questions about medical treatments, home remedies, vaccines, or the existence of a cure for COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Travel Advice and Restrictions",
+      "definition": "Questions concerning the safety of travel, travel bans, restrictions for specific destinations, or transportation guidelines."
+    },
+    {
+      "id": 7,
+      "name": "News and Updates",
+      "definition": "Requests for general news updates, press releases, or the current status of the pandemic in specific locations."
+    },
+    {
+      "id": 8,
+      "name": "Myths and Misinformation",
+      "definition": "Inquiries verifying specific rumors, myths, or unverified claims regarding the origin, nature, or prevention of the virus."
+    },
+    {
+      "id": 9,
+      "name": "Pets and Animals",
+      "definition": "Questions specifically regarding the susceptibility, symptoms, or transmission of the virus in pets, livestock, or wildlife."
+    },
+    {
+      "id": 10,
+      "name": "Donations and Relief Funds",
+      "definition": "Requests to donate money or find information about contributing to relief funds and charitable organizations."
+    },
+    {
+      "id": 11,
+      "name": "Sharing and Social Media",
+      "definition": "Requests to share the service, information, or links via social media or direct messaging."
+    },
+    {
+      "id": 12,
+      "name": "Greetings and Gratitude",
+      "definition": "Utterances consisting of greetings, thanks, or other social pleasantries directed at the bot."
+    },
+    {
+      "id": 13,
+      "name": "General Information",
+      "definition": "Broad requests for information about the virus or pandemic that do not fit into a specific category like stats or symptoms."
+    }
+  ]
+}

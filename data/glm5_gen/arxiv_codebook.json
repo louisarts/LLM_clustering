@@ -1,0 +1,137 @@
+[
+ {
+  "id": 1,
+  "name": "High Energy Physics - Theory",
+  "definition": "Theoretical studies of fundamental particles and forces, including quantum field theory, string theory, and holography."
+ },
+ {
+  "id": 2,
+  "name": "High Energy Physics - Phenomenology and Experiment",
+  "definition": "Experimental particle physics, collider data analysis, detector development, and phenomenological models."
+ },
+ {
+  "id": 3,
+  "name": "Astrophysics and Cosmology",
+  "definition": "Study of celestial objects, the universe's structure and evolution, and astrophysical processes."
+ },
+ {
+  "id": 4,
+  "name": "Condensed Matter Physics and Materials Science",
+  "definition": "Properties of matter in solid and liquid phases, including superconductivity, magnetism, and material characterization."
+ },
+ {
+  "id": 5,
+  "name": "Quantum Physics",
+  "definition": "Quantum mechanics, quantum information science, atomic and molecular physics, and quantum optics."
+ },
+ {
+  "id": 6,
+  "name": "Fluid Dynamics and Plasma Physics",
+  "definition": "Mechanics of fluids and plasmas, including turbulence, aerodynamics, and magnetohydrodynamics."
+ },
+ {
+  "id": 7,
+  "name": "Nuclear Physics",
+  "definition": "Structure and dynamics of atomic nuclei, including nuclear reactions and heavy-ion collisions."
+ },
+ {
+  "id": 8,
+  "name": "General Relativity and Gravitation",
+  "definition": "Theory of gravitation, spacetime geometry, and black hole physics."
+ },
+ {
+  "id": 9,
+  "name": "Mathematical Physics",
+  "definition": "Mathematical techniques applied to physical problems, including classical mechanics and inverse problems."
+ },
+ {
+  "id": 10,
+  "name": "Algebra and Number Theory",
+  "definition": "Abstract algebraic structures, algebraic geometry, and the properties of numbers."
+ },
+ {
+  "id": 11,
+  "name": "Analysis and Differential Equations",
+  "definition": "Calculus, functional analysis, and the study of differential and integral equations."
+ },
+ {
+  "id": 12,
+  "name": "Geometry and Topology",
+  "definition": "Properties of space, shape, and manifolds, including differential and algebraic topology."
+ },
+ {
+  "id": 13,
+  "name": "Probability and Statistics",
+  "definition": "Theory of randomness, statistical inference, and stochastic processes."
+ },
+ {
+  "id": 14,
+  "name": "Discrete Mathematics and Combinatorics",
+  "definition": "Study of discrete structures, including graph theory and combinatorial optimization."
+ },
+ {
+  "id": 15,
+  "name": "Artificial Intelligence and Machine Learning",
+  "definition": "Computational models of learning, neural networks, and intelligent agents."
+ },
+ {
+  "id": 16,
+  "name": "Computer Vision and Pattern Recognition",
+  "definition": "Automatic analysis and understanding of images and visual data."
+ },
+ {
+  "id": 17,
+  "name": "Natural Language Processing",
+  "definition": "Computational analysis, generation, and translation of human language."
+ },
+ {
+  "id": 18,
+  "name": "Computer Systems and Networking",
+  "definition": "Design and analysis of computer hardware, software, networks, and security."
+ },
+ {
+  "id": 19,
+  "name": "Theoretical Computer Science",
+  "definition": "Algorithms, computational complexity, formal logic, and theory of computation."
+ },
+ {
+  "id": 20,
+  "name": "Signal Processing and Control Systems",
+  "definition": "Analysis of signals and design of systems to control dynamic behavior."
+ },
+ {
+  "id": 21,
+  "name": "Electrical Engineering and Communications",
+  "definition": "Electronic devices, circuits, antennas, and telecommunication systems."
+ },
+ {
+  "id": 22,
+  "name": "Computational Biology and Bioinformatics",
+  "definition": "Computational analysis of biological data, such as genetic sequences."
+ },
+ {
+  "id": 23,
+  "name": "Biophysics and Biological Physics",
+  "definition": "Application of physics principles to biological systems and molecules."
+ },
+ {
+  "id": 24,
+  "name": "Chemistry and Chemical Physics",
+  "definition": "Study of matter at the molecular level, including chemical reactions and properties."
+ },
+ {
+  "id": 25,
+  "name": "Physics Education",
+  "definition": "Research and methods related to the teaching and learning of physics."
+ },
+ {
+  "id": 26,
+  "name": "Quantitative Finance",
+  "definition": "Application of mathematical and statistical methods to financial markets."
+ },
+ {
+  "id": 27,
+  "name": "Social and Information Sciences",
+  "definition": "Application of computational and network methods to social, legal, and information systems."
+ }
+]

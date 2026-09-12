@@ -1,0 +1,85 @@
+{
+  "bench": "tweet89",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl",
+      "definition": "Tweets related to the Super Bowl event, including commercials, performances, and related discussions."
+    },
+    {
+      "id": 2,
+      "name": "Political Events",
+      "definition": "Tweets discussing political events, elections, and government actions, including protests and legal rulings."
+    },
+    {
+      "id": 3,
+      "name": "Health and Medicine",
+      "definition": "Tweets related to health care, medical conditions, and health-related legal matters."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment and Celebrity News",
+      "definition": "Tweets about celebrities, film festivals, and entertainment industry news."
+    },
+    {
+      "id": 5,
+      "name": "Social Media Trends",
+      "definition": "Tweets discussing trends, events, and news related to social media platforms."
+    },
+    {
+      "id": 6,
+      "name": "Environmental Issues",
+      "definition": "Tweets related to environmental concerns, climate change, and natural disasters."
+    },
+    {
+      "id": 7,
+      "name": "Sports",
+      "definition": "Tweets discussing various sports events, athletes, and related news."
+    },
+    {
+      "id": 8,
+      "name": "Legal Issues",
+      "definition": "Tweets discussing lawsuits, legal rulings, and judicial matters."
+    },
+    {
+      "id": 9,
+      "name": "Immigration",
+      "definition": "Tweets related to immigration laws, policies, and events."
+    },
+    {
+      "id": 10,
+      "name": "Crime and Safety",
+      "definition": "Tweets discussing crime, safety issues, and law enforcement actions."
+    },
+    {
+      "id": 11,
+      "name": "Food and Recipes",
+      "definition": "Tweets sharing recipes, food-related discussions, and culinary events."
+    },
+    {
+      "id": 12,
+      "name": "Fishing",
+      "definition": "Tweets related to fishing activities, tips, and events."
+    },
+    {
+      "id": 13,
+      "name": "Consumer Products",
+      "definition": "Tweets discussing consumer products, advertisements, and marketing."
+    },
+    {
+      "id": 14,
+      "name": "Economic Issues",
+      "definition": "Tweets discussing economic conditions, financial news, and market trends."
+    },
+    {
+      "id": 15,
+      "name": "Technology",
+      "definition": "Tweets related to technological advancements, products, and innovations."
+    }
+  ]
+}

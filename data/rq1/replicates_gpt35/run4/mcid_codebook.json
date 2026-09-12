@@ -1,0 +1,75 @@
+{
+  "bench": "mcid",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Donations",
+      "definition": "Utterances related to donating money or goods for COVID-19 relief"
+    },
+    {
+      "id": 2,
+      "name": "Myths and Misinformation",
+      "definition": "Utterances seeking information about or debunking myths related to COVID-19"
+    },
+    {
+      "id": 3,
+      "name": "Treatment and Prevention",
+      "definition": "Utterances related to treatment options, prevention measures, and symptoms of COVID-19"
+    },
+    {
+      "id": 4,
+      "name": "Updates and News",
+      "definition": "Utterances seeking or sharing updates, news, and statistics about COVID-19"
+    },
+    {
+      "id": 5,
+      "name": "Travel and Transportation",
+      "definition": "Utterances related to travel restrictions, transportation safety, and travel-related concerns during the pandemic"
+    },
+    {
+      "id": 6,
+      "name": "Animal Related Concerns",
+      "definition": "Utterances related to pets, animals, and their potential role in the spread of COVID-19"
+    },
+    {
+      "id": 7,
+      "name": "High Risk Areas",
+      "definition": "Utterances seeking information about or identifying high-risk areas for COVID-19 transmission"
+    },
+    {
+      "id": 8,
+      "name": "Medical Advice",
+      "definition": "Utterances seeking medical advice or guidance on COVID-19"
+    },
+    {
+      "id": 9,
+      "name": "Personal Protection",
+      "definition": "Utterances seeking information on how to protect oneself from COVID-19"
+    },
+    {
+      "id": 10,
+      "name": "Social Media Sharing",
+      "definition": "Utterances related to sharing information, articles, or services on social media platforms"
+    },
+    {
+      "id": 11,
+      "name": "Vaccine and Cure",
+      "definition": "Utterances related to vaccines, treatments, and research for COVID-19"
+    },
+    {
+      "id": 12,
+      "name": "Symptoms Inquiry",
+      "definition": "Utterances seeking information about symptoms and signs of COVID-19"
+    },
+    {
+      "id": 13,
+      "name": "Workplace Concerns",
+      "definition": "Utterances related to concerns about workplaces, essential workers, and work-related risks during the pandemic"
+    }
+  ]
+}

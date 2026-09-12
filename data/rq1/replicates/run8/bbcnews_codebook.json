@@ -1,0 +1,52 @@
+{
+  "bench": "bbcnews",
+  "run": 8,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Business & Finance",
+      "definition": "News related to companies, industries, markets, economic indicators, corporate actions, and financial systems."
+    },
+    {
+      "id": 2,
+      "name": "Technology",
+      "definition": "News about computing, internet, mobile devices, software, digital services, gaming, scientific research, and technological innovation."
+    },
+    {
+      "id": 3,
+      "name": "Entertainment",
+      "definition": "News covering film, television, music, theatre, literature, awards, and celebrity culture."
+    },
+    {
+      "id": 4,
+      "name": "Sport",
+      "definition": "News related to professional and amateur sports, including matches, tournaments, player transfers, injuries, doping, and club management."
+    },
+    {
+      "id": 5,
+      "name": "Politics",
+      "definition": "News concerning government, elections, political parties, public policy, parliamentary affairs, and political controversies within a country."
+    },
+    {
+      "id": 6,
+      "name": "International Relations",
+      "definition": "News about diplomatic affairs, global events, international organizations, cross-border conflicts, and significant political or economic developments in foreign countries with global impact."
+    },
+    {
+      "id": 7,
+      "name": "Society",
+      "definition": "News focusing on social issues, public services, education, health, demographics, and cultural trends affecting communities and individuals."
+    },
+    {
+      "id": 8,
+      "name": "Legal",
+      "definition": "News primarily about legal proceedings, court rulings, legislation, intellectual property rights, and the justice system."
+    },
+    {
+      "id": 9,
+      "name": "Environment",
+      "definition": "News related to environmental issues, climate change, conservation efforts, and environmental policy."
+    }
+  ]
+}

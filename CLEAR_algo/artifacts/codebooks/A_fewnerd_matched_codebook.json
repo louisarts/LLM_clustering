@@ -1,0 +1,122 @@
+[
+ {
+  "id": 1,
+  "name": "Geographical Location",
+  "definition": "Any named place such as city, town, region, country, or physical geographic feature."
+ },
+ {
+  "id": 2,
+  "name": "Person",
+  "definition": "An individual human being, including historical, fictional, or contemporary persons."
+ },
+ {
+  "id": 3,
+  "name": "Organization",
+  "definition": "A group or entity such as companies, clubs, political parties, religious institutions, or governmental bodies."
+ },
+ {
+  "id": 4,
+  "name": "Event",
+  "definition": "A specific occurrence or happening, including sports events, elections, wars, or ceremonies."
+ },
+ {
+  "id": 5,
+  "name": "Creative Work",
+  "definition": "Artistic or media works such as books, films, TV shows, music albums, songs, plays, or video games."
+ },
+ {
+  "id": 6,
+  "name": "Award or Honor",
+  "definition": "Named prizes, awards, or honors given to persons or organizations."
+ },
+ {
+  "id": 7,
+  "name": "Political Entity or Governmental Body",
+  "definition": "Political parties, government institutions, legislatures, or political coalitions."
+ },
+ {
+  "id": 8,
+  "name": "Military Unit or Equipment",
+  "definition": "Named military units, forces, or specific military equipment and vehicles."
+ },
+ {
+  "id": 9,
+  "name": "Language or Dialect",
+  "definition": "Named languages, dialects, or linguistic groups."
+ },
+ {
+  "id": 10,
+  "name": "Biological Entity",
+  "definition": "Living organisms or biological classifications such as species, families, or biochemical substances."
+ },
+ {
+  "id": 11,
+  "name": "Infrastructure or Facility",
+  "definition": "Physical constructions such as buildings, airports, hospitals, schools, stadiums, or transportation lines."
+ },
+ {
+  "id": 12,
+  "name": "Legal or Regulatory Document",
+  "definition": "Laws, treaties, acts, or official legal documents."
+ },
+ {
+  "id": 13,
+  "name": "Currency or Monetary Unit",
+  "definition": "Named currencies, banknotes, coins, or monetary systems."
+ },
+ {
+  "id": 14,
+  "name": "Scientific or Technical Concept",
+  "definition": "Scientific theories, algorithms, chemical compounds, or technical terms."
+ },
+ {
+  "id": 15,
+  "name": "Sports Team or League",
+  "definition": "Named sports teams, clubs, leagues, or tournaments."
+ },
+ {
+  "id": 16,
+  "name": "Media Outlet or Publication",
+  "definition": "Newspapers, magazines, TV channels, radio stations, or other media organizations."
+ },
+ {
+  "id": 17,
+  "name": "Transportation Vehicle or Aircraft",
+  "definition": "Named vehicles such as airplanes, ships, trains, or automobiles."
+ },
+ {
+  "id": 18,
+  "name": "Religious Entity or Concept",
+  "definition": "Religious organizations, denominations, figures, or theological concepts."
+ },
+ {
+  "id": 19,
+  "name": "Educational Institution",
+  "definition": "Schools, universities, or other educational organizations."
+ },
+ {
+  "id": 20,
+  "name": "Chemical or Pharmaceutical Substance",
+  "definition": "Named chemicals, drugs, or pharmaceutical compounds."
+ },
+ {
+  "id": 21,
+  "name": "Award Ceremony or Festival",
+  "definition": "Events or ceremonies specifically for awarding or celebrating achievements."
+ },
+ {
+  "id": 22,
+  "name": "Military Conflict or War",
+  "definition": "Named wars, battles, or military campaigns."
+ },
+ {
+  "id": 23,
+  "name": "Sports Venue or Stadium",
+  "definition": "Named physical locations where sports events are held."
+ },
+ {
+  "id": 24,
+  "name": "Fictional Entity or Concept",
+  "definition": "Entities or concepts originating from fiction or mythology."
+ }
+]

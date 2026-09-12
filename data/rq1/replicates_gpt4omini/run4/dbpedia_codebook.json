@@ -1,0 +1,85 @@
+{
+  "bench": "dbpedia",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Plant Species",
+      "definition": "Articles describing specific species of plants."
+    },
+    {
+      "id": 2,
+      "name": "Animal Species",
+      "definition": "Articles describing specific species of animals."
+    },
+    {
+      "id": 3,
+      "name": "Geographical Locations",
+      "definition": "Articles describing towns, villages, rivers, mountains, and other geographical features."
+    },
+    {
+      "id": 4,
+      "name": "Historical Figures",
+      "definition": "Articles about notable individuals from history."
+    },
+    {
+      "id": 5,
+      "name": "Contemporary Figures",
+      "definition": "Articles about modern individuals, including politicians, authors, and artists."
+    },
+    {
+      "id": 6,
+      "name": "Educational Institutions",
+      "definition": "Articles describing schools, colleges, and universities."
+    },
+    {
+      "id": 7,
+      "name": "Cultural Works",
+      "definition": "Articles about films, books, music albums, and other forms of artistic expression."
+    },
+    {
+      "id": 8,
+      "name": "Organizations and Companies",
+      "definition": "Articles about businesses, non-profits, and other organizations."
+    },
+    {
+      "id": 9,
+      "name": "Historical Events",
+      "definition": "Articles detailing significant events in history."
+    },
+    {
+      "id": 10,
+      "name": "Scientific Journals",
+      "definition": "Articles about academic journals and their contributions to science."
+    },
+    {
+      "id": 11,
+      "name": "Military Vessels",
+      "definition": "Articles describing ships and submarines used in military service."
+    },
+    {
+      "id": 12,
+      "name": "Transportation",
+      "definition": "Articles about vehicles, including buses, trains, and aircraft."
+    },
+    {
+      "id": 13,
+      "name": "Fossils and Extinct Species",
+      "definition": "Articles about extinct species and fossils."
+    },
+    {
+      "id": 14,
+      "name": "Religious Structures",
+      "definition": "Articles describing churches, temples, and other places of worship."
+    },
+    {
+      "id": 15,
+      "name": "Natural Features",
+      "definition": "Articles about lakes, rivers, mountains, and other natural formations."
+    }
+  ]
+}

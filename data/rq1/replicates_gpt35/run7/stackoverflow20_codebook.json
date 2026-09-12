@@ -1,0 +1,120 @@
+{
+  "bench": "stackoverflow20",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apache",
+      "definition": "Questions related to the Apache web server"
+    },
+    {
+      "id": 2,
+      "name": "Bash",
+      "definition": "Questions related to the Bash scripting language"
+    },
+    {
+      "id": 3,
+      "name": "C++",
+      "definition": "Questions related to the C++ programming language"
+    },
+    {
+      "id": 4,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel"
+    },
+    {
+      "id": 5,
+      "name": "Flex",
+      "definition": "Questions related to Adobe Flex"
+    },
+    {
+      "id": 6,
+      "name": "Hibernate",
+      "definition": "Questions related to the Hibernate ORM framework"
+    },
+    {
+      "id": 7,
+      "name": "HTML/CSS",
+      "definition": "Questions related to HTML and CSS"
+    },
+    {
+      "id": 8,
+      "name": "Java",
+      "definition": "Questions related to the Java programming language"
+    },
+    {
+      "id": 9,
+      "name": "JavaScript",
+      "definition": "Questions related to JavaScript programming"
+    },
+    {
+      "id": 10,
+      "name": "LINQ",
+      "definition": "Questions related to LINQ (Language Integrated Query)"
+    },
+    {
+      "id": 11,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform"
+    },
+    {
+      "id": 12,
+      "name": "Matlab",
+      "definition": "Questions related to the Matlab programming language"
+    },
+    {
+      "id": 13,
+      "name": "NSXML",
+      "definition": "Questions related to NSXML in Mac OS X development"
+    },
+    {
+      "id": 14,
+      "name": "Oracle",
+      "definition": "Questions related to the Oracle database system"
+    },
+    {
+      "id": 15,
+      "name": "PHP",
+      "definition": "Questions related to the PHP programming language"
+    },
+    {
+      "id": 16,
+      "name": "Qt",
+      "definition": "Questions related to the Qt application framework"
+    },
+    {
+      "id": 17,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language"
+    },
+    {
+      "id": 18,
+      "name": "SharePoint",
+      "definition": "Questions related to Microsoft SharePoint"
+    },
+    {
+      "id": 19,
+      "name": "Spring",
+      "definition": "Questions related to the Spring framework"
+    },
+    {
+      "id": 20,
+      "name": "Subversion",
+      "definition": "Questions related to the Subversion version control system"
+    },
+    {
+      "id": 21,
+      "name": "Visual Studio",
+      "definition": "Questions related to Microsoft Visual Studio"
+    },
+    {
+      "id": 22,
+      "name": "WordPress",
+      "definition": "Questions related to the WordPress content management system"
+    }
+  ]
+}

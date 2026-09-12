@@ -1,0 +1,109 @@
+{
+  "bench": "stackoverflow20",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apache",
+      "definition": "Questions regarding the Apache HTTP Server, including configuration, modules like mod_rewrite and mod_proxy, and server management."
+    },
+    {
+      "id": 2,
+      "name": "SharePoint",
+      "definition": "Questions about Microsoft SharePoint, covering document libraries, webparts, permissions, and development for SharePoint 2007."
+    },
+    {
+      "id": 3,
+      "name": "Hibernate",
+      "definition": "Questions concerning the Hibernate ORM framework, including mappings, sessions, criteria queries, and transaction management."
+    },
+    {
+      "id": 4,
+      "name": "LINQ",
+      "definition": "Questions about Language Integrated Query in .NET, covering query syntax, providers like LINQ-to-SQL, and performance optimization."
+    },
+    {
+      "id": 5,
+      "name": "Qt",
+      "definition": "Questions regarding the Qt application framework, including GUI development with widgets, signals and slots, and cross-platform compilation."
+    },
+    {
+      "id": 6,
+      "name": "Excel",
+      "definition": "Questions about Microsoft Excel, focusing on VBA programming, formulas, charts, and spreadsheet manipulation."
+    },
+    {
+      "id": 7,
+      "name": "Magento",
+      "definition": "Questions about the Magento e-commerce platform, covering theming, module development, configuration, and shipping integration."
+    },
+    {
+      "id": 8,
+      "name": "WordPress",
+      "definition": "Questions regarding the WordPress CMS, including plugin development, theming, queries, and configuration."
+    },
+    {
+      "id": 9,
+      "name": "Drupal",
+      "definition": "Questions about the Drupal CMS, covering module development, theming, views, and form API."
+    },
+    {
+      "id": 10,
+      "name": "Haskell",
+      "definition": "Questions regarding the Haskell programming language, covering functional programming concepts, types, and IO."
+    },
+    {
+      "id": 11,
+      "name": "Scala",
+      "definition": "Questions about the Scala programming language, including syntax, collections, and integration with Java."
+    },
+    {
+      "id": 12,
+      "name": "Visual Studio",
+      "definition": "Questions regarding the Visual Studio IDE, covering debugging, build configuration, and project management."
+    },
+    {
+      "id": 13,
+      "name": "SVN",
+      "definition": "Questions about the Subversion version control system, including branching, merging, and repository management."
+    },
+    {
+      "id": 14,
+      "name": "Oracle",
+      "definition": "Questions regarding Oracle Database, including SQL, PL/SQL, stored procedures, and database links."
+    },
+    {
+      "id": 15,
+      "name": "Bash",
+      "definition": "Questions about the Bash shell and scripting, covering command-line operations, scripting syntax, and automation."
+    },
+    {
+      "id": 16,
+      "name": "Xcode",
+      "definition": "Questions regarding the Xcode IDE for Apple platforms, including debugging, interface builder, and build settings."
+    },
+    {
+      "id": 17,
+      "name": "Cocoa",
+      "definition": "Questions about the Cocoa API for macOS development, covering Objective-C classes, bindings, and AppKit."
+    },
+    {
+      "id": 18,
+      "name": "Spring",
+      "definition": "Questions regarding the Spring Framework for Java, including dependency injection, web flow, and transaction management."
+    },
+    {
+      "id": 19,
+      "name": "AJAX",
+      "definition": "Questions about Asynchronous JavaScript and XML techniques, covering client-server communication and implementation."
+    },
+    {
+      "id": 20,
+      "name": "Matlab",
+      "definition": "Questions regarding MATLAB, covering numerical computing, matrix manipulation, and built-in functions."
+    }
+  ]
+}

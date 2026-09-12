@@ -1,0 +1,105 @@
+{
+  "bench": "mtop_domain",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Call Management",
+      "definition": "Utterances related to making, receiving, or managing phone calls."
+    },
+    {
+      "id": 2,
+      "name": "Alarm Setting",
+      "definition": "Utterances related to setting, managing, or cancelling alarms."
+    },
+    {
+      "id": 3,
+      "name": "Reminder Creation",
+      "definition": "Utterances related to creating, managing, or cancelling reminders."
+    },
+    {
+      "id": 4,
+      "name": "Timer Setting",
+      "definition": "Utterances related to setting, managing, or cancelling timers."
+    },
+    {
+      "id": 5,
+      "name": "Weather Inquiry",
+      "definition": "Utterances related to checking current or forecasted weather conditions."
+    },
+    {
+      "id": 6,
+      "name": "News Inquiry",
+      "definition": "Utterances related to checking news headlines or specific news topics."
+    },
+    {
+      "id": 7,
+      "name": "Music Playback",
+      "definition": "Utterances related to playing music or specific songs."
+    },
+    {
+      "id": 8,
+      "name": "Recipe Search",
+      "definition": "Utterances related to finding cooking or baking recipes."
+    },
+    {
+      "id": 9,
+      "name": "Contact Information",
+      "definition": "Utterances related to finding or contacting specific individuals or businesses."
+    },
+    {
+      "id": 10,
+      "name": "Message Sending",
+      "definition": "Utterances related to sending text messages, video messages, or other forms of communication."
+    },
+    {
+      "id": 11,
+      "name": "Event Information",
+      "definition": "Utterances related to finding events, concerts, or activities happening in a specific location or time frame."
+    },
+    {
+      "id": 12,
+      "name": "Music Preferences",
+      "definition": "Utterances related to playing music based on specific genres, artists, or albums."
+    },
+    {
+      "id": 13,
+      "name": "Location Inquiry",
+      "definition": "Utterances related to checking the location or presence of individuals or businesses."
+    },
+    {
+      "id": 14,
+      "name": "Call Silencing",
+      "definition": "Utterances related to silencing or stopping incoming calls or alarms."
+    },
+    {
+      "id": 15,
+      "name": "Call Forwarding",
+      "definition": "Utterances related to forwarding calls to specific individuals or groups."
+    },
+    {
+      "id": 16,
+      "name": "Call Blocking",
+      "definition": "Utterances related to blocking or ignoring incoming calls."
+    },
+    {
+      "id": 17,
+      "name": "Call Recording",
+      "definition": "Utterances related to recording phone calls or video calls."
+    },
+    {
+      "id": 18,
+      "name": "Call Waiting",
+      "definition": "Utterances related to managing multiple calls or placing calls on hold."
+    },
+    {
+      "id": 19,
+      "name": "Call History",
+      "definition": "Utterances related to checking or reviewing call history or logs."
+    }
+  ]
+}

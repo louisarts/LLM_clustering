@@ -1,0 +1,85 @@
+{
+  "bench": "fewrel",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Temporal Relation",
+      "definition": "A relation that indicates a time-based connection between two entities."
+    },
+    {
+      "id": 2,
+      "name": "Geographical Relation",
+      "definition": "A relation that indicates a spatial or location-based connection between two entities."
+    },
+    {
+      "id": 3,
+      "name": "Professional Relation",
+      "definition": "A relation that indicates a professional or occupational connection between two entities."
+    },
+    {
+      "id": 4,
+      "name": "Cultural Relation",
+      "definition": "A relation that indicates a cultural or artistic connection between two entities."
+    },
+    {
+      "id": 5,
+      "name": "Historical Relation",
+      "definition": "A relation that indicates a historical or event-based connection between two entities."
+    },
+    {
+      "id": 6,
+      "name": "Institutional Relation",
+      "definition": "A relation that indicates a connection between an entity and an institution or organization."
+    },
+    {
+      "id": 7,
+      "name": "Familial Relation",
+      "definition": "A relation that indicates a family or kinship connection between two entities."
+    },
+    {
+      "id": 8,
+      "name": "Artistic Relation",
+      "definition": "A relation that indicates a connection between two entities in the context of art or literature."
+    },
+    {
+      "id": 9,
+      "name": "Scientific Relation",
+      "definition": "A relation that indicates a connection between two entities in the context of science or academia."
+    },
+    {
+      "id": 10,
+      "name": "Commercial Relation",
+      "definition": "A relation that indicates a business or commercial connection between two entities."
+    },
+    {
+      "id": 11,
+      "name": "Political Relation",
+      "definition": "A relation that indicates a political connection or involvement between two entities."
+    },
+    {
+      "id": 12,
+      "name": "Musical Relation",
+      "definition": "A relation that indicates a connection between two entities in the context of music."
+    },
+    {
+      "id": 13,
+      "name": "Literary Relation",
+      "definition": "A relation that indicates a connection between two entities in the context of literature."
+    },
+    {
+      "id": 14,
+      "name": "Technological Relation",
+      "definition": "A relation that indicates a connection between two entities in the context of technology."
+    },
+    {
+      "id": 15,
+      "name": "Sporting Relation",
+      "definition": "A relation that indicates a connection between two entities in the context of sports."
+    }
+  ]
+}

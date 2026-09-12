@@ -1,0 +1,79 @@
+{
+  "bench": "clinc150_domain",
+  "run": 2,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking",
+      "definition": "Requests related to bank accounts, credit cards, loans, transactions, and financial management services."
+    },
+    {
+      "id": 2,
+      "name": "Calendar_Scheduling",
+      "definition": "Requests to manage events, meetings, reminders, alarms, and vacation requests."
+    },
+    {
+      "id": 3,
+      "name": "Auto_Maintenance",
+      "definition": "Requests regarding car maintenance, diagnostics, fuel, and vehicle specifications."
+    },
+    {
+      "id": 4,
+      "name": "Reservations",
+      "definition": "Requests to create, check, or cancel bookings at restaurants or other venues."
+    },
+    {
+      "id": 5,
+      "name": "Travel_Commute",
+      "definition": "Requests for transportation services, traffic updates, navigation, and travel advice."
+    },
+    {
+      "id": 6,
+      "name": "Lists_Notes",
+      "definition": "Requests to manage shopping lists, to-do lists, and personal notes."
+    },
+    {
+      "id": 7,
+      "name": "Informational_Queries",
+      "definition": "Requests for general knowledge, facts, definitions, calculations, and trivia."
+    },
+    {
+      "id": 8,
+      "name": "Device_Settings",
+      "definition": "Requests to adjust device configurations, voice settings, volume, and user preferences."
+    },
+    {
+      "id": 9,
+      "name": "Communication",
+      "definition": "Requests to send messages, share location, or make phone calls to contacts."
+    },
+    {
+      "id": 10,
+      "name": "Food_Recipes",
+      "definition": "Requests for cooking instructions, recipes, nutritional information, and food preparation."
+    },
+    {
+      "id": 11,
+      "name": "Orders_Delivery",
+      "definition": "Requests to check status, track packages, or place orders for physical goods."
+    },
+    {
+      "id": 12,
+      "name": "Device_Support",
+      "definition": "Requests to locate a lost phone or manage device connections and syncing."
+    },
+    {
+      "id": 13,
+      "name": "Small_Talk",
+      "definition": "Phatic expressions, greetings, closings, and casual conversation about the assistant's persona."
+    },
+    {
+      "id": 14,
+      "name": "Insurance",
+      "definition": "Requests regarding insurance plans, coverage, and policy management."
+    }
+  ]
+}

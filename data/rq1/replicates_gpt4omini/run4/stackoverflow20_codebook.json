@@ -1,0 +1,160 @@
+{
+  "bench": "stackoverflow20",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language and its features."
+    },
+    {
+      "id": 2,
+      "name": "SharePoint",
+      "definition": "Questions regarding SharePoint development, configuration, and usage."
+    },
+    {
+      "id": 3,
+      "name": "Excel",
+      "definition": "Questions about Microsoft Excel, including formulas, macros, and VBA."
+    },
+    {
+      "id": 4,
+      "name": "Drupal",
+      "definition": "Questions related to Drupal content management system and its modules."
+    },
+    {
+      "id": 5,
+      "name": "Spring",
+      "definition": "Questions about the Spring Framework and its components."
+    },
+    {
+      "id": 6,
+      "name": "Hibernate",
+      "definition": "Questions regarding Hibernate ORM and its usage."
+    },
+    {
+      "id": 7,
+      "name": "Magento",
+      "definition": "Questions related to Magento eCommerce platform and its development."
+    },
+    {
+      "id": 8,
+      "name": "Cocoa",
+      "definition": "Questions about Cocoa framework for macOS development."
+    },
+    {
+      "id": 9,
+      "name": "Qt",
+      "definition": "Questions related to the Qt framework for cross-platform application development."
+    },
+    {
+      "id": 10,
+      "name": "Bash",
+      "definition": "Questions about Bash scripting and command line usage."
+    },
+    {
+      "id": 11,
+      "name": "Haskell",
+      "definition": "Questions related to the Haskell programming language."
+    },
+    {
+      "id": 12,
+      "name": "PHP",
+      "definition": "Questions regarding PHP programming and web development."
+    },
+    {
+      "id": 13,
+      "name": "Java",
+      "definition": "Questions related to Java programming and its frameworks."
+    },
+    {
+      "id": 14,
+      "name": "Oracle",
+      "definition": "Questions about Oracle database and SQL queries."
+    },
+    {
+      "id": 15,
+      "name": "Visual Studio",
+      "definition": "Questions related to Microsoft Visual Studio IDE and its features."
+    },
+    {
+      "id": 16,
+      "name": "AJAX",
+      "definition": "Questions about AJAX technology and its implementation."
+    },
+    {
+      "id": 17,
+      "name": "C#",
+      "definition": "Questions related to C# programming language and .NET framework."
+    },
+    {
+      "id": 18,
+      "name": "Python",
+      "definition": "Questions regarding Python programming and its libraries."
+    },
+    {
+      "id": 19,
+      "name": "JavaScript",
+      "definition": "Questions related to JavaScript programming and web development."
+    },
+    {
+      "id": 20,
+      "name": "SQL",
+      "definition": "Questions about SQL and database management."
+    },
+    {
+      "id": 21,
+      "name": "AppleScript",
+      "definition": "Questions related to AppleScript for automating macOS tasks."
+    },
+    {
+      "id": 22,
+      "name": "MATLAB",
+      "definition": "Questions regarding MATLAB programming and its applications."
+    },
+    {
+      "id": 23,
+      "name": "Trac",
+      "definition": "Questions related to Trac project management and issue tracking."
+    },
+    {
+      "id": 24,
+      "name": "XML",
+      "definition": "Questions about XML data format and its usage."
+    },
+    {
+      "id": 25,
+      "name": "SOAP",
+      "definition": "Questions related to SOAP web services and their implementation."
+    },
+    {
+      "id": 26,
+      "name": "C++",
+      "definition": "Questions regarding C++ programming language and its features."
+    },
+    {
+      "id": 27,
+      "name": "jQuery",
+      "definition": "Questions related to jQuery library and its usage."
+    },
+    {
+      "id": 28,
+      "name": "Log4j",
+      "definition": "Questions about Log4j logging framework."
+    },
+    {
+      "id": 29,
+      "name": "Entity Framework",
+      "definition": "Questions related to Entity Framework for .NET applications."
+    },
+    {
+      "id": 30,
+      "name": "Subversion",
+      "definition": "Questions regarding Subversion version control system."
+    }
+  ]
+}

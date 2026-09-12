@@ -1,0 +1,110 @@
+{
+  "bench": "dbpedia",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "People",
+      "definition": "Individuals, including politicians, athletes, musicians, actors, and authors."
+    },
+    {
+      "id": 2,
+      "name": "Buildings and Structures",
+      "definition": "Physical structures such as towers, schools, universities, and churches."
+    },
+    {
+      "id": 3,
+      "name": "Plants",
+      "definition": "Various species of plants and trees."
+    },
+    {
+      "id": 4,
+      "name": "Music",
+      "definition": "Albums, songs, and music artists."
+    },
+    {
+      "id": 5,
+      "name": "Schools and Colleges",
+      "definition": "Educational institutions including colleges and high schools."
+    },
+    {
+      "id": 6,
+      "name": "Military Ships",
+      "definition": "Ships and naval vessels used by the military."
+    },
+    {
+      "id": 7,
+      "name": "Literature",
+      "definition": "Books, novels, and authors."
+    },
+    {
+      "id": 8,
+      "name": "Mountains and Lakes",
+      "definition": "Geographical features such as mountains and lakes."
+    },
+    {
+      "id": 9,
+      "name": "Companies",
+      "definition": "Businesses and corporations."
+    },
+    {
+      "id": 10,
+      "name": "Movies and TV Shows",
+      "definition": "Films, TV series, and directors."
+    },
+    {
+      "id": 11,
+      "name": "Newspapers and Magazines",
+      "definition": "Print media publications."
+    },
+    {
+      "id": 12,
+      "name": "Universities",
+      "definition": "Higher education institutions."
+    },
+    {
+      "id": 13,
+      "name": "Artists",
+      "definition": "Visual artists, painters, and sculptors."
+    },
+    {
+      "id": 14,
+      "name": "Sports",
+      "definition": "Athletes, sports teams, and competitions."
+    },
+    {
+      "id": 15,
+      "name": "Airlines",
+      "definition": "Companies and services related to air travel."
+    },
+    {
+      "id": 16,
+      "name": "Historical Figures",
+      "definition": "Prominent historical figures and leaders."
+    },
+    {
+      "id": 17,
+      "name": "Churches",
+      "definition": "Religious buildings and places of worship."
+    },
+    {
+      "id": 18,
+      "name": "Authors",
+      "definition": "Writers, novelists, and playwrights."
+    },
+    {
+      "id": 19,
+      "name": "Art",
+      "definition": "Artistic works, galleries, and exhibitions."
+    },
+    {
+      "id": 20,
+      "name": "Movies",
+      "definition": "Films, directors, and actors."
+    }
+  ]
+}

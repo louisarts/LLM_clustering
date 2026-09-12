@@ -1,0 +1,60 @@
+{
+  "bench": "arxiv_fine",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.LG",
+      "definition": "Machine learning, artificial intelligence, neural networks"
+    },
+    {
+      "id": 2,
+      "name": "math.AG",
+      "definition": "Algebraic geometry, algebraic topology, commutative algebra"
+    },
+    {
+      "id": 3,
+      "name": "physics.optics",
+      "definition": "Optics, photonics, laser physics"
+    },
+    {
+      "id": 4,
+      "name": "q-bio.CB",
+      "definition": "Cell biology, molecular biology, biophysics"
+    },
+    {
+      "id": 5,
+      "name": "stat.ML",
+      "definition": "Machine learning, statistical learning, data mining"
+    },
+    {
+      "id": 6,
+      "name": "econ.EM",
+      "definition": "Econometrics, financial economics, asset pricing"
+    },
+    {
+      "id": 7,
+      "name": "quant-ph",
+      "definition": "Quantum physics, quantum computing, quantum information"
+    },
+    {
+      "id": 8,
+      "name": "cond-mat.mes-hall",
+      "definition": "Condensed matter physics, mesoscopic systems, quantum Hall effect"
+    },
+    {
+      "id": 9,
+      "name": "hep-th",
+      "definition": "High energy physics - theory, string theory, quantum field theory"
+    },
+    {
+      "id": 10,
+      "name": "astro-ph.CO",
+      "definition": "Cosmology, dark matter, dark energy, large-scale structure of the universe"
+    }
+  ]
+}

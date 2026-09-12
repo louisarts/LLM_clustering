@@ -1,0 +1,80 @@
+{
+  "bench": "banking77",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Issues",
+      "definition": "Queries related to problems with card usage, activation, or delivery."
+    },
+    {
+      "id": 2,
+      "name": "Transfer Issues",
+      "definition": "Queries about problems with money transfers, including pending or declined transfers."
+    },
+    {
+      "id": 3,
+      "name": "Top-Up Issues",
+      "definition": "Queries regarding problems with topping up accounts, including pending or failed top-ups."
+    },
+    {
+      "id": 4,
+      "name": "ATM Issues",
+      "definition": "Queries related to ATM transactions, including incorrect cash amounts or card retention."
+    },
+    {
+      "id": 5,
+      "name": "Fees and Charges",
+      "definition": "Queries about unexpected fees or charges on accounts or transactions."
+    },
+    {
+      "id": 6,
+      "name": "Account Management",
+      "definition": "Queries related to managing account details, including opening, closing, or modifying accounts."
+    },
+    {
+      "id": 7,
+      "name": "Identity Verification",
+      "definition": "Queries about identity verification processes and requirements."
+    },
+    {
+      "id": 8,
+      "name": "Currency Exchange",
+      "definition": "Queries about currency exchange rates and supported currencies."
+    },
+    {
+      "id": 9,
+      "name": "Fraud and Security",
+      "definition": "Queries related to suspected fraud or unauthorized use of accounts or cards."
+    },
+    {
+      "id": 10,
+      "name": "Payment Issues",
+      "definition": "Queries about declined payments or issues with specific payment methods."
+    },
+    {
+      "id": 11,
+      "name": "PIN Issues",
+      "definition": "Queries related to problems with card PINs, including unlocking or changing PINs."
+    },
+    {
+      "id": 12,
+      "name": "Virtual and Disposable Cards",
+      "definition": "Queries about virtual or disposable card usage and limits."
+    },
+    {
+      "id": 13,
+      "name": "Delivery and Shipping",
+      "definition": "Queries about the delivery status or tracking of cards or other banking materials."
+    },
+    {
+      "id": 14,
+      "name": "General Information",
+      "definition": "Queries seeking general information about banking services, policies, or procedures."
+    }
+  ]
+}

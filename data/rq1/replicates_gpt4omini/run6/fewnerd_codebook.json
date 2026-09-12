@@ -1,0 +1,160 @@
+{
+  "bench": "fewnerd",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Country",
+      "definition": "A nation with its own government, occupying a particular territory."
+    },
+    {
+      "id": 2,
+      "name": "City",
+      "definition": "A large human settlement, typically with a significant population and infrastructure."
+    },
+    {
+      "id": 3,
+      "name": "Political Entity",
+      "definition": "An organization or group that has political authority or governance."
+    },
+    {
+      "id": 4,
+      "name": "Sport League",
+      "definition": "A group of sports teams that compete against each other."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "A significant occurrence or happening, often scheduled or planned."
+    },
+    {
+      "id": 6,
+      "name": "Organization",
+      "definition": "A group of people with a particular purpose, often structured and formal."
+    },
+    {
+      "id": 7,
+      "name": "Educational Institution",
+      "definition": "An establishment dedicated to education, such as schools or universities."
+    },
+    {
+      "id": 8,
+      "name": "Cultural Institution",
+      "definition": "An organization that promotes cultural activities, such as theaters or museums."
+    },
+    {
+      "id": 9,
+      "name": "Historical Figure",
+      "definition": "A person who has had a significant impact on history."
+    },
+    {
+      "id": 10,
+      "name": "Mythological Figure",
+      "definition": "A character from mythology, often representing cultural beliefs or stories."
+    },
+    {
+      "id": 11,
+      "name": "Scientific Term",
+      "definition": "A term used in scientific contexts, often related to biology, chemistry, or physics."
+    },
+    {
+      "id": 12,
+      "name": "Disease/Condition",
+      "definition": "A medical condition or illness affecting health."
+    },
+    {
+      "id": 13,
+      "name": "Artistic Work",
+      "definition": "A creation in the field of art, literature, or performance."
+    },
+    {
+      "id": 14,
+      "name": "Geographical Feature",
+      "definition": "A natural landform or physical feature of the Earth."
+    },
+    {
+      "id": 15,
+      "name": "Religious Group",
+      "definition": "A community of people who share a common religious belief."
+    },
+    {
+      "id": 16,
+      "name": "Technology/Software",
+      "definition": "A product or system related to technology or computing."
+    },
+    {
+      "id": 17,
+      "name": "Food/Beverage",
+      "definition": "An item that is consumed for nourishment or enjoyment."
+    },
+    {
+      "id": 18,
+      "name": "Legal Document",
+      "definition": "A formal document that has legal significance."
+    },
+    {
+      "id": 19,
+      "name": "Historical Event",
+      "definition": "A significant occurrence in history that has lasting impact."
+    },
+    {
+      "id": 20,
+      "name": "Biological Entity",
+      "definition": "A living organism or biological component."
+    },
+    {
+      "id": 21,
+      "name": "Political Movement",
+      "definition": "A collective effort by a group to promote or resist change in political policies."
+    },
+    {
+      "id": 22,
+      "name": "Literary Work",
+      "definition": "A written work, especially one considered to have artistic merit."
+    },
+    {
+      "id": 23,
+      "name": "Sport",
+      "definition": "An activity involving physical exertion and skill in which an individual or team competes against another."
+    },
+    {
+      "id": 24,
+      "name": "Transportation",
+      "definition": "A means of conveying people or goods from one place to another."
+    },
+    {
+      "id": 25,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 26,
+      "name": "Plant Species",
+      "definition": "A specific type of plant categorized by its characteristics."
+    },
+    {
+      "id": 27,
+      "name": "Animal Species",
+      "definition": "A specific type of animal categorized by its characteristics."
+    },
+    {
+      "id": 28,
+      "name": "Philosophical Concept",
+      "definition": "An idea or theory that is part of philosophical discourse."
+    },
+    {
+      "id": 29,
+      "name": "Historical Document",
+      "definition": "A document that provides information about historical events or periods."
+    },
+    {
+      "id": 30,
+      "name": "Social Movement",
+      "definition": "A collective effort by a group to promote or resist social change."
+    }
+  ]
+}

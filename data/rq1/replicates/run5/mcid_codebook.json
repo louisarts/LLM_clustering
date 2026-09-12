@@ -1,0 +1,72 @@
+{
+  "bench": "mcid",
+  "run": 5,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General COVID-19 Information",
+      "definition": "User seeks general facts, descriptions, or broad information about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Health Impact",
+      "definition": "User asks about symptoms, health effects, or personal health status related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Transmission and Prevention",
+      "definition": "User asks about how COVID-19 spreads or general measures to prevent infection."
+    },
+    {
+      "id": 4,
+      "name": "Treatment and Vaccine",
+      "definition": "User asks about treatments, cures, or vaccines for COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Statistics and Updates",
+      "definition": "User requests current statistics, news, or general updates about COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Location-Specific Restrictions/Risks",
+      "definition": "User asks about travel safety, restrictions, or risk levels related to COVID-19 in specific locations."
+    },
+    {
+      "id": 7,
+      "name": "Myths and Misinformation Debunking",
+      "definition": "User asks to confirm or debunk a specific myth or false claim about COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Animal-Related Concerns",
+      "definition": "User asks about COVID-19 transmission to or from animals, or its impact on them."
+    },
+    {
+      "id": 9,
+      "name": "Object/Surface-Related Concerns",
+      "definition": "User asks about COVID-19 survival or transmission via objects and surfaces, including cleaning practices for them."
+    },
+    {
+      "id": 10,
+      "name": "Personal Guidance/Risk Assessment",
+      "definition": "User seeks advice or assessment for a personal situation or specific scenario related to COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Bot Interaction/Gratitude",
+      "definition": "User expresses greetings, thanks, or general acknowledgement to the bot."
+    },
+    {
+      "id": 12,
+      "name": "Sharing Content/Functionality",
+      "definition": "User requests to share information, links, or the bot's functionality."
+    },
+    {
+      "id": 13,
+      "name": "Donation/Support Requests",
+      "definition": "User expresses intent to donate or asks how to support COVID-19 relief efforts."
+    }
+  ]
+}

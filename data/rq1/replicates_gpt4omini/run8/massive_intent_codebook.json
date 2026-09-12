@@ -1,0 +1,110 @@
+{
+  "bench": "massive_intent",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Diet and Health Management",
+      "definition": "Commands related to diet planning, reminders for health-related events, and dietary advice."
+    },
+    {
+      "id": 2,
+      "name": "Email Management",
+      "definition": "Commands for sending, composing, checking, and managing emails."
+    },
+    {
+      "id": 3,
+      "name": "Information Retrieval",
+      "definition": "Requests for definitions, explanations, and general knowledge inquiries."
+    },
+    {
+      "id": 4,
+      "name": "Travel and Transportation",
+      "definition": "Commands related to booking tickets, checking travel times, and arranging transportation."
+    },
+    {
+      "id": 5,
+      "name": "Weather Updates",
+      "definition": "Requests for current weather conditions, forecasts, and related inquiries."
+    },
+    {
+      "id": 6,
+      "name": "News Updates",
+      "definition": "Requests for the latest news, headlines, and specific news topics."
+    },
+    {
+      "id": 7,
+      "name": "Reminders and Alarms",
+      "definition": "Commands to set, modify, or delete reminders and alarms."
+    },
+    {
+      "id": 8,
+      "name": "Music and Audio Control",
+      "definition": "Commands to play, pause, or manage music and audio content."
+    },
+    {
+      "id": 9,
+      "name": "Social Media Management",
+      "definition": "Commands related to posting, tweeting, and managing social media accounts."
+    },
+    {
+      "id": 10,
+      "name": "Calendar Management",
+      "definition": "Commands for scheduling, checking, and managing calendar events."
+    },
+    {
+      "id": 11,
+      "name": "Task and List Management",
+      "definition": "Commands for creating, modifying, and deleting task lists and to-do items."
+    },
+    {
+      "id": 12,
+      "name": "Home Automation",
+      "definition": "Commands to control smart home devices, such as lights and appliances."
+    },
+    {
+      "id": 13,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes, cooking instructions, and food-related inquiries."
+    },
+    {
+      "id": 14,
+      "name": "Local Information",
+      "definition": "Requests for information about local events, places, and services."
+    },
+    {
+      "id": 15,
+      "name": "Jokes and Entertainment",
+      "definition": "Requests for jokes, entertainment suggestions, and fun content."
+    },
+    {
+      "id": 16,
+      "name": "Traffic and Navigation",
+      "definition": "Requests for traffic conditions and navigation assistance."
+    },
+    {
+      "id": 17,
+      "name": "Shopping and Purchases",
+      "definition": "Commands related to shopping lists, product inquiries, and purchasing items."
+    },
+    {
+      "id": 18,
+      "name": "Personal Assistance",
+      "definition": "General requests for assistance, advice, or personal inquiries."
+    },
+    {
+      "id": 19,
+      "name": "Event Planning",
+      "definition": "Commands related to planning and organizing events or gatherings."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous Commands",
+      "definition": "Commands that do not fit into other categories, including unique or one-off requests."
+    }
+  ]
+}

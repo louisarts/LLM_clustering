@@ -1,0 +1,110 @@
+{
+  "bench": "fewrel",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Temporal Relation",
+      "definition": "The relation involves a time-based connection between entities."
+    },
+    {
+      "id": 2,
+      "name": "Role or Occupation",
+      "definition": "One entity is a role or occupation of the other."
+    },
+    {
+      "id": 3,
+      "name": "Authorship or Creation",
+      "definition": "One entity is the creator or author of the other."
+    },
+    {
+      "id": 4,
+      "name": "Location or Origin",
+      "definition": "One entity is the location or origin of the other."
+    },
+    {
+      "id": 5,
+      "name": "Association or Affiliation",
+      "definition": "One entity is associated or affiliated with the other."
+    },
+    {
+      "id": 6,
+      "name": "Component or Part",
+      "definition": "One entity is a component or part of the other."
+    },
+    {
+      "id": 7,
+      "name": "Event Participation",
+      "definition": "One entity participated in an event related to the other."
+    },
+    {
+      "id": 8,
+      "name": "Ownership or Possession",
+      "definition": "One entity owns or possesses the other."
+    },
+    {
+      "id": 9,
+      "name": "Family or Lineage",
+      "definition": "One entity is a family member or ancestor of the other."
+    },
+    {
+      "id": 10,
+      "name": "Comparison or Contrast",
+      "definition": "The relation involves a comparison or contrast between entities."
+    },
+    {
+      "id": 11,
+      "name": "Subcategory or Type",
+      "definition": "One entity is a subcategory or type of the other."
+    },
+    {
+      "id": 12,
+      "name": "Historical or Cultural Significance",
+      "definition": "One entity has historical or cultural significance to the other."
+    },
+    {
+      "id": 13,
+      "name": "Cause or Effect",
+      "definition": "One entity causes or affects the other."
+    },
+    {
+      "id": 14,
+      "name": "Collaboration or Partnership",
+      "definition": "Entities collaborated or partnered together."
+    },
+    {
+      "id": 15,
+      "name": "Representation or Symbolism",
+      "definition": "One entity represents or symbolizes the other."
+    },
+    {
+      "id": 16,
+      "name": "Material or Substance",
+      "definition": "One entity is made of or consists of the other."
+    },
+    {
+      "id": 17,
+      "name": "Function or Purpose",
+      "definition": "One entity serves a function or purpose for the other."
+    },
+    {
+      "id": 18,
+      "name": "Legal or Political Relation",
+      "definition": "The relation involves a legal or political connection between entities."
+    },
+    {
+      "id": 19,
+      "name": "Scientific or Taxonomic Classification",
+      "definition": "One entity is classified scientifically or taxonomically in relation to the other."
+    },
+    {
+      "id": 20,
+      "name": "Media or Entertainment",
+      "definition": "One entity is related to media or entertainment involving the other."
+    }
+  ]
+}

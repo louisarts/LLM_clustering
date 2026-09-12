@@ -1,0 +1,120 @@
+{
+  "bench": "massive_intent",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music Control",
+      "definition": "Commands related to playing, pausing, or controlling music playback."
+    },
+    {
+      "id": 2,
+      "name": "Volume Control",
+      "definition": "Commands to adjust the volume of a device."
+    },
+    {
+      "id": 3,
+      "name": "Lighting Control",
+      "definition": "Commands to change the lighting settings, such as color or brightness."
+    },
+    {
+      "id": 4,
+      "name": "Calendar Management",
+      "definition": "Commands to add, remove, or inquire about calendar events."
+    },
+    {
+      "id": 5,
+      "name": "Alarm and Reminder Management",
+      "definition": "Commands to set, check, or delete alarms and reminders."
+    },
+    {
+      "id": 6,
+      "name": "Email Management",
+      "definition": "Commands to send, check, or manage emails."
+    },
+    {
+      "id": 7,
+      "name": "Weather Inquiry",
+      "definition": "Commands to inquire about current or future weather conditions."
+    },
+    {
+      "id": 8,
+      "name": "News and Information",
+      "definition": "Commands to get news updates or general information."
+    },
+    {
+      "id": 9,
+      "name": "Currency and Exchange Rates",
+      "definition": "Commands to inquire about currency values or exchange rates."
+    },
+    {
+      "id": 10,
+      "name": "Time and Date Inquiry",
+      "definition": "Commands to inquire about the current time or date."
+    },
+    {
+      "id": 11,
+      "name": "Travel and Navigation",
+      "definition": "Commands related to booking travel or getting navigation information."
+    },
+    {
+      "id": 12,
+      "name": "Home Automation",
+      "definition": "Commands to control smart home devices like plugs or vacuums."
+    },
+    {
+      "id": 13,
+      "name": "Social Media Interaction",
+      "definition": "Commands to post or interact on social media platforms."
+    },
+    {
+      "id": 14,
+      "name": "General Knowledge Inquiry",
+      "definition": "Commands to ask for definitions or general knowledge information."
+    },
+    {
+      "id": 15,
+      "name": "Entertainment Suggestions",
+      "definition": "Commands asking for suggestions on what to watch or listen to."
+    },
+    {
+      "id": 16,
+      "name": "Jokes and Humor",
+      "definition": "Commands requesting jokes or humorous content."
+    },
+    {
+      "id": 17,
+      "name": "Recipe and Cooking",
+      "definition": "Commands asking for recipes or cooking instructions."
+    },
+    {
+      "id": 18,
+      "name": "Contact Information",
+      "definition": "Commands to find or inquire about contact details."
+    },
+    {
+      "id": 19,
+      "name": "Shopping and Orders",
+      "definition": "Commands related to shopping or checking order status."
+    },
+    {
+      "id": 20,
+      "name": "Task and List Management",
+      "definition": "Commands to create, delete, or manage tasks and lists."
+    },
+    {
+      "id": 21,
+      "name": "Sports Updates",
+      "definition": "Commands to get updates or notifications about sports."
+    },
+    {
+      "id": 22,
+      "name": "Device Control",
+      "definition": "Commands to control or interact with electronic devices."
+    }
+  ]
+}

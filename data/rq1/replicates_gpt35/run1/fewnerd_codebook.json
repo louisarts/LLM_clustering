@@ -1,0 +1,205 @@
+{
+  "bench": "fewnerd",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "chunked_no_target",
+  "clip_chars": 150,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Anheuser Busch",
+      "definition": "The entity type of Anheuser Busch"
+    },
+    {
+      "id": 2,
+      "name": "Treasure Island Hotel",
+      "definition": "The entity type of Treasure Island Hotel"
+    },
+    {
+      "id": 3,
+      "name": "Nortel Football Club",
+      "definition": "The entity type of Nortel Football Club"
+    },
+    {
+      "id": 4,
+      "name": "Monkstown",
+      "definition": "The entity type of Monkstown"
+    },
+    {
+      "id": 5,
+      "name": "Newtownabbey",
+      "definition": "The entity type of Newtownabbey"
+    },
+    {
+      "id": 6,
+      "name": "Philip Sheridan",
+      "definition": "The entity type of Philip Sheridan"
+    },
+    {
+      "id": 7,
+      "name": "V Corps",
+      "definition": "The entity type of V Corps"
+    },
+    {
+      "id": 8,
+      "name": "Born Ruffians",
+      "definition": "The entity type of Born Ruffians"
+    },
+    {
+      "id": 9,
+      "name": "Tweedmouth",
+      "definition": "The entity type of Tweedmouth"
+    },
+    {
+      "id": 10,
+      "name": "Kelso",
+      "definition": "The entity type of Kelso"
+    },
+    {
+      "id": 11,
+      "name": "PA 333",
+      "definition": "The entity type of PA 333"
+    },
+    {
+      "id": 12,
+      "name": "Tuscarora",
+      "definition": "The entity type of Tuscarora"
+    },
+    {
+      "id": 13,
+      "name": "Walker Township",
+      "definition": "The entity type of Walker Township"
+    },
+    {
+      "id": 14,
+      "name": "Lebanese Elite Cup",
+      "definition": "The entity type of Lebanese Elite Cup"
+    },
+    {
+      "id": 15,
+      "name": "Radio Nova",
+      "definition": "The entity type of Radio Nova"
+    },
+    {
+      "id": 16,
+      "name": "Mammoth Spring",
+      "definition": "The entity type of Mammoth Spring"
+    },
+    {
+      "id": 17,
+      "name": "USFS",
+      "definition": "The entity type of USFS"
+    },
+    {
+      "id": 18,
+      "name": "Channel 4",
+      "definition": "The entity type of Channel 4"
+    },
+    {
+      "id": 19,
+      "name": "Big Eight Men's Basketball Tournament",
+      "definition": "The entity type of Big Eight Men's Basketball Tournament"
+    },
+    {
+      "id": 20,
+      "name": "ESB-PSV",
+      "definition": "The entity type of ESB-PSV"
+    },
+    {
+      "id": 21,
+      "name": "Holmes-Dennis",
+      "definition": "The entity type of Holmes-Dennis"
+    },
+    {
+      "id": 22,
+      "name": "Huddersfield Town",
+      "definition": "The entity type of Huddersfield Town"
+    },
+    {
+      "id": 23,
+      "name": "C Company",
+      "definition": "The entity type of C Company"
+    },
+    {
+      "id": 24,
+      "name": "M2A3 Bradley Fighting Vehicles",
+      "definition": "The entity type of M2A3 Bradley Fighting Vehicles"
+    },
+    {
+      "id": 25,
+      "name": "Comprom\u00eds PV",
+      "definition": "The entity type of Comprom\u00eds PV"
+    },
+    {
+      "id": 26,
+      "name": "Port Lincoln",
+      "definition": "City"
+    },
+    {
+      "id": 27,
+      "name": "Dudley Hewitt Cup",
+      "definition": "Sports tournament"
+    },
+    {
+      "id": 28,
+      "name": "Krishna",
+      "definition": "Person"
+    },
+    {
+      "id": 29,
+      "name": "Manhattan Theater Club",
+      "definition": "Theater"
+    },
+    {
+      "id": 30,
+      "name": "Tinian International Airport",
+      "definition": "Airport"
+    },
+    {
+      "id": 31,
+      "name": "Bacillus subtilis",
+      "definition": "Bacteria"
+    },
+    {
+      "id": 32,
+      "name": "Savoy Theatre",
+      "definition": "Theater"
+    },
+    {
+      "id": 33,
+      "name": "Philadelphia Family Court building",
+      "definition": "Building"
+    },
+    {
+      "id": 34,
+      "name": "Krishnaraja Wadiyar III",
+      "definition": "Person"
+    },
+    {
+      "id": 35,
+      "name": "Big Hat",
+      "definition": "Location"
+    },
+    {
+      "id": 36,
+      "name": "Fiat-Ansaldo M13/40",
+      "definition": "Tank"
+    },
+    {
+      "id": 37,
+      "name": "Jermaine O'Neal",
+      "definition": "Person"
+    },
+    {
+      "id": 38,
+      "name": "Slovincian",
+      "definition": "Language"
+    },
+    {
+      "id": 39,
+      "name": "Raja Bongsu-I",
+      "definition": "Person"
+    }
+  ]
+}

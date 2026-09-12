@@ -1,0 +1,52 @@
+[
+ {
+  "id": 1,
+  "name": "Banking and Finance",
+  "definition": "Queries related to bank accounts, credit cards, balances, payments, and financial transactions."
+ },
+ {
+  "id": 2,
+  "name": "Travel and Navigation",
+  "definition": "Requests for directions, location finding, ride booking, travel safety, and local business information."
+ },
+ {
+  "id": 3,
+  "name": "Device and Media Control",
+  "definition": "Commands to control smart devices, play music, manage timers, or interact with phone settings."
+ },
+ {
+  "id": 4,
+  "name": "Food and Cooking",
+  "definition": "Questions and instructions regarding recipes, cooking times, food safety, and ingredient substitution."
+ },
+ {
+  "id": 5,
+  "name": "Productivity and Organization",
+  "definition": "Tasks involving scheduling, lists, reminders, and workplace management."
+ },
+ {
+  "id": 6,
+  "name": "General Knowledge and Trivia",
+  "definition": "Open-ended questions about facts, definitions, currency conversion, and general information."
+ },
+ {
+  "id": 7,
+  "name": "Personal Assistant Configuration",
+  "definition": "Commands to change assistant settings, user preferences, or the nature of the interaction."
+ },
+ {
+  "id": 8,
+  "name": "Creative and Entertainment",
+  "definition": "Requests for games, dice rolls, random generation, or other leisure activities."
+ },
+ {
+  "id": 9,
+  "name": "Communication and Messaging",
+  "definition": "Sending messages, emails, or notifications to contacts."
+ },
+ {
+  "id": 10,
+  "name": "Health and Lifestyle",
+  "definition": "Managing personal health, fitness, hobbies, and home maintenance."
+ }
+]

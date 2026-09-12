@@ -1,0 +1,75 @@
+{
+  "bench": "tweet89",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl",
+      "definition": "Tweets related to the Super Bowl event, including commercials, performances, and related discussions."
+    },
+    {
+      "id": 2,
+      "name": "Protests",
+      "definition": "Tweets discussing protests, including specific events in countries like Yemen and Jordan."
+    },
+    {
+      "id": 3,
+      "name": "Health and Diet",
+      "definition": "Tweets about health-related topics, particularly focusing on diets, weight loss, and health benefits."
+    },
+    {
+      "id": 4,
+      "name": "Fishing",
+      "definition": "Tweets related to fishing activities, tips, reports, and fishing gear."
+    },
+    {
+      "id": 5,
+      "name": "Academics and Scholarships",
+      "definition": "Tweets discussing academic opportunities, scholarships, and educational institutions."
+    },
+    {
+      "id": 6,
+      "name": "Entertainment and Awards",
+      "definition": "Tweets about movies, award nominations, and performances, particularly related to the Oscars."
+    },
+    {
+      "id": 7,
+      "name": "Technology and Social Media",
+      "definition": "Tweets discussing technology, social media platforms, and related news."
+    },
+    {
+      "id": 8,
+      "name": "Legal and Political Issues",
+      "definition": "Tweets about legal rulings, political events, and government actions."
+    },
+    {
+      "id": 9,
+      "name": "Celebrity News",
+      "definition": "Tweets related to celebrities, their activities, and public appearances."
+    },
+    {
+      "id": 10,
+      "name": "Consumer Issues",
+      "definition": "Tweets discussing consumer rights, product lawsuits, and corporate practices."
+    },
+    {
+      "id": 11,
+      "name": "Environmental Issues",
+      "definition": "Tweets related to environmental concerns, including climate change and natural disasters."
+    },
+    {
+      "id": 12,
+      "name": "Driving Safety",
+      "definition": "Tweets promoting safe driving practices, particularly against texting while driving."
+    },
+    {
+      "id": 13,
+      "name": "International Relations",
+      "definition": "Tweets discussing international events, conflicts, and diplomatic relations."
+    }
+  ]
+}

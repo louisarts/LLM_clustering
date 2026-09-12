@@ -1,0 +1,1327 @@
+[
+ {
+  "id": 1,
+  "name": "Magento",
+  "definition": "Questions related to the Magento e-commerce platform"
+ },
+ {
+  "id": 2,
+  "name": "Oracle",
+  "definition": "Questions related to the Oracle database technology"
+ },
+ {
+  "id": 3,
+  "name": "SQL Server",
+  "definition": "Questions related to the SQL Server database technology"
+ },
+ {
+  "id": 4,
+  "name": "Scala",
+  "definition": "Questions related to the Scala programming language"
+ },
+ {
+  "id": 5,
+  "name": "SVN",
+  "definition": "Questions related to the SVN version control system"
+ },
+ {
+  "id": 6,
+  "name": "RewriteRules",
+  "definition": "Questions related to Apache RewriteRules configuration"
+ },
+ {
+  "id": 7,
+  "name": "SharePoint",
+  "definition": "Questions related to the SharePoint platform"
+ },
+ {
+  "id": 8,
+  "name": "ISA",
+  "definition": "Questions related to Microsoft Internet Security and Acceleration Server"
+ },
+ {
+  "id": 9,
+  "name": "QHash",
+  "definition": "Questions related to the QHash data structure in Qt"
+ },
+ {
+  "id": 10,
+  "name": "QMap",
+  "definition": "Questions related to the QMap data structure in Qt"
+ },
+ {
+  "id": 11,
+  "name": "AJAX",
+  "definition": "Questions related to AJAX technology"
+ },
+ {
+  "id": 12,
+  "name": "Apache FtpServer",
+  "definition": "Questions related to the Apache FtpServer software"
+ },
+ {
+  "id": 13,
+  "name": "NSPreferencePane",
+  "definition": "Questions related to creating and locking NSPreferencePane in macOS development"
+ },
+ {
+  "id": 14,
+  "name": "Oracle .Net drivers",
+  "definition": "Questions related to the performance of Oracle drivers for .Net applications"
+ },
+ {
+  "id": 15,
+  "name": "SQLDeveloper",
+  "definition": "Questions related to Oracle SQLDeveloper tool"
+ },
+ {
+  "id": 16,
+  "name": "Drupal",
+  "definition": "Questions related to the Drupal content management system"
+ },
+ {
+  "id": 17,
+  "name": "XMLType",
+  "definition": "Questions related to Oracle XMLType data type"
+ },
+ {
+  "id": 18,
+  "name": "Visual Studio",
+  "definition": "Questions related to the Visual Studio IDE"
+ },
+ {
+  "id": 19,
+  "name": "Python",
+  "definition": "Questions related to Python programming language and development environment"
+ },
+ {
+  "id": 20,
+  "name": "REPL",
+  "definition": "Questions related to the Scala REPL (Read-Eval-Print Loop) environment"
+ },
+ {
+  "id": 21,
+  "name": "Matlab",
+  "definition": "Questions related to the Matlab programming language or tool"
+ },
+ {
+  "id": 22,
+  "name": "LINQ",
+  "definition": "Questions related to LINQ (Language Integrated Query) technology"
+ },
+ {
+  "id": 23,
+  "name": "LDAP",
+  "definition": "Questions related to LDAP (Lightweight Directory Access Protocol) technology"
+ },
+ {
+  "id": 24,
+  "name": "JIRA",
+  "definition": "Questions related to JIRA software"
+ },
+ {
+  "id": 25,
+  "name": "Eclipse RCP",
+  "definition": "Questions related to Eclipse Rich Client Platform"
+ },
+ {
+  "id": 26,
+  "name": "Wordpress",
+  "definition": "Questions related to Wordpress content management system"
+ },
+ {
+  "id": 27,
+  "name": "Core Data",
+  "definition": "Questions related to Core Data technology"
+ },
+ {
+  "id": 28,
+  "name": "AspectJ",
+  "definition": "Questions related to AspectJ programming language extension"
+ },
+ {
+  "id": 29,
+  "name": "Mac text-to-speech",
+  "definition": "Questions related to Mac text-to-speech technology"
+ },
+ {
+  "id": 30,
+  "name": "Simulink",
+  "definition": "Questions related to Simulink software for simulation and model-based design"
+ },
+ {
+  "id": 31,
+  "name": "Hibernate",
+  "definition": "Object-relational mapping tool for Java"
+ },
+ {
+  "id": 32,
+  "name": "Haskell Parsec",
+  "definition": "Parser combinator library for Haskell"
+ },
+ {
+  "id": 33,
+  "name": "Qt",
+  "definition": "Cross-platform application framework"
+ },
+ {
+  "id": 34,
+  "name": "VBA",
+  "definition": "Visual Basic for Applications"
+ },
+ {
+  "id": 35,
+  "name": "JPA",
+  "definition": "Java Persistence API"
+ },
+ {
+  "id": 36,
+  "name": "WxWidgets",
+  "definition": "Cross-platform GUI library"
+ },
+ {
+  "id": 37,
+  "name": "Spring",
+  "definition": "Java application framework"
+ },
+ {
+  "id": 38,
+  "name": "EJB",
+  "definition": "Enterprise JavaBeans"
+ },
+ {
+  "id": 39,
+  "name": "jQuery",
+  "definition": "JavaScript library"
+ },
+ {
+  "id": 40,
+  "name": "backtracking",
+  "definition": "Algorithmic technique"
+ },
+ {
+  "id": 41,
+  "name": "Haskell",
+  "definition": "Questions related to the Haskell programming language"
+ },
+ {
+  "id": 42,
+  "name": "Web Client Software Factory",
+  "definition": "Questions related to the Web Client Software Factory technology"
+ },
+ {
+  "id": 43,
+  "name": "VS2005",
+  "definition": "Questions related to Visual Studio 2005"
+ },
+ {
+  "id": 44,
+  "name": "CAML",
+  "definition": "Questions related to Collaborative Application Markup Language"
+ },
+ {
+  "id": 45,
+  "name": "scalaquery",
+  "definition": "Questions related to the ScalaQuery library"
+ },
+ {
+  "id": 46,
+  "name": "XPath in QT",
+  "definition": "Questions related to running XPath queries in QT"
+ },
+ {
+  "id": 47,
+  "name": "ResultSet in Spring-JDBC",
+  "definition": "Questions related to retrieving ResultSet from Spring-JDBC"
+ },
+ {
+  "id": 48,
+  "name": "Clearcase to SVN Migration Tools",
+  "definition": "Questions seeking recommendations on tools for migrating from Clearcase to SVN"
+ },
+ {
+  "id": 49,
+  "name": "Tomcat Persistent Sessions in Spring",
+  "definition": "Questions related to Spring not restoring tomcat persistent sessions to session registry after restart"
+ },
+ {
+  "id": 50,
+  "name": "Excel Server Presence Check",
+  "definition": "Questions on checking if Excel Server is present or not"
+ },
+ {
+  "id": 51,
+  "name": "Newline Handling in Bash Script",
+  "definition": "Questions related to handling newlines in Bash scripts"
+ },
+ {
+  "id": 52,
+  "name": "Unit Test Automation in SVN",
+  "definition": "Questions on the best way to run unit tests after each commit in SVN"
+ },
+ {
+  "id": 53,
+  "name": "Visual Studio 2003 Web Application Scroll Position",
+  "definition": "Questions on maintaining scroll position after postback in web applications created in Visual Studio 2003"
+ },
+ {
+  "id": 54,
+  "name": "SQLab Xpert Tuning for SQL Performance",
+  "definition": "Questions on using SQLab Xpert Tuning to tune SQL for better performance"
+ },
+ {
+  "id": 55,
+  "name": "JVM Alternatives",
+  "definition": "Questions related to alternatives to JVM and Java"
+ },
+ {
+  "id": 56,
+  "name": "Topsy Wordpress Plugin CSS Replacement",
+  "definition": "Questions on replacing CSS file for Topsy Wordpress plugin"
+ },
+ {
+  "id": 57,
+  "name": "CPU Intensive Request Tracking",
+  "definition": "Questions on tracking down CPU intensive requests"
+ },
+ {
+  "id": 58,
+  "name": "Mac OS X",
+  "definition": "Questions related to development on the Mac OS X operating system"
+ },
+ {
+  "id": 59,
+  "name": "ASP.Net",
+  "definition": "Questions related to development using ASP.Net"
+ },
+ {
+  "id": 60,
+  "name": "JavaScript",
+  "definition": "Questions related to the JavaScript programming language"
+ },
+ {
+  "id": 61,
+  "name": "Spring Web Flow",
+  "definition": "Questions related to the Spring Web Flow framework"
+ },
+ {
+  "id": 62,
+  "name": "IntelliJ",
+  "definition": "Questions related to issues or features in the IntelliJ IDE"
+ },
+ {
+  "id": 63,
+  "name": "Struts",
+  "definition": "Questions related to the Apache Struts framework"
+ },
+ {
+  "id": 64,
+  "name": "SharePoint Content Types",
+  "definition": "Questions related to listing content types associated with a specific site column in SharePoint"
+ },
+ {
+  "id": 65,
+  "name": "Excel Scripting",
+  "definition": "Questions related to scripting or querying Excel spreadsheets"
+ },
+ {
+  "id": 66,
+  "name": "PLSQL Error Handling",
+  "definition": "Questions related to throwing and catching specific error messages in PLSQL Oracle and Hibernate"
+ },
+ {
+  "id": 67,
+  "name": "Signal-Slot Binding in QT",
+  "definition": "Questions related to binding signals to slots in QT"
+ },
+ {
+  "id": 68,
+  "name": "Dynamic Pathfinding in Excel",
+  "definition": "Questions related to dynamically finding paths in Excel imports"
+ },
+ {
+  "id": 69,
+  "name": "Excel XML Data Mapping",
+  "definition": "Questions related to mapping XML data in Excel"
+ },
+ {
+  "id": 70,
+  "name": "HSQLDB with Hibernate",
+  "definition": "Questions related to using @Table with schema name in Hibernate 3.3.1ga and HSQLDB"
+ },
+ {
+  "id": 71,
+  "name": "Wordpress Minifying Plugin",
+  "definition": "Questions related to the best minifying plugin or tool for Wordpress based sites"
+ },
+ {
+  "id": 72,
+  "name": "Apache Basic Authentication",
+  "definition": "Questions related to whether Apache basic authentication defends against brute force attacks"
+ },
+ {
+  "id": 73,
+  "name": "Restlet Server Integration with Apache",
+  "definition": "Questions related to integrating Apache and Restlet server like Apache and Tomcat"
+ },
+ {
+  "id": 74,
+  "name": "Scalable Web Application Design",
+  "definition": "Questions related to the best practice design for a scalable web application involving session state"
+ },
+ {
+  "id": 75,
+  "name": "Sharepoint List Redirect",
+  "definition": "Questions related to redirecting Sharepoint List with new id"
+ },
+ {
+  "id": 76,
+  "name": "Javascript Favorites Star Switching",
+  "definition": "Questions related to switching favorites star in Javascript"
+ },
+ {
+  "id": 77,
+  "name": "Qt moc_ Include File Problem",
+  "definition": "Questions related to problems with Qt moc_ include file"
+ },
+ {
+  "id": 78,
+  "name": "Excel Forms Editing",
+  "definition": "Questions related to editing Excel forms"
+ },
+ {
+  "id": 79,
+  "name": "Qt Table and List View Model",
+  "definition": "Questions related to using a single Model for table and list view in Qt"
+ },
+ {
+  "id": 80,
+  "name": "Spring Memory Configuration",
+  "definition": "Questions related to configuring Spring to save as much memory as possible"
+ },
+ {
+  "id": 81,
+  "name": "Symbian QFontDatabase",
+  "definition": "Questions related to using QFontDatabase::addApplicationFont() in Symbian."
+ },
+ {
+  "id": 82,
+  "name": "Apache Prefork Process Count",
+  "definition": "Questions related to Apache prefork/mod_wsgi spawned process count seemingly past configuration."
+ },
+ {
+  "id": 83,
+  "name": "NSTextField",
+  "definition": "Questions related to disabling line breaks in NSTextField."
+ },
+ {
+  "id": 84,
+  "name": "Lighttpd",
+  "definition": "Questions related to converting Apache .htaccess files into Lighttpd rules."
+ },
+ {
+  "id": 85,
+  "name": "Visual Studio Designer",
+  "definition": "Questions related to debugging errors in Visual Studio Designer."
+ },
+ {
+  "id": 86,
+  "name": "NSOutlineView",
+  "definition": "Questions related to changing style for nodes in NSOutlineView."
+ },
+ {
+  "id": 87,
+  "name": "Excel VBA",
+  "definition": "Questions related to determining wrong input file using VBA & Excel."
+ },
+ {
+  "id": 88,
+  "name": "QTWebKit",
+  "definition": "Questions related to loading images from various sources in QTWebKit."
+ },
+ {
+  "id": 89,
+  "name": "Flex + Spring + BlazeDS + Glassfish + OpenMQ",
+  "definition": "Questions related to configuring the web-application-config for OpenMQ in a Flex + Spring + BlazeDS + Glassfish environment."
+ },
+ {
+  "id": 90,
+  "name": "Dynamic LINQ",
+  "definition": "Questions related to dynamic WHERE clause in LINQ."
+ },
+ {
+  "id": 91,
+  "name": "Dynamic Spring",
+  "definition": "Questions related to Spring introductions with dynamic implementation."
+ },
+ {
+  "id": 92,
+  "name": "Scala List Predicates",
+  "definition": "Questions related to finding elements in a scala list and knowing which predicate has been satisfied."
+ },
+ {
+  "id": 93,
+  "name": "Haskell BMI Program",
+  "definition": "Questions related to Body Mass Index program in Haskell."
+ },
+ {
+  "id": 94,
+  "name": "Bash Array Output",
+  "definition": "Questions related to redirecting output to a bash array."
+ },
+ {
+  "id": 95,
+  "name": "j2ep Apache Tomcat Cluster",
+  "definition": "Questions related to using j2ep on an Apache Tomcat cluster."
+ },
+ {
+  "id": 96,
+  "name": "Document Approval Event Handling",
+  "definition": "Questions related to handling events when approving a document."
+ },
+ {
+  "id": 97,
+  "name": "GDB",
+  "definition": "GNU Debugger, a portable debugger that runs on many Unix-like systems and works for many programming languages."
+ },
+ {
+  "id": 98,
+  "name": "Cocoa",
+  "definition": "A set of frameworks, APIs, and runtimes that form the development layer of macOS, iOS, watchOS, and tvOS."
+ },
+ {
+  "id": 99,
+  "name": "WSS",
+  "definition": "Windows SharePoint Services, a technology that enables teams to create web sites for information sharing and document collaboration."
+ },
+ {
+  "id": 100,
+  "name": "JBoss jBPM",
+  "definition": "A flexible business process management suite that enables users to model, automate, and optimize business processes."
+ },
+ {
+  "id": 101,
+  "name": "HQL",
+  "definition": "Hibernate Query Language, an object-oriented query language similar to SQL but works with Hibernate objects."
+ },
+ {
+  "id": 102,
+  "name": "Tail",
+  "definition": "A command-line utility that displays the last part of a file or stream."
+ },
+ {
+  "id": 103,
+  "name": "Mod_rewrite",
+  "definition": "A powerful module provided by Apache that allows for URL manipulation using regular expressions."
+ },
+ {
+  "id": 104,
+  "name": "Bash",
+  "definition": "Questions related to the Bash scripting language and shell environment."
+ },
+ {
+  "id": 105,
+  "name": "MySQL",
+  "definition": "Questions related to the MySQL database management system."
+ },
+ {
+  "id": 106,
+  "name": "Web Part",
+  "definition": "Questions related to loading web parts inside each other."
+ },
+ {
+  "id": 107,
+  "name": "Mac OSX Development",
+  "definition": "Questions related to developing Mac OSX applications on Windows."
+ },
+ {
+  "id": 108,
+  "name": "Memcache",
+  "definition": "Questions related to using memcache to optimize MySQL queries."
+ },
+ {
+  "id": 109,
+  "name": "PHP Folder Iteration",
+  "definition": "Questions related to iterating through folders in PHP and displaying HTML content."
+ },
+ {
+  "id": 110,
+  "name": "Scala Actor",
+  "definition": "Questions related to Scala actors and blocking behavior."
+ },
+ {
+  "id": 111,
+  "name": "UI Logic Separation",
+  "definition": "Questions related to separating UI logic from framework logic."
+ },
+ {
+  "id": 112,
+  "name": "Location Hash",
+  "definition": "Questions related to setting location.hash in web frames."
+ },
+ {
+  "id": 113,
+  "name": "VS 2008 Upgrade",
+  "definition": "Questions related to upgrading from Visual Studio 2005 to Visual Studio 2008."
+ },
+ {
+  "id": 114,
+  "name": "Case Insensitive String Comparison",
+  "definition": "Questions related to implementing case-insensitive string comparisons in Scala."
+ },
+ {
+  "id": 115,
+  "name": "Version Control Merge",
+  "definition": "Questions related to version control tools handling reflective or cyclic merging."
+ },
+ {
+  "id": 116,
+  "name": "MAMP Case Insensitivity",
+  "definition": "Questions related to making filenames case insensitive in MAMP."
+ },
+ {
+  "id": 117,
+  "name": "Excel Auto-Corrections",
+  "definition": "Questions related to preventing Excel from applying auto-corrections to CSV import data."
+ },
+ {
+  "id": 118,
+  "name": "Code Optimization",
+  "definition": "Questions related to improving code performance and efficiency."
+ },
+ {
+  "id": 119,
+  "name": "TableView CheckBox",
+  "definition": "Questions related to implementing checkboxes in a tableview."
+ },
+ {
+  "id": 120,
+  "name": "Mail Message Link Handling",
+  "definition": "Questions related to handling links in mail messages."
+ },
+ {
+  "id": 121,
+  "name": "Art Assets Storage in SVN",
+  "definition": "Questions related to strategies for storing art assets in SVN."
+ },
+ {
+  "id": 122,
+  "name": "Function Rearrangement in Haskell",
+  "definition": "Questions related to rearranging functions to return extended lists in Haskell."
+ },
+ {
+  "id": 123,
+  "name": "Permission Checking in List Items",
+  "definition": "Questions related to checking permissions on items in a list."
+ },
+ {
+  "id": 124,
+  "name": "Secondary Menu in Drupal",
+  "definition": "Questions related to displaying secondary menus in Drupal."
+ },
+ {
+  "id": 125,
+  "name": "UberCart Product Addition with Javascript",
+  "definition": "Questions related to adding products to UberCart cart using Javascript."
+ },
+ {
+  "id": 126,
+  "name": "First-order Logic Formula",
+  "definition": "Questions related to first-order logic formulas."
+ },
+ {
+  "id": 127,
+  "name": "Image File Batch Processing in Matlab",
+  "definition": "Questions related to batch processing image files in Matlab."
+ },
+ {
+  "id": 128,
+  "name": "Data Sync During Deployment",
+  "definition": "Questions related to keeping data in sync during deployment."
+ },
+ {
+  "id": 129,
+  "name": "Drupal Site Migration",
+  "definition": "Questions related to moving a Drupal site to another domain."
+ },
+ {
+  "id": 130,
+  "name": "Category Page Extension in Wordpress",
+  "definition": "Questions related to adding .php extension to category pages in Wordpress."
+ },
+ {
+  "id": 131,
+  "name": "Vector from Sparse Matrix",
+  "definition": "Questions related to getting a vector from a sparse matrix."
+ },
+ {
+  "id": 132,
+  "name": "Cabal External Program Search",
+  "definition": "Questions related to making Cabal search for external programs."
+ },
+ {
+  "id": 133,
+  "name": "Apache mod-rewrite Folder Overwrite",
+  "definition": "Questions related to overwriting folders with Apache mod-rewrite."
+ },
+ {
+  "id": 134,
+  "name": "Views Page Display Pagination",
+  "definition": "Questions related to paginating Views page displays."
+ },
+ {
+  "id": 135,
+  "name": "LSUIElement Application with Application Menu",
+  "definition": "Questions related to starting a window with an application menu in LSUIElement applications."
+ },
+ {
+  "id": 136,
+  "name": "Hibernate Table per Concrete Class Hierarchy",
+  "definition": "Questions related to implementing table per concrete class hierarchy in Hibernate."
+ },
+ {
+  "id": 137,
+  "name": "CTCP commands in an IRC bot (Haskell)",
+  "definition": "Implementing CTCP commands in an IRC bot using Haskell."
+ },
+ {
+  "id": 138,
+  "name": "FastCGI cleanup code (Windows)",
+  "definition": "Code cleanup for FastCGI applications running on Windows."
+ },
+ {
+  "id": 139,
+  "name": "QT console app (64 bit, Mac OSX)",
+  "definition": "Building a QT console application in 64 bit on Mac OSX."
+ },
+ {
+  "id": 140,
+  "name": "XMLRPC warnings (Wordpress)",
+  "definition": "Resolving warnings when executing Wordpress's xmlrpc.xml."
+ },
+ {
+  "id": 141,
+  "name": "Static data in Scala function",
+  "definition": "Declaring static data inside a function in Scala."
+ },
+ {
+  "id": 142,
+  "name": "Closures and universal quantification",
+  "definition": "Understanding closures and universal quantification in programming."
+ },
+ {
+  "id": 143,
+  "name": "Number of tokens in bash variable",
+  "definition": "Determining the number of tokens in a bash variable."
+ },
+ {
+  "id": 144,
+  "name": "NSValue, NSNumber & NSDecimalNumber",
+  "definition": "Working with NSValue, NSNumber, and NSDecimalNumber in programming."
+ },
+ {
+  "id": 145,
+  "name": "Dumping pixels as PNG",
+  "definition": "Dumping out an array of pixels as a PNG image."
+ },
+ {
+  "id": 146,
+  "name": "Dynamically loading Javascript functions with Ajax",
+  "definition": "Loading Javascript functions dynamically using Ajax."
+ },
+ {
+  "id": 147,
+  "name": "Oracle ProC ORA-12547",
+  "definition": "Resolving ORA-12547 error in Oracle ProC."
+ },
+ {
+  "id": 148,
+  "name": "Executing command from specific directory",
+  "definition": "Executing a command from a specific directory without changing to that directory."
+ },
+ {
+  "id": 149,
+  "name": "Linq || (or) Operator (C#)",
+  "definition": "Understanding the || (or) operator in Linq with C#."
+ },
+ {
+  "id": 150,
+  "name": "$ function inconsistency",
+  "definition": "Investigating inconsistencies in the use of the \"$\" function."
+ },
+ {
+  "id": 151,
+  "name": "QMake",
+  "definition": "A build system tool used with Qt for managing projects and dependencies."
+ },
+ {
+  "id": 152,
+  "name": "Sharepoint Commenting",
+  "definition": "Adding commenting functionality to news articles in a Sharepoint 2007 news site."
+ },
+ {
+  "id": 153,
+  "name": "Matlab Default Arguments",
+  "definition": "Using default arguments in Matlab functions."
+ },
+ {
+  "id": 154,
+  "name": "Haskell Matrix Operations",
+  "definition": "Performing operations on matrices represented as lists of rows in Haskell."
+ },
+ {
+  "id": 155,
+  "name": "TortoiseSVN Authorization",
+  "definition": "Setting read access for 'anonymous' in authz file for TortoiseSVN diff or log operations."
+ },
+ {
+  "id": 156,
+  "name": "Magento Shipping Methods",
+  "definition": "Applying different shipping methods based on country in Magento."
+ },
+ {
+  "id": 157,
+  "name": "Scala Logging",
+  "definition": "Implementing logging functionality in Scala applications."
+ },
+ {
+  "id": 158,
+  "name": "Mac Browsers Support",
+  "definition": "Checking the support status of Internet Explorer 5.5 for Mac browsers."
+ },
+ {
+  "id": 159,
+  "name": "Hibernate Proxy Creation",
+  "definition": "Handling null pointer exceptions related to proxy creation in Hibernate."
+ },
+ {
+  "id": 160,
+  "name": "Xcode Error Interpretation",
+  "definition": "Understanding the meaning of errors in Xcode."
+ },
+ {
+  "id": 161,
+  "name": "Bash Scripting",
+  "definition": "Questions related to scripting in the Bash programming language."
+ },
+ {
+  "id": 162,
+  "name": "Magento Onepage",
+  "definition": "Questions specifically related to issues or functionality within Magento's onepage checkout process."
+ },
+ {
+  "id": 163,
+  "name": "PHP Validation with jQuery and AJAX",
+  "definition": "Questions regarding validation using PHP, jQuery, and AJAX technologies."
+ },
+ {
+  "id": 164,
+  "name": "Spring 3 DI with Generic DAO Interface",
+  "definition": "Questions related to dependency injection in Spring 3 using a generic DAO interface."
+ },
+ {
+  "id": 165,
+  "name": "Shell Command Execution in PHP",
+  "definition": "Questions about executing shell commands in PHP."
+ },
+ {
+  "id": 166,
+  "name": "IE 7 Redirects after jQuery AJAX Calls",
+  "definition": "Questions about Internet Explorer 7 redirecting after jQuery AJAX calls."
+ },
+ {
+  "id": 167,
+  "name": "Spring AOP Method Interception with Annotations",
+  "definition": "Questions about intercepting methods with Spring AOP using annotations."
+ },
+ {
+  "id": 168,
+  "name": "Thread-Safe Singletons in Spring",
+  "definition": "Questions related to creating thread-safe singletons in Spring applications."
+ },
+ {
+  "id": 169,
+  "name": "Native MacOSX Application Skeleton",
+  "definition": "Questions about creating a skeleton application for a native MacOSX application, including installer script, notify icon, and user preferences."
+ },
+ {
+  "id": 170,
+  "name": "Custom Queries in Wordpress",
+  "definition": "Questions about creating custom queries in Wordpress."
+ },
+ {
+  "id": 171,
+  "name": "Multilevel Drop Down Navigation in Wordpress Theme",
+  "definition": "Questions about implementing multilevel drop down navigation in a Wordpress theme."
+ },
+ {
+  "id": 172,
+  "name": "CPU Time Retrieval in OS X",
+  "definition": "Questions about retrieving CPU time in OS X."
+ },
+ {
+  "id": 173,
+  "name": "Excel Pivot Table Measure Variance Display",
+  "definition": "Questions about displaying measure variance in an Excel pivot table."
+ },
+ {
+  "id": 174,
+  "name": "Multiple Responses Handling",
+  "definition": "Questions about handling multiple responses in a system."
+ },
+ {
+  "id": 175,
+  "name": "Exhaustive Pattern Matches in Haskell",
+  "definition": "Questions about the recommendation of having exhaustive pattern matches in Haskell, even for 'impossible' cases."
+ },
+ {
+  "id": 176,
+  "name": "Apache",
+  "definition": "Apache file caching"
+ },
+ {
+  "id": 177,
+  "name": "MacOSX",
+  "definition": "Simple audio input API on a Mac?"
+ },
+ {
+  "id": 178,
+  "name": "C#",
+  "definition": "Fastest way to count number of uppercase characters in c#"
+ },
+ {
+  "id": 179,
+  "name": "Collections",
+  "definition": "In Scala 2.8 collections, why was the Traversable type added above Iterable?"
+ },
+ {
+  "id": 180,
+  "name": "Views",
+  "definition": "Adding id to unordered list in views"
+ },
+ {
+  "id": 181,
+  "name": "Apache SetEnvIf",
+  "definition": "Organising questions related to using the SetEnvIf directive in Apache configuration files."
+ },
+ {
+  "id": 182,
+  "name": "Magento Backend Page Creation",
+  "definition": "Organising questions related to creating new pages in the backend of a Magento website."
+ },
+ {
+  "id": 183,
+  "name": "MATLAB Class Tutorial",
+  "definition": "Organising questions related to tutorials on creating classes in MATLAB."
+ },
+ {
+  "id": 184,
+  "name": "Oracle9i Queries",
+  "definition": "Organising questions related to writing queries in Oracle9i."
+ },
+ {
+  "id": 185,
+  "name": "PL/SQL Text to XML Conversion",
+  "definition": "Organising questions related to converting or encoding text to XML compliant text in PL/SQL."
+ },
+ {
+  "id": 186,
+  "name": "Scala Slider Casting Exception",
+  "definition": "Organising questions related to casting exceptions when using sliders in Scala applications."
+ },
+ {
+  "id": 187,
+  "name": "Wordpress Wiki Integration",
+  "definition": "Organising questions related to integrating a wiki into a Wordpress website."
+ },
+ {
+  "id": 188,
+  "name": "Excel String Truncation",
+  "definition": "Organising questions related to truncating strings in Excel by removing the last part of the string after a separator."
+ },
+ {
+  "id": 189,
+  "name": "ASP.NET Label Update",
+  "definition": "Organising questions related to updating labels dynamically in ASP.NET applications."
+ },
+ {
+  "id": 190,
+  "name": "Sub-sequence Predicate Matching",
+  "definition": "Organising questions related to finding sub-sequences where each item matches a specific predicate."
+ },
+ {
+  "id": 191,
+  "name": "App Servers vs. Spring",
+  "definition": "Organising questions related to comparing application servers with the Spring framework."
+ },
+ {
+  "id": 192,
+  "name": "Hibernate Transient Object Declaration",
+  "definition": "Organising questions related to declaring transient objects in POJOs using Hibernate."
+ },
+ {
+  "id": 193,
+  "name": "JPA Inheritance Strategy Change",
+  "definition": "Organising questions related to changing the inheritance strategy in branches of a class hierarchy using JPA annotations."
+ },
+ {
+  "id": 194,
+  "name": "Haskell Equivalent of Python's Construct",
+  "definition": "Organising questions related to finding the Haskell equivalent of Python's 'Construct' function."
+ },
+ {
+  "id": 195,
+  "name": "Drupal Node Preview and Submit Button",
+  "definition": "Organising questions related to adding forced preview to nodes and changing submit button values in Drupal websites."
+ },
+ {
+  "id": 196,
+  "name": "Eclipse Scala Syntax Error",
+  "definition": "Organising questions related to syntax errors in Eclipse 3.5 when using Scala 2.8.0b."
+ },
+ {
+  "id": 197,
+  "name": "ProxyPass",
+  "definition": "Using ProxyPass for pages but not images"
+ },
+ {
+  "id": 198,
+  "name": "ExtJS",
+  "definition": "Integrating springMVC and extjs"
+ },
+ {
+  "id": 199,
+  "name": "sem_timedop",
+  "definition": "UNIX/OSX version of semtimedop"
+ },
+ {
+  "id": 200,
+  "name": "XCode",
+  "definition": "XCode crashes on startup"
+ },
+ {
+  "id": 201,
+  "name": "VSTO",
+  "definition": "Tab order VSTO Excel"
+ },
+ {
+  "id": 202,
+  "name": "ORM",
+  "definition": "Optimizing an ORM-based model post-launch"
+ },
+ {
+  "id": 203,
+  "name": "SVNKit",
+  "definition": "Use SVNKit 1.2.1 from trunk"
+ },
+ {
+  "id": 204,
+  "name": "Spring Integration",
+  "definition": "Programatically bridge a QueueChannel to a MessageChannel in Spring"
+ },
+ {
+  "id": 205,
+  "name": "Scala-Java Integration",
+  "definition": "Call Scala code from Java?"
+ },
+ {
+  "id": 206,
+  "name": "Processing Applet",
+  "definition": "Can you send dynamic data to a processing applet?"
+ },
+ {
+  "id": 207,
+  "name": "Type Inference",
+  "definition": "Haskell: type inference and function composition"
+ },
+ {
+  "id": 208,
+  "name": "Perl-Oracle Integration",
+  "definition": "Integrating Perl and Oracle AQ"
+ },
+ {
+  "id": 209,
+  "name": "Visual Studio Solution",
+  "definition": "Number of Classes in a Visual Studio Solution"
+ },
+ {
+  "id": 210,
+  "name": "CVS Python Bindings",
+  "definition": "Questions related to Python bindings for CVS."
+ },
+ {
+  "id": 211,
+  "name": "Stream Fusion",
+  "definition": "Questions related to Stream Fusion."
+ },
+ {
+  "id": 212,
+  "name": "SPItemEventReceiver Assembly Version Update",
+  "definition": "Questions related to updating assembly version for a list in SharePoint."
+ },
+ {
+  "id": 213,
+  "name": "NSTableView Custom Cells",
+  "definition": "Questions related to NSTableView with custom cells."
+ },
+ {
+  "id": 214,
+  "name": "Robust SVN Export and Copy Script",
+  "definition": "Questions related to robust export and copy scripts in SVN."
+ },
+ {
+  "id": 215,
+  "name": "QTableView Mouse Button Events",
+  "definition": "Questions related to mouse button events in QTableView."
+ },
+ {
+  "id": 216,
+  "name": "Wordpress Modification",
+  "definition": "Questions related to modifying Wordpress other than writing plugins and themes."
+ },
+ {
+  "id": 217,
+  "name": "Hibernate JPA Sequence (non-Id)",
+  "definition": "Questions related to Hibernate JPA sequences that are not primary keys."
+ },
+ {
+  "id": 218,
+  "name": "SharePoint Web Client Service",
+  "definition": "Questions related to using SharePoint through Web Client Service (webclnt.dll)."
+ },
+ {
+  "id": 219,
+  "name": "Spring Bean Shutdown",
+  "definition": "Questions related to forcing Spring shutdown from a bean."
+ },
+ {
+  "id": 220,
+  "name": "COM Add-in for Excel",
+  "definition": "Questions related to COM Add-ins for Excel."
+ },
+ {
+  "id": 221,
+  "name": "SharePoint Custom RenderingTemplate",
+  "definition": "Questions related to custom RenderingTemplates in SharePoint."
+ },
+ {
+  "id": 222,
+  "name": "Filename Storage Technique",
+  "definition": "Questions related to techniques for storing filenames in variables."
+ },
+ {
+  "id": 223,
+  "name": "Haskell Probabilistic Data Structures",
+  "definition": "Questions related to Haskell and probabilistic data structures."
+ },
+ {
+  "id": 224,
+  "name": "Scala App Deployment with Maven",
+  "definition": "Questions related to deploying Scala apps (non-webapp) managed with Maven."
+ },
+ {
+  "id": 225,
+  "name": "Hibernate ManyToMany",
+  "definition": "Questions related to Hibernate many-to-many relationships."
+ },
+ {
+  "id": 226,
+  "name": "Visual Studio Solution Source Control Files",
+  "definition": "Questions related to hiding source control files within Visual Studio's solution tree."
+ },
+ {
+  "id": 227,
+  "name": "drupal_set_message",
+  "definition": "Drupal"
+ },
+ {
+  "id": 228,
+  "name": "List Images",
+  "definition": "SharePoint"
+ },
+ {
+  "id": 229,
+  "name": "Unirgy storelocator",
+  "definition": "Magento"
+ },
+ {
+  "id": 230,
+  "name": "Step into debugging",
+  "definition": "Visual Studio"
+ },
+ {
+  "id": 231,
+  "name": "php / mysql emulator",
+  "definition": "PHP, MySQL"
+ },
+ {
+  "id": 232,
+  "name": "image uploads",
+  "definition": "Wordpress"
+ },
+ {
+  "id": 233,
+  "name": "select distinct",
+  "definition": "Oracle"
+ },
+ {
+  "id": 234,
+  "name": "redirect stdout and stderr",
+  "definition": "Bash"
+ },
+ {
+  "id": 235,
+  "name": "BMP2AVI program",
+  "definition": "Matlab"
+ },
+ {
+  "id": 236,
+  "name": "Cocoa Application",
+  "definition": "Cocoa"
+ },
+ {
+  "id": 237,
+  "name": "Duplicating Custom Block",
+  "definition": "Magento"
+ },
+ {
+  "id": 238,
+  "name": "SVN source control integration",
+  "definition": "Integration of SVN source control with Visual Studio .NET"
+ },
+ {
+  "id": 239,
+  "name": "pygobject installation",
+  "definition": "Installation of pygobject for Python"
+ },
+ {
+  "id": 240,
+  "name": "zsh login shell",
+  "definition": "Setting zsh as the login shell on Mac OS X"
+ },
+ {
+  "id": 241,
+  "name": "RewriteRule and ProxyPass",
+  "definition": "Configuration of RewriteRule and ProxyPass in Apache"
+ },
+ {
+  "id": 242,
+  "name": "toolbox regions shortcut",
+  "definition": "Shortcut for toolbox regions in Visual Studio"
+ },
+ {
+  "id": 243,
+  "name": "master slave configuration",
+  "definition": "Configuration of master-slave setup (unknown technology)"
+ },
+ {
+  "id": 244,
+  "name": "Unable to start debug",
+  "definition": "Troubleshooting issue with starting debug in Visual Studio"
+ },
+ {
+  "id": 245,
+  "name": "Uniform distribution of binary values",
+  "definition": "Achieving uniform distribution of binary values in Matlab"
+ },
+ {
+  "id": 246,
+  "name": "Core Data vs sqlite3",
+  "definition": "Comparison between Core Data and sqlite3 for data storage"
+ },
+ {
+  "id": 247,
+  "name": "Complex iterations in haskell",
+  "definition": "Handling complex iterations in Haskell programming language"
+ },
+ {
+  "id": 248,
+  "name": "scala syntax highlighting in bluefish",
+  "definition": "Setting up syntax highlighting for Scala in Bluefish editor"
+ },
+ {
+  "id": 249,
+  "name": "Remove slash from the end of a variable",
+  "definition": "Removing a slash character from the end of a variable"
+ },
+ {
+  "id": 250,
+  "name": "How to handle authentication through AJAX with a java web app that uses form bas",
+  "definition": "Implementing authentication through AJAX in a Java web application with form-based login"
+ },
+ {
+  "id": 251,
+  "name": "How can I make an undecorated window in Cocoa?",
+  "definition": "Creating an undecorated window in Cocoa programming framework"
+ },
+ {
+  "id": 252,
+  "name": ".htaccess require SSL for a particular URL",
+  "definition": "Configuring .htaccess to require SSL for a specific URL"
+ },
+ {
+  "id": 253,
+  "name": "What is your experience with Oracle's result caching feature?",
+  "definition": "Discussion on experiences with Oracle's result caching feature"
+ },
+ {
+  "id": 254,
+  "name": "passing information from a Drupal Forms API validation function to a submit func",
+  "definition": "Passing data from a validation function to a submit function in Drupal Forms API"
+ },
+ {
+  "id": 255,
+  "name": "How does LINQ implement the SingleOrDefault() method?",
+  "definition": "Explanation of how LINQ implements the SingleOrDefault() method"
+ },
+ {
+  "id": 256,
+  "name": "On String creation for queries in Hibernate and whether those queries would redu",
+  "definition": "Discussion on string creation for queries in Hibernate and the impact on object creation if queries were final static"
+ },
+ {
+  "id": 257,
+  "name": "How to notify my JS client without polling?",
+  "definition": "Implementing notifications to a JavaScript client without polling"
+ },
+ {
+  "id": 258,
+  "name": "Using haskell read and typeclasses - ambiguous type variable error",
+  "definition": "Dealing with ambiguous type variable error when using Haskell read and typeclasses"
+ },
+ {
+  "id": 259,
+  "name": "How to fire code upon creation of a SharePoint list?",
+  "definition": "Executing code upon the creation of a SharePoint list"
+ },
+ {
+  "id": 260,
+  "name": "Typesafe Primary Key in Hibernate/JPA",
+  "definition": "Implementing a typesafe primary key in Hibernate/JPA"
+ },
+ {
+  "id": 261,
+  "name": "installing magento plugins without using magento connect",
+  "definition": "Installing Magento plugins without using Magento Connect"
+ },
+ {
+  "id": 262,
+  "name": "How to auto-size column-width in Excel during text entry",
+  "definition": "Automatically adjusting column width in Excel during text entry"
+ },
+ {
+  "id": 263,
+  "name": "Visual Studio - Can I export templates via command line?",
+  "definition": "Exporting templates in Visual Studio using the command line"
+ },
+ {
+  "id": 264,
+  "name": "Haskell foreign import stdcall on DLL function",
+  "definition": "Using foreign import stdcall on a DLL function in Haskell"
+ },
+ {
+  "id": 265,
+  "name": "deserializing a json object through Lift-JSON",
+  "definition": "Deserializing a JSON object using Lift-JSON library"
+ }
+]

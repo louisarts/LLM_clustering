@@ -1,0 +1,45 @@
+{
+  "bench": "bbcnews",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "fresh",
+  "clip_chars": 150,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sports",
+      "definition": "Articles covering sports events, matches, and competitions."
+    },
+    {
+      "id": 2,
+      "name": "Entertainment",
+      "definition": "Articles related to movies, music, TV shows, and celebrities."
+    },
+    {
+      "id": 3,
+      "name": "Politics",
+      "definition": "Articles discussing political figures, elections, and government policies."
+    },
+    {
+      "id": 4,
+      "name": "Business",
+      "definition": "Articles focusing on companies, stocks, profits, and economic trends."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "Articles about new gadgets, software, internet trends, and innovations."
+    },
+    {
+      "id": 6,
+      "name": "Legal",
+      "definition": "Articles about court cases, law changes, and legal issues."
+    },
+    {
+      "id": 7,
+      "name": "Health",
+      "definition": "Articles discussing health concerns, medical breakthroughs, and diseases."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "banking77",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Currency Exchange",
+      "definition": "Inquiries related to exchanging currencies, including fees and rates."
+    },
+    {
+      "id": 2,
+      "name": "Refund Requests",
+      "definition": "Requests for refunds on transactions or purchases."
+    },
+    {
+      "id": 3,
+      "name": "Card Issues",
+      "definition": "Problems or inquiries regarding card functionality, including activation and usage."
+    },
+    {
+      "id": 4,
+      "name": "Fraud and Security",
+      "definition": "Concerns about unauthorized transactions or potential fraud."
+    },
+    {
+      "id": 5,
+      "name": "Account Management",
+      "definition": "Requests related to account settings, including updates and deletions."
+    },
+    {
+      "id": 6,
+      "name": "Transfer Issues",
+      "definition": "Inquiries about money transfers, including delays and declines."
+    },
+    {
+      "id": 7,
+      "name": "Top-Up Inquiries",
+      "definition": "Questions regarding adding funds to accounts or cards."
+    },
+    {
+      "id": 8,
+      "name": "ATM Issues",
+      "definition": "Problems encountered while using ATMs, including card retrieval and cash dispensing."
+    },
+    {
+      "id": 9,
+      "name": "Payment Processing",
+      "definition": "Questions about payment statuses, including pending and declined payments."
+    },
+    {
+      "id": 10,
+      "name": "Identity Verification",
+      "definition": "Inquiries related to the verification of identity for account access or transactions."
+    },
+    {
+      "id": 11,
+      "name": "Card Delivery",
+      "definition": "Questions regarding the status and delivery of physical cards."
+    },
+    {
+      "id": 12,
+      "name": "Contactless Payments",
+      "definition": "Issues or inquiries related to using contactless payment methods."
+    },
+    {
+      "id": 13,
+      "name": "Documentation Requirements",
+      "definition": "Questions about necessary documents for account setup or verification."
+    },
+    {
+      "id": 14,
+      "name": "Fees and Charges",
+      "definition": "Inquiries about various fees associated with services, transactions, or accounts."
+    },
+    {
+      "id": 15,
+      "name": "Disposable Cards",
+      "definition": "Questions regarding the use and management of disposable or virtual cards."
+    },
+    {
+      "id": 16,
+      "name": "Cash Deposits",
+      "definition": "Inquiries related to depositing cash into accounts."
+    },
+    {
+      "id": 17,
+      "name": "Account Security",
+      "definition": "Concerns regarding the security of accounts and measures to protect them."
+    },
+    {
+      "id": 18,
+      "name": "Service Availability",
+      "definition": "Questions about the availability of services in specific locations or for specific users."
+    },
+    {
+      "id": 19,
+      "name": "Transaction Disputes",
+      "definition": "Requests to dispute or investigate specific transactions."
+    },
+    {
+      "id": 20,
+      "name": "General Inquiries",
+      "definition": "Miscellaneous questions that do not fit into other categories."
+    }
+  ]
+}

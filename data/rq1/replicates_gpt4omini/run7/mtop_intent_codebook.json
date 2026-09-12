@@ -1,0 +1,110 @@
+{
+  "bench": "mtop_intent",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Create or modify an alarm for a specified time."
+    },
+    {
+      "id": 2,
+      "name": "Set Reminder",
+      "definition": "Create or modify a reminder for a future task or event."
+    },
+    {
+      "id": 3,
+      "name": "Weather Inquiry",
+      "definition": "Request information about current or future weather conditions."
+    },
+    {
+      "id": 4,
+      "name": "Timer Management",
+      "definition": "Create, modify, or stop a timer for a specified duration."
+    },
+    {
+      "id": 5,
+      "name": "Call Management",
+      "definition": "Initiate, manage, or end a phone or video call."
+    },
+    {
+      "id": 6,
+      "name": "Message Sending",
+      "definition": "Send a message via text or messaging app."
+    },
+    {
+      "id": 7,
+      "name": "Music Playback",
+      "definition": "Control music playback, including playing, pausing, or changing songs."
+    },
+    {
+      "id": 8,
+      "name": "News Inquiry",
+      "definition": "Request information about current news or specific news topics."
+    },
+    {
+      "id": 9,
+      "name": "Recipe Inquiry",
+      "definition": "Request for recipes or cooking instructions."
+    },
+    {
+      "id": 10,
+      "name": "Friend Management",
+      "definition": "Inquire about or manage friend connections and interactions."
+    },
+    {
+      "id": 11,
+      "name": "Event Inquiry",
+      "definition": "Request information about upcoming events or activities."
+    },
+    {
+      "id": 12,
+      "name": "Task Management",
+      "definition": "Manage tasks, including adding, modifying, or deleting tasks."
+    },
+    {
+      "id": 13,
+      "name": "Information Inquiry",
+      "definition": "Request general information or answers to specific questions."
+    },
+    {
+      "id": 14,
+      "name": "Cooking Inquiry",
+      "definition": "Request information related to cooking times, methods, or ingredients."
+    },
+    {
+      "id": 15,
+      "name": "Location Inquiry",
+      "definition": "Request information about specific locations or addresses."
+    },
+    {
+      "id": 16,
+      "name": "Reminder Management",
+      "definition": "Manage reminders, including viewing or deleting existing reminders."
+    },
+    {
+      "id": 17,
+      "name": "Social Media Interaction",
+      "definition": "Interact with social media platforms, including sending messages or posting updates."
+    },
+    {
+      "id": 18,
+      "name": "Timer Adjustment",
+      "definition": "Modify the duration of an existing timer."
+    },
+    {
+      "id": 19,
+      "name": "Availability Status",
+      "definition": "Change or inquire about availability status."
+    },
+    {
+      "id": 20,
+      "name": "Health Inquiry",
+      "definition": "Request information related to health or wellness topics."
+    }
+  ]
+}

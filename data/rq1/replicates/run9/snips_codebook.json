@@ -1,0 +1,57 @@
+{
+  "bench": "snips",
+  "run": 9,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Music",
+      "definition": "Play audio content such as a song, album, artist, genre, or playlist on a specific platform or generally."
+    },
+    {
+      "id": 2,
+      "name": "Add Music to Playlist",
+      "definition": "Add a specific music track, artist, or album to a user-defined playlist."
+    },
+    {
+      "id": 3,
+      "name": "Get Weather Information",
+      "definition": "Inquire about current or future weather conditions, forecasts, or specific weather phenomena for a given location and time."
+    },
+    {
+      "id": 4,
+      "name": "Get Media Showtimes",
+      "definition": "Request information about the screening times and locations for a specific movie or type of movie."
+    },
+    {
+      "id": 5,
+      "name": "Get Media Schedule",
+      "definition": "Request a general list or overview of movies or TV shows currently playing or scheduled."
+    },
+    {
+      "id": 6,
+      "name": "Find Media Content",
+      "definition": "Locate a specific movie, TV show, saga, or trailer for viewing or information."
+    },
+    {
+      "id": 7,
+      "name": "Get Media Information",
+      "definition": "Request details about a movie, TV show, or other media, such as genre or publisher."
+    },
+    {
+      "id": 8,
+      "name": "Rate Content",
+      "definition": "Provide a rating or review for a specific piece of content such as a book, album, or movie."
+    },
+    {
+      "id": 9,
+      "name": "Book Restaurant/Reservation",
+      "definition": "Make a reservation at a dining establishment or inquire about availability."
+    },
+    {
+      "id": 10,
+      "name": "Find Other Content/Product",
+      "definition": "Locate a specific non-media item such as a book, video game, photograph, or product."
+    }
+  ]
+}

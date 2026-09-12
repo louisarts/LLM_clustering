@@ -1,0 +1,65 @@
+{
+  "bench": "mcid",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information",
+      "definition": "Requests for general information or definitions about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Health Concerns",
+      "definition": "Inquiries about symptoms, health concerns, or personal health actions related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Transmission and Spread",
+      "definition": "Questions about how COVID-19 spreads or transmission methods."
+    },
+    {
+      "id": 4,
+      "name": "Prevention and Safety Measures",
+      "definition": "Requests for advice on how to prevent COVID-19 or stay safe."
+    },
+    {
+      "id": 5,
+      "name": "Treatment and Vaccines",
+      "definition": "Inquiries about treatments, vaccines, or medical interventions for COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Travel and High-Risk Areas",
+      "definition": "Questions about travel safety, high-risk areas, or travel restrictions."
+    },
+    {
+      "id": 7,
+      "name": "Statistics and Updates",
+      "definition": "Requests for statistics, updates, or news about COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Myths and Misinformation",
+      "definition": "Inquiries about myths, misinformation, or false claims related to COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Donations and Support",
+      "definition": "Requests for information on how to donate or support COVID-19-related causes."
+    },
+    {
+      "id": 10,
+      "name": "Social Interactions",
+      "definition": "Requests to share information or interact socially regarding COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Greetings and Gratitude",
+      "definition": "Expressions of greetings or gratitude towards the bot or service."
+    }
+  ]
+}

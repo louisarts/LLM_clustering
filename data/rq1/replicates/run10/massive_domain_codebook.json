@@ -1,0 +1,92 @@
+{
+  "bench": "massive_domain",
+  "run": 10,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Smart Home Control",
+      "definition": "Controlling smart devices and appliances in the home, such as lights, thermostats, plugs, vacuum cleaners, or coffee machines."
+    },
+    {
+      "id": 2,
+      "name": "Media Playback & Control",
+      "definition": "Playing, searching, and controlling music, podcasts, radio, audiobooks, and videos, including volume adjustments and track management."
+    },
+    {
+      "id": 3,
+      "name": "Reminders & Alarms",
+      "definition": "Setting, checking, and managing alarms, personal reminders, and notifications for events or tasks."
+    },
+    {
+      "id": 4,
+      "name": "Information Retrieval",
+      "definition": "Asking for facts, definitions, calculations, general knowledge, local search results, recommendations, and financial information like stock prices or currency exchange rates."
+    },
+    {
+      "id": 5,
+      "name": "Time & Date",
+      "definition": "Asking for the current time, date, time in other locations, or performing calendar-related calculations."
+    },
+    {
+      "id": 6,
+      "name": "Travel & Navigation",
+      "definition": "Getting directions, booking transportation like taxis or trains, and checking travel-related information."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "Sending, receiving, and managing emails and messages."
+    },
+    {
+      "id": 8,
+      "name": "Calendar & Schedule",
+      "definition": "Managing events, appointments, and personal schedules, including adding, deleting, or checking details."
+    },
+    {
+      "id": 9,
+      "name": "News",
+      "definition": "Getting current news, headlines, trending topics, and specific news articles from various sources."
+    },
+    {
+      "id": 10,
+      "name": "Weather",
+      "definition": "Checking current weather conditions, forecasts, and receiving weather-related advice."
+    },
+    {
+      "id": 11,
+      "name": "Lists & Notes",
+      "definition": "Creating, managing, and checking various types of lists, such as to-do lists, shopping lists, or general notes."
+    },
+    {
+      "id": 12,
+      "name": "Entertainment",
+      "definition": "Requesting jokes or initiating games."
+    },
+    {
+      "id": 13,
+      "name": "Assistant Capabilities",
+      "definition": "Inquiring about the assistant's functions, settings, privacy, memory, or engaging in small talk and personal interactions."
+    },
+    {
+      "id": 14,
+      "name": "Social Media",
+      "definition": "Posting updates, checking feeds, or interacting with social media platforms like Facebook or Twitter."
+    },
+    {
+      "id": 15,
+      "name": "Shopping & Ordering",
+      "definition": "Making purchases, ordering food, or tracking orders and deliveries."
+    },
+    {
+      "id": 16,
+      "name": "Contacts Management",
+      "definition": "Adding, removing, or managing contact information."
+    },
+    {
+      "id": 17,
+      "name": "Phone Calls",
+      "definition": "Initiating phone calls to contacts or businesses."
+    }
+  ]
+}

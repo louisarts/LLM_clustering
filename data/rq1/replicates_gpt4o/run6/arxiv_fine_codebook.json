@@ -1,0 +1,1510 @@
+{
+  "bench": "arxiv_fine",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 2,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 3,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 4,
+      "name": "cs.CR",
+      "definition": "Cryptography and Security"
+    },
+    {
+      "id": 5,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 6,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 7,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 8,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence"
+    },
+    {
+      "id": 9,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 10,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 11,
+      "name": "cs.MA",
+      "definition": "Multiagent Systems"
+    },
+    {
+      "id": 12,
+      "name": "cs.CE",
+      "definition": "Computational Engineering, Finance, and Science"
+    },
+    {
+      "id": 13,
+      "name": "cs.CL",
+      "definition": "Computation and Language"
+    },
+    {
+      "id": 14,
+      "name": "cs.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 15,
+      "name": "cs.ET",
+      "definition": "Emerging Technologies"
+    },
+    {
+      "id": 16,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction"
+    },
+    {
+      "id": 17,
+      "name": "cs.MM",
+      "definition": "Multimedia"
+    },
+    {
+      "id": 18,
+      "name": "cs.CY",
+      "definition": "Computers and Society"
+    },
+    {
+      "id": 19,
+      "name": "cs.DB",
+      "definition": "Databases"
+    },
+    {
+      "id": 20,
+      "name": "cs.OH",
+      "definition": "Other Computer Science"
+    },
+    {
+      "id": 21,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 22,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 23,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 24,
+      "name": "math.AP",
+      "definition": "Analysis of PDEs"
+    },
+    {
+      "id": 25,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 26,
+      "name": "math.AG",
+      "definition": "Algebraic Geometry"
+    },
+    {
+      "id": 27,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 28,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 29,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 30,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 31,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 32,
+      "name": "math.NA",
+      "definition": "Numerical Analysis"
+    },
+    {
+      "id": 33,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 34,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 35,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 36,
+      "name": "math.LO",
+      "definition": "Logic"
+    },
+    {
+      "id": 37,
+      "name": "math.QA",
+      "definition": "Quantum Algebra"
+    },
+    {
+      "id": 38,
+      "name": "math.KT",
+      "definition": "K-Theory and Homology"
+    },
+    {
+      "id": 39,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 40,
+      "name": "math.HO",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 41,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 42,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 43,
+      "name": "math.CV",
+      "definition": "Complex Variables"
+    },
+    {
+      "id": 44,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 45,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 46,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 47,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 48,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 49,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 50,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 51,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 52,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 53,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 54,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 55,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 56,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 57,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 58,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 59,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 60,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 61,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 62,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 63,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 64,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 65,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 66,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 67,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 68,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 69,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 70,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 71,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 72,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 73,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 74,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 75,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 76,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 77,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 78,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 79,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 80,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 81,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 82,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 83,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 84,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 85,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 86,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 87,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 88,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 89,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 90,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 91,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 92,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 93,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 94,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 95,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 96,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 97,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 98,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 99,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 100,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 101,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 102,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 103,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 104,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 105,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 106,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 107,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 108,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 109,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 110,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 111,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 112,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 113,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 114,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 115,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 116,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 117,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 118,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 119,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 120,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 121,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 122,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 123,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 124,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 125,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 126,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 127,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 128,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 129,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 130,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 131,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 132,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 133,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 134,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 135,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 136,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 137,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 138,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 139,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 140,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 141,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 142,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 143,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 144,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 145,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 146,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 147,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 148,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 149,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 150,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 151,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 152,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 153,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 154,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 155,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 156,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 157,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 158,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 159,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 160,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 161,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 162,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 163,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 164,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 165,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 166,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 167,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 168,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 169,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 170,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 171,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 172,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 173,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 174,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 175,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 176,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 177,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 178,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 179,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 180,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 181,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 182,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 183,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 184,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 185,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 186,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 187,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 188,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 189,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 190,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 191,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 192,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 193,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 194,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 195,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 196,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 197,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 198,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 199,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 200,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 201,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 202,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 203,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 204,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 205,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 206,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 207,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 208,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 209,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 210,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 211,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 212,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 213,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 214,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 215,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 216,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 217,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 218,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 219,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 220,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 221,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 222,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 223,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 224,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 225,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 226,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 227,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 228,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 229,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 230,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 231,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 232,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 233,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 234,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 235,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 236,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 237,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 238,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 239,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 240,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 241,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 242,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 243,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 244,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 245,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 246,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 247,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 248,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 249,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 250,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 251,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 252,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 253,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 254,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 255,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 256,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 257,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 258,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 259,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 260,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 261,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 262,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 263,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 264,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 265,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 266,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 267,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 268,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 269,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 270,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 271,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 272,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 273,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 274,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 275,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 276,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 277,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 278,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 279,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 280,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 281,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 282,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 283,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 284,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 285,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 286,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 287,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 288,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 289,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 290,
+      "name": "math.GT",
+      "definition": "Geometric Topology"
+    },
+    {
+      "id": 291,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 292,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 293,
+      "name": "math.SP",
+      "definition": "Spectral Theory"
+    },
+    {
+      "id": 294,
+      "name": "math.MP",
+      "definition": "Mathematical Physics"
+    },
+    {
+      "id": 295,
+      "name": "math.CT",
+      "definition": "Category Theory"
+    },
+    {
+      "id": 296,
+      "name": "math.HC",
+      "definition": "History and Overview"
+    },
+    {
+      "id": 297,
+      "name": "math.GN",
+      "definition": "General Topology"
+    },
+    {
+      "id": 298,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 299,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 300,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    }
+  ]
+}

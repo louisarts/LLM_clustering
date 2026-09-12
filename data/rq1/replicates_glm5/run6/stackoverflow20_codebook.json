@@ -1,0 +1,114 @@
+{
+  "bench": "stackoverflow20",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": ".NET & LINQ",
+      "definition": "Questions about the .NET framework, C# language features, and specifically LINQ queries and operations."
+    },
+    {
+      "id": 2,
+      "name": "Apache",
+      "definition": "Questions regarding the Apache HTTP Server configuration, modules, and administration."
+    },
+    {
+      "id": 3,
+      "name": "Bash & Shell Scripting",
+      "definition": "Questions about shell scripting, command-line usage, and automation in Unix-like environments."
+    },
+    {
+      "id": 4,
+      "name": "Cocoa & Objective-C",
+      "definition": "Questions about developing applications for macOS using the Cocoa framework and Objective-C language."
+    },
+    {
+      "id": 5,
+      "name": "Drupal",
+      "definition": "Questions concerning the Drupal content management system, theming, and module development."
+    },
+    {
+      "id": 6,
+      "name": "Excel & VBA",
+      "definition": "Questions related to Microsoft Excel spreadsheet functionality and VBA programming."
+    },
+    {
+      "id": 7,
+      "name": "Haskell",
+      "definition": "Questions about the Haskell programming language, its syntax, and functional concepts."
+    },
+    {
+      "id": 8,
+      "name": "Hibernate",
+      "definition": "Questions regarding the Hibernate ORM framework for Java, including mapping and queries."
+    },
+    {
+      "id": 9,
+      "name": "Magento",
+      "definition": "Questions about the Magento e-commerce platform, theming, and development."
+    },
+    {
+      "id": 10,
+      "name": "MATLAB",
+      "definition": "Questions about the MATLAB numerical computing environment and programming language."
+    },
+    {
+      "id": 11,
+      "name": "Oracle",
+      "definition": "Questions concerning the Oracle Database, SQL queries, and administration."
+    },
+    {
+      "id": 12,
+      "name": "Qt",
+      "definition": "Questions about the Qt cross-platform application framework and tools."
+    },
+    {
+      "id": 13,
+      "name": "Scala",
+      "definition": "Questions about the Scala programming language and its integration with Java."
+    },
+    {
+      "id": 14,
+      "name": "SharePoint",
+      "definition": "Questions regarding Microsoft SharePoint development, configuration, and usage."
+    },
+    {
+      "id": 15,
+      "name": "Spring Framework",
+      "definition": "Questions about the Spring ecosystem for Java, including configuration and security."
+    },
+    {
+      "id": 16,
+      "name": "Subversion (SVN)",
+      "definition": "Questions about the Subversion version control system and related tools."
+    },
+    {
+      "id": 17,
+      "name": "Visual Studio",
+      "definition": "Questions regarding the Visual Studio IDE, tooling, and configuration."
+    },
+    {
+      "id": 18,
+      "name": "WordPress",
+      "definition": "Questions about the WordPress content management system, plugins, and themes."
+    },
+    {
+      "id": 19,
+      "name": "Ajax",
+      "definition": "Questions about Asynchronous JavaScript and XML techniques and implementation."
+    },
+    {
+      "id": 20,
+      "name": "C++",
+      "definition": "Questions about the C++ language standard, syntax, and general usage not tied to a specific GUI framework."
+    },
+    {
+      "id": 21,
+      "name": "Mac OS X",
+      "definition": "Questions about macOS operating system features, configuration, and usage."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "bench": "mtop_domain",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Inquiries or updates related to current or forecasted weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Requests to set, modify, or delete reminders for various tasks or events."
+    },
+    {
+      "id": 3,
+      "name": "Calls",
+      "definition": "Requests to initiate or manage phone or video calls."
+    },
+    {
+      "id": 4,
+      "name": "Timers",
+      "definition": "Requests related to setting, modifying, or checking timers."
+    },
+    {
+      "id": 5,
+      "name": "Recipes",
+      "definition": "Inquiries or requests for cooking recipes or related culinary information."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Requests to play, pause, or manage music tracks or playlists."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Inquiries or requests for current news updates or specific news topics."
+    },
+    {
+      "id": 8,
+      "name": "Social Connections",
+      "definition": "Inquiries about friends, family, or social interactions."
+    },
+    {
+      "id": 9,
+      "name": "Events",
+      "definition": "Requests for information about upcoming events or activities."
+    },
+    {
+      "id": 10,
+      "name": "Health and Nutrition",
+      "definition": "Inquiries related to food, nutrition, or health-related topics."
+    },
+    {
+      "id": 11,
+      "name": "Alarms",
+      "definition": "Requests to set, modify, or delete alarms for specific times."
+    },
+    {
+      "id": 12,
+      "name": "Tasks and Chores",
+      "definition": "Requests related to managing tasks, chores, or to-do lists."
+    },
+    {
+      "id": 13,
+      "name": "Information Requests",
+      "definition": "General inquiries for information on various topics."
+    }
+  ]
+}

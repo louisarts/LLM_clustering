@@ -1,0 +1,57 @@
+[
+ {
+  "id": 1,
+  "name": "Weather Information",
+  "definition": "Assisting the user in obtaining current or forecasted weather conditions."
+ },
+ {
+  "id": 2,
+  "name": "News Updates",
+  "definition": "Providing the user with news updates or information on specific topics."
+ },
+ {
+  "id": 3,
+  "name": "Messaging",
+  "definition": "Assisting the user in managing or checking messages from contacts."
+ },
+ {
+  "id": 4,
+  "name": "Reminder Management",
+  "definition": "Helping the user set, manage, and receive reminders for tasks or events."
+ },
+ {
+  "id": 5,
+  "name": "Contact Information",
+  "definition": "Providing the user with contact information for individuals or businesses."
+ },
+ {
+  "id": 6,
+  "name": "Recipe Search",
+  "definition": "Assisting the user in finding recipes for specific dishes or ingredients."
+ },
+ {
+  "id": 7,
+  "name": "Social Media Monitoring",
+  "definition": "Providing the user with information or updates from social media networks."
+ },
+ {
+  "id": 8,
+  "name": "Emergency Alerts",
+  "definition": "Informing the user about potential emergencies or disasters in their area."
+ },
+ {
+  "id": 9,
+  "name": "Employee Directory",
+  "definition": "Assisting the user in finding contact information for employees of a specific company."
+ },
+ {
+  "id": 10,
+  "name": "Recipe Recommendations",
+  "definition": "Providing the user with recommendations for recipes based on their preferences or dietary restrictions."
+ },
+ {
+  "id": 11,
+  "name": "Music Streaming",
+  "definition": "Assistance with playing music from various streaming platforms."
+ }
+]

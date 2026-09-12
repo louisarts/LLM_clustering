@@ -1,0 +1,132 @@
+{
+  "bench": "massive_intent",
+  "run": 6,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Get General Information",
+      "definition": "User asks for factual information, definitions, calculations, recipes, or general knowledge not related to personal data or specific media."
+    },
+    {
+      "id": 2,
+      "name": "Get Weather Information",
+      "definition": "User asks for current, past, or future weather conditions, forecasts, or weather-related advice."
+    },
+    {
+      "id": 3,
+      "name": "Get News Information",
+      "definition": "User asks for current events, headlines, specific news topics, or trending topics."
+    },
+    {
+      "id": 4,
+      "name": "Get Financial Information",
+      "definition": "User asks for stock prices, exchange rates, or other financial data."
+    },
+    {
+      "id": 5,
+      "name": "Get Location or Navigation Information",
+      "definition": "User asks for directions, locations, traffic, or travel times."
+    },
+    {
+      "id": 6,
+      "name": "Get Personal Schedule Information",
+      "definition": "User asks about their calendar events, appointments, reminders, or to-do items."
+    },
+    {
+      "id": 7,
+      "name": "Get Email Information",
+      "definition": "User asks about new emails, specific emails, or email content."
+    },
+    {
+      "id": 8,
+      "name": "Get Alarm Information",
+      "definition": "User asks about existing alarms or their settings."
+    },
+    {
+      "id": 9,
+      "name": "Get Business or Product Information",
+      "definition": "User asks for information about businesses (e.g., hours, services, order status) or product details."
+    },
+    {
+      "id": 10,
+      "name": "Get Media Information",
+      "definition": "User asks for details about currently playing media, artists, celebrity information, or upcoming media."
+    },
+    {
+      "id": 11,
+      "name": "Play Media",
+      "definition": "User requests to start, resume, or play the next item in a sequence of music, videos, podcasts, or audiobooks."
+    },
+    {
+      "id": 12,
+      "name": "Control Media Playback",
+      "definition": "User requests to pause, skip, or perform other specific playback actions on currently playing media."
+    },
+    {
+      "id": 13,
+      "name": "Control Smart Home Device",
+      "definition": "User commands to adjust settings or activate/deactivate smart home devices like lights, volume, or appliances."
+    },
+    {
+      "id": 14,
+      "name": "Send Communication",
+      "definition": "User requests to send emails, messages, or post on social media."
+    },
+    {
+      "id": 15,
+      "name": "Schedule Event or Reminder",
+      "definition": "User requests to add or modify an event, meeting, or reminder in their calendar or to-do list, or to set an alarm."
+    },
+    {
+      "id": 16,
+      "name": "Manage Lists",
+      "definition": "User requests to create, add to, remove from, or delete a list (e.g., shopping, to-do)."
+    },
+    {
+      "id": 17,
+      "name": "Delete or Clear Personal Data",
+      "definition": "User requests to remove specific items or clear entire categories from personal data (e.g., calendar events, alarms, lists)."
+    },
+    {
+      "id": 18,
+      "name": "Purchase or Order",
+      "definition": "User requests to buy items or order food."
+    },
+    {
+      "id": 19,
+      "name": "Book Travel or Transportation",
+      "definition": "User requests to book a taxi, train, or other travel arrangements."
+    },
+    {
+      "id": 20,
+      "name": "Prepare Food or Drink",
+      "definition": "User requests to make coffee or prepare a meal."
+    },
+    {
+      "id": 21,
+      "name": "Save or Add to Collection",
+      "definition": "User requests to save an item (e.g., song) to a personal collection or list."
+    },
+    {
+      "id": 22,
+      "name": "General Assistant Interaction",
+      "definition": "User engages in small talk, asks for jokes, expresses opinions, or makes general requests not fitting other categories."
+    },
+    {
+      "id": 23,
+      "name": "Search Web or Contacts",
+      "definition": "User requests to search the web for general information or find contacts."
+    },
+    {
+      "id": 24,
+      "name": "Summarize Content",
+      "definition": "User requests a summary of a document, book, or other content."
+    },
+    {
+      "id": 25,
+      "name": "Launch Application",
+      "definition": "User requests to open or launch a specific application."
+    }
+  ]
+}

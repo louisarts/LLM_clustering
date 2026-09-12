@@ -1,0 +1,280 @@
+{
+  "bench": "fewnerd",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "United Kingdom",
+      "definition": "The entity type of United Kingdom"
+    },
+    {
+      "id": 2,
+      "name": "United States",
+      "definition": "The entity type of United States"
+    },
+    {
+      "id": 3,
+      "name": "Canada",
+      "definition": "The entity type of Canada"
+    },
+    {
+      "id": 4,
+      "name": "France",
+      "definition": "The entity type of France"
+    },
+    {
+      "id": 5,
+      "name": "Italy",
+      "definition": "The entity type of Italy"
+    },
+    {
+      "id": 6,
+      "name": "Germany",
+      "definition": "The entity type of Germany"
+    },
+    {
+      "id": 7,
+      "name": "Spain",
+      "definition": "The entity type of Spain"
+    },
+    {
+      "id": 8,
+      "name": "Russia",
+      "definition": "The entity type of Russia"
+    },
+    {
+      "id": 9,
+      "name": "China",
+      "definition": "The entity type of China"
+    },
+    {
+      "id": 10,
+      "name": "Japan",
+      "definition": "The entity type of Japan"
+    },
+    {
+      "id": 11,
+      "name": "India",
+      "definition": "The entity type of India"
+    },
+    {
+      "id": 12,
+      "name": "Australia",
+      "definition": "The entity type of Australia"
+    },
+    {
+      "id": 13,
+      "name": "Brazil",
+      "definition": "The entity type of Brazil"
+    },
+    {
+      "id": 14,
+      "name": "Mexico",
+      "definition": "The entity type of Mexico"
+    },
+    {
+      "id": 15,
+      "name": "Argentina",
+      "definition": "The entity type of Argentina"
+    },
+    {
+      "id": 16,
+      "name": "Chile",
+      "definition": "The entity type of Chile"
+    },
+    {
+      "id": 17,
+      "name": "Colombia",
+      "definition": "The entity type of Colombia"
+    },
+    {
+      "id": 18,
+      "name": "Peru",
+      "definition": "The entity type of Peru"
+    },
+    {
+      "id": 19,
+      "name": "Venezuela",
+      "definition": "The entity type of Venezuela"
+    },
+    {
+      "id": 20,
+      "name": "South Africa",
+      "definition": "The entity type of South Africa"
+    },
+    {
+      "id": 21,
+      "name": "Egypt",
+      "definition": "The entity type of Egypt"
+    },
+    {
+      "id": 22,
+      "name": "Kenya",
+      "definition": "The entity type of Kenya"
+    },
+    {
+      "id": 23,
+      "name": "Senegal",
+      "definition": "The entity type of Senegal"
+    },
+    {
+      "id": 24,
+      "name": "Nigeria",
+      "definition": "The entity type of Nigeria"
+    },
+    {
+      "id": 25,
+      "name": "Ghana",
+      "definition": "The entity type of Ghana"
+    },
+    {
+      "id": 26,
+      "name": "Ukraine",
+      "definition": "The entity type of Ukraine"
+    },
+    {
+      "id": 27,
+      "name": "Romania",
+      "definition": "The entity type of Romania"
+    },
+    {
+      "id": 28,
+      "name": "Sweden",
+      "definition": "The entity type of Sweden"
+    },
+    {
+      "id": 29,
+      "name": "Norway",
+      "definition": "The entity type of Norway"
+    },
+    {
+      "id": 30,
+      "name": "Finland",
+      "definition": "The entity type of Finland"
+    },
+    {
+      "id": 31,
+      "name": "Denmark",
+      "definition": "The entity type of Denmark"
+    },
+    {
+      "id": 32,
+      "name": "Netherlands",
+      "definition": "The entity type of Netherlands"
+    },
+    {
+      "id": 33,
+      "name": "Belgium",
+      "definition": "The entity type of Belgium"
+    },
+    {
+      "id": 34,
+      "name": "Switzerland",
+      "definition": "The entity type of Switzerland"
+    },
+    {
+      "id": 35,
+      "name": "Austria",
+      "definition": "The entity type of Austria"
+    },
+    {
+      "id": 36,
+      "name": "Greece",
+      "definition": "The entity type of Greece"
+    },
+    {
+      "id": 37,
+      "name": "Turkey",
+      "definition": "The entity type of Turkey"
+    },
+    {
+      "id": 38,
+      "name": "Iran",
+      "definition": "The entity type of Iran"
+    },
+    {
+      "id": 39,
+      "name": "Iraq",
+      "definition": "The entity type of Iraq"
+    },
+    {
+      "id": 40,
+      "name": "Syria",
+      "definition": "The entity type of Syria"
+    },
+    {
+      "id": 41,
+      "name": "Israel",
+      "definition": "The entity type of Israel"
+    },
+    {
+      "id": 42,
+      "name": "Saudi Arabia",
+      "definition": "The entity type of Saudi Arabia"
+    },
+    {
+      "id": 43,
+      "name": "United Arab Emirates",
+      "definition": "The entity type of United Arab Emirates"
+    },
+    {
+      "id": 44,
+      "name": "Pakistan",
+      "definition": "The entity type of Pakistan"
+    },
+    {
+      "id": 45,
+      "name": "Afghanistan",
+      "definition": "The entity type of Afghanistan"
+    },
+    {
+      "id": 46,
+      "name": "India",
+      "definition": "The entity type of India"
+    },
+    {
+      "id": 47,
+      "name": "Bangladesh",
+      "definition": "The entity type of Bangladesh"
+    },
+    {
+      "id": 48,
+      "name": "Sri Lanka",
+      "definition": "The entity type of Sri Lanka"
+    },
+    {
+      "id": 49,
+      "name": "Thailand",
+      "definition": "The entity type of Thailand"
+    },
+    {
+      "id": 50,
+      "name": "Vietnam",
+      "definition": "The entity type of Vietnam"
+    },
+    {
+      "id": 51,
+      "name": "Indonesia",
+      "definition": "The entity type of Indonesia"
+    },
+    {
+      "id": 52,
+      "name": "Philippines",
+      "definition": "The entity type of Philippines"
+    },
+    {
+      "id": 53,
+      "name": "Australia",
+      "definition": "The entity type of Australia"
+    },
+    {
+      "id": 54,
+      "name": "New Zealand",
+      "definition": "The entity type of New Zealand"
+    }
+  ]
+}

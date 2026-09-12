@@ -1,0 +1,75 @@
+{
+  "bench": "mtop_domain",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms",
+      "definition": "Requests related to setting, modifying, or deleting alarms."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Requests for creating, modifying, or deleting reminders."
+    },
+    {
+      "id": 3,
+      "name": "Timers",
+      "definition": "Requests for setting, modifying, or canceling timers."
+    },
+    {
+      "id": 4,
+      "name": "Calls",
+      "definition": "Requests related to making, receiving, or managing phone calls."
+    },
+    {
+      "id": 5,
+      "name": "Messages",
+      "definition": "Requests for sending, receiving, or managing messages."
+    },
+    {
+      "id": 6,
+      "name": "Weather",
+      "definition": "Requests for current or forecasted weather information."
+    },
+    {
+      "id": 7,
+      "name": "News",
+      "definition": "Requests for current news updates or specific news topics."
+    },
+    {
+      "id": 8,
+      "name": "Recipes",
+      "definition": "Requests for finding or providing cooking recipes."
+    },
+    {
+      "id": 9,
+      "name": "Music",
+      "definition": "Requests for playing, finding, or managing music."
+    },
+    {
+      "id": 10,
+      "name": "Events",
+      "definition": "Requests for information about local events or activities."
+    },
+    {
+      "id": 11,
+      "name": "Contacts",
+      "definition": "Requests for managing or retrieving information about contacts."
+    },
+    {
+      "id": 12,
+      "name": "Cooking",
+      "definition": "Requests for cooking times, methods, or food preparation."
+    },
+    {
+      "id": 13,
+      "name": "General Queries",
+      "definition": "Requests for general information or inquiries not covered by other categories."
+    }
+  ]
+}

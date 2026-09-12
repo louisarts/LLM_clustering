@@ -1,0 +1,109 @@
+{
+  "bench": "fewnerd",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "Named individuals, including historical figures, celebrities, athletes, and fictional characters."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "Geographical entities such as countries, cities, towns, islands, mountains, rivers, and parks."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "Groups, institutions, companies, government bodies, political parties, sports teams, and religious institutions."
+    },
+    {
+      "id": 4,
+      "name": "Creative Work",
+      "definition": "Artistic and media productions including films, TV shows, albums, songs, books, video games, and radio programs."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "Specific occurrences, incidents, battles, wars, revolutions, tournaments, and award ceremonies."
+    },
+    {
+      "id": 6,
+      "name": "Product",
+      "definition": "Manufactured goods, vehicles, commercial products, food items, and software applications."
+    },
+    {
+      "id": 7,
+      "name": "Biological Entity",
+      "definition": "Living organisms, species, biological molecules, and anatomical parts."
+    },
+    {
+      "id": 8,
+      "name": "Disease",
+      "definition": "Medical conditions, disorders, and syndromes."
+    },
+    {
+      "id": 9,
+      "name": "Chemical Substance",
+      "definition": "Chemical elements, compounds, drugs, enzymes, and proteins."
+    },
+    {
+      "id": 10,
+      "name": "Language",
+      "definition": "Specific languages, dialects, and language families."
+    },
+    {
+      "id": 11,
+      "name": "Currency",
+      "definition": "Monetary units and currencies."
+    },
+    {
+      "id": 12,
+      "name": "Nationality or Demonym",
+      "definition": "Adjectives or nouns referring to the origin or citizenship of a person or group."
+    },
+    {
+      "id": 13,
+      "name": "Award",
+      "definition": "Prizes, medals, and honors given for achievement."
+    },
+    {
+      "id": 14,
+      "name": "Academic Degree",
+      "definition": "Qualifications awarded by educational institutions."
+    },
+    {
+      "id": 15,
+      "name": "Transportation Route",
+      "definition": "Named roads, highways, railways, and flight routes."
+    },
+    {
+      "id": 16,
+      "name": "Geological Formation",
+      "definition": "Natural rock formations, stratigraphic units, and landforms."
+    },
+    {
+      "id": 17,
+      "name": "Building or Facility",
+      "definition": "Man-made structures including stadiums, airports, bridges, and specific rooms within buildings."
+    },
+    {
+      "id": 18,
+      "name": "Celestial Object",
+      "definition": "Stars, planets, moons, and other astronomical bodies."
+    },
+    {
+      "id": 19,
+      "name": "Title or Position",
+      "definition": "Formal titles, ranks, or positions held by a person."
+    },
+    {
+      "id": 20,
+      "name": "Gene or Protein",
+      "definition": "Specific genes, proteins, or gene products."
+    }
+  ]
+}

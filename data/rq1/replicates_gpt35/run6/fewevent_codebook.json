@@ -1,0 +1,60 @@
+{
+  "bench": "fewevent",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "performance",
+      "definition": "Events related to musical or theatrical performances."
+    },
+    {
+      "id": 2,
+      "name": "singer",
+      "definition": "Events related to singers or vocal performances."
+    },
+    {
+      "id": 3,
+      "name": "soldier",
+      "definition": "Events related to military personnel or activities."
+    },
+    {
+      "id": 4,
+      "name": "marriage",
+      "definition": "Events related to weddings or marital unions."
+    },
+    {
+      "id": 5,
+      "name": "protests",
+      "definition": "Events related to demonstrations or protests."
+    },
+    {
+      "id": 6,
+      "name": "music",
+      "definition": "Events related to music or musicians."
+    },
+    {
+      "id": 7,
+      "name": "president",
+      "definition": "Events related to presidents or leadership positions."
+    },
+    {
+      "id": 8,
+      "name": "film",
+      "definition": "Events related to movies or films."
+    },
+    {
+      "id": 9,
+      "name": "interview",
+      "definition": "Events related to interviews or press conferences."
+    },
+    {
+      "id": 10,
+      "name": "retirement",
+      "definition": "Events related to retirement or stepping down from a position."
+    }
+  ]
+}

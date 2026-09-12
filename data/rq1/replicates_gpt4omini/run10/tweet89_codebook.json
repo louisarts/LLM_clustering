@@ -1,0 +1,85 @@
+{
+  "bench": "tweet89",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Political Events",
+      "definition": "Documents related to political events, elections, and government actions."
+    },
+    {
+      "id": 2,
+      "name": "Natural Disasters and Weather Events",
+      "definition": "Documents discussing natural disasters, severe weather, and related emergencies."
+    },
+    {
+      "id": 3,
+      "name": "Entertainment and Celebrity News",
+      "definition": "Documents covering news about celebrities, movies, music, and entertainment events."
+    },
+    {
+      "id": 4,
+      "name": "Health and Wellness",
+      "definition": "Documents related to health initiatives, medical news, and wellness topics."
+    },
+    {
+      "id": 5,
+      "name": "Social Media and Technology",
+      "definition": "Documents discussing social media platforms, technology news, and privacy issues."
+    },
+    {
+      "id": 6,
+      "name": "Sports Events",
+      "definition": "Documents related to sports events, competitions, and athlete news."
+    },
+    {
+      "id": 7,
+      "name": "Legal and Judicial Matters",
+      "definition": "Documents discussing court rulings, legal cases, and judicial actions."
+    },
+    {
+      "id": 8,
+      "name": "Economic Issues",
+      "definition": "Documents related to economic topics, including debt, financial aid, and market news."
+    },
+    {
+      "id": 9,
+      "name": "Environmental Issues",
+      "definition": "Documents discussing environmental concerns, conservation efforts, and related topics."
+    },
+    {
+      "id": 10,
+      "name": "Crime and Security",
+      "definition": "Documents covering crime, security incidents, and law enforcement actions."
+    },
+    {
+      "id": 11,
+      "name": "Cultural Events",
+      "definition": "Documents related to cultural festivals, art exhibitions, and community events."
+    },
+    {
+      "id": 12,
+      "name": "Food and Recipes",
+      "definition": "Documents discussing food, recipes, and culinary topics."
+    },
+    {
+      "id": 13,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Documents related to fishing, outdoor sports, and recreational activities."
+    },
+    {
+      "id": 14,
+      "name": "Education and Scholarships",
+      "definition": "Documents discussing educational opportunities, scholarships, and academic news."
+    },
+    {
+      "id": 15,
+      "name": "Public Health and Safety",
+      "definition": "Documents related to public health issues, safety campaigns, and health regulations."
+    }
+  ]
+}

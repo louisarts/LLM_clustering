@@ -1,0 +1,102 @@
+[
+ {
+  "id": 1,
+  "name": "Magento",
+  "definition": "Questions about the Magento e-commerce platform, its configuration, theming, and development."
+ },
+ {
+  "id": 2,
+  "name": "Oracle",
+  "definition": "Questions regarding Oracle Database, SQL Developer, and Oracle-specific drivers or data types."
+ },
+ {
+  "id": 3,
+  "name": "Scala",
+  "definition": "Questions specific to the Scala programming language, including its syntax and REPL."
+ },
+ {
+  "id": 4,
+  "name": "SVN",
+  "definition": "Questions about Subversion (SVN) version control system commands and usage."
+ },
+ {
+  "id": 5,
+  "name": "Apache",
+  "definition": "Questions about Apache HTTP Server, mod_rewrite, and general web server configuration."
+ },
+ {
+  "id": 6,
+  "name": "SharePoint",
+  "definition": "Questions regarding Microsoft SharePoint setup and administration."
+ },
+ {
+  "id": 7,
+  "name": "Qt",
+  "definition": "Questions about the Qt application framework and GUI development."
+ },
+ {
+  "id": 8,
+  "name": "Drupal",
+  "definition": "Questions about the Drupal content management system, modules, and theming."
+ },
+ {
+  "id": 9,
+  "name": "Visual Studio",
+  "definition": "Questions regarding the Visual Studio IDE, macros, and extensions."
+ },
+ {
+  "id": 10,
+  "name": "Python",
+  "definition": "Questions about the Python programming language and development environment setup."
+ },
+ {
+  "id": 11,
+  "name": "Matlab",
+  "definition": "Questions about MATLAB computing environment and Simulink."
+ },
+ {
+  "id": 12,
+  "name": "LINQ",
+  "definition": "Questions about Language Integrated Query (LINQ) in .NET."
+ },
+ {
+  "id": 13,
+  "name": "JIRA",
+  "definition": "Questions regarding the JIRA issue tracking product."
+ },
+ {
+  "id": 14,
+  "name": "Eclipse",
+  "definition": "Questions about the Eclipse IDE and Rich Client Platform (RCP)."
+ },
+ {
+  "id": 15,
+  "name": "WordPress",
+  "definition": "Questions about the WordPress content management system, plugins, and themes."
+ },
+ {
+  "id": 16,
+  "name": "Core Data",
+  "definition": "Questions about Apple's Core Data framework for data persistence."
+ },
+ {
+  "id": 17,
+  "name": "Spring",
+  "definition": "Questions about the Spring Framework, including transactions and dependency injection."
+ },
+ {
+  "id": 18,
+  "name": "Haskell",
+  "definition": "Questions about the Haskell programming language and parsing libraries."
+ },
+ {
+  "id": 19,
+  "name": "Hibernate",
+  "definition": "Questions about the Hibernate ORM framework and HQL."
+ },
+ {
+  "id": 20,
+  "name": "Bash",
+  "definition": "Questions about the Bash shell and shell scripting."
+ }
+]

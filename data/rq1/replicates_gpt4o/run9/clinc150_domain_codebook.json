@@ -1,0 +1,100 @@
+{
+  "bench": "clinc150_domain",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Finance",
+      "definition": "Queries related to personal finance, banking, credit cards, and transactions."
+    },
+    {
+      "id": 2,
+      "name": "Travel",
+      "definition": "Requests for travel arrangements, flight bookings, and travel advisories."
+    },
+    {
+      "id": 3,
+      "name": "Calendar and Scheduling",
+      "definition": "Inquiries about calendar events, appointments, and scheduling."
+    },
+    {
+      "id": 4,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes, cooking instructions, and food-related information."
+    },
+    {
+      "id": 5,
+      "name": "Music and Entertainment",
+      "definition": "Requests to play music, adjust volume, or provide entertainment."
+    },
+    {
+      "id": 6,
+      "name": "Utilities and Bills",
+      "definition": "Questions about utility bills, due dates, and payments."
+    },
+    {
+      "id": 7,
+      "name": "Weather and Time",
+      "definition": "Inquiries about weather conditions and time zones."
+    },
+    {
+      "id": 8,
+      "name": "Transportation",
+      "definition": "Requests for transportation services like Uber or car rentals."
+    },
+    {
+      "id": 9,
+      "name": "Health and Safety",
+      "definition": "Questions about health precautions and safety advisories."
+    },
+    {
+      "id": 10,
+      "name": "Personal Information",
+      "definition": "Requests for personal information or assistant's identity."
+    },
+    {
+      "id": 11,
+      "name": "Conversions and Calculations",
+      "definition": "Requests for unit conversions and mathematical calculations."
+    },
+    {
+      "id": 12,
+      "name": "Shopping and Orders",
+      "definition": "Inquiries about shopping lists, orders, and product information."
+    },
+    {
+      "id": 13,
+      "name": "Vehicle Maintenance",
+      "definition": "Questions about car maintenance, oil changes, and repairs."
+    },
+    {
+      "id": 14,
+      "name": "General Knowledge and Trivia",
+      "definition": "Requests for general knowledge, trivia, and fun facts."
+    },
+    {
+      "id": 15,
+      "name": "Assistant Settings",
+      "definition": "Requests to change assistant settings or preferences."
+    },
+    {
+      "id": 16,
+      "name": "Communication",
+      "definition": "Requests to send messages or make calls."
+    },
+    {
+      "id": 17,
+      "name": "Jokes and Humor",
+      "definition": "Requests for jokes or humorous content."
+    },
+    {
+      "id": 18,
+      "name": "Miscellaneous",
+      "definition": "Queries that do not fit into other categories."
+    }
+  ]
+}

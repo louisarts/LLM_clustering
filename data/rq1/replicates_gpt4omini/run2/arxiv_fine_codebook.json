@@ -1,0 +1,160 @@
+{
+  "bench": "arxiv_fine",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cond-mat.mes-hall",
+      "definition": "Condensed matter physics focusing on mesoscopic systems and Hall effects."
+    },
+    {
+      "id": 2,
+      "name": "cs.LG",
+      "definition": "Computer science focusing on machine learning."
+    },
+    {
+      "id": 3,
+      "name": "math.AG",
+      "definition": "Mathematics focusing on algebraic geometry."
+    },
+    {
+      "id": 4,
+      "name": "math.PR",
+      "definition": "Mathematics focusing on probability."
+    },
+    {
+      "id": 5,
+      "name": "quant-ph",
+      "definition": "Quantum physics and quantum information."
+    },
+    {
+      "id": 6,
+      "name": "astro-ph.GA",
+      "definition": "Astrophysics focusing on galaxies."
+    },
+    {
+      "id": 7,
+      "name": "stat.ML",
+      "definition": "Statistics focusing on machine learning."
+    },
+    {
+      "id": 8,
+      "name": "cs.CV",
+      "definition": "Computer science focusing on computer vision."
+    },
+    {
+      "id": 9,
+      "name": "math.OC",
+      "definition": "Mathematics focusing on optimization and control."
+    },
+    {
+      "id": 10,
+      "name": "cs.SI",
+      "definition": "Computer science focusing on social and information networks."
+    },
+    {
+      "id": 11,
+      "name": "math.DS",
+      "definition": "Mathematics focusing on dynamical systems."
+    },
+    {
+      "id": 12,
+      "name": "stat.AP",
+      "definition": "Statistics focusing on applications."
+    },
+    {
+      "id": 13,
+      "name": "cs.NE",
+      "definition": "Computer science focusing on neural networks."
+    },
+    {
+      "id": 14,
+      "name": "math.NA",
+      "definition": "Mathematics focusing on numerical analysis."
+    },
+    {
+      "id": 15,
+      "name": "cs.DS",
+      "definition": "Computer science focusing on data structures."
+    },
+    {
+      "id": 16,
+      "name": "math.ST",
+      "definition": "Mathematics focusing on statistics theory."
+    },
+    {
+      "id": 17,
+      "name": "cs.AI",
+      "definition": "Computer science focusing on artificial intelligence."
+    },
+    {
+      "id": 18,
+      "name": "hep-th",
+      "definition": "High energy physics focusing on theoretical aspects."
+    },
+    {
+      "id": 19,
+      "name": "bio.Ph",
+      "definition": "Biophysics and biological physics."
+    },
+    {
+      "id": 20,
+      "name": "math.FA",
+      "definition": "Mathematics focusing on functional analysis."
+    },
+    {
+      "id": 21,
+      "name": "cs.HC",
+      "definition": "Computer science focusing on human-computer interaction."
+    },
+    {
+      "id": 22,
+      "name": "math.CA",
+      "definition": "Mathematics focusing on complex analysis."
+    },
+    {
+      "id": 23,
+      "name": "cs.SE",
+      "definition": "Computer science focusing on software engineering."
+    },
+    {
+      "id": 24,
+      "name": "math.GT",
+      "definition": "Mathematics focusing on geometry and topology."
+    },
+    {
+      "id": 25,
+      "name": "cs.NS",
+      "definition": "Computer science focusing on networking and security."
+    },
+    {
+      "id": 26,
+      "name": "math.CV",
+      "definition": "Mathematics focusing on convex geometry."
+    },
+    {
+      "id": 27,
+      "name": "stat.ME",
+      "definition": "Statistics focusing on methodology."
+    },
+    {
+      "id": 28,
+      "name": "cs.DM",
+      "definition": "Computer science focusing on data mining."
+    },
+    {
+      "id": 29,
+      "name": "math.HO",
+      "definition": "Mathematics focusing on history and overview."
+    },
+    {
+      "id": 30,
+      "name": "cs.SY",
+      "definition": "Computer science focusing on systems and control."
+    }
+  ]
+}

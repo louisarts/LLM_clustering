@@ -1,0 +1,150 @@
+{
+  "bench": "reddit_s2s",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Chemistry",
+      "definition": "Posts related to chemistry questions, experiments, and discussions."
+    },
+    {
+      "id": 2,
+      "name": "Sports",
+      "definition": "Posts discussing sports events, teams, or athletes."
+    },
+    {
+      "id": 3,
+      "name": "Local Information",
+      "definition": "Posts seeking or providing information about specific localities."
+    },
+    {
+      "id": 4,
+      "name": "Nature and Wildlife",
+      "definition": "Posts about animals, wildlife, and natural phenomena."
+    },
+    {
+      "id": 5,
+      "name": "Pets",
+      "definition": "Posts about pet care, behavior, and experiences."
+    },
+    {
+      "id": 6,
+      "name": "Comics and Crossovers",
+      "definition": "Posts discussing comic books and potential crossovers."
+    },
+    {
+      "id": 7,
+      "name": "Web Development and Blogging",
+      "definition": "Posts about website development, blogging, and related feedback."
+    },
+    {
+      "id": 8,
+      "name": "Economics and Finance",
+      "definition": "Posts discussing economic trends, inflation, and financial advice."
+    },
+    {
+      "id": 9,
+      "name": "Literature",
+      "definition": "Posts about books, novels, and literary discussions."
+    },
+    {
+      "id": 10,
+      "name": "Movies and TV Shows",
+      "definition": "Posts discussing films, TV shows, and viewing recommendations."
+    },
+    {
+      "id": 11,
+      "name": "Astrology",
+      "definition": "Posts discussing astrological signs and their impacts."
+    },
+    {
+      "id": 12,
+      "name": "Education and Career",
+      "definition": "Posts about educational paths, career advice, and job-related queries."
+    },
+    {
+      "id": 13,
+      "name": "Housing and Real Estate",
+      "definition": "Posts discussing housing issues, real estate, and living conditions."
+    },
+    {
+      "id": 14,
+      "name": "Cycling",
+      "definition": "Posts about cycling experiences, equipment, and safety."
+    },
+    {
+      "id": 15,
+      "name": "Technology and Gadgets",
+      "definition": "Posts discussing technology, gadgets, and related issues."
+    },
+    {
+      "id": 16,
+      "name": "Consumer Experiences",
+      "definition": "Posts about consumer experiences, reviews, and advice."
+    },
+    {
+      "id": 17,
+      "name": "Travel and Transportation",
+      "definition": "Posts about travel experiences, transportation, and related advice."
+    },
+    {
+      "id": 18,
+      "name": "Art and Design",
+      "definition": "Posts discussing art, design, and creative projects."
+    },
+    {
+      "id": 19,
+      "name": "Politics and Society",
+      "definition": "Posts discussing political events, societal issues, and activism."
+    },
+    {
+      "id": 20,
+      "name": "Music",
+      "definition": "Posts about music, performances, and artists."
+    },
+    {
+      "id": 21,
+      "name": "Food and Cooking",
+      "definition": "Posts about food, recipes, and cooking experiences."
+    },
+    {
+      "id": 22,
+      "name": "Health and Wellness",
+      "definition": "Posts discussing health, wellness, and medical advice."
+    },
+    {
+      "id": 23,
+      "name": "Aviation",
+      "definition": "Posts about aviation, aircraft, and related experiences."
+    },
+    {
+      "id": 24,
+      "name": "Automotive",
+      "definition": "Posts discussing cars, automotive experiences, and advice."
+    },
+    {
+      "id": 25,
+      "name": "Religion and Spirituality",
+      "definition": "Posts discussing religious beliefs, practices, and spirituality."
+    },
+    {
+      "id": 26,
+      "name": "Fashion and Beauty",
+      "definition": "Posts about fashion, beauty products, and personal style."
+    },
+    {
+      "id": 27,
+      "name": "Gaming",
+      "definition": "Posts discussing video games, board games, and gaming culture."
+    },
+    {
+      "id": 28,
+      "name": "Miscellaneous",
+      "definition": "Posts that do not fit into any specific category."
+    }
+  ]
+}

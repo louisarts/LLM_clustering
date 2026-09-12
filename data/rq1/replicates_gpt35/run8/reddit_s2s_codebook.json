@@ -1,0 +1,60 @@
+{
+  "bench": "reddit_s2s",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sports",
+      "definition": "Posts related to sports, such as AFL Draft prospects or a Ferrari driving experience"
+    },
+    {
+      "id": 2,
+      "name": "Art",
+      "definition": "Posts related to art, such as fanart, watercolor paintings, or architectural concepts"
+    },
+    {
+      "id": 3,
+      "name": "Music",
+      "definition": "Posts related to music, such as songs, musicians, or concert tickets"
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "Posts related to technology, such as iPhone issues, Android features, or online services"
+    },
+    {
+      "id": 5,
+      "name": "Education",
+      "definition": "Posts related to education, such as college advice, book recommendations, or learning resources"
+    },
+    {
+      "id": 6,
+      "name": "Entertainment",
+      "definition": "Posts related to entertainment, such as movie discussions, anime recommendations, or comedian updates"
+    },
+    {
+      "id": 7,
+      "name": "Health",
+      "definition": "Posts related to health, such as cancer treatments, medical questions, or fitness benefits"
+    },
+    {
+      "id": 8,
+      "name": "Travel",
+      "definition": "Posts related to travel, such as airport experiences, city recommendations, or tour announcements"
+    },
+    {
+      "id": 9,
+      "name": "Business",
+      "definition": "Posts related to business, such as marketing strategies, online platforms, or marketplace discussions"
+    },
+    {
+      "id": 10,
+      "name": "Politics",
+      "definition": "Posts related to politics, such as government decisions, social issues, or international news"
+    }
+  ]
+}

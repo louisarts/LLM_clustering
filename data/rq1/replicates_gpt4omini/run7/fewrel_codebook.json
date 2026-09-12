@@ -1,0 +1,85 @@
+{
+  "bench": "fewrel",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Geographical Relation",
+      "definition": "A relation where one entity is a location or geographical feature associated with another."
+    },
+    {
+      "id": 2,
+      "name": "Cultural Relation",
+      "definition": "A relation where one entity represents a cultural aspect or phenomenon related to another."
+    },
+    {
+      "id": 3,
+      "name": "Historical Relation",
+      "definition": "A relation where one entity is linked to a historical event or figure associated with another."
+    },
+    {
+      "id": 4,
+      "name": "Artistic Relation",
+      "definition": "A relation where one entity is a work of art or artist connected to another."
+    },
+    {
+      "id": 5,
+      "name": "Political Relation",
+      "definition": "A relation where one entity is a political figure or party associated with another."
+    },
+    {
+      "id": 6,
+      "name": "Institutional Relation",
+      "definition": "A relation where one entity is an institution or organization linked to another."
+    },
+    {
+      "id": 7,
+      "name": "Literary Relation",
+      "definition": "A relation where one entity is a literary work or author connected to another."
+    },
+    {
+      "id": 8,
+      "name": "Musical Relation",
+      "definition": "A relation where one entity is a music piece or musician associated with another."
+    },
+    {
+      "id": 9,
+      "name": "Scientific Relation",
+      "definition": "A relation where one entity is a scientific concept or figure linked to another."
+    },
+    {
+      "id": 10,
+      "name": "Sports Relation",
+      "definition": "A relation where one entity is a sports team or event associated with another."
+    },
+    {
+      "id": 11,
+      "name": "Media Relation",
+      "definition": "A relation where one entity is a media production or platform linked to another."
+    },
+    {
+      "id": 12,
+      "name": "Economic Relation",
+      "definition": "A relation where one entity is a business or economic concept associated with another."
+    },
+    {
+      "id": 13,
+      "name": "Religious Relation",
+      "definition": "A relation where one entity is a religious figure or concept linked to another."
+    },
+    {
+      "id": 14,
+      "name": "Technological Relation",
+      "definition": "A relation where one entity is a technology or product associated with another."
+    },
+    {
+      "id": 15,
+      "name": "Family Relation",
+      "definition": "A relation where one entity is a family member or lineage connected to another."
+    }
+  ]
+}

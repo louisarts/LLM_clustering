@@ -1,0 +1,10 @@
+method,w1.5x,w10pct,med_abs_e,CCC,spread
+Codebook,7/19,2/19,0.81,0.54,1.09
+Direct,9/19,2/19,0.61,0.57,1.09
+Probe,6/19,2/19,1.61,0.05,1.04
+Pairwise,8/19,3/19,1.1,0.62,0.57
+Sequential,5/19,2/19,0.84,0.48,1.14
+Simpson,5/19,4/19,0.83,0.42,1.03
+Judge sweep,6/19,1/19,0.94,0.54,1.09
+Merge convergence,1/19,0/19,1.73,0.13,0.17
+Silhouette-argmax (no LLM),9/19,4/19,1.15,0.19,1.06

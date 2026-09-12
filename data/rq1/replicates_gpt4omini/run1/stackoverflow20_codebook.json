@@ -1,0 +1,170 @@
+{
+  "bench": "stackoverflow20",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "SharePoint",
+      "definition": "Questions related to Microsoft SharePoint technology and its features."
+    },
+    {
+      "id": 2,
+      "name": "Spring",
+      "definition": "Questions regarding the Spring Framework and its components."
+    },
+    {
+      "id": 3,
+      "name": "WordPress",
+      "definition": "Questions about the WordPress content management system and its plugins."
+    },
+    {
+      "id": 4,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML technology."
+    },
+    {
+      "id": 5,
+      "name": "Hibernate",
+      "definition": "Questions concerning the Hibernate ORM framework for Java."
+    },
+    {
+      "id": 6,
+      "name": "Scala",
+      "definition": "Questions about the Scala programming language and its features."
+    },
+    {
+      "id": 7,
+      "name": "Cocoa",
+      "definition": "Questions related to the Cocoa framework for macOS development."
+    },
+    {
+      "id": 8,
+      "name": "Matlab",
+      "definition": "Questions regarding the MATLAB programming environment and its functionalities."
+    },
+    {
+      "id": 9,
+      "name": "Drupal",
+      "definition": "Questions about the Drupal content management system."
+    },
+    {
+      "id": 10,
+      "name": "C#",
+      "definition": "Questions related to the C# programming language and .NET framework."
+    },
+    {
+      "id": 11,
+      "name": "Bash",
+      "definition": "Questions concerning the Bash shell scripting language."
+    },
+    {
+      "id": 12,
+      "name": "Java",
+      "definition": "Questions related to the Java programming language."
+    },
+    {
+      "id": 13,
+      "name": "PHP",
+      "definition": "Questions about the PHP programming language and its frameworks."
+    },
+    {
+      "id": 14,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel and its functionalities."
+    },
+    {
+      "id": 15,
+      "name": "Subversion (SVN)",
+      "definition": "Questions regarding the Subversion version control system."
+    },
+    {
+      "id": 16,
+      "name": "Oracle",
+      "definition": "Questions related to Oracle databases and SQL."
+    },
+    {
+      "id": 17,
+      "name": "Visual Studio",
+      "definition": "Questions about the Visual Studio integrated development environment."
+    },
+    {
+      "id": 18,
+      "name": "JavaScript",
+      "definition": "Questions related to JavaScript programming and its libraries."
+    },
+    {
+      "id": 19,
+      "name": "Qt",
+      "definition": "Questions concerning the Qt framework for C++ development."
+    },
+    {
+      "id": 20,
+      "name": "LINQ",
+      "definition": "Questions related to Language Integrated Query in .NET."
+    },
+    {
+      "id": 21,
+      "name": "Haskell",
+      "definition": "Questions about the Haskell programming language."
+    },
+    {
+      "id": 22,
+      "name": "Magento",
+      "definition": "Questions regarding the Magento e-commerce platform."
+    },
+    {
+      "id": 23,
+      "name": "Python",
+      "definition": "Questions related to the Python programming language."
+    },
+    {
+      "id": 24,
+      "name": "CakePHP",
+      "definition": "Questions about the CakePHP framework for PHP."
+    },
+    {
+      "id": 25,
+      "name": "Apache",
+      "definition": "Questions related to the Apache web server and its configurations."
+    },
+    {
+      "id": 26,
+      "name": "Objective-C",
+      "definition": "Questions concerning the Objective-C programming language."
+    },
+    {
+      "id": 27,
+      "name": "Ruby",
+      "definition": "Questions related to the Ruby programming language."
+    },
+    {
+      "id": 28,
+      "name": "Flex",
+      "definition": "Questions about the Flex framework for building rich internet applications."
+    },
+    {
+      "id": 29,
+      "name": "C++",
+      "definition": "Questions related to the C++ programming language."
+    },
+    {
+      "id": 30,
+      "name": "Perl",
+      "definition": "Questions about the Perl programming language."
+    },
+    {
+      "id": 31,
+      "name": "Data Science",
+      "definition": "Questions related to data analysis and scientific computing."
+    },
+    {
+      "id": 32,
+      "name": "Game Development",
+      "definition": "Questions related to game development frameworks and languages."
+    }
+  ]
+}

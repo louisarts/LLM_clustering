@@ -1,0 +1,260 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Physics",
+      "definition": "Questions related to gravitational fields, differential geometry, and magnetospheres."
+    },
+    {
+      "id": 2,
+      "name": "Language & Linguistics",
+      "definition": "Questions about Latin dictionaries, translations, and language equivalents."
+    },
+    {
+      "id": 3,
+      "name": "Work & Employment",
+      "definition": "Questions about job positions, salary changes, and workplace dynamics."
+    },
+    {
+      "id": 4,
+      "name": "Philosophy & Ethics",
+      "definition": "Questions about logical fallacies, ethical arguments, and philosophical concepts."
+    },
+    {
+      "id": 5,
+      "name": "Computer Science & Software Development",
+      "definition": "Questions about encryption algorithms, software creation, and programming languages."
+    },
+    {
+      "id": 6,
+      "name": "Cultural & Language Differences",
+      "definition": "Questions about language nuances, translations, and cultural expressions."
+    },
+    {
+      "id": 7,
+      "name": "Pets & Animals",
+      "definition": "Questions about pet care, behavior, and animal health."
+    },
+    {
+      "id": 8,
+      "name": "Mathematics & Statistics",
+      "definition": "Questions about equations, VBA, and statistical models."
+    },
+    {
+      "id": 9,
+      "name": "History & Politics",
+      "definition": "Questions about historical events, political relations, and leadership changes."
+    },
+    {
+      "id": 10,
+      "name": "Genealogy & Historical Records",
+      "definition": "Questions about historical documents, names, and records."
+    },
+    {
+      "id": 11,
+      "name": "Technology & Gadgets",
+      "definition": "Questions about software tools, media management, and device compatibility."
+    },
+    {
+      "id": 12,
+      "name": "Health & Wellness",
+      "definition": "Questions about medical conditions, treatments, and preventive measures."
+    },
+    {
+      "id": 13,
+      "name": "Education & Learning",
+      "definition": "Questions about learning resources, study strategies, and educational tools."
+    },
+    {
+      "id": 14,
+      "name": "Music & Instruments",
+      "definition": "Questions about musical instruments, notes, and compositions."
+    },
+    {
+      "id": 15,
+      "name": "Travel & Transportation",
+      "definition": "Questions about travel destinations, visa requirements, and transportation logistics."
+    },
+    {
+      "id": 16,
+      "name": "Literature & Books",
+      "definition": "Questions about novels, authors, and literary analysis."
+    },
+    {
+      "id": 17,
+      "name": "Economics & Finance",
+      "definition": "Questions about financial markets, investments, and economic theories."
+    },
+    {
+      "id": 18,
+      "name": "Art & Design",
+      "definition": "Questions about visual aesthetics, image editing, and graphic design."
+    },
+    {
+      "id": 19,
+      "name": "Religion & Spirituality",
+      "definition": "Questions about religious texts, rituals, and spiritual beliefs."
+    },
+    {
+      "id": 20,
+      "name": "Gaming & Entertainment",
+      "definition": "Questions about video games, movies, and entertainment media."
+    },
+    {
+      "id": 21,
+      "name": "Legal & Copyright",
+      "definition": "Questions about patents, copyrights, and legal implications."
+    },
+    {
+      "id": 22,
+      "name": "Parenting & Childcare",
+      "definition": "Questions about child behavior, health, and parenting strategies."
+    },
+    {
+      "id": 23,
+      "name": "Geography & Maps",
+      "definition": "Questions about geographical locations, distances, and mapping technologies."
+    },
+    {
+      "id": 24,
+      "name": "Web Development & Programming",
+      "definition": "Questions about web technologies, coding practices, and software tools."
+    },
+    {
+      "id": 25,
+      "name": "Food & Cooking",
+      "definition": "Questions about recipes, ingredients, and culinary techniques."
+    },
+    {
+      "id": 26,
+      "name": "Astronomy & Space Exploration",
+      "definition": "Questions about celestial bodies, space missions, and astronomical phenomena."
+    },
+    {
+      "id": 27,
+      "name": "Psychology & Behavior",
+      "definition": "Questions about human behavior, mental health, and psychological theories."
+    },
+    {
+      "id": 28,
+      "name": "Engineering & Mechanics",
+      "definition": "Questions about mechanical systems, structural integrity, and material properties."
+    },
+    {
+      "id": 29,
+      "name": "Social Media & Networking",
+      "definition": "Questions about online platforms, user interactions, and social media strategies."
+    },
+    {
+      "id": 30,
+      "name": "Fitness & Exercise",
+      "definition": "Questions about workout routines, health benefits, and physical training."
+    },
+    {
+      "id": 31,
+      "name": "Music & Lyrics",
+      "definition": "Questions about song lyrics, music genres, and musical instruments."
+    },
+    {
+      "id": 32,
+      "name": "Video Production & Editing",
+      "definition": "Questions about video editing software, production techniques, and visual effects."
+    },
+    {
+      "id": 33,
+      "name": "Bot Protection & Security",
+      "definition": "Questions about cybersecurity, spam prevention, and bot detection."
+    },
+    {
+      "id": 34,
+      "name": "User Interface & Design",
+      "definition": "Questions about UI elements, layout design, and user experience."
+    },
+    {
+      "id": 35,
+      "name": "Neuroscience & Brain Health",
+      "definition": "Questions about cognitive functions, brain disorders, and memory enhancement."
+    },
+    {
+      "id": 36,
+      "name": "Mathematical Modeling & Simulation",
+      "definition": "Questions about mathematical models, simulations, and computational methods."
+    },
+    {
+      "id": 37,
+      "name": "Corporate IT & Browser Support",
+      "definition": "Questions about IT infrastructure, browser compatibility, and software upgrades."
+    },
+    {
+      "id": 38,
+      "name": "Religious Texts & Interpretations",
+      "definition": "Questions about religious scriptures, interpretations, and spiritual teachings."
+    },
+    {
+      "id": 39,
+      "name": "Database Management & Indexing",
+      "definition": "Questions about database indexing, search algorithms, and data retrieval."
+    },
+    {
+      "id": 40,
+      "name": "Programming Languages & Syntax",
+      "definition": "Questions about coding conventions, syntax rules, and programming paradigms."
+    },
+    {
+      "id": 41,
+      "name": "Music & Song Interpretation",
+      "definition": "Questions about song meanings, lyrical analysis, and music composition."
+    },
+    {
+      "id": 42,
+      "name": "Cryptocurrency & Blockchain",
+      "definition": "Questions about blockchain technology, cryptocurrency protocols, and digital assets."
+    },
+    {
+      "id": 43,
+      "name": "Open Source Software & Licensing",
+      "definition": "Questions about software licensing, open-source projects, and code distribution."
+    },
+    {
+      "id": 44,
+      "name": "Science Fiction & Fantasy",
+      "definition": "Questions about fictional worlds, creature abilities, and speculative technologies."
+    },
+    {
+      "id": 45,
+      "name": "Fashion & Clothing",
+      "definition": "Questions about clothing materials, fashion trends, and garment maintenance."
+    },
+    {
+      "id": 46,
+      "name": "Language Translation & Interpretation",
+      "definition": "Questions about language equivalents, translation accuracy, and linguistic expressions."
+    },
+    {
+      "id": 47,
+      "name": "Web Development & Testing",
+      "definition": "Questions about website testing, debugging tools, and frontend development."
+    },
+    {
+      "id": 48,
+      "name": "Geographical Features & Landscapes",
+      "definition": "Questions about natural landmarks, geographical formations, and terrain characteristics."
+    },
+    {
+      "id": 49,
+      "name": "Cultural Traditions & Customs",
+      "definition": "Questions about cultural practices, traditional rituals, and social etiquettes."
+    },
+    {
+      "id": 50,
+      "name": "Video Game Mechanics & Strategies",
+      "definition": "Questions about gaming strategies, character abilities, and gameplay mechanics."
+    }
+  ]
+}

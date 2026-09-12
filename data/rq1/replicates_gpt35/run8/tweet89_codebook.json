@@ -1,0 +1,135 @@
+{
+  "bench": "tweet89",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets related to commercials aired during the Super Bowl event."
+    },
+    {
+      "id": 2,
+      "name": "Egypt Protests",
+      "definition": "Tweets related to protests and events in Egypt."
+    },
+    {
+      "id": 3,
+      "name": "Celebrity News",
+      "definition": "Tweets related to news and events involving celebrities."
+    },
+    {
+      "id": 4,
+      "name": "Scholarships and Education",
+      "definition": "Tweets related to scholarships, academic merit, and educational institutions."
+    },
+    {
+      "id": 5,
+      "name": "Technology and Business News",
+      "definition": "Tweets related to technology, business, and stock market news."
+    },
+    {
+      "id": 6,
+      "name": "Political News",
+      "definition": "Tweets related to political events, leaders, and government decisions."
+    },
+    {
+      "id": 7,
+      "name": "Health and Medical News",
+      "definition": "Tweets related to health issues, medical breakthroughs, and healthcare."
+    },
+    {
+      "id": 8,
+      "name": "Environmental News",
+      "definition": "Tweets related to environmental issues, climate change, and natural disasters."
+    },
+    {
+      "id": 9,
+      "name": "Sports News",
+      "definition": "Tweets related to sports events, games, and athletes."
+    },
+    {
+      "id": 10,
+      "name": "Food and Recipes",
+      "definition": "Tweets related to food, recipes, cooking tips, and culinary delights."
+    },
+    {
+      "id": 11,
+      "name": "Social Media and Privacy",
+      "definition": "Tweets related to social media platforms, privacy settings, and online security."
+    },
+    {
+      "id": 12,
+      "name": "Legal Issues",
+      "definition": "Tweets related to lawsuits, court rulings, and legal controversies."
+    },
+    {
+      "id": 13,
+      "name": "International Relations",
+      "definition": "Tweets related to international politics, conflicts, and diplomatic relations."
+    },
+    {
+      "id": 14,
+      "name": "Film and Entertainment",
+      "definition": "Tweets related to movies, awards, actors, and entertainment industry."
+    },
+    {
+      "id": 15,
+      "name": "Acai Berry Diet",
+      "definition": "Tweets related to the Acai berry diet, weight loss plans, and health benefits."
+    },
+    {
+      "id": 16,
+      "name": "Fishing Tips and Reports",
+      "definition": "Tweets related to fishing techniques, locations, and fishing reports."
+    },
+    {
+      "id": 17,
+      "name": "Terrorist Attacks",
+      "definition": "Tweets related to terrorist incidents, bombings, and security threats."
+    },
+    {
+      "id": 18,
+      "name": "Music and Awards",
+      "definition": "Tweets related to music awards, nominations, and musical performances."
+    },
+    {
+      "id": 19,
+      "name": "Education Grants and Funding",
+      "definition": "Tweets related to grants, scholarships, and financial aid for education."
+    },
+    {
+      "id": 20,
+      "name": "Cybersecurity and Privacy",
+      "definition": "Tweets related to cybersecurity threats, data privacy, and online protection."
+    },
+    {
+      "id": 21,
+      "name": "Bullying Prevention",
+      "definition": "Tweets related to anti-bullying campaigns, events, and initiatives."
+    },
+    {
+      "id": 22,
+      "name": "Nobel Peace Prize Controversy",
+      "definition": "Tweets related to controversies surrounding the Nobel Peace Prize nominations and winners."
+    },
+    {
+      "id": 23,
+      "name": "Social Media Marketing",
+      "definition": "Tweets related to social media marketing strategies, tools, and trends."
+    },
+    {
+      "id": 24,
+      "name": "Immigration Laws and Policies",
+      "definition": "Tweets related to immigration laws, policies, and debates."
+    },
+    {
+      "id": 25,
+      "name": "National Security and Defense",
+      "definition": "Tweets related to national security issues, defense strategies, and military operations."
+    }
+  ]
+}

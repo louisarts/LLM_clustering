@@ -1,0 +1,59 @@
+{
+  "bench": "snips",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "n_discovery_docs": 300,
+  "n_samples": 1,
+  "discovery_seed": 0,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Music",
+      "definition": "User wants to initiate playback of music, an artist, album, song, genre, or playlist."
+    },
+    {
+      "id": 2,
+      "name": "Manage Music Playlist",
+      "definition": "User wants to add or remove music content (track, artist, album) from a playlist."
+    },
+    {
+      "id": 3,
+      "name": "Rate Content",
+      "definition": "User wants to assign a rating or score to a piece of media or content."
+    },
+    {
+      "id": 4,
+      "name": "Book Reservation",
+      "definition": "User wants to make a reservation or book a spot at a restaurant, bar, or other establishment."
+    },
+    {
+      "id": 5,
+      "name": "Get Weather Information",
+      "definition": "User wants to retrieve current weather conditions or a future weather forecast for a specific location."
+    },
+    {
+      "id": 6,
+      "name": "Find Media Content",
+      "definition": "User wants to locate information about a specific piece of media such as a book, movie, TV show, game, soundtrack, or artwork, or where to acquire it."
+    },
+    {
+      "id": 7,
+      "name": "Get Movie/Showtimes",
+      "definition": "User wants to find out the schedule, playing times, or locations for movies or TV shows at cinemas or theaters."
+    },
+    {
+      "id": 8,
+      "name": "Find Location",
+      "definition": "User wants to locate a general type of place or a specific named establishment for visiting, without explicitly booking."
+    },
+    {
+      "id": 9,
+      "name": "Play Game",
+      "definition": "User wants to launch or play a specific game."
+    },
+    {
+      "id": 10,
+      "name": "Open Application",
+      "definition": "User wants to open or launch a specific application."
+    }
+  ]
+}

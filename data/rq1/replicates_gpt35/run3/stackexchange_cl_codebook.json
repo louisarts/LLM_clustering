@@ -1,0 +1,60 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "StackOverflow",
+      "definition": "Questions related to programming, software development, and technology"
+    },
+    {
+      "id": 2,
+      "name": "English Language & Usage",
+      "definition": "Questions about the English language, grammar, and usage"
+    },
+    {
+      "id": 3,
+      "name": "Islam",
+      "definition": "Questions related to Islamic beliefs, practices, and history"
+    },
+    {
+      "id": 4,
+      "name": "Electrical Engineering",
+      "definition": "Questions related to electrical circuits, components, and systems"
+    },
+    {
+      "id": 5,
+      "name": "Law",
+      "definition": "Questions related to legal matters, patents, and copyright"
+    },
+    {
+      "id": 6,
+      "name": "Movies & TV",
+      "definition": "Questions related to movies, TV shows, and entertainment industry"
+    },
+    {
+      "id": 7,
+      "name": "Russian Language",
+      "definition": "Questions related to the Russian language and its usage"
+    },
+    {
+      "id": 8,
+      "name": "Mathematics",
+      "definition": "Questions related to mathematical concepts, calculations, and theories"
+    },
+    {
+      "id": 9,
+      "name": "Health",
+      "definition": "Questions related to health, medicine, and well-being"
+    },
+    {
+      "id": 10,
+      "name": "Web Development",
+      "definition": "Questions related to website development, coding, and design"
+    }
+  ]
+}

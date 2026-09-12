@@ -1,0 +1,70 @@
+{
+  "bench": "mcid",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "COVID-19 Statistics",
+      "definition": "Inquiries about the number of cases, deaths, recoveries, and other statistical data related to COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Travel Guidance",
+      "definition": "Questions regarding travel restrictions, safety, and advice related to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Health and Safety Precautions",
+      "definition": "Requests for information on how to protect oneself and others from COVID-19."
+    },
+    {
+      "id": 4,
+      "name": "Symptoms and Treatment",
+      "definition": "Inquiries about COVID-19 symptoms, treatment options, and self-care measures."
+    },
+    {
+      "id": 5,
+      "name": "Myths and Misinformation",
+      "definition": "Questions or statements addressing myths, misinformation, or conspiracy theories about COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Community Support and Donations",
+      "definition": "Requests for information on how to donate or support community efforts related to COVID-19."
+    },
+    {
+      "id": 7,
+      "name": "Animal and COVID-19",
+      "definition": "Inquiries about the impact of COVID-19 on animals and transmission between species."
+    },
+    {
+      "id": 8,
+      "name": "Public Health Recommendations",
+      "definition": "Questions about guidelines and recommendations from health authorities regarding COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Vaccine Information",
+      "definition": "Inquiries about the availability, development, and effectiveness of COVID-19 vaccines."
+    },
+    {
+      "id": 10,
+      "name": "Cleaning and Hygiene Practices",
+      "definition": "Questions about cleaning methods and hygiene practices to prevent the spread of COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "COVID-19 News and Updates",
+      "definition": "Requests for the latest news, updates, and developments related to COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "Mental Health and Anxiety",
+      "definition": "Inquiries related to mental health concerns and anxiety stemming from the COVID-19 pandemic."
+    }
+  ]
+}

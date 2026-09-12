@@ -1,0 +1,1510 @@
+{
+  "bench": "stackoverflow20",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language."
+    },
+    {
+      "id": 2,
+      "name": "SharePoint",
+      "definition": "Questions related to Microsoft SharePoint."
+    },
+    {
+      "id": 3,
+      "name": "Spring Framework",
+      "definition": "Questions related to the Spring Framework for Java."
+    },
+    {
+      "id": 4,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel, including VBA and macros."
+    },
+    {
+      "id": 5,
+      "name": "Drupal",
+      "definition": "Questions related to the Drupal content management system."
+    },
+    {
+      "id": 6,
+      "name": "NSURLRequest",
+      "definition": "Questions related to NSURLRequest in iOS/macOS development."
+    },
+    {
+      "id": 7,
+      "name": "Hibernate",
+      "definition": "Questions related to the Hibernate ORM framework."
+    },
+    {
+      "id": 8,
+      "name": "Apache",
+      "definition": "Questions related to the Apache HTTP Server."
+    },
+    {
+      "id": 9,
+      "name": "Qt",
+      "definition": "Questions related to the Qt application framework."
+    },
+    {
+      "id": 10,
+      "name": "WordPress",
+      "definition": "Questions related to the WordPress content management system."
+    },
+    {
+      "id": 11,
+      "name": "Subversion",
+      "definition": "Questions related to the Subversion version control system."
+    },
+    {
+      "id": 12,
+      "name": "Cocoa",
+      "definition": "Questions related to the Cocoa API for macOS development."
+    },
+    {
+      "id": 13,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 14,
+      "name": "Oracle",
+      "definition": "Questions related to Oracle databases and SQL."
+    },
+    {
+      "id": 15,
+      "name": "Matlab",
+      "definition": "Questions related to Matlab programming and functions."
+    },
+    {
+      "id": 16,
+      "name": "Visual Studio",
+      "definition": "Questions related to Microsoft Visual Studio IDE."
+    },
+    {
+      "id": 17,
+      "name": "Bash",
+      "definition": "Questions related to Bash scripting."
+    },
+    {
+      "id": 18,
+      "name": "Haskell",
+      "definition": "Questions related to the Haskell programming language."
+    },
+    {
+      "id": 19,
+      "name": "AJAX",
+      "definition": "Questions related to AJAX (Asynchronous JavaScript and XML)."
+    },
+    {
+      "id": 20,
+      "name": "JQuery",
+      "definition": "Questions related to the jQuery JavaScript library."
+    },
+    {
+      "id": 21,
+      "name": "Apache POI",
+      "definition": "Questions related to the Apache POI library for Java."
+    },
+    {
+      "id": 22,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 23,
+      "name": "Log4j",
+      "definition": "Questions related to the Log4j logging framework."
+    },
+    {
+      "id": 24,
+      "name": "C#",
+      "definition": "Questions related to the C# programming language."
+    },
+    {
+      "id": 25,
+      "name": "PHP",
+      "definition": "Questions related to the PHP programming language."
+    },
+    {
+      "id": 26,
+      "name": "AppleScript",
+      "definition": "Questions related to AppleScript scripting language."
+    },
+    {
+      "id": 27,
+      "name": "NSOutlineView",
+      "definition": "Questions related to NSOutlineView in Cocoa."
+    },
+    {
+      "id": 28,
+      "name": "NSBrowser",
+      "definition": "Questions related to NSBrowser in Cocoa."
+    },
+    {
+      "id": 29,
+      "name": "JMS",
+      "definition": "Questions related to Java Message Service (JMS)."
+    },
+    {
+      "id": 30,
+      "name": "DB2",
+      "definition": "Questions related to IBM DB2 database."
+    },
+    {
+      "id": 31,
+      "name": "iTerm",
+      "definition": "Questions related to iTerm terminal emulator for macOS."
+    },
+    {
+      "id": 32,
+      "name": "XCode",
+      "definition": "Questions related to XCode IDE for macOS development."
+    },
+    {
+      "id": 33,
+      "name": "C++",
+      "definition": "Questions related to the C++ programming language."
+    },
+    {
+      "id": 34,
+      "name": "SAP",
+      "definition": "Questions related to SAP software and integration."
+    },
+    {
+      "id": 35,
+      "name": "SOAP",
+      "definition": "Questions related to SOAP web services."
+    },
+    {
+      "id": 36,
+      "name": "Trac",
+      "definition": "Questions related to Trac project management tool."
+    },
+    {
+      "id": 37,
+      "name": "NSView",
+      "definition": "Questions related to NSView in Cocoa."
+    },
+    {
+      "id": 38,
+      "name": "NSNib",
+      "definition": "Questions related to NSNib in Cocoa."
+    },
+    {
+      "id": 39,
+      "name": "NSImage",
+      "definition": "Questions related to NSImage in Cocoa."
+    },
+    {
+      "id": 40,
+      "name": "NSCursor",
+      "definition": "Questions related to NSCursor in Cocoa."
+    },
+    {
+      "id": 41,
+      "name": "NSApplication",
+      "definition": "Questions related to NSApplication in Cocoa."
+    },
+    {
+      "id": 42,
+      "name": "NSWindow",
+      "definition": "Questions related to NSWindow in Cocoa."
+    },
+    {
+      "id": 43,
+      "name": "NSPanel",
+      "definition": "Questions related to NSPanel in Cocoa."
+    },
+    {
+      "id": 44,
+      "name": "NSAlert",
+      "definition": "Questions related to NSAlert in Cocoa."
+    },
+    {
+      "id": 45,
+      "name": "NSMenu",
+      "definition": "Questions related to NSMenu in Cocoa."
+    },
+    {
+      "id": 46,
+      "name": "NSMenuItem",
+      "definition": "Questions related to NSMenuItem in Cocoa."
+    },
+    {
+      "id": 47,
+      "name": "NSPopUpButton",
+      "definition": "Questions related to NSPopUpButton in Cocoa."
+    },
+    {
+      "id": 48,
+      "name": "NSComboBox",
+      "definition": "Questions related to NSComboBox in Cocoa."
+    },
+    {
+      "id": 49,
+      "name": "NSTableView",
+      "definition": "Questions related to NSTableView in Cocoa."
+    },
+    {
+      "id": 50,
+      "name": "NSOutlineView",
+      "definition": "Questions related to NSOutlineView in Cocoa."
+    },
+    {
+      "id": 51,
+      "name": "NSCollectionView",
+      "definition": "Questions related to NSCollectionView in Cocoa."
+    },
+    {
+      "id": 52,
+      "name": "NSScrollView",
+      "definition": "Questions related to NSScrollView in Cocoa."
+    },
+    {
+      "id": 53,
+      "name": "NSClipView",
+      "definition": "Questions related to NSClipView in Cocoa."
+    },
+    {
+      "id": 54,
+      "name": "NSViewController",
+      "definition": "Questions related to NSViewController in Cocoa."
+    },
+    {
+      "id": 55,
+      "name": "NSWindowController",
+      "definition": "Questions related to NSWindowController in Cocoa."
+    },
+    {
+      "id": 56,
+      "name": "NSDocument",
+      "definition": "Questions related to NSDocument in Cocoa."
+    },
+    {
+      "id": 57,
+      "name": "NSDocumentController",
+      "definition": "Questions related to NSDocumentController in Cocoa."
+    },
+    {
+      "id": 58,
+      "name": "NSFileManager",
+      "definition": "Questions related to NSFileManager in Cocoa."
+    },
+    {
+      "id": 59,
+      "name": "NSWorkspace",
+      "definition": "Questions related to NSWorkspace in Cocoa."
+    },
+    {
+      "id": 60,
+      "name": "NSImageView",
+      "definition": "Questions related to NSImageView in Cocoa."
+    },
+    {
+      "id": 61,
+      "name": "NSButton",
+      "definition": "Questions related to NSButton in Cocoa."
+    },
+    {
+      "id": 62,
+      "name": "NSTextField",
+      "definition": "Questions related to NSTextField in Cocoa."
+    },
+    {
+      "id": 63,
+      "name": "NSTextView",
+      "definition": "Questions related to NSTextView in Cocoa."
+    },
+    {
+      "id": 64,
+      "name": "NSAttributedString",
+      "definition": "Questions related to NSAttributedString in Cocoa."
+    },
+    {
+      "id": 65,
+      "name": "NSFont",
+      "definition": "Questions related to NSFont in Cocoa."
+    },
+    {
+      "id": 66,
+      "name": "NSColor",
+      "definition": "Questions related to NSColor in Cocoa."
+    },
+    {
+      "id": 67,
+      "name": "NSBezierPath",
+      "definition": "Questions related to NSBezierPath in Cocoa."
+    },
+    {
+      "id": 68,
+      "name": "NSGraphicsContext",
+      "definition": "Questions related to NSGraphicsContext in Cocoa."
+    },
+    {
+      "id": 69,
+      "name": "NSAnimation",
+      "definition": "Questions related to NSAnimation in Cocoa."
+    },
+    {
+      "id": 70,
+      "name": "NSAnimationContext",
+      "definition": "Questions related to NSAnimationContext in Cocoa."
+    },
+    {
+      "id": 71,
+      "name": "NSProgressIndicator",
+      "definition": "Questions related to NSProgressIndicator in Cocoa."
+    },
+    {
+      "id": 72,
+      "name": "NSLevelIndicator",
+      "definition": "Questions related to NSLevelIndicator in Cocoa."
+    },
+    {
+      "id": 73,
+      "name": "NSSlider",
+      "definition": "Questions related to NSSlider in Cocoa."
+    },
+    {
+      "id": 74,
+      "name": "NSStepper",
+      "definition": "Questions related to NSStepper in Cocoa."
+    },
+    {
+      "id": 75,
+      "name": "NSSegmentedControl",
+      "definition": "Questions related to NSSegmentedControl in Cocoa."
+    },
+    {
+      "id": 76,
+      "name": "NSMatrix",
+      "definition": "Questions related to NSMatrix in Cocoa."
+    },
+    {
+      "id": 77,
+      "name": "NSForm",
+      "definition": "Questions related to NSForm in Cocoa."
+    },
+    {
+      "id": 78,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 79,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 80,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 81,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 82,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 83,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 84,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 85,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 86,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 87,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 88,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 89,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 90,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 91,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 92,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 93,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 94,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 95,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 96,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 97,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 98,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 99,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 100,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 101,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 102,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 103,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 104,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 105,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 106,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 107,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 108,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 109,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 110,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 111,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 112,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 113,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 114,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 115,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 116,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 117,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 118,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 119,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 120,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 121,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 122,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 123,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 124,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 125,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 126,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 127,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 128,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 129,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 130,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 131,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 132,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 133,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 134,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 135,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 136,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 137,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 138,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 139,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 140,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 141,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 142,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 143,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 144,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 145,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 146,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 147,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 148,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 149,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 150,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 151,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 152,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 153,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 154,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 155,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 156,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 157,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 158,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 159,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 160,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 161,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 162,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 163,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 164,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 165,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 166,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 167,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 168,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 169,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 170,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 171,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 172,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 173,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 174,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 175,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 176,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 177,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 178,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 179,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 180,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 181,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 182,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 183,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 184,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 185,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 186,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 187,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 188,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 189,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 190,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 191,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 192,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 193,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 194,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 195,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 196,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 197,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 198,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 199,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 200,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 201,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 202,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 203,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 204,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 205,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 206,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 207,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 208,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 209,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 210,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 211,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 212,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 213,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 214,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 215,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 216,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 217,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 218,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 219,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 220,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 221,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 222,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 223,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 224,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 225,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 226,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 227,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 228,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 229,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 230,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 231,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 232,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 233,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 234,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 235,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 236,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 237,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 238,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 239,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 240,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 241,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 242,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 243,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 244,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 245,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 246,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 247,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 248,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 249,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 250,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 251,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 252,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 253,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 254,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 255,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 256,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 257,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 258,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 259,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 260,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 261,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 262,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 263,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 264,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 265,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 266,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 267,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 268,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 269,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 270,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 271,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 272,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 273,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 274,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 275,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 276,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 277,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 278,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 279,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 280,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 281,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 282,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 283,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    },
+    {
+      "id": 284,
+      "name": "NSCell",
+      "definition": "Questions related to NSCell in Cocoa."
+    },
+    {
+      "id": 285,
+      "name": "NSActionCell",
+      "definition": "Questions related to NSActionCell in Cocoa."
+    },
+    {
+      "id": 286,
+      "name": "NSImageCell",
+      "definition": "Questions related to NSImageCell in Cocoa."
+    },
+    {
+      "id": 287,
+      "name": "NSButtonCell",
+      "definition": "Questions related to NSButtonCell in Cocoa."
+    },
+    {
+      "id": 288,
+      "name": "NSPopUpButtonCell",
+      "definition": "Questions related to NSPopUpButtonCell in Cocoa."
+    },
+    {
+      "id": 289,
+      "name": "NSComboBoxCell",
+      "definition": "Questions related to NSComboBoxCell in Cocoa."
+    },
+    {
+      "id": 290,
+      "name": "NSTextFieldCell",
+      "definition": "Questions related to NSTextFieldCell in Cocoa."
+    },
+    {
+      "id": 291,
+      "name": "NSTextViewCell",
+      "definition": "Questions related to NSTextViewCell in Cocoa."
+    },
+    {
+      "id": 292,
+      "name": "NSImageViewCell",
+      "definition": "Questions related to NSImageViewCell in Cocoa."
+    },
+    {
+      "id": 293,
+      "name": "NSProgressIndicatorCell",
+      "definition": "Questions related to NSProgressIndicatorCell in Cocoa."
+    },
+    {
+      "id": 294,
+      "name": "NSLevelIndicatorCell",
+      "definition": "Questions related to NSLevelIndicatorCell in Cocoa."
+    },
+    {
+      "id": 295,
+      "name": "NSSliderCell",
+      "definition": "Questions related to NSSliderCell in Cocoa."
+    },
+    {
+      "id": 296,
+      "name": "NSStepperCell",
+      "definition": "Questions related to NSStepperCell in Cocoa."
+    },
+    {
+      "id": 297,
+      "name": "NSSegmentedCell",
+      "definition": "Questions related to NSSegmentedCell in Cocoa."
+    },
+    {
+      "id": 298,
+      "name": "NSMatrixCell",
+      "definition": "Questions related to NSMatrixCell in Cocoa."
+    },
+    {
+      "id": 299,
+      "name": "NSFormCell",
+      "definition": "Questions related to NSFormCell in Cocoa."
+    },
+    {
+      "id": 300,
+      "name": "NSBrowserCell",
+      "definition": "Questions related to NSBrowserCell in Cocoa."
+    }
+  ]
+}

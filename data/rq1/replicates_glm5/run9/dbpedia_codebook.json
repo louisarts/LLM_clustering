@@ -1,0 +1,54 @@
+{
+  "bench": "dbpedia",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, including historical figures, politicians, artists, athletes, and other professionals."
+    },
+    {
+      "id": 2,
+      "name": "Organization",
+      "definition": "An organized body of people with a particular purpose, including companies, institutions, government bodies, and non-profit groups."
+    },
+    {
+      "id": 3,
+      "name": "Geographic Feature",
+      "definition": "A natural physical feature of the Earth's surface, such as a mountain, lake, river, or crater."
+    },
+    {
+      "id": 4,
+      "name": "Settlement",
+      "definition": "A permanent human settlement, such as a city, town, or village."
+    },
+    {
+      "id": 5,
+      "name": "Creative Work",
+      "definition": "A distinct artistic or intellectual creation, including films, books, albums, television series, and video games."
+    },
+    {
+      "id": 6,
+      "name": "Biological Taxon",
+      "definition": "A group of one or more populations of an organism or organisms seen by taxonomists to form a unit."
+    },
+    {
+      "id": 7,
+      "name": "Vehicle",
+      "definition": "A machine used for transportation, including automobiles, trains, aircraft, and watercraft."
+    },
+    {
+      "id": 8,
+      "name": "Building or Structure",
+      "definition": "A man-made structure, including buildings, historic sites, monuments, and architectural elements."
+    },
+    {
+      "id": 9,
+      "name": "Educational Institution",
+      "definition": "An institution dedicated to education, including schools, colleges, and universities."
+    }
+  ]
+}

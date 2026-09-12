@@ -1,0 +1,109 @@
+{
+  "bench": "fewevent",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Marriage",
+      "definition": "Events involving the act of getting married, weddings, or the state of being a spouse."
+    },
+    {
+      "id": 2,
+      "name": "Military_Command",
+      "definition": "Events describing the assumption, holding, or scope of military leadership or authority."
+    },
+    {
+      "id": 3,
+      "name": "Athletics_Medal",
+      "definition": "Events involving the winning or awarding of medals, prizes, or high rankings in athletic competitions."
+    },
+    {
+      "id": 4,
+      "name": "Musician",
+      "definition": "Events describing a person's role, identity, or activity as a singer or player of an instrument."
+    },
+    {
+      "id": 5,
+      "name": "Soldier",
+      "definition": "Events describing a person's role, identity, or status as a member of the armed forces."
+    },
+    {
+      "id": 6,
+      "name": "Sailor",
+      "definition": "Events describing a person's role, identity, or status as a member of a navy or maritime crew."
+    },
+    {
+      "id": 7,
+      "name": "Coach",
+      "definition": "Events describing a person's role or activity as a trainer or instructor in sports."
+    },
+    {
+      "id": 8,
+      "name": "Leadership_Title",
+      "definition": "Events describing a person holding a specific rank, office, or position of authority in an organization or government."
+    },
+    {
+      "id": 9,
+      "name": "Education",
+      "definition": "Events involving being a student, graduating, or the process of teaching and learning."
+    },
+    {
+      "id": 10,
+      "name": "Employment",
+      "definition": "Events involving having a job, being employed, or specific work activities."
+    },
+    {
+      "id": 11,
+      "name": "Motion",
+      "definition": "Events involving physical movement, travel, or relocation from one place to another."
+    },
+    {
+      "id": 12,
+      "name": "Conflict",
+      "definition": "Events involving physical violence, protests, strikes, or military clashes."
+    },
+    {
+      "id": 13,
+      "name": "Legal_Action",
+      "definition": "Events involving arrests, fines, accusations, or other interactions with the legal system."
+    },
+    {
+      "id": 14,
+      "name": "Performance",
+      "definition": "Events involving the presentation of artistic works such as films, concerts, or live shows."
+    },
+    {
+      "id": 15,
+      "name": "Competition",
+      "definition": "Events involving organized contests, races, or tournaments."
+    },
+    {
+      "id": 16,
+      "name": "Communication",
+      "definition": "Events involving the transmission of information through speaking, writing, or questioning."
+    },
+    {
+      "id": 17,
+      "name": "Transaction",
+      "definition": "Events involving the exchange, sale, purchase, or import of goods and services."
+    },
+    {
+      "id": 18,
+      "name": "Social_Relationship",
+      "definition": "Events describing personal relationships, family roles, or social connections."
+    },
+    {
+      "id": 19,
+      "name": "Creation",
+      "definition": "Events involving the production, making, or designing of physical or artistic objects."
+    },
+    {
+      "id": 20,
+      "name": "Possession",
+      "definition": "Events involving the state of owning, having, or receiving objects or attributes."
+    }
+  ]
+}

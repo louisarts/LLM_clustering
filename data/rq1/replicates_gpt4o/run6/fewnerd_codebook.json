@@ -1,0 +1,160 @@
+{
+  "bench": "fewnerd",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Country",
+      "definition": "A nation with its own government, occupying a particular territory."
+    },
+    {
+      "id": 2,
+      "name": "City",
+      "definition": "A large town or a significant urban area within a country."
+    },
+    {
+      "id": 3,
+      "name": "Region",
+      "definition": "A specific area within a country, often with distinct geographical or cultural characteristics."
+    },
+    {
+      "id": 4,
+      "name": "Organization",
+      "definition": "An organized group of people with a particular purpose, such as a business or government department."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "An occurrence or happening, especially one of significance."
+    },
+    {
+      "id": 6,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 7,
+      "name": "Institution",
+      "definition": "An established organization, especially one dedicated to education, public service, or culture."
+    },
+    {
+      "id": 8,
+      "name": "Geographical Feature",
+      "definition": "A natural or artificial feature of the Earth's surface, such as a mountain, river, or island."
+    },
+    {
+      "id": 9,
+      "name": "Historical Entity",
+      "definition": "An entity that existed in the past, such as a former country or historical figure."
+    },
+    {
+      "id": 10,
+      "name": "Cultural Work",
+      "definition": "A creation in the fields of art, literature, music, or other cultural domains."
+    },
+    {
+      "id": 11,
+      "name": "Biological Entity",
+      "definition": "A living organism or a part of a living organism."
+    },
+    {
+      "id": 12,
+      "name": "Chemical Substance",
+      "definition": "A form of matter that has constant chemical composition and characteristic properties."
+    },
+    {
+      "id": 13,
+      "name": "Sporting Entity",
+      "definition": "An organization or event related to sports."
+    },
+    {
+      "id": 14,
+      "name": "Mythological Entity",
+      "definition": "A being or concept from mythology or folklore."
+    },
+    {
+      "id": 15,
+      "name": "Legal Entity",
+      "definition": "An entity recognized by law as having rights and obligations."
+    },
+    {
+      "id": 16,
+      "name": "Product",
+      "definition": "An item or service produced for sale or use."
+    },
+    {
+      "id": 17,
+      "name": "Language",
+      "definition": "A system of communication used by a particular community or country."
+    },
+    {
+      "id": 18,
+      "name": "Currency",
+      "definition": "A system of money in general use in a particular country."
+    },
+    {
+      "id": 19,
+      "name": "Religious Entity",
+      "definition": "An entity related to a system of faith or worship."
+    },
+    {
+      "id": 20,
+      "name": "Political Entity",
+      "definition": "An organization or group involved in political activities."
+    },
+    {
+      "id": 21,
+      "name": "Astronomical Entity",
+      "definition": "A celestial body or a feature in space."
+    },
+    {
+      "id": 22,
+      "name": "Medical Condition",
+      "definition": "A disease, disorder, or other health-related issue."
+    },
+    {
+      "id": 23,
+      "name": "Transportation",
+      "definition": "A system or means of conveying people or goods from place to place."
+    },
+    {
+      "id": 24,
+      "name": "Technology",
+      "definition": "The application of scientific knowledge for practical purposes, especially in industry."
+    },
+    {
+      "id": 25,
+      "name": "Food and Drink",
+      "definition": "Substances consumed for nutritional support or pleasure."
+    },
+    {
+      "id": 26,
+      "name": "Natural Phenomenon",
+      "definition": "A naturally occurring event or process."
+    },
+    {
+      "id": 27,
+      "name": "Material",
+      "definition": "A substance or matter from which something is or can be made."
+    },
+    {
+      "id": 28,
+      "name": "Artistic Style",
+      "definition": "A distinctive manner or technique in art, music, or literature."
+    },
+    {
+      "id": 29,
+      "name": "Educational Program",
+      "definition": "A course or series of courses offered by an educational institution."
+    },
+    {
+      "id": 30,
+      "name": "Military Entity",
+      "definition": "An organization or unit involved in defense or warfare."
+    }
+  ]
+}

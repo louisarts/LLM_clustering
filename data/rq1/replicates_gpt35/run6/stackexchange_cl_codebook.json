@@ -1,0 +1,115 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bitcoin and Cryptocurrency",
+      "definition": "Questions related to Bitcoin, cryptocurrency, and mining earnings"
+    },
+    {
+      "id": 2,
+      "name": "Web Development",
+      "definition": "Questions related to web development, including Sitecore, HTML, CSS, and JavaScript"
+    },
+    {
+      "id": 3,
+      "name": "Statistics and Data Analysis",
+      "definition": "Questions related to statistics, mean, joint distribution, and factor analysis"
+    },
+    {
+      "id": 4,
+      "name": "Software Development",
+      "definition": "Questions related to software development, including Java, Android, and batch files"
+    },
+    {
+      "id": 5,
+      "name": "Language and Linguistics",
+      "definition": "Questions related to language, translation, and grammar"
+    },
+    {
+      "id": 6,
+      "name": "Networking and Security",
+      "definition": "Questions related to networking protocols, VPNs, firewalls, and DDoS filters"
+    },
+    {
+      "id": 7,
+      "name": "Art and Design",
+      "definition": "Questions related to art, design, fonts, and Adobe Illustrator"
+    },
+    {
+      "id": 8,
+      "name": "Literature and Writing",
+      "definition": "Questions related to literature, fairy tales, dialogue, and storytelling"
+    },
+    {
+      "id": 9,
+      "name": "Health and Wellness",
+      "definition": "Questions related to health, sleep quality, body temperature, and tendinitis treatment"
+    },
+    {
+      "id": 10,
+      "name": "Gaming and Entertainment",
+      "definition": "Questions related to gaming, AI lifeforms, chess, and starships"
+    },
+    {
+      "id": 11,
+      "name": "Physics and Mathematics",
+      "definition": "Questions related to physics, NURBS surfaces, solid mass, and B-spline curves"
+    },
+    {
+      "id": 12,
+      "name": "History and Culture",
+      "definition": "Questions related to history, monuments, religious practices, and cultural traditions"
+    },
+    {
+      "id": 13,
+      "name": "Cooking and Food",
+      "definition": "Questions related to cooking, baking, veganism, and food safety"
+    },
+    {
+      "id": 14,
+      "name": "Travel and Transportation",
+      "definition": "Questions related to travel, baggage, flights, and motor vehicles"
+    },
+    {
+      "id": 15,
+      "name": "Education and Learning",
+      "definition": "Questions related to education, language courses, music theory, and quantum computing"
+    },
+    {
+      "id": 16,
+      "name": "Pets and Animals",
+      "definition": "Questions related to pets, dog training, cat care, and animal behavior"
+    },
+    {
+      "id": 17,
+      "name": "Religion and Philosophy",
+      "definition": "Questions related to religion, philosophy, ethics, and Socrates' teachings"
+    },
+    {
+      "id": 18,
+      "name": "Legal and Ethical",
+      "definition": "Questions related to law, copyright, patents, and privacy rights"
+    },
+    {
+      "id": 19,
+      "name": "Music and Audio",
+      "definition": "Questions related to music, instruments, sound work, and orchestral compositions"
+    },
+    {
+      "id": 20,
+      "name": "Photography and Videography",
+      "definition": "Questions related to photography, cameras, lenses, and image editing"
+    },
+    {
+      "id": 21,
+      "name": "Business and Finance",
+      "definition": "Questions related to business, contracts, licensing, and financial planning"
+    }
+  ]
+}

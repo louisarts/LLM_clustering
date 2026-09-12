@@ -1,0 +1,115 @@
+{
+  "bench": "fewevent",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "gesture",
+      "definition": "A feel good gesture to address violence."
+    },
+    {
+      "id": 2,
+      "name": "position",
+      "definition": "Being in a similar position without action taken."
+    },
+    {
+      "id": 3,
+      "name": "singer",
+      "definition": "Being a lead singer in a band."
+    },
+    {
+      "id": 4,
+      "name": "together",
+      "definition": "Playing together in a sports team or band."
+    },
+    {
+      "id": 5,
+      "name": "immigration",
+      "definition": "Dream about immigration."
+    },
+    {
+      "id": 6,
+      "name": "chief",
+      "definition": "Holding a chief position."
+    },
+    {
+      "id": 7,
+      "name": "president",
+      "definition": "Being a president of an organization."
+    },
+    {
+      "id": 8,
+      "name": "soldier",
+      "definition": "Serving as a soldier in the military."
+    },
+    {
+      "id": 9,
+      "name": "director",
+      "definition": "Holding a director position."
+    },
+    {
+      "id": 10,
+      "name": "work",
+      "definition": "Working on a specific project or research."
+    },
+    {
+      "id": 11,
+      "name": "buy",
+      "definition": "Buying something."
+    },
+    {
+      "id": 12,
+      "name": "music",
+      "definition": "Involvement in music or music production."
+    },
+    {
+      "id": 13,
+      "name": "strike",
+      "definition": "Participating in a strike."
+    },
+    {
+      "id": 14,
+      "name": "student",
+      "definition": "Studying at a university or school."
+    },
+    {
+      "id": 15,
+      "name": "expelled",
+      "definition": "Being expelled from an organization."
+    },
+    {
+      "id": 16,
+      "name": "command",
+      "definition": "Being in command of a group or army."
+    },
+    {
+      "id": 17,
+      "name": "gangraping",
+      "definition": "Involved in a gang rape incident."
+    },
+    {
+      "id": 18,
+      "name": "faces",
+      "definition": "Facing a penalty or consequence."
+    },
+    {
+      "id": 19,
+      "name": "bail",
+      "definition": "Being granted bail after a charge."
+    },
+    {
+      "id": 20,
+      "name": "speech",
+      "definition": "Delivering a speech."
+    },
+    {
+      "id": 21,
+      "name": "post",
+      "definition": "Posting something online."
+    }
+  ]
+}

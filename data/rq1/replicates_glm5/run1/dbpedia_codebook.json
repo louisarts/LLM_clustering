@@ -1,0 +1,79 @@
+{
+  "bench": "dbpedia",
+  "run": 1,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "rq3_cached",
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, notable for their activities in fields such as politics, sports, arts, or history."
+    },
+    {
+      "id": 2,
+      "name": "Settlement",
+      "definition": "A community or populated place where people live, such as a village, town, or city."
+    },
+    {
+      "id": 3,
+      "name": "Geographical Feature",
+      "definition": "A natural physical formation on the Earth's surface, such as a mountain, river, lake, or volcano."
+    },
+    {
+      "id": 4,
+      "name": "Educational Institution",
+      "definition": "An organization or establishment dedicated to education, such as a school, college, or university."
+    },
+    {
+      "id": 5,
+      "name": "Organization",
+      "definition": "An organized body of people with a particular purpose, such as a company, bank, charity, or government agency."
+    },
+    {
+      "id": 6,
+      "name": "Vehicle",
+      "definition": "A machine used for transporting people or cargo, including ships, aircraft, automobiles, and trains."
+    },
+    {
+      "id": 7,
+      "name": "Building and Structure",
+      "definition": "A man-made construction, such as a building, bridge, church, or other physical structure."
+    },
+    {
+      "id": 8,
+      "name": "Musical Work",
+      "definition": "A creative work consisting of recorded music, such as an album, single, or compilation."
+    },
+    {
+      "id": 9,
+      "name": "Film",
+      "definition": "A motion picture or television production, including feature films, documentaries, and specials."
+    },
+    {
+      "id": 10,
+      "name": "Written Work",
+      "definition": "A literary composition intended to be read, such as a novel, book, play, or short story."
+    },
+    {
+      "id": 11,
+      "name": "Publication",
+      "definition": "A periodical or serial publication such as a newspaper, magazine, or journal."
+    },
+    {
+      "id": 12,
+      "name": "Animal",
+      "definition": "A living organism belonging to the kingdom Animalia, or a taxonomic group of such organisms."
+    },
+    {
+      "id": 13,
+      "name": "Plant",
+      "definition": "A living organism belonging to the kingdom Plantae, including trees, shrubs, and algae, or a taxonomic group of such organisms."
+    },
+    {
+      "id": 14,
+      "name": "Concept",
+      "definition": "An abstract idea, term, or definition."
+    }
+  ]
+}

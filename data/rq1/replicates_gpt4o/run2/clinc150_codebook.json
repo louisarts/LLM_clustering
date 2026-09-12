@@ -1,0 +1,120 @@
+{
+  "bench": "clinc150",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Travel Information",
+      "definition": "Requests for information related to travel requirements, bookings, or alerts."
+    },
+    {
+      "id": 2,
+      "name": "Banking and Financial Services",
+      "definition": "Requests related to banking services, account management, and financial transactions."
+    },
+    {
+      "id": 3,
+      "name": "Personal Information and Reminders",
+      "definition": "Requests for personal information, reminders, or to-do list management."
+    },
+    {
+      "id": 4,
+      "name": "Weather and Traffic",
+      "definition": "Requests for current weather conditions or traffic updates."
+    },
+    {
+      "id": 5,
+      "name": "Music and Entertainment",
+      "definition": "Requests to play music, find songs, or get entertainment-related information."
+    },
+    {
+      "id": 6,
+      "name": "Shopping and Product Information",
+      "definition": "Requests for shopping lists, product prices, or reviews."
+    },
+    {
+      "id": 7,
+      "name": "Food and Recipes",
+      "definition": "Requests for recipes, cooking tips, or nutritional information."
+    },
+    {
+      "id": 8,
+      "name": "Health and Fitness",
+      "definition": "Requests related to health, fitness, or medical information."
+    },
+    {
+      "id": 9,
+      "name": "Home and Utilities",
+      "definition": "Requests related to home management, utilities, or appliance settings."
+    },
+    {
+      "id": 10,
+      "name": "Communication and Contacts",
+      "definition": "Requests to send messages, make calls, or manage contacts."
+    },
+    {
+      "id": 11,
+      "name": "Technology and Devices",
+      "definition": "Requests related to device settings, technical support, or software information."
+    },
+    {
+      "id": 12,
+      "name": "General Knowledge and Definitions",
+      "definition": "Requests for general information, definitions, or trivia."
+    },
+    {
+      "id": 13,
+      "name": "Jokes and Fun Facts",
+      "definition": "Requests for jokes, fun facts, or light-hearted content."
+    },
+    {
+      "id": 14,
+      "name": "Language and Translation",
+      "definition": "Requests for language translation or pronunciation help."
+    },
+    {
+      "id": 15,
+      "name": "Fashion and Style",
+      "definition": "Requests related to fashion advice or style recommendations."
+    },
+    {
+      "id": 16,
+      "name": "Dining and Restaurants",
+      "definition": "Requests for restaurant information, reservations, or dining recommendations."
+    },
+    {
+      "id": 17,
+      "name": "Transportation and Directions",
+      "definition": "Requests for transportation options, directions, or vehicle information."
+    },
+    {
+      "id": 18,
+      "name": "News and Current Events",
+      "definition": "Requests for news updates or information on current events."
+    },
+    {
+      "id": 19,
+      "name": "Games and Entertainment",
+      "definition": "Requests to play games or engage in entertainment activities."
+    },
+    {
+      "id": 20,
+      "name": "Account and Security",
+      "definition": "Requests related to account security, fraud alerts, or account management."
+    },
+    {
+      "id": 21,
+      "name": "Utilities and Home Automation",
+      "definition": "Requests to control home automation devices or manage utility settings."
+    },
+    {
+      "id": 22,
+      "name": "Miscellaneous",
+      "definition": "Requests that do not fit into other defined categories."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "bench": "fewnerd",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "Individual human beings, including historical figures, celebrities, athletes, and fictional characters portrayed by actors."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "Geographical entities such as countries, cities, towns, bodies of water, mountains, and astronomical features."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "Groups of people formed for a shared purpose, including companies, institutions, government bodies, sports teams, and political parties."
+    },
+    {
+      "id": 4,
+      "name": "Creative Work",
+      "definition": "Artistic and intellectual productions such as films, books, songs, albums, plays, paintings, and television shows."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "Occurrences happening at a specific time and place, including battles, wars, sports competitions, festivals, and historical incidents."
+    },
+    {
+      "id": 6,
+      "name": "Product",
+      "definition": "Manufactured goods, vehicles, technologies, currencies, and other tangible items produced for use or sale."
+    },
+    {
+      "id": 7,
+      "name": "Biological Entity",
+      "definition": "Living organisms including species of animals, plants, fungi, and specific biological molecules or anatomical structures."
+    },
+    {
+      "id": 8,
+      "name": "Demonyms and Groups",
+      "definition": "Terms referring to the people of a specific place (demonyms) or groups of people defined by ethnicity, nationality, or religion."
+    },
+    {
+      "id": 9,
+      "name": "Language",
+      "definition": "Systems of communication used by a specific community or nation."
+    },
+    {
+      "id": 10,
+      "name": "Award",
+      "definition": "Prizes, honors, or distinctions given to individuals or groups in recognition of achievement."
+    },
+    {
+      "id": 11,
+      "name": "Title and Position",
+      "definition": "Formal designations, ranks, or roles held by individuals within an organization, government, or social structure."
+    },
+    {
+      "id": 12,
+      "name": "Transport Infrastructure",
+      "definition": "Physical structures and systems used for transportation, including bridges, roads, railways, and airports."
+    },
+    {
+      "id": 13,
+      "name": "Chemical Substance",
+      "definition": "Chemical elements, compounds, drugs, and medications."
+    },
+    {
+      "id": 14,
+      "name": "Celestial Object",
+      "definition": "Natural objects in space such as stars, planets, moons, and asteroids."
+    },
+    {
+      "id": 15,
+      "name": "Geological Feature",
+      "definition": "Natural physical features of the earth's surface, including mountains, valleys, craters, and volcanoes."
+    },
+    {
+      "id": 16,
+      "name": "Software and Programming",
+      "definition": "Computer programs, operating systems, programming languages, and file formats."
+    },
+    {
+      "id": 17,
+      "name": "Award Category",
+      "definition": "Specific classifications or divisions within an award ceremony."
+    },
+    {
+      "id": 18,
+      "name": "Currency",
+      "definition": "Systems of money in general use in a particular country or monetary unit."
+    },
+    {
+      "id": 19,
+      "name": "Medical Condition",
+      "definition": "Diseases, disorders, syndromes, and other pathological conditions."
+    }
+  ]
+}

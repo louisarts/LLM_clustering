@@ -1,0 +1,137 @@
+{
+  "bench": "banking77",
+  "run": 5,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Management: Lost, Stolen, or Damaged Card",
+      "definition": "Queries about reporting a lost, stolen, or damaged card, freezing it, or requesting a replacement."
+    },
+    {
+      "id": 2,
+      "name": "Card Management: Card Not Working",
+      "definition": "Queries about a physical or virtual card being declined, stuck in an ATM, or not functioning as expected (e.g., contactless issues)."
+    },
+    {
+      "id": 3,
+      "name": "Card Management: Order and Activation",
+      "definition": "Queries about ordering a new card (physical or virtual), receiving it, activating it, linking it, or issues with card delivery."
+    },
+    {
+      "id": 4,
+      "name": "Card Management: PIN Management",
+      "definition": "Queries about finding, changing, resetting, or unblocking a card PIN or passcode."
+    },
+    {
+      "id": 5,
+      "name": "Card Management: Virtual Card Features",
+      "definition": "Queries specifically about the functionality, limits, security, or general information regarding disposable or virtual cards."
+    },
+    {
+      "id": 6,
+      "name": "Card Management: Card Usage and Features",
+      "definition": "Queries about where and how a card can be used, its capabilities, or general information not covered by other card categories."
+    },
+    {
+      "id": 7,
+      "name": "Transactions: Unauthorized or Fraudulent",
+      "definition": "Queries about unrecognized transactions, suspected fraud, or charges made without the user's authorization."
+    },
+    {
+      "id": 8,
+      "name": "Transactions: Declined or Failed",
+      "definition": "Queries about why a transaction (payment, top-up, transfer) was declined or failed."
+    },
+    {
+      "id": 9,
+      "name": "Transactions: Pending Status",
+      "definition": "Queries about the status of a transaction that is pending, how long it will take, or issues with pending transactions."
+    },
+    {
+      "id": 10,
+      "name": "Transactions: Refunds and Cancellations",
+      "definition": "Queries about cancelling a purchase, requesting a refund, or issues with a refund not appearing."
+    },
+    {
+      "id": 11,
+      "name": "Transactions: Duplicate Charges",
+      "definition": "Queries about being charged multiple times for a single transaction."
+    },
+    {
+      "id": 12,
+      "name": "Transfers: Initiating and Receiving Funds",
+      "definition": "Queries about how to send or receive money, including setting up transfers or direct deposits."
+    },
+    {
+      "id": 13,
+      "name": "Transfers: Issues with Transfers",
+      "definition": "Queries about transfers not being received by the recipient, delays, or other problems with money transfers."
+    },
+    {
+      "id": 14,
+      "name": "Transfers: Cancelling Transfers",
+      "definition": "Queries about cancelling a money transfer."
+    },
+    {
+      "id": 15,
+      "name": "Top-up: How to Top-up",
+      "definition": "Queries about the methods available for adding funds to an account or card, including auto-top-up features."
+    },
+    {
+      "id": 16,
+      "name": "Top-up: Top-up Issues",
+      "definition": "Queries about problems encountered while trying to top-up, such as denials, missing funds, limits, or verification issues."
+    },
+    {
+      "id": 17,
+      "name": "Fees and Charges: General Inquiry",
+      "definition": "Queries about unexpected fees, general fee structures, or questions about specific charges for any service."
+    },
+    {
+      "id": 18,
+      "name": "Exchange Rates and Currency Conversion",
+      "definition": "Queries about current exchange rates, how currency conversion works, or issues with applied exchange rates."
+    },
+    {
+      "id": 19,
+      "name": "Account Management: Identity Verification",
+      "definition": "Queries about the identity verification process, requirements, or issues encountered during verification."
+    },
+    {
+      "id": 20,
+      "name": "Account Management: Account Details and Settings",
+      "definition": "Queries about changing personal details, account settings, or general account information."
+    },
+    {
+      "id": 21,
+      "name": "Account Management: Account Closure or Deletion",
+      "definition": "Queries about closing or deleting an account."
+    },
+    {
+      "id": 22,
+      "name": "Account Management: Eligibility and Requirements",
+      "definition": "Queries about age requirements, eligibility for services, or general requirements to open or use an account."
+    },
+    {
+      "id": 23,
+      "name": "ATM Issues: Malfunction or Wrong Amount",
+      "definition": "Queries about ATMs malfunctioning, dispensing the wrong amount of cash, or retaining a card."
+    },
+    {
+      "id": 24,
+      "name": "ATM Issues: Location and Compatibility",
+      "definition": "Queries about finding ATMs, which ATMs are compatible, or where cash withdrawals are possible."
+    },
+    {
+      "id": 25,
+      "name": "General App or Technical Issues",
+      "definition": "Queries about problems with the banking app, website, or other technical difficulties not specific to a transaction type."
+    },
+    {
+      "id": 26,
+      "name": "General Information or Support",
+      "definition": "Broad questions about the bank's services, policies, locations, or general inquiries not fitting into other specific categories."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "bench": "banking77",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Not Working",
+      "definition": "User reports that their card is declined, not working, or they are unable to make a payment or withdrawal."
+    },
+    {
+      "id": 2,
+      "name": "Transfer Issue",
+      "definition": "User reports a problem with a money transfer, including failed, pending, or missing transfers."
+    },
+    {
+      "id": 3,
+      "name": "Top Up Issue",
+      "definition": "User reports a problem adding money to their account, including failed, pending, or reverted top-ups."
+    },
+    {
+      "id": 4,
+      "name": "Pending Transaction Inquiry",
+      "definition": "User inquires why a specific transaction is pending or asks when it will complete."
+    },
+    {
+      "id": 5,
+      "name": "Card Management",
+      "definition": "User requests to order, activate, or replace a physical or virtual card."
+    },
+    {
+      "id": 6,
+      "name": "Card Security",
+      "definition": "User reports a lost or stolen card, suspects unauthorized use, or requests to freeze the card."
+    },
+    {
+      "id": 7,
+      "name": "ATM Issue",
+      "definition": "User reports an ATM retained their card or dispensed the wrong amount of cash."
+    },
+    {
+      "id": 8,
+      "name": "Transaction Dispute",
+      "definition": "User reports an unrecognized, duplicate, or incorrect charge and requests a refund or investigation."
+    },
+    {
+      "id": 9,
+      "name": "Fee Inquiry",
+      "definition": "User asks about fees for services or disputes a specific fee charged to their account."
+    },
+    {
+      "id": 10,
+      "name": "Exchange Rate Inquiry",
+      "definition": "User asks about exchange rates, supported currencies, or the process for currency exchange."
+    },
+    {
+      "id": 11,
+      "name": "Top Up Inquiry",
+      "definition": "User asks about top-up limits, supported methods, or how to add money."
+    },
+    {
+      "id": 12,
+      "name": "Transfer Inquiry",
+      "definition": "User asks about transfer limits, processing times, or how to make a transfer."
+    },
+    {
+      "id": 13,
+      "name": "Card Usage Inquiry",
+      "definition": "User asks about card usage limits, accepted merchants, or how to use specific card features."
+    },
+    {
+      "id": 14,
+      "name": "PIN Management",
+      "definition": "User requests to change, unblock, or reset their card PIN."
+    },
+    {
+      "id": 15,
+      "name": "Identity Verification Issue",
+      "definition": "User reports an error or asks for steps regarding identity or source of funds verification."
+    },
+    {
+      "id": 16,
+      "name": "Account Management",
+      "definition": "User requests to open, close, or update details on their bank account."
+    },
+    {
+      "id": 17,
+      "name": "Card Delivery Status",
+      "definition": "User asks about the status, tracking, or delivery time of a physical card."
+    },
+    {
+      "id": 18,
+      "name": "Cancel Transaction",
+      "definition": "User requests to stop or cancel a pending transfer or payment."
+    },
+    {
+      "id": 19,
+      "name": "Refund Status",
+      "definition": "User inquires about the status or location of a missing refund."
+    },
+    {
+      "id": 20,
+      "name": "App or Device Issue",
+      "definition": "User reports issues with the mobile app, their phone, or access to the service."
+    }
+  ]
+}

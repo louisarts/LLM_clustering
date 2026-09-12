@@ -1,0 +1,49 @@
+{
+  "bench": "snips",
+  "run": 1,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "rq3_cached",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "PlayMusic",
+      "definition": "Play music, songs, albums, artists, or playlists on a media player."
+    },
+    {
+      "id": 2,
+      "name": "AddToPlaylist",
+      "definition": "Add a song, album, or artist to a specific playlist."
+    },
+    {
+      "id": 3,
+      "name": "BookRestaurant",
+      "definition": "Find or reserve a table at a restaurant, pub, or cafe."
+    },
+    {
+      "id": 4,
+      "name": "GetWeather",
+      "definition": "Check weather conditions or forecasts for a location."
+    },
+    {
+      "id": 5,
+      "name": "GetMovieTimes",
+      "definition": "Find movie schedules, showtimes, or cinemas playing specific movies."
+    },
+    {
+      "id": 6,
+      "name": "RateItem",
+      "definition": "Assign a rating or score to a book, album, or other creative work."
+    },
+    {
+      "id": 7,
+      "name": "FindCreativeWork",
+      "definition": "Search for a specific book, game, TV show, movie, soundtrack, or artwork."
+    },
+    {
+      "id": 8,
+      "name": "PlayVideo",
+      "definition": "Play TV shows, movies, trailers, or games on a media player."
+    }
+  ]
+}

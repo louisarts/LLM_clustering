@@ -1,0 +1,110 @@
+{
+  "bench": "dbpedia",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "Individual human being"
+    },
+    {
+      "id": 2,
+      "name": "Plant",
+      "definition": "Living organism of the kingdom Plantae"
+    },
+    {
+      "id": 3,
+      "name": "Building",
+      "definition": "Structure with a roof and walls"
+    },
+    {
+      "id": 4,
+      "name": "Organization",
+      "definition": "Group of people working together"
+    },
+    {
+      "id": 5,
+      "name": "Animal",
+      "definition": "Living organism of the kingdom Animalia"
+    },
+    {
+      "id": 6,
+      "name": "School",
+      "definition": "Institution for educating students"
+    },
+    {
+      "id": 7,
+      "name": "Company",
+      "definition": "Commercial business entity"
+    },
+    {
+      "id": 8,
+      "name": "Mountain",
+      "definition": "Landform that rises prominently above its surroundings"
+    },
+    {
+      "id": 9,
+      "name": "River",
+      "definition": "Natural flowing watercourse"
+    },
+    {
+      "id": 10,
+      "name": "Album",
+      "definition": "Collection of audio recordings"
+    },
+    {
+      "id": 11,
+      "name": "Film",
+      "definition": "Motion picture"
+    },
+    {
+      "id": 12,
+      "name": "Village",
+      "definition": "Human settlement or community"
+    },
+    {
+      "id": 13,
+      "name": "Lake",
+      "definition": "Body of relatively still fresh or salt water"
+    },
+    {
+      "id": 14,
+      "name": "Ferry",
+      "definition": "Vessel used to carry passengers or cargo"
+    },
+    {
+      "id": 15,
+      "name": "University",
+      "definition": "Institution of higher education and research"
+    },
+    {
+      "id": 16,
+      "name": "Library",
+      "definition": "Collection of sources of information and similar resources"
+    },
+    {
+      "id": 17,
+      "name": "Hospital",
+      "definition": "Medical treatment facility"
+    },
+    {
+      "id": 18,
+      "name": "Newspaper",
+      "definition": "Periodical publication containing news"
+    },
+    {
+      "id": 19,
+      "name": "Stadium",
+      "definition": "Venue for sports, concerts, or other events"
+    },
+    {
+      "id": 20,
+      "name": "Publisher",
+      "definition": "Company that produces and distributes literature"
+    }
+  ]
+}

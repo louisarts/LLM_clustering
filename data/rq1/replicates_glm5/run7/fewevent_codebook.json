@@ -1,0 +1,74 @@
+{
+  "bench": "fewevent",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Life Event",
+      "definition": "Events concerning personal milestones, relationships, or family status such as marriage, birth, or death."
+    },
+    {
+      "id": 2,
+      "name": "Education",
+      "definition": "Events related to academic study, attendance, graduation, or roles within educational institutions."
+    },
+    {
+      "id": 3,
+      "name": "Employment",
+      "definition": "Events describing a person's job, professional role, hiring, firing, or position within an organization."
+    },
+    {
+      "id": 4,
+      "name": "Military",
+      "definition": "Events involving armed forces personnel, ranks, duties, or specific military actions and operations."
+    },
+    {
+      "id": 5,
+      "name": "Sports",
+      "definition": "Events occurring in the context of athletic competition, including winning medals, matches, or races."
+    },
+    {
+      "id": 6,
+      "name": "Conflict",
+      "definition": "Events involving physical violence, attacks, fighting, or destruction between opposing parties."
+    },
+    {
+      "id": 7,
+      "name": "Arts",
+      "definition": "Events related to the creation, performance, or production of artistic works like films, music, or literature."
+    },
+    {
+      "id": 8,
+      "name": "Governance",
+      "definition": "Events involving political leadership, government administration, or official state functions."
+    },
+    {
+      "id": 9,
+      "name": "Legal",
+      "definition": "Events related to the judicial system, including arrests, charges, trials, and sentencing."
+    },
+    {
+      "id": 10,
+      "name": "Business",
+      "definition": "Events concerning commercial transactions, trade, corporate management, or financial activities."
+    },
+    {
+      "id": 11,
+      "name": "Movement",
+      "definition": "Events describing the physical transportation, travel, or movement of people or objects from one place to another."
+    },
+    {
+      "id": 12,
+      "name": "Communication",
+      "definition": "Events involving the transmission or exchange of information, messages, or statements."
+    },
+    {
+      "id": 13,
+      "name": "Social",
+      "definition": "Events describing general social interactions, gatherings, or the state of interpersonal relationships."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "bench": "massive_domain",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Requests for current weather conditions, forecasts, or weather-related alerts."
+    },
+    {
+      "id": 2,
+      "name": "Music and Audio",
+      "definition": "Requests to play, pause, or manage music, radio, podcasts, or audiobooks."
+    },
+    {
+      "id": 3,
+      "name": "Email and Messaging",
+      "definition": "Requests to check, send, or manage emails and messages."
+    },
+    {
+      "id": 4,
+      "name": "Reminders and Alarms",
+      "definition": "Requests to set, check, or cancel reminders and alarms."
+    },
+    {
+      "id": 5,
+      "name": "Calendar and Events",
+      "definition": "Requests to check, add, or manage calendar events and appointments."
+    },
+    {
+      "id": 6,
+      "name": "Smart Home Control",
+      "definition": "Requests to control smart home devices such as lights, plugs, or appliances."
+    },
+    {
+      "id": 7,
+      "name": "News and Information",
+      "definition": "Requests for news updates or general information about current events."
+    },
+    {
+      "id": 8,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 9,
+      "name": "Shopping and Grocery Lists",
+      "definition": "Requests to add items to shopping or grocery lists."
+    },
+    {
+      "id": 10,
+      "name": "Travel and Directions",
+      "definition": "Requests for travel information, directions, or transportation services."
+    },
+    {
+      "id": 11,
+      "name": "Time and Date",
+      "definition": "Requests for the current time, time in different locations, or date-related information."
+    },
+    {
+      "id": 12,
+      "name": "Stocks and Finance",
+      "definition": "Requests for stock prices or financial information."
+    },
+    {
+      "id": 13,
+      "name": "Definitions and Descriptions",
+      "definition": "Requests for definitions or descriptions of terms or concepts."
+    },
+    {
+      "id": 14,
+      "name": "Social Media",
+      "definition": "Requests related to social media interactions or updates."
+    },
+    {
+      "id": 15,
+      "name": "Jokes and Entertainment",
+      "definition": "Requests for jokes or entertainment-related content."
+    },
+    {
+      "id": 16,
+      "name": "Personal Information",
+      "definition": "Requests to share or manage personal information or daily activities."
+    },
+    {
+      "id": 17,
+      "name": "Device Control",
+      "definition": "Requests to control or manage device settings or operations."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "bench": "stackoverflow20",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apache",
+      "definition": "Questions related to the Apache web server"
+    },
+    {
+      "id": 2,
+      "name": "Bash",
+      "definition": "Questions related to the Bash scripting language"
+    },
+    {
+      "id": 3,
+      "name": "C++",
+      "definition": "Questions related to the C++ programming language"
+    },
+    {
+      "id": 4,
+      "name": "Cocoa/Objective-C",
+      "definition": "Questions related to Cocoa and Objective-C development"
+    },
+    {
+      "id": 5,
+      "name": "Drupal",
+      "definition": "Questions related to Drupal content management system"
+    },
+    {
+      "id": 6,
+      "name": "Excel/VBA",
+      "definition": "Questions related to Excel and Visual Basic for Applications"
+    },
+    {
+      "id": 7,
+      "name": "Git/SVN",
+      "definition": "Questions related to version control systems Git and SVN"
+    },
+    {
+      "id": 8,
+      "name": "Haskell",
+      "definition": "Questions related to the Haskell programming language"
+    },
+    {
+      "id": 9,
+      "name": "Hibernate",
+      "definition": "Questions related to the Hibernate ORM framework"
+    },
+    {
+      "id": 10,
+      "name": "Java",
+      "definition": "Questions related to the Java programming language"
+    },
+    {
+      "id": 11,
+      "name": "Javascript/AJAX",
+      "definition": "Questions related to Javascript and AJAX technologies"
+    },
+    {
+      "id": 12,
+      "name": "LINQ",
+      "definition": "Questions related to Language Integrated Query (LINQ)"
+    },
+    {
+      "id": 13,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform"
+    },
+    {
+      "id": 14,
+      "name": "Matlab",
+      "definition": "Questions related to the Matlab programming language"
+    },
+    {
+      "id": 15,
+      "name": "Oracle",
+      "definition": "Questions related to the Oracle database system"
+    },
+    {
+      "id": 16,
+      "name": "Qt",
+      "definition": "Questions related to the Qt application framework"
+    },
+    {
+      "id": 17,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language"
+    },
+    {
+      "id": 18,
+      "name": "Sharepoint",
+      "definition": "Questions related to the Sharepoint platform"
+    },
+    {
+      "id": 19,
+      "name": "Spring",
+      "definition": "Questions related to the Spring framework"
+    },
+    {
+      "id": 20,
+      "name": "Unix/OSX",
+      "definition": "Questions related to Unix and OSX operating systems"
+    },
+    {
+      "id": 21,
+      "name": "Visual Studio",
+      "definition": "Questions related to the Visual Studio development environment"
+    },
+    {
+      "id": 22,
+      "name": "Win32 API",
+      "definition": "Questions related to the Win32 API"
+    },
+    {
+      "id": 23,
+      "name": "Wordpress",
+      "definition": "Questions related to the Wordpress content management system"
+    }
+  ]
+}

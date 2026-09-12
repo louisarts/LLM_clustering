@@ -1,0 +1,80 @@
+{
+  "bench": "clinc150_domain",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Automotive",
+      "definition": "Requests related to car maintenance, fuel, and tire information."
+    },
+    {
+      "id": 2,
+      "name": "Banking and Finance",
+      "definition": "Inquiries about bank accounts, credit cards, transactions, and financial advice."
+    },
+    {
+      "id": 3,
+      "name": "Travel and Reservations",
+      "definition": "Requests for travel information, reservations, and related inquiries."
+    },
+    {
+      "id": 4,
+      "name": "Personal Assistant",
+      "definition": "Tasks related to reminders, calendar management, and personal organization."
+    },
+    {
+      "id": 5,
+      "name": "Cooking and Recipes",
+      "definition": "Questions about cooking methods, recipes, and food-related inquiries."
+    },
+    {
+      "id": 6,
+      "name": "Utilities and Bills",
+      "definition": "Inquiries about utility bills and related payments."
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "definition": "Requests to send messages or make calls."
+    },
+    {
+      "id": 8,
+      "name": "Entertainment and Trivia",
+      "definition": "Requests for jokes, trivia, and fun facts."
+    },
+    {
+      "id": 9,
+      "name": "Device and Settings",
+      "definition": "Requests to change device settings or locate devices."
+    },
+    {
+      "id": 10,
+      "name": "Health and Insurance",
+      "definition": "Inquiries about health plans and insurance policies."
+    },
+    {
+      "id": 11,
+      "name": "Currency and Measurement Conversion",
+      "definition": "Requests for currency conversion and measurement conversions."
+    },
+    {
+      "id": 12,
+      "name": "General Knowledge",
+      "definition": "Questions about definitions, meanings, and general information."
+    },
+    {
+      "id": 13,
+      "name": "Shopping and Orders",
+      "definition": "Requests related to shopping lists, orders, and product information."
+    },
+    {
+      "id": 14,
+      "name": "Time and Date",
+      "definition": "Inquiries about time, date, and time zones."
+    }
+  ]
+}

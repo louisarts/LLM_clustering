@@ -1,0 +1,510 @@
+{
+  "bench": "dbpedia",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Company",
+      "definition": "An organization engaged in commercial, industrial, or professional activities."
+    },
+    {
+      "id": 2,
+      "name": "Biological Taxonomy",
+      "definition": "A classification of living organisms, including species, genera, families, and orders."
+    },
+    {
+      "id": 3,
+      "name": "Ship",
+      "definition": "A large watercraft that travels the world's oceans and other sufficiently deep waterways."
+    },
+    {
+      "id": 4,
+      "name": "University",
+      "definition": "An institution of higher education and research, which grants academic degrees."
+    },
+    {
+      "id": 5,
+      "name": "Geographical Feature",
+      "definition": "A natural or artificial feature of the Earth's surface, such as a mountain, lake, or river."
+    },
+    {
+      "id": 6,
+      "name": "Book",
+      "definition": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers."
+    },
+    {
+      "id": 7,
+      "name": "Album",
+      "definition": "A collection of audio recordings issued as a single item on CD, record, or another medium."
+    },
+    {
+      "id": 8,
+      "name": "Village",
+      "definition": "A small community or group of houses in a rural area, larger than a hamlet but smaller than a town."
+    },
+    {
+      "id": 9,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 10,
+      "name": "Film",
+      "definition": "A motion picture or movie, a series of still images that create the illusion of moving images."
+    },
+    {
+      "id": 11,
+      "name": "Plant",
+      "definition": "A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses."
+    },
+    {
+      "id": 12,
+      "name": "Animal",
+      "definition": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system."
+    },
+    {
+      "id": 13,
+      "name": "Building",
+      "definition": "A structure with a roof and walls, such as a house, school, or factory."
+    },
+    {
+      "id": 14,
+      "name": "Historical Event",
+      "definition": "An occurrence or happening of significance in history."
+    },
+    {
+      "id": 15,
+      "name": "Journal",
+      "definition": "A periodical publication with scholarly articles on a particular academic discipline."
+    },
+    {
+      "id": 16,
+      "name": "Government",
+      "definition": "The governing body of a nation, state, or community."
+    },
+    {
+      "id": 17,
+      "name": "Crater",
+      "definition": "A bowl-shaped geological formation at the top of a volcano or created by the impact of a meteorite."
+    },
+    {
+      "id": 18,
+      "name": "Mountain",
+      "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level."
+    },
+    {
+      "id": 19,
+      "name": "River",
+      "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another river."
+    },
+    {
+      "id": 20,
+      "name": "Lake",
+      "definition": "A large body of water surrounded by land."
+    },
+    {
+      "id": 21,
+      "name": "Moth",
+      "definition": "An insect related to the butterfly, typically having a stout body and feathery or hairlike antennae."
+    },
+    {
+      "id": 22,
+      "name": "Spider",
+      "definition": "An eight-legged predatory arachnid with an unsegmented body consisting of a fused head and thorax and a rounded abdomen."
+    },
+    {
+      "id": 23,
+      "name": "Bird",
+      "definition": "A warm-blooded egg-laying vertebrate animal distinguished by the possession of feathers, wings, and a beak."
+    },
+    {
+      "id": 24,
+      "name": "Insect",
+      "definition": "A small arthropod animal that has six legs and generally one or two pairs of wings."
+    },
+    {
+      "id": 25,
+      "name": "Reptile",
+      "definition": "A cold-blooded, egg-laying vertebrate of a class that includes snakes, lizards, crocodiles, turtles, and tortoises."
+    },
+    {
+      "id": 26,
+      "name": "Fungus",
+      "definition": "A spore-producing organism feeding on organic matter, including molds, yeast, mushrooms, and toadstools."
+    },
+    {
+      "id": 27,
+      "name": "Fish",
+      "definition": "A limbless cold-blooded vertebrate animal with gills and fins living wholly in water."
+    },
+    {
+      "id": 28,
+      "name": "Mammal",
+      "definition": "A warm-blooded vertebrate animal of a class that is distinguished by the possession of hair or fur, secretion of milk by females for the nourishment of the young, and (typically) the birth of live young."
+    },
+    {
+      "id": 29,
+      "name": "Amphibian",
+      "definition": "A cold-blooded vertebrate animal of a class that comprises the frogs, toads, newts, and salamanders."
+    },
+    {
+      "id": 30,
+      "name": "Mollusk",
+      "definition": "An invertebrate of a large phylum that includes snails, slugs, mussels, and octopuses."
+    },
+    {
+      "id": 31,
+      "name": "Arachnid",
+      "definition": "An arthropod of the class Arachnida, such as a spider or scorpion."
+    },
+    {
+      "id": 32,
+      "name": "Bacterium",
+      "definition": "A member of a large group of unicellular microorganisms that have cell walls but lack organelles and an organized nucleus, including some that can cause disease."
+    },
+    {
+      "id": 33,
+      "name": "Virus",
+      "definition": "A small infectious agent that replicates only inside the living cells of an organism."
+    },
+    {
+      "id": 34,
+      "name": "Fictional Character",
+      "definition": "A person or being that exists in a fictional narrative or story."
+    },
+    {
+      "id": 35,
+      "name": "Mythological Figure",
+      "definition": "A character from a myth, a traditional story that explains a natural or social phenomenon."
+    },
+    {
+      "id": 36,
+      "name": "Legendary Figure",
+      "definition": "A character from a legend, a traditional story sometimes popularly regarded as historical but unauthenticated."
+    },
+    {
+      "id": 37,
+      "name": "Folklore Figure",
+      "definition": "A character from folklore, the traditional beliefs, customs, and stories of a community, passed through the generations by word of mouth."
+    },
+    {
+      "id": 38,
+      "name": "Deity",
+      "definition": "A god or goddess in a polytheistic religion."
+    },
+    {
+      "id": 39,
+      "name": "Supernatural Being",
+      "definition": "A being that exists beyond the observable universe and is not subject to the laws of nature."
+    },
+    {
+      "id": 40,
+      "name": "Alien",
+      "definition": "A being from another world or planet."
+    },
+    {
+      "id": 41,
+      "name": "Robot",
+      "definition": "A machine capable of carrying out a complex series of actions automatically, especially one programmable by a computer."
+    },
+    {
+      "id": 42,
+      "name": "Artificial Intelligence",
+      "definition": "A branch of computer science dealing with the simulation of intelligent behavior in computers."
+    },
+    {
+      "id": 43,
+      "name": "Computer Program",
+      "definition": "A collection of instructions that performs a specific task when executed by a computer."
+    },
+    {
+      "id": 44,
+      "name": "Software",
+      "definition": "The programs and other operating information used by a computer."
+    },
+    {
+      "id": 45,
+      "name": "Hardware",
+      "definition": "The machines, wiring, and other physical components of a computer or other electronic system."
+    },
+    {
+      "id": 46,
+      "name": "Gadget",
+      "definition": "A small mechanical or electronic device or tool, especially an ingenious or novel one."
+    },
+    {
+      "id": 47,
+      "name": "Tool",
+      "definition": "A device or implement, especially one held in the hand, used to carry out a particular function."
+    },
+    {
+      "id": 48,
+      "name": "Instrument",
+      "definition": "A tool or implement, especially one for delicate or scientific work."
+    },
+    {
+      "id": 49,
+      "name": "Machine",
+      "definition": "An apparatus using mechanical power and having several parts, each with a definite function and together performing a particular task."
+    },
+    {
+      "id": 50,
+      "name": "Vehicle",
+      "definition": "A thing used for transporting people or goods, especially on land, such as a car, truck, or cart."
+    },
+    {
+      "id": 51,
+      "name": "Aircraft",
+      "definition": "A vehicle that is able to fly by gaining support from the air, or in general, the atmosphere of a planet."
+    },
+    {
+      "id": 52,
+      "name": "Spacecraft",
+      "definition": "A vehicle or device designed for travel or operation in outer space."
+    },
+    {
+      "id": 53,
+      "name": "Satellite",
+      "definition": "An artificial body placed in orbit around the earth or moon or another planet in order to collect information or for communication."
+    },
+    {
+      "id": 54,
+      "name": "Rocket",
+      "definition": "A cylindrical projectile that can be propelled to a great height or distance by the combustion of its contents, used typically as a firework or signal."
+    },
+    {
+      "id": 55,
+      "name": "Missile",
+      "definition": "An object that is forcibly propelled at a target, either by hand or from a mechanical weapon."
+    },
+    {
+      "id": 56,
+      "name": "Weapon",
+      "definition": "A thing designed or used for inflicting bodily harm or physical damage."
+    },
+    {
+      "id": 57,
+      "name": "Explosive",
+      "definition": "A substance or device that can cause an explosion."
+    },
+    {
+      "id": 58,
+      "name": "Chemical",
+      "definition": "A compound or substance that has been purified or prepared, especially artificially."
+    },
+    {
+      "id": 59,
+      "name": "Element",
+      "definition": "A substance that cannot be broken down into simpler substances by chemical means."
+    },
+    {
+      "id": 60,
+      "name": "Mineral",
+      "definition": "A solid inorganic substance of natural occurrence."
+    },
+    {
+      "id": 61,
+      "name": "Gemstone",
+      "definition": "A precious or semi-precious stone, especially one cut, polished, and used in a piece of jewelry."
+    },
+    {
+      "id": 62,
+      "name": "Metal",
+      "definition": "A solid material that is typically hard, shiny, malleable, fusible, and ductile, with good electrical and thermal conductivity."
+    },
+    {
+      "id": 63,
+      "name": "Alloy",
+      "definition": "A metal made by combining two or more metallic elements, especially to give greater strength or resistance to corrosion."
+    },
+    {
+      "id": 64,
+      "name": "Compound",
+      "definition": "A thing that is composed of two or more separate elements; a mixture."
+    },
+    {
+      "id": 65,
+      "name": "Mixture",
+      "definition": "A substance made by mixing other substances together."
+    },
+    {
+      "id": 66,
+      "name": "Solution",
+      "definition": "A liquid mixture in which the minor component (the solute) is uniformly distributed within the major component (the solvent)."
+    },
+    {
+      "id": 67,
+      "name": "Suspension",
+      "definition": "A mixture in which particles are dispersed throughout the bulk of a fluid."
+    },
+    {
+      "id": 68,
+      "name": "Colloid",
+      "definition": "A homogeneous non-crystalline substance consisting of large molecules or ultramicroscopic particles of one substance dispersed through a second substance."
+    },
+    {
+      "id": 69,
+      "name": "Emulsion",
+      "definition": "A fine dispersion of minute droplets of one liquid in another in which it is not soluble or miscible."
+    },
+    {
+      "id": 70,
+      "name": "Gel",
+      "definition": "A semi-solid colloidal suspension of a solid dispersed in a liquid."
+    },
+    {
+      "id": 71,
+      "name": "Foam",
+      "definition": "A mass of small bubbles formed on or in liquid, typically by agitation or fermentation."
+    },
+    {
+      "id": 72,
+      "name": "Paste",
+      "definition": "A thick, soft, moist substance typically produced by mixing dry ingredients with a liquid."
+    },
+    {
+      "id": 73,
+      "name": "Powder",
+      "definition": "A dry, bulk solid composed of a large number of very fine particles that may flow freely when shaken or tilted."
+    },
+    {
+      "id": 74,
+      "name": "Granule",
+      "definition": "A small compact particle of a substance."
+    },
+    {
+      "id": 75,
+      "name": "Crystal",
+      "definition": "A piece of a homogeneous solid substance having a natural geometrically regular form with symmetrically arranged plane faces."
+    },
+    {
+      "id": 76,
+      "name": "Fiber",
+      "definition": "A thread or filament from which a vegetable tissue, mineral substance, or textile is formed."
+    },
+    {
+      "id": 77,
+      "name": "Textile",
+      "definition": "A type of cloth or woven fabric."
+    },
+    {
+      "id": 78,
+      "name": "Fabric",
+      "definition": "Cloth produced by weaving or knitting textile fibers."
+    },
+    {
+      "id": 79,
+      "name": "Material",
+      "definition": "The matter from which a thing is or can be made."
+    },
+    {
+      "id": 80,
+      "name": "Substance",
+      "definition": "A particular kind of matter with uniform properties."
+    },
+    {
+      "id": 81,
+      "name": "Matter",
+      "definition": "Physical substance in general, as distinct from mind and spirit; (in physics) that which occupies space and possesses rest mass, especially as distinct from energy."
+    },
+    {
+      "id": 82,
+      "name": "Energy",
+      "definition": "The strength and vitality required for sustained physical or mental activity."
+    },
+    {
+      "id": 83,
+      "name": "Force",
+      "definition": "Strength or energy as an attribute of physical action or movement."
+    },
+    {
+      "id": 84,
+      "name": "Power",
+      "definition": "The ability or capacity to do something or act in a particular way."
+    },
+    {
+      "id": 85,
+      "name": "Authority",
+      "definition": "The power or right to give orders, make decisions, and enforce obedience."
+    },
+    {
+      "id": 86,
+      "name": "Control",
+      "definition": "The power to influence or direct people's behavior or the course of events."
+    },
+    {
+      "id": 87,
+      "name": "Influence",
+      "definition": "The capacity to have an effect on the character, development, or behavior of someone or something, or the effect itself."
+    },
+    {
+      "id": 88,
+      "name": "Impact",
+      "definition": "The action of one object coming forcibly into contact with another."
+    },
+    {
+      "id": 89,
+      "name": "Effect",
+      "definition": "A change that is a result or consequence of an action or other cause."
+    },
+    {
+      "id": 90,
+      "name": "Result",
+      "definition": "A consequence, effect, or outcome of something."
+    },
+    {
+      "id": 91,
+      "name": "Outcome",
+      "definition": "The way a thing turns out; a consequence."
+    },
+    {
+      "id": 92,
+      "name": "Consequence",
+      "definition": "A result or effect of an action or condition."
+    },
+    {
+      "id": 93,
+      "name": "Repercussion",
+      "definition": "An unintended consequence occurring some time after an event or action, especially an unwelcome one."
+    },
+    {
+      "id": 94,
+      "name": "Ramification",
+      "definition": "A consequence of an action or event, especially when complex or unwelcome."
+    },
+    {
+      "id": 95,
+      "name": "Implication",
+      "definition": "The conclusion that can be drawn from something, although it is not explicitly stated."
+    },
+    {
+      "id": 96,
+      "name": "Inference",
+      "definition": "A conclusion reached on the basis of evidence and reasoning."
+    },
+    {
+      "id": 97,
+      "name": "Conclusion",
+      "definition": "The end or finish of an event or process."
+    },
+    {
+      "id": 98,
+      "name": "End",
+      "definition": "A final part of something, especially a period of time, an activity, or a story."
+    },
+    {
+      "id": 99,
+      "name": "Finish",
+      "definition": "Bring (a task or activity) to an end; complete."
+    },
+    {
+      "id": 100,
+      "name": "Completion",
+      "definition": "The action or process of finishing something."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "bench": "clinc150",
+  "run": 7,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Query General Information",
+      "definition": "User asks for facts, definitions, general knowledge, comparisons, how-to instructions, or information about products or services."
+    },
+    {
+      "id": 2,
+      "name": "Query Personal Status",
+      "definition": "User asks for personal information, account details, financial status, health status, schedule, to-do list, reminders, or travel status."
+    },
+    {
+      "id": 3,
+      "name": "Query Local Search/Recommendation",
+      "definition": "User asks for nearby places, recommendations for activities, food, or services."
+    },
+    {
+      "id": 4,
+      "name": "Query Current Conditions",
+      "definition": "User asks for real-time information such as weather, traffic, time, or general flight status."
+    },
+    {
+      "id": 5,
+      "name": "Query About Assistant",
+      "definition": "User asks questions about the assistant's identity, capabilities, feelings, or origin."
+    },
+    {
+      "id": 6,
+      "name": "Query Media Information",
+      "definition": "User asks for details about currently playing media or specific media content."
+    },
+    {
+      "id": 7,
+      "name": "Control Device/System",
+      "definition": "User commands the assistant to adjust settings, control media playback, or manage device functions."
+    },
+    {
+      "id": 8,
+      "name": "Manage Schedule/Reminders",
+      "definition": "User commands the assistant to set, clear, or modify calendar events, appointments, alarms, or reminders."
+    },
+    {
+      "id": 9,
+      "name": "Perform Financial Transaction/Service",
+      "definition": "User commands the assistant to transfer money, pay bills, apply for financial products, or report financial issues."
+    },
+    {
+      "id": 10,
+      "name": "Communicate/Notify",
+      "definition": "User commands the assistant to send messages, make calls, share location, or inform others (e.g., bank of travel)."
+    },
+    {
+      "id": 11,
+      "name": "Book/Order/Reserve",
+      "definition": "User commands the assistant to make, change, or cancel reservations, book travel, or order items."
+    },
+    {
+      "id": 12,
+      "name": "Search/Find Item",
+      "definition": "User commands the assistant to actively search for specific items, recipes, articles, prices, or locate a device."
+    },
+    {
+      "id": 13,
+      "name": "Use Utility/Game",
+      "definition": "User commands the assistant to perform a simple utility function or play a game."
+    },
+    {
+      "id": 14,
+      "name": "Request Ride Hailing",
+      "definition": "User commands the assistant to request a ride service."
+    },
+    {
+      "id": 15,
+      "name": "Request Navigation",
+      "definition": "User commands the assistant to provide directions."
+    },
+    {
+      "id": 16,
+      "name": "Track Item/Service",
+      "definition": "User commands the assistant to track a delivery or service."
+    },
+    {
+      "id": 17,
+      "name": "Manage Service",
+      "definition": "User commands the assistant to start, stop, or change a recurring service."
+    },
+    {
+      "id": 18,
+      "name": "Generate Content",
+      "definition": "User commands the assistant to create text, lists, or other content."
+    },
+    {
+      "id": 19,
+      "name": "Correct/Undo",
+      "definition": "User corrects the assistant's previous action or output, or requests an undo."
+    },
+    {
+      "id": 20,
+      "name": "Greeting/Farewell",
+      "definition": "User initiates or ends a conversation with the assistant."
+    },
+    {
+      "id": 21,
+      "name": "Affirmation/Acknowledgement",
+      "definition": "User provides a simple affirmative response or expresses gratitude."
+    },
+    {
+      "id": 22,
+      "name": "Informative Statement",
+      "definition": "User makes a statement of fact or observation without expecting a direct action or information retrieval from the assistant."
+    },
+    {
+      "id": 23,
+      "name": "Ambiguous/Unclear Intent",
+      "definition": "The user's intent is not clearly discernible as a specific command or query."
+    }
+  ]
+}

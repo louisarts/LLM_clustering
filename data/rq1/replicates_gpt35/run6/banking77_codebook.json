@@ -1,0 +1,1205 @@
+{
+  "bench": "banking77",
+  "run": 6,
+  "llm": "gpt-3.5-turbo",
+  "source": "chunked_no_target",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Scheduled Money Addition",
+      "definition": "Query related to setting up automatic money addition at certain time intervals"
+    },
+    {
+      "id": 2,
+      "name": "Currency Exchange Options",
+      "definition": "Query related to additional currency options offered by the bank"
+    },
+    {
+      "id": 3,
+      "name": "ATM Cash Out Status",
+      "definition": "Query related to the status of a pending ATM cash out transaction"
+    },
+    {
+      "id": 4,
+      "name": "Contactless Payment Usage",
+      "definition": "Query related to how to use contactless pay feature"
+    },
+    {
+      "id": 5,
+      "name": "Top Up Reversal Inquiry",
+      "definition": "Query related to the reversal of a top up transaction"
+    },
+    {
+      "id": 6,
+      "name": "Passcode Reset Request",
+      "definition": "Query related to requesting a new passcode for the account"
+    },
+    {
+      "id": 7,
+      "name": "Contactless Payment Troubleshooting",
+      "definition": "Query related to resolving issues with contactless payment feature"
+    },
+    {
+      "id": 8,
+      "name": "Card Delivery Status Inquiry",
+      "definition": "Query related to the status of a card delivery"
+    },
+    {
+      "id": 9,
+      "name": "ATM Acceptance Inquiry",
+      "definition": "Query related to which ATMs will accept the card"
+    },
+    {
+      "id": 10,
+      "name": "Top Up Verification Request",
+      "definition": "Query related to verifying a top up transaction"
+    },
+    {
+      "id": 11,
+      "name": "Cash Withdrawal Discrepancy",
+      "definition": "Query related to not receiving the full cash amount requested"
+    },
+    {
+      "id": 12,
+      "name": "Card Acceptance Locations",
+      "definition": "Query related to where the card is accepted for payments"
+    },
+    {
+      "id": 13,
+      "name": "Identity Verification Requirements",
+      "definition": "Query related to the documents needed to verify identity"
+    },
+    {
+      "id": 14,
+      "name": "Top-Up Limit Inquiry",
+      "definition": "Query related to the limits on top-up amounts"
+    },
+    {
+      "id": 15,
+      "name": "PIN Change ATM Locations",
+      "definition": "Query related to finding cash machines that allow changing the PIN"
+    },
+    {
+      "id": 16,
+      "name": "Account Deletion Request",
+      "definition": "Query related to requesting the deletion of the account"
+    },
+    {
+      "id": 17,
+      "name": "Card Usability Inquiry",
+      "definition": "Query related to where the card can be used for transactions"
+    },
+    {
+      "id": 18,
+      "name": "Disposable Card Limit Inquiry",
+      "definition": "Query related to the limits on the number of disposable cards that can be used"
+    },
+    {
+      "id": 19,
+      "name": "Auto Top Up Assistance",
+      "definition": "Assistance with setting up or using auto top up feature"
+    },
+    {
+      "id": 20,
+      "name": "International Card Top Up Inquiry",
+      "definition": "Inquiry about the ability to top up using an international card"
+    },
+    {
+      "id": 21,
+      "name": "Unauthorized Card Usage Report",
+      "definition": "Reporting unauthorized usage of card by someone else"
+    },
+    {
+      "id": 22,
+      "name": "Failed Money Transfer Assistance",
+      "definition": "Assistance with resolving failed money transfer transactions"
+    },
+    {
+      "id": 23,
+      "name": "Missing Transfer Investigation",
+      "definition": "Investigation into missing funds from a transfer transaction"
+    },
+    {
+      "id": 24,
+      "name": "Overseas ATM Withdrawal Fees Inquiry",
+      "definition": "Inquiry about fees for making withdrawals at ATMs while overseas"
+    },
+    {
+      "id": 25,
+      "name": "Card Delivery Tracking Inquiry",
+      "definition": "Inquiry about tracking number for a card that has been sent"
+    },
+    {
+      "id": 26,
+      "name": "Incoming Money Transfer Options",
+      "definition": "Inquiry about methods for others to transfer money to the customer"
+    },
+    {
+      "id": 27,
+      "name": "Card Expiration Date Inquiry",
+      "definition": "Query regarding the upcoming expiration date of a card"
+    },
+    {
+      "id": 28,
+      "name": "Currency Exchange Inquiry",
+      "definition": "Query about the currencies that can be exchanged using a specific app or service"
+    },
+    {
+      "id": 29,
+      "name": "Stolen Card Report",
+      "definition": "Report of a stolen card"
+    },
+    {
+      "id": 30,
+      "name": "Unrecognized Direct Debit Inquiry",
+      "definition": "Question about a direct debit that is not recognized in a statement"
+    },
+    {
+      "id": 31,
+      "name": "Unauthorized Card Usage Suspicion",
+      "definition": "Suspicion of unauthorized card usage"
+    },
+    {
+      "id": 32,
+      "name": "Incorrect ATM Cash Withdrawal Inquiry",
+      "definition": "Question about a discrepancy in the amount of cash received from an ATM"
+    },
+    {
+      "id": 33,
+      "name": "Incorrect ATM Transaction Inquiry",
+      "definition": "Question about a transaction shown in the app statement but not made at an ATM"
+    },
+    {
+      "id": 34,
+      "name": "Contactless Payment Activation Inquiry",
+      "definition": "Inquiry about the activation of contactless payments on a new card"
+    },
+    {
+      "id": 35,
+      "name": "Account Termination Request",
+      "definition": "Request to terminate an account"
+    },
+    {
+      "id": 36,
+      "name": "Pending Card Payment Inquiry",
+      "definition": "Question about a pending card payment"
+    },
+    {
+      "id": 37,
+      "name": "Pending Transaction Inquiry",
+      "definition": "Question about a pending transaction on a card"
+    },
+    {
+      "id": 38,
+      "name": "Card Activation Assistance Request",
+      "definition": "Request for assistance with card activation"
+    },
+    {
+      "id": 39,
+      "name": "Refund Process Inquiry",
+      "definition": "Inquiry about the process of obtaining a refund for a purchase"
+    },
+    {
+      "id": 40,
+      "name": "Card Linking Location Inquiry",
+      "definition": "Inquiry about the location to link a new card"
+    },
+    {
+      "id": 41,
+      "name": "Card Retrieval Assistance Request",
+      "definition": "Request for assistance with retrieving a card from a machine"
+    },
+    {
+      "id": 42,
+      "name": "Cryptocurrency Purchase Issue",
+      "definition": "Inquiry related to the inability to buy cryptocurrency through the banking app"
+    },
+    {
+      "id": 43,
+      "name": "Login Issue",
+      "definition": "Trouble logging into the app"
+    },
+    {
+      "id": 44,
+      "name": "Disposable Card Creation Frequency",
+      "definition": "Request to create multiple disposable cards daily"
+    },
+    {
+      "id": 45,
+      "name": "PIN Selection Request",
+      "definition": "Desire to select a new PIN"
+    },
+    {
+      "id": 46,
+      "name": "Card Usage Locations Inquiry",
+      "definition": "Question about where the card can be used"
+    },
+    {
+      "id": 47,
+      "name": "Company Locations Inquiry",
+      "definition": "Request for information on the locations of the banking company"
+    },
+    {
+      "id": 48,
+      "name": "Disposable Virtual Card Acquisition",
+      "definition": "Desire to obtain a disposable virtual card"
+    },
+    {
+      "id": 49,
+      "name": "Account Closure Urgency",
+      "definition": "Request to close the account quickly"
+    },
+    {
+      "id": 50,
+      "name": "Contactless Payment Issue",
+      "definition": "Problem with using contactless payments"
+    },
+    {
+      "id": 51,
+      "name": "Passcode Resend Request",
+      "definition": "Desire to have the passcode resent"
+    },
+    {
+      "id": 52,
+      "name": "American Express Money Addition Inquiry",
+      "definition": "Question about using American Express to add money to the account"
+    },
+    {
+      "id": 53,
+      "name": "Balance Update Issue",
+      "definition": "Inquiry about the balance not updating after a transfer"
+    },
+    {
+      "id": 54,
+      "name": "Card Unblock Process Inquiry",
+      "definition": "Question about unblocking the card using the app"
+    },
+    {
+      "id": 55,
+      "name": "Virtual Card Limit Explanation",
+      "definition": "Request for an explanation of the limit on virtual cards"
+    },
+    {
+      "id": 56,
+      "name": "Exchange Rate Inquiry",
+      "definition": "Question about the current exchange rate"
+    },
+    {
+      "id": 57,
+      "name": "Repeated ATM Decline Issue",
+      "definition": "Concern about multiple ATM declines with the card"
+    },
+    {
+      "id": 58,
+      "name": "Lost Phone Account Cancellation Request",
+      "definition": "Request to cancel the account due to a lost phone"
+    },
+    {
+      "id": 59,
+      "name": "Phone Loss Account Freeze Request",
+      "definition": "Desire to freeze the accounts due to a lost phone"
+    },
+    {
+      "id": 60,
+      "name": "Account Fee Inquiry",
+      "definition": "Question about a fee on the account"
+    },
+    {
+      "id": 61,
+      "name": "Account Freeze Request",
+      "definition": "Request to freeze an account due to unauthorized activity"
+    },
+    {
+      "id": 62,
+      "name": "Card Replacement Request",
+      "definition": "Request for a new card due to damage or loss"
+    },
+    {
+      "id": 63,
+      "name": "Refund Assistance Request",
+      "definition": "Request for assistance in obtaining a refund from a merchant"
+    },
+    {
+      "id": 64,
+      "name": "Stolen Card Procedure Inquiry",
+      "definition": "Inquiry about the procedure to follow in case of a stolen card"
+    },
+    {
+      "id": 65,
+      "name": "Card Reactivation Request",
+      "definition": "Request to reactivate a previously lost card"
+    },
+    {
+      "id": 66,
+      "name": "PIN Unblock Process Inquiry",
+      "definition": "Inquiry about the process to unblock a PIN number"
+    },
+    {
+      "id": 67,
+      "name": "Purchase Decline Investigation",
+      "definition": "Inquiry into the reasons for a declined card purchase"
+    },
+    {
+      "id": 68,
+      "name": "Purchase Cancellation Request",
+      "definition": "Request to cancel a purchase made with a card"
+    },
+    {
+      "id": 69,
+      "name": "Top-Up Card Verification Code Inquiry",
+      "definition": "Inquiry about how to find the verification code for a top-up card"
+    },
+    {
+      "id": 70,
+      "name": "Card Functionality Check",
+      "definition": "Inquiry about the functionality of a card"
+    },
+    {
+      "id": 71,
+      "name": "Currency Exchange Frequency Discount Inquiry",
+      "definition": "Inquiry about discounts for frequent currency exchanges"
+    },
+    {
+      "id": 72,
+      "name": "Exchange Rate Determination Inquiry",
+      "definition": "Inquiry about how exchange rates are determined"
+    },
+    {
+      "id": 73,
+      "name": "Identity Verification Necessity Inquiry",
+      "definition": "Inquiry about the necessity of verifying identity for card usage"
+    },
+    {
+      "id": 74,
+      "name": "Pending Cash Withdrawal Inquiry",
+      "definition": "Inquiry about a pending cash withdrawal transaction"
+    },
+    {
+      "id": 75,
+      "name": "Transfer Decline Investigation",
+      "definition": "Inquiry into the reasons for a declined transfer"
+    },
+    {
+      "id": 76,
+      "name": "Card Expiration Reminder",
+      "definition": "Reminder about an upcoming card expiration date"
+    },
+    {
+      "id": 77,
+      "name": "Card Network Inquiry",
+      "definition": "Inquiry about the card network (Visa or Mastercard)"
+    },
+    {
+      "id": 78,
+      "name": "Card Addition Process Inquiry",
+      "definition": "Inquiry about how to add a card to an app"
+    },
+    {
+      "id": 79,
+      "name": "Card Deactivation Inquiry",
+      "definition": "Inquiry about the deactivation of a card"
+    },
+    {
+      "id": 80,
+      "name": "Extra Card Fee Inquiry",
+      "definition": "Inquiry about fees for additional cards"
+    },
+    {
+      "id": 81,
+      "name": "Card Decline Explanation",
+      "definition": "Query regarding the reason for a card being declined"
+    },
+    {
+      "id": 82,
+      "name": "Source of Funds Validation Request",
+      "definition": "Request to validate the source of funds"
+    },
+    {
+      "id": 83,
+      "name": "Transfer Fee Inquiry",
+      "definition": "Question about a fee charged for a transfer"
+    },
+    {
+      "id": 84,
+      "name": "Unrecognized Purchase Inquiry",
+      "definition": "Inquiry about a purchase that the customer does not remember making"
+    },
+    {
+      "id": 85,
+      "name": "Lost Card Procedure Inquiry",
+      "definition": "Inquiry about the procedure to follow when a card is lost"
+    },
+    {
+      "id": 86,
+      "name": "Missing Refund Inquiry",
+      "definition": "Inquiry about a refund that has not been received"
+    },
+    {
+      "id": 87,
+      "name": "Incorrect Cash Withdrawal Inquiry",
+      "definition": "Inquiry about receiving an incorrect amount during a cash withdrawal"
+    },
+    {
+      "id": 88,
+      "name": "Purchase Fee Inquiry",
+      "definition": "Question about a fee charged for a purchase"
+    },
+    {
+      "id": 89,
+      "name": "Exchange Rate Explanation",
+      "definition": "Explanation of how exchange rates work"
+    },
+    {
+      "id": 90,
+      "name": "Card Delivery Delay Inquiry",
+      "definition": "Inquiry about a delayed card delivery"
+    },
+    {
+      "id": 91,
+      "name": "Extra Transfer Charge Inquiry",
+      "definition": "Inquiry about an extra charge on a transfer"
+    },
+    {
+      "id": 92,
+      "name": "Unauthorized Direct Debit Inquiry",
+      "definition": "Inquiry about a direct debit payment that was not authorized"
+    },
+    {
+      "id": 93,
+      "name": "Foreign Bank Top-Up Inquiry",
+      "definition": "Inquiry about charges or discounts when using a European bank for a top-up"
+    },
+    {
+      "id": 94,
+      "name": "Pending Top-Up Inquiry",
+      "definition": "Inquiry about a pending top-up transaction"
+    },
+    {
+      "id": 95,
+      "name": "Virtual Card Usage Limit Inquiry",
+      "definition": "Inquiry about any usage caps on virtual cards"
+    },
+    {
+      "id": 96,
+      "name": "Money Transfer Process Inquiry",
+      "definition": "Inquiry about the process of transferring money into an account"
+    },
+    {
+      "id": 97,
+      "name": "Card Decline Online Inquiry",
+      "definition": "Query regarding a card being declined online and seeking information on the reason for the decline"
+    },
+    {
+      "id": 98,
+      "name": "Failed Transfer Inquiry",
+      "definition": "Query regarding a transfer that did not go through successfully and seeking information on the reason for the failure"
+    },
+    {
+      "id": 99,
+      "name": "Beneficiary Transfer Rules Inquiry",
+      "definition": "Inquiry about the rules and regulations for transferring money to a beneficiary"
+    },
+    {
+      "id": 100,
+      "name": "Transaction Reversal Request",
+      "definition": "Request to reverse a transaction that was made earlier"
+    },
+    {
+      "id": 101,
+      "name": "Source of Funds Visibility Inquiry",
+      "definition": "Inquiry about how to view the source of funds in an account"
+    },
+    {
+      "id": 102,
+      "name": "PIN Unlock Process Inquiry",
+      "definition": "Inquiry about the process to unlock a PIN for a card"
+    },
+    {
+      "id": 103,
+      "name": "Identity Verification Difficulty",
+      "definition": "Difficulty in proving identity for account verification purposes"
+    },
+    {
+      "id": 104,
+      "name": "Unsuccessful Beneficiary Transfer Inquiry",
+      "definition": "Inquiry about a failed transfer to a beneficiary and seeking information on the reason for the failure"
+    },
+    {
+      "id": 105,
+      "name": "Personal Details Update Request",
+      "definition": "Request to update personal details associated with the account"
+    },
+    {
+      "id": 106,
+      "name": "Account Usage Without Identity Verification Inquiry",
+      "definition": "Inquiry about using the account without completing the identity verification process"
+    },
+    {
+      "id": 107,
+      "name": "Transfer Status Inquiry",
+      "definition": "Inquiry about the status of a recent transfer made from a UK bank account"
+    },
+    {
+      "id": 108,
+      "name": "Address Change Process Inquiry",
+      "definition": "Inquiry about the process to update personal details such as address"
+    },
+    {
+      "id": 109,
+      "name": "Currency Exchange Overcharge Inquiry",
+      "definition": "Inquiry about a currency exchange transaction where the user suspects being charged more than expected"
+    },
+    {
+      "id": 110,
+      "name": "Statement Fee Inquiry",
+      "definition": "Inquiry about a specific fee mentioned in the statement"
+    },
+    {
+      "id": 111,
+      "name": "Card Transaction Dispute",
+      "definition": "Inquiry or complaint regarding unauthorized or incorrect charges on a card"
+    },
+    {
+      "id": 112,
+      "name": "Top-Up Verification Process",
+      "definition": "Questions or concerns about the verification process for adding funds to an account"
+    },
+    {
+      "id": 113,
+      "name": "Account Access Assistance",
+      "definition": "Request for help accessing account after losing phone or encountering login issues"
+    },
+    {
+      "id": 114,
+      "name": "Card Linking Process",
+      "definition": "Inquiry about how to link a new card to an account"
+    },
+    {
+      "id": 115,
+      "name": "Virtual Card Request",
+      "definition": "Inquiry or request for a virtual card instead of a physical card"
+    },
+    {
+      "id": 116,
+      "name": "Fee Dispute",
+      "definition": "Complaint or question regarding fees charged on an account or card"
+    },
+    {
+      "id": 117,
+      "name": "Lost Phone Report",
+      "definition": "Report of a lost or stolen phone and its impact on account access"
+    },
+    {
+      "id": 118,
+      "name": "Card Replacement Process",
+      "definition": "Inquiry about how to order a new card after losing or needing a replacement"
+    },
+    {
+      "id": 119,
+      "name": "Salary Deposit Inquiry",
+      "definition": "Question about how to set up direct deposit for receiving salary into an account"
+    },
+    {
+      "id": 120,
+      "name": "Exchange Fee Inquiry",
+      "definition": "Question about the fees associated with currency exchange transactions"
+    },
+    {
+      "id": 121,
+      "name": "New Card Order Process",
+      "definition": "Inquiry about the process for ordering a new card"
+    },
+    {
+      "id": 122,
+      "name": "Auto-Top Up Option Assistance",
+      "definition": "Request for help in finding or enabling the auto-top up option on a website or app"
+    },
+    {
+      "id": 123,
+      "name": "Source of Funds Inquiry",
+      "definition": "Query regarding the origin of funds in the account"
+    },
+    {
+      "id": 124,
+      "name": "Transaction Error Report",
+      "definition": "Report of a mistake made during a transaction"
+    },
+    {
+      "id": 125,
+      "name": "Incoming Money Transfer Process Inquiry",
+      "definition": "Query about how someone can send money to the account"
+    },
+    {
+      "id": 126,
+      "name": "Transaction Reversal Delay Inquiry",
+      "definition": "Query about the delay in reversing a transaction"
+    },
+    {
+      "id": 127,
+      "name": "Seller Response Assistance Request",
+      "definition": "Request for assistance in getting a response from a seller"
+    },
+    {
+      "id": 128,
+      "name": "International Card Top-Up Fee Inquiry",
+      "definition": "Inquiry about the charges for using a European card for a top-up"
+    },
+    {
+      "id": 129,
+      "name": "Physical Card Request",
+      "definition": "Request for additional physical cards"
+    },
+    {
+      "id": 130,
+      "name": "Top-Up Charges Inquiry",
+      "definition": "Inquiry about charges applied when making a top-up"
+    },
+    {
+      "id": 131,
+      "name": "Delivery Time Inquiry",
+      "definition": "Inquiry about the delivery time to the US"
+    },
+    {
+      "id": 132,
+      "name": "Card Cancellation Request",
+      "definition": "Request for canceling a card and disputing unauthorized charges"
+    },
+    {
+      "id": 133,
+      "name": "Specific Delivery Date Request",
+      "definition": "Request for delivery by a specific date"
+    },
+    {
+      "id": 134,
+      "name": "Order Cancellation Process Inquiry",
+      "definition": "Inquiry about the process for canceling an order"
+    },
+    {
+      "id": 135,
+      "name": "Google Pay Integration Inquiry",
+      "definition": "Inquiry about integrating Google Pay for top-ups"
+    },
+    {
+      "id": 136,
+      "name": "Accepted Currencies Inquiry",
+      "definition": "Inquiry about the currencies accepted when adding money"
+    },
+    {
+      "id": 137,
+      "name": "Cash Withdrawal Fee Inquiry",
+      "definition": "Inquiry about fees charged for cash withdrawals"
+    },
+    {
+      "id": 138,
+      "name": "Transfer Discrepancy Report",
+      "definition": "Report of a discrepancy in the amount received from a transfer"
+    },
+    {
+      "id": 139,
+      "name": "Unrecognized Direct Debit Report",
+      "definition": "Report of a direct debit charge that is not recognized"
+    },
+    {
+      "id": 140,
+      "name": "Missing Transfer Inquiry",
+      "definition": "Inquiry about missing funds from a transfer"
+    },
+    {
+      "id": 141,
+      "name": "Non-Physical Card Issue",
+      "definition": "Query related to issues with a non-physical card not working"
+    },
+    {
+      "id": 142,
+      "name": "International Card Request",
+      "definition": "Query regarding obtaining a card while not being in the UK"
+    },
+    {
+      "id": 143,
+      "name": "Delayed Money Transfer Inquiry",
+      "definition": "Query about the time taken for a money transfer to reach the recipient"
+    },
+    {
+      "id": 144,
+      "name": "Personal Details Modification",
+      "definition": "Query about how to modify personal details"
+    },
+    {
+      "id": 145,
+      "name": "Fee Inquiry",
+      "definition": "Query about what items come with extra fees"
+    },
+    {
+      "id": 146,
+      "name": "Disposable Virtual Card Usage",
+      "definition": "Query about how to use a disposable virtual card"
+    },
+    {
+      "id": 147,
+      "name": "Password Reset Request",
+      "definition": "Query about resetting a password that is not being accepted"
+    },
+    {
+      "id": 148,
+      "name": "Expired Card Replacement Inquiry",
+      "definition": "Query about the price and duration for replacing an expired card"
+    },
+    {
+      "id": 149,
+      "name": "Top-Up Denial Issue",
+      "definition": "Query about a top-up attempt being denied by the app"
+    },
+    {
+      "id": 150,
+      "name": "Cheque Status Inquiry",
+      "definition": "Query about the status of a cheque sent a few days ago"
+    },
+    {
+      "id": 151,
+      "name": "Apple Pay Top-Up Eligibility",
+      "definition": "Query about whether Apple Pay can be used for top-ups"
+    },
+    {
+      "id": 152,
+      "name": "ATM Withdrawal Fee Inquiry",
+      "definition": "Query about being charged a withdrawal fee at an ATM"
+    },
+    {
+      "id": 153,
+      "name": "Currency Verification Requirement",
+      "definition": "Query about the need to establish being paid in GBP before a transfer"
+    },
+    {
+      "id": 154,
+      "name": "Cheque Deposit Inquiry",
+      "definition": "Query about adding to the account balance with a cheque."
+    },
+    {
+      "id": 155,
+      "name": "Currency Exchange Process",
+      "definition": "Query about how to change currency."
+    },
+    {
+      "id": 156,
+      "name": "Card Re-Addition Request",
+      "definition": "Request to re-add an old card into the system."
+    },
+    {
+      "id": 157,
+      "name": "EU Support Inquiry",
+      "definition": "Query regarding support for the European Union."
+    },
+    {
+      "id": 158,
+      "name": "Card Transaction Decline Investigation",
+      "definition": "Request to investigate why a card transaction was declined."
+    },
+    {
+      "id": 159,
+      "name": "Identity Verification Methods Inquiry",
+      "definition": "Inquiry about the methods available to verify one's identity."
+    },
+    {
+      "id": 160,
+      "name": "Top-Up Failure Explanation",
+      "definition": "Request for an explanation as to why a top-up failed."
+    },
+    {
+      "id": 161,
+      "name": "PIN Unblock Request",
+      "definition": "Request to unblock a PIN after multiple incorrect attempts."
+    },
+    {
+      "id": 162,
+      "name": "Top-Up Troubleshooting",
+      "definition": "Request for assistance with troubleshooting a top-up issue."
+    },
+    {
+      "id": 163,
+      "name": "Incorrect Transfer Inquiry",
+      "definition": "Inquiry about a transaction made to the wrong account."
+    },
+    {
+      "id": 164,
+      "name": "PIN Change at ATM Inquiry",
+      "definition": "Inquiry about changing a PIN at an ATM."
+    },
+    {
+      "id": 165,
+      "name": "Top-Up Delay Inquiry",
+      "definition": "Inquiry about a delay in a top-up transaction."
+    },
+    {
+      "id": 166,
+      "name": "Unauthorized Payment Investigation",
+      "definition": "Request to investigate an unauthorized payment."
+    },
+    {
+      "id": 167,
+      "name": "Transfer Cancellation Request",
+      "definition": "Request to cancel a recent transfer."
+    },
+    {
+      "id": 168,
+      "name": "Virtual Card Ordering Inquiry",
+      "definition": "Inquiry about the process of ordering a virtual card."
+    },
+    {
+      "id": 169,
+      "name": "Incoming Money Fee Inquiry",
+      "definition": "Inquiry about the fee for receiving money."
+    },
+    {
+      "id": 170,
+      "name": "Card Usage Issue",
+      "definition": "Issue with the usability of a card."
+    },
+    {
+      "id": 171,
+      "name": "Card Retention Inquiry",
+      "definition": "Query regarding an ATM potentially retaining a customer's card."
+    },
+    {
+      "id": 172,
+      "name": "Unexplained Cash Deposit Inquiry",
+      "definition": "Question about cash appearing in the customer's account without their knowledge."
+    },
+    {
+      "id": 173,
+      "name": "Unrecognized Card Payment Inquiry",
+      "definition": "Concern about card payments appearing unfamiliar or different from expected."
+    },
+    {
+      "id": 174,
+      "name": "International Card Usage Inquiry",
+      "definition": "Inquiry about the usability of a card in a specific region."
+    },
+    {
+      "id": 175,
+      "name": "Unauthorized Payment Report",
+      "definition": "Report of a payment that the customer did not authorize."
+    },
+    {
+      "id": 176,
+      "name": "Auto Top-Up Limit Inquiry",
+      "definition": "Query about the limit for automatic top-up transactions."
+    },
+    {
+      "id": 177,
+      "name": "Top-Up Denial Investigation",
+      "definition": "Investigation into the reasons for a denied top-up transaction."
+    },
+    {
+      "id": 178,
+      "name": "Payment Discrepancy Inquiry",
+      "definition": "Question about discrepancies in card payments."
+    },
+    {
+      "id": 179,
+      "name": "Landlord Payment Issue",
+      "definition": "Issue with a payment not reaching a new landlord after changing address."
+    },
+    {
+      "id": 180,
+      "name": "Currency Salary Transfer Inquiry",
+      "definition": "Inquiry about transferring a salary in a different currency."
+    },
+    {
+      "id": 181,
+      "name": "Urgent Transaction Reversal Request",
+      "definition": "Immediate request to reverse a mistaken transaction."
+    },
+    {
+      "id": 182,
+      "name": "Pending Cash Withdrawal Duration Inquiry",
+      "definition": "Question about the duration of a pending cash withdrawal."
+    },
+    {
+      "id": 183,
+      "name": "Business Presence Inquiry",
+      "definition": "Inquiry about the countries where the bank operates."
+    },
+    {
+      "id": 184,
+      "name": "Blocked Transfer Inquiry",
+      "definition": "Inquiry about a transfer that was blocked."
+    },
+    {
+      "id": 185,
+      "name": "Name Change Request",
+      "definition": "Request to change the customer's name on the account."
+    },
+    {
+      "id": 186,
+      "name": "Disposable Virtual Card Ordering",
+      "definition": "Inquiry about the process of ordering a disposable virtual card."
+    },
+    {
+      "id": 187,
+      "name": "Card Reactivation Process Inquiry",
+      "definition": "Request for information on how to reactivate a previously deactivated card."
+    },
+    {
+      "id": 188,
+      "name": "Pending Transaction Explanation",
+      "definition": "Inquiry about the reason for a pending transaction on a card."
+    },
+    {
+      "id": 189,
+      "name": "Cash Withdrawal Issue Inquiry",
+      "definition": "Query about the inability to withdraw funds from an account."
+    },
+    {
+      "id": 190,
+      "name": "Lost Phone Account Freeze Request",
+      "definition": "Request to freeze an account due to a lost phone."
+    },
+    {
+      "id": 191,
+      "name": "Unrecognized Debit Investigation",
+      "definition": "Inquiry about a debit transaction that is not recognized by the account holder."
+    },
+    {
+      "id": 192,
+      "name": "Card Delivery Time Inquiry",
+      "definition": "Question about the expected delivery time for a new card."
+    },
+    {
+      "id": 193,
+      "name": "Disposable Card Troubleshooting",
+      "definition": "Query regarding issues with the functionality of a disposable card."
+    },
+    {
+      "id": 194,
+      "name": "Virtual Card Functionality Inquiry",
+      "definition": "Request for information on how virtual cards work."
+    },
+    {
+      "id": 195,
+      "name": "Transfer Top-Up Fee Inquiry",
+      "definition": "Inquiry about whether there are fees associated with topping up an account via transfer."
+    },
+    {
+      "id": 196,
+      "name": "Missing Refund Investigation",
+      "definition": "Inquiry about a missing refund that has not been received."
+    },
+    {
+      "id": 197,
+      "name": "Exchange Rate Calculation Inquiry",
+      "definition": "Inquiry about the methodology used to calculate exchange rates."
+    },
+    {
+      "id": 198,
+      "name": "ATM Cash Withdrawal Decline Investigation",
+      "definition": "Investigation into the reasons behind a decline message during an ATM cash withdrawal."
+    },
+    {
+      "id": 199,
+      "name": "Bank-to-Top-Up Transfer Process Inquiry",
+      "definition": "Inquiry about the process of transferring funds from a bank account to a top-up account."
+    },
+    {
+      "id": 200,
+      "name": "Foreign Purchase Exchange Rate Inquiry",
+      "definition": "Inquiry about discrepancies in exchange rates when making purchases abroad."
+    },
+    {
+      "id": 201,
+      "name": "Cash Deposit Discrepancy Inquiry",
+      "definition": "Query regarding a discrepancy in a cash deposit not showing up in the account."
+    },
+    {
+      "id": 202,
+      "name": "Google Pay Top-Up Process Inquiry",
+      "definition": "Inquiry about the process of topping up using Google Pay."
+    },
+    {
+      "id": 203,
+      "name": "Funds Origin Verification Request",
+      "definition": "Request for assistance in verifying the origin of funds."
+    },
+    {
+      "id": 204,
+      "name": "International Transfer Process Inquiry",
+      "definition": "Inquiry about the process of conducting an international transfer."
+    },
+    {
+      "id": 205,
+      "name": "Delayed Money Transfer Investigation",
+      "definition": "Investigation into a delayed money transfer."
+    },
+    {
+      "id": 206,
+      "name": "Withdrawal Confirmation Inquiry",
+      "definition": "Inquiry about the confirmation of a withdrawal."
+    },
+    {
+      "id": 207,
+      "name": "Account Details Modification Request",
+      "definition": "Request to modify account details."
+    },
+    {
+      "id": 208,
+      "name": "Cheque Top-Up Option Inquiry",
+      "definition": "Inquiry about the option to top up with a cheque."
+    },
+    {
+      "id": 209,
+      "name": "SEPA Transfer Reception Charges Inquiry",
+      "definition": "Inquiry about charges for receiving a SEPA transfer."
+    },
+    {
+      "id": 210,
+      "name": "Urgent Funds Transfer Inquiry",
+      "definition": "Inquiry about transferring funds urgently."
+    },
+    {
+      "id": 211,
+      "name": "Card Network Selection Inquiry",
+      "definition": "Inquiry about choosing between different card networks."
+    },
+    {
+      "id": 212,
+      "name": "Failed Fund Transfer Inquiry",
+      "definition": "Inquiry about a failed fund transfer."
+    },
+    {
+      "id": 213,
+      "name": "Stuck ATM Assistance Request",
+      "definition": "Request for assistance with an ATM that got stuck."
+    },
+    {
+      "id": 214,
+      "name": "US Card Top-Up Charges Inquiry",
+      "definition": "Query regarding the charges associated with topping up US cards."
+    },
+    {
+      "id": 215,
+      "name": "Newborn Baby Account Opening Inquiry",
+      "definition": "Query about opening a bank account for a newborn baby."
+    },
+    {
+      "id": 216,
+      "name": "US Fund Transfer Duration Inquiry",
+      "definition": "Inquiry about the duration for funds to transfer from the US to the account."
+    },
+    {
+      "id": 217,
+      "name": "Card Delivery Locations Inquiry",
+      "definition": "Question regarding the locations where cards are delivered."
+    },
+    {
+      "id": 218,
+      "name": "Card Payment Extra Charge Inquiry",
+      "definition": "Question about extra charges incurred for card payments."
+    },
+    {
+      "id": 219,
+      "name": "Statement Extra Charge Inquiry",
+      "definition": "Inquiry about an extra charge reflected on the statement."
+    },
+    {
+      "id": 220,
+      "name": "Missing Money Transfer Inquiry",
+      "definition": "Inquiry about a money transfer that has not been received."
+    },
+    {
+      "id": 221,
+      "name": "Declined Cash Withdrawal Inquiry",
+      "definition": "Question regarding the decline of a cash withdrawal."
+    },
+    {
+      "id": 222,
+      "name": "Card App Compatibility Inquiry",
+      "definition": "Inquiry about making an old card compatible with the app."
+    },
+    {
+      "id": 223,
+      "name": "Cancelled Top-Up Inquiry",
+      "definition": "Inquiry about the cancellation of a top-up."
+    },
+    {
+      "id": 224,
+      "name": "SEPA Transfer Fee Inquiry",
+      "definition": "Inquiry about the fees associated with a SEPA transfer."
+    },
+    {
+      "id": 225,
+      "name": "Virtual Disposable Card Inquiry",
+      "definition": "Inquiry about obtaining a virtual disposable card."
+    },
+    {
+      "id": 226,
+      "name": "International Card Availability Inquiry",
+      "definition": "Inquiry about obtaining a card while not in the UK."
+    },
+    {
+      "id": 227,
+      "name": "Lost Card Assistance Request",
+      "definition": "Request for assistance with a lost card."
+    },
+    {
+      "id": 228,
+      "name": "Card Re-Linking Request",
+      "definition": "Query regarding the process of linking a lost or stolen card back to the account through the mobile app."
+    },
+    {
+      "id": 229,
+      "name": "Check Account Update Inquiry",
+      "definition": "Question about the delay in account updating due to using a check for balance."
+    },
+    {
+      "id": 230,
+      "name": "PIN Retrieval Request",
+      "definition": "Request for assistance in locating the card PIN."
+    },
+    {
+      "id": 231,
+      "name": "Cash Withdrawal Fee Change Inquiry",
+      "definition": "Inquiry about the recent change in charging fees for cash withdrawals."
+    },
+    {
+      "id": 232,
+      "name": "PIN Unblock Location Inquiry",
+      "definition": "Inquiry about the location to get the PIN unblocked."
+    },
+    {
+      "id": 233,
+      "name": "Currency Exchange Fee Inquiry",
+      "definition": "Question regarding additional fees for currency exchange."
+    },
+    {
+      "id": 234,
+      "name": "Top-Up Cancellation Inquiry",
+      "definition": "Inquiry about the cancellation of a top-up transaction."
+    },
+    {
+      "id": 235,
+      "name": "Cheque Deposit Delay Inquiry",
+      "definition": "Inquiry about the delay in account update after sending a cheque."
+    },
+    {
+      "id": 236,
+      "name": "Multi-Currency Account Inquiry",
+      "definition": "Question about the possibility of holding money in multiple currencies."
+    },
+    {
+      "id": 237,
+      "name": "Minimum Age Requirement Inquiry",
+      "definition": "Inquiry about the minimum age requirement for account opening."
+    },
+    {
+      "id": 238,
+      "name": "Transaction Discrepancy Inquiry",
+      "definition": "Inquiry about multiple charges on the same transaction."
+    },
+    {
+      "id": 239,
+      "name": "Delivery Speed Comparison Inquiry",
+      "definition": "Inquiry about the differences between standard and express delivery options."
+    }
+  ]
+}

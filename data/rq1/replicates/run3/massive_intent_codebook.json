@@ -1,0 +1,67 @@
+{
+  "bench": "massive_intent",
+  "run": 3,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Media",
+      "definition": "User wants to start, resume, stop, or control the playback of audio or video content."
+    },
+    {
+      "id": 2,
+      "name": "Media Information",
+      "definition": "User wants to retrieve information about media content, such as song titles, artists, or movie reviews."
+    },
+    {
+      "id": 3,
+      "name": "Email Management",
+      "definition": "User wants to send, check, read, reply to, or manage emails."
+    },
+    {
+      "id": 4,
+      "name": "Calendar & Reminders",
+      "definition": "User wants to set, check, modify, or delete alarms, reminders, or calendar events and meetings."
+    },
+    {
+      "id": 5,
+      "name": "Smart Home & Device Control",
+      "definition": "User wants to control smart home devices or device settings like volume, power, or lighting."
+    },
+    {
+      "id": 6,
+      "name": "General Information & Knowledge",
+      "definition": "User wants to retrieve facts, definitions, news, weather, stock prices, directions, or other general knowledge."
+    },
+    {
+      "id": 7,
+      "name": "Travel & Navigation",
+      "definition": "User wants to find, book, or get information about travel tickets, schedules, or specific navigation routes for travel."
+    },
+    {
+      "id": 8,
+      "name": "Shopping & Ordering",
+      "definition": "User wants to order goods or services, such as food or tickets for events."
+    },
+    {
+      "id": 9,
+      "name": "List Management",
+      "definition": "User wants to create, add items to, remove items from, or view various types of lists."
+    },
+    {
+      "id": 10,
+      "name": "Social Media Interaction",
+      "definition": "User wants to post, tweet, or interact with social media platforms."
+    },
+    {
+      "id": 11,
+      "name": "App Control",
+      "definition": "User wants to open or interact with specific applications on a device."
+    },
+    {
+      "id": 12,
+      "name": "Assistant Self-Reference",
+      "definition": "User asks questions about the assistant itself, its capabilities, or identity."
+    }
+  ]
+}

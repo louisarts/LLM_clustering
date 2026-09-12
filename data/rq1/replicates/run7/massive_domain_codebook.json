@@ -1,0 +1,82 @@
+{
+  "bench": "massive_domain",
+  "run": 7,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms & Timers",
+      "definition": "Setting, checking, or managing alarms, timers, or general time-based reminders."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Scheduling",
+      "definition": "Managing events, appointments, meetings, or schedules, including event-specific reminders."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "Sending or receiving messages (email, text, calls) or managing contacts."
+    },
+    {
+      "id": 4,
+      "name": "Conversational & Assistant Persona",
+      "definition": "Utterances related to general conversation, jokes, assistant's persona, or feedback about the assistant's performance."
+    },
+    {
+      "id": 5,
+      "name": "Device Control & Settings",
+      "definition": "Controlling smart home devices, media playback settings (volume, mute), or general device functions."
+    },
+    {
+      "id": 6,
+      "name": "Entertainment & Media Playback",
+      "definition": "Playing music, podcasts, audiobooks, radio, or games; includes controls like play/pause/skip."
+    },
+    {
+      "id": 7,
+      "name": "Information & General Knowledge",
+      "definition": "Asking factual questions, definitions, calculations, or seeking general advice not covered by other specific domains."
+    },
+    {
+      "id": 8,
+      "name": "Lists & Notes",
+      "definition": "Creating, managing, or retrieving various types of lists (shopping, to-do, general notes)."
+    },
+    {
+      "id": 9,
+      "name": "Local Search & Events",
+      "definition": "Finding places, businesses, or local events nearby."
+    },
+    {
+      "id": 10,
+      "name": "News",
+      "definition": "Retrieving current events, headlines, or specific news topics."
+    },
+    {
+      "id": 11,
+      "name": "Personal Data & Assistant Memory",
+      "definition": "Retrieving or managing personal information, user preferences, or past interactions stored by the assistant."
+    },
+    {
+      "id": 12,
+      "name": "Shopping & Ordering",
+      "definition": "Purchasing items, ordering food, or tracking orders."
+    },
+    {
+      "id": 13,
+      "name": "Social Media",
+      "definition": "Interacting with social media platforms (posting, checking notifications)."
+    },
+    {
+      "id": 14,
+      "name": "Travel & Transportation",
+      "definition": "Booking travel, requesting ride-hailing services, or seeking information about public or private transportation."
+    },
+    {
+      "id": 15,
+      "name": "Weather",
+      "definition": "Asking for current weather, forecasts, or weather-related advice."
+    }
+  ]
+}

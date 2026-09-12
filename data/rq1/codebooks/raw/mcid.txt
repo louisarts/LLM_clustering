@@ -1,0 +1,81 @@
+```json
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "COVID-19 General Information",
+      "definition": "User seeks basic understanding, facts, or an overview of COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "COVID-19 Symptoms & Diagnosis",
+      "definition": "User asks about symptoms, how to identify them, or differentiate from other illnesses."
+    },
+    {
+      "id": 3,
+      "name": "COVID-19 Transmission & Prevention (Human & General)",
+      "definition": "User asks how the virus spreads between people or general methods to protect themselves."
+    },
+    {
+      "id": 4,
+      "name": "COVID-19 Transmission & Prevention (Environment & Objects)",
+      "definition": "User asks how the virus spreads via surfaces, objects, or the environment, and related prevention."
+    },
+    {
+      "id": 5,
+      "name": "COVID-19 Transmission & Prevention (Animals & Food)",
+      "definition": "User asks about virus transmission involving animals, pets, or food, and related prevention."
+    },
+    {
+      "id": 6,
+      "name": "COVID-19 Treatment & Recovery",
+      "definition": "User asks about available treatments, vaccines, or what to do if infected."
+    },
+    {
+      "id": 7,
+      "name": "COVID-19 Statistics & Updates (General)",
+      "definition": "User seeks overall statistics, news, or general updates on the pandemic at a global or national level."
+    },
+    {
+      "id": 8,
+      "name": "COVID-19 Statistics & Updates (Local/Specific Region)",
+      "definition": "User seeks statistics, news, or updates for a particular city, state, or country."
+    },
+    {
+      "id": 9,
+      "name": "COVID-19 Travel & Restrictions",
+      "definition": "User asks about travel safety, restrictions, or cancellations related to COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "COVID-19 Myths & Misinformation",
+      "definition": "User asks about common myths, hoaxes, or seeks to verify information about COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "COVID-19 Donation & Support",
+      "definition": "User expresses intent to donate money, resources, or support COVID-19 relief efforts."
+    },
+    {
+      "id": 12,
+      "name": "COVID-19 Information Sharing",
+      "definition": "User expresses intent to share information, articles, or the service itself with others."
+    },
+    {
+      "id": 13,
+      "name": "Bot Interaction & Gratitude",
+      "definition": "User expresses greetings, thanks, or general conversational interaction with the bot."
+    },
+    {
+      "id": 14,
+      "name": "COVID-19 Risk Assessment (Locations & Activities)",
+      "definition": "User asks about the risk level of specific locations or activities, or criteria for defining high-risk areas."
+    },
+    {
+      "id": 15,
+      "name": "COVID-19 Policy & Societal Impact",
+      "definition": "User asks about government policies, economic impact, or societal aspects related to COVID-19."
+    }
+  ]
+}
+```

@@ -1,0 +1,135 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sustainability",
+      "definition": "Questions related to sustainable practices and environmental concerns."
+    },
+    {
+      "id": 2,
+      "name": "Aquarium and Habitat Design",
+      "definition": "Questions about designing and repurposing habitats for aquariums."
+    },
+    {
+      "id": 3,
+      "name": "Game Design",
+      "definition": "Questions related to the design and development of games."
+    },
+    {
+      "id": 4,
+      "name": "Technical Support",
+      "definition": "Questions seeking help with technical issues in software or hardware."
+    },
+    {
+      "id": 5,
+      "name": "Web Development",
+      "definition": "Questions about creating and managing websites and web applications."
+    },
+    {
+      "id": 6,
+      "name": "Programming",
+      "definition": "Questions related to coding, programming languages, and software development."
+    },
+    {
+      "id": 7,
+      "name": "Animal Care",
+      "definition": "Questions about the care and management of animals."
+    },
+    {
+      "id": 8,
+      "name": "Visa and Immigration",
+      "definition": "Questions regarding visa status and immigration processes."
+    },
+    {
+      "id": 9,
+      "name": "Childcare and Parenting",
+      "definition": "Questions about childcare, parenting strategies, and child behavior."
+    },
+    {
+      "id": 10,
+      "name": "Language and Linguistics",
+      "definition": "Questions about language usage, grammar, and linguistics."
+    },
+    {
+      "id": 11,
+      "name": "Mathematics",
+      "definition": "Questions related to mathematical concepts and problems."
+    },
+    {
+      "id": 12,
+      "name": "Health and Medicine",
+      "definition": "Questions about health, medical conditions, and treatments."
+    },
+    {
+      "id": 13,
+      "name": "History and Culture",
+      "definition": "Questions related to historical events, cultural practices, and societal norms."
+    },
+    {
+      "id": 14,
+      "name": "Design and Aesthetics",
+      "definition": "Questions about design principles, aesthetics, and visual presentation."
+    },
+    {
+      "id": 15,
+      "name": "Software Tools",
+      "definition": "Questions about specific software tools and their functionalities."
+    },
+    {
+      "id": 16,
+      "name": "Education and Learning",
+      "definition": "Questions about educational practices, learning strategies, and academic resources."
+    },
+    {
+      "id": 17,
+      "name": "Legal and Ethical Issues",
+      "definition": "Questions regarding legal matters and ethical considerations."
+    },
+    {
+      "id": 18,
+      "name": "Networking and IT",
+      "definition": "Questions related to computer networking, IT infrastructure, and system administration."
+    },
+    {
+      "id": 19,
+      "name": "Food and Cooking",
+      "definition": "Questions about food preparation, cooking techniques, and culinary practices."
+    },
+    {
+      "id": 20,
+      "name": "Travel and Geography",
+      "definition": "Questions related to travel, geography, and cultural experiences."
+    },
+    {
+      "id": 21,
+      "name": "Finance and Economics",
+      "definition": "Questions about financial concepts, economic theories, and market analysis."
+    },
+    {
+      "id": 22,
+      "name": "Science and Technology",
+      "definition": "Questions related to scientific principles, technological advancements, and research."
+    },
+    {
+      "id": 23,
+      "name": "Art and Literature",
+      "definition": "Questions about artistic expression, literature, and creative writing."
+    },
+    {
+      "id": 24,
+      "name": "Social Issues",
+      "definition": "Questions regarding social dynamics, issues, and community engagement."
+    },
+    {
+      "id": 25,
+      "name": "Mathematical Proofs",
+      "definition": "Questions focused on proving mathematical theorems and concepts."
+    }
+  ]
+}

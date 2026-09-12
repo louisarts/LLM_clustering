@@ -1,0 +1,510 @@
+{
+  "bench": "fewevent",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "work",
+      "definition": "An event related to professional or academic work or achievements."
+    },
+    {
+      "id": 2,
+      "name": "medal",
+      "definition": "An event where a medal is awarded, typically in a sports context."
+    },
+    {
+      "id": 3,
+      "name": "chief",
+      "definition": "An event involving someone being a chief or head of an organization."
+    },
+    {
+      "id": 4,
+      "name": "coming",
+      "definition": "An event involving arrival or movement towards a place."
+    },
+    {
+      "id": 5,
+      "name": "headmaster",
+      "definition": "An event involving someone being a headmaster of a school."
+    },
+    {
+      "id": 6,
+      "name": "member",
+      "definition": "An event involving membership in a group or organization."
+    },
+    {
+      "id": 7,
+      "name": "position",
+      "definition": "An event involving someone obtaining or holding a position or job."
+    },
+    {
+      "id": 8,
+      "name": "funded",
+      "definition": "An event involving financial support or funding."
+    },
+    {
+      "id": 9,
+      "name": "ended",
+      "definition": "An event involving the conclusion or termination of something."
+    },
+    {
+      "id": 10,
+      "name": "posting",
+      "definition": "An event involving the act of posting or sharing information."
+    },
+    {
+      "id": 11,
+      "name": "announced",
+      "definition": "An event involving a public announcement or declaration."
+    },
+    {
+      "id": 12,
+      "name": "partner",
+      "definition": "An event involving a partnership or collaboration."
+    },
+    {
+      "id": 13,
+      "name": "soldier",
+      "definition": "An event involving someone being a soldier or military personnel."
+    },
+    {
+      "id": 14,
+      "name": "professor",
+      "definition": "An event involving someone being a professor or academic."
+    },
+    {
+      "id": 15,
+      "name": "gold",
+      "definition": "An event involving winning a gold medal or achieving first place."
+    },
+    {
+      "id": 16,
+      "name": "president",
+      "definition": "An event involving someone being a president of an organization or country."
+    },
+    {
+      "id": 17,
+      "name": "command",
+      "definition": "An event involving military command or leadership."
+    },
+    {
+      "id": 18,
+      "name": "government",
+      "definition": "An event involving the formation or actions of a government."
+    },
+    {
+      "id": 19,
+      "name": "gold-medalist",
+      "definition": "An event involving someone being recognized as a gold medalist."
+    },
+    {
+      "id": 20,
+      "name": "wife",
+      "definition": "An event involving marriage or a marital relationship."
+    },
+    {
+      "id": 21,
+      "name": "married",
+      "definition": "An event involving the act of getting married."
+    },
+    {
+      "id": 22,
+      "name": "commander",
+      "definition": "An event involving someone being a commander in a military context."
+    },
+    {
+      "id": 23,
+      "name": "laid off",
+      "definition": "An event involving job termination or layoffs."
+    },
+    {
+      "id": 24,
+      "name": "live",
+      "definition": "An event involving living or residing in a place."
+    },
+    {
+      "id": 25,
+      "name": "job",
+      "definition": "An event involving employment or job-related activities."
+    },
+    {
+      "id": 26,
+      "name": "walked",
+      "definition": "An event involving walking or movement on foot."
+    },
+    {
+      "id": 27,
+      "name": "marriage",
+      "definition": "An event involving a marriage or wedding ceremony."
+    },
+    {
+      "id": 28,
+      "name": "silver",
+      "definition": "An event involving winning a silver medal or achieving second place."
+    },
+    {
+      "id": 29,
+      "name": "interview",
+      "definition": "An event involving an interview or questioning process."
+    },
+    {
+      "id": 30,
+      "name": "winner",
+      "definition": "An event involving someone winning a competition or contest."
+    },
+    {
+      "id": 31,
+      "name": "coach",
+      "definition": "An event involving someone being a coach or trainer."
+    },
+    {
+      "id": 32,
+      "name": "unindicted",
+      "definition": "An event involving someone not being formally charged with a crime."
+    },
+    {
+      "id": 33,
+      "name": "contacted",
+      "definition": "An event involving communication or reaching out to someone."
+    },
+    {
+      "id": 34,
+      "name": "clashing with",
+      "definition": "An event involving conflict or confrontation."
+    },
+    {
+      "id": 35,
+      "name": "study",
+      "definition": "An event involving academic study or education."
+    },
+    {
+      "id": 36,
+      "name": "regime",
+      "definition": "An event involving a political regime or government system."
+    },
+    {
+      "id": 37,
+      "name": "intervention",
+      "definition": "An event involving intervention or interference in a situation."
+    },
+    {
+      "id": 38,
+      "name": "school",
+      "definition": "An event involving a school or educational institution."
+    },
+    {
+      "id": 39,
+      "name": "retire",
+      "definition": "An event involving retirement or cessation of work."
+    },
+    {
+      "id": 40,
+      "name": "sale",
+      "definition": "An event involving the sale or transaction of goods."
+    },
+    {
+      "id": 41,
+      "name": "fighting",
+      "definition": "An event involving physical combat or fighting."
+    },
+    {
+      "id": 42,
+      "name": "together",
+      "definition": "An event involving collaboration or being together with others."
+    },
+    {
+      "id": 43,
+      "name": "punching",
+      "definition": "An event involving physical striking or punching."
+    },
+    {
+      "id": 44,
+      "name": "resigned",
+      "definition": "An event involving resignation or stepping down from a position."
+    },
+    {
+      "id": 45,
+      "name": "leader",
+      "definition": "An event involving leadership or being a leader."
+    },
+    {
+      "id": 46,
+      "name": "room",
+      "definition": "An event involving a room or space."
+    },
+    {
+      "id": 47,
+      "name": "finish",
+      "definition": "An event involving completion or finishing of an activity."
+    },
+    {
+      "id": 48,
+      "name": "asked",
+      "definition": "An event involving asking a question or inquiry."
+    },
+    {
+      "id": 49,
+      "name": "master",
+      "definition": "An event involving mastery or being a master in a field."
+    },
+    {
+      "id": 50,
+      "name": "push",
+      "definition": "An event involving exerting force or effort to move something."
+    },
+    {
+      "id": 51,
+      "name": "negotiation",
+      "definition": "An event involving negotiation or discussion to reach an agreement."
+    },
+    {
+      "id": 52,
+      "name": "terror",
+      "definition": "An event involving acts of terror or terrorism."
+    },
+    {
+      "id": 53,
+      "name": "executive",
+      "definition": "An event involving an executive role or position."
+    },
+    {
+      "id": 54,
+      "name": "music",
+      "definition": "An event involving music or musical activities."
+    },
+    {
+      "id": 55,
+      "name": "holiday",
+      "definition": "An event involving a holiday or vacation."
+    },
+    {
+      "id": 56,
+      "name": "negotiation",
+      "definition": "An event involving negotiation or discussion to reach an agreement."
+    },
+    {
+      "id": 57,
+      "name": "messages",
+      "definition": "An event involving sending or receiving messages."
+    },
+    {
+      "id": 58,
+      "name": "resident",
+      "definition": "An event involving residency or living in a place."
+    },
+    {
+      "id": 59,
+      "name": "bought",
+      "definition": "An event involving purchasing or buying something."
+    },
+    {
+      "id": 60,
+      "name": "ordered",
+      "definition": "An event involving placing an order for goods or services."
+    },
+    {
+      "id": 61,
+      "name": "shipping",
+      "definition": "An event involving the transportation or delivery of goods."
+    },
+    {
+      "id": 62,
+      "name": "join",
+      "definition": "An event involving joining or becoming part of a group or activity."
+    },
+    {
+      "id": 63,
+      "name": "said",
+      "definition": "An event involving speaking or making a statement."
+    },
+    {
+      "id": 64,
+      "name": "director",
+      "definition": "An event involving someone being a director or in a directorial role."
+    },
+    {
+      "id": 65,
+      "name": "minister",
+      "definition": "An event involving someone being a minister or clergy."
+    },
+    {
+      "id": 66,
+      "name": "mogul",
+      "definition": "An event involving a mogul or influential business figure."
+    },
+    {
+      "id": 67,
+      "name": "accused",
+      "definition": "An event involving an accusation or charge against someone."
+    },
+    {
+      "id": 68,
+      "name": "general",
+      "definition": "An event involving a general or high-ranking military officer."
+    },
+    {
+      "id": 69,
+      "name": "messages",
+      "definition": "An event involving sending or receiving messages."
+    },
+    {
+      "id": 70,
+      "name": "comment",
+      "definition": "An event involving making a comment or remark."
+    },
+    {
+      "id": 71,
+      "name": "victory",
+      "definition": "An event involving winning or achieving victory."
+    },
+    {
+      "id": 72,
+      "name": "reach",
+      "definition": "An event involving reaching or arriving at a destination."
+    },
+    {
+      "id": 73,
+      "name": "sang",
+      "definition": "An event involving singing or vocal performance."
+    },
+    {
+      "id": 74,
+      "name": "bought",
+      "definition": "An event involving purchasing or buying something."
+    },
+    {
+      "id": 75,
+      "name": "resident",
+      "definition": "An event involving residency or living in a place."
+    },
+    {
+      "id": 76,
+      "name": "spouse",
+      "definition": "An event involving a spouse or marital partner."
+    },
+    {
+      "id": 77,
+      "name": "join",
+      "definition": "An event involving joining or becoming part of a group or activity."
+    },
+    {
+      "id": 78,
+      "name": "messages",
+      "definition": "An event involving sending or receiving messages."
+    },
+    {
+      "id": 79,
+      "name": "resident",
+      "definition": "An event involving residency or living in a place."
+    },
+    {
+      "id": 80,
+      "name": "bought",
+      "definition": "An event involving purchasing or buying something."
+    },
+    {
+      "id": 81,
+      "name": "ordered",
+      "definition": "An event involving placing an order for goods or services."
+    },
+    {
+      "id": 82,
+      "name": "shipping",
+      "definition": "An event involving the transportation or delivery of goods."
+    },
+    {
+      "id": 83,
+      "name": "join",
+      "definition": "An event involving joining or becoming part of a group or activity."
+    },
+    {
+      "id": 84,
+      "name": "said",
+      "definition": "An event involving speaking or making a statement."
+    },
+    {
+      "id": 85,
+      "name": "director",
+      "definition": "An event involving someone being a director or in a directorial role."
+    },
+    {
+      "id": 86,
+      "name": "minister",
+      "definition": "An event involving someone being a minister or clergy."
+    },
+    {
+      "id": 87,
+      "name": "mogul",
+      "definition": "An event involving a mogul or influential business figure."
+    },
+    {
+      "id": 88,
+      "name": "accused",
+      "definition": "An event involving an accusation or charge against someone."
+    },
+    {
+      "id": 89,
+      "name": "general",
+      "definition": "An event involving a general or high-ranking military officer."
+    },
+    {
+      "id": 90,
+      "name": "messages",
+      "definition": "An event involving sending or receiving messages."
+    },
+    {
+      "id": 91,
+      "name": "comment",
+      "definition": "An event involving making a comment or remark."
+    },
+    {
+      "id": 92,
+      "name": "victory",
+      "definition": "An event involving winning or achieving victory."
+    },
+    {
+      "id": 93,
+      "name": "reach",
+      "definition": "An event involving reaching or arriving at a destination."
+    },
+    {
+      "id": 94,
+      "name": "sang",
+      "definition": "An event involving singing or vocal performance."
+    },
+    {
+      "id": 95,
+      "name": "bought",
+      "definition": "An event involving purchasing or buying something."
+    },
+    {
+      "id": 96,
+      "name": "resident",
+      "definition": "An event involving residency or living in a place."
+    },
+    {
+      "id": 97,
+      "name": "spouse",
+      "definition": "An event involving a spouse or marital partner."
+    },
+    {
+      "id": 98,
+      "name": "join",
+      "definition": "An event involving joining or becoming part of a group or activity."
+    },
+    {
+      "id": 99,
+      "name": "said",
+      "definition": "An event involving speaking or making a statement."
+    },
+    {
+      "id": 100,
+      "name": "director",
+      "definition": "An event involving someone being a director or in a directorial role."
+    }
+  ]
+}

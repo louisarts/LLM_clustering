@@ -1,0 +1,85 @@
+{
+  "bench": "clinc150_domain",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Personal Finance",
+      "definition": "Inquiries related to banking, credit cards, loans, and personal budgeting."
+    },
+    {
+      "id": 2,
+      "name": "Travel and Reservations",
+      "definition": "Requests for booking travel, accommodations, and related inquiries."
+    },
+    {
+      "id": 3,
+      "name": "Health and Wellness",
+      "definition": "Questions regarding health plans, medical advice, and wellness tips."
+    },
+    {
+      "id": 4,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions, ingredients, and meal preparation."
+    },
+    {
+      "id": 5,
+      "name": "Reminders and To-Do Lists",
+      "definition": "Management of reminders, tasks, and scheduling inquiries."
+    },
+    {
+      "id": 6,
+      "name": "General Knowledge",
+      "definition": "Questions seeking definitions, explanations, or trivia."
+    },
+    {
+      "id": 7,
+      "name": "Technical Support",
+      "definition": "Inquiries related to device settings, troubleshooting, and technical issues."
+    },
+    {
+      "id": 8,
+      "name": "Shopping and Grocery Lists",
+      "definition": "Requests for managing shopping lists and grocery-related inquiries."
+    },
+    {
+      "id": 9,
+      "name": "Transportation and Navigation",
+      "definition": "Questions about directions, travel times, and vehicle-related inquiries."
+    },
+    {
+      "id": 10,
+      "name": "Insurance",
+      "definition": "Inquiries related to insurance plans, coverage, and claims."
+    },
+    {
+      "id": 11,
+      "name": "Weather",
+      "definition": "Requests for current weather conditions and forecasts."
+    },
+    {
+      "id": 12,
+      "name": "Entertainment",
+      "definition": "Requests for music, movies, and other forms of entertainment."
+    },
+    {
+      "id": 13,
+      "name": "Education and Learning",
+      "definition": "Questions related to learning, educational resources, and study help."
+    },
+    {
+      "id": 14,
+      "name": "Home and Maintenance",
+      "definition": "Inquiries about home repairs, maintenance, and DIY projects."
+    },
+    {
+      "id": 15,
+      "name": "Social Interaction",
+      "definition": "Requests for communication, social engagement, and personal interaction."
+    }
+  ]
+}

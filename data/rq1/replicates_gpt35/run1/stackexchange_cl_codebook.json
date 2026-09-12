@@ -1,0 +1,110 @@
+{
+  "bench": "stackexchange_cl",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which StackExchange community / site the question title was posted to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Spanish Language",
+      "definition": "Questions related to the Spanish language"
+    },
+    {
+      "id": 2,
+      "name": "Fitness and Exercise",
+      "definition": "Questions related to fitness, exercise, and weightlifting"
+    },
+    {
+      "id": 3,
+      "name": "Finance and Credit",
+      "definition": "Questions related to finance, credit repair, and financial services"
+    },
+    {
+      "id": 4,
+      "name": "Home Improvement",
+      "definition": "Questions related to home improvement and maintenance"
+    },
+    {
+      "id": 5,
+      "name": "Copyright and Intellectual Property",
+      "definition": "Questions related to copyright and intellectual property rights"
+    },
+    {
+      "id": 6,
+      "name": "Indexing and Searching",
+      "definition": "Questions related to creating custom indexes and search algorithms"
+    },
+    {
+      "id": 7,
+      "name": "History and Mythology",
+      "definition": "Questions related to historical events and mythological figures"
+    },
+    {
+      "id": 8,
+      "name": "Martial Arts and Training",
+      "definition": "Questions related to martial arts training and techniques"
+    },
+    {
+      "id": 9,
+      "name": "Graphic Design and Illustration",
+      "definition": "Questions related to graphic design software and techniques"
+    },
+    {
+      "id": 10,
+      "name": "Mobile Security and Data Transfer",
+      "definition": "Questions related to mobile phone security and data transfer methods"
+    },
+    {
+      "id": 11,
+      "name": "Philosophy and Metaphysics",
+      "definition": "Questions related to philosophical concepts and metaphysical theories"
+    },
+    {
+      "id": 12,
+      "name": "Technology Updates and Releases",
+      "definition": "Questions related to updates and changes in technology products"
+    },
+    {
+      "id": 13,
+      "name": "Language Translation and Interpretation",
+      "definition": "Questions related to translating languages and interpreting meanings"
+    },
+    {
+      "id": 14,
+      "name": "Animal Behavior and Veterinary Care",
+      "definition": "Questions related to animal behavior and veterinary practices"
+    },
+    {
+      "id": 15,
+      "name": "Programming and Software Development",
+      "definition": "Questions related to programming languages and software development tools"
+    },
+    {
+      "id": 16,
+      "name": "Physics and Mathematics",
+      "definition": "Questions related to physics, mathematics, and scientific calculations"
+    },
+    {
+      "id": 17,
+      "name": "Gaming and Game Development",
+      "definition": "Questions related to gaming, game engines, and game development tools"
+    },
+    {
+      "id": 18,
+      "name": "Health and Wellness",
+      "definition": "Questions related to health, wellness, and medical conditions"
+    },
+    {
+      "id": 19,
+      "name": "Craftsmanship and DIY Projects",
+      "definition": "Questions related to craftsmanship, DIY projects, and creative endeavors"
+    },
+    {
+      "id": 20,
+      "name": "Networking and IT Solutions",
+      "definition": "Questions related to networking, IT solutions, and hardware configurations"
+    }
+  ]
+}

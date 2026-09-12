@@ -1,0 +1,87 @@
+[
+ {
+  "id": 1,
+  "name": "Person",
+  "definition": "An individual human being, including historical figures, athletes, artists, politicians, and professionals."
+ },
+ {
+  "id": 2,
+  "name": "Organization",
+  "definition": "A group of people with a particular purpose, such as a company, educational institution, non-profit, or project."
+ },
+ {
+  "id": 3,
+  "name": "Geographical Feature",
+  "definition": "A natural or artificial landform or body of water, including mountains, rivers, lakes, and settlements."
+ },
+ {
+  "id": 4,
+  "name": "Animal Species",
+  "definition": "A specific type of animal, identified by its scientific or common name."
+ },
+ {
+  "id": 5,
+  "name": "Plant Species",
+  "definition": "A specific type of plant, identified by its scientific or common name."
+ },
+ {
+  "id": 6,
+  "name": "Vehicle",
+  "definition": "A machine used for transporting people or goods, including ships, trains, and general-purpose cars."
+ },
+ {
+  "id": 7,
+  "name": "Aircraft Model",
+  "definition": "A specific design or type of aircraft."
+ },
+ {
+  "id": 8,
+  "name": "Music Album",
+  "definition": "A collection of musical recordings released together, including EPs and compilations."
+ },
+ {
+  "id": 9,
+  "name": "Film",
+  "definition": "A motion picture, including short films and documentaries."
+ },
+ {
+  "id": 10,
+  "name": "Book",
+  "definition": "A written or printed work consisting of pages bound together, including novels, collections of stories, and non-fiction."
+ },
+ {
+  "id": 11,
+  "name": "Building",
+  "definition": "A structure with a roof and walls, typically used for habitation, commerce, education, or worship."
+ },
+ {
+  "id": 12,
+  "name": "Structure",
+  "definition": "A constructed object not primarily intended for habitation, such as a bridge or monument."
+ },
+ {
+  "id": 13,
+  "name": "Publication",
+  "definition": "A printed or digital work issued periodically or for public distribution, such as a newspaper, magazine, or journal."
+ },
+ {
+  "id": 14,
+  "name": "Fictional Work",
+  "definition": "A creative work of imagination, such as a play, TV series, or comic strip."
+ },
+ {
+  "id": 15,
+  "name": "Animal Group",
+  "definition": "A taxonomic classification of animals above the species level, such as a genus or family."
+ },
+ {
+  "id": 16,
+  "name": "Plant Group",
+  "definition": "A taxonomic classification of plants above the species level, such as a genus or division."
+ },
+ {
+  "id": 17,
+  "name": "Concept/Term",
+  "definition": "An abstract idea, a specific word with a defined meaning, or a theoretical construct."
+ }
+]

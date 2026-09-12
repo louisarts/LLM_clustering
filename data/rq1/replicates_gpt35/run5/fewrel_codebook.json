@@ -1,0 +1,110 @@
+{
+  "bench": "fewrel",
+  "run": 5,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Artistic Influence",
+      "definition": "One entity is inspired by or influenced by the other in an artistic context."
+    },
+    {
+      "id": 2,
+      "name": "Political Succession",
+      "definition": "One entity succeeds another in a political role or position."
+    },
+    {
+      "id": 3,
+      "name": "Election Results",
+      "definition": "The relation between election results and candidates or parties."
+    },
+    {
+      "id": 4,
+      "name": "Software Development",
+      "definition": "The relation between software, its developers, and platforms."
+    },
+    {
+      "id": 5,
+      "name": "Educational Background",
+      "definition": "The relation between educational institutions, individuals, and their achievements."
+    },
+    {
+      "id": 6,
+      "name": "Cinematic Adaptation",
+      "definition": "The relation between literary works and their film adaptations."
+    },
+    {
+      "id": 7,
+      "name": "Film Awards",
+      "definition": "The relation between films and awards or nominations."
+    },
+    {
+      "id": 8,
+      "name": "Historical Events",
+      "definition": "The relation between historical figures, events, and locations."
+    },
+    {
+      "id": 9,
+      "name": "Sports Achievements",
+      "definition": "The relation between athletes, teams, and their accomplishments."
+    },
+    {
+      "id": 10,
+      "name": "Geographical Features",
+      "definition": "The relation between geographical locations, landmarks, and natural elements."
+    },
+    {
+      "id": 11,
+      "name": "Architectural Design",
+      "definition": "The relation between architects, buildings, and architectural styles."
+    },
+    {
+      "id": 12,
+      "name": "Radio Broadcasting",
+      "definition": "The relation between radio stations, frequencies, and locations."
+    },
+    {
+      "id": 13,
+      "name": "Military Service",
+      "definition": "The relation between military officers, units, and their service history."
+    },
+    {
+      "id": 14,
+      "name": "Music Production",
+      "definition": "The relation between music artists, albums, and record labels."
+    },
+    {
+      "id": 15,
+      "name": "Scientific Classification",
+      "definition": "The relation between biological taxa and their classification."
+    },
+    {
+      "id": 16,
+      "name": "Journalistic Career",
+      "definition": "The relation between journalists, publications, and media outlets."
+    },
+    {
+      "id": 17,
+      "name": "Political Endorsement",
+      "definition": "The relation between political figures and their endorsements."
+    },
+    {
+      "id": 18,
+      "name": "Ethnic Heritage",
+      "definition": "The relation between ethnic groups, regions, and cultural identities."
+    },
+    {
+      "id": 19,
+      "name": "Aviation History",
+      "definition": "The relation between aviators, aircraft, and historical flights."
+    },
+    {
+      "id": 20,
+      "name": "Film Production",
+      "definition": "The relation between film studios, directors, and movie releases."
+    }
+  ]
+}

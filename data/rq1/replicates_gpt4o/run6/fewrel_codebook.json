@@ -1,0 +1,110 @@
+{
+  "bench": "fewrel",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person-Role",
+      "definition": "A relationship where a person holds a specific role or title."
+    },
+    {
+      "id": 2,
+      "name": "Person-Organization",
+      "definition": "A relationship where a person is associated with an organization."
+    },
+    {
+      "id": 3,
+      "name": "Person-Location",
+      "definition": "A relationship where a person is associated with a specific location."
+    },
+    {
+      "id": 4,
+      "name": "Person-Event",
+      "definition": "A relationship where a person is associated with a specific event."
+    },
+    {
+      "id": 5,
+      "name": "Person-Person",
+      "definition": "A relationship between two people."
+    },
+    {
+      "id": 6,
+      "name": "Person-Work",
+      "definition": "A relationship where a person is associated with a specific work, such as a book, film, or music."
+    },
+    {
+      "id": 7,
+      "name": "Work-Work",
+      "definition": "A relationship between two works, such as adaptations, sequels, or versions."
+    },
+    {
+      "id": 8,
+      "name": "Work-Organization",
+      "definition": "A relationship where a work is associated with an organization."
+    },
+    {
+      "id": 9,
+      "name": "Work-Event",
+      "definition": "A relationship where a work is associated with a specific event."
+    },
+    {
+      "id": 10,
+      "name": "Work-Location",
+      "definition": "A relationship where a work is associated with a specific location."
+    },
+    {
+      "id": 11,
+      "name": "Organization-Location",
+      "definition": "A relationship where an organization is associated with a specific location."
+    },
+    {
+      "id": 12,
+      "name": "Organization-Organization",
+      "definition": "A relationship between two organizations."
+    },
+    {
+      "id": 13,
+      "name": "Organization-Event",
+      "definition": "A relationship where an organization is associated with a specific event."
+    },
+    {
+      "id": 14,
+      "name": "Location-Location",
+      "definition": "A relationship between two locations."
+    },
+    {
+      "id": 15,
+      "name": "Location-Event",
+      "definition": "A relationship where a location is associated with a specific event."
+    },
+    {
+      "id": 16,
+      "name": "Event-Event",
+      "definition": "A relationship between two events."
+    },
+    {
+      "id": 17,
+      "name": "Event-Location",
+      "definition": "A relationship where an event is associated with a specific location."
+    },
+    {
+      "id": 18,
+      "name": "Concept-Concept",
+      "definition": "A relationship between two abstract concepts or terms."
+    },
+    {
+      "id": 19,
+      "name": "Person-Concept",
+      "definition": "A relationship where a person is associated with an abstract concept or term."
+    },
+    {
+      "id": 20,
+      "name": "Work-Concept",
+      "definition": "A relationship where a work is associated with an abstract concept or term."
+    }
+  ]
+}

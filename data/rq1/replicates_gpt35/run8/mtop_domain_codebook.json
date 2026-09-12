@@ -1,0 +1,105 @@
+{
+  "bench": "mtop_domain",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Phone Calls",
+      "definition": "Utterances related to making or receiving phone calls."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Utterances related to setting reminders for specific tasks or events."
+    },
+    {
+      "id": 3,
+      "name": "Alarms",
+      "definition": "Utterances related to setting alarms or timers."
+    },
+    {
+      "id": 4,
+      "name": "Weather Information",
+      "definition": "Utterances related to inquiring about weather conditions."
+    },
+    {
+      "id": 5,
+      "name": "Online Status",
+      "definition": "Utterances related to checking the online status of contacts."
+    },
+    {
+      "id": 6,
+      "name": "Music Playback",
+      "definition": "Utterances related to playing music or specific songs."
+    },
+    {
+      "id": 7,
+      "name": "Calendar Events",
+      "definition": "Utterances related to scheduling or checking calendar events."
+    },
+    {
+      "id": 8,
+      "name": "Contact Information",
+      "definition": "Utterances related to inquiring about contact details of individuals."
+    },
+    {
+      "id": 9,
+      "name": "Messaging",
+      "definition": "Utterances related to sending or receiving messages via text or video."
+    },
+    {
+      "id": 10,
+      "name": "Location Information",
+      "definition": "Utterances related to inquiring about specific locations or areas."
+    },
+    {
+      "id": 11,
+      "name": "News Updates",
+      "definition": "Utterances related to requesting news updates or headlines."
+    },
+    {
+      "id": 12,
+      "name": "Timer Control",
+      "definition": "Utterances related to controlling timers or countdowns."
+    },
+    {
+      "id": 13,
+      "name": "Video Calling",
+      "definition": "Utterances related to initiating or engaging in video calls."
+    },
+    {
+      "id": 14,
+      "name": "Cooking Instructions",
+      "definition": "Utterances related to inquiring about cooking instructions or recipes."
+    },
+    {
+      "id": 15,
+      "name": "Social Events",
+      "definition": "Utterances related to planning or attending social events."
+    },
+    {
+      "id": 16,
+      "name": "Health Information",
+      "definition": "Utterances related to inquiring about health-related information such as calories or food ingredients."
+    },
+    {
+      "id": 17,
+      "name": "Cancelations",
+      "definition": "Utterances related to canceling or deleting previously set reminders or alarms."
+    },
+    {
+      "id": 18,
+      "name": "Work-related Tasks",
+      "definition": "Utterances related to work-related tasks or appointments."
+    },
+    {
+      "id": 19,
+      "name": "Entertainment Recommendations",
+      "definition": "Utterances related to seeking recommendations for entertainment activities or events."
+    }
+  ]
+}

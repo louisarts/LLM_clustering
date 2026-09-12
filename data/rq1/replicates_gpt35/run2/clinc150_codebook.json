@@ -1,0 +1,60 @@
+{
+  "bench": "clinc150",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Travel Assistance",
+      "definition": "Assistance with travel-related queries, such as visa requirements, flight bookings, and hotel reservations."
+    },
+    {
+      "id": 2,
+      "name": "Banking Assistance",
+      "definition": "Assistance with banking-related queries, such as account balances, direct deposits, and credit card applications."
+    },
+    {
+      "id": 3,
+      "name": "Information Retrieval",
+      "definition": "Assistance with retrieving information, such as interest rates, nutrition facts, and spelling."
+    },
+    {
+      "id": 4,
+      "name": "Task Management",
+      "definition": "Assistance with managing tasks, such as setting reminders, creating lists, and syncing devices."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment Assistance",
+      "definition": "Assistance with entertainment-related queries, such as playing music, finding recipes, and jokes."
+    },
+    {
+      "id": 6,
+      "name": "Health and Wellness Assistance",
+      "definition": "Assistance with health and wellness-related queries, such as medical advice, fitness tips, and nutrition information."
+    },
+    {
+      "id": 7,
+      "name": "Shopping Assistance",
+      "definition": "Assistance with shopping-related queries, such as finding products, checking prices, and adding items to a list."
+    },
+    {
+      "id": 8,
+      "name": "Utility Assistance",
+      "definition": "Assistance with utility-related queries, such as bill payments, temperature settings, and home maintenance."
+    },
+    {
+      "id": 9,
+      "name": "Personalization",
+      "definition": "Assistance with personal preferences, such as changing names, voices, and settings."
+    },
+    {
+      "id": 10,
+      "name": "General Queries",
+      "definition": "Assistance with general queries that do not fit into specific categories."
+    }
+  ]
+}

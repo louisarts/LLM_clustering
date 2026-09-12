@@ -1,0 +1,62 @@
+{
+  "bench": "mtop_domain",
+  "run": 10,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Reminders",
+      "definition": "Manage, create, view, or delete reminders for tasks or events."
+    },
+    {
+      "id": 2,
+      "name": "Alarms",
+      "definition": "Manage, create, view, delete, or snooze alarms."
+    },
+    {
+      "id": 3,
+      "name": "Timers",
+      "definition": "Manage, create, view, modify, or resume countdown timers."
+    },
+    {
+      "id": 4,
+      "name": "Weather",
+      "definition": "Retrieve current weather conditions or forecasts for specific locations or times."
+    },
+    {
+      "id": 5,
+      "name": "Calling",
+      "definition": "Initiate, manage, answer, decline, or retrieve history for voice and video calls."
+    },
+    {
+      "id": 6,
+      "name": "Messaging",
+      "definition": "Send, receive, read, or manage text and video messages."
+    },
+    {
+      "id": 7,
+      "name": "Music Playback",
+      "definition": "Control music playback, select songs/artists/genres, or manage music services."
+    },
+    {
+      "id": 8,
+      "name": "News",
+      "definition": "Retrieve and read news headlines and stories from various sources."
+    },
+    {
+      "id": 9,
+      "name": "General Knowledge",
+      "definition": "Answer factual questions, provide recipes, or define terms."
+    },
+    {
+      "id": 10,
+      "name": "Contact & Social Info",
+      "definition": "Retrieve information about contacts, their addresses, employers, or social media presence."
+    },
+    {
+      "id": 11,
+      "name": "Events & Calendar",
+      "definition": "Find, manage, or RSVP to events and calendar entries."
+    }
+  ]
+}

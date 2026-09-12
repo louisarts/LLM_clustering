@@ -1,0 +1,125 @@
+{
+  "bench": "stackoverflow20",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "SharePoint",
+      "definition": "Questions related to SharePoint and its components."
+    },
+    {
+      "id": 2,
+      "name": "LINQ",
+      "definition": "Questions related to Language Integrated Query (LINQ) in .NET."
+    },
+    {
+      "id": 3,
+      "name": "Oracle",
+      "definition": "Questions related to Oracle databases and PL/SQL."
+    },
+    {
+      "id": 4,
+      "name": "Hibernate",
+      "definition": "Questions related to Hibernate ORM framework."
+    },
+    {
+      "id": 5,
+      "name": "Cocoa",
+      "definition": "Questions related to Cocoa framework for macOS applications."
+    },
+    {
+      "id": 6,
+      "name": "ASP.NET",
+      "definition": "Questions related to ASP.NET web framework."
+    },
+    {
+      "id": 7,
+      "name": "Visual Studio",
+      "definition": "Questions related to Microsoft Visual Studio IDE."
+    },
+    {
+      "id": 8,
+      "name": "Drupal",
+      "definition": "Questions related to Drupal content management system."
+    },
+    {
+      "id": 9,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel and its functionalities."
+    },
+    {
+      "id": 10,
+      "name": "Spring",
+      "definition": "Questions related to Spring framework for Java."
+    },
+    {
+      "id": 11,
+      "name": "SVN",
+      "definition": "Questions related to Subversion version control system."
+    },
+    {
+      "id": 12,
+      "name": "Apache",
+      "definition": "Questions related to Apache HTTP Server."
+    },
+    {
+      "id": 13,
+      "name": "PHP",
+      "definition": "Questions related to PHP programming language."
+    },
+    {
+      "id": 14,
+      "name": "Qt",
+      "definition": "Questions related to Qt framework for cross-platform applications."
+    },
+    {
+      "id": 15,
+      "name": "Magento",
+      "definition": "Questions related to Magento e-commerce platform."
+    },
+    {
+      "id": 16,
+      "name": "Haskell",
+      "definition": "Questions related to Haskell programming language."
+    },
+    {
+      "id": 17,
+      "name": "Scala",
+      "definition": "Questions related to Scala programming language."
+    },
+    {
+      "id": 18,
+      "name": "WordPress",
+      "definition": "Questions related to WordPress content management system."
+    },
+    {
+      "id": 19,
+      "name": "MATLAB",
+      "definition": "Questions related to MATLAB software for numerical computing."
+    },
+    {
+      "id": 20,
+      "name": "Bash",
+      "definition": "Questions related to Bash scripting language."
+    },
+    {
+      "id": 21,
+      "name": "Objective-C",
+      "definition": "Questions related to Objective-C programming language."
+    },
+    {
+      "id": 22,
+      "name": "Java",
+      "definition": "Questions related to Java programming language and its frameworks."
+    },
+    {
+      "id": 23,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX)."
+    }
+  ]
+}

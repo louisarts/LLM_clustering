@@ -1,0 +1,132 @@
+{
+  "bench": "massive_intent",
+  "run": 5,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Query",
+      "definition": "Asking for current, future, or past weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "News Query",
+      "definition": "Asking for general news, specific news updates, or headlines."
+    },
+    {
+      "id": 3,
+      "name": "Definition/Description Query",
+      "definition": "Asking for the meaning, description, or explanation of a word, concept, or object."
+    },
+    {
+      "id": 4,
+      "name": "General Knowledge Query",
+      "definition": "Asking for factual information, statistics, or general information not covered by other query types."
+    },
+    {
+      "id": 5,
+      "name": "Stock Market Query",
+      "definition": "Asking for information about stock prices or market performance."
+    },
+    {
+      "id": 6,
+      "name": "Time/Date Query",
+      "definition": "Asking for the current time, date, or time zone information."
+    },
+    {
+      "id": 7,
+      "name": "Recipe/Instruction Query",
+      "definition": "Asking for recipes, cooking instructions, or how-to guides."
+    },
+    {
+      "id": 8,
+      "name": "Personal Information Query",
+      "definition": "Asking for information related to the user's personal data, such as calendar events, reminders, emails, or lists."
+    },
+    {
+      "id": 9,
+      "name": "Location/Navigation Query",
+      "definition": "Asking for directions, location information, or nearby places."
+    },
+    {
+      "id": 10,
+      "name": "Web Search",
+      "definition": "Requesting to search the internet for general information or specific content."
+    },
+    {
+      "id": 11,
+      "name": "Joke Request",
+      "definition": "Asking the assistant to tell a joke."
+    },
+    {
+      "id": 12,
+      "name": "Assistant Self-Query",
+      "definition": "Asking questions about the assistant itself, its capabilities, or its opinions."
+    },
+    {
+      "id": 13,
+      "name": "Media Playback Control",
+      "definition": "Requesting to play, pause, skip, or control media such as music, podcasts, audiobooks, or radio."
+    },
+    {
+      "id": 14,
+      "name": "Smart Device Control",
+      "definition": "Controlling smart home devices, lights, appliances, or other connected hardware."
+    },
+    {
+      "id": 15,
+      "name": "Alarm/Timer Management",
+      "definition": "Setting, canceling, or modifying alarms or timers."
+    },
+    {
+      "id": 16,
+      "name": "Reminder Management",
+      "definition": "Setting, canceling, or modifying reminders for tasks or events."
+    },
+    {
+      "id": 17,
+      "name": "List Management",
+      "definition": "Adding, removing, or managing items in various lists, such as grocery or to-do lists."
+    },
+    {
+      "id": 18,
+      "name": "Communication",
+      "definition": "Sending, checking, or managing emails, messages, or social media posts."
+    },
+    {
+      "id": 19,
+      "name": "Calendar Management",
+      "definition": "Adding, removing, or managing events in a calendar."
+    },
+    {
+      "id": 20,
+      "name": "Ordering/Purchasing",
+      "definition": "Requesting to order food, products, or services."
+    },
+    {
+      "id": 21,
+      "name": "Transportation Booking",
+      "definition": "Booking or requesting transportation services."
+    },
+    {
+      "id": 22,
+      "name": "Conversational/Small Talk",
+      "definition": "Engaging in general conversation, expressing personal feelings, or making casual remarks."
+    },
+    {
+      "id": 23,
+      "name": "App/Function Launch",
+      "definition": "Requesting to open a specific application or initiate a general function."
+    },
+    {
+      "id": 24,
+      "name": "Settings Adjustment",
+      "definition": "Modifying system or device settings."
+    },
+    {
+      "id": 25,
+      "name": "Assistant Control",
+      "definition": "Direct commands to the assistant to stop or modify its own behavior."
+    }
+  ]
+}

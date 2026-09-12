@@ -1,0 +1,110 @@
+{
+  "bench": "clinc150_domain",
+  "run": 4,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Inquiries or information requests related to weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Food and Nutrition",
+      "definition": "Requests for recipes, meal ideas, or nutritional information."
+    },
+    {
+      "id": 3,
+      "name": "Travel and Transportation",
+      "definition": "Questions or requests related to travel arrangements, itineraries, or transportation services."
+    },
+    {
+      "id": 4,
+      "name": "Finance and Banking",
+      "definition": "Inquiries about banking, credit cards, transactions, and financial advice."
+    },
+    {
+      "id": 5,
+      "name": "Reminders and Scheduling",
+      "definition": "Requests to set reminders, alarms, or manage calendars."
+    },
+    {
+      "id": 6,
+      "name": "Technical Support",
+      "definition": "Requests for assistance with devices, settings, or troubleshooting."
+    },
+    {
+      "id": 7,
+      "name": "Personal Information",
+      "definition": "Inquiries about personal data, such as age, name, or identity."
+    },
+    {
+      "id": 8,
+      "name": "Entertainment",
+      "definition": "Requests for jokes, music, or fun activities."
+    },
+    {
+      "id": 9,
+      "name": "Health and Insurance",
+      "definition": "Questions regarding health plans, benefits, or medical advice."
+    },
+    {
+      "id": 10,
+      "name": "Shopping and Purchases",
+      "definition": "Requests related to shopping lists, purchases, or product recommendations."
+    },
+    {
+      "id": 11,
+      "name": "Home Management",
+      "definition": "Inquiries about household tasks, chores, or home maintenance."
+    },
+    {
+      "id": 12,
+      "name": "Communication",
+      "definition": "Requests to send messages or communicate with others."
+    },
+    {
+      "id": 13,
+      "name": "General Knowledge",
+      "definition": "Inquiries seeking information or explanations on various topics."
+    },
+    {
+      "id": 14,
+      "name": "Identity and Control",
+      "definition": "Questions about the assistant's identity, control, or capabilities."
+    },
+    {
+      "id": 15,
+      "name": "Reservations and Appointments",
+      "definition": "Requests to make, modify, or cancel reservations or appointments."
+    },
+    {
+      "id": 16,
+      "name": "Travel Documentation",
+      "definition": "Inquiries about visas, travel requirements, or documentation."
+    },
+    {
+      "id": 17,
+      "name": "Time Management",
+      "definition": "Questions related to time, deadlines, or scheduling."
+    },
+    {
+      "id": 18,
+      "name": "Credit Management",
+      "definition": "Inquiries about credit scores, limits, and management strategies."
+    },
+    {
+      "id": 19,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions or ingredient information."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous",
+      "definition": "Any other inquiries that do not fit into the above categories."
+    }
+  ]
+}

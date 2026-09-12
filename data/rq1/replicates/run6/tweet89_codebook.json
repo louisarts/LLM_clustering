@@ -1,0 +1,257 @@
+{
+  "bench": "tweet89",
+  "run": 6,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl XLV (2011)",
+      "definition": "Tweets about the 2011 Super Bowl, including the game, commercials, and Christina Aguilera's national anthem performance."
+    },
+    {
+      "id": 2,
+      "name": "Middle East Protests (Arab Spring 2011)",
+      "definition": "Tweets discussing the widespread anti-government protests and uprisings in the Middle East and North Africa in early 2011, including specific mentions of Yemen, Jordan, and Egypt."
+    },
+    {
+      "id": 3,
+      "name": "2011 Awards Season (Oscars, SAGs)",
+      "definition": "Tweets related to the 2011 film awards season, particularly the Academy Awards (Oscars) and Screen Actors Guild (SAG) Awards, often mentioning The King's Speech and Black Swan."
+    },
+    {
+      "id": 4,
+      "name": "2011 Australian Open Tennis",
+      "definition": "Tweets about the 2011 Australian Open tennis tournament, focusing on matches and results, especially involving Andy Murray and Novak Djokovic."
+    },
+    {
+      "id": 5,
+      "name": "US Healthcare Reform Law Challenge",
+      "definition": "Tweets discussing the legal challenges and court rulings regarding the Affordable Care Act (Obamacare) in early 2011."
+    },
+    {
+      "id": 6,
+      "name": "2011 Sundance Film Festival",
+      "definition": "Tweets about the 2011 Sundance Film Festival, including celebrity appearances and film premieres."
+    },
+    {
+      "id": 7,
+      "name": "Apple CEO Succession/Steve Jobs Health",
+      "definition": "Tweets concerning Steve Jobs' health, Apple's succession plans, and their impact on the company."
+    },
+    {
+      "id": 8,
+      "name": "Taco Bell Beef Content Lawsuit",
+      "definition": "Tweets about the lawsuit questioning the beef content in Taco Bell's products."
+    },
+    {
+      "id": 9,
+      "name": "Don't Text and Drive Campaign",
+      "definition": "Tweets promoting awareness and pledges against texting while driving."
+    },
+    {
+      "id": 10,
+      "name": "Acai Berry Diet Scams",
+      "definition": "Tweets discussing the effectiveness, side effects, and often fraudulent claims associated with acai berry diet pills and weight loss products."
+    },
+    {
+      "id": 11,
+      "name": "Chipotle Immigration Raid",
+      "definition": "Tweets about the immigration raid at Chipotle restaurants and subsequent firings."
+    },
+    {
+      "id": 12,
+      "name": "Rahm Emanuel Mayoral Eligibility Challenge",
+      "definition": "Tweets about the legal challenges to Rahm Emanuel's eligibility to run for Mayor of Chicago."
+    },
+    {
+      "id": 13,
+      "name": "Moscow Domodedovo Airport Bombing",
+      "definition": "Tweets reporting on the terrorist bombing at Moscow's Domodedovo Airport in January 2011."
+    },
+    {
+      "id": 14,
+      "name": "Robert Kubica Rally Accident",
+      "definition": "Tweets about Formula 1 driver Robert Kubica's serious rally accident in February 2011."
+    },
+    {
+      "id": 15,
+      "name": "Oprah Winfrey Family Secret Revelation",
+      "definition": "Tweets discussing Oprah Winfrey's revelation of a long-lost half-sister."
+    },
+    {
+      "id": 16,
+      "name": "Facebook Security/Privacy Concerns",
+      "definition": "Tweets related to Facebook security breaches, privacy settings, and user data concerns."
+    },
+    {
+      "id": 17,
+      "name": "Bed Bug Resurgence",
+      "definition": "Tweets discussing the increasing prevalence and evolving resistance of bed bugs."
+    },
+    {
+      "id": 18,
+      "name": "Australia Floods (2011)",
+      "definition": "Tweets about the severe flooding in Australia in early 2011."
+    },
+    {
+      "id": 19,
+      "name": "Anti-Piracy Operations (Somalia)",
+      "definition": "Tweets about international naval efforts and rescues related to Somali piracy."
+    },
+    {
+      "id": 20,
+      "name": "Jesse Ventura TSA Lawsuit",
+      "definition": "Tweets about Jesse Ventura's lawsuit against the TSA regarding airport security procedures."
+    },
+    {
+      "id": 21,
+      "name": "Keith Olbermann Joins Current TV",
+      "definition": "Tweets announcing Keith Olbermann's move to Current TV."
+    },
+    {
+      "id": 22,
+      "name": "Bullying Awareness & Prevention",
+      "definition": "Tweets discussing bullying, its impact, and prevention efforts in schools and society."
+    },
+    {
+      "id": 23,
+      "name": "Michelle Obama's Fitness Campaign",
+      "definition": "Tweets about Michelle Obama's initiatives promoting fitness and healthy eating."
+    },
+    {
+      "id": 24,
+      "name": "Stuxnet Cybersecurity Threat",
+      "definition": "Tweets discussing the Stuxnet computer worm and its implications for cybersecurity."
+    },
+    {
+      "id": 25,
+      "name": "Ivory Coast Political Crisis (2011)",
+      "definition": "Tweets about the political conflict and economic sanctions in Ivory Coast in early 2011."
+    },
+    {
+      "id": 26,
+      "name": "White House Press Secretary Appointment (Jay Carney)",
+      "definition": "Tweets announcing Jay Carney's appointment as White House Press Secretary."
+    },
+    {
+      "id": 27,
+      "name": "New York State Budget Cuts (Cuomo)",
+      "definition": "Tweets about New York Governor Andrew Cuomo's proposed budget cuts."
+    },
+    {
+      "id": 28,
+      "name": "FDA Drug Approval (Rituxan)",
+      "definition": "Tweets about the FDA's approval of Rituxan for follicular lymphoma."
+    },
+    {
+      "id": 29,
+      "name": "Gabby Giffords Recovery",
+      "definition": "Tweets about Congresswoman Gabby Giffords' recovery after being shot."
+    },
+    {
+      "id": 30,
+      "name": "Charlie Sheen Two and a Half Men Controversy",
+      "definition": "Tweets about Charlie Sheen's public disputes and departure from the TV show Two and a Half Men."
+    },
+    {
+      "id": 31,
+      "name": "Chicago Blizzard (2011)",
+      "definition": "Tweets about the severe blizzard that hit Chicago in February 2011."
+    },
+    {
+      "id": 32,
+      "name": "WikiLeaks News",
+      "definition": "Tweets related to WikiLeaks, its publications, and associated controversies."
+    },
+    {
+      "id": 33,
+      "name": "Venezuela Politics (Hugo Chavez)",
+      "definition": "Tweets about political developments in Venezuela, particularly concerning Hugo Chavez."
+    },
+    {
+      "id": 34,
+      "name": "Glenn Beck Controversy",
+      "definition": "Tweets about controversies involving conservative commentator Glenn Beck."
+    },
+    {
+      "id": 35,
+      "name": "Amtrak NY-NJ Tunnel Project",
+      "definition": "Tweets about the proposed Amtrak rail tunnel project between New York and New Jersey."
+    },
+    {
+      "id": 36,
+      "name": "Vincent Tabak Murder Trial",
+      "definition": "Tweets about the murder trial of Vincent Tabak."
+    },
+    {
+      "id": 37,
+      "name": "General Interest: Fishing",
+      "definition": "Tweets about fishing as a hobby, including tips, gear, reports, and general discussions."
+    },
+    {
+      "id": 38,
+      "name": "General Interest: Education & Scholarships",
+      "definition": "Tweets about academic opportunities, scholarships, and general education topics."
+    },
+    {
+      "id": 39,
+      "name": "General Interest: Recipes & Food",
+      "definition": "Tweets sharing recipes, discussing food, or general culinary topics."
+    },
+    {
+      "id": 40,
+      "name": "General Interest: Personal Finance & Debt",
+      "definition": "Tweets about managing credit, debt consolidation, and general personal finance advice."
+    },
+    {
+      "id": 41,
+      "name": "General Interest: Technology & Gadgets",
+      "definition": "Tweets about general technology news, gadgets, and consumer electronics (excluding specific Apple/Facebook events)."
+    },
+    {
+      "id": 42,
+      "name": "General Interest: Celebrity Gossip",
+      "definition": "Tweets about celebrity news, personal lives, and general entertainment gossip (excluding specific film festivals or awards)."
+    },
+    {
+      "id": 43,
+      "name": "General Interest: US Politics",
+      "definition": "Tweets discussing general US political topics, parties, or policy debates not tied to a specific breaking event."
+    },
+    {
+      "id": 44,
+      "name": "General Interest: Health & Weight Loss",
+      "definition": "Tweets about general health advice, weight loss tips, or fitness (excluding specific Acai Berry scams or Michelle Obama campaigns)."
+    },
+    {
+      "id": 45,
+      "name": "General Interest: Cybersecurity & Identity Theft",
+      "definition": "Tweets about general cybersecurity issues, identity theft, or online safety (excluding specific Stuxnet or Facebook events)."
+    },
+    {
+      "id": 46,
+      "name": "General Interest: Environmental Issues",
+      "definition": "Tweets discussing environmental topics like climate change or specific issues like fracking."
+    },
+    {
+      "id": 47,
+      "name": "General Interest: Sports News (Non-Major Event)",
+      "definition": "Tweets about sports news not related to major, widely covered events like the Super Bowl or Australian Open."
+    },
+    {
+      "id": 48,
+      "name": "General Interest: Legal News",
+      "definition": "Tweets about general legal discussions or court rulings not tied to a specific major event."
+    },
+    {
+      "id": 49,
+      "name": "General Interest: Gambling & Sports Betting",
+      "definition": "Tweets about gambling, wagering, or sports betting."
+    },
+    {
+      "id": 50,
+      "name": "Miscellaneous",
+      "definition": "Documents that are too vague, too local, or too specific to a niche topic to fit into any other category, and do not represent a widely recognized news story or event."
+    }
+  ]
+}

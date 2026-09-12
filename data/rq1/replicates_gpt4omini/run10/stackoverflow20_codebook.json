@@ -1,0 +1,210 @@
+{
+  "bench": "stackoverflow20",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Visual Studio",
+      "definition": "Development environment for building applications on Windows."
+    },
+    {
+      "id": 2,
+      "name": "LINQ",
+      "definition": "Language Integrated Query for querying data in .NET languages."
+    },
+    {
+      "id": 3,
+      "name": "Qt",
+      "definition": "Framework for developing cross-platform applications with a graphical user interface."
+    },
+    {
+      "id": 4,
+      "name": "Hibernate",
+      "definition": "Object-relational mapping framework for Java."
+    },
+    {
+      "id": 5,
+      "name": "Spring",
+      "definition": "Framework for building Java applications with a focus on enterprise features."
+    },
+    {
+      "id": 6,
+      "name": "Magento",
+      "definition": "E-commerce platform for online stores."
+    },
+    {
+      "id": 7,
+      "name": "WordPress",
+      "definition": "Content management system for building websites and blogs."
+    },
+    {
+      "id": 8,
+      "name": "Bash",
+      "definition": "Unix shell and command language for scripting."
+    },
+    {
+      "id": 9,
+      "name": "Haskell",
+      "definition": "Functional programming language known for its strong static typing."
+    },
+    {
+      "id": 10,
+      "name": "Scala",
+      "definition": "Programming language that combines object-oriented and functional programming."
+    },
+    {
+      "id": 11,
+      "name": "Drupal",
+      "definition": "Open-source content management framework for building websites."
+    },
+    {
+      "id": 12,
+      "name": "Apache",
+      "definition": "Open-source web server software."
+    },
+    {
+      "id": 13,
+      "name": "SharePoint",
+      "definition": "Web-based collaboration platform from Microsoft."
+    },
+    {
+      "id": 14,
+      "name": "Excel",
+      "definition": "Spreadsheet software developed by Microsoft."
+    },
+    {
+      "id": 15,
+      "name": "Objective-C",
+      "definition": "Programming language used for macOS and iOS development."
+    },
+    {
+      "id": 16,
+      "name": "MATLAB",
+      "definition": "High-level programming language and environment for numerical computing."
+    },
+    {
+      "id": 17,
+      "name": "Grails",
+      "definition": "Web application framework that uses Groovy and is built on Spring."
+    },
+    {
+      "id": 18,
+      "name": "Ruby on Rails",
+      "definition": "Web application framework written in Ruby."
+    },
+    {
+      "id": 19,
+      "name": "Cocoa",
+      "definition": "Apple's native object-oriented API for macOS applications."
+    },
+    {
+      "id": 20,
+      "name": "Subversion (SVN)",
+      "definition": "Version control system for tracking changes in files and directories."
+    },
+    {
+      "id": 21,
+      "name": "Java",
+      "definition": "High-level programming language used for building platform-independent applications."
+    },
+    {
+      "id": 22,
+      "name": "PHP",
+      "definition": "Server-side scripting language designed for web development."
+    },
+    {
+      "id": 23,
+      "name": "ASP.NET",
+      "definition": "Web framework for building web applications using .NET."
+    },
+    {
+      "id": 24,
+      "name": "RMI",
+      "definition": "Remote Method Invocation for invoking methods on an object located remotely."
+    },
+    {
+      "id": 25,
+      "name": "LightTPD",
+      "definition": "Open-source web server optimized for high-performance environments."
+    },
+    {
+      "id": 26,
+      "name": "Nginx",
+      "definition": "High-performance web server and reverse proxy server."
+    },
+    {
+      "id": 27,
+      "name": "C++",
+      "definition": "General-purpose programming language with object-oriented features."
+    },
+    {
+      "id": 28,
+      "name": "Emacs",
+      "definition": "Extensible text editor with a wide range of features."
+    },
+    {
+      "id": 29,
+      "name": "XCode",
+      "definition": "Integrated development environment for macOS for developing software for Apple platforms."
+    },
+    {
+      "id": 30,
+      "name": "WebSphere",
+      "definition": "IBM's application server for building and managing web applications."
+    },
+    {
+      "id": 31,
+      "name": "Yesod",
+      "definition": "Web framework for Haskell that emphasizes type safety."
+    },
+    {
+      "id": 32,
+      "name": "Cabal",
+      "definition": "System for building and packaging Haskell libraries and programs."
+    },
+    {
+      "id": 33,
+      "name": "GHC",
+      "definition": "Glasgow Haskell Compiler, the most widely used Haskell compiler."
+    },
+    {
+      "id": 34,
+      "name": "MATLAB Simulink",
+      "definition": "Environment for modeling, simulating, and analyzing dynamic systems."
+    },
+    {
+      "id": 35,
+      "name": "Clojure",
+      "definition": "Functional programming language that runs on the Java Virtual Machine."
+    },
+    {
+      "id": 36,
+      "name": "Objective-C++",
+      "definition": "Extension of Objective-C that includes C++ features."
+    },
+    {
+      "id": 37,
+      "name": "Python",
+      "definition": "High-level programming language known for its readability and versatility."
+    },
+    {
+      "id": 38,
+      "name": "JavaScript",
+      "definition": "Scripting language commonly used for creating interactive web pages."
+    },
+    {
+      "id": 39,
+      "name": "TypeScript",
+      "definition": "Superset of JavaScript that adds static typing."
+    },
+    {
+      "id": 40,
+      "name": "Groovy",
+      "definition": "Dynamic language for the Java platform that integrates seamlessly with Java."
+    }
+  ]
+}

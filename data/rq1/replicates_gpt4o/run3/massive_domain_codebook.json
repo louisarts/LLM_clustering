@@ -1,0 +1,80 @@
+{
+  "bench": "massive_domain",
+  "run": 3,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music and Audio Playback",
+      "definition": "Requests related to playing, pausing, or resuming music, radio, podcasts, or audiobooks."
+    },
+    {
+      "id": 2,
+      "name": "Email Management",
+      "definition": "Requests related to sending, replying, or checking emails."
+    },
+    {
+      "id": 3,
+      "name": "Weather Information",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 4,
+      "name": "Calendar and Reminders",
+      "definition": "Requests to set, delete, or check calendar events and reminders."
+    },
+    {
+      "id": 5,
+      "name": "News and Information",
+      "definition": "Requests for news updates or general information lookup."
+    },
+    {
+      "id": 6,
+      "name": "Home Automation",
+      "definition": "Requests to control smart home devices like lights or appliances."
+    },
+    {
+      "id": 7,
+      "name": "Social Media",
+      "definition": "Requests to interact with social media platforms, such as tweeting."
+    },
+    {
+      "id": 8,
+      "name": "Travel and Directions",
+      "definition": "Requests for travel information, directions, or booking tickets."
+    },
+    {
+      "id": 9,
+      "name": "Shopping and Lists",
+      "definition": "Requests to add or remove items from shopping or to-do lists."
+    },
+    {
+      "id": 10,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for cooking instructions or recipes."
+    },
+    {
+      "id": 11,
+      "name": "General Knowledge",
+      "definition": "Requests for definitions, facts, or general knowledge questions."
+    },
+    {
+      "id": 12,
+      "name": "Finance and Stocks",
+      "definition": "Requests related to financial information or stock market updates."
+    },
+    {
+      "id": 13,
+      "name": "Time and Date",
+      "definition": "Requests for current time, date, or time-related calculations."
+    },
+    {
+      "id": 14,
+      "name": "Personal Assistance",
+      "definition": "Requests for personal advice or assistance not covered by other categories."
+    }
+  ]
+}

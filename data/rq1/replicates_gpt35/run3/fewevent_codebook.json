@@ -1,0 +1,60 @@
+{
+  "bench": "fewevent",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "President",
+      "definition": "Events related to the appointment, resignation, or actions of a president or leader of an organization or country."
+    },
+    {
+      "id": 2,
+      "name": "Athlete",
+      "definition": "Events related to the participation, achievements, or retirements of athletes in sports competitions."
+    },
+    {
+      "id": 3,
+      "name": "Military",
+      "definition": "Events related to soldiers, wars, battles, or military decorations."
+    },
+    {
+      "id": 4,
+      "name": "Artist",
+      "definition": "Events related to artists, musicians, actors, filmmakers, or their works."
+    },
+    {
+      "id": 5,
+      "name": "Education",
+      "definition": "Events related to schools, universities, professors, students, or educational programs."
+    },
+    {
+      "id": 6,
+      "name": "Family",
+      "definition": "Events related to marriages, children, siblings, or other family relationships."
+    },
+    {
+      "id": 7,
+      "name": "Competition",
+      "definition": "Events related to competitions, games, races, or matches."
+    },
+    {
+      "id": 8,
+      "name": "Government",
+      "definition": "Events related to government officials, political parties, elections, or policies."
+    },
+    {
+      "id": 9,
+      "name": "Music",
+      "definition": "Events related to musicians, bands, concerts, albums, or music genres."
+    },
+    {
+      "id": 10,
+      "name": "Film",
+      "definition": "Events related to films, directors, actors, producers, or movie releases."
+    }
+  ]
+}

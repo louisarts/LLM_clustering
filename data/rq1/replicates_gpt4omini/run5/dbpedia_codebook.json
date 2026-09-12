@@ -1,0 +1,85 @@
+{
+  "bench": "dbpedia",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being, often notable for their achievements or roles."
+    },
+    {
+      "id": 2,
+      "name": "Film",
+      "definition": "A motion picture or movie, typically a narrative work of fiction."
+    },
+    {
+      "id": 3,
+      "name": "Musical Work",
+      "definition": "A composition or album of music, including songs and performances."
+    },
+    {
+      "id": 4,
+      "name": "Plant",
+      "definition": "A living organism that belongs to the kingdom Plantae, including trees, shrubs, and flowers."
+    },
+    {
+      "id": 5,
+      "name": "Animal",
+      "definition": "A living organism that belongs to the kingdom Animalia, including mammals, birds, and insects."
+    },
+    {
+      "id": 6,
+      "name": "Geographical Feature",
+      "definition": "A natural physical feature of the Earth, such as mountains, rivers, and lakes."
+    },
+    {
+      "id": 7,
+      "name": "Building",
+      "definition": "A constructed physical structure, typically for human use or habitation."
+    },
+    {
+      "id": 8,
+      "name": "Organization",
+      "definition": "A group of people organized for a particular purpose, such as a company, institution, or non-profit."
+    },
+    {
+      "id": 9,
+      "name": "Historical Event",
+      "definition": "A significant occurrence in history that has lasting impact or importance."
+    },
+    {
+      "id": 10,
+      "name": "Journal",
+      "definition": "A periodical publication that contains scholarly articles and research findings."
+    },
+    {
+      "id": 11,
+      "name": "Vehicle",
+      "definition": "A machine used for transporting people or goods, including cars, ships, and aircraft."
+    },
+    {
+      "id": 12,
+      "name": "Literary Work",
+      "definition": "A written work, such as a novel, poem, or essay, that is considered to have artistic or intellectual value."
+    },
+    {
+      "id": 13,
+      "name": "Political Entity",
+      "definition": "An organization or group that holds political power or influence, such as a government or political party."
+    },
+    {
+      "id": 14,
+      "name": "Scientific Publication",
+      "definition": "A document that presents original research findings or reviews in a scientific field."
+    },
+    {
+      "id": 15,
+      "name": "Cultural Artifact",
+      "definition": "An object made by humans that reflects the culture or society of its time."
+    }
+  ]
+}

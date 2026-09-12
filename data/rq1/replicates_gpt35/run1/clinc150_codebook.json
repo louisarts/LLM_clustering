@@ -1,0 +1,60 @@
+{
+  "bench": "clinc150",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "fresh",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Inquiry",
+      "definition": "User is seeking information or answers to questions"
+    },
+    {
+      "id": 2,
+      "name": "Financial Assistance",
+      "definition": "User needs help with banking, credit cards, or financial matters"
+    },
+    {
+      "id": 3,
+      "name": "Account Management",
+      "definition": "User wants to manage or check account details"
+    },
+    {
+      "id": 4,
+      "name": "Travel Assistance",
+      "definition": "User needs help with travel-related queries or tasks"
+    },
+    {
+      "id": 5,
+      "name": "Entertainment Inquiry",
+      "definition": "User is seeking entertainment-related information"
+    },
+    {
+      "id": 6,
+      "name": "Task Execution",
+      "definition": "User wants a task to be completed or executed"
+    },
+    {
+      "id": 7,
+      "name": "Health Inquiry",
+      "definition": "User is seeking health-related information or advice"
+    },
+    {
+      "id": 8,
+      "name": "Appointment Management",
+      "definition": "User needs help with scheduling or canceling appointments"
+    },
+    {
+      "id": 9,
+      "name": "Shopping Assistance",
+      "definition": "User needs help with shopping-related queries or tasks"
+    },
+    {
+      "id": 10,
+      "name": "Technical Support",
+      "definition": "User needs technical assistance or support"
+    }
+  ]
+}

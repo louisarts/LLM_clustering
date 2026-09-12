@@ -1,0 +1,79 @@
+{
+  "bench": "fewevent",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Personnel",
+      "definition": "A person holding a specific role, rank, title, or profession, such as a soldier, politician, academic, or artist."
+    },
+    {
+      "id": 2,
+      "name": "Competition",
+      "definition": "An achievement or outcome in a sporting or competitive context, such as winning a medal or a specific placement."
+    },
+    {
+      "id": 3,
+      "name": "Family",
+      "definition": "A familial or romantic relationship role, such as wife, husband, or mistress."
+    },
+    {
+      "id": 4,
+      "name": "Conflict",
+      "definition": "An event or action related to physical violence, war, crime, or protest."
+    },
+    {
+      "id": 5,
+      "name": "Governance",
+      "definition": "An administrative or leadership position within an organization, government, or military, such as president, director, or commander."
+    },
+    {
+      "id": 6,
+      "name": "Employment",
+      "definition": "A work-related activity, status, or event, such as a job, hiring, resignation, or retirement."
+    },
+    {
+      "id": 7,
+      "name": "Education",
+      "definition": "An academic activity, role, or institution, such as being a student, professor, or attending a school."
+    },
+    {
+      "id": 8,
+      "name": "Arts",
+      "definition": "A creative work, performance, or medium, such as a film, song, or album."
+    },
+    {
+      "id": 9,
+      "name": "Legal",
+      "definition": "A legal action, proceeding, or status, such as a trial, arrest, or sentence."
+    },
+    {
+      "id": 10,
+      "name": "Life",
+      "definition": "A significant personal life event or status, such as marriage, divorce, or death."
+    },
+    {
+      "id": 11,
+      "name": "Movement",
+      "definition": "Physical motion, travel, or transportation of people or objects."
+    },
+    {
+      "id": 12,
+      "name": "Communication",
+      "definition": "An act of conveying information, such as a statement, speech, or interview."
+    },
+    {
+      "id": 13,
+      "name": "Business",
+      "definition": "A commercial activity, transaction, or financial event."
+    },
+    {
+      "id": 14,
+      "name": "Other",
+      "definition": "A general event, action, or abstract concept not covered by other categories."
+    }
+  ]
+}

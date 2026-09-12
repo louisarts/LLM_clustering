@@ -1,0 +1,117 @@
+{
+  "bench": "banking77",
+  "run": 2,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Application & Delivery",
+      "definition": "Queries about applying for a new card, checking delivery status, understanding physical vs virtual card options, eligibility, or fees related to card issuance."
+    },
+    {
+      "id": 2,
+      "name": "Card Activation & PIN Management",
+      "definition": "Questions about activating a new card, finding, changing, unblocking, or troubleshooting issues with a card PIN or passcode."
+    },
+    {
+      "id": 3,
+      "name": "Card Usage & Troubleshooting",
+      "definition": "Issues with card functionality (e.g., not working, declined, contactless), ATM usage, where a card is accepted, or specific questions about virtual card features and limits."
+    },
+    {
+      "id": 4,
+      "name": "Lost, Stolen, or Damaged Card",
+      "definition": "Reporting a lost, stolen, or damaged card, requesting a replacement, or freezing a card."
+    },
+    {
+      "id": 5,
+      "name": "Account Opening & Eligibility",
+      "definition": "Questions about opening a new account, age requirements, or eligibility criteria for banking services."
+    },
+    {
+      "id": 6,
+      "name": "Account Access & Security",
+      "definition": "Issues with logging into the app, forgotten account passwords, or accessing the account after device loss."
+    },
+    {
+      "id": 7,
+      "name": "Account Information & Updates",
+      "definition": "Requests to change personal details, update address, or general inquiries about account information."
+    },
+    {
+      "id": 8,
+      "name": "Account Closure",
+      "definition": "Requests to close or delete an existing account."
+    },
+    {
+      "id": 9,
+      "name": "Top-up Methods & Issues",
+      "definition": "Questions about how to add money to an account (top-up), supported methods (e.g., cash, card, digital wallets), troubleshooting failed top-ups, or allowing others to add funds."
+    },
+    {
+      "id": 10,
+      "name": "Top-up Limits & Auto Top-up",
+      "definition": "Inquiries about maximum top-up amounts, restrictions, or issues with automatic top-up functionality."
+    },
+    {
+      "id": 11,
+      "name": "Top-up Verification",
+      "definition": "Questions about why top-ups require verification or issues encountered during the top-up verification process."
+    },
+    {
+      "id": 12,
+      "name": "Transfer Initiation & Methods",
+      "definition": "Questions about how to send or receive money via transfers, supported transfer types (e.g., SWIFT), general transfer instructions, or transfer policies and rules."
+    },
+    {
+      "id": 13,
+      "name": "Transfer Status & Delays",
+      "definition": "Inquiries about transfer processing times, pending transfers, or delays in funds reaching the recipient or account."
+    },
+    {
+      "id": 14,
+      "name": "Transfer Failure & Troubleshooting",
+      "definition": "Issues with transfers not going through, being declined, or account restrictions preventing transfers."
+    },
+    {
+      "id": 15,
+      "name": "Salary & Direct Deposits",
+      "definition": "Questions about receiving salary payments or making other direct deposits into the account."
+    },
+    {
+      "id": 16,
+      "name": "Unauthorized & Disputed Transactions",
+      "definition": "Queries about unrecognized transactions, fraudulent activity, double charges, or needing to reverse a transaction."
+    },
+    {
+      "id": 17,
+      "name": "Fees & Charges Inquiry",
+      "definition": "Questions about specific fees (e.g., transfer, withdrawal, card payment, exchange), general fee policy, or unexpected charges."
+    },
+    {
+      "id": 18,
+      "name": "Refund & Reimbursement Inquiry",
+      "definition": "Questions about the status of a refund, requesting a refund, or issues with receiving the correct reimbursement amount."
+    },
+    {
+      "id": 19,
+      "name": "Exchange Rate & Currency Conversion",
+      "definition": "Questions about exchange rates, conversion fees, or issues with incorrect amounts received during currency exchange."
+    },
+    {
+      "id": 20,
+      "name": "Transaction Status & Troubleshooting",
+      "definition": "Queries about pending transactions, failed transactions, or issues with money not being received or showing up correctly in statements."
+    },
+    {
+      "id": 21,
+      "name": "Identity & Fund Verification",
+      "definition": "Questions about identity verification requirements, the process, necessary documents, or verifying the source of funds."
+    },
+    {
+      "id": 22,
+      "name": "Supported Currencies & Services",
+      "definition": "Questions about supported currencies, accepted card schemes, or the geographical availability of banking services."
+    }
+  ]
+}

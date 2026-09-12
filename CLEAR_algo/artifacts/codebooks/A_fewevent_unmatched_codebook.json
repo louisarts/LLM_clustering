@@ -1,0 +1,77 @@
+[
+ {
+  "id": 1,
+  "name": "Personnel",
+  "definition": "Events or states describing a person's job, title, social role, or relationship to others."
+ },
+ {
+  "id": 2,
+  "name": "Life_Event",
+  "definition": "Events related to personal milestones such as marriage, divorce, or engagement."
+ },
+ {
+  "id": 3,
+  "name": "Conflict",
+  "definition": "Events involving physical conflict, violence, protests, or legal arrests."
+ },
+ {
+  "id": 4,
+  "name": "Transaction",
+  "definition": "Events involving the transfer of money, goods, or services."
+ },
+ {
+  "id": 5,
+  "name": "Arts_Media",
+  "definition": "Events involving artistic performance, broadcasting, or the creation of media artifacts."
+ },
+ {
+  "id": 6,
+  "name": "Communication",
+  "definition": "Events where information is conveyed between entities through speech or writing."
+ },
+ {
+  "id": 7,
+  "name": "Movement",
+  "definition": "Events describing the physical movement or transportation of entities."
+ },
+ {
+  "id": 8,
+  "name": "Competition",
+  "definition": "Events involving sports contests, victories, defeats, or awards."
+ },
+ {
+  "id": 9,
+  "name": "Employment",
+  "definition": "Events related to professional activities, employment status, or work."
+ },
+ {
+  "id": 10,
+  "name": "Education",
+  "definition": "Events or entities related to educational institutions, degrees, or graduation."
+ },
+ {
+  "id": 11,
+  "name": "Political_Legal",
+  "definition": "Events related to political processes, legal proceedings, or governance."
+ },
+ {
+  "id": 12,
+  "name": "Military",
+  "definition": "Events specific to military operations, command structures, or service."
+ },
+ {
+  "id": 13,
+  "name": "Location_Organization",
+  "definition": "Events or entities denoting physical places, institutions, or groups."
+ },
+ {
+  "id": 14,
+  "name": "Activity",
+  "definition": "General actions, states, or cooperative endeavors not covered by other categories."
+ },
+ {
+  "id": 15,
+  "name": "Reference",
+  "definition": "Pronouns or phrases referring to previously mentioned events or situations."
+ }
+]

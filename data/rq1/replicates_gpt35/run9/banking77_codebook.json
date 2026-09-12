@@ -1,0 +1,120 @@
+{
+  "bench": "banking77",
+  "run": 9,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Card Issue",
+      "definition": "Queries related to issues with physical or virtual cards."
+    },
+    {
+      "id": 2,
+      "name": "Transfer Issue",
+      "definition": "Queries related to problems with money transfers."
+    },
+    {
+      "id": 3,
+      "name": "Transaction Discrepancy",
+      "definition": "Queries related to discrepancies in transactions."
+    },
+    {
+      "id": 4,
+      "name": "Account Closure",
+      "definition": "Queries related to closing or deleting an account."
+    },
+    {
+      "id": 5,
+      "name": "Top-Up Problem",
+      "definition": "Queries related to issues with topping up an account."
+    },
+    {
+      "id": 6,
+      "name": "Identity Verification",
+      "definition": "Queries related to verifying identity for banking purposes."
+    },
+    {
+      "id": 7,
+      "name": "Fee Inquiry",
+      "definition": "Queries related to fees charged for transactions or services."
+    },
+    {
+      "id": 8,
+      "name": "Currency Exchange",
+      "definition": "Queries related to exchanging currencies."
+    },
+    {
+      "id": 9,
+      "name": "PIN Issue",
+      "definition": "Queries related to problems with PIN numbers."
+    },
+    {
+      "id": 10,
+      "name": "Lost or Stolen Card",
+      "definition": "Queries related to lost or stolen cards."
+    },
+    {
+      "id": 11,
+      "name": "Payment Decline",
+      "definition": "Queries related to declined payments."
+    },
+    {
+      "id": 12,
+      "name": "ATM Issue",
+      "definition": "Queries related to issues with ATMs."
+    },
+    {
+      "id": 13,
+      "name": "Card Activation",
+      "definition": "Queries related to activating new cards."
+    },
+    {
+      "id": 14,
+      "name": "Fraud Concern",
+      "definition": "Queries related to suspected fraud or unauthorized card use."
+    },
+    {
+      "id": 15,
+      "name": "Delivery Delay",
+      "definition": "Queries related to delays in card or payment delivery."
+    },
+    {
+      "id": 16,
+      "name": "Auto Top-Up",
+      "definition": "Queries related to automatic top-up features."
+    },
+    {
+      "id": 17,
+      "name": "Refund Issue",
+      "definition": "Queries related to missing or delayed refunds."
+    },
+    {
+      "id": 18,
+      "name": "Account Modification",
+      "definition": "Queries related to modifying account details."
+    },
+    {
+      "id": 19,
+      "name": "Card Scheme Inquiry",
+      "definition": "Queries related to card schemes like Visa or Mastercard."
+    },
+    {
+      "id": 20,
+      "name": "Cross-Currency Exchange",
+      "definition": "Queries related to exchanging currencies across different countries."
+    },
+    {
+      "id": 21,
+      "name": "Transaction Verification",
+      "definition": "Queries related to verifying the status of transactions."
+    },
+    {
+      "id": 22,
+      "name": "Card Replacement",
+      "definition": "Queries related to replacing lost, stolen, or expired cards."
+    }
+  ]
+}

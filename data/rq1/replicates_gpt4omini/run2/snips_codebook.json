@@ -1,0 +1,85 @@
+{
+  "bench": "snips",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Add to Playlist",
+      "definition": "Requests to add songs, albums, or artists to a specified playlist."
+    },
+    {
+      "id": 2,
+      "name": "Play Music",
+      "definition": "Requests to play specific songs, albums, or playlists."
+    },
+    {
+      "id": 3,
+      "name": "Book Reservation",
+      "definition": "Requests to book tables or reservations at restaurants or venues."
+    },
+    {
+      "id": 4,
+      "name": "Find Location",
+      "definition": "Requests to find specific locations, such as restaurants, cafes, or movie theaters."
+    },
+    {
+      "id": 5,
+      "name": "Show Movie Schedule",
+      "definition": "Requests to display movie schedules or showtimes."
+    },
+    {
+      "id": 6,
+      "name": "Rate Item",
+      "definition": "Requests to rate books, movies, albums, or essays with a score."
+    },
+    {
+      "id": 7,
+      "name": "Weather Inquiry",
+      "definition": "Requests for weather forecasts or current weather conditions."
+    },
+    {
+      "id": 8,
+      "name": "Find Media",
+      "definition": "Requests to find specific media items, such as books, games, or songs."
+    },
+    {
+      "id": 9,
+      "name": "Search for Information",
+      "definition": "Requests to search for specific information or details about items."
+    },
+    {
+      "id": 10,
+      "name": "Play TV Show",
+      "definition": "Requests to play specific TV shows or episodes."
+    },
+    {
+      "id": 11,
+      "name": "Find Game",
+      "definition": "Requests to find specific video games."
+    },
+    {
+      "id": 12,
+      "name": "Show Creative Work",
+      "definition": "Requests to display or find creative works, such as photographs or art."
+    },
+    {
+      "id": 13,
+      "name": "Food Inquiry",
+      "definition": "Requests related to food, such as finding restaurants or specific dishes."
+    },
+    {
+      "id": 14,
+      "name": "Play Soundtrack",
+      "definition": "Requests to play specific soundtracks from movies or shows."
+    },
+    {
+      "id": 15,
+      "name": "Add to Collection",
+      "definition": "Requests to add items to a collection or list that is not a playlist."
+    }
+  ]
+}

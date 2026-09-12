@@ -1,0 +1,104 @@
+{
+  "bench": "fewnerd",
+  "run": 5,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "Individual human beings, including historical figures, politicians, artists, athletes, and fictional characters."
+    },
+    {
+      "id": 2,
+      "name": "Organization",
+      "definition": "Groups of people such as companies, institutions, government bodies, political parties, sports teams, and religious organizations."
+    },
+    {
+      "id": 3,
+      "name": "Location",
+      "definition": "Geographical entities including countries, cities, towns, islands, regions, bodies of water, and astronomical locations."
+    },
+    {
+      "id": 4,
+      "name": "Facility",
+      "definition": "Man-made structures and sites such as buildings, stadiums, airports, bridges, roads, and railway lines."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "Occurrences, incidents, battles, wars, competitions, and conferences that happen at a specific time and place."
+    },
+    {
+      "id": 6,
+      "name": "Work of Art",
+      "definition": "Creative works including films, books, songs, television shows, theatrical productions, and visual artworks."
+    },
+    {
+      "id": 7,
+      "name": "Product",
+      "definition": "Manufactured goods, vehicles, weapons, food items, and commercial products."
+    },
+    {
+      "id": 8,
+      "name": "Award",
+      "definition": "Prizes, honors, and distinctions given to individuals or organizations for achievement."
+    },
+    {
+      "id": 9,
+      "name": "Language",
+      "definition": "Systems of communication used by a community or nation."
+    },
+    {
+      "id": 10,
+      "name": "Disease",
+      "definition": "Medical conditions, disorders, and syndromes affecting health."
+    },
+    {
+      "id": 11,
+      "name": "Chemical Substance",
+      "definition": "Chemical elements, compounds, drugs, and biological molecules."
+    },
+    {
+      "id": 12,
+      "name": "Biological Taxon",
+      "definition": "Groups of biological organisms such as families, genera, or species."
+    },
+    {
+      "id": 13,
+      "name": "Currency",
+      "definition": "Systems of money in general use in a particular country."
+    },
+    {
+      "id": 14,
+      "name": "Nationality",
+      "definition": "Status of belonging to a particular nation or adjective denoting this status."
+    },
+    {
+      "id": 15,
+      "name": "Title",
+      "definition": "Names of positions, ranks, or honorifics held by individuals."
+    },
+    {
+      "id": 16,
+      "name": "Software",
+      "definition": "Computer programs, operating systems, and digital platforms."
+    },
+    {
+      "id": 17,
+      "name": "Animal",
+      "definition": "Individual non-human living creatures."
+    },
+    {
+      "id": 18,
+      "name": "Academic Degree",
+      "definition": "Qualifications awarded to students upon successful completion of a course of study."
+    },
+    {
+      "id": 19,
+      "name": "Abbreviation",
+      "definition": "Shortened forms of words or phrases."
+    }
+  ]
+}

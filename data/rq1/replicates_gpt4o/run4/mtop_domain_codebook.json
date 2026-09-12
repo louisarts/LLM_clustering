@@ -1,0 +1,60 @@
+{
+  "bench": "mtop_domain",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Requests for weather forecasts or current weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Requests to set, modify, or delete reminders."
+    },
+    {
+      "id": 3,
+      "name": "Alarms",
+      "definition": "Requests to set, modify, or delete alarms."
+    },
+    {
+      "id": 4,
+      "name": "Timers",
+      "definition": "Requests to set, modify, or check timers."
+    },
+    {
+      "id": 5,
+      "name": "Music",
+      "definition": "Requests to play, skip, or identify music tracks."
+    },
+    {
+      "id": 6,
+      "name": "News",
+      "definition": "Requests for news updates or specific news topics."
+    },
+    {
+      "id": 7,
+      "name": "Cooking",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 8,
+      "name": "Communication",
+      "definition": "Requests to make calls, send messages, or manage contacts."
+    },
+    {
+      "id": 9,
+      "name": "Events",
+      "definition": "Requests for information about events or to manage event-related reminders."
+    },
+    {
+      "id": 10,
+      "name": "People",
+      "definition": "Requests for information about people, such as their location or relationships."
+    }
+  ]
+}

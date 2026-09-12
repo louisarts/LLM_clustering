@@ -1,0 +1,107 @@
+{
+  "bench": "massive_intent",
+  "run": 9,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Reminder/Alarm/Notification",
+      "definition": "User wants to create, check, or manage reminders, alarms, or notifications."
+    },
+    {
+      "id": 2,
+      "name": "Control Smart Device",
+      "definition": "User wants to control smart home devices like lights, appliances, or adjust audio/device settings."
+    },
+    {
+      "id": 3,
+      "name": "Retrieve Weather/Time/Date",
+      "definition": "User wants to know the current weather, forecast, time, or date."
+    },
+    {
+      "id": 4,
+      "name": "Retrieve General Knowledge",
+      "definition": "User wants facts, definitions, information about people, places, or general trivia."
+    },
+    {
+      "id": 5,
+      "name": "Retrieve News/Updates",
+      "definition": "User wants current news headlines, updates on specific topics, or social media feeds."
+    },
+    {
+      "id": 6,
+      "name": "Local Search/Events/Recommendations",
+      "definition": "User wants to find local businesses, events, or get recommendations for movies, restaurants, or activities."
+    },
+    {
+      "id": 7,
+      "name": "Retrieve Recipes/Instructions",
+      "definition": "User wants recipes or how-to instructions for cooking or other tasks."
+    },
+    {
+      "id": 8,
+      "name": "Retrieve Financial Information",
+      "definition": "User wants exchange rates, stock market updates, or product prices."
+    },
+    {
+      "id": 9,
+      "name": "Retrieve Travel Information",
+      "definition": "User wants information about train times, flights, or general travel options."
+    },
+    {
+      "id": 10,
+      "name": "Retrieve Calendar/Schedule",
+      "definition": "User wants to inquire about their upcoming meetings, appointments, or plans."
+    },
+    {
+      "id": 11,
+      "name": "Retrieve List Content",
+      "definition": "User wants to hear or see the contents of a personal list (e.g., grocery list, to-do list)."
+    },
+    {
+      "id": 12,
+      "name": "Manage Communication",
+      "definition": "User wants to send, receive, check, or reply to emails, messages, or social media posts, or make calls."
+    },
+    {
+      "id": 13,
+      "name": "Control Media Playback",
+      "definition": "User wants to play, pause, skip, identify, or manage music, podcasts, audiobooks, radio, or videos."
+    },
+    {
+      "id": 14,
+      "name": "Manage Calendar Events",
+      "definition": "User wants to create, modify, or cancel events in their calendar."
+    },
+    {
+      "id": 15,
+      "name": "Shopping/Ordering/Booking",
+      "definition": "User wants to purchase items, order food, or book travel/tickets."
+    },
+    {
+      "id": 16,
+      "name": "Manage Lists",
+      "definition": "User wants to create, add to, or remove items from general personal lists (e.g., grocery, to-do, wishlist)."
+    },
+    {
+      "id": 17,
+      "name": "Get Directions",
+      "definition": "User wants navigation instructions or route information."
+    },
+    {
+      "id": 18,
+      "name": "Note Taking",
+      "definition": "User wants to save a note, log an event, or record information."
+    },
+    {
+      "id": 19,
+      "name": "Play Game",
+      "definition": "User wants to start or play a game."
+    },
+    {
+      "id": 20,
+      "name": "General Interaction",
+      "definition": "User asks personal questions or makes general conversational requests."
+    }
+  ]
+}

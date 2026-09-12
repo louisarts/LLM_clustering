@@ -1,0 +1,84 @@
+{
+  "bench": "clinc150",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Informational Query",
+      "definition": "Requests for facts, definitions, general knowledge, or answers to questions not related to personal user data."
+    },
+    {
+      "id": 2,
+      "name": "Personal Information Lookup",
+      "definition": "Requests to retrieve specific data regarding the user's own accounts, finances, history, or personal records."
+    },
+    {
+      "id": 3,
+      "name": "Device and App Control",
+      "definition": "Commands to change device settings, configure the assistant, or control hardware functions."
+    },
+    {
+      "id": 4,
+      "name": "Media Control",
+      "definition": "Commands to play, stop, skip, or manage music, videos, and other media content."
+    },
+    {
+      "id": 5,
+      "name": "Calendar and Task Management",
+      "definition": "Requests to create, view, modify, or cancel calendar events, reminders, and to-do lists."
+    },
+    {
+      "id": 6,
+      "name": "Communication",
+      "definition": "Requests to send messages, make phone calls, or share information with other people."
+    },
+    {
+      "id": 7,
+      "name": "Booking and Reservation",
+      "definition": "Requests to make, modify, or cancel reservations for travel, dining, or services."
+    },
+    {
+      "id": 8,
+      "name": "Banking and Card Services",
+      "definition": "Requests to perform specific banking operations, manage cards, or resolve account issues."
+    },
+    {
+      "id": 9,
+      "name": "Navigation and Location",
+      "definition": "Requests for directions, finding nearby places, or checking traffic and travel conditions."
+    },
+    {
+      "id": 10,
+      "name": "Automotive",
+      "definition": "Requests for information or assistance specifically related to car maintenance and operation."
+    },
+    {
+      "id": 11,
+      "name": "Shopping",
+      "definition": "Requests to purchase items or find specific products for sale."
+    },
+    {
+      "id": 12,
+      "name": "Timer and Alarm",
+      "definition": "Requests to set, manage, or use timers and alarms."
+    },
+    {
+      "id": 13,
+      "name": "Creative and Entertainment",
+      "definition": "Requests for jokes, games, random generation, or other entertainment content."
+    },
+    {
+      "id": 14,
+      "name": "Social and Personal",
+      "definition": "Utterances involving social pleasantries, questions about the assistant's identity, or personal opinions."
+    },
+    {
+      "id": 15,
+      "name": "System Utility",
+      "definition": "Commands to stop, cancel, repeat, or correct the assistant's current actions or processes."
+    }
+  ]
+}

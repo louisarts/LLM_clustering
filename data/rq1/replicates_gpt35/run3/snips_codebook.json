@@ -1,0 +1,110 @@
+{
+  "bench": "snips",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Book Reservation",
+      "definition": "User wants to make a reservation at a restaurant or bar."
+    },
+    {
+      "id": 2,
+      "name": "Add to Playlist",
+      "definition": "User wants to add a song or album to a specific playlist."
+    },
+    {
+      "id": 3,
+      "name": "Show TV Show/Movie Schedule",
+      "definition": "User wants to see the schedule of TV shows or movies."
+    },
+    {
+      "id": 4,
+      "name": "Weather Forecast Inquiry",
+      "definition": "User wants to know the weather forecast for a specific location and time."
+    },
+    {
+      "id": 5,
+      "name": "Rate Book/Series/Album",
+      "definition": "User wants to give a rating to a book, series, or album."
+    },
+    {
+      "id": 6,
+      "name": "Play Music",
+      "definition": "User wants to play a specific song or music from an artist or era."
+    },
+    {
+      "id": 7,
+      "name": "Find TV Show/Movie/Book/Album",
+      "definition": "User wants to locate a specific TV show, movie, book, or album."
+    },
+    {
+      "id": 8,
+      "name": "Restaurant Inquiry",
+      "definition": "User wants information about or to book a table at a restaurant."
+    },
+    {
+      "id": 9,
+      "name": "Weather Forecast for Future Date",
+      "definition": "User wants to know the weather forecast for a specific location on a future date."
+    },
+    {
+      "id": 10,
+      "name": "Rate Essay/Textbook/Chronicle",
+      "definition": "User wants to give a rating to an essay, textbook, or chronicle."
+    },
+    {
+      "id": 11,
+      "name": "Play Specific Theme/Music Genre",
+      "definition": "User wants to play a specific theme or music genre."
+    },
+    {
+      "id": 12,
+      "name": "TV Show Availability Inquiry",
+      "definition": "User wants to know if a specific TV show is available to watch."
+    },
+    {
+      "id": 13,
+      "name": "Book Reservation for Large Group",
+      "definition": "User wants to make a reservation at a restaurant or bar for a large group."
+    },
+    {
+      "id": 14,
+      "name": "Animated Movies Inquiry",
+      "definition": "User wants to know about animated movies playing at nearby cinemas."
+    },
+    {
+      "id": 15,
+      "name": "Creative Work Inquiry",
+      "definition": "User wants to find a specific creative work."
+    },
+    {
+      "id": 16,
+      "name": "Trailer Inquiry",
+      "definition": "User wants to find a specific trailer for a movie or video game."
+    },
+    {
+      "id": 17,
+      "name": "Nearest Cinema Inquiry",
+      "definition": "User wants to know about the nearest cinema showing specific movies."
+    },
+    {
+      "id": 18,
+      "name": "Restaurant Reservation for Specific Time",
+      "definition": "User wants to book a table at a restaurant for a specific time."
+    },
+    {
+      "id": 19,
+      "name": "Music Genre Inquiry",
+      "definition": "User wants to play music from a specific genre or era."
+    },
+    {
+      "id": 20,
+      "name": "Weather Forecast for Specific Time",
+      "definition": "User wants to know the weather forecast for a specific location at a specific time."
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "bench": "fewrel",
+  "run": 9,
+  "criterion": "which semantic relation holds between the two entities stated at the end of the text (\"The relation between X and Y\")",
+  "categories": [
+    {
+      "id": 1,
+      "name": "CREATOR_OF_WORK",
+      "definition": "An entity (person, company) is responsible for creating a work (book, film, song, product, design)."
+    },
+    {
+      "id": 2,
+      "name": "PARTICIPANT_IN_EVENT",
+      "definition": "An entity takes part in a specific event (election, competition, rebellion)."
+    },
+    {
+      "id": 3,
+      "name": "LOCATION_OF_EVENT",
+      "definition": "An event takes place at a specific geographical location."
+    },
+    {
+      "id": 4,
+      "name": "ORIGIN_LOCATION",
+      "definition": "An entity (person, group, product, concept) originates from or is associated with a specific geographical location."
+    },
+    {
+      "id": 5,
+      "name": "MEMBER_OF_ORGANIZATION",
+      "definition": "An entity is part of a larger organization, group, or political party."
+    },
+    {
+      "id": 6,
+      "name": "FAMILY_RELATION",
+      "definition": "Two entities are related by family ties."
+    },
+    {
+      "id": 7,
+      "name": "LANGUAGE_OF_WORK",
+      "definition": "A work is presented in a specific language."
+    },
+    {
+      "id": 8,
+      "name": "TRIBUTARY_OF",
+      "definition": "One river or water body flows into another."
+    },
+    {
+      "id": 9,
+      "name": "LISTED_IN_COLLECTION",
+      "definition": "An entity is formally included or recognized within a collection, register, or list."
+    },
+    {
+      "id": 10,
+      "name": "PART_OF_SERIES",
+      "definition": "A work or item belongs to a larger sequence or series."
+    },
+    {
+      "id": 11,
+      "name": "POLITICAL_OFFICE_HOLDER",
+      "definition": "A person holds a specific political office or title."
+    },
+    {
+      "id": 12,
+      "name": "PLATFORM_FOR_SOFTWARE",
+      "definition": "A software or game is designed for or runs on a specific hardware or operating system."
+    },
+    {
+      "id": 13,
+      "name": "CLASSIFICATION",
+      "definition": "An entity belongs to a specific taxonomic or organizational category."
+    },
+    {
+      "id": 14,
+      "name": "PART_OF_GEOGRAPHICAL_REGION",
+      "definition": "A geographical entity is located within a larger geographical region."
+    },
+    {
+      "id": 15,
+      "name": "AWARD_RECIPIENT",
+      "definition": "A person or work has received a specific award."
+    },
+    {
+      "id": 16,
+      "name": "NOMINATED_FOR_AWARD",
+      "definition": "A person or work has been nominated for a specific award."
+    },
+    {
+      "id": 17,
+      "name": "HOME_VENUE",
+      "definition": "A location serves as the primary venue or home for a team or organization."
+    },
+    {
+      "id": 18,
+      "name": "EQUIVALENT_NAME",
+      "definition": "Two names or terms refer to the same or a closely related concept or entity."
+    },
+    {
+      "id": 19,
+      "name": "BROADCASTER_OF_WORK",
+      "definition": "An organization broadcasts or distributes a specific work (TV series, program)."
+    },
+    {
+      "id": 20,
+      "name": "APPEARS_IN_WORK",
+      "definition": "An entity is a character or subject within a specific work."
+    },
+    {
+      "id": 21,
+      "name": "RECORD_LABEL",
+      "definition": "A musical work is released by a specific record label."
+    },
+    {
+      "id": 22,
+      "name": "ACQUISITION",
+      "definition": "One entity acquires another entity or product."
+    },
+    {
+      "id": 23,
+      "name": "FIELD_OF_STUDY",
+      "definition": "A person is associated with a specific academic or professional field."
+    },
+    {
+      "id": 24,
+      "name": "RESIDENCE",
+      "definition": "A person lives or has lived in a specific location."
+    },
+    {
+      "id": 25,
+      "name": "AGENT_OF_ACTION",
+      "definition": "A person or entity performs a specific action."
+    },
+    {
+      "id": 26,
+      "name": "LOCATION_OF_ORGANIZATION",
+      "definition": "An organization is located in a specific place."
+    },
+    {
+      "id": 27,
+      "name": "YEAR_OF_EVENT",
+      "definition": "An event or item is associated with a specific year."
+    },
+    {
+      "id": 28,
+      "name": "TYPE_OF_WORK",
+      "definition": "A work belongs to a specific category or genre of creative output."
+    },
+    {
+      "id": 29,
+      "name": "GENRE_OF_WORK",
+      "definition": "A work belongs to a specific artistic or musical genre."
+    },
+    {
+      "id": 30,
+      "name": "GENRE_AFFILIATION",
+      "definition": "A person or group is associated with a specific artistic or musical genre."
+    },
+    {
+      "id": 31,
+      "name": "PERFORMER_OF_WORK",
+      "definition": "A person or group performs a specific work (song, role)."
+    },
+    {
+      "id": 32,
+      "name": "OWNER_OF_PRODUCT",
+      "definition": "An entity owns or operates a specific product or property."
+    },
+    {
+      "id": 33,
+      "name": "LOCATED_ON_RIVER",
+      "definition": "A structure or feature is situated on a specific river."
+    },
+    {
+      "id": 34,
+      "name": "SERVES_LOCATION",
+      "definition": "A facility provides service to a specific geographical location."
+    },
+    {
+      "id": 35,
+      "name": "ASSOCIATED_WITH",
+      "definition": "Two entities have a general connection or relationship that is not covered by more specific categories."
+    },
+    {
+      "id": 36,
+      "name": "INSTRUMENT_PLAYER",
+      "definition": "A person plays a specific musical instrument."
+    },
+    {
+      "id": 37,
+      "name": "OCCUPATION",
+      "definition": "A person holds a specific profession or role."
+    },
+    {
+      "id": 38,
+      "name": "TYPE_OF_GEOGRAPHICAL_REGION",
+      "definition": "A geographical entity is identified as a specific type of region."
+    },
+    {
+      "id": 39,
+      "name": "NATIONALITY",
+      "definition": "A person or entity belongs to a specific nation or country."
+    },
+    {
+      "id": 40,
+      "name": "RELIGIOUS_AFFILIATION",
+      "definition": "A person or group adheres to a specific religion."
+    },
+    {
+      "id": 41,
+      "name": "FOUNDER_OF_ORGANIZATION",
+      "definition": "An entity establishes a new organization."
+    },
+    {
+      "id": 42,
+      "name": "BASED_ON_WORK",
+      "definition": "A work is derived from or inspired by another work."
+    },
+    {
+      "id": 43,
+      "name": "PORTRAYED_BY",
+      "definition": "A person plays the role of a character."
+    },
+    {
+      "id": 44,
+      "name": "RELATED_WORK",
+      "definition": "Two works are related, often as part of a collection or similar in nature."
+    },
+    {
+      "id": 45,
+      "name": "LOCATION_OF_ACTIVITY",
+      "definition": "A person or entity performs an action or is active in a specific geographical location."
+    },
+    {
+      "id": 46,
+      "name": "NATIONAL_SYMBOL",
+      "definition": "An object or concept represents a specific nation or country."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "bench": "tweet89",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Health and Wellness",
+      "definition": "Topics related to health, wellness, diet, and medical treatments."
+    },
+    {
+      "id": 2,
+      "name": "Sports Events",
+      "definition": "Discussions and news related to sports events, including games and competitions."
+    },
+    {
+      "id": 3,
+      "name": "Entertainment and Awards",
+      "definition": "Topics covering movies, music, awards, and celebrity news."
+    },
+    {
+      "id": 4,
+      "name": "Political Events",
+      "definition": "Discussions about political events, protests, and government actions."
+    },
+    {
+      "id": 5,
+      "name": "Social Media and Technology",
+      "definition": "Topics related to social media, technology updates, and privacy issues."
+    },
+    {
+      "id": 6,
+      "name": "Environmental Issues",
+      "definition": "Discussions about environmental concerns, climate change, and related policies."
+    },
+    {
+      "id": 7,
+      "name": "Legal and Judicial Matters",
+      "definition": "Topics related to court cases, legal rulings, and judicial decisions."
+    },
+    {
+      "id": 8,
+      "name": "Economic News",
+      "definition": "Discussions about economic conditions, employment, and financial matters."
+    },
+    {
+      "id": 9,
+      "name": "Crime and Safety",
+      "definition": "Topics related to crime, safety issues, and law enforcement."
+    },
+    {
+      "id": 10,
+      "name": "Cultural Events",
+      "definition": "Discussions about cultural events, festivals, and community activities."
+    },
+    {
+      "id": 11,
+      "name": "Food and Recipes",
+      "definition": "Topics related to food, recipes, and culinary discussions."
+    },
+    {
+      "id": 12,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Discussions about fishing, outdoor sports, and related activities."
+    }
+  ]
+}

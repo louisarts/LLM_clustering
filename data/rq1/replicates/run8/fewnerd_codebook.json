@@ -1,0 +1,107 @@
+{
+  "bench": "fewnerd",
+  "run": 8,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "An individual human being."
+    },
+    {
+      "id": 2,
+      "name": "Fictional Entity",
+      "definition": "A character, deity, or mythical being from fiction or mythology."
+    },
+    {
+      "id": 3,
+      "name": "Organization (Company/Institution)",
+      "definition": "A formal group, business, educational body, government agency, or non-profit."
+    },
+    {
+      "id": 4,
+      "name": "Organization (Sports Team/League)",
+      "definition": "A professional or amateur sports team or a governing body for a sport."
+    },
+    {
+      "id": 5,
+      "name": "Organization (Political Party)",
+      "definition": "A political group or faction."
+    },
+    {
+      "id": 6,
+      "name": "Location (Geopolitical)",
+      "definition": "A country, state, city, town, region, or continent."
+    },
+    {
+      "id": 7,
+      "name": "Location (Geographical Feature)",
+      "definition": "A natural landform or body of water."
+    },
+    {
+      "id": 8,
+      "name": "Location (Man-made Structure/Area)",
+      "definition": "A building, venue, road, street, park, or historical site."
+    },
+    {
+      "id": 9,
+      "name": "Creative Work",
+      "definition": "A film, music album, song, book, play, video game, or television program/episode."
+    },
+    {
+      "id": 10,
+      "name": "Scientific/Biological Classification",
+      "definition": "A taxonomic group, biological entity, chemical compound, element, or scientific concept."
+    },
+    {
+      "id": 11,
+      "name": "Nationality/Ethnicity/Language",
+      "definition": "A nationality, ethnic group, or language."
+    },
+    {
+      "id": 12,
+      "name": "Historical Event/Conflict",
+      "definition": "A specific war, battle, disaster, or significant historical occurrence."
+    },
+    {
+      "id": 13,
+      "name": "Product/Model",
+      "definition": "A specific manufactured item, vehicle model, electronic device, or weapon."
+    },
+    {
+      "id": 14,
+      "name": "Event (General)",
+      "definition": "A specific occurrence, competition, or campaign that is not a historical conflict."
+    },
+    {
+      "id": 15,
+      "name": "Academic/Professional Designation",
+      "definition": "A degree, academic program, or job title."
+    },
+    {
+      "id": 16,
+      "name": "Award/Honor",
+      "definition": "A prize, grant, or recognition."
+    },
+    {
+      "id": 17,
+      "name": "Disease/Medical Condition",
+      "definition": "A specific illness or health condition."
+    },
+    {
+      "id": 18,
+      "name": "Currency",
+      "definition": "A unit of money or its symbol."
+    },
+    {
+      "id": 19,
+      "name": "Transportation Route",
+      "definition": "A designated path for travel, such as a bus route."
+    },
+    {
+      "id": 20,
+      "name": "Religion/Belief System",
+      "definition": "A system of faith or worship."
+    }
+  ]
+}

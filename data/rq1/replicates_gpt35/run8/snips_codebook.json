@@ -1,0 +1,70 @@
+{
+  "bench": "snips",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Find",
+      "definition": "User wants to locate a specific item or information."
+    },
+    {
+      "id": 2,
+      "name": "Play",
+      "definition": "User wants to listen to music, watch a movie, or play a specific content."
+    },
+    {
+      "id": 3,
+      "name": "Book",
+      "definition": "User wants to make a reservation or booking at a restaurant or other establishment."
+    },
+    {
+      "id": 4,
+      "name": "Add",
+      "definition": "User wants to add a specific item to a playlist or collection."
+    },
+    {
+      "id": 5,
+      "name": "Rate",
+      "definition": "User wants to provide a rating or review for a specific item."
+    },
+    {
+      "id": 6,
+      "name": "Show",
+      "definition": "User wants to see a schedule, forecast, or other information displayed."
+    },
+    {
+      "id": 7,
+      "name": "Search",
+      "definition": "User wants to search for a specific item or information."
+    },
+    {
+      "id": 8,
+      "name": "Forecast",
+      "definition": "User wants to know the weather forecast for a specific location and time."
+    },
+    {
+      "id": 9,
+      "name": "Watch",
+      "definition": "User wants to watch a specific TV show, movie, or trailer."
+    },
+    {
+      "id": 10,
+      "name": "Reserve",
+      "definition": "User wants to reserve a table or spot at a restaurant or other establishment."
+    },
+    {
+      "id": 11,
+      "name": "List",
+      "definition": "User wants to see a list of items or schedules."
+    },
+    {
+      "id": 12,
+      "name": "Insert",
+      "definition": "User wants to insert a specific item into a playlist or collection."
+    }
+  ]
+}

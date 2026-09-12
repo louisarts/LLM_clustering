@@ -1,0 +1,99 @@
+{
+  "bench": "fewnerd",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "Individual human beings, including historical figures, fictional characters, artists, athletes, and other named people."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "Geographical entities such as countries, cities, towns, islands, bodies of water, mountains, and addresses."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "Groups of people formed for a shared purpose, including companies, political parties, government bodies, sports teams, and musical groups."
+    },
+    {
+      "id": 4,
+      "name": "Creative Work",
+      "definition": "Artistic and intellectual productions such as books, films, songs, albums, paintings, video games, and television shows."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "Occurrences happening at a specific time and place, including battles, sports tournaments, competitions, and historical incidents."
+    },
+    {
+      "id": 6,
+      "name": "Product",
+      "definition": "Manufactured goods, vehicles, software, and other tangible items produced for use or sale."
+    },
+    {
+      "id": 7,
+      "name": "Biological Entity",
+      "definition": "Living organisms, biological structures, and medical or psychological conditions."
+    },
+    {
+      "id": 8,
+      "name": "Chemical Substance",
+      "definition": "Chemical elements, compounds, drugs, medications, and distinct molecular structures."
+    },
+    {
+      "id": 9,
+      "name": "Celestial Object",
+      "definition": "Natural objects in space such as stars, planets, moons, constellations, and galaxies."
+    },
+    {
+      "id": 10,
+      "name": "Language",
+      "definition": "Systems of communication used by a specific community or nation."
+    },
+    {
+      "id": 11,
+      "name": "Nationality or Demonym",
+      "definition": "Adjectives or nouns referring to the origin, citizenship, or ethnic identity of people from a specific location."
+    },
+    {
+      "id": 12,
+      "name": "Religion or Philosophy",
+      "definition": "Systems of faith, worship, or philosophical thought."
+    },
+    {
+      "id": 13,
+      "name": "Award or Honor",
+      "definition": "Distinctions, prizes, or decorations given in recognition of achievement."
+    },
+    {
+      "id": 14,
+      "name": "Legislation or Document",
+      "definition": "Written laws, acts, charters, treaties, and official manuscripts."
+    },
+    {
+      "id": 15,
+      "name": "Educational Institution",
+      "definition": "Schools, colleges, universities, and academic research centers."
+    },
+    {
+      "id": 16,
+      "name": "Transportation Infrastructure",
+      "definition": "Physical structures facilitating transportation, such as airports, bridges, highways, and railway lines."
+    },
+    {
+      "id": 17,
+      "name": "Currency",
+      "definition": "Systems of money and monetary symbols used in economic transactions."
+    },
+    {
+      "id": 18,
+      "name": "Scientific or Technical Concept",
+      "definition": "Theoretical constructs, programming languages, scientific classifications, and technical standards."
+    }
+  ]
+}

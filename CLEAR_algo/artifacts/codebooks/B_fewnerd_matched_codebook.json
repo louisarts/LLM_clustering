@@ -1,0 +1,292 @@
+[
+ {
+  "id": 1,
+  "name": "City",
+  "definition": "A large human settlement, typically larger than a town or village."
+ },
+ {
+  "id": 2,
+  "name": "Musical Band",
+  "definition": "A group of musicians who perform together."
+ },
+ {
+  "id": 3,
+  "name": "Newspaper",
+  "definition": "A publication, usually issued daily or weekly, containing news, articles, advertisements, and other information."
+ },
+ {
+  "id": 4,
+  "name": "Person - Athlete",
+  "definition": "An individual known primarily for their participation in sports."
+ },
+ {
+  "id": 5,
+  "name": "Radio Station",
+  "definition": "A broadcasting service that transmits audio content via radio waves."
+ },
+ {
+  "id": 6,
+  "name": "State or Province",
+  "definition": "A territorial division within a country, often with its own government."
+ },
+ {
+  "id": 7,
+  "name": "Government Agency or Fleet",
+  "definition": "An official organization or group of vehicles/ships operated by a government."
+ },
+ {
+  "id": 8,
+  "name": "Television Show",
+  "definition": "A series of televised programs or episodes."
+ },
+ {
+  "id": 9,
+  "name": "Sports Tournament",
+  "definition": "A competitive event involving multiple sports teams or individuals."
+ },
+ {
+  "id": 10,
+  "name": "Political Party or Movement",
+  "definition": "An organized group seeking to influence or control government policy."
+ },
+ {
+  "id": 11,
+  "name": "Sports Team",
+  "definition": "An organized group of players competing together in a sport."
+ },
+ {
+  "id": 12,
+  "name": "Country",
+  "definition": "A nation with its own government, occupying a particular territory."
+ },
+ {
+  "id": 13,
+  "name": "Military Vehicle",
+  "definition": "A vehicle designed for use by armed forces."
+ },
+ {
+  "id": 14,
+  "name": "Educational Institution",
+  "definition": "An organization dedicated to education and learning."
+ },
+ {
+  "id": 15,
+  "name": "Sports League",
+  "definition": "An organization that coordinates competitions among sports teams."
+ },
+ {
+  "id": 16,
+  "name": "Language",
+  "definition": "A system of communication used by a particular community or country."
+ },
+ {
+  "id": 17,
+  "name": "Royalty or Monarch",
+  "definition": "A person belonging to a royal family or ruling as a monarch."
+ },
+ {
+  "id": 18,
+  "name": "University or Academic Institution",
+  "definition": "An institution of higher education and research."
+ },
+ {
+  "id": 19,
+  "name": "Airport",
+  "definition": "A facility where aircraft take off and land, including terminals for passengers."
+ },
+ {
+  "id": 20,
+  "name": "Theatre or Performance Venue",
+  "definition": "A place where live performances such as plays or concerts are held."
+ },
+ {
+  "id": 21,
+  "name": "Building or Architectural Landmark",
+  "definition": "A significant or notable structure, often of historical or cultural importance."
+ },
+ {
+  "id": 22,
+  "name": "Military Leader or Commander",
+  "definition": "An individual who leads military forces."
+ },
+ {
+  "id": 23,
+  "name": "City or Town",
+  "definition": "A human settlement smaller than a city but larger than a village."
+ },
+ {
+  "id": 24,
+  "name": "Tank or Armored Vehicle",
+  "definition": "A heavily armored combat vehicle."
+ },
+ {
+  "id": 25,
+  "name": "Political Affiliation or Party",
+  "definition": "An association with a political group or ideology."
+ },
+ {
+  "id": 26,
+  "name": "Religious Jurisdiction or Diocese",
+  "definition": "An administrative district under the supervision of a religious leader."
+ },
+ {
+  "id": 27,
+  "name": "Ethnic or Cultural Group",
+  "definition": "A community of people sharing common cultural, linguistic, or ancestral traits."
+ },
+ {
+  "id": 28,
+  "name": "Legislation or Law",
+  "definition": "A formal legal act or statute enacted by a governing body."
+ },
+ {
+  "id": 29,
+  "name": "Language or Dialect",
+  "definition": "A particular form of a language specific to a region or group."
+ },
+ {
+  "id": 30,
+  "name": "University or College",
+  "definition": "An institution providing higher education and degrees."
+ },
+ {
+  "id": 31,
+  "name": "Political Term or Concept",
+  "definition": "A phrase or idea used in political discourse."
+ },
+ {
+  "id": 32,
+  "name": "Play or Theatrical Work",
+  "definition": "A written dramatic work intended for performance."
+ },
+ {
+  "id": 33,
+  "name": "Chemical Compound or Drug",
+  "definition": "A substance with a defined chemical composition, often used medicinally."
+ },
+ {
+  "id": 34,
+  "name": "School",
+  "definition": "An institution for educating children or students."
+ },
+ {
+  "id": 35,
+  "name": "Mountain Range",
+  "definition": "A series of connected mountains."
+ },
+ {
+  "id": 36,
+  "name": "Amino Acid",
+  "definition": "An organic compound that combines to form proteins."
+ },
+ {
+  "id": 37,
+  "name": "Highway or Road",
+  "definition": "A major public road, especially one connecting cities or regions."
+ },
+ {
+  "id": 38,
+  "name": "Game",
+  "definition": "A structured form of play or sport, usually undertaken for entertainment or competition."
+ },
+ {
+  "id": 39,
+  "name": "Neighborhood or District",
+  "definition": "A localized community or area within a city or town."
+ },
+ {
+  "id": 40,
+  "name": "Television Series",
+  "definition": "A serialized television program consisting of multiple episodes."
+ },
+ {
+  "id": 41,
+  "name": "Vehicle Model",
+  "definition": "A specific model or type of vehicle, including cars, vans, or other transport means."
+ },
+ {
+  "id": 42,
+  "name": "Music Album",
+  "definition": "A collection of audio recordings issued as a single item on CD, record, or another medium."
+ },
+ {
+  "id": 43,
+  "name": "Media Company or Group",
+  "definition": "An organization that owns or operates media outlets such as TV channels, radio stations, or publishing houses."
+ },
+ {
+  "id": 44,
+  "name": "Person - Politician",
+  "definition": "An individual involved in politics, especially one holding or seeking an elected office."
+ },
+ {
+  "id": 45,
+  "name": "Aircraft",
+  "definition": "A vehicle capable of atmospheric flight, such as airplanes or helicopters."
+ },
+ {
+  "id": 46,
+  "name": "Sports Player",
+  "definition": "An individual who participates in a sport, typically as a member of a team."
+ },
+ {
+  "id": 47,
+  "name": "Fungus",
+  "definition": "A member of a large group of eukaryotic organisms that includes yeasts, molds, and mushrooms."
+ },
+ {
+  "id": 48,
+  "name": "Railway Facility",
+  "definition": "A structure or location related to railway operations, such as sheds, stations, or yards."
+ },
+ {
+  "id": 49,
+  "name": "Cartoon or Animated Series",
+  "definition": "A television or film series featuring animated characters."
+ },
+ {
+  "id": 50,
+  "name": "Literary Work",
+  "definition": "A written work, such as a book, novel, or memoir."
+ },
+ {
+  "id": 51,
+  "name": "Person - Musician",
+  "definition": "An individual who performs or composes music."
+ },
+ {
+  "id": 52,
+  "name": "Geographical Feature - Embankment or Waterfront",
+  "definition": "A constructed or natural raised area along a river or waterfront."
+ },
+ {
+  "id": 53,
+  "name": "Weapon",
+  "definition": "An instrument used for attack or defense in combat."
+ },
+ {
+  "id": 54,
+  "name": "Aircraft Model",
+  "definition": "A specific model or variant of an aircraft."
+ },
+ {
+  "id": 55,
+  "name": "Theater or Performance Venue",
+  "definition": "A place where live performances such as plays or concerts are held."
+ },
+ {
+  "id": 56,
+  "name": "Song",
+  "definition": "A musical composition intended to be sung."
+ },
+ {
+  "id": 57,
+  "name": "Sports Venue",
+  "definition": "A facility or location where sports events are held."
+ },
+ {
+  "id": 58,
+  "name": "Historic Register or Listing",
+  "definition": "An official list or register recognizing historic places or buildings."
+ }
+]

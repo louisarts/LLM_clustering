@@ -1,0 +1,482 @@
+[
+ {
+  "id": 1,
+  "name": "Amateur Radio",
+  "definition": "Questions about amateur radio operations, equipment, and theory."
+ },
+ {
+  "id": 2,
+  "name": "Arqade",
+  "definition": "Questions about video games, gaming culture, and strategies."
+ },
+ {
+  "id": 3,
+  "name": "Ask Ubuntu",
+  "definition": "Questions about the Ubuntu operating system and its applications."
+ },
+ {
+  "id": 4,
+  "name": "Astronomy",
+  "definition": "Questions about astronomy, astrophysics, and celestial objects."
+ },
+ {
+  "id": 5,
+  "name": "Biblical Hermeneutics",
+  "definition": "Questions about the interpretation and analysis of biblical texts."
+ },
+ {
+  "id": 6,
+  "name": "Biology",
+  "definition": "Questions about biology, biological concepts, and the study of life."
+ },
+ {
+  "id": 7,
+  "name": "Chinese Language",
+  "definition": "Questions about the Chinese language, its usage, grammar, and characters."
+ },
+ {
+  "id": 8,
+  "name": "Christianity",
+  "definition": "Questions about Christianity, Christian doctrine, and practice."
+ },
+ {
+  "id": 9,
+  "name": "Computer Science",
+  "definition": "Questions about theoretical computer science and computational concepts."
+ },
+ {
+  "id": 10,
+  "name": "Cross Validated",
+  "definition": "Questions about statistics, machine learning, and data analysis."
+ },
+ {
+  "id": 11,
+  "name": "Data Science",
+  "definition": "Questions about data science, datasets, and machine learning applications."
+ },
+ {
+  "id": 12,
+  "name": "Drones",
+  "definition": "Questions about drones, UAVs, and related technology."
+ },
+ {
+  "id": 13,
+  "name": "Economics",
+  "definition": "Questions about economics, economic theory, and systems."
+ },
+ {
+  "id": 14,
+  "name": "English Language & Usage",
+  "definition": "Questions about the English language, grammar, usage, and etymology."
+ },
+ {
+  "id": 15,
+  "name": "English Language Learners",
+  "definition": "Questions for people learning the English language."
+ },
+ {
+  "id": 16,
+  "name": "Ethereum",
+  "definition": "Questions about the Ethereum blockchain, smart contracts, and tokens."
+ },
+ {
+  "id": 17,
+  "name": "Expatriates",
+  "definition": "Questions about living and working abroad, visas, and residency."
+ },
+ {
+  "id": 18,
+  "name": "ExpressionEngine",
+  "definition": "Questions about the ExpressionEngine content management system."
+ },
+ {
+  "id": 19,
+  "name": "French Language",
+  "definition": "Questions about the French language and its usage."
+ },
+ {
+  "id": 20,
+  "name": "Gardening & Landscaping",
+  "definition": "Questions about gardening, plants, and landscaping."
+ },
+ {
+  "id": 21,
+  "name": "Genealogy & Family History",
+  "definition": "Questions about tracing family history and genealogy."
+ },
+ {
+  "id": 22,
+  "name": "German Language",
+  "definition": "Questions about the German language and its usage."
+ },
+ {
+  "id": 23,
+  "name": "Graphic Design",
+  "definition": "Questions about graphic design, typography, and visual communication."
+ },
+ {
+  "id": 24,
+  "name": "History",
+  "definition": "Questions about historical events, figures, and periods."
+ },
+ {
+  "id": 25,
+  "name": "History of Science and Math",
+  "definition": "Questions about the historical development of science and mathematics."
+ },
+ {
+  "id": 26,
+  "name": "Hinduism",
+  "definition": "Questions about Hinduism, its scriptures, doctrines, and practices."
+ },
+ {
+  "id": 27,
+  "name": "Homebrewing",
+  "definition": "Questions about brewing beer and other fermented beverages."
+ },
+ {
+  "id": 28,
+  "name": "Interpersonal Skills",
+  "definition": "Questions about social interactions, communication, and behavior."
+ },
+ {
+  "id": 29,
+  "name": "Islam",
+  "definition": "Questions about Islam, Islamic doctrine, and practice."
+ },
+ {
+  "id": 30,
+  "name": "Italian Language",
+  "definition": "Questions about the Italian language and its usage."
+ },
+ {
+  "id": 31,
+  "name": "Japanese Language",
+  "definition": "Questions about the Japanese language and its usage."
+ },
+ {
+  "id": 32,
+  "name": "Joomla",
+  "definition": "Questions about the Joomla content management system."
+ },
+ {
+  "id": 33,
+  "name": "Judaism",
+  "definition": "Questions about Judaism, Jewish law, and tradition."
+ },
+ {
+  "id": 34,
+  "name": "Language Learning",
+  "definition": "Questions about the process and methods of learning languages."
+ },
+ {
+  "id": 35,
+  "name": "Latin Language",
+  "definition": "Questions about the Latin language and its usage."
+ },
+ {
+  "id": 36,
+  "name": "Law",
+  "definition": "Questions about legal principles, regulations, and the law."
+ },
+ {
+  "id": 37,
+  "name": "Linguistics",
+  "definition": "Questions about the scientific study of language and linguistics."
+ },
+ {
+  "id": 38,
+  "name": "Literature",
+  "definition": "Questions about literary works, authors, and literary analysis."
+ },
+ {
+  "id": 39,
+  "name": "Magento",
+  "definition": "Questions about the Magento e-commerce platform."
+ },
+ {
+  "id": 40,
+  "name": "Mathematics",
+  "definition": "Questions about mathematics, mathematical problems, and theory."
+ },
+ {
+  "id": 41,
+  "name": "Mathematics Educators",
+  "definition": "Questions about teaching mathematics and mathematical pedagogy."
+ },
+ {
+  "id": 42,
+  "name": "Medical Sciences",
+  "definition": "Questions about medicine, health, and medical sciences."
+ },
+ {
+  "id": 43,
+  "name": "Monero",
+  "definition": "Questions about the Monero cryptocurrency and technology."
+ },
+ {
+  "id": 44,
+  "name": "Motor Vehicle Maintenance & Repair",
+  "definition": "Questions about vehicle maintenance, repair, and troubleshooting."
+ },
+ {
+  "id": 45,
+  "name": "Movies & TV",
+  "definition": "Questions about movies, television shows, and the film industry."
+ },
+ {
+  "id": 46,
+  "name": "Music Fans",
+  "definition": "Questions about music history, genres, and fandom."
+ },
+ {
+  "id": 47,
+  "name": "Music: Practice & Theory",
+  "definition": "Questions about music performance, theory, and composition."
+ },
+ {
+  "id": 48,
+  "name": "Network Engineering",
+  "definition": "Questions about network design, configuration, and protocols."
+ },
+ {
+  "id": 49,
+  "name": "Open Data",
+  "definition": "Questions about open data sources, formats, and usage."
+ },
+ {
+  "id": 50,
+  "name": "Open Source",
+  "definition": "Questions about open source software, licensing, and community."
+ },
+ {
+  "id": 51,
+  "name": "Parenting",
+  "definition": "Questions about raising children, parenting issues, and family life."
+ },
+ {
+  "id": 52,
+  "name": "Patents",
+  "definition": "Questions about patents, intellectual property, and filing."
+ },
+ {
+  "id": 53,
+  "name": "Personal Finance & Money",
+  "definition": "Questions about personal finance, money management, and investing."
+ },
+ {
+  "id": 54,
+  "name": "Philosophy",
+  "definition": "Questions about philosophy, philosophical concepts, and logic."
+ },
+ {
+  "id": 55,
+  "name": "Photography",
+  "definition": "Questions about photography techniques, equipment, and processing."
+ },
+ {
+  "id": 56,
+  "name": "Physical Fitness",
+  "definition": "Questions about exercise, fitness, and training."
+ },
+ {
+  "id": 57,
+  "name": "Poker",
+  "definition": "Questions about poker strategy, rules, and gameplay."
+ },
+ {
+  "id": 58,
+  "name": "Project Management",
+  "definition": "Questions about project management methodologies and practices."
+ },
+ {
+  "id": 59,
+  "name": "Puzzling",
+  "definition": "Questions about puzzles, riddles, and problem-solving."
+ },
+ {
+  "id": 60,
+  "name": "Quantitative Finance",
+  "definition": "Questions about quantitative finance, financial modeling, and derivatives."
+ },
+ {
+  "id": 61,
+  "name": "Quantum Computing",
+  "definition": "Questions about quantum computing and quantum information."
+ },
+ {
+  "id": 62,
+  "name": "Raspberry Pi",
+  "definition": "Questions about Raspberry Pi hardware, software, and projects."
+ },
+ {
+  "id": 63,
+  "name": "Retrocomputing",
+  "definition": "Questions about vintage computers, hardware, and software history."
+ },
+ {
+  "id": 64,
+  "name": "Reverse Engineering",
+  "definition": "Questions about reverse engineering software and hardware."
+ },
+ {
+  "id": 65,
+  "name": "Role-playing Games",
+  "definition": "Questions about tabletop role-playing games, rules, and settings."
+ },
+ {
+  "id": 66,
+  "name": "Russian Language",
+  "definition": "Questions about the Russian language and its usage."
+ },
+ {
+  "id": 67,
+  "name": "Salesforce",
+  "definition": "Questions about the Salesforce platform and development."
+ },
+ {
+  "id": 68,
+  "name": "Scientific Computing",
+  "definition": "Questions about computational science and numerical methods."
+ },
+ {
+  "id": 69,
+  "name": "Security",
+  "definition": "Questions about information security, privacy, and protection."
+ },
+ {
+  "id": 70,
+  "name": "Server Fault",
+  "definition": "Questions about system administration and IT infrastructure."
+ },
+ {
+  "id": 71,
+  "name": "SharePoint",
+  "definition": "Questions about the SharePoint platform and development."
+ },
+ {
+  "id": 72,
+  "name": "Sitecore",
+  "definition": "Questions about the Sitecore experience platform."
+ },
+ {
+  "id": 73,
+  "name": "Skeptics",
+  "definition": "Questions about scientific skepticism and fact-checking claims."
+ },
+ {
+  "id": 74,
+  "name": "Software Recommendations",
+  "definition": "Questions seeking recommendations for software applications."
+ },
+ {
+  "id": 75,
+  "name": "Sound Design",
+  "definition": "Questions about sound design, audio engineering, and production."
+ },
+ {
+  "id": 76,
+  "name": "Space Exploration",
+  "definition": "Questions about space exploration, spaceflight, and technology."
+ },
+ {
+  "id": 77,
+  "name": "Spanish Language",
+  "definition": "Questions about the Spanish language and its usage."
+ },
+ {
+  "id": 78,
+  "name": "Sports",
+  "definition": "Questions about sports rules, equipment, and techniques."
+ },
+ {
+  "id": 79,
+  "name": "Stack Overflow",
+  "definition": "Questions about programming, coding, and software development."
+ },
+ {
+  "id": 80,
+  "name": "Stellar",
+  "definition": "Questions about the Stellar blockchain and network."
+ },
+ {
+  "id": 81,
+  "name": "Super User",
+  "definition": "Questions about computer hardware, software, and troubleshooting."
+ },
+ {
+  "id": 82,
+  "name": "TeX - LaTeX",
+  "definition": "Questions about the TeX and LaTeX typesetting systems."
+ },
+ {
+  "id": 83,
+  "name": "The Great Outdoors",
+  "definition": "Questions about outdoor activities, survival, and nature."
+ },
+ {
+  "id": 84,
+  "name": "The Workplace",
+  "definition": "Questions about the professional workplace environment and culture."
+ },
+ {
+  "id": 85,
+  "name": "Tor",
+  "definition": "Questions about the Tor anonymity network and software."
+ },
+ {
+  "id": 86,
+  "name": "Travel",
+  "definition": "Questions about travel, tourism, and logistics."
+ },
+ {
+  "id": 87,
+  "name": "Ukrainian Language",
+  "definition": "Questions about the Ukrainian language and its usage."
+ },
+ {
+  "id": 88,
+  "name": "User Experience",
+  "definition": "Questions about user experience design and research."
+ },
+ {
+  "id": 89,
+  "name": "Vi and Vim",
+  "definition": "Questions about the Vi and Vim text editors."
+ },
+ {
+  "id": 90,
+  "name": "Video Production",
+  "definition": "Questions about video production, editing, and filmmaking."
+ },
+ {
+  "id": 91,
+  "name": "Web Applications",
+  "definition": "Questions about using web-based applications."
+ },
+ {
+  "id": 92,
+  "name": "Webmasters",
+  "definition": "Questions about website management, SEO, and server configuration."
+ },
+ {
+  "id": 93,
+  "name": "Windows Phone",
+  "definition": "Questions about the Windows Phone operating system."
+ },
+ {
+  "id": 94,
+  "name": "Worldbuilding",
+  "definition": "Questions about creating fictional worlds, settings, and geographies."
+ },
+ {
+  "id": 95,
+  "name": "Writing",
+  "definition": "Questions about writing, editing, and publishing."
+ },
+ {
+  "id": 96,
+  "name": "Science Fiction & Fantasy",
+  "definition": "Questions about science fiction and fantasy works and genres."
+ }
+]

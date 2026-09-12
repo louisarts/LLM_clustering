@@ -1,0 +1,92 @@
+[
+ {
+  "id": 1,
+  "name": "Transportation Booking",
+  "definition": "Requests related to booking transportation services such as taxis or rideshares."
+ },
+ {
+  "id": 2,
+  "name": "Calendar Management",
+  "definition": "Tasks involving scheduling, checking, or managing calendar events and appointments."
+ },
+ {
+  "id": 3,
+  "name": "News Updates",
+  "definition": "Requests for current news or updates from various sources."
+ },
+ {
+  "id": 4,
+  "name": "Reminders",
+  "definition": "Setting or managing reminders for future tasks or events."
+ },
+ {
+  "id": 5,
+  "name": "Weather Information",
+  "definition": "Inquiries about current or future weather conditions."
+ },
+ {
+  "id": 6,
+  "name": "Social Media Interaction",
+  "definition": "Tasks involving posting or interacting on social media platforms."
+ },
+ {
+  "id": 7,
+  "name": "Email Management",
+  "definition": "Checking, sending, or managing emails."
+ },
+ {
+  "id": 8,
+  "name": "Local Information",
+  "definition": "Requests for information about local businesses or services."
+ },
+ {
+  "id": 9,
+  "name": "Contact Information",
+  "definition": "Inquiries about phone numbers or contact details."
+ },
+ {
+  "id": 10,
+  "name": "Alarm Management",
+  "definition": "Setting, checking, or managing alarms."
+ },
+ {
+  "id": 11,
+  "name": "Shopping List Management",
+  "definition": "Adding or managing items on a shopping list."
+ },
+ {
+  "id": 12,
+  "name": "Music and Media Playback",
+  "definition": "Requests to play music, radio, or other media content."
+ },
+ {
+  "id": 13,
+  "name": "Currency Exchange Rates",
+  "definition": "Inquiries about the exchange rates between different currencies."
+ },
+ {
+  "id": 14,
+  "name": "General Knowledge",
+  "definition": "Requests for factual information or trivia."
+ },
+ {
+  "id": 15,
+  "name": "Smart Home Control",
+  "definition": "Commands to control smart home devices such as lights or appliances."
+ },
+ {
+  "id": 16,
+  "name": "Time and Date Information",
+  "definition": "Inquiries about the current time or date."
+ },
+ {
+  "id": 17,
+  "name": "Games and Entertainment",
+  "definition": "Requests to play games or provide entertainment."
+ },
+ {
+  "id": 18,
+  "name": "Jokes and Humor",
+  "definition": "Requests for jokes or humorous content."
+ }
+]

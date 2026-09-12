@@ -1,0 +1,57 @@
+{
+  "bench": "mtop_domain",
+  "run": 2,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms & Timers",
+      "definition": "Setting, modifying, querying, or deleting alarms and timers."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Setting, modifying, querying, or deleting task-specific or event-specific notifications."
+    },
+    {
+      "id": 3,
+      "name": "Weather",
+      "definition": "Requesting current, past, or future weather conditions, forecasts, or related meteorological information."
+    },
+    {
+      "id": 4,
+      "name": "News",
+      "definition": "Requesting current events, headlines, or specific news topics."
+    },
+    {
+      "id": 5,
+      "name": "Communication",
+      "definition": "Initiating, managing, or sending messages, calls, or video calls to contacts or groups, including handling incoming calls."
+    },
+    {
+      "id": 6,
+      "name": "Media Playback",
+      "definition": "Playing, controlling, or querying music, audio, or video content."
+    },
+    {
+      "id": 7,
+      "name": "General Information",
+      "definition": "Asking for facts, definitions, recipes, or general knowledge."
+    },
+    {
+      "id": 8,
+      "name": "Personal Information & Contacts",
+      "definition": "Asking for information about people, their details, or past interactions."
+    },
+    {
+      "id": 9,
+      "name": "Events & Activities",
+      "definition": "Asking for information about local events, recommendations, or things to do."
+    },
+    {
+      "id": 10,
+      "name": "Personal Status & Preferences",
+      "definition": "Declaring or querying the user's availability, interests, or other personal settings."
+    }
+  ]
+}

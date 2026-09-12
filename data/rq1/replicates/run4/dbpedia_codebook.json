@@ -1,0 +1,112 @@
+{
+  "bench": "dbpedia",
+  "run": 4,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "A named individual, living or historical."
+    },
+    {
+      "id": 2,
+      "name": "Animal Species",
+      "definition": "A specific biological species of animal."
+    },
+    {
+      "id": 3,
+      "name": "Animal Genus",
+      "definition": "A taxonomic genus of animals."
+    },
+    {
+      "id": 4,
+      "name": "Animal Family",
+      "definition": "A taxonomic family of animals."
+    },
+    {
+      "id": 5,
+      "name": "Plant Species",
+      "definition": "A specific biological species of plant."
+    },
+    {
+      "id": 6,
+      "name": "Plant Genus",
+      "definition": "A taxonomic genus of plants."
+    },
+    {
+      "id": 7,
+      "name": "Building or Structure",
+      "definition": "A man-made construction or edifice."
+    },
+    {
+      "id": 8,
+      "name": "Populated Place",
+      "definition": "A geographic area with human habitation, such as a city, town, or village."
+    },
+    {
+      "id": 9,
+      "name": "Creative Work - Film",
+      "definition": "A motion picture, documentary, or short film."
+    },
+    {
+      "id": 10,
+      "name": "Creative Work - Music Album",
+      "definition": "A collection of musical recordings released as an album or extended play (EP)."
+    },
+    {
+      "id": 11,
+      "name": "Creative Work - Book",
+      "definition": "A written work of fiction or non-fiction, including novels, poems, manga, or anthologies."
+    },
+    {
+      "id": 12,
+      "name": "Vehicle",
+      "definition": "A specific named or identified machine used for transport."
+    },
+    {
+      "id": 13,
+      "name": "Vehicle Class",
+      "definition": "A category or design of vehicles."
+    },
+    {
+      "id": 14,
+      "name": "Organization - Company",
+      "definition": "A business entity, corporation, or commercial enterprise."
+    },
+    {
+      "id": 15,
+      "name": "Organization - Educational Institution",
+      "definition": "A school, college, university, or seminary."
+    },
+    {
+      "id": 16,
+      "name": "Organization - Other",
+      "definition": "A non-profit, governmental, or other type of organization not covered by Company or Educational Institution."
+    },
+    {
+      "id": 17,
+      "name": "Geographical Feature - Water Body",
+      "definition": "A natural body of water, such as a river, lake, or ocean."
+    },
+    {
+      "id": 18,
+      "name": "Geographical Feature - Landform",
+      "definition": "A natural feature of the Earth's surface, such as a mountain, cape, or mountain range."
+    },
+    {
+      "id": 19,
+      "name": "Publication",
+      "definition": "A regularly issued printed or digital periodical, journal, newspaper, or newsletter."
+    },
+    {
+      "id": 20,
+      "name": "Website",
+      "definition": "An online platform or digital information resource."
+    },
+    {
+      "id": 21,
+      "name": "Academic Concept",
+      "definition": "A formal academic designation, qualification, or field of study."
+    }
+  ]
+}

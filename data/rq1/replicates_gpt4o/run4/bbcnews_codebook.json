@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Film and Entertainment",
+      "definition": "News related to movies, TV shows, music, and entertainment industry events."
+    },
+    {
+      "id": 2,
+      "name": "Business and Finance",
+      "definition": "News about companies, markets, economic trends, and financial results."
+    },
+    {
+      "id": 3,
+      "name": "Politics",
+      "definition": "News about political events, elections, policies, and government actions."
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "definition": "News about sporting events, athletes, and sports organizations."
+    },
+    {
+      "id": 5,
+      "name": "Technology",
+      "definition": "News about technological advancements, gadgets, and the tech industry."
+    },
+    {
+      "id": 6,
+      "name": "Health and Medicine",
+      "definition": "News about health issues, medical advancements, and healthcare policies."
+    },
+    {
+      "id": 7,
+      "name": "Legal and Crime",
+      "definition": "News about legal cases, crime incidents, and law enforcement actions."
+    },
+    {
+      "id": 8,
+      "name": "Environment and Climate",
+      "definition": "News about environmental issues, climate change, and ecological policies."
+    },
+    {
+      "id": 9,
+      "name": "Social Issues",
+      "definition": "News about societal challenges, cultural topics, and community matters."
+    },
+    {
+      "id": 10,
+      "name": "International Relations",
+      "definition": "News about diplomatic relations, international conflicts, and global cooperation."
+    },
+    {
+      "id": 11,
+      "name": "Science and Innovation",
+      "definition": "News about scientific discoveries, research, and innovative technologies."
+    },
+    {
+      "id": 12,
+      "name": "Consumer Affairs",
+      "definition": "News about consumer rights, product launches, and market trends."
+    },
+    {
+      "id": 13,
+      "name": "Education",
+      "definition": "News about educational policies, institutions, and academic achievements."
+    },
+    {
+      "id": 14,
+      "name": "Real Estate and Infrastructure",
+      "definition": "News about property markets, construction projects, and urban development."
+    },
+    {
+      "id": 15,
+      "name": "Travel and Tourism",
+      "definition": "News about travel trends, tourism industry, and destination highlights."
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "bench": "tweet89",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Super Bowl Commercials",
+      "definition": "Tweets discussing commercials aired during the Super Bowl."
+    },
+    {
+      "id": 2,
+      "name": "Acai Berry Diet",
+      "definition": "Tweets about the acai berry diet and its effects."
+    },
+    {
+      "id": 3,
+      "name": "Starbucks Trenta Cup",
+      "definition": "Tweets about the Starbucks Trenta cup size and its capacity."
+    },
+    {
+      "id": 4,
+      "name": "Rahm Emanuel Mayoral Candidacy",
+      "definition": "Tweets about Rahm Emanuel's eligibility and candidacy for Chicago mayor."
+    },
+    {
+      "id": 5,
+      "name": "Christina Aguilera National Anthem Flub",
+      "definition": "Tweets about Christina Aguilera's mistake while singing the national anthem at the Super Bowl."
+    },
+    {
+      "id": 6,
+      "name": "Moscow Airport Bombing",
+      "definition": "Tweets about the suicide bombing at Moscow's airport."
+    },
+    {
+      "id": 7,
+      "name": "Yemen Protests",
+      "definition": "Tweets about anti-government protests in Yemen."
+    },
+    {
+      "id": 8,
+      "name": "King's Speech Awards",
+      "definition": "Tweets about the film 'The King's Speech' and its award nominations and wins."
+    },
+    {
+      "id": 9,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Tweets about the lawsuit against Taco Bell regarding the content of their beef."
+    },
+    {
+      "id": 10,
+      "name": "Jesse Ventura TSA Lawsuit",
+      "definition": "Tweets about Jesse Ventura's lawsuit against the TSA."
+    },
+    {
+      "id": 11,
+      "name": "Australian Open",
+      "definition": "Tweets about the Australian Open tennis tournament."
+    },
+    {
+      "id": 12,
+      "name": "Egyptian Protests",
+      "definition": "Tweets about the protests and political situation in Egypt."
+    },
+    {
+      "id": 13,
+      "name": "Gasland Documentary",
+      "definition": "Tweets about the 'Gasland' documentary and its Oscar nomination."
+    },
+    {
+      "id": 14,
+      "name": "Charlie Sheen Controversies",
+      "definition": "Tweets about controversies involving Charlie Sheen."
+    },
+    {
+      "id": 15,
+      "name": "State of the Union Address",
+      "definition": "Tweets about the State of the Union address and its implications for small businesses."
+    },
+    {
+      "id": 16,
+      "name": "Immigration and Citizenship Laws",
+      "definition": "Tweets about immigration laws and citizenship issues in the US."
+    },
+    {
+      "id": 17,
+      "name": "Fly Fishing",
+      "definition": "Tweets about fly fishing techniques, gear, and conditions."
+    },
+    {
+      "id": 18,
+      "name": "Facebook Privacy Concerns",
+      "definition": "Tweets about privacy settings and concerns on Facebook."
+    },
+    {
+      "id": 19,
+      "name": "Texting and Driving",
+      "definition": "Tweets about the dangers of texting while driving and related pledges."
+    },
+    {
+      "id": 20,
+      "name": "Sundance Film Festival",
+      "definition": "Tweets about events and celebrities at the Sundance Film Festival."
+    },
+    {
+      "id": 21,
+      "name": "Healthcare Reform Law",
+      "definition": "Tweets about judicial rulings and opinions on the healthcare reform law."
+    },
+    {
+      "id": 22,
+      "name": "Hugo Chavez Political Actions",
+      "definition": "Tweets about political actions and statements by Venezuelan President Hugo Chavez."
+    },
+    {
+      "id": 23,
+      "name": "Chicago Blizzard",
+      "definition": "Tweets about the blizzard in Chicago and its impact."
+    },
+    {
+      "id": 24,
+      "name": "Sony Xperia Play Commercial",
+      "definition": "Tweets about the Sony Xperia Play commercial aired during the Super Bowl."
+    },
+    {
+      "id": 25,
+      "name": "Keith Olbermann's Career",
+      "definition": "Tweets about Keith Olbermann joining Current TV."
+    },
+    {
+      "id": 26,
+      "name": "Somali Pirates",
+      "definition": "Tweets about Somali pirate activities and related military actions."
+    },
+    {
+      "id": 27,
+      "name": "White Stripes Breakup",
+      "definition": "Tweets about the breakup of the band White Stripes."
+    },
+    {
+      "id": 28,
+      "name": "Oprah Winfrey's Family Secret",
+      "definition": "Tweets about Oprah Winfrey revealing a family secret."
+    },
+    {
+      "id": 29,
+      "name": "Identity Theft Concerns",
+      "definition": "Tweets about the rise of identity theft and related statistics."
+    },
+    {
+      "id": 30,
+      "name": "Unemployment Rates",
+      "definition": "Tweets about changes in unemployment rates in various states."
+    },
+    {
+      "id": 31,
+      "name": "Food Recipes",
+      "definition": "Tweets sharing various food recipes."
+    },
+    {
+      "id": 32,
+      "name": "Bullying and School Violence",
+      "definition": "Tweets about bullying and violence in schools and related resources."
+    },
+    {
+      "id": 33,
+      "name": "Environmental Issues",
+      "definition": "Tweets about environmental issues and climate change."
+    },
+    {
+      "id": 34,
+      "name": "Social Media and Politics",
+      "definition": "Tweets about the role of social media in political movements and campaigns."
+    },
+    {
+      "id": 35,
+      "name": "Amtrak Rail Tunnel Plan",
+      "definition": "Tweets about Amtrak's plan for a new rail tunnel between NY and NJ."
+    },
+    {
+      "id": 36,
+      "name": "State Tuition for Illegal Immigrants",
+      "definition": "Tweets about legislation regarding state tuition for illegal immigrants."
+    },
+    {
+      "id": 37,
+      "name": "Bedbug Infestation",
+      "definition": "Tweets about efforts to combat bedbug infestations."
+    },
+    {
+      "id": 38,
+      "name": "Apple and Steve Jobs",
+      "definition": "Tweets about Apple and concerns over Steve Jobs' health and succession."
+    },
+    {
+      "id": 39,
+      "name": "Nobel Peace Prize and Wikileaks",
+      "definition": "Tweets about Wikileaks being nominated for the Nobel Peace Prize."
+    },
+    {
+      "id": 40,
+      "name": "Lady Gaga's Fitness Campaign",
+      "definition": "Tweets about Lady Gaga's fitness campaign."
+    }
+  ]
+}

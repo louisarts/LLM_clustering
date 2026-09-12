@@ -1,0 +1,85 @@
+{
+  "bench": "banking77",
+  "run": 2,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which banking customer-service intent the query expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Transaction Issues",
+      "definition": "Inquiries related to problems with transactions, including double charges, failed payments, and incorrect amounts."
+    },
+    {
+      "id": 2,
+      "name": "Account Management",
+      "definition": "Requests for assistance with account-related tasks, such as opening, modifying, or deleting accounts."
+    },
+    {
+      "id": 3,
+      "name": "Card Activation and Management",
+      "definition": "Questions about activating, managing, or troubleshooting issues with physical or virtual cards."
+    },
+    {
+      "id": 4,
+      "name": "Identity Verification",
+      "definition": "Inquiries regarding the process and requirements for verifying identity for banking services."
+    },
+    {
+      "id": 5,
+      "name": "Currency Exchange and Fees",
+      "definition": "Questions about currency exchange rates, fees associated with transactions, and supported currencies."
+    },
+    {
+      "id": 6,
+      "name": "Transfer Services",
+      "definition": "Inquiries related to sending or receiving money, including transfer delays and policies."
+    },
+    {
+      "id": 7,
+      "name": "Lost or Stolen Cards",
+      "definition": "Requests for assistance regarding lost or stolen cards and the necessary steps to take."
+    },
+    {
+      "id": 8,
+      "name": "Top-Up Services",
+      "definition": "Questions about adding funds to accounts, including methods, limits, and verification processes."
+    },
+    {
+      "id": 9,
+      "name": "Fees and Charges",
+      "definition": "Inquiries about various fees associated with banking services, including card payments and withdrawals."
+    },
+    {
+      "id": 10,
+      "name": "Technical Issues",
+      "definition": "Requests for help with technical problems related to apps, online banking, or card functionalities."
+    },
+    {
+      "id": 11,
+      "name": "Refund Requests",
+      "definition": "Inquiries about obtaining refunds for transactions or services."
+    },
+    {
+      "id": 12,
+      "name": "PIN and Security",
+      "definition": "Questions related to PIN management, security features, and account access."
+    },
+    {
+      "id": 13,
+      "name": "Child Accounts",
+      "definition": "Inquiries about opening accounts for minors and related requirements."
+    },
+    {
+      "id": 14,
+      "name": "Contactless Payments",
+      "definition": "Questions regarding the use and troubleshooting of contactless payment methods."
+    },
+    {
+      "id": 15,
+      "name": "ATM Services",
+      "definition": "Inquiries related to ATM usage, including withdrawal issues and supported transactions."
+    }
+  ]
+}

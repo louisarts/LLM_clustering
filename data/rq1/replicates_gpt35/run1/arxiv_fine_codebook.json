@@ -1,0 +1,60 @@
+{
+  "bench": "arxiv_fine",
+  "run": 1,
+  "llm": "gpt-3.5-turbo",
+  "source": "fresh",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.LG",
+      "definition": "Machine learning, deep learning, neural networks, artificial intelligence"
+    },
+    {
+      "id": 2,
+      "name": "math.AG",
+      "definition": "Algebraic geometry, commutative algebra, algebraic curves"
+    },
+    {
+      "id": 3,
+      "name": "physics.optics",
+      "definition": "Optical physics, wave propagation, light-matter interactions"
+    },
+    {
+      "id": 4,
+      "name": "math.AP",
+      "definition": "Applied mathematics, mathematical modeling, numerical methods"
+    },
+    {
+      "id": 5,
+      "name": "hep-th",
+      "definition": "High energy physics - theory, quantum field theory, string theory"
+    },
+    {
+      "id": 6,
+      "name": "econ.EM",
+      "definition": "Econometrics, economic modeling, financial markets"
+    },
+    {
+      "id": 7,
+      "name": "q-bio.CB",
+      "definition": "Quantitative biology, biological modeling, bioinformatics"
+    },
+    {
+      "id": 8,
+      "name": "stat.ML",
+      "definition": "Statistical machine learning, data analysis, pattern recognition"
+    },
+    {
+      "id": 9,
+      "name": "cond-mat.mes-hall",
+      "definition": "Condensed matter physics, mesoscopic systems, Hall effect"
+    },
+    {
+      "id": 10,
+      "name": "quant-ph",
+      "definition": "Quantum physics, quantum information, quantum computing"
+    }
+  ]
+}

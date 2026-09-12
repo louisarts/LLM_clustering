@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 2,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Economy",
+      "definition": "Articles discussing national or global economic policies, trends, and financial markets."
+    },
+    {
+      "id": 2,
+      "name": "Politics",
+      "definition": "Articles covering political events, elections, policies, and political figures."
+    },
+    {
+      "id": 3,
+      "name": "Sports",
+      "definition": "Articles related to sporting events, athletes, and sports organizations."
+    },
+    {
+      "id": 4,
+      "name": "Technology",
+      "definition": "Articles about technological advancements, companies, and digital trends."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment",
+      "definition": "Articles covering movies, music, celebrities, and cultural events."
+    },
+    {
+      "id": 6,
+      "name": "Business",
+      "definition": "Articles discussing corporate news, mergers, acquisitions, and business strategies."
+    },
+    {
+      "id": 7,
+      "name": "Health",
+      "definition": "Articles related to health policies, medical research, and public health issues."
+    },
+    {
+      "id": 8,
+      "name": "Science",
+      "definition": "Articles about scientific discoveries, research, and academic studies."
+    },
+    {
+      "id": 9,
+      "name": "Environment",
+      "definition": "Articles discussing environmental issues, climate change, and conservation efforts."
+    },
+    {
+      "id": 10,
+      "name": "Crime and Law",
+      "definition": "Articles covering legal cases, crime reports, and law enforcement activities."
+    },
+    {
+      "id": 11,
+      "name": "Social Issues",
+      "definition": "Articles addressing societal challenges, human rights, and community affairs."
+    },
+    {
+      "id": 12,
+      "name": "Education",
+      "definition": "Articles related to educational policies, institutions, and academic achievements."
+    },
+    {
+      "id": 13,
+      "name": "International Relations",
+      "definition": "Articles discussing diplomatic relations, international conflicts, and global cooperation."
+    },
+    {
+      "id": 14,
+      "name": "Consumer Affairs",
+      "definition": "Articles about consumer trends, product launches, and market analysis."
+    },
+    {
+      "id": 15,
+      "name": "Infrastructure",
+      "definition": "Articles discussing development and maintenance of public infrastructure and utilities."
+    }
+  ]
+}

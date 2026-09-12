@@ -1,0 +1,120 @@
+{
+  "bench": "clinc150",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Inquiry",
+      "definition": "Questions seeking general information or knowledge."
+    },
+    {
+      "id": 2,
+      "name": "Weather Inquiry",
+      "definition": "Requests for weather information or forecasts."
+    },
+    {
+      "id": 3,
+      "name": "Music Control",
+      "definition": "Commands to play, change, or control music."
+    },
+    {
+      "id": 4,
+      "name": "Calendar Management",
+      "definition": "Requests to add, remove, or check calendar events."
+    },
+    {
+      "id": 5,
+      "name": "Reminder Management",
+      "definition": "Requests to set, check, or manage reminders."
+    },
+    {
+      "id": 6,
+      "name": "Financial Inquiry",
+      "definition": "Questions or commands related to financial information or transactions."
+    },
+    {
+      "id": 7,
+      "name": "Travel and Transportation",
+      "definition": "Requests related to travel plans, transportation, or directions."
+    },
+    {
+      "id": 8,
+      "name": "Shopping and Orders",
+      "definition": "Commands to place orders or inquire about shopping-related information."
+    },
+    {
+      "id": 9,
+      "name": "Language and Translation",
+      "definition": "Requests for language translation or language setting changes."
+    },
+    {
+      "id": 10,
+      "name": "Device Control",
+      "definition": "Commands to control device settings or functions."
+    },
+    {
+      "id": 11,
+      "name": "Location and Navigation",
+      "definition": "Requests for location information or navigation assistance."
+    },
+    {
+      "id": 12,
+      "name": "Health and Safety",
+      "definition": "Inquiries related to health, safety, or medical advice."
+    },
+    {
+      "id": 13,
+      "name": "Entertainment and Media",
+      "definition": "Requests for information or actions related to entertainment or media."
+    },
+    {
+      "id": 14,
+      "name": "Communication",
+      "definition": "Commands to send messages or make calls."
+    },
+    {
+      "id": 15,
+      "name": "Technical Support",
+      "definition": "Requests for technical assistance or troubleshooting."
+    },
+    {
+      "id": 16,
+      "name": "Food and Dining",
+      "definition": "Inquiries or commands related to food, recipes, or dining."
+    },
+    {
+      "id": 17,
+      "name": "Travel Alerts and Safety",
+      "definition": "Requests for travel alerts or safety information."
+    },
+    {
+      "id": 18,
+      "name": "Banking and Transactions",
+      "definition": "Commands related to banking, transactions, or account management."
+    },
+    {
+      "id": 19,
+      "name": "Credit and Loans",
+      "definition": "Inquiries or commands related to credit scores, loans, or credit cards."
+    },
+    {
+      "id": 20,
+      "name": "Utilities and Bills",
+      "definition": "Requests related to utility bills or service management."
+    },
+    {
+      "id": 21,
+      "name": "Personal Information",
+      "definition": "Requests for personal information or settings."
+    },
+    {
+      "id": 22,
+      "name": "Miscellaneous",
+      "definition": "Commands or inquiries that do not fit into other categories."
+    }
+  ]
+}

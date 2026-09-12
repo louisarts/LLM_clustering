@@ -1,0 +1,471 @@
+{
+ "8": [
+  "Has anyone compared the branch prediction accuracy of the latest RISC-V implementations against modern ARM cores?",
+  "I'm looking for a detailed explanation of how out-of-order execution handles write-back conflicts in superscalar pipelines.",
+  "What are the trade-offs between using a crossbar switch versus a ring topology for an 8-core cache coherency interconnect?",
+  "Does anyone have experience simulating cache coherency protocols like MESI in Verilog or VHDL before synthesis?",
+  "The latency penalty for accessing main memory is becoming the primary bottleneck, so we need to focus heavily on prefetching algorithms."
+ ],
+ "3": [
+  "You are without a doubt the stupidest person to ever post on this newsgroup, and that is really saying something.",
+  "I've seen more intelligence from a bucket of sludge than I have from your incoherent rambling.",
+  "Do everyone a favor and cancel your internet connection, you absolute waste of bandwidth.",
+  "Your post is so factually wrong it hurts to read, did you drop out of school in kindergarten?",
+  "Keep crying about it, nobody cares about your pathetic whining."
+ ],
+ "4": [
+  "My garbage disposal just hums and doesn't grind, do I need to hit the reset button or is it seized?",
+  "What's the best type of caulk to use for sealing a leaky gutter joint that gets a lot of rain?",
+  "I'm trying to replace a two-prong outlet with a GFCI, but the ground wire is missing in the box.",
+  "The subfloor in my bathroom feels spongy near the toilet, does that mean the flange is leaking?",
+  "How do I get a stripped Phillips head screw out of a drywall anchor without damaging the wall?"
+ ],
+ "7": [
+  "How do I create a conditional formula in Excel that highlights cells red if the date has passed?",
+  "I'm trying to import a CSV file into Lotus 1-2-3, but the columns aren't parsing correctly.",
+  "Is there a keyboard shortcut to insert the current timestamp into a cell in Google Sheets?",
+  "My macro keeps crashing when I try to sort more than 5,000 rows, any ideas?",
+  "Does anyone know if OpenOffice Calc can open password-protected .xlsx files?"
+ ],
+ "10": [
+  "I'm looking for a recommendation on a managed switch with at least 24 ports that supports VLAN tagging.",
+  "My external modem keeps dropping the connection every time the phone rings, is this a line voltage issue?",
+  "Can anyone explain the difference between a router and a layer 3 switch for a small campus network?",
+  "What is the maximum cable length for running Cat6 ethernet without a repeater?",
+  "Does anyone have the pinout diagram for the Cisco console cable to connect to a DB-9 serial port?"
+ ],
+ "1": [
+  "The problem of evil remains the strongest logical argument against the existence of an omnipotent and benevolent deity.",
+  "I find it much more comforting to accept the finality of death than to live in fear of a vindictive god's judgment.",
+  "Has anyone else noticed that religious indoctrination relies heavily on instilling fear in children before they can reason critically?",
+  "Without empirical evidence, the claim that a god exists is indistinguishable from any other fairy tale or myth.",
+  "Morality clearly evolved as a social construct for survival, so we certainly do not need a holy book to tell us right from wrong."
+ ],
+ "5": [
+  "Just got my Proteus Light & Sound machine; the \"theta\" session really helped with my meditation session this morning.",
+  "Has anyone tried building a DIY tDCS device for focus, or is the risk of burns too high for beginners?",
+  "I've been experimenting with binaural beats at 40Hz to see if it helps with memory retention during study sessions.",
+  "Be careful with the flicker rate on that DIY strobe helmet; it triggered a migraine within thirty seconds.",
+  "The Ganzfeld effect using halved ping-pong balls is a cheap way to induce sensory deprivation without a float tank."
+ ],
+ "6": [
+  "I just burned three hours staring at the wall instead of working; my Slack acquisition levels are peaking today.",
+  "Bob Dobbs is literally saving my sanity, one pipe hit and a grin at a time.",
+  "Does anyone have a clean copy of that pamphlet about the Conspiracy keeping the pink boys down?",
+  "Send in your $30 now or be left behind when the X-ists finally arrive on that glorious day.",
+  "My boss asked why I was smiling during the meeting; he'll never understand the power of \"Fuck 'Em If They Can't Take A Joke.\""
+ ],
+ "11": [
+  "How do I configure flycheck to use a specific eslint version in my web projects?",
+  "I'm looking for an elisp snippet to automatically wrap selected text in HTML tags.",
+  "What is the best way to manage multiple Emacs configurations on the same machine?",
+  "After the latest update, my spacemacs leader key bindings seem to have stopped working.",
+  "Can someone explain the difference between point and mark in the context of transient-mark-mode?"
+ ],
+ "15": [
+  "How do I stop Windows 95 from asking for a password every time I boot up?",
+  "My system keeps crashing with a blue screen error whenever I try to print.",
+  "Does anyone know of a good shareware text editor that runs under Windows 3.1?",
+  "I am looking for a driver for a Sound Blaster 16 that works with the new update.",
+  "Where is the setting to change the virtual memory size in the control panel?"
+ ],
+ "14": [
+  "How do I allocate more than 640K of conventional memory for my arrays in Turbo C++?",
+  "My TSR program crashes the system whenever I try to hook the keyboard interrupt.",
+  "What is the correct interrupt call to determine the current video mode in VGA?",
+  "I need a code snippet to read the serial port directly using the UART registers.",
+  "How can I access XMS memory from a real-mode application without a driver?"
+ ],
+ "18": [
+  "Just installed 2MB of Chip RAM in my A500, the difference in Workbench is night and day.",
+  "Where can I find the latest drivers for the Picasso II graphics card for OS 3.9?",
+  "My floppy drive is clicking constantly even when idle, is the drive mechanism dying?",
+  "Deluxe Paint IV is still the best pixel art program ever made, nothing on the PC compares.",
+  "FS-UAE is running great on my modern laptop, finally playing It Came From The Desert again."
+ ],
+ "12": [
+  "Does anyone know of a good utility to convert PostScript files to PDF on Linux?",
+  "I'm looking for a freeware ray tracing program that runs on Windows 3.1.",
+  "How do I anti-alias lines in OpenGL without using the accumulation buffer?",
+  "What is the difference between lossy and lossless compression for JPEG images?",
+  "Where can I find the algorithm for a simple Bresenham line drawing routine?"
+ ],
+ "16": [
+  "My Epson inkjet is leaving streaks on every page, do I need to clean the heads or replace the cartridges?",
+  "Looking for recommendations on a decent 27-inch 144Hz monitor for gaming under $300.",
+  "Does anyone know if the Canon CanoScan LIDE 400 works out of the box with Linux Mint?",
+  "Just bought a mechanical keyboard with Cherry MX Blue switches and the clickiness is driving my coworkers crazy.",
+  "I'm trying to connect an old HP LaserJet to my new laptop, but it doesn't have a parallel port, so I need a USB adapter."
+ ],
+ "23": [
+  "Does anyone know of a good LaTeX editor for beginners?",
+  "I'm trying to convert a large Word document to PDF without losing formatting.",
+  "What is the best way to handle UTF-8 encoding in Emacs?",
+  "Is there a script to extract all email addresses from a plain text file?",
+  "The new version of TeX seems to render fonts much faster on my system."
+ ],
+ "20": [
+  "My new SCSI controller card is causing an IRQ conflict with the onboard video.",
+  "Looking for jumper settings to enable cache on an old 486DX2 motherboard.",
+  "The 3.5-inch floppy drive light stays on constantly; did I reverse the cable?",
+  "Has anyone successfully overclocked a Pentium 75 to 90 MHz on a Triton chipset?",
+  "System won't POST after upgrading to 16MB of 72-pin SIMMs, getting three beeps."
+ ],
+ "19": [
+  "Just picked up a 1040STf, what's the best way to transfer files from a modern PC via the floppy drive?",
+  "My Falcon030 keeps crashing when I try to run Cubase, could it be a RAM upgrade issue?",
+  "Looking for a copy of TOS 2.06 to burn to EPROMs for my STE upgrade.",
+  "The joystick port on my 800XL is acting up, is it safe to use a Sega gamepad or will it damage the circuit?",
+  "Has anyone successfully connected a SCSI drive to a Mega STe? I'm having termination issues."
+ ],
+ "21": [
+  "My Power Mac G4 won't boot past the gray screen, could it be a dead PRAM battery?",
+  "Just installed a Sonnet Crescendo card in my beige G3, but the system isn't recognizing the new processor.",
+  "Is it normal for the fan on my PowerBook 1400 to make a loud grinding noise after ten minutes of use?",
+  "Looking for advice on upgrading the RAM on a Blue and White G3; do I need specific PC100 SDRAM?",
+  "The floppy drive on my Mac Classic II keeps ejecting disks immediately upon insertion, any troubleshooting tips?"
+ ],
+ "24": [
+  "How do I set the default shell to ksh for all new users on Solaris?",
+  "I'm trying to write a cron job that runs every other Tuesday at noon.",
+  "What is the difference between a hard link and a symbolic link in the filesystem?",
+  "My grep command is taking forever on large log files, any way to speed it up?",
+  "Just installed FreeBSD on an old laptop, having trouble configuring the X server."
+ ],
+ "22": [
+  "My SPARCstation 20 keeps overheating, should I replace the stock fan with a Sun blade assembly?",
+  "Where can I find the latest OpenBoot PROM revision for my Ultra 60 workstation?",
+  "Just installed Solaris 9 on my Blade 150, but the onboard audio isn't detecting correctly.",
+  "Does anyone have a pinout for the Sun Type 5 keyboard connector?",
+  "I'm trying to hook up a modern LCD to my old Sun 3/80, what sync rates does the framebuffer support?"
+ ],
+ "27": [
+  "Apple Unveils Revolutionary New Product Line at Annual Developer Conference",
+  "Local City Council Approves Budget Increase for Public School Funding",
+  "Global Markets Rally as Inflation Rates Show Signs of Stabilization",
+  "Scientists Discover High-Res Imaging Technique to Map Ocean Floor",
+  "Company XYZ Announces Record Quarterly Earnings, Exceeding Analyst Expectations"
+ ],
+ "25": [
+  "Just installed XFree86 4.0 but the mouse cursor keeps freezing when I switch virtual desktops.",
+  "How do I configure my XF86Config file to support a dual monitor setup with the new Nvidia drivers?",
+  "Can someone explain the difference between Motif and GTK widgets for developing new applications?",
+  "Is there a way to increase the font size in xterm without restarting the entire X server?",
+  "My startx command fails with a \"no screens found\" error after upgrading my video card."
+ ],
+ "28": [
+  "Does anyone know the statute of limitations for filing a breach of contract lawsuit in California?",
+  "My neighbor is threatening to sue me for hanging Christmas lights, claiming it violates a restrictive covenant.",
+  "I was rear-ended at a stoplight, but the other driver's insurance is offering a lowball settlement; should I get a lawyer?",
+  "Is it true that recording a phone conversation without the other person's consent is a felony in some states?",
+  "I'm starting a small business and I'm confused about the difference between an LLC and an S-Corp for liability protection."
+ ],
+ "30": [
+  "Has anyone managed to get trn to compile correctly on the latest Ubuntu release?",
+  "I'm looking for a newsreader that supports scoring and works well on Windows 10.",
+  "The filtering rules in the latest version of Pan seem much faster than before.",
+  "Is there a way to force Gnus to limit the maximum number of headers it downloads?",
+  "Just a heads up that the security patch for INN was released this morning."
+ ],
+ "26": [
+  "FOR SALE: 27\" Sony Trinitron CRT monitor, works perfectly, $50 or best offer, pickup only in downtown area.",
+  "Selling my barely used Canon EOS Rebel T6 DSLR with 18-55mm lens, includes bag and 32GB SD card, asking $300 shipped.",
+  "Moving sale: Brown leather sectional sofa, 3 years old, no tears or stains, must go by Sunday, $200 OBO.",
+  "WTS: Custom gaming desktop, Ryzen 5 3600, RTX 2060, 16GB RAM, 1TB SSD, runs great, looking for $600 firm.",
+  "Pair of vintage Klipsch Heresy speakers in walnut finish, great condition, local pickup preferred, $450."
+ ],
+ "13": [
+  "My ThinkPad T480s battery life dropped to 2 hours after updating the BIOS, should I recalibrate?",
+  "Looking for a durable sleeve for a 16-inch MacBook Pro that fits a USB-C hub inside.",
+  "The fan on my Dell XPS 15 is constantly running at high speed even when the CPU usage is low.",
+  "Can I upgrade the RAM on this HP Pavilion laptop or is it soldered directly to the motherboard?",
+  "Screen flickering on an ASUS ZenBook whenever I unplug the power adapter, any known fixes?"
+ ],
+ "9": [
+  "Does anyone know if AutoCAD R14 runs stable on Windows 2000?",
+  "I'm looking for a graphics card optimized for Pro/E wireframe performance.",
+  "What is the best format for converting SolidWorks files to DXF without losing data?",
+  "The new plotter driver is crashing my terminal every time I send a job.",
+  "How do you map the middle mouse button to 'pan' in MicroStation?"
+ ],
+ "29": [
+  "Just received a CP2000 notice for unreported income, has anyone successfully disputed this with the IRS?",
+  "The new standard deduction is great, but I really miss writing off my state taxes.",
+  "Can someone explain the difference between a 1099-NEC and a W-2 for a side gig?",
+  "Is it really worth paying a professional $400 to file, or should I just use TurboTax this year?",
+  "Be careful with those \"you don't have to pay taxes\" schemes, the penalties for frivolous arguments are severe."
+ ],
+ "2": [
+  "Just picked up an eighth of Blue Dream, anyone else find this strain helps with anxiety?",
+  "Be careful with that batch of pressed blues going around the East Coast, they're definitely not just oxy.",
+  "My first time trying shrooms was at a music festival last year, the visuals during the sunset were absolutely life-changing.",
+  "Does anyone have a reliable recipe for making cannabutter that doesn't make the whole kitchen smell for days?",
+  "I've been microdosing LSD for a month now and my productivity has honestly never been better."
+ ],
+ "31": [
+  "Just picked up the latest Amazing Spider-Man, and I have to say the art is incredible, but the writing feels a bit rushed.",
+  "Does anyone know if the Watchmen absolute edition is worth the extra money compared to the trade paperback?",
+  "I've been following Calvin and Hobbes reruns for years, and Watterson's commentary on consumerism is still as relevant as ever.",
+  "The retcon in the last issue of X-Men completely contradicts the storyline from the 90s, which is really frustrating for long-time fans.",
+  "Is it just me, or does the inking style in the new Batman series look significantly different than the previous run?"
+ ],
+ "33": [
+  "Looking for recommendations on a good pair of bookshelf speakers under $500 for a small bedroom setup.",
+  "Just picked up a vintage Technics turntable and need advice on what phono preamp would pair well with it.",
+  "Has anyone compared the sound signature of the Sennheiser HD600s to the HD650s for classical music?",
+  "I'm getting a persistent 60Hz hum from my amplifier whenever the RCA cables are connected, any troubleshooting tips?",
+  "Debating whether to buy a high-end external DAC or if the built-in DAC in my modern receiver is sufficient."
+ ],
+ "17": [
+  "We're adopting Scrum for our next release, but the team is struggling with accurate story point estimation during sprint planning.",
+  "What is the industry standard for documenting API endpoints? Our current specs are outdated and confusing the frontend team.",
+  "Has anyone successfully implemented continuous integration for a large legacy codebase without breaking the build every day?",
+  "I'm looking for a tool to map out our system architecture; Visio feels clunky for collaborative UML diagramming.",
+  "The code review process is becoming a bottleneck; should we enforce smaller commit sizes or just add more reviewers?"
+ ],
+ "34": [
+  "My '92 Miata is making a squealing noise when I start it cold, do you think it's the belts?",
+  "Just changed the oil in my Civic and now the filter is leaking, any idea what I did wrong?",
+  "Looking for a reliable shop in the Seattle area to fix a dent in my rear bumper.",
+  "The new Mustang styling looks aggressive, but I'm not sure about the rear taillights.",
+  "Has anyone installed a cold air intake on a 2015 WRX? I'm worried about hydrolock."
+ ],
+ "35": [
+  "Just finished staining my first oak rocking chair, but I'm worried the polyurethane is bubbling in spots.",
+  "Does anyone have a reliable pattern for knitted socks that uses a heavier weight yarn?",
+  "I'm trying to learn bobbin lace, but keeping the tension even on the bobbins is much harder than it looks.",
+  "My scroll saw blade keeps breaking when I try to cut tight curves in the plywood.",
+  "What is the best type of wax to use for finishing a new beeswax candle?"
+ ],
+ "38": [
+  "Just picked up the original vinyl pressing of Dark Side of the Moon, and the sound quality is incredible.",
+  "Can anyone recommend some modern jazz artists that have a similar vibe to Miles Davis' electric period?",
+  "The guitar solo in the middle of that track is absolutely mind-blowing, easily the best work he's ever done.",
+  "I think the production on their latest album is a bit too polished compared to their raw early stuff.",
+  "Does anyone know if the band is planning to tour North America again this year?"
+ ],
+ "37": [
+  "Just picked up a new Shoei RF-1400 to replace my ten-year-old helmet, and the wind noise reduction is unbelievable.",
+  "Anyone else think the stock suspension on the Ninja 400 is a bit too soft for aggressive backroad riding?",
+  "I'm planning a cross-country trip next month and can't decide between hard panniers or a waterproof soft luggage setup.",
+  "Be careful on Highway 9 this weekend; there was fresh gravel all over the apex at turn four during my morning ride.",
+  "My V-Strom 650 is due for a valve check, does anyone have a trusted shop recommendation in the Portland area?"
+ ],
+ "32": [
+  "Just watched the 4K restoration of Lawrence of Arabia at the local theater, and the visuals were absolutely breathtaking.",
+  "Does anyone else think that the pacing in the third act of the movie completely falls apart?",
+  "I'm trying to remember the name of a film from the late 70s where a dog solves a murder mystery.",
+  "In my opinion, the cinematography in Blade Runner 2049 is the best we've seen this century.",
+  "The new trailer for the sci-fi epic looks promising, but the CGI effects seem a bit unfinished."
+ ],
+ "39": [
+  "Just installed a new 2-meter antenna on the roof and the SWR is finally flat across the band.",
+  "Anyone have experience modding the Uniden HR2510 for extra channels?",
+  "The skip was coming in really strong from Texas on channel 19 last night.",
+  "I'm looking for a solid HF transceiver under $500 for a beginner setup.",
+  "Remember to ID at the end of your transmission, even if you're just chatting on the local repeater."
+ ],
+ "40": [
+  "Jeter's jump throw from the hole is still one of the most iconic defensive plays I've ever seen.",
+  "Does anyone else think the DH rule ruins the strategic element of National League games?",
+  "I'm looking for stats on the 1998 home run race; does anyone have a link to a good database?",
+  "The velocity on that fastball was impressive, but his control was all over the place today.",
+  "It's amazing how much the analytics have changed the way managers handle bullpen usage in the ninth inning."
+ ],
+ "42": [
+  "Just saw the highlight of Crosby's overtime winner, absolute beauty of a backhand.",
+  "Does anyone know when the single game tickets for the Maple Leafs go on sale this year?",
+  "The officiating in last night's game was atrocious, how did the ref miss that high stick?",
+  "I think the 1980s Oilers would dominate any team in the league today with that speed.",
+  "My rec league team is looking for a goalie for our Thursday night slot in downtown Toronto."
+ ],
+ "41": [
+  "Jordan's fadeaway in the '98 finals is undisputedly the greatest clutch shot in NBA history.",
+  "Did anyone catch the block that Giannis had last night? His wingspan is absolutely insane.",
+  "I'm arguing with my friend that the 90s Knicks defense would physically wear down today's small-ball lineups.",
+  "LeBron is definitely the best all-around player ever, but he just doesn't have the scoring instinct Kobe had.",
+  "Who do you guys think the Spurs should take with their first-round pick this year?"
+ ],
+ "43": [
+  "Just got back from Prague, the Old Town is beautiful but watch out for the tourist trap restaurants on the main square.",
+  "Does anyone have a recommendation for a budget-friendly ryokan in Kyoto that accepts solo travelers?",
+  "Heading to Costa Rica next month, is it better to rent a car or rely on the public buses to get around?",
+  "Make sure to notify your bank before you leave for Europe, or your credit card will get declined at the first ATM.",
+  "The hike to Machu Picchu was grueling but absolutely worth it; bring plenty of layers because it gets freezing at night."
+ ],
+ "45": [
+  "The migration patterns of the monarch butterfly are significantly impacted by changes in temperature.",
+  "Does anyone have a protocol for extracting DNA from fruit flies without degrading the sample?",
+  "I found this strange beetle in my backyard and was wondering if it might be an invasive species.",
+  "Recent studies suggest that gut microbiome diversity plays a crucial role in immune system function.",
+  "Can anyone explain the difference between complete and incomplete metamorphosis in insects?"
+ ],
+ "46": [
+  "I've been trying to break this simple substitution cipher for hours, but the letter frequency analysis just isn't yielding a readable plaintext.",
+  "Does anyone have a recommendation for a good open-source library that implements the RSA algorithm in Python?",
+  "The key length is obviously 56 bits, which is far too short to be secure against modern brute-force attacks.",
+  "Is it theoretically possible to build a true random number generator using only standard computer hardware?",
+  "Remember that using ECB mode is a terrible idea for encrypting this type of data because it leaves visible patterns."
+ ],
+ "47": [
+  "I'm looking for a schematic for a 50W audio amplifier using TIP31 transistors.",
+  "Why does my voltage regulator keep overheating even though the input is only 12V?",
+  "Can someone explain the difference between a common emitter and common collector amplifier?",
+  "I need help identifying the value of a burnt resistor in a power supply circuit.",
+  "What is the best way to solder SMD components without a hot air station?"
+ ],
+ "49": [
+  "Found a great outcrop of granite with large feldspar crystals near the highway exit.",
+  "Does anyone have experience using a handheld GPS for accurate trail mapping in dense forests?",
+  "The fault line clearly visible in the cliff face suggests significant seismic activity in the last century.",
+  "I am looking for a good topographic map of the region around Mount Rainier for a hiking trip.",
+  "The sedimentary layers here are mostly limestone, indicating this area was once a shallow sea."
+ ],
+ "48": [
+  "The stress-strain curve for that alloy indicates a much higher yield point than we calculated.",
+  "Does anyone have experience converting a standard servo motor for continuous rotation in robotics applications?",
+  "I need to calculate the thermal expansion coefficient for a composite material subjected to cyclic loading.",
+  "What is the standard tolerance for a press fit on a 25mm steel shaft?",
+  "The finite element analysis suggests the bridge design needs additional reinforcement at the joints."
+ ],
+ "50": [
+  "My doctor prescribed a 10-day course of amoxicillin for my strep throat, but I'm worried about developing a rash.",
+  "Has anyone else experienced severe joint pain as a side effect of taking Lipitor for high cholesterol?",
+  "I'm looking for the latest research on the efficacy of MRI versus CT scans for diagnosing early-stage liver cirrhosis.",
+  "The surgeon explained that the recovery time for an ACL reconstruction is usually six to nine months with physical therapy.",
+  "What is the recommended dosage of antihistamines for treating acute allergic reactions to bee stings?"
+ ],
+ "51": [
+  "The new armor package on the M1A2 SEPv3 significantly increases weight but improves survivability against shaped charges.",
+  "Does anyone have the exact thrust-to-weight ratio for the F-35B variant during vertical landing operations?",
+  "The logistics chain for the carrier strike group requires a massive fleet of auxiliary oilers to remain effective in the Pacific.",
+  "Historically, the accuracy of artillery fire was revolutionized by the introduction of GPS-guided Excalibur rounds.",
+  "Is the 5.56mm round really sufficient for stopping power in urban combat environments, or should the military consider a larger caliber?"
+ ],
+ "54": [
+  "Just saw the launch feed, did the second stage separation occur nominally?",
+  "The new specs for the SpaceX Starship heat shield tiles look promising for reusability.",
+  "Does anyone have the orbital parameters for the Voyager probes as of 2024?",
+  "I'm building a model of the ISS and need clarification on the truss segment dimensions.",
+  "The atmospheric density on Mars is the biggest hurdle for landing heavy payloads."
+ ],
+ "55": [
+  "I'm planning a trip to Seoul next spring and would love some advice on local etiquette around dining with elders.",
+  "The tradition of afternoon tea in England seems to have changed quite a bit over the last few decades.",
+  "Can anyone explain the significance of the colors used in traditional Indian wedding ceremonies?",
+  "I found the differences in workplace hierarchy between American and Japanese companies really fascinating to navigate.",
+  "What are some common misconceptions people have about the concept of 'siesta' in Spanish culture?"
+ ],
+ "52": [
+  "The uncertainty principle doesn't imply that we can know the position perfectly if we accept infinite uncertainty in momentum.",
+  "I'm trying to calculate the moment of inertia for a solid cylinder rotating around its central axis, but my derivation is off by a factor of two.",
+  "Can anyone explain why the measured half-life of this isotope differs significantly from the standard model predictions?",
+  "Just finished setting up the double-slit experiment for my high school class, and the interference pattern is surprisingly clear.",
+  "If gravity is a curvature of spacetime, how do gravitons fit into the standard model as force-carrying particles?"
+ ],
+ "57": [
+  "Just came out to my parents last night, it went better than I expected.",
+  "Does anyone know of a good gay-friendly church in the Boston area?",
+  "The portrayal of the relationship in that new movie was surprisingly respectful.",
+  "Thinking about attending the pride parade in San Francisco this summer, who else is going?",
+  "It's frustrating when people assume sexuality is just a phase or a choice."
+ ],
+ "56": [
+  "The economic impact of the Marshall Plan on post-war Europe is still debated by historians today.",
+  "Does anyone have book recommendations for a comprehensive overview of the Byzantine Empire?",
+  "I disagree with your assessment of the causes of the French Revolution; fiscal policy was the primary driver.",
+  "Just found a collection of letters written by a Union soldier during the Battle of Gettysburg in my attic.",
+  "The transition from the Bronze Age to the Iron Age wasn't instantaneous but varied significantly by region."
+ ],
+ "58": [
+  "I've been struggling with the concept of grace versus works lately; can anyone recommend a good commentary on Romans?",
+  "Please keep my grandmother in your prayers as she prepares for her surgery tomorrow morning.",
+  "Does anyone know the historical context behind the different translations of the Lord's Prayer?",
+  "Our church is looking for volunteers to help with the upcoming Vacation Bible School next month.",
+  "I found today's sermon on the Sermon on the Mount very challenging, particularly the call to love our enemies."
+ ],
+ "59": [
+  "I am looking for advice on the correct method of performing wudu before prayer.",
+  "Can someone explain the differences between the various schools of thought regarding Islamic finance?",
+  "The translation of Surah Al-Asr really helped me understand the value of time and faith.",
+  "Is it permissible to combine prayers while traveling, and what are the conditions for doing so?",
+  "Assalamu alaikum, I have a question regarding the distribution of inheritance among family members."
+ ],
+ "61": [
+  "My partner and I are looking for resources on how to safely negotiate boundaries in an open relationship.",
+  "Is it normal to experience a sudden drop in libido after starting a new antidepressant medication?",
+  "We are planning to attend a workshop on tantra next month and are wondering if it's beginner-friendly.",
+  "I'm trying to find high-quality, body-safe materials when shopping for my first vibrator.",
+  "The discussion about consent in the latest episode of that podcast really highlighted the importance of enthusiastic verbal agreement."
+ ],
+ "62": [
+  "I'm really tired of the media portraying unrealistic body standards that no real woman can ever hope to achieve.",
+  "Has anyone else experienced the \"double shift\" of working full-time and still doing the majority of the housework?",
+  "I'm looking for recommendations on good books regarding the history of the suffragette movement.",
+  "The gender pay gap is still a very real issue, despite what some politicians try to tell us.",
+  "How do you handle relatives who constantly ask when you're going to settle down and have children?"
+ ],
+ "63": [
+  "I simply don't understand how anyone can look at the fossil record and deny the clear progression of species over time.",
+  "The complexity of the human eye proves that random mutation could never have produced such a perfect mechanism.",
+  "If humans evolved from apes, why are there still apes roaming the jungles today?",
+  "You are misrepresenting the Second Law of Thermodynamics, which applies to closed systems, not biological evolution.",
+  "The Cambrian explosion shows fully formed phyla appearing suddenly, which directly contradicts the gradualism Darwin proposed."
+ ],
+ "60": [
+  "I've been reading through the Book of Mormon again and am struggling to understand the context of Isaiah chapters quoted in 2 Nephi.",
+  "Could someone please explain the difference between the Aaronic and Melchizedek Priesthoods in terms of daily administration?",
+  "My family is planning a trip to Salt Lake City next month; are the temple square tours currently open to the public?",
+  "I have a question about the Word of Wisdom: is decaffeinated coffee considered against the health code?",
+  "We just had a wonderful experience with the missionaries visiting our home and are preparing for our first Sunday service."
+ ],
+ "64": [
+  "The Second Amendment clearly states the right to bear arms shall not be infringed, yet politicians keep pushing these unconstitutional bans.",
+  "Anyone who thinks criminals will follow background check laws is living in a fantasy world; they only disarm law-abiding citizens.",
+  "I just picked up a new Glock 19 for home defense, and the trigger pull is surprisingly smooth right out of the box.",
+  "Statistics show that violent crime actually drops in areas with high legal gun ownership, but the mainstream media refuses to report it.",
+  "The waiting period is nothing more than government overreach designed to discourage people from exercising their constitutional rights."
+ ],
+ "65": [
+  "The latest UN resolution does nothing to address the security concerns of Israel.",
+  "It is impossible to discuss the history of the region without acknowledging the impact of British colonialism.",
+  "Does anyone else see a double standard in how the media covers casualties on both sides?",
+  "The peace process has been stalled for years because neither leadership is willing to compromise.",
+  "Settlement expansion makes the prospect of a viable two-state solution increasingly unlikely."
+ ],
+ "67": [
+  "If we accept the social contract as binding, we must also accept the limitations on individual liberty it necessitates for the greater good.",
+  "The tension between positive and negative liberty is often misunderstood by modern libertarians who focus exclusively on non-interference.",
+  "Marx's critique of capitalism remains relevant, but his historical materialism fails to account for the resilience of cultural institutions.",
+  "Is true democracy possible within a nation-state, or does the very nature of centralized power necessitate an oligarchy?",
+  "Rawls\u2019 \"veil of ignorance\" provides a compelling framework for establishing justice, provided one accepts the initial premises of rational self-interest."
+ ],
+ "66": [
+  "I really think the new tax proposal will hurt small businesses more than the opposition is admitting.",
+  "Did anyone else catch the senator's gaffe during the debate last night? That's going to cost him votes.",
+  "It is frustrating how partisan the confirmation process has become; qualifications don't seem to matter anymore.",
+  "Foreign policy regarding the trade agreement seems to be shifting every week, creating a lot of market instability.",
+  "We need to stop looking at everything through the lens of party loyalty and focus on actual policy solutions."
+ ],
+ "36": [
+  "Just picked up the new Zelda, the graphics are absolutely insane on the Switch.",
+  "Does anyone know if the DualSense stick drift issue has been fixed in the newer batches?",
+  "I'm stuck on the final boss in Elden Ring, any tips for a strength build?",
+  "The frame rate drops are pretty bad on the PS5 version, hoping for a patch soon.",
+  "Finally found a copy of Panzer Dragoon Saga at a garage sale for five bucks"
+ ],
+ "44": [
+  "The Andromeda Galaxy is approaching the Milky Way at approximately 110 kilometers per second.",
+  "I'm looking for a good equatorial mount under $500 to support an 8-inch reflector for astrophotography.",
+  "Does anyone have experience with the latest light pollution filters for capturing emission nebulae?",
+  "The spectral classification of this star indicates a surface temperature of roughly 10,000 Kelvin.",
+  "Evidence suggests that the supermassive black hole at the galactic center is currently dormant."
+ ],
+ "53": [
+  "I've been looking into the claims about the \"Hutchison Effect,\" but I can't find any peer-reviewed replication of the results.",
+  "The \"power lines cause cancer\" scare was largely debunked by epidemiological studies, yet the myth persists.",
+  "Does anyone have a solid statistical breakdown of the \"Mars Effect\" that Gauquelin claimed to discover?",
+  "I attended the psychic fair yesterday, and the cold reading techniques being used were painfully obvious.",
+  "That documentary on ancient aliens presents a classic \"god of the gaps\" argument rather than actual archaeological evidence."
+ ]
+}

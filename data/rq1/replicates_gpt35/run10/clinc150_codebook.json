@@ -1,0 +1,85 @@
+{
+  "bench": "clinc150",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Travel Inquiries",
+      "definition": "Questions related to travel plans, visas, shots, and flight details"
+    },
+    {
+      "id": 2,
+      "name": "Appointment Inquiries",
+      "definition": "Questions about past or future appointments and reservations"
+    },
+    {
+      "id": 3,
+      "name": "Financial Account Inquiries",
+      "definition": "Queries about bank accounts, credit limits, credit card balances, and credit scores"
+    },
+    {
+      "id": 4,
+      "name": "Shopping List Management",
+      "definition": "Requests to add, remove, or check items on a shopping list"
+    },
+    {
+      "id": 5,
+      "name": "Personal Information Inquiries",
+      "definition": "Questions about personal details, names, and relationships"
+    },
+    {
+      "id": 6,
+      "name": "Recipe Requests",
+      "definition": "Inquiries about recipes, ingredients, and cooking instructions"
+    },
+    {
+      "id": 7,
+      "name": "Mathematical Calculations",
+      "definition": "Questions involving mathematical calculations and conversions"
+    },
+    {
+      "id": 8,
+      "name": "Reservation Management",
+      "definition": "Requests to make, change, or cancel reservations for various services"
+    },
+    {
+      "id": 9,
+      "name": "Language Translation",
+      "definition": "Requests for translations or language-related queries"
+    },
+    {
+      "id": 10,
+      "name": "Entertainment Inquiries",
+      "definition": "Questions about music, movies, jokes, and popular culture"
+    },
+    {
+      "id": 11,
+      "name": "Home Maintenance",
+      "definition": "Inquiries about home repairs, cleaning, and maintenance tasks"
+    },
+    {
+      "id": 12,
+      "name": "Health and Safety Concerns",
+      "definition": "Queries related to health, safety, and emergency situations"
+    },
+    {
+      "id": 13,
+      "name": "Technology Assistance",
+      "definition": "Requests for technical support, device instructions, and troubleshooting"
+    },
+    {
+      "id": 14,
+      "name": "Social Interactions",
+      "definition": "Queries about social interactions, relationships, and communication"
+    },
+    {
+      "id": 15,
+      "name": "General Knowledge Inquiries",
+      "definition": "Questions seeking general information, facts, and trivia"
+    }
+  ]
+}

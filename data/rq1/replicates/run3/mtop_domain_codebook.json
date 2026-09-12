@@ -1,0 +1,47 @@
+{
+  "bench": "mtop_domain",
+  "run": 3,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms",
+      "definition": "Manage the setting, modification, deletion, or querying of alarms.\"\n    ,\n    {\n      \"id\": 2,\n      \"name\": \"Timers\",\n      \"definition\": \"Manage the setting, modification, deletion, or querying of countdown timers."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Manage the setting, modification, deletion, or querying of task or event reminders."
+    },
+    {
+      "id": 3,
+      "name": "Communication",
+      "definition": "Initiate, manage, or query calls, messages, or social media posts to other individuals or groups."
+    },
+    {
+      "id": 4,
+      "name": "Information Query",
+      "definition": "Request factual information, definitions, recipes, events, or details about people, places, or things."
+    },
+    {
+      "id": 5,
+      "name": "News",
+      "definition": "Request current events, headlines, or specific news topics."
+    },
+    {
+      "id": 6,
+      "name": "Weather",
+      "definition": "Request current or forecasted weather conditions."
+    },
+    {
+      "id": 7,
+      "name": "Media Playback",
+      "definition": "Play, control, or query audio or video content."
+    },
+    {
+      "id": 8,
+      "name": "Assistant Control",
+      "definition": "Issue commands directly related to the assistant's own operation or interaction."
+    }
+  ]
+}

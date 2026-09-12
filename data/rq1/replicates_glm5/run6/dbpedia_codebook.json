@@ -1,0 +1,74 @@
+{
+  "bench": "dbpedia",
+  "run": 6,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Vehicles",
+      "definition": "Machines or vessels designed for transportation on land, water, or air, including cars, ships, aircraft, and trains."
+    },
+    {
+      "id": 2,
+      "name": "Buildings and Structures",
+      "definition": "Man-made constructions such as houses, churches, schools, hospitals, and historic buildings."
+    },
+    {
+      "id": 3,
+      "name": "Biological Organisms",
+      "definition": "Living entities including species of animals, plants, fungi, and microorganisms, or biological genera."
+    },
+    {
+      "id": 4,
+      "name": "Educational Institutions",
+      "definition": "Schools, universities, colleges, and other organizations dedicated to teaching and learning."
+    },
+    {
+      "id": 5,
+      "name": "Companies and Organizations",
+      "definition": "Business entities, corporations, non-profit organizations, and other collective groups formed for commercial or social purposes."
+    },
+    {
+      "id": 6,
+      "name": "Geographical Features",
+      "definition": "Natural or artificial features of the Earth's surface, including mountains, rivers, lakes, and islands."
+    },
+    {
+      "id": 7,
+      "name": "Creative Works",
+      "definition": "Artistic and intellectual productions such as films, books, music albums, novels, and comics."
+    },
+    {
+      "id": 8,
+      "name": "People",
+      "definition": "Individual human beings, including politicians, athletes, artists, writers, and other notable figures."
+    },
+    {
+      "id": 9,
+      "name": "Periodicals",
+      "definition": "Publications issued at regular intervals, such as newspapers, academic journals, and magazines."
+    },
+    {
+      "id": 10,
+      "name": "Settlements",
+      "definition": "Human habitations such as cities, towns, villages, and hamlets."
+    },
+    {
+      "id": 11,
+      "name": "Films",
+      "definition": "Motion pictures and cinematic works."
+    },
+    {
+      "id": 12,
+      "name": "Albums",
+      "definition": "Collections of audio recordings, typically music, released as a single item."
+    },
+    {
+      "id": 13,
+      "name": "Books",
+      "definition": "Written or printed works of fiction or non-fiction, including novels and biographies."
+    }
+  ]
+}

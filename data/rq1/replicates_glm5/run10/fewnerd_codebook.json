@@ -1,0 +1,89 @@
+{
+  "bench": "fewnerd",
+  "run": 10,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "Named individuals, including historical figures, celebrities, athletes, and fictional characters."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "Geographical entities such as countries, cities, towns, mountains, bodies of water, and astronomical features."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "Formal groups, associations, companies, institutions, government bodies, political parties, and sports teams."
+    },
+    {
+      "id": 4,
+      "name": "Creative Work",
+      "definition": "Artistic and intellectual productions such as films, books, songs, albums, plays, television series, and video games."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "Specific occurrences, incidents, battles, tournaments, competitions, and historical movements."
+    },
+    {
+      "id": 6,
+      "name": "Product",
+      "definition": "Manufactured goods, vehicles, weapons, software, and commercial items."
+    },
+    {
+      "id": 7,
+      "name": "Biological Entity",
+      "definition": "Living organisms, species, biological molecules, and anatomical parts."
+    },
+    {
+      "id": 8,
+      "name": "Language",
+      "definition": "Specific languages, dialects, and language groups."
+    },
+    {
+      "id": 9,
+      "name": "Award",
+      "definition": "Prizes, honors, and official recognitions given for achievement."
+    },
+    {
+      "id": 10,
+      "name": "Transport Infrastructure",
+      "definition": "Fixed installations for transportation, including roads, bridges, tunnels, railways, and stations."
+    },
+    {
+      "id": 11,
+      "name": "Building",
+      "definition": "Man-made structures with roofs and walls, such as houses, hotels, theatres, and stadiums."
+    },
+    {
+      "id": 12,
+      "name": "Currency",
+      "definition": "Monetary units and currencies."
+    },
+    {
+      "id": 13,
+      "name": "Disease",
+      "definition": "Medical conditions, disorders, and syndromes."
+    },
+    {
+      "id": 14,
+      "name": "Ethnicity",
+      "definition": "Social groups defined by shared cultural, ancestral, or national identity."
+    },
+    {
+      "id": 15,
+      "name": "Chemical Substance",
+      "definition": "Chemical elements, compounds, and distinct chemical substances."
+    },
+    {
+      "id": 16,
+      "name": "Academic Degree",
+      "definition": "Academic titles and qualifications conferred by educational institutions."
+    }
+  ]
+}

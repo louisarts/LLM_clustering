@@ -1,0 +1,237 @@
+{
+  "bench": "tweet89",
+  "run": 2,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "News and updates related to the shooting of Rep. Gabrielle Giffords and her subsequent recovery."
+    },
+    {
+      "id": 2,
+      "name": "Acai Berry Weight Loss Claims",
+      "definition": "Discussions, promotions, and critiques of acai berry products for weight loss."
+    },
+    {
+      "id": 3,
+      "name": "Bullying and Anti-Bullying Efforts",
+      "definition": "News, articles, and discussions about bullying, its effects, and prevention programs."
+    },
+    {
+      "id": 4,
+      "name": "Indian Navy Anti-Piracy Operations",
+      "definition": "Reports on the Indian Navy's efforts and successes in combating piracy."
+    },
+    {
+      "id": 5,
+      "name": "Super Bowl Commercials",
+      "definition": "Reviews, discussions, and highlights of advertisements aired during the Super Bowl."
+    },
+    {
+      "id": 6,
+      "name": "Christina Aguilera National Anthem Flub",
+      "definition": "News and reactions concerning Christina Aguilera's mistake during the Super Bowl national anthem performance."
+    },
+    {
+      "id": 7,
+      "name": "Yemen Political Protests",
+      "definition": "Reports on protests, demands for government change, and the political situation in Yemen."
+    },
+    {
+      "id": 8,
+      "name": "Egyptian Protests and Journalist Detentions",
+      "definition": "News about the Egyptian uprising, government actions, and the detention of journalists."
+    },
+    {
+      "id": 9,
+      "name": "Oscar Nominations and Awards",
+      "definition": "Announcements, predictions, and results related to the Academy Awards."
+    },
+    {
+      "id": 10,
+      "name": "Obamacare Legal Challenges",
+      "definition": "Updates and rulings regarding legal challenges to the Affordable Care Act (Obamacare)."
+    },
+    {
+      "id": 11,
+      "name": "Moscow Airport Bombing",
+      "definition": "News and investigations related to the terrorist attack at Moscow's Domodedovo Airport."
+    },
+    {
+      "id": 12,
+      "name": "Sundance Film Festival Coverage",
+      "definition": "Coverage of film premieres, celebrity appearances, and events at the Sundance Film Festival."
+    },
+    {
+      "id": 13,
+      "name": "TSA Policies and Jesse Ventura Lawsuit",
+      "definition": "Discussions and legal challenges concerning Transportation Security Administration (TSA) procedures, including Jesse Ventura's lawsuit."
+    },
+    {
+      "id": 14,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "News and developments in the murder investigation of Joanna Yeates."
+    },
+    {
+      "id": 15,
+      "name": "Texting While Driving Awareness",
+      "definition": "Campaigns, warnings, and discussions about the dangers of texting while driving."
+    },
+    {
+      "id": 16,
+      "name": "Kardashian Family News",
+      "definition": "Celebrity gossip and updates related to the Kardashian family members."
+    },
+    {
+      "id": 17,
+      "name": "Fishing and Angling News",
+      "definition": "Reports, tips, and discussions related to fishing, fly fishing, and angling."
+    },
+    {
+      "id": 18,
+      "name": "NY State Budget and Spending Cuts",
+      "definition": "News and discussions about New York Governor Andrew Cuomo's budget proposals and state spending cuts."
+    },
+    {
+      "id": 19,
+      "name": "Immigration Law Debates",
+      "definition": "Discussions and legal challenges surrounding immigration laws, particularly those in Arizona."
+    },
+    {
+      "id": 20,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Reports on the lawsuit questioning the beef content in Taco Bell products."
+    },
+    {
+      "id": 21,
+      "name": "Michelle Obama's Health Initiatives",
+      "definition": "News and updates on Michelle Obama's campaigns for health, fitness, and childhood nutrition."
+    },
+    {
+      "id": 22,
+      "name": "Venezuela Political News",
+      "definition": "Reports on the political situation in Venezuela, including President Hugo Chavez."
+    },
+    {
+      "id": 23,
+      "name": "Apple and Steve Jobs News",
+      "definition": "Updates and discussions related to Apple Inc. and its co-founder Steve Jobs."
+    },
+    {
+      "id": 24,
+      "name": "FDA Drug Approvals",
+      "definition": "Announcements and news regarding new drug approvals by the Food and Drug Administration."
+    },
+    {
+      "id": 25,
+      "name": "Australian Open Tennis",
+      "definition": "News and results from the Australian Open tennis championship."
+    },
+    {
+      "id": 26,
+      "name": "Myanmar Sanctions",
+      "definition": "Discussions and reports on international sanctions against Myanmar."
+    },
+    {
+      "id": 27,
+      "name": "Jordan Political Protests",
+      "definition": "Reports on protests and demands for political change in Jordan."
+    },
+    {
+      "id": 28,
+      "name": "White Stripes Band Breakup",
+      "definition": "News and reactions to the musical group The White Stripes disbanding."
+    },
+    {
+      "id": 29,
+      "name": "General Government Spending Cuts",
+      "definition": "Broader news and discussions about government budget cuts and austerity measures not specific to a particular state."
+    },
+    {
+      "id": 30,
+      "name": "Identity Theft Prevention",
+      "definition": "Advice, warnings, and news related to preventing identity theft."
+    },
+    {
+      "id": 31,
+      "name": "Energy Conservation Tips",
+      "definition": "Practical advice and information on saving energy and reducing utility bills."
+    },
+    {
+      "id": 32,
+      "name": "Social Media's Role in Protests",
+      "definition": "Discussions and analyses of how social media is used in political protests and revolutions."
+    },
+    {
+      "id": 33,
+      "name": "Robert Kubica Rally Accident",
+      "definition": "News and updates on the rally car accident involving driver Robert Kubica."
+    },
+    {
+      "id": 34,
+      "name": "Keith Olbermann Career News",
+      "definition": "Reports on the career moves and activities of journalist Keith Olbermann."
+    },
+    {
+      "id": 35,
+      "name": "Supreme Court Rulings",
+      "definition": "News and analyses of decisions made by the U.S. Supreme Court."
+    },
+    {
+      "id": 36,
+      "name": "Obama Birth Certificate Controversy",
+      "definition": "Discussions and reports related to the controversy surrounding President Obama's birth certificate."
+    },
+    {
+      "id": 37,
+      "name": "Tea Party Political Movement",
+      "definition": "News and discussions related to the Tea Party movement in U.S. politics."
+    },
+    {
+      "id": 38,
+      "name": "Stuxnet Cyberattack",
+      "definition": "Reports and analyses of the Stuxnet computer worm and its implications."
+    },
+    {
+      "id": 39,
+      "name": "Chicago Snow Storm",
+      "definition": "News and impacts of a significant snow storm in Chicago."
+    },
+    {
+      "id": 40,
+      "name": "Fashion Week Events",
+      "definition": "Coverage of fashion industry events, such as Fashion Week in New York."
+    },
+    {
+      "id": 41,
+      "name": "Iran Execution News",
+      "definition": "News related to human rights issues and legal cases in Iran, such as executions."
+    },
+    {
+      "id": 42,
+      "name": "Unemployment Statistics",
+      "definition": "Reports and analyses of unemployment rates and economic data."
+    },
+    {
+      "id": 43,
+      "name": "Charlie Sheen Celebrity News",
+      "definition": "Gossip and updates related to actor Charlie Sheen."
+    },
+    {
+      "id": 44,
+      "name": "Sports Concussion Protocols",
+      "definition": "Discussions and news about concussion protocols and player safety in professional sports."
+    },
+    {
+      "id": 45,
+      "name": "Movie Trailers and Film Releases",
+      "definition": "Announcements and discussions about upcoming movie trailers and film releases."
+    },
+    {
+      "id": 46,
+      "name": "Al Gore and Climate Change",
+      "definition": "Discussions related to Al Gore, climate change, and specific weather events like 'Snowmaggedon'."
+    }
+  ]
+}

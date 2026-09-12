@@ -1,0 +1,109 @@
+{
+  "bench": "fewnerd",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "Named individuals, including historical figures, politicians, athletes, artists, and fictional characters."
+    },
+    {
+      "id": 2,
+      "name": "Location",
+      "definition": "Geographical entities such as countries, cities, towns, islands, mountains, bodies of water, and geological features."
+    },
+    {
+      "id": 3,
+      "name": "Organization",
+      "definition": "Formal groups, associations, companies, institutions, government bodies, sports teams, and clubs."
+    },
+    {
+      "id": 4,
+      "name": "Creative Work",
+      "definition": "Artistic and intellectual productions such as films, books, plays, songs, albums, video games, and television programs."
+    },
+    {
+      "id": 5,
+      "name": "Event",
+      "definition": "Occurrences, incidents, competitions, festivals, battles, and elections that happen at a specific time."
+    },
+    {
+      "id": 6,
+      "name": "Transportation",
+      "definition": "Vehicles, aircraft, ships, railway lines, roads, and specific models or classes of transportation."
+    },
+    {
+      "id": 7,
+      "name": "Biological Entity",
+      "definition": "Living organisms including species of animals, plants, fungi, and specific biological proteins or genes."
+    },
+    {
+      "id": 8,
+      "name": "Celestial Object",
+      "definition": "Astronomical entities such as stars, galaxies, constellations, and planetary bodies."
+    },
+    {
+      "id": 9,
+      "name": "Language",
+      "definition": "Specific human languages, dialects, or language families."
+    },
+    {
+      "id": 10,
+      "name": "Currency",
+      "definition": "Monetary units and currencies used by countries or regions."
+    },
+    {
+      "id": 11,
+      "name": "Chemical Substance",
+      "definition": "Chemical elements, compounds, drugs, medications, and distinct molecular structures."
+    },
+    {
+      "id": 12,
+      "name": "Building",
+      "definition": "Man-made structures including stadiums, theatres, hotels, museums, and specific facilities."
+    },
+    {
+      "id": 13,
+      "name": "Product",
+      "definition": "Manufactured goods, commercial products, software, and named product lines."
+    },
+    {
+      "id": 14,
+      "name": "Legislation",
+      "definition": "Laws, acts, treaties, and formal legal documents enacted by a government."
+    },
+    {
+      "id": 15,
+      "name": "Demographic Group",
+      "definition": "Groups of people defined by nationality, ethnicity, religion, or other shared characteristics."
+    },
+    {
+      "id": 16,
+      "name": "Award",
+      "definition": "Prizes, honors, and distinctions awarded for achievement."
+    },
+    {
+      "id": 17,
+      "name": "Sports League",
+      "definition": "Specific leagues, conferences, and divisions within organized sports."
+    },
+    {
+      "id": 18,
+      "name": "Deity",
+      "definition": "Gods, goddesses, and divine figures from mythology or religion."
+    },
+    {
+      "id": 19,
+      "name": "Educational Degree",
+      "definition": "Academic degrees and qualifications awarded by educational institutions."
+    },
+    {
+      "id": 20,
+      "name": "Title",
+      "definition": "Formal titles of nobility, honorifics, or specific ranks."
+    }
+  ]
+}

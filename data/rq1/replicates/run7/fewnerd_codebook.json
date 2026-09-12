@@ -1,0 +1,167 @@
+{
+  "bench": "fewnerd",
+  "run": 7,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Person",
+      "definition": "A human individual, real or fictional."
+    },
+    {
+      "id": 2,
+      "name": "Country",
+      "definition": "A sovereign state, nation, or dependent territory."
+    },
+    {
+      "id": 3,
+      "name": "Administrative Division",
+      "definition": "A sub-national political or geographical unit within a country, such as a state, province, region, or constituency."
+    },
+    {
+      "id": 4,
+      "name": "Organization",
+      "definition": "A structured group of people with a particular purpose, such as a company, institution, government agency, sports team, or political party."
+    },
+    {
+      "id": 5,
+      "name": "Structure or Facility",
+      "definition": "A built place or physical construction, including buildings, stadiums, airports, monuments, or studios."
+    },
+    {
+      "id": 6,
+      "name": "Body of Water",
+      "definition": "A significant accumulation of water, such as a lake, river, or reservoir."
+    },
+    {
+      "id": 7,
+      "name": "Populated Place",
+      "definition": "A city, town, village, suburb, or other human settlement."
+    },
+    {
+      "id": 8,
+      "name": "Chemical or Biological Substance",
+      "definition": "A molecule, protein, gene, chemical element, or other biological substance."
+    },
+    {
+      "id": 9,
+      "name": "Product or Model",
+      "definition": "A manufactured item, vehicle, specific model, or type of product."
+    },
+    {
+      "id": 10,
+      "name": "Species",
+      "definition": "A group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding."
+    },
+    {
+      "id": 11,
+      "name": "Currency",
+      "definition": "A medium of exchange, including symbols or codes."
+    },
+    {
+      "id": 12,
+      "name": "Creative Work",
+      "definition": "A book, film, song, album, TV show, game, or other artistic or intellectual creation."
+    },
+    {
+      "id": 13,
+      "name": "Nationality or Demonym",
+      "definition": "An adjective or noun referring to the origin or affiliation of a person or thing with a particular nation or region."
+    },
+    {
+      "id": 14,
+      "name": "Event",
+      "definition": "A significant occurrence, happening, or organized activity, including historical events, natural disasters, or sports tournaments."
+    },
+    {
+      "id": 15,
+      "name": "Geographical Feature",
+      "definition": "A natural or physical landform or area."
+    },
+    {
+      "id": 16,
+      "name": "Academic Degree",
+      "definition": "A qualification awarded by a college or university."
+    },
+    {
+      "id": 17,
+      "name": "Language",
+      "definition": "A system of communication used by a particular country or community."
+    },
+    {
+      "id": 18,
+      "name": "Infrastructure",
+      "definition": "Fundamental facilities and systems serving a country, city, or area, such as roads, railways, or utilities."
+    },
+    {
+      "id": 19,
+      "name": "Historical Political Entity",
+      "definition": "A past state, empire, kingdom, or regime."
+    },
+    {
+      "id": 20,
+      "name": "Deity",
+      "definition": "A god or goddess in a polytheistic religion."
+    },
+    {
+      "id": 21,
+      "name": "Award",
+      "definition": "A prize or honor bestowed for achievement."
+    },
+    {
+      "id": 22,
+      "name": "Law or Legislation",
+      "definition": "A rule or set of rules established by authority, including acts, laws, or treaties."
+    },
+    {
+      "id": 23,
+      "name": "Software",
+      "definition": "Programs and other operating information used by a computer."
+    },
+    {
+      "id": 24,
+      "name": "Game",
+      "definition": "A form of play or sport, especially a competitive one played according to rules."
+    },
+    {
+      "id": 25,
+      "name": "Concept or Term",
+      "definition": "An abstract idea, scientific term, or theoretical construct."
+    },
+    {
+      "id": 26,
+      "name": "Demographic Group",
+      "definition": "A specific segment of a population."
+    },
+    {
+      "id": 27,
+      "name": "Fictional Character",
+      "definition": "A character from a work of fiction."
+    },
+    {
+      "id": 28,
+      "name": "Celestial Body",
+      "definition": "A natural object in space, such as a star or planet."
+    },
+    {
+      "id": 29,
+      "name": "Political Affiliation",
+      "definition": "An adjective or abbreviation indicating alignment with a political party or ideology."
+    },
+    {
+      "id": 30,
+      "name": "Historical Site or Location",
+      "definition": "A place of historical significance."
+    },
+    {
+      "id": 31,
+      "name": "Biological Process or Term",
+      "definition": "A specific biological or biochemical process or term."
+    },
+    {
+      "id": 32,
+      "name": "Medical Condition",
+      "definition": "A disease, illness, or other health problem."
+    }
+  ]
+}

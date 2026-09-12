@@ -1,0 +1,110 @@
+{
+  "bench": "reddit_s2s",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Food & Drink",
+      "definition": "Posts related to food, drinks, and recipes."
+    },
+    {
+      "id": 2,
+      "name": "Music & Arts",
+      "definition": "Posts related to music, art, literature, and creative expression."
+    },
+    {
+      "id": 3,
+      "name": "Sports & Fitness",
+      "definition": "Posts related to sports, fitness, and physical activities."
+    },
+    {
+      "id": 4,
+      "name": "Politics & Government",
+      "definition": "Posts related to politics, government policies, and politicians."
+    },
+    {
+      "id": 5,
+      "name": "Technology & Gadgets",
+      "definition": "Posts related to technology, gadgets, and electronics."
+    },
+    {
+      "id": 6,
+      "name": "Education & Learning",
+      "definition": "Posts related to education, learning, and academic queries."
+    },
+    {
+      "id": 7,
+      "name": "Travel & Places",
+      "definition": "Posts related to travel destinations, tips, and experiences."
+    },
+    {
+      "id": 8,
+      "name": "Entertainment & Media",
+      "definition": "Posts related to movies, TV shows, comics, and entertainment industry."
+    },
+    {
+      "id": 9,
+      "name": "Health & Wellness",
+      "definition": "Posts related to health, wellness, medical queries, and fitness tips."
+    },
+    {
+      "id": 10,
+      "name": "Fashion & Style",
+      "definition": "Posts related to fashion trends, clothing, and personal style."
+    },
+    {
+      "id": 11,
+      "name": "Business & Finance",
+      "definition": "Posts related to business, finance, investments, and economic news."
+    },
+    {
+      "id": 12,
+      "name": "Science & Nature",
+      "definition": "Posts related to scientific discoveries, nature, and environmental issues."
+    },
+    {
+      "id": 13,
+      "name": "Anime & Manga",
+      "definition": "Posts related to anime, manga, and Japanese pop culture."
+    },
+    {
+      "id": 14,
+      "name": "Automotive",
+      "definition": "Posts related to cars, motorcycles, and automotive industry."
+    },
+    {
+      "id": 15,
+      "name": "Religion & Spirituality",
+      "definition": "Posts related to religion, spirituality, and philosophical discussions."
+    },
+    {
+      "id": 16,
+      "name": "Pets & Animals",
+      "definition": "Posts related to pets, animals, and animal care."
+    },
+    {
+      "id": 17,
+      "name": "Art & Design",
+      "definition": "Posts related to art, design, and creative projects."
+    },
+    {
+      "id": 18,
+      "name": "Books & Literature",
+      "definition": "Posts related to books, literature, and reading recommendations."
+    },
+    {
+      "id": 19,
+      "name": "Photography",
+      "definition": "Posts related to photography, camera equipment, and photo editing."
+    },
+    {
+      "id": 20,
+      "name": "History & Culture",
+      "definition": "Posts related to historical events, cultural traditions, and heritage sites."
+    }
+  ]
+}

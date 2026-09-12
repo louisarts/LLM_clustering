@@ -1,0 +1,74 @@
+{
+  "bench": "mtop_domain",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Alarms",
+      "definition": "Setting, managing, or querying alarms intended to wake the user or signal a specific time."
+    },
+    {
+      "id": 2,
+      "name": "Reminders",
+      "definition": "Creating, modifying, or viewing tasks or notifications intended to remind the user to do something."
+    },
+    {
+      "id": 3,
+      "name": "Timers",
+      "definition": "Starting, stopping, adjusting, or querying countdown timers."
+    },
+    {
+      "id": 4,
+      "name": "Messaging",
+      "definition": "Sending, reading, or managing text-based communications or voicemail."
+    },
+    {
+      "id": 5,
+      "name": "Calling",
+      "definition": "Initiating, managing, or ending voice or video calls."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Playing, controlling, or querying music, audio tracks, or music providers."
+    },
+    {
+      "id": 7,
+      "name": "Weather",
+      "definition": "Querying current conditions, forecasts, or specific weather attributes like temperature or precipitation."
+    },
+    {
+      "id": 8,
+      "name": "News",
+      "definition": "Requesting news updates, headlines, or specific information about current events."
+    },
+    {
+      "id": 9,
+      "name": "Recipes and Cooking",
+      "definition": "Requesting recipes, cooking instructions, or food preparation details."
+    },
+    {
+      "id": 10,
+      "name": "People and Relationships",
+      "definition": "Querying information about people, their relationships, locations, or employment."
+    },
+    {
+      "id": 11,
+      "name": "Events and Local",
+      "definition": "Finding local activities, events, or things to do in a specific area."
+    },
+    {
+      "id": 12,
+      "name": "Nutrition",
+      "definition": "Querying nutritional information, calories, or food content."
+    },
+    {
+      "id": 13,
+      "name": "Availability",
+      "definition": "Managing or querying user presence status or availability."
+    }
+  ]
+}

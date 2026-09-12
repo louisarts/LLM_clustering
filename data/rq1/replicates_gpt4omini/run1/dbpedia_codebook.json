@@ -1,0 +1,85 @@
+{
+  "bench": "dbpedia",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Buildings",
+      "definition": "Structures designed for human use, including residential, commercial, and institutional buildings."
+    },
+    {
+      "id": 2,
+      "name": "Vehicles",
+      "definition": "Means of transportation, including cars, aircraft, ships, and other conveyances."
+    },
+    {
+      "id": 3,
+      "name": "People",
+      "definition": "Individuals notable for their contributions in various fields such as politics, arts, sports, and science."
+    },
+    {
+      "id": 4,
+      "name": "Places",
+      "definition": "Geographical locations including cities, towns, villages, and natural landmarks."
+    },
+    {
+      "id": 5,
+      "name": "Plants",
+      "definition": "Living organisms in the kingdom Plantae, including trees, shrubs, flowers, and other flora."
+    },
+    {
+      "id": 6,
+      "name": "Animals",
+      "definition": "Living organisms in the kingdom Animalia, including mammals, birds, reptiles, amphibians, and insects."
+    },
+    {
+      "id": 7,
+      "name": "Organizations",
+      "definition": "Groups or entities formed for a specific purpose, including companies, schools, and non-profits."
+    },
+    {
+      "id": 8,
+      "name": "Literature",
+      "definition": "Written works, including novels, short stories, poetry, and plays."
+    },
+    {
+      "id": 9,
+      "name": "Films",
+      "definition": "Motion pictures or movies produced for entertainment or artistic expression."
+    },
+    {
+      "id": 10,
+      "name": "Music",
+      "definition": "Artistic compositions created for performance, including albums, songs, and musical works."
+    },
+    {
+      "id": 11,
+      "name": "Historical Events",
+      "definition": "Significant occurrences that have shaped history, including wars, discoveries, and cultural movements."
+    },
+    {
+      "id": 12,
+      "name": "Scientific Concepts",
+      "definition": "Theories, principles, and discoveries in various scientific fields."
+    },
+    {
+      "id": 13,
+      "name": "Religious Sites",
+      "definition": "Locations of worship or spiritual significance, including churches, temples, and mosques."
+    },
+    {
+      "id": 14,
+      "name": "Sports",
+      "definition": "Activities involving physical exertion and skill, often competitive in nature."
+    },
+    {
+      "id": 15,
+      "name": "Cultural Practices",
+      "definition": "Traditions, customs, and rituals associated with specific groups or societies."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "bench": "fewevent",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Military Service",
+      "definition": "Events related to military roles or actions, such as soldier, sailor, or command."
+    },
+    {
+      "id": 2,
+      "name": "Academic Roles",
+      "definition": "Events related to academic positions or achievements, such as professor, student, or graduate."
+    },
+    {
+      "id": 3,
+      "name": "Political Roles",
+      "definition": "Events related to political positions or actions, such as president, administration, or minister."
+    },
+    {
+      "id": 4,
+      "name": "Sports Achievements",
+      "definition": "Events related to sports accomplishments, such as medal, win, or competition."
+    },
+    {
+      "id": 5,
+      "name": "Music and Entertainment",
+      "definition": "Events related to music or entertainment roles, such as singer, musician, or film."
+    },
+    {
+      "id": 6,
+      "name": "Marriage and Relationships",
+      "definition": "Events related to marital or relationship status, such as wife, husband, or marriage."
+    },
+    {
+      "id": 7,
+      "name": "Legal and Crime",
+      "definition": "Events related to legal actions or crimes, such as murder, arrested, or charged."
+    },
+    {
+      "id": 8,
+      "name": "Business and Employment",
+      "definition": "Events related to business roles or employment, such as work, position, or director."
+    },
+    {
+      "id": 9,
+      "name": "Awards and Honors",
+      "definition": "Events related to receiving awards or honors, such as medal or winner."
+    },
+    {
+      "id": 10,
+      "name": "Social and Cultural Events",
+      "definition": "Events related to social or cultural activities, such as protest, rally, or festival."
+    },
+    {
+      "id": 11,
+      "name": "Statements and Communication",
+      "definition": "Events related to verbal or written communication, such as said, statement, or explained."
+    },
+    {
+      "id": 12,
+      "name": "Transportation and Movement",
+      "definition": "Events related to movement or travel, such as moving, travel, or arrived."
+    },
+    {
+      "id": 13,
+      "name": "Leadership and Management",
+      "definition": "Events related to leadership roles or management, such as chief, head, or leader."
+    },
+    {
+      "id": 14,
+      "name": "Education and Training",
+      "definition": "Events related to educational activities or training, such as school, training, or instruction."
+    },
+    {
+      "id": 15,
+      "name": "Economic and Financial",
+      "definition": "Events related to economic or financial activities, such as buy, sell, or employment."
+    },
+    {
+      "id": 16,
+      "name": "Violence and Conflict",
+      "definition": "Events related to violence or conflict, such as violence, war, or battle."
+    },
+    {
+      "id": 17,
+      "name": "Legal and Judicial",
+      "definition": "Events related to legal or judicial actions, such as court, trial, or sentenced."
+    },
+    {
+      "id": 18,
+      "name": "Art and Literature",
+      "definition": "Events related to art or literature, such as work, painting, or writing."
+    },
+    {
+      "id": 19,
+      "name": "Family and Relationships",
+      "definition": "Events related to family or personal relationships, such as wife, husband, or partner."
+    },
+    {
+      "id": 20,
+      "name": "Public and Media",
+      "definition": "Events related to public or media activities, such as media, broadcast, or publication."
+    }
+  ]
+}

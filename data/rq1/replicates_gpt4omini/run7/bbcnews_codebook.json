@@ -1,0 +1,85 @@
+{
+  "bench": "bbcnews",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics",
+      "definition": "Articles covering political events, parties, elections, and government actions."
+    },
+    {
+      "id": 2,
+      "name": "Economy",
+      "definition": "Articles discussing economic conditions, financial markets, and corporate news."
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "definition": "Articles related to technological advancements, gadgets, and software."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment",
+      "definition": "Articles covering movies, music, television, and celebrity news."
+    },
+    {
+      "id": 5,
+      "name": "Sports",
+      "definition": "Articles discussing sporting events, athletes, and related news."
+    },
+    {
+      "id": 6,
+      "name": "Health",
+      "definition": "Articles related to health issues, medical advancements, and public health policies."
+    },
+    {
+      "id": 7,
+      "name": "Environment",
+      "definition": "Articles discussing environmental issues, climate change, and sustainability."
+    },
+    {
+      "id": 8,
+      "name": "International Affairs",
+      "definition": "Articles covering global events, international relations, and foreign policy."
+    },
+    {
+      "id": 9,
+      "name": "Social Issues",
+      "definition": "Articles discussing societal challenges, human rights, and community matters."
+    },
+    {
+      "id": 10,
+      "name": "Crime and Law",
+      "definition": "Articles related to criminal activities, legal cases, and law enforcement."
+    },
+    {
+      "id": 11,
+      "name": "Education",
+      "definition": "Articles discussing educational policies, institutions, and issues affecting education."
+    },
+    {
+      "id": 12,
+      "name": "Culture",
+      "definition": "Articles covering cultural events, traditions, and the arts."
+    },
+    {
+      "id": 13,
+      "name": "Transportation",
+      "definition": "Articles related to transport systems, infrastructure, and travel."
+    },
+    {
+      "id": 14,
+      "name": "Agriculture",
+      "definition": "Articles discussing agricultural practices, food production, and rural issues."
+    },
+    {
+      "id": 15,
+      "name": "Finance",
+      "definition": "Articles covering banking, investments, and personal finance."
+    }
+  ]
+}

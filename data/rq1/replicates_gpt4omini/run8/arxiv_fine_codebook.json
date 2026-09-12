@@ -1,0 +1,135 @@
+{
+  "bench": "arxiv_fine",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence and its applications."
+    },
+    {
+      "id": 2,
+      "name": "cs.LG",
+      "definition": "Machine Learning and its methodologies."
+    },
+    {
+      "id": 3,
+      "name": "cs.NE",
+      "definition": "Neural Networks and related architectures."
+    },
+    {
+      "id": 4,
+      "name": "cs.CV",
+      "definition": "Computer Vision and image processing techniques."
+    },
+    {
+      "id": 5,
+      "name": "cs.HC",
+      "definition": "Human-Computer Interaction and user experience."
+    },
+    {
+      "id": 6,
+      "name": "cs.SY",
+      "definition": "Systems and control theory."
+    },
+    {
+      "id": 7,
+      "name": "math.AG",
+      "definition": "Algebraic Geometry and its applications."
+    },
+    {
+      "id": 8,
+      "name": "math.PR",
+      "definition": "Probability theory and stochastic processes."
+    },
+    {
+      "id": 9,
+      "name": "math.ST",
+      "definition": "Statistics and statistical methods."
+    },
+    {
+      "id": 10,
+      "name": "math.MP",
+      "definition": "Mathematical Physics and its theories."
+    },
+    {
+      "id": 11,
+      "name": "math.DS",
+      "definition": "Dynamical Systems and their analysis."
+    },
+    {
+      "id": 12,
+      "name": "math.CT",
+      "definition": "Category Theory and its applications."
+    },
+    {
+      "id": 13,
+      "name": "hep-th",
+      "definition": "Theoretical High Energy Physics."
+    },
+    {
+      "id": 14,
+      "name": "astro-ph",
+      "definition": "Astrophysics and cosmology."
+    },
+    {
+      "id": 15,
+      "name": "cond-mat",
+      "definition": "Condensed Matter Physics."
+    },
+    {
+      "id": 16,
+      "name": "quant-ph",
+      "definition": "Quantum Physics and its applications."
+    },
+    {
+      "id": 17,
+      "name": "stat.ML",
+      "definition": "Statistical Machine Learning."
+    },
+    {
+      "id": 18,
+      "name": "bioinformatics",
+      "definition": "Computational biology and bioinformatics."
+    },
+    {
+      "id": 19,
+      "name": "econ.GN",
+      "definition": "Economics and game theory."
+    },
+    {
+      "id": 20,
+      "name": "bio.Ph",
+      "definition": "Biophysics and biological systems."
+    },
+    {
+      "id": 21,
+      "name": "social",
+      "definition": "Social sciences and their methodologies."
+    },
+    {
+      "id": 22,
+      "name": "ml.privacy",
+      "definition": "Privacy implications in machine learning."
+    },
+    {
+      "id": 23,
+      "name": "network",
+      "definition": "Network theory and its applications."
+    },
+    {
+      "id": 24,
+      "name": "finance",
+      "definition": "Financial mathematics and economic modeling."
+    },
+    {
+      "id": 25,
+      "name": "health",
+      "definition": "Health informatics and medical applications."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "bench": "clinc150",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Travel Information",
+      "definition": "Requests related to travel plans, requirements, and accommodations."
+    },
+    {
+      "id": 2,
+      "name": "Financial Management",
+      "definition": "Inquiries about bank accounts, credit cards, loans, and financial transactions."
+    },
+    {
+      "id": 3,
+      "name": "Appointments and Scheduling",
+      "definition": "Requests to schedule, confirm, or cancel appointments and meetings."
+    },
+    {
+      "id": 4,
+      "name": "Shopping and Grocery Lists",
+      "definition": "Requests related to shopping lists, grocery items, and purchases."
+    },
+    {
+      "id": 5,
+      "name": "Health and Safety",
+      "definition": "Inquiries about health-related information, safety tips, and medical advice."
+    },
+    {
+      "id": 6,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes, cooking tips, and food-related information."
+    },
+    {
+      "id": 7,
+      "name": "Technical Support",
+      "definition": "Requests for assistance with technology, devices, and troubleshooting."
+    },
+    {
+      "id": 8,
+      "name": "Entertainment and Media",
+      "definition": "Inquiries about music, movies, and other forms of entertainment."
+    },
+    {
+      "id": 9,
+      "name": "Personal Assistance",
+      "definition": "General requests for help with tasks, reminders, and personal organization."
+    },
+    {
+      "id": 10,
+      "name": "Communication",
+      "definition": "Requests to send messages, make calls, or communicate with others."
+    },
+    {
+      "id": 11,
+      "name": "Location and Navigation",
+      "definition": "Inquiries about locations, directions, and navigation assistance."
+    },
+    {
+      "id": 12,
+      "name": "Product and Service Recommendations",
+      "definition": "Requests for suggestions on products, services, and places."
+    },
+    {
+      "id": 13,
+      "name": "Account Management",
+      "definition": "Requests related to managing accounts, including freezes, limits, and status."
+    },
+    {
+      "id": 14,
+      "name": "Learning and Knowledge",
+      "definition": "Inquiries seeking information, explanations, or educational content."
+    },
+    {
+      "id": 15,
+      "name": "Voice and Speech Preferences",
+      "definition": "Requests to change voice settings or speech characteristics."
+    },
+    {
+      "id": 16,
+      "name": "Miscellaneous",
+      "definition": "General inquiries or requests that do not fit into other categories."
+    }
+  ]
+}

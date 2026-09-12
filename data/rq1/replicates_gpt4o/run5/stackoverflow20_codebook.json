@@ -1,0 +1,260 @@
+{
+  "bench": "stackoverflow20",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Javascript",
+      "definition": "Questions related to the Javascript programming language."
+    },
+    {
+      "id": 2,
+      "name": "Apache",
+      "definition": "Questions related to the Apache HTTP Server and its modules."
+    },
+    {
+      "id": 3,
+      "name": "SharePoint",
+      "definition": "Questions related to Microsoft SharePoint and its features."
+    },
+    {
+      "id": 4,
+      "name": "Drupal",
+      "definition": "Questions related to the Drupal content management system."
+    },
+    {
+      "id": 5,
+      "name": "MacOS",
+      "definition": "Questions related to programming on the MacOS operating system."
+    },
+    {
+      "id": 6,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language."
+    },
+    {
+      "id": 7,
+      "name": "Visual Studio",
+      "definition": "Questions related to the Visual Studio IDE and its features."
+    },
+    {
+      "id": 8,
+      "name": "GNU Screen",
+      "definition": "Questions related to the GNU Screen terminal multiplexer."
+    },
+    {
+      "id": 9,
+      "name": "Bash",
+      "definition": "Questions related to the Bash shell and scripting."
+    },
+    {
+      "id": 10,
+      "name": "LINQ",
+      "definition": "Questions related to Language Integrated Query (LINQ) in .NET."
+    },
+    {
+      "id": 11,
+      "name": "PHP",
+      "definition": "Questions related to the PHP programming language."
+    },
+    {
+      "id": 12,
+      "name": "NSDateFormatter",
+      "definition": "Questions related to the NSDateFormatter class in Objective-C."
+    },
+    {
+      "id": 13,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 14,
+      "name": "Oracle",
+      "definition": "Questions related to Oracle databases and SQL."
+    },
+    {
+      "id": 15,
+      "name": "SVN",
+      "definition": "Questions related to Subversion (SVN) version control system."
+    },
+    {
+      "id": 16,
+      "name": "mod_python",
+      "definition": "Questions related to the mod_python module for Apache."
+    },
+    {
+      "id": 17,
+      "name": "Cocoa",
+      "definition": "Questions related to the Cocoa API for macOS development."
+    },
+    {
+      "id": 18,
+      "name": "Hibernate",
+      "definition": "Questions related to the Hibernate ORM framework."
+    },
+    {
+      "id": 19,
+      "name": "WordPress",
+      "definition": "Questions related to the WordPress content management system."
+    },
+    {
+      "id": 20,
+      "name": "Spring",
+      "definition": "Questions related to the Spring framework for Java."
+    },
+    {
+      "id": 21,
+      "name": "MATLAB",
+      "definition": "Questions related to the MATLAB programming environment."
+    },
+    {
+      "id": 22,
+      "name": "jQuery",
+      "definition": "Questions related to the jQuery JavaScript library."
+    },
+    {
+      "id": 23,
+      "name": "Objective-C",
+      "definition": "Questions related to the Objective-C programming language."
+    },
+    {
+      "id": 24,
+      "name": "Memcached",
+      "definition": "Questions related to the Memcached caching system."
+    },
+    {
+      "id": 25,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel and its features."
+    },
+    {
+      "id": 26,
+      "name": "Entity Framework",
+      "definition": "Questions related to the Entity Framework ORM for .NET."
+    },
+    {
+      "id": 27,
+      "name": "Haskell",
+      "definition": "Questions related to the Haskell programming language."
+    },
+    {
+      "id": 28,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX)."
+    },
+    {
+      "id": 29,
+      "name": "Qt",
+      "definition": "Questions related to the Qt application framework."
+    },
+    {
+      "id": 30,
+      "name": "Xcode",
+      "definition": "Questions related to the Xcode IDE for macOS development."
+    },
+    {
+      "id": 31,
+      "name": "Perforce",
+      "definition": "Questions related to the Perforce version control system."
+    },
+    {
+      "id": 32,
+      "name": "C#",
+      "definition": "Questions related to the C# programming language."
+    },
+    {
+      "id": 33,
+      "name": "CSS",
+      "definition": "Questions related to Cascading Style Sheets (CSS)."
+    },
+    {
+      "id": 34,
+      "name": "ASP.NET",
+      "definition": "Questions related to the ASP.NET web framework."
+    },
+    {
+      "id": 35,
+      "name": "TortoiseSVN",
+      "definition": "Questions related to the TortoiseSVN client for SVN."
+    },
+    {
+      "id": 36,
+      "name": "OSCommerce",
+      "definition": "Questions related to the OSCommerce e-commerce platform."
+    },
+    {
+      "id": 37,
+      "name": "Python",
+      "definition": "Questions related to the Python programming language."
+    },
+    {
+      "id": 38,
+      "name": "Play Framework",
+      "definition": "Questions related to the Play Framework for web applications."
+    },
+    {
+      "id": 39,
+      "name": "JPA",
+      "definition": "Questions related to the Java Persistence API (JPA)."
+    },
+    {
+      "id": 40,
+      "name": "C++",
+      "definition": "Questions related to the C++ programming language."
+    },
+    {
+      "id": 41,
+      "name": "SSH",
+      "definition": "Questions related to Secure Shell (SSH) protocol."
+    },
+    {
+      "id": 42,
+      "name": "JSON",
+      "definition": "Questions related to JavaScript Object Notation (JSON)."
+    },
+    {
+      "id": 43,
+      "name": "XML",
+      "definition": "Questions related to Extensible Markup Language (XML)."
+    },
+    {
+      "id": 44,
+      "name": "REST",
+      "definition": "Questions related to Representational State Transfer (REST) architecture."
+    },
+    {
+      "id": 45,
+      "name": "Tomcat",
+      "definition": "Questions related to the Apache Tomcat server."
+    },
+    {
+      "id": 46,
+      "name": "Eclipse",
+      "definition": "Questions related to the Eclipse IDE."
+    },
+    {
+      "id": 47,
+      "name": "PDO",
+      "definition": "Questions related to PHP Data Objects (PDO)."
+    },
+    {
+      "id": 48,
+      "name": "Cocoa Touch",
+      "definition": "Questions related to the Cocoa Touch API for iOS development."
+    },
+    {
+      "id": 49,
+      "name": "J2EE",
+      "definition": "Questions related to Java 2 Platform, Enterprise Edition (J2EE)."
+    },
+    {
+      "id": 50,
+      "name": "VBA",
+      "definition": "Questions related to Visual Basic for Applications (VBA)."
+    }
+  ]
+}

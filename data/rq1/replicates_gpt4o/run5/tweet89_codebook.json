@@ -1,0 +1,1510 @@
+{
+  "bench": "tweet89",
+  "run": 5,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates on the condition and recovery of Rep. Gabrielle Giffords."
+    },
+    {
+      "id": 2,
+      "name": "Acai Berry and Weight Loss",
+      "definition": "Discussions and promotions of acai berry as a weight loss aid."
+    },
+    {
+      "id": 3,
+      "name": "Super Bowl Commercials",
+      "definition": "Comments and reviews on commercials aired during the Super Bowl."
+    },
+    {
+      "id": 4,
+      "name": "Healthcare Law and Reform",
+      "definition": "News and opinions on healthcare law and reform, including court rulings."
+    },
+    {
+      "id": 5,
+      "name": "Christina Aguilera National Anthem Flub",
+      "definition": "Reactions to Christina Aguilera's performance of the national anthem at the Super Bowl."
+    },
+    {
+      "id": 6,
+      "name": "Academy Awards Nominations",
+      "definition": "Announcements and discussions of nominations for the Academy Awards."
+    },
+    {
+      "id": 7,
+      "name": "Michelle Obama's Fitness Campaign",
+      "definition": "News about Michelle Obama's campaign for fitness and nutrition."
+    },
+    {
+      "id": 8,
+      "name": "Facebook Privacy Settings",
+      "definition": "Information and advice on managing Facebook privacy settings."
+    },
+    {
+      "id": 9,
+      "name": "Yemen Protests",
+      "definition": "Coverage of protests and political unrest in Yemen."
+    },
+    {
+      "id": 10,
+      "name": "FDA Drug Approvals",
+      "definition": "Announcements of FDA approvals for new drugs."
+    },
+    {
+      "id": 11,
+      "name": "Starbucks Trenta Cup",
+      "definition": "Reactions to the introduction of Starbucks' Trenta cup size."
+    },
+    {
+      "id": 12,
+      "name": "King's Speech Awards",
+      "definition": "News about awards won by the film 'The King's Speech'."
+    },
+    {
+      "id": 13,
+      "name": "Egyptian Protests and Journalist Safety",
+      "definition": "Reports on protests in Egypt and the safety of journalists covering them."
+    },
+    {
+      "id": 14,
+      "name": "Moscow Airport Explosion",
+      "definition": "News about the explosion at Moscow airport."
+    },
+    {
+      "id": 15,
+      "name": "Identity Theft",
+      "definition": "Information and warnings about identity theft and online fraud."
+    },
+    {
+      "id": 16,
+      "name": "Texting While Driving",
+      "definition": "Campaigns and messages against texting while driving."
+    },
+    {
+      "id": 17,
+      "name": "Charlie Sheen Hospitalization",
+      "definition": "News about Charlie Sheen's hospitalization and related events."
+    },
+    {
+      "id": 18,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Coverage of the lawsuit against Taco Bell regarding their beef content."
+    },
+    {
+      "id": 19,
+      "name": "Jordan Protests",
+      "definition": "Coverage of protests and political unrest in Jordan."
+    },
+    {
+      "id": 20,
+      "name": "Sundance Film Festival",
+      "definition": "News and celebrity sightings from the Sundance Film Festival."
+    },
+    {
+      "id": 21,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Posts about fishing, including reports, tips, and equipment."
+    },
+    {
+      "id": 22,
+      "name": "Social Media and Politics",
+      "definition": "Discussions on the role of social media in politics and activism."
+    },
+    {
+      "id": 23,
+      "name": "Financial Aid and Scholarships",
+      "definition": "Information on financial aid and scholarship opportunities."
+    },
+    {
+      "id": 24,
+      "name": "Bullying Awareness",
+      "definition": "Events and tips related to bullying awareness and prevention."
+    },
+    {
+      "id": 25,
+      "name": "Kim Kardashian and Reality TV",
+      "definition": "Mentions of Kim Kardashian and related reality TV shows."
+    },
+    {
+      "id": 26,
+      "name": "Energy Saving Tips",
+      "definition": "Advice and tips on saving energy and living efficiently."
+    },
+    {
+      "id": 27,
+      "name": "Iranian Executions",
+      "definition": "Reports on executions in Iran, including those of dual nationals."
+    },
+    {
+      "id": 28,
+      "name": "Australian Open",
+      "definition": "Coverage of the Australian Open tennis tournament."
+    },
+    {
+      "id": 29,
+      "name": "Immigration and Fast Food Industry",
+      "definition": "News on immigration issues affecting the fast food industry."
+    },
+    {
+      "id": 30,
+      "name": "Chrysler Super Bowl Ad",
+      "definition": "Reactions to Chrysler's Super Bowl commercial featuring Eminem."
+    },
+    {
+      "id": 31,
+      "name": "Stuxnet and Cybersecurity",
+      "definition": "Discussions on the Stuxnet virus and its implications for cybersecurity."
+    },
+    {
+      "id": 32,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Updates on the investigation and trial related to Joanna Yeates' murder."
+    },
+    {
+      "id": 33,
+      "name": "Ronald Reagan's Birthday",
+      "definition": "Mentions of events and celebrations for Ronald Reagan's birthday."
+    },
+    {
+      "id": 34,
+      "name": "Debt and Financial Management",
+      "definition": "Advice and services related to managing debt and finances."
+    },
+    {
+      "id": 35,
+      "name": "White Stripes Breakup",
+      "definition": "News about the breakup of the band White Stripes."
+    },
+    {
+      "id": 36,
+      "name": "Augmented Reality Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 37,
+      "name": "Food Recipes",
+      "definition": "Posts sharing various food recipes and cooking tips."
+    },
+    {
+      "id": 38,
+      "name": "Bullying and Anxiety",
+      "definition": "Discussions on the relationship between bullying and anxiety."
+    },
+    {
+      "id": 39,
+      "name": "Concussion Awareness",
+      "definition": "Information and campaigns related to concussion awareness and prevention."
+    },
+    {
+      "id": 40,
+      "name": "Venezuela and Golf",
+      "definition": "Mentions of Venezuela's stance on golf and related political issues."
+    },
+    {
+      "id": 41,
+      "name": "Steve Jobs Succession Plan",
+      "definition": "Discussions on Apple's succession plan for Steve Jobs."
+    },
+    {
+      "id": 42,
+      "name": "Nobel Peace Prize and Wikileaks",
+      "definition": "Debates on Wikileaks' eligibility for the Nobel Peace Prize."
+    },
+    {
+      "id": 43,
+      "name": "Chavez and Golf",
+      "definition": "Mentions of Hugo Chavez's views on golf in Venezuela."
+    },
+    {
+      "id": 44,
+      "name": "Extreme Makeover Home Edition",
+      "definition": "Mentions of the TV show Extreme Makeover Home Edition."
+    },
+    {
+      "id": 45,
+      "name": "Social Media Marketing",
+      "definition": "Posts about using social media for marketing purposes."
+    },
+    {
+      "id": 46,
+      "name": "Augmented Reality in Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 47,
+      "name": "Egyptian Journalist Safety",
+      "definition": "Reports on the safety and treatment of journalists in Egypt."
+    },
+    {
+      "id": 48,
+      "name": "Moscow Airport Explosion",
+      "definition": "News about the explosion at Moscow airport."
+    },
+    {
+      "id": 49,
+      "name": "Identity Theft",
+      "definition": "Information and warnings about identity theft and online fraud."
+    },
+    {
+      "id": 50,
+      "name": "Texting While Driving",
+      "definition": "Campaigns and messages against texting while driving."
+    },
+    {
+      "id": 51,
+      "name": "Charlie Sheen Hospitalization",
+      "definition": "News about Charlie Sheen's hospitalization and related events."
+    },
+    {
+      "id": 52,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Coverage of the lawsuit against Taco Bell regarding their beef content."
+    },
+    {
+      "id": 53,
+      "name": "Jordan Protests",
+      "definition": "Coverage of protests and political unrest in Jordan."
+    },
+    {
+      "id": 54,
+      "name": "Sundance Film Festival",
+      "definition": "News and celebrity sightings from the Sundance Film Festival."
+    },
+    {
+      "id": 55,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Posts about fishing, including reports, tips, and equipment."
+    },
+    {
+      "id": 56,
+      "name": "Social Media and Politics",
+      "definition": "Discussions on the role of social media in politics and activism."
+    },
+    {
+      "id": 57,
+      "name": "Financial Aid and Scholarships",
+      "definition": "Information on financial aid and scholarship opportunities."
+    },
+    {
+      "id": 58,
+      "name": "Bullying Awareness",
+      "definition": "Events and tips related to bullying awareness and prevention."
+    },
+    {
+      "id": 59,
+      "name": "Kim Kardashian and Reality TV",
+      "definition": "Mentions of Kim Kardashian and related reality TV shows."
+    },
+    {
+      "id": 60,
+      "name": "Energy Saving Tips",
+      "definition": "Advice and tips on saving energy and living efficiently."
+    },
+    {
+      "id": 61,
+      "name": "Iranian Executions",
+      "definition": "Reports on executions in Iran, including those of dual nationals."
+    },
+    {
+      "id": 62,
+      "name": "Australian Open",
+      "definition": "Coverage of the Australian Open tennis tournament."
+    },
+    {
+      "id": 63,
+      "name": "Immigration and Fast Food Industry",
+      "definition": "News on immigration issues affecting the fast food industry."
+    },
+    {
+      "id": 64,
+      "name": "Chrysler Super Bowl Ad",
+      "definition": "Reactions to Chrysler's Super Bowl commercial featuring Eminem."
+    },
+    {
+      "id": 65,
+      "name": "Stuxnet and Cybersecurity",
+      "definition": "Discussions on the Stuxnet virus and its implications for cybersecurity."
+    },
+    {
+      "id": 66,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Updates on the investigation and trial related to Joanna Yeates' murder."
+    },
+    {
+      "id": 67,
+      "name": "Ronald Reagan's Birthday",
+      "definition": "Mentions of events and celebrations for Ronald Reagan's birthday."
+    },
+    {
+      "id": 68,
+      "name": "Debt and Financial Management",
+      "definition": "Advice and services related to managing debt and finances."
+    },
+    {
+      "id": 69,
+      "name": "White Stripes Breakup",
+      "definition": "News about the breakup of the band White Stripes."
+    },
+    {
+      "id": 70,
+      "name": "Augmented Reality Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 71,
+      "name": "Food Recipes",
+      "definition": "Posts sharing various food recipes and cooking tips."
+    },
+    {
+      "id": 72,
+      "name": "Bullying and Anxiety",
+      "definition": "Discussions on the relationship between bullying and anxiety."
+    },
+    {
+      "id": 73,
+      "name": "Concussion Awareness",
+      "definition": "Information and campaigns related to concussion awareness and prevention."
+    },
+    {
+      "id": 74,
+      "name": "Venezuela and Golf",
+      "definition": "Mentions of Venezuela's stance on golf and related political issues."
+    },
+    {
+      "id": 75,
+      "name": "Steve Jobs Succession Plan",
+      "definition": "Discussions on Apple's succession plan for Steve Jobs."
+    },
+    {
+      "id": 76,
+      "name": "Nobel Peace Prize and Wikileaks",
+      "definition": "Debates on Wikileaks' eligibility for the Nobel Peace Prize."
+    },
+    {
+      "id": 77,
+      "name": "Chavez and Golf",
+      "definition": "Mentions of Hugo Chavez's views on golf in Venezuela."
+    },
+    {
+      "id": 78,
+      "name": "Extreme Makeover Home Edition",
+      "definition": "Mentions of the TV show Extreme Makeover Home Edition."
+    },
+    {
+      "id": 79,
+      "name": "Social Media Marketing",
+      "definition": "Posts about using social media for marketing purposes."
+    },
+    {
+      "id": 80,
+      "name": "Augmented Reality in Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 81,
+      "name": "Egyptian Journalist Safety",
+      "definition": "Reports on the safety and treatment of journalists in Egypt."
+    },
+    {
+      "id": 82,
+      "name": "Moscow Airport Explosion",
+      "definition": "News about the explosion at Moscow airport."
+    },
+    {
+      "id": 83,
+      "name": "Identity Theft",
+      "definition": "Information and warnings about identity theft and online fraud."
+    },
+    {
+      "id": 84,
+      "name": "Texting While Driving",
+      "definition": "Campaigns and messages against texting while driving."
+    },
+    {
+      "id": 85,
+      "name": "Charlie Sheen Hospitalization",
+      "definition": "News about Charlie Sheen's hospitalization and related events."
+    },
+    {
+      "id": 86,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Coverage of the lawsuit against Taco Bell regarding their beef content."
+    },
+    {
+      "id": 87,
+      "name": "Jordan Protests",
+      "definition": "Coverage of protests and political unrest in Jordan."
+    },
+    {
+      "id": 88,
+      "name": "Sundance Film Festival",
+      "definition": "News and celebrity sightings from the Sundance Film Festival."
+    },
+    {
+      "id": 89,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Posts about fishing, including reports, tips, and equipment."
+    },
+    {
+      "id": 90,
+      "name": "Social Media and Politics",
+      "definition": "Discussions on the role of social media in politics and activism."
+    },
+    {
+      "id": 91,
+      "name": "Financial Aid and Scholarships",
+      "definition": "Information on financial aid and scholarship opportunities."
+    },
+    {
+      "id": 92,
+      "name": "Bullying Awareness",
+      "definition": "Events and tips related to bullying awareness and prevention."
+    },
+    {
+      "id": 93,
+      "name": "Kim Kardashian and Reality TV",
+      "definition": "Mentions of Kim Kardashian and related reality TV shows."
+    },
+    {
+      "id": 94,
+      "name": "Energy Saving Tips",
+      "definition": "Advice and tips on saving energy and living efficiently."
+    },
+    {
+      "id": 95,
+      "name": "Iranian Executions",
+      "definition": "Reports on executions in Iran, including those of dual nationals."
+    },
+    {
+      "id": 96,
+      "name": "Australian Open",
+      "definition": "Coverage of the Australian Open tennis tournament."
+    },
+    {
+      "id": 97,
+      "name": "Immigration and Fast Food Industry",
+      "definition": "News on immigration issues affecting the fast food industry."
+    },
+    {
+      "id": 98,
+      "name": "Chrysler Super Bowl Ad",
+      "definition": "Reactions to Chrysler's Super Bowl commercial featuring Eminem."
+    },
+    {
+      "id": 99,
+      "name": "Stuxnet and Cybersecurity",
+      "definition": "Discussions on the Stuxnet virus and its implications for cybersecurity."
+    },
+    {
+      "id": 100,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Updates on the investigation and trial related to Joanna Yeates' murder."
+    },
+    {
+      "id": 101,
+      "name": "Ronald Reagan's Birthday",
+      "definition": "Mentions of events and celebrations for Ronald Reagan's birthday."
+    },
+    {
+      "id": 102,
+      "name": "Debt and Financial Management",
+      "definition": "Advice and services related to managing debt and finances."
+    },
+    {
+      "id": 103,
+      "name": "White Stripes Breakup",
+      "definition": "News about the breakup of the band White Stripes."
+    },
+    {
+      "id": 104,
+      "name": "Augmented Reality Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 105,
+      "name": "Food Recipes",
+      "definition": "Posts sharing various food recipes and cooking tips."
+    },
+    {
+      "id": 106,
+      "name": "Bullying and Anxiety",
+      "definition": "Discussions on the relationship between bullying and anxiety."
+    },
+    {
+      "id": 107,
+      "name": "Concussion Awareness",
+      "definition": "Information and campaigns related to concussion awareness and prevention."
+    },
+    {
+      "id": 108,
+      "name": "Venezuela and Golf",
+      "definition": "Mentions of Venezuela's stance on golf and related political issues."
+    },
+    {
+      "id": 109,
+      "name": "Steve Jobs Succession Plan",
+      "definition": "Discussions on Apple's succession plan for Steve Jobs."
+    },
+    {
+      "id": 110,
+      "name": "Nobel Peace Prize and Wikileaks",
+      "definition": "Debates on Wikileaks' eligibility for the Nobel Peace Prize."
+    },
+    {
+      "id": 111,
+      "name": "Chavez and Golf",
+      "definition": "Mentions of Hugo Chavez's views on golf in Venezuela."
+    },
+    {
+      "id": 112,
+      "name": "Extreme Makeover Home Edition",
+      "definition": "Mentions of the TV show Extreme Makeover Home Edition."
+    },
+    {
+      "id": 113,
+      "name": "Social Media Marketing",
+      "definition": "Posts about using social media for marketing purposes."
+    },
+    {
+      "id": 114,
+      "name": "Augmented Reality in Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 115,
+      "name": "Egyptian Journalist Safety",
+      "definition": "Reports on the safety and treatment of journalists in Egypt."
+    },
+    {
+      "id": 116,
+      "name": "Moscow Airport Explosion",
+      "definition": "News about the explosion at Moscow airport."
+    },
+    {
+      "id": 117,
+      "name": "Identity Theft",
+      "definition": "Information and warnings about identity theft and online fraud."
+    },
+    {
+      "id": 118,
+      "name": "Texting While Driving",
+      "definition": "Campaigns and messages against texting while driving."
+    },
+    {
+      "id": 119,
+      "name": "Charlie Sheen Hospitalization",
+      "definition": "News about Charlie Sheen's hospitalization and related events."
+    },
+    {
+      "id": 120,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Coverage of the lawsuit against Taco Bell regarding their beef content."
+    },
+    {
+      "id": 121,
+      "name": "Jordan Protests",
+      "definition": "Coverage of protests and political unrest in Jordan."
+    },
+    {
+      "id": 122,
+      "name": "Sundance Film Festival",
+      "definition": "News and celebrity sightings from the Sundance Film Festival."
+    },
+    {
+      "id": 123,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Posts about fishing, including reports, tips, and equipment."
+    },
+    {
+      "id": 124,
+      "name": "Social Media and Politics",
+      "definition": "Discussions on the role of social media in politics and activism."
+    },
+    {
+      "id": 125,
+      "name": "Financial Aid and Scholarships",
+      "definition": "Information on financial aid and scholarship opportunities."
+    },
+    {
+      "id": 126,
+      "name": "Bullying Awareness",
+      "definition": "Events and tips related to bullying awareness and prevention."
+    },
+    {
+      "id": 127,
+      "name": "Kim Kardashian and Reality TV",
+      "definition": "Mentions of Kim Kardashian and related reality TV shows."
+    },
+    {
+      "id": 128,
+      "name": "Energy Saving Tips",
+      "definition": "Advice and tips on saving energy and living efficiently."
+    },
+    {
+      "id": 129,
+      "name": "Iranian Executions",
+      "definition": "Reports on executions in Iran, including those of dual nationals."
+    },
+    {
+      "id": 130,
+      "name": "Australian Open",
+      "definition": "Coverage of the Australian Open tennis tournament."
+    },
+    {
+      "id": 131,
+      "name": "Immigration and Fast Food Industry",
+      "definition": "News on immigration issues affecting the fast food industry."
+    },
+    {
+      "id": 132,
+      "name": "Chrysler Super Bowl Ad",
+      "definition": "Reactions to Chrysler's Super Bowl commercial featuring Eminem."
+    },
+    {
+      "id": 133,
+      "name": "Stuxnet and Cybersecurity",
+      "definition": "Discussions on the Stuxnet virus and its implications for cybersecurity."
+    },
+    {
+      "id": 134,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Updates on the investigation and trial related to Joanna Yeates' murder."
+    },
+    {
+      "id": 135,
+      "name": "Ronald Reagan's Birthday",
+      "definition": "Mentions of events and celebrations for Ronald Reagan's birthday."
+    },
+    {
+      "id": 136,
+      "name": "Debt and Financial Management",
+      "definition": "Advice and services related to managing debt and finances."
+    },
+    {
+      "id": 137,
+      "name": "White Stripes Breakup",
+      "definition": "News about the breakup of the band White Stripes."
+    },
+    {
+      "id": 138,
+      "name": "Augmented Reality Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 139,
+      "name": "Food Recipes",
+      "definition": "Posts sharing various food recipes and cooking tips."
+    },
+    {
+      "id": 140,
+      "name": "Bullying and Anxiety",
+      "definition": "Discussions on the relationship between bullying and anxiety."
+    },
+    {
+      "id": 141,
+      "name": "Concussion Awareness",
+      "definition": "Information and campaigns related to concussion awareness and prevention."
+    },
+    {
+      "id": 142,
+      "name": "Venezuela and Golf",
+      "definition": "Mentions of Venezuela's stance on golf and related political issues."
+    },
+    {
+      "id": 143,
+      "name": "Steve Jobs Succession Plan",
+      "definition": "Discussions on Apple's succession plan for Steve Jobs."
+    },
+    {
+      "id": 144,
+      "name": "Nobel Peace Prize and Wikileaks",
+      "definition": "Debates on Wikileaks' eligibility for the Nobel Peace Prize."
+    },
+    {
+      "id": 145,
+      "name": "Chavez and Golf",
+      "definition": "Mentions of Hugo Chavez's views on golf in Venezuela."
+    },
+    {
+      "id": 146,
+      "name": "Extreme Makeover Home Edition",
+      "definition": "Mentions of the TV show Extreme Makeover Home Edition."
+    },
+    {
+      "id": 147,
+      "name": "Social Media Marketing",
+      "definition": "Posts about using social media for marketing purposes."
+    },
+    {
+      "id": 148,
+      "name": "Augmented Reality in Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 149,
+      "name": "Egyptian Journalist Safety",
+      "definition": "Reports on the safety and treatment of journalists in Egypt."
+    },
+    {
+      "id": 150,
+      "name": "Moscow Airport Explosion",
+      "definition": "News about the explosion at Moscow airport."
+    },
+    {
+      "id": 151,
+      "name": "Identity Theft",
+      "definition": "Information and warnings about identity theft and online fraud."
+    },
+    {
+      "id": 152,
+      "name": "Texting While Driving",
+      "definition": "Campaigns and messages against texting while driving."
+    },
+    {
+      "id": 153,
+      "name": "Charlie Sheen Hospitalization",
+      "definition": "News about Charlie Sheen's hospitalization and related events."
+    },
+    {
+      "id": 154,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Coverage of the lawsuit against Taco Bell regarding their beef content."
+    },
+    {
+      "id": 155,
+      "name": "Jordan Protests",
+      "definition": "Coverage of protests and political unrest in Jordan."
+    },
+    {
+      "id": 156,
+      "name": "Sundance Film Festival",
+      "definition": "News and celebrity sightings from the Sundance Film Festival."
+    },
+    {
+      "id": 157,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Posts about fishing, including reports, tips, and equipment."
+    },
+    {
+      "id": 158,
+      "name": "Social Media and Politics",
+      "definition": "Discussions on the role of social media in politics and activism."
+    },
+    {
+      "id": 159,
+      "name": "Financial Aid and Scholarships",
+      "definition": "Information on financial aid and scholarship opportunities."
+    },
+    {
+      "id": 160,
+      "name": "Bullying Awareness",
+      "definition": "Events and tips related to bullying awareness and prevention."
+    },
+    {
+      "id": 161,
+      "name": "Kim Kardashian and Reality TV",
+      "definition": "Mentions of Kim Kardashian and related reality TV shows."
+    },
+    {
+      "id": 162,
+      "name": "Energy Saving Tips",
+      "definition": "Advice and tips on saving energy and living efficiently."
+    },
+    {
+      "id": 163,
+      "name": "Iranian Executions",
+      "definition": "Reports on executions in Iran, including those of dual nationals."
+    },
+    {
+      "id": 164,
+      "name": "Australian Open",
+      "definition": "Coverage of the Australian Open tennis tournament."
+    },
+    {
+      "id": 165,
+      "name": "Immigration and Fast Food Industry",
+      "definition": "News on immigration issues affecting the fast food industry."
+    },
+    {
+      "id": 166,
+      "name": "Chrysler Super Bowl Ad",
+      "definition": "Reactions to Chrysler's Super Bowl commercial featuring Eminem."
+    },
+    {
+      "id": 167,
+      "name": "Stuxnet and Cybersecurity",
+      "definition": "Discussions on the Stuxnet virus and its implications for cybersecurity."
+    },
+    {
+      "id": 168,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Updates on the investigation and trial related to Joanna Yeates' murder."
+    },
+    {
+      "id": 169,
+      "name": "Ronald Reagan's Birthday",
+      "definition": "Mentions of events and celebrations for Ronald Reagan's birthday."
+    },
+    {
+      "id": 170,
+      "name": "Debt and Financial Management",
+      "definition": "Advice and services related to managing debt and finances."
+    },
+    {
+      "id": 171,
+      "name": "White Stripes Breakup",
+      "definition": "News about the breakup of the band White Stripes."
+    },
+    {
+      "id": 172,
+      "name": "Augmented Reality Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 173,
+      "name": "Food Recipes",
+      "definition": "Posts sharing various food recipes and cooking tips."
+    },
+    {
+      "id": 174,
+      "name": "Bullying and Anxiety",
+      "definition": "Discussions on the relationship between bullying and anxiety."
+    },
+    {
+      "id": 175,
+      "name": "Concussion Awareness",
+      "definition": "Information and campaigns related to concussion awareness and prevention."
+    },
+    {
+      "id": 176,
+      "name": "Venezuela and Golf",
+      "definition": "Mentions of Venezuela's stance on golf and related political issues."
+    },
+    {
+      "id": 177,
+      "name": "Steve Jobs Succession Plan",
+      "definition": "Discussions on Apple's succession plan for Steve Jobs."
+    },
+    {
+      "id": 178,
+      "name": "Nobel Peace Prize and Wikileaks",
+      "definition": "Debates on Wikileaks' eligibility for the Nobel Peace Prize."
+    },
+    {
+      "id": 179,
+      "name": "Chavez and Golf",
+      "definition": "Mentions of Hugo Chavez's views on golf in Venezuela."
+    },
+    {
+      "id": 180,
+      "name": "Extreme Makeover Home Edition",
+      "definition": "Mentions of the TV show Extreme Makeover Home Edition."
+    },
+    {
+      "id": 181,
+      "name": "Social Media Marketing",
+      "definition": "Posts about using social media for marketing purposes."
+    },
+    {
+      "id": 182,
+      "name": "Augmented Reality in Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 183,
+      "name": "Egyptian Journalist Safety",
+      "definition": "Reports on the safety and treatment of journalists in Egypt."
+    },
+    {
+      "id": 184,
+      "name": "Moscow Airport Explosion",
+      "definition": "News about the explosion at Moscow airport."
+    },
+    {
+      "id": 185,
+      "name": "Identity Theft",
+      "definition": "Information and warnings about identity theft and online fraud."
+    },
+    {
+      "id": 186,
+      "name": "Texting While Driving",
+      "definition": "Campaigns and messages against texting while driving."
+    },
+    {
+      "id": 187,
+      "name": "Charlie Sheen Hospitalization",
+      "definition": "News about Charlie Sheen's hospitalization and related events."
+    },
+    {
+      "id": 188,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Coverage of the lawsuit against Taco Bell regarding their beef content."
+    },
+    {
+      "id": 189,
+      "name": "Jordan Protests",
+      "definition": "Coverage of protests and political unrest in Jordan."
+    },
+    {
+      "id": 190,
+      "name": "Sundance Film Festival",
+      "definition": "News and celebrity sightings from the Sundance Film Festival."
+    },
+    {
+      "id": 191,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Posts about fishing, including reports, tips, and equipment."
+    },
+    {
+      "id": 192,
+      "name": "Social Media and Politics",
+      "definition": "Discussions on the role of social media in politics and activism."
+    },
+    {
+      "id": 193,
+      "name": "Financial Aid and Scholarships",
+      "definition": "Information on financial aid and scholarship opportunities."
+    },
+    {
+      "id": 194,
+      "name": "Bullying Awareness",
+      "definition": "Events and tips related to bullying awareness and prevention."
+    },
+    {
+      "id": 195,
+      "name": "Kim Kardashian and Reality TV",
+      "definition": "Mentions of Kim Kardashian and related reality TV shows."
+    },
+    {
+      "id": 196,
+      "name": "Energy Saving Tips",
+      "definition": "Advice and tips on saving energy and living efficiently."
+    },
+    {
+      "id": 197,
+      "name": "Iranian Executions",
+      "definition": "Reports on executions in Iran, including those of dual nationals."
+    },
+    {
+      "id": 198,
+      "name": "Australian Open",
+      "definition": "Coverage of the Australian Open tennis tournament."
+    },
+    {
+      "id": 199,
+      "name": "Immigration and Fast Food Industry",
+      "definition": "News on immigration issues affecting the fast food industry."
+    },
+    {
+      "id": 200,
+      "name": "Chrysler Super Bowl Ad",
+      "definition": "Reactions to Chrysler's Super Bowl commercial featuring Eminem."
+    },
+    {
+      "id": 201,
+      "name": "Stuxnet and Cybersecurity",
+      "definition": "Discussions on the Stuxnet virus and its implications for cybersecurity."
+    },
+    {
+      "id": 202,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Updates on the investigation and trial related to Joanna Yeates' murder."
+    },
+    {
+      "id": 203,
+      "name": "Ronald Reagan's Birthday",
+      "definition": "Mentions of events and celebrations for Ronald Reagan's birthday."
+    },
+    {
+      "id": 204,
+      "name": "Debt and Financial Management",
+      "definition": "Advice and services related to managing debt and finances."
+    },
+    {
+      "id": 205,
+      "name": "White Stripes Breakup",
+      "definition": "News about the breakup of the band White Stripes."
+    },
+    {
+      "id": 206,
+      "name": "Augmented Reality Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 207,
+      "name": "Food Recipes",
+      "definition": "Posts sharing various food recipes and cooking tips."
+    },
+    {
+      "id": 208,
+      "name": "Bullying and Anxiety",
+      "definition": "Discussions on the relationship between bullying and anxiety."
+    },
+    {
+      "id": 209,
+      "name": "Concussion Awareness",
+      "definition": "Information and campaigns related to concussion awareness and prevention."
+    },
+    {
+      "id": 210,
+      "name": "Venezuela and Golf",
+      "definition": "Mentions of Venezuela's stance on golf and related political issues."
+    },
+    {
+      "id": 211,
+      "name": "Steve Jobs Succession Plan",
+      "definition": "Discussions on Apple's succession plan for Steve Jobs."
+    },
+    {
+      "id": 212,
+      "name": "Nobel Peace Prize and Wikileaks",
+      "definition": "Debates on Wikileaks' eligibility for the Nobel Peace Prize."
+    },
+    {
+      "id": 213,
+      "name": "Chavez and Golf",
+      "definition": "Mentions of Hugo Chavez's views on golf in Venezuela."
+    },
+    {
+      "id": 214,
+      "name": "Extreme Makeover Home Edition",
+      "definition": "Mentions of the TV show Extreme Makeover Home Edition."
+    },
+    {
+      "id": 215,
+      "name": "Social Media Marketing",
+      "definition": "Posts about using social media for marketing purposes."
+    },
+    {
+      "id": 216,
+      "name": "Augmented Reality in Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 217,
+      "name": "Egyptian Journalist Safety",
+      "definition": "Reports on the safety and treatment of journalists in Egypt."
+    },
+    {
+      "id": 218,
+      "name": "Moscow Airport Explosion",
+      "definition": "News about the explosion at Moscow airport."
+    },
+    {
+      "id": 219,
+      "name": "Identity Theft",
+      "definition": "Information and warnings about identity theft and online fraud."
+    },
+    {
+      "id": 220,
+      "name": "Texting While Driving",
+      "definition": "Campaigns and messages against texting while driving."
+    },
+    {
+      "id": 221,
+      "name": "Charlie Sheen Hospitalization",
+      "definition": "News about Charlie Sheen's hospitalization and related events."
+    },
+    {
+      "id": 222,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Coverage of the lawsuit against Taco Bell regarding their beef content."
+    },
+    {
+      "id": 223,
+      "name": "Jordan Protests",
+      "definition": "Coverage of protests and political unrest in Jordan."
+    },
+    {
+      "id": 224,
+      "name": "Sundance Film Festival",
+      "definition": "News and celebrity sightings from the Sundance Film Festival."
+    },
+    {
+      "id": 225,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Posts about fishing, including reports, tips, and equipment."
+    },
+    {
+      "id": 226,
+      "name": "Social Media and Politics",
+      "definition": "Discussions on the role of social media in politics and activism."
+    },
+    {
+      "id": 227,
+      "name": "Financial Aid and Scholarships",
+      "definition": "Information on financial aid and scholarship opportunities."
+    },
+    {
+      "id": 228,
+      "name": "Bullying Awareness",
+      "definition": "Events and tips related to bullying awareness and prevention."
+    },
+    {
+      "id": 229,
+      "name": "Kim Kardashian and Reality TV",
+      "definition": "Mentions of Kim Kardashian and related reality TV shows."
+    },
+    {
+      "id": 230,
+      "name": "Energy Saving Tips",
+      "definition": "Advice and tips on saving energy and living efficiently."
+    },
+    {
+      "id": 231,
+      "name": "Iranian Executions",
+      "definition": "Reports on executions in Iran, including those of dual nationals."
+    },
+    {
+      "id": 232,
+      "name": "Australian Open",
+      "definition": "Coverage of the Australian Open tennis tournament."
+    },
+    {
+      "id": 233,
+      "name": "Immigration and Fast Food Industry",
+      "definition": "News on immigration issues affecting the fast food industry."
+    },
+    {
+      "id": 234,
+      "name": "Chrysler Super Bowl Ad",
+      "definition": "Reactions to Chrysler's Super Bowl commercial featuring Eminem."
+    },
+    {
+      "id": 235,
+      "name": "Stuxnet and Cybersecurity",
+      "definition": "Discussions on the Stuxnet virus and its implications for cybersecurity."
+    },
+    {
+      "id": 236,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Updates on the investigation and trial related to Joanna Yeates' murder."
+    },
+    {
+      "id": 237,
+      "name": "Ronald Reagan's Birthday",
+      "definition": "Mentions of events and celebrations for Ronald Reagan's birthday."
+    },
+    {
+      "id": 238,
+      "name": "Debt and Financial Management",
+      "definition": "Advice and services related to managing debt and finances."
+    },
+    {
+      "id": 239,
+      "name": "White Stripes Breakup",
+      "definition": "News about the breakup of the band White Stripes."
+    },
+    {
+      "id": 240,
+      "name": "Augmented Reality Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 241,
+      "name": "Food Recipes",
+      "definition": "Posts sharing various food recipes and cooking tips."
+    },
+    {
+      "id": 242,
+      "name": "Bullying and Anxiety",
+      "definition": "Discussions on the relationship between bullying and anxiety."
+    },
+    {
+      "id": 243,
+      "name": "Concussion Awareness",
+      "definition": "Information and campaigns related to concussion awareness and prevention."
+    },
+    {
+      "id": 244,
+      "name": "Venezuela and Golf",
+      "definition": "Mentions of Venezuela's stance on golf and related political issues."
+    },
+    {
+      "id": 245,
+      "name": "Steve Jobs Succession Plan",
+      "definition": "Discussions on Apple's succession plan for Steve Jobs."
+    },
+    {
+      "id": 246,
+      "name": "Nobel Peace Prize and Wikileaks",
+      "definition": "Debates on Wikileaks' eligibility for the Nobel Peace Prize."
+    },
+    {
+      "id": 247,
+      "name": "Chavez and Golf",
+      "definition": "Mentions of Hugo Chavez's views on golf in Venezuela."
+    },
+    {
+      "id": 248,
+      "name": "Extreme Makeover Home Edition",
+      "definition": "Mentions of the TV show Extreme Makeover Home Edition."
+    },
+    {
+      "id": 249,
+      "name": "Social Media Marketing",
+      "definition": "Posts about using social media for marketing purposes."
+    },
+    {
+      "id": 250,
+      "name": "Augmented Reality in Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 251,
+      "name": "Egyptian Journalist Safety",
+      "definition": "Reports on the safety and treatment of journalists in Egypt."
+    },
+    {
+      "id": 252,
+      "name": "Moscow Airport Explosion",
+      "definition": "News about the explosion at Moscow airport."
+    },
+    {
+      "id": 253,
+      "name": "Identity Theft",
+      "definition": "Information and warnings about identity theft and online fraud."
+    },
+    {
+      "id": 254,
+      "name": "Texting While Driving",
+      "definition": "Campaigns and messages against texting while driving."
+    },
+    {
+      "id": 255,
+      "name": "Charlie Sheen Hospitalization",
+      "definition": "News about Charlie Sheen's hospitalization and related events."
+    },
+    {
+      "id": 256,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Coverage of the lawsuit against Taco Bell regarding their beef content."
+    },
+    {
+      "id": 257,
+      "name": "Jordan Protests",
+      "definition": "Coverage of protests and political unrest in Jordan."
+    },
+    {
+      "id": 258,
+      "name": "Sundance Film Festival",
+      "definition": "News and celebrity sightings from the Sundance Film Festival."
+    },
+    {
+      "id": 259,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Posts about fishing, including reports, tips, and equipment."
+    },
+    {
+      "id": 260,
+      "name": "Social Media and Politics",
+      "definition": "Discussions on the role of social media in politics and activism."
+    },
+    {
+      "id": 261,
+      "name": "Financial Aid and Scholarships",
+      "definition": "Information on financial aid and scholarship opportunities."
+    },
+    {
+      "id": 262,
+      "name": "Bullying Awareness",
+      "definition": "Events and tips related to bullying awareness and prevention."
+    },
+    {
+      "id": 263,
+      "name": "Kim Kardashian and Reality TV",
+      "definition": "Mentions of Kim Kardashian and related reality TV shows."
+    },
+    {
+      "id": 264,
+      "name": "Energy Saving Tips",
+      "definition": "Advice and tips on saving energy and living efficiently."
+    },
+    {
+      "id": 265,
+      "name": "Iranian Executions",
+      "definition": "Reports on executions in Iran, including those of dual nationals."
+    },
+    {
+      "id": 266,
+      "name": "Australian Open",
+      "definition": "Coverage of the Australian Open tennis tournament."
+    },
+    {
+      "id": 267,
+      "name": "Immigration and Fast Food Industry",
+      "definition": "News on immigration issues affecting the fast food industry."
+    },
+    {
+      "id": 268,
+      "name": "Chrysler Super Bowl Ad",
+      "definition": "Reactions to Chrysler's Super Bowl commercial featuring Eminem."
+    },
+    {
+      "id": 269,
+      "name": "Stuxnet and Cybersecurity",
+      "definition": "Discussions on the Stuxnet virus and its implications for cybersecurity."
+    },
+    {
+      "id": 270,
+      "name": "Joanna Yeates Murder Case",
+      "definition": "Updates on the investigation and trial related to Joanna Yeates' murder."
+    },
+    {
+      "id": 271,
+      "name": "Ronald Reagan's Birthday",
+      "definition": "Mentions of events and celebrations for Ronald Reagan's birthday."
+    },
+    {
+      "id": 272,
+      "name": "Debt and Financial Management",
+      "definition": "Advice and services related to managing debt and finances."
+    },
+    {
+      "id": 273,
+      "name": "White Stripes Breakup",
+      "definition": "News about the breakup of the band White Stripes."
+    },
+    {
+      "id": 274,
+      "name": "Augmented Reality Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 275,
+      "name": "Food Recipes",
+      "definition": "Posts sharing various food recipes and cooking tips."
+    },
+    {
+      "id": 276,
+      "name": "Bullying and Anxiety",
+      "definition": "Discussions on the relationship between bullying and anxiety."
+    },
+    {
+      "id": 277,
+      "name": "Concussion Awareness",
+      "definition": "Information and campaigns related to concussion awareness and prevention."
+    },
+    {
+      "id": 278,
+      "name": "Venezuela and Golf",
+      "definition": "Mentions of Venezuela's stance on golf and related political issues."
+    },
+    {
+      "id": 279,
+      "name": "Steve Jobs Succession Plan",
+      "definition": "Discussions on Apple's succession plan for Steve Jobs."
+    },
+    {
+      "id": 280,
+      "name": "Nobel Peace Prize and Wikileaks",
+      "definition": "Debates on Wikileaks' eligibility for the Nobel Peace Prize."
+    },
+    {
+      "id": 281,
+      "name": "Chavez and Golf",
+      "definition": "Mentions of Hugo Chavez's views on golf in Venezuela."
+    },
+    {
+      "id": 282,
+      "name": "Extreme Makeover Home Edition",
+      "definition": "Mentions of the TV show Extreme Makeover Home Edition."
+    },
+    {
+      "id": 283,
+      "name": "Social Media Marketing",
+      "definition": "Posts about using social media for marketing purposes."
+    },
+    {
+      "id": 284,
+      "name": "Augmented Reality in Fishing",
+      "definition": "Innovations and products related to augmented reality in fishing."
+    },
+    {
+      "id": 285,
+      "name": "Egyptian Journalist Safety",
+      "definition": "Reports on the safety and treatment of journalists in Egypt."
+    },
+    {
+      "id": 286,
+      "name": "Moscow Airport Explosion",
+      "definition": "News about the explosion at Moscow airport."
+    },
+    {
+      "id": 287,
+      "name": "Identity Theft",
+      "definition": "Information and warnings about identity theft and online fraud."
+    },
+    {
+      "id": 288,
+      "name": "Texting While Driving",
+      "definition": "Campaigns and messages against texting while driving."
+    },
+    {
+      "id": 289,
+      "name": "Charlie Sheen Hospitalization",
+      "definition": "News about Charlie Sheen's hospitalization and related events."
+    },
+    {
+      "id": 290,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Coverage of the lawsuit against Taco Bell regarding their beef content."
+    },
+    {
+      "id": 291,
+      "name": "Jordan Protests",
+      "definition": "Coverage of protests and political unrest in Jordan."
+    },
+    {
+      "id": 292,
+      "name": "Sundance Film Festival",
+      "definition": "News and celebrity sightings from the Sundance Film Festival."
+    },
+    {
+      "id": 293,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Posts about fishing, including reports, tips, and equipment."
+    },
+    {
+      "id": 294,
+      "name": "Social Media and Politics",
+      "definition": "Discussions on the role of social media in politics and activism."
+    },
+    {
+      "id": 295,
+      "name": "Financial Aid and Scholarships",
+      "definition": "Information on financial aid and scholarship opportunities."
+    },
+    {
+      "id": 296,
+      "name": "Bullying Awareness",
+      "definition": "Events and tips related to bullying awareness and prevention."
+    },
+    {
+      "id": 297,
+      "name": "Kim Kardashian and Reality TV",
+      "definition": "Mentions of Kim Kardashian and related reality TV shows."
+    },
+    {
+      "id": 298,
+      "name": "Energy Saving Tips",
+      "definition": "Advice and tips on saving energy and living efficiently."
+    },
+    {
+      "id": 299,
+      "name": "Iranian Executions",
+      "definition": "Reports on executions in Iran, including those of dual nationals."
+    },
+    {
+      "id": 300,
+      "name": "Australian Open",
+      "definition": "Coverage of the Australian Open tennis tournament."
+    }
+  ]
+}

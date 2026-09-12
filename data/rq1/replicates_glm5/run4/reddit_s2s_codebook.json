@@ -1,0 +1,149 @@
+{
+  "bench": "reddit_s2s",
+  "run": 4,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which subreddit community the post title was written for",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Animals and Pets",
+      "definition": "Content focusing on animals, their behavior, care, or interactions with humans."
+    },
+    {
+      "id": 2,
+      "name": "Architecture",
+      "definition": "Posts regarding building design, urban planning, and architectural projects."
+    },
+    {
+      "id": 3,
+      "name": "Art",
+      "definition": "Visual arts including painting, drawing, sculpture, and art history discussions."
+    },
+    {
+      "id": 4,
+      "name": "Automotive",
+      "definition": "Topics concerning cars, motorcycles, driving, and the automotive industry."
+    },
+    {
+      "id": 5,
+      "name": "Blogging and SEO",
+      "definition": "Advice and discussion regarding blogging platforms and search engine optimization."
+    },
+    {
+      "id": 6,
+      "name": "Books and Literature",
+      "definition": "Discussions of books, authors, reading habits, and literary requests."
+    },
+    {
+      "id": 7,
+      "name": "Business and Finance",
+      "definition": "News and discussion regarding corporate affairs, markets, and personal finance."
+    },
+    {
+      "id": 8,
+      "name": "Cycling",
+      "definition": "Posts about bicycles, cycling gear, maintenance, and culture."
+    },
+    {
+      "id": 9,
+      "name": "Food and Cooking",
+      "definition": "Topics related to recipes, ingredients, food preparation, and dining."
+    },
+    {
+      "id": 10,
+      "name": "Gaming",
+      "definition": "Discussion of video games, board games, and gaming culture."
+    },
+    {
+      "id": 11,
+      "name": "History",
+      "definition": "Historical photos, events, and discussions about the past."
+    },
+    {
+      "id": 12,
+      "name": "Home Improvement and DIY",
+      "definition": "Advice and projects related to home repair, renovation, and maintenance."
+    },
+    {
+      "id": 13,
+      "name": "Humor and Funny",
+      "definition": "Content intended to be funny, amusing, or satirical."
+    },
+    {
+      "id": 14,
+      "name": "International News",
+      "definition": "Major news stories covering events outside of the United States."
+    },
+    {
+      "id": 15,
+      "name": "Movies and Television",
+      "definition": "Discussion of films, TV shows, and the entertainment industry."
+    },
+    {
+      "id": 16,
+      "name": "Music",
+      "definition": "Posts about musicians, albums, instruments, and music appreciation."
+    },
+    {
+      "id": 17,
+      "name": "Personal Finance",
+      "definition": "Questions and advice regarding personal money management, banking, and taxes."
+    },
+    {
+      "id": 18,
+      "name": "Photography",
+      "definition": "Images, techniques, and equipment related to photography."
+    },
+    {
+      "id": 19,
+      "name": "Politics",
+      "definition": "Discussion of political figures, policy, and elections."
+    },
+    {
+      "id": 20,
+      "name": "Relationships",
+      "definition": "Advice and stories regarding interpersonal, romantic, or family relationships."
+    },
+    {
+      "id": 21,
+      "name": "Religion",
+      "definition": "Theological discussion, religious advice, and news about religious institutions."
+    },
+    {
+      "id": 22,
+      "name": "Science",
+      "definition": "Scientific discoveries, research, and academic discussion."
+    },
+    {
+      "id": 23,
+      "name": "Sports",
+      "definition": "News and discussion about professional and amateur sports."
+    },
+    {
+      "id": 24,
+      "name": "Technology",
+      "definition": "Gadgets, software, coding, and consumer electronics."
+    },
+    {
+      "id": 25,
+      "name": "US Local News",
+      "definition": "News articles focused on specific cities or states within the United States."
+    },
+    {
+      "id": 26,
+      "name": "Vehicles and Transportation",
+      "definition": "Discussion of non-automotive transport like planes, trains, and infrastructure."
+    },
+    {
+      "id": 27,
+      "name": "Wellness and Health",
+      "definition": "Physical health, medical conditions, and fitness advice."
+    },
+    {
+      "id": 28,
+      "name": "World News",
+      "definition": "General news articles covering significant global events."
+    }
+  ]
+}

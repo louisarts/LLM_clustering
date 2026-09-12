@@ -1,0 +1,260 @@
+{
+  "bench": "tweet89",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which specific news story or event the tweet is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Obama Birth Certificate",
+      "definition": "Discussion about Obama's birth certificate and related political issues."
+    },
+    {
+      "id": 2,
+      "name": "Republican Party and Debt",
+      "definition": "Mentions of the Republican Party in the context of debt."
+    },
+    {
+      "id": 3,
+      "name": "Health and Fitness Initiatives",
+      "definition": "Initiatives related to health, fitness, and nutrition."
+    },
+    {
+      "id": 4,
+      "name": "Illegal Ice Fishing in Vancouver",
+      "definition": "Incidents of illegal ice fishing in Vancouver."
+    },
+    {
+      "id": 5,
+      "name": "Chicago Blizzard",
+      "definition": "Events and impacts of the blizzard in Chicago."
+    },
+    {
+      "id": 6,
+      "name": "Credit Card Debt Consolidation",
+      "definition": "Information and advice on consolidating credit card debt."
+    },
+    {
+      "id": 7,
+      "name": "Bedbug Resistance to Pesticides",
+      "definition": "News about bedbugs evolving resistance to pesticides."
+    },
+    {
+      "id": 8,
+      "name": "Facebook Privacy Settings",
+      "definition": "Discussions about privacy settings on Facebook."
+    },
+    {
+      "id": 9,
+      "name": "Taco Bell Beef Lawsuit",
+      "definition": "Controversy and legal issues regarding Taco Bell's beef content."
+    },
+    {
+      "id": 10,
+      "name": "Christina Aguilera National Anthem Flub",
+      "definition": "Christina Aguilera's performance of the national anthem at the Super Bowl."
+    },
+    {
+      "id": 11,
+      "name": "Super Bowl XLV Commercials",
+      "definition": "Discussion and reviews of commercials aired during Super Bowl XLV."
+    },
+    {
+      "id": 12,
+      "name": "Sundance Film Festival",
+      "definition": "Events and news related to the Sundance Film Festival."
+    },
+    {
+      "id": 13,
+      "name": "Oscar Nominations and Awards",
+      "definition": "Announcements and reactions to Oscar nominations and awards."
+    },
+    {
+      "id": 14,
+      "name": "Moscow Airport Suicide Bombing",
+      "definition": "Reports and details of the suicide bombing at Moscow airport."
+    },
+    {
+      "id": 15,
+      "name": "Glenn Beck Controversies",
+      "definition": "Controversies and discussions involving Glenn Beck."
+    },
+    {
+      "id": 16,
+      "name": "Social Media and Politics",
+      "definition": "The role of social media in political movements and discussions."
+    },
+    {
+      "id": 17,
+      "name": "Healthcare Law and Supreme Court",
+      "definition": "Legal challenges and rulings related to healthcare laws."
+    },
+    {
+      "id": 18,
+      "name": "Fishing and Outdoor Activities",
+      "definition": "Mentions of fishing and related outdoor activities."
+    },
+    {
+      "id": 19,
+      "name": "Yemen Protests and Political Situation",
+      "definition": "Protests and political developments in Yemen."
+    },
+    {
+      "id": 20,
+      "name": "Somali Piracy",
+      "definition": "Incidents and responses to piracy off the coast of Somalia."
+    },
+    {
+      "id": 21,
+      "name": "Australian Open Tennis",
+      "definition": "Matches and outcomes of the Australian Open tennis tournament."
+    },
+    {
+      "id": 22,
+      "name": "Texting and Driving Awareness",
+      "definition": "Campaigns and discussions about the dangers of texting while driving."
+    },
+    {
+      "id": 23,
+      "name": "Charlie Sheen's Personal Issues",
+      "definition": "News and updates on Charlie Sheen's personal and legal troubles."
+    },
+    {
+      "id": 24,
+      "name": "Starbucks Trenta Cup",
+      "definition": "Reactions and discussions about Starbucks' new Trenta cup size."
+    },
+    {
+      "id": 25,
+      "name": "Egyptian Protests and Museum Security",
+      "definition": "Protests in Egypt and the security of its museums and artifacts."
+    },
+    {
+      "id": 26,
+      "name": "Debt Settlement and Financial Advice",
+      "definition": "Advice and programs related to debt settlement."
+    },
+    {
+      "id": 27,
+      "name": "Acai Berry and Weight Loss",
+      "definition": "Products and claims related to acai berry and weight loss."
+    },
+    {
+      "id": 28,
+      "name": "Volkswagen Super Bowl Commercial",
+      "definition": "Reactions to Volkswagen's commercial aired during the Super Bowl."
+    },
+    {
+      "id": 29,
+      "name": "Iranian Nuclear Program and Stuxnet",
+      "definition": "Discussions about Iran's nuclear program and the Stuxnet virus."
+    },
+    {
+      "id": 30,
+      "name": "Egyptian Journalist Safety",
+      "definition": "Reports on the safety and treatment of journalists in Egypt."
+    },
+    {
+      "id": 31,
+      "name": "Kim Kardashian and Reality TV",
+      "definition": "Mentions of Kim Kardashian and related reality TV shows."
+    },
+    {
+      "id": 32,
+      "name": "Scholarships and Education Opportunities",
+      "definition": "Information about scholarships and educational opportunities."
+    },
+    {
+      "id": 33,
+      "name": "Hugo Chavez and Venezuelan Politics",
+      "definition": "Statements and actions by Hugo Chavez in Venezuelan politics."
+    },
+    {
+      "id": 34,
+      "name": "Immigration and Employment Laws",
+      "definition": "News and discussions about immigration and employment laws."
+    },
+    {
+      "id": 35,
+      "name": "Identity Theft and Online Security",
+      "definition": "Issues and advice related to identity theft and online security."
+    },
+    {
+      "id": 36,
+      "name": "Energy Saving Tips",
+      "definition": "Advice and tips on saving energy and reducing bills."
+    },
+    {
+      "id": 37,
+      "name": "Food and Recipe Sharing",
+      "definition": "Sharing of recipes and food-related content."
+    },
+    {
+      "id": 38,
+      "name": "Supreme Court Rulings",
+      "definition": "Decisions and cases ruled by the Supreme Court."
+    },
+    {
+      "id": 39,
+      "name": "Gabrielle Giffords Recovery",
+      "definition": "Updates on the recovery of Rep. Gabrielle Giffords."
+    },
+    {
+      "id": 40,
+      "name": "Apple and Smartphone Market",
+      "definition": "Apple's position and performance in the smartphone market."
+    },
+    {
+      "id": 41,
+      "name": "Egyptian Museum Looting",
+      "definition": "Reports of looting and damage to the Egyptian Museum."
+    },
+    {
+      "id": 42,
+      "name": "Keith Olbermann's Career Moves",
+      "definition": "Updates on Keith Olbermann's career and media roles."
+    },
+    {
+      "id": 43,
+      "name": "Super Bowl Recipes",
+      "definition": "Recipes shared in the context of Super Bowl parties."
+    },
+    {
+      "id": 44,
+      "name": "Iranian Political Developments",
+      "definition": "Political events and statements related to Iran."
+    },
+    {
+      "id": 45,
+      "name": "Black Swan Movie and Awards",
+      "definition": "Discussions about the movie Black Swan and its awards."
+    },
+    {
+      "id": 46,
+      "name": "Egyptian Army and Museum Protection",
+      "definition": "Actions by the Egyptian army to protect museums and artifacts."
+    },
+    {
+      "id": 47,
+      "name": "Super Bowl XLV",
+      "definition": "Events and highlights of Super Bowl XLV."
+    },
+    {
+      "id": 48,
+      "name": "Social Media Trends",
+      "definition": "Trends and discussions about social media platforms."
+    },
+    {
+      "id": 49,
+      "name": "Environmental and Climate Change",
+      "definition": "Updates and discussions on environmental and climate change issues."
+    },
+    {
+      "id": 50,
+      "name": "Journalist Safety in Conflict Zones",
+      "definition": "Safety concerns and incidents involving journalists in conflict zones."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "bench": "clinc150_domain",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking and Finance",
+      "definition": "Requests related to banking, credit cards, account balances, transactions, and financial advice."
+    },
+    {
+      "id": 2,
+      "name": "Travel and Reservations",
+      "definition": "Requests related to booking flights, hotels, car rentals, and travel-related inquiries."
+    },
+    {
+      "id": 3,
+      "name": "Personal Assistant Functions",
+      "definition": "Requests for setting reminders, alarms, timers, and managing to-do lists."
+    },
+    {
+      "id": 4,
+      "name": "Weather and Time",
+      "definition": "Requests for weather updates and time zone information."
+    },
+    {
+      "id": 5,
+      "name": "Music and Entertainment",
+      "definition": "Requests related to playing music, identifying songs, and managing playlists."
+    },
+    {
+      "id": 6,
+      "name": "Cooking and Recipes",
+      "definition": "Requests for recipes, cooking instructions, and ingredient substitutions."
+    },
+    {
+      "id": 7,
+      "name": "Utilities and Home Automation",
+      "definition": "Requests related to controlling home devices like thermostats and lights."
+    },
+    {
+      "id": 8,
+      "name": "General Knowledge and Trivia",
+      "definition": "Requests for definitions, trivia, and general knowledge questions."
+    },
+    {
+      "id": 9,
+      "name": "Health and Nutrition",
+      "definition": "Requests for nutritional information and health-related inquiries."
+    },
+    {
+      "id": 10,
+      "name": "Transportation and Navigation",
+      "definition": "Requests related to car maintenance, navigation, and transportation options."
+    },
+    {
+      "id": 11,
+      "name": "Communication and Messaging",
+      "definition": "Requests for sending messages, making calls, and sharing locations."
+    },
+    {
+      "id": 12,
+      "name": "Assistant Identity and Preferences",
+      "definition": "Requests related to the assistant's identity, voice settings, and user preferences."
+    },
+    {
+      "id": 13,
+      "name": "Technical Support and Troubleshooting",
+      "definition": "Requests for technical assistance and troubleshooting device issues."
+    },
+    {
+      "id": 14,
+      "name": "Shopping and Orders",
+      "definition": "Requests related to placing orders, tracking shipments, and managing shopping lists."
+    },
+    {
+      "id": 15,
+      "name": "Social and Personal Interactions",
+      "definition": "Requests for casual conversation, personal questions, and social interactions."
+    }
+  ]
+}

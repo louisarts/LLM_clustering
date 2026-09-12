@@ -1,0 +1,85 @@
+{
+  "bench": "snips",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or forecasted weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Movie Schedule Inquiry",
+      "definition": "Requests for information about movie showtimes or schedules."
+    },
+    {
+      "id": 3,
+      "name": "Restaurant Booking",
+      "definition": "Requests to make reservations at restaurants."
+    },
+    {
+      "id": 4,
+      "name": "Playlist Management",
+      "definition": "Requests to add or modify songs in playlists."
+    },
+    {
+      "id": 5,
+      "name": "Music Playback",
+      "definition": "Requests to play specific songs, albums, or genres."
+    },
+    {
+      "id": 6,
+      "name": "Art Inquiry",
+      "definition": "Requests to find or view specific artworks or paintings."
+    },
+    {
+      "id": 7,
+      "name": "Rating Submission",
+      "definition": "Requests to rate books, movies, or other media."
+    },
+    {
+      "id": 8,
+      "name": "Game Inquiry",
+      "definition": "Requests to find or inquire about video games."
+    },
+    {
+      "id": 9,
+      "name": "TV Show Inquiry",
+      "definition": "Requests for information about television shows or their schedules."
+    },
+    {
+      "id": 10,
+      "name": "Creative Work Inquiry",
+      "definition": "Requests to find specific creative works such as books or films."
+    },
+    {
+      "id": 11,
+      "name": "Food Inquiry",
+      "definition": "Requests for information about food options or specific dishes."
+    },
+    {
+      "id": 12,
+      "name": "Location-Based Inquiry",
+      "definition": "Requests for information based on a specific location."
+    },
+    {
+      "id": 13,
+      "name": "Event Scheduling",
+      "definition": "Requests to schedule or inquire about events."
+    },
+    {
+      "id": 14,
+      "name": "Cinema Location Inquiry",
+      "definition": "Requests to find the nearest cinema or movie house."
+    },
+    {
+      "id": 15,
+      "name": "General Inquiry",
+      "definition": "Requests for general information not covered by other categories."
+    }
+  ]
+}

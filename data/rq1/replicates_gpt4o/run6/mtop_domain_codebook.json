@@ -1,0 +1,60 @@
+{
+  "bench": "mtop_domain",
+  "run": 6,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather",
+      "definition": "Requests for current or forecasted weather information."
+    },
+    {
+      "id": 2,
+      "name": "Communication",
+      "definition": "Requests to initiate or manage calls, messages, or video communications."
+    },
+    {
+      "id": 3,
+      "name": "Reminders and Alarms",
+      "definition": "Requests to set, modify, or delete reminders and alarms."
+    },
+    {
+      "id": 4,
+      "name": "News",
+      "definition": "Requests for current news updates or specific news topics."
+    },
+    {
+      "id": 5,
+      "name": "Music and Media",
+      "definition": "Requests to play, manage, or inquire about music and other media."
+    },
+    {
+      "id": 6,
+      "name": "Timers",
+      "definition": "Requests to set, modify, or inquire about timers."
+    },
+    {
+      "id": 7,
+      "name": "Recipes and Cooking",
+      "definition": "Requests for recipes, cooking instructions, or food-related inquiries."
+    },
+    {
+      "id": 8,
+      "name": "Events and Activities",
+      "definition": "Requests for information about local events or activities."
+    },
+    {
+      "id": 9,
+      "name": "Social Connections",
+      "definition": "Requests for information about social connections or friends."
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge",
+      "definition": "Requests for factual information or general knowledge."
+    }
+  ]
+}

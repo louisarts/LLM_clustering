@@ -1,0 +1,462 @@
+{
+  "bench": "arxiv_fine",
+  "run": 10,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.AI",
+      "definition": "Research on intelligent agents, knowledge representation, planning, and machine reasoning."
+    },
+    {
+      "id": 2,
+      "name": "cs.AR",
+      "definition": "Design, organization, and implementation of computer hardware systems."
+    },
+    {
+      "id": 3,
+      "name": "cs.CC",
+      "definition": "Study of the resources required for computation, including time and space complexity."
+    },
+    {
+      "id": 4,
+      "name": "cs.CL",
+      "definition": "Natural language processing, computational linguistics, and speech processing."
+    },
+    {
+      "id": 5,
+      "name": "cs.CR",
+      "definition": "Design and analysis of secure communication and computation systems."
+    },
+    {
+      "id": 6,
+      "name": "cs.CV",
+      "definition": "Image and video processing, object recognition, and scene understanding."
+    },
+    {
+      "id": 7,
+      "name": "cs.CY",
+      "definition": "Social, ethical, and economic impacts of computing technology."
+    },
+    {
+      "id": 8,
+      "name": "cs.DB",
+      "definition": "Design, implementation, and management of data storage and retrieval systems."
+    },
+    {
+      "id": 9,
+      "name": "cs.DC",
+      "definition": "Systems and algorithms for concurrent and distributed computation."
+    },
+    {
+      "id": 10,
+      "name": "cs.DM",
+      "definition": "Combinatorics, graph theory, and other discrete structures relevant to computer science."
+    },
+    {
+      "id": 11,
+      "name": "cs.DS",
+      "definition": "Design and analysis of efficient data organization and computational procedures."
+    },
+    {
+      "id": 12,
+      "name": "cs.FL",
+      "definition": "Theoretical foundations of computation, including grammars and automata."
+    },
+    {
+      "id": 13,
+      "name": "cs.GT",
+      "definition": "Algorithmic aspects of game theory, mechanism design, and social choice."
+    },
+    {
+      "id": 14,
+      "name": "cs.HC",
+      "definition": "Design, evaluation, and theory of user interfaces and interactive systems."
+    },
+    {
+      "id": 15,
+      "name": "cs.IR",
+      "definition": "Storage, organization, and access to information, including search engines and recommender systems."
+    },
+    {
+      "id": 16,
+      "name": "cs.IT",
+      "definition": "Mathematical theory of communication, data compression, and error correction."
+    },
+    {
+      "id": 17,
+      "name": "cs.LG",
+      "definition": "Algorithms and models for learning from data, including deep learning and statistical learning."
+    },
+    {
+      "id": 18,
+      "name": "cs.LO",
+      "definition": "Application of mathematical logic to computer science, including formal methods and automated reasoning."
+    },
+    {
+      "id": 19,
+      "name": "cs.NI",
+      "definition": "Design, protocols, and performance of computer networks and the Internet."
+    },
+    {
+      "id": 20,
+      "name": "cs.OS",
+      "definition": "Design and implementation of system software that manages computer hardware and software resources."
+    },
+    {
+      "id": 21,
+      "name": "cs.PL",
+      "definition": "Design, theory, implementation, and analysis of programming languages."
+    },
+    {
+      "id": 22,
+      "name": "cs.RO",
+      "definition": "Design, control, and application of robots and robotic systems."
+    },
+    {
+      "id": 23,
+      "name": "cs.SE",
+      "definition": "Principles and practices for the design, development, and maintenance of software systems."
+    },
+    {
+      "id": 24,
+      "name": "cs.SD",
+      "definition": "Audio processing, speech synthesis, and sound analysis."
+    },
+    {
+      "id": 25,
+      "name": "cs.SI",
+      "definition": "Analysis and modeling of social networks and information diffusion."
+    },
+    {
+      "id": 26,
+      "name": "cs.SY",
+      "definition": "Theory and application of control systems, automation, and system modeling."
+    },
+    {
+      "id": 27,
+      "name": "cs.OH",
+      "definition": "General computer science topics not fitting into specific subcategories."
+    },
+    {
+      "id": 28,
+      "name": "math.AC",
+      "definition": "Study of commutative rings, modules, and their properties."
+    },
+    {
+      "id": 29,
+      "name": "math.AG",
+      "definition": "Study of geometric objects defined by polynomial equations."
+    },
+    {
+      "id": 30,
+      "name": "math.AP",
+      "definition": "Theory and applications of partial differential equations."
+    },
+    {
+      "id": 31,
+      "name": "math.AT",
+      "definition": "Use of algebraic tools to study topological spaces."
+    },
+    {
+      "id": 32,
+      "name": "math.CA",
+      "definition": "Real and complex analysis, ordinary differential equations, and special functions."
+    },
+    {
+      "id": 33,
+      "name": "math.CO",
+      "definition": "Study of discrete structures and their arrangements."
+    },
+    {
+      "id": 34,
+      "name": "math.CT",
+      "definition": "Abstract study of mathematical structures and relationships between them."
+    },
+    {
+      "id": 35,
+      "name": "math.DG",
+      "definition": "Study of smooth manifolds, curves, and surfaces using calculus."
+    },
+    {
+      "id": 36,
+      "name": "math.DS",
+      "definition": "Study of systems that evolve over time, often described by differential equations."
+    },
+    {
+      "id": 37,
+      "name": "math.FA",
+      "definition": "Study of vector spaces equipped with limits, including Banach and Hilbert spaces."
+    },
+    {
+      "id": 38,
+      "name": "math.GM",
+      "definition": "Broad mathematical topics not fitting into specific subcategories."
+    },
+    {
+      "id": 39,
+      "name": "math.GR",
+      "definition": "Study of groups, their structure, and representations."
+    },
+    {
+      "id": 40,
+      "name": "math.GT",
+      "definition": "Study of manifolds and their embeddings, often with a geometric flavor."
+    },
+    {
+      "id": 41,
+      "name": "math.LO",
+      "definition": "Mathematical logic, set theory, model theory, and computability theory."
+    },
+    {
+      "id": 42,
+      "name": "math.NA",
+      "definition": "Development and analysis of algorithms for solving mathematical problems."
+    },
+    {
+      "id": 43,
+      "name": "math.NT",
+      "definition": "Study of integers and their properties."
+    },
+    {
+      "id": 44,
+      "name": "math.OA",
+      "definition": "Study of algebras of operators on Hilbert spaces."
+    },
+    {
+      "id": 45,
+      "name": "math.OC",
+      "definition": "Theory and methods for finding optimal solutions and controlling systems."
+    },
+    {
+      "id": 46,
+      "name": "math.PR",
+      "definition": "Mathematical theory of probability, random processes, and stochastic models."
+    },
+    {
+      "id": 47,
+      "name": "math.QA",
+      "definition": "Algebraic structures related to quantum mechanics and quantum groups."
+    },
+    {
+      "id": 48,
+      "name": "math.RA",
+      "definition": "Study of rings, algebras, and their modules."
+    },
+    {
+      "id": 49,
+      "name": "math.RT",
+      "definition": "Study of abstract algebraic structures by representing their elements as linear transformations."
+    },
+    {
+      "id": 50,
+      "name": "physics.acc-ph",
+      "definition": "Design, operation, and theory of particle accelerators."
+    },
+    {
+      "id": 51,
+      "name": "physics.ao-ph",
+      "definition": "Physics of the Earth's atmosphere and oceans."
+    },
+    {
+      "id": 52,
+      "name": "physics.app-ph",
+      "definition": "Applications of physics principles to technology and engineering."
+    },
+    {
+      "id": 53,
+      "name": "physics.atom-ph",
+      "definition": "Study of atoms, their structure, and interactions."
+    },
+    {
+      "id": 54,
+      "name": "physics.chem-ph",
+      "definition": "Application of physics methods to chemical phenomena."
+    },
+    {
+      "id": 55,
+      "name": "physics.comp-ph",
+      "definition": "Use of computational methods to solve physics problems."
+    },
+    {
+      "id": 56,
+      "name": "physics.flu-dyn",
+      "definition": "Study of fluids in motion."
+    },
+    {
+      "id": 57,
+      "name": "physics.ins-det",
+      "definition": "Design and performance of scientific instruments and detectors."
+    },
+    {
+      "id": 58,
+      "name": "physics.optics",
+      "definition": "Study of light and its interaction with matter."
+    },
+    {
+      "id": 59,
+      "name": "physics.plasm-ph",
+      "definition": "Study of ionized gases and their properties."
+    },
+    {
+      "id": 60,
+      "name": "astro-ph.CO",
+      "definition": "Study of the universe's origin, evolution, and large-scale structure."
+    },
+    {
+      "id": 61,
+      "name": "astro-ph.EP",
+      "definition": "Study of planets, exoplanets, and their formation."
+    },
+    {
+      "id": 62,
+      "name": "astro-ph.GA",
+      "definition": "Study of galaxies, their structure, formation, and evolution."
+    },
+    {
+      "id": 63,
+      "name": "astro-ph.HE",
+      "definition": "Study of high-energy processes in the universe, like cosmic rays and gamma-ray bursts."
+    },
+    {
+      "id": 64,
+      "name": "astro-ph.IM",
+      "definition": "Development of astronomical instruments and data analysis techniques."
+    },
+    {
+      "id": 65,
+      "name": "astro-ph.SR",
+      "definition": "Study of the Sun, stars, and their evolution."
+    },
+    {
+      "id": 66,
+      "name": "cond-mat.mes-hall",
+      "definition": "Physics of materials at intermediate length scales, including quantum dots and nanowires."
+    },
+    {
+      "id": 67,
+      "name": "cond-mat.mtrl-sci",
+      "definition": "Synthesis, properties, and applications of materials."
+    },
+    {
+      "id": 68,
+      "name": "cond-mat.other",
+      "definition": "General condensed matter topics not fitting into specific subcategories."
+    },
+    {
+      "id": 69,
+      "name": "cond-mat.quant-gas",
+      "definition": "Physics of ultracold atomic and molecular gases."
+    },
+    {
+      "id": 70,
+      "name": "cond-mat.soft",
+      "definition": "Physics of soft materials like polymers, colloids, and liquid crystals."
+    },
+    {
+      "id": 71,
+      "name": "cond-mat.stat-mech",
+      "definition": "Statistical methods applied to many-body systems and phase transitions."
+    },
+    {
+      "id": 72,
+      "name": "cond-mat.str-el",
+      "definition": "Physics of materials where electron-electron interactions are dominant."
+    },
+    {
+      "id": 73,
+      "name": "cond-mat.supr-con",
+      "definition": "Phenomena of zero electrical resistance and magnetic field expulsion in certain materials."
+    },
+    {
+      "id": 74,
+      "name": "q-bio.BM",
+      "definition": "Structure, function, and interactions of biological molecules."
+    },
+    {
+      "id": 75,
+      "name": "q-bio.CB",
+      "definition": "Dynamics and regulation of cellular processes."
+    },
+    {
+      "id": 76,
+      "name": "q-bio.GN",
+      "definition": "Study of genomes, gene expression, and genetic variation."
+    },
+    {
+      "id": 77,
+      "name": "q-bio.NC",
+      "definition": "Neuroscience, neural networks, and cognitive processes."
+    },
+    {
+      "id": 78,
+      "name": "q-bio.PE",
+      "definition": "Population dynamics, evolutionary biology, and ecology."
+    },
+    {
+      "id": 79,
+      "name": "q-bio.QM",
+      "definition": "Mathematical and computational methods applied to biological problems."
+    },
+    {
+      "id": 80,
+      "name": "q-fin.EM",
+      "definition": "Statistical and mathematical methods for economic data analysis."
+    },
+    {
+      "id": 81,
+      "name": "q-fin.MF",
+      "definition": "Mathematical models for financial markets and derivatives pricing."
+    },
+    {
+      "id": 82,
+      "name": "q-fin.PM",
+      "definition": "Strategies for managing investment portfolios."
+    },
+    {
+      "id": 83,
+      "name": "q-fin.RM",
+      "definition": "Identification, assessment, and mitigation of financial risks."
+    },
+    {
+      "id": 84,
+      "name": "q-fin.ST",
+      "definition": "Statistical analysis of financial time series and market behavior."
+    },
+    {
+      "id": 85,
+      "name": "econ.GN",
+      "definition": "Broad economic topics and interdisciplinary studies."
+    },
+    {
+      "id": 86,
+      "name": "econ.TH",
+      "definition": "Development of economic theories and models."
+    },
+    {
+      "id": 87,
+      "name": "hep-th",
+      "definition": "Theoretical aspects of particle physics and quantum field theory."
+    },
+    {
+      "id": 88,
+      "name": "math-ph",
+      "definition": "Application of mathematical methods to problems in physics."
+    },
+    {
+      "id": 89,
+      "name": "stat.AP",
+      "definition": "Applications of statistical methods to real-world data."
+    },
+    {
+      "id": 90,
+      "name": "stat.ME",
+      "definition": "Development and study of statistical methods and theory."
+    },
+    {
+      "id": 91,
+      "name": "stat.ML",
+      "definition": "Statistical approaches to machine learning, including inference and model selection."
+    }
+  ]
+}

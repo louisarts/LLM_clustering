@@ -1,0 +1,82 @@
+{
+  "bench": "mcid",
+  "run": 10,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General COVID-19 Information",
+      "definition": "User seeks broad or introductory information about COVID-19, its nature, or general understanding."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms and Personal Health Assessment",
+      "definition": "User asks about specific COVID-19 symptoms, their severity, duration, or seeks to compare their own symptoms to COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Transmission and Prevention",
+      "definition": "User asks how COVID-19 spreads, how to protect themselves or others, or about general safety measures."
+    },
+    {
+      "id": 4,
+      "name": "Surface and Object Contamination",
+      "definition": "User asks about the virus's viability on surfaces or objects, or how to disinfect them."
+    },
+    {
+      "id": 5,
+      "name": "High-Risk Areas and Exposure",
+      "definition": "User asks about locations or situations considered high-risk for COVID-19 exposure, or what to do after potential exposure."
+    },
+    {
+      "id": 6,
+      "name": "Self-Quarantine and Isolation",
+      "definition": "User asks for guidance on self-quarantine or isolation practices."
+    },
+    {
+      "id": 7,
+      "name": "Treatment and Cure Information",
+      "definition": "User asks about available treatments, potential cures, or vaccine development for COVID-19."
+    },
+    {
+      "id": 8,
+      "name": "Statistics and Case Data",
+      "definition": "User asks for numerical data related to COVID-19 cases, deaths, recoveries, or testing in specific regions or demographics."
+    },
+    {
+      "id": 9,
+      "name": "News and Updates",
+      "definition": "User seeks current news, press releases, or general updates about the COVID-19 pandemic."
+    },
+    {
+      "id": 10,
+      "name": "COVID-19 Myths and Misinformation",
+      "definition": "User asks to confirm or debunk common myths, rumors, or false claims about COVID-19."
+    },
+    {
+      "id": 11,
+      "name": "Travel Restrictions and Advice",
+      "definition": "User asks about travel bans, restrictions, safety of travel methods, or advice for traveling during the pandemic."
+    },
+    {
+      "id": 12,
+      "name": "Pets and Animals",
+      "definition": "User asks about COVID-19's impact on pets or other animals, or transmission between animals and humans."
+    },
+    {
+      "id": 13,
+      "name": "Donation and Funding",
+      "definition": "User expresses intent to donate money or asks for information on how to contribute to COVID-19 relief efforts."
+    },
+    {
+      "id": 14,
+      "name": "Sharing Service Information",
+      "definition": "User expresses intent to share information about the current service or bot with others."
+    },
+    {
+      "id": 15,
+      "name": "Greetings and Gratitude",
+      "definition": "User expresses a greeting, thanks, or general positive sentiment towards the service or bot."
+    }
+  ]
+}

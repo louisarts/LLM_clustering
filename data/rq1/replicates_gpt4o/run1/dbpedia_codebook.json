@@ -1,0 +1,110 @@
+{
+  "bench": "dbpedia",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Buildings and Structures",
+      "definition": "Physical constructions such as buildings, bridges, and monuments."
+    },
+    {
+      "id": 2,
+      "name": "Species",
+      "definition": "Biological species including animals, plants, and fungi."
+    },
+    {
+      "id": 3,
+      "name": "Vehicles",
+      "definition": "Modes of transportation including cars, aircraft, and ships."
+    },
+    {
+      "id": 4,
+      "name": "People",
+      "definition": "Individual human beings including historical figures, artists, and politicians."
+    },
+    {
+      "id": 5,
+      "name": "Books and Literature",
+      "definition": "Written works including novels, plays, and poetry."
+    },
+    {
+      "id": 6,
+      "name": "Films and Television",
+      "definition": "Visual media including movies and TV shows."
+    },
+    {
+      "id": 7,
+      "name": "Educational Institutions",
+      "definition": "Schools, colleges, and universities."
+    },
+    {
+      "id": 8,
+      "name": "Rivers and Water Bodies",
+      "definition": "Natural water formations including rivers, lakes, and seas."
+    },
+    {
+      "id": 9,
+      "name": "Companies and Organizations",
+      "definition": "Business entities and non-profit organizations."
+    },
+    {
+      "id": 10,
+      "name": "Music and Albums",
+      "definition": "Musical works and recordings."
+    },
+    {
+      "id": 11,
+      "name": "Geographical Locations",
+      "definition": "Places including cities, towns, and regions."
+    },
+    {
+      "id": 12,
+      "name": "Historical Events",
+      "definition": "Significant occurrences in history."
+    },
+    {
+      "id": 13,
+      "name": "Sports and Athletes",
+      "definition": "Sports activities and individuals involved in sports."
+    },
+    {
+      "id": 14,
+      "name": "Science and Technology",
+      "definition": "Scientific concepts, discoveries, and technological advancements."
+    },
+    {
+      "id": 15,
+      "name": "Political Entities",
+      "definition": "Governments, political parties, and administrative divisions."
+    },
+    {
+      "id": 16,
+      "name": "Cultural and Religious Sites",
+      "definition": "Locations of cultural or religious significance."
+    },
+    {
+      "id": 17,
+      "name": "Art and Artists",
+      "definition": "Visual arts and individuals involved in creating art."
+    },
+    {
+      "id": 18,
+      "name": "Food and Beverages",
+      "definition": "Edible items and drinks."
+    },
+    {
+      "id": 19,
+      "name": "Games and Entertainment",
+      "definition": "Activities and products designed for amusement."
+    },
+    {
+      "id": 20,
+      "name": "Natural Phenomena",
+      "definition": "Naturally occurring events or features."
+    }
+  ]
+}

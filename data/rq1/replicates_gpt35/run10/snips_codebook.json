@@ -1,0 +1,60 @@
+{
+  "bench": "snips",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Rate",
+      "definition": "User wants to rate a specific piece of content on a scale"
+    },
+    {
+      "id": 2,
+      "name": "Find",
+      "definition": "User wants to locate a specific piece of content or information"
+    },
+    {
+      "id": 3,
+      "name": "Book",
+      "definition": "User wants to make a reservation or booking at a restaurant or venue"
+    },
+    {
+      "id": 4,
+      "name": "Play",
+      "definition": "User wants to listen to music or watch a movie or TV show"
+    },
+    {
+      "id": 5,
+      "name": "Weather Forecast",
+      "definition": "User wants to know the weather forecast for a specific location and time"
+    },
+    {
+      "id": 6,
+      "name": "Add to Playlist",
+      "definition": "User wants to add a specific song or album to a playlist"
+    },
+    {
+      "id": 7,
+      "name": "Movie Schedule",
+      "definition": "User wants to know the schedule of movies playing at a specific cinema"
+    },
+    {
+      "id": 8,
+      "name": "Restaurant Reservation",
+      "definition": "User wants to make a reservation at a restaurant for a specific number of people and date/time"
+    },
+    {
+      "id": 9,
+      "name": "Showtimes",
+      "definition": "User wants to know the showtimes of movies at a specific cinema"
+    },
+    {
+      "id": 10,
+      "name": "Forecast",
+      "definition": "User wants to know the weather forecast for a specific location and date/time"
+    }
+  ]
+}

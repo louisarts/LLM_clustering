@@ -1,0 +1,77 @@
+{
+  "bench": "massive_domain",
+  "run": 4,
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Query",
+      "definition": "Requests for general facts, definitions, trivia, or descriptions of entities."
+    },
+    {
+      "id": 2,
+      "name": "News and Current Events",
+      "definition": "Inquiries about recent happenings, headlines, stock market updates, or social media trends."
+    },
+    {
+      "id": 3,
+      "name": "Weather",
+      "definition": "Requests for current or future weather conditions, forecasts, or temperature."
+    },
+    {
+      "id": 4,
+      "name": "Time and Date",
+      "definition": "Questions about the current time, date, time zones, or specific dates."
+    },
+    {
+      "id": 5,
+      "name": "Calculations and Conversions",
+      "definition": "Requests for mathematical operations, unit conversions, or currency exchange rates."
+    },
+    {
+      "id": 6,
+      "name": "Media Playback",
+      "definition": "Commands to play, pause, resume, skip, or search for music, podcasts, audiobooks, or videos."
+    },
+    {
+      "id": 7,
+      "name": "Smart Home and Device Control",
+      "definition": "Commands to adjust settings or control smart devices like lights, vacuums, or smart plugs."
+    },
+    {
+      "id": 8,
+      "name": "Communication",
+      "definition": "Actions related to sending, receiving, or managing emails, messages, social media posts, or phone calls."
+    },
+    {
+      "id": 9,
+      "name": "Calendar and Reminders",
+      "definition": "Setting, checking, modifying, or deleting alarms, reminders, or calendar events."
+    },
+    {
+      "id": 10,
+      "name": "Navigation and Travel",
+      "definition": "Requests for directions, travel information, booking transportation, or finding points of interest."
+    },
+    {
+      "id": 11,
+      "name": "Shopping and Lists",
+      "definition": "Creating, modifying, querying, or deleting shopping lists, to-do lists, or finding products or services."
+    },
+    {
+      "id": 12,
+      "name": "Games and Interactive Entertainment",
+      "definition": "Initiating or playing games, or engaging in interactive entertainment."
+    },
+    {
+      "id": 13,
+      "name": "App and System Management",
+      "definition": "Commands to open, close, or manage applications or general device settings."
+    },
+    {
+      "id": 14,
+      "name": "General Interaction",
+      "definition": "Utterances that are conversational, expressions of sentiment, or do not fit into a specific functional domain."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "bench": "clinc150_domain",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking and Finance",
+      "definition": "Inquiries and requests related to banking services, account management, and financial transactions."
+    },
+    {
+      "id": 2,
+      "name": "Travel and Transportation",
+      "definition": "Questions and requests regarding travel arrangements, transportation, and related services."
+    },
+    {
+      "id": 3,
+      "name": "Food and Recipes",
+      "definition": "Requests for recipes, cooking instructions, and food-related inquiries."
+    },
+    {
+      "id": 4,
+      "name": "Health and Nutrition",
+      "definition": "Inquiries about health plans, nutritional information, and dietary questions."
+    },
+    {
+      "id": 5,
+      "name": "Meetings and Scheduling",
+      "definition": "Requests related to scheduling meetings, reservations, and calendar management."
+    },
+    {
+      "id": 6,
+      "name": "Utilities and Bills",
+      "definition": "Questions regarding utility services, bill payments, and account inquiries."
+    },
+    {
+      "id": 7,
+      "name": "Personal Assistance",
+      "definition": "General inquiries and requests for assistance in daily tasks and personal management."
+    },
+    {
+      "id": 8,
+      "name": "Technical Support",
+      "definition": "Requests for help with technical issues, device management, and troubleshooting."
+    },
+    {
+      "id": 9,
+      "name": "Entertainment and Media",
+      "definition": "Inquiries related to music, movies, and other forms of entertainment."
+    },
+    {
+      "id": 10,
+      "name": "General Knowledge",
+      "definition": "Questions seeking information, definitions, or explanations on various topics."
+    },
+    {
+      "id": 11,
+      "name": "Identity and Personalization",
+      "definition": "Requests related to personal identity, preferences, and customization of interactions."
+    },
+    {
+      "id": 12,
+      "name": "Travel Documentation",
+      "definition": "Inquiries about travel requirements, such as visas and vaccinations."
+    },
+    {
+      "id": 13,
+      "name": "Shopping and Orders",
+      "definition": "Requests for placing orders, managing shopping lists, and product inquiries."
+    },
+    {
+      "id": 14,
+      "name": "Time and Date",
+      "definition": "Questions related to time zones, dates, and scheduling."
+    },
+    {
+      "id": 15,
+      "name": "Emergency Assistance",
+      "definition": "Requests for urgent help or assistance in critical situations."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "bench": "snips",
+  "run": 1,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music Playback",
+      "definition": "Commands to play specific songs, albums, or playlists."
+    },
+    {
+      "id": 2,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or future weather forecasts."
+    },
+    {
+      "id": 3,
+      "name": "Restaurant Booking",
+      "definition": "Requests to book tables at restaurants."
+    },
+    {
+      "id": 4,
+      "name": "Movie Information",
+      "definition": "Requests for movie schedules, showtimes, or details about specific films."
+    },
+    {
+      "id": 5,
+      "name": "Rating",
+      "definition": "Commands to rate books, movies, or other media."
+    },
+    {
+      "id": 6,
+      "name": "Find Media",
+      "definition": "Requests to locate specific media such as books, movies, or games."
+    },
+    {
+      "id": 7,
+      "name": "Playlist Management",
+      "definition": "Commands to add songs or artists to playlists."
+    },
+    {
+      "id": 8,
+      "name": "Table Inquiry",
+      "definition": "Requests for information about available tables at restaurants."
+    },
+    {
+      "id": 9,
+      "name": "Game Inquiry",
+      "definition": "Requests to find or inquire about video games."
+    },
+    {
+      "id": 10,
+      "name": "Art Inquiry",
+      "definition": "Requests to find or inquire about specific artworks or paintings."
+    },
+    {
+      "id": 11,
+      "name": "Television Show Inquiry",
+      "definition": "Requests for information about television shows or episodes."
+    },
+    {
+      "id": 12,
+      "name": "Reservation Inquiry",
+      "definition": "Requests for reservations at various types of venues."
+    },
+    {
+      "id": 13,
+      "name": "Event Scheduling",
+      "definition": "Requests for information about upcoming events or schedules."
+    },
+    {
+      "id": 14,
+      "name": "General Inquiry",
+      "definition": "Requests for general information not covered by other categories."
+    }
+  ]
+}

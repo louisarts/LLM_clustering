@@ -1,0 +1,85 @@
+{
+  "bench": "clinc150_domain",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Account Management",
+      "definition": "Requests related to managing bank accounts, credit cards, and financial transactions."
+    },
+    {
+      "id": 2,
+      "name": "Travel and Reservations",
+      "definition": "Inquiries and requests regarding travel arrangements, hotel bookings, and reservations."
+    },
+    {
+      "id": 3,
+      "name": "Food and Nutrition",
+      "definition": "Questions and requests about food, recipes, and nutritional information."
+    },
+    {
+      "id": 4,
+      "name": "Health and Safety",
+      "definition": "Inquiries related to health, safety, and medical advice."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment and Leisure",
+      "definition": "Requests for jokes, trivia, and fun facts."
+    },
+    {
+      "id": 6,
+      "name": "Technical Support",
+      "definition": "Requests for assistance with devices, software, and technical issues."
+    },
+    {
+      "id": 7,
+      "name": "Personal Assistance",
+      "definition": "General inquiries and requests for assistance in daily tasks and reminders."
+    },
+    {
+      "id": 8,
+      "name": "Insurance and Financial Products",
+      "definition": "Questions related to insurance policies, credit limits, and financial products."
+    },
+    {
+      "id": 9,
+      "name": "Transportation",
+      "definition": "Requests related to transportation options, including car rentals and ride-sharing."
+    },
+    {
+      "id": 10,
+      "name": "Location Services",
+      "definition": "Inquiries about current location, directions, and mapping services."
+    },
+    {
+      "id": 11,
+      "name": "Calendar and Scheduling",
+      "definition": "Requests related to managing calendars, scheduling meetings, and reminders."
+    },
+    {
+      "id": 12,
+      "name": "Fraud and Security",
+      "definition": "Inquiries regarding unauthorized transactions, fraud reporting, and account security."
+    },
+    {
+      "id": 13,
+      "name": "Home and Utilities",
+      "definition": "Questions related to home services, utilities, and maintenance."
+    },
+    {
+      "id": 14,
+      "name": "Travel Documentation",
+      "definition": "Inquiries about visas, travel alerts, and documentation needed for travel."
+    },
+    {
+      "id": 15,
+      "name": "Shopping and Purchases",
+      "definition": "Requests related to shopping lists, product inquiries, and online purchases."
+    }
+  ]
+}

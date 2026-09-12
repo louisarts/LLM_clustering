@@ -1,0 +1,104 @@
+{
+  "bench": "clinc150_domain",
+  "run": 7,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking_CreditCards",
+      "definition": "Managing bank accounts, credit cards, transactions, rewards, and reporting fraud or card issues."
+    },
+    {
+      "id": 2,
+      "name": "Calendar_Scheduling",
+      "definition": "Checking, creating, or canceling meetings, events, and calendar entries."
+    },
+    {
+      "id": 3,
+      "name": "Travel_Transportation",
+      "definition": "Booking flights, hotels, rentals, ride-sharing, checking visa requirements, and managing travel logistics."
+    },
+    {
+      "id": 4,
+      "name": "Dining_Reservation",
+      "definition": "Making, checking, or canceling restaurant reservations and checking restaurant wait times."
+    },
+    {
+      "id": 5,
+      "name": "Food_Recipes",
+      "definition": "Requesting recipes, cooking instructions, ingredient substitutions, and food storage advice."
+    },
+    {
+      "id": 6,
+      "name": "Vehicle_Maintenance",
+      "definition": "Checking car status, fuel, and scheduling or inquiring about vehicle maintenance and repair."
+    },
+    {
+      "id": 7,
+      "name": "Lists_Tasks",
+      "definition": "Managing to-do lists, shopping lists, and specific task execution or reminders."
+    },
+    {
+      "id": 8,
+      "name": "Media_Music",
+      "definition": "Playing music, identifying songs, and managing playlists."
+    },
+    {
+      "id": 9,
+      "name": "Device_Settings",
+      "definition": "Adjusting device settings such as volume, voice, mode, or restoring factory settings."
+    },
+    {
+      "id": 10,
+      "name": "Informational_QA",
+      "definition": "General knowledge questions, trivia, jokes, nutrition facts, and definitions."
+    },
+    {
+      "id": 11,
+      "name": "Assistant_Personality",
+      "definition": "Questions regarding the assistant's identity, name, backstory, capabilities, or personal preferences."
+    },
+    {
+      "id": 12,
+      "name": "Navigation_Location",
+      "definition": "Finding current location, sharing location, and getting directions or traffic updates."
+    },
+    {
+      "id": 13,
+      "name": "Utilities_Bills",
+      "definition": "Checking and paying utility bills such as electricity, gas, water, and rent."
+    },
+    {
+      "id": 14,
+      "name": "Employment_HR",
+      "definition": "Checking work schedules, payroll, tax information, and requesting time off or vacations."
+    },
+    {
+      "id": 15,
+      "name": "Insurance",
+      "definition": "Inquiring about or modifying insurance policies and coverage."
+    },
+    {
+      "id": 16,
+      "name": "Shopping_Orders",
+      "definition": "Purchasing items online and checking the status of orders or packages."
+    },
+    {
+      "id": 17,
+      "name": "Smalltalk_Greetings",
+      "definition": "General greetings, affirmations, and polite conversational closings."
+    },
+    {
+      "id": 18,
+      "name": "Translation_Language",
+      "definition": "Translating words or phrases and inquiring about language support."
+    },
+    {
+      "id": 19,
+      "name": "Random_Generation",
+      "definition": "Generating random outcomes like coin flips or dice rolls."
+    }
+  ]
+}

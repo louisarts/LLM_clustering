@@ -1,0 +1,52 @@
+[
+ {
+  "id": 1,
+  "name": "Credit Card Assistance",
+  "definition": "Assistance related to credit card issues, such as points earned, minimum payments, fraudulent purchases, and lost/stolen cards."
+ },
+ {
+  "id": 2,
+  "name": "Banking Information",
+  "definition": "Assistance related to banking information, such as routing numbers and declined card transactions."
+ },
+ {
+  "id": 3,
+  "name": "Travel Safety",
+  "definition": "Assistance related to travel safety, such as plug converters for different countries and safety of specific destinations."
+ },
+ {
+  "id": 4,
+  "name": "Language Preference",
+  "definition": "Assistance related to language preferences, such as switching to a different language for communication."
+ },
+ {
+  "id": 5,
+  "name": "Personalization",
+  "definition": "Assistance related to personal preferences, such as changing the name the assistant refers to the user by."
+ },
+ {
+  "id": 6,
+  "name": "Cooking Assistance",
+  "definition": "Assistance related to cooking, such as recipe instructions and ingredient substitutions."
+ },
+ {
+  "id": 7,
+  "name": "Entertainment",
+  "definition": "Assistance related to entertainment, such as coin toss results."
+ },
+ {
+  "id": 8,
+  "name": "Technology Compatibility",
+  "definition": "Assistance related to technology compatibility, such as plug types used in different regions or devices."
+ },
+ {
+  "id": 9,
+  "name": "Transportation Booking",
+  "definition": "Assistance related to booking transportation services, such as requesting an Uber ride for a specific number of people to a specific location."
+ },
+ {
+  "id": 10,
+  "name": "Personal Relationship",
+  "definition": "Assistance related to personal interactions, such as expressing affectionate terms like 'lover'."
+ }
+]

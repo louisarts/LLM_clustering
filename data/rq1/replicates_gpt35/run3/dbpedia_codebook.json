@@ -1,0 +1,60 @@
+{
+  "bench": "dbpedia",
+  "run": 3,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "People",
+      "definition": "Individuals, including politicians, artists, athletes, and other notable persons."
+    },
+    {
+      "id": 2,
+      "name": "Literature",
+      "definition": "Books, novels, plays, and other literary works."
+    },
+    {
+      "id": 3,
+      "name": "Organizations",
+      "definition": "Companies, schools, universities, and other organized groups."
+    },
+    {
+      "id": 4,
+      "name": "Geography",
+      "definition": "Places, rivers, mountains, and other geographical locations."
+    },
+    {
+      "id": 5,
+      "name": "Film",
+      "definition": "Movies, documentaries, and other cinematic works."
+    },
+    {
+      "id": 6,
+      "name": "Music",
+      "definition": "Albums, bands, musicians, and musical compositions."
+    },
+    {
+      "id": 7,
+      "name": "Art",
+      "definition": "Artists, paintings, sculptures, and other artistic creations."
+    },
+    {
+      "id": 8,
+      "name": "History",
+      "definition": "Historical events, figures, and periods."
+    },
+    {
+      "id": 9,
+      "name": "Science",
+      "definition": "Scientific topics, research, and discoveries."
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "Schools, colleges, universities, and educational institutions."
+    }
+  ]
+}

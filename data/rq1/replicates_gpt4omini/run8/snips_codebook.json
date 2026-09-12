@@ -1,0 +1,60 @@
+{
+  "bench": "snips",
+  "run": 8,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "Requests for current or future weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Music Playback",
+      "definition": "Commands to play specific songs, albums, or genres of music."
+    },
+    {
+      "id": 3,
+      "name": "Playlist Management",
+      "definition": "Requests to add or modify tracks in personal playlists."
+    },
+    {
+      "id": 4,
+      "name": "Restaurant Booking",
+      "definition": "Requests to reserve tables at restaurants."
+    },
+    {
+      "id": 5,
+      "name": "Movie Information",
+      "definition": "Inquiries about movie schedules, showtimes, or specific films."
+    },
+    {
+      "id": 6,
+      "name": "Rating Requests",
+      "definition": "Commands to rate books, essays, or other media."
+    },
+    {
+      "id": 7,
+      "name": "Art and Literature Search",
+      "definition": "Requests to find specific artworks, books, or authors."
+    },
+    {
+      "id": 8,
+      "name": "Television Show Inquiry",
+      "definition": "Inquiries about TV shows, including schedules and availability."
+    },
+    {
+      "id": 9,
+      "name": "Game and Event Search",
+      "definition": "Requests to find games, events, or specific activities."
+    },
+    {
+      "id": 10,
+      "name": "General Information Request",
+      "definition": "Requests for various types of information not covered by other categories."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "bench": "bbcnews",
+  "run": 9,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics",
+      "definition": "Reports on government activities, elections, political parties, policy debates, and international diplomacy."
+    },
+    {
+      "id": 2,
+      "name": "Business and Economy",
+      "definition": "Coverage of corporate financial results, mergers and acquisitions, economic indicators, stock markets, and trade."
+    },
+    {
+      "id": 3,
+      "name": "Sport",
+      "definition": "News concerning professional and amateur sporting events, match results, athlete transfers, and related controversies."
+    },
+    {
+      "id": 4,
+      "name": "Entertainment and Arts",
+      "definition": "Articles on the film, music, and television industries, including awards, celebrity news, and cultural events."
+    },
+    {
+      "id": 5,
+      "name": "Technology and Internet",
+      "definition": "Reports on software, hardware, internet services, telecommunications, and cyber security developments."
+    },
+    {
+      "id": 6,
+      "name": "Science and Environment",
+      "definition": "News regarding scientific research, environmental issues, natural disasters, and space exploration."
+    },
+    {
+      "id": 7,
+      "name": "Law and Crime",
+      "definition": "Coverage of legal proceedings, criminal trials, policing, and security matters not strictly political."
+    },
+    {
+      "id": 8,
+      "name": "Lifestyle and Society",
+      "definition": "Features on social trends, health issues, education, and human interest stories."
+    }
+  ]
+}

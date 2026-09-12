@@ -1,0 +1,105 @@
+{
+  "bench": "fewevent",
+  "run": 1,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Government and Leadership",
+      "definition": "Events related to government positions, leadership roles, or political actions."
+    },
+    {
+      "id": 2,
+      "name": "Military and Warfare",
+      "definition": "Events related to military actions, commands, or roles."
+    },
+    {
+      "id": 3,
+      "name": "Sports and Competitions",
+      "definition": "Events related to sports achievements, competitions, or medals."
+    },
+    {
+      "id": 4,
+      "name": "Music and Entertainment",
+      "definition": "Events related to music, performances, or entertainment industry roles."
+    },
+    {
+      "id": 5,
+      "name": "Marriage and Relationships",
+      "definition": "Events related to marriage, partnerships, or familial relationships."
+    },
+    {
+      "id": 6,
+      "name": "Education and Academia",
+      "definition": "Events related to educational achievements, positions, or studies."
+    },
+    {
+      "id": 7,
+      "name": "Business and Employment",
+      "definition": "Events related to business roles, employment, or professional positions."
+    },
+    {
+      "id": 8,
+      "name": "Legal and Judicial",
+      "definition": "Events related to legal actions, judicial decisions, or law enforcement."
+    },
+    {
+      "id": 9,
+      "name": "Protests and Social Movements",
+      "definition": "Events related to protests, social movements, or public demonstrations."
+    },
+    {
+      "id": 10,
+      "name": "Art and Literature",
+      "definition": "Events related to artistic or literary works and achievements."
+    },
+    {
+      "id": 11,
+      "name": "Travel and Movement",
+      "definition": "Events related to travel, movement, or relocation."
+    },
+    {
+      "id": 12,
+      "name": "Communication and Media",
+      "definition": "Events related to communication, media, or public statements."
+    },
+    {
+      "id": 13,
+      "name": "Commerce and Trade",
+      "definition": "Events related to buying, selling, or trade activities."
+    },
+    {
+      "id": 14,
+      "name": "Construction and Manufacturing",
+      "definition": "Events related to building, construction, or manufacturing processes."
+    },
+    {
+      "id": 15,
+      "name": "Health and Medicine",
+      "definition": "Events related to health, medical achievements, or healthcare roles."
+    },
+    {
+      "id": 16,
+      "name": "Religion and Spirituality",
+      "definition": "Events related to religious practices, roles, or beliefs."
+    },
+    {
+      "id": 17,
+      "name": "Crime and Punishment",
+      "definition": "Events related to criminal actions, punishments, or legal consequences."
+    },
+    {
+      "id": 18,
+      "name": "Natural Disasters and Accidents",
+      "definition": "Events related to natural disasters, accidents, or emergency situations."
+    },
+    {
+      "id": 19,
+      "name": "Science and Technology",
+      "definition": "Events related to scientific research, technological advancements, or innovations."
+    }
+  ]
+}

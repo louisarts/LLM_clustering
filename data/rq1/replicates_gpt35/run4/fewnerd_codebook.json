@@ -1,0 +1,305 @@
+{
+  "bench": "fewnerd",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "chunked_no_target",
+  "clip_chars": 150,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Anheuser Busch",
+      "definition": "The entity type of Anheuser Busch"
+    },
+    {
+      "id": 2,
+      "name": "Treasure Island Hotel",
+      "definition": "The entity type of Treasure Island Hotel"
+    },
+    {
+      "id": 3,
+      "name": "Nortel Football Club",
+      "definition": "The entity type of Nortel Football Club"
+    },
+    {
+      "id": 4,
+      "name": "Monkstown",
+      "definition": "The entity type of Monkstown"
+    },
+    {
+      "id": 5,
+      "name": "Newtownabbey",
+      "definition": "The entity type of Newtownabbey"
+    },
+    {
+      "id": 6,
+      "name": "Philip Sheridan",
+      "definition": "The entity type of Philip Sheridan"
+    },
+    {
+      "id": 7,
+      "name": "V Corps",
+      "definition": "The entity type of V Corps"
+    },
+    {
+      "id": 8,
+      "name": "Born Ruffians",
+      "definition": "The entity type of Born Ruffians"
+    },
+    {
+      "id": 9,
+      "name": "Tweedmouth",
+      "definition": "The entity type of Tweedmouth"
+    },
+    {
+      "id": 10,
+      "name": "Kelso",
+      "definition": "The entity type of Kelso"
+    },
+    {
+      "id": 11,
+      "name": "PA 333",
+      "definition": "The entity type of PA 333"
+    },
+    {
+      "id": 12,
+      "name": "Tuscarora",
+      "definition": "The entity type of Tuscarora"
+    },
+    {
+      "id": 13,
+      "name": "Walker Township",
+      "definition": "The entity type of Walker Township"
+    },
+    {
+      "id": 14,
+      "name": "Lebanese Elite Cup",
+      "definition": "The entity type of Lebanese Elite Cup"
+    },
+    {
+      "id": 15,
+      "name": "KTV Ltd",
+      "definition": "The entity type of KTV Ltd"
+    },
+    {
+      "id": 16,
+      "name": "Mammoth Spring",
+      "definition": "The entity type of Mammoth Spring"
+    },
+    {
+      "id": 17,
+      "name": "USFS",
+      "definition": "The entity type of USFS"
+    },
+    {
+      "id": 18,
+      "name": "Channel 4",
+      "definition": "The entity type of Channel 4"
+    },
+    {
+      "id": 19,
+      "name": "Josie",
+      "definition": "The entity type of Josie"
+    },
+    {
+      "id": 20,
+      "name": "Big Eight Men's Basketball Tournament",
+      "definition": "The entity type of Big Eight Men's Basketball Tournament"
+    },
+    {
+      "id": 21,
+      "name": "ESB-PSV",
+      "definition": "The entity type of ESB-PSV"
+    },
+    {
+      "id": 22,
+      "name": "Holmes-Dennis",
+      "definition": "The entity type of Holmes-Dennis"
+    },
+    {
+      "id": 23,
+      "name": "Huddersfield Town",
+      "definition": "The entity type of Huddersfield Town"
+    },
+    {
+      "id": 24,
+      "name": "C Company",
+      "definition": "The entity type of C Company"
+    },
+    {
+      "id": 25,
+      "name": "M2A3 Bradley Fighting Vehicles",
+      "definition": "The entity type of M2A3 Bradley Fighting Vehicles"
+    },
+    {
+      "id": 26,
+      "name": "Comprom\u00eds PV",
+      "definition": "The entity type of Comprom\u00eds PV"
+    },
+    {
+      "id": 27,
+      "name": "Gantoris",
+      "definition": "The entity type of Gantoris"
+    },
+    {
+      "id": 28,
+      "name": "Super Bowl VIII",
+      "definition": "The entity type of Super Bowl VIII"
+    },
+    {
+      "id": 29,
+      "name": "Sulu",
+      "definition": "The entity type of Sulu"
+    },
+    {
+      "id": 30,
+      "name": "Brunei",
+      "definition": "The entity type of Brunei"
+    },
+    {
+      "id": 31,
+      "name": "Pulau Janggi",
+      "definition": "The entity type of Pulau Janggi"
+    },
+    {
+      "id": 32,
+      "name": "Sepong Janggi",
+      "definition": "The entity type of Sepong Janggi"
+    },
+    {
+      "id": 33,
+      "name": "Interstate 65",
+      "definition": "Highway"
+    },
+    {
+      "id": 34,
+      "name": "Yahtzee",
+      "definition": "Game"
+    },
+    {
+      "id": 35,
+      "name": "Kings Highway",
+      "definition": "Subway station"
+    },
+    {
+      "id": 36,
+      "name": "Video Mods",
+      "definition": "Television series"
+    },
+    {
+      "id": 37,
+      "name": "T115 minivan",
+      "definition": "Vehicle prototype"
+    },
+    {
+      "id": 38,
+      "name": "Malcolm Burn",
+      "definition": "Producer"
+    },
+    {
+      "id": 39,
+      "name": "TCI",
+      "definition": "Television channel"
+    },
+    {
+      "id": 40,
+      "name": "Pappas",
+      "definition": "Politician"
+    },
+    {
+      "id": 41,
+      "name": "Tupolev Tu-154",
+      "definition": "Aircraft"
+    },
+    {
+      "id": 42,
+      "name": "Ian Anderson",
+      "definition": "Baseball player"
+    },
+    {
+      "id": 43,
+      "name": "Tigers",
+      "definition": "Sports team"
+    },
+    {
+      "id": 44,
+      "name": "Louisville",
+      "definition": "University"
+    },
+    {
+      "id": 45,
+      "name": "Penicillium amagasakiense",
+      "definition": "Fungus species"
+    },
+    {
+      "id": 46,
+      "name": "Trawsfynydd shed",
+      "definition": "Railway shed"
+    },
+    {
+      "id": 47,
+      "name": "Linus the Lionhearted",
+      "definition": "Character"
+    },
+    {
+      "id": 48,
+      "name": "Walter Moyle's Works",
+      "definition": "Literary work"
+    },
+    {
+      "id": 49,
+      "name": "Wynonna Judd",
+      "definition": "Singer"
+    },
+    {
+      "id": 50,
+      "name": "Kyungsung University",
+      "definition": "University"
+    },
+    {
+      "id": 51,
+      "name": "The Incredibles",
+      "definition": "movie"
+    },
+    {
+      "id": 52,
+      "name": "London",
+      "definition": "city"
+    },
+    {
+      "id": 53,
+      "name": "The British Soap Awards",
+      "definition": "award show"
+    },
+    {
+      "id": 54,
+      "name": "Penelope Fitzgerald",
+      "definition": "author"
+    },
+    {
+      "id": 55,
+      "name": "National Contribution Points",
+      "definition": "point system"
+    },
+    {
+      "id": 56,
+      "name": "DOJ",
+      "definition": "government agency"
+    },
+    {
+      "id": 57,
+      "name": "French",
+      "definition": "language"
+    },
+    {
+      "id": 58,
+      "name": "NCAA",
+      "definition": "sports organization"
+    },
+    {
+      "id": 59,
+      "name": "California",
+      "definition": "state"
+    }
+  ]
+}

@@ -1,0 +1,1010 @@
+{
+  "bench": "fewnerd",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which entity type the entity named at the end of the text (\"The entity type of X\") belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Media Outlet",
+      "definition": "Entities that are organizations or platforms for disseminating news and information."
+    },
+    {
+      "id": 2,
+      "name": "Television Channel",
+      "definition": "Entities that are specific channels or networks broadcasting television content."
+    },
+    {
+      "id": 3,
+      "name": "Nationality",
+      "definition": "Entities that refer to the national identity or citizenship of people or things."
+    },
+    {
+      "id": 4,
+      "name": "Railway Class",
+      "definition": "Entities that are classifications or types of railway locomotives or rolling stock."
+    },
+    {
+      "id": 5,
+      "name": "Educational Institution",
+      "definition": "Entities that are schools, colleges, universities, or other educational organizations."
+    },
+    {
+      "id": 6,
+      "name": "Geographical Location",
+      "definition": "Entities that are specific places, regions, or areas on the Earth's surface."
+    },
+    {
+      "id": 7,
+      "name": "Continent",
+      "definition": "Entities that are one of the Earth's main continuous expanses of land (e.g., Europe, Asia)."
+    },
+    {
+      "id": 8,
+      "name": "Scientific Term",
+      "definition": "Entities that are terms or concepts used in scientific disciplines."
+    },
+    {
+      "id": 9,
+      "name": "City",
+      "definition": "Entities that are large human settlements generally recognized as cities."
+    },
+    {
+      "id": 10,
+      "name": "County",
+      "definition": "Entities that are administrative or political subdivisions within a country."
+    },
+    {
+      "id": 11,
+      "name": "Country",
+      "definition": "Entities that are distinct territorial bodies or political entities recognized as nations."
+    },
+    {
+      "id": 12,
+      "name": "District",
+      "definition": "Entities that are administrative divisions within a city or region."
+    },
+    {
+      "id": 13,
+      "name": "Theater",
+      "definition": "Entities that are venues for performing arts, such as plays and musicals."
+    },
+    {
+      "id": 14,
+      "name": "Animal",
+      "definition": "Entities that are living organisms classified as animals."
+    },
+    {
+      "id": 15,
+      "name": "Person",
+      "definition": "Entities that are individual human beings."
+    },
+    {
+      "id": 16,
+      "name": "Album",
+      "definition": "Entities that are collections of audio recordings issued as a single item."
+    },
+    {
+      "id": 17,
+      "name": "Movement",
+      "definition": "Entities that are organized efforts or campaigns to achieve a particular goal."
+    },
+    {
+      "id": 18,
+      "name": "Musical Instrument",
+      "definition": "Entities that are devices created or adapted to make musical sounds."
+    },
+    {
+      "id": 19,
+      "name": "Aircraft",
+      "definition": "Entities that are vehicles capable of atmospheric flight."
+    },
+    {
+      "id": 20,
+      "name": "Tunnel",
+      "definition": "Entities that are underground passages or routes."
+    },
+    {
+      "id": 21,
+      "name": "Region",
+      "definition": "Entities that are areas or divisions within a country or continent."
+    },
+    {
+      "id": 22,
+      "name": "Composer",
+      "definition": "Entities that are individuals who write music."
+    },
+    {
+      "id": 23,
+      "name": "Street",
+      "definition": "Entities that are public roads in a city or town."
+    },
+    {
+      "id": 24,
+      "name": "River",
+      "definition": "Entities that are large natural streams of water flowing in channels to the sea, a lake, or another river."
+    },
+    {
+      "id": 25,
+      "name": "Weapon",
+      "definition": "Entities that are tools or devices designed to inflict harm or damage."
+    },
+    {
+      "id": 26,
+      "name": "Sports League",
+      "definition": "Entities that are organized competitions or associations for sports teams."
+    },
+    {
+      "id": 27,
+      "name": "Language",
+      "definition": "Entities that are systems of communication used by particular communities or countries."
+    },
+    {
+      "id": 28,
+      "name": "Railway Station",
+      "definition": "Entities that are facilities where trains regularly stop to load or unload passengers or freight."
+    },
+    {
+      "id": 29,
+      "name": "Cup",
+      "definition": "Entities that are trophies or competitions in sports."
+    },
+    {
+      "id": 30,
+      "name": "Disease",
+      "definition": "Entities that are disorders or illnesses affecting the body or mind."
+    },
+    {
+      "id": 31,
+      "name": "Dialect",
+      "definition": "Entities that are regional or social varieties of a language distinguished by pronunciation, grammar, or vocabulary."
+    },
+    {
+      "id": 32,
+      "name": "Award",
+      "definition": "Entities that are recognitions or honors given for achievements."
+    },
+    {
+      "id": 33,
+      "name": "Currency",
+      "definition": "Entities that are systems of money in general use in a particular country."
+    },
+    {
+      "id": 34,
+      "name": "Highway",
+      "definition": "Entities that are major roads designed for fast traffic."
+    },
+    {
+      "id": 35,
+      "name": "Event",
+      "definition": "Entities that are occurrences or happenings, especially significant ones."
+    },
+    {
+      "id": 36,
+      "name": "Organization",
+      "definition": "Entities that are groups of people with a particular purpose, such as businesses or governments."
+    },
+    {
+      "id": 37,
+      "name": "Chemical Compound",
+      "definition": "Entities that are substances formed from two or more elements chemically united in fixed proportions."
+    },
+    {
+      "id": 38,
+      "name": "Book",
+      "definition": "Entities that are written or printed works consisting of pages glued or sewn together along one side and bound in covers."
+    },
+    {
+      "id": 39,
+      "name": "Constellation",
+      "definition": "Entities that are groups of stars forming a recognizable pattern."
+    },
+    {
+      "id": 40,
+      "name": "Hotel",
+      "definition": "Entities that are establishments providing accommodations, meals, and other services for travelers and tourists."
+    },
+    {
+      "id": 41,
+      "name": "Vehicle",
+      "definition": "Entities that are means of transporting people or goods."
+    },
+    {
+      "id": 42,
+      "name": "Film",
+      "definition": "Entities that are motion pictures or movies."
+    },
+    {
+      "id": 43,
+      "name": "Plant",
+      "definition": "Entities that are living organisms of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses."
+    },
+    {
+      "id": 44,
+      "name": "Building",
+      "definition": "Entities that are structures with a roof and walls, such as houses or factories."
+    },
+    {
+      "id": 45,
+      "name": "Festival",
+      "definition": "Entities that are events celebrated by a community, often centering on some characteristic aspect of that community."
+    },
+    {
+      "id": 46,
+      "name": "Bridge",
+      "definition": "Entities that are structures built to span physical obstacles without closing the way underneath."
+    },
+    {
+      "id": 47,
+      "name": "Musical",
+      "definition": "Entities that are theatrical performances combining songs, spoken dialogue, acting, and dance."
+    },
+    {
+      "id": 48,
+      "name": "Magazine",
+      "definition": "Entities that are periodical publications containing articles and illustrations."
+    },
+    {
+      "id": 49,
+      "name": "Game",
+      "definition": "Entities that are structured forms of play, usually undertaken for entertainment or fun."
+    },
+    {
+      "id": 50,
+      "name": "University",
+      "definition": "Entities that are institutions of higher education and research, which grant academic degrees in various subjects."
+    },
+    {
+      "id": 51,
+      "name": "Sports Team",
+      "definition": "Entities that are groups of players forming one side in a competitive game or sport."
+    },
+    {
+      "id": 52,
+      "name": "Railway Line",
+      "definition": "Entities that are routes or tracks along which trains run."
+    },
+    {
+      "id": 53,
+      "name": "Political Party",
+      "definition": "Entities that are organized groups of people with similar political aims and opinions."
+    },
+    {
+      "id": 54,
+      "name": "Theater Award",
+      "definition": "Entities that are recognitions or honors given for achievements in theater."
+    },
+    {
+      "id": 55,
+      "name": "Sports Event",
+      "definition": "Entities that are organized competitions or matches in sports."
+    },
+    {
+      "id": 56,
+      "name": "Historical Figure",
+      "definition": "Entities that are individuals who have had a significant impact on history."
+    },
+    {
+      "id": 57,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 58,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 59,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 60,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 61,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 62,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 63,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 64,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 65,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 66,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 67,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 68,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 69,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 70,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 71,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 72,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 73,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 74,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 75,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 76,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 77,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 78,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 79,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 80,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 81,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 82,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 83,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 84,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 85,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 86,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 87,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 88,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 89,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 90,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 91,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 92,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 93,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 94,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 95,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 96,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 97,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 98,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 99,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 100,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 101,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 102,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 103,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 104,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 105,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 106,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 107,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 108,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 109,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 110,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 111,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 112,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 113,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 114,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 115,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 116,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 117,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 118,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 119,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 120,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 121,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 122,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 123,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 124,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 125,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 126,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 127,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 128,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 129,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 130,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 131,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 132,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 133,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 134,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 135,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 136,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 137,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 138,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 139,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 140,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 141,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 142,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 143,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 144,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 145,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 146,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 147,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 148,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 149,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 150,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 151,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 152,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 153,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 154,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 155,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 156,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 157,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 158,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 159,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 160,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 161,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 162,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 163,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 164,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 165,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 166,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 167,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 168,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 169,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 170,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 171,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 172,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 173,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 174,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 175,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 176,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 177,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 178,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 179,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 180,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 181,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 182,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 183,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 184,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 185,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 186,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 187,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 188,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 189,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 190,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 191,
+      "name": "Historical Artifact",
+      "definition": "Entities that are objects made by humans, typically of cultural or historical interest."
+    },
+    {
+      "id": 192,
+      "name": "Historical Building",
+      "definition": "Entities that are structures of historical significance."
+    },
+    {
+      "id": 193,
+      "name": "Historical Organization",
+      "definition": "Entities that are groups or institutions of historical significance."
+    },
+    {
+      "id": 194,
+      "name": "Historical Movement",
+      "definition": "Entities that are organized efforts or campaigns of historical significance."
+    },
+    {
+      "id": 195,
+      "name": "Historical Person",
+      "definition": "Entities that are individuals of historical significance."
+    },
+    {
+      "id": 196,
+      "name": "Historical Place",
+      "definition": "Entities that are locations of historical significance."
+    },
+    {
+      "id": 197,
+      "name": "Historical Event",
+      "definition": "Entities that are significant occurrences in history."
+    },
+    {
+      "id": 198,
+      "name": "Historical Period",
+      "definition": "Entities that are spans of time characterized by particular events or developments."
+    },
+    {
+      "id": 199,
+      "name": "Historical Document",
+      "definition": "Entities that are written records of historical significance."
+    },
+    {
+      "id": 200,
+      "name": "Historical Site",
+      "definition": "Entities that are locations of historical significance."
+    }
+  ]
+}

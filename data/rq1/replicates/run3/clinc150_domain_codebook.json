@@ -1,0 +1,77 @@
+{
+  "bench": "clinc150_domain",
+  "run": 3,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Personal Finance & Banking",
+      "definition": "Inquiries or actions related to personal financial accounts, banking, credit, taxes, and insurance."
+    },
+    {
+      "id": 2,
+      "name": "Scheduling & Reminders",
+      "definition": "Managing personal schedules, setting alarms, creating reminders, and handling calendar events."
+    },
+    {
+      "id": 3,
+      "name": "Navigation & Travel",
+      "definition": "Requests for directions, location information, travel planning, and making reservations for transport, accommodation, or dining."
+    },
+    {
+      "id": 4,
+      "name": "Shopping & Lists",
+      "definition": "Managing shopping lists, grocery lists, or inquiring about past purchases."
+    },
+    {
+      "id": 5,
+      "name": "General Knowledge & Information",
+      "definition": "Asking for factual information, definitions, spelling, calculations, or general knowledge."
+    },
+    {
+      "id": 6,
+      "name": "Assistant Control & Settings",
+      "definition": "Modifying the assistant's settings, voice, volume, or requesting it to stop/repeat."
+    },
+    {
+      "id": 7,
+      "name": "Self-Referential & Identity",
+      "definition": "Inquiries about the assistant's nature, identity, or what it can do."
+    },
+    {
+      "id": 8,
+      "name": "Vehicle Information & Maintenance",
+      "definition": "Questions or requests related to vehicle maintenance, fuel, or performance."
+    },
+    {
+      "id": 9,
+      "name": "Media Playback & Identification",
+      "definition": "Controlling media playback or identifying music."
+    },
+    {
+      "id": 10,
+      "name": "Communication",
+      "definition": "Initiating calls or sending messages to contacts."
+    },
+    {
+      "id": 11,
+      "name": "Random Utilities & Games",
+      "definition": "Requests for simple utilities or games like flipping a coin or rolling dice."
+    },
+    {
+      "id": 12,
+      "name": "Order Tracking",
+      "definition": "Inquiring about the status or location of an order."
+    },
+    {
+      "id": 13,
+      "name": "Feedback & Affirmation",
+      "definition": "User providing feedback, expressing agreement, or ending a conversation."
+    },
+    {
+      "id": 14,
+      "name": "Work & Employment",
+      "definition": "Inquiries or requests related to employment, vacation, or time off."
+    }
+  ]
+}

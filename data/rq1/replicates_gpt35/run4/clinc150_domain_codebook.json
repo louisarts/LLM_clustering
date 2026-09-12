@@ -1,0 +1,160 @@
+{
+  "bench": "clinc150_domain",
+  "run": 4,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which general domain of assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Falsehood Detection",
+      "definition": "Utterances related to detecting false information"
+    },
+    {
+      "id": 2,
+      "name": "Voice Commands",
+      "definition": "Utterances related to giving commands to the assistant using voice"
+    },
+    {
+      "id": 3,
+      "name": "Recipe Assistance",
+      "definition": "Utterances related to requesting or providing recipes"
+    },
+    {
+      "id": 4,
+      "name": "Weather Information",
+      "definition": "Utterances related to inquiring about weather conditions"
+    },
+    {
+      "id": 5,
+      "name": "Communication Assistance",
+      "definition": "Utterances related to sending messages or making calls"
+    },
+    {
+      "id": 6,
+      "name": "Review Requests",
+      "definition": "Utterances related to requesting reviews or ratings"
+    },
+    {
+      "id": 7,
+      "name": "Vehicle Information",
+      "definition": "Utterances related to inquiries about vehicles"
+    },
+    {
+      "id": 8,
+      "name": "Credit Card Assistance",
+      "definition": "Utterances related to credit card inquiries or actions"
+    },
+    {
+      "id": 9,
+      "name": "Nutrition Information",
+      "definition": "Utterances related to requesting nutritional information"
+    },
+    {
+      "id": 10,
+      "name": "Name Change Requests",
+      "definition": "Utterances related to changing names or identities"
+    },
+    {
+      "id": 11,
+      "name": "Music Identification",
+      "definition": "Utterances related to identifying songs or music playing"
+    },
+    {
+      "id": 12,
+      "name": "Appointment Inquiries",
+      "definition": "Utterances related to checking or setting appointments"
+    },
+    {
+      "id": 13,
+      "name": "Alarm Setting",
+      "definition": "Utterances related to setting alarms or reminders"
+    },
+    {
+      "id": 14,
+      "name": "Flight Booking",
+      "definition": "Utterances related to booking flights or travel arrangements"
+    },
+    {
+      "id": 15,
+      "name": "Card Issue Resolution",
+      "definition": "Utterances related to resolving issues with credit or debit cards"
+    },
+    {
+      "id": 16,
+      "name": "Currency Exchange",
+      "definition": "Utterances related to checking currency exchange rates"
+    },
+    {
+      "id": 17,
+      "name": "Points and Rewards Inquiry",
+      "definition": "Utterances related to checking points or rewards on cards"
+    },
+    {
+      "id": 18,
+      "name": "Credit Score Inquiry",
+      "definition": "Utterances related to checking or improving credit scores"
+    },
+    {
+      "id": 19,
+      "name": "Bill Payment Inquiries",
+      "definition": "Utterances related to checking or paying bills"
+    },
+    {
+      "id": 20,
+      "name": "Travel Visa Inquiries",
+      "definition": "Utterances related to visa requirements for travel"
+    },
+    {
+      "id": 21,
+      "name": "Location Tracking",
+      "definition": "Utterances related to tracking or finding locations"
+    },
+    {
+      "id": 22,
+      "name": "Language Preferences",
+      "definition": "Utterances related to changing language settings"
+    },
+    {
+      "id": 23,
+      "name": "Setting Adjustments",
+      "definition": "Utterances related to adjusting settings or configurations"
+    },
+    {
+      "id": 24,
+      "name": "Calendar Management",
+      "definition": "Utterances related to managing calendar events or appointments"
+    },
+    {
+      "id": 25,
+      "name": "Task List Management",
+      "definition": "Utterances related to managing to-do lists or tasks"
+    },
+    {
+      "id": 26,
+      "name": "AI Interaction",
+      "definition": "Utterances related to interacting with the AI assistant itself"
+    },
+    {
+      "id": 27,
+      "name": "Personal Information Inquiry",
+      "definition": "Utterances related to inquiring about personal information"
+    },
+    {
+      "id": 28,
+      "name": "Entertainment Requests",
+      "definition": "Utterances related to requesting entertainment or fun activities"
+    },
+    {
+      "id": 29,
+      "name": "Device Control Commands",
+      "definition": "Utterances related to controlling devices or appliances"
+    },
+    {
+      "id": 30,
+      "name": "General Inquiries",
+      "definition": "Utterances related to general questions or inquiries"
+    }
+  ]
+}

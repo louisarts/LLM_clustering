@@ -1,0 +1,505 @@
+{
+  "bench": "arxiv_fine",
+  "run": 9,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which fine-grained arxiv subject category (e.g. cs.LG, math.AG, hep-th) the paper title belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "cs.AI",
+      "definition": "Artificial Intelligence"
+    },
+    {
+      "id": 2,
+      "name": "cs.CL",
+      "definition": "Computation and Language"
+    },
+    {
+      "id": 3,
+      "name": "cs.CV",
+      "definition": "Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": 4,
+      "name": "cs.DC",
+      "definition": "Distributed, Parallel, and Cluster Computing"
+    },
+    {
+      "id": 5,
+      "name": "cs.DS",
+      "definition": "Data Structures and Algorithms"
+    },
+    {
+      "id": 6,
+      "name": "cs.LG",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 7,
+      "name": "cs.NI",
+      "definition": "Networking and Internet Architecture"
+    },
+    {
+      "id": 8,
+      "name": "cs.PL",
+      "definition": "Programming Languages"
+    },
+    {
+      "id": 9,
+      "name": "cs.RO",
+      "definition": "Robotics"
+    },
+    {
+      "id": 10,
+      "name": "cs.SI",
+      "definition": "Social and Information Networks"
+    },
+    {
+      "id": 11,
+      "name": "cs.SY",
+      "definition": "Systems and Control"
+    },
+    {
+      "id": 12,
+      "name": "math.AG",
+      "definition": "Algebraic Geometry"
+    },
+    {
+      "id": 13,
+      "name": "math.AP",
+      "definition": "Analysis of PDEs"
+    },
+    {
+      "id": 14,
+      "name": "math.AT",
+      "definition": "Algebraic Topology"
+    },
+    {
+      "id": 15,
+      "name": "math.CA",
+      "definition": "Classical Analysis and ODEs"
+    },
+    {
+      "id": 16,
+      "name": "math.CO",
+      "definition": "Combinatorics"
+    },
+    {
+      "id": 17,
+      "name": "math.DG",
+      "definition": "Differential Geometry"
+    },
+    {
+      "id": 18,
+      "name": "math.DS",
+      "definition": "Dynamical Systems"
+    },
+    {
+      "id": 19,
+      "name": "math.FA",
+      "definition": "Functional Analysis"
+    },
+    {
+      "id": 20,
+      "name": "math.GM",
+      "definition": "General Mathematics"
+    },
+    {
+      "id": 21,
+      "name": "math.GR",
+      "definition": "Group Theory"
+    },
+    {
+      "id": 22,
+      "name": "math.IT",
+      "definition": "Information Theory"
+    },
+    {
+      "id": 23,
+      "name": "math.LO",
+      "definition": "Logic"
+    },
+    {
+      "id": 24,
+      "name": "math.MG",
+      "definition": "Metric Geometry"
+    },
+    {
+      "id": 25,
+      "name": "math.NA",
+      "definition": "Numerical Analysis"
+    },
+    {
+      "id": 26,
+      "name": "math.NT",
+      "definition": "Number Theory"
+    },
+    {
+      "id": 27,
+      "name": "math.OA",
+      "definition": "Operator Algebras"
+    },
+    {
+      "id": 28,
+      "name": "math.OC",
+      "definition": "Optimization and Control"
+    },
+    {
+      "id": 29,
+      "name": "math.PR",
+      "definition": "Probability"
+    },
+    {
+      "id": 30,
+      "name": "math.QA",
+      "definition": "Quantum Algebra"
+    },
+    {
+      "id": 31,
+      "name": "math.RA",
+      "definition": "Rings and Algebras"
+    },
+    {
+      "id": 32,
+      "name": "math.RT",
+      "definition": "Representation Theory"
+    },
+    {
+      "id": 33,
+      "name": "math.ST",
+      "definition": "Statistics Theory"
+    },
+    {
+      "id": 34,
+      "name": "math.SG",
+      "definition": "Symplectic Geometry"
+    },
+    {
+      "id": 35,
+      "name": "astro-ph.CO",
+      "definition": "Cosmology and Nongalactic Astrophysics"
+    },
+    {
+      "id": 36,
+      "name": "astro-ph.EP",
+      "definition": "Earth and Planetary Astrophysics"
+    },
+    {
+      "id": 37,
+      "name": "astro-ph.GA",
+      "definition": "Astrophysics of Galaxies"
+    },
+    {
+      "id": 38,
+      "name": "astro-ph.HE",
+      "definition": "High Energy Astrophysical Phenomena"
+    },
+    {
+      "id": 39,
+      "name": "astro-ph.IM",
+      "definition": "Instrumentation and Methods for Astrophysics"
+    },
+    {
+      "id": 40,
+      "name": "astro-ph.SR",
+      "definition": "Solar and Stellar Astrophysics"
+    },
+    {
+      "id": 41,
+      "name": "cond-mat.mtrl-sci",
+      "definition": "Materials Science"
+    },
+    {
+      "id": 42,
+      "name": "cond-mat.mes-hall",
+      "definition": "Mesoscale and Nanoscale Physics"
+    },
+    {
+      "id": 43,
+      "name": "cond-mat.stat-mech",
+      "definition": "Statistical Mechanics"
+    },
+    {
+      "id": 44,
+      "name": "cond-mat.str-el",
+      "definition": "Strongly Correlated Electrons"
+    },
+    {
+      "id": 45,
+      "name": "cond-mat.supr-con",
+      "definition": "Superconductivity"
+    },
+    {
+      "id": 46,
+      "name": "hep-th",
+      "definition": "High Energy Physics - Theory"
+    },
+    {
+      "id": 47,
+      "name": "hep-ph",
+      "definition": "High Energy Physics - Phenomenology"
+    },
+    {
+      "id": 48,
+      "name": "hep-ex",
+      "definition": "High Energy Physics - Experiment"
+    },
+    {
+      "id": 49,
+      "name": "hep-lat",
+      "definition": "High Energy Physics - Lattice"
+    },
+    {
+      "id": 50,
+      "name": "nlin.CD",
+      "definition": "Chaotic Dynamics"
+    },
+    {
+      "id": 51,
+      "name": "nlin.AO",
+      "definition": "Adaptation and Self-Organizing Systems"
+    },
+    {
+      "id": 52,
+      "name": "nlin.PS",
+      "definition": "Pattern Formation and Solitons"
+    },
+    {
+      "id": 53,
+      "name": "nlin.SI",
+      "definition": "Exactly Solvable and Integrable Systems"
+    },
+    {
+      "id": 54,
+      "name": "nucl-ex",
+      "definition": "Nuclear Experiment"
+    },
+    {
+      "id": 55,
+      "name": "nucl-th",
+      "definition": "Nuclear Theory"
+    },
+    {
+      "id": 56,
+      "name": "physics.ao-ph",
+      "definition": "Atmospheric and Oceanic Physics"
+    },
+    {
+      "id": 57,
+      "name": "physics.app-ph",
+      "definition": "Applied Physics"
+    },
+    {
+      "id": 58,
+      "name": "physics.bio-ph",
+      "definition": "Biological Physics"
+    },
+    {
+      "id": 59,
+      "name": "physics.chem-ph",
+      "definition": "Chemical Physics"
+    },
+    {
+      "id": 60,
+      "name": "physics.comp-ph",
+      "definition": "Computational Physics"
+    },
+    {
+      "id": 61,
+      "name": "physics.data-an",
+      "definition": "Data Analysis, Statistics and Probability"
+    },
+    {
+      "id": 62,
+      "name": "physics.ed-ph",
+      "definition": "Physics Education"
+    },
+    {
+      "id": 63,
+      "name": "physics.flu-dyn",
+      "definition": "Fluid Dynamics"
+    },
+    {
+      "id": 64,
+      "name": "physics.gen-ph",
+      "definition": "General Physics"
+    },
+    {
+      "id": 65,
+      "name": "physics.geo-ph",
+      "definition": "Geophysics"
+    },
+    {
+      "id": 66,
+      "name": "physics.hist-ph",
+      "definition": "History and Philosophy of Physics"
+    },
+    {
+      "id": 67,
+      "name": "physics.ins-det",
+      "definition": "Instrumentation and Detectors"
+    },
+    {
+      "id": 68,
+      "name": "physics.med-ph",
+      "definition": "Medical Physics"
+    },
+    {
+      "id": 69,
+      "name": "physics.optics",
+      "definition": "Optics"
+    },
+    {
+      "id": 70,
+      "name": "physics.plasm-ph",
+      "definition": "Plasma Physics"
+    },
+    {
+      "id": 71,
+      "name": "physics.pop-ph",
+      "definition": "Popular Physics"
+    },
+    {
+      "id": 72,
+      "name": "physics.soc-ph",
+      "definition": "Physics and Society"
+    },
+    {
+      "id": 73,
+      "name": "physics.space-ph",
+      "definition": "Space Physics"
+    },
+    {
+      "id": 74,
+      "name": "quant-ph",
+      "definition": "Quantum Physics"
+    },
+    {
+      "id": 75,
+      "name": "q-bio.BM",
+      "definition": "Biomolecules"
+    },
+    {
+      "id": 76,
+      "name": "q-bio.CB",
+      "definition": "Cell Behavior"
+    },
+    {
+      "id": 77,
+      "name": "q-bio.GN",
+      "definition": "Genomics"
+    },
+    {
+      "id": 78,
+      "name": "q-bio.MN",
+      "definition": "Molecular Networks"
+    },
+    {
+      "id": 79,
+      "name": "q-bio.NC",
+      "definition": "Neurons and Cognition"
+    },
+    {
+      "id": 80,
+      "name": "q-bio.OT",
+      "definition": "Other Quantitative Biology"
+    },
+    {
+      "id": 81,
+      "name": "q-bio.PE",
+      "definition": "Populations and Evolution"
+    },
+    {
+      "id": 82,
+      "name": "q-bio.QM",
+      "definition": "Quantitative Methods"
+    },
+    {
+      "id": 83,
+      "name": "q-bio.SC",
+      "definition": "Subcellular Processes"
+    },
+    {
+      "id": 84,
+      "name": "q-bio.TO",
+      "definition": "Tissues and Organs"
+    },
+    {
+      "id": 85,
+      "name": "q-fin.CP",
+      "definition": "Computational Finance"
+    },
+    {
+      "id": 86,
+      "name": "q-fin.EC",
+      "definition": "Economics"
+    },
+    {
+      "id": 87,
+      "name": "q-fin.GN",
+      "definition": "General Finance"
+    },
+    {
+      "id": 88,
+      "name": "q-fin.MF",
+      "definition": "Mathematical Finance"
+    },
+    {
+      "id": 89,
+      "name": "q-fin.PM",
+      "definition": "Portfolio Management"
+    },
+    {
+      "id": 90,
+      "name": "q-fin.PR",
+      "definition": "Pricing of Securities"
+    },
+    {
+      "id": 91,
+      "name": "q-fin.RM",
+      "definition": "Risk Management"
+    },
+    {
+      "id": 92,
+      "name": "q-fin.ST",
+      "definition": "Statistical Finance"
+    },
+    {
+      "id": 93,
+      "name": "q-fin.TR",
+      "definition": "Trading and Market Microstructure"
+    },
+    {
+      "id": 94,
+      "name": "stat.AP",
+      "definition": "Applications"
+    },
+    {
+      "id": 95,
+      "name": "stat.CO",
+      "definition": "Computation"
+    },
+    {
+      "id": 96,
+      "name": "stat.ME",
+      "definition": "Methodology"
+    },
+    {
+      "id": 97,
+      "name": "stat.ML",
+      "definition": "Machine Learning"
+    },
+    {
+      "id": 98,
+      "name": "stat.OT",
+      "definition": "Other Statistics"
+    },
+    {
+      "id": 99,
+      "name": "stat.TH",
+      "definition": "Statistics Theory"
+    }
+  ]
+}

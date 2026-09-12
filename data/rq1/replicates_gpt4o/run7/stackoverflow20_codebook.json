@@ -1,0 +1,510 @@
+{
+  "bench": "stackoverflow20",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Drupal",
+      "definition": "Questions related to the Drupal content management system."
+    },
+    {
+      "id": 2,
+      "name": "Qt",
+      "definition": "Questions related to the Qt application framework."
+    },
+    {
+      "id": 3,
+      "name": "jQuery",
+      "definition": "Questions related to the jQuery JavaScript library."
+    },
+    {
+      "id": 4,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 5,
+      "name": "PHP",
+      "definition": "Questions related to the PHP programming language."
+    },
+    {
+      "id": 6,
+      "name": "Hibernate",
+      "definition": "Questions related to the Hibernate ORM framework."
+    },
+    {
+      "id": 7,
+      "name": "Haskell",
+      "definition": "Questions related to the Haskell programming language."
+    },
+    {
+      "id": 8,
+      "name": "LINQ",
+      "definition": "Questions related to Language Integrated Query (LINQ) in .NET."
+    },
+    {
+      "id": 9,
+      "name": "Oracle",
+      "definition": "Questions related to Oracle databases and tools."
+    },
+    {
+      "id": 10,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 11,
+      "name": "Bash",
+      "definition": "Questions related to the Bash shell and scripting."
+    },
+    {
+      "id": 12,
+      "name": "Excel",
+      "definition": "Questions related to Microsoft Excel and its features."
+    },
+    {
+      "id": 13,
+      "name": "VBA",
+      "definition": "Questions related to Visual Basic for Applications (VBA)."
+    },
+    {
+      "id": 14,
+      "name": "Apache",
+      "definition": "Questions related to the Apache HTTP Server."
+    },
+    {
+      "id": 15,
+      "name": "Spring",
+      "definition": "Questions related to the Spring framework."
+    },
+    {
+      "id": 16,
+      "name": "SharePoint",
+      "definition": "Questions related to Microsoft SharePoint."
+    },
+    {
+      "id": 17,
+      "name": "SVN",
+      "definition": "Questions related to Subversion (SVN) version control."
+    },
+    {
+      "id": 18,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language."
+    },
+    {
+      "id": 19,
+      "name": "WordPress",
+      "definition": "Questions related to the WordPress content management system."
+    },
+    {
+      "id": 20,
+      "name": "Matlab",
+      "definition": "Questions related to the Matlab programming environment."
+    },
+    {
+      "id": 21,
+      "name": "Visual Studio",
+      "definition": "Questions related to Microsoft Visual Studio."
+    },
+    {
+      "id": 22,
+      "name": "SVN",
+      "definition": "Questions related to Subversion (SVN) version control."
+    },
+    {
+      "id": 23,
+      "name": "Objective-C",
+      "definition": "Questions related to the Objective-C programming language."
+    },
+    {
+      "id": 24,
+      "name": "C++",
+      "definition": "Questions related to the C++ programming language."
+    },
+    {
+      "id": 25,
+      "name": "Apache",
+      "definition": "Questions related to the Apache HTTP Server."
+    },
+    {
+      "id": 26,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 27,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language."
+    },
+    {
+      "id": 28,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 29,
+      "name": "Hibernate",
+      "definition": "Questions related to the Hibernate ORM framework."
+    },
+    {
+      "id": 30,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 31,
+      "name": "Apache",
+      "definition": "Questions related to the Apache HTTP Server."
+    },
+    {
+      "id": 32,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 33,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 34,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 35,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 36,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 37,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 38,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 39,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 40,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 41,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 42,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 43,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 44,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 45,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 46,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 47,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 48,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 49,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 50,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 51,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 52,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 53,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 54,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 55,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 56,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 57,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 58,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 59,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 60,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 61,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 62,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 63,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 64,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 65,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 66,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 67,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 68,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 69,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 70,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 71,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 72,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 73,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 74,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 75,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 76,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 77,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 78,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 79,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 80,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 81,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 82,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 83,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 84,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 85,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 86,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 87,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 88,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 89,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 90,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 91,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 92,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 93,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 94,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 95,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 96,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 97,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 98,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    },
+    {
+      "id": 99,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform."
+    },
+    {
+      "id": 100,
+      "name": "AJAX",
+      "definition": "Questions related to Asynchronous JavaScript and XML (AJAX) techniques."
+    }
+  ]
+}

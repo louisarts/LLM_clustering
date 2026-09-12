@@ -1,0 +1,85 @@
+{
+  "bench": "mcid",
+  "run": 6,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Information Seeking",
+      "definition": "Requests for information about COVID-19, including symptoms, transmission, and statistics."
+    },
+    {
+      "id": 2,
+      "name": "Travel Concerns",
+      "definition": "Inquiries related to travel restrictions, safety, and guidelines during the pandemic."
+    },
+    {
+      "id": 3,
+      "name": "Health and Safety Guidelines",
+      "definition": "Questions about protective measures, safe practices, and recommendations to avoid infection."
+    },
+    {
+      "id": 4,
+      "name": "Myth Busting",
+      "definition": "Requests for clarification or information regarding myths and misinformation about COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Treatment and Recovery",
+      "definition": "Inquiries about treatment options, recovery rates, and self-care for COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Donations and Support",
+      "definition": "Requests for information on how to donate or support COVID-19 relief efforts."
+    },
+    {
+      "id": 7,
+      "name": "Personal Experiences",
+      "definition": "Expressions of personal feelings or experiences related to COVID-19, including fear and anxiety."
+    },
+    {
+      "id": 8,
+      "name": "Updates and News",
+      "definition": "Requests for the latest news, updates, and statistics regarding COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Conspiracy Theories",
+      "definition": "Inquiries or statements regarding conspiracy theories related to COVID-19."
+    },
+    {
+      "id": 10,
+      "name": "Animal Transmission",
+      "definition": "Questions about the potential for animals to transmit COVID-19 to humans."
+    },
+    {
+      "id": 11,
+      "name": "Testing and Diagnosis",
+      "definition": "Inquiries about testing availability, procedures, and what to do if symptoms appear."
+    },
+    {
+      "id": 12,
+      "name": "Community Impact",
+      "definition": "Questions about the impact of COVID-19 on local communities and businesses."
+    },
+    {
+      "id": 13,
+      "name": "Mental Health",
+      "definition": "Expressions of concern regarding mental health and coping during the pandemic."
+    },
+    {
+      "id": 14,
+      "name": "Vaccine Information",
+      "definition": "Inquiries about the availability, effectiveness, and details of COVID-19 vaccines."
+    },
+    {
+      "id": 15,
+      "name": "Surface Transmission",
+      "definition": "Questions about how long the virus survives on surfaces and related safety concerns."
+    }
+  ]
+}

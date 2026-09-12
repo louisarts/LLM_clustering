@@ -1,0 +1,70 @@
+{
+  "bench": "mcid",
+  "run": 10,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which COVID-19-related user intent the utterance expresses",
+  "categories": [
+    {
+      "id": 1,
+      "name": "General Information Request",
+      "definition": "Requests for general information or updates about COVID-19."
+    },
+    {
+      "id": 2,
+      "name": "Symptoms Inquiry",
+      "definition": "Questions about symptoms associated with COVID-19."
+    },
+    {
+      "id": 3,
+      "name": "Transmission Inquiry",
+      "definition": "Questions about how COVID-19 is transmitted."
+    },
+    {
+      "id": 4,
+      "name": "Prevention and Protection",
+      "definition": "Inquiries about how to prevent or protect oneself from COVID-19."
+    },
+    {
+      "id": 5,
+      "name": "Treatment and Cure",
+      "definition": "Questions about treatment options or cures for COVID-19."
+    },
+    {
+      "id": 6,
+      "name": "Travel and Transportation",
+      "definition": "Inquiries about travel restrictions, safety, and transportation during the pandemic."
+    },
+    {
+      "id": 7,
+      "name": "Statistics and Data",
+      "definition": "Requests for statistics or data related to COVID-19 cases, deaths, or recoveries."
+    },
+    {
+      "id": 8,
+      "name": "Myths and Misinformation",
+      "definition": "Questions or statements about myths or misinformation related to COVID-19."
+    },
+    {
+      "id": 9,
+      "name": "Animal-Related Inquiries",
+      "definition": "Questions about COVID-19's impact on animals or transmission between animals and humans."
+    },
+    {
+      "id": 10,
+      "name": "Donation and Support",
+      "definition": "Expressions of intent to donate or inquiries about how to support COVID-19 relief efforts."
+    },
+    {
+      "id": 11,
+      "name": "Sharing and Communication",
+      "definition": "Requests or statements about sharing information or communicating about COVID-19."
+    },
+    {
+      "id": 12,
+      "name": "Personal Health Concerns",
+      "definition": "Expressions of personal health concerns or questions about potential COVID-19 symptoms."
+    }
+  ]
+}

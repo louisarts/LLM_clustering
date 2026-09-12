@@ -1,0 +1,105 @@
+{
+  "bench": "stackoverflow20",
+  "run": 8,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apache",
+      "definition": "Questions related to Apache web server"
+    },
+    {
+      "id": 2,
+      "name": "Drupal",
+      "definition": "Questions related to the Drupal content management system"
+    },
+    {
+      "id": 3,
+      "name": "LINQ",
+      "definition": "Questions related to Language Integrated Query"
+    },
+    {
+      "id": 4,
+      "name": "Hibernate",
+      "definition": "Questions related to Hibernate ORM framework"
+    },
+    {
+      "id": 5,
+      "name": "Spring",
+      "definition": "Questions related to the Spring framework"
+    },
+    {
+      "id": 6,
+      "name": "Linq to SQL",
+      "definition": "Questions specifically related to Linq to SQL"
+    },
+    {
+      "id": 7,
+      "name": "Internet Explorer",
+      "definition": "Questions related to Internet Explorer browser"
+    },
+    {
+      "id": 8,
+      "name": "MySQL",
+      "definition": "Questions related to MySQL database"
+    },
+    {
+      "id": 9,
+      "name": "Magento",
+      "definition": "Questions related to the Magento e-commerce platform"
+    },
+    {
+      "id": 10,
+      "name": "Bash",
+      "definition": "Questions related to the Bash scripting language"
+    },
+    {
+      "id": 11,
+      "name": "Oracle PL/SQL",
+      "definition": "Questions related to Oracle PL/SQL programming"
+    },
+    {
+      "id": 12,
+      "name": "Matlab",
+      "definition": "Questions related to the Matlab programming language"
+    },
+    {
+      "id": 13,
+      "name": "Cocoa",
+      "definition": "Questions related to Cocoa development"
+    },
+    {
+      "id": 14,
+      "name": "Qt",
+      "definition": "Questions related to the Qt application framework"
+    },
+    {
+      "id": 15,
+      "name": "SharePoint",
+      "definition": "Questions related to Microsoft SharePoint platform"
+    },
+    {
+      "id": 16,
+      "name": "Scala",
+      "definition": "Questions related to the Scala programming language"
+    },
+    {
+      "id": 17,
+      "name": "WordPress",
+      "definition": "Questions related to the WordPress content management system"
+    },
+    {
+      "id": 18,
+      "name": "Subversion",
+      "definition": "Questions related to the Subversion version control system"
+    },
+    {
+      "id": 19,
+      "name": "Visual Studio",
+      "definition": "Questions related to the Visual Studio IDE"
+    }
+  ]
+}

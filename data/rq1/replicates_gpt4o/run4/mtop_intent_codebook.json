@@ -1,0 +1,70 @@
+{
+  "bench": "mtop_intent",
+  "run": 4,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weather Inquiry",
+      "definition": "Requests for weather forecasts or current weather conditions."
+    },
+    {
+      "id": 2,
+      "name": "Alarm Management",
+      "definition": "Commands to set, change, or inquire about alarms."
+    },
+    {
+      "id": 3,
+      "name": "Reminder Management",
+      "definition": "Commands to set, delete, or inquire about reminders."
+    },
+    {
+      "id": 4,
+      "name": "Timer Management",
+      "definition": "Commands to set, modify, or inquire about timers."
+    },
+    {
+      "id": 5,
+      "name": "Music Playback",
+      "definition": "Requests to play, skip, or shuffle music tracks or albums."
+    },
+    {
+      "id": 6,
+      "name": "News Inquiry",
+      "definition": "Requests for news updates or specific news topics."
+    },
+    {
+      "id": 7,
+      "name": "Recipe Inquiry",
+      "definition": "Requests for cooking instructions or recipes."
+    },
+    {
+      "id": 8,
+      "name": "Call Management",
+      "definition": "Commands to initiate, modify, or end phone or video calls."
+    },
+    {
+      "id": 9,
+      "name": "Messaging",
+      "definition": "Commands to send, read, or manage text or video messages."
+    },
+    {
+      "id": 10,
+      "name": "Event Inquiry",
+      "definition": "Requests for information about events or activities."
+    },
+    {
+      "id": 11,
+      "name": "Contact Inquiry",
+      "definition": "Requests for information about contacts or their activities."
+    },
+    {
+      "id": 12,
+      "name": "General Knowledge Inquiry",
+      "definition": "Requests for general information or facts."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "bench": "snips",
+  "run": 2,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Play Music",
+      "definition": "Play a song, album, artist, genre, era, or playlist, optionally specifying platform, popularity, recency, or sorting."
+    },
+    {
+      "id": 2,
+      "name": "Add to Music Playlist",
+      "definition": "Add a song, album, or artist to an existing music playlist."
+    },
+    {
+      "id": 3,
+      "name": "Find Music",
+      "definition": "Search for a specific song, album, or soundtrack."
+    },
+    {
+      "id": 4,
+      "name": "Play TV Show",
+      "definition": "Play a specific TV show or episode."
+    },
+    {
+      "id": 5,
+      "name": "Get Movie Showtimes",
+      "definition": "Inquire about movie schedules, including specific movies, genres, theaters, times, or locations."
+    },
+    {
+      "id": 6,
+      "name": "Find Movie Theater",
+      "definition": "Locate a movie theater, optionally specifying a movie or proximity."
+    },
+    {
+      "id": 7,
+      "name": "Find Creative Work",
+      "definition": "Search for a specific book, movie, TV show, trailer, or other creative work, excluding music and games."
+    },
+    {
+      "id": 8,
+      "name": "Book Restaurant",
+      "definition": "Make a reservation at a restaurant, specifying details like party size, date, time, location, cuisine, or specific restaurant."
+    },
+    {
+      "id": 9,
+      "name": "Find Restaurant",
+      "definition": "Search for a restaurant based on criteria like type, cuisine, location, amenities, dietary needs, or popularity."
+    },
+    {
+      "id": 10,
+      "name": "Manage Reservation",
+      "definition": "Modify an existing reservation, such as adding or removing guests."
+    },
+    {
+      "id": 11,
+      "name": "Get Weather Forecast",
+      "definition": "Inquire about weather conditions, temperature, or general forecast for a specific location, time, or date."
+    },
+    {
+      "id": 12,
+      "name": "Rate Media",
+      "definition": "Assign a rating or score to a book, album, movie, essay, series, or other creative work."
+    },
+    {
+      "id": 13,
+      "name": "Find Product",
+      "definition": "Search for a specific item to purchase or acquire."
+    },
+    {
+      "id": 14,
+      "name": "Find Image/Information",
+      "definition": "Search for an image or general information about a topic."
+    },
+    {
+      "id": 15,
+      "name": "Play Game",
+      "definition": "Launch or play a specific video game."
+    },
+    {
+      "id": 16,
+      "name": "Find Game",
+      "definition": "Search for a specific video game."
+    }
+  ]
+}

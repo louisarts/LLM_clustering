@@ -1,0 +1,160 @@
+{
+  "bench": "stackoverflow20",
+  "run": 7,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which programming technology or tool the question is about",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Drupal",
+      "definition": "Content management system for building websites and applications."
+    },
+    {
+      "id": 2,
+      "name": "Qt",
+      "definition": "Framework for developing cross-platform applications with a graphical user interface."
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "definition": "Scripting language commonly used for creating interactive web applications."
+    },
+    {
+      "id": 4,
+      "name": "Hibernate",
+      "definition": "Object-relational mapping framework for Java."
+    },
+    {
+      "id": 5,
+      "name": "LINQ",
+      "definition": "Language Integrated Query, a component of .NET for querying data."
+    },
+    {
+      "id": 6,
+      "name": "Magento",
+      "definition": "E-commerce platform for online stores and retail point-of-sale systems."
+    },
+    {
+      "id": 7,
+      "name": "WordPress",
+      "definition": "Content management system for creating blogs and websites."
+    },
+    {
+      "id": 8,
+      "name": "SharePoint",
+      "definition": "Web-based collaboration platform for document management and storage."
+    },
+    {
+      "id": 9,
+      "name": "Scala",
+      "definition": "Programming language that combines object-oriented and functional programming."
+    },
+    {
+      "id": 10,
+      "name": "Bash",
+      "definition": "Unix shell and command language for scripting."
+    },
+    {
+      "id": 11,
+      "name": "Excel VBA",
+      "definition": "Visual Basic for Applications, a programming language for automating tasks in Microsoft Excel."
+    },
+    {
+      "id": 12,
+      "name": "Apache",
+      "definition": "Open-source web server software for serving web content."
+    },
+    {
+      "id": 13,
+      "name": "Oracle",
+      "definition": "Database management system for enterprise applications."
+    },
+    {
+      "id": 14,
+      "name": "MATLAB",
+      "definition": "High-level programming language and environment for numerical computing."
+    },
+    {
+      "id": 15,
+      "name": "Subversion (SVN)",
+      "definition": "Version control system for tracking changes in files and directories."
+    },
+    {
+      "id": 16,
+      "name": "Visual Studio",
+      "definition": "Integrated development environment from Microsoft for developing applications."
+    },
+    {
+      "id": 17,
+      "name": "Haskell",
+      "definition": "Functional programming language known for its strong static typing."
+    },
+    {
+      "id": 18,
+      "name": "Spring",
+      "definition": "Framework for building Java applications, particularly enterprise applications."
+    },
+    {
+      "id": 19,
+      "name": "C++",
+      "definition": "General-purpose programming language with high-level and low-level features."
+    },
+    {
+      "id": 20,
+      "name": "PHP",
+      "definition": "Server-side scripting language designed for web development."
+    },
+    {
+      "id": 21,
+      "name": "Flex",
+      "definition": "Framework for building rich internet applications."
+    },
+    {
+      "id": 22,
+      "name": "Objective-C",
+      "definition": "Programming language used for macOS and iOS development."
+    },
+    {
+      "id": 23,
+      "name": "C#",
+      "definition": "Object-oriented programming language developed by Microsoft."
+    },
+    {
+      "id": 24,
+      "name": "MATLAB Toolboxes",
+      "definition": "Add-ons for MATLAB that extend its capabilities for specific applications."
+    },
+    {
+      "id": 25,
+      "name": "Java",
+      "definition": "High-level programming language used for building platform-independent applications."
+    },
+    {
+      "id": 26,
+      "name": "TortoiseSVN",
+      "definition": "Subversion client for Windows with a graphical user interface."
+    },
+    {
+      "id": 27,
+      "name": "ASP.NET",
+      "definition": "Framework for building web applications using .NET."
+    },
+    {
+      "id": 28,
+      "name": "XML",
+      "definition": "Markup language for encoding documents in a format that is both human-readable and machine-readable."
+    },
+    {
+      "id": 29,
+      "name": "Audio Unit",
+      "definition": "Apple's audio processing technology for macOS and iOS."
+    },
+    {
+      "id": 30,
+      "name": "Google Checkout",
+      "definition": "Online payment processing service for e-commerce."
+    }
+  ]
+}

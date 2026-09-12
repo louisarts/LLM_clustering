@@ -1,0 +1,94 @@
+{
+  "bench": "clinc150",
+  "run": 3,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Banking_Credit_Management",
+      "definition": "Requests to manage bank accounts, credit cards, check orders, or freeze accounts."
+    },
+    {
+      "id": 2,
+      "name": "Calendar_Scheduling",
+      "definition": "Requests to view, create, modify, or cancel calendar events and appointments."
+    },
+    {
+      "id": 3,
+      "name": "Communication_Messaging",
+      "definition": "Requests to send messages, make calls, or update social media status."
+    },
+    {
+      "id": 4,
+      "name": "Device_Settings_Control",
+      "definition": "Requests to adjust device settings, volume, language, or control smart home hardware."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment_Media",
+      "definition": "Requests to play music, manage playlists, or find information about movies, songs, and books."
+    },
+    {
+      "id": 6,
+      "name": "Finance_Banking_Inquiry",
+      "definition": "Requests for information regarding account balances, credit scores, transaction history, or reward points."
+    },
+    {
+      "id": 7,
+      "name": "Food_Recipe_Inquiry",
+      "definition": "Requests for recipes, ingredient lists, or nutritional information."
+    },
+    {
+      "id": 8,
+      "name": "General_Knowledge_QA",
+      "definition": "Questions asking for facts, definitions, translations, conversions, or general explanations."
+    },
+    {
+      "id": 9,
+      "name": "List_Management",
+      "definition": "Requests to add, remove, or view items on shopping or to-do lists."
+    },
+    {
+      "id": 10,
+      "name": "Location_Navigation",
+      "definition": "Requests for current location, directions, traffic conditions, or nearby places."
+    },
+    {
+      "id": 11,
+      "name": "News_Weather",
+      "definition": "Requests for current news headlines, weather forecasts, or sports scores."
+    },
+    {
+      "id": 12,
+      "name": "Personal_Organization",
+      "definition": "Requests to set alarms, reminders, or manage personal tasks and travel itineraries."
+    },
+    {
+      "id": 13,
+      "name": "Shopping_Commerce",
+      "definition": "Requests to purchase items, find product reviews, or compare prices."
+    },
+    {
+      "id": 14,
+      "name": "System_Commands",
+      "definition": "Requests to execute specific system functions like rolling dice, flipping coins, or repeating speech."
+    },
+    {
+      "id": 15,
+      "name": "Travel_Transportation",
+      "definition": "Requests to book or manage flights, car rentals, ride shares, or check travel requirements."
+    },
+    {
+      "id": 16,
+      "name": "Vehicle_Maintenance",
+      "definition": "Requests for information or actions regarding car maintenance, fuel, or vehicle status."
+    },
+    {
+      "id": 17,
+      "name": "Assistant_Personality",
+      "definition": "Questions regarding the assistant's identity, capabilities, nature, or personal preferences."
+    }
+  ]
+}

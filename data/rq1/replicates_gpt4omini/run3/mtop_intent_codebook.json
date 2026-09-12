@@ -1,0 +1,85 @@
+{
+  "bench": "mtop_intent",
+  "run": 3,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Create or modify an alarm."
+    },
+    {
+      "id": 2,
+      "name": "Set Reminder",
+      "definition": "Create or modify a reminder for a specific task or event."
+    },
+    {
+      "id": 3,
+      "name": "Send Message",
+      "definition": "Send a text or video message to a contact."
+    },
+    {
+      "id": 4,
+      "name": "Make Call",
+      "definition": "Initiate a phone call to a contact or number."
+    },
+    {
+      "id": 5,
+      "name": "Timer Management",
+      "definition": "Start, stop, or modify a timer."
+    },
+    {
+      "id": 6,
+      "name": "Weather Inquiry",
+      "definition": "Request weather information or forecasts."
+    },
+    {
+      "id": 7,
+      "name": "News Inquiry",
+      "definition": "Request current news or updates on specific topics."
+    },
+    {
+      "id": 8,
+      "name": "Recipe Inquiry",
+      "definition": "Request for recipes or cooking instructions."
+    },
+    {
+      "id": 9,
+      "name": "Event Inquiry",
+      "definition": "Request information about events or activities."
+    },
+    {
+      "id": 10,
+      "name": "Music Playback",
+      "definition": "Request to play specific songs, artists, or genres."
+    },
+    {
+      "id": 11,
+      "name": "Contact Management",
+      "definition": "Request information about contacts or manage contact lists."
+    },
+    {
+      "id": 12,
+      "name": "Call Management",
+      "definition": "Manage ongoing calls, including holding or switching calls."
+    },
+    {
+      "id": 13,
+      "name": "Cooking Inquiry",
+      "definition": "Request cooking times or methods for specific foods."
+    },
+    {
+      "id": 14,
+      "name": "Delete Reminder/Alarm",
+      "definition": "Remove a reminder or alarm from the system."
+    },
+    {
+      "id": 15,
+      "name": "General Inquiry",
+      "definition": "Ask general questions or seek information not covered by other categories."
+    }
+  ]
+}

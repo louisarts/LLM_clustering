@@ -1,0 +1,135 @@
+{
+  "bench": "fewevent",
+  "run": 7,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Conflict",
+      "definition": "Events involving fighting, battles, or military actions."
+    },
+    {
+      "id": 2,
+      "name": "Purchase",
+      "definition": "Events involving buying or acquiring goods."
+    },
+    {
+      "id": 3,
+      "name": "Education",
+      "definition": "Events related to schools, students, or educational institutions."
+    },
+    {
+      "id": 4,
+      "name": "Employment",
+      "definition": "Events involving jobs, positions, or professional roles."
+    },
+    {
+      "id": 5,
+      "name": "Death",
+      "definition": "Events involving the death of individuals."
+    },
+    {
+      "id": 6,
+      "name": "Crime",
+      "definition": "Events involving illegal activities or law enforcement actions."
+    },
+    {
+      "id": 7,
+      "name": "Marriage",
+      "definition": "Events involving weddings or marital unions."
+    },
+    {
+      "id": 8,
+      "name": "Awards",
+      "definition": "Events involving receiving medals, honors, or recognitions."
+    },
+    {
+      "id": 9,
+      "name": "Leadership",
+      "definition": "Events involving positions of authority or leadership roles."
+    },
+    {
+      "id": 10,
+      "name": "Protest",
+      "definition": "Events involving demonstrations or public dissent."
+    },
+    {
+      "id": 11,
+      "name": "Performance",
+      "definition": "Events involving artistic or musical performances."
+    },
+    {
+      "id": 12,
+      "name": "Travel",
+      "definition": "Events involving movement or travel from one place to another."
+    },
+    {
+      "id": 13,
+      "name": "Communication",
+      "definition": "Events involving sending or receiving messages or information."
+    },
+    {
+      "id": 14,
+      "name": "Construction",
+      "definition": "Events involving building or creating structures or objects."
+    },
+    {
+      "id": 15,
+      "name": "Legal",
+      "definition": "Events involving legal actions, court cases, or judicial decisions."
+    },
+    {
+      "id": 16,
+      "name": "Sports",
+      "definition": "Events involving athletic competitions or sports activities."
+    },
+    {
+      "id": 17,
+      "name": "Residence",
+      "definition": "Events involving living arrangements or places of residence."
+    },
+    {
+      "id": 18,
+      "name": "Finance",
+      "definition": "Events involving financial transactions or economic activities."
+    },
+    {
+      "id": 19,
+      "name": "Social",
+      "definition": "Events involving social interactions or relationships."
+    },
+    {
+      "id": 20,
+      "name": "Government",
+      "definition": "Events involving governmental actions or political activities."
+    },
+    {
+      "id": 21,
+      "name": "Transportation",
+      "definition": "Events involving the movement of goods or people."
+    },
+    {
+      "id": 22,
+      "name": "Health",
+      "definition": "Events involving medical or health-related activities."
+    },
+    {
+      "id": 23,
+      "name": "Art",
+      "definition": "Events involving artistic creation or exhibitions."
+    },
+    {
+      "id": 24,
+      "name": "Technology",
+      "definition": "Events involving technological developments or innovations."
+    },
+    {
+      "id": 25,
+      "name": "Natural Events",
+      "definition": "Events involving natural occurrences or environmental conditions."
+    }
+  ]
+}

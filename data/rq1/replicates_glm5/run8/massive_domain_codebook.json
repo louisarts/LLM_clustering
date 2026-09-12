@@ -1,0 +1,94 @@
+{
+  "bench": "massive_domain",
+  "run": 8,
+  "llm": "vertex_ai/zai-org/glm-5-maas",
+  "source": "fresh",
+  "criterion": "which domain of everyday assistant use the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music & Audio",
+      "definition": "Requests to play, pause, resume, or discover music, podcasts, radio, or audiobooks."
+    },
+    {
+      "id": 2,
+      "name": "Calendar & Scheduling",
+      "definition": "Queries and actions regarding calendar events, meetings, and scheduled appointments."
+    },
+    {
+      "id": 3,
+      "name": "Weather",
+      "definition": "Requests for current conditions, forecasts, or climate information."
+    },
+    {
+      "id": 4,
+      "name": "News",
+      "definition": "Requests for headlines, specific news topics, or updates from news sources."
+    },
+    {
+      "id": 5,
+      "name": "Email",
+      "definition": "Actions to compose, send, check, or manage emails."
+    },
+    {
+      "id": 6,
+      "name": "Reminders & Alarms",
+      "definition": "Setting, managing, or querying reminders and alarms."
+    },
+    {
+      "id": 7,
+      "name": "General Information & QA",
+      "definition": "Open-domain questions seeking facts, definitions, opinions, or advice."
+    },
+    {
+      "id": 8,
+      "name": "Smart Home & IoT",
+      "definition": "Controlling smart home devices like lights, plugs, vacuum cleaners, or speakers."
+    },
+    {
+      "id": 9,
+      "name": "Lists & Notes",
+      "definition": "Creating, viewing, or modifying to-do lists, shopping lists, or notes."
+    },
+    {
+      "id": 10,
+      "name": "Social Media",
+      "definition": "Posting updates, sending tweets, or interacting with social media platforms."
+    },
+    {
+      "id": 11,
+      "name": "Travel & Navigation",
+      "definition": "Booking transport, checking transit times, or requesting directions."
+    },
+    {
+      "id": 12,
+      "name": "Food & Recipes",
+      "definition": "Finding recipes, cooking instructions, or food-related information."
+    },
+    {
+      "id": 13,
+      "name": "Time & Date",
+      "definition": "Queries regarding the current time, time zones, or date calculations."
+    },
+    {
+      "id": 14,
+      "name": "Finance",
+      "definition": "Checking stock prices or currency exchange rates."
+    },
+    {
+      "id": 15,
+      "name": "Local & Events",
+      "definition": "Finding local businesses, services, or upcoming events nearby."
+    },
+    {
+      "id": 16,
+      "name": "Contacts",
+      "definition": "Managing or retrieving information from a contact list or address book."
+    },
+    {
+      "id": 17,
+      "name": "Apps & Games",
+      "definition": "Opening, launching, or interacting with specific software applications or games."
+    }
+  ]
+}

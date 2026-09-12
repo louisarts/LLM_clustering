@@ -1,0 +1,110 @@
+{
+  "bench": "clinc150",
+  "run": 5,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Payment Assistance",
+      "definition": "Requests for help with paying bills or managing payments."
+    },
+    {
+      "id": 2,
+      "name": "Travel and Reservations",
+      "definition": "Inquiries or commands related to booking travel, accommodations, or dining."
+    },
+    {
+      "id": 3,
+      "name": "Information Retrieval",
+      "definition": "Requests for information on various topics, including facts, statistics, and definitions."
+    },
+    {
+      "id": 4,
+      "name": "Account Management",
+      "definition": "Commands related to managing personal accounts, including banking and credit cards."
+    },
+    {
+      "id": 5,
+      "name": "Calendar Management",
+      "definition": "Requests to add, check, or modify calendar events."
+    },
+    {
+      "id": 6,
+      "name": "Health and Wellness",
+      "definition": "Inquiries related to health issues, advice, or wellness tips."
+    },
+    {
+      "id": 7,
+      "name": "Recipe and Cooking",
+      "definition": "Requests for recipes or cooking instructions."
+    },
+    {
+      "id": 8,
+      "name": "Location Services",
+      "definition": "Commands to share or find location-related information."
+    },
+    {
+      "id": 9,
+      "name": "Product and Service Recommendations",
+      "definition": "Requests for suggestions on products, services, or places."
+    },
+    {
+      "id": 10,
+      "name": "Technical Support",
+      "definition": "Inquiries about troubleshooting or technical issues."
+    },
+    {
+      "id": 11,
+      "name": "Reminder Management",
+      "definition": "Requests to set, check, or manage reminders."
+    },
+    {
+      "id": 12,
+      "name": "Voice and Speech Control",
+      "definition": "Commands related to adjusting voice settings or speech speed."
+    },
+    {
+      "id": 13,
+      "name": "Data and Analytics",
+      "definition": "Requests for data analysis or calculations."
+    },
+    {
+      "id": 14,
+      "name": "Social Interaction",
+      "definition": "Commands or inquiries related to social interactions or communication."
+    },
+    {
+      "id": 15,
+      "name": "Shopping and Purchases",
+      "definition": "Requests related to shopping, including product inquiries and purchases."
+    },
+    {
+      "id": 16,
+      "name": "Transportation Services",
+      "definition": "Requests for transportation options, including ride-sharing services."
+    },
+    {
+      "id": 17,
+      "name": "Emergency Assistance",
+      "definition": "Requests for urgent help or advice in emergency situations."
+    },
+    {
+      "id": 18,
+      "name": "Personal Finance Management",
+      "definition": "Inquiries related to budgeting, savings, and financial planning."
+    },
+    {
+      "id": 19,
+      "name": "Event Planning",
+      "definition": "Requests related to planning or organizing events."
+    },
+    {
+      "id": 20,
+      "name": "Miscellaneous Commands",
+      "definition": "General commands or inquiries that do not fit into other categories."
+    }
+  ]
+}

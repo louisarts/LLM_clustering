@@ -1,0 +1,150 @@
+{
+  "bench": "mtop_domain",
+  "run": 2,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which domain of assistant functionality the utterance belongs to",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Set Alarm",
+      "definition": "Utterances related to setting up alarms for specific times and dates."
+    },
+    {
+      "id": 2,
+      "name": "Set Reminder",
+      "definition": "Utterances related to setting up reminders for specific tasks or events."
+    },
+    {
+      "id": 3,
+      "name": "Call Contact",
+      "definition": "Utterances related to making phone calls to specific contacts."
+    },
+    {
+      "id": 4,
+      "name": "Send Message",
+      "definition": "Utterances related to sending messages to specific contacts."
+    },
+    {
+      "id": 5,
+      "name": "Weather Inquiry",
+      "definition": "Utterances related to checking the weather forecast for specific locations and times."
+    },
+    {
+      "id": 6,
+      "name": "News Update",
+      "definition": "Utterances related to requesting news updates on various topics."
+    },
+    {
+      "id": 7,
+      "name": "Timer Management",
+      "definition": "Utterances related to setting, pausing, resuming, or canceling timers."
+    },
+    {
+      "id": 8,
+      "name": "Music Playback",
+      "definition": "Utterances related to playing music or specific songs."
+    },
+    {
+      "id": 9,
+      "name": "Recipe Inquiry",
+      "definition": "Utterances related to asking for recipes or cooking instructions."
+    },
+    {
+      "id": 10,
+      "name": "Event Information",
+      "definition": "Utterances related to inquiring about events or activities happening in specific locations."
+    },
+    {
+      "id": 11,
+      "name": "Location Inquiry",
+      "definition": "Utterances related to asking about the location or residence of specific individuals."
+    },
+    {
+      "id": 12,
+      "name": "Cancel Reminder/Alarm",
+      "definition": "Utterances related to canceling or deleting previously set reminders or alarms."
+    },
+    {
+      "id": 13,
+      "name": "Contact Relationship Inquiry",
+      "definition": "Utterances related to asking about relationships or connections between contacts."
+    },
+    {
+      "id": 14,
+      "name": "Temperature Inquiry",
+      "definition": "Utterances related to checking the temperature in specific locations."
+    },
+    {
+      "id": 15,
+      "name": "Delete Call/Message",
+      "definition": "Utterances related to deleting or canceling calls or messages."
+    },
+    {
+      "id": 16,
+      "name": "Social Media Inquiry",
+      "definition": "Utterances related to checking social media updates or messages."
+    },
+    {
+      "id": 17,
+      "name": "Cooking Instructions",
+      "definition": "Utterances related to asking for cooking instructions or recipes."
+    },
+    {
+      "id": 18,
+      "name": "Cancel Timer",
+      "definition": "Utterances related to canceling or stopping timers that are currently running."
+    },
+    {
+      "id": 19,
+      "name": "Alarm Notification",
+      "definition": "Utterances related to receiving notifications or alerts for upcoming alarms."
+    },
+    {
+      "id": 20,
+      "name": "Music Genre Request",
+      "definition": "Utterances related to requesting specific music genres or artists to listen to."
+    },
+    {
+      "id": 21,
+      "name": "Location Weather Inquiry",
+      "definition": "Utterances related to checking the weather forecast for specific locations."
+    },
+    {
+      "id": 22,
+      "name": "Cancel Call",
+      "definition": "Utterances related to canceling or ending ongoing phone calls."
+    },
+    {
+      "id": 23,
+      "name": "Alarm Rescheduling",
+      "definition": "Utterances related to rescheduling or changing the timing of alarms."
+    },
+    {
+      "id": 24,
+      "name": "Contact Call Request",
+      "definition": "Utterances related to requesting phone calls to specific contacts."
+    },
+    {
+      "id": 25,
+      "name": "Alarm Snooze",
+      "definition": "Utterances related to snoozing or delaying alarm notifications."
+    },
+    {
+      "id": 26,
+      "name": "Music Playback Request",
+      "definition": "Utterances related to requesting specific songs or music tracks to be played."
+    },
+    {
+      "id": 27,
+      "name": "Alarm Deletion",
+      "definition": "Utterances related to deleting or removing previously set alarms."
+    },
+    {
+      "id": 28,
+      "name": "Contact Message Request",
+      "definition": "Utterances related to requesting messages to be sent to specific contacts."
+    }
+  ]
+}

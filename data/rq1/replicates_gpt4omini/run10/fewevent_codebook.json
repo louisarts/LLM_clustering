@@ -1,0 +1,160 @@
+{
+  "bench": "fewevent",
+  "run": 10,
+  "llm": "gpt-4o-mini",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which type of event the trigger word stated at the end of the text (\"The event trigger is ...\") denotes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Medal",
+      "definition": "An event related to winning or receiving a medal in a competition."
+    },
+    {
+      "id": 2,
+      "name": "Purchase",
+      "definition": "An event related to buying or acquiring an item."
+    },
+    {
+      "id": 3,
+      "name": "Violence",
+      "definition": "An event characterized by violent actions or protests."
+    },
+    {
+      "id": 4,
+      "name": "Marriage",
+      "definition": "An event related to the act of marrying or being married."
+    },
+    {
+      "id": 5,
+      "name": "Military Service",
+      "definition": "An event related to serving in the military or armed forces."
+    },
+    {
+      "id": 6,
+      "name": "Education",
+      "definition": "An event related to studying, teaching, or academic achievements."
+    },
+    {
+      "id": 7,
+      "name": "Work",
+      "definition": "An event related to employment, tasks, or professional activities."
+    },
+    {
+      "id": 8,
+      "name": "Leadership",
+      "definition": "An event related to holding a position of authority or leadership."
+    },
+    {
+      "id": 9,
+      "name": "Performance",
+      "definition": "An event related to performing arts, including music and acting."
+    },
+    {
+      "id": 10,
+      "name": "Command",
+      "definition": "An event related to giving orders or leading military or organizational efforts."
+    },
+    {
+      "id": 11,
+      "name": "Scholarship",
+      "definition": "An event related to receiving or discussing educational funding or awards."
+    },
+    {
+      "id": 12,
+      "name": "Protest",
+      "definition": "An event characterized by public demonstrations or expressions of dissent."
+    },
+    {
+      "id": 13,
+      "name": "Sailing",
+      "definition": "An event related to naval activities or being a sailor."
+    },
+    {
+      "id": 14,
+      "name": "Film",
+      "definition": "An event related to the production or discussion of movies."
+    },
+    {
+      "id": 15,
+      "name": "Sports",
+      "definition": "An event related to athletic competitions or achievements."
+    },
+    {
+      "id": 16,
+      "name": "Resignation",
+      "definition": "An event related to stepping down from a position or role."
+    },
+    {
+      "id": 17,
+      "name": "Retirement",
+      "definition": "An event related to leaving a job or profession after a period of service."
+    },
+    {
+      "id": 18,
+      "name": "Travel",
+      "definition": "An event related to moving from one place to another."
+    },
+    {
+      "id": 19,
+      "name": "Comment",
+      "definition": "An event related to making statements or remarks."
+    },
+    {
+      "id": 20,
+      "name": "Job",
+      "definition": "An event related to employment or job positions."
+    },
+    {
+      "id": 21,
+      "name": "Involvement",
+      "definition": "An event related to participation in activities or organizations."
+    },
+    {
+      "id": 22,
+      "name": "Release",
+      "definition": "An event related to making information or materials available to the public."
+    },
+    {
+      "id": 23,
+      "name": "Competition",
+      "definition": "An event related to competing in sports or contests."
+    },
+    {
+      "id": 24,
+      "name": "Scholarship",
+      "definition": "An event related to receiving or discussing educational funding or awards."
+    },
+    {
+      "id": 25,
+      "name": "Rally",
+      "definition": "An event characterized by a gathering for a specific cause or purpose."
+    },
+    {
+      "id": 26,
+      "name": "Proposal",
+      "definition": "An event related to suggesting or presenting an idea for consideration."
+    },
+    {
+      "id": 27,
+      "name": "Inhabitation",
+      "definition": "An event related to living in or occupying a space."
+    },
+    {
+      "id": 28,
+      "name": "Counseling",
+      "definition": "An event related to providing guidance or support."
+    },
+    {
+      "id": 29,
+      "name": "Production",
+      "definition": "An event related to creating or manufacturing goods."
+    },
+    {
+      "id": 30,
+      "name": "Transmission",
+      "definition": "An event related to the transfer of information or data."
+    }
+  ]
+}

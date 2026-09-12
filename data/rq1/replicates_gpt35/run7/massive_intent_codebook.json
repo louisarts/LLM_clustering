@@ -1,0 +1,65 @@
+{
+  "bench": "massive_intent",
+  "run": 7,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which assistant-command intent the utterance expresses, that is what the user wants done",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Find Information",
+      "definition": "User wants to search for specific information or details."
+    },
+    {
+      "id": 2,
+      "name": "Set Alarms/Reminders",
+      "definition": "User wants to set alarms or reminders for specific events or tasks."
+    },
+    {
+      "id": 3,
+      "name": "Play Music/Podcast",
+      "definition": "User wants to listen to music or podcasts."
+    },
+    {
+      "id": 4,
+      "name": "Control Smart Home Devices",
+      "definition": "User wants to control smart home devices such as lights, plugs, or speakers."
+    },
+    {
+      "id": 5,
+      "name": "Check Weather",
+      "definition": "User wants to know the current or forecasted weather conditions."
+    },
+    {
+      "id": 6,
+      "name": "Send Messages/Emails",
+      "definition": "User wants to send messages or emails to contacts."
+    },
+    {
+      "id": 7,
+      "name": "Schedule/Calendar Management",
+      "definition": "User wants to schedule or manage events, meetings, or appointments."
+    },
+    {
+      "id": 8,
+      "name": "Order Food/Transportation",
+      "definition": "User wants to order food or transportation services."
+    },
+    {
+      "id": 9,
+      "name": "Play Games",
+      "definition": "User wants to play games or engage in entertainment activities."
+    },
+    {
+      "id": 10,
+      "name": "Social Media Interaction",
+      "definition": "User wants to interact with social media platforms or accounts."
+    },
+    {
+      "id": 11,
+      "name": "General Assistance",
+      "definition": "User needs general assistance or help with various tasks."
+    }
+  ]
+}

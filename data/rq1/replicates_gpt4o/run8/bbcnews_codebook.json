@@ -1,0 +1,100 @@
+{
+  "bench": "bbcnews",
+  "run": 8,
+  "llm": "gpt-4o",
+  "source": "single_shot",
+  "clip_chars": 400,
+  "criterion": "which news topic area the article covers",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Politics",
+      "definition": "Articles covering political events, policies, and government actions."
+    },
+    {
+      "id": 2,
+      "name": "Economy",
+      "definition": "Articles discussing economic performance, financial markets, and business activities."
+    },
+    {
+      "id": 3,
+      "name": "Technology",
+      "definition": "Articles about technological advancements, gadgets, and digital services."
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "definition": "Articles covering sporting events, athletes, and sports organizations."
+    },
+    {
+      "id": 5,
+      "name": "Entertainment",
+      "definition": "Articles about movies, music, television, and celebrities."
+    },
+    {
+      "id": 6,
+      "name": "Science",
+      "definition": "Articles discussing scientific discoveries, research, and innovations."
+    },
+    {
+      "id": 7,
+      "name": "Health",
+      "definition": "Articles related to health issues, medical advancements, and public health policies."
+    },
+    {
+      "id": 8,
+      "name": "Crime and Law",
+      "definition": "Articles covering criminal activities, legal cases, and law enforcement."
+    },
+    {
+      "id": 9,
+      "name": "Environment",
+      "definition": "Articles discussing environmental issues, climate change, and conservation efforts."
+    },
+    {
+      "id": 10,
+      "name": "Education",
+      "definition": "Articles about educational policies, institutions, and academic achievements."
+    },
+    {
+      "id": 11,
+      "name": "Social Issues",
+      "definition": "Articles addressing societal challenges, cultural topics, and community affairs."
+    },
+    {
+      "id": 12,
+      "name": "International Relations",
+      "definition": "Articles covering diplomatic relations, international conflicts, and global cooperation."
+    },
+    {
+      "id": 13,
+      "name": "Business",
+      "definition": "Articles about corporate activities, mergers, acquisitions, and market strategies."
+    },
+    {
+      "id": 14,
+      "name": "Finance",
+      "definition": "Articles discussing banking, investments, and financial regulations."
+    },
+    {
+      "id": 15,
+      "name": "Consumer Affairs",
+      "definition": "Articles related to consumer products, services, and market trends."
+    },
+    {
+      "id": 16,
+      "name": "Culture",
+      "definition": "Articles about cultural events, traditions, and artistic expressions."
+    },
+    {
+      "id": 17,
+      "name": "Transport",
+      "definition": "Articles covering transportation systems, infrastructure, and travel."
+    },
+    {
+      "id": 18,
+      "name": "Military",
+      "definition": "Articles discussing military operations, defense policies, and armed forces."
+    }
+  ]
+}

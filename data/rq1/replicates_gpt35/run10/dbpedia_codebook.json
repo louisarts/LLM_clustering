@@ -1,0 +1,60 @@
+{
+  "bench": "dbpedia",
+  "run": 10,
+  "llm": "gpt-3.5-turbo",
+  "source": "single_shot",
+  "clip_chars": 150,
+  "criterion": "which type of entity the encyclopedia article describes",
+  "categories": [
+    {
+      "id": 1,
+      "name": "People",
+      "definition": "Individuals, including politicians, authors, musicians, actors, athletes, and historical figures."
+    },
+    {
+      "id": 2,
+      "name": "Places",
+      "definition": "Locations such as countries, cities, villages, mountains, rivers, lakes, and historic sites."
+    },
+    {
+      "id": 3,
+      "name": "Organizations",
+      "definition": "Companies, schools, universities, record labels, law firms, and political parties."
+    },
+    {
+      "id": 4,
+      "name": "Films and Music",
+      "definition": "Movies, documentaries, albums, songs, and soundtracks."
+    },
+    {
+      "id": 5,
+      "name": "Literature",
+      "definition": "Books, novels, plays, poems, and authors."
+    },
+    {
+      "id": 6,
+      "name": "Plants and Animals",
+      "definition": "Species of plants and animals, including moths, butterflies, birds, trees, and flowers."
+    },
+    {
+      "id": 7,
+      "name": "Education",
+      "definition": "Schools, colleges, universities, and educational institutions."
+    },
+    {
+      "id": 8,
+      "name": "Sports",
+      "definition": "Athletes, footballers, swimmers, tennis players, and sports events."
+    },
+    {
+      "id": 9,
+      "name": "Art and Entertainment",
+      "definition": "Artists, painters, filmmakers, actors, musicians, and cultural works."
+    },
+    {
+      "id": 10,
+      "name": "History and Politics",
+      "definition": "Historical figures, political leaders, political parties, and government positions."
+    }
+  ]
+}
