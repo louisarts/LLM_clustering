@@ -1,6 +1,6 @@
-# Meaning Over Geometry: CLEAR and the Codebook Judge
+# Meaning Over Geometry: Criterion-driven text clustering and label-free evaluation with Large Language Models.
 
-**Criterion-driven text clustering and label-free evaluation with Large Language Models.**
+
 
 ![Python](https://img.shields.io/badge/python-3.12-blue)
 ![Thesis](https://img.shields.io/badge/thesis-UCL%20MSc%20DSML%202026-8A2BE2)
